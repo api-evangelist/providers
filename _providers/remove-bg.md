@@ -63,7 +63,7 @@ overview: 'Remove.bg publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Remove.bg''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 9
+random_paper: 80
 score:
   band: minimal
   composite: 6.2

@@ -83,7 +83,7 @@ overview: 'The Black Tux is profiled on the [APIs.io](https://apis.io/) network.
 
 
   The Black Tux''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 58
+random_paper: 43
 score:
   band: emerging
   composite: 17.1

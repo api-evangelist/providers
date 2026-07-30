@@ -95,7 +95,7 @@ plans:
 - name: Protocol Buffers Plans Pricing
   plan_count: 3
   slug: protocol-buffers-plans-pricing
-random_paper: 56
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Protocol Buffers Rate Limits

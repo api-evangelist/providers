@@ -39,7 +39,7 @@ name: Virsa Systems
 nav: Providers
 network: true
 overview: Virsa Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Governance, Risk, Compliance, and GRC.
-random_paper: 9
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

@@ -71,7 +71,7 @@ overview: 'Qualified Health is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Qualified Health''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 3
+random_paper: 65
 score:
   band: minimal
   composite: 9.0

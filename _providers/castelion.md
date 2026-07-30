@@ -63,7 +63,7 @@ overview: 'Castelion is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Castelion''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 71
+random_paper: 60
 score:
   band: minimal
   composite: 9.7

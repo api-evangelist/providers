@@ -63,7 +63,7 @@ overview: 'Peptone is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Peptone''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 34
+random_paper: 25
 score:
   band: minimal
   composite: 7.0

@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Power demand is skyrocketing from AI, electrification and ...
   url: https://www.facebook.com/WilliamsEnergyCo/posts/power-demand-is-skyrocketing-from-ai-electrification-and-industrial-reshoring-bu/904918505241219/
-random_paper: 14
+random_paper: 68
 score:
   band: minimal
   composite: 4.3

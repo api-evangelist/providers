@@ -75,7 +75,7 @@ overview: 'Prized is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Prized''s developer surface includes pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 6
+random_paper: 80
 score:
   band: emerging
   composite: 14.4

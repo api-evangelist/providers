@@ -727,7 +727,7 @@ plans:
 - name: Amazon Direct Connect Plans Pricing
   plan_count: 3
   slug: amazon-direct-connect-plans-pricing
-random_paper: 11
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Amazon Direct Connect Rate Limits

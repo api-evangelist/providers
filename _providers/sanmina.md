@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases Archives - Page 2 of 10
   url: https://www.sanmina.com/category/press-releases/page/2/
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Sanmina Rate Limits

@@ -48,7 +48,7 @@ name: Placeholder
 nav: Providers
 network: true
 overview: Placeholder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Crypto, Web3, and Blockchain.
-random_paper: 21
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

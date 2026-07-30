@@ -175,7 +175,7 @@ overview: 'Routefusion publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Routefusion''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 4
+random_paper: 71
 score:
   band: developing
   composite: 46.9

@@ -91,7 +91,7 @@ overview: 'Bild is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Bild''s developer surface includes documentation, support, pricing, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 6
+random_paper: 1
 score:
   band: emerging
   composite: 20.1

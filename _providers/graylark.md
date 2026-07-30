@@ -83,7 +83,7 @@ overview: 'Graylark is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Graylark''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 51
+random_paper: 41
 score:
   band: emerging
   composite: 15.1

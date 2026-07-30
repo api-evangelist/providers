@@ -48,7 +48,7 @@ name: Soldsie
 nav: Providers
 network: true
 overview: Soldsie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Commerce, eCommerce, Comment Selling, and Retail.
-random_paper: 26
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

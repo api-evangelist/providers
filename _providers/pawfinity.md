@@ -57,7 +57,7 @@ plans:
 - name: Pawfinity Plans Pricing
   plan_count: 4
   slug: pawfinity-plans-pricing
-random_paper: 15
+random_paper: 3
 score:
   band: minimal
   composite: 11.3

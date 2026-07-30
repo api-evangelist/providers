@@ -48,7 +48,7 @@ name: Bumblebee Spaces
 nav: Providers
 network: true
 overview: Bumblebee Spaces is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Home, Robotics, Storage, and Home Automation.
-random_paper: 76
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

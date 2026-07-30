@@ -79,7 +79,7 @@ overview: 'Trust & Will is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Trust & Will''s developer surface includes pricing, engineering blog, and 7 more developer resources.'
-random_paper: 38
+random_paper: 21
 score:
   band: emerging
   composite: 14.7

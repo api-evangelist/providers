@@ -60,7 +60,7 @@ name: Monto
 nav: Providers
 network: true
 overview: Monto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, B2B Payments, Accounts Payable, and Invoicing.
-random_paper: 71
+random_paper: 65
 score:
   band: minimal
   composite: 10.3

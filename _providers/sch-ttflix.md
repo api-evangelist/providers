@@ -60,7 +60,7 @@ name: Schüttflix
 nav: Providers
 network: true
 overview: Schüttflix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Construction, Logistics, and Building Materials.
-random_paper: 58
+random_paper: 46
 score:
   band: minimal
   composite: 9.9

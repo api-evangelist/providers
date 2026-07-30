@@ -48,7 +48,7 @@ name: Axis Network Technology
 nav: Providers
 network: true
 overview: Axis Network Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Logistics, Fulfillment, and Marketplace.
-random_paper: 40
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

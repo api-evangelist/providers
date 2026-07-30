@@ -44,7 +44,7 @@ name: CommonGround
 nav: Providers
 network: true
 overview: CommonGround is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Startup, Venture Backed, and Matrix Partners.
-random_paper: 8
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

@@ -139,7 +139,7 @@ overview: 'Moxion Power Co publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, and 13 more developer resources.'
-random_paper: 65
+random_paper: 47
 score:
   band: thin
   composite: 40.6

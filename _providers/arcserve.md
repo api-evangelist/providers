@@ -79,7 +79,7 @@ overview: 'Arcserve is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Arcserve''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 4 more developer resources.'
-random_paper: 49
+random_paper: 39
 score:
   band: emerging
   composite: 17.0

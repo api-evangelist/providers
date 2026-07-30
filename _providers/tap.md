@@ -75,7 +75,7 @@ overview: 'Tap is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Tap''s developer surface includes support and 7 more developer resources.'
-random_paper: 1
+random_paper: 79
 score:
   band: emerging
   composite: 14.3

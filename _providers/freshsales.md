@@ -151,7 +151,7 @@ overview: 'Freshsales publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Freshsales'' developer surface includes authentication, documentation, signup flow, pricing, support, and 8 more developer resources.'
-random_paper: 19
+random_paper: 6
 score:
   band: thin
   composite: 31.4

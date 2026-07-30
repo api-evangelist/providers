@@ -139,7 +139,7 @@ overview: 'Instabee publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Instabee''s developer surface includes documentation, API reference, engineering blog, authentication, sandbox, and 15 more developer resources.'
-random_paper: 33
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Instabee Rate Limits

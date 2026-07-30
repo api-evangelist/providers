@@ -79,7 +79,7 @@ overview: 'Ultimagenomics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Ultimagenomics'' developer surface includes documentation, getting-started guide, support, engineering blog, and 5 more developer resources.'
-random_paper: 47
+random_paper: 29
 score:
   band: emerging
   composite: 15.5

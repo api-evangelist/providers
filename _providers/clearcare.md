@@ -52,7 +52,7 @@ name: ClearCare
 nav: Providers
 network: true
 overview: ClearCare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Care, Home Health, Healthcare, and Agency Management.
-random_paper: 39
+random_paper: 28
 score:
   band: minimal
   composite: 5.4

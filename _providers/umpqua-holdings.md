@@ -65,7 +65,7 @@ plans:
 - name: Umpqua Holdings Plans Pricing
   plan_count: 1
   slug: umpqua-holdings-plans-pricing
-random_paper: 27
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Umpqua Holdings Rate Limits

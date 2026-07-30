@@ -48,7 +48,7 @@ name: Centreherbs (Beijing Shengtaier Biotechnology)
 nav: Providers
 network: true
 overview: Centreherbs (Beijing Shengtaier Biotechnology) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Veterinary, Animal Health, Traditional Chinese Medicine, and Pharmaceuticals.
-random_paper: 39
+random_paper: 25
 score:
   band: minimal
   composite: 5.4

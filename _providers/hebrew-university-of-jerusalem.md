@@ -108,7 +108,7 @@ plans:
 - name: Hebrew University Of Jerusalem Plans Pricing
   plan_count: 2
   slug: hebrew-university-of-jerusalem-plans-pricing
-random_paper: 78
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Hebrew University Of Jerusalem Rate Limits

@@ -139,7 +139,7 @@ overview: 'Prosper AI publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prosper AI''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, and 12 more developer resources.'
-random_paper: 54
+random_paper: 42
 scopes:
 - name: Prosper Ai Scopes
   scope_count: 1

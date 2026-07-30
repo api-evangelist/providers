@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Reynolds American completes acquisition of Lorillard and ...
   url: https://www.prnewswire.com/news-releases/reynolds-american-completes-acquisition-of-lorillard-and-related-divestitures-300098366.html
-random_paper: 74
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

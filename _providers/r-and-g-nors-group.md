@@ -39,7 +39,7 @@ name: R&G / Nors Group
 nav: Providers
 network: true
 overview: R&G / Nors Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Healthcare.
-random_paper: 10
+random_paper: 71
 score:
   band: minimal
   composite: 3.5

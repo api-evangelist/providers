@@ -199,7 +199,7 @@ plans:
 - name: Microsoft Sql Server Plans Pricing
   plan_count: 3
   slug: microsoft-sql-server-plans-pricing
-random_paper: 46
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Microsoft Sql Server Rate Limits

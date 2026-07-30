@@ -224,7 +224,7 @@ plans:
 - name: Trivy Plans Pricing
   plan_count: 3
   slug: trivy-plans-pricing
-random_paper: 7
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Trivy Rate Limits

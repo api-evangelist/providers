@@ -242,7 +242,7 @@ plans:
 - name: Universite De Montreal Plans Pricing
   plan_count: 2
   slug: universite-de-montreal-plans-pricing
-random_paper: 72
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Universite De Montreal Rate Limits

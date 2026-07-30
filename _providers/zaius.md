@@ -228,7 +228,7 @@ overview: 'Zaius publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Zaius'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: strong
   composite: 58.5

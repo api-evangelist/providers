@@ -67,7 +67,7 @@ overview: 'Cool Planet is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Cool Planet''s developer surface includes engineering blog, signup flow, support, and 3 more developer resources.'
-random_paper: 65
+random_paper: 52
 score:
   band: emerging
   composite: 13.1

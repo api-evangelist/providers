@@ -64,7 +64,7 @@ name: Fern Bot
 nav: Providers
 network: true
 overview: Fern Bot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Physical AI, Reinforcement Learning, and World Models.
-random_paper: 68
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

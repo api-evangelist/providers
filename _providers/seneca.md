@@ -87,7 +87,7 @@ plans:
 - name: Seneca Plans Pricing
   plan_count: 3
   slug: seneca-plans-pricing
-random_paper: 56
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Seneca Rate Limits

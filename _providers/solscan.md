@@ -95,7 +95,7 @@ plans:
 - name: Solscan Plans Pricing
   plan_count: 5
   slug: solscan-plans-pricing
-random_paper: 26
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Solscan Rate Limits

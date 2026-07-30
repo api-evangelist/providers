@@ -71,7 +71,7 @@ overview: 'Netic is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Netic''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 9.1

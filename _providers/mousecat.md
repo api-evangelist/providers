@@ -71,7 +71,7 @@ overview: 'MouseCat is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MouseCat''s developer surface includes signup flow and 6 more developer resources.'
-random_paper: 55
+random_paper: 45
 score:
   band: minimal
   composite: 7.6

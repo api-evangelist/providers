@@ -48,7 +48,7 @@ name: Baton
 nav: Providers
 network: true
 overview: Baton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Supply Chain, Freight, and Transportation.
-random_paper: 46
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

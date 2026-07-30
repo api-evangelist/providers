@@ -65,7 +65,7 @@ plans:
 - name: Glacier Bancorp Plans Pricing
   plan_count: 1
   slug: glacier-bancorp-plans-pricing
-random_paper: 55
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Glacier Bancorp Rate Limits

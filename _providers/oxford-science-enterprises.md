@@ -79,7 +79,7 @@ overview: 'Oxford Science Enterprises is profiled on the [APIs.io](https://apis.
 
 
   Oxford Science Enterprises'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 9
+random_paper: 58
 score:
   band: minimal
   composite: 11.6

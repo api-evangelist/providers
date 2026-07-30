@@ -83,7 +83,7 @@ overview: 'Aware Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Aware Health''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 69
+random_paper: 55
 score:
   band: emerging
   composite: 17.4

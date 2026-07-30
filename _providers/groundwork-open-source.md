@@ -141,7 +141,7 @@ overview: 'Groundwork Open Source publishes 8 APIs on the [APIs.io](https://apis
 
 
   Groundwork Open Source''s developer surface includes authentication, documentation, API reference, and 14 more developer resources.'
-random_paper: 19
+random_paper: 73
 score:
   band: emerging
   composite: 24.6

@@ -175,7 +175,7 @@ plans:
 - name: Codehooks Plans Pricing
   plan_count: 3
   slug: codehooks-plans-pricing
-random_paper: 68
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Codehooks Rate Limits

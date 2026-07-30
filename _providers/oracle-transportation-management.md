@@ -160,7 +160,7 @@ plans:
 - name: Oracle Transportation Management Plans Pricing
   plan_count: 3
   slug: oracle-transportation-management-plans-pricing
-random_paper: 77
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Oracle Transportation Management Rate Limits

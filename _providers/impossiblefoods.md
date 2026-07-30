@@ -48,7 +48,7 @@ name: Impossiblefoods
 nav: Providers
 network: true
 overview: Impossiblefoods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Food Technology, Plant-Based, and Consumer Packaged Goods.
-random_paper: 79
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

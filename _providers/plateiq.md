@@ -196,7 +196,7 @@ overview: 'PlateIQ publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PlateIQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 23 more developer resources.'
-random_paper: 23
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Plateiq Rate Limits

@@ -44,7 +44,7 @@ name: Amber Wave
 nav: Providers
 network: true
 overview: Amber Wave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Solar, Photovoltaics, and Materials Science.
-random_paper: 27
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

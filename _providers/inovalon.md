@@ -68,7 +68,7 @@ name: Inovalon
 nav: Providers
 network: true
 overview: Inovalon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Data Analytics, Cloud Platform, and Risk Adjustment.
-random_paper: 60
+random_paper: 50
 score:
   band: emerging
   composite: 13.4

@@ -64,7 +64,7 @@ name: Eisen
 nav: Providers
 network: true
 overview: Eisen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compliance, Escheatment, Unclaimed Property, and Financial Services.
-random_paper: 46
+random_paper: 40
 score:
   band: minimal
   composite: 10.8

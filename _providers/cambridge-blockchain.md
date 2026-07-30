@@ -52,7 +52,7 @@ name: Cambridge Blockchain
 nav: Providers
 network: true
 overview: Cambridge Blockchain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Digital Identity, Blockchain, and KYC.
-random_paper: 65
+random_paper: 41
 score:
   band: minimal
   composite: 5.7

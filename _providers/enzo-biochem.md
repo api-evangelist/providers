@@ -75,7 +75,7 @@ overview: 'Enzo Biochem is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Enzo Biochem''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 1
+random_paper: 68
 score:
   band: emerging
   composite: 14.4

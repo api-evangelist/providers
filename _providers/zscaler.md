@@ -86,7 +86,7 @@ overview: 'Zscaler publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Zscaler''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 11.8

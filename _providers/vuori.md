@@ -91,7 +91,7 @@ overview: 'Vuori is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Vuori''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 79
+random_paper: 73
 score:
   band: emerging
   composite: 13.7

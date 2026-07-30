@@ -131,7 +131,7 @@ overview: 'IDwall publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   IDwall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 12 more developer resources.'
-random_paper: 70
+random_paper: 63
 score:
   band: thin
   composite: 37.8

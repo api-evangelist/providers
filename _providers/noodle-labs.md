@@ -55,7 +55,7 @@ overview: 'Noodle Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Noodle Labs'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 51
+random_paper: 38
 score:
   band: minimal
   composite: 5.4

@@ -65,7 +65,7 @@ plans:
 - name: Energizer Holdings Plans Pricing
   plan_count: 1
   slug: energizer-holdings-plans-pricing
-random_paper: 9
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Energizer Holdings Rate Limits

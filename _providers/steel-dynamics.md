@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: Steel Dynamics schedules first-quarter earnings call and ...
   url: https://www.sahmcapital.com/news/content/steel-dynamics-schedules-first-quarter-earnings-call-and-webcast-2026-04-09
-random_paper: 65
+random_paper: 48
 score:
   band: minimal
   composite: 9.9

@@ -44,7 +44,7 @@ name: Dewpoint
 nav: Providers
 network: true
 overview: Dewpoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Biotech, Drug Discovery, and Pharmaceuticals.
-random_paper: 64
+random_paper: 54
 score:
   band: minimal
   composite: 4.3

@@ -79,7 +79,7 @@ overview: 'Alterna Savings is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Alterna Savings'' developer surface includes authentication, support, engineering blog, and 8 more developer resources.'
-random_paper: 12
+random_paper: 75
 scopes:
 - name: Alterna Savings Scopes
   scope_count: 0

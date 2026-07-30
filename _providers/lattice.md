@@ -214,7 +214,7 @@ plans:
 - name: Lattice Plans Pricing
   plan_count: 6
   slug: lattice-plans-pricing
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Lattice Rate Limits

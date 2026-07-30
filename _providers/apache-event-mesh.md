@@ -207,7 +207,7 @@ plans:
 - name: Apache Event Mesh Plans Pricing
   plan_count: 3
   slug: apache-event-mesh-plans-pricing
-random_paper: 55
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Apache Event Mesh Rate Limits

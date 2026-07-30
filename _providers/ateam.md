@@ -71,7 +71,7 @@ overview: 'A.Team is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   A.Team''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 34
+random_paper: 28
 score:
   band: emerging
   composite: 13.0

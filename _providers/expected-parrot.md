@@ -96,7 +96,7 @@ overview: 'Expected Parrot is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Expected Parrot''s developer surface includes documentation, getting-started guide, pricing, authentication, changelog, and 8 more developer resources.'
-random_paper: 20
+random_paper: 1
 score:
   band: emerging
   composite: 21.9

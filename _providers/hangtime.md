@@ -44,7 +44,7 @@ name: hangtime
 nav: Providers
 network: true
 overview: hangtime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 35
+random_paper: 25
 score:
   band: minimal
   composite: 3.2

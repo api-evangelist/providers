@@ -60,7 +60,7 @@ name: Gmail
 nav: Providers
 network: true
 overview: Gmail publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business and Public APIs.
-random_paper: 36
+random_paper: 30
 score:
   band: minimal
   composite: 5.7

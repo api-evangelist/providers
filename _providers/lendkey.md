@@ -193,7 +193,7 @@ overview: 'LendKey publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LendKey''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 19
+random_paper: 10
 scopes:
 - name: Lendkey Scopes
   scope_count: 0

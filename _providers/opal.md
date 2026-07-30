@@ -71,7 +71,7 @@ overview: 'Opal is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Opal''s developer surface includes pricing and 6 more developer resources.'
-random_paper: 23
+random_paper: 18
 score:
   band: emerging
   composite: 14.5

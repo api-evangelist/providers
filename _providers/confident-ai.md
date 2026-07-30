@@ -162,7 +162,7 @@ plans:
 - name: Confident Ai Plans Pricing
   plan_count: 1
   slug: confident-ai-plans-pricing
-random_paper: 67
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Confident Ai Rate Limits

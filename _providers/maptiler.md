@@ -243,7 +243,7 @@ plans:
 - name: Maptiler Plans Pricing
   plan_count: 4
   slug: maptiler-plans-pricing
-random_paper: 52
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Maptiler Rate Limits

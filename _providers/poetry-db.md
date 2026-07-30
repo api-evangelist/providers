@@ -118,7 +118,7 @@ plans:
 - name: Poetry Db Plans Pricing
   plan_count: 1
   slug: poetry-db-plans-pricing
-random_paper: 27
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Poetry Db Rate Limits

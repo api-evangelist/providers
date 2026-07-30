@@ -52,7 +52,7 @@ name: Dollar Shave Club
 nav: Providers
 network: true
 overview: Dollar Shave Club is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Subscription, and Direct-to-Consumer.
-random_paper: 65
+random_paper: 45
 score:
   band: minimal
   composite: 6.1

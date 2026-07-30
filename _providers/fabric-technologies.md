@@ -71,7 +71,7 @@ overview: 'Fabric Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Fabric Technologies'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 0
+random_paper: 58
 score:
   band: emerging
   composite: 14.3

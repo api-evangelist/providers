@@ -39,7 +39,7 @@ name: Bitcasa
 nav: Providers
 network: true
 overview: Bitcasa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Storage, File Storage, Storage, and Encryption.
-random_paper: 79
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

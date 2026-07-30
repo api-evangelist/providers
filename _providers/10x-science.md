@@ -63,7 +63,7 @@ overview: '10x Science is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   10x Science''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 20
+random_paper: 8
 score:
   band: minimal
   composite: 7.6

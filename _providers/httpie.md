@@ -124,7 +124,7 @@ plans:
 - name: Httpie Plans Pricing
   plan_count: 3
   slug: httpie-plans-pricing
-random_paper: 6
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Httpie Rate Limits

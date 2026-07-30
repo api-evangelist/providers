@@ -158,7 +158,7 @@ overview: 'Cratejoy publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Cratejoy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 55
+random_paper: 45
 score:
   band: developing
   composite: 44.6

@@ -124,7 +124,7 @@ plans:
 - name: Selenium Plans Pricing
   plan_count: 3
   slug: selenium-plans-pricing
-random_paper: 56
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Selenium Rate Limits

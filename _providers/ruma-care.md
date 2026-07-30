@@ -67,7 +67,7 @@ overview: 'Ruma Care is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ruma Care''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 2
+random_paper: 73
 score:
   band: minimal
   composite: 12.7

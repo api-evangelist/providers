@@ -165,7 +165,7 @@ plans:
 - name: Thesports Plans Pricing
   plan_count: 1
   slug: thesports-plans-pricing
-random_paper: 32
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Thesports Rate Limits

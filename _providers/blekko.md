@@ -39,7 +39,7 @@ name: Blekko
 nav: Providers
 network: true
 overview: Blekko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Search, Search Engine, Web Search, and Discovery.
-random_paper: 65
+random_paper: 58
 score:
   band: minimal
   composite: 5.0

@@ -169,7 +169,7 @@ plans:
 - name: Google Cloud Functions Plans Pricing
   plan_count: 3
   slug: google-cloud-functions-plans-pricing
-random_paper: 60
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Google Cloud Functions Rate Limits

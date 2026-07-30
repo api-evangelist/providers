@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: CF Industries and NextEra Energy Resources announce a ...
   url: https://www.prnewswire.com/news-releases/cf-industries-and-nextera-energy-resources-announce-a-memorandum-of-understanding-for-a-green-hydrogen-project-in-oklahoma-to-support-decarbonization-of-the-agriculture-supply-chain-301806063.html
-random_paper: 58
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Cf Industries Holdings Rate Limits

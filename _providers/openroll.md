@@ -87,7 +87,7 @@ overview: 'Openroll is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Openroll''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 65
+random_paper: 55
 score:
   band: emerging
   composite: 17.0

@@ -158,7 +158,7 @@ plans:
 - name: Dog Ceo Plans Pricing
   plan_count: 1
   slug: dog-ceo-plans-pricing
-random_paper: 22
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Dog Ceo Rate Limits

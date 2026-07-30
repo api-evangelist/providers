@@ -120,7 +120,7 @@ overview: 'HockeyStack is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   HockeyStack''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, and 13 more developer resources.'
-random_paper: 43
+random_paper: 29
 scopes:
 - name: Hockeystack Scopes
   scope_count: 1

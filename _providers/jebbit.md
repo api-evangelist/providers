@@ -221,7 +221,7 @@ overview: 'Jebbit publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Jebbit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 25 more developer resources.'
-random_paper: 57
+random_paper: 50
 scopes:
 - name: Jebbit Scopes
   scope_count: 6

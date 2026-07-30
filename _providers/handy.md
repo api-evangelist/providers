@@ -179,7 +179,7 @@ overview: 'handy publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   handy''s developer surface includes documentation, API reference, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 46
+random_paper: 40
 score:
   band: thin
   composite: 40.7

@@ -104,7 +104,7 @@ overview: 'Hewlett Packard Enterprise publishes 3 APIs on the [APIs.io](https://
 
 
   Hewlett Packard Enterprise''s developer surface includes authentication, documentation, signup flow, and 6 more developer resources.'
-random_paper: 74
+random_paper: 71
 score:
   band: emerging
   composite: 27.1

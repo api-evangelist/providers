@@ -182,7 +182,7 @@ plans:
 - name: Apiman Plans Pricing
   plan_count: 3
   slug: apiman-plans-pricing
-random_paper: 63
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Apiman Rate Limits

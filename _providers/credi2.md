@@ -83,7 +83,7 @@ overview: 'Credi2 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Credi2''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 2
+random_paper: 77
 score:
   band: emerging
   composite: 15.9

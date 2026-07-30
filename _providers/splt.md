@@ -44,7 +44,7 @@ name: SPLT
 nav: Providers
 network: true
 overview: SPLT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 46
+random_paper: 41
 score:
   band: minimal
   composite: 3.2

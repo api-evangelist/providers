@@ -147,7 +147,7 @@ plans:
 - name: Library Of Congress Plans Pricing
   plan_count: 3
   slug: library-of-congress-plans-pricing
-random_paper: 65
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Library Of Congress Rate Limits

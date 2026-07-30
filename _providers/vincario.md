@@ -124,7 +124,7 @@ plans:
 - name: Vincario Plans Pricing
   plan_count: 5
   slug: vincario-plans-pricing
-random_paper: 49
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Vincario Rate Limits

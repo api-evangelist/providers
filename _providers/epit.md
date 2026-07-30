@@ -44,7 +44,7 @@ name: ePIT
 nav: Providers
 network: true
 overview: ePIT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Battery Ventures, Portfolio, and Exited.
-random_paper: 29
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

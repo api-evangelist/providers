@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Investindustrial Completes Acquisition of TreeHouse Foods
   url: https://www.stocktitan.net/news/THS/investindustrial-completes-acquisition-of-tree-house-e2404f5eln85.html
-random_paper: 25
+random_paper: 6
 score:
   band: minimal
   composite: 11.6

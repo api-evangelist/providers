@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: copilot-instructions.md
 nav: Providers
 network: true
-random_paper: 45
+random_paper: 16
 slug: copilot-instructions-md
 tags:
 - AI Coding

@@ -134,7 +134,7 @@ plans:
 - name: Armosec Plans Pricing
   plan_count: 4
   slug: armosec-plans-pricing
-random_paper: 17
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Armosec Rate Limits

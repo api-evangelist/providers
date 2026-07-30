@@ -144,7 +144,7 @@ overview: 'StrongDM publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   StrongDM''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 17 more developer resources.'
-random_paper: 68
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Strongdm Rate Limits

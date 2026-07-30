@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Nutrient Content Market Hits New High | Major Giants GNC
   url: https://www.openpr.com/news/4412307/nutrient-content-market-hits-new-high-major-giants-gnc
-random_paper: 79
+random_paper: 65
 score:
   band: minimal
   composite: 10.5

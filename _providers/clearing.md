@@ -71,7 +71,7 @@ overview: 'Clearing is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Clearing''s developer surface includes signup flow, engineering blog, support, and 4 more developer resources.'
-random_paper: 27
+random_paper: 17
 score:
   band: emerging
   composite: 14.5

@@ -79,7 +79,7 @@ overview: 'Invisible AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Invisible AI''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 78
+random_paper: 64
 score:
   band: minimal
   composite: 12.8

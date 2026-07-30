@@ -204,7 +204,7 @@ plans:
 - name: Smarty Plans Pricing
   plan_count: 5
   slug: smarty-plans-pricing
-random_paper: 24
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Smarty Rate Limits

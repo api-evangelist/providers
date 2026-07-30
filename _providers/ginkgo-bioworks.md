@@ -75,7 +75,7 @@ overview: 'Ginkgo Bioworks is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Ginkgo Bioworks'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 25
+random_paper: 6
 score:
   band: minimal
   composite: 11.4

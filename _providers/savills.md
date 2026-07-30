@@ -119,7 +119,7 @@ overview: 'Savills is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Savills'' developer surface includes engineering blog, product news, and 16 more developer resources.'
-random_paper: 37
+random_paper: 28
 score:
   band: emerging
   composite: 13.3

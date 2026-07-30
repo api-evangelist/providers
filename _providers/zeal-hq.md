@@ -135,7 +135,7 @@ plans:
 - name: Zeal Hq Plans Pricing
   plan_count: 4
   slug: zeal-hq-plans-pricing
-random_paper: 42
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Zeal Hq Rate Limits

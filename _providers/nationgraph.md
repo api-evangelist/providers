@@ -316,7 +316,7 @@ overview: 'NationGraph publishes 56 APIs on the [APIs.io](https://apis.io/) netw
 
 
   NationGraph''s developer surface includes authentication, documentation, support, engineering blog, API reference, and 18 more developer resources.'
-random_paper: 45
+random_paper: 31
 score:
   band: thin
   composite: 41.6

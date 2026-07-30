@@ -59,7 +59,7 @@ overview: 'Kaiser Aluminum is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Kaiser Aluminum''s developer surface includes developer portal and 3 more developer resources.'
-random_paper: 17
+random_paper: 80
 score:
   band: minimal
   composite: 6.2

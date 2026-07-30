@@ -160,7 +160,7 @@ overview: 'Appdome publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Appdome''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 20 more developer resources.'
-random_paper: 13
+random_paper: 4
 score:
   band: thin
   composite: 32.5

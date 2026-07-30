@@ -92,7 +92,7 @@ overview: 'Leap To Win Technologies Private publishes 1 API on the [APIs.io](htt
 
 
   Leap To Win Technologies Private''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 47
+random_paper: 8
 score:
   band: emerging
   composite: 17.5

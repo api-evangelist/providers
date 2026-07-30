@@ -172,7 +172,7 @@ overview: 'Physna publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Physna''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 11
+random_paper: 3
 scopes:
 - name: Physna Scopes
   scope_count: 6

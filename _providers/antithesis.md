@@ -132,7 +132,7 @@ overview: 'Antithesis publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Antithesis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 14 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: thin
   composite: 31.4

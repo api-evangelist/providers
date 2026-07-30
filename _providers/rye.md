@@ -302,7 +302,7 @@ overview: 'Rye publishes 13 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Rye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Rye Rate Limits

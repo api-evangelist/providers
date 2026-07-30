@@ -75,7 +75,7 @@ overview: 'Nowports is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nowports'' developer surface includes support and 7 more developer resources.'
-random_paper: 17
+random_paper: 6
 score:
   band: emerging
   composite: 14.1

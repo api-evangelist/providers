@@ -217,7 +217,7 @@ overview: 'Route Mobile publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Route Mobile''s developer surface includes authentication, sandbox, getting-started guide, support, documentation, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 21
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Route Mobile Rate Limits

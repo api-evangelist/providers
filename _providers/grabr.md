@@ -79,7 +79,7 @@ overview: 'Grabr is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Grabr''s developer surface includes getting-started guide, support, and 7 more developer resources.'
-random_paper: 40
+random_paper: 34
 score:
   band: minimal
   composite: 12.9

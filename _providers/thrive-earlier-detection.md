@@ -39,7 +39,7 @@ name: Thrive Earlier Detection
 nav: Providers
 network: true
 overview: Thrive Earlier Detection is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Healthcare, Diagnostics, and Cancer Screening.
-random_paper: 17
+random_paper: 69
 score:
   band: minimal
   composite: 4.3

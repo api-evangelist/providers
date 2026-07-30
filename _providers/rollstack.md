@@ -120,7 +120,7 @@ overview: 'Rollstack is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rollstack''s developer surface includes signup flow, documentation, pricing, engineering blog, support, changelog, authentication, and 12 more developer resources.'
-random_paper: 3
+random_paper: 73
 score:
   band: thin
   composite: 29.6

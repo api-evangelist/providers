@@ -52,7 +52,7 @@ name: Textio
 nav: Providers
 network: true
 overview: Textio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Augmented Writing, HR Tech, Recruiting, and Inclusive Language.
-random_paper: 21
+random_paper: 13
 score:
   band: minimal
   composite: 7.1

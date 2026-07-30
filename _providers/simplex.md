@@ -44,7 +44,7 @@ name: Simplex
 nav: Providers
 network: true
 overview: Simplex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial, Manufacturing, Spare Parts, and Egypt.
-random_paper: 41
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

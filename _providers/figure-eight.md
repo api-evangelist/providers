@@ -155,7 +155,7 @@ overview: 'Figure Eight publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Figure Eight''s developer surface includes API reference, documentation, authentication, and 12 more developer resources.'
-random_paper: 1
+random_paper: 68
 score:
   band: thin
   composite: 33.1

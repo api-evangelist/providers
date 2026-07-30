@@ -56,7 +56,7 @@ name: Makeup
 nav: Providers
 network: true
 overview: Makeup publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 76
+random_paper: 69
 score:
   band: minimal
   composite: 6.0

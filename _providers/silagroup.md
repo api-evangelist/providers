@@ -48,7 +48,7 @@ name: Silagroup
 nav: Providers
 network: true
 overview: Silagroup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Services, Real Estate, Facility Management, and Material Handling.
-random_paper: 10
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

@@ -48,7 +48,7 @@ name: Retailigence
 nav: Providers
 network: true
 overview: Retailigence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Artificial Intelligence, Machine Learning, and Assortment Optimization.
-random_paper: 45
+random_paper: 30
 score:
   band: minimal
   composite: 5.0

@@ -91,7 +91,7 @@ overview: 'Peregrine is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Peregrine''s developer surface includes signup flow, support, and 10 more developer resources.'
-random_paper: 70
+random_paper: 59
 score:
   band: emerging
   composite: 22.2

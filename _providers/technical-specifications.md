@@ -21,7 +21,7 @@ modified: '2026-05-03'
 name: Technical Specifications
 nav: Providers
 network: true
-random_paper: 46
+random_paper: 16
 slug: technical-specifications
 tags:
 - Documentation

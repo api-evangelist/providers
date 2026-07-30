@@ -67,7 +67,7 @@ overview: 'Little Freddie is profiled on the [APIs.io](https://apis.io/) network
 
 
   Little Freddie''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 45
+random_paper: 28
 score:
   band: minimal
   composite: 10.5

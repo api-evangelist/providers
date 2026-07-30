@@ -112,7 +112,7 @@ plans:
 - name: Beamer Plans Pricing
   plan_count: 3
   slug: beamer-plans-pricing
-random_paper: 53
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Beamer Rate Limits

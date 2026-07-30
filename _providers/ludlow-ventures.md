@@ -52,7 +52,7 @@ name: Ludlow Ventures
 nav: Providers
 network: true
 overview: Ludlow Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Early Stage, Seed, and Startups.
-random_paper: 61
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

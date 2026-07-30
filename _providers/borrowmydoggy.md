@@ -79,7 +79,7 @@ overview: 'BorrowMyDoggy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   BorrowMyDoggy''s developer surface includes engineering blog, support, pricing, signup flow, and 5 more developer resources.'
-random_paper: 58
+random_paper: 41
 score:
   band: emerging
   composite: 15.2

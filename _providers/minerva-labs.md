@@ -44,7 +44,7 @@ name: Minerva Labs
 nav: Providers
 network: true
 overview: Minerva Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Endpoint Security, Anti-Evasion, and Ransomware Prevention.
-random_paper: 2
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

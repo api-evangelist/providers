@@ -205,7 +205,7 @@ plans:
 - name: Cypress Semiconductor Plans Pricing
   plan_count: 1
   slug: cypress-semiconductor-plans-pricing
-random_paper: 42
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Cypress Semiconductor Rate Limits

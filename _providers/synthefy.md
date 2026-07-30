@@ -147,7 +147,7 @@ overview: 'Synthefy publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Synthefy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 80
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Synthefy Rate Limits

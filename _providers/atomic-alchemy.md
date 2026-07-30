@@ -49,7 +49,7 @@ name: Atomic Alchemy
 nav: Providers
 network: true
 overview: Atomic Alchemy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nuclear, Radioisotopes, Nuclear Medicine, and Deep Tech.
-random_paper: 44
+random_paper: 27
 score:
   band: minimal
   composite: 4.3

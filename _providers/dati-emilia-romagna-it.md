@@ -84,7 +84,7 @@ plans:
 - name: Dati Emilia Romagna It Plans Pricing
   plan_count: 1
   slug: dati-emilia-romagna-it-plans-pricing
-random_paper: 34
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Dati Emilia Romagna It Rate Limits

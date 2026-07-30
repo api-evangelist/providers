@@ -48,7 +48,7 @@ name: Hush
 nav: Providers
 network: true
 overview: Hush is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 35
+random_paper: 30
 score:
   band: minimal
   composite: 3.2

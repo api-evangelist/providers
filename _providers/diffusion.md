@@ -72,7 +72,7 @@ overview: 'Diffusion is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Diffusion''s developer surface includes support, pricing, and 5 more developer resources.'
-random_paper: 76
+random_paper: 65
 score:
   band: minimal
   composite: 8.0

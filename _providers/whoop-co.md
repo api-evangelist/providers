@@ -275,7 +275,7 @@ plans:
 - name: Whoop Co Plans Pricing
   plan_count: 3
   slug: whoop-co-plans-pricing
-random_paper: 2
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Whoop Co Rate Limits

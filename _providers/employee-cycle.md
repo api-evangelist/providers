@@ -84,7 +84,7 @@ overview: 'Employee Cycle is profiled on the [APIs.io](https://apis.io/) network
 
 
   Employee Cycle''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 60
+random_paper: 43
 score:
   band: emerging
   composite: 16.3

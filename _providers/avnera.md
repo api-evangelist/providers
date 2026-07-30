@@ -48,7 +48,7 @@ name: Avnera
 nav: Providers
 network: true
 overview: Avnera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Audio, and Analog.
-random_paper: 70
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

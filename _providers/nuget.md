@@ -250,7 +250,7 @@ plans:
 - name: Nuget Plans Pricing
   plan_count: 1
   slug: nuget-plans-pricing
-random_paper: 61
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Nuget Rate Limits

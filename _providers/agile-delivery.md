@@ -105,7 +105,7 @@ overview: 'Agile Delivery is profiled on the [APIs.io](https://apis.io/) network
 
 
   Agile Delivery''s developer surface includes developer portal, engineering blog, and 3 more developer resources.'
-random_paper: 50
+random_paper: 33
 rules:
 - name: Agile Delivery API Rules
   rule_count: 4

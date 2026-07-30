@@ -59,7 +59,7 @@ overview: 'Zypl is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zypl''s developer surface includes support and 3 more developer resources.'
-random_paper: 58
+random_paper: 53
 score:
   band: minimal
   composite: 6.5

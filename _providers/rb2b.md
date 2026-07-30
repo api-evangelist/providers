@@ -114,7 +114,7 @@ overview: 'RB2B publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ide
 
 
   RB2B''s developer surface includes pricing, support, and 13 more developer resources.'
-random_paper: 36
+random_paper: 32
 score:
   band: minimal
   composite: 12.3

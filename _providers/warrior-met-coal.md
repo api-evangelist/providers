@@ -65,7 +65,7 @@ plans:
 - name: Warrior Met Coal Plans Pricing
   plan_count: 1
   slug: warrior-met-coal-plans-pricing
-random_paper: 66
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Warrior Met Coal Rate Limits

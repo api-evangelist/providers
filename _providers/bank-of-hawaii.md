@@ -62,7 +62,7 @@ overview: 'Bank of Hawaii is profiled on the [APIs.io](https://apis.io/) network
 
 
   Bank of Hawaii''s developer surface includes documentation, support, and 5 more developer resources.'
-random_paper: 46
+random_paper: 30
 score:
   band: minimal
   composite: 12.7

@@ -176,7 +176,7 @@ plans:
 - name: Polytomic Plans Pricing
   plan_count: 3
   slug: polytomic-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Polytomic Rate Limits

@@ -39,7 +39,7 @@ name: Peninsula Pharmaceuticals
 nav: Providers
 network: true
 overview: Peninsula Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Healthcare, and Drug Development.
-random_paper: 18
+random_paper: 68
 score:
   band: minimal
   composite: 4.3

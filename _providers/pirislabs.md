@@ -71,7 +71,7 @@ overview: 'Piris Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Piris Labs'' developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 78
+random_paper: 67
 score:
   band: minimal
   composite: 8.9

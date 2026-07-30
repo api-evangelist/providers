@@ -132,7 +132,7 @@ overview: 'Handshake publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Handshake''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 14 more developer resources.'
-random_paper: 44
+random_paper: 33
 score:
   band: thin
   composite: 33.5

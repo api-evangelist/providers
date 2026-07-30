@@ -48,7 +48,7 @@ name: Big Fish Games
 nav: Providers
 network: true
 overview: Big Fish Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Games, Entertainment, and Casual Games.
-random_paper: 42
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

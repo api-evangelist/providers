@@ -159,7 +159,7 @@ plans:
 - name: Eosio Plans Pricing
   plan_count: 2
   slug: eosio-plans-pricing
-random_paper: 57
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Eosio Rate Limits

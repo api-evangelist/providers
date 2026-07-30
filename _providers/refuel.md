@@ -116,7 +116,7 @@ overview: 'Refuel publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Refuel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 76
+random_paper: 69
 score:
   band: thin
   composite: 28.0

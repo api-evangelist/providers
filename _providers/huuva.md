@@ -52,7 +52,7 @@ name: Huuva
 nav: Providers
 network: true
 overview: Huuva is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Restaurant Technology, Food Court, and Marketplace.
-random_paper: 67
+random_paper: 61
 score:
   band: minimal
   composite: 7.1

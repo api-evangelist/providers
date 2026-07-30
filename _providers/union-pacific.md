@@ -189,7 +189,7 @@ press:
 - date: '2026-05-22'
   title: AI is Enhancing How Union Pacific Inspects Track
   url: https://www.up.com/news/safety/ai-powered-vision-inspects-track-260522
-random_paper: 21
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Union Pacific Rate Limits

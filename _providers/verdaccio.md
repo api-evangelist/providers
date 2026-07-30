@@ -175,7 +175,7 @@ plans:
 - name: Verdaccio Plans Pricing
   plan_count: 2
   slug: verdaccio-plans-pricing
-random_paper: 53
+random_paper: 42
 rules:
 - name: Verdaccio API Rules
   rule_count: 5

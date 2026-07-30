@@ -78,7 +78,7 @@ press:
 - date: '2026-05-25'
   title: Hologic's AI-Driven Breast Cancer Screening Technology ...
   url: https://www.hologic.com/about/press-release/hologics-ai-driven-breast-cancer-screening-technology-earns-medtech
-random_paper: 12
+random_paper: 3
 score:
   band: minimal
   composite: 3.7

@@ -108,7 +108,7 @@ plans:
 - name: Activeloop Plans Pricing
   plan_count: 4
   slug: activeloop-plans-pricing
-random_paper: 25
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Activeloop Rate Limits

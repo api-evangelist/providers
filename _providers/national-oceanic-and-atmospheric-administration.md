@@ -95,7 +95,7 @@ plans:
 - name: National Oceanic And Atmospheric Administration Plans Pricing
   plan_count: 3
   slug: national-oceanic-and-atmospheric-administration-plans-pricing
-random_paper: 58
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: National Oceanic And Atmospheric Administration Rate Limits

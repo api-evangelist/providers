@@ -194,7 +194,7 @@ overview: 'Zencoder publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zencoder''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 22 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: developing
   composite: 50.8

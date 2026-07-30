@@ -60,7 +60,7 @@ name: Adagio Therapeutics
 nav: Providers
 network: true
 overview: Adagio Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Antibody Therapeutics.
-random_paper: 11
+random_paper: 69
 score:
   band: minimal
   composite: 10.5

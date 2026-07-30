@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Jabil
   url: https://www.facebook.com/Jabil/posts/jabil-has-been-named-a-time-time100companiesindustryleader-in-manufacturing-logi/1486973570134313/
-random_paper: 18
+random_paper: 2
 score:
   band: minimal
   composite: 4.8

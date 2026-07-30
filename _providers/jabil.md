@@ -83,7 +83,7 @@ overview: 'Jabil is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jabil''s developer surface includes product news and 9 more developer resources.'
-random_paper: 28
+random_paper: 22
 score:
   band: minimal
   composite: 4.8

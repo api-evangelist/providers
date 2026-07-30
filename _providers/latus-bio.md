@@ -84,7 +84,7 @@ overview: 'Latus Bio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Latus Bio''s developer surface includes product news and 9 more developer resources.'
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 12.0

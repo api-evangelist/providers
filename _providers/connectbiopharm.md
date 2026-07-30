@@ -67,7 +67,7 @@ overview: 'Connect Biopharma is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Connect Biopharma''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 57
+random_paper: 38
 score:
   band: minimal
   composite: 10.5

@@ -44,7 +44,7 @@ name: Simility
 nav: Providers
 network: true
 overview: Simility is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Fraud Detection, Risk Management, and Machine Learning.
-random_paper: 74
+random_paper: 64
 score:
   band: minimal
   composite: 4.3

@@ -91,7 +91,7 @@ overview: 'Climate-X is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Climate-X''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 9
+random_paper: 80
 score:
   band: emerging
   composite: 22.6

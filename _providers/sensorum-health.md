@@ -75,7 +75,7 @@ overview: 'Sensorum Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Sensorum Health''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 28
+random_paper: 9
 score:
   band: minimal
   composite: 12.2

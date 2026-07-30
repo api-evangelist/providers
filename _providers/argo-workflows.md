@@ -3964,7 +3964,7 @@ plans:
 - name: Argo Workflows Plans Pricing
   plan_count: 3
   slug: argo-workflows-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Argo Workflows Rate Limits

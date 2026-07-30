@@ -175,7 +175,7 @@ overview: 'Ping++ publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ping++''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 25
+random_paper: 20
 score:
   band: developing
   composite: 47.3

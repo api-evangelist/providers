@@ -139,7 +139,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence news - Today's latest updates
   url: https://www.cbsnews.com/atlanta/tag/artificial-intelligence/
-random_paper: 69
+random_paper: 66
 score:
   band: minimal
   composite: 11.2

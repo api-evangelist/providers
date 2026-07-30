@@ -67,7 +67,7 @@ overview: 'Inspiren is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Inspiren''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 62
+random_paper: 52
 score:
   band: minimal
   composite: 10.8

@@ -239,7 +239,7 @@ overview: 'Select Star publishes 26 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Select Star''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 74
+random_paper: 61
 score:
   band: developing
   composite: 49.3

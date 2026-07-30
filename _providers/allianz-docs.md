@@ -311,7 +311,7 @@ overview: 'Allianz publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Allianz''s developer surface includes authentication, support, engineering blog, and 9 more developer resources.'
-random_paper: 2
+random_paper: 69
 rules:
 - name: Allianz API Rules
   rule_count: 5

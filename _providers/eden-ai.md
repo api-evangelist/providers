@@ -131,7 +131,7 @@ plans:
 - name: Eden Ai Plans Pricing
   plan_count: 3
   slug: eden-ai-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Eden Ai Rate Limits

@@ -103,7 +103,7 @@ overview: 'Inato is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Inato''s developer surface includes documentation, support, engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 53
+random_paper: 47
 score:
   band: emerging
   composite: 22.7

@@ -115,7 +115,7 @@ overview: 'Modcloth publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Modcloth''s developer surface includes documentation, authentication, and 13 more developer resources.'
-random_paper: 48
+random_paper: 38
 scopes:
 - name: Modcloth Scopes
   scope_count: 4

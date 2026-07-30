@@ -88,7 +88,7 @@ plans:
 - name: Csm Plans Pricing
   plan_count: 3
   slug: csm-plans-pricing
-random_paper: 80
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Csm Rate Limits

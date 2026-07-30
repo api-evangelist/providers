@@ -113,7 +113,7 @@ plans:
 - name: Judge Me Plans Pricing
   plan_count: 2
   slug: judge-me-plans-pricing
-random_paper: 53
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Judge Me Rate Limits

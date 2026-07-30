@@ -124,7 +124,7 @@ plans:
 - name: Customs And Border Protection Plans Pricing
   plan_count: 3
   slug: customs-and-border-protection-plans-pricing
-random_paper: 41
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Customs And Border Protection Rate Limits

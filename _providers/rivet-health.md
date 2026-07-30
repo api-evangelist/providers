@@ -84,7 +84,7 @@ overview: 'Rivet Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Rivet Health''s developer surface includes engineering blog, support, changelog, and 7 more developer resources.'
-random_paper: 14
+random_paper: 81
 score:
   band: emerging
   composite: 19.9

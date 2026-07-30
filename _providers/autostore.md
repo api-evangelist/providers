@@ -63,7 +63,7 @@ overview: 'AutoStore is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AutoStore''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 26
+random_paper: 14
 score:
   band: minimal
   composite: 7.4

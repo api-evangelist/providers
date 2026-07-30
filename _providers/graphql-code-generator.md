@@ -91,7 +91,7 @@ overview: 'GraphQL Code Generator publishes 1 API on the [APIs.io](https://apis.
 
 
   GraphQL Code Generator''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 32
+random_paper: 5
 score:
   band: emerging
   composite: 23.7

@@ -52,7 +52,7 @@ name: Nilo Therapeutics
 nav: Providers
 network: true
 overview: Nilo Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Immunology, and Neuroscience.
-random_paper: 75
+random_paper: 54
 score:
   band: minimal
   composite: 5.4

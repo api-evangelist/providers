@@ -87,7 +87,7 @@ overview: 'Invoice 2go is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Invoice 2go''s developer surface includes pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 5
+random_paper: 74
 score:
   band: emerging
   composite: 18.8

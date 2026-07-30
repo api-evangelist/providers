@@ -393,7 +393,7 @@ press:
 - date: '2026-05-25'
   title: AI in the wild | Watts the Future
   url: https://www.netapp.com/video/tM47Foy3L_U/ai-in-the-wild-watts-the-future/
-random_paper: 0
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Netapp Rate Limits

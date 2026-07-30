@@ -96,7 +96,7 @@ overview: 'Fiberplane is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Fiberplane''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, and 8 more developer resources.'
-random_paper: 76
+random_paper: 64
 score:
   band: emerging
   composite: 18.5

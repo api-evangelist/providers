@@ -109,7 +109,7 @@ plans:
 - name: Lightpanda Plans Pricing
   plan_count: 2
   slug: lightpanda-plans-pricing
-random_paper: 80
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Lightpanda Rate Limits

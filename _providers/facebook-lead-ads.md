@@ -121,7 +121,7 @@ overview: 'Facebook Lead Ads publishes 6 APIs on the [APIs.io](https://apis.io/)
 
 
   Facebook Lead Ads'' developer surface includes authentication, documentation, signup flow, support, and 7 more developer resources.'
-random_paper: 14
+random_paper: 76
 scopes:
 - name: Facebook Lead Ads Scopes
   scope_count: 3

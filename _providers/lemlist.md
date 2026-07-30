@@ -112,7 +112,7 @@ overview: 'lemlist publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   lemlist''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 33
+random_paper: 24
 score:
   band: emerging
   composite: 27.4

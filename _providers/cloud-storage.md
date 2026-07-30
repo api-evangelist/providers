@@ -20,7 +20,7 @@ modified: '2026-04-23'
 name: Cloud Storage
 nav: Providers
 network: true
-random_paper: 41
+random_paper: 25
 slug: cloud-storage
 tags:
 - Block Storage

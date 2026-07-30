@@ -269,7 +269,7 @@ plans:
 - name: Zerion Plans
   plan_count: 5
   slug: zerion-plans
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Zerion Rate Limits

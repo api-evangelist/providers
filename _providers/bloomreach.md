@@ -232,7 +232,7 @@ plans:
 - name: Bloomreach Plans Pricing
   plan_count: 5
   slug: bloomreach-plans-pricing
-random_paper: 80
+random_paper: 68
 rate_limits:
 - limit_count: 8
   name: Bloomreach Rate Limits

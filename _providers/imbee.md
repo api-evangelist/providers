@@ -99,7 +99,7 @@ overview: 'imbee is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   imbee''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 28
+random_paper: 22
 score:
   band: emerging
   composite: 23.8

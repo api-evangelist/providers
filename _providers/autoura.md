@@ -98,7 +98,7 @@ plans:
 - name: Autoura Plans Pricing
   plan_count: 3
   slug: autoura-plans-pricing
-random_paper: 40
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Autoura Rate Limits

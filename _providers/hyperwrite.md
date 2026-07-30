@@ -139,7 +139,7 @@ overview: 'HyperWrite is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   HyperWrite''s developer surface includes developer portal, signup flow, pricing, engineering blog, support, YouTube channel, and 12 more developer resources.'
-random_paper: 54
+random_paper: 41
 score:
   band: emerging
   composite: 17.0

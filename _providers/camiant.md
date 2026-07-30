@@ -39,7 +39,7 @@ name: Camiant
 nav: Providers
 network: true
 overview: Camiant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecom, Policy Control, and PCRF.
-random_paper: 4
+random_paper: 77
 score:
   band: minimal
   composite: 4.3

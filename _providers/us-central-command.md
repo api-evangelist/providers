@@ -69,7 +69,7 @@ plans:
 - name: Us Central Command Plans Pricing
   plan_count: 3
   slug: us-central-command-plans-pricing
-random_paper: 20
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Us Central Command Rate Limits

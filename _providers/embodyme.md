@@ -116,7 +116,7 @@ overview: 'EmbodyMe publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   EmbodyMe''s developer surface includes developer portal, documentation, getting-started guide, signup flow, pricing, authentication, and 10 more developer resources.'
-random_paper: 40
+random_paper: 30
 score:
   band: emerging
   composite: 24.5

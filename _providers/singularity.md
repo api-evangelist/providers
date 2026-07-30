@@ -68,7 +68,7 @@ name: Singularity
 nav: Providers
 network: true
 overview: Singularity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Air Defense, Aerospace, and Counter-UAS.
-random_paper: 77
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

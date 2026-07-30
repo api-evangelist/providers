@@ -142,7 +142,7 @@ press:
 - date: '2026-05-25'
   title: Distribution's first AI cloud companion now widely available
   url: https://www.arrow.com/globalecs/at/arrow-channel-advisor/ai-companion-arrowsphere-assistant-now-widely-available/
-random_paper: 78
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Arrow Electronics Rate Limits

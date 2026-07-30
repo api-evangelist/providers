@@ -127,7 +127,7 @@ overview: 'Trivago publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Trivago''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 35
+random_paper: 26
 score:
   band: thin
   composite: 28.6

@@ -170,7 +170,7 @@ overview: 'EDDA Technology publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   EDDA Technology''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 74
+random_paper: 70
 score:
   band: emerging
   composite: 26.3

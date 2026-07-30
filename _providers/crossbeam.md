@@ -179,7 +179,7 @@ overview: 'Crossbeam publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Crossbeam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 23 more developer resources.'
-random_paper: 68
+random_paper: 57
 scopes:
 - name: Crossbeam Scopes
   scope_count: 6

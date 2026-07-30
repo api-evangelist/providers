@@ -356,7 +356,7 @@ plans:
 - name: Aws Braket Plans Pricing
   plan_count: 5
   slug: aws-braket-plans-pricing
-random_paper: 37
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Aws Braket Rate Limits

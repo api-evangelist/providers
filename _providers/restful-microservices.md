@@ -108,7 +108,7 @@ overview: 'RESTful Microservices is profiled on the [APIs.io](https://apis.io/) 
 
 
   The RESTful Microservices catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 37
+random_paper: 10
 rules:
 - name: RESTful Microservices API Rules
   rule_count: 5

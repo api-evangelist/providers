@@ -48,7 +48,7 @@ name: NVE Corporation
 nav: Providers
 network: true
 overview: NVE Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Sensors, Spintronics, and Magnetic Sensors.
-random_paper: 5
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

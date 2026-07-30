@@ -91,7 +91,7 @@ plans:
 - name: Census Co Plans Pricing
   plan_count: 1
   slug: census-co-plans-pricing
-random_paper: 21
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Census Co Rate Limits

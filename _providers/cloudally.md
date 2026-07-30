@@ -158,7 +158,7 @@ plans:
 - name: Cloudally Plans Pricing
   plan_count: 3
   slug: cloudally-plans-pricing
-random_paper: 78
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Cloudally Rate Limits

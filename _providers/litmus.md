@@ -158,7 +158,7 @@ plans:
 - name: Litmus Plans Pricing
   plan_count: 7
   slug: litmus-plans-pricing
-random_paper: 22
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Litmus Rate Limits

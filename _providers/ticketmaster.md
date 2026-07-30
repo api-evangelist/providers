@@ -167,7 +167,7 @@ plans:
 - name: Ticketmaster Plans Pricing
   plan_count: 2
   slug: ticketmaster-plans-pricing
-random_paper: 0
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Ticketmaster Rate Limits

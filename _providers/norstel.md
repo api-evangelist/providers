@@ -39,7 +39,7 @@ name: Norstel
 nav: Providers
 network: true
 overview: Norstel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Silicon Carbide, Power Electronics, and Hardware.
-random_paper: 46
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

@@ -447,7 +447,7 @@ plans:
 - name: Artifactory Plans Pricing
   plan_count: 6
   slug: artifactory-plans-pricing
-random_paper: 58
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Artifactory Rate Limits

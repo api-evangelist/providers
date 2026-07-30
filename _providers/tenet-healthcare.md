@@ -203,7 +203,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at Tenet Healthcare
   url: https://emerj.com/artificial-intelligence-at-tenet-healthcare/
-random_paper: 10
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Tenet Healthcare Rate Limits

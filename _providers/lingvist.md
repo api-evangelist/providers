@@ -133,7 +133,7 @@ overview: 'Lingvist publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Lingvist''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 15 more developer resources.'
-random_paper: 70
+random_paper: 60
 scopes:
 - name: Lingvist Scopes
   scope_count: 1

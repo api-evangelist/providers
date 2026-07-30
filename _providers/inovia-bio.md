@@ -75,7 +75,7 @@ overview: 'Inovia Bio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Inovia Bio''s developer surface includes engineering blog, pricing, and 6 more developer resources.'
-random_paper: 33
+random_paper: 21
 score:
   band: minimal
   composite: 10.8

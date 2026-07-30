@@ -116,7 +116,7 @@ plans:
 - name: Tripo Ai Plans Pricing
   plan_count: 1
   slug: tripo-ai-plans-pricing
-random_paper: 76
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Tripo Ai Rate Limits

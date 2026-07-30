@@ -224,7 +224,7 @@ overview: 'Spot publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Spot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 49
+random_paper: 44
 score:
   band: developing
   composite: 55.4

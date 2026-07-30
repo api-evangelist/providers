@@ -79,7 +79,7 @@ overview: 'Liveboard is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Liveboard''s developer surface includes pricing, engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 61
+random_paper: 50
 score:
   band: emerging
   composite: 16.4

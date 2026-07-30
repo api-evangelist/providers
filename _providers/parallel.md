@@ -244,7 +244,7 @@ overview: 'Parallel publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Parallel''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 29 more developer resources.'
-random_paper: 35
+random_paper: 25
 rate_limits:
 - limit_count: 7
   name: Parallel Rate Limits

@@ -87,7 +87,7 @@ overview: 'Limbo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Limbo''s developer surface includes engineering blog, signup flow, YouTube channel, and 8 more developer resources.'
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 9.6

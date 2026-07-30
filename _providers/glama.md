@@ -127,7 +127,7 @@ plans:
 - name: Glama Plans Pricing
   plan_count: 1
   slug: glama-plans-pricing
-random_paper: 28
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Glama Rate Limits

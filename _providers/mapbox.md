@@ -220,7 +220,7 @@ plans:
 - name: Mapbox Plans Pricing
   plan_count: 8
   slug: mapbox-plans-pricing
-random_paper: 80
+random_paper: 73
 rate_limits:
 - limit_count: 6
   name: Mapbox Rate Limits

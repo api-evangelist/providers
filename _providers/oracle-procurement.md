@@ -99,7 +99,7 @@ plans:
 - name: Oracle Procurement Plans Pricing
   plan_count: 3
   slug: oracle-procurement-plans-pricing
-random_paper: 16
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Oracle Procurement Rate Limits

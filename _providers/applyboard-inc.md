@@ -75,7 +75,7 @@ overview: 'ApplyBoard Inc. is profiled on the [APIs.io](https://apis.io/) networ
 
 
   ApplyBoard Inc.''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 52
+random_paper: 35
 score:
   band: emerging
   composite: 13.8

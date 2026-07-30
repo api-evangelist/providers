@@ -59,7 +59,7 @@ overview: 'Obvio is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Obvio''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 57
+random_paper: 51
 score:
   band: minimal
   composite: 6.3

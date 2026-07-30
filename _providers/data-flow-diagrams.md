@@ -20,7 +20,7 @@ modified: '2026-04-30'
 name: Data Flow Diagrams
 nav: Providers
 network: true
-random_paper: 79
+random_paper: 58
 slug: data-flow-diagrams
 tags:
 - Data Flow Diagrams

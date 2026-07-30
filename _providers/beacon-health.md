@@ -97,7 +97,7 @@ overview: 'Beacon Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Beacon Health''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 76
+random_paper: 61
 score:
   band: emerging
   composite: 21.7

@@ -48,7 +48,7 @@ name: dezhentech
 nav: Providers
 network: true
 overview: dezhentech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health IT, Hospital Information Systems, and Electronic Medical Records.
-random_paper: 5
+random_paper: 74
 score:
   band: minimal
   composite: 5.4

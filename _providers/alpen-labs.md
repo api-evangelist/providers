@@ -111,7 +111,7 @@ overview: 'Alpen Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Alpen Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 9 more developer resources.'
-random_paper: 19
+random_paper: 7
 score:
   band: emerging
   composite: 23.1

@@ -48,7 +48,7 @@ name: Benny
 nav: Providers
 network: true
 overview: Benny is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Startup, and Venture Backed.
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

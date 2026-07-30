@@ -72,7 +72,7 @@ plans:
 - name: Json Binding Plans Pricing
   plan_count: 3
   slug: json-binding-plans-pricing
-random_paper: 3
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Json Binding Rate Limits

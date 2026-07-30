@@ -63,7 +63,7 @@ overview: 'Sales Patriot is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Sales Patriot''s developer surface includes engineering blog, signup flow, and 3 more developer resources.'
-random_paper: 56
+random_paper: 40
 score:
   band: minimal
   composite: 10.2

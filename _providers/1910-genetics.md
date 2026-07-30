@@ -67,7 +67,7 @@ overview: '1910 Genetics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   1910 Genetics'' developer surface includes support and 5 more developer resources.'
-random_paper: 45
+random_paper: 32
 score:
   band: minimal
   composite: 11.8

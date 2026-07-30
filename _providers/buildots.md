@@ -136,7 +136,7 @@ overview: 'Buildots is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Buildots'' developer surface includes engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 60
+random_paper: 50
 score:
   band: minimal
   composite: 7.5

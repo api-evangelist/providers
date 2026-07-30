@@ -76,7 +76,7 @@ overview: 'United States Capitol Police is profiled on the [APIs.io](https://api
 
 
   The United States Capitol Police catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 74
+random_paper: 40
 score:
   band: minimal
   composite: 8.2

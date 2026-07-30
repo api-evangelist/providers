@@ -210,7 +210,7 @@ overview: 'Datanomik publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Datanomik''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 24 more developer resources.'
-random_paper: 61
+random_paper: 50
 score:
   band: developing
   composite: 48.6

@@ -39,7 +39,7 @@ name: Agillion
 nav: Providers
 network: true
 overview: Agillion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Customer Relationship Management, SaaS, and Software.
-random_paper: 37
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

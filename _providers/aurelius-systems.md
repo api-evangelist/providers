@@ -68,7 +68,7 @@ overview: 'Aurelius Systems is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Aurelius Systems'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 10
+random_paper: 71
 score:
   band: minimal
   composite: 8.4

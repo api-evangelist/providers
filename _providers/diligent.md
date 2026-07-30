@@ -190,7 +190,7 @@ overview: 'Diligent publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Diligent''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 22 more developer resources.'
-random_paper: 38
+random_paper: 28
 score:
   band: developing
   composite: 53.0

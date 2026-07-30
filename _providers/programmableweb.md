@@ -89,7 +89,7 @@ plans:
 - name: Programmableweb Plans Pricing
   plan_count: 3
   slug: programmableweb-plans-pricing
-random_paper: 52
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Programmableweb Rate Limits

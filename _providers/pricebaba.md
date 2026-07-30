@@ -48,7 +48,7 @@ name: PriceBaba
 nav: Providers
 network: true
 overview: PriceBaba is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Price Comparison, Ecommerce, Consumer Electronics, and Mobile Phones.
-random_paper: 30
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

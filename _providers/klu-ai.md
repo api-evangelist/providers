@@ -129,7 +129,7 @@ plans:
 - name: Klu Ai Plans Pricing
   plan_count: 3
   slug: klu-ai-plans-pricing
-random_paper: 12
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Klu Ai Rate Limits

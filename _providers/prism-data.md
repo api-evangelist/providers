@@ -91,7 +91,7 @@ overview: 'Prism Data is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Prism Data''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 38
+random_paper: 26
 score:
   band: emerging
   composite: 20.2

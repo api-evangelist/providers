@@ -81,7 +81,7 @@ plans:
 - name: Bp Plans Pricing
   plan_count: 3
   slug: bp-plans-pricing
-random_paper: 48
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Bp Rate Limits

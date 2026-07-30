@@ -219,7 +219,7 @@ overview: 'Netcracker publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Netcracker''s developer surface includes authentication, changelog, CLI, sandbox, documentation, getting-started guide, support, and 33 more developer resources.'
-random_paper: 5
+random_paper: 74
 score:
   band: developing
   composite: 51.9

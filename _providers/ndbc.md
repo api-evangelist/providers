@@ -107,7 +107,7 @@ overview: 'NDBC — National Data Buoy Center publishes 5 APIs on the [APIs.io](
 
 
   NDBC — National Data Buoy Center''s developer surface includes developer portal, documentation, and 10 more developer resources.'
-random_paper: 2
+random_paper: 79
 score:
   band: emerging
   composite: 16.7

@@ -83,7 +83,7 @@ overview: 'VendorPM is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   VendorPM''s developer surface includes pricing, engineering blog, support, signup flow, changelog, and 5 more developer resources.'
-random_paper: 65
+random_paper: 55
 score:
   band: emerging
   composite: 17.3

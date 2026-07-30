@@ -63,7 +63,7 @@ overview: 'Resolution Games is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Resolution Games'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 58
+random_paper: 38
 score:
   band: minimal
   composite: 10.5

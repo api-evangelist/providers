@@ -87,7 +87,7 @@ overview: 'IrisVR is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   IrisVR''s developer surface includes pricing, support, and 9 more developer resources.'
-random_paper: 23
+random_paper: 15
 score:
   band: emerging
   composite: 14.0

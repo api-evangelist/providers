@@ -111,7 +111,7 @@ plans:
 - name: Roomkeypms Plans Pricing
   plan_count: 2
   slug: roomkeypms-plans-pricing
-random_paper: 57
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Roomkeypms Rate Limits

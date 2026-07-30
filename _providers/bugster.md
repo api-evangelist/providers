@@ -123,7 +123,7 @@ overview: 'Bugster is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bugster''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 13 more developer resources.'
-random_paper: 35
+random_paper: 26
 score:
   band: thin
   composite: 28.6

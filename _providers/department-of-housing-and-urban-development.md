@@ -141,7 +141,7 @@ plans:
 - name: Department Of Housing And Urban Development Plans Pricing
   plan_count: 3
   slug: department-of-housing-and-urban-development-plans-pricing
-random_paper: 16
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Department Of Housing And Urban Development Rate Limits

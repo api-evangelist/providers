@@ -243,7 +243,7 @@ plans:
 - name: Mailboxlayer Plans Pricing
   plan_count: 5
   slug: mailboxlayer-plans-pricing
-random_paper: 74
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Mailboxlayer Rate Limits

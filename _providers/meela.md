@@ -79,7 +79,7 @@ overview: 'Meela is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Meela''s developer surface includes pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 30
+random_paper: 24
 score:
   band: emerging
   composite: 15.6

@@ -247,7 +247,7 @@ overview: 'Kard publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kard''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, engineering blog, support, and 27 more developer resources.'
-random_paper: 13
+random_paper: 8
 scopes:
 - name: Kard Scopes
   scope_count: 13

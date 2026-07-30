@@ -60,7 +60,7 @@ name: ReadSoft
 nav: Providers
 network: true
 overview: ReadSoft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Accounts Payable, Business Process Automation, Document Processing, Enterprise Software, and Invoice Processing.
-random_paper: 46
+random_paper: 36
 score:
   band: minimal
   composite: 6.6

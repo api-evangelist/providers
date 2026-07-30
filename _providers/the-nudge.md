@@ -55,7 +55,7 @@ overview: 'The Nudge is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   The Nudge''s developer surface includes support and 2 more developer resources.'
-random_paper: 6
+random_paper: 77
 score:
   band: minimal
   composite: 6.2

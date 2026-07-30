@@ -240,7 +240,7 @@ plans:
 - name: Archimate Plans Pricing
   plan_count: 3
   slug: archimate-plans-pricing
-random_paper: 51
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Archimate Rate Limits

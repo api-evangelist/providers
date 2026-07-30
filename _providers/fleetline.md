@@ -64,7 +64,7 @@ name: Fleetline
 nav: Providers
 network: true
 overview: Fleetline is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Fleet Management, Trucking, and Logistics.
-random_paper: 61
+random_paper: 50
 score:
   band: minimal
   composite: 11.8

@@ -60,7 +60,7 @@ overview: 'Northwood Space is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Northwood Space''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 26
+random_paper: 7
 score:
   band: minimal
   composite: 7.5

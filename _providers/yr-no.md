@@ -175,7 +175,7 @@ plans:
 - name: Yr No Plans Pricing
   plan_count: 1
   slug: yr-no-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Yr No Rate Limits

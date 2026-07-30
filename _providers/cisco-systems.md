@@ -197,7 +197,7 @@ press:
 - date: '2026-05-25'
   title: Newsroom
   url: https://newsroom.cisco.com/
-random_paper: 70
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Cisco Systems Rate Limits

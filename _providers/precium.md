@@ -83,7 +83,7 @@ overview: 'Precium is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Precium''s developer surface includes documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 28
+random_paper: 19
 score:
   band: emerging
   composite: 16.1

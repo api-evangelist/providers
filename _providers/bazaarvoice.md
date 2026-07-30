@@ -186,7 +186,7 @@ overview: 'Bazaarvoice publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Bazaarvoice''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 25
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Bazaarvoice Rate Limits

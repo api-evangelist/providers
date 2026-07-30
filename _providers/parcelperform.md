@@ -130,7 +130,7 @@ plans:
 - name: Parcelperform Plans Pricing
   plan_count: 1
   slug: parcelperform-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Parcelperform Rate Limits

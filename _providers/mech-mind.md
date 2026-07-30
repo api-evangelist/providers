@@ -95,7 +95,7 @@ overview: 'Mech-Mind Robotics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Mech-Mind Robotics'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, and 8 more developer resources.'
-random_paper: 72
+random_paper: 62
 score:
   band: emerging
   composite: 16.7

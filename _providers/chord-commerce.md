@@ -129,7 +129,7 @@ overview: 'Chord is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Chord''s developer surface includes documentation, API reference, release notes, engineering blog, GitHub presence, and 16 more developer resources.'
-random_paper: 39
+random_paper: 22
 score:
   band: minimal
   composite: 11.2

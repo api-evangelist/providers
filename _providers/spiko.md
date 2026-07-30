@@ -284,7 +284,7 @@ overview: 'Spiko publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spiko''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 64
+random_paper: 58
 scopes:
 - name: Spiko Scopes
   scope_count: 3

@@ -107,7 +107,7 @@ plans:
 - name: Western Plans Pricing
   plan_count: 2
   slug: western-plans-pricing
-random_paper: 47
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Western Rate Limits

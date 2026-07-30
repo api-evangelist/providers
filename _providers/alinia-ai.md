@@ -64,7 +64,7 @@ overview: 'Alinia Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Alinia Ai''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: minimal
   composite: 9.1

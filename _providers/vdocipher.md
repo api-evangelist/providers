@@ -127,7 +127,7 @@ plans:
 - name: Vdocipher Plans Pricing
   plan_count: 4
   slug: vdocipher-plans-pricing
-random_paper: 73
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Vdocipher Rate Limits

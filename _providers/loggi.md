@@ -147,7 +147,7 @@ overview: 'Loggi publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Loggi''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 44
+random_paper: 38
 score:
   band: thin
   composite: 41.3

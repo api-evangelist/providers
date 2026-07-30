@@ -79,7 +79,7 @@ overview: 'Carahsoft publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Carahsoft''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 64
+random_paper: 53
 score:
   band: minimal
   composite: 10.2

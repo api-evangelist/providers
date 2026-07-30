@@ -103,7 +103,7 @@ overview: 'Ready (formerly Argent) is profiled on the [APIs.io](https://apis.io/
 
 
   Ready (formerly Argent)''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, and 10 more developer resources.'
-random_paper: 38
+random_paper: 12
 score:
   band: emerging
   composite: 20.4

@@ -55,7 +55,7 @@ overview: 'Isono Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Isono Health''s developer surface includes support and 2 more developer resources.'
-random_paper: 12
+random_paper: 79
 score:
   band: minimal
   composite: 6.1

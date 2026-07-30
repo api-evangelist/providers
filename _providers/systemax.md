@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence is reshaping marketing
   url: https://www.springfieldbusinessjournal.com/articles/artificial-intelligence-is-reshaping-marketing-15248997/
-random_paper: 3
+random_paper: 74
 score:
   band: minimal
   composite: 5.4

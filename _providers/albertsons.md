@@ -246,7 +246,7 @@ plans:
 - name: Albertsons Plans Pricing
   plan_count: 1
   slug: albertsons-plans-pricing
-random_paper: 32
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Albertsons Rate Limits

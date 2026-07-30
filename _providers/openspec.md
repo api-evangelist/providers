@@ -103,7 +103,7 @@ overview: 'Openspec is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Openspec''s developer surface includes documentation, getting-started guide, API reference, changelog, support, CLI, and 9 more developer resources.'
-random_paper: 51
+random_paper: 41
 score:
   band: emerging
   composite: 17.6

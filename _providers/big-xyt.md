@@ -102,7 +102,7 @@ overview: 'big xyt publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   big xyt''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 60
+random_paper: 52
 score:
   band: emerging
   composite: 21.6

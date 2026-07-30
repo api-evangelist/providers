@@ -59,7 +59,7 @@ overview: 'Anar is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Anar''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 13
+random_paper: 8
 score:
   band: minimal
   composite: 5.4

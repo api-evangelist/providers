@@ -197,7 +197,7 @@ plans:
 - name: Google Firebase Plans Pricing
   plan_count: 2
   slug: google-firebase-plans-pricing
-random_paper: 57
+random_paper: 39
 rate_limits:
 - limit_count: 11
   name: Google Firebase Rate Limits

@@ -192,7 +192,7 @@ plans:
 - name: Stormglass Plans Pricing
   plan_count: 3
   slug: stormglass-plans-pricing
-random_paper: 50
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Stormglass Rate Limits

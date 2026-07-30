@@ -39,7 +39,7 @@ name: YesPath
 nav: Providers
 network: true
 overview: YesPath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Account Engagement, Sales, Marketing, and Machine Learning.
-random_paper: 37
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

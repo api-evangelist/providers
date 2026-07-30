@@ -51,7 +51,7 @@ name: allegheny-technologies
 nav: Providers
 network: true
 overview: allegheny-technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Specialty Materials, Aerospace, Defense, Titanium, and Manufacturing.
-random_paper: 14
+random_paper: 68
 score:
   band: minimal
   composite: 4.4

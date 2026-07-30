@@ -125,7 +125,7 @@ plans:
 - name: Pin Payments Plans Pricing
   plan_count: 3
   slug: pin-payments-plans-pricing
-random_paper: 38
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Pin Payments Rate Limits

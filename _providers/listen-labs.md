@@ -164,7 +164,7 @@ overview: 'Listen Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Listen Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 65
+random_paper: 52
 score:
   band: developing
   composite: 49.3

@@ -48,7 +48,7 @@ name: QikPod
 nav: Providers
 network: true
 overview: QikPod is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Services, Robotics, Warehouse Automation, and Logistics.
-random_paper: 0
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

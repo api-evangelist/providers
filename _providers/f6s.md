@@ -120,7 +120,7 @@ plans:
 - name: F6S Plans Pricing
   plan_count: 3
   slug: f6s-plans-pricing
-random_paper: 28
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: F6S Rate Limits

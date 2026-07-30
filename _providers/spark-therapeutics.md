@@ -79,7 +79,7 @@ name: spark-therapeutics
 nav: Providers
 network: true
 overview: spark-therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Pharmaceuticals, Gene Therapy, Rare Disease, and Ophthalmology.
-random_paper: 24
+random_paper: 1
 score:
   band: minimal
   composite: 8.0

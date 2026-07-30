@@ -96,7 +96,7 @@ overview: 'Shoptiques publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Shoptiques'' developer surface includes authentication and 10 more developer resources.'
-random_paper: 56
+random_paper: 43
 scopes:
 - name: Shoptiques Scopes
   scope_count: 4

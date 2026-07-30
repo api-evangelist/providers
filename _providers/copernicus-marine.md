@@ -118,7 +118,7 @@ plans:
 - name: Copernicus Marine Plans
   plan_count: 1
   slug: copernicus-marine-plans
-random_paper: 63
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Copernicus Marine Rate Limits

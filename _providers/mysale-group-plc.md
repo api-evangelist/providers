@@ -44,7 +44,7 @@ name: MYSALE GROUP PLC
 nav: Providers
 network: true
 overview: MYSALE GROUP PLC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-commerce, Retail, and Marketplace.
-random_paper: 78
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

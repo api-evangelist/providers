@@ -52,7 +52,7 @@ name: MeowFacts
 nav: Providers
 network: true
 overview: MeowFacts publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 78
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

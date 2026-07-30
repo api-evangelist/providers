@@ -102,7 +102,7 @@ press:
 - date: ''
   title: Pomerantz Law Firm Investigates Claims On Behalf of ...
   url: https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-ashland-inc
-random_paper: 2
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Ashland Rate Limits

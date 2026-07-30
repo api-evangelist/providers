@@ -107,7 +107,7 @@ overview: 'LottieFiles is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   LottieFiles'' developer surface includes documentation, getting-started guide, support, engineering blog, changelog, and 11 more developer resources.'
-random_paper: 54
+random_paper: 40
 score:
   band: emerging
   composite: 19.9

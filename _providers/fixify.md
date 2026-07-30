@@ -99,7 +99,7 @@ overview: 'Fixify is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fixify''s developer surface includes pricing, engineering blog, and 12 more developer resources.'
-random_paper: 7
+random_paper: 81
 score:
   band: emerging
   composite: 22.5

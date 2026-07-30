@@ -224,7 +224,7 @@ overview: 'Bitrix24 publishes 35 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bitrix24''s developer surface includes authentication, documentation, pricing, signup flow, training material, engineering blog, and 9 more developer resources.'
-random_paper: 31
+random_paper: 22
 scopes:
 - name: Bitrix24 Scopes
   scope_count: 51

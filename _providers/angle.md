@@ -189,7 +189,7 @@ overview: 'Angle publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Angle''s developer surface includes authentication, documentation, and 19 more developer resources.'
-random_paper: 33
+random_paper: 27
 score:
   band: thin
   composite: 33.1

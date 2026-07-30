@@ -48,7 +48,7 @@ name: Eeki Foods
 nav: Providers
 network: true
 overview: Eeki Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Food, Portfolio Company, and Venture Backed.
-random_paper: 26
+random_paper: 14
 score:
   band: minimal
   composite: 6.1

@@ -115,7 +115,7 @@ plans:
 - name: Bmw Plans Pricing
   plan_count: 3
   slug: bmw-plans-pricing
-random_paper: 2
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Bmw Rate Limits

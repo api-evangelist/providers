@@ -48,7 +48,7 @@ name: Hydro Wind Energy
 nav: Providers
 network: true
 overview: Hydro Wind Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Renewable Energy, Offshore Wind, Energy Storage, and Desalination.
-random_paper: 23
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

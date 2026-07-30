@@ -147,7 +147,7 @@ overview: 'Zayo publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Zayo''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 10 more developer resources.'
-random_paper: 46
+random_paper: 41
 scopes:
 - name: Zayo Scopes
   scope_count: 1

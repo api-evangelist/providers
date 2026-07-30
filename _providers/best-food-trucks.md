@@ -64,7 +64,7 @@ name: Best Food Trucks
 nav: Providers
 network: true
 overview: Best Food Trucks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Trucks, Food and Beverage, Mobile Ordering, and Events.
-random_paper: 73
+random_paper: 54
 score:
   band: minimal
   composite: 7.5

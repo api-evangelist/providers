@@ -63,7 +63,7 @@ overview: 'Suplari is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Suplari''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: minimal
   composite: 9.7

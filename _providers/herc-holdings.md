@@ -44,7 +44,7 @@ name: Herc Holdings
 nav: Providers
 network: true
 overview: Herc Holdings is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 23
+random_paper: 7
 score:
   band: minimal
   composite: 2.6

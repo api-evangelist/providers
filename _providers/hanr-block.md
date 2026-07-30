@@ -65,7 +65,7 @@ plans:
 - name: Hanr Block Plans Pricing
   plan_count: 1
   slug: hanr-block-plans-pricing
-random_paper: 21
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Hanr Block Rate Limits

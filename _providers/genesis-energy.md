@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Genesis Energy excels in cloud data governance
   url: https://www.informatica.com/customer-success-stories/genesis-energy.html
-random_paper: 68
+random_paper: 51
 score:
   band: minimal
   composite: 5.3

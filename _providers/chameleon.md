@@ -163,7 +163,7 @@ plans:
 - name: Chameleon Plans Pricing
   plan_count: 1
   slug: chameleon-plans-pricing
-random_paper: 49
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Chameleon Rate Limits

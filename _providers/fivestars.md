@@ -48,7 +48,7 @@ name: Fivestars
 nav: Providers
 network: true
 overview: Fivestars is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Rewards, Payments, and Point of Sale.
-random_paper: 11
+random_paper: 81
 score:
   band: minimal
   composite: 5.7

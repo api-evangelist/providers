@@ -84,7 +84,7 @@ overview: 'Trupanion publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Trupanion''s developer surface includes documentation, getting-started guide, signup flow, and 4 more developer resources.'
-random_paper: 20
+random_paper: 8
 score:
   band: minimal
   composite: 12.4

@@ -145,7 +145,7 @@ overview: 'Koi Security publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Koi Security''s developer surface includes documentation, API reference, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 41
+random_paper: 26
 score:
   band: developing
   composite: 45.0

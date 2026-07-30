@@ -75,7 +75,7 @@ overview: 'Herb is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Herb''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 12
+random_paper: 7
 score:
   band: minimal
   composite: 12.4

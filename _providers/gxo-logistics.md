@@ -51,7 +51,7 @@ name: gxo-logistics
 nav: Providers
 network: true
 overview: gxo-logistics is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 60
+random_paper: 44
 score:
   band: minimal
   composite: 2.6

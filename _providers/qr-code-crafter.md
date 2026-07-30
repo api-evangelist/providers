@@ -33,7 +33,7 @@ name: QR Code Crafter
 nav: Providers
 network: true
 overview: 'QR Code Crafter publishes 1 API on the [APIs.io](https://apis.io/) network: QRCodeCrafter API. Tagged areas include QR code, QR code generation, static QR, dynamic QR, and dynamic redirects.'
-random_paper: 13
+random_paper: 77
 score:
   band: emerging
   composite: 14.0

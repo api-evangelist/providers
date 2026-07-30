@@ -142,7 +142,7 @@ plans:
 - name: Microsoft 365 Copilot Plans Pricing
   plan_count: 3
   slug: microsoft-365-copilot-plans-pricing
-random_paper: 48
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Microsoft 365 Copilot Rate Limits

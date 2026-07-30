@@ -171,7 +171,7 @@ overview: 'Decube publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Decube''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 49
+random_paper: 42
 score:
   band: developing
   composite: 52.9

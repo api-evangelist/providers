@@ -52,7 +52,7 @@ name: Gilt Groupe
 nav: Providers
 network: true
 overview: Gilt Groupe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-commerce, and Fashion.
-random_paper: 1
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

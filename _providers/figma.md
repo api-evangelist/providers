@@ -1951,7 +1951,7 @@ plans:
 - name: Figma Plans Pricing
   plan_count: 4
   slug: figma-plans-pricing
-random_paper: 30
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Figma Rate Limits

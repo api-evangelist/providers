@@ -685,7 +685,7 @@ overview: 'Amazon Audit Manager publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Amazon Audit Manager''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 58
+random_paper: 34
 rules:
 - name: Amazon Audit Manager API Rules
   rule_count: 4

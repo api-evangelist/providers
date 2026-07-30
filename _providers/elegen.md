@@ -100,7 +100,7 @@ overview: 'Elegen is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Elegen''s developer surface includes developer portal, documentation, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 57
+random_paper: 50
 score:
   band: emerging
   composite: 19.8

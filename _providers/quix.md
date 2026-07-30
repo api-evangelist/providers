@@ -143,7 +143,7 @@ plans:
 - name: Quix Plans Pricing
   plan_count: 4
   slug: quix-plans-pricing
-random_paper: 50
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Quix Rate Limits

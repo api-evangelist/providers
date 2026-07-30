@@ -164,7 +164,7 @@ plans:
 - name: Bunq Plans Pricing
   plan_count: 7
   slug: bunq-plans-pricing
-random_paper: 33
+random_paper: 28
 rate_limits:
 - limit_count: 6
   name: Bunq Rate Limits

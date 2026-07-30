@@ -286,7 +286,7 @@ plans:
 - name: Opik Plans Pricing
   plan_count: 5
   slug: opik-plans-pricing
-random_paper: 30
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Opik Rate Limits

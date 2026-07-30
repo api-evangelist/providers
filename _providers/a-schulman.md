@@ -102,7 +102,7 @@ press:
 - date: '2026-05-25'
   title: Kevin A. Schulman | Stanford Graduate School of Business
   url: https://www.gsb.stanford.edu/faculty-research/faculty/kevin-schulman
-random_paper: 29
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: A Schulman Rate Limits

@@ -139,7 +139,7 @@ overview: 'Hoplite publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Hoplite''s developer surface includes documentation, getting-started guide, pricing, signup flow, CLI, authentication, and 14 more developer resources.'
-random_paper: 28
+random_paper: 19
 score:
   band: thin
   composite: 39.5

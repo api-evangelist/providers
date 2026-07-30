@@ -56,7 +56,7 @@ name: Cats
 nav: Providers
 network: true
 overview: Cats publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 22
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

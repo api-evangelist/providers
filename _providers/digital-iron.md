@@ -63,7 +63,7 @@ overview: 'Digital Iron is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Digital Iron''s developer surface includes support and 4 more developer resources.'
-random_paper: 4
+random_paper: 71
 score:
   band: minimal
   composite: 9.2

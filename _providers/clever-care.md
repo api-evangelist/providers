@@ -191,7 +191,7 @@ overview: 'Clever Care publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Clever Care''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 19 more developer resources.'
-random_paper: 44
+random_paper: 31
 scopes:
 - name: Clever Care Scopes
   scope_count: 4

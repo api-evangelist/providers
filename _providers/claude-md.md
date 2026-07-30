@@ -83,7 +83,7 @@ overview: 'CLAUDE.md is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CLAUDE.md''s developer surface includes documentation, tooling, and 6 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 10.0

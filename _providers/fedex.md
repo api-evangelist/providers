@@ -155,7 +155,7 @@ press:
 - date: '2026-05-25'
   title: FedEx Announces Expansion of FedEx Fulfillment With ...
   url: https://newsroom.fedex.com/newsroom/global-english/fedex-announces-expansion-of-fedex-fulfillment-with-nimble-alliance
-random_paper: 38
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Fedex Rate Limits

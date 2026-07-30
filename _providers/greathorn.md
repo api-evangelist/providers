@@ -39,7 +39,7 @@ name: GreatHorn
 nav: Providers
 network: true
 overview: GreatHorn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email Security, Anti-Phishing, Cloud Email, and Business Email Compromise.
-random_paper: 79
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

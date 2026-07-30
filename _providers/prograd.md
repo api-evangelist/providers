@@ -67,7 +67,7 @@ overview: 'ProGrad is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   ProGrad''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 22
+random_paper: 13
 score:
   band: minimal
   composite: 10.5

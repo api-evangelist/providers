@@ -116,7 +116,7 @@ overview: 'iZotope is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   iZotope''s developer surface includes engineering blog, support, GitHub presence, YouTube channel, and 14 more developer resources.'
-random_paper: 49
+random_paper: 40
 score:
   band: minimal
   composite: 7.0

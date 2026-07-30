@@ -191,7 +191,7 @@ overview: 'Sendspark publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sendspark''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 80
+random_paper: 69
 score:
   band: developing
   composite: 52.6

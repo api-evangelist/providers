@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: Kraft Heinz and TheNotCompany Partner to Accelerate AI ...
   url: https://www.delimarketnews.com/culture/kraft-heinz-and-thenotcompany-partner-accelerate-ai-driven-plant-based-innovation-miguel-patricio-and-matias-muchnick-detail/anne-allen/mon-02282022-0850/13144
-random_paper: 21
+random_paper: 0
 score:
   band: minimal
   composite: 4.1

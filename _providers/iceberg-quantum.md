@@ -44,7 +44,7 @@ name: Iceberg Quantum
 nav: Providers
 network: true
 overview: Iceberg Quantum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum Computing, Quantum Error Correction, Fault Tolerance, and LDPC Codes.
-random_paper: 6
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

@@ -44,7 +44,7 @@ name: Old Town Media
 nav: Providers
 network: true
 overview: Old Town Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Consulting, Journalism, and Investment.
-random_paper: 0
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

@@ -96,7 +96,7 @@ overview: 'Mendel AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mendel AI''s developer surface includes engineering blog, GitHub presence, and 11 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 6.3

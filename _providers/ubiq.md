@@ -87,7 +87,7 @@ overview: 'Ubiq (now NECTURE) is profiled on the [APIs.io](https://apis.io/) net
 
 
   Ubiq (now NECTURE)''s developer surface includes engineering blog, support, YouTube channel, and 8 more developer resources.'
-random_paper: 28
+random_paper: 23
 score:
   band: minimal
   composite: 10.3

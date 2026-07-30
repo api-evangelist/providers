@@ -125,7 +125,7 @@ overview: 'Navigate publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Navigate''s developer surface includes support and 7 more developer resources.'
-random_paper: 37
+random_paper: 27
 score:
   band: thin
   composite: 30.9

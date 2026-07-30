@@ -669,7 +669,7 @@ plans:
 - name: Twitter Plans Pricing
   plan_count: 1
   slug: twitter-plans-pricing
-random_paper: 58
+random_paper: 49
 rate_limits:
 - limit_count: 13
   name: Twitter Rate Limits

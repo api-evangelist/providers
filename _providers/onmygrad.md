@@ -75,7 +75,7 @@ overview: 'OnMyGrad is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   OnMyGrad''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 55
+random_paper: 45
 score:
   band: emerging
   composite: 13.4

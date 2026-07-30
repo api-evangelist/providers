@@ -39,7 +39,7 @@ name: Streambase
 nav: Providers
 network: true
 overview: Streambase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Big Data.
-random_paper: 10
+random_paper: 79
 score:
   band: minimal
   composite: 4.1

@@ -138,7 +138,7 @@ plans:
 - name: Akash Network Plans Pricing
   plan_count: 1
   slug: akash-network-plans-pricing
-random_paper: 47
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Akash Network Rate Limits

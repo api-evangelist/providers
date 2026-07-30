@@ -116,7 +116,7 @@ plans:
 - name: Plain Support Plans Pricing
   plan_count: 4
   slug: plain-support-plans-pricing
-random_paper: 78
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Plain Support Rate Limits

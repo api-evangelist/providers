@@ -84,7 +84,7 @@ plans:
 - name: Datos Yvera Tur Ar Plans Pricing
   plan_count: 1
   slug: datos-yvera-tur-ar-plans-pricing
-random_paper: 1
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Datos Yvera Tur Ar Rate Limits

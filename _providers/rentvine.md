@@ -108,7 +108,7 @@ plans:
 - name: Rentvine Plans Pricing
   plan_count: 1
   slug: rentvine-plans-pricing
-random_paper: 65
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Rentvine Rate Limits

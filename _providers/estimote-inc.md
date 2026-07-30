@@ -147,7 +147,7 @@ overview: 'Estimote Inc publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Estimote Inc''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 18
+random_paper: 3
 score:
   band: developing
   composite: 45.5

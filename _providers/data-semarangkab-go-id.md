@@ -84,7 +84,7 @@ plans:
 - name: Data Semarangkab Go Id Plans Pricing
   plan_count: 1
   slug: data-semarangkab-go-id-plans-pricing
-random_paper: 6
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Data Semarangkab Go Id Rate Limits

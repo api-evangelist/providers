@@ -244,7 +244,7 @@ plans:
 - name: Databricks Asset Bundles Plans Pricing
   plan_count: 3
   slug: databricks-asset-bundles-plans-pricing
-random_paper: 1
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Databricks Asset Bundles Rate Limits

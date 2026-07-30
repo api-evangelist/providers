@@ -112,7 +112,7 @@ plans:
 - name: Clearbooks Plans Pricing
   plan_count: 8
   slug: clearbooks-plans-pricing
-random_paper: 8
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Clearbooks Rate Limits

@@ -450,7 +450,7 @@ plans:
 - name: Amazon Secrets Manager Plans Pricing
   plan_count: 3
   slug: amazon-secrets-manager-plans-pricing
-random_paper: 41
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Secrets Manager Rate Limits

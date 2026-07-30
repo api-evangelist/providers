@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: International Paper Announces Strategic Changes to ...
   url: https://www.prnewswire.com/news-releases/international-paper-announces-strategic-changes-to-support-growth-in-north-america-302492317.html
-random_paper: 37
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

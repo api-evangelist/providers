@@ -163,7 +163,7 @@ overview: 'Speko publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Speko''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: developing
   composite: 53.8

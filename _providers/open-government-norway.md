@@ -56,7 +56,7 @@ name: Open Government, Norway
 nav: Providers
 network: true
 overview: Open Government, Norway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 21
+random_paper: 75
 score:
   band: minimal
   composite: 6.5

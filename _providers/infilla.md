@@ -68,7 +68,7 @@ name: Infilla
 nav: Providers
 network: true
 overview: Infilla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government, GovTech, Permitting, and Housing.
-random_paper: 6
+random_paper: 79
 score:
   band: minimal
   composite: 11.7

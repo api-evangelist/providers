@@ -84,7 +84,7 @@ plans:
 - name: John Deere Plans Pricing
   plan_count: 1
   slug: john-deere-plans-pricing
-random_paper: 21
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: John Deere Rate Limits

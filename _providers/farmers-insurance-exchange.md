@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Farmers Insurance Exchange Outlook Revised To Pos
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3396101
-random_paper: 53
+random_paper: 21
 score:
   band: minimal
   composite: 4.8

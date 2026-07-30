@@ -132,7 +132,7 @@ plans:
 - name: Fountain Com Plans Pricing
   plan_count: 4
   slug: fountain-com-plans-pricing
-random_paper: 17
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Fountain Com Rate Limits

@@ -139,7 +139,7 @@ plans:
 - name: Google Knowledge Graph Plans Pricing
   plan_count: 3
   slug: google-knowledge-graph-plans-pricing
-random_paper: 30
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Google Knowledge Graph Rate Limits

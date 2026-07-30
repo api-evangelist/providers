@@ -48,7 +48,7 @@ name: Oula
 nav: Providers
 network: true
 overview: Oula is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Maternity, Women's Health, and Pregnancy.
-random_paper: 28
+random_paper: 23
 score:
   band: minimal
   composite: 5.4

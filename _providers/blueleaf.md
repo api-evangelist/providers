@@ -116,7 +116,7 @@ overview: 'BlueLeaf is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BlueLeaf''s developer surface includes documentation, pricing, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 22
+random_paper: 12
 scopes:
 - name: Blueleaf Scopes
   scope_count: 3

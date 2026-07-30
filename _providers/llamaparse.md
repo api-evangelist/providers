@@ -420,7 +420,7 @@ plans:
 - name: Llamaparse Plans Pricing
   plan_count: 4
   slug: llamaparse-plans-pricing
-random_paper: 5
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Llamaparse Rate Limits

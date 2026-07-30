@@ -79,7 +79,7 @@ overview: 'FreeWill is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   FreeWill''s developer surface includes support, signup flow, and 7 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: emerging
   composite: 15.9

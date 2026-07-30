@@ -65,7 +65,7 @@ plans:
 - name: Watts Water Technologies Plans Pricing
   plan_count: 1
   slug: watts-water-technologies-plans-pricing
-random_paper: 54
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Watts Water Technologies Rate Limits

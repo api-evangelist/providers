@@ -133,7 +133,7 @@ plans:
 - name: Unkey Dev Plans Pricing
   plan_count: 7
   slug: unkey-dev-plans-pricing
-random_paper: 29
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Unkey Dev Rate Limits

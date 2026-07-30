@@ -145,7 +145,7 @@ plans:
 - name: Edlink Plans Pricing
   plan_count: 3
   slug: edlink-plans-pricing
-random_paper: 64
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Edlink Rate Limits

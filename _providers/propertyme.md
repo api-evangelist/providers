@@ -254,7 +254,7 @@ overview: 'PropertyMe publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   PropertyMe''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
-random_paper: 58
+random_paper: 45
 scopes:
 - name: Propertyme Scopes
   scope_count: 20

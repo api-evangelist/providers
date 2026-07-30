@@ -141,7 +141,7 @@ plans:
 - name: Nodeping Plans Pricing
   plan_count: 3
   slug: nodeping-plans-pricing
-random_paper: 42
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Nodeping Rate Limits

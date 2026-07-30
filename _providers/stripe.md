@@ -1557,7 +1557,7 @@ plans:
 - name: Stripe Plans Pricing
   plan_count: 9
   slug: stripe-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Stripe Rate Limits

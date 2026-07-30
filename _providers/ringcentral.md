@@ -836,7 +836,7 @@ plans:
 - name: Ringcentral Plans Pricing
   plan_count: 5
   slug: ringcentral-plans-pricing
-random_paper: 43
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Ringcentral Rate Limits

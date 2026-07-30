@@ -120,7 +120,7 @@ plans:
 - name: Orama Plans Pricing
   plan_count: 5
   slug: orama-plans-pricing
-random_paper: 42
+random_paper: 36
 rate_limits:
 - limit_count: 6
   name: Orama Rate Limits

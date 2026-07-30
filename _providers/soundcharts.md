@@ -132,7 +132,7 @@ plans:
 - name: Soundcharts Plans Pricing
   plan_count: 4
   slug: soundcharts-plans-pricing
-random_paper: 64
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Soundcharts Rate Limits

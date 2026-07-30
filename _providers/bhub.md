@@ -75,7 +75,7 @@ overview: 'Bhub is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Bhub''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 12
+random_paper: 7
 score:
   band: emerging
   composite: 13.9

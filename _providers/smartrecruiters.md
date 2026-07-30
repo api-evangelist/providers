@@ -270,7 +270,7 @@ plans:
 - name: Smartrecruiters Plans Pricing
   plan_count: 4
   slug: smartrecruiters-plans-pricing
-random_paper: 27
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Smartrecruiters Rate Limits

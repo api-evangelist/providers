@@ -962,7 +962,7 @@ plans:
 - name: Microsoft Azure Synapse Analytics Plans Pricing
   plan_count: 5
   slug: microsoft-azure-synapse-analytics-plans-pricing
-random_paper: 5
+random_paper: 45
 rate_limits:
 - limit_count: 7
   name: Microsoft Azure Synapse Analytics Rate Limits

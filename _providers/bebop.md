@@ -39,7 +39,7 @@ name: Bebop
 nav: Providers
 network: true
 overview: Bebop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Enterprise Software, Application Development, and Cloud.
-random_paper: 34
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

@@ -75,7 +75,7 @@ overview: 'Smart Crowd is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Smart Crowd''s developer surface includes signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 5
+random_paper: 73
 score:
   band: emerging
   composite: 13.1

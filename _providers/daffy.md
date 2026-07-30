@@ -79,7 +79,7 @@ overview: 'Daffy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Daffy''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 36
+random_paper: 30
 score:
   band: emerging
   composite: 14.8

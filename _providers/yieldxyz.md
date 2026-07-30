@@ -173,7 +173,7 @@ plans:
 - name: Yieldxyz Plans
   plan_count: 3
   slug: yieldxyz-plans
-random_paper: 7
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Yieldxyz Rate Limits

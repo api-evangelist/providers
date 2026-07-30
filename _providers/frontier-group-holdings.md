@@ -75,7 +75,7 @@ overview: 'Frontier Group Holdings is profiled on the [APIs.io](https://apis.io/
 
 
   Frontier Group Holdings'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 27
+random_paper: 80
 score:
   band: minimal
   composite: 4.9

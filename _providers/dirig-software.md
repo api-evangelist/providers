@@ -40,7 +40,7 @@ name: Dirig Software
 nav: Providers
 network: true
 overview: Dirig Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Application Performance Management, Systems Management, and Monitoring.
-random_paper: 70
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

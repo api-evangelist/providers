@@ -48,7 +48,7 @@ name: Recount Media
 nav: Providers
 network: true
 overview: Recount Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, News, Politics, and Journalism.
-random_paper: 29
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

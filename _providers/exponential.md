@@ -197,7 +197,7 @@ overview: 'Exponential publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Exponential''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, CLI, authentication, and 21 more developer resources.'
-random_paper: 57
+random_paper: 43
 score:
   band: developing
   composite: 43.7

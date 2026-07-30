@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: OGE Energy Corp. announces the successful close of ...
   url: https://www.prnewswire.com/news-releases/oge-energy-corp-announces-the-successful-close-of-the-merger-between-energy-transfer-and-enable-midstream-partners-301436738.html
-random_paper: 39
+random_paper: 8
 score:
   band: minimal
   composite: 6.6

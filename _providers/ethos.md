@@ -100,7 +100,7 @@ overview: 'Ethos publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ethos'' developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 61
+random_paper: 55
 score:
   band: emerging
   composite: 23.5

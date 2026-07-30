@@ -236,7 +236,7 @@ overview: 'Kolide publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kolide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 65
+random_paper: 58
 score:
   band: strong
   composite: 58.9

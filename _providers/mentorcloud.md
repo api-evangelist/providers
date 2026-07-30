@@ -87,7 +87,7 @@ overview: 'MentorCloud is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   MentorCloud''s developer surface includes changelog, release notes, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 62
+random_paper: 48
 score:
   band: emerging
   composite: 19.1

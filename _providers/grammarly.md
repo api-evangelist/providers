@@ -176,7 +176,7 @@ overview: 'Grammarly publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Grammarly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 0
+random_paper: 70
 scopes:
 - name: Grammarly Scopes
   scope_count: 5

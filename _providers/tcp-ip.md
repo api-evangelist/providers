@@ -96,7 +96,7 @@ plans:
 - name: Tcp Ip Plans Pricing
   plan_count: 3
   slug: tcp-ip-plans-pricing
-random_paper: 22
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Tcp Ip Rate Limits

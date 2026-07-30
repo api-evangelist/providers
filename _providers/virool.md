@@ -63,7 +63,7 @@ overview: 'Virool is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Virool''s developer surface includes signup flow, support, and 3 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 8.5

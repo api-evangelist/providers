@@ -119,7 +119,7 @@ overview: 'Chill is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Chill''s developer surface includes documentation, authentication, engineering blog, support, and 12 more developer resources.'
-random_paper: 38
+random_paper: 32
 scopes:
 - name: Chill Scopes
   scope_count: 4

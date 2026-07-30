@@ -56,7 +56,7 @@ name: FFXIV Collect
 nav: Providers
 network: true
 overview: FFXIV Collect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 38
+random_paper: 22
 score:
   band: minimal
   composite: 5.7

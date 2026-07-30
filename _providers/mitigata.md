@@ -99,7 +99,7 @@ overview: 'Mitigata is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mitigata''s developer surface includes API reference, documentation, getting-started guide, engineering blog, support, and 9 more developer resources.'
-random_paper: 38
+random_paper: 28
 score:
   band: emerging
   composite: 21.9

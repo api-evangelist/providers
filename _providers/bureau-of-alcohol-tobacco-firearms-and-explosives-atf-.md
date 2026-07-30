@@ -88,7 +88,7 @@ plans:
 - name: Bureau Of Alcohol Tobacco Firearms And Explosives Atf  Plans Pricing
   plan_count: 3
   slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Bureau Of Alcohol Tobacco Firearms And Explosives Atf  Rate Limits

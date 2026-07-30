@@ -189,7 +189,7 @@ overview: 'ezoic publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ac
 
 
   ezoic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 24 more developer resources.'
-random_paper: 52
+random_paper: 46
 score:
   band: developing
   composite: 54.5

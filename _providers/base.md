@@ -56,7 +56,7 @@ name: Base
 nav: Providers
 network: true
 overview: Base publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 6
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

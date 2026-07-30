@@ -178,7 +178,7 @@ overview: 'Weatherbys Bank publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Weatherbys Bank''s developer surface includes authentication, documentation, engineering blog, support, and 21 more developer resources.'
-random_paper: 4
+random_paper: 67
 scopes:
 - name: Weatherbys Bank Scopes
   scope_count: 4

@@ -67,7 +67,7 @@ overview: 'Reach is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Reach''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 29
+random_paper: 23
 score:
   band: minimal
   composite: 11.8

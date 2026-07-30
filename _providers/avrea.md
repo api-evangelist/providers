@@ -140,7 +140,7 @@ overview: 'Avrea is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Avrea''s developer surface includes documentation, getting-started guide, developer console, pricing, engineering blog, signup flow, support, and 17 more developer resources.'
-random_paper: 41
+random_paper: 35
 score:
   band: thin
   composite: 37.0

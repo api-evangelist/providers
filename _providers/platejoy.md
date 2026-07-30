@@ -48,7 +48,7 @@ name: PlateJoy
 nav: Providers
 network: true
 overview: PlateJoy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Meal Planning, Nutrition, Recipes, and Health.
-random_paper: 62
+random_paper: 52
 score:
   band: minimal
   composite: 5.4

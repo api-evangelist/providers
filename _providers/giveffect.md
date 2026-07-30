@@ -91,7 +91,7 @@ overview: 'Giveffect publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Giveffect''s developer surface includes pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 56
+random_paper: 45
 score:
   band: emerging
   composite: 20.3

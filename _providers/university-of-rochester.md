@@ -174,7 +174,7 @@ plans:
 - name: University Of Rochester Plans Pricing
   plan_count: 2
   slug: university-of-rochester-plans-pricing
-random_paper: 51
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: University Of Rochester Rate Limits

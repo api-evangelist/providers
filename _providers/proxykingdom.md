@@ -56,7 +56,7 @@ name: ProxyKingdom
 nav: Providers
 network: true
 overview: ProxyKingdom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 27
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

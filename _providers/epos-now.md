@@ -115,7 +115,7 @@ plans:
 - name: Epos Now Plans Pricing
   plan_count: 4
   slug: epos-now-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Epos Now Rate Limits

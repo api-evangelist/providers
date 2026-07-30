@@ -154,7 +154,7 @@ overview: 'FreshBooks publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FreshBooks'' developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 25
+random_paper: 12
 rules:
 - name: FreshBooks API Rules
   rule_count: 6

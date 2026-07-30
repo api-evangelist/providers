@@ -44,7 +44,7 @@ name: Aeroscout
 nav: Providers
 network: true
 overview: Aeroscout is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Time Location Systems, RTLS, RFID, and Asset Tracking.
-random_paper: 9
+random_paper: 79
 score:
   band: minimal
   composite: 4.3

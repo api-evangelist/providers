@@ -48,7 +48,7 @@ name: ThinkUp
 nav: Providers
 network: true
 overview: ThinkUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Social Media, Social Media Analytics, and Open Source.
-random_paper: 42
+random_paper: 33
 score:
   band: minimal
   composite: 5.7

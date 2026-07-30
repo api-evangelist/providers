@@ -44,7 +44,7 @@ name: API Fortress
 nav: Providers
 network: true
 overview: API Fortress is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API Testing, API Monitoring, Continuous Testing, and Quality Assurance.
-random_paper: 32
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

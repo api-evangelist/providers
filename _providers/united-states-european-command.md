@@ -60,7 +60,7 @@ overview: 'United States European Command is profiled on the [APIs.io](https://a
 
 
   The United States European Command catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 45
+random_paper: 8
 rules:
 - name: United States European Command API Rules
   rule_count: 5

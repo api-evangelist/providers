@@ -121,7 +121,7 @@ plans:
 - name: Chainalysis Plans Pricing
   plan_count: 1
   slug: chainalysis-plans-pricing
-random_paper: 42
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Chainalysis Rate Limits

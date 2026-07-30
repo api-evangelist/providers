@@ -48,7 +48,7 @@ name: StackSocial
 nav: Providers
 network: true
 overview: StackSocial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace, Deals, and Digital Goods.
-random_paper: 35
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

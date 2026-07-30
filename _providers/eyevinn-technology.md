@@ -239,7 +239,7 @@ overview: 'Eyevinn Technology publishes 8 APIs on the [APIs.io](https://apis.io/
 
 
   Eyevinn Technology''s developer surface includes documentation, API reference, developer console, signup flow, pricing, GitHub presence, engineering blog, and 22 more developer resources.'
-random_paper: 32
+random_paper: 9
 score:
   band: emerging
   composite: 25.3

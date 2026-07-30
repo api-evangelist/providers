@@ -39,7 +39,7 @@ name: Messaging Protocol
 nav: Providers
 network: true
 overview: Messaging Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AMQP, Messaging Protocol, MQTT, Networking, and Protocols.
-random_paper: 22
+random_paper: 81
 score:
   band: minimal
   composite: 5.0

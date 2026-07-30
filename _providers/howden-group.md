@@ -111,7 +111,7 @@ overview: 'Howden Group is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Howden Group''s developer surface includes developer portal, engineering blog, support, and 16 more developer resources.'
-random_paper: 32
+random_paper: 17
 score:
   band: emerging
   composite: 20.1

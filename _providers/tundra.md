@@ -48,7 +48,7 @@ name: Tundra
 nav: Providers
 network: true
 overview: Tundra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Marketplace, Wholesale, and Retail.
-random_paper: 6
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

@@ -151,7 +151,7 @@ plans:
 - name: Blobr Plans Pricing
   plan_count: 3
   slug: blobr-plans-pricing
-random_paper: 43
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Blobr Rate Limits

@@ -64,7 +64,7 @@ name: 01health
 nav: Providers
 network: true
 overview: 01health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Dental, and Clinical.
-random_paper: 79
+random_paper: 71
 score:
   band: minimal
   composite: 12.7

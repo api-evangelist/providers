@@ -39,7 +39,7 @@ name: Oni Systems
 nav: Providers
 network: true
 overview: Oni Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Optical Networking, Telecommunications, and Hardware.
-random_paper: 29
+random_paper: 15
 score:
   band: minimal
   composite: 4.3

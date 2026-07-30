@@ -112,7 +112,7 @@ overview: 'Fibe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fibe''s developer surface includes authentication, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 1
+random_paper: 78
 scopes:
 - name: Fibe Scopes
   scope_count: 2

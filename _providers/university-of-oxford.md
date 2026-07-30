@@ -112,7 +112,7 @@ plans:
 - name: University Of Oxford Plans Pricing
   plan_count: 2
   slug: university-of-oxford-plans-pricing
-random_paper: 58
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: University Of Oxford Rate Limits

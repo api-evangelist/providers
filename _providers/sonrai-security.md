@@ -112,7 +112,7 @@ overview: 'Sonrai Security publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Sonrai Security''s developer surface includes documentation, pricing, signup flow, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 46
+random_paper: 27
 score:
   band: emerging
   composite: 26.8

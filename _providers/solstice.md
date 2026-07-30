@@ -48,7 +48,7 @@ name: Solstice
 nav: Providers
 network: true
 overview: Solstice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Solar, Community Solar, and Renewable Energy.
-random_paper: 60
+random_paper: 50
 score:
   band: minimal
   composite: 5.5

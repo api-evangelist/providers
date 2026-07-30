@@ -324,7 +324,7 @@ plans:
 - name: Beehiiv Plans Pricing
   plan_count: 4
   slug: beehiiv-plans-pricing
-random_paper: 3
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Beehiiv Rate Limits

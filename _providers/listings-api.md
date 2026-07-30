@@ -43,7 +43,7 @@ name: Listings API
 nav: Providers
 network: true
 overview: 'Listings API publishes 1 API on the [APIs.io](https://apis.io/) network: Listings API. Tagged areas include business-listings, local-seo, locations, reviews, and google-business-profile.'
-random_paper: 21
+random_paper: 6
 score:
   band: emerging
   composite: 14.4

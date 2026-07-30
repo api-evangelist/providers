@@ -87,7 +87,7 @@ plans:
 - name: Bureau Of Engraving And Printing Plans Pricing
   plan_count: 3
   slug: bureau-of-engraving-and-printing-plans-pricing
-random_paper: 21
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Bureau Of Engraving And Printing Rate Limits

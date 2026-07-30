@@ -48,7 +48,7 @@ name: Open
 nav: Providers
 network: true
 overview: Open is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Business Banking, and Neobank.
-random_paper: 29
+random_paper: 24
 score:
   band: minimal
   composite: 6.3

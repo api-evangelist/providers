@@ -104,7 +104,7 @@ plans:
 - name: Rapyd Plans Pricing
   plan_count: 1
   slug: rapyd-plans-pricing
-random_paper: 58
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Rapyd Rate Limits

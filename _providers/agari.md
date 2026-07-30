@@ -96,7 +96,7 @@ overview: 'Agari publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Agari''s developer surface includes documentation, API reference, getting-started guide, authentication, and 8 more developer resources.'
-random_paper: 30
+random_paper: 24
 score:
   band: emerging
   composite: 18.2

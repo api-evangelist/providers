@@ -88,7 +88,7 @@ overview: 'KNL is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   KNL''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 1
+random_paper: 79
 score:
   band: emerging
   composite: 16.1

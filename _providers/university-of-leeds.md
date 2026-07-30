@@ -102,7 +102,7 @@ plans:
 - name: University Of Leeds Plans Pricing
   plan_count: 2
   slug: university-of-leeds-plans-pricing
-random_paper: 6
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: University Of Leeds Rate Limits

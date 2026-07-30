@@ -489,7 +489,7 @@ overview: 'AEMO publishes 74 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   AEMO''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 45 more developer resources.'
-random_paper: 13
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Aemo Rate Limits

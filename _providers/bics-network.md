@@ -164,7 +164,7 @@ plans:
 - name: Bics Network Plans Pricing
   plan_count: 0
   slug: bics-network-plans-pricing
-random_paper: 25
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Bics Network Rate Limits

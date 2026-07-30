@@ -44,7 +44,7 @@ name: Walker and Company *
 nav: Providers
 network: true
 overview: Walker and Company * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Health, Beauty, and Grooming.
-random_paper: 20
+random_paper: 80
 score:
   band: minimal
   composite: 4.3

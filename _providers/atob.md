@@ -83,7 +83,7 @@ overview: 'AtoB is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   AtoB''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 17
+random_paper: 12
 score:
   band: emerging
   composite: 17.7

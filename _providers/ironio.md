@@ -170,7 +170,7 @@ overview: 'Iron.io publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Iron.io''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, CLI, and 20 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: developing
   composite: 47.4

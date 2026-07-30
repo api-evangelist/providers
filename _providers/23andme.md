@@ -87,7 +87,7 @@ overview: '23andMe is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   23andMe''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 51
+random_paper: 44
 score:
   band: emerging
   composite: 15.7

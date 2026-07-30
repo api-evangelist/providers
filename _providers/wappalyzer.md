@@ -162,7 +162,7 @@ plans:
 - name: Wappalyzer Plans Pricing
   plan_count: 4
   slug: wappalyzer-plans-pricing
-random_paper: 50
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Wappalyzer Rate Limits

@@ -91,7 +91,7 @@ overview: 'Beyond Math is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Beyond Math''s developer surface includes documentation, support, signup flow, and 9 more developer resources.'
-random_paper: 59
+random_paper: 46
 score:
   band: emerging
   composite: 13.8

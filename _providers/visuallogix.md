@@ -48,7 +48,7 @@ name: VisualLogix
 nav: Providers
 network: true
 overview: VisualLogix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CAD, Computer-Aided Design, Simulation, and Engineering Software.
-random_paper: 73
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

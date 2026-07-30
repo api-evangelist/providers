@@ -183,7 +183,7 @@ overview: 'Refact.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Refact.ai''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: emerging
   composite: 17.4

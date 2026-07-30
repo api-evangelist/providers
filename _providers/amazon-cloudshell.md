@@ -182,7 +182,7 @@ overview: 'Amazon CloudShell publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Amazon CloudShell''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 61
+random_paper: 40
 rules:
 - name: Amazon CloudShell API Rules
   rule_count: 19

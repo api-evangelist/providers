@@ -56,7 +56,7 @@ name: Detoure Inc
 nav: Providers
 network: true
 overview: Detoure Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Resale Marketplace, E-Commerce, and Sustainable Fashion.
-random_paper: 66
+random_paper: 53
 score:
   band: minimal
   composite: 9.2

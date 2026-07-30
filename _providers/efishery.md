@@ -53,7 +53,7 @@ name: eFishery
 nav: Providers
 network: true
 overview: eFishery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aquaculture, AgriTech, FishTech, and IoT.
-random_paper: 53
+random_paper: 43
 score:
   band: minimal
   composite: 5.7

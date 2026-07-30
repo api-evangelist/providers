@@ -121,7 +121,7 @@ plans:
 - name: Gloo Plans Pricing
   plan_count: 3
   slug: gloo-plans-pricing
-random_paper: 28
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Gloo Rate Limits

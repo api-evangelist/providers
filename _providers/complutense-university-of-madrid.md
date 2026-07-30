@@ -109,7 +109,7 @@ plans:
 - name: Complutense University Of Madrid Plans Pricing
   plan_count: 2
   slug: complutense-university-of-madrid-plans-pricing
-random_paper: 54
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Complutense University Of Madrid Rate Limits

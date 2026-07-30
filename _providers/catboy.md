@@ -56,7 +56,7 @@ name: Catboy
 nav: Providers
 network: true
 overview: Catboy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anime and Public APIs.
-random_paper: 75
+random_paper: 68
 score:
   band: minimal
   composite: 5.7

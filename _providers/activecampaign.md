@@ -540,7 +540,7 @@ plans:
 - name: Activecampaign Plans Pricing
   plan_count: 3
   slug: activecampaign-plans-pricing
-random_paper: 10
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Activecampaign Rate Limits

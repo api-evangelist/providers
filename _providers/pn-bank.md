@@ -169,7 +169,7 @@ overview: 'P&N Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   P&N Bank''s developer surface includes authentication, documentation, support, and 20 more developer resources.'
-random_paper: 31
+random_paper: 23
 score:
   band: thin
   composite: 36.8

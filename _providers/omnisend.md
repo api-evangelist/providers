@@ -381,7 +381,7 @@ plans:
 - name: Omnisend Plans Pricing
   plan_count: 4
   slug: omnisend-plans-pricing
-random_paper: 51
+random_paper: 41
 rate_limits:
 - limit_count: 17
   name: Omnisend Rate Limits

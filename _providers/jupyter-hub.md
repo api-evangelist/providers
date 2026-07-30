@@ -140,7 +140,7 @@ plans:
 - name: Jupyter Hub Plans Pricing
   plan_count: 3
   slug: jupyter-hub-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Jupyter Hub Rate Limits

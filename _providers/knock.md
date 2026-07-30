@@ -169,7 +169,7 @@ plans:
 - name: Knock Plans Pricing
   plan_count: 1
   slug: knock-plans-pricing
-random_paper: 48
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Knock Rate Limits

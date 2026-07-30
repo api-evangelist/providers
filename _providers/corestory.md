@@ -301,7 +301,7 @@ overview: 'CoreStory publishes 47 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CoreStory''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 30
+random_paper: 18
 scopes:
 - name: Corestory Scopes
   scope_count: 7

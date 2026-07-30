@@ -60,7 +60,7 @@ name: Match Group
 nav: Providers
 network: true
 overview: Match Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Dating, Consumer Internet, Social, Mobile Apps, and Subscription.
-random_paper: 74
+random_paper: 61
 score:
   band: minimal
   composite: 4.4

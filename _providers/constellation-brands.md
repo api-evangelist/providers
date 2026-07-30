@@ -164,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: 'Constellation Brands: Leveraging Technology, Data, and ...'
   url: https://cdotimes.com/2024/07/01/constellation-brands-leveraging-technology-data-and-ai-for-excellence/
-random_paper: 61
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Constellation Brands Rate Limits

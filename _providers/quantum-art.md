@@ -212,7 +212,7 @@ overview: 'Quantum Art publishes 24 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quantum Art''s developer surface includes authentication, documentation, API reference, signup flow, and 17 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: thin
   composite: 35.1

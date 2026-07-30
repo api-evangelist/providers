@@ -225,7 +225,7 @@ overview: 'Fortify Software publishes 28 APIs on the [APIs.io](https://apis.io/)
 
 
   Fortify Software''s developer surface includes documentation, API reference, support, engineering blog, CLI, changelog, and 17 more developer resources.'
-random_paper: 71
+random_paper: 51
 scopes:
 - name: Fortify Software Scopes
   scope_count: 13

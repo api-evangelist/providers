@@ -56,7 +56,7 @@ name: Spyse
 nav: Providers
 network: true
 overview: Spyse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 78
+random_paper: 72
 score:
   band: minimal
   composite: 5.7

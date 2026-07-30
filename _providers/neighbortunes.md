@@ -117,7 +117,7 @@ plans:
 - name: Neighbortunes Plans Pricing
   plan_count: 3
   slug: neighbortunes-plans-pricing
-random_paper: 28
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Neighbortunes Rate Limits

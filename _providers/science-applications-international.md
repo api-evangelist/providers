@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Science Applications International Corp Company Profile
   url: https://www.globaldata.com/company-profile/science-applications-international-corp/
-random_paper: 24
+random_paper: 63
 score:
   band: minimal
   composite: 10.2

@@ -75,7 +75,7 @@ overview: 'Greenwork is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Greenwork''s developer surface includes support and 7 more developer resources.'
-random_paper: 8
+random_paper: 78
 score:
   band: emerging
   composite: 14.1

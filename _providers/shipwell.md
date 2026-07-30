@@ -124,7 +124,7 @@ plans:
 - name: Shipwell Plans Pricing
   plan_count: 3
   slug: shipwell-plans-pricing
-random_paper: 62
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Shipwell Rate Limits

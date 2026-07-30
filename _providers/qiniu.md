@@ -151,7 +151,7 @@ overview: 'Qiniu Cloud publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Qiniu Cloud''s developer surface includes documentation, API reference, getting-started guide, support, pricing, CLI, authentication, and 17 more developer resources.'
-random_paper: 64
+random_paper: 58
 score:
   band: thin
   composite: 33.4

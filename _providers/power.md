@@ -72,7 +72,7 @@ name: Power
 nav: Providers
 network: true
 overview: Power is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Clinical Trials, Healthcare, Clinical Research, and Patient Matching.
-random_paper: 71
+random_paper: 65
 score:
   band: emerging
   composite: 15.2

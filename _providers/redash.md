@@ -56,7 +56,7 @@ name: Redash
 nav: Providers
 network: true
 overview: Redash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business and Public APIs.
-random_paper: 64
+random_paper: 57
 score:
   band: minimal
   composite: 5.7

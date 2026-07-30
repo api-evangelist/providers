@@ -148,7 +148,7 @@ overview: 'Timber publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Timber''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, CLI, authentication, and 17 more developer resources.'
-random_paper: 76
+random_paper: 69
 score:
   band: emerging
   composite: 26.4

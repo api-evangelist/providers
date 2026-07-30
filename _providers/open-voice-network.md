@@ -72,7 +72,7 @@ plans:
 - name: Open Voice Network Plans Pricing
   plan_count: 3
   slug: open-voice-network-plans-pricing
-random_paper: 54
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Open Voice Network Rate Limits

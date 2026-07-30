@@ -391,7 +391,7 @@ plans:
 - name: Azure Log Analytics Plans Pricing
   plan_count: 4
   slug: azure-log-analytics-plans-pricing
-random_paper: 68
+random_paper: 45
 rate_limits:
 - limit_count: 19
   name: Azure Log Analytics Rate Limits

@@ -87,7 +87,7 @@ overview: 'Erxes publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Erxes'' developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 65
+random_paper: 59
 score:
   band: emerging
   composite: 22.9

@@ -52,7 +52,7 @@ name: Quipper
 nav: Providers
 network: true
 overview: Quipper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, E-Learning, EdTech, and Online Learning.
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 5.7

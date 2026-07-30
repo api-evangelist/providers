@@ -147,7 +147,7 @@ overview: 'Voyager Portal publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Voyager Portal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 10
+random_paper: 74
 score:
   band: thin
   composite: 41.5

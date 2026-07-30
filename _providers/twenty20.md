@@ -52,7 +52,7 @@ name: Twenty20
 nav: Providers
 network: true
 overview: Twenty20 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stock Photos, Photography, Creative Assets, and Marketplace.
-random_paper: 52
+random_paper: 43
 score:
   band: minimal
   composite: 5.7

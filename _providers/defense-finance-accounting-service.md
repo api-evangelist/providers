@@ -77,7 +77,7 @@ plans:
 - name: Defense Finance Accounting Service Plans Pricing
   plan_count: 1
   slug: defense-finance-accounting-service-plans-pricing
-random_paper: 7
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Defense Finance Accounting Service Rate Limits

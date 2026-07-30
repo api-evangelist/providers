@@ -67,7 +67,7 @@ overview: 'TruckLabs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   TruckLabs'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 80
+random_paper: 69
 score:
   band: minimal
   composite: 8.4

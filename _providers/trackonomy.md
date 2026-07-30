@@ -95,7 +95,7 @@ overview: 'Trackonomy is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Trackonomy''s developer surface includes support, YouTube channel, and 11 more developer resources.'
-random_paper: 42
+random_paper: 29
 score:
   band: emerging
   composite: 13.6

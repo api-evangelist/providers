@@ -72,7 +72,7 @@ plans:
 - name: Supermove Plans Pricing
   plan_count: 1
   slug: supermove-plans-pricing
-random_paper: 26
+random_paper: 14
 score:
   band: emerging
   composite: 24.0

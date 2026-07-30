@@ -184,7 +184,7 @@ overview: 'GetYourGuide publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   GetYourGuide''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 13
+random_paper: 79
 score:
   band: developing
   composite: 42.5

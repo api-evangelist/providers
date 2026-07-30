@@ -63,7 +63,7 @@ overview: 'AutoChilango is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   AutoChilango''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 63
+random_paper: 48
 score:
   band: minimal
   composite: 8.4

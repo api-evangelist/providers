@@ -83,7 +83,7 @@ overview: 'Yulife is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Yulife''s developer surface includes engineering blog, support, pricing, and 7 more developer resources.'
-random_paper: 6
+random_paper: 80
 score:
   band: emerging
   composite: 17.3

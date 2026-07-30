@@ -108,7 +108,7 @@ overview: 'WideOrbit publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   WideOrbit''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 78
+random_paper: 67
 scopes:
 - name: Wideorbit Scopes
   scope_count: 0

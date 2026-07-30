@@ -142,7 +142,7 @@ plans:
 - name: Gridstatus Plans Pricing
   plan_count: 4
   slug: gridstatus-plans-pricing
-random_paper: 45
+random_paper: 32
 rate_limits:
 - limit_count: 7
   name: Gridstatus Rate Limits

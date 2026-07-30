@@ -120,7 +120,7 @@ overview: 'Ranger is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ranger''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, authentication, CLI, and 12 more developer resources.'
-random_paper: 72
+random_paper: 65
 score:
   band: thin
   composite: 29.1

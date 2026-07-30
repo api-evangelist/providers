@@ -221,7 +221,7 @@ plans:
 - name: Pdfshift Plans Pricing
   plan_count: 5
   slug: pdfshift-plans-pricing
-random_paper: 46
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Pdfshift Rate Limits

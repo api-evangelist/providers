@@ -56,7 +56,7 @@ name: Brighter
 nav: Providers
 network: true
 overview: Brighter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Health Insurance, and Digital Health.
-random_paper: 45
+random_paper: 35
 score:
   band: minimal
   composite: 5.6

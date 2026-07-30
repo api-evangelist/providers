@@ -44,7 +44,7 @@ name: OnFarm
 nav: Providers
 network: true
 overview: OnFarm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Internet of Things, and Data Integration.
-random_paper: 76
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

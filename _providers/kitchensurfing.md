@@ -68,7 +68,7 @@ overview: 'Kitchensurfing is profiled on the [APIs.io](https://apis.io/) network
 
 
   Kitchensurfing''s developer surface includes product news and 5 more developer resources.'
-random_paper: 50
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

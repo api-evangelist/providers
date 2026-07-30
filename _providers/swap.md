@@ -194,7 +194,7 @@ overview: 'Swap publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Swap''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 38
+random_paper: 33
 score:
   band: developing
   composite: 48.5

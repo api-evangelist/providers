@@ -362,7 +362,7 @@ plans:
 - name: Ramp Plans Pricing
   plan_count: 3
   slug: ramp-plans-pricing
-random_paper: 27
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Ramp Rate Limits

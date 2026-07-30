@@ -88,7 +88,7 @@ plans:
 - name: Tripo3D Plans Pricing
   plan_count: 3
   slug: tripo3d-plans-pricing
-random_paper: 61
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Tripo3D Rate Limits

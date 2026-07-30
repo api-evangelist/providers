@@ -137,7 +137,7 @@ overview: 'NPP Australia (AP+) publishes 3 APIs on the [APIs.io](https://apis.io
 
 
   NPP Australia (AP+)''s developer surface includes documentation, API reference, sandbox, signup flow, engineering blog, getting-started guide, support, and 16 more developer resources.'
-random_paper: 49
+random_paper: 33
 score:
   band: thin
   composite: 31.8

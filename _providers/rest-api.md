@@ -72,7 +72,7 @@ overview: 'REST API is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   The REST API catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 76
+random_paper: 67
 score:
   band: minimal
   composite: 12.0

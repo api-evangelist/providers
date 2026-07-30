@@ -63,7 +63,7 @@ overview: 'AKASA is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   AKASA''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 27
+random_paper: 21
 score:
   band: minimal
   composite: 9.0

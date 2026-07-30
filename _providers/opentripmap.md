@@ -166,7 +166,7 @@ plans:
 - name: Opentripmap Plans Pricing
   plan_count: 4
   slug: opentripmap-plans-pricing
-random_paper: 65
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Opentripmap Rate Limits

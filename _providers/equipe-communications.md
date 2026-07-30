@@ -53,7 +53,7 @@ name: Equipe Communications
 nav: Providers
 network: true
 overview: Equipe Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Networking Equipment, ATM, and MPLS.
-random_paper: 20
+random_paper: 75
 score:
   band: minimal
   composite: 4.3

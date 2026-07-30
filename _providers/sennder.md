@@ -136,7 +136,7 @@ plans:
 - name: Sennder Plans Pricing
   plan_count: 1
   slug: sennder-plans-pricing
-random_paper: 22
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Sennder Rate Limits

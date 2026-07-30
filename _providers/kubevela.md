@@ -72,7 +72,7 @@ plans:
 - name: Kubevela Plans Pricing
   plan_count: 3
   slug: kubevela-plans-pricing
-random_paper: 37
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Kubevela Rate Limits

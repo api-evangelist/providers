@@ -180,7 +180,7 @@ overview: 'Mosey publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mosey''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 71
+random_paper: 65
 score:
   band: thin
   composite: 38.6

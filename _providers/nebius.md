@@ -177,7 +177,7 @@ plans:
 - name: Nebius Plans Pricing
   plan_count: 1
   slug: nebius-plans-pricing
-random_paper: 79
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Nebius Rate Limits

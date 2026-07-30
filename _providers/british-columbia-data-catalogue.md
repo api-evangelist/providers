@@ -114,7 +114,7 @@ plans:
 - name: British Columbia Data Catalogue Plans Pricing
   plan_count: 3
   slug: british-columbia-data-catalogue-plans-pricing
-random_paper: 17
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: British Columbia Data Catalogue Rate Limits

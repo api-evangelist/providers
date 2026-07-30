@@ -87,7 +87,7 @@ overview: 'Sojern is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sojern''s developer surface includes engineering blog, pricing, support, and 8 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
   composite: 16.7

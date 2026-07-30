@@ -91,7 +91,7 @@ overview: 'Napatech is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Napatech''s developer surface includes documentation, API reference, support, engineering blog, and 8 more developer resources.'
-random_paper: 26
+random_paper: 16
 score:
   band: emerging
   composite: 16.1

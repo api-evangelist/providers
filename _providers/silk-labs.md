@@ -79,7 +79,7 @@ overview: 'Silk Labs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Silk Labs'' developer surface includes documentation, CLI, and 7 more developer resources.'
-random_paper: 7
+random_paper: 78
 score:
   band: minimal
   composite: 10.8

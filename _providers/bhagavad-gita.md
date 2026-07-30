@@ -60,7 +60,7 @@ name: Bhagavad Gita
 nav: Providers
 network: true
 overview: Bhagavad Gita publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 65
+random_paper: 50
 score:
   band: minimal
   composite: 5.7

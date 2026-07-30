@@ -100,7 +100,7 @@ overview: 'Kodiak AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kodiak AI''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 60
+random_paper: 53
 score:
   band: emerging
   composite: 13.1

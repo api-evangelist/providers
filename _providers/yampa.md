@@ -99,7 +99,7 @@ overview: 'Yampa is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Yampa''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
-random_paper: 50
+random_paper: 44
 score:
   band: emerging
   composite: 22.5

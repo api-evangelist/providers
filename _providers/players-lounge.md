@@ -91,7 +91,7 @@ overview: 'Players Lounge is profiled on the [APIs.io](https://apis.io/) network
 
 
   Players Lounge''s developer surface includes support, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 5
+random_paper: 69
 score:
   band: emerging
   composite: 14.3

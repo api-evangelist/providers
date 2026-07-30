@@ -87,7 +87,7 @@ overview: 'Terminal is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Terminal''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 50
+random_paper: 40
 score:
   band: emerging
   composite: 15.6

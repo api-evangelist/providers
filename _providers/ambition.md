@@ -64,7 +64,7 @@ name: Ambition
 nav: Providers
 network: true
 overview: Ambition is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Career Development, and Life Skills.
-random_paper: 41
+random_paper: 31
 score:
   band: minimal
   composite: 9.2

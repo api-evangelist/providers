@@ -59,7 +59,7 @@ overview: 'aeonmed is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   aeonmed''s developer surface includes support and 3 more developer resources.'
-random_paper: 0
+random_paper: 73
 score:
   band: minimal
   composite: 6.1

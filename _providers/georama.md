@@ -75,7 +75,7 @@ overview: 'Georama is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Georama''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 3
+random_paper: 76
 score:
   band: emerging
   composite: 13.1

@@ -137,7 +137,7 @@ plans:
 - name: Vespa Plans Pricing
   plan_count: 1
   slug: vespa-plans-pricing
-random_paper: 57
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Vespa Rate Limits

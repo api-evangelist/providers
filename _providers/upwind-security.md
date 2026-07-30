@@ -204,7 +204,7 @@ overview: 'Upwind Security publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Upwind Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 21 more developer resources.'
-random_paper: 57
+random_paper: 38
 scopes:
 - name: Upwind Security Scopes
   scope_count: 26

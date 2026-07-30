@@ -71,7 +71,7 @@ overview: 'Rebag is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Rebag''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 27
+random_paper: 21
 score:
   band: minimal
   composite: 8.4

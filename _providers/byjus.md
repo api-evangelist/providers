@@ -48,7 +48,7 @@ name: Byjus
 nav: Providers
 network: true
 overview: Byjus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, E-Learning, and Online Learning.
-random_paper: 71
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

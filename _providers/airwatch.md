@@ -44,7 +44,7 @@ name: AirWatch
 nav: Providers
 network: true
 overview: AirWatch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Mobile Device Management, MDM, and Enterprise Mobility Management.
-random_paper: 41
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

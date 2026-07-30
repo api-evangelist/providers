@@ -48,7 +48,7 @@ name: Florin
 nav: Providers
 network: true
 overview: Florin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking as a Service, Neobank, and Payments.
-random_paper: 2
+random_paper: 76
 score:
   band: minimal
   composite: 5.7

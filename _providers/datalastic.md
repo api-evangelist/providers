@@ -131,7 +131,7 @@ plans:
 - name: Datalastic Plans Pricing
   plan_count: 6
   slug: datalastic-plans-pricing
-random_paper: 78
+random_paper: 66
 rate_limits:
 - limit_count: 7
   name: Datalastic Rate Limits

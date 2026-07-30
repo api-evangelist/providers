@@ -39,7 +39,7 @@ name: Optiant
 nav: Providers
 network: true
 overview: Optiant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Inventory Optimization, Supply Chain Optimization, and Manufacturing.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

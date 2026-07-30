@@ -194,7 +194,7 @@ overview: 'Axsome Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   The Axsome Therapeutics catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 51
+random_paper: 27
 score:
   band: emerging
   composite: 16.2

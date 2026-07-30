@@ -71,7 +71,7 @@ overview: 'Translucent AI is profiled on the [APIs.io](https://apis.io/) network
 
 
   Translucent AI''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 73
+random_paper: 56
 score:
   band: minimal
   composite: 12.4

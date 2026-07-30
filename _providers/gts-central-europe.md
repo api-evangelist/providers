@@ -48,7 +48,7 @@ name: GTS Central Europe
 nav: Providers
 network: true
 overview: GTS Central Europe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Cloud, Cyber Security, and Connectivity.
-random_paper: 43
+random_paper: 21
 score:
   band: minimal
   composite: 5.5

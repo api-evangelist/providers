@@ -133,7 +133,7 @@ plans:
 - name: Ford Plans Pricing
   plan_count: 2
   slug: ford-plans-pricing
-random_paper: 22
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Ford Rate Limits

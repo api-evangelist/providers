@@ -99,7 +99,7 @@ overview: 'SwingVision is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SwingVision''s developer surface includes engineering blog, documentation, support, FAQ, pricing, signup flow, changelog, and 7 more developer resources.'
-random_paper: 1
+random_paper: 68
 score:
   band: emerging
   composite: 21.6

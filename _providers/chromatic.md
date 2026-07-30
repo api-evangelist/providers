@@ -105,7 +105,7 @@ plans:
 - name: Chromatic Plans Pricing
   plan_count: 4
   slug: chromatic-plans-pricing
-random_paper: 63
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Chromatic Rate Limits

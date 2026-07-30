@@ -79,7 +79,7 @@ overview: 'PraxisPro AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   PraxisPro AI''s developer surface includes engineering blog, changelog, and 7 more developer resources.'
-random_paper: 32
+random_paper: 17
 score:
   band: emerging
   composite: 14.6

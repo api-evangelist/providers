@@ -107,7 +107,7 @@ plans:
 - name: Zilliz Plans Pricing
   plan_count: 1
   slug: zilliz-plans-pricing
-random_paper: 22
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Zilliz Rate Limits

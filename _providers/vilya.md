@@ -79,7 +79,7 @@ overview: 'Vilya is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Vilya''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 63
+random_paper: 57
 score:
   band: minimal
   composite: 11.6

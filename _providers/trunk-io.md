@@ -128,7 +128,7 @@ plans:
 - name: Trunk Io Plans Pricing
   plan_count: 3
   slug: trunk-io-plans-pricing
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Trunk Io Rate Limits

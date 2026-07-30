@@ -120,7 +120,7 @@ overview: 'Nivelo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nivelo''s developer surface includes signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 5
+random_paper: 79
 score:
   band: emerging
   composite: 27.1

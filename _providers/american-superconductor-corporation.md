@@ -71,7 +71,7 @@ overview: 'American Superconductor Corporation is profiled on the [APIs.io](http
 
 
   American Superconductor Corporation''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 13
+random_paper: 50
 score:
   band: minimal
   composite: 11.8

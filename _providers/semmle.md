@@ -48,7 +48,7 @@ name: Semmle
 nav: Providers
 network: true
 overview: Semmle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Code Analysis, Application Security, and Static Analysis.
-random_paper: 76
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

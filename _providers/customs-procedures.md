@@ -20,7 +20,7 @@ modified: '2026-04-28'
 name: Customs Procedures
 nav: Providers
 network: true
-random_paper: 48
+random_paper: 25
 slug: customs-procedures
 tags:
 - ATA Carnet

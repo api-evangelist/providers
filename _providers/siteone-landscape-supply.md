@@ -44,7 +44,7 @@ name: SiteOne Landscape Supply
 nav: Providers
 network: true
 overview: SiteOne Landscape Supply is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 43
+random_paper: 13
 score:
   band: minimal
   composite: 2.6

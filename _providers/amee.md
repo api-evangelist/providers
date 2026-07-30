@@ -52,7 +52,7 @@ name: AMEE
 nav: Providers
 network: true
 overview: AMEE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon, Emissions, Energy Data, and Sustainability.
-random_paper: 3
+random_paper: 80
 score:
   band: minimal
   composite: 4.3

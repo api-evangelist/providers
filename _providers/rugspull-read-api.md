@@ -33,7 +33,7 @@ name: Rugspull Read API
 nav: Providers
 network: true
 overview: 'Rugspull Read API publishes 1 API on the [APIs.io](https://apis.io/) network: Rugspull Read API. Tagged areas include bnb-smart-chain, bsc, wbnb, read-only, and openapi.'
-random_paper: 9
+random_paper: 70
 score:
   band: emerging
   composite: 14.0

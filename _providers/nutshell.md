@@ -129,7 +129,7 @@ overview: 'Nutshell publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nutshell''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: thin
   composite: 29.5

@@ -143,7 +143,7 @@ plans:
 - name: Highspot Plans Pricing
   plan_count: 3
   slug: highspot-plans-pricing
-random_paper: 60
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Highspot Rate Limits

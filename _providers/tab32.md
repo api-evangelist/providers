@@ -90,7 +90,7 @@ plans:
 - name: Tab32 Plans Pricing
   plan_count: 3
   slug: tab32-plans-pricing
-random_paper: 7
+random_paper: 2
 score:
   band: emerging
   composite: 13.6

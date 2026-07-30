@@ -84,7 +84,7 @@ plans:
 - name: Opendata Gov Je Plans Pricing
   plan_count: 1
   slug: opendata-gov-je-plans-pricing
-random_paper: 15
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Opendata Gov Je Rate Limits

@@ -253,7 +253,7 @@ overview: 'Bem publishes 22 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Bem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 65
+random_paper: 62
 score:
   band: strong
   composite: 57.6

@@ -63,7 +63,7 @@ overview: 'Multiply is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Multiply''s developer surface includes pricing and 4 more developer resources.'
-random_paper: 5
+random_paper: 76
 score:
   band: minimal
   composite: 11.8

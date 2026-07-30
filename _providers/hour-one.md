@@ -161,7 +161,7 @@ overview: 'Hour One publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Hour One''s developer surface includes documentation, API reference, getting-started guide, authentication, and 16 more developer resources.'
-random_paper: 3
+random_paper: 75
 score:
   band: thin
   composite: 37.0

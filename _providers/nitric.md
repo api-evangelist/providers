@@ -122,7 +122,7 @@ plans:
 - name: Nitric Plans Pricing
   plan_count: 2
   slug: nitric-plans-pricing
-random_paper: 1
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Nitric Rate Limits

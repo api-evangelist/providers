@@ -99,7 +99,7 @@ plans:
 - name: Afterpay Plans Pricing
   plan_count: 1
   slug: afterpay-plans-pricing
-random_paper: 50
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Afterpay Rate Limits

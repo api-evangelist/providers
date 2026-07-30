@@ -63,7 +63,7 @@ overview: 'Key is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Key''s developer surface includes engineering blog, support, pricing, and 2 more developer resources.'
-random_paper: 5
+random_paper: 1
 score:
   band: minimal
   composite: 8.4

@@ -39,7 +39,7 @@ name: Omniture
 nav: Providers
 network: true
 overview: Omniture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Web Analytics, Marketing, and Adobe.
-random_paper: 73
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

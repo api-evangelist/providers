@@ -193,7 +193,7 @@ plans:
 - name: Filebase Plans Pricing
   plan_count: 3
   slug: filebase-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Filebase Rate Limits

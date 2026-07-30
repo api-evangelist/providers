@@ -106,7 +106,7 @@ plans:
 - name: Waseda Plans Pricing
   plan_count: 2
   slug: waseda-plans-pricing
-random_paper: 62
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Waseda Rate Limits

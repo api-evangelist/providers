@@ -54,7 +54,7 @@ overview: 'securian-financial is profiled on the [APIs.io](https://apis.io/) net
 
 
   securian-financial''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 54
+random_paper: 32
 score:
   band: minimal
   composite: 3.0

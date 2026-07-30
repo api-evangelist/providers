@@ -102,7 +102,7 @@ name: Axalta Coating Systems
 nav: Providers
 network: true
 overview: Axalta Coating Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Coatings, Industrial Coatings, Automotive Refinish, Mobility, and Manufacturing.
-random_paper: 71
+random_paper: 44
 score:
   band: minimal
   composite: 9.9

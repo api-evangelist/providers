@@ -62,7 +62,7 @@ overview: 'SUSE publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   SUSE''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 43
+random_paper: 38
 score:
   band: minimal
   composite: 7.3

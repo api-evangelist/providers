@@ -39,7 +39,7 @@ name: SGI (Silicon Graphics)
 nav: Providers
 network: true
 overview: SGI (Silicon Graphics) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Historic, Defunct, Supercomputing, and Graphics.
-random_paper: 80
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

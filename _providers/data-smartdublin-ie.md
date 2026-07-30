@@ -76,7 +76,7 @@ plans:
 - name: Data Smartdublin Ie Plans Pricing
   plan_count: 0
   slug: data-smartdublin-ie-plans-pricing
-random_paper: 32
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Data Smartdublin Ie Rate Limits

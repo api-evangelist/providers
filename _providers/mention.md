@@ -128,7 +128,7 @@ plans:
 - name: Mention Plans Pricing
   plan_count: 3
   slug: mention-plans-pricing
-random_paper: 33
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Mention Rate Limits

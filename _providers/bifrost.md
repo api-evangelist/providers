@@ -233,7 +233,7 @@ plans:
 - name: Bifrost Plans Pricing
   plan_count: 2
   slug: bifrost-plans-pricing
-random_paper: 32
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Bifrost Rate Limits

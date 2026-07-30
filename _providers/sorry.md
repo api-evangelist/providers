@@ -135,7 +135,7 @@ plans:
 - name: Sorry Plans Pricing
   plan_count: 3
   slug: sorry-plans-pricing
-random_paper: 8
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Sorry Rate Limits

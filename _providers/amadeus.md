@@ -7220,7 +7220,7 @@ plans:
 - name: Amadeus Plans Pricing
   plan_count: 3
   slug: amadeus-plans-pricing
-random_paper: 7
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Amadeus Rate Limits

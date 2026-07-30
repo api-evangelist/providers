@@ -67,7 +67,7 @@ overview: 'Fourier Intelligence is profiled on the [APIs.io](https://apis.io/) n
 
 
   Fourier Intelligence''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 51
+random_paper: 26
 score:
   band: minimal
   composite: 8.5

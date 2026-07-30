@@ -1837,7 +1837,7 @@ plans:
 - name: Dynatrace Plans Pricing
   plan_count: 12
   slug: dynatrace-plans-pricing
-random_paper: 64
+random_paper: 53
 rate_limits:
 - limit_count: 6
   name: Dynatrace Rate Limits

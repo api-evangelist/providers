@@ -100,7 +100,7 @@ plans:
 - name: Aisstream Plans Pricing
   plan_count: 1
   slug: aisstream-plans-pricing
-random_paper: 78
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Aisstream Rate Limits

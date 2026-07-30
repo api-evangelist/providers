@@ -155,7 +155,7 @@ overview: 'Blue Square Group Limited publishes 1 API on the [APIs.io](https://ap
 
 
   Blue Square Group Limited''s developer surface includes documentation, API reference, authentication, sandbox, and 19 more developer resources.'
-random_paper: 6
+random_paper: 57
 score:
   band: thin
   composite: 35.2

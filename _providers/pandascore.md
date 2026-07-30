@@ -159,7 +159,7 @@ plans:
 - name: Pandascore Plans Pricing
   plan_count: 1
   slug: pandascore-plans-pricing
-random_paper: 3
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Pandascore Rate Limits

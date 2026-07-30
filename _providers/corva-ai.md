@@ -131,7 +131,7 @@ plans:
 - name: Corva Ai Plans Pricing
   plan_count: 3
   slug: corva-ai-plans-pricing
-random_paper: 57
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Corva Ai Rate Limits

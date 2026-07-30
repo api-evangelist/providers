@@ -165,7 +165,7 @@ plans:
 - name: Looksrare Plans Pricing
   plan_count: 2
   slug: looksrare-plans-pricing
-random_paper: 6
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Looksrare Rate Limits

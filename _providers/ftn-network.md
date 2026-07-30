@@ -63,7 +63,7 @@ overview: 'FTN Network publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   FTN Network''s developer surface includes pricing and 3 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: minimal
   composite: 8.0

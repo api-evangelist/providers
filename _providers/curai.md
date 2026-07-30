@@ -147,7 +147,7 @@ overview: 'Curai publishes 1 API on the [APIs.io](https://apis.io/) network: Par
 
 
   Curai''s developer surface includes documentation, getting-started guide, authentication, sandbox, and 18 more developer resources.'
-random_paper: 46
+random_paper: 40
 score:
   band: thin
   composite: 34.9

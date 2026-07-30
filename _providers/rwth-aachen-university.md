@@ -288,7 +288,7 @@ plans:
 - name: Rwth Aachen University Plans Pricing
   plan_count: 2
   slug: rwth-aachen-university-plans-pricing
-random_paper: 5
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Rwth Aachen University Rate Limits

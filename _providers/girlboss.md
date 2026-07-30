@@ -68,7 +68,7 @@ name: Girlboss
 nav: Providers
 network: true
 overview: Girlboss is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Community, Ecommerce, and Retail.
-random_paper: 59
+random_paper: 49
 score:
   band: emerging
   composite: 13.7

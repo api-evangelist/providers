@@ -71,7 +71,7 @@ overview: 'Playtika Holding is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Playtika Holding''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 29
+random_paper: 9
 score:
   band: minimal
   composite: 4.6

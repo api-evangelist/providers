@@ -59,7 +59,7 @@ overview: 'Genial Care is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Genial Care''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 27
+random_paper: 14
 score:
   band: minimal
   composite: 8.3

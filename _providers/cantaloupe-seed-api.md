@@ -92,7 +92,7 @@ plans:
 - name: Cantaloupe Seed Api Plans Pricing
   plan_count: 3
   slug: cantaloupe-seed-api-plans-pricing
-random_paper: 26
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Cantaloupe Seed Api Rate Limits

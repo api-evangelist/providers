@@ -71,7 +71,7 @@ overview: 'Nym is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Nym''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: emerging
   composite: 13.1

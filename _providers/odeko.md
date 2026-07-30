@@ -91,7 +91,7 @@ overview: 'Odeko is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Odeko''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 44
+random_paper: 38
 score:
   band: emerging
   composite: 16.7

@@ -39,7 +39,7 @@ name: Sessions
 nav: Providers
 network: true
 overview: Sessions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Communication, Collaboration, Video Conferencing, and Webinars.
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

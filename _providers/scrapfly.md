@@ -133,7 +133,7 @@ plans:
 - name: Scrapfly Plans Pricing
   plan_count: 6
   slug: scrapfly-plans-pricing
-random_paper: 58
+random_paper: 48
 rate_limits:
 - limit_count: 7
   name: Scrapfly Rate Limits

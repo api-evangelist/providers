@@ -48,7 +48,7 @@ name: Salad Ventures
 nav: Providers
 network: true
 overview: Salad Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Venture Capital, Investment, and Blockchain.
-random_paper: 77
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

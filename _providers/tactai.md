@@ -44,7 +44,7 @@ name: Tact.ai
 nav: Providers
 network: true
 overview: Tact.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Conversational AI, Sales, and CRM.
-random_paper: 63
+random_paper: 56
 score:
   band: minimal
   composite: 4.3

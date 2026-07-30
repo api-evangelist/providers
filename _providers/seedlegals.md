@@ -108,7 +108,7 @@ overview: 'SeedLegals is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   SeedLegals'' developer surface includes pricing, engineering blog, support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 77
+random_paper: 65
 scopes:
 - name: Seedlegals Scopes
   scope_count: 7

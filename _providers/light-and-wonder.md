@@ -63,7 +63,7 @@ overview: 'Light & Wonder is profiled on the [APIs.io](https://apis.io/) network
 
 
   Light & Wonder''s developer surface includes developer portal, support, and 3 more developer resources.'
-random_paper: 49
+random_paper: 30
 score:
   band: minimal
   composite: 7.0

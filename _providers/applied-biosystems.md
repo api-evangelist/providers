@@ -44,7 +44,7 @@ name: Applied Biosystems
 nav: Providers
 network: true
 overview: Applied Biosystems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Genomics, PCR, and Sequencing.
-random_paper: 23
+random_paper: 0
 score:
   band: minimal
   composite: 4.3

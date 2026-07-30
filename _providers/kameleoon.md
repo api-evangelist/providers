@@ -139,7 +139,7 @@ plans:
 - name: Kameleoon Plans Pricing
   plan_count: 1
   slug: kameleoon-plans-pricing
-random_paper: 64
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Kameleoon Rate Limits

@@ -39,7 +39,7 @@ name: Kanler
 nav: Providers
 network: true
 overview: Kanler is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Improvement, Construction, Marketplace, and Contractors.
-random_paper: 70
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

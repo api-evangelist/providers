@@ -114,7 +114,7 @@ plans:
 - name: Bdd Plans Pricing
   plan_count: 3
   slug: bdd-plans-pricing
-random_paper: 55
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Bdd Rate Limits

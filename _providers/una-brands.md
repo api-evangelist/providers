@@ -79,7 +79,7 @@ overview: 'Una Brands is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Una Brands'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 31
+random_paper: 19
 score:
   band: minimal
   composite: 11.8

@@ -67,7 +67,7 @@ overview: 'Luminai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Luminai''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 22
+random_paper: 13
 score:
   band: minimal
   composite: 11.9

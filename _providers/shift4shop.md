@@ -104,7 +104,7 @@ plans:
 - name: Shift4Shop Plans Pricing
   plan_count: 5
   slug: shift4shop-plans-pricing
-random_paper: 64
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Shift4Shop Rate Limits

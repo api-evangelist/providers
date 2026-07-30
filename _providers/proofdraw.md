@@ -33,7 +33,7 @@ name: ProofDraw
 nav: Providers
 network: true
 overview: ProofDraw publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include randomness, provably-fair, drand, verifiable-randomness, and cryptography.
-random_paper: 8
+random_paper: 78
 score:
   band: emerging
   composite: 14.0

@@ -103,7 +103,7 @@ overview: 'Logseq is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Logseq''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, and 9 more developer resources.'
-random_paper: 3
+random_paper: 77
 score:
   band: emerging
   composite: 20.8

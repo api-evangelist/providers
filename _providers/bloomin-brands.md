@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Bloomin' Brands
   url: https://www.opentext.com/ca/customers/bloomin-brands
-random_paper: 54
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

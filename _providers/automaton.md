@@ -39,7 +39,7 @@ name: Automaton
 nav: Providers
 network: true
 overview: Automaton is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 12
+random_paper: 0
 score:
   band: minimal
   composite: 3.2

@@ -203,7 +203,7 @@ overview: 'Virtual Peaker publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Virtual Peaker''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, changelog, and 26 more developer resources.'
-random_paper: 75
+random_paper: 58
 scopes:
 - name: Virtual Peaker Scopes
   scope_count: 3

@@ -809,7 +809,7 @@ plans:
 - name: Bandwidth Plans Pricing
   plan_count: 2
   slug: bandwidth-plans-pricing
-random_paper: 58
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Bandwidth Rate Limits

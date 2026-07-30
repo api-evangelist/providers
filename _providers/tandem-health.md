@@ -107,7 +107,7 @@ overview: 'Tandem Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Tandem Health''s developer surface includes pricing, signup flow, support, engineering blog, changelog, and 11 more developer resources.'
-random_paper: 12
+random_paper: 78
 score:
   band: emerging
   composite: 23.7

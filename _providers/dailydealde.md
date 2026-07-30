@@ -63,7 +63,7 @@ overview: 'DailyDeal.de is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   DailyDeal.de''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 4
+random_paper: 72
 score:
   band: minimal
   composite: 8.4

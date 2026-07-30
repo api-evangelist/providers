@@ -109,7 +109,7 @@ plans:
 - name: Outreach Plans Pricing
   plan_count: 1
   slug: outreach-plans-pricing
-random_paper: 49
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Outreach Rate Limits

@@ -33,7 +33,7 @@ name: Chocodata
 nav: Providers
 network: true
 overview: Chocodata publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include web-scraping, data-extraction, serp, e-commerce-data, and social-media-data.
-random_paper: 43
+random_paper: 32
 score:
   band: minimal
   composite: 5.9

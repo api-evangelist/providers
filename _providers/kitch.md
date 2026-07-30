@@ -53,7 +53,7 @@ name: Kitch
 nav: Providers
 network: true
 overview: Kitch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Food Delivery, Order Management, and Point of Sale.
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 5.0

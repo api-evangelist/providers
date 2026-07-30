@@ -67,7 +67,7 @@ overview: 'Scarlet is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Scarlet''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 21
+random_paper: 12
 score:
   band: minimal
   composite: 11.6

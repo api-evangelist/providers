@@ -111,7 +111,7 @@ plans:
 - name: Medrio Plans Pricing
   plan_count: 1
   slug: medrio-plans-pricing
-random_paper: 73
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Medrio Rate Limits

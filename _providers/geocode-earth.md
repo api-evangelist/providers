@@ -118,7 +118,7 @@ plans:
 - name: Geocode Earth Plans Pricing
   plan_count: 5
   slug: geocode-earth-plans-pricing
-random_paper: 7
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Geocode Earth Rate Limits

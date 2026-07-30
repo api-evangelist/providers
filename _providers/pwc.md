@@ -52,7 +52,7 @@ name: PwC
 nav: Providers
 network: true
 overview: PwC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Accounting, Audit, Tax, and Professional Services.
-random_paper: 6
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

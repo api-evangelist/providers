@@ -75,7 +75,7 @@ overview: 'Crabi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Crabi''s developer surface includes signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 27
+random_paper: 21
 score:
   band: emerging
   composite: 14.3

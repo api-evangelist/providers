@@ -249,7 +249,7 @@ overview: 'Consumer Data Right (Energy) publishes 6 APIs on the [APIs.io](https:
 
 
   Consumer Data Right (Energy)''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, changelog, and 35 more developer resources.'
-random_paper: 36
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Cdr Energy Rate Limits

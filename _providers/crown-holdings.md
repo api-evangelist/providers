@@ -60,7 +60,7 @@ press:
 - date: '2026-05-25'
   title: BUILT TO PERFORM
   url: https://www.crowncork.com/sites/default/files/2025-03/2024_Annual_Report-Crown_Holdings_Inc.pdf
-random_paper: 77
+random_paper: 60
 score:
   band: minimal
   composite: 2.6

@@ -48,7 +48,7 @@ name: Personalis
 nav: Providers
 network: true
 overview: Personalis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Genomics, Oncology, Diagnostics, and Sequencing.
-random_paper: 35
+random_paper: 22
 score:
   band: minimal
   composite: 5.4

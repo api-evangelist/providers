@@ -56,7 +56,7 @@ name: BreezoMeter Pollen
 nav: Providers
 network: true
 overview: BreezoMeter Pollen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 20
+random_paper: 79
 score:
   band: minimal
   composite: 5.7

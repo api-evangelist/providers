@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: H. B. Fuller Company (FUL) reports earnings - Quartz
   url: https://qz.com/h-b-fuller-company-ful-reports-earnings-1851746632
-random_paper: 6
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

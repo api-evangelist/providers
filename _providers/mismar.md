@@ -71,7 +71,7 @@ overview: 'MisMar is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   MisMar''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 1
+random_paper: 75
 score:
   band: minimal
   composite: 7.3

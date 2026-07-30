@@ -132,7 +132,7 @@ overview: 'Redotpay publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Redotpay''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, and 14 more developer resources.'
-random_paper: 62
+random_paper: 52
 scopes:
 - name: Redotpay Scopes
   scope_count: 0

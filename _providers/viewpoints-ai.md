@@ -145,7 +145,7 @@ overview: 'Viewpoints AI publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Viewpoints AI''s developer surface includes documentation, API reference, authentication, and 17 more developer resources.'
-random_paper: 63
+random_paper: 47
 score:
   band: thin
   composite: 39.7

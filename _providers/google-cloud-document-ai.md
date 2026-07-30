@@ -142,7 +142,7 @@ plans:
 - name: Google Cloud Document Ai Plans Pricing
   plan_count: 3
   slug: google-cloud-document-ai-plans-pricing
-random_paper: 23
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Google Cloud Document Ai Rate Limits

@@ -107,7 +107,7 @@ overview: 'Healthcatalyst is profiled on the [APIs.io](https://apis.io/) network
 
 
   Healthcatalyst''s developer surface includes documentation, engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 41
+random_paper: 23
 score:
   band: emerging
   composite: 24.9

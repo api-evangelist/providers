@@ -148,7 +148,7 @@ plans:
 - name: Freecurrencyapi Plans Pricing
   plan_count: 2
   slug: freecurrencyapi-plans-pricing
-random_paper: 68
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Freecurrencyapi Rate Limits

@@ -99,7 +99,7 @@ overview: 'Sails Co is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sails Co''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, and 9 more developer resources.'
-random_paper: 66
+random_paper: 57
 score:
   band: emerging
   composite: 17.2

@@ -168,7 +168,7 @@ plans:
 - name: Buf Plans Pricing
   plan_count: 3
   slug: buf-plans-pricing
-random_paper: 74
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Buf Rate Limits

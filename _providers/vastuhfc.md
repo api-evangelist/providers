@@ -91,7 +91,7 @@ overview: 'Vastu Housing Finance Corporation is profiled on the [APIs.io](https:
 
 
   Vastu Housing Finance Corporation''s developer surface includes support, FAQ, pricing, and 9 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: emerging
   composite: 14.0

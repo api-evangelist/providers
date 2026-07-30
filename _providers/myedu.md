@@ -39,7 +39,7 @@ name: MyEdu
 nav: Providers
 network: true
 overview: MyEdu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Fintech.
-random_paper: 62
+random_paper: 56
 score:
   band: minimal
   composite: 4.1

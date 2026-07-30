@@ -784,7 +784,7 @@ plans:
 - name: Argyle Plans Pricing
   plan_count: 2
   slug: argyle-plans-pricing
-random_paper: 77
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Argyle Rate Limits

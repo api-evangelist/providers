@@ -132,7 +132,7 @@ overview: 'My Real Trip publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   My Real Trip''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, sandbox, and 14 more developer resources.'
-random_paper: 53
+random_paper: 39
 rate_limits:
 - limit_count: 14
   name: My Real Trip Rate Limits

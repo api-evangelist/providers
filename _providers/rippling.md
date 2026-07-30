@@ -228,7 +228,7 @@ plans:
 - name: Rippling Plans Pricing
   plan_count: 8
   slug: rippling-plans-pricing
-random_paper: 59
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Rippling Rate Limits

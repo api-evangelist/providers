@@ -63,7 +63,7 @@ overview: 'Atomo Coffee is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Atomo Coffee''s developer surface includes support and 4 more developer resources.'
-random_paper: 71
+random_paper: 57
 score:
   band: minimal
   composite: 9.1

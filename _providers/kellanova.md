@@ -64,7 +64,7 @@ name: Kellanova
 nav: Providers
 network: true
 overview: Kellanova is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Packaged Goods, Snacks, Food, and Fortune 500.
-random_paper: 66
+random_paper: 55
 score:
   band: minimal
   composite: 4.1

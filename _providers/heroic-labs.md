@@ -197,7 +197,7 @@ overview: 'Heroic Labs publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Heroic Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 44
+random_paper: 31
 score:
   band: developing
   composite: 53.5

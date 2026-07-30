@@ -79,7 +79,7 @@ overview: 'Walker & Co. is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Walker & Co.''s developer surface includes support and 8 more developer resources.'
-random_paper: 38
+random_paper: 23
 score:
   band: minimal
   composite: 12.6

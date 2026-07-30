@@ -71,7 +71,7 @@ overview: 'EdSights is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   EdSights'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 49
+random_paper: 39
 score:
   band: emerging
   composite: 13.7

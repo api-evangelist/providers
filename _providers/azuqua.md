@@ -79,7 +79,7 @@ overview: 'Azuqua is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Azuqua''s developer surface includes documentation, API reference, changelog, and 6 more developer resources.'
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 11.9

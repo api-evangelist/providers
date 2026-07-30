@@ -564,7 +564,7 @@ plans:
 - name: Frontegg Plans Pricing
   plan_count: 2
   slug: frontegg-plans-pricing
-random_paper: 50
+random_paper: 40
 rate_limits:
 - limit_count: 8
   name: Frontegg Rate Limits

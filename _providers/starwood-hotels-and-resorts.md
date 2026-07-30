@@ -178,7 +178,7 @@ press:
 - date: '2026-05-25'
   title: CT-STARWOOD-HOTELS | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/3177140/ct-starwood-hotels?publisherId=90456
-random_paper: 12
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Starwood Hotels And Resorts Rate Limits

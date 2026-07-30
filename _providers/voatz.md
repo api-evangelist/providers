@@ -79,7 +79,7 @@ overview: 'Voatz is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Voatz''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 78
+random_paper: 72
 score:
   band: emerging
   composite: 17.4

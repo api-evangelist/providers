@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: U.S. Supreme Court's Meadwestvaco Decision Adds to ...
   url: https://www.taxnotes.com/lr/resolve/tax-notes-state/u-s-supreme-courts-meadwestvaco-decision-adds-to-confusion-over-unitary-business-test/9sbj
-random_paper: 68
+random_paper: 53
 score:
   band: minimal
   composite: 4.1

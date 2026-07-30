@@ -256,7 +256,7 @@ overview: 'Nokia Network as Code publishes 7 APIs on the [APIs.io](https://apis.
 
 
   Nokia Network as Code''s developer surface includes authentication, changelog, sandbox, API reference, developer portal, documentation, getting-started guide, and 38 more developer resources.'
-random_paper: 41
+random_paper: 16
 scopes:
 - name: Nokia Network As Code Scopes
   scope_count: 65

@@ -108,7 +108,7 @@ overview: 'Nara Organics publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Nara Organics'' developer surface includes authentication, documentation, and 12 more developer resources.'
-random_paper: 21
+random_paper: 5
 scopes:
 - name: Nara Organics Scopes
   scope_count: 4

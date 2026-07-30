@@ -55,7 +55,7 @@ overview: 'Simple Love Yogurt is profiled on the [APIs.io](https://apis.io/) net
 
 
   Simple Love Yogurt''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 78
+random_paper: 56
 score:
   band: minimal
   composite: 5.4

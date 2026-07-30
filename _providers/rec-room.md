@@ -48,7 +48,7 @@ name: Rec Room
 nav: Providers
 network: true
 overview: Rec Room is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Gaming, Virtual Reality, and Social Platform.
-random_paper: 75
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

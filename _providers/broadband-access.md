@@ -40,7 +40,7 @@ name: Broadband Access
 nav: Providers
 network: true
 overview: Broadband Access is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Networking, Broadband, and Telecommunications.
-random_paper: 57
+random_paper: 38
 score:
   band: minimal
   composite: 4.3

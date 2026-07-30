@@ -99,7 +99,7 @@ overview: 'Mandiant publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Mandiant''s developer surface includes documentation, API reference, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 34
+random_paper: 24
 score:
   band: emerging
   composite: 19.4

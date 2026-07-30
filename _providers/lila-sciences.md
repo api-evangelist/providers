@@ -96,7 +96,7 @@ overview: 'Lila Sciences is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Lila Sciences'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 12
+random_paper: 78
 score:
   band: minimal
   composite: 12.6

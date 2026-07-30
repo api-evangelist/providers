@@ -84,7 +84,7 @@ plans:
 - name: Inventory Data Gov Plans Pricing
   plan_count: 1
   slug: inventory-data-gov-plans-pricing
-random_paper: 56
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Inventory Data Gov Rate Limits

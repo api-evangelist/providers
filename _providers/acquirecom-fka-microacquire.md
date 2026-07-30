@@ -95,7 +95,7 @@ overview: 'Acquire.com (fka MicroAcquire) is profiled on the [APIs.io](https://a
 
 
   Acquire.com (fka MicroAcquire)''s developer surface includes signup flow, pricing, documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 72
+random_paper: 39
 score:
   band: emerging
   composite: 18.8

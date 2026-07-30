@@ -247,7 +247,7 @@ plans:
 - name: Zally Plans Pricing
   plan_count: 3
   slug: zally-plans-pricing
-random_paper: 70
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Zally Rate Limits

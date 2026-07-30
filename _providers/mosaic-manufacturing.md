@@ -79,7 +79,7 @@ overview: 'Mosaic Manufacturing is profiled on the [APIs.io](https://apis.io/) n
 
 
   Mosaic Manufacturing''s developer surface includes documentation, support, signup flow, and 6 more developer resources.'
-random_paper: 52
+random_paper: 27
 score:
   band: emerging
   composite: 15.9

@@ -120,7 +120,7 @@ overview: 'Sourceful is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sourceful''s developer surface includes pricing, engineering blog, and 17 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: minimal
   composite: 9.1

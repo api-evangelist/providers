@@ -55,7 +55,7 @@ overview: 'Occipital is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Occipital''s developer surface includes support and 2 more developer resources.'
-random_paper: 61
+random_paper: 50
 score:
   band: minimal
   composite: 5.9

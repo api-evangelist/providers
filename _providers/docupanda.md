@@ -195,7 +195,7 @@ overview: 'DocuPanda publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   DocuPanda''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, signup flow, developer console, and 16 more developer resources.'
-random_paper: 52
+random_paper: 41
 score:
   band: thin
   composite: 35.8

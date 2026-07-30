@@ -87,7 +87,7 @@ overview: 'Play Versus is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Play Versus'' developer surface includes signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 29
+random_paper: 15
 score:
   band: emerging
   composite: 15.6

@@ -68,7 +68,7 @@ overview: 'Humans& is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Humans&''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 32
+random_paper: 20
 score:
   band: minimal
   composite: 10.4

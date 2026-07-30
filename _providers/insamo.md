@@ -48,7 +48,7 @@ name: Insamo
 nav: Providers
 network: true
 overview: Insamo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Engineered Biology, Biotechnology, Drug Discovery, and Peptides.
-random_paper: 80
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

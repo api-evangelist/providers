@@ -92,7 +92,7 @@ overview: 'Cuyana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cuyana''s developer surface includes support, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 74
+random_paper: 67
 scopes:
 - name: Cuyana Scopes
   scope_count: 4

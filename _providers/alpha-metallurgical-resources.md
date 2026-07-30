@@ -44,7 +44,7 @@ name: Alpha Metallurgical Resources
 nav: Providers
 network: true
 overview: Alpha Metallurgical Resources is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 61
+random_paper: 25
 score:
   band: minimal
   composite: 2.6

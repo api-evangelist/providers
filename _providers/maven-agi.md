@@ -140,7 +140,7 @@ plans:
 - name: Maven Agi Plans Pricing
   plan_count: 2
   slug: maven-agi-plans-pricing
-random_paper: 75
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Maven Agi Rate Limits

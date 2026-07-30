@@ -472,7 +472,7 @@ overview: 'Formant publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Formant''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, signup flow, tooling, and 67 more developer resources.'
-random_paper: 30
+random_paper: 21
 rules:
 - name: Formant API Rules
   rule_count: 5

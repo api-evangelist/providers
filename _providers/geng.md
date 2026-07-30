@@ -60,7 +60,7 @@ overview: 'Gen.G is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Gen.G''s developer surface includes authentication and 3 more developer resources.'
-random_paper: 12
+random_paper: 7
 scopes:
 - name: Geng Scopes
   scope_count: 4

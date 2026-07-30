@@ -60,7 +60,7 @@ name: 83 Sciences
 nav: Providers
 network: true
 overview: 83 Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Materials Science, Artificial Intelligence, Research Data, and Scientific Discovery.
-random_paper: 25
+random_paper: 13
 score:
   band: minimal
   composite: 7.6

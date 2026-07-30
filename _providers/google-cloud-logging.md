@@ -196,7 +196,7 @@ plans:
 - name: Google Cloud Logging Plans Pricing
   plan_count: 3
   slug: google-cloud-logging-plans-pricing
-random_paper: 61
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Google Cloud Logging Rate Limits

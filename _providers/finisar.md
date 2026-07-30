@@ -39,7 +39,7 @@ name: Finisar
 nav: Providers
 network: true
 overview: Finisar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Optical Communications, Fiber Optics, Semiconductors, and Hardware.
-random_paper: 19
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

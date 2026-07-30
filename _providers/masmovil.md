@@ -48,7 +48,7 @@ name: Masmovil
 nav: Providers
 network: true
 overview: Masmovil is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Telecommunications, Mobile, and Fiber.
-random_paper: 62
+random_paper: 52
 score:
   band: minimal
   composite: 6.4

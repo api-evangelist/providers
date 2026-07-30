@@ -130,7 +130,7 @@ overview: 'Wealth-X publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Wealth-X''s developer surface includes documentation, API reference, developer portal, support, authentication, and 13 more developer resources.'
-random_paper: 0
+random_paper: 72
 score:
   band: thin
   composite: 36.2

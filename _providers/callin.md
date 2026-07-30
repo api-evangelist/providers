@@ -44,7 +44,7 @@ name: Callin
 nav: Providers
 network: true
 overview: Callin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Podcasting, Audio, and Live Streaming.
-random_paper: 60
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

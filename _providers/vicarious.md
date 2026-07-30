@@ -39,7 +39,7 @@ name: Vicarious
 nav: Providers
 network: true
 overview: Vicarious is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Robotics, Machine Learning, and Industrial Automation.
-random_paper: 9
+random_paper: 79
 score:
   band: minimal
   composite: 5.0

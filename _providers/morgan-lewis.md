@@ -155,7 +155,7 @@ overview: 'Morgan, Lewis & Bockius LLP is profiled on the [APIs.io](https://apis
 
 
   Morgan, Lewis & Bockius LLP''s developer surface includes product news, engineering blog, YouTube channel, and 25 more developer resources.'
-random_paper: 22
+random_paper: 7
 score:
   band: minimal
   composite: 9.1

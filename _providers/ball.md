@@ -109,7 +109,7 @@ press:
 - date: '2026-05-25'
   title: Reflecting its commitment to delivering advisor-first ...
   url: https://www.facebook.com/RaymondJames/posts/reflecting-its-commitment-to-delivering-advisor-first-technology-the-firm-has-an/1394319819394063/
-random_paper: 6
+random_paper: 1
 rules:
 - name: Ball Corporation API Rules
   rule_count: 7

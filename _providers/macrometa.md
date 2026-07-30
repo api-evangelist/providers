@@ -349,7 +349,7 @@ overview: 'Macrometa publishes 63 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Macrometa''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 19 more developer resources.'
-random_paper: 62
+random_paper: 51
 score:
   band: developing
   composite: 45.0

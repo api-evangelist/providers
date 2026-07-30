@@ -44,7 +44,7 @@ name: Mi Concierge
 nav: Providers
 network: true
 overview: Mi Concierge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 68
+random_paper: 54
 score:
   band: minimal
   composite: 3.2

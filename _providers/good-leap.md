@@ -217,7 +217,7 @@ overview: 'Good Leap publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Good Leap''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 78
+random_paper: 68
 score:
   band: thin
   composite: 40.9

@@ -133,7 +133,7 @@ plans:
 - name: Microsoft Power Virtual Agents Plans Pricing
   plan_count: 3
   slug: microsoft-power-virtual-agents-plans-pricing
-random_paper: 13
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Virtual Agents Rate Limits

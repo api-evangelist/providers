@@ -87,7 +87,7 @@ overview: 'Pothos publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Pothos'' developer surface includes documentation and 8 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
   band: emerging
   composite: 21.1

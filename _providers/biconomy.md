@@ -324,7 +324,7 @@ plans:
 - name: Biconomy Plans Pricing
   plan_count: 2
   slug: biconomy-plans-pricing
-random_paper: 54
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Biconomy Rate Limits

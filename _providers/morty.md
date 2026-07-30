@@ -100,7 +100,7 @@ overview: 'Morty is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Morty''s developer surface includes documentation, support, signup flow, pricing, engineering blog, authentication, changelog, and 7 more developer resources.'
-random_paper: 4
+random_paper: 79
 score:
   band: emerging
   composite: 24.8

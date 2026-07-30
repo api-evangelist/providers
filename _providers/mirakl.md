@@ -248,7 +248,7 @@ overview: 'Mirakl publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mirakl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 73
+random_paper: 66
 scopes:
 - name: Mirakl Scopes
   scope_count: 0

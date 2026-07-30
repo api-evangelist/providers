@@ -79,7 +79,7 @@ overview: 'Appriss Inc. is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Appriss Inc.''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 76
+random_paper: 63
 score:
   band: emerging
   composite: 15.5

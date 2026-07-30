@@ -116,7 +116,7 @@ overview: 'Evolv publishes 1 API on the [APIs.io](https://apis.io/) network: Par
 
 
   Evolv''s developer surface includes documentation, CLI, authentication, sandbox, changelog, and 11 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: emerging
   composite: 20.7

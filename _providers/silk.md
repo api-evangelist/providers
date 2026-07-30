@@ -48,7 +48,7 @@ name: Silk
 nav: Providers
 network: true
 overview: Silk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Vulnerability Management, and Exposure Management.
-random_paper: 30
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

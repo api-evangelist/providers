@@ -52,7 +52,7 @@ name: Airvana
 nav: Providers
 network: true
 overview: Airvana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecommunications, Wireless, and Mobile.
-random_paper: 9
+random_paper: 0
 score:
   band: minimal
   composite: 4.3

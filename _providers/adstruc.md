@@ -52,7 +52,7 @@ name: ADstruc
 nav: Providers
 network: true
 overview: ADstruc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Out-of-Home, OOH, and AdTech.
-random_paper: 29
+random_paper: 20
 score:
   band: minimal
   composite: 7.6

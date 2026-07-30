@@ -935,7 +935,7 @@ plans:
 - name: Microsoft Azure Kubernetes Service Plans Pricing
   plan_count: 3
   slug: microsoft-azure-kubernetes-service-plans-pricing
-random_paper: 18
+random_paper: 57
 rate_limits:
 - limit_count: 16
   name: Azure Kubernetes Service Rate Limits

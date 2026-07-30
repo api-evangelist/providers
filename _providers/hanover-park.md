@@ -80,7 +80,7 @@ overview: 'Hanover Park is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Hanover Park''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 15
+random_paper: 0
 score:
   band: emerging
   composite: 16.3

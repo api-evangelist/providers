@@ -83,7 +83,7 @@ overview: 'ChannelMeter is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   ChannelMeter''s developer surface includes signup flow, support, and 8 more developer resources.'
-random_paper: 55
+random_paper: 40
 score:
   band: emerging
   composite: 16.2

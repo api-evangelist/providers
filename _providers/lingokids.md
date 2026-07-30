@@ -131,7 +131,7 @@ overview: 'Lingokids is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lingokids'' developer surface includes support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 73
+random_paper: 62
 score:
   band: emerging
   composite: 22.2

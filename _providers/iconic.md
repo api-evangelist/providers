@@ -75,7 +75,7 @@ overview: 'Iconic is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Iconic''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 62
+random_paper: 55
 score:
   band: minimal
   composite: 5.4

@@ -48,7 +48,7 @@ name: Instinct Xyz
 nav: Providers
 network: true
 overview: Instinct Xyz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Trading, Y Combinator, and Startup.
-random_paper: 69
+random_paper: 54
 score:
   band: minimal
   composite: 4.3

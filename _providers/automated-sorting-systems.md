@@ -21,7 +21,7 @@ modified: '2026-04-19'
 name: Automated Sorting Systems
 nav: Providers
 network: true
-random_paper: 28
+random_paper: 78
 slug: automated-sorting-systems
 tags:
 - Automation

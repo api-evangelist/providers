@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Dow launches Transform to Outperform to raise the ...
   url: https://www.prnewswire.com/news-releases/dow-launches-transform-to-outperform-to-raise-the-competitive-industry-benchmark-for-productivity-and-growth-to-enable-improved-returns-302673865.html
-random_paper: 63
+random_paper: 49
 score:
   band: minimal
   composite: 4.1

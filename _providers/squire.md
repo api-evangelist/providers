@@ -71,7 +71,7 @@ overview: 'Squire is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Squire''s developer surface includes support, pricing, and 5 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
   band: emerging
   composite: 15.9

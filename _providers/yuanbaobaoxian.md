@@ -48,7 +48,7 @@ name: Yuanbao (元保)
 nav: Providers
 network: true
 overview: Yuanbao (元保) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Online Insurance Distribution, and China.
-random_paper: 31
+random_paper: 13
 score:
   band: minimal
   composite: 5.6

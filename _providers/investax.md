@@ -87,7 +87,7 @@ overview: 'InvestaX is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   InvestaX''s developer surface includes signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 72
+random_paper: 62
 score:
   band: emerging
   composite: 15.5

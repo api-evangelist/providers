@@ -436,7 +436,7 @@ plans:
 - name: Affirm Plans Pricing
   plan_count: 1
   slug: affirm-plans-pricing
-random_paper: 62
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Affirm Rate Limits

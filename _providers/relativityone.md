@@ -239,7 +239,7 @@ plans:
 - name: Relativityone Plans Pricing
   plan_count: 1
   slug: relativityone-plans-pricing
-random_paper: 46
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Relativityone Rate Limits

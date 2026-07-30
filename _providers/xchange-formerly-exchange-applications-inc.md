@@ -44,7 +44,7 @@ name: xchange (Formerly Exchange Applications Inc.)
 nav: Providers
 network: true
 overview: xchange (Formerly Exchange Applications Inc.) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Marketing, CRM, and Campaign Management.
-random_paper: 18
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

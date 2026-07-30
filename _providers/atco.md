@@ -171,7 +171,7 @@ overview: 'ATCO publishes 1 API on the [APIs.io](https://apis.io/) network: Elec
 
 
   ATCO''s developer surface includes authentication, support, product news, and 23 more developer resources.'
-random_paper: 18
+random_paper: 13
 score:
   band: thin
   composite: 35.9

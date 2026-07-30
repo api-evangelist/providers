@@ -71,7 +71,7 @@ overview: 'Dandelion Energy is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Dandelion Energy''s developer surface includes getting-started guide, support, engineering blog, and 4 more developer resources.'
-random_paper: 17
+random_paper: 79
 score:
   band: emerging
   composite: 13.6

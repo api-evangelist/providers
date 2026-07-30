@@ -133,7 +133,7 @@ plans:
 - name: Lazada Plans Pricing
   plan_count: 1
   slug: lazada-plans-pricing
-random_paper: 54
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Lazada Rate Limits

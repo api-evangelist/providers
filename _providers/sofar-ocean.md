@@ -187,7 +187,7 @@ overview: 'Sofar Ocean publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Sofar Ocean''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 21 more developer resources.'
-random_paper: 49
+random_paper: 36
 score:
   band: developing
   composite: 53.0

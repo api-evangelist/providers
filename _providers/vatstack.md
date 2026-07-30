@@ -196,7 +196,7 @@ plans:
 - name: Vatstack Plans Pricing
   plan_count: 3
   slug: vatstack-plans-pricing
-random_paper: 55
+random_paper: 45
 rate_limits:
 - limit_count: 8
   name: Vatstack Rate Limits

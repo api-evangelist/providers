@@ -177,7 +177,7 @@ overview: 'Impact Radius publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Impact Radius'' developer surface includes documentation, getting-started guide, authentication, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 35
+random_paper: 19
 score:
   band: developing
   composite: 50.8

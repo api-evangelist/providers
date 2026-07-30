@@ -281,7 +281,7 @@ plans:
 - name: Bloomberg Lp Plans Pricing
   plan_count: 6
   slug: bloomberg-lp-plans-pricing
-random_paper: 3
+random_paper: 70
 rate_limits:
 - limit_count: 6
   name: Bloomberg Lp Rate Limits

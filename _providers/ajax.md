@@ -71,7 +71,7 @@ overview: 'Ajax is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ajax''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 15
+random_paper: 10
 score:
   band: emerging
   composite: 13.9

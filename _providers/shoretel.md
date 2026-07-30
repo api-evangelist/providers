@@ -48,7 +48,7 @@ name: Shoretel
 nav: Providers
 network: true
 overview: Shoretel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Unified Communications, VoIP, Telecommunications, and Contact Center.
-random_paper: 60
+random_paper: 50
 score:
   band: minimal
   composite: 5.5

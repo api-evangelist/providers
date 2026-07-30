@@ -75,7 +75,7 @@ overview: 'SmartHop is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SmartHop''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 68
+random_paper: 58
 score:
   band: emerging
   composite: 14.8

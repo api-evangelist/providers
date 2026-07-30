@@ -67,7 +67,7 @@ overview: 'RIVR is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   RIVR''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 46
+random_paper: 41
 score:
   band: minimal
   composite: 7.5

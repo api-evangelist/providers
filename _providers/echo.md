@@ -87,7 +87,7 @@ overview: 'Echo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Echo''s developer surface includes engineering blog, pricing, and 9 more developer resources.'
-random_paper: 10
+random_paper: 5
 score:
   band: emerging
   composite: 18.9

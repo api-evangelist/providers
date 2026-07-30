@@ -134,7 +134,7 @@ plans:
 - name: Google Identity Platform Plans Pricing
   plan_count: 3
   slug: google-identity-platform-plans-pricing
-random_paper: 40
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Google Identity Platform Rate Limits

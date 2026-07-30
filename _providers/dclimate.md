@@ -103,7 +103,7 @@ overview: 'dClimate is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   dClimate''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, and 10 more developer resources.'
-random_paper: 25
+random_paper: 15
 score:
   band: emerging
   composite: 22.1

@@ -95,7 +95,7 @@ overview: 'EVERY Company is profiled on the [APIs.io](https://apis.io/) network.
 
 
   EVERY Company''s developer surface includes support, engineering blog, and 11 more developer resources.'
-random_paper: 63
+random_paper: 47
 score:
   band: minimal
   composite: 10.5

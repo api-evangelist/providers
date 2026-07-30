@@ -48,7 +48,7 @@ name: Osyva
 nav: Providers
 network: true
 overview: Osyva is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Veterinary, B2B Commerce, Procurement, and E-Commerce.
-random_paper: 76
+random_paper: 70
 score:
   band: minimal
   composite: 5.0

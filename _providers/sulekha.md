@@ -63,7 +63,7 @@ overview: 'Sulekha is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sulekha''s developer surface includes support and 4 more developer resources.'
-random_paper: 20
+random_paper: 11
 score:
   band: minimal
   composite: 10.1

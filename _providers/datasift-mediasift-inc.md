@@ -56,7 +56,7 @@ name: DataSift (MediaSift Inc.)
 nav: Providers
 network: true
 overview: DataSift (MediaSift Inc.) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social Media, Social Data, and Data.
-random_paper: 15
+random_paper: 70
 score:
   band: minimal
   composite: 7.0

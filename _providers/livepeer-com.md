@@ -500,7 +500,7 @@ plans:
 - name: Livepeer Com Plans Pricing
   plan_count: 4
   slug: livepeer-com-plans-pricing
-random_paper: 9
+random_paper: 76
 rate_limits:
 - limit_count: 8
   name: Livepeer Com Rate Limits

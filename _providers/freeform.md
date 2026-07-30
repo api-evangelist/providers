@@ -75,7 +75,7 @@ overview: 'Freeform is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Freeform''s developer surface includes support and 7 more developer resources.'
-random_paper: 44
+random_paper: 34
 score:
   band: minimal
   composite: 11.2

@@ -106,7 +106,7 @@ overview: 'Acoustic publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Acoustic''s developer surface includes documentation, API reference, engineering blog, support, pricing, and 9 more developer resources.'
-random_paper: 49
+random_paper: 39
 score:
   band: emerging
   composite: 22.6

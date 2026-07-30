@@ -88,7 +88,7 @@ plans:
 - name: Joke Api Plans Pricing
   plan_count: 1
   slug: joke-api-plans-pricing
-random_paper: 55
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Joke Api Rate Limits

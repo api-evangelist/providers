@@ -252,7 +252,7 @@ plans:
 - name: Autodesk Fusion Plans Pricing
   plan_count: 5
   slug: autodesk-fusion-plans-pricing
-random_paper: 30
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Autodesk Fusion Rate Limits

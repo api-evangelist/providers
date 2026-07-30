@@ -163,7 +163,7 @@ overview: 'Wandera publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Wandera''s developer surface includes documentation, API reference, support, authentication, and 22 more developer resources.'
-random_paper: 9
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Wandera Rate Limits

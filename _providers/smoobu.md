@@ -123,7 +123,7 @@ plans:
 - name: Smoobu Plans Pricing
   plan_count: 4
   slug: smoobu-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Smoobu Rate Limits

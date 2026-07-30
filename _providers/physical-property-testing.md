@@ -65,7 +65,7 @@ name: Physical Property Testing
 nav: Providers
 network: true
 overview: Physical Property Testing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, Instrumentation, Manufacturing, and Laboratory.
-random_paper: 26
+random_paper: 76
 score:
   band: minimal
   composite: 7.1

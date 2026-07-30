@@ -44,7 +44,7 @@ name: TheAmazeApp
 nav: Providers
 network: true
 overview: TheAmazeApp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 34
+random_paper: 20
 score:
   band: minimal
   composite: 3.2

@@ -83,7 +83,7 @@ overview: 'Cherry is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cherry''s developer surface includes support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 5
+random_paper: 79
 score:
   band: emerging
   composite: 16.1

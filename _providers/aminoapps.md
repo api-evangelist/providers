@@ -48,7 +48,7 @@ name: aminoapps
 nav: Providers
 network: true
 overview: aminoapps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Community, Mobile, and Content.
-random_paper: 77
+random_paper: 66
 score:
   band: minimal
   composite: 4.1

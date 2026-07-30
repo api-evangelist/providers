@@ -75,7 +75,7 @@ overview: 'Sonder is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sonder''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 3
+random_paper: 77
 score:
   band: minimal
   composite: 11.9

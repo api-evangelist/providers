@@ -48,7 +48,7 @@ name: SparkCharge
 nav: Providers
 network: true
 overview: SparkCharge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electric Vehicles, EV Charging, Energy, and Fleet.
-random_paper: 29
+random_paper: 15
 score:
   band: minimal
   composite: 5.5

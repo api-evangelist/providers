@@ -79,7 +79,7 @@ overview: 'Misfits Market (fka Imperfect Foods) is profiled on the [APIs.io](htt
 
 
   Misfits Market (fka Imperfect Foods)''s developer surface includes engineering blog, support, getting-started guide, and 6 more developer resources.'
-random_paper: 74
+random_paper: 33
 score:
   band: emerging
   composite: 13.4

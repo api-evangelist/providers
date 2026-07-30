@@ -48,7 +48,7 @@ name: Renren
 nav: Providers
 network: true
 overview: Renren is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social Networking, Social Media, and Web.
-random_paper: 2
+random_paper: 76
 score:
   band: minimal
   composite: 5.0

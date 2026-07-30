@@ -190,7 +190,7 @@ overview: 'Steadfast Group publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Steadfast Group''s developer surface includes engineering blog, legal docs, tooling, support, authentication, and 29 more developer resources.'
-random_paper: 22
+random_paper: 3
 scopes:
 - name: Steadfast Group Scopes
   scope_count: 7

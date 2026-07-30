@@ -48,7 +48,7 @@ name: cn
 nav: Providers
 network: true
 overview: cn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Biopharmaceutical, and Clinical-Stage.
-random_paper: 47
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

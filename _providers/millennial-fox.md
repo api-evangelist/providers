@@ -39,7 +39,7 @@ name: Millennial Fox
 nav: Providers
 network: true
 overview: Millennial Fox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness, Health, Consumer, and Mobile.
-random_paper: 62
+random_paper: 45
 score:
   band: minimal
   composite: 4.3

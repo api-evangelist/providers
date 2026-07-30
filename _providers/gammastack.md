@@ -72,7 +72,7 @@ plans:
 - name: Gammastack Plans Pricing
   plan_count: 3
   slug: gammastack-plans-pricing
-random_paper: 77
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Gammastack Rate Limits

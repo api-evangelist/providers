@@ -56,7 +56,7 @@ name: Infra.Market
 nav: Providers
 network: true
 overview: Infra.Market is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Construction, Building Materials, and Manufacturing.
-random_paper: 38
+random_paper: 24
 score:
   band: minimal
   composite: 6.4

@@ -114,7 +114,7 @@ overview: 'Bounti publishes 2 APIs on the [APIs.io](https://apis.io/) network: L
 
 
   Bounti''s developer surface includes engineering blog, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: thin
   composite: 33.0

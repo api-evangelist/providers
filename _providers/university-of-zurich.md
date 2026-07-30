@@ -156,7 +156,7 @@ plans:
 - name: University Of Zurich Plans Pricing
   plan_count: 2
   slug: university-of-zurich-plans-pricing
-random_paper: 61
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: University Of Zurich Rate Limits

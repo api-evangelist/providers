@@ -76,7 +76,7 @@ overview: 'Treasury is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Treasury''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 4
+random_paper: 75
 scopes:
 - name: Treasury Scopes
   scope_count: 1

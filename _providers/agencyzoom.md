@@ -112,7 +112,7 @@ overview: 'AgencyZoom publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AgencyZoom''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: emerging
   composite: 24.8

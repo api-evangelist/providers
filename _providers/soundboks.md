@@ -80,7 +80,7 @@ overview: 'Soundboks publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Soundboks'' developer surface includes support, authentication, and 6 more developer resources.'
-random_paper: 12
+random_paper: 0
 scopes:
 - name: Soundboks Scopes
   scope_count: 4

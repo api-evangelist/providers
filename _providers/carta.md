@@ -128,7 +128,7 @@ plans:
 - name: Carta Plans Pricing
   plan_count: 3
   slug: carta-plans-pricing
-random_paper: 37
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Carta Rate Limits

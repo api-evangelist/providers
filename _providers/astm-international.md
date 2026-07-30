@@ -218,7 +218,7 @@ overview: 'ASTM International publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   ASTM International''s developer surface includes product news, YouTube channel, and 20 more developer resources.'
-random_paper: 19
+random_paper: 78
 rules:
 - name: ASTM International API Rules
   rule_count: 5

@@ -69,7 +69,7 @@ plans:
 - name: Delek Us Plans Pricing
   plan_count: 1
   slug: delek-us-plans-pricing
-random_paper: 65
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Delek Us Rate Limits

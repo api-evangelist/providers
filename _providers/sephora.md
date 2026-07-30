@@ -77,7 +77,7 @@ name: Sephora
 nav: Providers
 network: true
 overview: Sephora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Beauty, Personal Care, and Ecommerce.
-random_paper: 25
+random_paper: 16
 score:
   band: minimal
   composite: 6.0

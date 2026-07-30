@@ -61,7 +61,7 @@ plans:
 - name: Product Hunt Plans Pricing
   plan_count: 3
   slug: product-hunt-plans-pricing
-random_paper: 46
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Product Hunt Rate Limits

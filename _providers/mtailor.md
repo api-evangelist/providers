@@ -59,7 +59,7 @@ overview: 'Mtailor is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Mtailor''s developer surface includes getting-started guide, support, and 2 more developer resources.'
-random_paper: 31
+random_paper: 22
 score:
   band: minimal
   composite: 8.7

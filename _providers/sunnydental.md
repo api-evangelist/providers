@@ -48,7 +48,7 @@ name: Sai De Yang Guang Oral Care
 nav: Providers
 network: true
 overview: Sai De Yang Guang Oral Care is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Dental, Oral Care, and Orthodontics.
-random_paper: 71
+random_paper: 57
 score:
   band: minimal
   composite: 5.4

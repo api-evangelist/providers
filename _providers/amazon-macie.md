@@ -4113,7 +4113,7 @@ plans:
 - name: Amazon Macie Plans Pricing
   plan_count: 3
   slug: amazon-macie-plans-pricing
-random_paper: 68
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Amazon Macie Rate Limits

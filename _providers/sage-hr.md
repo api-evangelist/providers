@@ -183,7 +183,7 @@ plans:
 - name: Sage Hr Plans Pricing
   plan_count: 6
   slug: sage-hr-plans-pricing
-random_paper: 31
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Sage Hr Rate Limits

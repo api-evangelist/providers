@@ -39,7 +39,7 @@ name: Helix
 nav: Providers
 network: true
 overview: Helix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 52
+random_paper: 46
 score:
   band: minimal
   composite: 3.2

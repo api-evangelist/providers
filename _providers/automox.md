@@ -83,7 +83,7 @@ overview: 'Automox publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Automox''s developer surface includes documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 52
+random_paper: 43
 score:
   band: emerging
   composite: 13.0

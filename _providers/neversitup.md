@@ -48,7 +48,7 @@ name: Neversitup
 nav: Providers
 network: true
 overview: Neversitup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Development, IT Outsourcing, Fintech, and Mobile Apps.
-random_paper: 56
+random_paper: 43
 score:
   band: minimal
   composite: 5.0

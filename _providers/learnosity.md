@@ -250,7 +250,7 @@ overview: 'Learnosity publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Learnosity''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 45
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Learnosity Rate Limits

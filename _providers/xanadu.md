@@ -198,7 +198,7 @@ overview: 'Xanadu publishes 10 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Xanadu''s developer surface includes developer portal, documentation, engineering blog, YouTube channel, training material, code examples, release notes, and 12 more developer resources.'
-random_paper: 74
+random_paper: 67
 rules:
 - name: Xanadu API Rules
   rule_count: 5

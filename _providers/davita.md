@@ -103,7 +103,7 @@ overview: 'DaVita is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   DaVita''s developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 66
+random_paper: 59
 score:
   band: minimal
   composite: 11.4

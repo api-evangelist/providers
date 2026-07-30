@@ -91,7 +91,7 @@ overview: 'TikTok Marketing API publishes 1 API on the [APIs.io](https://apis.io
 
 
   TikTok Marketing API''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 47
+random_paper: 35
 score:
   band: emerging
   composite: 24.5

@@ -3679,7 +3679,7 @@ overview: 'Amazon Comprehend publishes 84 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon Comprehend''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
-random_paper: 51
+random_paper: 30
 rules:
 - name: Amazon Comprehend API Rules
   rule_count: 5

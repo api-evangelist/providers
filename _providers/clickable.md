@@ -71,7 +71,7 @@ overview: 'Clickable is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Clickable''s developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 31
+random_paper: 20
 score:
   band: minimal
   composite: 12.7

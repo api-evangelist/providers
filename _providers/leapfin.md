@@ -91,7 +91,7 @@ plans:
 - name: Leapfin Plans Pricing
   plan_count: 1
   slug: leapfin-plans-pricing
-random_paper: 6
+random_paper: 79
 score:
   band: emerging
   composite: 13.7

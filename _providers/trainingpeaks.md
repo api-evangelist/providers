@@ -143,7 +143,7 @@ plans:
 - name: Trainingpeaks Plans Pricing
   plan_count: 6
   slug: trainingpeaks-plans-pricing
-random_paper: 15
+random_paper: 80
 rate_limits:
 - limit_count: 4
   name: Trainingpeaks Rate Limits

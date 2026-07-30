@@ -132,7 +132,7 @@ plans:
 - name: Woebot Plans Pricing
   plan_count: 1
   slug: woebot-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Woebot Rate Limits

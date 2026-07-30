@@ -127,7 +127,7 @@ overview: 'Espresso publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Espresso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, authentication, and 11 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: thin
   composite: 38.3

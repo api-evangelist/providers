@@ -213,7 +213,7 @@ plans:
 - name: Crossplane Plans Pricing
   plan_count: 3
   slug: crossplane-plans-pricing
-random_paper: 29
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Crossplane Rate Limits

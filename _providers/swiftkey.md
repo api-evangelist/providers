@@ -48,7 +48,7 @@ name: Swiftkey
 nav: Providers
 network: true
 overview: Swiftkey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Keyboard, Predictive Text, and Machine Learning.
-random_paper: 76
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

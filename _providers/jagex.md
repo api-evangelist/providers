@@ -111,7 +111,7 @@ overview: 'Jagex publishes 5 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jagex''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
-random_paper: 41
+random_paper: 35
 score:
   band: emerging
   composite: 18.8

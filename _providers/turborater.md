@@ -94,7 +94,7 @@ plans:
 - name: Turborater Plans Pricing
   plan_count: 3
   slug: turborater-plans-pricing
-random_paper: 45
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Turborater Rate Limits

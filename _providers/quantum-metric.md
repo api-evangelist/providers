@@ -83,7 +83,7 @@ overview: 'Quantum Metric is profiled on the [APIs.io](https://apis.io/) network
 
 
   Quantum Metric''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 10
+random_paper: 74
 score:
   band: emerging
   composite: 15.6

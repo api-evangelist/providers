@@ -56,7 +56,7 @@ name: United Dwelling
 nav: Providers
 network: true
 overview: United Dwelling is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Housing, Accessory Dwelling Units, and Construction.
-random_paper: 9
+random_paper: 72
 score:
   band: minimal
   composite: 6.9

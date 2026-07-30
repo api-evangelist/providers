@@ -100,7 +100,7 @@ plans:
 - name: Khalifa Plans Pricing
   plan_count: 2
   slug: khalifa-plans-pricing
-random_paper: 72
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Khalifa Rate Limits

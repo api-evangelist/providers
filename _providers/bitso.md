@@ -135,7 +135,7 @@ plans:
 - name: Bitso Plans Pricing
   plan_count: 1
   slug: bitso-plans-pricing
-random_paper: 59
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Bitso Rate Limits

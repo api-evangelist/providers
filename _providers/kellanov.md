@@ -56,7 +56,7 @@ name: Kellanov
 nav: Providers
 network: true
 overview: Kellanov is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Packaged Goods, Snacks, Food, and Alias.
-random_paper: 50
+random_paper: 40
 score:
   band: minimal
   composite: 4.1

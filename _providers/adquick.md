@@ -124,7 +124,7 @@ overview: 'AdQuick publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   AdQuick''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 9
+random_paper: 0
 scopes:
 - name: Adquick Scopes
   scope_count: 6

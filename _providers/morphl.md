@@ -52,7 +52,7 @@ name: MorphL
 nav: Providers
 network: true
 overview: MorphL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Personalization, and E-Commerce.
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

@@ -209,7 +209,7 @@ plans:
 - name: Chalmers University Of Technology Plans Pricing
   plan_count: 2
   slug: chalmers-university-of-technology-plans-pricing
-random_paper: 80
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Chalmers University Of Technology Rate Limits

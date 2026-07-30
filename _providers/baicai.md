@@ -48,7 +48,7 @@ name: Baicai
 nav: Providers
 network: true
 overview: Baicai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Used Cars, Marketplace, and E-Commerce.
-random_paper: 34
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

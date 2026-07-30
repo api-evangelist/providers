@@ -71,7 +71,7 @@ overview: 'Block Renovation is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Block Renovation''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 41
+random_paper: 21
 score:
   band: emerging
   composite: 13.1

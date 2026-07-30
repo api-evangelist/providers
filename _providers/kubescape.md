@@ -130,7 +130,7 @@ plans:
 - name: Kubescape Plans Pricing
   plan_count: 4
   slug: kubescape-plans-pricing
-random_paper: 56
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Kubescape Rate Limits

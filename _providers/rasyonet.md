@@ -60,7 +60,7 @@ name: Rasyonet
 nav: Providers
 network: true
 overview: Rasyonet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Capital Markets, E-Commerce, Equity Research, Financial Data, and Financial Services.
-random_paper: 75
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

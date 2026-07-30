@@ -48,7 +48,7 @@ name: prmeasure
 nav: Providers
 network: true
 overview: prmeasure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Industrial, Measurement, and Control.
-random_paper: 8
+random_paper: 78
 score:
   band: minimal
   composite: 5.0

@@ -309,7 +309,7 @@ overview: 'celestia publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   celestia''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, tooling, code examples, and 26 more developer resources.'
-random_paper: 32
+random_paper: 22
 rules:
 - name: celestia API Rules
   rule_count: 5

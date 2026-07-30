@@ -79,7 +79,7 @@ overview: 'Magic Moment is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Magic Moment''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 80
+random_paper: 66
 score:
   band: emerging
   composite: 13.8

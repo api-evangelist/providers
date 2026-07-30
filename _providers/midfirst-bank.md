@@ -79,7 +79,7 @@ overview: 'MidFirst Bank is profiled on the [APIs.io](https://apis.io/) network.
 
 
   MidFirst Bank''s developer surface includes documentation, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 27
+random_paper: 11
 score:
   band: emerging
   composite: 13.4

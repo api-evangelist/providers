@@ -56,7 +56,7 @@ name: Website Carbon
 nav: Providers
 network: true
 overview: Website Carbon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 52
+random_paper: 35
 score:
   band: minimal
   composite: 5.7

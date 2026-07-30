@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Kohl's, Inc.
   url: https://chainstoreage.com/company/kohls-inc
-random_paper: 59
+random_paper: 53
 score:
   band: minimal
   composite: 3.3

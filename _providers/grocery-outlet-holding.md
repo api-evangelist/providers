@@ -44,7 +44,7 @@ name: Grocery Outlet Holding
 nav: Providers
 network: true
 overview: Grocery Outlet Holding is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 76
+random_paper: 49
 score:
   band: minimal
   composite: 2.6

@@ -95,7 +95,7 @@ overview: 'Ember is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ember''s developer surface includes documentation, API reference, engineering blog, release notes, and 9 more developer resources.'
-random_paper: 37
+random_paper: 31
 score:
   band: minimal
   composite: 9.6

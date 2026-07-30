@@ -48,7 +48,7 @@ name: GenArts
 nav: Providers
 network: true
 overview: GenArts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Visual Effects, VFX, Video Editing, and Plugins.
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

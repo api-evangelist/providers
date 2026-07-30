@@ -190,7 +190,7 @@ overview: 'Utilita publishes 1 API on the [APIs.io](https://apis.io/) network: S
 
 
   Utilita''s developer surface includes documentation, API reference, code examples, authentication, signup flow, pricing, support, and 24 more developer resources.'
-random_paper: 35
+random_paper: 26
 score:
   band: developing
   composite: 47.1

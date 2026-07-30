@@ -724,7 +724,7 @@ plans:
 - name: Whatsapp Plans Pricing
   plan_count: 2
   slug: whatsapp-plans-pricing
-random_paper: 62
+random_paper: 52
 rate_limits:
 - limit_count: 6
   name: Whatsapp Rate Limits

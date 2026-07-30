@@ -143,7 +143,7 @@ plans:
 - name: Typo3 Plans Pricing
   plan_count: 3
   slug: typo3-plans-pricing
-random_paper: 25
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Typo3 Rate Limits

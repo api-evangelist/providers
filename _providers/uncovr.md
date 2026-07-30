@@ -127,7 +127,7 @@ overview: 'Uncovr publishes 1 API on the [APIs.io](https://apis.io/) network: In
 
 
   Uncovr''s developer surface includes authentication, support, and 15 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
   band: thin
   composite: 30.0

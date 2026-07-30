@@ -119,7 +119,7 @@ overview: 'Superconductive is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Superconductive''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 12 more developer resources.'
-random_paper: 15
+random_paper: 77
 score:
   band: emerging
   composite: 25.4

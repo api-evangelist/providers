@@ -44,7 +44,7 @@ name: Motion Math
 nav: Providers
 network: true
 overview: Motion Math is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Math, and Games.
-random_paper: 80
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

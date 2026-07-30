@@ -95,7 +95,7 @@ overview: 'Jenkins Pipeline is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Jenkins Pipeline''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, and 9 more developer resources.'
-random_paper: 33
+random_paper: 13
 score:
   band: minimal
   composite: 10.0

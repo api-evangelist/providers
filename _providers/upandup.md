@@ -83,7 +83,7 @@ overview: 'Up&Up is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Up&Up''s developer surface includes support, FAQ, signup flow, and 7 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: emerging
   composite: 15.2

@@ -104,7 +104,7 @@ plans:
 - name: Fudan Plans Pricing
   plan_count: 2
   slug: fudan-plans-pricing
-random_paper: 40
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Fudan Rate Limits

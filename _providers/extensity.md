@@ -87,7 +87,7 @@ overview: 'Extensity is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Extensity''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 33
+random_paper: 21
 score:
   band: emerging
   composite: 13.2

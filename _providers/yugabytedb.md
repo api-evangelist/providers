@@ -959,7 +959,7 @@ plans:
 - name: Yugabytedb Plans Pricing
   plan_count: 3
   slug: yugabytedb-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Yugabytedb Rate Limits

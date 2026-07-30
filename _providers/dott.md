@@ -168,7 +168,7 @@ overview: 'Dott publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Dott''s developer surface includes documentation, API reference, getting-started guide, engineering blog, code examples, authentication, and 16 more developer resources.'
-random_paper: 38
+random_paper: 33
 score:
   band: thin
   composite: 38.0

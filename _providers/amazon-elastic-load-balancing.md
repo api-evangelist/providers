@@ -435,7 +435,7 @@ plans:
 - name: Amazon Elastic Load Balancing Plans Pricing
   plan_count: 3
   slug: amazon-elastic-load-balancing-plans-pricing
-random_paper: 30
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Load Balancing Rate Limits

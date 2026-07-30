@@ -254,7 +254,7 @@ plans:
 - name: Mercedes Me Plans Pricing
   plan_count: 4
   slug: mercedes-me-plans-pricing
-random_paper: 42
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Mercedes Me Rate Limits

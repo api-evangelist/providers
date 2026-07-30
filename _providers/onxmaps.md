@@ -79,7 +79,7 @@ overview: 'OnXMaps is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   OnXMaps'' developer surface includes support and 8 more developer resources.'
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 11.5

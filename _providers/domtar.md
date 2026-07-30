@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Pulp and Paper Engineers Shape the Future of Our Industry
   url: https://www.domtar.com/pulp-and-paper-engineers-shape-the-future-of-our-industry/
-random_paper: 80
+random_paper: 73
 score:
   band: minimal
   composite: 6.1

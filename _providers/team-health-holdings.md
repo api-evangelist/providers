@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Team Health to Be Acquired by Blackstone
   url: https://www.stblaw.com/about-us/news/view/2016/10/31/team-health-to-be-acquired-by-blackstone
-random_paper: 55
+random_paper: 31
 score:
   band: minimal
   composite: 5.4

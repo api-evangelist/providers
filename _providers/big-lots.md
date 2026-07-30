@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: Big Lots Says Previously Announced Sale Has Fallen ...
   url: https://www.pymnts.com/news/retail/2024/big-lots-says-previously-announced-sale-has-fallen-through/
-random_paper: 72
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

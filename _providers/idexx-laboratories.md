@@ -55,7 +55,7 @@ overview: 'IDEXX Laboratories is profiled on the [APIs.io](https://apis.io/) net
 
 
   IDEXX Laboratories'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 15
+random_paper: 74
 score:
   band: minimal
   composite: 3.7

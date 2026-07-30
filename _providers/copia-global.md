@@ -39,7 +39,7 @@ name: Copia Global
 nav: Providers
 network: true
 overview: Copia Global is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Logistics, and Last-Mile Distribution.
-random_paper: 60
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

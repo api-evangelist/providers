@@ -79,7 +79,7 @@ overview: 'Bright View Technologies is profiled on the [APIs.io](https://apis.io
 
 
   Bright View Technologies'' developer surface includes support and 8 more developer resources.'
-random_paper: 27
+random_paper: 79
 score:
   band: minimal
   composite: 10.1

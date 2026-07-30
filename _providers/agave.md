@@ -622,7 +622,7 @@ plans:
 - name: Agave Plans Pricing
   plan_count: 1
   slug: agave-plans-pricing
-random_paper: 30
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Agave Rate Limits

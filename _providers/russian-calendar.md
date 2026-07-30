@@ -52,7 +52,7 @@ name: Russian Calendar
 nav: Providers
 network: true
 overview: Russian Calendar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Calendar and Public APIs.
-random_paper: 24
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

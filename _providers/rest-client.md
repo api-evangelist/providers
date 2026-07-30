@@ -107,7 +107,7 @@ plans:
 - name: Rest Client Plans Pricing
   plan_count: 3
   slug: rest-client-plans-pricing
-random_paper: 77
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Rest Client Rate Limits

@@ -44,7 +44,7 @@ name: Fortune Technology (China FIF)
 nav: Providers
 network: true
 overview: Fortune Technology (China FIF) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Trade Finance, Commercial Factoring, and Working Capital.
-random_paper: 59
+random_paper: 49
 score:
   band: minimal
   composite: 5.0

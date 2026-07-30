@@ -117,7 +117,7 @@ plans:
 - name: Mailpace Plans Pricing
   plan_count: 2
   slug: mailpace-plans-pricing
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Mailpace Rate Limits

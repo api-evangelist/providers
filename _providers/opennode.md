@@ -24,7 +24,7 @@ modified: '2026-06-13'
 name: OpenNode
 nav: Providers
 network: true
-random_paper: 46
+random_paper: 36
 slug: opennode
 tags:
 - Bitcoin

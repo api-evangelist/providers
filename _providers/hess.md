@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Naomi Hess, Author at AAPD - Page 2 of 3
   url: https://www.aapd.com/author/nhess/page/2/
-random_paper: 30
+random_paper: 25
 score:
   band: minimal
   composite: 2.6

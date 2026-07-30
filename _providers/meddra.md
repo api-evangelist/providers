@@ -124,7 +124,7 @@ plans:
 - name: Meddra Plans Pricing
   plan_count: 3
   slug: meddra-plans-pricing
-random_paper: 54
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Meddra Rate Limits

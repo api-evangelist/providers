@@ -394,7 +394,7 @@ overview: 'Syntage publishes 65 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Syntage''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 27 more developer resources.'
-random_paper: 34
+random_paper: 25
 score:
   band: developing
   composite: 54.9

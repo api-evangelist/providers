@@ -48,7 +48,7 @@ name: Moat
 nav: Providers
 network: true
 overview: Moat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Analytics, Ad Measurement, and Ad Viewability.
-random_paper: 28
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

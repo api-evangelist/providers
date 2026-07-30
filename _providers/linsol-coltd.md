@@ -83,7 +83,7 @@ overview: 'LINSOL Co.,Ltd. is profiled on the [APIs.io](https://apis.io/) networ
 
 
   LINSOL Co.,Ltd.''s developer surface includes engineering blog, product news, YouTube channel, and 7 more developer resources.'
-random_paper: 21
+random_paper: 6
 score:
   band: minimal
   composite: 7.3

@@ -59,7 +59,7 @@ overview: 'Futureplay is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Futureplay''s developer surface includes support and 3 more developer resources.'
-random_paper: 52
+random_paper: 39
 score:
   band: minimal
   composite: 10.1

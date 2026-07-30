@@ -84,7 +84,7 @@ plans:
 - name: Microsoft Sway Plans Pricing
   plan_count: 3
   slug: microsoft-sway-plans-pricing
-random_paper: 21
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Sway Rate Limits

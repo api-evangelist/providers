@@ -1278,7 +1278,7 @@ plans:
 - name: Solaris Zones Plans Pricing
   plan_count: 1
   slug: solaris-zones-plans-pricing
-random_paper: 73
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Solaris Zones Rate Limits

@@ -870,7 +870,7 @@ plans:
 - name: Amazon Device Farm Plans Pricing
   plan_count: 3
   slug: amazon-device-farm-plans-pricing
-random_paper: 0
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Amazon Device Farm Rate Limits

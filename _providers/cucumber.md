@@ -136,7 +136,7 @@ plans:
 - name: Cucumber Plans Pricing
   plan_count: 3
   slug: cucumber-plans-pricing
-random_paper: 44
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Cucumber Rate Limits

@@ -101,7 +101,7 @@ plans:
 - name: Function Health Plans Pricing
   plan_count: 2
   slug: function-health-plans-pricing
-random_paper: 6
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Function Health Rate Limits

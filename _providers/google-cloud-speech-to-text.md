@@ -152,7 +152,7 @@ plans:
 - name: Google Cloud Speech To Text Plans Pricing
   plan_count: 3
   slug: google-cloud-speech-to-text-plans-pricing
-random_paper: 72
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Google Cloud Speech To Text Rate Limits

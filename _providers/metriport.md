@@ -147,7 +147,7 @@ plans:
 - name: Metriport Plans Pricing
   plan_count: 4
   slug: metriport-plans-pricing
-random_paper: 26
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Metriport Rate Limits

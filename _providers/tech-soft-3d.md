@@ -99,7 +99,7 @@ overview: 'Tech Soft 3D is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Tech Soft 3D''s developer surface includes documentation, getting-started guide, engineering blog, support, and 10 more developer resources.'
-random_paper: 52
+random_paper: 39
 score:
   band: emerging
   composite: 18.4

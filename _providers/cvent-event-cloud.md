@@ -157,7 +157,7 @@ plans:
 - name: Cvent Event Cloud Plans Pricing
   plan_count: 3
   slug: cvent-event-cloud-plans-pricing
-random_paper: 14
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Cvent Event Cloud Rate Limits

@@ -166,7 +166,7 @@ plans:
 - name: Revcontent Plans Pricing
   plan_count: 2
   slug: revcontent-plans-pricing
-random_paper: 43
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Revcontent Rate Limits

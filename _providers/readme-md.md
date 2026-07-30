@@ -39,7 +39,7 @@ name: README.md
 nav: Providers
 network: true
 overview: README.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Documentation, Git, Onboarding, Project Overview, and Repository.
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

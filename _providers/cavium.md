@@ -39,7 +39,7 @@ name: Cavium
 nav: Providers
 network: true
 overview: Cavium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Networking, Security, and Processors.
-random_paper: 78
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

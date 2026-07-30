@@ -48,7 +48,7 @@ name: Analytical Flavor Systems
 nav: Providers
 network: true
 overview: Analytical Flavor Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Food and Beverage, and Sensory Analytics.
-random_paper: 79
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

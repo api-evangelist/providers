@@ -55,7 +55,7 @@ overview: 'Pluribus Networks is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Pluribus Networks'' developer surface includes support and 2 more developer resources.'
-random_paper: 42
+random_paper: 20
 score:
   band: minimal
   composite: 5.9

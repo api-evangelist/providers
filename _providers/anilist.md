@@ -478,7 +478,7 @@ overview: 'AniList publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   AniList''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, developer console, sandbox, and 21 more developer resources.'
-random_paper: 27
+random_paper: 18
 rules:
 - name: AniList API Rules
   rule_count: 5

@@ -135,7 +135,7 @@ overview: 'MadKudu publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   MadKudu''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 14 more developer resources.'
-random_paper: 18
+random_paper: 9
 score:
   band: emerging
   composite: 25.8

@@ -170,7 +170,7 @@ overview: 'Scale3 publishes 1 API on the [APIs.io](https://apis.io/) network: Bl
 
 
   Scale3''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 20 more developer resources.'
-random_paper: 4
+random_paper: 79
 score:
   band: strong
   composite: 58.4

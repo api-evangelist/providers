@@ -60,7 +60,7 @@ name: Merriam-Webster
 nav: Providers
 network: true
 overview: Merriam-Webster publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dictionaries and Public APIs.
-random_paper: 19
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

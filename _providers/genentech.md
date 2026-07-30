@@ -124,7 +124,7 @@ overview: 'Genentech publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Genentech''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 14 more developer resources.'
-random_paper: 54
+random_paper: 43
 scopes:
 - name: Genentech Scopes
   scope_count: 36

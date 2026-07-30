@@ -65,7 +65,7 @@ plans:
 - name: Fortune Brands Innovations Plans Pricing
   plan_count: 1
   slug: fortune-brands-innovations-plans-pricing
-random_paper: 30
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Fortune Brands Innovations Rate Limits

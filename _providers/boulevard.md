@@ -118,7 +118,7 @@ plans:
 - name: Boulevard Plans Pricing
   plan_count: 5
   slug: boulevard-plans-pricing
-random_paper: 73
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Boulevard Rate Limits

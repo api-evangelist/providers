@@ -44,7 +44,7 @@ name: Stabilitas
 nav: Providers
 network: true
 overview: Stabilitas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Risk Intelligence, Crisis Management, Security, and Acquired.
-random_paper: 19
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

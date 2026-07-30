@@ -136,7 +136,7 @@ overview: 'VaynerMedia is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   VaynerMedia''s developer surface includes developer portal, engineering blog, YouTube channel, and 20 more developer resources.'
-random_paper: 39
+random_paper: 25
 score:
   band: minimal
   composite: 7.3

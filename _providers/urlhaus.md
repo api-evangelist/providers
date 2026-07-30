@@ -60,7 +60,7 @@ name: URLhaus
 nav: Providers
 network: true
 overview: URLhaus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti Malware and Public APIs.
-random_paper: 43
+random_paper: 34
 score:
   band: minimal
   composite: 5.7

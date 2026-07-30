@@ -48,7 +48,7 @@ name: Silk and Sonder
 nav: Providers
 network: true
 overview: Silk and Sonder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wellness, Journaling, Mental Health, and Subscription.
-random_paper: 25
+random_paper: 7
 score:
   band: minimal
   composite: 6.1

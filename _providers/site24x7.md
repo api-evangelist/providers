@@ -186,7 +186,7 @@ plans:
 - name: Site24X7 Plans Pricing
   plan_count: 8
   slug: site24x7-plans-pricing
-random_paper: 66
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Site24X7 Rate Limits

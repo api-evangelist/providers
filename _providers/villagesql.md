@@ -115,7 +115,7 @@ overview: 'VillageSQL is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   VillageSQL''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, changelog, and 12 more developer resources.'
-random_paper: 23
+random_paper: 10
 score:
   band: emerging
   composite: 23.6

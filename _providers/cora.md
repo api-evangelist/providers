@@ -143,7 +143,7 @@ overview: 'Cora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cora''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 15 more developer resources.'
-random_paper: 16
+random_paper: 11
 score:
   band: developing
   composite: 44.2

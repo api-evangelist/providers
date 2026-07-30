@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Henry Schein One Partners With VideaHealth to Launch ...
   url: https://investor.henryschein.com/news-releases/news-release-details/2022/Henry-Schein-One-Partners-With-VideaHealth-to-Launch-New-Dentrix-Detect-AI-X-Ray-Analysis-Tool-to-Enhance-Patient-Care-11-29-2022/default.aspx
-random_paper: 14
+random_paper: 81
 score:
   band: minimal
   composite: 3.3

@@ -91,7 +91,7 @@ overview: 'Scratchpad is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Scratchpad''s developer surface includes pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 0
+random_paper: 69
 score:
   band: emerging
   composite: 19.2

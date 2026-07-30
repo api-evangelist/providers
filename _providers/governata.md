@@ -60,7 +60,7 @@ overview: 'Governata is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Governata''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 76
+random_paper: 65
 score:
   band: minimal
   composite: 6.3

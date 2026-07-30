@@ -84,7 +84,7 @@ overview: 'Balloon is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Balloon''s developer surface includes pricing, engineering blog, and 8 more developer resources.'
-random_paper: 14
+random_paper: 5
 score:
   band: emerging
   composite: 17.1

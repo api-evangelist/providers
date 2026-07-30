@@ -67,7 +67,7 @@ overview: 'Azara Healthcare is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Azara Healthcare''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 74
+random_paper: 55
 score:
   band: minimal
   composite: 11.3

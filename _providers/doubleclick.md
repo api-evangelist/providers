@@ -47,7 +47,7 @@ overview: 'Doubleclick is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Doubleclick''s developer surface includes documentation.'
-random_paper: 19
+random_paper: 5
 score:
   band: minimal
   composite: 6.7

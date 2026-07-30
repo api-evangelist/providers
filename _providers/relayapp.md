@@ -63,7 +63,7 @@ overview: 'Relay.app is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Relay.app''s developer surface includes documentation, support, and 3 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: minimal
   composite: 10.2

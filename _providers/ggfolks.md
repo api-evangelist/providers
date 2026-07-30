@@ -44,7 +44,7 @@ name: GGFolks
 nav: Providers
 network: true
 overview: GGFolks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Game Development, Gaming, and Multiplayer.
-random_paper: 20
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

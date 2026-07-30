@@ -56,7 +56,7 @@ name: Blague.xyz
 nav: Providers
 network: true
 overview: Blague.xyz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 60
+random_paper: 48
 score:
   band: minimal
   composite: 5.7

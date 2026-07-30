@@ -152,7 +152,7 @@ overview: 'Black Duck publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Black Duck''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 5
+random_paper: 75
 score:
   band: thin
   composite: 41.7

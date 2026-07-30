@@ -60,7 +60,7 @@ name: Engrail
 nav: Providers
 network: true
 overview: Engrail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceutical, Biotechnology, Neuroscience, and Drug Development.
-random_paper: 9
+random_paper: 0
 score:
   band: minimal
   composite: 10.5

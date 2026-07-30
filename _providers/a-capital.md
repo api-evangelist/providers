@@ -64,7 +64,7 @@ overview: 'A Capital is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   A Capital''s developer surface includes developer portal, engineering blog, and 3 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 7.2

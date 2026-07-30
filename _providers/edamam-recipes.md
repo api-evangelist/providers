@@ -269,7 +269,7 @@ plans:
 - name: Edamam Recipes Plans Pricing
   plan_count: 0
   slug: edamam-recipes-plans-pricing
-random_paper: 28
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Edamam Recipes Rate Limits

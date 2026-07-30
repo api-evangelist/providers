@@ -229,7 +229,7 @@ plans:
 - name: Dynamic Xyz Plans Pricing
   plan_count: 3
   slug: dynamic-xyz-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Dynamic Xyz Rate Limits

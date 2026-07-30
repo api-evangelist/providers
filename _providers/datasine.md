@@ -48,7 +48,7 @@ name: DataSine
 nav: Providers
 network: true
 overview: DataSine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Personalization, and Marketing.
-random_paper: 31
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

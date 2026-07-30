@@ -947,7 +947,7 @@ plans:
 - name: Forgejo Plans Pricing
   plan_count: 2
   slug: forgejo-plans-pricing
-random_paper: 19
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Forgejo Rate Limits

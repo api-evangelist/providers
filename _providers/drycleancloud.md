@@ -121,7 +121,7 @@ plans:
 - name: Drycleancloud Plans Pricing
   plan_count: 4
   slug: drycleancloud-plans-pricing
-random_paper: 8
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Drycleancloud Rate Limits

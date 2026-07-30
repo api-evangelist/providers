@@ -176,7 +176,7 @@ plans:
 - name: Apache Skywalking Plans Pricing
   plan_count: 3
   slug: apache-skywalking-plans-pricing
-random_paper: 46
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Apache Skywalking Rate Limits

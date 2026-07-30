@@ -75,7 +75,7 @@ overview: 'Pretzel Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Pretzel Therapeutics'' developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 10
+random_paper: 66
 score:
   band: minimal
   composite: 11.6

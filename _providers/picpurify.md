@@ -94,7 +94,7 @@ plans:
 - name: Picpurify Plans Pricing
   plan_count: 3
   slug: picpurify-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Picpurify Rate Limits

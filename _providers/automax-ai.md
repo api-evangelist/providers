@@ -67,7 +67,7 @@ overview: 'Automax Ai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Automax Ai''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 42
+random_paper: 30
 score:
   band: minimal
   composite: 10.6

@@ -56,7 +56,7 @@ name: CurrencyScoop
 nav: Providers
 network: true
 overview: CurrencyScoop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Currency Exchange and Public APIs.
-random_paper: 46
+random_paper: 29
 score:
   band: minimal
   composite: 5.7

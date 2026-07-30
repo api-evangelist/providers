@@ -67,7 +67,7 @@ overview: 'Matera is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Matera''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 67
+random_paper: 60
 score:
   band: minimal
   composite: 12.3

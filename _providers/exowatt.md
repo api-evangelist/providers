@@ -63,7 +63,7 @@ overview: 'Exowatt is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Exowatt''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: minimal
   composite: 11.0

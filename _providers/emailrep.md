@@ -323,7 +323,7 @@ plans:
 - name: Emailrep Plans Pricing
   plan_count: 3
   slug: emailrep-plans-pricing
-random_paper: 37
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Emailrep Rate Limits

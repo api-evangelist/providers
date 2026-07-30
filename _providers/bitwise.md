@@ -125,7 +125,7 @@ overview: 'Bitwise publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Bitwise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: thin
   composite: 39.5

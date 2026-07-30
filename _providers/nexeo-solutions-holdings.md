@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Search - Winstead PC - Mobile
   url: https://www.winstead.com/Search?search=*
-random_paper: 67
+random_paper: 37
 score:
   band: minimal
   composite: 4.1

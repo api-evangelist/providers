@@ -63,7 +63,7 @@ overview: 'Greentoe is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Greentoe''s developer surface includes support and 4 more developer resources.'
-random_paper: 47
+random_paper: 37
 score:
   band: minimal
   composite: 10.1

@@ -211,7 +211,7 @@ plans:
 - name: Black Knight Plans Pricing
   plan_count: 4
   slug: black-knight-plans-pricing
-random_paper: 65
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Black Knight Rate Limits

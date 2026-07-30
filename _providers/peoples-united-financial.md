@@ -52,7 +52,7 @@ name: People's United Financial
 nav: Providers
 network: true
 overview: People's United Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Regional Bank, Defunct, Acquired, and Financial Services.
-random_paper: 2
+random_paper: 54
 score:
   band: minimal
   composite: 4.9

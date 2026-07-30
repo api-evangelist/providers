@@ -338,7 +338,7 @@ plans:
 - name: Prometheus Plans Pricing
   plan_count: 1
   slug: prometheus-plans-pricing
-random_paper: 47
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Prometheus Rate Limits

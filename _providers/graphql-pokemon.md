@@ -56,7 +56,7 @@ name: GraphQL Pokemon
 nav: Providers
 network: true
 overview: GraphQL Pokemon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 18
+random_paper: 81
 score:
   band: minimal
   composite: 5.0

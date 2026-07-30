@@ -71,7 +71,7 @@ overview: 'Olli Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Olli Health''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 54
+random_paper: 41
 score:
   band: minimal
   composite: 11.0

@@ -67,7 +67,7 @@ overview: 'Imperson is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Imperson''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 67
+random_paper: 57
 score:
   band: minimal
   composite: 7.9

@@ -71,7 +71,7 @@ overview: 'Nqoodlet is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nqoodlet''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 60
+random_paper: 50
 score:
   band: emerging
   composite: 13.5

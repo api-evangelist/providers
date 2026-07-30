@@ -2464,7 +2464,7 @@ plans:
 - name: Amazon Network Firewall Plans Pricing
   plan_count: 3
   slug: amazon-network-firewall-plans-pricing
-random_paper: 19
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Amazon Network Firewall Rate Limits

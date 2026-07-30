@@ -88,7 +88,7 @@ plans:
 - name: Opendata Schleswig Holstein De Plans Pricing
   plan_count: 1
   slug: opendata-schleswig-holstein-de-plans-pricing
-random_paper: 22
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Opendata Schleswig Holstein De Rate Limits

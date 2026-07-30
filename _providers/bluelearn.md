@@ -39,7 +39,7 @@ name: Bluelearn
 nav: Providers
 network: true
 overview: Bluelearn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Learning, and Community.
-random_paper: 63
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

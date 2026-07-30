@@ -200,7 +200,7 @@ overview: 'MEDITECH publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   MEDITECH''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, getting-started guide, engineering blog, and 19 more developer resources.'
-random_paper: 25
+random_paper: 15
 rules:
 - name: MEDITECH API Rules
   rule_count: 6

@@ -172,7 +172,7 @@ overview: 'FlutterFlow publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   FlutterFlow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 80
+random_paper: 66
 score:
   band: developing
   composite: 42.6

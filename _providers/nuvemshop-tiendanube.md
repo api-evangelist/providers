@@ -142,7 +142,7 @@ overview: 'Nuvemshop Tiendanube publishes 1 API on the [APIs.io](https://apis.io
 
 
   Nuvemshop Tiendanube''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, and 14 more developer resources.'
-random_paper: 72
+random_paper: 47
 scopes:
 - name: Nuvemshop Tiendanube Scopes
   scope_count: 12

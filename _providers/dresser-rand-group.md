@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Siemens in agreed $7.6 billion deal to buy Dresser-Rand
   url: https://www.reuters.com/article/technology/siemens-in-agreed-76-billion-deal-to-buy-dresser-rand-idUSKCN0HH0CM/
-random_paper: 46
+random_paper: 24
 score:
   band: minimal
   composite: 5.9

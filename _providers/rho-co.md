@@ -72,7 +72,7 @@ plans:
 - name: Rho Co Plans Pricing
   plan_count: 1
   slug: rho-co-plans-pricing
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Rho Co Rate Limits

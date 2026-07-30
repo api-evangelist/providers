@@ -138,7 +138,7 @@ press:
 - date: '2026-05-25'
   title: 2024 Sustainability Report
   url: https://www.swgas.com/1409224719685/SWG-2024-SR.pdf
-random_paper: 78
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Southwest Gas Rate Limits

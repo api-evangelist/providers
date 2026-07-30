@@ -67,7 +67,7 @@ overview: 'Third Dimension AI is profiled on the [APIs.io](https://apis.io/) net
 
 
   Third Dimension AI''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 47
+random_paper: 29
 score:
   band: minimal
   composite: 7.5

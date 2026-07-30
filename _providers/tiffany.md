@@ -142,7 +142,7 @@ press:
 - date: '2026-05-25'
   title: Disclaimer missing on likely AI-generated Tom Tiffany ...
   url: https://isthmus.com/news/news/disclaimer-missing-on-likely-ai-generated-tom-tiffany-campaign-ad/
-random_paper: 24
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Tiffany Rate Limits

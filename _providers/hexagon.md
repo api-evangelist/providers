@@ -110,7 +110,7 @@ plans:
 - name: Hexagon Plans Pricing
   plan_count: 3
   slug: hexagon-plans-pricing
-random_paper: 17
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Hexagon Rate Limits

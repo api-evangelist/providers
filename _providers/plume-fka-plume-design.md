@@ -111,7 +111,7 @@ overview: 'Plume (fka Plume Design) is profiled on the [APIs.io](https://apis.io
 
 
   Plume (fka Plume Design)''s developer surface includes documentation, getting-started guide, support, and 14 more developer resources.'
-random_paper: 63
+random_paper: 37
 score:
   band: emerging
   composite: 23.7

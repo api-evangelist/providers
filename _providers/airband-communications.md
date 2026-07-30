@@ -49,7 +49,7 @@ name: AirBand Communications
 nav: Providers
 network: true
 overview: AirBand Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Broadband, Fixed Wireless, and Internet Service Provider.
-random_paper: 11
+random_paper: 65
 score:
   band: minimal
   composite: 4.3

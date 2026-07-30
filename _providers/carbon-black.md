@@ -104,7 +104,7 @@ overview: 'Carbon Black publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Carbon Black''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 9 more developer resources.'
-random_paper: 49
+random_paper: 35
 score:
   band: emerging
   composite: 21.1

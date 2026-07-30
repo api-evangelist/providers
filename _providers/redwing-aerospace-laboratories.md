@@ -71,7 +71,7 @@ overview: 'RedWing Aerospace Laboratories is profiled on the [APIs.io](https://a
 
 
   RedWing Aerospace Laboratories'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 79
+random_paper: 42
 score:
   band: minimal
   composite: 10.0

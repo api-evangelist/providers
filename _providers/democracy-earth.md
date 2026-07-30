@@ -63,7 +63,7 @@ overview: 'Democracy Earth is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Democracy Earth''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
-random_paper: 70
+random_paper: 52
 score:
   band: minimal
   composite: 9.0

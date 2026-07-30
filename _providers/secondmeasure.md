@@ -63,7 +63,7 @@ overview: 'Secondmeasure is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Secondmeasure''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 13
+random_paper: 78
 score:
   band: minimal
   composite: 9.7

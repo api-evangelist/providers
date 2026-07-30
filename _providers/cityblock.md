@@ -67,7 +67,7 @@ overview: 'Cityblock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cityblock''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 73
+random_paper: 62
 score:
   band: emerging
   composite: 13.1

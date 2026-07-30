@@ -115,7 +115,7 @@ overview: 'Jemena publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jemena''s developer surface includes documentation, signup flow, support, engineering blog, authentication, sandbox, and 13 more developer resources.'
-random_paper: 57
+random_paper: 50
 score:
   band: emerging
   composite: 26.8

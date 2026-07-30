@@ -56,7 +56,7 @@ name: City, Gdańsk
 nav: Providers
 network: true
 overview: City, Gdańsk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 0
+random_paper: 69
 score:
   band: minimal
   composite: 6.5

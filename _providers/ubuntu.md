@@ -164,7 +164,7 @@ plans:
 - name: Ubuntu Plans Pricing
   plan_count: 3
   slug: ubuntu-plans-pricing
-random_paper: 27
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Ubuntu Rate Limits

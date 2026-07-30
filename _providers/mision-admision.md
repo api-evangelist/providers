@@ -75,7 +75,7 @@ overview: 'Mision Admision is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Mision Admision''s developer surface includes engineering blog, pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 13
+random_paper: 76
 score:
   band: emerging
   composite: 13.1

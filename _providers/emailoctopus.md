@@ -119,7 +119,7 @@ plans:
 - name: Emailoctopus Plans Pricing
   plan_count: 3
   slug: emailoctopus-plans-pricing
-random_paper: 5
+random_paper: 71
 rate_limits:
 - limit_count: 4
   name: Emailoctopus Rate Limits

@@ -103,7 +103,7 @@ overview: '1mind is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   1mind''s developer surface includes documentation, engineering blog, support, and 12 more developer resources.'
-random_paper: 68
+random_paper: 63
 score:
   band: emerging
   composite: 21.0

@@ -67,7 +67,7 @@ overview: 'AESOP is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   AESOP''s developer surface includes engineering blog, YouTube channel, and 4 more developer resources.'
-random_paper: 50
+random_paper: 44
 score:
   band: minimal
   composite: 5.7

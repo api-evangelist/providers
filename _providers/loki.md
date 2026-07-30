@@ -107,7 +107,7 @@ plans:
 - name: Loki Plans Pricing
   plan_count: 3
   slug: loki-plans-pricing
-random_paper: 26
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Loki Rate Limits

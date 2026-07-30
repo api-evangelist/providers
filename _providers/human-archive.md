@@ -63,7 +63,7 @@ overview: 'Human Archive is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Human Archive''s developer surface includes support and 4 more developer resources.'
-random_paper: 24
+random_paper: 8
 score:
   band: minimal
   composite: 10.1

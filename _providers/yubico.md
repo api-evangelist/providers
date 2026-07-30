@@ -180,7 +180,7 @@ overview: 'Yubico publishes 1 API on the [APIs.io](https://apis.io/) network: Va
 
 
   Yubico''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 25 more developer resources.'
-random_paper: 3
+random_paper: 77
 score:
   band: strong
   composite: 57.7

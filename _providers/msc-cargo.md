@@ -152,7 +152,7 @@ overview: 'MSC Mediterranean Shipping Company is profiled on the [APIs.io](https
 
 
   MSC Mediterranean Shipping Company''s developer surface includes FAQ, YouTube channel, and 25 more developer resources.'
-random_paper: 1
+random_paper: 72
 score:
   band: minimal
   composite: 6.7

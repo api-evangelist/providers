@@ -112,7 +112,7 @@ overview: 'InfinitySwap publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   InfinitySwap''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, sandbox, authentication, and 9 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: emerging
   composite: 24.1

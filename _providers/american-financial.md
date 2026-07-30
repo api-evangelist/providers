@@ -51,7 +51,7 @@ name: American Financial
 nav: Providers
 network: true
 overview: American Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Finance, Lending, and Fortune 500.
-random_paper: 28
+random_paper: 6
 score:
   band: minimal
   composite: 4.1

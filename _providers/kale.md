@@ -71,7 +71,7 @@ overview: 'Kale is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Kale''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 8
+random_paper: 3
 score:
   band: emerging
   composite: 13.1

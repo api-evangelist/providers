@@ -86,7 +86,7 @@ plans:
 - name: Committee On Foreign Investment In The United States Plans Pricing
   plan_count: 3
   slug: committee-on-foreign-investment-in-the-united-states-plans-pricing
-random_paper: 11
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Committee On Foreign Investment In The United States Rate Limits

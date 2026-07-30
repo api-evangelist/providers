@@ -111,7 +111,7 @@ plans:
 - name: Bureau Of Justice Statistics Plans Pricing
   plan_count: 3
   slug: bureau-of-justice-statistics-plans-pricing
-random_paper: 15
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Bureau Of Justice Statistics Rate Limits

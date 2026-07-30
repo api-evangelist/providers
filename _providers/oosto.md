@@ -79,7 +79,7 @@ overview: 'Oosto is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Oosto''s developer surface includes documentation, support, engineering blog, and 6 more developer resources.'
-random_paper: 78
+random_paper: 72
 score:
   band: minimal
   composite: 12.9

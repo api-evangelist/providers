@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: 'HSN Webinar: AI-Based Statistics for the Future'
   url: https://bandungkota.bps.go.id/en/news/2025/09/29/1514/hsn-webinar--ai-based-statistics-for-the-future.html
-random_paper: 5
+random_paper: 1
 score:
   band: minimal
   composite: 3.2

@@ -167,7 +167,7 @@ overview: 'Momento publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Momento''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 38
+random_paper: 29
 score:
   band: developing
   composite: 44.7

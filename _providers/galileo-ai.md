@@ -198,7 +198,7 @@ plans:
 - name: Galileo Ai Plans Pricing
   plan_count: 3
   slug: galileo-ai-plans-pricing
-random_paper: 8
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Galileo Ai Rate Limits

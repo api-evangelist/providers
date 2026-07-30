@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: COMPANY NEWS; ESTERLINE TECHNOLOGIES ...
   url: https://www.nytimes.com/1998/08/11/business/company-news-esterline-technologies-agrees-to-add-kirkhill-rubber.html
-random_paper: 32
+random_paper: 4
 score:
   band: minimal
   composite: 3.5

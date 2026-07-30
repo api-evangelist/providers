@@ -48,7 +48,7 @@ name: Wi Charge
 nav: Providers
 network: true
 overview: Wi Charge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wireless Power, Wireless Charging, Infrared, and IoT.
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 5.5

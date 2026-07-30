@@ -107,7 +107,7 @@ plans:
 - name: Universitat Hamburg Plans Pricing
   plan_count: 2
   slug: universitat-hamburg-plans-pricing
-random_paper: 57
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Universitat Hamburg Rate Limits

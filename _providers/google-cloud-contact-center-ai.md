@@ -163,7 +163,7 @@ plans:
 - name: Google Cloud Contact Center Ai Plans Pricing
   plan_count: 3
   slug: google-cloud-contact-center-ai-plans-pricing
-random_paper: 27
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Google Cloud Contact Center Ai Rate Limits

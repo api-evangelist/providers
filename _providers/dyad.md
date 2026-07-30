@@ -39,7 +39,7 @@ name: Dyad
 nav: Providers
 network: true
 overview: Dyad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, and Unresolved.
-random_paper: 13
+random_paper: 8
 score:
   band: minimal
   composite: 4.1

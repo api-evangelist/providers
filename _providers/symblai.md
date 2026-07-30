@@ -95,7 +95,7 @@ overview: 'Symbl.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Symbl.ai''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
-random_paper: 24
+random_paper: 15
 score:
   band: emerging
   composite: 17.1

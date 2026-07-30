@@ -83,7 +83,7 @@ overview: 'Hims & Hers Health is profiled on the [APIs.io](https://apis.io/) net
 
 
   Hims & Hers Health''s developer surface includes terms of service and 9 more developer resources.'
-random_paper: 49
+random_paper: 34
 score:
   band: minimal
   composite: 8.6

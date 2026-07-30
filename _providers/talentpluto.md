@@ -49,7 +49,7 @@ name: Talentpluto
 nav: Providers
 network: true
 overview: Talentpluto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Talent, and Careers.
-random_paper: 78
+random_paper: 64
 score:
   band: minimal
   composite: 6.1

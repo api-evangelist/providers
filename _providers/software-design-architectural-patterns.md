@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Software Design Architectural Patterns
 nav: Providers
 network: true
-random_paper: 24
+random_paper: 58
 slug: software-design-architectural-patterns
 tags:
 - Best Practices

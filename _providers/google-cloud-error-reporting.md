@@ -133,7 +133,7 @@ plans:
 - name: Google Cloud Error Reporting Plans Pricing
   plan_count: 3
   slug: google-cloud-error-reporting-plans-pricing
-random_paper: 12
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Google Cloud Error Reporting Rate Limits

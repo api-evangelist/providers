@@ -280,7 +280,7 @@ press:
 - date: '2026-05-25'
   title: 'AmTrust partners with Blackstone: Insurance news'
   url: https://www.dig-in.com/news/amtrust-partners-with-blackstone-insurance-news
-random_paper: 2
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Amtrust Financial Services Rate Limits

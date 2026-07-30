@@ -71,7 +71,7 @@ overview: 'Roivant is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Roivant''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 42
+random_paper: 33
 score:
   band: minimal
   composite: 10.8

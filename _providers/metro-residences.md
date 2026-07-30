@@ -63,7 +63,7 @@ overview: 'Metro Residences is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Metro Residences'' developer surface includes support and 4 more developer resources.'
-random_paper: 37
+random_paper: 17
 score:
   band: minimal
   composite: 10.1

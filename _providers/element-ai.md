@@ -44,7 +44,7 @@ name: Element AI
 nav: Providers
 network: true
 overview: Element AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Natural Language Processing, and Computer Vision.
-random_paper: 21
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

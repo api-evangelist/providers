@@ -75,7 +75,7 @@ overview: 'Naborforce is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Naborforce''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 4
+random_paper: 73
 score:
   band: emerging
   composite: 13.8

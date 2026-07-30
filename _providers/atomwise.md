@@ -68,7 +68,7 @@ name: Atomwise
 nav: Providers
 network: true
 overview: Atomwise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Drug Discovery, Biotech, Pharmaceuticals, Structure-Based Drug Design, and Virtual Screening.
-random_paper: 63
+random_paper: 53
 score:
   band: minimal
   composite: 5.7

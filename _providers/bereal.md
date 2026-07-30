@@ -67,7 +67,7 @@ overview: 'BeReal is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   BeReal''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 52
+random_paper: 45
 score:
   band: minimal
   composite: 10.5

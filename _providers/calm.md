@@ -154,7 +154,7 @@ overview: 'Calm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 16 more developer resources.'
-random_paper: 8
+random_paper: 3
 scopes:
 - name: Calm Scopes
   scope_count: 2

@@ -63,7 +63,7 @@ overview: 'ApartmentList is profiled on the [APIs.io](https://apis.io/) network.
 
 
   ApartmentList''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 39
+random_paper: 22
 score:
   band: minimal
   composite: 9.7

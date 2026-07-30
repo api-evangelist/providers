@@ -39,7 +39,7 @@ name: OMGPOP
 nav: Providers
 network: true
 overview: OMGPOP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

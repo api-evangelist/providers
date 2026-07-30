@@ -210,7 +210,7 @@ overview: 'Children''s Hospital of Philadelphia publishes 4 APIs on the [APIs.io
 
 
   Children''s Hospital of Philadelphia''s developer surface includes authentication, developer portal, engineering blog, support, and 12 more developer resources.'
-random_paper: 23
+random_paper: 63
 rules:
 - name: Children's Hospital of Philadelphia API Rules
   rule_count: 5

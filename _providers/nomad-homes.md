@@ -79,7 +79,7 @@ overview: 'Nomad Homes is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Nomad Homes'' developer surface includes support and 8 more developer resources.'
-random_paper: 59
+random_paper: 46
 score:
   band: minimal
   composite: 12.6

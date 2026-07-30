@@ -159,7 +159,7 @@ overview: 'Aciworldwide publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Aciworldwide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 63
+random_paper: 48
 score:
   band: developing
   composite: 48.5

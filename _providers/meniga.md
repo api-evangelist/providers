@@ -104,7 +104,7 @@ overview: 'Meniga is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Meniga''s developer surface includes documentation, getting-started guide, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 58
+random_paper: 51
 score:
   band: emerging
   composite: 24.9

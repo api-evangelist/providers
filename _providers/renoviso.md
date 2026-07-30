@@ -44,7 +44,7 @@ name: Renoviso
 nav: Providers
 network: true
 overview: Renoviso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Home Improvement, Renovation, and Windows.
-random_paper: 75
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

@@ -116,7 +116,7 @@ overview: 'Rightrev publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Rightrev''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 11 more developer resources.'
-random_paper: 65
+random_paper: 55
 scopes:
 - name: Rightrev Scopes
   scope_count: 2

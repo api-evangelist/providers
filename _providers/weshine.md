@@ -56,7 +56,7 @@ name: Weshine
 nav: Providers
 network: true
 overview: Weshine publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, GIF, Stickers, and Search.
-random_paper: 26
+random_paper: 17
 score:
   band: minimal
   composite: 7.8

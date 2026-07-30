@@ -48,7 +48,7 @@ name: Amberpoint
 nav: Providers
 network: true
 overview: Amberpoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SOA, API Management, Governance, and Middleware.
-random_paper: 20
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

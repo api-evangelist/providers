@@ -352,7 +352,7 @@ overview: 'Conduit publishes 52 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Conduit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 29
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Conduit Rate Limits

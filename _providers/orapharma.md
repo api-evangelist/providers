@@ -48,7 +48,7 @@ name: Orapharma
 nav: Providers
 network: true
 overview: Orapharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Oral Health, Dental, and Periodontics.
-random_paper: 64
+random_paper: 53
 score:
   band: minimal
   composite: 5.4

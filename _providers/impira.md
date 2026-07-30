@@ -56,7 +56,7 @@ name: Impira
 nav: Providers
 network: true
 overview: Impira is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Document AI, Intelligent Document Processing, Machine Learning, and Data Extraction.
-random_paper: 75
+random_paper: 68
 score:
   band: minimal
   composite: 7.0

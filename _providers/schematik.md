@@ -39,7 +39,7 @@ name: Schematik
 nav: Providers
 network: true
 overview: Schematik is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 62
+random_paper: 51
 score:
   band: minimal
   composite: 4.1

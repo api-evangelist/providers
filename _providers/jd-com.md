@@ -164,7 +164,7 @@ plans:
 - name: Jd Com Plans Pricing
   plan_count: 1
   slug: jd-com-plans-pricing
-random_paper: 3
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Jd Com Rate Limits

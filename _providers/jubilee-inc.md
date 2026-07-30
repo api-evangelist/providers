@@ -48,7 +48,7 @@ name: Jubilee Inc
 nav: Providers
 network: true
 overview: Jubilee Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Video, Entertainment, and Content Production.
-random_paper: 42
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

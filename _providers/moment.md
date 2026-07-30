@@ -139,7 +139,7 @@ overview: 'Moment publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Moment''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 14 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: thin
   composite: 34.2

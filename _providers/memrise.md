@@ -111,7 +111,7 @@ overview: 'memrise is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   memrise''s developer surface includes engineering blog, support, pricing, and 14 more developer resources.'
-random_paper: 25
+random_paper: 16
 score:
   band: emerging
   composite: 18.5

@@ -149,7 +149,7 @@ overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Medigo''s developer surface includes authentication, support, and 15 more developer resources.'
-random_paper: 62
+random_paper: 55
 score:
   band: thin
   composite: 33.0

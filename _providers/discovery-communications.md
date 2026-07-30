@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Discovery Communications Invests $100 Million In Group ...
   url: https://www.adexchanger.com/publishers/discovery-communications-invests-100-million-group-nine-media/
-random_paper: 31
+random_paper: 0
 score:
   band: minimal
   composite: 6.1

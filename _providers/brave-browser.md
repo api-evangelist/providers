@@ -187,7 +187,7 @@ plans:
 - name: Brave Browser Plans Pricing
   plan_count: 1
   slug: brave-browser-plans-pricing
-random_paper: 49
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Brave Browser Rate Limits

@@ -160,7 +160,7 @@ overview: 'Qubole publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qubole''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 0
+random_paper: 74
 score:
   band: thin
   composite: 37.4

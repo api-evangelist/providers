@@ -136,7 +136,7 @@ overview: 'Facebook Pages API publishes 11 APIs on the [APIs.io](https://apis.io
 
 
   Facebook Pages API''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 22
+random_paper: 5
 scopes:
 - name: Facebook Pages Scopes
   scope_count: 7

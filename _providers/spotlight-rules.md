@@ -21,7 +21,7 @@ modified: '2026-05-20'
 name: Spotlight Rules
 nav: Providers
 network: true
-random_paper: 51
+random_paper: 32
 slug: spotlight-rules
 tags:
 - Rules

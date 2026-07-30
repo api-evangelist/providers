@@ -83,7 +83,7 @@ overview: 'ConverzAI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ConverzAI''s developer surface includes engineering blog, support, YouTube channel, and 7 more developer resources.'
-random_paper: 5
+random_paper: 75
 score:
   band: minimal
   composite: 8.4

@@ -48,7 +48,7 @@ name: Highly
 nav: Providers
 network: true
 overview: Highly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 78
+random_paper: 71
 score:
   band: minimal
   composite: 3.2

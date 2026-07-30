@@ -75,7 +75,7 @@ overview: 'Caer is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Caer''s developer surface includes pricing, signup flow, engineering blog, support, and 4 more developer resources.'
-random_paper: 6
+random_paper: 1
 score:
   band: emerging
   composite: 15.2

@@ -71,7 +71,7 @@ overview: 'AdMagica AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   AdMagica AI''s developer surface includes pricing, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 1
+random_paper: 70
 score:
   band: emerging
   composite: 14.4

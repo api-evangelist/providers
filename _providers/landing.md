@@ -172,7 +172,7 @@ overview: 'Landing publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Landing''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, support, engineering blog, and 21 more developer resources.'
-random_paper: 4
+random_paper: 77
 score:
   band: developing
   composite: 42.8

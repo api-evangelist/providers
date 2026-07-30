@@ -91,7 +91,7 @@ overview: 'PayIt is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   PayIt''s developer surface includes engineering blog, support, pricing, signup flow, and 8 more developer resources.'
-random_paper: 65
+random_paper: 59
 score:
   band: emerging
   composite: 24.2

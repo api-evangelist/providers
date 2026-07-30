@@ -75,7 +75,7 @@ overview: 'Codi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Codi''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 10
+random_paper: 5
 score:
   band: emerging
   composite: 13.9

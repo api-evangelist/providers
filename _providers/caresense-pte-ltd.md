@@ -91,7 +91,7 @@ overview: 'Caresense Pte. Ltd. is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Caresense Pte. Ltd.''s developer surface includes support, signup flow, and 10 more developer resources.'
-random_paper: 76
+random_paper: 56
 score:
   band: emerging
   composite: 14.7

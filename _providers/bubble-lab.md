@@ -107,7 +107,7 @@ overview: 'Bubble Lab is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bubble Lab''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, CLI, and 10 more developer resources.'
-random_paper: 77
+random_paper: 66
 score:
   band: emerging
   composite: 24.8

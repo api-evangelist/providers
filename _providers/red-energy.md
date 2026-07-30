@@ -229,7 +229,7 @@ overview: 'Red Energy publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Red Energy''s developer surface includes authentication, changelog, code examples, status page, documentation, API reference, support, and 29 more developer resources.'
-random_paper: 38
+random_paper: 26
 rate_limits:
 - limit_count: 15
   name: Red Energy Rate Limits

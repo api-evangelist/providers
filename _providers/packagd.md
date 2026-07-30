@@ -39,7 +39,7 @@ name: Packagd *
 nav: Providers
 network: true
 overview: Packagd * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Defunct, Unboxing, and E-commerce.
-random_paper: 67
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

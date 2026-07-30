@@ -154,7 +154,7 @@ overview: 'Siemens Healthineers publishes 14 APIs on the [APIs.io](https://apis.
 
 
   Siemens Healthineers'' developer surface includes signup flow, GitHub presence, and 13 more developer resources.'
-random_paper: 52
+random_paper: 27
 score:
   band: emerging
   composite: 16.8

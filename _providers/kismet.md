@@ -75,7 +75,7 @@ overview: 'Kismet is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kismet''s developer surface includes engineering blog, pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 5
+random_paper: 79
 score:
   band: emerging
   composite: 15.6

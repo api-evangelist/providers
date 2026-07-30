@@ -91,7 +91,7 @@ overview: 'Workrise is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Workrise''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 76
+random_paper: 66
 score:
   band: emerging
   composite: 18.5

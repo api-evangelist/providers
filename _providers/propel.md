@@ -88,7 +88,7 @@ overview: 'Propel is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Propel''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: emerging
   composite: 15.0

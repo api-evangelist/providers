@@ -144,7 +144,7 @@ overview: 'Jit (fka Cbrix) publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Jit (fka Cbrix)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 44
+random_paper: 29
 scopes:
 - name: Jit Fka Cbrix Scopes
   scope_count: 0

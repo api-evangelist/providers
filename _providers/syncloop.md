@@ -84,7 +84,7 @@ plans:
 - name: Syncloop Plans Pricing
   plan_count: 3
   slug: syncloop-plans-pricing
-random_paper: 77
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Syncloop Rate Limits

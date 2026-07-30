@@ -71,7 +71,7 @@ overview: 'Quanta is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Quanta''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 2
+random_paper: 76
 score:
   band: emerging
   composite: 13.9

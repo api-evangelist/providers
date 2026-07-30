@@ -95,7 +95,7 @@ overview: 'MeetAndy AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   MeetAndy AI''s developer surface includes documentation, getting-started guide, signup flow, changelog, and 8 more developer resources.'
-random_paper: 49
+random_paper: 36
 score:
   band: emerging
   composite: 22.3

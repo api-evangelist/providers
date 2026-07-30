@@ -75,7 +75,7 @@ overview: 'Emtethal is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Emtethal''s developer surface includes pricing, support, signup flow, and 5 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: minimal
   composite: 12.7

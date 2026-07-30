@@ -235,7 +235,7 @@ plans:
 - name: Temple Health Plans Pricing
   plan_count: 4
   slug: temple-health-plans-pricing
-random_paper: 26
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Temple Health Rate Limits

@@ -75,7 +75,7 @@ overview: 'SRS Acquiom is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SRS Acquiom''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 42
+random_paper: 29
 score:
   band: emerging
   composite: 16.1

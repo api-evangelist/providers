@@ -111,7 +111,7 @@ overview: 'SeekOut is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   SeekOut''s developer surface includes engineering blog, changelog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: emerging
   composite: 23.8

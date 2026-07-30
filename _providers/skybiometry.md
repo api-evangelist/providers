@@ -63,7 +63,7 @@ overview: 'SkyBiometry publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   SkyBiometry''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 3
+random_paper: 70
 score:
   band: minimal
   composite: 6.2

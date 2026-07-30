@@ -59,7 +59,7 @@ overview: 'Whole Surplus is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Whole Surplus'' developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 9
+random_paper: 74
 score:
   band: minimal
   composite: 8.9

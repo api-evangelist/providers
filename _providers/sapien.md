@@ -163,7 +163,7 @@ overview: 'Sapien publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Sapien''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 73
+random_paper: 66
 score:
   band: thin
   composite: 40.6

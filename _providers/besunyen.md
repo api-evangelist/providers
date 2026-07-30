@@ -48,7 +48,7 @@ name: besunyen
 nav: Providers
 network: true
 overview: besunyen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Wellness, Consumer Goods, and Nutrition.
-random_paper: 63
+random_paper: 53
 score:
   band: minimal
   composite: 5.4

@@ -20,7 +20,7 @@ modified: '2026-05-25'
 name: Syndica
 nav: Providers
 network: true
-random_paper: 36
+random_paper: 24
 slug: syndica-io
 tags:
 - Solana

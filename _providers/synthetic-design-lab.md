@@ -44,7 +44,7 @@ name: Synthetic Design Lab
 nav: Providers
 network: true
 overview: Synthetic Design Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Engineered Biology, Biotechnology, Therapeutics, and Oncology.
-random_paper: 70
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

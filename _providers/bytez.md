@@ -162,7 +162,7 @@ overview: 'Bytez publishes 1 API on the [APIs.io](https://apis.io/) network: Mod
 
 
   Bytez''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 17 more developer resources.'
-random_paper: 72
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Bytez Rate Limits

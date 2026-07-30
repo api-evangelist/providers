@@ -126,7 +126,7 @@ plans:
 - name: Spinwheel Plans Pricing
   plan_count: 2
   slug: spinwheel-plans-pricing
-random_paper: 3
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Spinwheel Rate Limits

@@ -154,7 +154,7 @@ overview: 'Freshchat publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Freshchat''s developer surface includes authentication, documentation, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 61
+random_paper: 50
 score:
   band: thin
   composite: 30.3

@@ -130,7 +130,7 @@ plans:
 - name: Data Analysis Tools Bureau Of Justice Statistics Plans Pricing
   plan_count: 3
   slug: data-analysis-tools-bureau-of-justice-statistics-plans-pricing
-random_paper: 45
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Data Analysis Tools Bureau Of Justice Statistics Rate Limits

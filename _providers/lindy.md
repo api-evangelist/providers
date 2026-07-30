@@ -88,7 +88,7 @@ plans:
 - name: Lindy Plans Pricing
   plan_count: 3
   slug: lindy-plans-pricing
-random_paper: 58
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Lindy Rate Limits

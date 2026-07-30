@@ -87,7 +87,7 @@ overview: 'ShapeCI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   ShapeCI''s developer surface includes documentation, signup flow, support, and 8 more developer resources.'
-random_paper: 4
+random_paper: 77
 score:
   band: emerging
   composite: 15.9

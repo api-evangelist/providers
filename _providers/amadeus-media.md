@@ -372,7 +372,7 @@ overview: 'Amadeus Media publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Amadeus Media''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, FAQ, and 22 more developer resources.'
-random_paper: 78
+random_paper: 63
 rules:
 - name: Amadeus Media API Rules
   rule_count: 5

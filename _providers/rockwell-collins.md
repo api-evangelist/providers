@@ -193,7 +193,7 @@ press:
 - date: '2026-05-25'
   title: Rockwell Collins Airport Solutions Enhance Operations at ...
   url: https://www.airport-technology.com/contractors/consult/arinc-airports/pressreleases/terminal-operations-noi-bai/
-random_paper: 48
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Rockwell Collins Rate Limits

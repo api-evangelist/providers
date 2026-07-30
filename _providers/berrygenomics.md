@@ -59,7 +59,7 @@ overview: 'Berry Genomics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Berry Genomics'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: minimal
   composite: 8.3

@@ -104,7 +104,7 @@ overview: 'Verisian is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Verisian''s developer surface includes engineering blog, support, YouTube channel, and 12 more developer resources.'
-random_paper: 55
+random_paper: 45
 score:
   band: emerging
   composite: 13.8

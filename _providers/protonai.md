@@ -133,7 +133,7 @@ overview: 'Proton.ai publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Proton.ai''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: thin
   composite: 41.8

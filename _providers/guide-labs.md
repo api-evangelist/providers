@@ -75,7 +75,7 @@ overview: 'Guide Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Guide Labs'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 17
+random_paper: 5
 score:
   band: minimal
   composite: 11.6

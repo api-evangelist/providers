@@ -33,7 +33,7 @@ name: SkipOdds
 nav: Providers
 network: true
 overview: 'SkipOdds publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include sports, odds, probabilities, betting-data, and de-vig.'
-random_paper: 55
+random_paper: 45
 score:
   band: emerging
   composite: 14.0

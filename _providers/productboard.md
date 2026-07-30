@@ -103,7 +103,7 @@ overview: 'Productboard publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Productboard''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 74
+random_paper: 59
 score:
   band: thin
   composite: 29.9

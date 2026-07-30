@@ -39,7 +39,7 @@ name: Cross Access
 nav: Providers
 network: true
 overview: Cross Access is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Integration, Enterprise Software, Acquired, and Defunct.
-random_paper: 10
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

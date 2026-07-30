@@ -67,7 +67,7 @@ overview: 'Oceans is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Oceans'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 66
+random_paper: 59
 score:
   band: minimal
   composite: 10.8

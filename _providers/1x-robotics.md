@@ -148,7 +148,7 @@ overview: '1X Technologies is profiled on the [APIs.io](https://apis.io/) networ
 
 
   1X Technologies'' developer surface includes support, YouTube channel, and 22 more developer resources.'
-random_paper: 30
+random_paper: 17
 score:
   band: minimal
   composite: 11.0

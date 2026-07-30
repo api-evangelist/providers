@@ -115,7 +115,7 @@ overview: 'Coefficient Works is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Coefficient Works'' developer surface includes documentation, support, getting-started guide, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 61
+random_paper: 40
 score:
   band: emerging
   composite: 21.0

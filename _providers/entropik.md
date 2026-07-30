@@ -111,7 +111,7 @@ overview: 'Entropik is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Entropik''s developer surface includes pricing, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: emerging
   composite: 22.4

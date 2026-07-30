@@ -44,7 +44,7 @@ name: AMN Healthcare Services
 nav: Providers
 network: true
 overview: AMN Healthcare Services is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 47
+random_paper: 19
 score:
   band: minimal
   composite: 2.6

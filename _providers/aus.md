@@ -48,7 +48,7 @@ name: AUS
 nav: Providers
 network: true
 overview: AUS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 5
+random_paper: 1
 score:
   band: minimal
   composite: 3.2

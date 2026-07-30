@@ -100,7 +100,7 @@ plans:
 - name: Helium Network Plans Pricing
   plan_count: 1
   slug: helium-network-plans-pricing
-random_paper: 9
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Helium Network Rate Limits

@@ -39,7 +39,7 @@ name: uBEAM
 nav: Providers
 network: true
 overview: uBEAM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wireless Charging, Ultrasound, Hardware, and Consumer Electronics.
-random_paper: 36
+random_paper: 30
 score:
   band: minimal
   composite: 5.0

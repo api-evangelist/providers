@@ -52,7 +52,7 @@ name: Experiential Labs
 nav: Providers
 network: true
 overview: Experiential Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, World Models, and AI Agents.
-random_paper: 52
+random_paper: 31
 score:
   band: minimal
   composite: 5.7

@@ -375,7 +375,7 @@ plans:
 - name: Ribbon Health Plans Pricing
   plan_count: 1
   slug: ribbon-health-plans-pricing
-random_paper: 15
+random_paper: 81
 rate_limits:
 - limit_count: 8
   name: Ribbon Health Rate Limits

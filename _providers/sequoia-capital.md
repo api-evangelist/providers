@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Sequoia Capital
 nav: Providers
 network: true
-random_paper: 80
+random_paper: 62
 slug: sequoia-capital
 tags:
 - Venture Capital

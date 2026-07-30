@@ -120,7 +120,7 @@ plans:
 - name: Montecarlodata Plans Pricing
   plan_count: 3
   slug: montecarlodata-plans-pricing
-random_paper: 28
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Montecarlodata Rate Limits

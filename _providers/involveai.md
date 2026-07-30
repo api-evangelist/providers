@@ -63,7 +63,7 @@ overview: 'Involve.AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Involve.AI''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 1
+random_paper: 71
 score:
   band: minimal
   composite: 7.6

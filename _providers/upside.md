@@ -99,7 +99,7 @@ overview: 'Upside is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Upside''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 2
+random_paper: 76
 score:
   band: emerging
   composite: 20.2

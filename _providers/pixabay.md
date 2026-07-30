@@ -92,7 +92,7 @@ plans:
 - name: Pixabay Plans Pricing
   plan_count: 1
   slug: pixabay-plans-pricing
-random_paper: 21
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Pixabay Rate Limits

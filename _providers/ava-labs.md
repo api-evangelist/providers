@@ -263,7 +263,7 @@ overview: 'Ava Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network
 
 
   Ava Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 22 more developer resources.'
-random_paper: 46
+random_paper: 37
 score:
   band: developing
   composite: 54.9

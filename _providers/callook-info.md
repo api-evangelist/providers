@@ -56,7 +56,7 @@ name: Callook.info
 nav: Providers
 network: true
 overview: Callook.info publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 80
+random_paper: 66
 score:
   band: minimal
   composite: 6.5

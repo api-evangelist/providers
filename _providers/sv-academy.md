@@ -48,7 +48,7 @@ name: SV Academy
 nav: Providers
 network: true
 overview: SV Academy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Training, Talent Placement, and Sales Development.
-random_paper: 30
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

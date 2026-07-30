@@ -156,7 +156,7 @@ overview: 'Timeswap publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Timeswap''s developer surface includes documentation, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 64
+random_paper: 54
 score:
   band: thin
   composite: 33.0

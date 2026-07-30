@@ -132,7 +132,7 @@ plans:
 - name: Octobat Plans Pricing
   plan_count: 4
   slug: octobat-plans-pricing
-random_paper: 19
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Octobat Rate Limits

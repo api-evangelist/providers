@@ -52,7 +52,7 @@ name: Manpower
 nav: Providers
 network: true
 overview: Manpower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Workforce, Staffing, Talent, Human Resources, and Fortune 500.
-random_paper: 63
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

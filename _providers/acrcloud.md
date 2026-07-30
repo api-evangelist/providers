@@ -127,7 +127,7 @@ plans:
 - name: Acrcloud Plans Pricing
   plan_count: 5
   slug: acrcloud-plans-pricing
-random_paper: 35
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Acrcloud Rate Limits

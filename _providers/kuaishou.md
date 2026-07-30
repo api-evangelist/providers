@@ -107,7 +107,7 @@ overview: 'Kuaishou publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Kuaishou''s developer surface includes support, authentication, and 12 more developer resources.'
-random_paper: 63
+random_paper: 53
 score:
   band: emerging
   composite: 18.8

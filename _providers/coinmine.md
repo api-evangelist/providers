@@ -48,7 +48,7 @@ name: Coinmine
 nav: Providers
 network: true
 overview: Coinmine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Mining, Blockchain, and Hardware.
-random_paper: 40
+random_paper: 30
 score:
   band: minimal
   composite: 5.0

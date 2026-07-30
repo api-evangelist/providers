@@ -123,7 +123,7 @@ plans:
 - name: Revert Api Plans Pricing
   plan_count: 4
   slug: revert-api-plans-pricing
-random_paper: 51
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Revert Api Rate Limits

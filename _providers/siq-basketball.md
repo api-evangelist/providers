@@ -48,7 +48,7 @@ name: SIQ Basketball
 nav: Providers
 network: true
 overview: SIQ Basketball is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Basketball, Sports Technology, and Internet of Things.
-random_paper: 46
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

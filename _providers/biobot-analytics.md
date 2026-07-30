@@ -75,7 +75,7 @@ overview: 'Biobot Analytics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Biobot Analytics'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 32
+random_paper: 12
 score:
   band: emerging
   composite: 13.6

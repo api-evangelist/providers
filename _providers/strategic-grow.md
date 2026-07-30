@@ -52,7 +52,7 @@ name: Revolution Precrafted
 nav: Providers
 network: true
 overview: Revolution Precrafted is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Prefab, Proptech, Real Estate, and Construction.
-random_paper: 0
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

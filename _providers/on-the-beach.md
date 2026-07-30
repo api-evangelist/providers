@@ -112,7 +112,7 @@ overview: 'On the Beach is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   On the Beach''s developer surface includes support and 17 more developer resources.'
-random_paper: 78
+random_paper: 65
 score:
   band: emerging
   composite: 14.4

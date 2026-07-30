@@ -72,7 +72,7 @@ plans:
 - name: Multus Cni Plans Pricing
   plan_count: 3
   slug: multus-cni-plans-pricing
-random_paper: 69
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Multus Cni Rate Limits

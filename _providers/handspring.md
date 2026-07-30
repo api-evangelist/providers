@@ -39,7 +39,7 @@ name: Handspring
 nav: Providers
 network: true
 overview: Handspring is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Hardtech.
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

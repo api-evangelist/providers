@@ -64,7 +64,7 @@ name: Viajanet
 nav: Providers
 network: true
 overview: Viajanet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Online Travel Agency, Flights, and Hotels.
-random_paper: 40
+random_paper: 30
 score:
   band: minimal
   composite: 7.5

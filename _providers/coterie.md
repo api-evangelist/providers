@@ -131,7 +131,7 @@ plans:
 - name: Coterie Plans Pricing
   plan_count: 2
   slug: coterie-plans-pricing
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Coterie Rate Limits

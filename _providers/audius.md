@@ -176,7 +176,7 @@ plans:
 - name: Audius Plans Pricing
   plan_count: 1
   slug: audius-plans-pricing
-random_paper: 3
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Audius Rate Limits

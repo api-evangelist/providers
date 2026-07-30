@@ -39,7 +39,7 @@ name: Drishti Technologies
 nav: Providers
 network: true
 overview: Drishti Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Computer Vision, Artificial Intelligence, and Video Analytics.
-random_paper: 63
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

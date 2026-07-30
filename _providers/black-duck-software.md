@@ -160,7 +160,7 @@ overview: 'Black Duck Software is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Black Duck Software''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 21 more developer resources.'
-random_paper: 34
+random_paper: 11
 score:
   band: thin
   composite: 37.7

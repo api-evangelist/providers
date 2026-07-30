@@ -134,7 +134,7 @@ plans:
 - name: Apollo Enrich Plans Pricing
   plan_count: 5
   slug: apollo-enrich-plans-pricing
-random_paper: 29
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Apollo Enrich Rate Limits

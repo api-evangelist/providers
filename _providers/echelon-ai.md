@@ -96,7 +96,7 @@ plans:
 - name: Echelon Ai Plans
   plan_count: 3
   slug: echelon-ai-plans
-random_paper: 9
+random_paper: 79
 score:
   band: emerging
   composite: 25.1

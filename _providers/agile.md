@@ -97,7 +97,7 @@ overview: 'Agile is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Agile''s developer surface includes developer portal and 2 more developer resources.'
-random_paper: 28
+random_paper: 22
 rules:
 - name: Agile API Rules
   rule_count: 4

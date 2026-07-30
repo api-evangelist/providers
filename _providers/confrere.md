@@ -165,7 +165,7 @@ overview: 'Confrere publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Confrere''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: thin
   composite: 38.5

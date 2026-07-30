@@ -202,7 +202,7 @@ plans:
 - name: Mexc Plans Pricing
   plan_count: 5
   slug: mexc-plans-pricing
-random_paper: 24
+random_paper: 19
 rate_limits:
 - limit_count: 12
   name: Mexc Rate Limits

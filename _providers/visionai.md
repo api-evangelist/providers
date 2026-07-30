@@ -39,7 +39,7 @@ name: VisionAI
 nav: Providers
 network: true
 overview: VisionAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai Enterprise Software.
-random_paper: 56
+random_paper: 46
 score:
   band: minimal
   composite: 4.1

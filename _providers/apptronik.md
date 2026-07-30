@@ -104,7 +104,7 @@ overview: 'Apptronik is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Apptronik''s developer surface includes product news, YouTube channel, and 11 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: minimal
   composite: 8.9

@@ -59,7 +59,7 @@ overview: 'H&M is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   H&M''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 51
+random_paper: 49
 score:
   band: minimal
   composite: 4.5

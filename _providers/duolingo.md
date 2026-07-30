@@ -144,7 +144,7 @@ overview: 'Duolingo is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Duolingo''s developer surface includes GitHub presence, support, YouTube channel, engineering blog, and 20 more developer resources.'
-random_paper: 55
+random_paper: 45
 score:
   band: emerging
   composite: 17.8

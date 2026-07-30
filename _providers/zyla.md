@@ -100,7 +100,7 @@ plans:
 - name: Zyla Plans Pricing
   plan_count: 3
   slug: zyla-plans-pricing
-random_paper: 43
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Zyla Rate Limits

@@ -39,7 +39,7 @@ name: Sirtris Pharmaceuticals
 nav: Providers
 network: true
 overview: Sirtris Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Pharmaceuticals, Life Sciences, and Drug Discovery.
-random_paper: 70
+random_paper: 41
 score:
   band: minimal
   composite: 4.3

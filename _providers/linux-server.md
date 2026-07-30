@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: Linux Server
 nav: Providers
 network: true
-random_paper: 53
+random_paper: 38
 slug: linux-server
 tags:
 - Infrastructure

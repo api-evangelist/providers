@@ -189,7 +189,7 @@ overview: 'Curse publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Curse''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: developing
   composite: 44.2

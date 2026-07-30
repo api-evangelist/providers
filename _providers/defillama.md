@@ -133,7 +133,7 @@ plans:
 - name: Defillama Plans Pricing
   plan_count: 2
   slug: defillama-plans-pricing
-random_paper: 36
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Defillama Rate Limits

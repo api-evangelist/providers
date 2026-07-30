@@ -59,7 +59,7 @@ overview: 'Machindustries is profiled on the [APIs.io](https://apis.io/) network
 
 
   Machindustries'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 49
+random_paper: 31
 score:
   band: minimal
   composite: 7.5

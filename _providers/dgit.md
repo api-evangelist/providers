@@ -48,7 +48,7 @@ name: DGIT
 nav: Providers
 network: true
 overview: DGIT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS, Telecommunications, BSS, and OSS.
-random_paper: 19
+random_paper: 14
 score:
   band: minimal
   composite: 4.8

@@ -313,7 +313,7 @@ plans:
 - name: 7Shifts Plans Pricing
   plan_count: 4
   slug: 7shifts-plans-pricing
-random_paper: 64
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: 7Shifts Rate Limits

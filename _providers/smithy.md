@@ -126,7 +126,7 @@ plans:
 - name: Smithy Plans Pricing
   plan_count: 3
   slug: smithy-plans-pricing
-random_paper: 22
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Smithy Rate Limits

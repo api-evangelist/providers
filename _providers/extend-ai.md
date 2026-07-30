@@ -132,7 +132,7 @@ plans:
 - name: Extend Ai Plans Pricing
   plan_count: 3
   slug: extend-ai-plans-pricing
-random_paper: 4
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Extend Ai Rate Limits

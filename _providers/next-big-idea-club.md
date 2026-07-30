@@ -108,7 +108,7 @@ overview: 'Next Big Idea Club publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Next Big Idea Club''s developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 12
+random_paper: 73
 scopes:
 - name: Next Big Idea Club Scopes
   scope_count: 4

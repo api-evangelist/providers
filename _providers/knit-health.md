@@ -80,7 +80,7 @@ overview: 'Knit Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Knit Health''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 60
+random_paper: 47
 score:
   band: minimal
   composite: 9.9

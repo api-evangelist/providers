@@ -240,7 +240,7 @@ plans:
 - name: Solcast Plans Pricing
   plan_count: 5
   slug: solcast-plans-pricing
-random_paper: 32
+random_paper: 23
 rate_limits:
 - limit_count: 6
   name: Solcast Rate Limits

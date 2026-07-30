@@ -143,7 +143,7 @@ plans:
 - name: Mosaic App Plans Pricing
   plan_count: 1
   slug: mosaic-app-plans-pricing
-random_paper: 30
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Mosaic App Rate Limits

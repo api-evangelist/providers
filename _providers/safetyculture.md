@@ -187,7 +187,7 @@ overview: 'SafetyCulture publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   SafetyCulture''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
-random_paper: 47
+random_paper: 30
 rate_limits:
 - limit_count: 6
   name: Safetyculture Rate Limits

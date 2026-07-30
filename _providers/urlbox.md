@@ -125,7 +125,7 @@ plans:
 - name: Urlbox Plans Pricing
   plan_count: 5
   slug: urlbox-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Urlbox Rate Limits

@@ -39,7 +39,7 @@ name: Poncho
 nav: Providers
 network: true
 overview: Poncho is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Weather, Chatbot, Messaging, and Conversational.
-random_paper: 80
+random_paper: 73
 score:
   band: minimal
   composite: 4.3

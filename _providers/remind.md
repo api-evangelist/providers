@@ -132,7 +132,7 @@ overview: 'Remind is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Remind''s developer surface includes pricing, privacy policy, terms of service, GitHub presence, YouTube channel, and 17 more developer resources.'
-random_paper: 72
+random_paper: 65
 score:
   band: minimal
   composite: 12.5

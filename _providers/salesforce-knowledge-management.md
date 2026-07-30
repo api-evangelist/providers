@@ -202,7 +202,7 @@ plans:
 - name: Salesforce Knowledge Management Plans Pricing
   plan_count: 3
   slug: salesforce-knowledge-management-plans-pricing
-random_paper: 7
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Salesforce Knowledge Management Rate Limits

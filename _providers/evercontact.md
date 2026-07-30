@@ -155,7 +155,7 @@ overview: 'Evercontact publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Evercontact''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 48
+random_paper: 34
 score:
   band: developing
   composite: 48.1

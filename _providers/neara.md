@@ -87,7 +87,7 @@ overview: 'Neara is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Neara''s developer surface includes support, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 33
+random_paper: 27
 score:
   band: emerging
   composite: 15.2

@@ -193,7 +193,7 @@ overview: 'Athelas publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Athelas'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 21 more developer resources.'
-random_paper: 9
+random_paper: 0
 scopes:
 - name: Athelas Scopes
   scope_count: 31

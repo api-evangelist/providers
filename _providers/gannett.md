@@ -95,7 +95,7 @@ overview: 'Gannett is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Gannett''s developer surface includes product news and 12 more developer resources.'
-random_paper: 24
+random_paper: 15
 score:
   band: minimal
   composite: 8.7

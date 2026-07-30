@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: News Releases | Boeing Newsroom
   url: https://boeing.mediaroom.com/news-releases-statements?item=131225
-random_paper: 61
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Boeing Rate Limits

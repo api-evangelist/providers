@@ -71,7 +71,7 @@ overview: 'Quero Educação is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Quero Educação''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 56
+random_paper: 41
 score:
   band: minimal
   composite: 11.2

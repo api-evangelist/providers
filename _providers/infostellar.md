@@ -136,7 +136,7 @@ overview: 'Infostellar publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Infostellar''s developer surface includes documentation, API reference, changelog, authentication, and 17 more developer resources.'
-random_paper: 53
+random_paper: 39
 score:
   band: emerging
   composite: 19.7

@@ -52,7 +52,7 @@ name: Philon
 nav: Providers
 network: true
 overview: Philon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Research, and Open Source.
-random_paper: 2
+random_paper: 76
 score:
   band: minimal
   composite: 5.7

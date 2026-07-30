@@ -237,7 +237,7 @@ plans:
 - name: Workday Advanced Compensation Plans Pricing
   plan_count: 3
   slug: workday-advanced-compensation-plans-pricing
-random_paper: 61
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Workday Advanced Compensation Rate Limits

@@ -56,7 +56,7 @@ name: COVID-19 Tracker Canada
 nav: Providers
 network: true
 overview: COVID-19 Tracker Canada publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Health and Public APIs.
-random_paper: 16
+random_paper: 72
 score:
   band: minimal
   composite: 6.0

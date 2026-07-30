@@ -56,7 +56,7 @@ name: Warner Brothers
 nav: Providers
 network: true
 overview: Warner Brothers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Entertainment, Film, Television, and Streaming.
-random_paper: 34
+random_paper: 15
 score:
   band: minimal
   composite: 5.1

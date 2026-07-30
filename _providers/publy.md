@@ -63,7 +63,7 @@ overview: 'PUBLY is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   PUBLY''s developer surface includes support and 4 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: minimal
   composite: 10.1

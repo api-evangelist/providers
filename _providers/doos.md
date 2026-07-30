@@ -52,7 +52,7 @@ name: Doos
 nav: Providers
 network: true
 overview: Doos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quick Commerce, Q-Commerce, Grocery Delivery, and E-Commerce.
-random_paper: 32
+random_paper: 27
 score:
   band: minimal
   composite: 5.7

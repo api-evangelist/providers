@@ -136,7 +136,7 @@ overview: 'Rookout is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Rookout''s developer surface includes GitHub presence, signup flow, pricing, and 20 more developer resources.'
-random_paper: 58
+random_paper: 49
 score:
   band: minimal
   composite: 9.4

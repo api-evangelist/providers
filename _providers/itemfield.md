@@ -39,7 +39,7 @@ name: Itemfield
 nav: Providers
 network: true
 overview: Itemfield is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Data Integration, Data Transformation, and B2B.
-random_paper: 56
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

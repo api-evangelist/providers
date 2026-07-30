@@ -84,7 +84,7 @@ plans:
 - name: Opendata Comune Messina It Plans Pricing
   plan_count: 1
   slug: opendata-comune-messina-it-plans-pricing
-random_paper: 7
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Opendata Comune Messina It Rate Limits

@@ -48,7 +48,7 @@ name: merXu
 nav: Providers
 network: true
 overview: merXu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ecommerce.
-random_paper: 75
+random_paper: 69
 score:
   band: minimal
   composite: 4.1

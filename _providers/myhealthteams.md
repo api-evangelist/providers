@@ -48,7 +48,7 @@ name: MyHealthTeam
 nav: Providers
 network: true
 overview: MyHealthTeam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Chronic Conditions, and Patient Community.
-random_paper: 21
+random_paper: 4
 score:
   band: minimal
   composite: 5.4

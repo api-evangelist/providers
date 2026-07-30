@@ -83,7 +83,7 @@ overview: 'Science Corporation publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Science Corporation''s developer surface includes documentation, getting-started guide, changelog, support, and 4 more developer resources.'
-random_paper: 31
+random_paper: 7
 score:
   band: emerging
   composite: 17.2

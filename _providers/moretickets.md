@@ -48,7 +48,7 @@ name: MoreTickets
 nav: Providers
 network: true
 overview: MoreTickets is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ticketing, Events, Marketplace, and Entertainment.
-random_paper: 60
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

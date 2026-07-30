@@ -60,7 +60,7 @@ name: Cartwheel Care
 nav: Providers
 network: true
 overview: Cartwheel Care is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Mental Health, Behavioral Health, and Telehealth.
-random_paper: 38
+random_paper: 21
 score:
   band: minimal
   composite: 11.6

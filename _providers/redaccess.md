@@ -67,7 +67,7 @@ overview: 'Red Access is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Red Access'' developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 50
+random_paper: 39
 score:
   band: minimal
   composite: 12.3

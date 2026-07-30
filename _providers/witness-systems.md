@@ -39,7 +39,7 @@ name: Witness Systems
 nav: Providers
 network: true
 overview: Witness Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Optimization, Contact Center, Call Recording, and Quality Monitoring.
-random_paper: 79
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

@@ -112,7 +112,7 @@ overview: 'GM OnStar is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   GM OnStar''s developer surface includes GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 29
+random_paper: 18
 score:
   band: minimal
   composite: 6.1

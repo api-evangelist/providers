@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: The Tesoro AI Podcast
   url: https://podcasts.apple.com/ae/podcast/the-tesoro-ai-podcast/id1527996104
-random_paper: 20
+random_paper: 12
 score:
   band: minimal
   composite: 10.7

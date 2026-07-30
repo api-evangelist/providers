@@ -79,7 +79,7 @@ overview: 'axiTrust is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   axiTrust''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 9
+random_paper: 80
 score:
   band: minimal
   composite: 12.8

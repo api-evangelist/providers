@@ -56,7 +56,7 @@ name: Lready
 nav: Providers
 network: true
 overview: Lready is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Location Sharing, Family Safety, Mobile App, and Consumer.
-random_paper: 74
+random_paper: 67
 score:
   band: minimal
   composite: 6.4

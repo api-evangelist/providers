@@ -151,7 +151,7 @@ overview: 'Public Sector publishes 21 APIs on the [APIs.io](https://apis.io/) ne
 
 
   The Public Sector catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 44
+random_paper: 28
 rules:
 - name: Public Sector API Rules
   rule_count: 5

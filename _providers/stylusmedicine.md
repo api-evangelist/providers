@@ -48,7 +48,7 @@ name: Stylus Medicine
 nav: Providers
 network: true
 overview: Stylus Medicine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Genetic Medicine, CAR-T, and Cell Therapy.
-random_paper: 64
+random_paper: 46
 score:
   band: minimal
   composite: 5.4

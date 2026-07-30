@@ -285,7 +285,7 @@ plans:
 - name: Seldon Plans Pricing
   plan_count: 4
   slug: seldon-plans-pricing
-random_paper: 78
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Seldon Rate Limits

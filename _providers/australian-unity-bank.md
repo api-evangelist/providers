@@ -158,7 +158,7 @@ overview: 'Australian Unity Bank publishes 7 APIs on the [APIs.io](https://apis.
 
 
   Australian Unity Bank''s developer surface includes authentication, documentation, API reference, and 17 more developer resources.'
-random_paper: 41
+random_paper: 15
 scopes:
 - name: Australian Unity Bank Scopes
   scope_count: 9

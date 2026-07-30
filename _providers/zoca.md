@@ -79,7 +79,7 @@ overview: 'Zoca is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zoca''s developer surface includes pricing, engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 24
+random_paper: 19
 score:
   band: emerging
   composite: 15.2

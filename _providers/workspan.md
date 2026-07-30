@@ -246,7 +246,7 @@ overview: 'WorkSpan publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   WorkSpan''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 75
+random_paper: 65
 score:
   band: developing
   composite: 52.1

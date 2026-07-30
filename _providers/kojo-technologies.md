@@ -115,7 +115,7 @@ overview: 'Kojo Technologies is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Kojo Technologies'' developer surface includes pricing, support, engineering blog, and 15 more developer resources.'
-random_paper: 63
+random_paper: 42
 score:
   band: emerging
   composite: 23.1

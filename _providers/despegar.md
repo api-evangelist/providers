@@ -201,7 +201,7 @@ overview: 'Despegar publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Despegar''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 33
+random_paper: 23
 score:
   band: thin
   composite: 38.4

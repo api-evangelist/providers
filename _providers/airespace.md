@@ -44,7 +44,7 @@ name: Airespace
 nav: Providers
 network: true
 overview: Airespace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Wireless, Wi-Fi, and Access Points.
-random_paper: 50
+random_paper: 39
 score:
   band: minimal
   composite: 5.0

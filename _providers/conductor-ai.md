@@ -87,7 +87,7 @@ overview: 'Conductor AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Conductor AI''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 9
+random_paper: 76
 score:
   band: emerging
   composite: 18.7

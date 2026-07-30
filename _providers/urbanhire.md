@@ -60,7 +60,7 @@ name: UrbanHire
 nav: Providers
 network: true
 overview: UrbanHire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Applicant Tracking, and Assessments.
-random_paper: 69
+random_paper: 58
 score:
   band: minimal
   composite: 7.5

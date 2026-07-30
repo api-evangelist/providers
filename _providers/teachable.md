@@ -207,7 +207,7 @@ plans:
 - name: Teachable Plans Pricing
   plan_count: 5
   slug: teachable-plans-pricing
-random_paper: 30
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Teachable Rate Limits

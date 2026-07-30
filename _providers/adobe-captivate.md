@@ -828,7 +828,7 @@ plans:
 - name: Adobe Captivate Plans Pricing
   plan_count: 2
   slug: adobe-captivate-plans-pricing
-random_paper: 55
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Adobe Captivate Rate Limits

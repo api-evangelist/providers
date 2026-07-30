@@ -49,7 +49,7 @@ name: Zylon
 nav: Providers
 network: true
 overview: Zylon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 5
+random_paper: 80
 score:
   band: minimal
   composite: 3.9

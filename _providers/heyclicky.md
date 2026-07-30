@@ -67,7 +67,7 @@ overview: 'Heyclicky is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Heyclicky''s developer surface includes pricing, signup flow, support, and 3 more developer resources.'
-random_paper: 74
+random_paper: 63
 score:
   band: minimal
   composite: 11.3

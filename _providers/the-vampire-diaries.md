@@ -60,7 +60,7 @@ name: The Vampire Diaries
 nav: Providers
 network: true
 overview: The Vampire Diaries publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 41
+random_paper: 18
 score:
   band: minimal
   composite: 7.3

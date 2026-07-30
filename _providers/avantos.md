@@ -67,7 +67,7 @@ overview: 'Avantos is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Avantos'' developer surface includes support and 5 more developer resources.'
-random_paper: 35
+random_paper: 26
 score:
   band: minimal
   composite: 12.2

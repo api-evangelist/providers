@@ -52,7 +52,7 @@ overview: 'Meow is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   The Meow catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 35
+random_paper: 30
 scopes:
 - name: Meow Scopes
   scope_count: 0

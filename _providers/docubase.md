@@ -48,7 +48,7 @@ name: Docubase
 nav: Providers
 network: true
 overview: Docubase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Document Management, Knowledge Base, and AI.
-random_paper: 28
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

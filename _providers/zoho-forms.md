@@ -108,7 +108,7 @@ plans:
 - name: Zoho Forms Plans Pricing
   plan_count: 5
   slug: zoho-forms-plans-pricing
-random_paper: 72
+random_paper: 60
 rate_limits:
 - limit_count: 6
   name: Zoho Forms Rate Limits

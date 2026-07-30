@@ -48,7 +48,7 @@ name: simplifile
 nav: Providers
 network: true
 overview: simplifile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Mortgage, E-Recording, and Document Management.
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

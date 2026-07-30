@@ -48,7 +48,7 @@ name: Origami Logic
 nav: Providers
 network: true
 overview: Origami Logic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Marketing, Analytics, and Marketing Intelligence.
-random_paper: 19
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

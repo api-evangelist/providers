@@ -80,7 +80,7 @@ overview: 'Solvo.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Solvo.ai''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 0
+random_paper: 72
 score:
   band: minimal
   composite: 12.8

@@ -145,7 +145,7 @@ plans:
 - name: Windsurf Plans Pricing
   plan_count: 1
   slug: windsurf-plans-pricing
-random_paper: 72
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Windsurf Rate Limits

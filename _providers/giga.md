@@ -111,7 +111,7 @@ overview: 'Giga is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Giga''s developer surface includes documentation, signup flow, engineering blog, support, and 13 more developer resources.'
-random_paper: 3
+random_paper: 80
 score:
   band: emerging
   composite: 24.0

@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Bayer and Monsanto to Create a Global Leader in Agriculture
   url: https://www.prnewswire.com/news-releases/bayer-and-monsanto-to-create-a-global-leader-in-agriculture-300327863.html
-random_paper: 69
+random_paper: 59
 score:
   band: minimal
   composite: 5.7

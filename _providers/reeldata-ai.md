@@ -72,7 +72,7 @@ overview: 'ReelData AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   ReelData AI''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 28
+random_paper: 15
 score:
   band: emerging
   composite: 13.1

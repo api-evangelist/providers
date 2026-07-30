@@ -103,7 +103,7 @@ overview: 'TheGuarantors publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   TheGuarantors'' developer surface includes documentation, API reference, engineering blog, support, and 10 more developer resources.'
-random_paper: 38
+random_paper: 21
 score:
   band: emerging
   composite: 21.2

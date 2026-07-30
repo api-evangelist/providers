@@ -67,7 +67,7 @@ overview: 'Hobnob is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Hobnob''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 65
+random_paper: 58
 score:
   band: minimal
   composite: 12.3

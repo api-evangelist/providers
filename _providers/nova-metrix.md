@@ -44,7 +44,7 @@ name: Nova Metrix
 nav: Providers
 network: true
 overview: Nova Metrix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Geotechnical, Instrumentation, Sensors, and Monitoring.
-random_paper: 12
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

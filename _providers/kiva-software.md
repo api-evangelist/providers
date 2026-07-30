@@ -57,7 +57,7 @@ name: Kiva Software
 nav: Providers
 network: true
 overview: Kiva Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application Server, Java, Middleware, and Web Applications.
-random_paper: 51
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

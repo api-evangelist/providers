@@ -136,7 +136,7 @@ overview: 'CentralReach publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   CentralReach''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 45
+random_paper: 30
 scopes:
 - name: Centralreach Scopes
   scope_count: 4

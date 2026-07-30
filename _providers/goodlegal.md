@@ -39,7 +39,7 @@ name: Goodlegal
 nav: Providers
 network: true
 overview: Goodlegal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Tech, Document Automation, and Compliance.
-random_paper: 51
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

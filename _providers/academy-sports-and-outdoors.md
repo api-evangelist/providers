@@ -52,7 +52,7 @@ name: Academy Sports and Outdoors
 nav: Providers
 network: true
 overview: Academy Sports and Outdoors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Retail, Sporting Goods, Outdoor Recreation, and E-Commerce.
-random_paper: 71
+random_paper: 38
 score:
   band: minimal
   composite: 4.4

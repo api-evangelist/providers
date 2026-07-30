@@ -117,7 +117,7 @@ plans:
 - name: Boost Insurance Plans Pricing
   plan_count: 1
   slug: boost-insurance-plans-pricing
-random_paper: 25
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Boost Insurance Rate Limits

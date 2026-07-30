@@ -67,7 +67,7 @@ overview: 'Noteworthy AI is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Noteworthy AI''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 74
+random_paper: 58
 score:
   band: minimal
   composite: 12.1

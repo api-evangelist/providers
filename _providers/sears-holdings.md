@@ -79,7 +79,7 @@ press:
 - date: '2021-07-01'
   title: How Sears Home Services Helped Keep Puerto Rico's Appliances Running When It Mattered Most
   url: https://transformco.com/press-releases/pr/2151
-random_paper: 66
+random_paper: 49
 score:
   band: minimal
   composite: 3.0

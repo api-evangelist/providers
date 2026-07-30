@@ -63,7 +63,7 @@ overview: 'Meridian Credit Union is profiled on the [APIs.io](https://apis.io/) 
 
 
   Meridian Credit Union''s developer surface includes support and 6 more developer resources.'
-random_paper: 13
+random_paper: 69
 score:
   band: minimal
   composite: 11.9

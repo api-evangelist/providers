@@ -243,7 +243,7 @@ overview: 'Due publishes 18 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Due''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
-random_paper: 75
+random_paper: 72
 score:
   band: developing
   composite: 47.0

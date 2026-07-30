@@ -392,7 +392,7 @@ plans:
 - name: Inworld Ai Plans Pricing
   plan_count: 5
   slug: inworld-ai-plans-pricing
-random_paper: 42
+random_paper: 30
 rate_limits:
 - limit_count: 4
   name: Inworld Ai Rate Limits

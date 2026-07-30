@@ -56,7 +56,7 @@ name: UPC database
 nav: Providers
 network: true
 overview: UPC database publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 60
+random_paper: 46
 score:
   band: minimal
   composite: 6.5

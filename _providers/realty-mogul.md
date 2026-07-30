@@ -63,7 +63,7 @@ overview: 'Realty Mogul is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Realty Mogul''s developer surface includes support and 4 more developer resources.'
-random_paper: 35
+random_paper: 20
 score:
   band: minimal
   composite: 10.1

@@ -87,7 +87,7 @@ overview: 'Clark is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Clark''s developer surface includes engineering blog, legal docs, and 9 more developer resources.'
-random_paper: 39
+random_paper: 33
 score:
   band: emerging
   composite: 14.9

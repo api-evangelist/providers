@@ -39,7 +39,7 @@ name: SeeBeyond
 nav: Providers
 network: true
 overview: SeeBeyond is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 67
+random_paper: 56
 score:
   band: minimal
   composite: 3.2

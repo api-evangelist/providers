@@ -39,7 +39,7 @@ name: Clean Urban Energy
 nav: Providers
 network: true
 overview: Clean Urban Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Cleantech, Energy Storage, and Thermal Energy Storage.
-random_paper: 9
+random_paper: 69
 score:
   band: minimal
   composite: 4.3

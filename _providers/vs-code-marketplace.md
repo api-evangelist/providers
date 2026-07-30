@@ -176,7 +176,7 @@ plans:
 - name: Vs Code Marketplace Plans Pricing
   plan_count: 3
   slug: vs-code-marketplace-plans-pricing
-random_paper: 32
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Vs Code Marketplace Rate Limits

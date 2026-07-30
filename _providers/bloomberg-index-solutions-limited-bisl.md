@@ -94,7 +94,7 @@ plans:
 - name: Bloomberg Index Solutions Limited Bisl Plans Pricing
   plan_count: 3
   slug: bloomberg-index-solutions-limited-bisl-plans-pricing
-random_paper: 40
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Bloomberg Index Solutions Limited Bisl Rate Limits

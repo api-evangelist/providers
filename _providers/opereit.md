@@ -110,7 +110,7 @@ overview: 'Opereit publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Opereit''s developer surface includes documentation, API reference, getting-started guide, authentication, and 8 more developer resources.'
-random_paper: 31
+random_paper: 22
 score:
   band: thin
   composite: 37.2

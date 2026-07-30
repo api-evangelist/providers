@@ -200,7 +200,7 @@ plans:
 - name: Amazon Parallel Computing Service Plans Pricing
   plan_count: 3
   slug: amazon-parallel-computing-service-plans-pricing
-random_paper: 40
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Amazon Parallel Computing Service Rate Limits

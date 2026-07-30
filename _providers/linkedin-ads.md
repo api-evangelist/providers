@@ -118,7 +118,7 @@ overview: 'LinkedIn Marketing API publishes 5 APIs on the [APIs.io](https://apis
 
 
   LinkedIn Marketing API''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 69
+random_paper: 55
 scopes:
 - name: Linkedin Ads Scopes
   scope_count: 4

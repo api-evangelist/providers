@@ -306,7 +306,7 @@ plans:
 - name: Dub Plans Pricing
   plan_count: 5
   slug: dub-plans-pricing
-random_paper: 72
+random_paper: 69
 rate_limits:
 - limit_count: 8
   name: Dub Rate Limits

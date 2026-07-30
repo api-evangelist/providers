@@ -39,7 +39,7 @@ name: Signal Laboratories
 nav: Providers
 network: true
 overview: Signal Laboratories is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 26
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

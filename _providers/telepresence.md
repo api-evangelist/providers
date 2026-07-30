@@ -90,7 +90,7 @@ overview: 'Telepresence is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Telepresence''s developer surface includes documentation, changelog, and 8 more developer resources.'
-random_paper: 64
+random_paper: 49
 score:
   band: emerging
   composite: 14.2

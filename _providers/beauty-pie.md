@@ -100,7 +100,7 @@ overview: 'Beauty Pie publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Beauty Pie''s developer surface includes authentication, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 41
+random_paper: 29
 scopes:
 - name: Beauty Pie Scopes
   scope_count: 4

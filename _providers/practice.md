@@ -39,7 +39,7 @@ name: Practice
 nav: Providers
 network: true
 overview: Practice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coaching, Client Management, Scheduling, and Payments.
-random_paper: 33
+random_paper: 23
 score:
   band: minimal
   composite: 4.3

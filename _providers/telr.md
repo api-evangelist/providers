@@ -254,7 +254,7 @@ plans:
 - name: Telr Plans Pricing
   plan_count: 7
   slug: telr-plans-pricing
-random_paper: 34
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Telr Rate Limits

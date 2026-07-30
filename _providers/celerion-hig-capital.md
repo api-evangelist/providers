@@ -63,7 +63,7 @@ overview: 'Celerion (H.I.G. Capital) is profiled on the [APIs.io](https://apis.i
 
 
   Celerion (H.I.G. Capital)''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 41
+random_paper: 17
 score:
   band: minimal
   composite: 9.9

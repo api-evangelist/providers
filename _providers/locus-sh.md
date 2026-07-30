@@ -231,7 +231,7 @@ overview: 'Locus publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Locus'' developer surface includes authentication, developer portal, documentation, API reference, engineering blog, signup flow, YouTube channel, and 22 more developer resources.'
-random_paper: 4
+random_paper: 76
 score:
   band: thin
   composite: 33.3

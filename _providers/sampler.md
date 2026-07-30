@@ -48,7 +48,7 @@ name: Sampler
 nav: Providers
 network: true
 overview: Sampler is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Product Sampling, Consumer Packaged Goods, and Advertising.
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

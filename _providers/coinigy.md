@@ -63,7 +63,7 @@ overview: 'Coinigy publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   Coinigy''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 25
+random_paper: 16
 score:
   band: emerging
   composite: 18.8

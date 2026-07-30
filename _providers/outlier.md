@@ -104,7 +104,7 @@ overview: 'Outlier publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Outlier''s developer surface includes documentation, authentication, and 11 more developer resources.'
-random_paper: 43
+random_paper: 34
 scopes:
 - name: Outlier Scopes
   scope_count: 4

@@ -39,7 +39,7 @@ name: Crystal
 nav: Providers
 network: true
 overview: Crystal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Semiconductors, Hardware, and Audio.
-random_paper: 41
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

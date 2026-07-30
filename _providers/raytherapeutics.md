@@ -56,7 +56,7 @@ name: Ray Therapeutics
 nav: Providers
 network: true
 overview: Ray Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Gene Therapy, Optogenetics, and Ophthalmology.
-random_paper: 9
+random_paper: 71
 score:
   band: minimal
   composite: 9.2

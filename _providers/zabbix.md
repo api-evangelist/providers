@@ -177,7 +177,7 @@ plans:
 - name: Zabbix Plans Pricing
   plan_count: 3
   slug: zabbix-plans-pricing
-random_paper: 73
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Zabbix Rate Limits

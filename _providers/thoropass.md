@@ -132,7 +132,7 @@ overview: 'Thoropass publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Thoropass'' developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 23
+random_paper: 11
 scopes:
 - name: Thoropass Scopes
   scope_count: 24

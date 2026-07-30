@@ -59,7 +59,7 @@ overview: 'BAYCON is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   BAYCON''s developer surface includes engineering blog, signup flow, and 2 more developer resources.'
-random_paper: 69
+random_paper: 62
 score:
   band: minimal
   composite: 8.1

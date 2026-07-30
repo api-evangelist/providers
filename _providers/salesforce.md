@@ -17163,7 +17163,7 @@ press:
 - date: '2026-05-21'
   title: 'More than 50,000 Hours Back: What a Year of Manager Agent Taught Us'
   url: https://www.salesforce.com/news/stories/lessons-from-one-year-of-manager-agent/
-random_paper: 25
+random_paper: 26
 rate_limits:
 - limit_count: 6
   name: Salesforce Rate Limits

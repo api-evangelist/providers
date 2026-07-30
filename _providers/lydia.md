@@ -68,7 +68,7 @@ name: Lydia
 nav: Providers
 network: true
 overview: Lydia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Mobile Payments, and Peer-to-Peer.
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 8.6

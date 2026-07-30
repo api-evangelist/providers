@@ -39,7 +39,7 @@ name: Katch
 nav: Providers
 network: true
 overview: Katch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Embedded Finance, and Fintech.
-random_paper: 37
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

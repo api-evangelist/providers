@@ -194,7 +194,7 @@ overview: 'National Grid Electricity Distribution publishes 2 APIs on the [APIs.
 
 
   National Grid Electricity Distribution''s developer surface includes authentication, API reference, getting-started guide, FAQ, developer portal, documentation, signup flow, and 28 more developer resources.'
-random_paper: 20
+random_paper: 54
 score:
   band: thin
   composite: 31.2

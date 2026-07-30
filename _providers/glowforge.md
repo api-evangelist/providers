@@ -95,7 +95,7 @@ overview: 'Glowforge is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Glowforge''s developer surface includes support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 0
+random_paper: 70
 score:
   band: emerging
   composite: 18.0

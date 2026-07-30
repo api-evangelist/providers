@@ -56,7 +56,7 @@ name: IQAir
 nav: Providers
 network: true
 overview: IQAir publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 48
+random_paper: 42
 score:
   band: minimal
   composite: 5.7

@@ -108,7 +108,7 @@ overview: 'Agility Robotics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Agility Robotics'' developer surface includes GitHub presence, YouTube channel, and 12 more developer resources.'
-random_paper: 49
+random_paper: 29
 score:
   band: minimal
   composite: 10.1

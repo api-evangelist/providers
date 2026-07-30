@@ -120,7 +120,7 @@ overview: 'Babbel is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Babbel''s developer surface includes GitHub presence, YouTube channel, privacy policy, terms of service, engineering blog, and 14 more developer resources.'
-random_paper: 33
+random_paper: 26
 score:
   band: minimal
   composite: 9.1

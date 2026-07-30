@@ -104,7 +104,7 @@ overview: 'Infini-AI (无问芯穹) publishes 1 API on the [APIs.io](https://api
 
 
   Infini-AI (无问芯穹)''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 8 more developer resources.'
-random_paper: 20
+random_paper: 15
 score:
   band: emerging
   composite: 21.8

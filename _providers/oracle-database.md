@@ -734,7 +734,7 @@ plans:
 - name: Oracle Database Plans Pricing
   plan_count: 6
   slug: oracle-database-plans-pricing
-random_paper: 38
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Oracle Database Rate Limits

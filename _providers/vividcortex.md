@@ -234,7 +234,7 @@ overview: 'VividCortex publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VividCortex''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 28 more developer resources.'
-random_paper: 73
+random_paper: 59
 score:
   band: strong
   composite: 59.6

@@ -124,7 +124,7 @@ overview: 'DoubleVerify is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   DoubleVerify''s developer surface includes GitHub presence, YouTube channel, engineering blog, and 16 more developer resources.'
-random_paper: 0
+random_paper: 66
 score:
   band: emerging
   composite: 20.2

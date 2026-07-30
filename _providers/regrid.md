@@ -183,7 +183,7 @@ plans:
 - name: Regrid Plans Pricing
   plan_count: 4
   slug: regrid-plans-pricing
-random_paper: 70
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Regrid Rate Limits

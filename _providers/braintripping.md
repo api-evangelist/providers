@@ -52,7 +52,7 @@ name: BrainTripping
 nav: Providers
 network: true
 overview: BrainTripping is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Language, Games, Natural Language Processing, and ClojureScript.
-random_paper: 24
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

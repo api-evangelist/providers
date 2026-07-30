@@ -83,7 +83,7 @@ overview: 'Gustav is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Gustav''s developer surface includes support, signup flow, and 8 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: minimal
   composite: 12.7

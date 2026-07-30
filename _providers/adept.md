@@ -104,7 +104,7 @@ plans:
 - name: Adept Plans Pricing
   plan_count: 2
   slug: adept-plans-pricing
-random_paper: 40
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Adept Rate Limits

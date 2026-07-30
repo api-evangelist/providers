@@ -59,7 +59,7 @@ overview: 'Boosters is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Boosters'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 71
+random_paper: 61
 score:
   band: minimal
   composite: 5.4

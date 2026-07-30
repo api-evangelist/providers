@@ -139,7 +139,7 @@ overview: 'AST SpaceMobile is profiled on the [APIs.io](https://apis.io/) networ
 
 
   AST SpaceMobile''s developer surface includes engineering blog, FAQ, YouTube channel, and 23 more developer resources.'
-random_paper: 71
+random_paper: 53
 score:
   band: minimal
   composite: 12.7

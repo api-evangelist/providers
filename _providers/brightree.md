@@ -67,7 +67,7 @@ overview: 'Brightree is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Brightree''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 65
+random_paper: 54
 score:
   band: minimal
   composite: 11.3

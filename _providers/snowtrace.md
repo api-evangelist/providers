@@ -202,7 +202,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 10
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Rate Limits

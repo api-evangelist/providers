@@ -831,7 +831,7 @@ press:
 - date: '2026-05-25'
   title: Oracle News and Press Releases
   url: https://www.oracle.com/news/
-random_paper: 63
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Oracle Rate Limits

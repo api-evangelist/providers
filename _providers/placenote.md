@@ -52,7 +52,7 @@ name: Placenote
 nav: Providers
 network: true
 overview: Placenote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Augmented Reality, Spatial Computing, SDK, and Mobile.
-random_paper: 64
+random_paper: 53
 score:
   band: minimal
   composite: 7.0

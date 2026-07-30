@@ -22,7 +22,7 @@ modified: '2026-05-25'
 name: Modal
 nav: Providers
 network: true
-random_paper: 79
+random_paper: 69
 slug: modal-com
 tags:
 - Serverless

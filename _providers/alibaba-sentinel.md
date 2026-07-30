@@ -129,7 +129,7 @@ overview: 'Alibaba Sentinel publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Alibaba Sentinel''s developer surface includes documentation, getting-started guide, GitHub presence, and 11 more developer resources.'
-random_paper: 72
+random_paper: 53
 rules:
 - name: Alibaba Sentinel API Rules
   rule_count: 5

@@ -229,7 +229,7 @@ overview: 'Corti publishes 2 APIs on the [APIs.io](https://apis.io/) network: Sp
 
 
   Corti''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 59
+random_paper: 53
 scopes:
 - name: Corti Scopes
   scope_count: 44

@@ -545,7 +545,7 @@ overview: '3GPP publishes 116 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   3GPP''s developer surface includes authentication, documentation, developer portal, tooling, engineering blog, changelog, support, and 28 more developer resources.'
-random_paper: 54
+random_paper: 50
 scopes:
 - name: 3Gpp Scopes
   scope_count: 6

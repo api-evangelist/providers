@@ -52,7 +52,7 @@ name: Autochess VNG
 nav: Providers
 network: true
 overview: Autochess VNG publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 55
+random_paper: 39
 score:
   band: minimal
   composite: 5.0

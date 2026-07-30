@@ -48,7 +48,7 @@ name: Sanad Cash
 nav: Providers
 network: true
 overview: Sanad Cash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, On-Demand Pay, and Earned Wage Access.
-random_paper: 7
+random_paper: 77
 score:
   band: minimal
   composite: 5.7

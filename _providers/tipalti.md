@@ -126,7 +126,7 @@ plans:
 - name: Tipalti Plans Pricing
   plan_count: 5
   slug: tipalti-plans-pricing
-random_paper: 30
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Tipalti Rate Limits

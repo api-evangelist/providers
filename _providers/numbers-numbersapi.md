@@ -56,7 +56,7 @@ name: Numbers
 nav: Providers
 network: true
 overview: Numbers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 24
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

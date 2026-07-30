@@ -75,7 +75,7 @@ overview: 'Coursebase is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Coursebase''s developer surface includes documentation, pricing, support, signup flow, and 4 more developer resources.'
-random_paper: 15
+random_paper: 2
 score:
   band: emerging
   composite: 16.5

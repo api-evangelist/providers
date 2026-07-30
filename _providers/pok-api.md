@@ -56,7 +56,7 @@ name: Pokéapi
 nav: Providers
 network: true
 overview: Pokéapi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 41
+random_paper: 33
 score:
   band: minimal
   composite: 5.7

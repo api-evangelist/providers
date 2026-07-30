@@ -40,7 +40,7 @@ name: Concord Data Systems
 nav: Providers
 network: true
 overview: Concord Data Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Networking, Telecommunications, and Modems.
-random_paper: 11
+random_paper: 68
 score:
   band: minimal
   composite: 4.3

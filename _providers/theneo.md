@@ -202,7 +202,7 @@ plans:
 - name: Theneo Plans Pricing
   plan_count: 4
   slug: theneo-plans-pricing
-random_paper: 76
+random_paper: 69
 rate_limits:
 - limit_count: 16
   name: Theneo Rate Limits

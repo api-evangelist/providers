@@ -81,7 +81,7 @@ plans:
 - name: Biobeat Plans Pricing
   plan_count: 2
   slug: biobeat-plans-pricing
-random_paper: 78
+random_paper: 70
 score:
   band: emerging
   composite: 13.4

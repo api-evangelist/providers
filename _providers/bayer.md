@@ -113,7 +113,7 @@ name: Bayer
 nav: Providers
 network: true
 overview: Bayer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Agriculture, Healthcare, Chemicals, and Crop Science.
-random_paper: 45
+random_paper: 39
 score:
   band: emerging
   composite: 13.3

@@ -248,7 +248,7 @@ overview: 'MV sistemas publishes 35 APIs on the [APIs.io](https://apis.io/) netw
 
 
   MV sistemas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 11
+random_paper: 79
 score:
   band: thin
   composite: 40.5

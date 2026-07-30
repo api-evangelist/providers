@@ -48,7 +48,7 @@ name: Rothys
 nav: Providers
 network: true
 overview: Rothys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Footwear, Fashion, Retail, and Sustainability.
-random_paper: 33
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

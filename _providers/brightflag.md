@@ -132,7 +132,7 @@ overview: 'Brightflag publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Brightflag''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 15 more developer resources.'
-random_paper: 78
+random_paper: 66
 score:
   band: thin
   composite: 30.5

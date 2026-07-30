@@ -39,7 +39,7 @@ name: Simpler
 nav: Providers
 network: true
 overview: Simpler is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 35
+random_paper: 26
 score:
   band: minimal
   composite: 3.2

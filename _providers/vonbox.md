@@ -56,7 +56,7 @@ name: VonBox
 nav: Providers
 network: true
 overview: VonBox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Communications, Telephony, Messaging, and Contact Centers.
-random_paper: 20
+random_paper: 12
 score:
   band: minimal
   composite: 6.7

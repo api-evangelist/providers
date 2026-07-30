@@ -39,7 +39,7 @@ name: Clearstory Data
 nav: Providers
 network: true
 overview: Clearstory Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Big Data, Data Analytics, and Business Intelligence.
-random_paper: 12
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

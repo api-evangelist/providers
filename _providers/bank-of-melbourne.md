@@ -147,7 +147,7 @@ overview: 'Bank of Melbourne publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   Bank of Melbourne''s developer surface includes documentation, authentication, and 17 more developer resources.'
-random_paper: 64
+random_paper: 44
 score:
   band: thin
   composite: 32.7

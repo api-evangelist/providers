@@ -136,7 +136,7 @@ plans:
 - name: Realtor Plans Pricing
   plan_count: 1
   slug: realtor-plans-pricing
-random_paper: 32
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Realtor Rate Limits

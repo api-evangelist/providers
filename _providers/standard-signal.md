@@ -44,7 +44,7 @@ name: Standard Signal
 nav: Providers
 network: true
 overview: Standard Signal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Hedge Fund, Fintech, and Trading.
-random_paper: 74
+random_paper: 56
 score:
   band: minimal
   composite: 4.3

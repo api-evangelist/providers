@@ -137,7 +137,7 @@ plans:
 - name: Classlink Plans Pricing
   plan_count: 3
   slug: classlink-plans-pricing
-random_paper: 73
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Classlink Rate Limits

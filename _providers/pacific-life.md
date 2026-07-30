@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Press room | Deloitte Asia Pacific
   url: https://www.deloitte.com/ap/en/about/press-room.html
-random_paper: 46
+random_paper: 32
 score:
   band: minimal
   composite: 5.6

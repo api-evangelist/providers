@@ -172,7 +172,7 @@ overview: 'Blowfish publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Blowfish''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, pricing, support, and 19 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: developing
   composite: 43.9

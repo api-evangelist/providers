@@ -65,7 +65,7 @@ plans:
 - name: La Z Boy Plans Pricing
   plan_count: 1
   slug: la-z-boy-plans-pricing
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: La Z Boy Rate Limits

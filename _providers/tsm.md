@@ -52,7 +52,7 @@ name: TSM
 nav: Providers
 network: true
 overview: TSM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Esports, Gaming, and Ecommerce.
-random_paper: 16
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

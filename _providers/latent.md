@@ -108,7 +108,7 @@ overview: 'Latent is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Latent''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 0
+random_paper: 74
 score:
   band: emerging
   composite: 19.0

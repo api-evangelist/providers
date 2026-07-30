@@ -167,7 +167,7 @@ overview: 'Manage BGL publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Manage BGL''s developer surface includes API reference, documentation, sandbox, pricing, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 80
+random_paper: 69
 score:
   band: developing
   composite: 42.2

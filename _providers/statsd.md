@@ -355,7 +355,7 @@ overview: 'StatsD publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   StatsD''s developer surface includes GitHub presence, changelog, and 49 more developer resources.'
-random_paper: 11
+random_paper: 3
 rules:
 - name: StatsD API Rules
   rule_count: 7

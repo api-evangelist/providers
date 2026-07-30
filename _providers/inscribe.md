@@ -119,7 +119,7 @@ plans:
 - name: Inscribe Plans Pricing
   plan_count: 0
   slug: inscribe-plans-pricing
-random_paper: 37
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Inscribe Rate Limits

@@ -133,7 +133,7 @@ plans:
 - name: Predibase Plans Pricing
   plan_count: 4
   slug: predibase-plans-pricing
-random_paper: 52
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Predibase Rate Limits

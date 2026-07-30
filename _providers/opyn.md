@@ -134,7 +134,7 @@ plans:
 - name: Opyn Plans Pricing
   plan_count: 2
   slug: opyn-plans-pricing
-random_paper: 49
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Opyn Rate Limits

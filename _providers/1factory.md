@@ -729,7 +729,7 @@ plans:
 - name: 1Factory Plans Pricing
   plan_count: 3
   slug: 1factory-plans-pricing
-random_paper: 80
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: 1Factory Rate Limits

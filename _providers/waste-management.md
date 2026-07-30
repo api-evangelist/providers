@@ -186,7 +186,7 @@ press:
 - date: '2026-05-25'
   title: WM Announces New, Modernized High-Tech Recycling and ...
   url: https://investors.wm.com/news-releases/news-release-details/wm-announces-new-modernized-high-tech-recycling-and-renewable
-random_paper: 26
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Waste Management Rate Limits

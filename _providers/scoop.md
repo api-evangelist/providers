@@ -44,7 +44,7 @@ name: Scoop
 nav: Providers
 network: true
 overview: Scoop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Future Of Work, Hybrid Work, Workplace Scheduling, and Return To Office.
-random_paper: 62
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

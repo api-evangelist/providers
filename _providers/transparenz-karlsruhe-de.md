@@ -84,7 +84,7 @@ plans:
 - name: Transparenz Karlsruhe De Plans Pricing
   plan_count: 1
   slug: transparenz-karlsruhe-de-plans-pricing
-random_paper: 46
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Transparenz Karlsruhe De Rate Limits

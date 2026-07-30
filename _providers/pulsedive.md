@@ -60,7 +60,7 @@ name: Pulsedive
 nav: Providers
 network: true
 overview: Pulsedive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 5
+random_paper: 75
 score:
   band: minimal
   composite: 5.7

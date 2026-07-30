@@ -150,7 +150,7 @@ overview: 'Rex Airlines is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Rex Airlines'' developer surface includes signup flow, support, and 24 more developer resources.'
-random_paper: 20
+random_paper: 5
 score:
   band: emerging
   composite: 14.6

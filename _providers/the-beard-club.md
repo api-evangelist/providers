@@ -104,7 +104,7 @@ overview: 'The Beard Club publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   The Beard Club''s developer surface includes documentation, authentication, and 11 more developer resources.'
-random_paper: 47
+random_paper: 31
 scopes:
 - name: The Beard Club Scopes
   scope_count: 4

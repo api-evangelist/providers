@@ -95,7 +95,7 @@ overview: 'Miter publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Miter''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 59
+random_paper: 53
 score:
   band: emerging
   composite: 20.9

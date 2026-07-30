@@ -59,7 +59,7 @@ overview: 'Raid Base is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Raid Base''s developer surface includes signup flow and 3 more developer resources.'
-random_paper: 62
+random_paper: 52
 score:
   band: minimal
   composite: 7.6

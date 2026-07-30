@@ -843,7 +843,7 @@ plans:
 - name: Render Plans Pricing
   plan_count: 8
   slug: render-plans-pricing
-random_paper: 73
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Render Rate Limits

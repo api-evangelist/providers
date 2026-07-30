@@ -79,7 +79,7 @@ overview: 'Aviso is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aviso''s developer surface includes pricing, engineering blog, and 7 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: emerging
   composite: 17.5

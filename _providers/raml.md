@@ -131,7 +131,7 @@ plans:
 - name: Raml Plans Pricing
   plan_count: 3
   slug: raml-plans-pricing
-random_paper: 23
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Raml Rate Limits

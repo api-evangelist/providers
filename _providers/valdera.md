@@ -103,7 +103,7 @@ overview: 'Valdera is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Valdera''s developer surface includes engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 6
+random_paper: 79
 score:
   band: emerging
   composite: 18.2

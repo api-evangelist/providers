@@ -91,7 +91,7 @@ overview: 'Cloudwell is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cloudwell''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 67
+random_paper: 50
 score:
   band: minimal
   composite: 8.4

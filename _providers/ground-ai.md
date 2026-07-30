@@ -60,7 +60,7 @@ name: Ground AI
 nav: Providers
 network: true
 overview: Ground AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Artificial Intelligence, Commerce, and Revenue.
-random_paper: 11
+random_paper: 0
 score:
   band: minimal
   composite: 11.8

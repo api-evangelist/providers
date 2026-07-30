@@ -258,7 +258,7 @@ overview: 'Puzzle publishes 22 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Puzzle''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 27 more developer resources.'
-random_paper: 34
+random_paper: 26
 scopes:
 - name: Puzzle Scopes
   scope_count: 21

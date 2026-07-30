@@ -174,7 +174,7 @@ overview: 'Reposit Power publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Reposit Power''s developer surface includes authentication, engineering blog, pricing, FAQ, support, developer portal, API reference, and 23 more developer resources.'
-random_paper: 80
+random_paper: 64
 score:
   band: developing
   composite: 46.7

@@ -537,7 +537,7 @@ plans:
 - name: Vital Io Plans Pricing
   plan_count: 4
   slug: vital-io-plans-pricing
-random_paper: 76
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Vital Io Rate Limits

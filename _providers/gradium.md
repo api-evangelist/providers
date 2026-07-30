@@ -218,7 +218,7 @@ overview: 'Gradium publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Gradium''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, sandbox, and 29 more developer resources.'
-random_paper: 16
+random_paper: 7
 score:
   band: developing
   composite: 55.1

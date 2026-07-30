@@ -48,7 +48,7 @@ name: StudySoup
 nav: Providers
 network: true
 overview: StudySoup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Study Tools, and Students.
-random_paper: 52
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

@@ -155,7 +155,7 @@ plans:
 - name: Moov Io Plans Pricing
   plan_count: 2
   slug: moov-io-plans-pricing
-random_paper: 62
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Moov Io Rate Limits

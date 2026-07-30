@@ -269,7 +269,7 @@ plans:
 - name: Albato A Single No Code Platform For All Automations Plans Pricing
   plan_count: 3
   slug: albato-a-single-no-code-platform-for-all-automations-plans-pricing
-random_paper: 49
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Albato A Single No Code Platform For All Automations Rate Limits

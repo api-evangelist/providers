@@ -796,7 +796,7 @@ plans:
 - name: Anthropic Plans Pricing
   plan_count: 5
   slug: anthropic-plans-pricing
-random_paper: 77
+random_paper: 66
 rate_limits:
 - limit_count: 12
   name: Anthropic Rate Limits

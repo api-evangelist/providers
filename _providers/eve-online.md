@@ -545,7 +545,7 @@ overview: 'EVE Online publishes 46 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   EVE Online''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, tooling, and 42 more developer resources.'
-random_paper: 38
+random_paper: 26
 rules:
 - name: EVE Online API Rules
   rule_count: 5

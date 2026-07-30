@@ -48,7 +48,7 @@ name: Dashbase
 nav: Providers
 network: true
 overview: Dashbase is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Log Management, Search, and Observability.
-random_paper: 17
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

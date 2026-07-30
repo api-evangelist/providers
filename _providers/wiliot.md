@@ -138,7 +138,7 @@ overview: 'Wiliot publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Wiliot''s developer surface includes documentation, engineering blog, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: emerging
   composite: 26.8

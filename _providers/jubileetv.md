@@ -87,7 +87,7 @@ overview: 'JubileeTV is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   JubileeTV''s developer surface includes engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 79
+random_paper: 68
 score:
   band: emerging
   composite: 17.1

@@ -128,7 +128,7 @@ overview: 'Sigfox publishes 1 API on the [APIs.io](https://apis.io/) network: Cl
 
 
   Sigfox''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Sigfox Rate Limits

@@ -137,7 +137,7 @@ plans:
 - name: Chuck Norris Plans Pricing
   plan_count: 1
   slug: chuck-norris-plans-pricing
-random_paper: 25
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Chuck Norris Rate Limits

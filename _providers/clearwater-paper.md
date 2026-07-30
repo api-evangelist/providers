@@ -65,7 +65,7 @@ plans:
 - name: Clearwater Paper Plans Pricing
   plan_count: 1
   slug: clearwater-paper-plans-pricing
-random_paper: 27
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Clearwater Paper Rate Limits

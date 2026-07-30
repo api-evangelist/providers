@@ -52,7 +52,7 @@ name: Revv
 nav: Providers
 network: true
 overview: Revv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Document Automation, Electronic Signature, Contract Management, and Sales Enablement.
-random_paper: 46
+random_paper: 41
 score:
   band: minimal
   composite: 5.7

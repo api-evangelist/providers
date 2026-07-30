@@ -120,7 +120,7 @@ plans:
 - name: Civil Infrastructure Platform Plans Pricing
   plan_count: 3
   slug: civil-infrastructure-platform-plans-pricing
-random_paper: 34
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Civil Infrastructure Platform Rate Limits

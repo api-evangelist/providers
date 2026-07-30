@@ -48,7 +48,7 @@ name: GYENNO
 nav: Providers
 network: true
 overview: GYENNO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Parkinson's Disease, Assistive Technology, and Digital Health.
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

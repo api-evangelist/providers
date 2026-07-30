@@ -39,7 +39,7 @@ name: Kimono Labs
 nav: Providers
 network: true
 overview: Kimono Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Web Scraping, Data Extraction, and No-Code.
-random_paper: 63
+random_paper: 50
 score:
   band: minimal
   composite: 5.0

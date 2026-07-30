@@ -132,7 +132,7 @@ overview: 'DinMo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   DinMo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 13 more developer resources.'
-random_paper: 49
+random_paper: 43
 score:
   band: thin
   composite: 30.6

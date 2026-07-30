@@ -48,7 +48,7 @@ name: Multi-Tier Architecture
 nav: Providers
 network: true
 overview: Multi-Tier Architecture is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Design Patterns, Layered Architecture, N-Tier, and Scalability.
-random_paper: 15
+random_paper: 68
 score:
   band: minimal
   composite: 7.0

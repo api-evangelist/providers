@@ -52,7 +52,7 @@ name: Installed Building Products
 nav: Providers
 network: true
 overview: Installed Building Products is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Insulation, Building Products, Residential Construction, and Commercial Construction.
-random_paper: 26
+random_paper: 74
 score:
   band: minimal
   composite: 4.4

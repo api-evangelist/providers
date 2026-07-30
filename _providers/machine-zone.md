@@ -44,7 +44,7 @@ name: Machine Zone
 nav: Providers
 network: true
 overview: Machine Zone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 80
+random_paper: 66
 score:
   band: minimal
   composite: 4.1

@@ -95,7 +95,7 @@ overview: 'Complyance is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Complyance''s developer surface includes engineering blog, signup flow, support, and 10 more developer resources.'
-random_paper: 14
+random_paper: 1
 score:
   band: emerging
   composite: 17.7

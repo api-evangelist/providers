@@ -130,7 +130,7 @@ plans:
 - name: Jawg Maps Plans Pricing
   plan_count: 4
   slug: jawg-maps-plans-pricing
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Jawg Maps Rate Limits

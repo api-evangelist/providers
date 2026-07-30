@@ -75,7 +75,7 @@ overview: 'Sonar Mental Health is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Sonar Mental Health''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 45
+random_paper: 22
 score:
   band: emerging
   composite: 16.7

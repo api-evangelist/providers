@@ -67,7 +67,7 @@ overview: 'PROOF is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   PROOF''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 64
+random_paper: 58
 score:
   band: minimal
   composite: 11.7

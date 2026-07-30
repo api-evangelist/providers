@@ -84,7 +84,7 @@ overview: 'Cognichip is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cognichip''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 57
+random_paper: 46
 score:
   band: minimal
   composite: 12.3

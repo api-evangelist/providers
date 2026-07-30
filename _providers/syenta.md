@@ -63,7 +63,7 @@ overview: 'Syenta is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Syenta''s developer surface includes product news and 4 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

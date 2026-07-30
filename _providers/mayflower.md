@@ -52,7 +52,7 @@ name: Mayflower
 nav: Providers
 network: true
 overview: Mayflower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, HR Tech, Compliance, and Visa.
-random_paper: 10
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

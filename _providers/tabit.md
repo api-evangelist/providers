@@ -108,7 +108,7 @@ plans:
 - name: Tabit Plans Pricing
   plan_count: 1
   slug: tabit-plans-pricing
-random_paper: 46
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Tabit Rate Limits

@@ -79,7 +79,7 @@ overview: 'Mindful Health Solutions is profiled on the [APIs.io](https://apis.io
 
 
   Mindful Health Solutions'' developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 40
+random_paper: 11
 score:
   band: minimal
   composite: 12.8

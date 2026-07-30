@@ -67,7 +67,7 @@ overview: 'StatMuse is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   StatMuse''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 76
+random_paper: 66
 score:
   band: minimal
   composite: 12.3

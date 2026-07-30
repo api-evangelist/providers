@@ -44,7 +44,7 @@ name: Screenhero
 nav: Providers
 network: true
 overview: Screenhero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Screen Sharing, Video Conferencing, Collaboration, and Remote Work.
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

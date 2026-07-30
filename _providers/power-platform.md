@@ -450,7 +450,7 @@ plans:
 - name: Power Platform Plans Pricing
   plan_count: 9
   slug: power-platform-plans-pricing
-random_paper: 13
+random_paper: 77
 rate_limits:
 - limit_count: 10
   name: Power Platform Rate Limits

@@ -48,7 +48,7 @@ name: Enhanced Radar
 nav: Providers
 network: true
 overview: Enhanced Radar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aviation, Artificial Intelligence, Air Traffic Control, and Aviation Safety.
-random_paper: 12
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

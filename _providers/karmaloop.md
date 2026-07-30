@@ -48,7 +48,7 @@ name: karmaloop
 nav: Providers
 network: true
 overview: karmaloop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Streetwear, Fashion, and Ecommerce.
-random_paper: 75
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

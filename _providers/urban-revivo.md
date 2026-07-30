@@ -120,7 +120,7 @@ overview: 'Urban Revivo publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Urban Revivo''s developer surface includes support, FAQ, authentication, and 14 more developer resources.'
-random_paper: 33
+random_paper: 18
 scopes:
 - name: Urban Revivo Scopes
   scope_count: 4

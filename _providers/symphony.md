@@ -299,7 +299,7 @@ plans:
 - name: Symphony Plans Pricing
   plan_count: 1
   slug: symphony-plans-pricing
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Symphony Rate Limits

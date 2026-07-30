@@ -96,7 +96,7 @@ plans:
 - name: Bloomberg Message Plans Pricing
   plan_count: 3
   slug: bloomberg-message-plans-pricing
-random_paper: 38
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Bloomberg Message Rate Limits

@@ -293,7 +293,7 @@ plans:
 - name: Aiven Plans Pricing
   plan_count: 7
   slug: aiven-plans-pricing
-random_paper: 45
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Aiven Rate Limits

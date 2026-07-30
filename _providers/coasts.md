@@ -107,7 +107,7 @@ overview: 'Coasts is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Coasts'' developer surface includes documentation, getting-started guide, engineering blog, support, CLI, changelog, and 10 more developer resources.'
-random_paper: 5
+random_paper: 79
 score:
   band: emerging
   composite: 16.7

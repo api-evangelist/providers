@@ -80,7 +80,7 @@ plans:
 - name: Angi Plans Pricing
   plan_count: 3
   slug: angi-plans-pricing
-random_paper: 10
+random_paper: 5
 score:
   band: emerging
   composite: 14.9

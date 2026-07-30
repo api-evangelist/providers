@@ -88,7 +88,7 @@ overview: 'Dryft is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dryft''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 67
+random_paper: 61
 score:
   band: minimal
   composite: 8.4

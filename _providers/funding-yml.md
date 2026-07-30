@@ -47,7 +47,7 @@ overview: 'FUNDING.yml is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   FUNDING.yml''s developer surface includes documentation.'
-random_paper: 77
+random_paper: 64
 score:
   band: minimal
   composite: 6.7

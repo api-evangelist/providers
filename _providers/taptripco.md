@@ -44,7 +44,7 @@ name: taptrip.co
 nav: Providers
 network: true
 overview: taptrip.co is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Business Travel, Travel Management, and Booking.
-random_paper: 10
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

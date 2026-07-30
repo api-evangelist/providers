@@ -69,7 +69,7 @@ plans:
 - name: Verisign Plans Pricing
   plan_count: 1
   slug: verisign-plans-pricing
-random_paper: 61
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Verisign Rate Limits

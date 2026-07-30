@@ -126,7 +126,7 @@ plans:
 - name: Lumen Technologies Plans Pricing
   plan_count: 2
   slug: lumen-technologies-plans-pricing
-random_paper: 11
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Lumen Technologies Rate Limits

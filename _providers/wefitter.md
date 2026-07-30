@@ -214,7 +214,7 @@ overview: 'WeFitter publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   WeFitter''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, changelog, signup flow, and 24 more developer resources.'
-random_paper: 64
+random_paper: 54
 score:
   band: developing
   composite: 43.4

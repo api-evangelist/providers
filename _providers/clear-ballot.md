@@ -87,7 +87,7 @@ overview: 'Clear Ballot is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Clear Ballot''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 68
+random_paper: 54
 score:
   band: emerging
   composite: 15.7

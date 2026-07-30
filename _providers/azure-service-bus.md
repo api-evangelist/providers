@@ -248,7 +248,7 @@ plans:
 - name: Azure Service Bus Plans Pricing
   plan_count: 3
   slug: azure-service-bus-plans-pricing
-random_paper: 23
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Azure Service Bus Rate Limits

@@ -164,7 +164,7 @@ overview: 'Imply publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Imply''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 69
+random_paper: 63
 score:
   band: thin
   composite: 41.5

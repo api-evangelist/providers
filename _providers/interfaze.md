@@ -171,7 +171,7 @@ overview: 'Interfaze publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Interfaze''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 21 more developer resources.'
-random_paper: 77
+random_paper: 66
 score:
   band: developing
   composite: 50.6

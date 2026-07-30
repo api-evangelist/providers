@@ -44,7 +44,7 @@ name: Ott Risk
 nav: Providers
 network: true
 overview: Ott Risk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Parametric Insurance, and Business Interruption.
-random_paper: 19
+random_paper: 9
 score:
   band: minimal
   composite: 4.3

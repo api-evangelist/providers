@@ -67,7 +67,7 @@ overview: 'SceneRay is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SceneRay''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: minimal
   composite: 8.3

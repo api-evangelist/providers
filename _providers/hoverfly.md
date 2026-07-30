@@ -118,7 +118,7 @@ plans:
 - name: Hoverfly Plans Pricing
   plan_count: 3
   slug: hoverfly-plans-pricing
-random_paper: 69
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Hoverfly Rate Limits

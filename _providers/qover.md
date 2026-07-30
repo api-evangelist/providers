@@ -135,7 +135,7 @@ overview: 'Qover publishes 1 API on the [APIs.io](https://apis.io/) network: Emb
 
 
   Qover''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 71
+random_paper: 65
 score:
   band: developing
   composite: 47.2

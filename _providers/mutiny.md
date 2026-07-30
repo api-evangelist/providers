@@ -100,7 +100,7 @@ overview: 'Mutiny is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Mutiny''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 30
+random_paper: 22
 score:
   band: emerging
   composite: 19.5

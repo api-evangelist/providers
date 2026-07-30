@@ -92,7 +92,7 @@ plans:
 - name: Charles Proxy Plans Pricing
   plan_count: 3
   slug: charles-proxy-plans-pricing
-random_paper: 65
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Charles Proxy Rate Limits

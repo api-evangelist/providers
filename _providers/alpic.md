@@ -164,7 +164,7 @@ overview: 'Alpic publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Alpic''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, engineering blog, pricing, and 15 more developer resources.'
-random_paper: 35
+random_paper: 29
 scopes:
 - name: Alpic Scopes
   scope_count: 3

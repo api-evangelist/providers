@@ -129,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: 'On the Global Stage: Amgen''s Top Voices Drive ...'
   url: https://www.amgen.com/stories/2025/05/on-the-global-stage-amgens-top-voices-drive-conversations-on-ai-and-innovation
-random_paper: 34
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Amgen Rate Limits

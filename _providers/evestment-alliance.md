@@ -48,7 +48,7 @@ name: eVestment Alliance
 nav: Providers
 network: true
 overview: eVestment Alliance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investment Analytics, Institutional Investing, Financial Data, and Asset Management.
-random_paper: 75
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

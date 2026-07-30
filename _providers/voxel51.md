@@ -107,7 +107,7 @@ plans:
 - name: Voxel51 Plans Pricing
   plan_count: 4
   slug: voxel51-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Voxel51 Rate Limits

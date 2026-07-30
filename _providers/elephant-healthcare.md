@@ -75,7 +75,7 @@ overview: 'Elephant Healthcare is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Elephant Healthcare''s developer surface includes support and 7 more developer resources.'
-random_paper: 72
+random_paper: 49
 score:
   band: minimal
   composite: 12.4

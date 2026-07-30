@@ -79,7 +79,7 @@ overview: 'Wooga is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Wooga''s developer surface includes support and 8 more developer resources.'
-random_paper: 55
+random_paper: 49
 score:
   band: minimal
   composite: 12.6

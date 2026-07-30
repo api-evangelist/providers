@@ -71,7 +71,7 @@ overview: 'SpryPoint is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SpryPoint''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 44
+random_paper: 32
 score:
   band: emerging
   composite: 13.1

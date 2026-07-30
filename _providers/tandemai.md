@@ -71,7 +71,7 @@ overview: 'TandemAI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TandemAI''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 25
+random_paper: 15
 score:
   band: emerging
   composite: 13.8

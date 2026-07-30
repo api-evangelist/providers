@@ -56,7 +56,7 @@ name: Pelage Pharmaceuticals
 nav: Providers
 network: true
 overview: Pelage Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Pharmaceuticals, Biotechnology, and Regenerative Medicine.
-random_paper: 70
+random_paper: 43
 score:
   band: minimal
   composite: 10.5

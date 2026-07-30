@@ -143,7 +143,7 @@ overview: 'Blocktorch publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Blocktorch''s developer surface includes documentation, getting-started guide, signup flow, engineering blog, support, CLI, authentication, and 14 more developer resources.'
-random_paper: 14
+random_paper: 1
 score:
   band: thin
   composite: 41.0

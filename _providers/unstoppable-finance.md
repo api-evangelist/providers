@@ -239,7 +239,7 @@ overview: 'Unstoppable Finance (Iron) publishes 9 APIs on the [APIs.io](https://
 
 
   Unstoppable Finance (Iron)''s developer surface includes documentation, getting-started guide, authentication, sandbox, CLI, support, pricing, and 25 more developer resources.'
-random_paper: 22
+random_paper: 80
 score:
   band: strong
   composite: 56.1

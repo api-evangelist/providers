@@ -75,7 +75,7 @@ overview: 'Poshmark is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Poshmark''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: emerging
   composite: 13.8

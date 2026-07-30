@@ -48,7 +48,7 @@ name: Azuria
 nav: Providers
 network: true
 overview: Azuria is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Water, Infrastructure, Utilities, and Pipeline Rehabilitation.
-random_paper: 4
+random_paper: 78
 score:
   band: minimal
   composite: 5.5

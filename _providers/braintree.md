@@ -271,7 +271,7 @@ plans:
 - name: Braintree Plans Pricing
   plan_count: 6
   slug: braintree-plans-pricing
-random_paper: 65
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Braintree Rate Limits

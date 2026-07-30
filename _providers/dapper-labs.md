@@ -171,7 +171,7 @@ overview: 'Dapper Labs publishes 11 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Dapper Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, sandbox, and 14 more developer resources.'
-random_paper: 46
+random_paper: 33
 score:
   band: thin
   composite: 40.4

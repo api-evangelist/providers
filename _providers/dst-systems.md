@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: indico Founder to Speak at DST Systems' 2018 ADVANCE
   url: https://www.globenewswire.com/news-release/2018/02/05/1332837/0/en/indico-founder-to-speak-at-dst-systems-2018-advance-conference.html
-random_paper: 34
+random_paper: 20
 score:
   band: minimal
   composite: 3.5

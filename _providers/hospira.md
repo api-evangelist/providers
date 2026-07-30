@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Hospira and Javelin Pharmaceuticals Enter Into Definitive ...
   url: https://www.prnewswire.com/news-releases/hospira-and-javelin-pharmaceuticals-enter-into-definitive-merger-agreement-for-hospira-to-acquire-javelin-pharmaceuticals-hospira-will-initiate-tender-offer-91461444.html
-random_paper: 29
+random_paper: 20
 score:
   band: minimal
   composite: 4.6

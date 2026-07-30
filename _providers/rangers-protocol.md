@@ -71,7 +71,7 @@ overview: 'Rangers Protocol is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Rangers Protocol''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 61
+random_paper: 41
 score:
   band: minimal
   composite: 8.2

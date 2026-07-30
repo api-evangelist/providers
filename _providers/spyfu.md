@@ -207,7 +207,7 @@ plans:
 - name: Spyfu Plans Pricing
   plan_count: 3
   slug: spyfu-plans-pricing
-random_paper: 0
+random_paper: 75
 rate_limits:
 - limit_count: 8
   name: Spyfu Rate Limits

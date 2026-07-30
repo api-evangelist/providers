@@ -172,7 +172,7 @@ overview: 'Chalk publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chalk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 23 more developer resources.'
-random_paper: 29
+random_paper: 23
 scopes:
 - name: Chalk Scopes
   scope_count: 3

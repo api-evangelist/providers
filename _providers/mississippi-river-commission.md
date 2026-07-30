@@ -60,7 +60,7 @@ name: Mississippi River Commission
 nav: Providers
 network: true
 overview: Mississippi River Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Flood Control, Mississippi River, Navigation, and River Management.
-random_paper: 28
+random_paper: 74
 score:
   band: minimal
   composite: 5.7

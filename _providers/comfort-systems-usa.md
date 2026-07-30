@@ -65,7 +65,7 @@ plans:
 - name: Comfort Systems Usa Plans Pricing
   plan_count: 1
   slug: comfort-systems-usa-plans-pricing
-random_paper: 29
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Comfort Systems Usa Rate Limits

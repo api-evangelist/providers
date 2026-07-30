@@ -163,7 +163,7 @@ plans:
 - name: Microsoft Azure Integration Services Plans Pricing
   plan_count: 3
   slug: microsoft-azure-integration-services-plans-pricing
-random_paper: 79
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Integration Services Rate Limits

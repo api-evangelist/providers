@@ -83,7 +83,7 @@ overview: 'Zoho Invoice publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Zoho Invoice''s developer surface includes documentation, pricing, signup flow, developer console, engineering blog, and 4 more developer resources.'
-random_paper: 27
+random_paper: 12
 score:
   band: emerging
   composite: 23.2

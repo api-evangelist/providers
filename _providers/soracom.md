@@ -734,7 +734,7 @@ plans:
 - name: Soracom Plans Pricing
   plan_count: 17
   slug: soracom-plans-pricing
-random_paper: 27
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Soracom Rate Limits

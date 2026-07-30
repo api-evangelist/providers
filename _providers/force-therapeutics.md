@@ -87,7 +87,7 @@ overview: 'Force Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Force Therapeutics'' developer surface includes engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 6
+random_paper: 65
 score:
   band: emerging
   composite: 18.9

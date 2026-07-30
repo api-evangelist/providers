@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Amplify Partners
 nav: Providers
 network: true
-random_paper: 58
+random_paper: 38
 slug: amplify-partners
 tags:
 - Venture Capital

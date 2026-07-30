@@ -56,7 +56,7 @@ name: Ocean Facts
 nav: Providers
 network: true
 overview: Ocean Facts publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 39
+random_paper: 26
 score:
   band: minimal
   composite: 5.7

@@ -101,7 +101,7 @@ overview: 'LeapYear publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   LeapYear''s developer surface includes documentation, API reference, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 41
+random_paper: 31
 score:
   band: emerging
   composite: 16.9

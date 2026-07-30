@@ -104,7 +104,7 @@ plans:
 - name: Priceops Plans Pricing
   plan_count: 1
   slug: priceops-plans-pricing
-random_paper: 59
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Priceops Rate Limits

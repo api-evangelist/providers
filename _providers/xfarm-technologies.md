@@ -44,7 +44,7 @@ name: xFarm Technologies
 nav: Providers
 network: true
 overview: xFarm Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Food & Agritech.
-random_paper: 8
+random_paper: 67
 score:
   band: minimal
   composite: 4.1

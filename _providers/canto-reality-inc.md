@@ -52,7 +52,7 @@ name: Canto Reality Inc.
 nav: Providers
 network: true
 overview: Canto Reality Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Social, and Startup.
-random_paper: 79
+random_paper: 59
 score:
   band: minimal
   composite: 5.7

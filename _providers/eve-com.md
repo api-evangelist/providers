@@ -39,7 +39,7 @@ name: Eve Com
 nav: Providers
 network: true
 overview: Eve Com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Beauty, and Cosmetics.
-random_paper: 36
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

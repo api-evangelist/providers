@@ -131,7 +131,7 @@ overview: 'Cisco Meraki publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Cisco Meraki''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
-random_paper: 73
+random_paper: 59
 score:
   band: thin
   composite: 28.0

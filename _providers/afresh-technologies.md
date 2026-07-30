@@ -67,7 +67,7 @@ overview: 'Afresh Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Afresh Technologies'' developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 18
+random_paper: 76
 score:
   band: minimal
   composite: 10.9

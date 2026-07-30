@@ -123,7 +123,7 @@ plans:
 - name: Dosespot Plans Pricing
   plan_count: 2
   slug: dosespot-plans-pricing
-random_paper: 71
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Dosespot Rate Limits

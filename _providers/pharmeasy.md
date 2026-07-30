@@ -79,7 +79,7 @@ overview: 'Pharmeasy is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pharmeasy''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 79
+random_paper: 68
 score:
   band: emerging
   composite: 14.8

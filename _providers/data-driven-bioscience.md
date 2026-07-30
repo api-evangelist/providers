@@ -52,7 +52,7 @@ name: Data Driven Bioscience
 nav: Providers
 network: true
 overview: Data Driven Bioscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Genomics, Oncology, and Diagnostics.
-random_paper: 5
+random_paper: 60
 score:
   band: minimal
   composite: 5.4

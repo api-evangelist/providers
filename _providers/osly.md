@@ -67,7 +67,7 @@ overview: 'Osly is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Osly''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 50
+random_paper: 45
 score:
   band: minimal
   composite: 9.6

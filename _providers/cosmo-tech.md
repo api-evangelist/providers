@@ -181,7 +181,7 @@ overview: 'Cosmo Tech publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cosmo Tech''s developer surface includes documentation, API reference, support, CLI, authentication, changelog, and 20 more developer resources.'
-random_paper: 38
+random_paper: 26
 scopes:
 - name: Cosmo Tech Scopes
   scope_count: 0

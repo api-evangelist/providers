@@ -48,7 +48,7 @@ name: Billion Hearts
 nav: Providers
 network: true
 overview: Billion Hearts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Startup, General Catalyst, and Asia.
-random_paper: 60
+random_paper: 43
 score:
   band: minimal
   composite: 5.0

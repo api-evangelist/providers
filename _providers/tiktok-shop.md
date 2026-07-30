@@ -79,7 +79,7 @@ overview: 'TikTok Shop API publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   TikTok Shop API''s developer surface includes documentation, signup flow, support, and 5 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: minimal
   composite: 12.1

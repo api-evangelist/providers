@@ -48,7 +48,7 @@ name: LevelUp
 nav: Providers
 network: true
 overview: LevelUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Mobile Payments, Loyalty, and Rewards.
-random_paper: 33
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

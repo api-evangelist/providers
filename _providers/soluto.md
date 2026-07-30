@@ -48,7 +48,7 @@ name: Soluto
 nav: Providers
 network: true
 overview: Soluto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vertical Software, Tech Support, Device Protection, and Consumer.
-random_paper: 30
+random_paper: 22
 score:
   band: minimal
   composite: 5.7

@@ -83,7 +83,7 @@ overview: 'Brigit is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Brigit''s developer surface includes support, engineering blog, signup flow, pricing, and 6 more developer resources.'
-random_paper: 74
+random_paper: 67
 score:
   band: emerging
   composite: 15.2

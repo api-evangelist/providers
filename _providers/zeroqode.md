@@ -87,7 +87,7 @@ plans:
 - name: Zeroqode Plans Pricing
   plan_count: 3
   slug: zeroqode-plans-pricing
-random_paper: 63
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Zeroqode Rate Limits

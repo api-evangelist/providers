@@ -60,7 +60,7 @@ name: Mob.ly
 nav: Providers
 network: true
 overview: Mob.ly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Events, Event Marketing, Lead Capture, and Lead Enrichment.
-random_paper: 61
+random_paper: 55
 score:
   band: minimal
   composite: 11.8

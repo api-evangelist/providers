@@ -63,7 +63,7 @@ overview: 'Virtuoso Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Virtuoso Therapeutics'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 62
+random_paper: 35
 score:
   band: minimal
   composite: 5.7

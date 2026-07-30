@@ -48,7 +48,7 @@ name: Conteller
 nav: Providers
 network: true
 overview: Conteller is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, User Generated Content, Content Marketing, Creator Economy, and Marketing.
-random_paper: 77
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

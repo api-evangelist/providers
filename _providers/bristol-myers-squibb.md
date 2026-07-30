@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Our technologies
   url: https://www.bms.com/about-us/our-company/our-technologies.html
-random_paper: 38
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Bristol Myers Squibb Rate Limits

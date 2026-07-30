@@ -63,7 +63,7 @@ overview: 'Nexiu is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nexiu''s developer surface includes pricing and 4 more developer resources.'
-random_paper: 67
+random_paper: 61
 score:
   band: minimal
   composite: 10.0

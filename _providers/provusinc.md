@@ -80,7 +80,7 @@ overview: 'Provus is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Provus'' developer surface includes documentation, engineering blog, pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 29
+random_paper: 17
 score:
   band: emerging
   composite: 15.6

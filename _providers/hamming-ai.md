@@ -123,7 +123,7 @@ plans:
 - name: Hamming Ai Plans Pricing
   plan_count: 2
   slug: hamming-ai-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Hamming Ai Rate Limits

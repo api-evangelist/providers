@@ -68,7 +68,7 @@ overview: 'Goyaz Silver Jewellery is profiled on the [APIs.io](https://apis.io/)
 
 
   Goyaz Silver Jewellery''s developer surface includes YouTube channel and 5 more developer resources.'
-random_paper: 75
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

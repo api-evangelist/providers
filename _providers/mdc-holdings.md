@@ -44,7 +44,7 @@ name: MDC Holdings
 nav: Providers
 network: true
 overview: MDC Holdings is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 75
+random_paper: 61
 score:
   band: minimal
   composite: 2.6

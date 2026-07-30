@@ -56,7 +56,7 @@ name: POSIX
 nav: Providers
 network: true
 overview: POSIX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include IEEE, Open Group, Operating Systems, POSIX, and Standards.
-random_paper: 77
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

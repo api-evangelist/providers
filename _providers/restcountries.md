@@ -143,7 +143,7 @@ plans:
 - name: Restcountries Plans Pricing
   plan_count: 5
   slug: restcountries-plans-pricing
-random_paper: 57
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Restcountries Rate Limits

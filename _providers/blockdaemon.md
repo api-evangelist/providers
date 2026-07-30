@@ -398,7 +398,7 @@ plans:
 - name: Blockdaemon Plans Pricing
   plan_count: 4
   slug: blockdaemon-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Blockdaemon Rate Limits

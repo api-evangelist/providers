@@ -83,7 +83,7 @@ overview: 'Agency is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Agency''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 64
+random_paper: 57
 score:
   band: emerging
   composite: 14.9

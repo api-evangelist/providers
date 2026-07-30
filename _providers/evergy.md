@@ -51,7 +51,7 @@ overview: 'Evergy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Evergy''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 3.0

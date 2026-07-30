@@ -48,7 +48,7 @@ name: Spaceium
 nav: Providers
 network: true
 overview: Spaceium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Unknown.
-random_paper: 45
+random_paper: 35
 score:
   band: minimal
   composite: 4.1

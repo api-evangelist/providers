@@ -39,7 +39,7 @@ name: mSpot
 nav: Providers
 network: true
 overview: mSpot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Music, Streaming, and Media.
-random_paper: 77
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

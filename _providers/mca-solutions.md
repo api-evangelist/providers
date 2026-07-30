@@ -39,7 +39,7 @@ name: MCA Solutions
 nav: Providers
 network: true
 overview: MCA Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Service Parts, Inventory Optimization, and Aerospace and Defense.
-random_paper: 62
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

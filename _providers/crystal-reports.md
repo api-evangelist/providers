@@ -367,7 +367,7 @@ plans:
 - name: Crystal Reports Plans Pricing
   plan_count: 2
   slug: crystal-reports-plans-pricing
-random_paper: 59
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Crystal Reports Rate Limits

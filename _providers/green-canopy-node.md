@@ -59,7 +59,7 @@ overview: 'Green Canopy NODE is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Green Canopy NODE''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 71
+random_paper: 51
 score:
   band: minimal
   composite: 6.3

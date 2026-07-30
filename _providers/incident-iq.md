@@ -143,7 +143,7 @@ overview: 'Incident IQ publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Incident IQ''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 15 more developer resources.'
-random_paper: 56
+random_paper: 43
 score:
   band: developing
   composite: 46.3

@@ -139,7 +139,7 @@ overview: 'Collectors publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Collectors'' developer surface includes documentation, API reference, signup flow, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 29
+random_paper: 16
 score:
   band: thin
   composite: 32.0

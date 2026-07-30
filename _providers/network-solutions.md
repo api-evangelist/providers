@@ -67,7 +67,7 @@ overview: 'Network Solutions is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Network Solutions'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 49
+random_paper: 27
 score:
   band: minimal
   composite: 10.5

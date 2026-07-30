@@ -109,7 +109,7 @@ plans:
 - name: Taskrabbit Plans Pricing
   plan_count: 3
   slug: taskrabbit-plans-pricing
-random_paper: 10
+random_paper: 79
 scopes:
 - name: Taskrabbit Scopes
   scope_count: 0

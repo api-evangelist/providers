@@ -71,7 +71,7 @@ overview: 'Topline Pro is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Topline Pro''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 11
+random_paper: 79
 score:
   band: minimal
   composite: 11.9

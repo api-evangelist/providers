@@ -80,7 +80,7 @@ plans:
 - name: Mtech Systems Plans Pricing
   plan_count: 3
   slug: mtech-systems-plans-pricing
-random_paper: 70
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Mtech Systems Rate Limits

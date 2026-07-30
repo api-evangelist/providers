@@ -56,7 +56,7 @@ name: National Institute of Corrections
 nav: Providers
 network: true
 overview: National Institute of Corrections is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Corrections, Federal Government, and Justice.
-random_paper: 77
+random_paper: 36
 score:
   band: minimal
   composite: 4.1

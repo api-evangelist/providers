@@ -114,7 +114,7 @@ plans:
 - name: Zenplanner Plans Pricing
   plan_count: 4
   slug: zenplanner-plans-pricing
-random_paper: 32
+random_paper: 19
 scopes:
 - name: Zenplanner Scopes
   scope_count: 0

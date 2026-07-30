@@ -79,7 +79,7 @@ overview: 'MisterSpex is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   MisterSpex''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 55
+random_paper: 42
 score:
   band: minimal
   composite: 9.5

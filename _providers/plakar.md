@@ -127,7 +127,7 @@ overview: 'Plakar is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Plakar''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, changelog, and 15 more developer resources.'
-random_paper: 68
+random_paper: 61
 score:
   band: thin
   composite: 28.9

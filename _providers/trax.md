@@ -116,7 +116,7 @@ overview: 'Trax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Trax''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 42
+random_paper: 37
 score:
   band: emerging
   composite: 24.0

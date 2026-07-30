@@ -48,7 +48,7 @@ name: StyleSaint
 nav: Providers
 network: true
 overview: StyleSaint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Ecommerce, Retail, and Apparel.
-random_paper: 51
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

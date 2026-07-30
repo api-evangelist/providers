@@ -64,7 +64,7 @@ overview: 'Beijing Lanweitong Technology (蓝卫通 / BSC) is profiled on the [A
 
 
   Beijing Lanweitong Technology (蓝卫通 / BSC)''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 17
+random_paper: 7
 score:
   band: minimal
   composite: 9.9

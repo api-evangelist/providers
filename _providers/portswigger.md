@@ -132,7 +132,7 @@ plans:
 - name: Portswigger Plans Pricing
   plan_count: 3
   slug: portswigger-plans-pricing
-random_paper: 79
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Portswigger Rate Limits

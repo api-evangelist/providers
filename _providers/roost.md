@@ -67,7 +67,7 @@ overview: 'Roost is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Roost''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 0
+random_paper: 75
 score:
   band: minimal
   composite: 12.1

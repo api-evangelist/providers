@@ -60,7 +60,7 @@ name: CYBAVO
 nav: Providers
 network: true
 overview: CYBAVO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Digital Asset Security, Wallet, and Custody.
-random_paper: 77
+random_paper: 70
 score:
   band: minimal
   composite: 7.4

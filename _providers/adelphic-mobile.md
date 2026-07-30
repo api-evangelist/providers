@@ -53,7 +53,7 @@ name: Adelphic Mobile *
 nav: Providers
 network: true
 overview: Adelphic Mobile * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Advertising, AdTech, and Programmatic Advertising.
-random_paper: 45
+random_paper: 27
 score:
   band: minimal
   composite: 6.9

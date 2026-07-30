@@ -109,7 +109,7 @@ overview: 'CallRail publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   CallRail''s developer surface includes authentication, documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 26
+random_paper: 16
 score:
   band: thin
   composite: 30.9

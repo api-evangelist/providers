@@ -72,7 +72,7 @@ plans:
 - name: Matthews International Plans Pricing
   plan_count: 1
   slug: matthews-international-plans-pricing
-random_paper: 54
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Matthews International Rate Limits

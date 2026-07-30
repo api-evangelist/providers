@@ -164,7 +164,7 @@ plans:
 - name: Cloudguard Plans Pricing
   plan_count: 3
   slug: cloudguard-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Cloudguard Rate Limits

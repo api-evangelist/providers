@@ -75,7 +75,7 @@ overview: 'Big Sky Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Big Sky Health''s developer surface includes engineering blog, support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 73
+random_paper: 57
 score:
   band: emerging
   composite: 15.6

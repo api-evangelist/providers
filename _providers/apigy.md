@@ -44,7 +44,7 @@ name: Apigy
 nav: Providers
 network: true
 overview: Apigy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Lock, IoT, Access Control, and Hardware.
-random_paper: 52
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

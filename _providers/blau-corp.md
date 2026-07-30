@@ -67,7 +67,7 @@ overview: 'Blau Corp is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Blau Corp''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 10
+random_paper: 81
 score:
   band: minimal
   composite: 11.0

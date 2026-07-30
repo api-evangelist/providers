@@ -39,7 +39,7 @@ name: Videogesprek
 nav: Providers
 network: true
 overview: Videogesprek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Video, Conferencing, and Video Calling.
-random_paper: 73
+random_paper: 58
 score:
   band: minimal
   composite: 4.1

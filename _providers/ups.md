@@ -238,7 +238,7 @@ press:
 - date: '2026-05-25'
   title: How UPS is using AI, from shipper pricing to customs ...
   url: https://www.supplychaindive.com/news/ups-ai-employee-upskilling-network-changes/816412/
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Ups Rate Limits

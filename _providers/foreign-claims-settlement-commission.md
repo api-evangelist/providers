@@ -48,7 +48,7 @@ name: Foreign Claims Settlement Commission
 nav: Providers
 network: true
 overview: Foreign Claims Settlement Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government.
-random_paper: 51
+random_paper: 6
 score:
   band: minimal
   composite: 4.1

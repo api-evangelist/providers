@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Paper Excellence acquires Resolute Forest Products | Work
   url: https://www.torys.com/work/2022/07/296eef18-d4aa-4451-bd37-acae30a77034
-random_paper: 5
+random_paper: 56
 score:
   band: minimal
   composite: 9.5

@@ -83,7 +83,7 @@ overview: 'Biomodal is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Biomodal''s developer surface includes documentation, engineering blog, support, CLI, and 6 more developer resources.'
-random_paper: 29
+random_paper: 19
 score:
   band: emerging
   composite: 17.9

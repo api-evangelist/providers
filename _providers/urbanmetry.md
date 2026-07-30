@@ -87,7 +87,7 @@ overview: 'UrbanMetry is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   UrbanMetry''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 44
+random_paper: 31
 score:
   band: emerging
   composite: 13.3

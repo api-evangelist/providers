@@ -92,7 +92,7 @@ overview: 'Ten Little is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ten Little''s developer surface includes authentication, engineering blog, support, and 8 more developer resources.'
-random_paper: 9
+random_paper: 79
 scopes:
 - name: Tenlittle Scopes
   scope_count: 4

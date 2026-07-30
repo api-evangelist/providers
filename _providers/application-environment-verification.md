@@ -52,7 +52,7 @@ name: Application Environment Verification
 nav: Providers
 network: true
 overview: Application Environment Verification publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 24
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

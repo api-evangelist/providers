@@ -48,7 +48,7 @@ name: PlusDental
 nav: Providers
 network: true
 overview: PlusDental is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Consumer, Dental, and Orthodontics.
-random_paper: 31
+random_paper: 18
 score:
   band: minimal
   composite: 4.3

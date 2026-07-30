@@ -71,7 +71,7 @@ overview: 'Sidecar Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Sidecar Health''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 29
+random_paper: 12
 score:
   band: emerging
   composite: 16.1

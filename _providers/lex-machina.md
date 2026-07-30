@@ -254,7 +254,7 @@ overview: 'Lex Machina publishes 21 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lex Machina''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
-random_paper: 42
+random_paper: 29
 score:
   band: thin
   composite: 39.5

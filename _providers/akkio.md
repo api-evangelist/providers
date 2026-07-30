@@ -167,7 +167,7 @@ overview: 'Akkio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Da
 
 
   Akkio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 41
+random_paper: 35
 score:
   band: developing
   composite: 47.5

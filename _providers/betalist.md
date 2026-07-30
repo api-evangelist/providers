@@ -96,7 +96,7 @@ overview: 'BetaList is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BetaList''s developer surface includes engineering blog, FAQ, support, and 7 more developer resources.'
-random_paper: 46
+random_paper: 36
 score:
   band: minimal
   composite: 7.0

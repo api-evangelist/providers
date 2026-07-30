@@ -56,7 +56,7 @@ name: Inertia
 nav: Providers
 network: true
 overview: Inertia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Fusion Energy, Clean Energy, and Inertial Confinement Fusion.
-random_paper: 19
+random_paper: 10
 score:
   band: minimal
   composite: 9.2

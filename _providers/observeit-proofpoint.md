@@ -71,7 +71,7 @@ overview: 'ObserveIT (Proofpoint) is profiled on the [APIs.io](https://apis.io/)
 
 
   ObserveIT (Proofpoint)''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 22
+random_paper: 78
 score:
   band: minimal
   composite: 11.0

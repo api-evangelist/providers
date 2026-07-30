@@ -48,7 +48,7 @@ name: GCL
 nav: Providers
 network: true
 overview: GCL is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Photovoltaic, Renewable Energy, and Energy Storage.
-random_paper: 67
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

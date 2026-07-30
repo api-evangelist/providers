@@ -184,7 +184,7 @@ overview: 'Liquid publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Liquid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 26 more developer resources.'
-random_paper: 0
+random_paper: 74
 scopes:
 - name: Liquid Scopes
   scope_count: 2

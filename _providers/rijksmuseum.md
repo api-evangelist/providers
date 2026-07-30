@@ -247,7 +247,7 @@ plans:
 - name: Rijksmuseum Plans Pricing
   plan_count: 1
   slug: rijksmuseum-plans-pricing
-random_paper: 0
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Rijksmuseum Rate Limits

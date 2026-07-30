@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Home - Boyd | Trusted Innovation
   url: https://www.boydcorp.com/
-random_paper: 49
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

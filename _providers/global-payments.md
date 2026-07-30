@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Global Payments Joins Forces with AWS to Deliver ...
   url: https://investors.globalpayments.com/news-events/press-releases/detail/49/global-payments-joins-forces-with-aws-to-deliver-the-future
-random_paper: 12
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Global Payments Rate Limits

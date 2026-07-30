@@ -84,7 +84,7 @@ overview: 'GoTo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   GoTo''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 36
+random_paper: 31
 score:
   band: minimal
   composite: 7.0

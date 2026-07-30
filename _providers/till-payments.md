@@ -175,7 +175,7 @@ overview: 'Till Payments publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Till Payments'' developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 19 more developer resources.'
-random_paper: 67
+random_paper: 51
 score:
   band: developing
   composite: 43.7

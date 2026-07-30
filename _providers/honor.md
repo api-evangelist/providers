@@ -61,7 +61,7 @@ name: Honor
 nav: Providers
 network: true
 overview: Honor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Home Care, Senior Care, Aging, Health Tech, and Care Platform.
-random_paper: 64
+random_paper: 58
 score:
   band: minimal
   composite: 5.0

@@ -187,7 +187,7 @@ overview: 'Gusto publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Gusto''s developer surface includes authentication, documentation, support, engineering blog, and 18 more developer resources.'
-random_paper: 76
+random_paper: 70
 score:
   band: thin
   composite: 41.8

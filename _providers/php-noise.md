@@ -56,7 +56,7 @@ name: PHP-Noise
 nav: Providers
 network: true
 overview: PHP-Noise publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Art And Design and Public APIs.
-random_paper: 24
+random_paper: 13
 score:
   band: minimal
   composite: 5.7

@@ -189,7 +189,7 @@ overview: 'Padlet publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Padlet''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 67
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Padlet Rate Limits

@@ -84,7 +84,7 @@ plans:
 - name: Gifu Opendata Pref Gifu Lg Jp Plans Pricing
   plan_count: 1
   slug: gifu-opendata-pref-gifu-lg-jp-plans-pricing
-random_paper: 27
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Gifu Opendata Pref Gifu Lg Jp Rate Limits

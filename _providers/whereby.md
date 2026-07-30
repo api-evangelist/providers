@@ -221,7 +221,7 @@ plans:
 - name: Whereby Plans Pricing
   plan_count: 1
   slug: whereby-plans-pricing
-random_paper: 29
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Whereby Rate Limits

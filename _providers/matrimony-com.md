@@ -71,7 +71,7 @@ overview: 'Matrimony Com is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Matrimony Com''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 60
+random_paper: 44
 score:
   band: minimal
   composite: 6.3

@@ -99,7 +99,7 @@ overview: 'Catalyst is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Catalyst''s developer surface includes support, engineering blog, and 12 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: emerging
   composite: 20.8

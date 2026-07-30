@@ -48,7 +48,7 @@ name: Quantum
 nav: Providers
 network: true
 overview: Quantum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Marketing, and Programmatic.
-random_paper: 50
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

@@ -119,7 +119,7 @@ plans:
 - name: Ms Applications Plans Pricing
   plan_count: 3
   slug: ms-applications-plans-pricing
-random_paper: 17
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Ms Applications Rate Limits

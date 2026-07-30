@@ -98,7 +98,7 @@ overview: 'CharacterQuilt publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   CharacterQuilt''s developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 42
+random_paper: 24
 score:
   band: thin
   composite: 34.2

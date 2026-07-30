@@ -1213,7 +1213,7 @@ plans:
 - name: Docusign Plans Pricing
   plan_count: 4
   slug: docusign-plans-pricing
-random_paper: 50
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Docusign Rate Limits

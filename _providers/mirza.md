@@ -83,7 +83,7 @@ overview: 'Mirza is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Mirza''s developer surface includes support and 9 more developer resources.'
-random_paper: 61
+random_paper: 55
 score:
   band: emerging
   composite: 19.4

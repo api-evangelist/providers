@@ -48,7 +48,7 @@ name: Creator Cabins
 nav: Providers
 network: true
 overview: Creator Cabins is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Coliving, Community, and DAO.
-random_paper: 44
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

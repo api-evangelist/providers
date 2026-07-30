@@ -52,7 +52,7 @@ name: New York Community Bancorp
 nav: Providers
 network: true
 overview: New York Community Bancorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Banking, Financial Services, Commercial Banking, and Mortgage.
-random_paper: 64
+random_paper: 32
 score:
   band: minimal
   composite: 4.9

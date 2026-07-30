@@ -39,7 +39,7 @@ name: Marmot
 nav: Providers
 network: true
 overview: Marmot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 4.1

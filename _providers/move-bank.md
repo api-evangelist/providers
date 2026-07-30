@@ -184,7 +184,7 @@ overview: 'MOVE Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   MOVE Bank''s developer surface includes authentication, getting-started guide, API reference, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 5
+random_paper: 76
 scopes:
 - name: Move Bank Scopes
   scope_count: 9

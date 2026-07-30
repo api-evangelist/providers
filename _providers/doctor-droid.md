@@ -163,7 +163,7 @@ overview: 'Doctor Droid publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Doctor Droid''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 20 more developer resources.'
-random_paper: 11
+random_paper: 78
 score:
   band: thin
   composite: 39.6

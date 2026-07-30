@@ -215,7 +215,7 @@ overview: 'Veho publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Veho''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, sandbox, and 25 more developer resources.'
-random_paper: 29
+random_paper: 24
 score:
   band: strong
   composite: 56.0

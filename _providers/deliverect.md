@@ -745,7 +745,7 @@ plans:
 - name: Deliverect Plans Pricing
   plan_count: 2
   slug: deliverect-plans-pricing
-random_paper: 10
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Deliverect Rate Limits

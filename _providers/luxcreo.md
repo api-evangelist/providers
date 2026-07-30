@@ -52,7 +52,7 @@ name: LuxCreo
 nav: Providers
 network: true
 overview: LuxCreo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, 3D Printing, Additive Manufacturing, and Dental.
-random_paper: 41
+random_paper: 32
 score:
   band: minimal
   composite: 6.1

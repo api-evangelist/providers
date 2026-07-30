@@ -56,7 +56,7 @@ name: Hyro
 nav: Providers
 network: true
 overview: Hyro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Agents, and Healthcare.
-random_paper: 45
+random_paper: 40
 score:
   band: minimal
   composite: 7.2

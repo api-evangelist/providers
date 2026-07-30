@@ -131,7 +131,7 @@ overview: 'Open GI publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Open GI''s developer surface includes engineering blog, changelog, release notes, documentation, FAQ, support, and 17 more developer resources.'
-random_paper: 39
+random_paper: 31
 score:
   band: emerging
   composite: 22.6

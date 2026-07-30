@@ -241,7 +241,7 @@ overview: 'FakerAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   The FakerAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 25
+random_paper: 15
 rules:
 - name: FakerAPI API Rules
   rule_count: 5

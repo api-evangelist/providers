@@ -177,7 +177,7 @@ plans:
 - name: Department Of Transportation Plans Pricing
   plan_count: 1
   slug: department-of-transportation-plans-pricing
-random_paper: 7
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Department Of Transportation Rate Limits

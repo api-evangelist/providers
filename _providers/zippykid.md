@@ -207,7 +207,7 @@ overview: 'ZippyKid publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ZippyKid''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 74
+random_paper: 64
 scopes:
 - name: Zippykid Scopes
   scope_count: 13

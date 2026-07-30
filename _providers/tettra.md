@@ -145,7 +145,7 @@ plans:
 - name: Tettra Plans Pricing
   plan_count: 2
   slug: tettra-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Tettra Rate Limits

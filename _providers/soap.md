@@ -137,7 +137,7 @@ plans:
 - name: Soap Plans Pricing
   plan_count: 3
   slug: soap-plans-pricing
-random_paper: 30
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Soap Rate Limits

@@ -75,7 +75,7 @@ overview: 'WizerMe is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   WizerMe''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 42
+random_paper: 33
 score:
   band: emerging
   composite: 14.8

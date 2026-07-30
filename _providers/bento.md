@@ -65,7 +65,7 @@ name: Bento
 nav: Providers
 network: true
 overview: Bento is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Payments, and Spend Management.
-random_paper: 50
+random_paper: 44
 score:
   band: minimal
   composite: 7.2

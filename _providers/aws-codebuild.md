@@ -123,7 +123,7 @@ overview: 'AWS CodeBuild publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   AWS CodeBuild''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, and 10 more developer resources.'
-random_paper: 19
+random_paper: 3
 score:
   band: thin
   composite: 36.6

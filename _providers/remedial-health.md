@@ -63,7 +63,7 @@ overview: 'Remedial Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Remedial Health''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 52
+random_paper: 34
 score:
   band: minimal
   composite: 11.8

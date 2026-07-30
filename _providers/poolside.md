@@ -164,7 +164,7 @@ overview: 'poolside publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   poolside''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 53
+random_paper: 43
 score:
   band: thin
   composite: 35.1

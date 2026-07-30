@@ -48,7 +48,7 @@ name: Recursive
 nav: Providers
 network: true
 overview: Recursive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Research, Machine Learning, and Superintelligence.
-random_paper: 12
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

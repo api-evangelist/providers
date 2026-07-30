@@ -63,7 +63,7 @@ overview: 'Football-Data publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Football-Data''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 10
+random_paper: 76
 score:
   band: minimal
   composite: 6.2

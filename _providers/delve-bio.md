@@ -71,7 +71,7 @@ overview: 'Delve Bio is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Delve Bio''s developer surface includes getting-started guide, support, engineering blog, and 4 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 12.9

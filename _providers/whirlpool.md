@@ -138,7 +138,7 @@ press:
 - date: '2026-05-25'
   title: Whirlpool Announces Strategic Recapitalization to ...
   url: https://www.prnewswire.com/news-releases/whirlpool-announces-strategic-recapitalization-to-accelerate-deleveraging-and-strategic-growth-302694986.html
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Whirlpool Rate Limits

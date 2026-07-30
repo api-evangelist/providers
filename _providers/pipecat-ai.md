@@ -126,7 +126,7 @@ plans:
 - name: Pipecat Ai Plans Pricing
   plan_count: 3
   slug: pipecat-ai-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Pipecat Ai Rate Limits

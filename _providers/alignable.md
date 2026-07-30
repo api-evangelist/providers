@@ -67,7 +67,7 @@ overview: 'Alignable is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Alignable''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 36
+random_paper: 25
 score:
   band: minimal
   composite: 10.5

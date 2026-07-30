@@ -271,7 +271,7 @@ overview: 'Sprift publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Sprift''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, support, engineering blog, and 34 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: developing
   composite: 42.7

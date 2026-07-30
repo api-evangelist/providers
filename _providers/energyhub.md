@@ -130,7 +130,7 @@ overview: 'EnergyHub publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   EnergyHub''s developer surface includes authentication, documentation, signup flow, engineering blog, support, and 17 more developer resources.'
-random_paper: 78
+random_paper: 67
 score:
   band: emerging
   composite: 21.6

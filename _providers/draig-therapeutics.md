@@ -67,7 +67,7 @@ overview: 'Draig Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Draig Therapeutics'' developer surface includes support and 5 more developer resources.'
-random_paper: 79
+random_paper: 57
 score:
   band: minimal
   composite: 8.0

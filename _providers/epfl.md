@@ -176,7 +176,7 @@ plans:
 - name: Epfl Plans Pricing
   plan_count: 2
   slug: epfl-plans-pricing
-random_paper: 18
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Epfl Rate Limits

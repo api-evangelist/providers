@@ -274,7 +274,7 @@ plans:
 - name: Coder Plans Pricing
   plan_count: 2
   slug: coder-plans-pricing
-random_paper: 39
+random_paper: 33
 rate_limits:
 - limit_count: 4
   name: Coder Rate Limits

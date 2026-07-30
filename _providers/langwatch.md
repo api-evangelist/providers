@@ -335,7 +335,7 @@ plans:
 - name: Langwatch Plans Pricing
   plan_count: 4
   slug: langwatch-plans-pricing
-random_paper: 62
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Langwatch Rate Limits

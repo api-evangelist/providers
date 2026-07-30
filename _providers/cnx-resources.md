@@ -59,7 +59,7 @@ overview: 'CNX Resources is profiled on the [APIs.io](https://apis.io/) network.
 
 
   CNX Resources'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 65
+random_paper: 49
 score:
   band: minimal
   composite: 5.4

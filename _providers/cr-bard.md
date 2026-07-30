@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: BD accelerates offerings with Bard
   url: https://www.hmenews.com/article/bd-accelerates-offerings-bard
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 9.2

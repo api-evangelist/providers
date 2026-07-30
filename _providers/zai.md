@@ -223,7 +223,7 @@ overview: 'Zai publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Zai''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 29 more developer resources.'
-random_paper: 0
+random_paper: 78
 scopes:
 - name: Zai Scopes
   scope_count: 0

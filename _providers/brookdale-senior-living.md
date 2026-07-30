@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: News
   url: http://news.brookdale.com/content/newsroom/en/news.html?offset=68
-random_paper: 74
+random_paper: 46
 score:
   band: minimal
   composite: 10.8

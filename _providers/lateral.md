@@ -119,7 +119,7 @@ overview: 'Lateral is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lateral''s developer surface includes engineering blog, pricing, YouTube channel, and 16 more developer resources.'
-random_paper: 12
+random_paper: 3
 score:
   band: emerging
   composite: 16.5

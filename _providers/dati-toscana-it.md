@@ -84,7 +84,7 @@ plans:
 - name: Dati Toscana It Plans Pricing
   plan_count: 1
   slug: dati-toscana-it-plans-pricing
-random_paper: 16
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Dati Toscana It Rate Limits

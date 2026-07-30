@@ -217,7 +217,7 @@ overview: 'ERCOT publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   ERCOT''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, signup flow, support, and 29 more developer resources.'
-random_paper: 55
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Ercot Rate Limits

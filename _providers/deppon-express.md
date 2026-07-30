@@ -67,7 +67,7 @@ overview: 'Deppon Express publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Deppon Express'' developer surface includes documentation and 4 more developer resources.'
-random_paper: 11
+random_paper: 75
 score:
   band: minimal
   composite: 11.1

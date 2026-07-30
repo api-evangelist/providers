@@ -39,7 +39,7 @@ name: CenterForce Technologies
 nav: Providers
 network: true
 overview: CenterForce Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contact Center, Call Center, Workforce Optimization, and Workforce Management.
-random_paper: 67
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

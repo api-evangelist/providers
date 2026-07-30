@@ -84,7 +84,7 @@ plans:
 - name: Opendata Hro De Plans Pricing
   plan_count: 1
   slug: opendata-hro-de-plans-pricing
-random_paper: 6
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Opendata Hro De Rate Limits

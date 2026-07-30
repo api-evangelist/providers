@@ -152,7 +152,7 @@ plans:
 - name: Sensible Io Plans Pricing
   plan_count: 3
   slug: sensible-io-plans-pricing
-random_paper: 61
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Sensible Io Rate Limits

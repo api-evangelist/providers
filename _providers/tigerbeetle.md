@@ -97,7 +97,7 @@ plans:
 - name: Tigerbeetle Plans Pricing
   plan_count: 2
   slug: tigerbeetle-plans-pricing
-random_paper: 30
+random_paper: 16
 score:
   band: emerging
   composite: 15.1

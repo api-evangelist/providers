@@ -83,7 +83,7 @@ overview: 'VCNC is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   VCNC''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 21
+random_paper: 16
 score:
   band: emerging
   composite: 14.0

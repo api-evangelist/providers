@@ -115,7 +115,7 @@ overview: 'GDevelop is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GDevelop''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 44
+random_paper: 34
 score:
   band: emerging
   composite: 27.5

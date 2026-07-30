@@ -201,7 +201,7 @@ overview: 'Insurance Council of Australia publishes 3 APIs on the [APIs.io](http
 
 
   Insurance Council of Australia''s developer surface includes authentication, developer portal, documentation, engineering blog, support, YouTube channel, and 25 more developer resources.'
-random_paper: 19
+random_paper: 67
 scopes:
 - name: Insurance Council Australia Scopes
   scope_count: 1

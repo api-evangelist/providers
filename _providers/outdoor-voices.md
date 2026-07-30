@@ -60,7 +60,7 @@ name: Outdoor Voices
 nav: Providers
 network: true
 overview: Outdoor Voices is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, Ecommerce, and Activewear.
-random_paper: 16
+random_paper: 80
 score:
   band: minimal
   composite: 10.1

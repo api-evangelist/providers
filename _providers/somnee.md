@@ -71,7 +71,7 @@ overview: 'Somnee is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Somnee''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 80
+random_paper: 73
 score:
   band: minimal
   composite: 12.6

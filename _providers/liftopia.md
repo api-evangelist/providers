@@ -111,7 +111,7 @@ overview: 'Liftopia is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Liftopia''s developer surface includes signup flow, support, and 15 more developer resources.'
-random_paper: 46
+random_paper: 36
 score:
   band: emerging
   composite: 15.2

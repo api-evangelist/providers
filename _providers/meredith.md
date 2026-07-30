@@ -256,7 +256,7 @@ plans:
 - name: Meredith Plans Pricing
   plan_count: 8
   slug: meredith-plans-pricing
-random_paper: 40
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Meredith Rate Limits

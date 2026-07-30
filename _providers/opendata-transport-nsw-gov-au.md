@@ -92,7 +92,7 @@ plans:
 - name: Opendata Transport Nsw Gov Au Plans Pricing
   plan_count: 1
   slug: opendata-transport-nsw-gov-au-plans-pricing
-random_paper: 3
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Opendata Transport Nsw Gov Au Rate Limits

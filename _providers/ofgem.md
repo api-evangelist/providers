@@ -159,7 +159,7 @@ overview: 'Ofgem is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ofgem''s developer surface includes authentication, developer portal, documentation, product news, engineering blog, support, and 25 more developer resources.'
-random_paper: 40
+random_paper: 34
 scopes:
 - name: Ofgem Scopes
   scope_count: 5

@@ -56,7 +56,7 @@ name: Correios
 nav: Providers
 network: true
 overview: Correios publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tracking and Public APIs.
-random_paper: 60
+random_paper: 50
 score:
   band: minimal
   composite: 5.7

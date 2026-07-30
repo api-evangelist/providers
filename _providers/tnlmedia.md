@@ -56,7 +56,7 @@ name: TNL Mediagene
 nav: Providers
 network: true
 overview: TNL Mediagene is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Publishing, Advertising, and AdTech.
-random_paper: 36
+random_paper: 26
 score:
   band: minimal
   composite: 9.2

@@ -113,7 +113,7 @@ overview: 'Tuva Health publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, pricing, support, and 11 more developer resources.'
-random_paper: 70
+random_paper: 57
 score:
   band: emerging
   composite: 20.6

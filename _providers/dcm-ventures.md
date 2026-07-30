@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: DCM Ventures
 nav: Providers
 network: true
-random_paper: 30
+random_paper: 15
 slug: dcm-ventures
 tags:
 - Venture Capital

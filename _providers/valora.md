@@ -156,7 +156,7 @@ overview: 'Valora publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Valora''s developer surface includes engineering blog, support, documentation, sandbox, changelog, authentication, and 17 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: thin
   composite: 36.8

@@ -92,7 +92,7 @@ plans:
 - name: Invicti Plans Pricing
   plan_count: 3
   slug: invicti-plans-pricing
-random_paper: 29
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Invicti Rate Limits

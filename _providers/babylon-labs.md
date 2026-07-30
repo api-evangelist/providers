@@ -160,7 +160,7 @@ overview: 'Babylon Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Babylon Labs'' developer surface includes changelog, documentation, getting-started guide, engineering blog, support, and 19 more developer resources.'
-random_paper: 72
+random_paper: 58
 score:
   band: thin
   composite: 34.6

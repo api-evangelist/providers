@@ -63,7 +63,7 @@ overview: 'data.egov.bg (Open Data Portal of Bulgaria) publishes 1 API on the [A
 
 
   data.egov.bg (Open Data Portal of Bulgaria)''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 0
+random_paper: 68
 score:
   band: minimal
   composite: 9.0

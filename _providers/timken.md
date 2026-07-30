@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: The Timken Company
   url: https://www.facebook.com/timken/?locale=ro_RO
-random_paper: 0
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Timken Rate Limits

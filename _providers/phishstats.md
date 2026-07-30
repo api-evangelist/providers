@@ -56,7 +56,7 @@ name: PhishStats
 nav: Providers
 network: true
 overview: PhishStats publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 46
+random_paper: 33
 score:
   band: minimal
   composite: 5.7

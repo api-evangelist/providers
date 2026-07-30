@@ -59,7 +59,7 @@ overview: 'High Performance Software Foundation is profiled on the [APIs.io](htt
 
 
   High Performance Software Foundation''s developer surface includes documentation, engineering blog, and 2 more developer resources.'
-random_paper: 28
+random_paper: 23
 score:
   band: minimal
   composite: 6.9

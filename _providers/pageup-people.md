@@ -133,7 +133,7 @@ overview: 'PageUp People publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   PageUp People''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, authentication, and 14 more developer resources.'
-random_paper: 36
+random_paper: 20
 score:
   band: thin
   composite: 32.4

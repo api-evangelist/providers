@@ -52,7 +52,7 @@ name: iDigBio
 nav: Providers
 network: true
 overview: iDigBio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 79
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

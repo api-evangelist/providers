@@ -111,7 +111,7 @@ overview: 'Signpost is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Signpost''s developer surface includes pricing, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: emerging
   composite: 25.9

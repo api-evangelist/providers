@@ -107,7 +107,7 @@ plans:
 - name: Parloa Plans Pricing
   plan_count: 1
   slug: parloa-plans-pricing
-random_paper: 72
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Parloa Rate Limits

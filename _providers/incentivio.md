@@ -84,7 +84,7 @@ overview: 'Incentivio publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Incentivio''s developer surface includes documentation, pricing, support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 27
+random_paper: 14
 score:
   band: minimal
   composite: 11.1

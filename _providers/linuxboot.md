@@ -75,7 +75,7 @@ plans:
 - name: Linuxboot Plans Pricing
   plan_count: 3
   slug: linuxboot-plans-pricing
-random_paper: 24
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Linuxboot Rate Limits

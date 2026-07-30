@@ -163,7 +163,7 @@ plans:
 - name: Blast Network Plans Pricing
   plan_count: 1
   slug: blast-network-plans-pricing
-random_paper: 61
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Blast Network Rate Limits

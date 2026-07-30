@@ -72,7 +72,7 @@ plans:
 - name: Shoreline Plans Pricing
   plan_count: 3
   slug: shoreline-plans-pricing
-random_paper: 78
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Shoreline Rate Limits

@@ -67,7 +67,7 @@ overview: 'Smart Bricks Holdings Limited is profiled on the [APIs.io](https://ap
 
 
   Smart Bricks Holdings Limited''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 8
+random_paper: 54
 score:
   band: minimal
   composite: 12.3

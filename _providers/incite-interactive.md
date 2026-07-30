@@ -71,7 +71,7 @@ overview: 'Incite Interactive is profiled on the [APIs.io](https://apis.io/) net
 
 
   Incite Interactive''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 0
+random_paper: 59
 score:
   band: minimal
   composite: 8.9

@@ -48,7 +48,7 @@ name: Floracene
 nav: Providers
 network: true
 overview: Floracene is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Medical Devices, Digital Health, and Procurement.
-random_paper: 52
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

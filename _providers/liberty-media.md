@@ -96,7 +96,7 @@ press:
 - date: '2026-04-20'
   title: Liberty Media Corporation Announces First Quarter Earnings Release and Conference Call
   url: https://www.libertymedia.com/news/detail/582/liberty-media-corporation-announces-first-quarter-earnings
-random_paper: 24
+random_paper: 8
 score:
   band: minimal
   composite: 5.4

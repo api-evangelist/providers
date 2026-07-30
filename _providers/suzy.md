@@ -79,7 +79,7 @@ overview: 'Suzy is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Suzy''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 70
+random_paper: 65
 score:
   band: emerging
   composite: 14.4

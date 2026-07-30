@@ -52,7 +52,7 @@ name: Raincoat
 nav: Providers
 network: true
 overview: Raincoat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Parametric Insurance, and Climate.
-random_paper: 39
+random_paper: 29
 score:
   band: minimal
   composite: 5.6

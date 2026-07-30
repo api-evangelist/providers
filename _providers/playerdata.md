@@ -143,7 +143,7 @@ overview: 'PlayerData publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   PlayerData''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 16 more developer resources.'
-random_paper: 10
+random_paper: 79
 score:
   band: thin
   composite: 40.4

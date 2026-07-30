@@ -158,7 +158,7 @@ overview: 'Practice Fusion publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Practice Fusion''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, engineering blog, and 18 more developer resources.'
-random_paper: 9
+random_paper: 72
 scopes:
 - name: Practice Fusion Scopes
   scope_count: 0

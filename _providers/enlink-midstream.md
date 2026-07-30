@@ -44,7 +44,7 @@ name: EnLink Midstream
 nav: Providers
 network: true
 overview: EnLink Midstream is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 32
+random_paper: 12
 score:
   band: minimal
   composite: 2.6

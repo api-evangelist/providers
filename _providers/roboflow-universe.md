@@ -67,7 +67,7 @@ overview: 'Roboflow Universe publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Roboflow Universe''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 18
+random_paper: 78
 score:
   band: minimal
   composite: 7.8

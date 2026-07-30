@@ -59,7 +59,7 @@ overview: 'One Assist is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   One Assist''s developer surface includes support and 3 more developer resources.'
-random_paper: 58
+random_paper: 46
 score:
   band: minimal
   composite: 9.0

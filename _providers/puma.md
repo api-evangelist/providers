@@ -137,7 +137,7 @@ overview: 'Puma publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Puma''s developer surface includes authentication, documentation, and 10 more developer resources.'
-random_paper: 30
+random_paper: 25
 score:
   band: emerging
   composite: 26.4

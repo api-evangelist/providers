@@ -47,7 +47,7 @@ name: alliance-one-international
 nav: Providers
 network: true
 overview: alliance-one-international is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Tobacco, Agriculture, Commodities, Leaf Tobacco, and Manufacturing.
-random_paper: 45
+random_paper: 13
 score:
   band: minimal
   composite: 4.4

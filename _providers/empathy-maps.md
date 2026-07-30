@@ -48,7 +48,7 @@ name: Empathy Maps
 nav: Providers
 network: true
 overview: Empathy Maps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Design Thinking, User Research, and UX Design.
-random_paper: 23
+random_paper: 8
 score:
   band: minimal
   composite: 4.8

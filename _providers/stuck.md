@@ -71,7 +71,7 @@ overview: 'Stuck is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Stuck''s developer surface includes signup flow, engineering blog, pricing, support, and 3 more developer resources.'
-random_paper: 68
+random_paper: 62
 score:
   band: minimal
   composite: 11.0

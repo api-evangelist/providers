@@ -196,7 +196,7 @@ overview: 'Clockify publishes 27 APIs on the [APIs.io](https://apis.io/) network
 
 
   Clockify''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: thin
   composite: 28.0

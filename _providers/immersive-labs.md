@@ -156,7 +156,7 @@ overview: 'Immersive Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Immersive Labs'' developer surface includes API reference, documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 63
+random_paper: 46
 score:
   band: thin
   composite: 36.2

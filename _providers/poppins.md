@@ -71,7 +71,7 @@ overview: 'Poppins is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Poppins'' developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 48
+random_paper: 39
 score:
   band: emerging
   composite: 13.4

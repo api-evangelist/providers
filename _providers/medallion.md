@@ -87,7 +87,7 @@ overview: 'Medallion is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Medallion''s developer surface includes support, engineering blog, pricing, and 8 more developer resources.'
-random_paper: 58
+random_paper: 47
 score:
   band: emerging
   composite: 21.4

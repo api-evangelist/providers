@@ -171,7 +171,7 @@ overview: 'Landgate publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 22
+random_paper: 12
 scopes:
 - name: Landgate Scopes
   scope_count: 6

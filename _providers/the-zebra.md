@@ -48,7 +48,7 @@ name: The Zebra
 nav: Providers
 network: true
 overview: The Zebra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Insurance, Insurance Comparison, and Marketplace.
-random_paper: 7
+random_paper: 78
 score:
   band: minimal
   composite: 5.6

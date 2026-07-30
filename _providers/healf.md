@@ -56,7 +56,7 @@ name: Healf
 nav: Providers
 network: true
 overview: Healf is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, InsurTech, Insurance, Health Insurance, and Artificial Intelligence.
-random_paper: 26
+random_paper: 20
 score:
   band: minimal
   composite: 5.6

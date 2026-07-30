@@ -155,7 +155,7 @@ overview: 'Veza publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Veza''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 33
+random_paper: 28
 score:
   band: developing
   composite: 42.3

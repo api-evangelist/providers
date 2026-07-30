@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: American Eagle uses Meta AI ads to get Gen Z to stores
   url: https://adage.com/article/digital-marketing-ad-tech-news/american-eagle-uses-meta-ai-ads-get-gen-z-stores/2606366/
-random_paper: 34
+random_paper: 3
 score:
   band: minimal
   composite: 6.9

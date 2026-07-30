@@ -71,7 +71,7 @@ overview: 'Humanising Autonomy is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Humanising Autonomy''s developer surface includes engineering blog, YouTube channel, and 5 more developer resources.'
-random_paper: 68
+random_paper: 44
 score:
   band: minimal
   composite: 9.7

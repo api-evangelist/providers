@@ -2235,7 +2235,7 @@ plans:
 - name: Paypal Plans Pricing
   plan_count: 7
   slug: paypal-plans-pricing
-random_paper: 80
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Paypal Rate Limits

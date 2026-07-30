@@ -124,7 +124,7 @@ plans:
 - name: Athina Plans Pricing
   plan_count: 3
   slug: athina-plans-pricing
-random_paper: 62
+random_paper: 55
 rate_limits:
 - limit_count: 4
   name: Athina Rate Limits

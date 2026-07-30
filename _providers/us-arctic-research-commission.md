@@ -81,7 +81,7 @@ plans:
 - name: Us Arctic Research Commission Plans Pricing
   plan_count: 3
   slug: us-arctic-research-commission-plans-pricing
-random_paper: 15
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Us Arctic Research Commission Rate Limits

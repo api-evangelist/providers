@@ -108,7 +108,7 @@ plans:
 - name: Multiplier Plans Pricing
   plan_count: 4
   slug: multiplier-plans-pricing
-random_paper: 42
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Multiplier Rate Limits

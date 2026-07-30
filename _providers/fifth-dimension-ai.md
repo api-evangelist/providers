@@ -88,7 +88,7 @@ overview: 'Fifth Dimension Ai is profiled on the [APIs.io](https://apis.io/) net
 
 
   Fifth Dimension Ai''s developer surface includes pricing, support, engineering blog, and 8 more developer resources.'
-random_paper: 5
+random_paper: 65
 score:
   band: emerging
   composite: 17.3

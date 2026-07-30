@@ -177,7 +177,7 @@ overview: 'Bank First publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Bank First''s developer surface includes documentation, support, getting-started guide, authentication, and 21 more developer resources.'
-random_paper: 37
+random_paper: 25
 scopes:
 - name: Bank First Scopes
   scope_count: 7

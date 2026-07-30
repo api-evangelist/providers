@@ -155,7 +155,7 @@ plans:
 - name: Obsidian Plans Pricing
   plan_count: 5
   slug: obsidian-plans-pricing
-random_paper: 31
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Obsidian Rate Limits

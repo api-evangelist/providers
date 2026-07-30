@@ -67,7 +67,7 @@ overview: 'Avant-Garde Health is profiled on the [APIs.io](https://apis.io/) net
 
 
   Avant-Garde Health''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 45
+random_paper: 32
 score:
   band: minimal
   composite: 10.5

@@ -760,7 +760,7 @@ plans:
 - name: Sentry System Plans Pricing
   plan_count: 4
   slug: sentry-system-plans-pricing
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Sentry System Rate Limits

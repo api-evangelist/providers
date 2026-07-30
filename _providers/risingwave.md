@@ -157,7 +157,7 @@ plans:
 - name: Risingwave Plans Pricing
   plan_count: 4
   slug: risingwave-plans-pricing
-random_paper: 34
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Risingwave Rate Limits

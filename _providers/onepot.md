@@ -112,7 +112,7 @@ overview: 'Onepot publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Onepot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: emerging
   composite: 19.5

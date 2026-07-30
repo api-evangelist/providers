@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: Devon Energy and WPX Energy complete Merger of ...
   url: https://www.oilandgas360.com/devon-energy-and-wpx-energy-complete-merger-of-equals-transaction-2/
-random_paper: 74
+random_paper: 62
 score:
   band: minimal
   composite: 10.2

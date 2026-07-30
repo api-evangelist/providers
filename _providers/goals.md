@@ -75,7 +75,7 @@ overview: 'Goals is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Goals'' developer surface includes documentation, getting-started guide, support, and 5 more developer resources.'
-random_paper: 48
+random_paper: 42
 score:
   band: emerging
   composite: 14.0

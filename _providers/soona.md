@@ -67,7 +67,7 @@ overview: 'soona is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   soona''s developer surface includes pricing, support, engineering blog, and 3 more developer resources.'
-random_paper: 58
+random_paper: 52
 score:
   band: minimal
   composite: 12.6

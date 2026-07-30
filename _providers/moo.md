@@ -75,7 +75,7 @@ overview: 'MOO is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   MOO''s developer surface includes support, engineering blog, pricing, and 5 more developer resources.'
-random_paper: 7
+random_paper: 3
 score:
   band: minimal
   composite: 12.6

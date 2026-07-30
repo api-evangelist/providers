@@ -59,7 +59,7 @@ overview: 'Synquote is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Synquote''s developer surface includes signup flow, engineering blog, and 2 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 7.5

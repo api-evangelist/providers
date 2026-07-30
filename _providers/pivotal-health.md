@@ -83,7 +83,7 @@ overview: 'Pivotal Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Pivotal Health''s developer surface includes signup flow and 9 more developer resources.'
-random_paper: 65
+random_paper: 48
 score:
   band: minimal
   composite: 12.7

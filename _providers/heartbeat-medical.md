@@ -48,7 +48,7 @@ name: Heartbeat Medical
 nav: Providers
 network: true
 overview: Heartbeat Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Medical Software, and Health IT.
-random_paper: 7
+random_paper: 68
 score:
   band: minimal
   composite: 6.3

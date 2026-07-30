@@ -83,7 +83,7 @@ overview: 'Asaak is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Asaak''s developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 27
+random_paper: 21
 score:
   band: emerging
   composite: 15.6

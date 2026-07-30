@@ -104,7 +104,7 @@ plans:
 - name: Bob Plans Pricing
   plan_count: 5
   slug: bob-plans-pricing
-random_paper: 64
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Bob Rate Limits

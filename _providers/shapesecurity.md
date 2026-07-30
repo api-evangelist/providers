@@ -55,7 +55,7 @@ overview: 'Shape Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Shape Security''s developer surface includes documentation and 2 more developer resources.'
-random_paper: 40
+random_paper: 23
 score:
   band: minimal
   composite: 6.7

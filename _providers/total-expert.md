@@ -305,7 +305,7 @@ overview: 'Total Expert publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   Total Expert''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 27 more developer resources.'
-random_paper: 42
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Total Expert Rate Limits

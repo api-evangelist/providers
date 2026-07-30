@@ -91,7 +91,7 @@ overview: 'Worknmates is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Worknmates'' developer surface includes pricing, support, and 10 more developer resources.'
-random_paper: 46
+random_paper: 33
 score:
   band: emerging
   composite: 16.7

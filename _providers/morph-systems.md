@@ -56,7 +56,7 @@ overview: 'Morph Systems is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Morph Systems'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 10
+random_paper: 75
 score:
   band: minimal
   composite: 5.4

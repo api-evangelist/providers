@@ -121,7 +121,7 @@ overview: 'Infinite Athlete publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Infinite Athlete''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 22
+random_paper: 2
 scopes:
 - name: Infinite Athlete Scopes
   scope_count: 7

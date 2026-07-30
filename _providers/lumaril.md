@@ -48,7 +48,7 @@ name: Lumaril
 nav: Providers
 network: true
 overview: Lumaril is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Deep Tech.
-random_paper: 29
+random_paper: 20
 score:
   band: minimal
   composite: 4.1

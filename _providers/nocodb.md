@@ -226,7 +226,7 @@ plans:
 - name: Nocodb Plans Pricing
   plan_count: 9
   slug: nocodb-plans-pricing
-random_paper: 62
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Nocodb Rate Limits

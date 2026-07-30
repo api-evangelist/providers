@@ -67,7 +67,7 @@ overview: 'Gherkin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Gherkin''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 15
+random_paper: 6
 score:
   band: minimal
   composite: 8.5

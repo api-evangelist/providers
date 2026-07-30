@@ -335,7 +335,7 @@ plans:
 - name: Apache Opennlp Plans Pricing
   plan_count: 3
   slug: apache-opennlp-plans-pricing
-random_paper: 42
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Apache Opennlp Rate Limits

@@ -63,7 +63,7 @@ overview: 'Flowcharts is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Flowcharts'' developer surface includes documentation, tooling, and 3 more developer resources.'
-random_paper: 32
+random_paper: 19
 score:
   band: minimal
   composite: 6.7

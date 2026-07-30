@@ -60,7 +60,7 @@ name: PlusMargin
 nav: Providers
 network: true
 overview: PlusMargin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Digital Marketing, Consulting, and Advertising.
-random_paper: 37
+random_paper: 24
 score:
   band: minimal
   composite: 7.1

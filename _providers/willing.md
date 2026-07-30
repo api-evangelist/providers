@@ -48,7 +48,7 @@ name: Willing
 nav: Providers
 network: true
 overview: Willing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Estate Planning, Wills, Legal, and Legal Tech.
-random_paper: 29
+random_paper: 20
 score:
   band: minimal
   composite: 5.6

@@ -79,7 +79,7 @@ overview: 'Paycor publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Paycor''s developer surface includes documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 6
+random_paper: 80
 score:
   band: minimal
   composite: 11.4

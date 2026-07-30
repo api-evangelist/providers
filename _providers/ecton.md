@@ -91,7 +91,7 @@ overview: 'Ecton is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ecton''s developer surface includes engineering blog, signup flow, changelog, and 9 more developer resources.'
-random_paper: 51
+random_paper: 45
 score:
   band: emerging
   composite: 20.7

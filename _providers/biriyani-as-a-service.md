@@ -56,7 +56,7 @@ name: Biriyani As A Service
 nav: Providers
 network: true
 overview: Biriyani As A Service publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Personality and Public APIs.
-random_paper: 27
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

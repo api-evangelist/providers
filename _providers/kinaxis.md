@@ -114,7 +114,7 @@ plans:
 - name: Kinaxis Plans Pricing
   plan_count: 1
   slug: kinaxis-plans-pricing
-random_paper: 30
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Kinaxis Rate Limits

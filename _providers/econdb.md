@@ -56,7 +56,7 @@ name: Econdb
 nav: Providers
 network: true
 overview: Econdb publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
-random_paper: 52
+random_paper: 45
 score:
   band: minimal
   composite: 5.7

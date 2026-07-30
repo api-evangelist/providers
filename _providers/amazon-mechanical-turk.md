@@ -1697,7 +1697,7 @@ plans:
 - name: Amazon Mechanical Turk Plans Pricing
   plan_count: 3
   slug: amazon-mechanical-turk-plans-pricing
-random_paper: 32
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Mechanical Turk Rate Limits

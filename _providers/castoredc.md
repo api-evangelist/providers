@@ -146,7 +146,7 @@ plans:
 - name: Castoredc Plans Pricing
   plan_count: 3
   slug: castoredc-plans-pricing
-random_paper: 61
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Castoredc Rate Limits

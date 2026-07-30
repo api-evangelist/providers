@@ -39,7 +39,7 @@ name: Jelli
 nav: Providers
 network: true
 overview: Jelli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Programmatic Advertising, and Radio.
-random_paper: 42
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

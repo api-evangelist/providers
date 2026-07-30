@@ -75,7 +75,7 @@ overview: '410 Labs is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   410 Labs'' developer surface includes pricing, support, and 6 more developer resources.'
-random_paper: 45
+random_paper: 38
 score:
   band: emerging
   composite: 14.8

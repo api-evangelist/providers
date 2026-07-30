@@ -117,7 +117,7 @@ plans:
 - name: Technical University Of Darmstadt Plans Pricing
   plan_count: 2
   slug: technical-university-of-darmstadt-plans-pricing
-random_paper: 52
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Technical University Of Darmstadt Rate Limits

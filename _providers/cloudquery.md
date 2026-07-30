@@ -182,7 +182,7 @@ overview: 'CloudQuery publishes 25 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CloudQuery''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 48
+random_paper: 35
 score:
   band: thin
   composite: 28.5

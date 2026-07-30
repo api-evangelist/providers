@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: THOMSON REUTERS - EDITED TRANSCRIPT - Q4 2019 ...
   url: https://www.genesco.com/static-files/15de29ce-baad-457f-8d34-000574ea17fe
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

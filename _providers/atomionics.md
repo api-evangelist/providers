@@ -55,7 +55,7 @@ overview: 'Atomionics is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Atomionics'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 25
+random_paper: 12
 score:
   band: minimal
   composite: 5.4

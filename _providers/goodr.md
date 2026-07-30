@@ -75,7 +75,7 @@ overview: 'Goodr is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Goodr''s developer surface includes developer portal, engineering blog, support, and 5 more developer resources.'
-random_paper: 53
+random_paper: 47
 score:
   band: emerging
   composite: 14.9

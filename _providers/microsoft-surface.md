@@ -96,7 +96,7 @@ plans:
 - name: Microsoft Surface Plans Pricing
   plan_count: 3
   slug: microsoft-surface-plans-pricing
-random_paper: 71
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Microsoft Surface Rate Limits

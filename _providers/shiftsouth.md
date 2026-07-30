@@ -68,7 +68,7 @@ overview: 'ShiftSouth is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ShiftSouth''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 52
+random_paper: 39
 score:
   band: minimal
   composite: 10.5

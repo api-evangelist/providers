@@ -147,7 +147,7 @@ overview: 'Serverless is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Serverless'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 49
+random_paper: 36
 score:
   band: thin
   composite: 36.8

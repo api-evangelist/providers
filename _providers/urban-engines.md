@@ -56,7 +56,7 @@ name: Urban Engines
 nav: Providers
 network: true
 overview: Urban Engines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Urban Mobility, Data Analytics, and Mapping.
-random_paper: 30
+random_paper: 14
 score:
   band: minimal
   composite: 5.7

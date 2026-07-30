@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Benchmark Electronics names Josh Hollin SVP and CTO
   url: https://www.stocktitan.net/news/BHE/benchmark-appoints-josh-hollin-as-senior-vice-president-and-chief-e4d0xujlp4o7.html
-random_paper: 57
+random_paper: 31
 score:
   band: minimal
   composite: 5.4

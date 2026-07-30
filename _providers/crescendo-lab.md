@@ -152,7 +152,7 @@ overview: 'Crescendo Lab publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Crescendo Lab''s developer surface includes documentation, engineering blog, pricing, signup flow, CLI, authentication, and 15 more developer resources.'
-random_paper: 2
+random_paper: 68
 score:
   band: developing
   composite: 44.8

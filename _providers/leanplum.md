@@ -121,7 +121,7 @@ plans:
 - name: Leanplum Plans Pricing
   plan_count: 2
   slug: leanplum-plans-pricing
-random_paper: 52
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Leanplum Rate Limits

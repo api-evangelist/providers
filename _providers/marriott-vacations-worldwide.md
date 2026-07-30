@@ -51,7 +51,7 @@ overview: 'Marriott Vacations Worldwide is profiled on the [APIs.io](https://api
 
 
   Marriott Vacations Worldwide''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 1
+random_paper: 47
 score:
   band: minimal
   composite: 3.0

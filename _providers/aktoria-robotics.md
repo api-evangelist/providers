@@ -56,7 +56,7 @@ name: Aktoria Robotics
 nav: Providers
 network: true
 overview: Aktoria Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Teleoperation, Robot Fleet Management, and Data Collection.
-random_paper: 41
+random_paper: 21
 score:
   band: minimal
   composite: 5.7

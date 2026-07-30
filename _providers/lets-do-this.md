@@ -60,7 +60,7 @@ name: Let's Do This
 nav: Providers
 network: true
 overview: Let's Do This publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness Tech, Endurance Sports, Events, and Event Registration.
-random_paper: 47
+random_paper: 33
 score:
   band: minimal
   composite: 9.6

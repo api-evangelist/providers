@@ -48,7 +48,7 @@ name: Freestyle
 nav: Providers
 network: true
 overview: Freestyle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Investment, Startups, and Seed Stage.
-random_paper: 7
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

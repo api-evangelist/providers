@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Crestwood Equity Expands Footprint in Bakken, Powder ...
   url: https://www.industrialinfo.com/news/article/crestwood-equity-expands-footprint-in-bakken-powder-river-basin--275780
-random_paper: 36
+random_paper: 4
 score:
   band: minimal
   composite: 5.5

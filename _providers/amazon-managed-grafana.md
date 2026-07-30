@@ -1324,7 +1324,7 @@ plans:
 - name: Amazon Managed Grafana Plans Pricing
   plan_count: 3
   slug: amazon-managed-grafana-plans-pricing
-random_paper: 67
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Grafana Rate Limits

@@ -96,7 +96,7 @@ overview: 'Cloverleaf AI is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Cloverleaf AI''s developer surface includes signup flow, getting-started guide, support, and 10 more developer resources.'
-random_paper: 10
+random_paper: 76
 score:
   band: emerging
   composite: 20.8

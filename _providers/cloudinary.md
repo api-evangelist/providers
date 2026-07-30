@@ -193,7 +193,7 @@ plans:
 - name: Cloudinary Plans Pricing
   plan_count: 4
   slug: cloudinary-plans-pricing
-random_paper: 29
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Cloudinary Rate Limits

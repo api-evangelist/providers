@@ -56,7 +56,7 @@ name: Penguin Publishing
 nav: Providers
 network: true
 overview: Penguin Publishing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 17
+random_paper: 76
 score:
   band: minimal
   composite: 5.7

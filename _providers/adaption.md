@@ -150,7 +150,7 @@ overview: 'Adaption publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Adaption''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 38
+random_paper: 28
 score:
   band: developing
   composite: 44.5

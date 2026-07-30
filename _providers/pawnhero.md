@@ -67,7 +67,7 @@ overview: 'PawnHero is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PawnHero''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: minimal
   composite: 12.7

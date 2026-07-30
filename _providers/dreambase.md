@@ -107,7 +107,7 @@ overview: 'Dreambase is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Dreambase''s developer surface includes documentation, getting-started guide, engineering blog, changelog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 41
+random_paper: 30
 score:
   band: emerging
   composite: 24.4

@@ -116,7 +116,7 @@ overview: 'Syncly is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Syncly''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, authentication, and 11 more developer resources.'
-random_paper: 26
+random_paper: 18
 score:
   band: thin
   composite: 29.1

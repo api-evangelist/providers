@@ -52,7 +52,7 @@ name: OtterTune
 nav: Providers
 network: true
 overview: OtterTune is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Database, Database Optimization, and Machine Learning.
-random_paper: 30
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

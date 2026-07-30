@@ -210,7 +210,7 @@ plans:
 - name: Lithic Com Plans Pricing
   plan_count: 4
   slug: lithic-com-plans-pricing
-random_paper: 29
+random_paper: 17
 rate_limits:
 - limit_count: 13
   name: Lithic Com Rate Limits

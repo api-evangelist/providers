@@ -102,7 +102,7 @@ press:
 - date: '2026-05-25'
   title: 'AutoNation on Instagram: "The Stanley Cup stopped by ...'
   url: https://www.instagram.com/reel/DPfLQt8jdpz/
-random_paper: 37
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Autonation Rate Limits

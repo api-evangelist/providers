@@ -196,7 +196,7 @@ overview: 'Palla publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Palla''s developer surface includes documentation, API reference, authentication, and 25 more developer resources.'
-random_paper: 36
+random_paper: 30
 score:
   band: developing
   composite: 50.4

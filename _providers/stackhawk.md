@@ -240,7 +240,7 @@ plans:
 - name: Stackhawk Plans Pricing
   plan_count: 3
   slug: stackhawk-plans-pricing
-random_paper: 70
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Stackhawk Rate Limits

@@ -79,7 +79,7 @@ overview: 'SiMa is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   SiMa''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 21
+random_paper: 16
 score:
   band: emerging
   composite: 13.7

@@ -186,7 +186,7 @@ plans:
 - name: Bitbucket Pipelines Plans Pricing
   plan_count: 4
   slug: bitbucket-pipelines-plans-pricing
-random_paper: 27
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Bitbucket Pipelines Rate Limits

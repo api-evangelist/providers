@@ -356,7 +356,7 @@ plans:
 - name: Conekta Plans Pricing
   plan_count: 5
   slug: conekta-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Conekta Rate Limits

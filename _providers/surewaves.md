@@ -55,7 +55,7 @@ overview: 'SureWaves is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SureWaves'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: minimal
   composite: 5.4

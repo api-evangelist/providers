@@ -63,7 +63,7 @@ overview: 'Instatus publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Instatus'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 0
+random_paper: 71
 score:
   band: emerging
   composite: 18.8

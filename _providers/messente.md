@@ -146,7 +146,7 @@ plans:
 - name: Messente Plans Pricing
   plan_count: 2
   slug: messente-plans-pricing
-random_paper: 58
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Messente Rate Limits

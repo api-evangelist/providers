@@ -1403,7 +1403,7 @@ plans:
 - name: Google Analytics Plans Pricing
   plan_count: 2
   slug: google-analytics-plans-pricing
-random_paper: 30
+random_paper: 10
 rate_limits:
 - limit_count: 10
   name: Google Analytics Rate Limits

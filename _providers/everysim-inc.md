@@ -68,7 +68,7 @@ overview: 'EverySim Inc. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   EverySim Inc.''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 28
+random_paper: 13
 scopes:
 - name: Everysim Inc Scopes
   scope_count: 13

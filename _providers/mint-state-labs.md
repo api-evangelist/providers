@@ -71,7 +71,7 @@ overview: 'Mint State Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Mint State Labs'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 35
+random_paper: 17
 score:
   band: minimal
   composite: 11.3

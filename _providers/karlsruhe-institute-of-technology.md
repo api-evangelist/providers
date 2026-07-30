@@ -109,7 +109,7 @@ plans:
 - name: Karlsruhe Institute Of Technology Plans Pricing
   plan_count: 2
   slug: karlsruhe-institute-of-technology-plans-pricing
-random_paper: 8
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Karlsruhe Institute Of Technology Rate Limits

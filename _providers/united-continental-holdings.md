@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: United Continental Holdings and ANA Launch Trans ...
   url: https://www.prnewswire.com/news-releases/united-continental-holdings-and-ana-launch-trans-pacific-joint-venture-119064409.html
-random_paper: 24
+random_paper: 72
 score:
   band: minimal
   composite: 8.5

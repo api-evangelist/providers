@@ -284,7 +284,7 @@ plans:
 - name: Holidays Plans Pricing
   plan_count: 3
   slug: holidays-plans-pricing
-random_paper: 51
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Holidays Rate Limits

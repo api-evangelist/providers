@@ -128,7 +128,7 @@ plans:
 - name: Lingo Dev Plans Pricing
   plan_count: 4
   slug: lingo-dev-plans-pricing
-random_paper: 10
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Lingo Dev Rate Limits

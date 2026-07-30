@@ -95,7 +95,7 @@ overview: 'Bloomfilter is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Bloomfilter''s developer surface includes engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 49
+random_paper: 35
 score:
   band: emerging
   composite: 17.9

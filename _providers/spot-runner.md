@@ -72,7 +72,7 @@ name: Spot Runner
 nav: Providers
 network: true
 overview: Spot Runner is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Connected TV, and CTV.
-random_paper: 31
+random_paper: 17
 score:
   band: emerging
   composite: 14.3

@@ -126,7 +126,7 @@ plans:
 - name: Perpay Plans Pricing
   plan_count: 1
   slug: perpay-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Perpay Rate Limits

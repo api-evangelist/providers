@@ -48,7 +48,7 @@ name: Iyuno
 nav: Providers
 network: true
 overview: Iyuno is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Media, Localization, and Dubbing.
-random_paper: 78
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

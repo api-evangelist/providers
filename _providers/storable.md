@@ -134,7 +134,7 @@ plans:
 - name: Storable Plans Pricing
   plan_count: 3
   slug: storable-plans-pricing
-random_paper: 50
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Storable Rate Limits

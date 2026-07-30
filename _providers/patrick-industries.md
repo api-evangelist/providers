@@ -65,7 +65,7 @@ plans:
 - name: Patrick Industries Plans Pricing
   plan_count: 1
   slug: patrick-industries-plans-pricing
-random_paper: 30
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Patrick Industries Rate Limits

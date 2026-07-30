@@ -56,7 +56,7 @@ name: Kik
 nav: Providers
 network: true
 overview: Kik is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media, Messaging, Chat, and Mobile.
-random_paper: 76
+random_paper: 73
 score:
   band: minimal
   composite: 11.7

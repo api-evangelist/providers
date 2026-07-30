@@ -455,7 +455,7 @@ plans:
 - name: Fortify Plans Pricing
   plan_count: 4
   slug: fortify-plans-pricing
-random_paper: 42
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Fortify Rate Limits

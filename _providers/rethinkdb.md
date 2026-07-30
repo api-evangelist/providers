@@ -95,7 +95,7 @@ overview: 'RethinkDB publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   RethinkDB''s developer surface includes documentation, API reference, engineering blog, and 9 more developer resources.'
-random_paper: 64
+random_paper: 53
 score:
   band: minimal
   composite: 11.9

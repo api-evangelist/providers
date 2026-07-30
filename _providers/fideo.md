@@ -129,7 +129,7 @@ overview: 'Fideo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Fideo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 12 more developer resources.'
-random_paper: 33
+random_paper: 27
 score:
   band: thin
   composite: 31.1

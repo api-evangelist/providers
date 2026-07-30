@@ -91,7 +91,7 @@ overview: 'AI Fund is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   AI Fund''s developer surface includes engineering blog, support, YouTube channel, and 9 more developer resources.'
-random_paper: 28
+random_paper: 20
 score:
   band: minimal
   composite: 10.5

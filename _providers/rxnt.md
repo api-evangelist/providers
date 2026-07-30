@@ -98,7 +98,7 @@ plans:
 - name: Rxnt Plans Pricing
   plan_count: 4
   slug: rxnt-plans-pricing
-random_paper: 55
+random_paper: 50
 score:
   band: thin
   composite: 28.1

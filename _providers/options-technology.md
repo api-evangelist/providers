@@ -140,7 +140,7 @@ overview: 'Options Technology publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Options Technology''s developer surface includes developer portal, documentation, engineering blog, support, API reference, getting-started guide, authentication, and 16 more developer resources.'
-random_paper: 46
+random_paper: 23
 score:
   band: thin
   composite: 32.3

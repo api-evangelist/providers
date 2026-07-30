@@ -112,7 +112,7 @@ plans:
 - name: Fashn Plans Pricing
   plan_count: 3
   slug: fashn-plans-pricing
-random_paper: 42
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Fashn Rate Limits

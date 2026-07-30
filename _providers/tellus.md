@@ -71,7 +71,7 @@ overview: 'Tellus is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Tellus'' developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
   band: minimal
   composite: 12.7

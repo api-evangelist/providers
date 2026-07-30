@@ -260,7 +260,7 @@ plans:
 - name: Nomad Plans Pricing
   plan_count: 3
   slug: nomad-plans-pricing
-random_paper: 41
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Nomad Rate Limits

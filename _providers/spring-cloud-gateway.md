@@ -151,7 +151,7 @@ plans:
 - name: Spring Cloud Gateway Plans Pricing
   plan_count: 3
   slug: spring-cloud-gateway-plans-pricing
-random_paper: 13
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Spring Cloud Gateway Rate Limits

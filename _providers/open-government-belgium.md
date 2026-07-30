@@ -56,7 +56,7 @@ name: Open Government, Belgium
 nav: Providers
 network: true
 overview: Open Government, Belgium publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 9
+random_paper: 62
 score:
   band: minimal
   composite: 6.5

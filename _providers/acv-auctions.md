@@ -75,7 +75,7 @@ overview: 'ACV Auctions is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   ACV Auctions'' developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 14
+random_paper: 81
 score:
   band: emerging
   composite: 13.8

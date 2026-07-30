@@ -72,7 +72,7 @@ plans:
 - name: Educative Plans Pricing
   plan_count: 3
   slug: educative-plans-pricing
-random_paper: 63
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Educative Rate Limits

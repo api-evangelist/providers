@@ -56,7 +56,7 @@ name: Open Government, New Zealand
 nav: Providers
 network: true
 overview: Open Government, New Zealand publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 54
+random_paper: 21
 score:
   band: minimal
   composite: 6.5

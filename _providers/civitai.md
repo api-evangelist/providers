@@ -406,7 +406,7 @@ plans:
 - name: Civitai Plans Pricing
   plan_count: 7
   slug: civitai-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Civitai Rate Limits

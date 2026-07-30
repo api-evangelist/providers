@@ -88,7 +88,7 @@ overview: 'NimaSensor is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   NimaSensor''s developer surface includes engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 34
+random_paper: 21
 scopes:
 - name: Nimasensor Scopes
   scope_count: 4

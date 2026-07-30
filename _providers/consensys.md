@@ -168,7 +168,7 @@ overview: 'Consensys publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Consensys'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: developing
   composite: 42.8

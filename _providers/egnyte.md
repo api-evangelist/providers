@@ -175,7 +175,7 @@ overview: 'Egnyte publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Egnyte''s developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 4
+random_paper: 78
 scopes:
 - name: Egnyte Scopes
   scope_count: 6

@@ -113,7 +113,7 @@ plans:
 - name: Kakaopay Plans Pricing
   plan_count: 2
   slug: kakaopay-plans-pricing
-random_paper: 39
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Kakaopay Rate Limits

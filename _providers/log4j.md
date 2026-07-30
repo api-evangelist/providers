@@ -99,7 +99,7 @@ plans:
 - name: Log4J Plans Pricing
   plan_count: 3
   slug: log4j-plans-pricing
-random_paper: 75
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Log4J Rate Limits

@@ -52,7 +52,7 @@ name: LetGo
 nav: Providers
 network: true
 overview: LetGo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Classifieds, Marketplace, Secondhand, and Peer to Peer Commerce.
-random_paper: 53
+random_paper: 47
 score:
   band: minimal
   composite: 6.9

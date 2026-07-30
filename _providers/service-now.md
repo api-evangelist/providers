@@ -83,7 +83,7 @@ overview: 'ServiceNow (alias) is profiled on the [APIs.io](https://apis.io/) net
 
 
   ServiceNow (alias)''s developer surface includes developer portal, API reference, documentation, pricing, sandbox, engineering blog, changelog, and 3 more developer resources.'
-random_paper: 4
+random_paper: 72
 score:
   band: emerging
   composite: 17.7

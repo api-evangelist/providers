@@ -48,7 +48,7 @@ name: Mammoth Biosciences
 nav: Providers
 network: true
 overview: Mammoth Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, CRISPR, Gene Editing, and Genetic Medicine.
-random_paper: 15
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

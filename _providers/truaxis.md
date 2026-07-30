@@ -39,7 +39,7 @@ name: Truaxis
 nav: Providers
 network: true
 overview: Truaxis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Fintech.
-random_paper: 55
+random_paper: 46
 score:
   band: minimal
   composite: 4.1

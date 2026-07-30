@@ -335,7 +335,7 @@ plans:
 - name: Label Studio Plans Pricing
   plan_count: 3
   slug: label-studio-plans-pricing
-random_paper: 6
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Label Studio Rate Limits

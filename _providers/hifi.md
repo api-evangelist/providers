@@ -224,7 +224,7 @@ overview: 'Hifi publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Hifi''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 11
+random_paper: 6
 score:
   band: developing
   composite: 47.9

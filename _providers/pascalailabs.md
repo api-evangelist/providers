@@ -88,7 +88,7 @@ overview: 'Pascal AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pascal AI''s developer surface includes engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 33
+random_paper: 18
 score:
   band: emerging
   composite: 17.5

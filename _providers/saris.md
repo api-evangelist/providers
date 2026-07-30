@@ -55,7 +55,7 @@ overview: 'Saris is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Saris'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: minimal
   composite: 5.8

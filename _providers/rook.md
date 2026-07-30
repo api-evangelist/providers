@@ -227,7 +227,7 @@ plans:
 - name: Rook Plans Pricing
   plan_count: 2
   slug: rook-plans-pricing
-random_paper: 38
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Rook Rate Limits

@@ -184,6 +184,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/insight-partners-api-portfolio.png"
   },
   {
+    "slug": "insights-adobe",
+    "title": "Adobe — Enterprise Insights Bundle",
+    "tagline": "The Fortune 1000's single heaviest AI buyer, read from 1,187 of its own job postings — and the API surface behind it.",
+    "area": "Enterprise Insights",
+    "price": "1,500",
+    "cover": "https://papers.apievangelist.com/assets/covers/insights-adobe.png"
+  },
+  {
     "slug": "insights-autodesk",
     "title": "Autodesk — Enterprise Insights Bundle",
     "tagline": "What Autodesk is actually buying, read from 632 of its own job postings — and the exemplar API surface behind it.",
@@ -442,7 +450,7 @@
   {
     "slug": "state-of-canadian-travel-apis",
     "title": "The State of Canadian Travel APIs",
-    "tagline": "What nine Canadian travel and aviation organizations actually publish, scored — the country that authored the travel industry's flagship standard, and the emptiest market in the quartet.",
+    "tagline": "What nine Canadian travel and aviation organizations actually publish, scored — the country that authored the travel industry's flagship standard, and the market where its author is among the worst-published organizations in it.",
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-travel-apis.png"

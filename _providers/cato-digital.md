@@ -91,7 +91,7 @@ overview: 'Cato Digital is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Cato Digital''s developer surface includes developer portal, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 68
+random_paper: 54
 score:
   band: emerging
   composite: 17.7

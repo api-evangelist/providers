@@ -152,7 +152,7 @@ overview: 'Replicon publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Replicon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
-random_paper: 50
+random_paper: 40
 score:
   band: thin
   composite: 37.4

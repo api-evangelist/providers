@@ -908,7 +908,7 @@ plans:
 - name: Kaltura Plans Pricing
   plan_count: 6
   slug: kaltura-plans-pricing
-random_paper: 27
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Kaltura Rate Limits

@@ -39,7 +39,7 @@ name: Donnerwood Media
 nav: Providers
 network: true
 overview: Donnerwood Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Games, Gaming, Avatars, and Entertainment.
-random_paper: 24
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

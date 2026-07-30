@@ -95,7 +95,7 @@ overview: 'Stablesea publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Stablesea''s developer surface includes documentation, API reference, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 57
+random_paper: 46
 score:
   band: thin
   composite: 32.9

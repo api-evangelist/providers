@@ -56,7 +56,7 @@ name: blockfrost Cardano
 nav: Providers
 network: true
 overview: blockfrost Cardano publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 72
+random_paper: 50
 score:
   band: minimal
   composite: 5.7

@@ -60,7 +60,7 @@ name: Serialif Color
 nav: Providers
 network: true
 overview: Serialif Color publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 58
+random_paper: 41
 score:
   band: minimal
   composite: 5.7

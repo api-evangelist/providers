@@ -86,7 +86,7 @@ press:
 - date: ''
   title: 'INVESTOR ALERT: Pomerantz Law Firm Investigates ...'
   url: https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-armstrong-world-industries-inc
-random_paper: 56
+random_paper: 23
 score:
   band: minimal
   composite: 6.7

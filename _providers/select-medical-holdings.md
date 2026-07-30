@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: Select Medical Holdings Corporation Announces ...
   url: https://www.prnewswire.com/news-releases/select-medical-holdings-corporation-announces-expiration-of-hart-scott-rodino-waiting-period-302756311.html
-random_paper: 37
+random_paper: 9
 score:
   band: minimal
   composite: 2.6

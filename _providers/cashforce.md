@@ -48,7 +48,7 @@ name: Cashforce
 nav: Providers
 network: true
 overview: Cashforce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, Cash Flow Forecasting, and Working Capital.
-random_paper: 51
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

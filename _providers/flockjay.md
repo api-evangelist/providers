@@ -64,7 +64,7 @@ name: Flockjay
 nav: Providers
 network: true
 overview: Flockjay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Enablement, Sales Training, Learning Management, and Revenue Operations.
-random_paper: 41
+random_paper: 31
 score:
   band: emerging
   composite: 13.4

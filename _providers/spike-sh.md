@@ -210,7 +210,7 @@ plans:
 - name: Spike Sh Plans Pricing
   plan_count: 3
   slug: spike-sh-plans-pricing
-random_paper: 75
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Spike Sh Rate Limits

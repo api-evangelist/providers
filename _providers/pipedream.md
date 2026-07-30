@@ -942,7 +942,7 @@ plans:
 - name: Pipedream Plans Pricing
   plan_count: 4
   slug: pipedream-plans-pricing
-random_paper: 60
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Pipedream Rate Limits

@@ -181,7 +181,7 @@ plans:
 - name: Easyship Plans Pricing
   plan_count: 3
   slug: easyship-plans-pricing
-random_paper: 60
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Easyship Rate Limits

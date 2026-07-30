@@ -149,7 +149,7 @@ overview: 'LegalOn publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   LegalOn''s developer surface includes engineering blog, pricing, changelog, support, authentication, and 20 more developer resources.'
-random_paper: 9
+random_paper: 0
 score:
   band: thin
   composite: 31.3

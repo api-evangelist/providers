@@ -151,7 +151,7 @@ overview: 'Keynua publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Keynua''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, sandbox, and 16 more developer resources.'
-random_paper: 5
+random_paper: 79
 score:
   band: developing
   composite: 44.4

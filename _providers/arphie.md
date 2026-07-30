@@ -91,7 +91,7 @@ overview: 'Arphie is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Arphie''s developer surface includes signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 66
+random_paper: 59
 score:
   band: emerging
   composite: 17.8

@@ -71,7 +71,7 @@ overview: 'Pusher Beams publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Pusher Beams'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 13
+random_paper: 80
 score:
   band: minimal
   composite: 7.8

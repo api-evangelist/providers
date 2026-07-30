@@ -183,7 +183,7 @@ plans:
 - name: Agency For Toxic Substances And Disease Registry Plans Pricing
   plan_count: 3
   slug: agency-for-toxic-substances-and-disease-registry-plans-pricing
-random_paper: 13
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Agency For Toxic Substances And Disease Registry Rate Limits

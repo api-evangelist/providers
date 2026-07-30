@@ -187,7 +187,7 @@ overview: 'Gigs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Gigs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 21
+random_paper: 16
 score:
   band: developing
   composite: 49.3

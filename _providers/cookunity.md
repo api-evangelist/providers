@@ -79,7 +79,7 @@ overview: 'Cookunity is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cookunity''s developer surface includes getting-started guide, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: emerging
   composite: 16.1

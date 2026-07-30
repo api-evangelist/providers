@@ -87,7 +87,7 @@ overview: 'Obligate is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Obligate''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 29
+random_paper: 19
 score:
   band: emerging
   composite: 20.1

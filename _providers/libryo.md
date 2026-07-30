@@ -120,7 +120,7 @@ overview: 'Libryo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Libryo''s developer surface includes documentation, support, pricing, and 15 more developer resources.'
-random_paper: 9
+random_paper: 1
 scopes:
 - name: Libryo Scopes
   scope_count: 3

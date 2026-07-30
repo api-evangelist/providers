@@ -119,7 +119,7 @@ plans:
 - name: Vagaro Plans Pricing
   plan_count: 5
   slug: vagaro-plans-pricing
-random_paper: 73
+random_paper: 66
 rate_limits:
 - limit_count: 4
   name: Vagaro Rate Limits

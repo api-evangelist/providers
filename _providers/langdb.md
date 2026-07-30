@@ -130,7 +130,7 @@ plans:
 - name: Langdb Plans Pricing
   plan_count: 4
   slug: langdb-plans-pricing
-random_paper: 49
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Langdb Rate Limits

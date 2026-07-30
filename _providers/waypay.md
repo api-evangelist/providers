@@ -48,7 +48,7 @@ name: WayPay
 nav: Providers
 network: true
 overview: WayPay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Accounts Payable, and B2B.
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

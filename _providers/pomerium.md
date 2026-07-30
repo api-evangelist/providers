@@ -84,7 +84,7 @@ plans:
 - name: Pomerium Plans Pricing
   plan_count: 3
   slug: pomerium-plans-pricing
-random_paper: 68
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Pomerium Rate Limits

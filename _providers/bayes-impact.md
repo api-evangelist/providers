@@ -83,7 +83,7 @@ overview: 'Bayes Impact is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bayes Impact''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 0
+random_paper: 67
 score:
   band: minimal
   composite: 11.9

@@ -63,7 +63,7 @@ overview: 'TrueFort is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TrueFort''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 0
+random_paper: 71
 score:
   band: minimal
   composite: 8.3

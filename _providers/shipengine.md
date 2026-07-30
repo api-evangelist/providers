@@ -77,7 +77,7 @@ plans:
 - name: Shipengine Plans Pricing
   plan_count: 1
   slug: shipengine-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Shipengine Rate Limits

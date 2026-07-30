@@ -103,7 +103,7 @@ overview: 'Concentrix is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Concentrix''s developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 32
+random_paper: 19
 score:
   band: minimal
   composite: 10.3

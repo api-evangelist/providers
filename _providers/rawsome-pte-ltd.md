@@ -48,7 +48,7 @@ name: Rawsome Pte. Ltd.
 nav: Providers
 network: true
 overview: Rawsome Pte. Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Kombucha, Food and Beverage, and E-Commerce.
-random_paper: 51
+random_paper: 33
 score:
   band: minimal
   composite: 5.0

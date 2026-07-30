@@ -240,7 +240,7 @@ overview: 'Securiti is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Securiti''s developer surface includes developer portal, documentation, signup flow, engineering blog, product news, YouTube channel, and 43 more developer resources.'
-random_paper: 66
+random_paper: 53
 score:
   band: emerging
   composite: 15.1

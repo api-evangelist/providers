@@ -48,7 +48,7 @@ name: The Pill Club
 nav: Providers
 network: true
 overview: The Pill Club is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Healthcare, Telehealth, and Womens Health.
-random_paper: 51
+random_paper: 36
 score:
   band: minimal
   composite: 4.3

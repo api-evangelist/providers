@@ -52,7 +52,7 @@ name: administrative-divisons-db
 nav: Providers
 network: true
 overview: administrative-divisons-db publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 2
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

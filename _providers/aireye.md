@@ -55,7 +55,7 @@ overview: 'AirEye is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   AirEye''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 72
+random_paper: 65
 score:
   band: minimal
   composite: 5.4

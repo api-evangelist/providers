@@ -692,7 +692,7 @@ plans:
 - name: Amazon Ecs Plans Pricing
   plan_count: 3
   slug: amazon-ecs-plans-pricing
-random_paper: 34
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Amazon Ecs Rate Limits

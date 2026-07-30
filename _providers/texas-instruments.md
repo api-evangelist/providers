@@ -193,7 +193,7 @@ press:
 - date: '2026-05-25'
   title: TI's new power-management solutions enable scalable AI ...
   url: https://www.ti.com/about-ti/newsroom/news-releases/2025/tis-new-power-management-solutions-enable-scalable-ai-infrastructures.html
-random_paper: 40
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Texas Instruments Rate Limits

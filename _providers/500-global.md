@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: 500 Global
 nav: Providers
 network: true
-random_paper: 9
+random_paper: 81
 slug: 500-global
 tags:
 - Venture Capital

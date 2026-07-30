@@ -79,7 +79,7 @@ overview: 'Animoto is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Animoto''s developer surface includes engineering blog, pricing, support, signup flow, and 5 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: emerging
   composite: 15.9

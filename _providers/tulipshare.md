@@ -56,7 +56,7 @@ name: Tulipshare
 nav: Providers
 network: true
 overview: Tulipshare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Investing, Impact Investing, Activist Investing, and Shareholder Advocacy.
-random_paper: 36
+random_paper: 23
 score:
   band: minimal
   composite: 6.9

@@ -569,7 +569,7 @@ plans:
 - name: Ambassador Plans Pricing
   plan_count: 4
   slug: ambassador-plans-pricing
-random_paper: 0
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Ambassador Rate Limits

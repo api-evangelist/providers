@@ -63,7 +63,7 @@ overview: 'Western Midstream Partners is profiled on the [APIs.io](https://apis.
 
 
   Western Midstream Partners'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 38
+random_paper: 5
 score:
   band: minimal
   composite: 5.4

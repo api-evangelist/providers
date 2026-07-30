@@ -128,7 +128,7 @@ plans:
 - name: Mock Service Worker Plans Pricing
   plan_count: 3
   slug: mock-service-worker-plans-pricing
-random_paper: 72
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Mock Service Worker Rate Limits

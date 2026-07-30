@@ -75,7 +75,7 @@ overview: 'Heineken publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Heineken''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
-random_paper: 29
+random_paper: 19
 score:
   band: minimal
   composite: 7.9

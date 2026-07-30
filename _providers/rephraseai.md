@@ -88,7 +88,7 @@ overview: 'Rephrase.ai publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Rephrase.ai''s developer surface includes documentation, API reference, authentication, and 6 more developer resources.'
-random_paper: 7
+random_paper: 76
 scopes:
 - name: Rephraseai Scopes
   scope_count: 1

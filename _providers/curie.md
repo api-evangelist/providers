@@ -135,7 +135,7 @@ overview: 'Curie publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ca
 
 
   Curie''s developer surface includes documentation, pricing, authentication, and 17 more developer resources.'
-random_paper: 50
+random_paper: 44
 scopes:
 - name: Curie Scopes
   scope_count: 1

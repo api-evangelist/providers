@@ -146,7 +146,7 @@ plans:
 - name: Chroniclingamerica Plans Pricing
   plan_count: 1
   slug: chroniclingamerica-plans-pricing
-random_paper: 27
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Chroniclingamerica Rate Limits

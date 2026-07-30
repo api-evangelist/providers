@@ -197,7 +197,7 @@ overview: 'Augment publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Augment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 24
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Augment Rate Limits

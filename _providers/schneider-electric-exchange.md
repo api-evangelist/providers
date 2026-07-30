@@ -156,7 +156,7 @@ plans:
 - name: Schneider Electric Exchange Plans Pricing
   plan_count: 3
   slug: schneider-electric-exchange-plans-pricing
-random_paper: 44
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Schneider Electric Exchange Rate Limits

@@ -208,7 +208,7 @@ overview: 'Wunderkind publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wunderkind''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 24 more developer resources.'
-random_paper: 30
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Wunderkind Rate Limits

@@ -48,7 +48,7 @@ name: rdbio (仁度生物 / Rendo Biotech)
 nav: Providers
 network: true
 overview: rdbio (仁度生物 / Rendo Biotech) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Molecular Diagnostics, Clinical Diagnostics, and Life Sciences.
-random_paper: 42
+random_paper: 36
 score:
   band: minimal
   composite: 5.4

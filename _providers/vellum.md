@@ -173,7 +173,7 @@ plans:
 - name: Vellum Plans Pricing
   plan_count: 1
   slug: vellum-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Vellum Rate Limits

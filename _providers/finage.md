@@ -187,7 +187,7 @@ plans:
 - name: Finage Plans
   plan_count: 23
   slug: finage-plans
-random_paper: 51
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Finage Rate Limits

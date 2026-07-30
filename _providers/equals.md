@@ -111,7 +111,7 @@ overview: 'Equals is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Equals'' developer surface includes documentation, getting-started guide, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 3
+random_paper: 77
 score:
   band: emerging
   composite: 25.7

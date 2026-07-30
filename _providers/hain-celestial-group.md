@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: 'WATCH: How Hain Celestial tackles supply chain risk with ...'
   url: https://peak.ai/hub/blog/watch-how-hain-celestial-tackles-supply-chain-risk-with-inventory-ai/
-random_paper: 69
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

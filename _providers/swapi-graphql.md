@@ -60,7 +60,7 @@ name: SWAPI GraphQL
 nav: Providers
 network: true
 overview: SWAPI GraphQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 48
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

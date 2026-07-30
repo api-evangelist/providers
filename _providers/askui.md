@@ -229,7 +229,7 @@ overview: 'AskUI publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   AskUI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, signup flow, and 25 more developer resources.'
-random_paper: 55
+random_paper: 49
 score:
   band: developing
   composite: 51.4

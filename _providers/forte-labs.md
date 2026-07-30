@@ -107,7 +107,7 @@ overview: 'Forte Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Forte Labs'' developer surface includes documentation, API reference, quickstart, engineering blog, support, changelog, and 10 more developer resources.'
-random_paper: 35
+random_paper: 23
 score:
   band: emerging
   composite: 22.3

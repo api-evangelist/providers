@@ -20,7 +20,7 @@ modified: '2026-07-18'
 name: Arthur Ventures
 nav: Providers
 network: true
-random_paper: 60
+random_paper: 41
 slug: arthur-ventures
 tags:
 - Venture Capital

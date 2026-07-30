@@ -138,7 +138,7 @@ plans:
 - name: Whimsical Plans Pricing
   plan_count: 1
   slug: whimsical-plans-pricing
-random_paper: 70
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Whimsical Rate Limits

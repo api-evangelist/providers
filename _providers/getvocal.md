@@ -132,7 +132,7 @@ overview: 'GetVocal publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   GetVocal''s developer surface includes documentation, engineering blog, signup flow, and 14 more developer resources.'
-random_paper: 43
+random_paper: 33
 score:
   band: thin
   composite: 39.8

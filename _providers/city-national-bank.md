@@ -83,7 +83,7 @@ overview: 'City National Bank is profiled on the [APIs.io](https://apis.io/) net
 
 
   City National Bank''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 15
+random_paper: 75
 score:
   band: emerging
   composite: 17.7

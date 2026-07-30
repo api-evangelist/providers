@@ -129,7 +129,7 @@ plans:
 - name: Open Mainframe Project Plans Pricing
   plan_count: 3
   slug: open-mainframe-project-plans-pricing
-random_paper: 40
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Open Mainframe Project Rate Limits

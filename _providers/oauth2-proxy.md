@@ -106,7 +106,7 @@ plans:
 - name: Oauth2 Proxy Plans Pricing
   plan_count: 3
   slug: oauth2-proxy-plans-pricing
-random_paper: 3
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Oauth2 Proxy Rate Limits

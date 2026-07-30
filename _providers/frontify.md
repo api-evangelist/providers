@@ -156,7 +156,7 @@ overview: 'Frontify publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Frontify''s developer surface includes documentation, API reference, support, engineering blog, pricing, CLI, authentication, and 19 more developer resources.'
-random_paper: 71
+random_paper: 61
 score:
   band: thin
   composite: 40.3

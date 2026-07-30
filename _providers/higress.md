@@ -109,7 +109,7 @@ plans:
 - name: Higress Plans Pricing
   plan_count: 3
   slug: higress-plans-pricing
-random_paper: 28
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Higress Rate Limits

@@ -148,7 +148,7 @@ overview: 'Standard Bots publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Standard Bots'' developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 38
+random_paper: 22
 score:
   band: thin
   composite: 28.2

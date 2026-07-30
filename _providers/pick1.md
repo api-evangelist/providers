@@ -44,7 +44,7 @@ name: Pick1
 nav: Providers
 network: true
 overview: Pick1 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Survey, Social Analytics, Market Research, and Audience Segmentation.
-random_paper: 67
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

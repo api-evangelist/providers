@@ -166,7 +166,7 @@ plans:
 - name: Semaphore Plans Pricing
   plan_count: 4
   slug: semaphore-plans-pricing
-random_paper: 73
+random_paper: 62
 rate_limits:
 - limit_count: 6
   name: Semaphore Rate Limits

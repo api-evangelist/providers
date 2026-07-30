@@ -76,7 +76,7 @@ plans:
 - name: Owasp Api Security Project Plans Pricing
   plan_count: 3
   slug: owasp-api-security-project-plans-pricing
-random_paper: 58
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Owasp Api Security Project Rate Limits

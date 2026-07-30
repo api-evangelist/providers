@@ -44,7 +44,7 @@ name: Arresto Biosciences
 nav: Providers
 network: true
 overview: Arresto Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Biopharmaceutical, and Life Sciences.
-random_paper: 28
+random_paper: 4
 score:
   band: minimal
   composite: 4.9

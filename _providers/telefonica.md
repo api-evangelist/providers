@@ -243,7 +243,7 @@ plans:
 - name: Telefonica Plans Pricing
   plan_count: 2
   slug: telefonica-plans-pricing
-random_paper: 78
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Telefonica Rate Limits

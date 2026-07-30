@@ -52,7 +52,7 @@ name: Penske
 nav: Providers
 network: true
 overview: Penske is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation, Logistics, Truck Leasing, Automotive, and Fleet Management.
-random_paper: 79
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

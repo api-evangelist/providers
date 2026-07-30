@@ -75,7 +75,7 @@ overview: 'Ziro is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ziro''s developer surface includes signup flow, pricing, support, and 5 more developer resources.'
-random_paper: 47
+random_paper: 42
 score:
   band: emerging
   composite: 15.9

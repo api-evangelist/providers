@@ -98,7 +98,7 @@ plans:
 - name: Defense Security Cooperation Agency Plans Pricing
   plan_count: 3
   slug: defense-security-cooperation-agency-plans-pricing
-random_paper: 7
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Defense Security Cooperation Agency Rate Limits

@@ -96,7 +96,7 @@ plans:
 - name: Ivanti Plans Pricing
   plan_count: 3
   slug: ivanti-plans-pricing
-random_paper: 3
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Ivanti Rate Limits

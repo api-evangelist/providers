@@ -246,7 +246,7 @@ plans:
 - name: Dhl Plans Pricing
   plan_count: 3
   slug: dhl-plans-pricing
-random_paper: 69
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Dhl Rate Limits

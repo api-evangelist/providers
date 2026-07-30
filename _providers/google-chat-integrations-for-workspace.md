@@ -136,7 +136,7 @@ overview: 'Google Chat Integrations for Workspace publishes 7 APIs on the [APIs.
 
 
   Google Chat Integrations for Workspace''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 31
+random_paper: 66
 scopes:
 - name: Google Chat Integrations For Workspace Scopes
   scope_count: 3

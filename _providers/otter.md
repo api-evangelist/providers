@@ -3024,7 +3024,7 @@ plans:
 - name: Otter Plans Pricing
   plan_count: 4
   slug: otter-plans-pricing
-random_paper: 72
+random_paper: 66
 rate_limits:
 - limit_count: 6
   name: Otter Rate Limits

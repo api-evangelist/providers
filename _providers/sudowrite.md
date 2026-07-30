@@ -99,7 +99,7 @@ overview: 'Sudowrite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sudowrite''s developer surface includes documentation, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 26
+random_paper: 14
 score:
   band: emerging
   composite: 19.8

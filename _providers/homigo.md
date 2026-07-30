@@ -44,7 +44,7 @@ name: Homigo
 nav: Providers
 network: true
 overview: Homigo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Real Estate, Concierge, and Marketplace.
-random_paper: 76
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

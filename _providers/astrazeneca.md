@@ -99,7 +99,7 @@ name: AstraZeneca
 nav: Providers
 network: true
 overview: AstraZeneca is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Biotechnology, and Healthcare.
-random_paper: 35
+random_paper: 21
 score:
   band: minimal
   composite: 12.5

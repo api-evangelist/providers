@@ -67,7 +67,7 @@ overview: 'Statespace is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Statespace''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 16
+random_paper: 3
 score:
   band: minimal
   composite: 12.3

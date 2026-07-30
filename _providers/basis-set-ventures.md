@@ -83,7 +83,7 @@ overview: 'Basis Set Ventures is profiled on the [APIs.io](https://apis.io/) net
 
 
   Basis Set Ventures'' developer surface includes engineering blog, YouTube channel, and 8 more developer resources.'
-random_paper: 62
+random_paper: 40
 score:
   band: minimal
   composite: 7.3

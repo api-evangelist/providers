@@ -56,7 +56,7 @@ name: 24 Pull Requests
 nav: Providers
 network: true
 overview: 24 Pull Requests publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 71
+random_paper: 53
 score:
   band: minimal
   composite: 5.7

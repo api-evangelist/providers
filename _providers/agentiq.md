@@ -95,7 +95,7 @@ overview: 'AgentIQ is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   AgentIQ''s developer surface includes documentation, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 16
+random_paper: 7
 score:
   band: emerging
   composite: 22.3

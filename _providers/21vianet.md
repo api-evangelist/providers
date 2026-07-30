@@ -68,7 +68,7 @@ name: 21Vianet
 nav: Providers
 network: true
 overview: 21Vianet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Data Center, Cloud, and Hosting.
-random_paper: 17
+random_paper: 8
 score:
   band: minimal
   composite: 6.9

@@ -63,7 +63,7 @@ overview: 'Royal is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Royal''s developer surface includes support and 4 more developer resources.'
-random_paper: 65
+random_paper: 59
 score:
   band: minimal
   composite: 10.1

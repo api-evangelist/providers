@@ -133,7 +133,7 @@ plans:
 - name: Google Cloud Profiler Plans Pricing
   plan_count: 3
   slug: google-cloud-profiler-plans-pricing
-random_paper: 23
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Google Cloud Profiler Rate Limits

@@ -56,7 +56,7 @@ name: PolyXLabs
 nav: Providers
 network: true
 overview: PolyXLabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Sustainable Materials, Biodegradable Plastics, and Sustainability.
-random_paper: 18
+random_paper: 6
 score:
   band: minimal
   composite: 8.7

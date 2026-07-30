@@ -48,7 +48,7 @@ name: Livsho Holdings Limited
 nav: Providers
 network: true
 overview: Livsho Holdings Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Live Shopping, E-Commerce, and Collectibles.
-random_paper: 2
+random_paper: 55
 score:
   band: minimal
   composite: 5.0

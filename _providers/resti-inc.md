@@ -52,7 +52,7 @@ name: Resti Inc.
 nav: Providers
 network: true
 overview: Resti Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant Management, Hospitality, HR, and Payroll.
-random_paper: 19
+random_paper: 8
 score:
   band: minimal
   composite: 7.6

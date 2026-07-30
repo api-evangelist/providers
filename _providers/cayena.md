@@ -39,7 +39,7 @@ name: Cayena
 nav: Providers
 network: true
 overview: Cayena is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, B2B, Food and Beverage, and E-Commerce.
-random_paper: 58
+random_paper: 51
 score:
   band: minimal
   composite: 4.3

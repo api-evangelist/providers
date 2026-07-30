@@ -44,7 +44,7 @@ name: Metabiota
 nav: Providers
 network: true
 overview: Metabiota is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 59
+random_paper: 48
 score:
   band: minimal
   composite: 3.2

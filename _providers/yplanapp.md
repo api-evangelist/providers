@@ -48,7 +48,7 @@ name: yplanapp
 nav: Providers
 network: true
 overview: yplanapp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Events, Event Discovery, Ticketing, and Bookings.
-random_paper: 59
+random_paper: 49
 score:
   band: minimal
   composite: 5.0

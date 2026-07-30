@@ -67,7 +67,7 @@ overview: 'Razorpay IFSC publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Razorpay IFSC''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 58
+random_paper: 42
 score:
   band: minimal
   composite: 6.2

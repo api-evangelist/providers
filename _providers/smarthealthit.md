@@ -127,7 +127,7 @@ plans:
 - name: Smarthealthit Plans Pricing
   plan_count: 1
   slug: smarthealthit-plans-pricing
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Smarthealthit Rate Limits

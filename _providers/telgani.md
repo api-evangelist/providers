@@ -68,7 +68,7 @@ name: Telgani
 nav: Providers
 network: true
 overview: Telgani is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Car Rental, Mobility, Marketplace, and Travel.
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 9.2

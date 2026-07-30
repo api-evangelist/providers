@@ -139,7 +139,7 @@ overview: 'Transat publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Transat''s developer surface includes authentication, changelog, documentation, support, legal docs, engineering blog, and 19 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: emerging
   composite: 21.5

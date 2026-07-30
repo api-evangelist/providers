@@ -210,7 +210,7 @@ overview: 'Pinwheel publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Pinwheel''s developer surface includes developer portal, documentation, API reference, getting-started guide, changelog, signup flow, sandbox, and 14 more developer resources.'
-random_paper: 4
+random_paper: 71
 score:
   band: developing
   composite: 43.4

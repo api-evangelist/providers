@@ -48,7 +48,7 @@ name: Belle International
 nav: Providers
 network: true
 overview: Belle International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Footwear, Fashion, and Apparel.
-random_paper: 17
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

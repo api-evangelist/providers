@@ -79,7 +79,7 @@ overview: 'Unconventional AI is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Unconventional AI''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 69
+random_paper: 48
 score:
   band: minimal
   composite: 8.0

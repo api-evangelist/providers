@@ -103,7 +103,7 @@ overview: 'Lavender is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lavender''s developer surface includes engineering blog, support, pricing, signup flow, YouTube channel, and 10 more developer resources.'
-random_paper: 39
+random_paper: 29
 score:
   band: emerging
   composite: 20.2

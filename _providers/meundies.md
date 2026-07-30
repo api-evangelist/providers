@@ -48,7 +48,7 @@ name: MeUndies
 nav: Providers
 network: true
 overview: MeUndies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Apparel, and Direct-to-Consumer.
-random_paper: 48
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

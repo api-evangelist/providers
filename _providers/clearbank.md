@@ -251,7 +251,7 @@ overview: 'ClearBank publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ClearBank''s developer surface includes authentication, sandbox, documentation, getting-started guide, API reference, engineering blog, and 36 more developer resources.'
-random_paper: 40
+random_paper: 29
 score:
   band: developing
   composite: 45.0

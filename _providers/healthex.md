@@ -160,7 +160,7 @@ overview: 'HealthEx publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   HealthEx''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 20 more developer resources.'
-random_paper: 41
+random_paper: 31
 scopes:
 - name: Healthex Scopes
   scope_count: 5

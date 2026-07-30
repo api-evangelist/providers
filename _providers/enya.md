@@ -44,7 +44,7 @@ name: Enya
 nav: Providers
 network: true
 overview: Enya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Products, E-Commerce, Health, and Retail.
-random_paper: 24
+random_paper: 19
 score:
   band: minimal
   composite: 4.3

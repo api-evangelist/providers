@@ -71,7 +71,7 @@ overview: 'Tiger New Energy is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Tiger New Energy''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 70
+random_paper: 51
 score:
   band: minimal
   composite: 12.7

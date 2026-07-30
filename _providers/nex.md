@@ -208,7 +208,7 @@ overview: 'Nex publishes 16 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Nex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 7
+random_paper: 3
 scopes:
 - name: Nex Scopes
   scope_count: 18

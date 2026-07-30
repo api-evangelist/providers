@@ -104,7 +104,7 @@ plans:
 - name: Fundera Plans Pricing
   plan_count: 1
   slug: fundera-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Fundera Rate Limits

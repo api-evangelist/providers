@@ -75,7 +75,7 @@ overview: 'Panjiva is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Panjiva''s developer surface includes pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 16
+random_paper: 7
 score:
   band: emerging
   composite: 15.2

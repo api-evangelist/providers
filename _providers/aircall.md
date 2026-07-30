@@ -168,7 +168,7 @@ plans:
 - name: Aircall Plans Pricing
   plan_count: 1
   slug: aircall-plans-pricing
-random_paper: 80
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Aircall Rate Limits

@@ -76,7 +76,7 @@ plans:
 - name: Verint Systems Plans Pricing
   plan_count: 1
   slug: verint-systems-plans-pricing
-random_paper: 43
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Verint Systems Rate Limits

@@ -166,7 +166,7 @@ press:
 - date: '2026-05-25'
   title: Uncovering Alpha In The Networked Economy
   url: https://www.northerntrust.com/content/dam/northerntrust/pws/nt/documents/asset-management/uncovering-alpha-in-the-networked-economy.pdf
-random_paper: 45
+random_paper: 27
 scopes:
 - name: Northern Trust Scopes
   scope_count: 10

@@ -153,7 +153,7 @@ overview: 'Bank of Sydney publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Bank of Sydney''s developer surface includes documentation, getting-started guide, API reference, authentication, and 15 more developer resources.'
-random_paper: 6
+random_paper: 71
 scopes:
 - name: Bank Of Sydney Scopes
   scope_count: 5

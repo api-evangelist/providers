@@ -71,7 +71,7 @@ overview: 'NerdWallet is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   NerdWallet''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 21
+random_paper: 8
 score:
   band: minimal
   composite: 12.3

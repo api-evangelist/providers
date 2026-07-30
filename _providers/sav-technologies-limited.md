@@ -67,7 +67,7 @@ overview: 'Sav Technologies Limited is profiled on the [APIs.io](https://apis.io
 
 
   Sav Technologies Limited''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 18
+random_paper: 70
 score:
   band: minimal
   composite: 10.5

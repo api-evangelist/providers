@@ -75,7 +75,7 @@ overview: 'Jenesis Software is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Jenesis Software''s developer surface includes documentation, YouTube channel, engineering blog, and 5 more developer resources.'
-random_paper: 53
+random_paper: 33
 score:
   band: minimal
   composite: 7.5

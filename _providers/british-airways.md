@@ -134,7 +134,7 @@ overview: 'British Airways publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   British Airways'' developer surface includes authentication, sandbox, developer portal, documentation, and 18 more developer resources.'
-random_paper: 31
+random_paper: 12
 scopes:
 - name: British Airways Scopes
   scope_count: 4

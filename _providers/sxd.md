@@ -79,7 +79,7 @@ overview: 'SXD is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   SXD''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 11
+random_paper: 7
 score:
   band: minimal
   composite: 12.1

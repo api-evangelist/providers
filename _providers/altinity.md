@@ -144,7 +144,7 @@ overview: 'Altinity publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Altinity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 68
+random_paper: 58
 score:
   band: developing
   composite: 46.8

@@ -103,7 +103,7 @@ plans:
 - name: Tldraw Plans Pricing
   plan_count: 1
   slug: tldraw-plans-pricing
-random_paper: 6
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Tldraw Rate Limits

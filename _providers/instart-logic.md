@@ -39,7 +39,7 @@ name: Instart Logic
 nav: Providers
 network: true
 overview: Instart Logic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CDN, Content Delivery, Web Performance, and Application Security.
-random_paper: 48
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

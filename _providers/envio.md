@@ -122,7 +122,7 @@ plans:
 - name: Envio Plans Pricing
   plan_count: 5
   slug: envio-plans-pricing
-random_paper: 59
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Envio Rate Limits

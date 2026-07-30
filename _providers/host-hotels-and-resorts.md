@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: HST Investor Presentation - Q1 2026
   url: https://www.hosthotels.com/-/media/HostHotels/Files/DownloadLinksAssets/InvestorPresentations/Host_Hotels_Resorts_Inc_Investor_Presentation.pdf
-random_paper: 61
+random_paper: 33
 score:
   band: minimal
   composite: 5.0

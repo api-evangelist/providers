@@ -156,7 +156,7 @@ overview: 'Vungle publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Vungle''s developer surface includes documentation, getting-started guide, authentication, sandbox, engineering blog, and 17 more developer resources.'
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Vungle Rate Limits

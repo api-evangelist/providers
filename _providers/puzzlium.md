@@ -52,7 +52,7 @@ name: Puzzlium
 nav: Providers
 network: true
 overview: Puzzlium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Puzzles, Games, Gaming, and Mobile.
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 7.1

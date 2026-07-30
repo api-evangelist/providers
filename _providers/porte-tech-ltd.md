@@ -56,7 +56,7 @@ name: Porte Tech Ltd.
 nav: Providers
 network: true
 overview: Porte Tech Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Hotel Technology, Digital Concierge, and Guest Experience.
-random_paper: 11
+random_paper: 76
 score:
   band: minimal
   composite: 9.2

@@ -93,7 +93,7 @@ name: Dwelly
 nav: Providers
 network: true
 overview: Dwelly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Property Management, Lettings, and PropTech.
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 11.8

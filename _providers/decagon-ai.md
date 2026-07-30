@@ -180,7 +180,7 @@ overview: 'Decagon is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Decagon''s developer surface includes engineering blog, privacy policy, support, and 31 more developer resources.'
-random_paper: 77
+random_paper: 66
 score:
   band: emerging
   composite: 16.3

@@ -48,7 +48,7 @@ name: PixOwl
 nav: Providers
 network: true
 overview: PixOwl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Game Development, and Game Studio.
-random_paper: 27
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

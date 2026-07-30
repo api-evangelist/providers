@@ -196,7 +196,7 @@ overview: 'nexos.ai publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   nexos.ai''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 18 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: thin
   composite: 40.4

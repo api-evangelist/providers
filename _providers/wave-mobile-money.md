@@ -172,7 +172,7 @@ overview: 'Wave Mobile Money publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   Wave Mobile Money''s developer surface includes developer portal, documentation, engineering blog, support, pricing, authentication, and 22 more developer resources.'
-random_paper: 8
+random_paper: 69
 score:
   band: emerging
   composite: 24.8

@@ -114,7 +114,7 @@ plans:
 - name: Syspro Plans Pricing
   plan_count: 3
   slug: syspro-plans-pricing
-random_paper: 40
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Syspro Rate Limits

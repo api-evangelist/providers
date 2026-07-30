@@ -63,7 +63,7 @@ overview: 'Boston MBTA Transit publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Boston MBTA Transit''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 0
+random_paper: 58
 score:
   band: minimal
   composite: 6.2

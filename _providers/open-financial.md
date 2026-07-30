@@ -147,7 +147,7 @@ overview: 'Open (open.money) publishes 10 APIs on the [APIs.io](https://apis.io/
 
 
   Open (open.money)''s developer surface includes documentation, getting-started guide, authentication, developer console, signup flow, GitHub presence, engineering blog, and 11 more developer resources.'
-random_paper: 35
+random_paper: 18
 score:
   band: emerging
   composite: 22.2

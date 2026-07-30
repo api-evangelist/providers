@@ -100,7 +100,7 @@ overview: 'Bretton AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bretton AI''s developer surface includes engineering blog, documentation, signup flow, support, and 10 more developer resources.'
-random_paper: 41
+random_paper: 29
 score:
   band: emerging
   composite: 18.8

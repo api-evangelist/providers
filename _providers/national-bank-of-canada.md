@@ -80,7 +80,7 @@ name: National Bank of Canada
 nav: Providers
 network: true
 overview: National Bank of Canada publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Big Six, and Open Banking.
-random_paper: 27
+random_paper: 0
 score:
   band: minimal
   composite: 11.9

@@ -67,7 +67,7 @@ overview: 'Imperative Care is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Imperative Care''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 76
+random_paper: 58
 score:
   band: minimal
   composite: 11.6

@@ -145,7 +145,7 @@ plans:
 - name: Spike Api Plans Pricing
   plan_count: 4
   slug: spike-api-plans-pricing
-random_paper: 8
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Spike Api Rate Limits

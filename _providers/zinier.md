@@ -79,7 +79,7 @@ overview: 'Zinier is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Zinier''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
   composite: 15.4

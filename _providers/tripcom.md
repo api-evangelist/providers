@@ -123,7 +123,7 @@ overview: 'Trip.com publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Trip.com''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 37
+random_paper: 28
 score:
   band: thin
   composite: 31.4

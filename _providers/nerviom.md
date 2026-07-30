@@ -48,7 +48,7 @@ name: Nerviom
 nav: Providers
 network: true
 overview: Nerviom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Infrastructure, Data Centers, and Energy.
-random_paper: 39
+random_paper: 30
 score:
   band: minimal
   composite: 5.5

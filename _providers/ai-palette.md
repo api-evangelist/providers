@@ -87,7 +87,7 @@ overview: 'AI Palette is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   AI Palette''s developer surface includes signup flow, engineering blog, support, and 8 more developer resources.'
-random_paper: 26
+random_paper: 14
 score:
   band: minimal
   composite: 12.5

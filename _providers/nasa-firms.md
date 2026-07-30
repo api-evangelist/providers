@@ -161,7 +161,7 @@ plans:
 - name: Nasa Firms Plans Pricing
   plan_count: 2
   slug: nasa-firms-plans-pricing
-random_paper: 37
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Nasa Firms Rate Limits

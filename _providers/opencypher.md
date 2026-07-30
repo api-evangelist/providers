@@ -56,7 +56,7 @@ name: openCypher
 nav: Providers
 network: true
 overview: openCypher is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Graph Database, Neo4j, openCypher, and Query Language.
-random_paper: 32
+random_paper: 19
 score:
   band: minimal
   composite: 4.8

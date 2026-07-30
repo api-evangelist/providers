@@ -158,7 +158,7 @@ overview: 'Soul Machines publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Soul Machines'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 40
+random_paper: 24
 score:
   band: developing
   composite: 49.4

@@ -83,7 +83,7 @@ overview: 'Newfront is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Newfront''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 73
+random_paper: 63
 score:
   band: emerging
   composite: 16.8

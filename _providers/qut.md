@@ -96,7 +96,7 @@ plans:
 - name: Qut Plans Pricing
   plan_count: 2
   slug: qut-plans-pricing
-random_paper: 22
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Qut Rate Limits

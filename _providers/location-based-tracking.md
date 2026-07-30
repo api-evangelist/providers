@@ -39,7 +39,7 @@ name: Location Based Tracking
 nav: Providers
 network: true
 overview: Location Based Tracking is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Geolocation, GPS, Location, Mapping, and Tracking.
-random_paper: 41
+random_paper: 13
 score:
   band: minimal
   composite: 4.1

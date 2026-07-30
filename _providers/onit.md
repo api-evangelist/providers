@@ -52,7 +52,7 @@ name: Onit
 nav: Providers
 network: true
 overview: Onit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Neobank, Banking, and Payments.
-random_paper: 37
+random_paper: 32
 score:
   band: minimal
   composite: 7.9

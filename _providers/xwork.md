@@ -48,7 +48,7 @@ name: Xwork
 nav: Providers
 network: true
 overview: Xwork is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 4
+random_paper: 79
 score:
   band: minimal
   composite: 5.0

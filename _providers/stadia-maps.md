@@ -213,7 +213,7 @@ plans:
 - name: Stadia Maps Plans Pricing
   plan_count: 3
   slug: stadia-maps-plans-pricing
-random_paper: 55
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Stadia Maps Rate Limits

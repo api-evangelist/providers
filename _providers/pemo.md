@@ -79,7 +79,7 @@ overview: 'Pemo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pemo''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 28
+random_paper: 23
 score:
   band: emerging
   composite: 17.2

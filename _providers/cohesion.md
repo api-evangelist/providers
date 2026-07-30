@@ -44,7 +44,7 @@ name: Cohesion
 nav: Providers
 network: true
 overview: Cohesion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinTech, Investment Research, AI Agents, and Hedge Funds.
-random_paper: 46
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

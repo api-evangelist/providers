@@ -67,7 +67,7 @@ overview: 'Kestrl: Muslim Money App is profiled on the [APIs.io](https://apis.io
 
 
   Kestrl: Muslim Money App''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 64
+random_paper: 36
 score:
   band: emerging
   composite: 14.1

@@ -44,7 +44,7 @@ name: Double Click
 nav: Providers
 network: true
 overview: Double Click is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Marketing, and Ad Serving.
-random_paper: 64
+random_paper: 50
 score:
   band: minimal
   composite: 5.0

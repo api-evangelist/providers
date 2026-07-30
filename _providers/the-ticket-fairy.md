@@ -75,7 +75,7 @@ overview: 'The Ticket Fairy is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   The Ticket Fairy''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 55
+random_paper: 36
 score:
   band: emerging
   composite: 16.2

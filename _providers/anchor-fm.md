@@ -48,7 +48,7 @@ name: Anchor FM
 nav: Providers
 network: true
 overview: Anchor FM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Podcasting, Podcast Hosting, and Audio.
-random_paper: 0
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

@@ -124,7 +124,7 @@ overview: 'Fandom publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Fandom''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 13 more developer resources.'
-random_paper: 62
+random_paper: 55
 score:
   band: emerging
   composite: 24.7

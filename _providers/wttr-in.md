@@ -56,7 +56,7 @@ name: wttr.in
 nav: Providers
 network: true
 overview: wttr.in publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Weather and Public APIs.
-random_paper: 77
+random_paper: 69
 score:
   band: minimal
   composite: 5.7

@@ -128,7 +128,7 @@ plans:
 - name: Nascar Plans Pricing
   plan_count: 3
   slug: nascar-plans-pricing
-random_paper: 65
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Nascar Rate Limits

@@ -91,7 +91,7 @@ overview: 'Wheel is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Wheel''s developer surface includes engineering blog, support, legal docs, and 9 more developer resources.'
-random_paper: 47
+random_paper: 41
 score:
   band: emerging
   composite: 17.9

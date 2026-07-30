@@ -253,7 +253,7 @@ overview: 'Dow Jones publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Dow Jones'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 27 more developer resources.'
-random_paper: 27
+random_paper: 16
 scopes:
 - name: Dow Jones Scopes
   scope_count: 7

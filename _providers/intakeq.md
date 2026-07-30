@@ -119,7 +119,7 @@ plans:
 - name: Intakeq Plans Pricing
   plan_count: 4
   slug: intakeq-plans-pricing
-random_paper: 20
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Intakeq Rate Limits

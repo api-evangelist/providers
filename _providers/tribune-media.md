@@ -195,7 +195,7 @@ press:
 - date: '2019-09-19'
   title: About Nexstar
   url: http://nexstar.tv#new_tab
-random_paper: 22
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Tribune Media Rate Limits

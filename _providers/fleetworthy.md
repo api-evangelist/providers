@@ -126,7 +126,7 @@ overview: 'Fleetworthy publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fleetworthy''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 11 more developer resources.'
-random_paper: 79
+random_paper: 65
 score:
   band: thin
   composite: 32.7

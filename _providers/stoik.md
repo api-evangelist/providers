@@ -92,7 +92,7 @@ overview: 'Stoik is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Stoik''s developer surface includes documentation, engineering blog, changelog, and 9 more developer resources.'
-random_paper: 68
+random_paper: 62
 score:
   band: emerging
   composite: 19.7

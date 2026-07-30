@@ -79,7 +79,7 @@ overview: 'Optimyzee is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Optimyzee''s developer surface includes pricing, engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 26
+random_paper: 14
 score:
   band: emerging
   composite: 15.2

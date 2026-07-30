@@ -56,7 +56,7 @@ name: Nexchange
 nav: Providers
 network: true
 overview: Nexchange publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 54
+random_paper: 43
 score:
   band: minimal
   composite: 5.7

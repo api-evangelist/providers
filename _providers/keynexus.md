@@ -48,7 +48,7 @@ name: Keynexus
 nav: Providers
 network: true
 overview: Keynexus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Encryption, Key Management, and Cybersecurity.
-random_paper: 1
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

@@ -152,7 +152,7 @@ plans:
 - name: Airvisual Plans Pricing
   plan_count: 3
   slug: airvisual-plans-pricing
-random_paper: 4
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Airvisual Rate Limits

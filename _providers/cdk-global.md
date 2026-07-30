@@ -421,7 +421,7 @@ plans:
 - name: Cdk Global Plans Pricing
   plan_count: 6
   slug: cdk-global-plans-pricing
-random_paper: 4
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Cdk Global Rate Limits

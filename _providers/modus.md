@@ -44,7 +44,7 @@ name: Modus
 nav: Providers
 network: true
 overview: Modus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Title and Escrow, and Home Closing.
-random_paper: 66
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

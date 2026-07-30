@@ -1146,7 +1146,7 @@ plans:
 - name: Slack Plans Pricing
   plan_count: 4
   slug: slack-plans-pricing
-random_paper: 40
+random_paper: 34
 rate_limits:
 - limit_count: 6
   name: Slack Rate Limits

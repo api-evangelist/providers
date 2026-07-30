@@ -144,7 +144,7 @@ plans:
 - name: Microsoft Suite Plans Pricing
   plan_count: 3
   slug: microsoft-suite-plans-pricing
-random_paper: 42
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Microsoft Suite Rate Limits

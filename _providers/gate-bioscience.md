@@ -56,7 +56,7 @@ overview: 'Gate Bioscience is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Gate Bioscience''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 48
+random_paper: 30
 score:
   band: minimal
   composite: 5.7

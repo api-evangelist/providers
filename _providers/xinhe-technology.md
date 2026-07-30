@@ -63,7 +63,7 @@ overview: 'Xinhe Technology is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Xinhe Technology''s developer surface includes support and 4 more developer resources.'
-random_paper: 49
+random_paper: 29
 score:
   band: minimal
   composite: 9.2

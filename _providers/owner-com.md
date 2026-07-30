@@ -73,7 +73,7 @@ plans:
 - name: Owner Com Plans Pricing
   plan_count: 3
   slug: owner-com-plans-pricing
-random_paper: 28
+random_paper: 17
 score:
   band: emerging
   composite: 15.2

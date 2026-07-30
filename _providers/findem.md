@@ -107,7 +107,7 @@ plans:
 - name: Findem Plans Pricing
   plan_count: 1
   slug: findem-plans-pricing
-random_paper: 60
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Findem Rate Limits

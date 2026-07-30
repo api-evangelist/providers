@@ -95,7 +95,7 @@ overview: 'Robocurve is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Robocurve''s developer surface includes documentation, API reference, quickstart, support, CLI, changelog, and 7 more developer resources.'
-random_paper: 11
+random_paper: 81
 score:
   band: emerging
   composite: 18.3

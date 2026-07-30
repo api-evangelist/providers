@@ -68,7 +68,7 @@ overview: 'Dizal Pharma is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Dizal Pharma''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 76
+random_paper: 62
 score:
   band: minimal
   composite: 5.7

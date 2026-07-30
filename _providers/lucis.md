@@ -79,7 +79,7 @@ overview: 'Lucis is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Lucis'' developer surface includes signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 58
+random_paper: 52
 score:
   band: emerging
   composite: 16.1

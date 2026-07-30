@@ -148,7 +148,7 @@ plans:
 - name: Patronus Ai Plans Pricing
   plan_count: 1
   slug: patronus-ai-plans-pricing
-random_paper: 5
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Patronus Ai Rate Limits

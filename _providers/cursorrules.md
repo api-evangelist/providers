@@ -64,7 +64,7 @@ name: .cursorrules
 nav: Providers
 network: true
 overview: .cursorrules is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, AI Copilot, Coding Standards, Configuration, and Cursor.
-random_paper: 10
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

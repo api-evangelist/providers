@@ -44,7 +44,7 @@ name: Getaway
 nav: Providers
 network: true
 overview: Getaway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Hospitality, Travel, and Vacation Rentals.
-random_paper: 25
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

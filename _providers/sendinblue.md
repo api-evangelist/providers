@@ -63,7 +63,7 @@ overview: 'Sendinblue publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   The Sendinblue catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 12
+random_paper: 81
 rules:
 - name: Sendinblue API Rules
   rule_count: 8

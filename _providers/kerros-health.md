@@ -39,7 +39,7 @@ name: Kerros Health
 nav: Providers
 network: true
 overview: Kerros Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Mental Health, Wellness, and Digital Health.
-random_paper: 41
+random_paper: 25
 score:
   band: minimal
   composite: 4.3

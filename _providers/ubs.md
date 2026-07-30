@@ -121,7 +121,7 @@ overview: 'UBS publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   UBS''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, and 4 more developer resources.'
-random_paper: 6
+random_paper: 2
 score:
   band: minimal
   composite: 12.7

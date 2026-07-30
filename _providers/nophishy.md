@@ -56,7 +56,7 @@ name: NoPhishy
 nav: Providers
 network: true
 overview: NoPhishy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti Malware and Public APIs.
-random_paper: 72
+random_paper: 62
 score:
   band: minimal
   composite: 5.7

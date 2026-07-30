@@ -44,7 +44,7 @@ name: FirstFuel Software
 nav: Providers
 network: true
 overview: FirstFuel Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Analytics, Utilities, and Energy Efficiency.
-random_paper: 37
+random_paper: 14
 score:
   band: minimal
   composite: 4.3

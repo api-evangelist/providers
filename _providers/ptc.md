@@ -147,7 +147,7 @@ plans:
 - name: Ptc Plans Pricing
   plan_count: 9
   slug: ptc-plans-pricing
-random_paper: 3
+random_paper: 81
 rate_limits:
 - limit_count: 6
   name: Ptc Rate Limits

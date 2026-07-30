@@ -107,7 +107,7 @@ plans:
 - name: Gadjah Mada University Plans Pricing
   plan_count: 2
   slug: gadjah-mada-university-plans-pricing
-random_paper: 35
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Gadjah Mada University Rate Limits

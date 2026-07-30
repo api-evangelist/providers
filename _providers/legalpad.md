@@ -56,7 +56,7 @@ name: LegalPad
 nav: Providers
 network: true
 overview: LegalPad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Immigration, Work Visas, and Legal Services.
-random_paper: 16
+random_paper: 6
 score:
   band: minimal
   composite: 5.7

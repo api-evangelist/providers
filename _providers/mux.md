@@ -124,7 +124,7 @@ overview: 'Mux publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Mux''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 22
+random_paper: 18
 score:
   band: thin
   composite: 29.6

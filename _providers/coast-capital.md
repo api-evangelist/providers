@@ -82,7 +82,7 @@ overview: 'Coast Capital Savings is profiled on the [APIs.io](https://apis.io/) 
 
 
   Coast Capital Savings'' developer surface includes authentication and 8 more developer resources.'
-random_paper: 21
+random_paper: 5
 scopes:
 - name: Coast Capital Scopes
   scope_count: 2

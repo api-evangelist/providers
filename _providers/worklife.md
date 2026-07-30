@@ -44,7 +44,7 @@ name: WorkLife
 nav: Providers
 network: true
 overview: WorkLife is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Meetings, Productivity, Collaboration, and SaaS.
-random_paper: 57
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

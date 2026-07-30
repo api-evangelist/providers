@@ -64,7 +64,7 @@ name: QVC
 nav: Providers
 network: true
 overview: QVC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Ecommerce, Television Shopping, and Fortune 500.
-random_paper: 6
+random_paper: 2
 score:
   band: minimal
   composite: 4.8

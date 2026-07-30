@@ -44,7 +44,7 @@ name: Mech Mocha
 nav: Providers
 network: true
 overview: Mech Mocha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Mobile.
-random_paper: 6
+random_paper: 76
 score:
   band: minimal
   composite: 4.1

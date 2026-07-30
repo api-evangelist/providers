@@ -44,7 +44,7 @@ name: Petuum
 nav: Providers
 network: true
 overview: Petuum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Machine Learning, and Deep Learning.
-random_paper: 24
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

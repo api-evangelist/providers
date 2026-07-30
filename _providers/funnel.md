@@ -140,7 +140,7 @@ overview: 'Funnel publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Funnel''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 0
+random_paper: 74
 score:
   band: thin
   composite: 33.8

@@ -67,7 +67,7 @@ overview: 'F.N.B. Corporation publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   F.N.B. Corporation''s developer surface includes support and 6 more developer resources.'
-random_paper: 62
+random_paper: 53
 score:
   band: minimal
   composite: 12.6

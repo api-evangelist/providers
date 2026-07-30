@@ -116,7 +116,7 @@ plans:
 - name: Google Business Messages Plans Pricing
   plan_count: 3
   slug: google-business-messages-plans-pricing
-random_paper: 29
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Google Business Messages Rate Limits

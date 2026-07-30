@@ -204,7 +204,7 @@ overview: 'SingleFile publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SingleFile''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 23 more developer resources.'
-random_paper: 5
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Singlefile Rate Limits

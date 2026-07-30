@@ -44,7 +44,7 @@ name: VR Motion
 nav: Providers
 network: true
 overview: VR Motion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtual Reality, Simulation, Training, and Driver Training.
-random_paper: 48
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

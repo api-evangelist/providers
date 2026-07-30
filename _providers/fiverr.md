@@ -91,7 +91,7 @@ overview: 'Fiverr is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fiverr''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 6
+random_paper: 80
 score:
   band: emerging
   composite: 15.6

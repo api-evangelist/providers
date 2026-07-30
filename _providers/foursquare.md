@@ -232,7 +232,7 @@ plans:
 - name: Foursquare Plans Pricing
   plan_count: 10
   slug: foursquare-plans-pricing
-random_paper: 48
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Foursquare Rate Limits

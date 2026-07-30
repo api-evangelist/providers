@@ -478,7 +478,7 @@ overview: 'Narmi publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Narmi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 28 more developer resources.'
-random_paper: 49
+random_paper: 43
 scopes:
 - name: Narmi Scopes
   scope_count: 11

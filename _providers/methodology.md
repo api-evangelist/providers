@@ -39,7 +39,7 @@ name: Methodology
 nav: Providers
 network: true
 overview: Methodology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Methodologies, Methodology, Process, and Software Development.
-random_paper: 61
+random_paper: 47
 score:
   band: minimal
   composite: 3.2

@@ -48,7 +48,7 @@ name: Inevitable
 nav: Providers
 network: true
 overview: Inevitable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai Ml.
-random_paper: 6
+random_paper: 75
 score:
   band: minimal
   composite: 4.1

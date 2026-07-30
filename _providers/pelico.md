@@ -88,7 +88,7 @@ overview: 'Pelico is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pelico''s developer surface includes documentation, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 69
+random_paper: 62
 score:
   band: emerging
   composite: 19.9

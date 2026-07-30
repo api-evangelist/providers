@@ -104,7 +104,7 @@ overview: 'PlaceKitten publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   The PlaceKitten catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 38
+random_paper: 24
 rules:
 - name: PlaceKitten API Rules
   rule_count: 5

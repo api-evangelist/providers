@@ -44,7 +44,7 @@ name: havekarma
 nav: Providers
 network: true
 overview: havekarma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 53
+random_paper: 42
 score:
   band: minimal
   composite: 3.2

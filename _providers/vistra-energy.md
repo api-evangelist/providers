@@ -156,7 +156,7 @@ overview: 'Vistra Corp is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Vistra Corp''s developer surface includes engineering blog, documentation, and 28 more developer resources.'
-random_paper: 64
+random_paper: 48
 score:
   band: emerging
   composite: 16.2

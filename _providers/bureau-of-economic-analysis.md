@@ -118,7 +118,7 @@ plans:
 - name: Bureau Of Economic Analysis Plans Pricing
   plan_count: 3
   slug: bureau-of-economic-analysis-plans-pricing
-random_paper: 32
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Bureau Of Economic Analysis Rate Limits

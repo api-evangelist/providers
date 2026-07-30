@@ -63,7 +63,7 @@ overview: 'GuildFi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   GuildFi''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 7.5

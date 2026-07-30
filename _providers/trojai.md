@@ -128,7 +128,7 @@ overview: 'TrojAI publishes 1 API on the [APIs.io](https://apis.io/) network: Pl
 
 
   TrojAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 13 more developer resources.'
-random_paper: 1
+random_paper: 75
 score:
   band: thin
   composite: 37.7

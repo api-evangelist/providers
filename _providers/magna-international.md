@@ -73,7 +73,7 @@ plans:
 - name: Magna International Plans Pricing
   plan_count: 1
   slug: magna-international-plans-pricing
-random_paper: 17
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Magna International Rate Limits

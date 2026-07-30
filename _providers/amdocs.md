@@ -315,7 +315,7 @@ plans:
 - name: Amdocs Plans Pricing
   plan_count: 1
   slug: amdocs-plans-pricing
-random_paper: 64
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Amdocs Rate Limits

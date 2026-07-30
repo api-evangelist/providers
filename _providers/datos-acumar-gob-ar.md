@@ -84,7 +84,7 @@ plans:
 - name: Datos Acumar Gob Ar Plans Pricing
   plan_count: 1
   slug: datos-acumar-gob-ar-plans-pricing
-random_paper: 48
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Datos Acumar Gob Ar Rate Limits

@@ -48,7 +48,7 @@ name: Buddy Media
 nav: Providers
 network: true
 overview: Buddy Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Martech, Social Media, Marketing, and Advertising.
-random_paper: 40
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

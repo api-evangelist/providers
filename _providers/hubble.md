@@ -87,7 +87,7 @@ overview: 'Hubble is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Hubble''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 59
+random_paper: 52
 score:
   band: emerging
   composite: 15.6

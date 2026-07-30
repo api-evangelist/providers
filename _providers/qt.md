@@ -95,7 +95,7 @@ overview: 'Qt is profiled on the [APIs.io](https://apis.io/) network. Tagged are
 
 
   Qt''s developer surface includes documentation, engineering blog, support, pricing, signup flow, and 8 more developer resources.'
-random_paper: 67
+random_paper: 65
 score:
   band: emerging
   composite: 19.0

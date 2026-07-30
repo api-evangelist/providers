@@ -71,7 +71,7 @@ overview: 'Alogent is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Alogent''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 17
+random_paper: 8
 score:
   band: emerging
   composite: 13.9

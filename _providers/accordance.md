@@ -95,7 +95,7 @@ overview: 'Accordance is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Accordance''s developer surface includes signup flow and 12 more developer resources.'
-random_paper: 55
+random_paper: 43
 score:
   band: emerging
   composite: 18.2

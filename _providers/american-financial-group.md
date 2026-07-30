@@ -86,7 +86,7 @@ press:
 - date: '2026-05-25'
   title: American Financial Group Acquires InsurTech Verikai in ...
   url: https://www.carriermanagement.com/news/2022/01/20/231630.htm
-random_paper: 63
+random_paper: 34
 score:
   band: minimal
   composite: 5.6

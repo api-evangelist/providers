@@ -83,7 +83,7 @@ overview: 'Veritas Software is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Veritas Software''s developer surface includes documentation, support, engineering blog, and 7 more developer resources.'
-random_paper: 66
+random_paper: 46
 score:
   band: emerging
   composite: 17.2

@@ -33,7 +33,7 @@ name: Amazon Scraper API
 nav: Providers
 network: true
 overview: Amazon Scraper API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include web scraping, data extraction, e-commerce data, amazon, and marketplace data.
-random_paper: 20
+random_paper: 80
 score:
   band: minimal
   composite: 5.9

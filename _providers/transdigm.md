@@ -136,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: TransDigm Group Incorporated 8-K 2026-04-07
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1260221/000126022126000031/tdg-20260407.htm
-random_paper: 78
+random_paper: 67
 rules:
 - name: TransDigm Group API Rules
   rule_count: 5

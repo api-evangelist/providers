@@ -658,7 +658,7 @@ plans:
 - name: Fireblocks Plans Pricing
   plan_count: 6
   slug: fireblocks-plans-pricing
-random_paper: 7
+random_paper: 76
 rate_limits:
 - limit_count: 6
   name: Fireblocks Rate Limits

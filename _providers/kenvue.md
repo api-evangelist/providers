@@ -52,7 +52,7 @@ name: Kenvue
 nav: Providers
 network: true
 overview: Kenvue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Health, Personal Care, Pharmaceuticals, Skincare, and Fortune 500.
-random_paper: 6
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

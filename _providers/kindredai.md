@@ -39,7 +39,7 @@ name: Kindred.AI
 nav: Providers
 network: true
 overview: Kindred.AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 48
+random_paper: 37
 score:
   band: minimal
   composite: 3.2

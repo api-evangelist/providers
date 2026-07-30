@@ -48,7 +48,7 @@ name: Bionic
 nav: Providers
 network: true
 overview: Bionic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Cloud Security, Application Security, and ASPM.
-random_paper: 61
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

@@ -91,7 +91,7 @@ overview: 'Amp is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Amp''s developer surface includes documentation, API reference, support, engineering blog, and 8 more developer resources.'
-random_paper: 75
+random_paper: 72
 score:
   band: emerging
   composite: 14.0

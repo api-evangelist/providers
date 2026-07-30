@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: MetLife Study Finds AI Acceleration Is Creating New ...
   url: https://www.metlife.com/about-us/newsroom/2026/march/metlife-study-finds-ai-acceleration-is-creating-new-concerns-in-todays-workplace/
-random_paper: 13
+random_paper: 4
 score:
   band: minimal
   composite: 5.4

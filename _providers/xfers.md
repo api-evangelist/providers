@@ -145,7 +145,7 @@ overview: 'Xfers publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Xfers'' developer surface includes authentication, documentation, API reference, support, and 6 more developer resources.'
-random_paper: 66
+random_paper: 60
 score:
   band: thin
   composite: 32.1

@@ -174,7 +174,7 @@ overview: 'Gamesight publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Gamesight''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
-random_paper: 62
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Gamesight Rate Limits

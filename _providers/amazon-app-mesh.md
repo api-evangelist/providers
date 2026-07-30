@@ -3094,7 +3094,7 @@ overview: 'Amazon App Mesh publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 16 more developer resources.'
-random_paper: 28
+random_paper: 10
 rules:
 - name: Amazon App Mesh API Rules
   rule_count: 5

@@ -686,7 +686,7 @@ plans:
 - name: Forgerock Plans Pricing
   plan_count: 6
   slug: forgerock-plans-pricing
-random_paper: 71
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Forgerock Rate Limits

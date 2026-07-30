@@ -104,7 +104,7 @@ overview: 'Genspark publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Genspark''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
-random_paper: 49
+random_paper: 39
 scopes:
 - name: Genspark Scopes
   scope_count: 4

@@ -52,7 +52,7 @@ name: Radiology Partners
 nav: Providers
 network: true
 overview: Radiology Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Health, Radiology, Medical Imaging, and Healthcare.
-random_paper: 31
+random_paper: 8
 score:
   band: minimal
   composite: 5.4

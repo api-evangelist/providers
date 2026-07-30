@@ -126,7 +126,7 @@ plans:
 - name: Autodesk Maya Plans Pricing
   plan_count: 3
   slug: autodesk-maya-plans-pricing
-random_paper: 37
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Autodesk Maya Rate Limits

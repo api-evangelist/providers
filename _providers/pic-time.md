@@ -72,7 +72,7 @@ plans:
 - name: Pic Time Plans Pricing
   plan_count: 4
   slug: pic-time-plans-pricing
-random_paper: 63
+random_paper: 54
 score:
   band: minimal
   composite: 11.8

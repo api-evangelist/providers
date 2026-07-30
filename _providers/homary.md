@@ -48,7 +48,7 @@ name: Homary
 nav: Providers
 network: true
 overview: Homary is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Furniture, Home Decor, Lighting, and E-commerce.
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

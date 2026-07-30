@@ -222,7 +222,7 @@ overview: 'Bendigo and Adelaide Bank publishes 14 APIs on the [APIs.io](https://
 
 
   Bendigo and Adelaide Bank''s developer surface includes developer portal, documentation, support, engineering blog, authentication, and 26 more developer resources.'
-random_paper: 42
+random_paper: 13
 scopes:
 - name: Bendigo And Adelaide Bank Scopes
   scope_count: 10

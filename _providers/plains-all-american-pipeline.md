@@ -65,7 +65,7 @@ plans:
 - name: Plains All American Pipeline Plans Pricing
   plan_count: 1
   slug: plains-all-american-pipeline-plans-pricing
-random_paper: 27
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Plains All American Pipeline Rate Limits

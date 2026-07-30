@@ -56,7 +56,7 @@ name: Dicebear Avatars
 nav: Providers
 network: true
 overview: Dicebear Avatars publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Test Data and Public APIs.
-random_paper: 75
+random_paper: 56
 score:
   band: minimal
   composite: 5.7

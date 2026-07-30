@@ -552,7 +552,7 @@ plans:
 - name: Sap Commerce Cloud Plans Pricing
   plan_count: 1
   slug: sap-commerce-cloud-plans-pricing
-random_paper: 10
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Sap Commerce Cloud Rate Limits

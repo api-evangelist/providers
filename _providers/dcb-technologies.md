@@ -39,7 +39,7 @@ name: DCB Technologies
 nav: Providers
 network: true
 overview: DCB Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, a16z, Portfolio Lead, and Unverified.
-random_paper: 6
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

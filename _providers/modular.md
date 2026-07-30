@@ -152,7 +152,7 @@ overview: 'Modular publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Modular''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 27
+random_paper: 18
 score:
   band: thin
   composite: 40.1

@@ -67,7 +67,7 @@ overview: 'Bustle is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bustle''s developer surface includes support and 5 more developer resources.'
-random_paper: 7
+random_paper: 81
 score:
   band: minimal
   composite: 10.1

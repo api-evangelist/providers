@@ -60,7 +60,7 @@ name: reTravel.io
 nav: Providers
 network: true
 overview: reTravel.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Travel Technology, Marketing, and Customer Retention.
-random_paper: 32
+random_paper: 19
 score:
   band: minimal
   composite: 7.6

@@ -87,7 +87,7 @@ overview: 'Canary Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Canary Technologies'' developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 23
+random_paper: 81
 score:
   band: emerging
   composite: 21.0

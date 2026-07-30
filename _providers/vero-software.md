@@ -48,7 +48,7 @@ name: Vero Software
 nav: Providers
 network: true
 overview: Vero Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CAD, CAM, Manufacturing, and Engineering Software.
-random_paper: 68
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

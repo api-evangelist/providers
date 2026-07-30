@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Regal Introduces Tiered Offering for Its Connected ...
   url: https://www.prnewswire.com/news-releases/regal-introduces-tiered-offering-for-its-connected-products-and-services-powered-by-perceptiv-intelligence-301335036.html
-random_paper: 73
+random_paper: 59
 score:
   band: minimal
   composite: 8.9

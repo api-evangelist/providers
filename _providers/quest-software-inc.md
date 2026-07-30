@@ -55,7 +55,7 @@ overview: 'Quest Software Inc. is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Quest Software Inc.''s developer surface includes support and 2 more developer resources.'
-random_paper: 59
+random_paper: 37
 score:
   band: minimal
   composite: 5.9

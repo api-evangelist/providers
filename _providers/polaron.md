@@ -83,7 +83,7 @@ overview: 'Polaron is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Polaron''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 34
+random_paper: 25
 score:
   band: minimal
   composite: 11.9

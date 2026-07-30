@@ -119,7 +119,7 @@ overview: 'Aztec is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aztec''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, changelog, and 12 more developer resources.'
-random_paper: 49
+random_paper: 43
 score:
   band: emerging
   composite: 25.7

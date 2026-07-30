@@ -39,7 +39,7 @@ name: Envisia
 nav: Providers
 network: true
 overview: Envisia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Therapeutics, and Ophthalmology.
-random_paper: 22
+random_paper: 13
 score:
   band: minimal
   composite: 4.3

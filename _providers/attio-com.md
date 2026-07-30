@@ -141,7 +141,7 @@ plans:
 - name: Attio Com Plans Pricing
   plan_count: 4
   slug: attio-com-plans-pricing
-random_paper: 18
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Attio Com Rate Limits

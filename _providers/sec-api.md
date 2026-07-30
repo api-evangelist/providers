@@ -129,7 +129,7 @@ plans:
 - name: Sec Api Plans Pricing
   plan_count: 4
   slug: sec-api-plans-pricing
-random_paper: 26
+random_paper: 18
 rate_limits:
 - limit_count: 8
   name: Sec Api Rate Limits

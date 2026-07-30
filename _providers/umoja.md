@@ -83,7 +83,7 @@ overview: 'Umoja Biopharma is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Umoja Biopharma''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 8.3

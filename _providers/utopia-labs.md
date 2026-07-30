@@ -56,7 +56,7 @@ name: Utopia Labs
 nav: Providers
 network: true
 overview: Utopia Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Fintech, Stablecoins, Payments, and DAO.
-random_paper: 68
+random_paper: 55
 score:
   band: minimal
   composite: 7.2

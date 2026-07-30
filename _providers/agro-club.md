@@ -56,7 +56,7 @@ name: Agro Club
 nav: Providers
 network: true
 overview: Agro Club is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Grain Trading, and Crop Marketing.
-random_paper: 1
+random_paper: 72
 score:
   band: minimal
   composite: 9.9

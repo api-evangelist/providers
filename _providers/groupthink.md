@@ -124,7 +124,7 @@ overview: 'Groupthink publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Groupthink''s developer surface includes documentation, authentication, changelog, pricing, signup flow, engineering blog, support, and 11 more developer resources.'
-random_paper: 46
+random_paper: 33
 score:
   band: thin
   composite: 29.5

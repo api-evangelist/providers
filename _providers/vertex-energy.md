@@ -52,7 +52,7 @@ name: Vertex Energy
 nav: Providers
 network: true
 overview: Vertex Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Refining, Petroleum, Renewable Diesel, and Specialty Chemicals.
-random_paper: 69
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

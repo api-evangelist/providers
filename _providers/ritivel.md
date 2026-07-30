@@ -48,7 +48,7 @@ name: Ritivel
 nav: Providers
 network: true
 overview: Ritivel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Regulatory, Artificial Intelligence, and Medical Writing.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 5.4

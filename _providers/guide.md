@@ -48,7 +48,7 @@ name: Guide
 nav: Providers
 network: true
 overview: Guide is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 40
+random_paper: 34
 score:
   band: minimal
   composite: 3.2

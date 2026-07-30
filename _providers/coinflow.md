@@ -249,7 +249,7 @@ overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coinflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, sandbox, and 29 more developer resources.'
-random_paper: 55
+random_paper: 45
 score:
   band: strong
   composite: 58.2

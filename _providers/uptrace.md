@@ -150,7 +150,7 @@ plans:
 - name: Uptrace Plans Pricing
   plan_count: 3
   slug: uptrace-plans-pricing
-random_paper: 27
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Uptrace Rate Limits

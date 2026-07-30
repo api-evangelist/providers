@@ -135,7 +135,7 @@ overview: 'Goose Insurance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Goose Insurance''s developer surface includes support, engineering blog, product news, and 22 more developer resources.'
-random_paper: 15
+random_paper: 78
 score:
   band: emerging
   composite: 15.2

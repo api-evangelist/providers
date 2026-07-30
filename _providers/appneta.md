@@ -84,7 +84,7 @@ overview: 'AppNeta publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   AppNeta''s developer surface includes documentation, API reference, authentication, support, and 5 more developer resources.'
-random_paper: 16
+random_paper: 7
 score:
   band: emerging
   composite: 14.4

@@ -139,7 +139,7 @@ overview: 'GetResponse publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   GetResponse''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 65
+random_paper: 51
 score:
   band: thin
   composite: 34.3

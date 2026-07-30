@@ -83,7 +83,7 @@ plans:
 - name: Glassdoor Plans Pricing
   plan_count: 1
   slug: glassdoor-plans-pricing
-random_paper: 2
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Glassdoor Rate Limits

@@ -88,7 +88,7 @@ name: WalkerCo
 nav: Providers
 network: true
 overview: WalkerCo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health and Beauty, Consumer Products, Ecommerce, and Grooming.
-random_paper: 46
+random_paper: 36
 score:
   band: emerging
   composite: 15.9

@@ -176,7 +176,7 @@ overview: 'VidGrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   VidGrid''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 18 more developer resources.'
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Vidgrid Rate Limits

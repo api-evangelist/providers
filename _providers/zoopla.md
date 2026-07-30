@@ -298,7 +298,7 @@ overview: 'Zoopla publishes 3 APIs on the [APIs.io](https://apis.io/) network: L
 
 
   Zoopla''s developer surface includes authentication, documentation, signup flow, support, getting-started guide, API reference, code examples, and 34 more developer resources.'
-random_paper: 13
+random_paper: 5
 scopes:
 - name: Zoopla Scopes
   scope_count: 3

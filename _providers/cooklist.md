@@ -111,7 +111,7 @@ overview: 'Cooklist is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cooklist''s developer surface includes documentation, support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 62
+random_paper: 52
 score:
   band: thin
   composite: 33.0

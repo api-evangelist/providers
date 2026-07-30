@@ -95,7 +95,7 @@ overview: 'Uno Health is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Uno Health''s developer surface includes signup flow, support, and 11 more developer resources.'
-random_paper: 41
+random_paper: 29
 score:
   band: emerging
   composite: 17.3

@@ -59,7 +59,7 @@ overview: 'Unshackled Ventures I is profiled on the [APIs.io](https://apis.io/) 
 
 
   Unshackled Ventures I''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 39
+random_paper: 13
 score:
   band: minimal
   composite: 6.2

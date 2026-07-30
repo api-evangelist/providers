@@ -173,7 +173,7 @@ overview: 'Pruna AI publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Pruna AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 20 more developer resources.'
-random_paper: 68
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Pruna Ai Rate Limits

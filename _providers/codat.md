@@ -1189,7 +1189,7 @@ plans:
 - name: Codat Plans Pricing
   plan_count: 1
   slug: codat-plans-pricing
-random_paper: 37
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Codat Rate Limits

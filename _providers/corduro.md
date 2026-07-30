@@ -75,7 +75,7 @@ overview: 'Corduro is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Corduro''s developer surface includes documentation, pricing, support, and 5 more developer resources.'
-random_paper: 37
+random_paper: 28
 score:
   band: emerging
   composite: 16.5

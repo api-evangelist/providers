@@ -71,7 +71,7 @@ overview: 'Salvo Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Salvo Health''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 9
+random_paper: 76
 score:
   band: emerging
   composite: 13.8

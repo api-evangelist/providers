@@ -63,7 +63,7 @@ overview: 'Enlitic is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Enlitic''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 15
+random_paper: 6
 score:
   band: minimal
   composite: 10.0

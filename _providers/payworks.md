@@ -39,7 +39,7 @@ name: Payworks
 nav: Providers
 network: true
 overview: Payworks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Point of Sale, Payment Gateway, and Fintech.
-random_paper: 5
+random_paper: 76
 score:
   band: minimal
   composite: 4.3

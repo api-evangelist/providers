@@ -179,7 +179,7 @@ overview: 'Minubo publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 19 more developer resources.'
-random_paper: 2
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Minubo Rate Limits

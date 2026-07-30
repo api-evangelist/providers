@@ -59,7 +59,7 @@ overview: 'Formo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Formo''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 61
+random_paper: 55
 score:
   band: minimal
   composite: 7.5

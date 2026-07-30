@@ -137,7 +137,7 @@ plans:
 - name: Twenty Crm Plans Pricing
   plan_count: 3
   slug: twenty-crm-plans-pricing
-random_paper: 78
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Twenty Crm Rate Limits

@@ -71,7 +71,7 @@ overview: 'Carbon Robotics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Carbon Robotics'' developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 40
+random_paper: 22
 score:
   band: emerging
   composite: 13.1

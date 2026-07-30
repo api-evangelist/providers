@@ -71,7 +71,7 @@ overview: 'RippleHire is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   RippleHire''s developer surface includes signup flow and 6 more developer resources.'
-random_paper: 23
+random_paper: 10
 score:
   band: emerging
   composite: 15.0

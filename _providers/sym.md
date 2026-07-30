@@ -87,7 +87,7 @@ overview: 'Sym is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Sym''s developer surface includes documentation, getting-started guide, API reference, support, changelog, CLI, and 5 more developer resources.'
-random_paper: 21
+random_paper: 17
 score:
   band: emerging
   composite: 16.4

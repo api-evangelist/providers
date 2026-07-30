@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Dillard's, Inc. Reports First Quarter Results | Thu, 05/14/2026
   url: https://investor.dillards.com/news-releases/news-release-details/dillards-inc-reports-first-quarter-results-6
-random_paper: 37
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

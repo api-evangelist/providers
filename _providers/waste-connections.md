@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: AMP to Operate Waste Connections Recycling Facility ...
   url: https://ampsortation.com/articles/first-of-its-kind-facility-featuring-fully-integra
-random_paper: 79
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Waste Connections Rate Limits

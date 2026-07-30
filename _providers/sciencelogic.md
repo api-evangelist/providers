@@ -88,7 +88,7 @@ plans:
 - name: Sciencelogic Plans Pricing
   plan_count: 3
   slug: sciencelogic-plans-pricing
-random_paper: 41
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Sciencelogic Rate Limits

@@ -112,7 +112,7 @@ plans:
 - name: Keio Plans Pricing
   plan_count: 2
   slug: keio-plans-pricing
-random_paper: 19
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Keio Rate Limits

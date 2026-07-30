@@ -99,7 +99,7 @@ overview: 'Pecan AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pecan AI''s developer surface includes documentation, support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 37
+random_paper: 28
 score:
   band: emerging
   composite: 23.1

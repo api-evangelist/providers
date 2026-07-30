@@ -225,7 +225,7 @@ plans:
 - name: Microsoft Azure Pipelines Plans Pricing
   plan_count: 6
   slug: microsoft-azure-pipelines-plans-pricing
-random_paper: 0
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Pipelines Rate Limits

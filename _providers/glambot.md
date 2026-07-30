@@ -75,7 +75,7 @@ overview: 'Glambot is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Glambot''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 13
+random_paper: 4
 score:
   band: emerging
   composite: 13.1

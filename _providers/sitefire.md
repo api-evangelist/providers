@@ -115,7 +115,7 @@ overview: 'Sitefire publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Sitefire''s developer surface includes changelog, documentation, quickstart, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 49
+random_paper: 39
 score:
   band: developing
   composite: 42.2

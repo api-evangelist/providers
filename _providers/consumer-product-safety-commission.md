@@ -131,7 +131,7 @@ plans:
 - name: Consumer Product Safety Commission Plans Pricing
   plan_count: 3
   slug: consumer-product-safety-commission-plans-pricing
-random_paper: 38
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Consumer Product Safety Commission Rate Limits

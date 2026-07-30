@@ -79,7 +79,7 @@ overview: 'Coachup is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Coachup''s developer surface includes getting-started guide, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 10
+random_paper: 1
 score:
   band: emerging
   composite: 15.3

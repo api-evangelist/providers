@@ -60,7 +60,7 @@ name: Fintech
 nav: Providers
 network: true
 overview: Fintech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Payments, Stablecoins, and Banking.
-random_paper: 8
+random_paper: 81
 score:
   band: minimal
   composite: 11.1

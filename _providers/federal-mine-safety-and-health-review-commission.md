@@ -52,7 +52,7 @@ name: Federal Mine Safety and Health Review Commission
 nav: Providers
 network: true
 overview: Federal Mine Safety and Health Review Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Mine Safety, and Adjudication.
-random_paper: 56
+random_paper: 80
 score:
   band: minimal
   composite: 4.1

@@ -208,7 +208,7 @@ overview: 'Australia and New Zealand Banking Group (ANZ) publishes 7 APIs on the
 
 
   Australia and New Zealand Banking Group (ANZ)''s developer surface includes authentication, API reference, support, documentation, and 22 more developer resources.'
-random_paper: 5
+random_paper: 1
 scopes:
 - name: Anz Scopes
   scope_count: 5

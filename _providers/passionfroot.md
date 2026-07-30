@@ -87,7 +87,7 @@ overview: 'Passionfroot is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Passionfroot''s developer surface includes support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 23
+random_paper: 7
 score:
   band: emerging
   composite: 16.8

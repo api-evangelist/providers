@@ -154,7 +154,7 @@ plans:
 - name: Software Ag Plans Pricing
   plan_count: 1
   slug: software-ag-plans-pricing
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Software Ag Rate Limits

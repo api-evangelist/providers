@@ -91,7 +91,7 @@ overview: 'Liberty Energy is profiled on the [APIs.io](https://apis.io/) network
 
 
   Liberty Energy''s developer surface includes product news and 11 more developer resources.'
-random_paper: 50
+random_paper: 19
 score:
   band: minimal
   composite: 5.5

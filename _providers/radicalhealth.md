@@ -104,7 +104,7 @@ overview: 'Radical Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Radical Health''s developer surface includes signup flow, pricing, engineering blog, and 12 more developer resources.'
-random_paper: 54
+random_paper: 38
 score:
   band: emerging
   composite: 22.3

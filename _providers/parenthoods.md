@@ -48,7 +48,7 @@ name: parenthoods
 nav: Providers
 network: true
 overview: parenthoods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Parenting, Social Network, Mobile, and Consumer.
-random_paper: 57
+random_paper: 43
 score:
   band: minimal
   composite: 5.0

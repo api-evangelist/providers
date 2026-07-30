@@ -389,7 +389,7 @@ plans:
 - name: Salesloft Plans Pricing
   plan_count: 1
   slug: salesloft-plans-pricing
-random_paper: 1
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Salesloft Rate Limits

@@ -80,7 +80,7 @@ overview: 'LIH Healthcare (长和医疗) is profiled on the [APIs.io](https://ap
 
 
   LIH Healthcare (长和医疗)''s developer surface includes training material, product news, and 7 more developer resources.'
-random_paper: 55
+random_paper: 43
 score:
   band: minimal
   composite: 5.4

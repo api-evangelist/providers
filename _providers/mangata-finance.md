@@ -75,7 +75,7 @@ overview: 'Mangata Finance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Mangata Finance''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 40
+random_paper: 22
 score:
   band: minimal
   composite: 9.9

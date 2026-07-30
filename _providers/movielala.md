@@ -44,7 +44,7 @@ name: Movielala
 nav: Providers
 network: true
 overview: Movielala is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Movies, Video, Entertainment, and Media.
-random_paper: 63
+random_paper: 52
 score:
   band: minimal
   composite: 5.7

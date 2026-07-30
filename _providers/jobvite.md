@@ -87,7 +87,7 @@ overview: 'Jobvite publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Jobvite''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 26
+random_paper: 17
 score:
   band: minimal
   composite: 12.7

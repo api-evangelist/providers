@@ -316,7 +316,7 @@ overview: 'buildpacks-io publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   buildpacks-io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 39 more developer resources.'
-random_paper: 23
+random_paper: 7
 rules:
 - name: buildpacks-io API Rules
   rule_count: 5

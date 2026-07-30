@@ -107,7 +107,7 @@ overview: 'Dylibso is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Dylibso''s developer surface includes documentation, getting-started guide, engineering blog, support, sandbox, changelog, and 10 more developer resources.'
-random_paper: 29
+random_paper: 20
 score:
   band: emerging
   composite: 19.2

@@ -1010,7 +1010,7 @@ plans:
 - name: Lightspeed Pos Plans Pricing
   plan_count: 1
   slug: lightspeed-pos-plans-pricing
-random_paper: 71
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: Lightspeed Pos Rate Limits

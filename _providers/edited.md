@@ -79,7 +79,7 @@ overview: 'EDITED is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   EDITED''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 56
+random_paper: 49
 score:
   band: emerging
   composite: 14.7

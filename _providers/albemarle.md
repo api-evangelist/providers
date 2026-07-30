@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Innovation
   url: https://www.albemarle.com/us/en/who-we-are/innovation
-random_paper: 42
+random_paper: 31
 score:
   band: minimal
   composite: 11.4

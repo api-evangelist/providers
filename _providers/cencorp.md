@@ -48,7 +48,7 @@ name: Cencorp
 nav: Providers
 network: true
 overview: Cencorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial Automation, Manufacturing, Laser Processing, and Dispensing.
-random_paper: 17
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

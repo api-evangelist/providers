@@ -55,7 +55,7 @@ overview: 'Alliance is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Alliance''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 15
+random_paper: 5
 score:
   band: minimal
   composite: 5.4

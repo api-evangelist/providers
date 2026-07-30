@@ -39,7 +39,7 @@ name: Genomic Health
 nav: Providers
 network: true
 overview: Genomic Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Genomics, Diagnostics, and Oncology.
-random_paper: 36
+random_paper: 19
 score:
   band: minimal
   composite: 4.3

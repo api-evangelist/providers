@@ -168,7 +168,7 @@ overview: 'Dext publishes 1 API on the [APIs.io](https://apis.io/) network: Clie
 
 
   Dext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 32
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Dext Rate Limits

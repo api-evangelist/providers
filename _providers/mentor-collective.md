@@ -67,7 +67,7 @@ overview: 'Mentor Collective is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Mentor Collective''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 71
+random_paper: 50
 score:
   band: minimal
   composite: 10.5

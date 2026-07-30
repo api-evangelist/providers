@@ -236,7 +236,7 @@ overview: 'Codesphere publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Codesphere''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 28 more developer resources.'
-random_paper: 5
+random_paper: 74
 score:
   band: developing
   composite: 53.8

@@ -99,7 +99,7 @@ overview: 'Hook is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Hook''s developer surface includes support, engineering blog, and 12 more developer resources.'
-random_paper: 28
+random_paper: 23
 score:
   band: emerging
   composite: 17.7

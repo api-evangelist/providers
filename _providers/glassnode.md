@@ -156,7 +156,7 @@ plans:
 - name: Glassnode Plans Pricing
   plan_count: 4
   slug: glassnode-plans-pricing
-random_paper: 69
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Glassnode Rate Limits

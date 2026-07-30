@@ -128,7 +128,7 @@ overview: 'Prelude publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Prelude''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, authentication, and 12 more developer resources.'
-random_paper: 24
+random_paper: 15
 score:
   band: thin
   composite: 31.5

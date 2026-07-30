@@ -130,7 +130,7 @@ plans:
 - name: Brand Api Plans Pricing
   plan_count: 3
   slug: brand-api-plans-pricing
-random_paper: 68
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Brand Api Rate Limits

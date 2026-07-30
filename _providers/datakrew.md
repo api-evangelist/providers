@@ -83,7 +83,7 @@ overview: 'Datakrew is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Datakrew''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 41
+random_paper: 31
 score:
   band: emerging
   composite: 13.1

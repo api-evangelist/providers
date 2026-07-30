@@ -49,7 +49,7 @@ name: ElasticBox
 nav: Providers
 network: true
 overview: ElasticBox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Multi-Cloud, Application Deployment, and Application Management.
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 5.7

@@ -307,7 +307,7 @@ plans:
 - name: Waxell Plans Pricing
   plan_count: 2
   slug: waxell-plans-pricing
-random_paper: 5
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Waxell Rate Limits

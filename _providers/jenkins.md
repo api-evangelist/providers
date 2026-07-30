@@ -234,7 +234,7 @@ plans:
 - name: Jenkins Plans Pricing
   plan_count: 3
   slug: jenkins-plans-pricing
-random_paper: 25
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Jenkins Rate Limits

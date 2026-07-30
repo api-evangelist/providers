@@ -135,7 +135,7 @@ plans:
 - name: Faros Plans Pricing
   plan_count: 4
   slug: faros-plans-pricing
-random_paper: 53
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Faros Rate Limits

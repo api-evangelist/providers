@@ -250,7 +250,7 @@ plans:
 - name: Browserless Plans Pricing
   plan_count: 5
   slug: browserless-plans-pricing
-random_paper: 77
+random_paper: 63
 rate_limits:
 - limit_count: 10
   name: Browserless Rate Limits

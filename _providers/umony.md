@@ -75,7 +75,7 @@ overview: 'Umony is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Umony''s developer surface includes support and 7 more developer resources.'
-random_paper: 1
+random_paper: 76
 score:
   band: minimal
   composite: 12.9

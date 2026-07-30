@@ -135,7 +135,7 @@ plans:
 - name: Shippers Group Plans Pricing
   plan_count: 3
   slug: shippers-group-plans-pricing
-random_paper: 22
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Shippers Group Rate Limits

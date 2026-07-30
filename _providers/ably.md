@@ -428,7 +428,7 @@ plans:
 - name: Ably Plans Pricing
   plan_count: 5
   slug: ably-plans-pricing
-random_paper: 19
+random_paper: 14
 rate_limits:
 - limit_count: 8
   name: Ably Rate Limits

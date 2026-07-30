@@ -110,7 +110,7 @@ plans:
 - name: Forter Plans Pricing
   plan_count: 1
   slug: forter-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Forter Rate Limits

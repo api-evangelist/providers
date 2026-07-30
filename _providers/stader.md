@@ -63,7 +63,7 @@ overview: 'Stader is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Stader''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 76
+random_paper: 69
 score:
   band: minimal
   composite: 8.5

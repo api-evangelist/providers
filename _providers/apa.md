@@ -94,7 +94,7 @@ plans:
 - name: Apa Plans Pricing
   plan_count: 3
   slug: apa-plans-pricing
-random_paper: 63
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Apa Rate Limits

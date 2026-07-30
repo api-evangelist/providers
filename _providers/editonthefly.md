@@ -48,7 +48,7 @@ name: editonthefly
 nav: Providers
 network: true
 overview: editonthefly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 80
+random_paper: 65
 score:
   band: minimal
   composite: 3.2

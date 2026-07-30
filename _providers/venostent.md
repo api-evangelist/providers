@@ -67,7 +67,7 @@ overview: 'Venostent is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Venostent''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 26
+random_paper: 14
 score:
   band: minimal
   composite: 6.5

@@ -48,7 +48,7 @@ name: Gurú de Viaje
 nav: Providers
 network: true
 overview: Gurú de Viaje is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Flights, Travel Deals, and Airfare.
-random_paper: 18
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

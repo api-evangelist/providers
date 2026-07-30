@@ -137,7 +137,7 @@ plans:
 - name: Kubeflow Pipelines Plans Pricing
   plan_count: 3
   slug: kubeflow-pipelines-plans-pricing
-random_paper: 14
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Kubeflow Pipelines Rate Limits

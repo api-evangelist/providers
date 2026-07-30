@@ -52,7 +52,7 @@ name: Clearstep
 nav: Providers
 network: true
 overview: Clearstep is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Health, Clinical Triage, and Symptom Checker.
-random_paper: 72
+random_paper: 61
 score:
   band: minimal
   composite: 7.7

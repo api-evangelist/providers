@@ -87,7 +87,7 @@ overview: 'Bagel Labs is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bagel Labs'' developer surface includes documentation, engineering blog, and 9 more developer resources.'
-random_paper: 79
+random_paper: 68
 score:
   band: minimal
   composite: 11.2

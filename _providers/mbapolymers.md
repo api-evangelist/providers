@@ -59,7 +59,7 @@ overview: 'MBA Polymers is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   MBA Polymers'' developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 61
+random_paper: 47
 score:
   band: minimal
   composite: 6.3

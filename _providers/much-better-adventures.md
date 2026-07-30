@@ -79,7 +79,7 @@ overview: 'Much Better Adventures is profiled on the [APIs.io](https://apis.io/)
 
 
   Much Better Adventures'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 67
+random_paper: 40
 score:
   band: minimal
   composite: 11.2

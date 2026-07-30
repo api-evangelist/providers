@@ -341,7 +341,7 @@ plans:
 - name: Microsoft Azure Virtual Machines Plans Pricing
   plan_count: 10
   slug: microsoft-azure-virtual-machines-plans-pricing
-random_paper: 43
+random_paper: 3
 rate_limits:
 - limit_count: 16
   name: Microsoft Azure Virtual Machines Rate Limits

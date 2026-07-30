@@ -131,7 +131,7 @@ overview: 'Quarterzip is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Quarterzip''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 14 more developer resources.'
-random_paper: 58
+random_paper: 45
 score:
   band: thin
   composite: 40.8

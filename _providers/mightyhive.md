@@ -48,7 +48,7 @@ name: MightyHive
 nav: Providers
 network: true
 overview: MightyHive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Marketing, Media, and Programmatic Advertising.
-random_paper: 33
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

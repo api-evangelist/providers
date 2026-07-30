@@ -48,7 +48,7 @@ name: Concurrent Real-Time
 nav: Providers
 network: true
 overview: Concurrent Real-Time is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Time Computing, Embedded Systems, Linux, and Operating Systems.
-random_paper: 7
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

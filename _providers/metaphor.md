@@ -52,7 +52,7 @@ name: Metaphor
 nav: Providers
 network: true
 overview: Metaphor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Analytics, Metadata, Data Catalog, and Data Governance.
-random_paper: 54
+random_paper: 44
 score:
   band: minimal
   composite: 5.0

@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: How Murphy USA is gearing up for the future
   url: https://www.cstoredive.com/news/how-murphy-usa-is-gearing-up-for-the-future/709562/
-random_paper: 79
+random_paper: 67
 score:
   band: minimal
   composite: 2.6

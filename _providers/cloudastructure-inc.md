@@ -67,7 +67,7 @@ overview: 'CloudAStructure Inc is profiled on the [APIs.io](https://apis.io/) ne
 
 
   CloudAStructure Inc''s developer surface includes engineering blog, support, FAQ, and 3 more developer resources.'
-random_paper: 56
+random_paper: 32
 score:
   band: minimal
   composite: 8.4

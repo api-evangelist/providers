@@ -52,7 +52,7 @@ name: Placester
 nav: Providers
 network: true
 overview: Placester is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Marketing, Websites, and CRM.
-random_paper: 72
+random_paper: 61
 score:
   band: minimal
   composite: 5.7

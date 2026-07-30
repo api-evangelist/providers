@@ -48,7 +48,7 @@ name: abcfintech
 nav: Providers
 network: true
 overview: abcfintech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, and Venture Backed.
-random_paper: 59
+random_paper: 47
 score:
   band: minimal
   composite: 3.2

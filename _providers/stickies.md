@@ -56,7 +56,7 @@ name: Stickies
 nav: Providers
 network: true
 overview: Stickies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, NFT, Web3, Stickers, and GIFs.
-random_paper: 53
+random_paper: 43
 score:
   band: minimal
   composite: 6.1

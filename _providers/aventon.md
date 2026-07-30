@@ -92,7 +92,7 @@ overview: 'Aventon publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Aventon''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 34
+random_paper: 25
 scopes:
 - name: Aventon Scopes
   scope_count: 4

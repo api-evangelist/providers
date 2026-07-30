@@ -55,7 +55,7 @@ overview: 'Volt14 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Volt14''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 68
+random_paper: 62
 score:
   band: minimal
   composite: 5.4

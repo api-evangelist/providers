@@ -175,7 +175,7 @@ overview: 'Fossa publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Fossa''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 54
+random_paper: 48
 score:
   band: developing
   composite: 54.5

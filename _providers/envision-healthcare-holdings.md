@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Emergency Physicians Medical Group Enters Agreement ...
   url: https://www.prnewswire.com/news-releases/emergency-physicians-medical-group-enters-agreement-to-join-envision-healthcare-300237421.html
-random_paper: 27
+random_paper: 74
 score:
   band: minimal
   composite: 4.6

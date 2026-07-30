@@ -170,7 +170,7 @@ plans:
 - name: Wisk Plans Pricing
   plan_count: 6
   slug: wisk-plans-pricing
-random_paper: 41
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Wisk Rate Limits

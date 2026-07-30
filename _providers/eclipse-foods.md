@@ -71,7 +71,7 @@ overview: 'Eclipse Foods is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Eclipse Foods'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 29
+random_paper: 13
 score:
   band: minimal
   composite: 11.3

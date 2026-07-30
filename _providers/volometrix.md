@@ -44,7 +44,7 @@ name: VoloMetrix
 nav: Providers
 network: true
 overview: VoloMetrix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise Software.
-random_paper: 60
+random_paper: 47
 score:
   band: minimal
   composite: 4.1

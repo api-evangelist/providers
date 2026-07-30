@@ -75,7 +75,7 @@ overview: 'Calibrate Ventures is profiled on the [APIs.io](https://apis.io/) net
 
 
   Calibrate Ventures'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 9
+random_paper: 68
 score:
   band: minimal
   composite: 5.4

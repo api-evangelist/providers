@@ -107,7 +107,7 @@ overview: 'East West Bank publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   East West Bank''s developer surface includes documentation, support, authentication, sandbox, getting-started guide, signup flow, and 11 more developer resources.'
-random_paper: 5
+random_paper: 70
 score:
   band: emerging
   composite: 26.6

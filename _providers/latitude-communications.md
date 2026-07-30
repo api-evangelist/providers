@@ -53,7 +53,7 @@ name: Latitude Communications
 nav: Providers
 network: true
 overview: Latitude Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conferencing, Web Conferencing, Voice Conferencing, and Unified Communications.
-random_paper: 69
+random_paper: 40
 score:
   band: minimal
   composite: 4.3

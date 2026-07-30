@@ -48,7 +48,7 @@ name: Drippi
 nav: Providers
 network: true
 overview: Drippi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Content Creators, Creator Tools, and New York City.
-random_paper: 0
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

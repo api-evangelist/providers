@@ -48,7 +48,7 @@ name: Izif
 nav: Providers
 network: true
 overview: Izif is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Music Education, Online Learning, and Video Courses.
-random_paper: 29
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

@@ -59,7 +59,7 @@ overview: 'Feedbin publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Feedbin''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 69
+random_paper: 61
 score:
   band: minimal
   composite: 5.4

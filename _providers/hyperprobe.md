@@ -100,7 +100,7 @@ overview: 'Hyperprobe is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hyperprobe''s developer surface includes documentation, getting-started guide, signup flow, CLI, and 9 more developer resources.'
-random_paper: 35
+random_paper: 22
 score:
   band: emerging
   composite: 21.0

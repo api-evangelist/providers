@@ -83,7 +83,7 @@ overview: 'Elroy Air is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Elroy Air''s developer surface includes engineering blog, support, YouTube channel, and 7 more developer resources.'
-random_paper: 25
+random_paper: 14
 score:
   band: minimal
   composite: 11.2

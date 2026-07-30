@@ -106,7 +106,7 @@ plans:
 - name: Beautiful Soup Plans Pricing
   plan_count: 3
   slug: beautiful-soup-plans-pricing
-random_paper: 3
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Beautiful Soup Rate Limits

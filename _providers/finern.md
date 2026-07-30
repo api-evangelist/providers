@@ -59,7 +59,7 @@ overview: 'finern is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   finern''s developer surface includes support, engineering blog, and 2 more developer resources.'
-random_paper: 75
+random_paper: 68
 score:
   band: minimal
   composite: 6.3

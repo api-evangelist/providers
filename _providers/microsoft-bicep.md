@@ -162,7 +162,7 @@ plans:
 - name: Microsoft Bicep Plans Pricing
   plan_count: 3
   slug: microsoft-bicep-plans-pricing
-random_paper: 3
+random_paper: 66
 rate_limits:
 - limit_count: 6
   name: Microsoft Bicep Rate Limits

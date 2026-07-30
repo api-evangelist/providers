@@ -63,7 +63,7 @@ overview: 'Stoke Space is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Stoke Space''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 66
+random_paper: 53
 score:
   band: minimal
   composite: 8.4

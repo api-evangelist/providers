@@ -104,7 +104,7 @@ overview: 'Adaptive is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Adaptive''s developer surface includes engineering blog, pricing, signup flow, changelog, and 11 more developer resources.'
-random_paper: 36
+random_paper: 26
 score:
   band: emerging
   composite: 22.3

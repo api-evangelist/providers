@@ -227,7 +227,7 @@ overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 14 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: developing
   composite: 44.1

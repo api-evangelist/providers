@@ -48,7 +48,7 @@ name: Nowpay
 nav: Providers
 network: true
 overview: Nowpay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Wellness, Earned Wage Access, and Salary Advance.
-random_paper: 22
+random_paper: 14
 score:
   band: minimal
   composite: 5.7

@@ -76,7 +76,7 @@ plans:
 - name: Microsoft Applications Plans Pricing
   plan_count: 3
   slug: microsoft-applications-plans-pricing
-random_paper: 46
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Microsoft Applications Rate Limits

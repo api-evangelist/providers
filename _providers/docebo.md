@@ -120,7 +120,7 @@ plans:
 - name: Docebo Plans Pricing
   plan_count: 2
   slug: docebo-plans-pricing
-random_paper: 53
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Docebo Rate Limits

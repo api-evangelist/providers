@@ -301,7 +301,7 @@ plans:
 - name: Kibana Plans Pricing
   plan_count: 3
   slug: kibana-plans-pricing
-random_paper: 47
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Kibana Rate Limits

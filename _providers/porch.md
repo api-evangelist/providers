@@ -68,7 +68,7 @@ name: Porch
 nav: Providers
 network: true
 overview: Porch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Insurance, InsurTech, and PropTech.
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 9.1

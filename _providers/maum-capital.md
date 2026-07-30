@@ -39,7 +39,7 @@ name: Maum Capital
 nav: Providers
 network: true
 overview: Maum Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 77
+random_paper: 63
 score:
   band: minimal
   composite: 4.1

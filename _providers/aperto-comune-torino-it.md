@@ -83,7 +83,7 @@ plans:
 - name: Aperto Comune Torino It Plans Pricing
   plan_count: 0
   slug: aperto-comune-torino-it-plans-pricing
-random_paper: 53
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Aperto Comune Torino It Rate Limits

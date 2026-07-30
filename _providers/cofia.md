@@ -64,7 +64,7 @@ name: Cofia
 nav: Providers
 network: true
 overview: Cofia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Automation, Workflow Automation, and Agents.
-random_paper: 28
+random_paper: 22
 score:
   band: minimal
   composite: 7.5

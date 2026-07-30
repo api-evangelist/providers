@@ -272,7 +272,7 @@ plans:
 - name: Twelvedata Plans Pricing
   plan_count: 5
   slug: twelvedata-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Twelvedata Rate Limits

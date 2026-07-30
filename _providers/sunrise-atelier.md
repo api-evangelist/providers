@@ -83,7 +83,7 @@ overview: 'Sunrise Atelier publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Sunrise Atelier''s developer surface includes support and 7 more developer resources.'
-random_paper: 25
+random_paper: 6
 score:
   band: thin
   composite: 30.8

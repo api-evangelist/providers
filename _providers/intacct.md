@@ -171,7 +171,7 @@ overview: 'Sage Intacct publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Sage Intacct''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 13
+random_paper: 4
 scopes:
 - name: Intacct Scopes
   scope_count: 4

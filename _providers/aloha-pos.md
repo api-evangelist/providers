@@ -195,7 +195,7 @@ plans:
 - name: Aloha Pos Plans Pricing
   plan_count: 2
   slug: aloha-pos-plans-pricing
-random_paper: 9
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Aloha Pos Rate Limits

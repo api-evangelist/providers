@@ -167,7 +167,7 @@ overview: 'Cakewalk publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Cakewalk''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 25
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Cakewalk Rate Limits

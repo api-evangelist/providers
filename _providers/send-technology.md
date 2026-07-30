@@ -143,7 +143,7 @@ overview: 'Send Technology is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Send Technology''s developer surface includes engineering blog, YouTube channel, changelog, and 24 more developer resources.'
-random_paper: 16
+random_paper: 79
 score:
   band: emerging
   composite: 20.8

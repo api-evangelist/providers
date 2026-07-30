@@ -44,7 +44,7 @@ name: Huddl
 nav: Providers
 network: true
 overview: Huddl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Collaboration, Meetings, Artificial Intelligence, and Productivity.
-random_paper: 43
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

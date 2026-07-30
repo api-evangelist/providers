@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: '99.1'
   url: https://www.sec.gov/Archives/edgar/data/1524472/000152447226000065/xyl04282026ex991.htm
-random_paper: 73
+random_paper: 67
 score:
   band: minimal
   composite: 4.9

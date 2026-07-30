@@ -192,7 +192,7 @@ overview: 'StepFun publishes 1 API on the [APIs.io](https://apis.io/) network: R
 
 
   StepFun''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 44
+random_paper: 35
 rate_limits:
 - limit_count: 18
   name: Stepfun Rate Limits

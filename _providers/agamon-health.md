@@ -63,7 +63,7 @@ overview: 'Agamon Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Agamon Health''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 6
+random_paper: 72
 score:
   band: minimal
   composite: 6.5

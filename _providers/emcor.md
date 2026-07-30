@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: Buy Top AI Data Center Stock EME and Hold
   url: https://finance.yahoo.com/news/buy-top-ai-data-center-120000615.html
-random_paper: 48
+random_paper: 42
 score:
   band: minimal
   composite: 6.7

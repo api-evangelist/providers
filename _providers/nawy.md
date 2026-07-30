@@ -67,7 +67,7 @@ overview: 'Nawy is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Nawy''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 42
+random_paper: 37
 score:
   band: minimal
   composite: 10.5

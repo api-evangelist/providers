@@ -95,7 +95,7 @@ overview: 'Yubi (fka CredAvenue) is profiled on the [APIs.io](https://apis.io/) 
 
 
   Yubi (fka CredAvenue)''s developer surface includes documentation, engineering blog, and 11 more developer resources.'
-random_paper: 32
+random_paper: 9
 score:
   band: emerging
   composite: 21.0

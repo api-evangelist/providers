@@ -120,7 +120,7 @@ overview: 'Lyra Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Lyra Health''s developer surface includes engineering blog, GitHub presence, and 17 more developer resources.'
-random_paper: 62
+random_paper: 49
 score:
   band: minimal
   composite: 9.8

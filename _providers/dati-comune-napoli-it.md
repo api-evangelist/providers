@@ -84,7 +84,7 @@ plans:
 - name: Dati Comune Napoli It Plans Pricing
   plan_count: 1
   slug: dati-comune-napoli-it-plans-pricing
-random_paper: 39
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Dati Comune Napoli It Rate Limits

@@ -72,7 +72,7 @@ overview: 'Excelergy is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Excelergy''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 77
+random_paper: 66
 score:
   band: minimal
   composite: 9.2

@@ -75,7 +75,7 @@ overview: 'Yogaia is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Yogaia''s developer surface includes engineering blog, pricing, signup flow, and 5 more developer resources.'
-random_paper: 67
+random_paper: 60
 score:
   band: emerging
   composite: 13.1

@@ -59,7 +59,7 @@ overview: 'Potion Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Potion Labs'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 75
+random_paper: 62
 score:
   band: minimal
   composite: 6.6

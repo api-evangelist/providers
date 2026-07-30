@@ -48,7 +48,7 @@ name: BlackThorn Therapeutics *
 nav: Providers
 network: true
 overview: BlackThorn Therapeutics * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Neuroscience.
-random_paper: 57
+random_paper: 28
 score:
   band: minimal
   composite: 5.4

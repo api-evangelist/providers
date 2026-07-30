@@ -48,7 +48,7 @@ name: RTFKT
 nav: Providers
 network: true
 overview: RTFKT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Fashion, NFT, Collectibles, and Web3.
-random_paper: 69
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

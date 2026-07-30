@@ -48,7 +48,7 @@ name: Rivet Design
 nav: Providers
 network: true
 overview: Rivet Design is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Design, AI Agents, Generative AI, and Developer Tools.
-random_paper: 18
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

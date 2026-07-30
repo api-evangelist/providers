@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: Recent Press | Group 1
   url: https://www.piedpiperpsi.com/press/?tag=group+1
-random_paper: 15
+random_paper: 75
 score:
   band: minimal
   composite: 2.6

@@ -67,7 +67,7 @@ overview: 'Sankun publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sankun''s developer surface includes pricing, engineering blog, signup flow, and 2 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 12.0

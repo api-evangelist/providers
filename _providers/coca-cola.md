@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Coca-Cola Refreshes Givers of the Season, Embraces AI- ...
   url: https://www.coca-colacompany.com/media-center/coca-cola-refreshes-givers-of-the-season-embraces-ai-powered-storytelling-in-global-holiday-campaign
-random_paper: 56
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Coca Cola Rate Limits

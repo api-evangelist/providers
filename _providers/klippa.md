@@ -102,7 +102,7 @@ plans:
 - name: Klippa Plans Pricing
   plan_count: 5
   slug: klippa-plans-pricing
-random_paper: 74
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Klippa Rate Limits

@@ -115,7 +115,7 @@ overview: 'Innovaccer is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Innovaccer''s developer surface includes documentation, engineering blog, and 15 more developer resources.'
-random_paper: 11
+random_paper: 80
 score:
   band: emerging
   composite: 27.2

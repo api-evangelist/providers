@@ -67,7 +67,7 @@ overview: 'Luna is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Luna''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 27
+random_paper: 22
 score:
   band: minimal
   composite: 11.6

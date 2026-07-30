@@ -56,7 +56,7 @@ name: PlaceKeanu
 nav: Providers
 network: true
 overview: PlaceKeanu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Photography and Public APIs.
-random_paper: 77
+random_paper: 65
 score:
   band: minimal
   composite: 5.7

@@ -39,7 +39,7 @@ name: Avere Systems
 nav: Providers
 network: true
 overview: Avere Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Cloud Storage, NAS, and File Storage.
-random_paper: 72
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

@@ -168,7 +168,7 @@ overview: 'Flanks publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Flanks'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 22 more developer resources.'
-random_paper: 72
+random_paper: 65
 score:
   band: thin
   composite: 40.1

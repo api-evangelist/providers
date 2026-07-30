@@ -179,7 +179,7 @@ plans:
 - name: Kalshi Plans Pricing
   plan_count: 1
   slug: kalshi-plans-pricing
-random_paper: 69
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Kalshi Rate Limits

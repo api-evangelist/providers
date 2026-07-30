@@ -75,7 +75,7 @@ overview: 'Issa is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Issa''s developer surface includes signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 27
+random_paper: 22
 score:
   band: emerging
   composite: 15.4

@@ -91,7 +91,7 @@ overview: 'Iomed is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Iomed''s developer surface includes support and 11 more developer resources.'
-random_paper: 40
+random_paper: 34
 score:
   band: emerging
   composite: 19.7

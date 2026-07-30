@@ -133,7 +133,7 @@ overview: 'NuScale Power is profiled on the [APIs.io](https://apis.io/) network.
 
 
   NuScale Power''s developer surface includes YouTube channel, engineering blog, and 20 more developer resources.'
-random_paper: 18
+random_paper: 9
 score:
   band: minimal
   composite: 5.8

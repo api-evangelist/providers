@@ -116,7 +116,7 @@ overview: 'Parallel Domain is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Parallel Domain''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: emerging
   composite: 26.1

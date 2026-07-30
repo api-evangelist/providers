@@ -63,7 +63,7 @@ overview: 'MobileIron is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   MobileIron''s developer surface includes documentation, support, and 3 more developer resources.'
-random_paper: 19
+random_paper: 6
 score:
   band: minimal
   composite: 7.6

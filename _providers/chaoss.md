@@ -166,7 +166,7 @@ plans:
 - name: Chaoss Plans Pricing
   plan_count: 3
   slug: chaoss-plans-pricing
-random_paper: 74
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Chaoss Rate Limits

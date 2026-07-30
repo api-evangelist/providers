@@ -132,7 +132,7 @@ overview: 'Verra is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Verra''s developer surface includes product news, YouTube channel, engineering blog, and 19 more developer resources.'
-random_paper: 26
+random_paper: 15
 score:
   band: minimal
   composite: 5.4

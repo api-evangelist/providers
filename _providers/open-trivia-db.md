@@ -89,7 +89,7 @@ plans:
 - name: Open Trivia Db Plans Pricing
   plan_count: 3
   slug: open-trivia-db-plans-pricing
-random_paper: 0
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Open Trivia Db Rate Limits

@@ -64,7 +64,7 @@ name: Porotech
 nav: Providers
 network: true
 overview: Porotech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MicroLED, Display, Semiconductor, and GaN.
-random_paper: 58
+random_paper: 48
 score:
   band: minimal
   composite: 9.2

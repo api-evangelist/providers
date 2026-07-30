@@ -170,7 +170,7 @@ overview: 'Arch Labs publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Arch Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 14 more developer resources.'
-random_paper: 67
+random_paper: 57
 score:
   band: developing
   composite: 47.4

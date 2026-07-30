@@ -151,7 +151,7 @@ plans:
 - name: Contextual Ai Plans Pricing
   plan_count: 2
   slug: contextual-ai-plans-pricing
-random_paper: 46
+random_paper: 30
 rate_limits:
 - limit_count: 6
   name: Contextual Ai Rate Limits

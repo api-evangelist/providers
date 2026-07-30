@@ -118,7 +118,7 @@ plans:
 - name: Microsoft Azure Batch Plans Pricing
   plan_count: 3
   slug: microsoft-azure-batch-plans-pricing
-random_paper: 31
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Batch Rate Limits

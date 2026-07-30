@@ -66,7 +66,7 @@ overview: 'Valley National Bank is profiled on the [APIs.io](https://apis.io/) n
 
 
   Valley National Bank''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 13
+random_paper: 76
 score:
   band: minimal
   composite: 12.2

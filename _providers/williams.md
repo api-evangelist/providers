@@ -143,7 +143,7 @@ press:
 - date: '2026-05-25'
   title: Senator Lindsey M. Williams to Introduce Legislation ...
   url: https://senatorlindseywilliams.com/senator-lindsey-m-williams-to-introduce-legislation-requiring-disclosure-of-ai-in-political-advertisements/
-random_paper: 56
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Williams Rate Limits

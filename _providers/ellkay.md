@@ -135,7 +135,7 @@ overview: 'ELLKAY publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   ELLKAY''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, support, sandbox, and 13 more developer resources.'
-random_paper: 75
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Ellkay Rate Limits

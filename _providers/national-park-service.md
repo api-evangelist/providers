@@ -126,7 +126,7 @@ plans:
 - name: National Park Service Plans Pricing
   plan_count: 3
   slug: national-park-service-plans-pricing
-random_paper: 21
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: National Park Service Rate Limits

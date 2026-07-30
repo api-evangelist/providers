@@ -148,7 +148,7 @@ plans:
 - name: Crowdin Plans Pricing
   plan_count: 1
   slug: crowdin-plans-pricing
-random_paper: 29
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Crowdin Rate Limits

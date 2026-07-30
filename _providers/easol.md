@@ -87,7 +87,7 @@ overview: 'Easol is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Easol''s developer surface includes pricing, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 46
+random_paper: 40
 score:
   band: emerging
   composite: 18.9

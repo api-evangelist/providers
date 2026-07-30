@@ -44,7 +44,7 @@ name: Orgspace
 nav: Providers
 network: true
 overview: Orgspace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR, Human Resources, People Operations, and Org Design.
-random_paper: 42
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

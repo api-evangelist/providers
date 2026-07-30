@@ -39,7 +39,7 @@ name: SPA
 nav: Providers
 network: true
 overview: SPA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include SPA.
-random_paper: 0
+random_paper: 78
 score:
   band: minimal
   composite: 3.5

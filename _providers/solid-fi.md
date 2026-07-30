@@ -52,7 +52,7 @@ name: Solid (Solid.fi)
 nav: Providers
 network: true
 overview: Solid (Solid.fi) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking as a Service, Embedded Finance, Payments, Cards, and Historical.
-random_paper: 62
+random_paper: 53
 score:
   band: minimal
   composite: 4.3

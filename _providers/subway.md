@@ -107,7 +107,7 @@ overview: 'Subway is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Subway''s developer surface includes signup flow, FAQ, and 10 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 9.2

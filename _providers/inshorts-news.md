@@ -52,7 +52,7 @@ name: Inshorts News
 nav: Providers
 network: true
 overview: Inshorts News publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include News and Public APIs.
-random_paper: 3
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

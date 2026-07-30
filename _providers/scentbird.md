@@ -52,7 +52,7 @@ name: ScentBird
 nav: Providers
 network: true
 overview: ScentBird is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fragrance, Perfume, Subscription, and E-Commerce.
-random_paper: 67
+random_paper: 56
 score:
   band: minimal
   composite: 5.7

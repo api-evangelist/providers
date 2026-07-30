@@ -89,7 +89,7 @@ name: Ursa Space Systems
 nav: Providers
 network: true
 overview: Ursa Space Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial Intelligence, GEOINT, Satellite Imagery, Synthetic Aperture Radar, and SAR.
-random_paper: 67
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

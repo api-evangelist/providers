@@ -126,7 +126,7 @@ overview: 'Virgin Australia is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Virgin Australia''s developer surface includes engineering blog, privacy policy, legal docs, documentation, support, and 15 more developer resources.'
-random_paper: 46
+random_paper: 26
 score:
   band: emerging
   composite: 17.1

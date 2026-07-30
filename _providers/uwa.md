@@ -252,7 +252,7 @@ plans:
 - name: Uwa Plans Pricing
   plan_count: 2
   slug: uwa-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Uwa Rate Limits

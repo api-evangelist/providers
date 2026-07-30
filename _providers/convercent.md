@@ -108,7 +108,7 @@ overview: 'Convercent publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Convercent''s developer surface includes documentation, support, authentication, and 12 more developer resources.'
-random_paper: 26
+random_paper: 13
 score:
   band: emerging
   composite: 25.5

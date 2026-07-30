@@ -87,7 +87,7 @@ plans:
 - name: Omnitracs Plans Pricing
   plan_count: 3
   slug: omnitracs-plans-pricing
-random_paper: 4
+random_paper: 74
 score:
   band: emerging
   composite: 14.5

@@ -71,7 +71,7 @@ overview: 'Armory.io is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Armory.io''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 72
+random_paper: 62
 score:
   band: minimal
   composite: 9.5

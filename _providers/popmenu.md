@@ -122,7 +122,7 @@ overview: 'Popmenu publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Popmenu''s developer surface includes documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: minimal
   composite: 9.7

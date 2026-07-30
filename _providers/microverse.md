@@ -63,7 +63,7 @@ overview: 'Microverse is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Microverse''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 34
+random_paper: 21
 score:
   band: minimal
   composite: 7.0

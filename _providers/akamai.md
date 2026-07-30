@@ -2626,7 +2626,7 @@ plans:
 - name: Akamai Plans Pricing
   plan_count: 3
   slug: akamai-plans-pricing
-random_paper: 45
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Akamai Rate Limits

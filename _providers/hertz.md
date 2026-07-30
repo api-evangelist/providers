@@ -51,7 +51,7 @@ name: hertz
 nav: Providers
 network: true
 overview: hertz is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 71
+random_paper: 65
 score:
   band: minimal
   composite: 2.6

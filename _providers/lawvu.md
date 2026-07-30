@@ -285,7 +285,7 @@ overview: 'LawVu publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   LawVu''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 73
+random_paper: 67
 score:
   band: strong
   composite: 60.3

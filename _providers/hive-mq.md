@@ -136,7 +136,7 @@ overview: 'HiveMQ is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   HiveMQ''s developer surface includes documentation, engineering blog, pricing, signup flow, support, CLI, and 17 more developer resources.'
-random_paper: 47
+random_paper: 39
 score:
   band: thin
   composite: 32.5

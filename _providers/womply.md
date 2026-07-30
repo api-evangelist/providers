@@ -52,7 +52,7 @@ name: Womply
 nav: Providers
 network: true
 overview: Womply is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Small Business, Fintech, Payments, and Lending.
-random_paper: 32
+random_paper: 24
 score:
   band: minimal
   composite: 6.3

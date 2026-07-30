@@ -172,7 +172,7 @@ plans:
 - name: Cargodocs Plans Pricing
   plan_count: 1
   slug: cargodocs-plans-pricing
-random_paper: 58
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Cargodocs Rate Limits

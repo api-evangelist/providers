@@ -44,7 +44,7 @@ name: Overt
 nav: Providers
 network: true
 overview: Overt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Cell Therapy, Immunotherapy, and Oncology.
-random_paper: 74
+random_paper: 68
 score:
   band: minimal
   composite: 4.3

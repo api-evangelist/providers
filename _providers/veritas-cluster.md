@@ -125,7 +125,7 @@ plans:
 - name: Veritas Cluster Plans Pricing
   plan_count: 3
   slug: veritas-cluster-plans-pricing
-random_paper: 42
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Veritas Cluster Rate Limits

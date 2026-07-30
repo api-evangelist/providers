@@ -112,7 +112,7 @@ plans:
 - name: Localclarity Plans Pricing
   plan_count: 3
   slug: localclarity-plans-pricing
-random_paper: 68
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Localclarity Rate Limits

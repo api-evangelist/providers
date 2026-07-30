@@ -132,7 +132,7 @@ plans:
 - name: Intelerad Plans Pricing
   plan_count: 1
   slug: intelerad-plans-pricing
-random_paper: 61
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Intelerad Rate Limits

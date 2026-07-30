@@ -56,7 +56,7 @@ name: Open Movie Database
 nav: Providers
 network: true
 overview: Open Movie Database publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 26
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

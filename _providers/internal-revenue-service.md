@@ -83,7 +83,7 @@ plans:
 - name: Internal Revenue Service Plans Pricing
   plan_count: 3
   slug: internal-revenue-service-plans-pricing
-random_paper: 36
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Internal Revenue Service Rate Limits

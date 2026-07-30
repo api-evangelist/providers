@@ -76,7 +76,7 @@ plans:
 - name: Runbooks Plans Pricing
   plan_count: 3
   slug: runbooks-plans-pricing
-random_paper: 73
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Runbooks Rate Limits

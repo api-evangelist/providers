@@ -44,7 +44,7 @@ name: TellApart
 nav: Providers
 network: true
 overview: TellApart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Advertising, Marketing, and Retargeting.
-random_paper: 78
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

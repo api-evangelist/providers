@@ -120,7 +120,7 @@ overview: 'Wordware publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Wordware''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 12 more developer resources.'
-random_paper: 65
+random_paper: 55
 score:
   band: emerging
   composite: 26.6

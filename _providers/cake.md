@@ -67,7 +67,7 @@ overview: 'Cake is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Cake''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 80
+random_paper: 76
 score:
   band: minimal
   composite: 10.5

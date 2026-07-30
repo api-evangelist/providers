@@ -60,7 +60,7 @@ name: ARI
 nav: Providers
 network: true
 overview: ARI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Fashion, Retail Technology, and Marketplace.
-random_paper: 73
+random_paper: 70
 score:
   band: minimal
   composite: 6.4

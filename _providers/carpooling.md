@@ -39,7 +39,7 @@ name: Carpooling
 nav: Providers
 network: true
 overview: Carpooling is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ridesharing, Carpooling, Mobility, and Transportation.
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

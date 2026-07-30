@@ -96,7 +96,7 @@ overview: 'JD Technology publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   JD Technology''s developer surface includes documentation, API reference, signup flow, CLI, authentication, and 7 more developer resources.'
-random_paper: 39
+random_paper: 23
 score:
   band: emerging
   composite: 20.5

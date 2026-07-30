@@ -148,7 +148,7 @@ plans:
 - name: Clearml Plans Pricing
   plan_count: 1
   slug: clearml-plans-pricing
-random_paper: 7
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Clearml Rate Limits

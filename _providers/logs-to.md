@@ -56,7 +56,7 @@ name: Logs.to
 nav: Providers
 network: true
 overview: Logs.to publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 61
+random_paper: 53
 score:
   band: minimal
   composite: 5.7

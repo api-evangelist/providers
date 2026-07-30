@@ -48,7 +48,7 @@ name: Hello Alice
 nav: Providers
 network: true
 overview: Hello Alice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Small Business, Grants, and Funding.
-random_paper: 34
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

@@ -113,7 +113,7 @@ plans:
 - name: Deconetwork Plans Pricing
   plan_count: 3
   slug: deconetwork-plans-pricing
-random_paper: 55
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Deconetwork Rate Limits

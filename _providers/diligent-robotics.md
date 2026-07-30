@@ -108,7 +108,7 @@ overview: 'Diligent Robotics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Diligent Robotics'' developer surface includes FAQ, engineering blog, and 14 more developer resources.'
-random_paper: 61
+random_paper: 40
 score:
   band: minimal
   composite: 11.4

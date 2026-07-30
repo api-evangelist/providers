@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: AAM Announces Combination with Dowlais for $1.44 ...
   url: https://www.aam.com/media/story/aam-announces-combination-with-dowlais
-random_paper: 18
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: American Axle And Manufacturing Rate Limits

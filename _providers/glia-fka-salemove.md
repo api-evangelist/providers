@@ -144,7 +144,7 @@ overview: 'Glia (fka SaleMove) publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Glia (fka SaleMove)''s developer surface includes documentation, engineering blog, pricing, support, authentication, CLI, and 17 more developer resources.'
-random_paper: 49
+random_paper: 29
 score:
   band: thin
   composite: 34.9

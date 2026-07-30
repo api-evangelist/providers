@@ -119,7 +119,7 @@ overview: 'UNTUCKit publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   UNTUCKit''s developer surface includes authentication, support, engineering blog, and 13 more developer resources.'
-random_paper: 77
+random_paper: 67
 scopes:
 - name: Untuckit Scopes
   scope_count: 4

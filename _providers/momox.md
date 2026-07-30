@@ -67,7 +67,7 @@ overview: 'Momox is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Momox''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 74
+random_paper: 68
 score:
   band: minimal
   composite: 10.5

@@ -87,7 +87,7 @@ plans:
 - name: Progressive Insurance Plans Pricing
   plan_count: 1
   slug: progressive-insurance-plans-pricing
-random_paper: 35
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Progressive Insurance Rate Limits

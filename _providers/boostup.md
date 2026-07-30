@@ -178,7 +178,7 @@ overview: 'Boostup publishes 1 API on the [APIs.io](https://apis.io/) network: E
 
 
   Boostup''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, support, and 22 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: developing
   composite: 45.4

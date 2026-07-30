@@ -186,7 +186,7 @@ plans:
 - name: Heap Plans Pricing
   plan_count: 4
   slug: heap-plans-pricing
-random_paper: 9
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Heap Rate Limits

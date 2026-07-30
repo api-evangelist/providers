@@ -190,7 +190,7 @@ plans:
 - name: Apache Druid Plans Pricing
   plan_count: 3
   slug: apache-druid-plans-pricing
-random_paper: 57
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Apache Druid Rate Limits

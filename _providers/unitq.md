@@ -98,7 +98,7 @@ overview: 'unitQ publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   unitQ''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 75
+random_paper: 69
 score:
   band: emerging
   composite: 22.1

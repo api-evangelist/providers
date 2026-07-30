@@ -52,7 +52,7 @@ name: Tamatem
 nav: Providers
 network: true
 overview: Tamatem is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Game Publishing, and MENA.
-random_paper: 16
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

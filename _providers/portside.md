@@ -92,7 +92,7 @@ overview: 'Portside is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Portside''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 64
+random_paper: 54
 score:
   band: emerging
   composite: 18.3

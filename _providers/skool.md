@@ -72,7 +72,7 @@ plans:
 - name: Skool Plans Pricing
   plan_count: 2
   slug: skool-plans-pricing
-random_paper: 66
+random_paper: 60
 score:
   band: minimal
   composite: 11.9

@@ -48,7 +48,7 @@ name: English Central
 nav: Providers
 network: true
 overview: English Central is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, EdTech, and Language Learning.
-random_paper: 78
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

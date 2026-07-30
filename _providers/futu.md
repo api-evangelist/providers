@@ -111,7 +111,7 @@ overview: 'Futu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Futu''s developer surface includes documentation, API reference, getting-started guide, and 12 more developer resources.'
-random_paper: 47
+random_paper: 42
 score:
   band: emerging
   composite: 18.1

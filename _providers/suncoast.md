@@ -48,7 +48,7 @@ name: Suncoast Credit Union
 nav: Providers
 network: true
 overview: Suncoast Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, Credit Union, and Florida.
-random_paper: 70
+random_paper: 60
 score:
   band: minimal
   composite: 5.4

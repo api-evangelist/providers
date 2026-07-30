@@ -180,7 +180,7 @@ overview: 'The Hog publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   The Hog''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 36
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: The Hog Rate Limits

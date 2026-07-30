@@ -120,7 +120,7 @@ overview: 'Class publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Class'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 48
+random_paper: 42
 score:
   band: emerging
   composite: 27.4

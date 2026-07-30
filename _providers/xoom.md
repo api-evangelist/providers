@@ -83,7 +83,7 @@ overview: 'Xoom is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Xoom''s developer surface includes support, pricing, and 8 more developer resources.'
-random_paper: 46
+random_paper: 41
 score:
   band: emerging
   composite: 22.4

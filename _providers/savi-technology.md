@@ -63,7 +63,7 @@ overview: 'Savi Technology is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Savi Technology''s developer surface includes support and 4 more developer resources.'
-random_paper: 25
+random_paper: 6
 score:
   band: minimal
   composite: 10.1

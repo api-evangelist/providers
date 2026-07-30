@@ -71,7 +71,7 @@ overview: 'Outsite is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Outsite''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 52
+random_paper: 43
 score:
   band: minimal
   composite: 12.6

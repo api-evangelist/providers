@@ -84,7 +84,7 @@ overview: 'Dorsata is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Dorsata''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 21
+random_paper: 12
 score:
   band: emerging
   composite: 14.4

@@ -296,7 +296,7 @@ overview: 'Commonwealth Bank publishes 14 APIs on the [APIs.io](https://apis.io/
 
 
   Commonwealth Bank''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 26 more developer resources.'
-random_paper: 50
+random_paper: 29
 scopes:
 - name: Commonwealth Bank Scopes
   scope_count: 10

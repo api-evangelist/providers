@@ -175,7 +175,7 @@ plans:
 - name: Seamless Ai Plans Pricing
   plan_count: 3
   slug: seamless-ai-plans-pricing
-random_paper: 55
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Seamless Ai Rate Limits

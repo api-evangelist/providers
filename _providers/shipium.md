@@ -84,7 +84,7 @@ plans:
 - name: Shipium Plans Pricing
   plan_count: 1
   slug: shipium-plans-pricing
-random_paper: 38
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Shipium Rate Limits

@@ -123,7 +123,7 @@ overview: 'MLOps is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   The MLOps catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 69
+random_paper: 63
 rules:
 - name: MLOps API Rules
   rule_count: 5

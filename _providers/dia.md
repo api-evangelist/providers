@@ -67,7 +67,7 @@ overview: 'Dia is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Dia''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 59
+random_paper: 56
 score:
   band: minimal
   composite: 10.5

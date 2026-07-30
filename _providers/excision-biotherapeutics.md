@@ -48,7 +48,7 @@ name: Excision BioTherapeutics
 nav: Providers
 network: true
 overview: Excision BioTherapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Gene Editing, CRISPR, and Therapeutics.
-random_paper: 11
+random_paper: 62
 score:
   band: minimal
   composite: 5.4

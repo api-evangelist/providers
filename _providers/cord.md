@@ -55,7 +55,7 @@ overview: 'Cord * is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cord *''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 19
+random_paper: 14
 score:
   band: minimal
   composite: 5.9

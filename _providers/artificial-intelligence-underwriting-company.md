@@ -67,7 +67,7 @@ overview: 'Artificial Intelligence Underwriting Company is profiled on the [APIs
 
 
   Artificial Intelligence Underwriting Company''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 68
+random_paper: 13
 score:
   band: emerging
   composite: 13.6

@@ -209,7 +209,7 @@ plans:
 - name: Spaitial Ai Plans
   plan_count: 4
   slug: spaitial-ai-plans
-random_paper: 49
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Spaitial Ai Rate Limits

@@ -154,7 +154,7 @@ plans:
 - name: Bandsintown Plans Pricing
   plan_count: 2
   slug: bandsintown-plans-pricing
-random_paper: 57
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Bandsintown Rate Limits

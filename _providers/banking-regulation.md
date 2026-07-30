@@ -97,7 +97,7 @@ overview: 'Banking Regulation is profiled on the [APIs.io](https://apis.io/) net
 
 
   The Banking Regulation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 75
+random_paper: 53
 rules:
 - name: Banking Regulation API Rules
   rule_count: 5

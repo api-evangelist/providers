@@ -255,7 +255,7 @@ plans:
 - name: Dapr Plans Pricing
   plan_count: 1
   slug: dapr-plans-pricing
-random_paper: 18
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Dapr Rate Limits

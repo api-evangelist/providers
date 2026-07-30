@@ -115,7 +115,7 @@ plans:
 - name: Tailcall Plans Pricing
   plan_count: 4
   slug: tailcall-plans-pricing
-random_paper: 28
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Tailcall Rate Limits

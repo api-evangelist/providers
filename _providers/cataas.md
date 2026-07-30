@@ -195,7 +195,7 @@ overview: 'Cataas publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cataas'' developer surface includes authentication, tooling, and 12 more developer resources.'
-random_paper: 54
+random_paper: 47
 rules:
 - name: Cataas API Rules
   rule_count: 5

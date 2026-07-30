@@ -506,7 +506,7 @@ plans:
 - name: Informatica Plans Pricing
   plan_count: 3
   slug: informatica-plans-pricing
-random_paper: 31
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Informatica Rate Limits

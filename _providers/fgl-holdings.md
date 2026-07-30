@@ -61,7 +61,7 @@ plans:
 - name: Fgl Holdings Plans Pricing
   plan_count: 1
   slug: fgl-holdings-plans-pricing
-random_paper: 80
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Fgl Holdings Rate Limits

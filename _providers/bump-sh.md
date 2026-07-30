@@ -297,7 +297,7 @@ plans:
 - name: Bump Sh Plans Pricing
   plan_count: 4
   slug: bump-sh-plans-pricing
-random_paper: 52
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Bump Sh Rate Limits

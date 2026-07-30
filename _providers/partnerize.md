@@ -463,7 +463,7 @@ plans:
 - name: Partnerize Plans Pricing
   plan_count: 2
   slug: partnerize-plans-pricing
-random_paper: 39
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Partnerize Rate Limits

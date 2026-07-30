@@ -104,7 +104,7 @@ plans:
 - name: Nicereply Plans Pricing
   plan_count: 5
   slug: nicereply-plans-pricing
-random_paper: 80
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Nicereply Rate Limits

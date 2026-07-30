@@ -56,7 +56,7 @@ name: Trace Data
 nav: Providers
 network: true
 overview: Trace Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Security, Data Observability, and Data Privacy.
-random_paper: 10
+random_paper: 80
 score:
   band: minimal
   composite: 5.7

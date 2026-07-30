@@ -44,7 +44,7 @@ name: Solvo
 nav: Providers
 network: true
 overview: Solvo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Fintech.
-random_paper: 77
+random_paper: 71
 score:
   band: minimal
   composite: 4.1

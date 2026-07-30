@@ -44,7 +44,7 @@ name: Storia Originals, Inc.
 nav: Providers
 network: true
 overview: Storia Originals, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Entertainment, Media, Storytelling, and Animation.
-random_paper: 5
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

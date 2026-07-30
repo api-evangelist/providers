@@ -83,7 +83,7 @@ overview: 'Secret Escapes is profiled on the [APIs.io](https://apis.io/) network
 
 
   Secret Escapes'' developer surface includes support and 9 more developer resources.'
-random_paper: 54
+random_paper: 37
 score:
   band: minimal
   composite: 12.6

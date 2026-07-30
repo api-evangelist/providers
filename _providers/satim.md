@@ -56,7 +56,7 @@ name: SATIM
 nav: Providers
 network: true
 overview: SATIM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Intelligence, Geospatial, and Synthetic Aperture Radar.
-random_paper: 56
+random_paper: 50
 score:
   band: minimal
   composite: 10.3

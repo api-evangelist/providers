@@ -48,7 +48,7 @@ name: Omnidock
 nav: Providers
 network: true
 overview: Omnidock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, E-Commerce, Merchant Of Record, and Multi-Marketplace.
-random_paper: 42
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

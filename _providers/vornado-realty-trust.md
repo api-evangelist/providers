@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: 'Vornado Realty: Valued On Depressed Earnings, Not ...'
   url: https://seekingalpha.com/article/4899203-vornado-realty-valued-on-depressed-earnings-not-stabilized-noi
-random_paper: 61
+random_paper: 36
 rules:
 - name: Vornado Realty Trust API Rules
   rule_count: 5

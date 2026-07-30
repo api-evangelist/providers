@@ -119,7 +119,7 @@ overview: 'Varjo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Varjo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, and 13 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: emerging
   composite: 27.5

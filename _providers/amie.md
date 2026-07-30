@@ -110,7 +110,7 @@ overview: 'Amie is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Amie''s developer surface includes signup flow, pricing, engineering blog, support, changelog, and 9 more developer resources.'
-random_paper: 7
+random_paper: 2
 score:
   band: thin
   composite: 33.7

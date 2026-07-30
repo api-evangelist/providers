@@ -63,7 +63,7 @@ overview: 'Splitty is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Splitty''s developer surface includes support and 4 more developer resources.'
-random_paper: 64
+random_paper: 55
 score:
   band: minimal
   composite: 10.1

@@ -60,7 +60,7 @@ name: Habitus Associates Co., Ltd.
 nav: Providers
 network: true
 overview: Habitus Associates Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Art, Marketplace, E-commerce, and AI.
-random_paper: 62
+random_paper: 32
 score:
   band: minimal
   composite: 7.5

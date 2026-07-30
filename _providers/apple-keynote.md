@@ -199,7 +199,7 @@ plans:
 - name: Apple Keynote Plans Pricing
   plan_count: 7
   slug: apple-keynote-plans-pricing
-random_paper: 46
+random_paper: 30
 rate_limits:
 - limit_count: 4
   name: Apple Keynote Rate Limits

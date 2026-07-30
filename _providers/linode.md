@@ -518,7 +518,7 @@ plans:
 - name: Linode Plans Pricing
   plan_count: 6
   slug: linode-plans-pricing
-random_paper: 68
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Linode Rate Limits

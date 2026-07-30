@@ -95,7 +95,7 @@ overview: 'Fullseam is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fullseam''s developer surface includes support and 12 more developer resources.'
-random_paper: 47
+random_paper: 37
 score:
   band: emerging
   composite: 17.9

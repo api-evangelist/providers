@@ -48,7 +48,7 @@ name: Zet
 nav: Providers
 network: true
 overview: Zet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Credit, Credit Cards, and Payments.
-random_paper: 15
+random_paper: 11
 score:
   band: minimal
   composite: 7.0

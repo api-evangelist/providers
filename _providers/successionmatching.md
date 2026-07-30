@@ -67,7 +67,7 @@ overview: 'SuccessionMatching is profiled on the [APIs.io](https://apis.io/) net
 
 
   SuccessionMatching''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 67
+random_paper: 44
 score:
   band: minimal
   composite: 11.8

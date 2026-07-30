@@ -100,7 +100,7 @@ plans:
 - name: Ipbase Plans Pricing
   plan_count: 5
   slug: ipbase-plans-pricing
-random_paper: 61
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Ipbase Rate Limits

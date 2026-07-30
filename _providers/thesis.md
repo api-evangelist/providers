@@ -83,7 +83,7 @@ overview: 'Thesis is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Thesis'' developer surface includes signup flow and 9 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: emerging
   composite: 18.5

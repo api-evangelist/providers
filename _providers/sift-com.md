@@ -374,7 +374,7 @@ plans:
 - name: Sift Com Plans Pricing
   plan_count: 5
   slug: sift-com-plans-pricing
-random_paper: 73
+random_paper: 64
 rate_limits:
 - limit_count: 8
   name: Sift Com Rate Limits

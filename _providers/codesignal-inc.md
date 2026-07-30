@@ -151,7 +151,7 @@ overview: 'CodeSignal, Inc. publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   CodeSignal, Inc.''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 31
+random_paper: 14
 score:
   band: developing
   composite: 47.9

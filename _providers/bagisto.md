@@ -119,7 +119,7 @@ plans:
 - name: Bagisto Plans Pricing
   plan_count: 3
   slug: bagisto-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Bagisto Rate Limits

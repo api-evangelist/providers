@@ -68,7 +68,7 @@ plans:
 - name: Nswag Plans Pricing
   plan_count: 3
   slug: nswag-plans-pricing
-random_paper: 58
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Nswag Rate Limits

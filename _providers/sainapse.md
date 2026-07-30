@@ -75,7 +75,7 @@ overview: 'Sainapse is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sainapse''s developer surface includes support and 7 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: minimal
   composite: 8.9

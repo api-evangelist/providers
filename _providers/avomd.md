@@ -75,7 +75,7 @@ overview: 'AvoMD is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   AvoMD''s developer surface includes support and 7 more developer resources.'
-random_paper: 49
+random_paper: 43
 score:
   band: emerging
   composite: 14.0

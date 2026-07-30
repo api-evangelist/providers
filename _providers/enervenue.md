@@ -104,7 +104,7 @@ overview: 'EnerVenue is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   EnerVenue''s developer surface includes support, documentation, YouTube channel, and 12 more developer resources.'
-random_paper: 1
+random_paper: 71
 score:
   band: minimal
   composite: 7.6

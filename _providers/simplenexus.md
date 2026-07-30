@@ -115,7 +115,7 @@ overview: 'SimpleNexus publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   SimpleNexus'' developer surface includes documentation, API reference, getting-started guide, support, authentication, and 10 more developer resources.'
-random_paper: 79
+random_paper: 65
 score:
   band: thin
   composite: 36.0

@@ -168,7 +168,7 @@ plans:
 - name: Dialpad Plans Pricing
   plan_count: 1
   slug: dialpad-plans-pricing
-random_paper: 71
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Dialpad Rate Limits

@@ -44,7 +44,7 @@ name: 1 Mainstream
 nav: Providers
 network: true
 overview: 1 Mainstream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Media, OTT, and Streaming.
-random_paper: 33
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

@@ -159,7 +159,7 @@ plans:
 - name: Cargosmart Plans Pricing
   plan_count: 1
   slug: cargosmart-plans-pricing
-random_paper: 22
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Cargosmart Rate Limits

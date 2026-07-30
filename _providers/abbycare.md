@@ -56,7 +56,7 @@ name: Abbycare
 nav: Providers
 network: true
 overview: Abbycare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Caregiving, Home Care, and Medicaid.
-random_paper: 15
+random_paper: 5
 score:
   band: minimal
   composite: 10.5

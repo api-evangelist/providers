@@ -44,7 +44,7 @@ name: Penguint
 nav: Providers
 network: true
 overview: Penguint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Tourism, Flights, and Booking.
-random_paper: 64
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

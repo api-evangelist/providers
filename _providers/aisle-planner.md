@@ -72,7 +72,7 @@ plans:
 - name: Aisle Planner Plans Pricing
   plan_count: 6
   slug: aisle-planner-plans-pricing
-random_paper: 27
+random_paper: 11
 score:
   band: emerging
   composite: 13.5

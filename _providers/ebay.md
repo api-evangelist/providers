@@ -1774,7 +1774,7 @@ press:
 - date: '2026-05-25'
   title: Inside eBay's Quest to Become an AI Leader
   url: https://www.wsj.com/articles/inside-ebays-quest-to-become-an-ai-leader-32e7fa45
-random_paper: 12
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Ebay Rate Limits

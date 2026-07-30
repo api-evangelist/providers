@@ -65,7 +65,7 @@ plans:
 - name: Heico Plans Pricing
   plan_count: 1
   slug: heico-plans-pricing
-random_paper: 34
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Heico Rate Limits

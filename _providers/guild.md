@@ -79,7 +79,7 @@ overview: 'Guild is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Guild''s developer surface includes engineering blog, legal docs, and 7 more developer resources.'
-random_paper: 47
+random_paper: 41
 score:
   band: minimal
   composite: 12.3

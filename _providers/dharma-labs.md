@@ -56,7 +56,7 @@ name: Dharma Labs
 nav: Providers
 network: true
 overview: Dharma Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defi, Cryptocurrency, Ethereum, and Lending.
-random_paper: 31
+random_paper: 18
 score:
   band: minimal
   composite: 7.0

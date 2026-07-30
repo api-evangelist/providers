@@ -48,7 +48,7 @@ name: Prospera
 nav: Providers
 network: true
 overview: Prospera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Agriculture, AgTech, and Machine Learning.
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

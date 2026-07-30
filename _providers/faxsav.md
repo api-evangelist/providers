@@ -48,7 +48,7 @@ name: FaxSav
 nav: Providers
 network: true
 overview: FaxSav is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fax, Internet Fax, Messaging, and Communications.
-random_paper: 1
+random_paper: 75
 score:
   band: minimal
   composite: 5.5

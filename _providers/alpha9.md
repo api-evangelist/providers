@@ -67,7 +67,7 @@ overview: 'Alpha-9 Oncology is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Alpha-9 Oncology''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 8
+random_paper: 1
 score:
   band: minimal
   composite: 10.4

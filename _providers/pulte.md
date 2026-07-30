@@ -71,7 +71,7 @@ overview: 'Pulte is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Pulte''s developer surface includes product news and 6 more developer resources.'
-random_paper: 68
+random_paper: 62
 score:
   band: minimal
   composite: 4.1

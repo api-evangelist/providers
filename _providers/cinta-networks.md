@@ -45,7 +45,7 @@ name: Cinta Networks
 nav: Providers
 network: true
 overview: Cinta Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Optical Networking, DWDM, Telecommunications, Network Equipment, and Optical Switching.
-random_paper: 7
+random_paper: 71
 score:
   band: minimal
   composite: 4.3

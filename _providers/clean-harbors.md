@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: Depot Connect International Streamlines Portfolio with ...
   url: https://www.prnewswire.com/news-releases/depot-connect-international-streamlines-portfolio-with-sale-of-industrial-and-rail-services-to-clean-harbors-302692747.html
-random_paper: 17
+random_paper: 1
 score:
   band: emerging
   composite: 15.4

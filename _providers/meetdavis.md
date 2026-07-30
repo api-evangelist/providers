@@ -48,7 +48,7 @@ name: meetdavis
 nav: Providers
 network: true
 overview: meetdavis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Artificial Intelligence, PropTech, and Architecture.
-random_paper: 71
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

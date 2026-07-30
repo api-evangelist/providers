@@ -99,7 +99,7 @@ overview: 'Gym Class VR is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Gym Class VR''s developer surface includes support, YouTube channel, and 12 more developer resources.'
-random_paper: 55
+random_paper: 41
 score:
   band: minimal
   composite: 10.1

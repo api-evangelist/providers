@@ -276,7 +276,7 @@ overview: 'ZeroTier publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ZeroTier''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 34 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: strong
   composite: 61.9

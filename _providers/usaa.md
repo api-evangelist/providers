@@ -147,7 +147,7 @@ press:
 - date: '2026-05-25'
   title: Responsible Use of Artificial Intelligence
   url: https://www.usaa.com/about/artificial-intelligence/
-random_paper: 21
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Usaa Rate Limits

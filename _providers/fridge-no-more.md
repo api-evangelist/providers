@@ -44,7 +44,7 @@ name: Fridge No More
 nav: Providers
 network: true
 overview: Fridge No More is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 75
+random_paper: 59
 score:
   band: minimal
   composite: 4.1

@@ -59,7 +59,7 @@ overview: 'MindRhythm is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   MindRhythm''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 39
+random_paper: 26
 score:
   band: minimal
   composite: 9.2

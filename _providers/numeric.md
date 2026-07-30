@@ -116,7 +116,7 @@ overview: 'Numeric publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Numeric''s developer surface includes documentation, engineering blog, pricing, authentication, and 12 more developer resources.'
-random_paper: 26
+random_paper: 17
 scopes:
 - name: Numeric Scopes
   scope_count: 4

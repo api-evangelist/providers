@@ -167,7 +167,7 @@ plans:
 - name: The Odds Api Plans Pricing
   plan_count: 3
   slug: the-odds-api-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: The Odds Api Rate Limits

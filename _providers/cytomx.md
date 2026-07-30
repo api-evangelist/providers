@@ -64,7 +64,7 @@ overview: 'CytomX Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   CytomX Therapeutics'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 28
+random_paper: 20
 score:
   band: minimal
   composite: 6.5

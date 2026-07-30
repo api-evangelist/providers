@@ -91,7 +91,7 @@ overview: 'GraphQL Request publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   GraphQL Request''s developer surface includes documentation, pricing, and 8 more developer resources.'
-random_paper: 34
+random_paper: 15
 score:
   band: emerging
   composite: 24.1

@@ -232,7 +232,7 @@ overview: 'Payt publishes 20 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Payt''s developer surface includes authentication, changelog, sandbox, documentation, API reference, support, engineering blog, and 22 more developer resources.'
-random_paper: 41
+random_paper: 36
 scopes:
 - name: Payt Scopes
   scope_count: 0

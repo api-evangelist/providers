@@ -247,7 +247,7 @@ plans:
 - name: Queens University At Kingston Plans Pricing
   plan_count: 2
   slug: queens-university-at-kingston-plans-pricing
-random_paper: 7
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Queens University At Kingston Rate Limits

@@ -55,7 +55,7 @@ overview: 'Fabrion is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Fabrion''s developer surface includes support and 2 more developer resources.'
-random_paper: 8
+random_paper: 81
 score:
   band: minimal
   composite: 5.9

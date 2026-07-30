@@ -123,7 +123,7 @@ overview: 'Wuilt publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wuilt''s developer surface includes signup flow, pricing, engineering blog, support, FAQ, YouTube channel, and 13 more developer resources.'
-random_paper: 79
+random_paper: 73
 score:
   band: thin
   composite: 28.6

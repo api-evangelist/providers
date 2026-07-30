@@ -103,7 +103,7 @@ overview: 'CHANGELOG.md (Keep a Changelog) is profiled on the [APIs.io](https://
 
 
   CHANGELOG.md (Keep a Changelog)''s developer surface includes documentation, tooling, and 7 more developer resources.'
-random_paper: 56
+random_paper: 42
 score:
   band: minimal
   composite: 8.8

@@ -203,7 +203,7 @@ overview: 'SEDNA publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   SEDNA''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 37
+random_paper: 31
 scopes:
 - name: Sedna Scopes
   scope_count: 53

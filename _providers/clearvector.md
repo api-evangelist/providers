@@ -91,7 +91,7 @@ overview: 'Clearvector is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Clearvector''s developer surface includes engineering blog, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 44
+random_paper: 30
 score:
   band: emerging
   composite: 17.3

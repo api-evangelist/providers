@@ -190,7 +190,7 @@ overview: 'Fin publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Fin''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 18 more developer resources.'
-random_paper: 74
+random_paper: 71
 score:
   band: thin
   composite: 41.9

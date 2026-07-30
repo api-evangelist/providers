@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: GGV Capital
 nav: Providers
 network: true
-random_paper: 50
+random_paper: 37
 slug: ggv-capital
 tags:
 - Venture Capital

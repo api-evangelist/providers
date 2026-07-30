@@ -236,7 +236,7 @@ plans:
 - name: Court Listener Plans Pricing
   plan_count: 7
   slug: court-listener-plans-pricing
-random_paper: 14
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Court Listener Rate Limits

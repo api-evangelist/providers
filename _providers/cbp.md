@@ -125,7 +125,7 @@ plans:
 - name: Cbp Plans Pricing
   plan_count: 4
   slug: cbp-plans-pricing
-random_paper: 66
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Cbp Rate Limits

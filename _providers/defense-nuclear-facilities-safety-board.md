@@ -94,7 +94,7 @@ plans:
 - name: Defense Nuclear Facilities Safety Board Plans Pricing
   plan_count: 3
   slug: defense-nuclear-facilities-safety-board-plans-pricing
-random_paper: 74
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Defense Nuclear Facilities Safety Board Rate Limits

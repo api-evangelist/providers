@@ -119,7 +119,7 @@ plans:
 - name: Vroom Plans Pricing
   plan_count: 2
   slug: vroom-plans-pricing
-random_paper: 77
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Vroom Rate Limits

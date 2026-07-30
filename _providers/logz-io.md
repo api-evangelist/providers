@@ -491,7 +491,7 @@ plans:
 - name: Logz Io Plans Pricing
   plan_count: 7
   slug: logz-io-plans-pricing
-random_paper: 57
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Logz Io Rate Limits

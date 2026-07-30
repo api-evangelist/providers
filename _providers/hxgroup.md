@@ -52,7 +52,7 @@ name: Hexing Electrical Co., Ltd.
 nav: Providers
 network: true
 overview: Hexing Electrical Co., Ltd. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Smart Grid, Smart Metering, and AMI.
-random_paper: 52
+random_paper: 43
 score:
   band: minimal
   composite: 6.1

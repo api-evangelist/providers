@@ -48,7 +48,7 @@ name: Hypersonica
 nav: Providers
 network: true
 overview: Hypersonica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Aerospace, Hypersonics, and Defence Technology.
-random_paper: 55
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

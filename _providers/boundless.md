@@ -79,7 +79,7 @@ overview: 'Boundless is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Boundless'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 3
+random_paper: 73
 score:
   band: emerging
   composite: 16.3

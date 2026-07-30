@@ -48,7 +48,7 @@ name: Dasera
 nav: Providers
 network: true
 overview: Dasera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Data Security, Data Security Posture Management, and Data Governance.
-random_paper: 57
+random_paper: 50
 score:
   band: minimal
   composite: 5.0

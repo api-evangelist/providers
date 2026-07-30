@@ -48,7 +48,7 @@ name: Cambridge Aerospace
 nav: Providers
 network: true
 overview: Cambridge Aerospace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Defense, Aerospace, and Missile Defense.
-random_paper: 55
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

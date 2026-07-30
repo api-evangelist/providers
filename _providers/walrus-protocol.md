@@ -180,7 +180,7 @@ overview: 'Walrus Protocol publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Walrus Protocol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 25 more developer resources.'
-random_paper: 58
+random_paper: 39
 score:
   band: developing
   composite: 44.4

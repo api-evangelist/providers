@@ -71,7 +71,7 @@ overview: 'Octave is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Octave''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 75
+random_paper: 68
 score:
   band: minimal
   composite: 11.1

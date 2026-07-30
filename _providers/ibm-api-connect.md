@@ -149,7 +149,7 @@ plans:
 - name: Ibm Api Connect Plans Pricing
   plan_count: 3
   slug: ibm-api-connect-plans-pricing
-random_paper: 4
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Ibm Api Connect Rate Limits

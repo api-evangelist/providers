@@ -201,7 +201,7 @@ overview: 'RevenueBase publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   RevenueBase''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, changelog, engineering blog, and 28 more developer resources.'
-random_paper: 39
+random_paper: 25
 score:
   band: developing
   composite: 52.3

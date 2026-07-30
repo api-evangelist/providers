@@ -176,7 +176,7 @@ plans:
 - name: Marinetraffic Plans Pricing
   plan_count: 1
   slug: marinetraffic-plans-pricing
-random_paper: 75
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Marinetraffic Rate Limits

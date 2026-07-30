@@ -177,7 +177,7 @@ plans:
 - name: Akka Plans Pricing
   plan_count: 6
   slug: akka-plans-pricing
-random_paper: 3
+random_paper: 80
 rate_limits:
 - limit_count: 3
   name: Akka Rate Limits

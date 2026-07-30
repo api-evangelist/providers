@@ -92,7 +92,7 @@ overview: 'Beauty Pie is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Beauty Pie''s developer surface includes engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 77
+random_paper: 66
 scopes:
 - name: Beautypie Scopes
   scope_count: 4

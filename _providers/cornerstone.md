@@ -146,7 +146,7 @@ plans:
 - name: Cornerstone Plans Pricing
   plan_count: 5
   slug: cornerstone-plans-pricing
-random_paper: 68
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Cornerstone Rate Limits

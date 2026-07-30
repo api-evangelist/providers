@@ -67,7 +67,7 @@ overview: 'Spacetime Studios is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Spacetime Studios'' developer surface includes support, pricing, and 4 more developer resources.'
-random_paper: 78
+random_paper: 57
 score:
   band: minimal
   composite: 12.2

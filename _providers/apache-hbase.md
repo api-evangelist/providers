@@ -226,7 +226,7 @@ plans:
 - name: Apache Hbase Plans Pricing
   plan_count: 3
   slug: apache-hbase-plans-pricing
-random_paper: 36
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Apache Hbase Rate Limits

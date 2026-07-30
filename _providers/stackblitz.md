@@ -119,7 +119,7 @@ plans:
 - name: Stackblitz Plans Pricing
   plan_count: 4
   slug: stackblitz-plans-pricing
-random_paper: 30
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Stackblitz Rate Limits

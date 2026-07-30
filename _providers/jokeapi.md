@@ -278,7 +278,7 @@ plans:
 - name: Jokeapi Plans Pricing
   plan_count: 2
   slug: jokeapi-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Jokeapi Rate Limits

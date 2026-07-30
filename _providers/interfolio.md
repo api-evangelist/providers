@@ -123,7 +123,7 @@ overview: 'Interfolio publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Interfolio''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 12 more developer resources.'
-random_paper: 30
+random_paper: 17
 score:
   band: emerging
   composite: 25.1

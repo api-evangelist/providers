@@ -95,7 +95,7 @@ overview: 'Birdie is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Birdie''s developer surface includes pricing, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 56
+random_paper: 49
 score:
   band: emerging
   composite: 20.4

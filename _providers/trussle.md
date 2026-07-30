@@ -48,7 +48,7 @@ name: Trussle
 nav: Providers
 network: true
 overview: Trussle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Fintech, Financial Services, and United Kingdom.
-random_paper: 57
+random_paper: 48
 score:
   band: minimal
   composite: 5.8

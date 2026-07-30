@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: NVIDIA and Intel to Develop AI Infrastructure and Personal ...
   url: http://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products
-random_paper: 54
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Intel Rate Limits

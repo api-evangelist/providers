@@ -257,7 +257,7 @@ overview: 'Brookfield Asset Management is profiled on the [APIs.io](https://apis
 
 
   Brookfield Asset Management''s developer surface includes FAQ, YouTube channel, GitHub presence, and 37 more developer resources.'
-random_paper: 71
+random_paper: 38
 score:
   band: emerging
   composite: 21.9

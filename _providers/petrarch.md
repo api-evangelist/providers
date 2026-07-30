@@ -48,7 +48,7 @@ name: Petrarch
 nav: Providers
 network: true
 overview: Petrarch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Marketplace, Data Engineering, Enterprise Data, and Artificial Intelligence.
-random_paper: 47
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

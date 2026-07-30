@@ -72,7 +72,7 @@ overview: 'Teamworks is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Teamworks'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 17
+random_paper: 5
 score:
   band: minimal
   composite: 12.6

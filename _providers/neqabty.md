@@ -48,7 +48,7 @@ name: Neqabty
 nav: Providers
 network: true
 overview: Neqabty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Egypt, Syndicate, Membership, and Mobile Application.
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 5.6

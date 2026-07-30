@@ -52,7 +52,7 @@ name: bannerman
 nav: Providers
 network: true
 overview: bannerman is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Physical Security, Security Guards, and Marketplace.
-random_paper: 55
+random_paper: 44
 score:
   band: minimal
   composite: 7.6

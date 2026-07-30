@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Notified Public Relations Solutions
   url: https://insight.notified.com/hubfs/NF%20Whitepapers/Fact%20Sheets/PR-Product%20Sheet-PR%20Cloud-1.pdf?mobile=1
-random_paper: 28
+random_paper: 19
 score:
   band: minimal
   composite: 4.1

@@ -177,7 +177,7 @@ plans:
 - name: Daily Co Plans Pricing
   plan_count: 5
   slug: daily-co-plans-pricing
-random_paper: 57
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Daily Co Rate Limits

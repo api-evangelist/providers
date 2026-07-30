@@ -56,7 +56,7 @@ name: PEI-Genesis
 nav: Providers
 network: true
 overview: PEI-Genesis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Distribution, Electronics, Connectors, Cable Assembly, and Manufacturing.
-random_paper: 60
+random_paper: 47
 score:
   band: minimal
   composite: 4.4

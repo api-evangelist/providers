@@ -75,7 +75,7 @@ overview: 'doubleAI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   doubleAI''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 27
+random_paper: 17
 score:
   band: minimal
   composite: 6.9

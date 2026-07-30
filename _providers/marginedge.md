@@ -241,7 +241,7 @@ plans:
 - name: Marginedge Plans Pricing
   plan_count: 3
   slug: marginedge-plans-pricing
-random_paper: 71
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Marginedge Rate Limits

@@ -168,7 +168,7 @@ plans:
 - name: Cvent Registration Plans Pricing
   plan_count: 3
   slug: cvent-registration-plans-pricing
-random_paper: 33
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Cvent Registration Rate Limits

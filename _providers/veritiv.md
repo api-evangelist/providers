@@ -88,7 +88,7 @@ name: Veritiv
 nav: Providers
 network: true
 overview: Veritiv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Packaging, Facility Solutions, Print, Publishing, and Distribution.
-random_paper: 48
+random_paper: 39
 score:
   band: minimal
   composite: 5.7

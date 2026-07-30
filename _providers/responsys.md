@@ -100,7 +100,7 @@ overview: 'Responsys publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Responsys'' developer surface includes documentation, API reference, authentication, and 9 more developer resources.'
-random_paper: 42
+random_paper: 30
 score:
   band: emerging
   composite: 15.4

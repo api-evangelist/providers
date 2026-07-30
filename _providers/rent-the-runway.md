@@ -52,7 +52,7 @@ name: Rent the Runway
 nav: Providers
 network: true
 overview: Rent the Runway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Fashion, Retail, and Subscription.
-random_paper: 72
+random_paper: 54
 score:
   band: minimal
   composite: 5.7

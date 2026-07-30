@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Estée Lauder bets generative AI can keep pace with ...
   url: https://www.retaildive.com/news/estee-lauder-generative-ai-Google-Cloud-Next/692483/
-random_paper: 1
+random_paper: 68
 score:
   band: minimal
   composite: 3.3

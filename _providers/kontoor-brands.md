@@ -91,7 +91,7 @@ overview: 'Kontoor Brands is profiled on the [APIs.io](https://apis.io/) network
 
 
   Kontoor Brands'' developer surface includes product news, engineering blog, and 10 more developer resources.'
-random_paper: 1
+random_paper: 65
 score:
   band: minimal
   composite: 9.1

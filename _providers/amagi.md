@@ -188,7 +188,7 @@ overview: 'Amagi publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Amagi''s developer surface includes documentation, support, engineering blog, authentication, CLI, and 13 more developer resources.'
-random_paper: 25
+random_paper: 19
 score:
   band: thin
   composite: 33.6

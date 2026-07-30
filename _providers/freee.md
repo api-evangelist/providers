@@ -141,7 +141,7 @@ plans:
 - name: Freee Plans Pricing
   plan_count: 5
   slug: freee-plans-pricing
-random_paper: 33
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Freee Rate Limits

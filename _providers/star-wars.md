@@ -164,7 +164,7 @@ plans:
 - name: Star Wars Plans Pricing
   plan_count: 1
   slug: star-wars-plans-pricing
-random_paper: 41
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Star Wars Rate Limits

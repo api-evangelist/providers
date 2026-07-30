@@ -55,7 +55,7 @@ overview: 'Red RidgeBio is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Red RidgeBio''s developer surface includes support and 2 more developer resources.'
-random_paper: 63
+random_paper: 49
 score:
   band: minimal
   composite: 6.1

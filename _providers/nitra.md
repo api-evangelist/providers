@@ -79,7 +79,7 @@ overview: 'Nitra is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nitra''s developer surface includes signup flow, support, and 7 more developer resources.'
-random_paper: 56
+random_paper: 50
 score:
   band: emerging
   composite: 17.1

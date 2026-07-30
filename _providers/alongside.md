@@ -48,7 +48,7 @@ name: Alongside
 nav: Providers
 network: true
 overview: Alongside is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Compliance, KYC, and AML.
-random_paper: 59
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

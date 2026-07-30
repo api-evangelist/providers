@@ -71,7 +71,7 @@ overview: 'Policybazaar is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Policybazaar''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 66
+random_paper: 51
 score:
   band: minimal
   composite: 12.1

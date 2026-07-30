@@ -76,7 +76,7 @@ plans:
 - name: Messaging Api Plans Pricing
   plan_count: 3
   slug: messaging-api-plans-pricing
-random_paper: 21
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Messaging Api Rate Limits

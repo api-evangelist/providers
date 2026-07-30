@@ -75,7 +75,7 @@ overview: 'Tutor Intelligence is profiled on the [APIs.io](https://apis.io/) net
 
 
   Tutor Intelligence''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 23
+random_paper: 0
 score:
   band: emerging
   composite: 13.8

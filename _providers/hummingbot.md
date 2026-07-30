@@ -196,7 +196,7 @@ overview: 'Hummingbot publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Hummingbot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 17 more developer resources.'
-random_paper: 29
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Hummingbot Rate Limits

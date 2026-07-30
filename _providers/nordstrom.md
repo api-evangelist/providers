@@ -95,7 +95,7 @@ press:
 - date: '2026-05-25'
   title: Nordstrom refreshes its app with more editorial content, ...
   url: https://www.chiefmarketer.com/nordstrom-refreshes-its-app-with-more-editorial-content-generative-ai/
-random_paper: 28
+random_paper: 16
 score:
   band: minimal
   composite: 5.6

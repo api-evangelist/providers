@@ -71,7 +71,7 @@ overview: 'Grouper is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Grouper''s developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: minimal
   composite: 12.7

@@ -109,7 +109,7 @@ plans:
 - name: Semsee Plans Pricing
   plan_count: 3
   slug: semsee-plans-pricing
-random_paper: 75
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Semsee Rate Limits

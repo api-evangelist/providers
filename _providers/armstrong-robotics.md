@@ -56,7 +56,7 @@ name: Armstrong Robotics
 nav: Providers
 network: true
 overview: Armstrong Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Automation, Artificial Intelligence, and Hardware.
-random_paper: 40
+random_paper: 17
 score:
   band: minimal
   composite: 9.2

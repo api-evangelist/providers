@@ -63,7 +63,7 @@ overview: 'Presence is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Presence''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 43
+random_paper: 33
 score:
   band: minimal
   composite: 8.4

@@ -91,7 +91,7 @@ overview: 'TermScout is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   TermScout''s developer surface includes engineering blog, support, pricing, and 9 more developer resources.'
-random_paper: 26
+random_paper: 14
 score:
   band: emerging
   composite: 19.8

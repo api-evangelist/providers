@@ -102,7 +102,7 @@ press:
 - date: '2026-05-25'
   title: Belden earnings up next as investors eye Physical AI push
   url: https://www.investing.com/news/earnings/belden-earnings-up-next-as-investors-eye-physical-ai-push-93CH-4500853
-random_paper: 51
+random_paper: 44
 score:
   band: minimal
   composite: 10.8

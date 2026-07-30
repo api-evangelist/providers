@@ -398,7 +398,7 @@ plans:
 - name: Tamara Plans Pricing
   plan_count: 2
   slug: tamara-plans-pricing
-random_paper: 63
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Tamara Rate Limits

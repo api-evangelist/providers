@@ -133,7 +133,7 @@ plans:
 - name: Angular 14 Plans Pricing
   plan_count: 3
   slug: angular-14-plans-pricing
-random_paper: 1
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Angular 14 Rate Limits

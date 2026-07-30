@@ -126,7 +126,7 @@ plans:
 - name: Resy Plans Pricing
   plan_count: 2
   slug: resy-plans-pricing
-random_paper: 46
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Resy Rate Limits

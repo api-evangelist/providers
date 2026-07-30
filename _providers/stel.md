@@ -75,7 +75,7 @@ overview: 'Stel is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Stel''s developer surface includes documentation, developer portal, engineering blog, support, and 4 more developer resources.'
-random_paper: 35
+random_paper: 30
 score:
   band: minimal
   composite: 12.6

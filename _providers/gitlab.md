@@ -1156,7 +1156,7 @@ plans:
 - name: Gitlab Plans Pricing
   plan_count: 3
   slug: gitlab-plans-pricing
-random_paper: 60
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Gitlab Rate Limits

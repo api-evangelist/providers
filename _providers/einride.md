@@ -181,7 +181,7 @@ overview: 'Einride publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Einride''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 7
+random_paper: 80
 score:
   band: thin
   composite: 37.9

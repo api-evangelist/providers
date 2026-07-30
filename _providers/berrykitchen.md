@@ -60,7 +60,7 @@ name: BerryKitchen
 nav: Providers
 network: true
 overview: BerryKitchen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Catering, Food Delivery, and Ecommerce.
-random_paper: 75
+random_paper: 60
 score:
   band: minimal
   composite: 6.9

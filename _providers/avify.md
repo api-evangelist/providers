@@ -178,7 +178,7 @@ overview: 'Avify publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Avify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 57
+random_paper: 51
 score:
   band: developing
   composite: 44.2

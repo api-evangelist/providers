@@ -60,7 +60,7 @@ name: Twelve Data
 nav: Providers
 network: true
 overview: Twelve Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance and Public APIs.
-random_paper: 65
+random_paper: 52
 score:
   band: minimal
   composite: 7.3

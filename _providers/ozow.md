@@ -237,7 +237,7 @@ plans:
 - name: Ozow Plans Pricing
   plan_count: 2
   slug: ozow-plans-pricing
-random_paper: 58
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Ozow Rate Limits

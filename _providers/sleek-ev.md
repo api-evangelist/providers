@@ -63,7 +63,7 @@ overview: 'Sleek EV is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sleek EV''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 67
+random_paper: 58
 score:
   band: minimal
   composite: 9.1

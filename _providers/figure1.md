@@ -79,7 +79,7 @@ overview: 'Figure1 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Figure1''s developer surface includes signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 43
+random_paper: 35
 score:
   band: minimal
   composite: 10.5

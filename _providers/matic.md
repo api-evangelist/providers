@@ -99,7 +99,7 @@ overview: 'Matic is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Matic''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 40
+random_paper: 34
 score:
   band: emerging
   composite: 17.3

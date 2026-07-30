@@ -93,7 +93,7 @@ press:
 - date: '2026-05-25'
   title: Brink's Delivers Strong Second-Quarter Results Exceeding ...
   url: https://investors.brinks.com/news-releases/news-release-details/brinks-delivers-strong-second-quarter-results-exceeding-top-end/
-random_paper: 1
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Brinks Rate Limits

@@ -71,7 +71,7 @@ overview: 'SambaTV is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   SambaTV''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 21
+random_paper: 12
 score:
   band: minimal
   composite: 12.3

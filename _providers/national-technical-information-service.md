@@ -72,7 +72,7 @@ plans:
 - name: National Technical Information Service Plans Pricing
   plan_count: 3
   slug: national-technical-information-service-plans-pricing
-random_paper: 64
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: National Technical Information Service Rate Limits

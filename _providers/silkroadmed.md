@@ -44,7 +44,7 @@ name: Silk Road Medical
 nav: Providers
 network: true
 overview: Silk Road Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Medical Technology, and Cardiovascular.
-random_paper: 33
+random_paper: 19
 score:
   band: minimal
   composite: 4.3

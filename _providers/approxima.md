@@ -60,7 +60,7 @@ name: Approxima
 nav: Providers
 network: true
 overview: Approxima is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software Development, AI Agents, Testing, and QA.
-random_paper: 5
+random_paper: 75
 score:
   band: minimal
   composite: 11.8

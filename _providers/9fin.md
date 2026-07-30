@@ -95,7 +95,7 @@ overview: '9FIN is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   9FIN''s developer surface includes engineering blog, changelog, signup flow, and 10 more developer resources.'
-random_paper: 50
+random_paper: 46
 score:
   band: emerging
   composite: 24.5

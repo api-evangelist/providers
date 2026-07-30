@@ -91,7 +91,7 @@ overview: 'Stacks is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Stacks'' developer surface includes signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 1
+random_paper: 75
 score:
   band: emerging
   composite: 15.8

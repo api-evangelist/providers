@@ -48,7 +48,7 @@ name: Beervana International Limited
 nav: Providers
 network: true
 overview: Beervana International Limited is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beer, Beverage, Brewing, and Food and Beverage.
-random_paper: 73
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

@@ -52,7 +52,7 @@ name: Seneca Systems
 nav: Providers
 network: true
 overview: Seneca Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Govtech, Government, CRM, and Constituent Services.
-random_paper: 2
+random_paper: 66
 score:
   band: minimal
   composite: 6.9

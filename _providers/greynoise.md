@@ -1000,7 +1000,7 @@ plans:
 - name: Greynoise Plans Pricing
   plan_count: 4
   slug: greynoise-plans-pricing
-random_paper: 9
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Greynoise Rate Limits

@@ -39,7 +39,7 @@ name: Aporeto
 nav: Providers
 network: true
 overview: Aporeto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Zero Trust, Microsegmentation, and Cloud Security.
-random_paper: 33
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

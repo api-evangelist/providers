@@ -71,7 +71,7 @@ overview: '28 labs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   28 labs'' developer surface includes pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 2
+random_paper: 77
 score:
   band: emerging
   composite: 15.2

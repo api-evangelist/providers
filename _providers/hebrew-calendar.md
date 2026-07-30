@@ -60,7 +60,7 @@ name: Hebrew Calendar
 nav: Providers
 network: true
 overview: Hebrew Calendar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Calendar and Public APIs.
-random_paper: 50
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

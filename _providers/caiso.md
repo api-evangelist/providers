@@ -150,7 +150,7 @@ overview: 'California ISO publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   California ISO''s developer surface includes documentation, signup flow, authentication, developer portal, support, engineering blog, getting-started guide, and 20 more developer resources.'
-random_paper: 41
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Caiso Rate Limits

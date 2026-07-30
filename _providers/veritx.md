@@ -53,7 +53,7 @@ name: VeriTX
 nav: Providers
 network: true
 overview: VeriTX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Cybersecurity, Data Security, and Post-Quantum Cryptography.
-random_paper: 26
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

@@ -129,7 +129,7 @@ name: Toyota Connected
 nav: Providers
 network: true
 overview: Toyota Connected is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Connected Vehicle, Connected Car, Telematics, and Mobility.
-random_paper: 44
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

@@ -83,7 +83,7 @@ overview: 'Majestic Labs is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Majestic Labs'' developer surface includes product news, support, and 8 more developer resources.'
-random_paper: 15
+random_paper: 81
 score:
   band: minimal
   composite: 6.5

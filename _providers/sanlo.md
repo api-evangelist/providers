@@ -79,7 +79,7 @@ overview: 'Sanlo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Sanlo''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 55
+random_paper: 49
 score:
   band: emerging
   composite: 13.3

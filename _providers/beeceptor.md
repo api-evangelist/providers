@@ -153,7 +153,7 @@ plans:
 - name: Beeceptor Plans Pricing
   plan_count: 1
   slug: beeceptor-plans-pricing
-random_paper: 62
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Beeceptor Rate Limits

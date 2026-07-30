@@ -52,7 +52,7 @@ name: Dora
 nav: Providers
 network: true
 overview: Dora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Fintech, and Rental.
-random_paper: 17
+random_paper: 12
 score:
   band: minimal
   composite: 5.7

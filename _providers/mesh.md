@@ -199,7 +199,7 @@ overview: 'Mesh publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Mesh''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 22 more developer resources.'
-random_paper: 24
+random_paper: 19
 score:
   band: developing
   composite: 55.2

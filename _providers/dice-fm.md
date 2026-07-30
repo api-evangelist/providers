@@ -112,7 +112,7 @@ plans:
 - name: Dice Fm Plans Pricing
   plan_count: 2
   slug: dice-fm-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Dice Fm Rate Limits

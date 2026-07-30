@@ -163,7 +163,7 @@ overview: 'Looking Glass publishes 6 APIs on the [APIs.io](https://apis.io/) net
 
 
   Looking Glass'' developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 42
+random_paper: 26
 score:
   band: thin
   composite: 39.2

@@ -222,7 +222,7 @@ overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   AZA Finance''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 19 more developer resources.'
-random_paper: 32
+random_paper: 19
 score:
   band: developing
   composite: 48.3

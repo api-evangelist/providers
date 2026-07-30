@@ -44,7 +44,7 @@ name: Main Street Hub
 nav: Providers
 network: true
 overview: Main Street Hub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Social Media, Small Business, and Local Business.
-random_paper: 35
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

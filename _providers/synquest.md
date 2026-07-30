@@ -39,7 +39,7 @@ name: SynQuest
 nav: Providers
 network: true
 overview: SynQuest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Logistics, Enterprise Software, and Inactive.
-random_paper: 17
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

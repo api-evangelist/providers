@@ -45,7 +45,7 @@ name: world-kinect
 nav: Providers
 network: true
 overview: world-kinect is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 20
+random_paper: 5
 score:
   band: minimal
   composite: 3.3

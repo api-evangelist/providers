@@ -48,7 +48,7 @@ name: Myxt
 nav: Providers
 network: true
 overview: Myxt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Music, Streaming, and Media.
-random_paper: 61
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

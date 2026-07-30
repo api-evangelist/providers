@@ -52,7 +52,7 @@ name: Crocs
 nav: Providers
 network: true
 overview: Crocs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Footwear, Apparel, Consumer Goods, Retail, and E-Commerce.
-random_paper: 52
+random_paper: 46
 score:
   band: minimal
   composite: 4.4

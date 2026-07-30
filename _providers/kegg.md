@@ -89,7 +89,7 @@ plans:
 - name: Kegg Rest Api
   plan_count: 4
   slug: kegg-rest-api
-random_paper: 9
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Kegg Rest Api

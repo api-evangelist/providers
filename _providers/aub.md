@@ -106,7 +106,7 @@ plans:
 - name: Aub Plans Pricing
   plan_count: 2
   slug: aub-plans-pricing
-random_paper: 69
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Aub Rate Limits

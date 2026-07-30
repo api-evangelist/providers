@@ -67,7 +67,7 @@ overview: 'X mart is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   X mart''s developer surface includes support and 5 more developer resources.'
-random_paper: 34
+random_paper: 27
 score:
   band: minimal
   composite: 11.8

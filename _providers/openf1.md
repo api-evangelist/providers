@@ -134,7 +134,7 @@ plans:
 - name: Openf1 Plans Pricing
   plan_count: 3
   slug: openf1-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Openf1 Rate Limits

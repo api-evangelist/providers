@@ -174,7 +174,7 @@ plans:
 - name: Esa Plans Pricing
   plan_count: 2
   slug: esa-plans-pricing
-random_paper: 70
+random_paper: 67
 rate_limits:
 - limit_count: 9
   name: Esa Rate Limits

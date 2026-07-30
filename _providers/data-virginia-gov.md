@@ -84,7 +84,7 @@ plans:
 - name: Data Virginia Gov Plans Pricing
   plan_count: 1
   slug: data-virginia-gov-plans-pricing
-random_paper: 69
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Data Virginia Gov Rate Limits

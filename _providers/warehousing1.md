@@ -59,7 +59,7 @@ overview: 'Warehousing1 is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Warehousing1''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 30
+random_paper: 15
 score:
   band: minimal
   composite: 8.1

@@ -99,7 +99,7 @@ overview: 'GetApp is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   GetApp''s developer surface includes documentation, developer portal, and 12 more developer resources.'
-random_paper: 74
+random_paper: 67
 score:
   band: minimal
   composite: 10.3

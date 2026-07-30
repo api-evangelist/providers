@@ -105,7 +105,7 @@ press:
 - date: '2026-02-11'
   title: Antero Resources Announces Fourth Quarter 2025 Results and 2026 Guidance
   url: https://www.anteroresources.com/news-events/press-releases/detail/255/antero-resources-announces-fourth-quarter-2025-results-and
-random_paper: 61
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Antero Resources Rate Limits

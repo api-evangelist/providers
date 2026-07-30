@@ -200,7 +200,7 @@ overview: 'NextGen Healthcare publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   NextGen Healthcare''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
-random_paper: 65
+random_paper: 43
 scopes:
 - name: Nextgen Healthcare Scopes
   scope_count: 12

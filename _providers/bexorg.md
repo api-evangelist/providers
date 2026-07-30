@@ -75,7 +75,7 @@ overview: 'Bexorg is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Bexorg''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 80
+random_paper: 73
 score:
   band: minimal
   composite: 6.5

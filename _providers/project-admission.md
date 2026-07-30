@@ -75,7 +75,7 @@ overview: 'Project Admission is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Project Admission''s developer surface includes support and 7 more developer resources.'
-random_paper: 70
+random_paper: 49
 score:
   band: minimal
   composite: 8.3

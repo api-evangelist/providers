@@ -558,7 +558,7 @@ plans:
 - name: Reqres Plans Pricing
   plan_count: 7
   slug: reqres-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Reqres Rate Limits

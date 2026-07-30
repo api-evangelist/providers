@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: CSX Introduces ChatBot to Streamline Real Estate Inquiries
   url: https://www.csx.com/index.cfm/customers/csx-introduces-chatbot-to-streamline-real-estate-inquiries/
-random_paper: 10
+random_paper: 6
 score:
   band: minimal
   composite: 6.7

@@ -68,7 +68,7 @@ name: Singularity Defense
 nav: Providers
 network: true
 overview: Singularity Defense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Aerospace, Counter-UAS, and Air Defense.
-random_paper: 66
+random_paper: 49
 score:
   band: minimal
   composite: 5.0

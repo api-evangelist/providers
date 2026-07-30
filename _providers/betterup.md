@@ -87,7 +87,7 @@ overview: 'BetterUp is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BetterUp''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 65
+random_paper: 55
 score:
   band: emerging
   composite: 17.0

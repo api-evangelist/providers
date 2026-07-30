@@ -67,7 +67,7 @@ overview: 'PayRange is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PayRange''s developer surface includes support, engineering blog, pricing, and 3 more developer resources.'
-random_paper: 45
+random_paper: 35
 score:
   band: minimal
   composite: 10.8

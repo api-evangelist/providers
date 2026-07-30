@@ -44,7 +44,7 @@ name: Connected
 nav: Providers
 network: true
 overview: Connected is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, CRM, and Contacts.
-random_paper: 56
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

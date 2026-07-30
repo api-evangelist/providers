@@ -199,7 +199,7 @@ plans:
 - name: Spring Boot Plans Pricing
   plan_count: 3
   slug: spring-boot-plans-pricing
-random_paper: 6
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Spring Boot Rate Limits

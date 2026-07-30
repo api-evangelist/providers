@@ -104,7 +104,7 @@ plans:
 - name: Chatsimple Plans
   plan_count: 9
   slug: chatsimple-plans
-random_paper: 13
+random_paper: 0
 score:
   band: thin
   composite: 28.2

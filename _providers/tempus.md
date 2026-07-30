@@ -83,7 +83,7 @@ overview: 'Tempus publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Tempus'' developer surface includes documentation, getting-started guide, engineering blog, and 4 more developer resources.'
-random_paper: 22
+random_paper: 14
 score:
   band: minimal
   composite: 11.5

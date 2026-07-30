@@ -94,7 +94,7 @@ plans:
 - name: Aeropostale Plans Pricing
   plan_count: 1
   slug: aeropostale-plans-pricing
-random_paper: 49
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Aeropostale Rate Limits

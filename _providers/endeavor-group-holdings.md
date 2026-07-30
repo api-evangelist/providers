@@ -60,7 +60,7 @@ name: Endeavor Group Holdings
 nav: Providers
 network: true
 overview: Endeavor Group Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sports, Entertainment, Talent, Media, and Licensing.
-random_paper: 6
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

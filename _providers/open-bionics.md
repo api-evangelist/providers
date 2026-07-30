@@ -63,7 +63,7 @@ overview: 'Open Bionics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Open Bionics'' developer surface includes support and 4 more developer resources.'
-random_paper: 7
+random_paper: 74
 score:
   band: minimal
   composite: 10.1

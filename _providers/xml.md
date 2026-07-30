@@ -21,7 +21,7 @@ modified: '2026-05-03'
 name: XML
 nav: Providers
 network: true
-random_paper: 13
+random_paper: 9
 slug: xml
 tags:
 - Data Formats

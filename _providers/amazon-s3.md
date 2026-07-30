@@ -949,7 +949,7 @@ plans:
 - name: Amazon S3 Plans Pricing
   plan_count: 4
   slug: amazon-s3-plans-pricing
-random_paper: 47
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Amazon S3 Rate Limits

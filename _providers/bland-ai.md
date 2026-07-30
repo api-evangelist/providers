@@ -119,7 +119,7 @@ plans:
 - name: Bland Ai Plans Pricing
   plan_count: 5
   slug: bland-ai-plans-pricing
-random_paper: 31
+random_paper: 22
 rate_limits:
 - limit_count: 9
   name: Bland Ai Rate Limits

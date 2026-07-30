@@ -56,7 +56,7 @@ name: Datalogue
 nav: Providers
 network: true
 overview: Datalogue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Integration, Data Preparation, Machine Learning, and Analytics.
-random_paper: 59
+random_paper: 48
 score:
   band: minimal
   composite: 7.0

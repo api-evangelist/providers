@@ -314,7 +314,7 @@ plans:
 - name: Google Android Plans Pricing
   plan_count: 3
   slug: google-android-plans-pricing
-random_paper: 42
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Google Android Rate Limits

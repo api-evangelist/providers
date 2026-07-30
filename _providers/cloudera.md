@@ -148,7 +148,7 @@ overview: 'Cloudera publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Cloudera''s developer surface includes authentication, documentation, support, GitHub presence, and 8 more developer resources.'
-random_paper: 37
+random_paper: 27
 rules:
 - name: Cloudera API Rules
   rule_count: 9

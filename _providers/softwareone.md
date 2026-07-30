@@ -128,7 +128,7 @@ plans:
 - name: Softwareone Plans Pricing
   plan_count: 3
   slug: softwareone-plans-pricing
-random_paper: 63
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Softwareone Rate Limits

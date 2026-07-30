@@ -52,7 +52,7 @@ name: The Cru
 nav: Providers
 network: true
 overview: The Cru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Community, Women in Leadership, Professional Development, and Coaching.
-random_paper: 48
+random_paper: 40
 score:
   band: minimal
   composite: 7.1

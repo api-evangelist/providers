@@ -56,7 +56,7 @@ name: Schedex
 nav: Providers
 network: true
 overview: Schedex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Management, Scheduling, Time Tracking, and Payroll.
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 9.7

@@ -207,7 +207,7 @@ plans:
 - name: Glean Plans Pricing
   plan_count: 1
   slug: glean-plans-pricing
-random_paper: 33
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Glean Rate Limits

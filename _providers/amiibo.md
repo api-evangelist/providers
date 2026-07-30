@@ -118,7 +118,7 @@ plans:
 - name: Amiibo Plans Pricing
   plan_count: 1
   slug: amiibo-plans-pricing
-random_paper: 58
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Amiibo Rate Limits

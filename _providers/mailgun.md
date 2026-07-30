@@ -135,7 +135,7 @@ overview: 'Mailgun publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mailgun''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 20
+random_paper: 11
 score:
   band: thin
   composite: 30.7

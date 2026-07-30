@@ -244,7 +244,7 @@ overview: 'WinCL publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   WinCL''s developer surface includes documentation, API reference, authentication, and 11 more developer resources.'
-random_paper: 55
+random_paper: 49
 score:
   band: thin
   composite: 28.8

@@ -182,7 +182,7 @@ overview: 'BRL publishes 10 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   BRL''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, and 17 more developer resources.'
-random_paper: 77
+random_paper: 74
 score:
   band: thin
   composite: 39.2

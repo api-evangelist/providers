@@ -48,7 +48,7 @@ name: 9Slides
 nav: Providers
 network: true
 overview: 9Slides is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Presentations, Video, E-Learning, and Training.
-random_paper: 53
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

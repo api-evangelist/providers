@@ -100,7 +100,7 @@ name: Tastykake
 nav: Providers
 network: true
 overview: Tastykake is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Bakery, Baked Snacks, Consumer Packaged Goods, Food, and Snacks.
-random_paper: 5
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

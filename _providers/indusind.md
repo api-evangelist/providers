@@ -75,7 +75,7 @@ overview: 'IndusInd Bank publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   IndusInd Bank''s developer surface includes documentation, API reference, support, signup flow, and 3 more developer resources.'
-random_paper: 52
+random_paper: 42
 score:
   band: emerging
   composite: 14.0

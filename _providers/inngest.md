@@ -408,7 +408,7 @@ plans:
 - name: Inngest Plans Pricing
   plan_count: 3
   slug: inngest-plans-pricing
-random_paper: 31
+random_paper: 22
 rate_limits:
 - limit_count: 8
   name: Inngest Rate Limits

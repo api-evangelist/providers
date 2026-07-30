@@ -48,7 +48,7 @@ name: Storemaven
 nav: Providers
 network: true
 overview: Storemaven is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, App Store Optimization, ASO, Mobile Marketing, and A/B Testing.
-random_paper: 39
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

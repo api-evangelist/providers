@@ -103,7 +103,7 @@ overview: 'Razer publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Razer''s developer surface includes documentation, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 62
+random_paper: 56
 score:
   band: emerging
   composite: 16.9

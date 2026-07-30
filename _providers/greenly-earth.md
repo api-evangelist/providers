@@ -308,7 +308,7 @@ overview: 'Greenly publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Greenly''s developer surface includes authentication, developer portal, pricing, documentation, support, engineering blog, tooling, and 45 more developer resources.'
-random_paper: 39
+random_paper: 23
 score:
   band: thin
   composite: 32.3

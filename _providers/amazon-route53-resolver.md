@@ -5060,7 +5060,7 @@ plans:
 - name: Amazon Route53 Resolver Plans Pricing
   plan_count: 3
   slug: amazon-route53-resolver-plans-pricing
-random_paper: 13
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Amazon Route53 Resolver Rate Limits

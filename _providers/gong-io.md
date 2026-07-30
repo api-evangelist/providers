@@ -161,7 +161,7 @@ plans:
 - name: Gong Io Plans Pricing
   plan_count: 1
   slug: gong-io-plans-pricing
-random_paper: 40
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Gong Io Rate Limits

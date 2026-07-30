@@ -147,7 +147,7 @@ plans:
 - name: Ms Products Plans Pricing
   plan_count: 3
   slug: ms-products-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Ms Products Rate Limits

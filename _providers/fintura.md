@@ -39,7 +39,7 @@ name: Fintura
 nav: Providers
 network: true
 overview: Fintura is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Battery Ventures, Portfolio Lead, and Unverified.
-random_paper: 32
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

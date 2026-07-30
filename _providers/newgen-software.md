@@ -71,7 +71,7 @@ overview: 'Newgen Software is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Newgen Software''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 25
+random_paper: 6
 score:
   band: minimal
   composite: 12.6

@@ -157,7 +157,7 @@ plans:
 - name: Humboldt Universitat Zu Berlin Plans Pricing
   plan_count: 2
   slug: humboldt-universitat-zu-berlin-plans-pricing
-random_paper: 9
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Humboldt Universitat Zu Berlin Rate Limits

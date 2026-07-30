@@ -56,7 +56,7 @@ name: Centene Corporation
 nav: Providers
 network: true
 overview: Centene Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Insurance, Health Insurance, Managed Care, and Fortune 500.
-random_paper: 39
+random_paper: 15
 score:
   band: minimal
   composite: 5.7

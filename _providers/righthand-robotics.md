@@ -87,7 +87,7 @@ overview: 'RightHand Robotics is profiled on the [APIs.io](https://apis.io/) net
 
 
   RightHand Robotics'' developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 4
+random_paper: 63
 score:
   band: minimal
   composite: 11.9

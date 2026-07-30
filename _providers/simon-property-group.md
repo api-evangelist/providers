@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: 'Simon Property Group''s AI Strategy: Analysis of ...'
   url: https://www.klover.ai/simon-property-group-ai-strategy-analysis-of-dominance-in-real-estate-ai/
-random_paper: 73
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Simon Property Group Rate Limits

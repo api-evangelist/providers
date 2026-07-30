@@ -64,7 +64,7 @@ name: Eden Network
 nav: Providers
 network: true
 overview: Eden Network publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Ethereum, MEV, and Blockchain.
-random_paper: 20
+random_paper: 5
 score:
   band: minimal
   composite: 8.7

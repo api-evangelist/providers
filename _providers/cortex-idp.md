@@ -119,7 +119,7 @@ plans:
 - name: Cortex Idp Plans Pricing
   plan_count: 3
   slug: cortex-idp-plans-pricing
-random_paper: 51
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Cortex Idp Rate Limits

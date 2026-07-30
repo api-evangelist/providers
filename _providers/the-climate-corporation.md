@@ -164,7 +164,7 @@ overview: 'The Climate Corporation publishes 8 APIs on the [APIs.io](https://api
 
 
   The Climate Corporation''s developer surface includes documentation, API reference, signup flow, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 78
+random_paper: 50
 scopes:
 - name: The Climate Corporation Scopes
   scope_count: 24

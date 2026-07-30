@@ -130,7 +130,7 @@ plans:
 - name: Extensiv Plans Pricing
   plan_count: 4
   slug: extensiv-plans-pricing
-random_paper: 76
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Extensiv Rate Limits

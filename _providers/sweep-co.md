@@ -100,7 +100,7 @@ overview: 'Sweep is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Sweep''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 74
+random_paper: 65
 score:
   band: emerging
   composite: 17.1

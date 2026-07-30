@@ -75,7 +75,7 @@ overview: 'Simpleclosure is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Simpleclosure''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 38
+random_paper: 21
 score:
   band: emerging
   composite: 15.0

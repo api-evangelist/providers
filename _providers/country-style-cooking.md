@@ -71,7 +71,7 @@ overview: 'Country Style Cooking is profiled on the [APIs.io](https://apis.io/) 
 
 
   Country Style Cooking''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 79
+random_paper: 53
 score:
   band: minimal
   composite: 8.2

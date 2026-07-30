@@ -149,7 +149,7 @@ plans:
 - name: Dodo Payments Plans Pricing
   plan_count: 3
   slug: dodo-payments-plans-pricing
-random_paper: 52
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Dodo Payments Rate Limits

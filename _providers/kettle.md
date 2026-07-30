@@ -48,7 +48,7 @@ name: Kettle
 nav: Providers
 network: true
 overview: Kettle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Reinsurance, Climate, and Climate Risk.
-random_paper: 1
+random_paper: 75
 score:
   band: minimal
   composite: 5.6

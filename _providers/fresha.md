@@ -99,7 +99,7 @@ overview: 'Fresha is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Fresha''s developer surface includes documentation, support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 66
+random_paper: 59
 score:
   band: emerging
   composite: 20.0

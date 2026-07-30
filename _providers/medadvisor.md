@@ -187,7 +187,7 @@ overview: 'MedAdvisor publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   MedAdvisor''s developer surface includes authentication, API reference, documentation, support, and 23 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: thin
   composite: 34.7

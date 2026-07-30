@@ -812,7 +812,7 @@ overview: 'Mist publishes 211 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mist''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 40
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Mist Rate Limits

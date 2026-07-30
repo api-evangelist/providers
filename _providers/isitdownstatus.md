@@ -56,7 +56,7 @@ name: isitdownstatus
 nav: Providers
 network: true
 overview: isitdownstatus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 18
+random_paper: 81
 score:
   band: minimal
   composite: 5.7

@@ -63,7 +63,7 @@ overview: 'Celebal Technologies is profiled on the [APIs.io](https://apis.io/) n
 
 
   Celebal Technologies'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 79
+random_paper: 66
 score:
   band: minimal
   composite: 9.7

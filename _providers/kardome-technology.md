@@ -67,7 +67,7 @@ overview: 'Kardome Technology is profiled on the [APIs.io](https://apis.io/) net
 
 
   Kardome Technology''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 5
+random_paper: 64
 score:
   band: minimal
   composite: 10.5

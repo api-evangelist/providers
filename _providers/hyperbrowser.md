@@ -395,7 +395,7 @@ plans:
 - name: Hyperbrowser Plans Pricing
   plan_count: 1
   slug: hyperbrowser-plans-pricing
-random_paper: 28
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Hyperbrowser Rate Limits

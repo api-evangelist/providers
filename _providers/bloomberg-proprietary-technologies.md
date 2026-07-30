@@ -103,7 +103,7 @@ plans:
 - name: Bloomberg Proprietary Technologies Plans Pricing
   plan_count: 3
   slug: bloomberg-proprietary-technologies-plans-pricing
-random_paper: 61
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Bloomberg Proprietary Technologies Rate Limits

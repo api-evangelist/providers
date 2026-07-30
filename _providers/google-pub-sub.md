@@ -134,7 +134,7 @@ plans:
 - name: Google Pub Sub Plans Pricing
   plan_count: 3
   slug: google-pub-sub-plans-pricing
-random_paper: 7
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Google Pub Sub Rate Limits

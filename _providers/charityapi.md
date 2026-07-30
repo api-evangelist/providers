@@ -145,7 +145,7 @@ plans:
 - name: Charityapi Plans Pricing
   plan_count: 3
   slug: charityapi-plans-pricing
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Charityapi Rate Limits

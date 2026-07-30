@@ -110,7 +110,7 @@ plans:
 - name: Cisco Control Hub Plans Pricing
   plan_count: 3
   slug: cisco-control-hub-plans-pricing
-random_paper: 6
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Cisco Control Hub Rate Limits

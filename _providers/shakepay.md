@@ -123,7 +123,7 @@ overview: 'Shakepay is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Shakepay''s developer surface includes engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 44
+random_paper: 34
 score:
   band: thin
   composite: 29.2

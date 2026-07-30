@@ -303,7 +303,7 @@ plans:
 - name: Noun Project Plans Pricing
   plan_count: 3
   slug: noun-project-plans-pricing
-random_paper: 37
+random_paper: 22
 rate_limits:
 - limit_count: 12
   name: Noun Project Rate Limits

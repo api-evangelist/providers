@@ -72,7 +72,7 @@ overview: 'Finres is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Finres'' developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 80
+random_paper: 73
 score:
   band: minimal
   composite: 10.8

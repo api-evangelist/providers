@@ -56,7 +56,7 @@ name: Warrant
 nav: Providers
 network: true
 overview: Warrant publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication And Authorization and Public APIs.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 5.7

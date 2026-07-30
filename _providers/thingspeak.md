@@ -402,7 +402,7 @@ plans:
 - name: Thingspeak Plans Pricing
   plan_count: 5
   slug: thingspeak-plans-pricing
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 8
   name: Thingspeak Rate Limits

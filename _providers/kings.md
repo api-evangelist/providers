@@ -48,7 +48,7 @@ name: Kings
 nav: Providers
 network: true
 overview: Kings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Olympiad, Academic Competition, and Students.
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

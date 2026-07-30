@@ -215,7 +215,7 @@ plans:
 - name: Agechecker Net Plans Pricing
   plan_count: 3
   slug: agechecker-net-plans-pricing
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Agechecker Net Rate Limits

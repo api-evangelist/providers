@@ -103,7 +103,7 @@ plans:
 - name: Neso Data Portal Plans
   plan_count: 1
   slug: neso-data-portal-plans
-random_paper: 25
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Neso Data Portal Rate Limits

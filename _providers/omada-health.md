@@ -92,7 +92,7 @@ overview: 'Omada Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Omada Health''s developer surface includes support and 11 more developer resources.'
-random_paper: 55
+random_paper: 41
 score:
   band: emerging
   composite: 19.4

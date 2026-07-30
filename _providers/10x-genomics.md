@@ -95,7 +95,7 @@ overview: '10x Genomics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   10x Genomics'' developer surface includes documentation, support, engineering blog, and 10 more developer resources.'
-random_paper: 62
+random_paper: 49
 score:
   band: emerging
   composite: 17.5

@@ -80,7 +80,7 @@ plans:
 - name: Sedai Plans Pricing
   plan_count: 3
   slug: sedai-plans-pricing
-random_paper: 32
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Sedai Rate Limits

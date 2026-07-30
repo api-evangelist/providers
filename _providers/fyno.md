@@ -195,7 +195,7 @@ plans:
 - name: Fyno Plans Pricing
   plan_count: 5
   slug: fyno-plans-pricing
-random_paper: 39
+random_paper: 34
 rate_limits:
 - limit_count: 6
   name: Fyno Rate Limits

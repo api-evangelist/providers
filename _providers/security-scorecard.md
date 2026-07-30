@@ -171,7 +171,7 @@ overview: 'SecurityScorecard publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   SecurityScorecard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 20
+random_paper: 79
 score:
   band: developing
   composite: 52.4

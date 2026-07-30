@@ -76,7 +76,7 @@ plans:
 - name: Oneio Plans Pricing
   plan_count: 3
   slug: oneio-plans-pricing
-random_paper: 52
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Oneio Rate Limits

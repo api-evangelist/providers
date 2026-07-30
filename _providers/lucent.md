@@ -226,7 +226,7 @@ overview: 'Lucent publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Lucent''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 3
+random_paper: 77
 scopes:
 - name: Lucent Scopes
   scope_count: 2

@@ -39,7 +39,7 @@ name: Meridian Data
 nav: Providers
 network: true
 overview: Meridian Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Network Attached Storage, NAS, and Data Storage.
-random_paper: 0
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

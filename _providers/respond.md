@@ -127,7 +127,7 @@ plans:
 - name: Respond Plans Pricing
   plan_count: 4
   slug: respond-plans-pricing
-random_paper: 34
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Respond Rate Limits

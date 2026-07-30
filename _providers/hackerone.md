@@ -56,7 +56,7 @@ name: HackerOne
 nav: Providers
 network: true
 overview: HackerOne publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 53
+random_paper: 42
 score:
   band: minimal
   composite: 5.7

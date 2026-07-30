@@ -55,7 +55,7 @@ overview: 'Emailio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Emailio''s developer surface includes signup flow and 2 more developer resources.'
-random_paper: 7
+random_paper: 80
 score:
   band: minimal
   composite: 7.6

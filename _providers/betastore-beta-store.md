@@ -53,7 +53,7 @@ name: BetaStore, Beta Store
 nav: Providers
 network: true
 overview: BetaStore, Beta Store is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B Marketplace, Retail, FMCG, and Supply Chain.
-random_paper: 3
+random_paper: 60
 score:
   band: minimal
   composite: 6.1

@@ -111,7 +111,7 @@ plans:
 - name: Placekey Plans Pricing
   plan_count: 4
   slug: placekey-plans-pricing
-random_paper: 36
+random_paper: 26
 rate_limits:
 - limit_count: 4
   name: Placekey Rate Limits

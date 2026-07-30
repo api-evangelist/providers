@@ -2586,7 +2586,7 @@ plans:
 - name: Amazon Well Architected Tool Plans Pricing
   plan_count: 3
   slug: amazon-well-architected-tool-plans-pricing
-random_paper: 61
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Amazon Well Architected Tool Rate Limits

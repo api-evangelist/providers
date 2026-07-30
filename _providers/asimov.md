@@ -79,7 +79,7 @@ overview: 'Asimov is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Asimov''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 7
+random_paper: 81
 score:
   band: minimal
   composite: 12.8

@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: New York Life and Norm Ai partner to transform compliance.
   url: https://www.newyorklife.com/newsroom/partnership-with-norm-ai-to-transform-compliance
-random_paper: 34
+random_paper: 6
 score:
   band: minimal
   composite: 5.6

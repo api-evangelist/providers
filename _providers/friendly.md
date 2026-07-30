@@ -39,7 +39,7 @@ name: Friend.ly
 nav: Providers
 network: true
 overview: Friend.ly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Q&A, Consumer, and Mobile.
-random_paper: 51
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

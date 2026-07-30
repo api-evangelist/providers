@@ -179,7 +179,7 @@ overview: 'LeadIQ publishes 1 API on the [APIs.io](https://apis.io/) network: Gr
 
 
   LeadIQ''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, status page, and 21 more developer resources.'
-random_paper: 57
+random_paper: 50
 score:
   band: thin
   composite: 37.0

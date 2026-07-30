@@ -79,7 +79,7 @@ overview: 'Red Points is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Red Points'' developer surface includes pricing, engineering blog, and 7 more developer resources.'
-random_paper: 57
+random_paper: 45
 score:
   band: emerging
   composite: 15.0

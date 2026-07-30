@@ -48,7 +48,7 @@ name: Talk Labs
 nav: Providers
 network: true
 overview: Talk Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Voice, Corporate Training, and Learning & Development.
-random_paper: 0
+random_paper: 71
 score:
   band: minimal
   composite: 6.5

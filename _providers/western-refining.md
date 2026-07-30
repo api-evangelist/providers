@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Western Refining Launches Express Rewards
   url: https://www.cspdailynews.com/technologyservices/western-refining-launches-express-rewards
-random_paper: 51
+random_paper: 31
 score:
   band: minimal
   composite: 6.7

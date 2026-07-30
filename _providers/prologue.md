@@ -48,7 +48,7 @@ name: Prologue
 nav: Providers
 network: true
 overview: Prologue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Generative AI, Creative Tools, and Content Creation.
-random_paper: 67
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

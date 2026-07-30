@@ -22,7 +22,7 @@ modified: '2026-06-23'
 name: Products
 nav: Providers
 network: true
-random_paper: 28
+random_paper: 13
 slug: products-api
 tags:
 - Application Programming Interface

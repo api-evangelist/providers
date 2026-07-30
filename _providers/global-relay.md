@@ -170,7 +170,7 @@ plans:
 - name: Global Relay Plans Pricing
   plan_count: 2
   slug: global-relay-plans-pricing
-random_paper: 77
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Global Relay Rate Limits

@@ -124,7 +124,7 @@ plans:
 - name: Depot Dev Plans Pricing
   plan_count: 4
   slug: depot-dev-plans-pricing
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Depot Dev Rate Limits

@@ -56,7 +56,7 @@ name: Opalcamera
 nav: Providers
 network: true
 overview: Opalcamera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Consumer Electronics, Webcam, and Camera.
-random_paper: 73
+random_paper: 61
 score:
   band: minimal
   composite: 9.2

@@ -48,7 +48,7 @@ name: WISECRICKET HOLDING KY
 nav: Providers
 network: true
 overview: WISECRICKET HOLDING KY is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Tax, Accounting, Audit, and Artificial Intelligence.
-random_paper: 53
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

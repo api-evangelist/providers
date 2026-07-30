@@ -514,7 +514,7 @@ plans:
 - name: Exa Ai Plans Pricing
   plan_count: 8
   slug: exa-ai-plans-pricing
-random_paper: 79
+random_paper: 73
 rate_limits:
 - limit_count: 6
   name: Exa Ai Rate Limits

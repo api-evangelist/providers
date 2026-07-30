@@ -154,7 +154,7 @@ overview: 'Rabobank Australia publishes 7 APIs on the [APIs.io](https://apis.io/
 
 
   Rabobank Australia''s developer surface includes authentication, API reference, documentation, support, and 17 more developer resources.'
-random_paper: 61
+random_paper: 39
 scopes:
 - name: Rabobank Australia Scopes
   scope_count: 10

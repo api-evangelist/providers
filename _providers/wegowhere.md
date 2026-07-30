@@ -71,7 +71,7 @@ overview: 'WeGoWhere is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   WeGoWhere''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 1
+random_paper: 71
 score:
   band: emerging
   composite: 13.1

@@ -71,7 +71,7 @@ overview: 'Hyperpad is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Hyperpad''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 51
+random_paper: 41
 score:
   band: minimal
   composite: 12.6

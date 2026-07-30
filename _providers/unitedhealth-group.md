@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Making Health Care Work Smarter, For Everyone
   url: https://www.unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html
-random_paper: 18
+random_paper: 77
 score:
   band: minimal
   composite: 7.5

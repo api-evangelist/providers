@@ -79,7 +79,7 @@ overview: 'Diligencesquared Inc is profiled on the [APIs.io](https://apis.io/) n
 
 
   Diligencesquared Inc''s developer surface includes signup flow, support, and 7 more developer resources.'
-random_paper: 23
+random_paper: 80
 score:
   band: emerging
   composite: 16.1

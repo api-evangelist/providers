@@ -87,7 +87,7 @@ overview: 'Atom Learning is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Atom Learning''s developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 30
+random_paper: 14
 score:
   band: emerging
   composite: 16.4

@@ -95,7 +95,7 @@ overview: 'Archy is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Archy''s developer surface includes pricing, engineering blog, support, and 10 more developer resources.'
-random_paper: 49
+random_paper: 43
 score:
   band: emerging
   composite: 21.5

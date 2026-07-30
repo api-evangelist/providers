@@ -95,7 +95,7 @@ plans:
 - name: Open Podcast Api Open Podcast Api Plans Pricing
   plan_count: 3
   slug: open-podcast-api-open-podcast-api-plans-pricing
-random_paper: 62
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Open Podcast Api Open Podcast Api Rate Limits

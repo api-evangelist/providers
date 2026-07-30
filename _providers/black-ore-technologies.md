@@ -109,7 +109,7 @@ overview: 'Black Ore Technologies is profiled on the [APIs.io](https://apis.io/)
 
 
   Black Ore Technologies'' developer surface includes pricing, engineering blog, signup flow, authentication, and 12 more developer resources.'
-random_paper: 22
+random_paper: 77
 score:
   band: emerging
   composite: 23.7

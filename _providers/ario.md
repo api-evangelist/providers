@@ -48,7 +48,7 @@ name: Ario
 nav: Providers
 network: true
 overview: Ario is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Artificial Intelligence, AI, and Venture Backed.
-random_paper: 22
+random_paper: 17
 score:
   band: minimal
   composite: 5.0

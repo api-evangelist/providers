@@ -52,7 +52,7 @@ name: Bioagelabs
 nav: Providers
 network: true
 overview: Bioagelabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Longevity, and Aging.
-random_paper: 61
+random_paper: 49
 score:
   band: minimal
   composite: 7.9

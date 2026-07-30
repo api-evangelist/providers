@@ -22,7 +22,7 @@ modified: '2026-06-13'
 name: Neynar
 nav: Providers
 network: true
-random_paper: 5
+random_paper: 79
 slug: neynar
 tags:
 - Farcaster

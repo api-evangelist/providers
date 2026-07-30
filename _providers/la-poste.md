@@ -388,7 +388,7 @@ plans:
 - name: Suivi Plans
   plan_count: 2
   slug: suivi-plans
-random_paper: 76
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Colissimo Rate Limits

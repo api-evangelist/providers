@@ -71,7 +71,7 @@ overview: 'Ohalo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ohalo''s developer surface includes documentation, support, and 5 more developer resources.'
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 12.5

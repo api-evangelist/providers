@@ -154,7 +154,7 @@ overview: 'Syft Data publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Syft Data''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 18
+random_paper: 7
 scopes:
 - name: Syft Data Scopes
   scope_count: 0

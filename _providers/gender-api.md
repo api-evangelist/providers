@@ -134,7 +134,7 @@ plans:
 - name: Gender Api Plans Pricing
   plan_count: 3
   slug: gender-api-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Gender Api Rate Limits

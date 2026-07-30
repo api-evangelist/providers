@@ -163,7 +163,7 @@ overview: 'Lumigo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Lumigo''s developer surface includes documentation, engineering blog, pricing, support, CLI, authentication, changelog, and 19 more developer resources.'
-random_paper: 5
+random_paper: 79
 score:
   band: developing
   composite: 52.6

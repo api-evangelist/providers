@@ -67,7 +67,7 @@ overview: 'Vircle is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vircle''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: minimal
   composite: 12.2

@@ -111,7 +111,7 @@ overview: 'Nexus One is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Nexus One''s developer surface includes engineering blog and 15 more developer resources.'
-random_paper: 39
+random_paper: 28
 score:
   band: emerging
   composite: 18.8

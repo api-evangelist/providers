@@ -390,7 +390,7 @@ plans:
 - name: Dun And Bradstreet Plans Pricing
   plan_count: 2
   slug: dun-and-bradstreet-plans-pricing
-random_paper: 14
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Dun And Bradstreet Rate Limits

@@ -83,7 +83,7 @@ overview: 'Cyberpsyc is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cyberpsyc''s developer surface includes support, engineering blog, getting-started guide, and 7 more developer resources.'
-random_paper: 8
+random_paper: 78
 score:
   band: emerging
   composite: 19.3

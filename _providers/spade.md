@@ -199,7 +199,7 @@ overview: 'Spade publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Spade''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 21 more developer resources.'
-random_paper: 39
+random_paper: 33
 score:
   band: developing
   composite: 54.0

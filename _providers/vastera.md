@@ -52,7 +52,7 @@ name: Vastera
 nav: Providers
 network: true
 overview: Vastera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Global Trade Management, Supply Chain, Trade Compliance, and Logistics.
-random_paper: 29
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

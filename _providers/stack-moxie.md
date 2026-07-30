@@ -147,7 +147,7 @@ overview: 'Stack Moxie is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Stack Moxie''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 19 more developer resources.'
-random_paper: 72
+random_paper: 59
 score:
   band: thin
   composite: 33.4

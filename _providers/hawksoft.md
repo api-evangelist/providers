@@ -124,7 +124,7 @@ plans:
 - name: Hawksoft Plans Pricing
   plan_count: 2
   slug: hawksoft-plans-pricing
-random_paper: 61
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Hawksoft Rate Limits

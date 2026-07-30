@@ -91,7 +91,7 @@ overview: 'Double Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Double Robotics'' developer surface includes documentation, authentication, and 8 more developer resources.'
-random_paper: 10
+random_paper: 73
 score:
   band: emerging
   composite: 20.2

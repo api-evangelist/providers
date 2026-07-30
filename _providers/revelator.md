@@ -129,7 +129,7 @@ plans:
 - name: Revelator Plans Pricing
   plan_count: 4
   slug: revelator-plans-pricing
-random_paper: 8
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Revelator Rate Limits

@@ -22,7 +22,7 @@ modified: '2026-05-19'
 name: Chat
 nav: Providers
 network: true
-random_paper: 11
+random_paper: 6
 slug: chat
 tags:
 - Chat

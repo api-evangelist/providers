@@ -226,7 +226,7 @@ plans:
 - name: Zero Trust Architecture Plans Pricing
   plan_count: 3
   slug: zero-trust-architecture-plans-pricing
-random_paper: 50
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Zero Trust Architecture Rate Limits

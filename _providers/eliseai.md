@@ -96,7 +96,7 @@ overview: 'EliseAI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   EliseAI''s developer surface includes support, engineering blog, signup flow, authentication, and 9 more developer resources.'
-random_paper: 3
+random_paper: 76
 scopes:
 - name: Eliseai Scopes
   scope_count: 14

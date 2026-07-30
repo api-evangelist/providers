@@ -52,7 +52,7 @@ name: Occamnetworks
 nav: Providers
 network: true
 overview: Occamnetworks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Broadband, Networking, and Hardware.
-random_paper: 31
+random_paper: 14
 score:
   band: minimal
   composite: 8.1

@@ -48,7 +48,7 @@ name: Aikito
 nav: Providers
 network: true
 overview: Aikito is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Commercial Real Estate, Construction, and Financing.
-random_paper: 74
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

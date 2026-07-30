@@ -39,7 +39,7 @@ name: Citadel
 nav: Providers
 network: true
 overview: Citadel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Counter-UAS, Drones, and Machine Learning.
-random_paper: 78
+random_paper: 70
 score:
   band: minimal
   composite: 5.0

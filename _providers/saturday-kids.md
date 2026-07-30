@@ -44,7 +44,7 @@ name: Saturday Kids
 nav: Providers
 network: true
 overview: Saturday Kids is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 53
+random_paper: 37
 score:
   band: minimal
   composite: 3.2

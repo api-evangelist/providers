@@ -163,7 +163,7 @@ overview: 'Koko publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cou
 
 
   Koko''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 19 more developer resources.'
-random_paper: 31
+random_paper: 26
 score:
   band: developing
   composite: 45.3

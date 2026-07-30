@@ -63,7 +63,7 @@ overview: 'Tantalus is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tantalus'' developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 9.2

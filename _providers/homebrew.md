@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Homebrew
 nav: Providers
 network: true
-random_paper: 47
+random_paper: 37
 slug: homebrew
 tags:
 - Venture Capital

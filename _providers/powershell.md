@@ -150,7 +150,7 @@ plans:
 - name: Powershell Plans Pricing
   plan_count: 3
   slug: powershell-plans-pricing
-random_paper: 40
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Powershell Rate Limits

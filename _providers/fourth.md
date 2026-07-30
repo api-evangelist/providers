@@ -170,7 +170,7 @@ overview: 'Fourth publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Fourth''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 19 more developer resources.'
-random_paper: 16
+random_paper: 8
 scopes:
 - name: Fourth Scopes
   scope_count: 1

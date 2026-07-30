@@ -158,7 +158,7 @@ plans:
 - name: Turbopuffer Plans Pricing
   plan_count: 3
   slug: turbopuffer-plans-pricing
-random_paper: 70
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Turbopuffer Rate Limits

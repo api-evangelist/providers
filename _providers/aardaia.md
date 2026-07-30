@@ -52,7 +52,7 @@ name: aardaia
 nav: Providers
 network: true
 overview: aardaia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Biotechnology, and Plant Breeding.
-random_paper: 59
+random_paper: 51
 score:
   band: minimal
   composite: 7.1

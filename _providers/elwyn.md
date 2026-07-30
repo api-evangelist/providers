@@ -84,7 +84,7 @@ overview: 'Elwyn is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Elwyn''s developer surface includes product news, engineering blog, and 8 more developer resources.'
-random_paper: 73
+random_paper: 67
 score:
   band: minimal
   composite: 6.2

@@ -87,7 +87,7 @@ overview: 'Steinbach Credit Union is profiled on the [APIs.io](https://apis.io/)
 
 
   Steinbach Credit Union''s developer surface includes authentication, support, documentation, and 10 more developer resources.'
-random_paper: 36
+random_paper: 9
 scopes:
 - name: Steinbach Credit Union Scopes
   scope_count: 7

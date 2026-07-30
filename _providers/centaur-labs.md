@@ -112,7 +112,7 @@ overview: 'Centaur Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Centaur Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 8 more developer resources.'
-random_paper: 2
+random_paper: 69
 score:
   band: emerging
   composite: 27.0

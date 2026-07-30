@@ -48,7 +48,7 @@ name: Famebit
 nav: Providers
 network: true
 overview: Famebit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Influencer Marketing, Creator Economy, Branded Content, and Marketing.
-random_paper: 80
+random_paper: 72
 score:
   band: minimal
   composite: 5.9

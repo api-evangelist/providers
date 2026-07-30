@@ -79,7 +79,7 @@ overview: 'Kudos is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kudos'' developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 64
+random_paper: 58
 score:
   band: emerging
   composite: 15.0

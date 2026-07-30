@@ -75,7 +75,7 @@ overview: 'Beam is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Beam''s developer surface includes pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 0
+random_paper: 77
 score:
   band: emerging
   composite: 16.2

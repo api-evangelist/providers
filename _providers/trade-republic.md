@@ -99,7 +99,7 @@ overview: 'Trade Republic is profiled on the [APIs.io](https://apis.io/) network
 
 
   Trade Republic''s developer surface includes support, pricing, engineering blog, and 11 more developer resources.'
-random_paper: 50
+random_paper: 33
 score:
   band: emerging
   composite: 17.5

@@ -145,7 +145,7 @@ plans:
 - name: Neonone Plans Pricing
   plan_count: 4
   slug: neonone-plans-pricing
-random_paper: 25
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Neonone Rate Limits

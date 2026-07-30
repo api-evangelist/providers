@@ -39,7 +39,7 @@ name: Inversion of Control
 nav: Providers
 network: true
 overview: Inversion of Control is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Dependency Injection, Design Patterns, Inversion of Control, and Software Architecture.
-random_paper: 36
+random_paper: 11
 score:
   band: minimal
   composite: 4.1

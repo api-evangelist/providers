@@ -56,7 +56,7 @@ name: Compare Flight Prices
 nav: Providers
 network: true
 overview: Compare Flight Prices publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 11
+random_paper: 67
 score:
   band: minimal
   composite: 5.7

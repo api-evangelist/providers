@@ -104,7 +104,7 @@ overview: 'Day & Zimmermann is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Day & Zimmermann''s developer surface includes product news, engineering blog, and 13 more developer resources.'
-random_paper: 72
+random_paper: 55
 score:
   band: minimal
   composite: 5.8

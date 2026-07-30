@@ -39,7 +39,7 @@ name: Immunity Project
 nav: Providers
 network: true
 overview: Immunity Project is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nonprofit, Health Tech, Biotech, and HIV.
-random_paper: 76
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

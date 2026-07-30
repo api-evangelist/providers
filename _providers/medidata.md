@@ -146,7 +146,7 @@ plans:
 - name: Medidata Plans Pricing
   plan_count: 3
   slug: medidata-plans-pricing
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Medidata Rate Limits

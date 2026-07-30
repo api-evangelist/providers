@@ -48,7 +48,7 @@ name: Cazoo
 nav: Providers
 network: true
 overview: Cazoo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Automotive, Used Cars, and Retail.
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 6.1

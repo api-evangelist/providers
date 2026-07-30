@@ -147,7 +147,7 @@ plans:
 - name: Railway App Plans Pricing
   plan_count: 5
   slug: railway-app-plans-pricing
-random_paper: 74
+random_paper: 61
 rate_limits:
 - limit_count: 6
   name: Railway App Rate Limits

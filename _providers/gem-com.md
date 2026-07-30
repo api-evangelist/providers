@@ -122,7 +122,7 @@ plans:
 - name: Gem Com Plans Pricing
   plan_count: 1
   slug: gem-com-plans-pricing
-random_paper: 29
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Gem Com Rate Limits

@@ -214,7 +214,7 @@ overview: 'Roadsync publishes 18 APIs on the [APIs.io](https://apis.io/) network
 
 
   Roadsync''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, and 20 more developer resources.'
-random_paper: 57
+random_paper: 47
 score:
   band: thin
   composite: 41.8

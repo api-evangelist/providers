@@ -337,7 +337,7 @@ plans:
 - name: Independence Blue Cross Plans Pricing
   plan_count: 5
   slug: independence-blue-cross-plans-pricing
-random_paper: 50
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Independence Blue Cross Rate Limits

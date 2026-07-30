@@ -91,7 +91,7 @@ overview: 'Solfacil is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Solfacil''s developer surface includes engineering blog, training material, and 10 more developer resources.'
-random_paper: 35
+random_paper: 25
 score:
   band: minimal
   composite: 9.8

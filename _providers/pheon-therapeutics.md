@@ -67,7 +67,7 @@ overview: 'Pheon Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Pheon Therapeutics'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 17
+random_paper: 76
 score:
   band: minimal
   composite: 9.0

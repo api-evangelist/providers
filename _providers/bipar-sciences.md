@@ -39,7 +39,7 @@ name: Bipar Sciences
 nav: Providers
 network: true
 overview: Bipar Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Oncology, Pharmaceuticals, and PARP Inhibitors.
-random_paper: 39
+random_paper: 22
 score:
   band: minimal
   composite: 4.3

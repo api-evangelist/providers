@@ -170,7 +170,7 @@ plans:
 - name: Cisco Secure Client Plans Pricing
   plan_count: 3
   slug: cisco-secure-client-plans-pricing
-random_paper: 42
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Cisco Secure Client Rate Limits

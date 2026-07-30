@@ -110,7 +110,7 @@ plans:
 - name: Myshiptracking Plans Pricing
   plan_count: 5
   slug: myshiptracking-plans-pricing
-random_paper: 59
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Myshiptracking Rate Limits

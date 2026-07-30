@@ -83,7 +83,7 @@ overview: 'DoubleDutch is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   DoubleDutch''s developer surface includes documentation, getting-started guide, engineering blog, CLI, and 6 more developer resources.'
-random_paper: 37
+random_paper: 23
 score:
   band: emerging
   composite: 15.1

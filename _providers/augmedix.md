@@ -96,7 +96,7 @@ overview: 'Augmedix is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Augmedix''s developer surface includes developer portal, engineering blog, and 11 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: minimal
   composite: 12.9

@@ -95,7 +95,7 @@ plans:
 - name: Finverse Plans Pricing
   plan_count: 3
   slug: finverse-plans-pricing
-random_paper: 56
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Finverse Rate Limits

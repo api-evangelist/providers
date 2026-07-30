@@ -76,7 +76,7 @@ plans:
 - name: Printique Plans Pricing
   plan_count: 0
   slug: printique-plans-pricing
-random_paper: 21
+random_paper: 9
 score:
   band: minimal
   composite: 7.2

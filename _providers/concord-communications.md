@@ -39,7 +39,7 @@ name: Concord Communications
 nav: Providers
 network: true
 overview: Concord Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, Portfolio Company, Inactive, and No API Surface.
-random_paper: 34
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

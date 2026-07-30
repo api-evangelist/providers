@@ -108,7 +108,7 @@ plans:
 - name: Connect Rpc Plans Pricing
   plan_count: 3
   slug: connect-rpc-plans-pricing
-random_paper: 63
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Connect Rpc Rate Limits

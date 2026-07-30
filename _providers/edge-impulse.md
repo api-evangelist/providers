@@ -227,7 +227,7 @@ plans:
 - name: Edge Impulse Plans Pricing
   plan_count: 3
   slug: edge-impulse-plans-pricing
-random_paper: 2
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Edge Impulse Rate Limits

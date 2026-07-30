@@ -48,7 +48,7 @@ name: Versant
 nav: Providers
 network: true
 overview: Versant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Database, Object Database, and NoSQL.
-random_paper: 42
+random_paper: 33
 score:
   band: minimal
   composite: 5.0

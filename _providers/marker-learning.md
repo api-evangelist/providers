@@ -52,7 +52,7 @@ name: Marker Learning
 nav: Providers
 network: true
 overview: Marker Learning is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Special Education, EdTech, and Assessment.
-random_paper: 77
+random_paper: 59
 score:
   band: minimal
   composite: 7.6

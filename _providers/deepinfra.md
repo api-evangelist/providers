@@ -134,7 +134,7 @@ plans:
 - name: Deepinfra Plans Pricing
   plan_count: 1
   slug: deepinfra-plans-pricing
-random_paper: 51
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Deepinfra Rate Limits

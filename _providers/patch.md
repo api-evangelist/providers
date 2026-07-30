@@ -155,7 +155,7 @@ plans:
 - name: Patch Plans Pricing
   plan_count: 2
   slug: patch-plans-pricing
-random_paper: 42
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Patch Rate Limits

@@ -155,7 +155,7 @@ plans:
 - name: Novu Co Plans Pricing
   plan_count: 5
   slug: novu-co-plans-pricing
-random_paper: 63
+random_paper: 55
 rate_limits:
 - limit_count: 13
   name: Novu Co Rate Limits

@@ -92,7 +92,7 @@ overview: 'wefox is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   wefox''s developer surface includes privacy policy, terms of service, and 10 more developer resources.'
-random_paper: 67
+random_paper: 61
 score:
   band: minimal
   composite: 8.3

@@ -164,7 +164,7 @@ overview: 'CARTO publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   CARTO''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 21 more developer resources.'
-random_paper: 6
+random_paper: 79
 scopes:
 - name: Cartodb Scopes
   scope_count: 4

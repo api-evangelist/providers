@@ -48,7 +48,7 @@ name: axitech
 nav: Providers
 network: true
 overview: axitech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 13
+random_paper: 4
 score:
   band: minimal
   composite: 3.2

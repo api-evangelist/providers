@@ -147,7 +147,7 @@ overview: 'Groove publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Groove''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, GitHub presence, and 5 more developer resources.'
-random_paper: 10
+random_paper: 2
 rules:
 - name: Groove API Rules
   rule_count: 8

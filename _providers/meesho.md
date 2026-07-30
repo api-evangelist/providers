@@ -100,7 +100,7 @@ overview: 'Meesho publishes 1 API on the [APIs.io](https://apis.io/) network: Su
 
 
   Meesho''s developer surface includes signup flow, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 74
+random_paper: 67
 score:
   band: emerging
   composite: 20.5

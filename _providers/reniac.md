@@ -71,7 +71,7 @@ overview: 'Reniac is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Reniac''s developer surface includes engineering blog, YouTube channel, and 5 more developer resources.'
-random_paper: 59
+random_paper: 52
 score:
   band: minimal
   composite: 6.1

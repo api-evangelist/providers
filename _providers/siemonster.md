@@ -67,7 +67,7 @@ overview: 'SIEMonster is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   SIEMonster''s developer surface includes documentation, support, and 4 more developer resources.'
-random_paper: 44
+random_paper: 31
 score:
   band: minimal
   composite: 11.8

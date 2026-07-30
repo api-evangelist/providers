@@ -51,7 +51,7 @@ overview: 'Middleby is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Middleby''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 32
+random_paper: 22
 score:
   band: minimal
   composite: 3.0

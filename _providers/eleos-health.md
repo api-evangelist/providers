@@ -84,7 +84,7 @@ overview: 'Eleos Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Eleos Health''s developer surface includes documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 77
+random_paper: 63
 score:
   band: emerging
   composite: 16.1

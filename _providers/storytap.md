@@ -103,7 +103,7 @@ overview: 'StoryTap is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   StoryTap''s developer surface includes engineering blog, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: emerging
   composite: 20.5

@@ -210,7 +210,7 @@ overview: 'Ava Protocol publishes 10 APIs on the [APIs.io](https://apis.io/) net
 
 
   Ava Protocol''s developer surface includes authentication, sandbox, CLI, documentation, API reference, getting-started guide, engineering blog, and 24 more developer resources.'
-random_paper: 24
+random_paper: 9
 score:
   band: developing
   composite: 44.8

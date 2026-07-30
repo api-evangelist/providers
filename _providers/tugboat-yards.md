@@ -68,7 +68,7 @@ overview: 'Tugboat Yards publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   The Tugboat Yards catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 54
+random_paper: 38
 score:
   band: emerging
   composite: 18.8

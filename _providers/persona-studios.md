@@ -48,7 +48,7 @@ name: Persona Studios
 nav: Providers
 network: true
 overview: Persona Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 45
+random_paper: 26
 score:
   band: minimal
   composite: 3.2

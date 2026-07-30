@@ -279,7 +279,7 @@ overview: 'Zoom Phone publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zoom Phone''s developer surface includes authentication, documentation, pricing, SDKs, engineering blog, API reference, getting-started guide, and 47 more developer resources.'
-random_paper: 64
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Zoom Phone Rate Limits

@@ -226,7 +226,7 @@ plans:
 - name: Xoserve Plans
   plan_count: 4
   slug: xoserve-plans
-random_paper: 51
+random_paper: 42
 rate_limits:
 - limit_count: 6
   name: Xoserve Rate Limits

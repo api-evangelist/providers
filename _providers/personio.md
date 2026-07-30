@@ -118,7 +118,7 @@ overview: 'Personio publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Personio''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: thin
   composite: 30.3

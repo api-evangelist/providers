@@ -625,7 +625,7 @@ plans:
 - name: Telnyx Plans Pricing
   plan_count: 1
   slug: telnyx-plans-pricing
-random_paper: 28
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Telnyx Rate Limits

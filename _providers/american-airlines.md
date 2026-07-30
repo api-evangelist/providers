@@ -208,7 +208,7 @@ press:
 - date: '2026-05-25'
   title: American Airlines reports fourth-quarter and full-year 2025 ...
   url: https://news.aa.com/news/news-details/2026/American-Airlines-reports-fourth-quarter-and-full-year-2025-financial-results-CORP-FI-01/default.aspx
-random_paper: 31
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: American Airlines Rate Limits

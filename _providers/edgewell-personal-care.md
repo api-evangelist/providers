@@ -70,7 +70,7 @@ press:
 - date: '2026-05-25'
   title: Edgewell Personal Care Announces Fourth Quarter and ...
   url: https://ir.edgewell.com/news-and-events/press-releases/2025/11-13-2025-110044688?sc_lang=en
-random_paper: 23
+random_paper: 78
 score:
   band: minimal
   composite: 3.0

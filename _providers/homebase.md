@@ -128,7 +128,7 @@ plans:
 - name: Homebase Plans Pricing
   plan_count: 4
   slug: homebase-plans-pricing
-random_paper: 26
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Homebase Rate Limits

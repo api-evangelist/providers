@@ -126,7 +126,7 @@ press:
 - date: '2026-05-25'
   title: 'Rcs: capital increase from 27 June to 5 July - FIRSTonline'
   url: https://www.firstonline.info/en/rcs-capital-increase-from-27-June-to-5-July/
-random_paper: 54
+random_paper: 41
 rules:
 - name: RCS Capital API Rules
   rule_count: 5

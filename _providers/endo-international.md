@@ -77,7 +77,7 @@ name: Endo International
 nav: Providers
 network: true
 overview: Endo International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Specialty Pharma, Generics, Sterile Injectables, and Urology.
-random_paper: 4
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

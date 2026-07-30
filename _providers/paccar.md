@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Financial Results
   url: https://investors.paccar.com/financials/quarterly-results/default.aspx
-random_paper: 51
+random_paper: 44
 score:
   band: minimal
   composite: 4.8

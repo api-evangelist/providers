@@ -75,7 +75,7 @@ overview: 'Calumet is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Calumet''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 18
+random_paper: 9
 score:
   band: minimal
   composite: 9.1

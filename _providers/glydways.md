@@ -71,7 +71,7 @@ overview: 'Glydways is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Glydways'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: minimal
   composite: 10.5

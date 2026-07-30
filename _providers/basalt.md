@@ -49,7 +49,7 @@ name: Basalt
 nav: Providers
 network: true
 overview: Basalt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Space, Satellites, and Spacecraft OS.
-random_paper: 64
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

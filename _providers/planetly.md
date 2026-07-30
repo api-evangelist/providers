@@ -39,7 +39,7 @@ name: Planetly
 nav: Providers
 network: true
 overview: Planetly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Carbon Accounting, Climate, Sustainability, and ESG.
-random_paper: 63
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

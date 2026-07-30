@@ -181,7 +181,7 @@ overview: 'Laka publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Laka''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 19 more developer resources.'
-random_paper: 4
+random_paper: 81
 score:
   band: developing
   composite: 44.1

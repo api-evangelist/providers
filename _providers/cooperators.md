@@ -164,7 +164,7 @@ overview: 'The Co-operators publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   The Co-operators'' developer surface includes authentication, support, product news, engineering blog, sandbox, and 21 more developer resources.'
-random_paper: 67
+random_paper: 53
 score:
   band: thin
   composite: 33.2

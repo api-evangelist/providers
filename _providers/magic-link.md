@@ -113,7 +113,7 @@ plans:
 - name: Magic Link Plans Pricing
   plan_count: 4
   slug: magic-link-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Magic Link Rate Limits

@@ -59,7 +59,7 @@ overview: 'BigHat Biosciences is profiled on the [APIs.io](https://apis.io/) net
 
 
   BigHat Biosciences'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 45
+random_paper: 23
 score:
   band: minimal
   composite: 6.3

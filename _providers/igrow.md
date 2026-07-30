@@ -52,7 +52,7 @@ name: iGrow
 nav: Providers
 network: true
 overview: iGrow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 66
+random_paper: 60
 score:
   band: minimal
   composite: 4.3

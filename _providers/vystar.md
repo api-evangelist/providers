@@ -48,7 +48,7 @@ name: VyStar Credit Union
 nav: Providers
 network: true
 overview: VyStar Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Credit Union, United States, and Open Finance.
-random_paper: 33
+random_paper: 25
 score:
   band: minimal
   composite: 6.0

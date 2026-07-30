@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Allstate CEO Touts New AI Agent System to Lower Costs
   url: https://news.ambest.com/newscontent.aspx?refnum=270450&altsrc=23
-random_paper: 48
+random_paper: 38
 score:
   band: emerging
   composite: 18.0

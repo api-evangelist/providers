@@ -63,7 +63,7 @@ overview: 'General Medicine is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   General Medicine''s developer surface includes support and 4 more developer resources.'
-random_paper: 70
+random_paper: 51
 score:
   band: minimal
   composite: 11.2

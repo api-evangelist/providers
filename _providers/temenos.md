@@ -643,7 +643,7 @@ plans:
 - name: Temenos Plans Pricing
   plan_count: 1
   slug: temenos-plans-pricing
-random_paper: 34
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Temenos Rate Limits

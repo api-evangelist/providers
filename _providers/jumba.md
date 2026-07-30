@@ -63,7 +63,7 @@ overview: 'Jumba is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jumba''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 41
+random_paper: 35
 score:
   band: minimal
   composite: 10.1

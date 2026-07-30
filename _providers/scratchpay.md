@@ -149,7 +149,7 @@ overview: 'Scratchpay publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Scratchpay''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 21
+random_paper: 8
 score:
   band: thin
   composite: 37.2

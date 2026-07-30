@@ -63,7 +63,7 @@ overview: 'beva publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   beva''s developer surface includes support and 3 more developer resources.'
-random_paper: 9
+random_paper: 4
 score:
   band: minimal
   composite: 9.5

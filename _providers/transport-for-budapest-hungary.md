@@ -56,7 +56,7 @@ name: Transport for Budapest, Hungary
 nav: Providers
 network: true
 overview: Transport for Budapest, Hungary publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 11
+random_paper: 55
 score:
   band: minimal
   composite: 5.7

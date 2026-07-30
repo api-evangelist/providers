@@ -151,7 +151,7 @@ overview: 'Attendease publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Attendease''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 1
+random_paper: 70
 score:
   band: emerging
   composite: 25.8

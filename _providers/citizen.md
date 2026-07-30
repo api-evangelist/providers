@@ -71,7 +71,7 @@ overview: 'Citizen is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Citizen''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 29
+random_paper: 20
 score:
   band: minimal
   composite: 10.5

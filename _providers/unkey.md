@@ -706,7 +706,7 @@ plans:
 - name: Unkey Plans Pricing
   plan_count: 4
   slug: unkey-plans-pricing
-random_paper: 70
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Unkey Rate Limits

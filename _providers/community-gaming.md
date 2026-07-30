@@ -59,7 +59,7 @@ overview: 'Community Gaming is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Community Gaming''s developer surface includes documentation, support, and 2 more developer resources.'
-random_paper: 49
+random_paper: 29
 score:
   band: minimal
   composite: 7.6

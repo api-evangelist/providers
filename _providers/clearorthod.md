@@ -63,7 +63,7 @@ overview: 'Clearbos (clearorthod) is profiled on the [APIs.io](https://apis.io/)
 
 
   Clearbos (clearorthod)''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 41
+random_paper: 27
 score:
   band: minimal
   composite: 8.0

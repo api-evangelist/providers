@@ -97,7 +97,7 @@ overview: 'Limepay publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Limepay''s developer surface includes authentication, documentation, API reference, and 10 more developer resources.'
-random_paper: 24
+random_paper: 15
 score:
   band: emerging
   composite: 20.1

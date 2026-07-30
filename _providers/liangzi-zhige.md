@@ -44,7 +44,7 @@ name: Liangzi Zhige
 nav: Providers
 network: true
 overview: Liangzi Zhige is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 34
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

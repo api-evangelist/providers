@@ -93,7 +93,7 @@ plans:
 - name: Norgate Data Plans Pricing
   plan_count: 6
   slug: norgate-data-plans-pricing
-random_paper: 73
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Norgate Data Rate Limits

@@ -86,7 +86,7 @@ plans:
 - name: Agworld Plans Pricing
   plan_count: 1
   slug: agworld-plans-pricing
-random_paper: 23
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Agworld Rate Limits

@@ -75,7 +75,7 @@ overview: 'BoardEffect is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   BoardEffect''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 7
+random_paper: 75
 score:
   band: minimal
   composite: 8.3

@@ -201,7 +201,7 @@ plans:
 - name: Inception Plans
   plan_count: 3
   slug: inception-plans
-random_paper: 78
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Inception Rate Limits

@@ -207,7 +207,7 @@ plans:
 - name: Tidb Plans Pricing
   plan_count: 6
   slug: tidb-plans-pricing
-random_paper: 14
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Tidb Rate Limits

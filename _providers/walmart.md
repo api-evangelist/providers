@@ -246,7 +246,7 @@ press:
 - date: '2026-05-25'
   title: Walmart Partners with OpenAI to Create AI-First Shopping ...
   url: https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences
-random_paper: 31
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Walmart Rate Limits

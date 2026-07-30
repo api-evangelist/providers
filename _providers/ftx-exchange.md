@@ -48,7 +48,7 @@ name: FTX Exchange
 nav: Providers
 network: true
 overview: FTX Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Web3.
-random_paper: 3
+random_paper: 70
 score:
   band: minimal
   composite: 4.1

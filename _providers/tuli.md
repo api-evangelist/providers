@@ -67,7 +67,7 @@ overview: 'Tuli is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Tuli''s developer surface includes support and 5 more developer resources.'
-random_paper: 41
+random_paper: 36
 score:
   band: emerging
   composite: 14.4

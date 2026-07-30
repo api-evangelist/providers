@@ -59,7 +59,7 @@ overview: 'Packworks is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Packworks'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 9
+random_paper: 79
 score:
   band: minimal
   composite: 5.4

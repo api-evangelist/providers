@@ -738,7 +738,7 @@ plans:
 - name: Cloudformation Plans Pricing
   plan_count: 3
   slug: cloudformation-plans-pricing
-random_paper: 52
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Cloudformation Rate Limits

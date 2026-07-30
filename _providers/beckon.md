@@ -48,7 +48,7 @@ name: Beckon
 nav: Providers
 network: true
 overview: Beckon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Marketing Analytics, Analytics, and Business Intelligence.
-random_paper: 59
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

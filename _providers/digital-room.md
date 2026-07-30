@@ -48,7 +48,7 @@ name: Digital Room
 nav: Providers
 network: true
 overview: Digital Room is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Printing, Print, and Ecommerce.
-random_paper: 9
+random_paper: 76
 score:
   band: minimal
   composite: 5.0

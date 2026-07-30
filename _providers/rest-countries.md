@@ -153,7 +153,7 @@ plans:
 - name: Rest Countries Plans Pricing
   plan_count: 2
   slug: rest-countries-plans-pricing
-random_paper: 21
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Rest Countries Rate Limits

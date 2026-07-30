@@ -131,7 +131,7 @@ overview: 'RE/MAX Canada publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   RE/MAX Canada''s developer surface includes authentication, engineering blog, and 18 more developer resources.'
-random_paper: 16
+random_paper: 1
 score:
   band: emerging
   composite: 26.6

@@ -131,7 +131,7 @@ plans:
 - name: Microsoft Azure Postgresql Plans Pricing
   plan_count: 3
   slug: microsoft-azure-postgresql-plans-pricing
-random_paper: 58
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Postgresql Rate Limits

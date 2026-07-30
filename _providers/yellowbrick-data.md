@@ -44,7 +44,7 @@ name: Yellowbrick Data
 nav: Providers
 network: true
 overview: Yellowbrick Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 26
+random_paper: 6
 score:
   band: minimal
   composite: 4.1

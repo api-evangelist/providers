@@ -99,7 +99,7 @@ overview: 'Maple is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Maple''s developer surface includes engineering blog, pricing, support, and 13 more developer resources.'
-random_paper: 68
+random_paper: 54
 score:
   band: emerging
   composite: 23.7

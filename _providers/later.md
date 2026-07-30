@@ -108,7 +108,7 @@ plans:
 - name: Later Plans Pricing
   plan_count: 3
   slug: later-plans-pricing
-random_paper: 50
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Later Rate Limits

@@ -48,7 +48,7 @@ name: VisasQ
 nav: Providers
 network: true
 overview: VisasQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Expert Network, Knowledge Sharing, and Consulting.
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

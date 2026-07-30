@@ -87,7 +87,7 @@ overview: 'Komprise is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Komprise''s developer surface includes documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 64
+random_paper: 54
 score:
   band: emerging
   composite: 15.3

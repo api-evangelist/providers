@@ -108,7 +108,7 @@ plans:
 - name: Oyster Hr Plans Pricing
   plan_count: 5
   slug: oyster-hr-plans-pricing
-random_paper: 50
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Oyster Hr Rate Limits

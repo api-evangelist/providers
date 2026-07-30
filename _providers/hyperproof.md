@@ -99,7 +99,7 @@ plans:
 - name: Hyperproof Plans Pricing
   plan_count: 1
   slug: hyperproof-plans-pricing
-random_paper: 49
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Hyperproof Rate Limits

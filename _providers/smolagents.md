@@ -140,7 +140,7 @@ plans:
 - name: Smolagents Plans Pricing
   plan_count: 5
   slug: smolagents-plans-pricing
-random_paper: 32
+random_paper: 19
 rate_limits:
 - limit_count: 21
   name: Smolagents Rate Limits

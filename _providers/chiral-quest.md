@@ -79,7 +79,7 @@ overview: 'Chiral Quest is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Chiral Quest''s developer surface includes product news and 8 more developer resources.'
-random_paper: 19
+random_paper: 4
 score:
   band: minimal
   composite: 6.9

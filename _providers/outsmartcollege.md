@@ -56,7 +56,7 @@ name: Outsmart
 nav: Providers
 network: true
 overview: Outsmart is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Artificial Intelligence, and Learning.
-random_paper: 6
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

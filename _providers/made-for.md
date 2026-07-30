@@ -48,7 +48,7 @@ name: Made For
 nav: Providers
 network: true
 overview: Made For is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 50
+random_paper: 41
 score:
   band: minimal
   composite: 4.1

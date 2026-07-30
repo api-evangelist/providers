@@ -39,7 +39,7 @@ name: Gainspeed
 nav: Providers
 network: true
 overview: Gainspeed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Telecommunications, Cable, and CCAP.
-random_paper: 53
+random_paper: 42
 score:
   band: minimal
   composite: 4.3

@@ -156,7 +156,7 @@ plans:
 - name: Willo Plans Pricing
   plan_count: 4
   slug: willo-plans-pricing
-random_paper: 65
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Willo Rate Limits

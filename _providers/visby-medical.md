@@ -79,7 +79,7 @@ overview: 'Visby Medical is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Visby Medical''s developer surface includes support, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 25
+random_paper: 9
 score:
   band: emerging
   composite: 14.3

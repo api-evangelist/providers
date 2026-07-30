@@ -110,7 +110,7 @@ overview: 'Taste publishes 3 APIs on the [APIs.io](https://apis.io/) network: he
 
 
   Taste''s developer surface includes engineering blog, authentication, and 11 more developer resources.'
-random_paper: 59
+random_paper: 53
 score:
   band: emerging
   composite: 25.2

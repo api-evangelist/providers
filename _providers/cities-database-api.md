@@ -155,7 +155,7 @@ plans:
 - name: Cities Database Api Plans Pricing
   plan_count: 3
   slug: cities-database-api-plans-pricing
-random_paper: 3
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Cities Database Api Rate Limits

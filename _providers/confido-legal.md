@@ -104,7 +104,7 @@ plans:
 - name: Confido Legal Plans Pricing
   plan_count: 3
   slug: confido-legal-plans-pricing
-random_paper: 4
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Confido Legal Rate Limits

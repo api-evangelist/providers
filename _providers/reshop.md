@@ -56,7 +56,7 @@ name: Reshop
 nav: Providers
 network: true
 overview: Reshop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Refunds, and Ecommerce.
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 11.1

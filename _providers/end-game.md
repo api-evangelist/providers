@@ -187,7 +187,7 @@ overview: 'Endgame publishes 1 API on the [APIs.io](https://apis.io/) network: T
 
 
   Endgame''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 25 more developer resources.'
-random_paper: 37
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: End Game Rate Limits

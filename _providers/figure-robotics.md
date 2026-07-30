@@ -91,7 +91,7 @@ overview: 'Figure is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Figure''s developer surface includes YouTube channel and 11 more developer resources.'
-random_paper: 17
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

@@ -21,7 +21,7 @@ modified: '2026-05-19'
 name: Technology Standards
 nav: Providers
 network: true
-random_paper: 68
+random_paper: 43
 slug: technology-standards
 tags:
 - IEEE

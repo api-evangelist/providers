@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Pantera Capital
 nav: Providers
 network: true
-random_paper: 68
+random_paper: 50
 slug: pantera-capital
 tags:
 - Venture Capital

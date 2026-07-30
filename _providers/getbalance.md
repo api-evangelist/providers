@@ -127,7 +127,7 @@ overview: 'Getbalance publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Getbalance''s developer surface includes documentation, API reference, developer portal, signup flow, engineering blog, support, changelog, and 13 more developer resources.'
-random_paper: 58
+random_paper: 46
 score:
   band: thin
   composite: 33.6

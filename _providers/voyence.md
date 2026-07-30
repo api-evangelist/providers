@@ -39,7 +39,7 @@ name: Voyence
 nav: Providers
 network: true
 overview: Voyence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Configuration Management, Change Management, Network Management, and Compliance.
-random_paper: 32
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

@@ -44,7 +44,7 @@ name: Smart Reno
 nav: Providers
 network: true
 overview: Smart Reno is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Renovation, Marketplace, Contractors, and Construction.
-random_paper: 60
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

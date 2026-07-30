@@ -79,7 +79,7 @@ overview: 'Thruster is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Thruster''s developer surface includes documentation and 8 more developer resources.'
-random_paper: 6
+random_paper: 77
 score:
   band: emerging
   composite: 13.8

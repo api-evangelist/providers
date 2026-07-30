@@ -207,7 +207,7 @@ plans:
 - name: Zenrows Plans Pricing
   plan_count: 8
   slug: zenrows-plans-pricing
-random_paper: 63
+random_paper: 54
 rate_limits:
 - limit_count: 12
   name: Zenrows Rate Limits

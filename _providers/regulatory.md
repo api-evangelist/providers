@@ -22,7 +22,7 @@ modified: '2026-05-19'
 name: Regulatory
 nav: Providers
 network: true
-random_paper: 49
+random_paper: 36
 slug: regulatory
 tags:
 - Compliance

@@ -204,7 +204,7 @@ plans:
 - name: Email Verifier Api Plans Pricing
   plan_count: 14
   slug: email-verifier-api-plans-pricing
-random_paper: 2
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Email Verifier Api Rate Limits

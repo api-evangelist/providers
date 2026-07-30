@@ -75,7 +75,7 @@ overview: 'Effectiv is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Effectiv''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 34
+random_paper: 24
 score:
   band: minimal
   composite: 11.2

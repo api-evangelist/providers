@@ -366,7 +366,7 @@ plans:
 - name: Mistral Ai Plans Pricing
   plan_count: 6
   slug: mistral-ai-plans-pricing
-random_paper: 39
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Mistral Ai Rate Limits

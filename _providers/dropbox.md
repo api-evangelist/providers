@@ -1221,7 +1221,7 @@ plans:
 - name: Dropbox Plans Pricing
   plan_count: 2
   slug: dropbox-plans-pricing
-random_paper: 37
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Dropbox Rate Limits

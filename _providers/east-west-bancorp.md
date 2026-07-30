@@ -65,7 +65,7 @@ plans:
 - name: East West Bancorp Plans Pricing
   plan_count: 1
   slug: east-west-bancorp-plans-pricing
-random_paper: 10
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: East West Bancorp Rate Limits

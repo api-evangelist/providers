@@ -71,7 +71,7 @@ overview: 'Derq is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Derq''s developer surface includes engineering blog, support, YouTube channel, and 4 more developer resources.'
-random_paper: 23
+random_paper: 18
 score:
   band: minimal
   composite: 9.5

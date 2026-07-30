@@ -135,7 +135,7 @@ plans:
 - name: Simpletexting Plans Pricing
   plan_count: 2
   slug: simpletexting-plans-pricing
-random_paper: 44
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Simpletexting Rate Limits

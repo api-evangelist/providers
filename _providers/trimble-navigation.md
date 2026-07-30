@@ -162,7 +162,7 @@ press:
 - date: '2026-05-25'
   title: Builder business and will extend Trimble's ability to provide ...
   url: https://www.facebook.com/TrimbleCorporate/posts/more-big-news-happened-todaywe-are-so-excited-to-announce-the-newest-member-of-t/1919754298098753/
-random_paper: 5
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Trimble Navigation Rate Limits

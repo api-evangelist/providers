@@ -368,7 +368,7 @@ plans:
 - name: Lastfm Plans Pricing
   plan_count: 2
   slug: lastfm-plans-pricing
-random_paper: 80
+random_paper: 73
 rate_limits:
 - limit_count: 4
   name: Lastfm Rate Limits

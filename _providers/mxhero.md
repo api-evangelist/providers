@@ -112,7 +112,7 @@ overview: 'mxHero publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   mxHero''s developer surface includes documentation, engineering blog, pricing, authentication, and 11 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: emerging
   composite: 21.9

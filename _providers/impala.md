@@ -114,7 +114,7 @@ overview: 'Impala publishes 3 APIs on the [APIs.io](https://apis.io/) network: B
 
 
   Impala''s developer surface includes authentication, sandbox, and 12 more developer resources.'
-random_paper: 61
+random_paper: 54
 score:
   band: thin
   composite: 28.8

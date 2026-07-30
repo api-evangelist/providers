@@ -91,7 +91,7 @@ overview: 'LeanTaaS is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   LeanTaaS''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 31
+random_paper: 21
 score:
   band: emerging
   composite: 19.5

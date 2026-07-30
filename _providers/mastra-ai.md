@@ -164,7 +164,7 @@ overview: 'Mastra publishes 12 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Mastra''s developer surface includes documentation, GitHub presence, engineering blog, changelog, pricing, code examples, YouTube channel, and 14 more developer resources.'
-random_paper: 4
+random_paper: 75
 score:
   band: emerging
   composite: 13.5

@@ -75,7 +75,7 @@ overview: 'AdReady (CPXi) is profiled on the [APIs.io](https://apis.io/) network
 
 
   AdReady (CPXi)''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 77
+random_paper: 63
 score:
   band: emerging
   composite: 14.2

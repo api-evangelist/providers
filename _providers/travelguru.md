@@ -56,7 +56,7 @@ name: Travelguru
 nav: Providers
 network: true
 overview: Travelguru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hotels, Booking, and India.
-random_paper: 52
+random_paper: 39
 score:
   band: minimal
   composite: 6.9

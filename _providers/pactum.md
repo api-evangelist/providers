@@ -95,7 +95,7 @@ overview: 'Pactum is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pactum''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 2
+random_paper: 76
 score:
   band: emerging
   composite: 18.2

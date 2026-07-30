@@ -1286,7 +1286,7 @@ plans:
 - name: Amazon Interactive Video Service Plans Pricing
   plan_count: 3
   slug: amazon-interactive-video-service-plans-pricing
-random_paper: 11
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Amazon Interactive Video Service Rate Limits

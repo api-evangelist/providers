@@ -87,7 +87,7 @@ overview: 'Hello Heart is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Hello Heart''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 56
+random_paper: 43
 score:
   band: emerging
   composite: 18.4

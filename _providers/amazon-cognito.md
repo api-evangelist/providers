@@ -5095,7 +5095,7 @@ plans:
 - name: Amazon Cognito Plans Pricing
   plan_count: 1
   slug: amazon-cognito-plans-pricing
-random_paper: 69
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Amazon Cognito Rate Limits

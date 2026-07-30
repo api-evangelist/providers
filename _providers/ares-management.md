@@ -65,7 +65,7 @@ plans:
 - name: Ares Management Plans Pricing
   plan_count: 1
   slug: ares-management-plans-pricing
-random_paper: 67
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Ares Management Rate Limits

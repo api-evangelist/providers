@@ -119,7 +119,7 @@ overview: 'Monarch Money is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Monarch Money''s developer surface includes pricing, signup flow, engineering blog, support, changelog, and 14 more developer resources.'
-random_paper: 45
+random_paper: 29
 score:
   band: emerging
   composite: 25.0

@@ -116,7 +116,7 @@ overview: 'Kymera Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Kymera Therapeutics'' developer surface includes support and 17 more developer resources.'
-random_paper: 47
+random_paper: 23
 score:
   band: emerging
   composite: 13.4

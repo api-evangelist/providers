@@ -75,7 +75,7 @@ overview: 'Sesame is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sesame''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 71
+random_paper: 64
 score:
   band: emerging
   composite: 14.4

@@ -183,7 +183,7 @@ plans:
 - name: Soundstripe Plans Pricing
   plan_count: 7
   slug: soundstripe-plans-pricing
-random_paper: 1
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Soundstripe Rate Limits

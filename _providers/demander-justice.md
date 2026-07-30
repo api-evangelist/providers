@@ -63,7 +63,7 @@ overview: 'Demander Justice is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Demander Justice''s developer surface includes support and 4 more developer resources.'
-random_paper: 16
+random_paper: 78
 score:
   band: minimal
   composite: 10.1

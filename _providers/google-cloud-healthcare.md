@@ -619,7 +619,7 @@ plans:
 - name: Google Cloud Healthcare Plans Pricing
   plan_count: 6
   slug: google-cloud-healthcare-plans-pricing
-random_paper: 35
+random_paper: 7
 rate_limits:
 - limit_count: 13
   name: Google Cloud Healthcare Rate Limits

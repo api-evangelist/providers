@@ -130,7 +130,7 @@ plans:
 - name: Notificationapi Plans Pricing
   plan_count: 4
   slug: notificationapi-plans-pricing
-random_paper: 62
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Notificationapi Rate Limits

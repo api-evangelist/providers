@@ -48,7 +48,7 @@ name: VivaReal
 nav: Providers
 network: true
 overview: VivaReal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Brazil, Classifieds, and Property.
-random_paper: 48
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

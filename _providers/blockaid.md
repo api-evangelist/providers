@@ -232,7 +232,7 @@ overview: 'Blockaid publishes 23 APIs on the [APIs.io](https://apis.io/) network
 
 
   Blockaid''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 15
+random_paper: 5
 score:
   band: developing
   composite: 44.1

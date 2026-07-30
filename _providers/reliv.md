@@ -59,7 +59,7 @@ overview: 'Reliv is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Reliv''s developer surface includes support and 3 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: minimal
   composite: 8.6

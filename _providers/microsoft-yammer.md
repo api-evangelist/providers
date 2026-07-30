@@ -139,7 +139,7 @@ plans:
 - name: Microsoft Yammer Plans Pricing
   plan_count: 3
   slug: microsoft-yammer-plans-pricing
-random_paper: 58
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Microsoft Yammer Rate Limits

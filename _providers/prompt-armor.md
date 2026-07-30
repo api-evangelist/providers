@@ -111,7 +111,7 @@ plans:
 - name: Prompt Armor Plans Pricing
   plan_count: 2
   slug: prompt-armor-plans-pricing
-random_paper: 49
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Prompt Armor Rate Limits

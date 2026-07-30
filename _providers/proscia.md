@@ -127,7 +127,7 @@ overview: 'Proscia publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Proscia''s developer surface includes documentation, engineering blog, signup flow, support, changelog, authentication, and 12 more developer resources.'
-random_paper: 24
+random_paper: 15
 score:
   band: emerging
   composite: 27.8

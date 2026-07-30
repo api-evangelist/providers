@@ -120,7 +120,7 @@ plans:
 - name: Rockerbox Plans Pricing
   plan_count: 1
   slug: rockerbox-plans-pricing
-random_paper: 3
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Rockerbox Rate Limits

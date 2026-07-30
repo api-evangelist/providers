@@ -48,7 +48,7 @@ name: Aepona
 nav: Providers
 network: true
 overview: Aepona is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Telecommunications, APIs, and Network as a Service.
-random_paper: 61
+random_paper: 54
 score:
   band: minimal
   composite: 5.5

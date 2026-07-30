@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Watsco expands digital sales, AI tools in Q4
   url: https://www.digitalcommerce360.com/2026/02/19/watsco-digital-ecommerce-ai-sales-q4-2025/
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 9.9

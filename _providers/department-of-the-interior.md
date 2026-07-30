@@ -167,7 +167,7 @@ plans:
 - name: Department Of The Interior Plans Pricing
   plan_count: 1
   slug: department-of-the-interior-plans-pricing
-random_paper: 29
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Department Of The Interior Rate Limits

@@ -90,7 +90,7 @@ plans:
 - name: Locofy Plans Pricing
   plan_count: 1
   slug: locofy-plans-pricing
-random_paper: 4
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Locofy Rate Limits

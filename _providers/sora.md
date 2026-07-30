@@ -48,7 +48,7 @@ name: Sora
 nav: Providers
 network: true
 overview: Sora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Online Learning, K-12, and EdTech.
-random_paper: 32
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

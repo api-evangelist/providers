@@ -213,7 +213,7 @@ overview: 'Kudobuzz publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Kudobuzz''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 33 more developer resources.'
-random_paper: 3
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Kudobuzz Rate Limits

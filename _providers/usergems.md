@@ -272,7 +272,7 @@ plans:
 - name: Usergems Plans Pricing
   plan_count: 1
   slug: usergems-plans-pricing
-random_paper: 65
+random_paper: 55
 rate_limits:
 - limit_count: 4
   name: Usergems Rate Limits

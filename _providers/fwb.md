@@ -67,7 +67,7 @@ overview: 'Fwb is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Fwb''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 76
+random_paper: 73
 score:
   band: minimal
   composite: 8.1

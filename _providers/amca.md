@@ -71,7 +71,7 @@ overview: 'Amca is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Amca''s developer surface includes support and 6 more developer resources.'
-random_paper: 78
+random_paper: 74
 score:
   band: minimal
   composite: 5.9

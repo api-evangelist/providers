@@ -144,7 +144,7 @@ overview: 'Keel is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Keel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 18 more developer resources.'
-random_paper: 12
+random_paper: 7
 score:
   band: thin
   composite: 31.4

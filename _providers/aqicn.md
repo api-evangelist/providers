@@ -56,7 +56,7 @@ name: AQICN
 nav: Providers
 network: true
 overview: AQICN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Weather and Public APIs.
-random_paper: 38
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

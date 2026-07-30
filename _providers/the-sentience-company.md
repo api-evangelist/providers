@@ -44,7 +44,7 @@ name: The Sentience Company
 nav: Providers
 network: true
 overview: The Sentience Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Artificial Intelligence, Digital Twin, and Consumer AI.
-random_paper: 22
+random_paper: 78
 score:
   band: minimal
   composite: 5.0

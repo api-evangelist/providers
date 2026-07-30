@@ -48,7 +48,7 @@ name: 5Nine Software
 nav: Providers
 network: true
 overview: 5Nine Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Hyper-V, Cloud Management, and Microsoft Azure.
-random_paper: 22
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

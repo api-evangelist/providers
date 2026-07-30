@@ -63,7 +63,7 @@ overview: 'RealPact is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   RealPact''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 34
+random_paper: 24
 score:
   band: emerging
   composite: 13.6

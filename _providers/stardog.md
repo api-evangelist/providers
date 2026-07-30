@@ -174,7 +174,7 @@ overview: 'Stardog publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Stardog''s developer surface includes documentation, pricing, signup flow, GitHub presence, engineering blog, and 5 more developer resources.'
-random_paper: 27
+random_paper: 18
 score:
   band: emerging
   composite: 25.1

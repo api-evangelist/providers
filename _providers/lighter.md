@@ -225,7 +225,7 @@ plans:
 - name: Lighter Plans
   plan_count: 4
   slug: lighter-plans
-random_paper: 22
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Lighter Rate Limits

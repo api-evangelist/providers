@@ -79,7 +79,7 @@ overview: 'Bikemap is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bikemap''s developer surface includes support, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 0
+random_paper: 73
 score:
   band: emerging
   composite: 15.9

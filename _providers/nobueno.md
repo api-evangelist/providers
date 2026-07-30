@@ -189,7 +189,7 @@ overview: 'NoBueno publishes 32 APIs on the [APIs.io](https://apis.io/) network,
 
 
   NoBueno''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 29
+random_paper: 20
 score:
   band: emerging
   composite: 21.7

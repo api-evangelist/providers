@@ -281,7 +281,7 @@ plans:
 - name: Arduino Plans Pricing
   plan_count: 4
   slug: arduino-plans-pricing
-random_paper: 25
+random_paper: 16
 rate_limits:
 - limit_count: 7
   name: Arduino Rate Limits

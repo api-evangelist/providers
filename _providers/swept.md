@@ -77,7 +77,7 @@ plans:
 - name: Swept Plans Pricing
   plan_count: 3
   slug: swept-plans-pricing
-random_paper: 77
+random_paper: 71
 score:
   band: emerging
   composite: 14.2

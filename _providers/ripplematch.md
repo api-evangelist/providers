@@ -79,7 +79,7 @@ overview: 'RippleMatch is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   RippleMatch''s developer surface includes engineering blog, signup flow, support, and 6 more developer resources.'
-random_paper: 43
+random_paper: 29
 score:
   band: emerging
   composite: 15.0

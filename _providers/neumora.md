@@ -44,7 +44,7 @@ name: Neumora
 nav: Providers
 network: true
 overview: Neumora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Biotechnology, Pharmaceuticals, and Neuroscience.
-random_paper: 30
+random_paper: 21
 score:
   band: minimal
   composite: 4.3

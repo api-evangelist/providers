@@ -44,7 +44,7 @@ name: frontiercargroup
 nav: Providers
 network: true
 overview: frontiercargroup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Used Cars, Marketplace, and C2B.
-random_paper: 39
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

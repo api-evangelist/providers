@@ -55,7 +55,7 @@ overview: 'Humane Genomics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Humane Genomics'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 78
+random_paper: 60
 score:
   band: minimal
   composite: 5.4

@@ -154,7 +154,7 @@ plans:
 - name: Skydio Plans Pricing
   plan_count: 1
   slug: skydio-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Skydio Rate Limits

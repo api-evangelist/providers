@@ -63,7 +63,7 @@ overview: 'Canadian Football League (CFL) publishes 1 API on the [APIs.io](https
 
 
   Canadian Football League (CFL)''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 64
+random_paper: 31
 score:
   band: minimal
   composite: 6.2

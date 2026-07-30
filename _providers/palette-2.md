@@ -100,7 +100,7 @@ overview: 'Palette 2 publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Palette 2''s developer surface includes signup flow, authentication, and 11 more developer resources.'
-random_paper: 36
+random_paper: 26
 score:
   band: emerging
   composite: 19.7

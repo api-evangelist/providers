@@ -105,7 +105,7 @@ plans:
 - name: Army National Guard Plans Pricing
   plan_count: 3
   slug: army-national-guard-plans-pricing
-random_paper: 53
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Army National Guard Rate Limits

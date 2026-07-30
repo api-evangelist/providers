@@ -44,7 +44,7 @@ name: SBA Communications
 nav: Providers
 network: true
 overview: SBA Communications is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 5
+random_paper: 64
 score:
   band: minimal
   composite: 2.6

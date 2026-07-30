@@ -48,7 +48,7 @@ name: Resilient Power Systems
 nav: Providers
 network: true
 overview: Resilient Power Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Power Electronics, Energy, Hardware, and EV Charging.
-random_paper: 65
+random_paper: 36
 score:
   band: minimal
   composite: 5.5

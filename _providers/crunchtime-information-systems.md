@@ -128,7 +128,7 @@ overview: 'Crunchtime Information Systems publishes 1 API on the [APIs.io](https
 
 
   Crunchtime Information Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 12 more developer resources.'
-random_paper: 68
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Crunchtime Information Systems Rate Limits

@@ -39,7 +39,7 @@ name: Information Technology Infrastructure
 nav: Providers
 network: true
 overview: Information Technology Infrastructure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, DevOps, Infrastructure, IT Operations, and Monitoring.
-random_paper: 13
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

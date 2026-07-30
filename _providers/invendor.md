@@ -266,7 +266,7 @@ overview: 'Invendor publishes 42 APIs on the [APIs.io](https://apis.io/) network
 
 
   Invendor''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 59
+random_paper: 49
 scopes:
 - name: Invendor Scopes
   scope_count: 2

@@ -48,7 +48,7 @@ name: dinovamedtech
 nav: Providers
 network: true
 overview: dinovamedtech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 75
+random_paper: 59
 score:
   band: minimal
   composite: 3.2

@@ -171,7 +171,7 @@ overview: 'Lang.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Lang.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 53
+random_paper: 46
 score:
   band: developing
   composite: 52.0

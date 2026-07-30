@@ -72,7 +72,7 @@ name: EV3
 nav: Providers
 network: true
 overview: EV3 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Venture Capital, Blockchain, and DePIN.
-random_paper: 27
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

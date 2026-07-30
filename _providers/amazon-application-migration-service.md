@@ -1043,7 +1043,7 @@ overview: 'Amazon Application Migration Service publishes 10 APIs on the [APIs.i
 
 
   Amazon Application Migration Service''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 31
+random_paper: 68
 rules:
 - name: Amazon Application Migration Service API Rules
   rule_count: 5

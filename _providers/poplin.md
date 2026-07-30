@@ -89,7 +89,7 @@ plans:
 - name: Poplin Plans Pricing
   plan_count: 4
   slug: poplin-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Poplin Rate Limits

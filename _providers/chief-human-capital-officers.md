@@ -110,7 +110,7 @@ plans:
 - name: Chief Human Capital Officers Plans Pricing
   plan_count: 3
   slug: chief-human-capital-officers-plans-pricing
-random_paper: 12
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Chief Human Capital Officers Rate Limits

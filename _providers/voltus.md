@@ -247,7 +247,7 @@ overview: 'Voltus publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Voltus'' developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, support, and 32 more developer resources.'
-random_paper: 37
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Voltus Rate Limits

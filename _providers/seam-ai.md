@@ -48,7 +48,7 @@ name: Seam AI
 nav: Providers
 network: true
 overview: Seam AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Account Based Marketing, Sales Intelligence, and Marketing.
-random_paper: 21
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

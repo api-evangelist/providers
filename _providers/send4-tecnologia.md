@@ -52,7 +52,7 @@ name: Send4 Tecnologia
 nav: Providers
 network: true
 overview: Send4 Tecnologia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Reverse Logistics, Returns, and Post-Sale.
-random_paper: 45
+random_paper: 26
 score:
   band: minimal
   composite: 7.1

@@ -75,7 +75,7 @@ overview: 'Relevize is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Relevize''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 60
+random_paper: 50
 score:
   band: emerging
   composite: 17.0

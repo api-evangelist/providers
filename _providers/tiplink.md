@@ -91,7 +91,7 @@ overview: 'TipLink is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   TipLink''s developer surface includes documentation, getting-started guide, support, and 9 more developer resources.'
-random_paper: 34
+random_paper: 25
 score:
   band: emerging
   composite: 16.2

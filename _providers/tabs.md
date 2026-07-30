@@ -250,7 +250,7 @@ overview: 'Tabs publishes 23 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Tabs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 26 more developer resources.'
-random_paper: 21
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Tabs Rate Limits

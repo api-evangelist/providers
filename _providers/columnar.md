@@ -103,7 +103,7 @@ overview: 'Columnar is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Columnar''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, changelog, and 9 more developer resources.'
-random_paper: 55
+random_paper: 45
 score:
   band: emerging
   composite: 16.3

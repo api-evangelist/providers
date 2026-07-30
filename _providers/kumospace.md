@@ -190,7 +190,7 @@ overview: 'Kumospace publishes 23 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kumospace''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 77
+random_paper: 66
 score:
   band: developing
   composite: 44.4

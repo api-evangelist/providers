@@ -56,7 +56,7 @@ name: Jifflenow
 nav: Providers
 network: true
 overview: Jifflenow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automation, Events, Meetings, and Scheduling.
-random_paper: 73
+random_paper: 62
 score:
   band: minimal
   composite: 8.2

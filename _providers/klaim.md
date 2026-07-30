@@ -64,7 +64,7 @@ name: Klaim
 nav: Providers
 network: true
 overview: Klaim is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Healthcare, and Insurance.
-random_paper: 40
+random_paper: 34
 score:
   band: minimal
   composite: 12.6

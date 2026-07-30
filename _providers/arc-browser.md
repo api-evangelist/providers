@@ -104,7 +104,7 @@ plans:
 - name: Arc Browser Plans Pricing
   plan_count: 1
   slug: arc-browser-plans-pricing
-random_paper: 74
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Arc Browser Rate Limits

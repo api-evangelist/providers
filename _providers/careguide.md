@@ -67,7 +67,7 @@ overview: 'CareGuide is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CareGuide''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 46
+random_paper: 35
 score:
   band: minimal
   composite: 10.5

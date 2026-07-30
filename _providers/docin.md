@@ -48,7 +48,7 @@ name: docin
 nav: Providers
 network: true
 overview: docin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Documents, Document Sharing, Content, and Publishing.
-random_paper: 39
+random_paper: 33
 score:
   band: minimal
   composite: 6.1

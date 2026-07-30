@@ -165,7 +165,7 @@ plans:
 - name: Pennsylvania State University Plans Pricing
   plan_count: 2
   slug: pennsylvania-state-university-plans-pricing
-random_paper: 64
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Pennsylvania State University Rate Limits

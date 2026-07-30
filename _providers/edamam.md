@@ -376,7 +376,7 @@ plans:
 - name: Edamam Plans Pricing
   plan_count: 4
   slug: edamam-plans-pricing
-random_paper: 46
+random_paper: 39
 rate_limits:
 - limit_count: 11
   name: Edamam Rate Limits

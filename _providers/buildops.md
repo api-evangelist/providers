@@ -83,7 +83,7 @@ overview: 'BuildOps is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BuildOps'' developer surface includes pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 56
+random_paper: 46
 score:
   band: emerging
   composite: 18.1

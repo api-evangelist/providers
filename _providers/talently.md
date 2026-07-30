@@ -52,7 +52,7 @@ name: Talently
 nav: Providers
 network: true
 overview: Talently is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent Marketplace, Hiring, and Jobs.
-random_paper: 67
+random_paper: 57
 score:
   band: minimal
   composite: 5.7

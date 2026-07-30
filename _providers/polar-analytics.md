@@ -143,7 +143,7 @@ overview: 'Polar Analytics publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Polar Analytics'' developer surface includes authentication, documentation, support, pricing, engineering blog, and 17 more developer resources.'
-random_paper: 16
+random_paper: 79
 score:
   band: thin
   composite: 32.0

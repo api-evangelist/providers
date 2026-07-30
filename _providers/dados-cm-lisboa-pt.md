@@ -83,7 +83,7 @@ plans:
 - name: Dados Cm Lisboa Pt Plans Pricing
   plan_count: 0
   slug: dados-cm-lisboa-pt-plans-pricing
-random_paper: 27
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Dados Cm Lisboa Pt Rate Limits

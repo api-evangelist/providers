@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Use of Generative AI in Your Project - B&N Press
   url: https://help-press.barnesandnoble.com/hc/en-us/articles/28267750176923-Use-of-Generative-AI-in-Your-Project
-random_paper: 21
+random_paper: 2
 score:
   band: minimal
   composite: 8.2

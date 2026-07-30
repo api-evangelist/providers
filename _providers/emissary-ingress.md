@@ -150,7 +150,7 @@ plans:
 - name: Emissary Ingress Plans Pricing
   plan_count: 3
   slug: emissary-ingress-plans-pricing
-random_paper: 65
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Emissary Ingress Rate Limits

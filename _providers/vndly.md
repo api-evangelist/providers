@@ -52,7 +52,7 @@ name: VNDLY
 nav: Providers
 network: true
 overview: VNDLY is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vendor Management, VMS, Contingent Workforce, and Human Capital Management.
-random_paper: 71
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

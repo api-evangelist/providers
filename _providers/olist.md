@@ -79,7 +79,7 @@ overview: 'Olist is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Olist''s developer surface includes signup flow, support, engineering blog, pricing, and 5 more developer resources.'
-random_paper: 69
+random_paper: 63
 score:
   band: emerging
   composite: 13.8

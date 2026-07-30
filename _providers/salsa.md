@@ -129,7 +129,7 @@ plans:
 - name: Salsa Plans Pricing
   plan_count: 3
   slug: salsa-plans-pricing
-random_paper: 46
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Salsa Rate Limits

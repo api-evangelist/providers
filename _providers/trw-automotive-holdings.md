@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: TRW Automotive Selects Sherlock Automated Design Analysis ...
   url: https://ai-online.com/2011/09/trw-automotive-selects-sherlock-automated-design-analysis-software-from-dfr-solutions/
-random_paper: 47
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

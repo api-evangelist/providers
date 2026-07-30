@@ -140,7 +140,7 @@ plans:
 - name: 3Plcentral Plans Pricing
   plan_count: 3
   slug: 3plcentral-plans-pricing
-random_paper: 44
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: 3Plcentral Rate Limits

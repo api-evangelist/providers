@@ -144,7 +144,7 @@ overview: 'Julep publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Julep''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, and 9 more developer resources.'
-random_paper: 58
+random_paper: 52
 score:
   band: thin
   composite: 34.8

@@ -178,7 +178,7 @@ plans:
 - name: Daytona Plans Pricing
   plan_count: 1
   slug: daytona-plans-pricing
-random_paper: 23
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Daytona Rate Limits

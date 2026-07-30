@@ -111,7 +111,7 @@ plans:
 - name: Stord Plans Pricing
   plan_count: 0
   slug: stord-plans-pricing
-random_paper: 70
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Stord Rate Limits

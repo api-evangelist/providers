@@ -75,7 +75,7 @@ overview: 'Minu is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Minu''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 36
+random_paper: 31
 score:
   band: emerging
   composite: 16.2

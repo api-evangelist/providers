@@ -75,7 +75,7 @@ overview: 'ThriveFantasy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   ThriveFantasy''s developer surface includes signup flow and 7 more developer resources.'
-random_paper: 39
+random_paper: 22
 score:
   band: emerging
   composite: 13.7

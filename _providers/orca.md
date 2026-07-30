@@ -172,7 +172,7 @@ overview: 'Orca publishes 3 APIs on the [APIs.io](https://apis.io/) network: pro
 
 
   Orca''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 18 more developer resources.'
-random_paper: 16
+random_paper: 11
 score:
   band: thin
   composite: 40.7

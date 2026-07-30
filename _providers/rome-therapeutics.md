@@ -55,7 +55,7 @@ overview: 'Rome Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Rome Therapeutics'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 76
+random_paper: 55
 score:
   band: minimal
   composite: 5.7

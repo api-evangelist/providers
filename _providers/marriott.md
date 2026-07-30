@@ -193,7 +193,7 @@ overview: 'Marriott International publishes 6 APIs on the [APIs.io](https://apis
 
 
   Marriott International''s developer surface includes authentication, support, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 72
+random_paper: 62
 scopes:
 - name: Marriott Scopes
   scope_count: 2

@@ -179,7 +179,7 @@ plans:
 - name: Rmit Plans Pricing
   plan_count: 2
   slug: rmit-plans-pricing
-random_paper: 39
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Rmit Rate Limits

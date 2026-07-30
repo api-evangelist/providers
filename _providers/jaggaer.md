@@ -196,7 +196,7 @@ plans:
 - name: Jaggaer Plans Pricing
   plan_count: 4
   slug: jaggaer-plans-pricing
-random_paper: 73
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Jaggaer Rate Limits

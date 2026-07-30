@@ -130,7 +130,7 @@ plans:
 - name: Formbricks Plans Pricing
   plan_count: 5
   slug: formbricks-plans-pricing
-random_paper: 21
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Formbricks Rate Limits

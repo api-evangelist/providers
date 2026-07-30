@@ -83,7 +83,7 @@ overview: 'Graffer is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Graffer''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 4
+random_paper: 77
 score:
   band: emerging
   composite: 16.9

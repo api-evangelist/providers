@@ -51,7 +51,7 @@ overview: 'Guidelines.md is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Guidelines.md''s developer surface includes documentation and 1 more developer resources.'
-random_paper: 23
+random_paper: 7
 score:
   band: minimal
   composite: 5.8

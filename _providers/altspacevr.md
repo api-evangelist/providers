@@ -87,7 +87,7 @@ overview: 'AltspaceVR is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   AltspaceVR''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 24
+random_paper: 11
 score:
   band: minimal
   composite: 11.6

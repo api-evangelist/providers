@@ -214,7 +214,7 @@ plans:
 - name: Google Apigee Plans Pricing
   plan_count: 5
   slug: google-apigee-plans-pricing
-random_paper: 5
+random_paper: 71
 rate_limits:
 - limit_count: 23
   name: Google Apigee Rate Limits

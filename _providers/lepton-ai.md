@@ -92,7 +92,7 @@ plans:
 - name: Lepton Ai Plans Pricing
   plan_count: 1
   slug: lepton-ai-plans-pricing
-random_paper: 14
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Lepton Ai Rate Limits

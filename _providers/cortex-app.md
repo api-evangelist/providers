@@ -140,7 +140,7 @@ plans:
 - name: Cortex App Plans Pricing
   plan_count: 1
   slug: cortex-app-plans-pricing
-random_paper: 55
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Cortex App Rate Limits

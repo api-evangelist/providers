@@ -87,7 +87,7 @@ name: Hill-Rom Holdings
 nav: Providers
 network: true
 overview: Hill-Rom Holdings publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Devices, Hospital Beds, Patient Monitoring, and Vital Signs.
-random_paper: 4
+random_paper: 65
 score:
   band: minimal
   composite: 6.6

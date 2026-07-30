@@ -44,7 +44,7 @@ name: Qurate Retail
 nav: Providers
 network: true
 overview: Qurate Retail is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 48
+random_paper: 32
 score:
   band: minimal
   composite: 2.6

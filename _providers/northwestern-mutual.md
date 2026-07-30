@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Americans Trust Advisors More Than AI for Financial ...
   url: https://news.northwesternmutual.com/2025-08-05-Human-Connection-Over-Machines-Americans-Trust-Advisors-More-Than-AI-for-Financial-Advice,-Finds-Northwestern-Mutuals-2025-Planning-Progress-Study
-random_paper: 15
+random_paper: 72
 score:
   band: minimal
   composite: 4.2

@@ -155,7 +155,7 @@ plans:
 - name: Maxmind Plans Pricing
   plan_count: 10
   slug: maxmind-plans-pricing
-random_paper: 21
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Maxmind Rate Limits

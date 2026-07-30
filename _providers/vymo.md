@@ -71,7 +71,7 @@ overview: 'Vymo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Vymo''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 54
+random_paper: 49
 score:
   band: emerging
   composite: 13.9

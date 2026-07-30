@@ -218,7 +218,7 @@ overview: 'Smile Digital Health publishes 11 APIs on the [APIs.io](https://apis.
 
 
   Smile Digital Health''s developer surface includes developer portal, documentation, YouTube channel, and 32 more developer resources.'
-random_paper: 5
+random_paper: 76
 score:
   band: emerging
   composite: 16.9

@@ -48,7 +48,7 @@ name: EPAL INC.
 nav: Providers
 network: true
 overview: EPAL INC. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Social, Marketplace, and Esports.
-random_paper: 48
+random_paper: 39
 score:
   band: minimal
   composite: 5.9

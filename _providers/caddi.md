@@ -87,7 +87,7 @@ overview: 'CADDi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   CADDi''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 15
+random_paper: 9
 score:
   band: emerging
   composite: 15.8

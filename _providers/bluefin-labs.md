@@ -53,7 +53,7 @@ name: Bluefin Labs
 nav: Providers
 network: true
 overview: Bluefin Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Analytics, and Social Media.
-random_paper: 70
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

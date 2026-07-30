@@ -95,7 +95,7 @@ overview: 'Incredible Health is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Incredible Health''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
-random_paper: 15
+random_paper: 76
 score:
   band: emerging
   composite: 17.7

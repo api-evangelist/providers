@@ -67,7 +67,7 @@ overview: 'Answers.com is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Answers.com''s developer surface includes support and 5 more developer resources.'
-random_paper: 37
+random_paper: 24
 score:
   band: minimal
   composite: 10.1

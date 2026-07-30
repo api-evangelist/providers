@@ -139,7 +139,7 @@ overview: 'Doppler publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Doppler''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 29
+random_paper: 20
 score:
   band: thin
   composite: 30.8

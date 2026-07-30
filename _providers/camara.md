@@ -174,7 +174,7 @@ plans:
 - name: Camara Plans Pricing
   plan_count: 3
   slug: camara-plans-pricing
-random_paper: 46
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Camara Rate Limits

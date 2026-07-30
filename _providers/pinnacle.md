@@ -22,7 +22,7 @@ modified: '2026-05-30'
 name: ' Pinnacle Sports Betting'
 nav: Providers
 network: true
-random_paper: 32
+random_paper: 22
 slug: pinnacle
 tags:
 - Gambling

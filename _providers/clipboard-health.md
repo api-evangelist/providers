@@ -107,7 +107,7 @@ overview: 'Clipboard Health is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Clipboard Health''s developer surface includes engineering blog, pricing, support, and 13 more developer resources.'
-random_paper: 80
+random_paper: 61
 score:
   band: emerging
   composite: 20.0

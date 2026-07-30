@@ -68,7 +68,7 @@ name: UTURN
 nav: Providers
 network: true
 overview: UTURN is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Entertainment, Digital Content, and Multi-Channel Network.
-random_paper: 7
+random_paper: 0
 score:
   band: minimal
   composite: 6.9

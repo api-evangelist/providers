@@ -44,7 +44,7 @@ name: ZappRx *
 nav: Providers
 network: true
 overview: ZappRx * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Life Sciences.
-random_paper: 29
+random_paper: 21
 score:
   band: minimal
   composite: 3.5

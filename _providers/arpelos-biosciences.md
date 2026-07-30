@@ -48,7 +48,7 @@ name: Arpelos Biosciences
 nav: Providers
 network: true
 overview: Arpelos Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Therapeutics, and Drug Discovery.
-random_paper: 18
+random_paper: 76
 score:
   band: minimal
   composite: 5.4

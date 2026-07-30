@@ -44,7 +44,7 @@ name: Generac Holdings
 nav: Providers
 network: true
 overview: Generac Holdings is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 6
+random_paper: 68
 score:
   band: minimal
   composite: 2.6

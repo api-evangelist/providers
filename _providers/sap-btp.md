@@ -134,7 +134,7 @@ plans:
 - name: Sap Btp Plans Pricing
   plan_count: 5
   slug: sap-btp-plans-pricing
-random_paper: 47
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Sap Btp Rate Limits

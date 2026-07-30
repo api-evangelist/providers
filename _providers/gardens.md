@@ -95,7 +95,7 @@ overview: 'Gardens is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Gardens'' developer surface includes engineering blog, YouTube channel, and 11 more developer resources.'
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 7.5

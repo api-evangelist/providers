@@ -52,7 +52,7 @@ name: TimeBlocks
 nav: Providers
 network: true
 overview: TimeBlocks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Calendar, Scheduling, Productivity, and Mobile App.
-random_paper: 16
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

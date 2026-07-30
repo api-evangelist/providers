@@ -217,7 +217,7 @@ overview: 'Calm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Calm''s developer surface includes authentication, developer portal, signup flow, pricing, documentation, support, engineering blog, and 21 more developer resources.'
-random_paper: 48
+random_paper: 39
 rules:
 - name: Calm API Rules
   rule_count: 5

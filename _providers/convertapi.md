@@ -166,7 +166,7 @@ plans:
 - name: Convertapi Plans Pricing
   plan_count: 5
   slug: convertapi-plans-pricing
-random_paper: 30
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Convertapi Rate Limits

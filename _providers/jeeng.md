@@ -75,7 +75,7 @@ overview: 'Jeeng is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jeeng''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 35
+random_paper: 29
 score:
   band: emerging
   composite: 13.9

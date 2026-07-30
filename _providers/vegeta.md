@@ -122,7 +122,7 @@ plans:
 - name: Vegeta Plans Pricing
   plan_count: 3
   slug: vegeta-plans-pricing
-random_paper: 69
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Vegeta Rate Limits

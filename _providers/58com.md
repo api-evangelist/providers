@@ -52,7 +52,7 @@ name: 58.com
 nav: Providers
 network: true
 overview: 58.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Classifieds, Marketplace, and Real Estate.
-random_paper: 23
+random_paper: 18
 score:
   band: minimal
   composite: 6.7

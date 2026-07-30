@@ -63,7 +63,7 @@ overview: 'Iwarranty is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Iwarranty''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: minimal
   composite: 8.4

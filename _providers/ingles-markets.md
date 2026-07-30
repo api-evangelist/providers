@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Ingles Markets publishes investor presentation ahead of ...
   url: https://www.sahmcapital.com/news/content/ingles-markets-publishes-investor-presentation-ahead-of-annual-meeting-2026-04-13
-random_paper: 69
+random_paper: 52
 score:
   band: minimal
   composite: 4.1

@@ -60,7 +60,7 @@ name: National Basketball Association
 nav: Providers
 network: true
 overview: National Basketball Association is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sports, Basketball, Entertainment, and Professional League.
-random_paper: 11
+random_paper: 54
 score:
   band: minimal
   composite: 4.8

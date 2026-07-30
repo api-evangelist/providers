@@ -158,7 +158,7 @@ plans:
 - name: Drata Plans Pricing
   plan_count: 1
   slug: drata-plans-pricing
-random_paper: 38
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Drata Rate Limits

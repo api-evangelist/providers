@@ -81,7 +81,7 @@ name: Royal Caribbean Group
 nav: Providers
 network: true
 overview: Royal Caribbean Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cruise Lines, Travel, and Hospitality.
-random_paper: 57
+random_paper: 39
 score:
   band: minimal
   composite: 6.0

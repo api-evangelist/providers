@@ -63,7 +63,7 @@ overview: 'Pavoot is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pavoot''s developer surface includes support and 4 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
   band: minimal
   composite: 8.7

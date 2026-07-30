@@ -81,7 +81,7 @@ plans:
 - name: Api Insights Plans Pricing
   plan_count: 3
   slug: api-insights-plans-pricing
-random_paper: 17
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Api Insights Rate Limits

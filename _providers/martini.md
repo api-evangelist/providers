@@ -124,7 +124,7 @@ overview: 'Martini publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Martini''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 12 more developer resources.'
-random_paper: 27
+random_paper: 18
 score:
   band: thin
   composite: 29.2

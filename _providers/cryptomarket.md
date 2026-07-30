@@ -56,7 +56,7 @@ name: CryptoMarket
 nav: Providers
 network: true
 overview: CryptoMarket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 21
+random_paper: 5
 score:
   band: minimal
   composite: 5.7

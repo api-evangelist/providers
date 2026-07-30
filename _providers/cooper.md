@@ -39,7 +39,7 @@ name: Cooper
 nav: Providers
 network: true
 overview: Cooper is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 0
+random_paper: 74
 score:
   band: minimal
   composite: 2.6

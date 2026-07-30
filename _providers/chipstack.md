@@ -67,7 +67,7 @@ overview: 'Chipstack is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chipstack''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 63
+random_paper: 52
 score:
   band: minimal
   composite: 10.5

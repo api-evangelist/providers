@@ -84,7 +84,7 @@ plans:
 - name: Got Plans Pricing
   plan_count: 3
   slug: got-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Got Rate Limits

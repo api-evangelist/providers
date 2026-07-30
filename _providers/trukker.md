@@ -67,7 +67,7 @@ overview: 'TruKKer is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   TruKKer''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 47
+random_paper: 38
 score:
   band: minimal
   composite: 6.3

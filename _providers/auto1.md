@@ -56,7 +56,7 @@ name: Auto1
 nav: Providers
 network: true
 overview: Auto1 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, Used Cars, and Marketplace.
-random_paper: 4
+random_paper: 80
 score:
   band: minimal
   composite: 7.8

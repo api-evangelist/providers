@@ -106,7 +106,7 @@ overview: 'Lumana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lumana''s developer surface includes engineering blog, pricing, support, changelog, and 10 more developer resources.'
-random_paper: 71
+random_paper: 64
 score:
   band: thin
   composite: 37.6

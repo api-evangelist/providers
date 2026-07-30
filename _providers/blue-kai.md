@@ -39,7 +39,7 @@ name: Blue Kai
 nav: Providers
 network: true
 overview: Blue Kai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Management Platform, Audience Data, AdTech, and MarTech.
-random_paper: 49
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

@@ -44,7 +44,7 @@ name: Patient IO
 nav: Providers
 network: true
 overview: Patient IO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Patient Engagement, Care Coordination, and Digital Health.
-random_paper: 46
+random_paper: 34
 score:
   band: minimal
   composite: 4.3

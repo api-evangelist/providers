@@ -87,7 +87,7 @@ overview: 'Atomic AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Atomic AI''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: minimal
   composite: 9.2

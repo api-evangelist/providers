@@ -89,7 +89,7 @@ overview: 'SkyFoundry publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   SkyFoundry''s developer surface includes documentation, API reference, engineering blog, authentication, and 6 more developer resources.'
-random_paper: 65
+random_paper: 52
 score:
   band: emerging
   composite: 15.5

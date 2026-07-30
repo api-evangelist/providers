@@ -182,7 +182,7 @@ overview: 'Snappr publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Snappr''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 16 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: developing
   composite: 52.8

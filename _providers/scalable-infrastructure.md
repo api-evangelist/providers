@@ -139,7 +139,7 @@ plans:
 - name: Scalable Infrastructure Plans Pricing
   plan_count: 3
   slug: scalable-infrastructure-plans-pricing
-random_paper: 56
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Scalable Infrastructure Rate Limits

@@ -72,7 +72,7 @@ plans:
 - name: Sykes Enterprises Plans Pricing
   plan_count: 1
   slug: sykes-enterprises-plans-pricing
-random_paper: 26
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Sykes Enterprises Rate Limits

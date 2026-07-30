@@ -75,7 +75,7 @@ overview: 'Waffle Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Waffle Labs'' developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 39
+random_paper: 26
 score:
   band: emerging
   composite: 14.0

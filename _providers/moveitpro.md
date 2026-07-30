@@ -81,7 +81,7 @@ overview: 'MoveitPro publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   MoveitPro''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: minimal
   composite: 8.7

@@ -474,7 +474,7 @@ plans:
 - name: Bringg Plans Pricing
   plan_count: 1
   slug: bringg-plans-pricing
-random_paper: 66
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Bringg Rate Limits

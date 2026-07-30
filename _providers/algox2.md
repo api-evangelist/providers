@@ -71,7 +71,7 @@ overview: 'AlgoX2 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   AlgoX2''s developer surface includes engineering blog, support, YouTube channel, and 4 more developer resources.'
-random_paper: 22
+random_paper: 15
 score:
   band: minimal
   composite: 10.6

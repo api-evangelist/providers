@@ -211,7 +211,7 @@ overview: 'Canal publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Canal''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 25
+random_paper: 19
 score:
   band: developing
   composite: 45.7

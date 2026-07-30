@@ -68,7 +68,7 @@ name: icy.tools
 nav: Providers
 network: true
 overview: icy.tools publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 40
+random_paper: 29
 score:
   band: minimal
   composite: 7.3

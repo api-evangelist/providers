@@ -87,7 +87,7 @@ overview: 'IEX is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   IEX''s developer surface includes documentation, API reference, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 2
+random_paper: 80
 score:
   band: emerging
   composite: 20.7

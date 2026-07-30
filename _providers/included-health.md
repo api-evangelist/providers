@@ -63,7 +63,7 @@ overview: 'Included Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Included Health''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 57
+random_paper: 39
 score:
   band: minimal
   composite: 10.8

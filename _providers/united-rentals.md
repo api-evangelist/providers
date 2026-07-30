@@ -189,7 +189,7 @@ press:
 - date: '2026-05-25'
   title: United Rentals Expands Digital Customer Experience with ...
   url: https://www.businesswire.com/news/home/20260519107330/en/United-Rentals-Expands-Digital-Customer-Experience-with-Equipment-Agent-Launch-in-ChatGPT
-random_paper: 78
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: United Rentals Rate Limits

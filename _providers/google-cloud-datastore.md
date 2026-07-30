@@ -117,7 +117,7 @@ overview: 'Google Cloud Datastore publishes 1 API on the [APIs.io](https://apis.
 
 
   Google Cloud Datastore''s developer surface includes authentication, documentation, pricing, signup flow, developer console, and 8 more developer resources.'
-random_paper: 42
+random_paper: 15
 scopes:
 - name: Google Cloud Datastore Scopes
   scope_count: 2

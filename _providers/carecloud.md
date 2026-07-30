@@ -91,7 +91,7 @@ overview: 'Carecloud is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Carecloud''s developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 55
+random_paper: 44
 score:
   band: emerging
   composite: 20.2

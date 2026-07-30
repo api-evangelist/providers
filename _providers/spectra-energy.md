@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Enbridge Becomes Largest North American Energy ...
   url: https://www.oilandgas360.com/enbridge-becomes-largest-north-american-energy-infrastructure-company-28-billion-spectra-energy-acquisition/
-random_paper: 72
+random_paper: 55
 score:
   band: minimal
   composite: 5.5

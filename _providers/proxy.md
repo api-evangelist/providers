@@ -39,7 +39,7 @@ name: Proxy
 nav: Providers
 network: true
 overview: Proxy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Identity, Authentication, Wearables, and Access Control.
-random_paper: 11
+random_paper: 4
 score:
   band: minimal
   composite: 4.3

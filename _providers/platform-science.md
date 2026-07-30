@@ -95,7 +95,7 @@ overview: 'Platform Science is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Platform Science''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 24
+random_paper: 4
 score:
   band: emerging
   composite: 17.5

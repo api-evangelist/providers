@@ -104,7 +104,7 @@ overview: 'Board publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Board''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 34
+random_paper: 28
 scopes:
 - name: Board Scopes
   scope_count: 4

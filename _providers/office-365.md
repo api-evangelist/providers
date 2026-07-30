@@ -120,7 +120,7 @@ plans:
 - name: Office 365 Plans Pricing
   plan_count: 3
   slug: office-365-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Office 365 Rate Limits

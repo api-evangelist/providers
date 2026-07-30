@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: How Viacom uses artificial intelligence to predict the ...
   url: https://digiday.com/media/viacom-uses-artificial-intelligence-predict-success-social-campaigns/
-random_paper: 72
+random_paper: 65
 score:
   band: minimal
   composite: 6.3

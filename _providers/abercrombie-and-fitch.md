@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: Inside the digital transformation of Abercrombie & Fitch
   url: https://nrf.com/blog/inside-digital-transformation-abercrombie-fitch
-random_paper: 45
+random_paper: 20
 score:
   band: minimal
   composite: 12.0

@@ -136,7 +136,7 @@ plans:
 - name: Cleanlab Plans Pricing
   plan_count: 5
   slug: cleanlab-plans-pricing
-random_paper: 8
+random_paper: 80
 rate_limits:
 - limit_count: 4
   name: Cleanlab Rate Limits

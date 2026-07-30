@@ -103,7 +103,7 @@ overview: 'Direct Line Group is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Direct Line Group''s developer surface includes support, engineering blog, and 15 more developer resources.'
-random_paper: 5
+random_paper: 66
 score:
   band: emerging
   composite: 15.7

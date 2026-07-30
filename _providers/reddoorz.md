@@ -48,7 +48,7 @@ name: RedDoorz
 nav: Providers
 network: true
 overview: RedDoorz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Travel, Hotels, and Booking.
-random_paper: 63
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

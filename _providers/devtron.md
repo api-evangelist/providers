@@ -231,7 +231,7 @@ overview: 'Devtron publishes 28 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Devtron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 14 more developer resources.'
-random_paper: 41
+random_paper: 32
 score:
   band: developing
   composite: 43.9

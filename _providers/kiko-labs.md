@@ -67,7 +67,7 @@ overview: 'Kiko Labs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kiko Labs'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 2
+random_paper: 73
 score:
   band: minimal
   composite: 11.0

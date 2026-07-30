@@ -87,7 +87,7 @@ overview: 'GraphQL Scalars publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   GraphQL Scalars'' developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 2
+random_paper: 65
 score:
   band: emerging
   composite: 24.1

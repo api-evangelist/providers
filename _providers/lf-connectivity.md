@@ -92,7 +92,7 @@ plans:
 - name: Lf Connectivity Plans Pricing
   plan_count: 3
   slug: lf-connectivity-plans-pricing
-random_paper: 27
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Lf Connectivity Rate Limits

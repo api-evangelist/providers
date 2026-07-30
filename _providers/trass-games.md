@@ -103,7 +103,7 @@ overview: 'Trass Games publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Trass Games'' developer surface includes support and 12 more developer resources.'
-random_paper: 74
+random_paper: 61
 score:
   band: emerging
   composite: 17.7

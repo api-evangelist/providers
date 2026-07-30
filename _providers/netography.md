@@ -235,7 +235,7 @@ overview: 'Netography publishes 28 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Netography''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 17 more developer resources.'
-random_paper: 36
+random_paper: 23
 score:
   band: thin
   composite: 38.7

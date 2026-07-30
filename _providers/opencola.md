@@ -52,7 +52,7 @@ name: OpenCola
 nav: Providers
 network: true
 overview: OpenCola is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Source, Decentralization, Local-First, and Personal Data.
-random_paper: 39
+random_paper: 29
 score:
   band: minimal
   composite: 5.7

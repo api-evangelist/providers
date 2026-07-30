@@ -91,7 +91,7 @@ overview: 'Flyby Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Flyby Robotics'' developer surface includes documentation, getting-started guide, changelog, and 9 more developer resources.'
-random_paper: 6
+random_paper: 70
 score:
   band: emerging
   composite: 19.7

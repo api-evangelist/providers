@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: What are some key issues investors should keep an eye on ...
   url: https://www.facebook.com/MutualofAmerica/posts/what-are-some-key-issues-investors-should-keep-an-eye-on-in-2026-joe-gaffoglio-p/866224722689607/
-random_paper: 4
+random_paper: 47
 score:
   band: minimal
   composite: 2.6

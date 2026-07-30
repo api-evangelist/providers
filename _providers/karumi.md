@@ -79,7 +79,7 @@ overview: 'Karumi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Karumi''s developer surface includes engineering blog, pricing, signup flow, and 6 more developer resources.'
-random_paper: 1
+random_paper: 75
 score:
   band: emerging
   composite: 17.5

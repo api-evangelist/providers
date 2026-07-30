@@ -83,7 +83,7 @@ overview: 'Striim publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Striim''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: minimal
   composite: 10.7

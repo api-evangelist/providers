@@ -1416,7 +1416,7 @@ plans:
 - name: Amazon Msk Plans Pricing
   plan_count: 3
   slug: amazon-msk-plans-pricing
-random_paper: 50
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Amazon Msk Rate Limits

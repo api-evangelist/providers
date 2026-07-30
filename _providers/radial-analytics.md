@@ -83,7 +83,7 @@ overview: 'Radial Analytics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Radial Analytics'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 14
+random_paper: 76
 score:
   band: emerging
   composite: 17.6

@@ -380,7 +380,7 @@ overview: 'Oneschema publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Oneschema''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 30 more developer resources.'
-random_paper: 56
+random_paper: 45
 score:
   band: strong
   composite: 65.1

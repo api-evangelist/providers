@@ -48,7 +48,7 @@ name: Dot Product
 nav: Providers
 network: true
 overview: Dot Product is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Artificial Intelligence, Voice Agents, and Customer Support.
-random_paper: 7
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

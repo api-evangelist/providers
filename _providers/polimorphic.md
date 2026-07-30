@@ -87,7 +87,7 @@ overview: 'Polimorphic is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Polimorphic''s developer surface includes pricing, engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 56
+random_paper: 42
 score:
   band: emerging
   composite: 19.6

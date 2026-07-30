@@ -201,7 +201,7 @@ plans:
 - name: Ada Plans Pricing
   plan_count: 1
   slug: ada-plans-pricing
-random_paper: 51
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Ada Rate Limits

@@ -52,7 +52,7 @@ name: AmiiboAPI
 nav: Providers
 network: true
 overview: AmiiboAPI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 48
+random_paper: 37
 score:
   band: minimal
   composite: 5.7

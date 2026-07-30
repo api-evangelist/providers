@@ -145,7 +145,7 @@ overview: 'Microsoft Dynamics 365 Sales publishes 10 APIs on the [APIs.io](https
 
 
   Microsoft Dynamics 365 Sales'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 75
+random_paper: 43
 scopes:
 - name: Microsoft Dynamics 365 Sales Scopes
   scope_count: 1

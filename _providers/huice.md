@@ -100,7 +100,7 @@ overview: 'Huice publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Huice''s developer surface includes documentation, API reference, support, authentication, sandbox, and 8 more developer resources.'
-random_paper: 40
+random_paper: 34
 score:
   band: emerging
   composite: 17.8

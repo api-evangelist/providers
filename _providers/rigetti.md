@@ -388,7 +388,7 @@ plans:
 - name: Rigetti Plans Pricing
   plan_count: 6
   slug: rigetti-plans-pricing
-random_paper: 31
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Rigetti Rate Limits

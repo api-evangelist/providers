@@ -75,7 +75,7 @@ overview: 'Svbtle is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Svbtle''s developer surface includes support, signup flow, and 6 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 12.7

@@ -44,7 +44,7 @@ name: Embark Trucks
 nav: Providers
 network: true
 overview: Embark Trucks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Autonomous Vehicles, Self-Driving, Trucking, and Freight.
-random_paper: 43
+random_paper: 27
 score:
   band: minimal
   composite: 5.7

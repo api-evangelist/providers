@@ -183,7 +183,7 @@ overview: 'Story Protocol publishes 13 APIs on the [APIs.io](https://apis.io/) n
 
 
   Story Protocol''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 16 more developer resources.'
-random_paper: 46
+random_paper: 28
 score:
   band: thin
   composite: 38.8

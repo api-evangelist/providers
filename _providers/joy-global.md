@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Joy Global Inc. announces the acquisition of LeTourneau ...
   url: https://www.mlex.com/mlex/articles/2236199/company-statement-joy-global-inc-announces-the-acquisition-of-letourneau-technologies-inc
-random_paper: 36
+random_paper: 24
 score:
   band: minimal
   composite: 4.1

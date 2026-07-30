@@ -52,7 +52,7 @@ name: Parrot
 nav: Providers
 network: true
 overview: Parrot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Agents, Auto Repair, and Collision Repair.
-random_paper: 25
+random_paper: 13
 score:
   band: minimal
   composite: 6.9

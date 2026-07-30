@@ -112,7 +112,7 @@ overview: 'CashFlo publishes 1 API on the [APIs.io](https://apis.io/) network: I
 
 
   CashFlo''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 11 more developer resources.'
-random_paper: 7
+random_paper: 80
 score:
   band: thin
   composite: 39.8

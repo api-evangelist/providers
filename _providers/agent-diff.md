@@ -171,7 +171,7 @@ plans:
 - name: Agent Diff Plans Pricing
   plan_count: 3
   slug: agent-diff-plans-pricing
-random_paper: 9
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Agent Diff Rate Limits

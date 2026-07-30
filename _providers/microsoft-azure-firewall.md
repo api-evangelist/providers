@@ -115,7 +115,7 @@ plans:
 - name: Microsoft Azure Firewall Plans Pricing
   plan_count: 3
   slug: microsoft-azure-firewall-plans-pricing
-random_paper: 47
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Firewall Rate Limits

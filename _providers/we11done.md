@@ -67,7 +67,7 @@ overview: 'WE11DONE is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   WE11DONE''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 12.7

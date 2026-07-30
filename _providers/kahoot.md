@@ -143,7 +143,7 @@ plans:
 - name: Kahoot Plans Pricing
   plan_count: 1
   slug: kahoot-plans-pricing
-random_paper: 79
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Kahoot Rate Limits

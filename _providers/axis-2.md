@@ -63,7 +63,7 @@ overview: 'Axis 2 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Axis 2''s developer surface includes changelog, support, and 3 more developer resources.'
-random_paper: 46
+random_paper: 40
 score:
   band: minimal
   composite: 10.6

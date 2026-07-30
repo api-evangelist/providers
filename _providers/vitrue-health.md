@@ -75,7 +75,7 @@ overview: 'Vitrue Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Vitrue Health''s developer surface includes engineering blog, pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 50
+random_paper: 34
 score:
   band: emerging
   composite: 15.2

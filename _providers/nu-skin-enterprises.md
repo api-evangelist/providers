@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Nu Skin Introduces the Next Generation of Smart Skincare with ...
   url: https://ir.nuskin.com/news-releases/news-release-details/nu-skin-introduces-next-generation-smart-skincare-ageloc-lumispa/
-random_paper: 14
+random_paper: 72
 score:
   band: minimal
   composite: 4.1

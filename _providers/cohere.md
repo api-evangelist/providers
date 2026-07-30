@@ -303,7 +303,7 @@ plans:
 - name: Cohere Plans Pricing
   plan_count: 6
   slug: cohere-plans-pricing
-random_paper: 63
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Cohere Rate Limits

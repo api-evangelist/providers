@@ -39,7 +39,7 @@ name: Novome
 nav: Providers
 network: true
 overview: Novome is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Microbiome, and Synthetic Biology.
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 4.3

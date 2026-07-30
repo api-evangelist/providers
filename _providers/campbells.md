@@ -81,7 +81,7 @@ plans:
 - name: Campbells Plans Pricing
   plan_count: 0
   slug: campbells-plans-pricing
-random_paper: 56
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Campbells Rate Limits

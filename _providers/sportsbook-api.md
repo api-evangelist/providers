@@ -128,7 +128,7 @@ plans:
 - name: Sportsbook Api Plans Pricing
   plan_count: 3
   slug: sportsbook-api-plans-pricing
-random_paper: 11
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Sportsbook Api Rate Limits

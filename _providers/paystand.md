@@ -132,7 +132,7 @@ overview: 'PayStand publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   PayStand''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 58
+random_paper: 48
 scopes:
 - name: Paystand Scopes
   scope_count: 1

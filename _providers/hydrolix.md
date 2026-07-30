@@ -126,7 +126,7 @@ overview: 'Hydrolix publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Hydrolix''s developer surface includes documentation, API reference, signup flow, CLI, authentication, and 12 more developer resources.'
-random_paper: 73
+random_paper: 63
 score:
   band: emerging
   composite: 24.8

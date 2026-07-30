@@ -59,7 +59,7 @@ overview: 'Axera Tech is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Axera Tech''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 22
+random_paper: 10
 score:
   band: minimal
   composite: 6.3

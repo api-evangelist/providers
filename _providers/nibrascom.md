@@ -48,7 +48,7 @@ name: Nibras.com
 nav: Providers
 network: true
 overview: Nibras.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 67
+random_paper: 56
 score:
   band: minimal
   composite: 3.2

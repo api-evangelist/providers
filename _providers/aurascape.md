@@ -75,7 +75,7 @@ overview: 'Aurascape is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Aurascape''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 58
+random_paper: 47
 score:
   band: minimal
   composite: 12.2

@@ -52,7 +52,7 @@ name: Expanse
 nav: Providers
 network: true
 overview: Expanse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Attack Surface Management, Security, and Cloud Security.
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

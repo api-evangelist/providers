@@ -83,7 +83,7 @@ overview: 'Agency Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Agency Ai''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 68
+random_paper: 58
 score:
   band: emerging
   composite: 14.9

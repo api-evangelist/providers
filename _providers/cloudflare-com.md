@@ -91,7 +91,7 @@ overview: 'Cloudflare.com publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Cloudflare.com''s developer surface includes documentation, API reference, engineering blog, and 8 more developer resources.'
-random_paper: 44
+random_paper: 27
 score:
   band: emerging
   composite: 14.5

@@ -275,7 +275,7 @@ overview: 'Coperniq publishes 28 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coperniq''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 25 more developer resources.'
-random_paper: 55
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Coperniq Rate Limits

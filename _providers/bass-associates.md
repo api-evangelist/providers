@@ -39,7 +39,7 @@ name: Bass Associates
 nav: Providers
 network: true
 overview: Bass Associates is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Investment, Finance, and Dormant.
-random_paper: 2
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

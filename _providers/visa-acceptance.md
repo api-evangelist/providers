@@ -175,7 +175,7 @@ plans:
 - name: Visa Acceptance Plans Pricing
   plan_count: 1
   slug: visa-acceptance-plans-pricing
-random_paper: 53
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Visa Acceptance Rate Limits

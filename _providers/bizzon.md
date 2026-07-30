@@ -52,7 +52,7 @@ name: BIZZON
 nav: Providers
 network: true
 overview: BIZZON is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Point of Sale, Payments, and Restaurant.
-random_paper: 20
+random_paper: 12
 score:
   band: minimal
   composite: 4.3

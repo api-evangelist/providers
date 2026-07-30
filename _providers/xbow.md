@@ -214,7 +214,7 @@ overview: 'Xbow publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Xbow''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 43
+random_paper: 38
 score:
   band: strong
   composite: 57.6

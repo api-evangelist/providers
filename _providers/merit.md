@@ -39,7 +39,7 @@ name: Merit
 nav: Providers
 network: true
 overview: Merit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 59
+random_paper: 53
 score:
   band: minimal
   composite: 3.2

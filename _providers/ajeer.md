@@ -59,7 +59,7 @@ overview: 'Ajeer is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ajeer''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 33
+random_paper: 27
 score:
   band: minimal
   composite: 7.5

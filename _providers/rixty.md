@@ -39,7 +39,7 @@ name: Rixty
 nav: Providers
 network: true
 overview: Rixty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Gift Cards, Prepaid, and Gaming.
-random_paper: 9
+random_paper: 2
 score:
   band: minimal
   composite: 3.5

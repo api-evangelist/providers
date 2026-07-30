@@ -55,7 +55,7 @@ overview: 'HUM Industries is profiled on the [APIs.io](https://apis.io/) network
 
 
   HUM Industries'' developer surface includes signup flow and 2 more developer resources.'
-random_paper: 15
+random_paper: 79
 score:
   band: minimal
   composite: 7.7

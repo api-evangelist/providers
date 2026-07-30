@@ -337,7 +337,7 @@ overview: 'Benzinga publishes 43 APIs on the [APIs.io](https://apis.io/) network
 
 
   Benzinga''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, changelog, getting-started guide, and 26 more developer resources.'
-random_paper: 36
+random_paper: 26
 score:
   band: developing
   composite: 52.8

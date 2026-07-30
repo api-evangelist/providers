@@ -87,7 +87,7 @@ overview: 'Deblock is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Deblock''s developer surface includes signup flow, pricing, support, and 8 more developer resources.'
-random_paper: 76
+random_paper: 68
 score:
   band: emerging
   composite: 17.6

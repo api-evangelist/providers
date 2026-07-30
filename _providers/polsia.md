@@ -75,7 +75,7 @@ overview: 'Polsia is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Polsia''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 0
+random_paper: 74
 score:
   band: emerging
   composite: 13.0

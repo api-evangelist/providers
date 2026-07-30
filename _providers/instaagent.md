@@ -56,7 +56,7 @@ name: InstaAgent
 nav: Providers
 network: true
 overview: InstaAgent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Advertising, Artificial Intelligence, and Social Media.
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 8.2

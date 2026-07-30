@@ -83,7 +83,7 @@ overview: 'Classera is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Classera''s developer surface includes documentation, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 36
+random_paper: 26
 score:
   band: emerging
   composite: 17.1

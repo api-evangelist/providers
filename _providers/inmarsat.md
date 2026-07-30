@@ -170,7 +170,7 @@ overview: 'Inmarsat publishes 7 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Inmarsat''s developer surface includes signup flow, GitHub presence, status page, YouTube channel, and 22 more developer resources.'
-random_paper: 53
+random_paper: 43
 score:
   band: minimal
   composite: 9.2

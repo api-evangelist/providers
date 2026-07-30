@@ -59,7 +59,7 @@ overview: 'Team Wildfire is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Team Wildfire''s developer surface includes support and 3 more developer resources.'
-random_paper: 26
+random_paper: 10
 score:
   band: minimal
   composite: 7.0

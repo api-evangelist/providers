@@ -83,7 +83,7 @@ plans:
 - name: Data Incheon Go Kr Plans Pricing
   plan_count: 0
   slug: data-incheon-go-kr-plans-pricing
-random_paper: 19
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Data Incheon Go Kr Rate Limits

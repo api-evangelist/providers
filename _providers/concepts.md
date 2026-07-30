@@ -75,7 +75,7 @@ overview: 'Concepts is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Concepts'' developer surface includes documentation, support, pricing, and 5 more developer resources.'
-random_paper: 53
+random_paper: 43
 score:
   band: emerging
   composite: 13.9

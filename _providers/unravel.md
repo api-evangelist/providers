@@ -120,7 +120,7 @@ overview: 'Unravel publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Unravel''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, authentication, changelog, and 11 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: thin
   composite: 31.6

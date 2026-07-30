@@ -379,7 +379,7 @@ plans:
 - name: Readme Plans Pricing
   plan_count: 3
   slug: readme-plans-pricing
-random_paper: 55
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Readme Rate Limits

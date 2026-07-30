@@ -200,7 +200,7 @@ plans:
 - name: Powerschool Plans Pricing
   plan_count: 3
   slug: powerschool-plans-pricing
-random_paper: 71
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Powerschool Rate Limits

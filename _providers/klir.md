@@ -44,7 +44,7 @@ name: Klir
 nav: Providers
 network: true
 overview: Klir is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Water, Wastewater, Utilities, and Regulatory.
-random_paper: 29
+random_paper: 24
 score:
   band: minimal
   composite: 4.3

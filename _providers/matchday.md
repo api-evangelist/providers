@@ -55,7 +55,7 @@ overview: 'Matchday is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Matchday''s developer surface includes developer portal and 2 more developer resources.'
-random_paper: 33
+random_paper: 23
 score:
   band: minimal
   composite: 6.7

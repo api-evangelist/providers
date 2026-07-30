@@ -404,7 +404,7 @@ plans:
 - name: Booking Holdings Plans Pricing
   plan_count: 2
   slug: booking-holdings-plans-pricing
-random_paper: 26
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Booking Holdings Rate Limits

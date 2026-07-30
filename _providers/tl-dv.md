@@ -136,7 +136,7 @@ overview: 'tl;dv publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   tl;dv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 1
+random_paper: 77
 score:
   band: developing
   composite: 49.5

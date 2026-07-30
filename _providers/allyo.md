@@ -52,7 +52,7 @@ name: AllyO
 nav: Providers
 network: true
 overview: AllyO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Recruiting, Conversational AI, and Chatbot.
-random_paper: 59
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

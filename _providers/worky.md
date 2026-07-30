@@ -107,7 +107,7 @@ overview: 'Worky is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Worky''s developer surface includes engineering blog, support, pricing, signup flow, and 12 more developer resources.'
-random_paper: 5
+random_paper: 80
 score:
   band: emerging
   composite: 25.2

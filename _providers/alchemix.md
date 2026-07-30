@@ -63,7 +63,7 @@ name: Alchemix
 nav: Providers
 network: true
 overview: Alchemix publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Self-Repaying Loans, Synthetic Assets, Yield, and Ethereum.
-random_paper: 33
+random_paper: 23
 score:
   band: emerging
   composite: 19.0

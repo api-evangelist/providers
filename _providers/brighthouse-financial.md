@@ -44,7 +44,7 @@ name: Brighthouse Financial
 nav: Providers
 network: true
 overview: Brighthouse Financial is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 60
+random_paper: 34
 score:
   band: minimal
   composite: 2.6

@@ -39,7 +39,7 @@ name: Matrix Pharmaceutical
 nav: Providers
 network: true
 overview: Matrix Pharmaceutical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceutical, Biotechnology, Healthcare, and Life Sciences.
-random_paper: 75
+random_paper: 49
 score:
   band: minimal
   composite: 4.3

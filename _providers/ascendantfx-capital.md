@@ -87,7 +87,7 @@ overview: 'AscendantFX Capital publishes 1 API on the [APIs.io](https://apis.io/
 
 
   AscendantFX Capital''s developer surface includes signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 2
+random_paper: 60
 score:
   band: emerging
   composite: 18.8

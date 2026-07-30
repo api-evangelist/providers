@@ -108,7 +108,7 @@ overview: '3DaGoGo publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   3DaGoGo''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, and 9 more developer resources.'
-random_paper: 28
+random_paper: 20
 score:
   band: emerging
   composite: 25.1

@@ -59,7 +59,7 @@ overview: 'PCV is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   PCV''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 5
+random_paper: 1
 score:
   band: minimal
   composite: 5.4

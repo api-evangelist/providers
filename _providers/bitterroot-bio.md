@@ -67,7 +67,7 @@ overview: 'Bitterroot Bio is profiled on the [APIs.io](https://apis.io/) network
 
 
   Bitterroot Bio''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 3
+random_paper: 67
 score:
   band: minimal
   composite: 10.8

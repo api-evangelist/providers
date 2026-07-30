@@ -95,7 +95,7 @@ overview: 'Bambu Lab is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bambu Lab''s developer surface includes documentation, getting-started guide, support, engineering blog, and 9 more developer resources.'
-random_paper: 57
+random_paper: 47
 score:
   band: emerging
   composite: 19.4

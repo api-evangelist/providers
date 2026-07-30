@@ -44,7 +44,7 @@ name: Voicea
 nav: Providers
 network: true
 overview: Voicea is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai.
-random_paper: 64
+random_paper: 57
 score:
   band: minimal
   composite: 3.2

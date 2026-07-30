@@ -49,7 +49,7 @@ name: Lendsquare
 nav: Providers
 network: true
 overview: Lendsquare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Lending, Peer to Peer Lending, and Financial Services.
-random_paper: 23
+random_paper: 10
 score:
   band: minimal
   composite: 4.8

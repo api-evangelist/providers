@@ -79,7 +79,7 @@ overview: 'Kindred is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kindred''s developer surface includes engineering blog, getting-started guide, support, signup flow, and 5 more developer resources.'
-random_paper: 8
+random_paper: 81
 score:
   band: emerging
   composite: 15.3

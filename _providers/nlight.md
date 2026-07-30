@@ -55,7 +55,7 @@ overview: 'Nlight is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Nlight''s developer surface includes engineering blog, support, and 1 more developer resources.'
-random_paper: 79
+random_paper: 72
 score:
   band: minimal
   composite: 6.3

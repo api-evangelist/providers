@@ -56,7 +56,7 @@ name: Rondo Therapeutics
 nav: Providers
 network: true
 overview: Rondo Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Therapeutics, Oncology, and Antibodies.
-random_paper: 25
+random_paper: 2
 score:
   band: minimal
   composite: 9.2

@@ -44,7 +44,7 @@ name: Fluidly
 nav: Providers
 network: true
 overview: Fluidly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Cash Flow, Cash Flow Forecasting, and Accounting.
-random_paper: 32
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

@@ -80,7 +80,7 @@ overview: 'Acerta is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Acerta''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 57
+random_paper: 50
 score:
   band: minimal
   composite: 12.2

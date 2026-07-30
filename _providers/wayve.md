@@ -99,7 +99,7 @@ overview: 'Wayve is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Wayve''s developer surface includes engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: minimal
   composite: 5.4

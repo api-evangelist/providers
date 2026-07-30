@@ -68,7 +68,7 @@ plans:
 - name: Openapi Typescript Codegen Plans Pricing
   plan_count: 3
   slug: openapi-typescript-codegen-plans-pricing
-random_paper: 1
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Openapi Typescript Codegen Rate Limits

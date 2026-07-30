@@ -84,7 +84,7 @@ plans:
 - name: Dati Regione Liguria It Plans Pricing
   plan_count: 1
   slug: dati-regione-liguria-it-plans-pricing
-random_paper: 0
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Dati Regione Liguria It Rate Limits

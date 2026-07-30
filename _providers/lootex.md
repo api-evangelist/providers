@@ -88,7 +88,7 @@ overview: 'Lootex is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lootex''s developer surface includes documentation, engineering blog, support, authentication, and 7 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: emerging
   composite: 13.5

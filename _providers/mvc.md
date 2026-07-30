@@ -39,7 +39,7 @@ name: MVC
 nav: Providers
 network: true
 overview: MVC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Design Patterns, MVC, and Software Architecture.
-random_paper: 2
+random_paper: 80
 score:
   band: minimal
   composite: 4.8

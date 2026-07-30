@@ -175,7 +175,7 @@ plans:
 - name: Authsignal Plans Pricing
   plan_count: 1
   slug: authsignal-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Authsignal Rate Limits

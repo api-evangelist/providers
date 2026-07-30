@@ -176,7 +176,7 @@ plans:
 - name: Survicate Plans Pricing
   plan_count: 4
   slug: survicate-plans-pricing
-random_paper: 10
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Survicate Rate Limits

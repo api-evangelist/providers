@@ -71,7 +71,7 @@ overview: 'Cardurion Pharmaceuticals is profiled on the [APIs.io](https://apis.i
 
 
   Cardurion Pharmaceuticals'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 10
+random_paper: 60
 score:
   band: minimal
   composite: 11.6

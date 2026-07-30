@@ -91,7 +91,7 @@ overview: 'Greenlight is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Greenlight''s developer surface includes engineering blog, pricing, support, and 9 more developer resources.'
-random_paper: 12
+random_paper: 81
 score:
   band: emerging
   composite: 21.5

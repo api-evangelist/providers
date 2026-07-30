@@ -1747,7 +1747,7 @@ plans:
 - name: Amazon Swf Plans Pricing
   plan_count: 3
   slug: amazon-swf-plans-pricing
-random_paper: 55
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Amazon Swf Rate Limits

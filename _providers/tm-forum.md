@@ -4758,7 +4758,7 @@ plans:
 - name: Tm Forum Plans Pricing
   plan_count: 1
   slug: tm-forum-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Tm Forum Rate Limits

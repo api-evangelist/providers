@@ -39,7 +39,7 @@ name: Drawbridge
 nav: Providers
 network: true
 overview: Drawbridge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Advertising, Identity, and Cross-Device.
-random_paper: 79
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

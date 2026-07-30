@@ -389,7 +389,7 @@ plans:
 - name: Deel Com Plans Pricing
   plan_count: 15
   slug: deel-com-plans-pricing
-random_paper: 5
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Deel Com Rate Limits

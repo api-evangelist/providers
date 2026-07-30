@@ -112,7 +112,7 @@ plans:
 - name: Userflow Plans Pricing
   plan_count: 3
   slug: userflow-plans-pricing
-random_paper: 77
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Userflow Rate Limits

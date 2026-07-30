@@ -150,7 +150,7 @@ plans:
 - name: Cloudhealth Plans Pricing
   plan_count: 3
   slug: cloudhealth-plans-pricing
-random_paper: 31
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Cloudhealth Rate Limits

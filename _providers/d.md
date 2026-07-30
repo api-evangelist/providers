@@ -56,7 +56,7 @@ name: Downjoy (当乐网)
 nav: Providers
 network: true
 overview: Downjoy (当乐网) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Games, Gaming, Game Distribution, and Developer Platform.
-random_paper: 19
+random_paper: 18
 score:
   band: minimal
   composite: 7.9

@@ -72,7 +72,7 @@ plans:
 - name: Karmada Plans Pricing
   plan_count: 3
   slug: karmada-plans-pricing
-random_paper: 73
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Karmada Rate Limits

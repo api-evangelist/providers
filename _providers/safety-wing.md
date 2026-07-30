@@ -67,7 +67,7 @@ overview: 'Safety Wing is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Safety Wing''s developer surface includes pricing, support, and 4 more developer resources.'
-random_paper: 0
+random_paper: 68
 score:
   band: emerging
   composite: 13.5

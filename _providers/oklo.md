@@ -108,7 +108,7 @@ overview: 'Oklo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Oklo''s developer surface includes YouTube channel and 15 more developer resources.'
-random_paper: 32
+random_paper: 27
 score:
   band: minimal
   composite: 5.5

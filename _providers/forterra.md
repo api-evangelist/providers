@@ -92,7 +92,7 @@ overview: 'Forterra is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Forterra''s developer surface includes engineering blog, support, YouTube channel, and 9 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: minimal
   composite: 10.5

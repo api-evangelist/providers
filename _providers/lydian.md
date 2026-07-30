@@ -52,7 +52,7 @@ name: Lydian
 nav: Providers
 network: true
 overview: Lydian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sustainable Aviation Fuel, Clean Energy, Climate Tech, and Carbon Capture.
-random_paper: 74
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

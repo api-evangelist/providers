@@ -33,7 +33,7 @@ name: DietlyAPI
 nav: Providers
 network: true
 overview: 'DietlyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: DietlyAPI. Tagged areas include food, nutrition, barcode, open-food-facts, and health.'
-random_paper: 74
+random_paper: 63
 score:
   band: minimal
   composite: 11.9

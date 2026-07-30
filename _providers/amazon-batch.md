@@ -180,7 +180,7 @@ overview: 'Amazon Batch publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Amazon Batch''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
-random_paper: 71
+random_paper: 57
 rules:
 - name: Amazon Batch API Rules
   rule_count: 6

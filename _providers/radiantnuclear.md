@@ -48,7 +48,7 @@ name: Radiantnuclear
 nav: Providers
 network: true
 overview: Radiantnuclear is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nuclear, and Energy.
-random_paper: 27
+random_paper: 9
 score:
   band: minimal
   composite: 3.9

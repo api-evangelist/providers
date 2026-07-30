@@ -63,7 +63,7 @@ overview: 'MIDAS Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   MIDAS Technologies'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 73
+random_paper: 51
 score:
   band: minimal
   composite: 11.5

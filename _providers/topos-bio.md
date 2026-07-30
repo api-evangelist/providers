@@ -68,7 +68,7 @@ name: Topos Bio
 nav: Providers
 network: true
 overview: Topos Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Drug Discovery, Artificial Intelligence, and Biotech.
-random_paper: 33
+random_paper: 22
 score:
   band: minimal
   composite: 7.9

@@ -63,7 +63,7 @@ overview: 'SCENARIO-X GLOBAL HOLDING PTE. LTD. is profiled on the [APIs.io](http
 
 
   SCENARIO-X GLOBAL HOLDING PTE. LTD.''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 57
+random_paper: 18
 score:
   band: minimal
   composite: 8.3

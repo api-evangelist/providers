@@ -139,7 +139,7 @@ plans:
 - name: Ansys Plans Pricing
   plan_count: 1
   slug: ansys-plans-pricing
-random_paper: 72
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Ansys Rate Limits

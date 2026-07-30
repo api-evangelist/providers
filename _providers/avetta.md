@@ -99,7 +99,7 @@ overview: 'Avetta publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Avetta''s developer surface includes documentation, engineering blog, support, and 10 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: emerging
   composite: 21.9

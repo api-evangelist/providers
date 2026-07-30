@@ -164,7 +164,7 @@ overview: 'Epic Systems publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Epic Systems'' developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, and 18 more developer resources.'
-random_paper: 39
+random_paper: 24
 scopes:
 - name: Epic Systems Scopes
   scope_count: 0

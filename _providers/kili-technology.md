@@ -127,7 +127,7 @@ plans:
 - name: Kili Technology Plans Pricing
   plan_count: 4
   slug: kili-technology-plans-pricing
-random_paper: 15
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Kili Technology Rate Limits

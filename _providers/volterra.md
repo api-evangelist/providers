@@ -71,7 +71,7 @@ overview: 'Volterra is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Volterra''s developer surface includes CLI and 6 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: minimal
   composite: 10.1

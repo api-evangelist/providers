@@ -125,7 +125,7 @@ plans:
 - name: Microsoft Onedrive Plans Pricing
   plan_count: 3
   slug: microsoft-onedrive-plans-pricing
-random_paper: 24
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Microsoft Onedrive Rate Limits

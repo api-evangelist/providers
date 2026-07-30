@@ -148,7 +148,7 @@ plans:
 - name: Zenserp Plans Pricing
   plan_count: 6
   slug: zenserp-plans-pricing
-random_paper: 46
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Zenserp Rate Limits

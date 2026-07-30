@@ -87,7 +87,7 @@ plans:
 - name: Serpwow Plans Pricing
   plan_count: 3
   slug: serpwow-plans-pricing
-random_paper: 62
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Serpwow Rate Limits

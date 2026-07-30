@@ -100,7 +100,7 @@ plans:
 - name: Logility Plans Pricing
   plan_count: 1
   slug: logility-plans-pricing
-random_paper: 67
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Logility Rate Limits

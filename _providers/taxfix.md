@@ -71,7 +71,7 @@ overview: 'Taxfix is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Taxfix''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 12.6

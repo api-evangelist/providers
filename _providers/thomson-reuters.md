@@ -111,7 +111,7 @@ plans:
 - name: Thomson Reuters Plans Pricing
   plan_count: 3
   slug: thomson-reuters-plans-pricing
-random_paper: 60
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Thomson Reuters Rate Limits

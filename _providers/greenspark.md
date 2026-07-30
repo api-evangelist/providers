@@ -189,7 +189,7 @@ overview: 'Greenspark publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Greenspark''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, sandbox, and 21 more developer resources.'
-random_paper: 21
+random_paper: 8
 score:
   band: developing
   composite: 50.3

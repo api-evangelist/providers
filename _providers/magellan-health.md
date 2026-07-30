@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: News Releases - Magellan Health
   url: https://magellanhealth.mediaroom.com/2021-10-04-Magellan-Healthcare-Debuts-High-Touch,-High-Tech-Collaborative-Care-Management-Solution-Powered-by-NeuroFlow
-random_paper: 50
+random_paper: 32
 score:
   band: minimal
   composite: 6.0

@@ -56,7 +56,7 @@ name: Open Notify
 nav: Providers
 network: true
 overview: Open Notify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 10
+random_paper: 78
 score:
   band: minimal
   composite: 5.7

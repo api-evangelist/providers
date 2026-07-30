@@ -79,7 +79,7 @@ overview: 'Rheaply is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Rheaply''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 28
+random_paper: 19
 score:
   band: emerging
   composite: 13.1

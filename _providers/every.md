@@ -83,7 +83,7 @@ overview: 'Every is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Every''s developer surface includes engineering blog, support, pricing, signup flow, and 6 more developer resources.'
-random_paper: 69
+random_paper: 63
 score:
   band: emerging
   composite: 16.2

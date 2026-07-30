@@ -111,7 +111,7 @@ overview: 'Chai Discovery is profiled on the [APIs.io](https://apis.io/) network
 
 
   Chai Discovery''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, changelog, and 10 more developer resources.'
-random_paper: 57
+random_paper: 40
 score:
   band: emerging
   composite: 24.9

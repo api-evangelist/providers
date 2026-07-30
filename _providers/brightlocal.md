@@ -112,7 +112,7 @@ plans:
 - name: Brightlocal Plans Pricing
   plan_count: 6
   slug: brightlocal-plans-pricing
-random_paper: 29
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Brightlocal Rate Limits

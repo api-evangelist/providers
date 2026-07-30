@@ -75,7 +75,7 @@ overview: 'Jambo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jambo''s developer surface includes YouTube channel and 7 more developer resources.'
-random_paper: 35
+random_paper: 29
 score:
   band: minimal
   composite: 4.3

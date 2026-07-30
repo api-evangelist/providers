@@ -128,7 +128,7 @@ plans:
 - name: Friendly Captcha Plans Pricing
   plan_count: 1
   slug: friendly-captcha-plans-pricing
-random_paper: 10
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Friendly Captcha Rate Limits

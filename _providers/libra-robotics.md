@@ -79,7 +79,7 @@ overview: 'Libra Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Libra Robotics'' developer surface includes support, YouTube channel, and 7 more developer resources.'
-random_paper: 59
+random_paper: 42
 score:
   band: minimal
   composite: 7.8

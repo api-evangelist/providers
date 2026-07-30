@@ -83,7 +83,7 @@ overview: 'Wochit is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Wochit''s developer surface includes pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 6
+random_paper: 80
 score:
   band: emerging
   composite: 18.4

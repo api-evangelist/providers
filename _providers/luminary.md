@@ -174,7 +174,7 @@ overview: 'Luminary publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Luminary''s developer surface includes engineering blog, pricing, support, authentication, and 21 more developer resources.'
-random_paper: 71
+random_paper: 61
 scopes:
 - name: Luminary Scopes
   scope_count: 4

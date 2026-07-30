@@ -290,7 +290,7 @@ plans:
 - name: Tetrate Plans Pricing
   plan_count: 2
   slug: tetrate-plans-pricing
-random_paper: 32
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Tetrate Rate Limits

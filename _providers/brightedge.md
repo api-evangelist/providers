@@ -256,7 +256,7 @@ overview: 'BrightEdge publishes 44 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   BrightEdge''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 11 more developer resources.'
-random_paper: 73
+random_paper: 61
 score:
   band: thin
   composite: 40.9

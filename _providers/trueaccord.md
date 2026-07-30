@@ -139,7 +139,7 @@ overview: 'TrueAccord publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   TrueAccord''s developer surface includes documentation, API reference, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 15
+random_paper: 2
 score:
   band: thin
   composite: 38.0

@@ -56,7 +56,7 @@ name: Visolis
 nav: Providers
 network: true
 overview: Visolis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biomanufacturing, Sustainable Materials, and Green Chemistry.
-random_paper: 48
+random_paper: 39
 score:
   band: minimal
   composite: 9.2

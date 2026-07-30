@@ -48,7 +48,7 @@ name: Jetway
 nav: Providers
 network: true
 overview: Jetway is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Corporate Travel, Business Travel, and Expense Management.
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

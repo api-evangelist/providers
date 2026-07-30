@@ -205,7 +205,7 @@ plans:
 - name: Mixrank Plans
   plan_count: 6
   slug: mixrank-plans
-random_paper: 33
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Mixrank Rate Limits

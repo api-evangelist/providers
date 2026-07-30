@@ -39,7 +39,7 @@ name: Muir Test Systems
 nav: Providers
 network: true
 overview: Muir Test Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Test and Measurement, Testing, Hardware, and Battery Ventures Portfolio.
-random_paper: 74
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

@@ -83,7 +83,7 @@ overview: 'Chui is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Chui''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 20
+random_paper: 15
 score:
   band: emerging
   composite: 16.3

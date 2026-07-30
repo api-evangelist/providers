@@ -87,7 +87,7 @@ overview: 'Atom Bank is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Atom Bank''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 80
+random_paper: 70
 score:
   band: minimal
   composite: 12.2

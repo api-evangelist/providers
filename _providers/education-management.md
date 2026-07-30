@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Utilization of Artificial Intelligence Technology in Higher ...
   url: https://www.clausiuspress.com/article/10212.html
-random_paper: 29
+random_paper: 4
 score:
   band: minimal
   composite: 3.5

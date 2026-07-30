@@ -59,7 +59,7 @@ overview: 'Zeal is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zeal''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 23
+random_paper: 18
 score:
   band: minimal
   composite: 7.7

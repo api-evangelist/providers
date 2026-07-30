@@ -120,7 +120,7 @@ plans:
 - name: Optisigns Plans Pricing
   plan_count: 6
   slug: optisigns-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Optisigns Rate Limits

@@ -52,7 +52,7 @@ name: Noonswoon
 nav: Providers
 network: true
 overview: Noonswoon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, Mobile, Consumer, and Social.
-random_paper: 36
+random_paper: 24
 score:
   band: minimal
   composite: 5.7

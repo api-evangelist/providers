@@ -44,7 +44,7 @@ name: Nova Instruments
 nav: Providers
 network: true
 overview: Nova Instruments is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Test and Measurement, Instruments, Non-Destructive Testing, and Manufacturing.
-random_paper: 8
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

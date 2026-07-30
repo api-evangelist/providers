@@ -60,7 +60,7 @@ name: Alvee Health
 nav: Providers
 network: true
 overview: Alvee Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, SDOH, Social Determinants of Health, and Care Coordination.
-random_paper: 39
+random_paper: 33
 score:
   band: minimal
   composite: 12.5

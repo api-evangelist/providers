@@ -147,7 +147,7 @@ plans:
 - name: United States Department Of Agriculture Plans Pricing
   plan_count: 3
   slug: united-states-department-of-agriculture-plans-pricing
-random_paper: 0
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: United States Department Of Agriculture Rate Limits

@@ -83,7 +83,7 @@ overview: 'Cotool is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cotool''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 11.5

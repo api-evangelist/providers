@@ -48,7 +48,7 @@ name: Stonex Group
 nav: Providers
 network: true
 overview: Stonex Group is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 60
+random_paper: 45
 score:
   band: minimal
   composite: 3.3

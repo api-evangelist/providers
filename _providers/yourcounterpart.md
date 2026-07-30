@@ -83,7 +83,7 @@ overview: 'Yourcounterpart publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Yourcounterpart''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 50
+random_paper: 30
 score:
   band: emerging
   composite: 19.1

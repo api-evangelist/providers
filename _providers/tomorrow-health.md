@@ -95,7 +95,7 @@ overview: 'Tomorrow Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Tomorrow Health''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 41
+random_paper: 22
 score:
   band: emerging
   composite: 17.3

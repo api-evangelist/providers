@@ -63,7 +63,7 @@ overview: 'FarMart is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   FarMart''s developer surface includes support and 4 more developer resources.'
-random_paper: 20
+random_paper: 11
 score:
   band: minimal
   composite: 9.1

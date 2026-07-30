@@ -562,7 +562,7 @@ plans:
 - name: Amazon Eventbridge Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-plans-pricing
-random_paper: 76
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Rate Limits

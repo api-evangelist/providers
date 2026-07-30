@@ -400,7 +400,7 @@ plans:
 - name: Yelp Plans Pricing
   plan_count: 5
   slug: yelp-plans-pricing
-random_paper: 37
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Yelp Rate Limits

@@ -67,7 +67,7 @@ overview: 'Ciridae is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ciridae''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 73
+random_paper: 65
 score:
   band: minimal
   composite: 7.6

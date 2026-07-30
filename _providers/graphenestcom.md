@@ -64,7 +64,7 @@ name: graphenest.com
 nav: Providers
 network: true
 overview: graphenest.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Graphene, Nanotechnology, Advanced Materials, and EMI Shielding.
-random_paper: 15
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

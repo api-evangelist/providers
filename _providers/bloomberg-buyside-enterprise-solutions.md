@@ -196,7 +196,7 @@ plans:
 - name: Bloomberg Buyside Enterprise Solutions Plans Pricing
   plan_count: 3
   slug: bloomberg-buyside-enterprise-solutions-plans-pricing
-random_paper: 54
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Bloomberg Buyside Enterprise Solutions Rate Limits

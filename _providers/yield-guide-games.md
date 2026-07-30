@@ -71,7 +71,7 @@ overview: 'Yield Guild Games is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Yield Guild Games'' developer surface includes engineering blog, documentation, support, and 4 more developer resources.'
-random_paper: 56
+random_paper: 36
 score:
   band: minimal
   composite: 10.8

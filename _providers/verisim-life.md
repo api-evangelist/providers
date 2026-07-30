@@ -67,7 +67,7 @@ overview: 'VeriSIM Life is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   VeriSIM Life''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 13
+random_paper: 80
 score:
   band: minimal
   composite: 9.6

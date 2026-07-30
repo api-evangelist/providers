@@ -218,7 +218,7 @@ overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Method Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 24 more developer resources.'
-random_paper: 35
+random_paper: 16
 score:
   band: developing
   composite: 54.6

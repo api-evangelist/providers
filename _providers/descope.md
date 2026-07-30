@@ -389,7 +389,7 @@ overview: 'Descope publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Descope''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, developer console, signup flow, and 53 more developer resources.'
-random_paper: 10
+random_paper: 1
 score:
   band: developing
   composite: 47.1

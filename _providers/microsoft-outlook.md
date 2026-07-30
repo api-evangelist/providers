@@ -492,7 +492,7 @@ plans:
 - name: Microsoft Outlook Plans Pricing
   plan_count: 5
   slug: microsoft-outlook-plans-pricing
-random_paper: 26
+random_paper: 4
 rate_limits:
 - limit_count: 7
   name: Microsoft Outlook Rate Limits

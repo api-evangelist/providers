@@ -147,7 +147,7 @@ overview: 'Bittensor publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Bittensor''s developer surface includes documentation, getting-started guide, API reference, engineering blog, CLI, authentication, and 16 more developer resources.'
-random_paper: 14
+random_paper: 2
 score:
   band: emerging
   composite: 22.7

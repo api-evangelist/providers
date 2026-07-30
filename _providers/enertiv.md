@@ -67,7 +67,7 @@ overview: 'Enertiv is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Enertiv''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: minimal
   composite: 11.0

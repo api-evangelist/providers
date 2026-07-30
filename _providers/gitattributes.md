@@ -44,7 +44,7 @@ name: .Gitattributes
 nav: Providers
 network: true
 overview: .Gitattributes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Configuration, Git, Repository, and Version Control.
-random_paper: 42
+random_paper: 25
 score:
   band: minimal
   composite: 3.8

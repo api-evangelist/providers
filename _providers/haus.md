@@ -99,7 +99,7 @@ overview: 'Haus is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Haus'' developer surface includes engineering blog, pricing, support, signup flow, and 10 more developer resources.'
-random_paper: 28
+random_paper: 23
 score:
   band: emerging
   composite: 20.5

@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Investor Relations | Micron Technology
   url: https://investors.micron.com/
-random_paper: 76
+random_paper: 55
 score:
   band: minimal
   composite: 3.3

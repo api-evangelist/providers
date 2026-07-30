@@ -60,7 +60,7 @@ name: Kela Technologies
 nav: Providers
 network: true
 overview: Kela Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Defense Technology, Military, and Systems Integration.
-random_paper: 41
+random_paper: 20
 score:
   band: minimal
   composite: 7.1

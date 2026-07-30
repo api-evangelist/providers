@@ -120,7 +120,7 @@ overview: 'Enverus publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Enverus'' developer surface includes documentation, getting-started guide, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 47
+random_paper: 38
 score:
   band: emerging
   composite: 26.9

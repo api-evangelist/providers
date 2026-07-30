@@ -64,7 +64,7 @@ overview: 'HONESS (Shanghai Hongji Environmental Protection) is profiled on the 
 
 
   HONESS (Shanghai Hongji Environmental Protection)''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 8.4

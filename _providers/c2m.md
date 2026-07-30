@@ -56,7 +56,7 @@ name: C2M
 nav: Providers
 network: true
 overview: C2M is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Messaging, Chat, and Mobile.
-random_paper: 15
+random_paper: 12
 score:
   band: minimal
   composite: 10.7

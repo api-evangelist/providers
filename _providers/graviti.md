@@ -48,7 +48,7 @@ name: Graviti
 nav: Providers
 network: true
 overview: Graviti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Financial Services, BNPL, and PayGo.
-random_paper: 29
+random_paper: 20
 score:
   band: minimal
   composite: 5.0

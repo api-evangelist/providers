@@ -79,7 +79,7 @@ overview: 'Booko is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Booko''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 52
+random_paper: 46
 score:
   band: minimal
   composite: 11.2

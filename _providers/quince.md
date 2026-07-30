@@ -60,7 +60,7 @@ name: Quince
 nav: Providers
 network: true
 overview: Quince is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Direct-to-Consumer, and Apparel.
-random_paper: 78
+random_paper: 71
 score:
   band: minimal
   composite: 6.1

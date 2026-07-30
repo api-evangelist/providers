@@ -48,7 +48,7 @@ name: Multi
 nav: Providers
 network: true
 overview: Multi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applications, Collaboration, Screen Sharing, and Remote Work.
-random_paper: 69
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

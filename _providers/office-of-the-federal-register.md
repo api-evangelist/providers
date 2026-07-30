@@ -109,7 +109,7 @@ plans:
 - name: Office Of The Federal Register Plans Pricing
   plan_count: 3
   slug: office-of-the-federal-register-plans-pricing
-random_paper: 10
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Office Of The Federal Register Rate Limits

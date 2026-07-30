@@ -141,7 +141,7 @@ overview: 'ClinicalTrials.gov publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   ClinicalTrials.gov''s developer surface includes documentation, developer portal, product news, GitHub presence, and 11 more developer resources.'
-random_paper: 45
+random_paper: 22
 rules:
 - name: ClinicalTrials.gov API Rules
   rule_count: 9

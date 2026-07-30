@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: Martin Marietta reaffirms 2026 adjusted EBITDA guidance ...
   url: https://seekingalpha.com/news/4583528-martin-marietta-reaffirms-2026-adjusted-ebitda-guidance-of-2_43b-midpoint-as-quikrete
-random_paper: 47
+random_paper: 16
 score:
   band: minimal
   composite: 5.4

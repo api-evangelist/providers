@@ -126,7 +126,7 @@ plans:
 - name: Electricitymaps Plans Pricing
   plan_count: 4
   slug: electricitymaps-plans-pricing
-random_paper: 79
+random_paper: 60
 rate_limits:
 - limit_count: 6
   name: Electricitymaps Rate Limits

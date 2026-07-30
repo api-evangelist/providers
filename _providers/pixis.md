@@ -67,7 +67,7 @@ overview: 'Pixis is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Pixis'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 71
+random_paper: 65
 score:
   band: minimal
   composite: 10.3

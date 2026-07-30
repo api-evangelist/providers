@@ -195,7 +195,7 @@ plans:
 - name: Fiscalnote Plans Pricing
   plan_count: 4
   slug: fiscalnote-plans-pricing
-random_paper: 11
+random_paper: 80
 rate_limits:
 - limit_count: 1
   name: Fiscalnote Rate Limits

@@ -157,7 +157,7 @@ overview: 'Empirical Security publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   Empirical Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 20
+random_paper: 79
 scopes:
 - name: Empirical Security Scopes
   scope_count: 1

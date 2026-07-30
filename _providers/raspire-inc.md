@@ -67,7 +67,7 @@ overview: 'Raspire Inc. is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Raspire Inc.''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 64
+random_paper: 51
 score:
   band: minimal
   composite: 7.7

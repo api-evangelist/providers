@@ -87,7 +87,7 @@ overview: 'Kindbody is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Kindbody''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: minimal
   composite: 6.5

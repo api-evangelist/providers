@@ -128,7 +128,7 @@ plans:
 - name: Optscale Plans Pricing
   plan_count: 3
   slug: optscale-plans-pricing
-random_paper: 49
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Optscale Rate Limits

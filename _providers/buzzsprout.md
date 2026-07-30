@@ -115,7 +115,7 @@ plans:
 - name: Buzzsprout Plans Pricing
   plan_count: 5
   slug: buzzsprout-plans-pricing
-random_paper: 10
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Buzzsprout Rate Limits

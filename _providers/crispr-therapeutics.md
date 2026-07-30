@@ -63,7 +63,7 @@ overview: 'CRISPR Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   CRISPR Therapeutics'' developer surface includes support and 4 more developer resources.'
-random_paper: 57
+random_paper: 33
 score:
   band: minimal
   composite: 11.2

@@ -133,7 +133,7 @@ plans:
 - name: Flatcar Container Linux Plans Pricing
   plan_count: 3
   slug: flatcar-container-linux-plans-pricing
-random_paper: 78
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Flatcar Container Linux Rate Limits

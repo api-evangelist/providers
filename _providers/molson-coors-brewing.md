@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Molson Canadian breaks new ground with the launch of ...
   url: https://www.prnewswire.com/news-releases/molson-canadian-breaks-new-ground-with-the-launch-of-molson-canadian-cider-512560441.html
-random_paper: 29
+random_paper: 4
 score:
   band: minimal
   composite: 3.6

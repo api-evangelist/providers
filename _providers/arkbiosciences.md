@@ -59,7 +59,7 @@ overview: 'Ark Biopharmaceutical is profiled on the [APIs.io](https://apis.io/) 
 
 
   Ark Biopharmaceutical''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 19
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

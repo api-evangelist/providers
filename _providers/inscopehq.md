@@ -88,7 +88,7 @@ overview: 'Inscope is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Inscope''s developer surface includes engineering blog, authentication, and 9 more developer resources.'
-random_paper: 79
+random_paper: 68
 score:
   band: emerging
   composite: 19.5

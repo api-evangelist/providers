@@ -84,7 +84,7 @@ plans:
 - name: Ckan Govdata De Plans Pricing
   plan_count: 1
   slug: ckan-govdata-de-plans-pricing
-random_paper: 69
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Ckan Govdata De Rate Limits

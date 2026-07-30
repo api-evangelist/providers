@@ -127,7 +127,7 @@ overview: 'Paedae publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Paedae''s developer surface includes documentation, API reference, developer portal, signup flow, support, and 10 more developer resources.'
-random_paper: 41
+random_paper: 34
 scopes:
 - name: Paedae Scopes
   scope_count: 0

@@ -44,7 +44,7 @@ name: Incyte
 nav: Providers
 network: true
 overview: Incyte is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 4
+random_paper: 78
 score:
   band: minimal
   composite: 2.6

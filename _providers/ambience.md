@@ -95,7 +95,7 @@ overview: 'Ambience publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Ambience''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 10
+random_paper: 0
 score:
   band: emerging
   composite: 19.6

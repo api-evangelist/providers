@@ -59,7 +59,7 @@ overview: 'Astraea is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Astraea''s developer surface includes support and 3 more developer resources.'
-random_paper: 8
+random_paper: 81
 score:
   band: minimal
   composite: 6.7

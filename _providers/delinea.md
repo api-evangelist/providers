@@ -529,7 +529,7 @@ plans:
 - name: Delinea Plans Pricing
   plan_count: 4
   slug: delinea-plans-pricing
-random_paper: 74
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Delinea Rate Limits

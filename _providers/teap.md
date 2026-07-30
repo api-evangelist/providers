@@ -67,7 +67,7 @@ overview: 'Teap is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Teap''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 21
+random_paper: 16
 score:
   band: minimal
   composite: 10.3

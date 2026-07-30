@@ -48,7 +48,7 @@ name: Poppins Health
 nav: Providers
 network: true
 overview: Poppins Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Insurance, Insurance, Healthcare, and Small Business.
-random_paper: 75
+random_paper: 58
 score:
   band: minimal
   composite: 5.6

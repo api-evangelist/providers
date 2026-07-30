@@ -83,7 +83,7 @@ overview: 'Tulyp is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tulyp''s developer surface includes pricing and 9 more developer resources.'
-random_paper: 7
+random_paper: 0
 score:
   band: emerging
   composite: 15.8

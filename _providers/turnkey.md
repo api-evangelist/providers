@@ -124,7 +124,7 @@ plans:
 - name: Turnkey Plans Pricing
   plan_count: 4
   slug: turnkey-plans-pricing
-random_paper: 57
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Turnkey Rate Limits

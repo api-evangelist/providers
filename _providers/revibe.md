@@ -96,7 +96,7 @@ overview: 'Revibe publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Revibe''s developer surface includes engineering blog, signup flow, authentication, and 8 more developer resources.'
-random_paper: 70
+random_paper: 63
 score:
   band: emerging
   composite: 20.8

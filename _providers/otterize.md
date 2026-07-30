@@ -92,7 +92,7 @@ overview: 'Otterize is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Otterize''s developer surface includes documentation, getting-started guide, support, CLI, changelog, authentication, and 6 more developer resources.'
-random_paper: 76
+random_paper: 66
 score:
   band: emerging
   composite: 18.5

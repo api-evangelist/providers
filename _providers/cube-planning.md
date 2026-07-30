@@ -278,7 +278,7 @@ overview: 'Cube Planning publishes 42 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Cube Planning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 19
+random_paper: 3
 scopes:
 - name: Cube Planning Scopes
   scope_count: 3

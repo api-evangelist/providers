@@ -83,7 +83,7 @@ overview: 'DoorFeed is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DoorFeed''s developer surface includes support and 9 more developer resources.'
-random_paper: 30
+random_paper: 20
 score:
   band: emerging
   composite: 15.2

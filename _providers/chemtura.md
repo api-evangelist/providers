@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: PA-CHEMTURA-CORPORATION | Business Wire
   url: https://via.ritzau.dk/pressemeddelelse/9995980/pa-chemtura-corporation?publisherId=90456
-random_paper: 47
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

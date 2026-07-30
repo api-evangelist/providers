@@ -67,7 +67,7 @@ overview: 'WorldCoinIndex publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   WorldCoinIndex''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 55
+random_paper: 37
 score:
   band: minimal
   composite: 6.2

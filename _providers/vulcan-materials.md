@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Vulcan Materials 2026 proxy details CEO shift, pay - VMC
   url: https://www.stocktitan.net/sec-filings/VMC/def-14a-vulcan-materials-co-definitive-proxy-statement-4382cb092fff.html
-random_paper: 36
+random_paper: 16
 score:
   band: minimal
   composite: 9.5

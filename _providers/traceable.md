@@ -172,7 +172,7 @@ plans:
 - name: Traceable Plans Pricing
   plan_count: 1
   slug: traceable-plans-pricing
-random_paper: 40
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Traceable Rate Limits

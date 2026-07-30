@@ -515,7 +515,7 @@ plans:
 - name: Svix Plans Pricing
   plan_count: 3
   slug: svix-plans-pricing
-random_paper: 53
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Svix Rate Limits

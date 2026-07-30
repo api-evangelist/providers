@@ -63,7 +63,7 @@ overview: 'Qurate Retail Group is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Qurate Retail Group''s developer surface includes product news and 4 more developer resources.'
-random_paper: 2
+random_paper: 60
 score:
   band: minimal
   composite: 3.2

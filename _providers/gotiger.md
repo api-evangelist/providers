@@ -44,7 +44,7 @@ name: Gotiger
 nav: Providers
 network: true
 overview: Gotiger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Delivery, Ghost Kitchens, and Grocery.
-random_paper: 24
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

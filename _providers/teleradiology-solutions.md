@@ -63,7 +63,7 @@ overview: 'Teleradiology Solutions is profiled on the [APIs.io](https://apis.io/
 
 
   Teleradiology Solutions'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 19
+random_paper: 71
 score:
   band: minimal
   composite: 6.5

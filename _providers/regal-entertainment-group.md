@@ -160,7 +160,7 @@ press:
 - date: '2026-05-25'
   title: News
   url: https://www.motionpictures.org/news/
-random_paper: 65
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Regal Entertainment Group Rate Limits

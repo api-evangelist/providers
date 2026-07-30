@@ -52,7 +52,7 @@ name: Catch that bus
 nav: Providers
 network: true
 overview: Catch that bus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Bus, Ticketing, and Travel.
-random_paper: 72
+random_paper: 56
 score:
   band: minimal
   composite: 5.7

@@ -64,7 +64,7 @@ name: Radionetics Oncology
 nav: Providers
 network: true
 overview: Radionetics Oncology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Radiopharmaceuticals, and Oncology.
-random_paper: 67
+random_paper: 42
 score:
   band: minimal
   composite: 9.3

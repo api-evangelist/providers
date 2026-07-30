@@ -131,7 +131,7 @@ overview: 'OnTheMarket publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   OnTheMarket''s developer surface includes engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 52
+random_paper: 38
 score:
   band: emerging
   composite: 17.9

@@ -48,7 +48,7 @@ name: Radionomy (Azerion)
 nav: Providers
 network: true
 overview: Radionomy (Azerion) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Audio, Internet Radio, and Streaming.
-random_paper: 1
+random_paper: 61
 score:
   band: minimal
   composite: 5.0

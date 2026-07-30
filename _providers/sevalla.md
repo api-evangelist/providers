@@ -130,7 +130,7 @@ plans:
 - name: Sevalla Plans Pricing
   plan_count: 4
   slug: sevalla-plans-pricing
-random_paper: 15
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Sevalla Rate Limits

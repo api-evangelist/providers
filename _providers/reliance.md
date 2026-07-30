@@ -72,7 +72,7 @@ overview: 'Reliance, Inc. is profiled on the [APIs.io](https://apis.io/) network
 
 
   The Reliance, Inc. catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 25
+random_paper: 15
 score:
   band: minimal
   composite: 9.4

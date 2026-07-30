@@ -165,7 +165,7 @@ plans:
 - name: Galxe Plans
   plan_count: 2
   slug: galxe-plans
-random_paper: 43
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Galxe Rate Limits

@@ -52,7 +52,7 @@ name: Sofar Sounds
 nav: Providers
 network: true
 overview: Sofar Sounds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Live Events, Concerts, and Ticketing.
-random_paper: 37
+random_paper: 22
 score:
   band: minimal
   composite: 5.7

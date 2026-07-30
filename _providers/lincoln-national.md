@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: Delaware Market Conduct Examination Report The Lincoln ...
   url: https://insurance.delaware.gov/wp-content/uploads/sites/15/2025/09/LincolnNationalLifeInsuranceCo2024web.pdf
-random_paper: 30
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Lincoln National Rate Limits

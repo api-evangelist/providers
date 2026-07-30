@@ -261,7 +261,7 @@ plans:
 - name: Openuv Plans Pricing
   plan_count: 5
   slug: openuv-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Openuv Rate Limits

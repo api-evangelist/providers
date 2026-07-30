@@ -326,7 +326,7 @@ plans:
 - name: Rollbar Plans Pricing
   plan_count: 4
   slug: rollbar-plans-pricing
-random_paper: 21
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Rollbar Rate Limits

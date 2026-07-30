@@ -56,7 +56,7 @@ name: Sabi
 nav: Providers
 network: true
 overview: Sabi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Neural Interface, Brain-Computer Interface, and Wearable.
-random_paper: 10
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

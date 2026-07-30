@@ -75,7 +75,7 @@ overview: 'Amalan is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Amalan''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 51
+random_paper: 44
 score:
   band: emerging
   composite: 15.2

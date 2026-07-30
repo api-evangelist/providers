@@ -104,7 +104,7 @@ overview: 'Alkami publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Alkami''s developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 56
+random_paper: 49
 score:
   band: emerging
   composite: 21.0

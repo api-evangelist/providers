@@ -402,7 +402,7 @@ plans:
 - name: Bettercloud Plans Pricing
   plan_count: 3
   slug: bettercloud-plans-pricing
-random_paper: 47
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Bettercloud Rate Limits
