@@ -9,6 +9,10 @@
       symbol: storefront
       href: https://papers.apievangelist.com/products/
 
+    - name: Queue
+      symbol: schedule
+      href: https://papers.apievangelist.com/queue/
+
     - name: MCP Server
       symbol: hub
       href: https://search.apievangelist.com/mcp/
