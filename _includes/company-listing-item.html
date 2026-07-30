@@ -1,0 +1,133 @@
+<!-- One scored provider row. Rendered by company-listing-rated.html.
+     Pass the record as `item`. Do not put a literal include tag in a comment -
+     Jekyll parses Liquid inside HTML comments and will execute it. -->
+{% assign item = include.item %}
+{% assign rubric = site.data.scoring %}
+{% assign facet_order = "contract_quality,developer_ergonomics,commercial_clarity,operational_transparency,governance,discoverability" | split: "," %}
+    <div class="item-entry" data-title="{{ item.name | downcase }} {{ item.slug }}">
+      <div class="post-item d-flex align-items-center">
+        <div class="rate-rank flex-shrink-0">{{ item.rank }}</div>
+        <div class="prov-thumb flex-shrink-0 me-3">
+          {% if item.screenshot %}<img src="{{ item.screenshot }}" alt="{{ item.name }} screenshot" loading="lazy" onerror="this.remove()">{% endif %}
+        </div>
+        <div class="flex-grow-1">
+          <h5 class="mb-1">{{ item.name }}{% if item.band %} <span class="band-badge band-{{ item.band }} ms-1">{{ item.band_label }}</span>{% endif %}{% if item.agent_band %} <span class="band-badge band-{{ item.agent_band }} ms-1">{{ item.agent_band | replace: "-", " " }}</span>{% endif %}{% if item.tier %} <span class="tier-badge ms-1">{{ item.tier }}</span>{% endif %}</h5>
+          {% if item.description %}
+          <p class="text-muted small mb-1">{{ item.description | truncate: 160 }}</p>
+          {% endif %}
+          <div class="d-flex gap-2">
+            <a href="/providers/{{ item.slug }}/" class="btn btn-sm btn-success py-0">Profile</a>
+            <a href="https://apis.io/providers/{{ item.slug }}/" target="_blank" rel="noopener" class="btn btn-sm btn-outline-success py-0">apis.io</a>
+            <a href="https://github.com/api-evangelist/{{ item.slug }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-dark py-0">GitHub</a>
+          </div>
+        </div>
+        <div class="rate-scores text-end ms-3 flex-shrink-0 d-flex align-items-center justify-content-end gap-3" title="Click to open the full score breakdown">
+          {% if item.score %}
+          <div>
+            <div class="rs-label">Composite</div>
+            <div class="rate-score">{{ item.score }}</div>
+          </div>
+          {% else %}
+          <div class="text-muted small">Not yet rated</div>
+          {% endif %}
+          {% if item.agent_score %}
+          <div>
+            <div class="rs-label">Agent</div>
+            <div class="rate-agent-score">{{ item.agent_score }}</div>
+          </div>
+          {% endif %}
+        </div>
+        {%- comment -%}
+          The K'in sun, far right of the row. Listing anatomy across both
+          apievangelist.com and apis.io — see kin-score/glyph/GLYPH.md.
+        {%- endcomment -%}
+        {% if item.score %}
+        <span class="kin-row-glyph flex-shrink-0 ms-3"
+              data-kin-glyph
+              data-size="46"
+              data-palette="facet"
+              data-name="{{ item.name | escape }}"
+              data-score="{{ item.score }}"
+              data-band="{{ item.band }}"
+              data-agent-score="{{ item.agent_score | default: 0 }}"
+              data-agent-band="{{ item.agent_band | default: 'human-only' }}"
+              data-facets='{"discoverability":{{ item.facets.discoverability | default: 0 }},"contract_quality":{{ item.facets.contract_quality | default: 0 }},"governance":{{ item.facets.governance | default: 0 }},"operational_transparency":{{ item.facets.operational_transparency | default: 0 }},"developer_ergonomics":{{ item.facets.developer_ergonomics | default: 0 }},"commercial_clarity":{{ item.facets.commercial_clarity | default: 0 }}}'
+              {%- comment -%}
+                jsonify — the 0.6 graded dimensions are STRINGS (`derived`,
+                `documented`, `partial`), and hand-building the object emitted
+                `"agentic_access":derived`, invalid JSON that kin-glyph.js
+                silently swallowed into {} — unlighting every ray in every row.
+                See the same note in _layouts/provider.html.
+              {%- endcomment -%}
+              data-dims='{{ item.agent_dims | jsonify }}'></span>
+        {% endif %}
+      </div>
+      {% if item.facets and rubric.facets %}
+      <div class="rate-detail">
+        <div class="rating-panel">
+          <div class="rp-topline">
+            <a class="ae-rating-mark" href="https://apievangelist.com/rating/" title="Kin Score — the API Evangelist rating system">
+              <img src="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-kin.png" alt="Kin Score">
+              <span>Kin Score</span>
+            </a>
+            <span class="rp-scored">
+              <a href="https://apievangelist.com/rating/">How this is scored &rarr;</a><br>
+              {% if item.scored_at %}scored {{ item.scored_at }}{% endif %}{% if item.schema_version %} &middot; rubric v{{ item.schema_version }}{% endif %}
+            </span>
+          </div>
+
+          <div class="rd-diagram" aria-hidden="true">
+            {% for fkey in facet_order %}
+              {% assign f = rubric.facets[fkey] %}
+              {% assign fs = item.facets[fkey] | default: 0 %}
+              <div class="rd-col"><span class="rd-vnum">{{ fs | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ fs }}%;"></div></div><div class="rd-vlabel">{{ f.label }}</div></div>
+            {% endfor %}
+            {% if item.regulatory %}
+            <div class="rd-col rd-col-reg"><span class="rd-vnum">{{ item.regulatory.score | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ item.regulatory.score }}%;"></div></div><div class="rd-vlabel">Regulatory</div></div>
+            {% endif %}
+            {% if item.agent_score %}
+            <div class="rd-col rd-col-agent"><span class="rd-vnum">{{ item.agent_score | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ item.agent_score }}%;"></div></div><div class="rd-vlabel">Agent</div></div>
+            {% endif %}
+          </div>
+
+          <div class="rd-cols">
+            <div class="rd-col-composite">
+              <div class="rd-section-title">Composite quality &mdash; {{ item.score }}/100 <span class="rd-band">&middot; {{ item.band }}</span></div>
+              {% for fkey in facet_order %}
+                {% assign f = rubric.facets[fkey] %}
+                {% assign fs = item.facets[fkey] | default: 0 %}
+                {% assign possible = f.weight | times: 100 %}
+                {% assign applied = fs | times: f.weight %}
+                <div class="rd-row">
+                  <span class="rd-label"><abbr title="{{ f.description | strip_newlines | strip }}">{{ f.label }}</abbr></span>
+                  <span class="rd-track"><span class="rd-fill" style="width:{{ fs }}%;"></span></span>
+                  <span class="rd-pts"><b>{{ applied | round: 1 }}</b> / {{ possible | round }}</span>
+                </div>
+              {% endfor %}
+              {% if item.regulatory %}
+                <div class="rd-row">
+                  <span class="rd-label"><abbr title="Regulatory posture for {{ item.regulatory.regime }} — consent-scoped authorization, published security &amp; vulnerability disclosure, terms/privacy legal basis, and data-standard conformance. A conditional facet that applies only to regulated industries, at weight 0.15.">Regulatory &middot; {{ item.regulatory.regime }}</abbr></span>
+                  <span class="rd-track"><span class="rd-fill" style="width:{{ item.regulatory.score }}%;"></span></span>
+                  <span class="rd-pts"><b>{{ item.regulatory.score | times: 0.15 | round: 1 }}</b> / 15</span>
+                </div>
+              {% endif %}
+            </div>
+
+            {% if item.agent_dims and rubric.agent_readiness %}
+            <div class="rd-col-agent-rows">
+              <div class="rd-section-title">Agent readiness &mdash; {{ item.agent_score | round }}/100 <span class="rd-band">&middot; {{ item.agent_band | replace: '-', ' ' }}</span></div>
+              {% for d in rubric.agent_readiness.dimensions %}
+                {% assign hit = item.agent_dims[d.id] %}
+                <div class="rd-row">
+                  <span class="rd-label"><span class="rd-dot {% if hit %}on{% else %}off{% endif %}"></span>{{ d.label }}</span>
+                  <span class="rd-track"><span class="rd-fill" style="width:{% if hit %}100{% else %}0{% endif %}%;"></span></span>
+                  <span class="rd-pts {% unless hit %}miss{% endunless %}"><b>{% if hit %}{{ d.points }}{% else %}0{% endif %}</b> / {{ d.points }}</span>
+                </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
