@@ -54,7 +54,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Aggregator & FDX",
+     "tier": "Aggregators & Open Finance",
      "rank": 1
     },
     {
@@ -202,7 +202,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Aggregator & FDX",
+     "tier": "Aggregators & Open Finance",
      "rank": 4
     },
     {
@@ -248,7 +248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Aggregator & FDX",
+     "tier": "Aggregators & Open Finance",
      "rank": 5
     },
     {
@@ -294,7 +294,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Aggregator & FDX",
+     "tier": "Aggregators & Open Finance",
      "rank": 6
     }
    ],
@@ -619,7 +619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Aggregator & FDX",
+     "tier": "Industry Bodies & Standards",
      "rank": 13
     },
     {
@@ -934,7 +934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Aggregator & FDX",
+     "tier": "Aggregators & Open Finance",
      "rank": 20
     },
     {
@@ -1679,7 +1679,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Aggregator & FDX",
+     "tier": "Aggregators & Open Finance",
      "rank": 36
     },
     {
@@ -2001,7 +2001,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Aggregator & FDX",
+     "tier": "Aggregators & Open Finance",
      "rank": 43
     },
     {

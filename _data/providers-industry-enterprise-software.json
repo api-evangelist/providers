@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 16,
-   "shown": 16,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "Salesforce",
@@ -593,44 +593,6 @@
       "dry_run_mode": false
      },
      "rank": 15
-    },
-    {
-     "name": "Adobe",
-     "slug": "adobe",
-     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
-     "score": 67.4,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "commercial_clarity": 73.7,
-      "contract_quality": 79.6,
-      "developer_ergonomics": 63.0,
-      "discoverability": 64.8,
-      "governance": 68.8,
-      "operational_transparency": 42.1
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 47.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "agent_card": false,
-      "agent_skills": false,
-      "agentic_access": "derived",
-      "asyncapi_events": false,
-      "auth_clarity": true,
-      "consent_identity": false,
-      "dry_run_mode": false,
-      "error_semantics": false,
-      "idempotency": false,
-      "mcp_server": true,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "spec_presence": true,
-      "well_known_catalog": false
-     },
-     "rank": 16
     }
    ],
    "open": true
@@ -679,7 +641,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Apple",
@@ -717,7 +679,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Intuit",
@@ -762,7 +724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Cisco",
@@ -800,7 +762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Zoom",
@@ -838,7 +800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "WSO2",
@@ -876,7 +838,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Pandium",
@@ -914,7 +876,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "SAP",
@@ -952,7 +914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Microsoft",
@@ -990,7 +952,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Amazon",
@@ -1035,7 +997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "Gravitee",
@@ -1073,7 +1035,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 26
     }
    ],
    "open": true
@@ -1129,7 +1091,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "SPIRE",
@@ -1167,7 +1129,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Upbound",
@@ -1205,7 +1167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Cisco Systems",
@@ -1243,7 +1205,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "NetApp",
@@ -1281,7 +1243,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Rackspace Technology",
@@ -1319,7 +1281,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "ADP",
@@ -1357,7 +1319,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Dropbox",
@@ -1395,7 +1357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Zoho",
@@ -1433,7 +1395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Synopsys",
@@ -1471,7 +1433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "TD SYNNEX",
@@ -1509,7 +1471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Dell Technologies",
@@ -1547,7 +1509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Broadcom",
@@ -1585,7 +1547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Toast",
@@ -1623,7 +1585,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 40
     }
    ]
   },
@@ -1671,7 +1633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 41
     },
     {
      "name": "Snyk",
@@ -1709,7 +1671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "NCR",
@@ -1754,7 +1716,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "F5",
@@ -1792,7 +1754,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Xerox",
@@ -1830,7 +1792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Encore",
@@ -1868,7 +1830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 46
     },
     {
      "name": "Akamai Technologies",
@@ -1906,7 +1868,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "DXC Technology",
@@ -1944,7 +1906,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Equinix",
@@ -1982,7 +1944,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Radius",
@@ -2020,7 +1982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 50
     }
    ]
   },
@@ -2067,7 +2029,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 51
     },
     {
      "name": "Cadence Design Systems",
@@ -2105,7 +2067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "CDW",
@@ -2143,7 +2105,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "JMS",
@@ -2188,7 +2150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "CACI International",
@@ -2226,7 +2188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 55
     }
    ]
   },
@@ -2274,7 +2236,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "Cognizant Technology Solutions",
@@ -2312,7 +2274,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Science Applications International Corporation (SAIC)",
@@ -2350,7 +2312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "Diebold Nixdorf",
@@ -2395,7 +2357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Leidos",
@@ -2433,7 +2395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Alphabet",
@@ -2471,7 +2433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Alight",
@@ -2509,7 +2471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Hewlett Packard Enterprise",
@@ -2547,7 +2509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Kyndryl Holdings",
@@ -2585,7 +2547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Insight Enterprises",
@@ -2623,7 +2585,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "SS AND C Technologies",
@@ -2660,6 +2622,51 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
+     },
+     "rank": 66
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Adobe",
+     "slug": "adobe",
+     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
+     "facets": {
+      "commercial_clarity": 73.7,
+      "contract_quality": 79.6,
+      "developer_ergonomics": 63.0,
+      "discoverability": 64.8,
+      "governance": 68.8,
+      "operational_transparency": 57.9
+     },
+     "scored_at": "2026-07-29",
+     "schema_version": "0.6",
+     "agent_score": 47.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "agent_card": false,
+      "agent_skills": false,
+      "agentic_access": "derived",
+      "asyncapi_events": false,
+      "auth_clarity": true,
+      "consent_identity": false,
+      "dry_run_mode": false,
+      "error_semantics": false,
+      "idempotency": false,
+      "mcp_server": true,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "spec_presence": true,
+      "well_known_catalog": false
      },
      "rank": 67
     }

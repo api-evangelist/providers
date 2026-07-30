@@ -744,7 +744,45 @@ def cards_page(title, summary, cards_key, base_path, intro):
     ])
 
 
-def listing_page(title, summary, data_key, rated=False, paper=None):
+# Tiers that are pulled OUT of the ranked Kin Score bands and listed as their
+# own groups below them, keyed by the tier label the section builds. These are
+# organizations that do not sell an API — they write the specification, run the
+# rail, or supervise the market — so ranking them on a composite that measures
+# a service is a category error. The order here is the order they render in.
+#
+# A section opts in by simply CONTAINING one of these tiers; nothing per-page
+# needs to be declared. That matters because these pages are generated: the
+# first pass of this treatment was hand-added to the front matter of 17 built
+# pages, where the next rebuild would have silently reverted every one.
+SEPARATED_TIER_BLURBS = [
+    ("Standards Bodies",
+     "They write the specifications, they do not sell an API — scored on a service rubric they were never built for."),
+    ("Industry Bodies & Standards",
+     "Trade bodies and standards organizations — they define how the sector exchanges data rather than selling an API."),
+    ("Market Bodies & Standards",
+     "Market bodies and standards organizations — they set the rules the banks clear through rather than selling an API."),
+    ("Market Bodies, Standards & Regulators",
+     "Market bodies, standards organizations and supervisors — not carriers, vendors or brokers."),
+    ("Domestic Rails & Schemes",
+     "The national payment rails and the bodies that write their rules — you join them as a participant, you do not call them as an API."),
+    ("Regulators",
+     "Supervisory and safety authorities, not commercial providers in this market."),
+    ("Regulators & Government Data",
+     "Supervisory bodies and government data publishers, not commercial providers in this market."),
+]
+
+
+def separated_tiers(entries, overrides=None):
+    """(labels, blurbs) for the separable tiers this section actually holds."""
+    present = {e["tier"] for e in entries if e.get("tier")}
+    blurbs = dict(SEPARATED_TIER_BLURBS)
+    blurbs.update(overrides or {})
+    labels = [label for label, _ in SEPARATED_TIER_BLURBS if label in present]
+    return labels, {label: blurbs[label] for label in labels}
+
+
+def listing_page(title, summary, data_key, rated=False, paper=None,
+                 papers=None, entries=None, tier_blurbs=None):
     include = "company-listing-rated.html" if rated else "company-listing-plain.html"
     lines = [
         "---",
@@ -755,17 +793,41 @@ def listing_page(title, summary, data_key, rated=False, paper=None):
         "nav: Providers",
         'data_key: "%s"' % data_key,
     ]
+
+    # Standards bodies, market bodies and regulators out of the ranked bands.
+    if entries:
+        labels, blurbs = separated_tiers(entries, tier_blurbs)
+        if labels:
+            lines.append("separate_tiers:")
+            lines += ['  - "%s"' % label for label in labels]
+            lines.append("tier_blurbs:")
+            lines += ['  %s: "%s"' % (label, blurbs[label]) for label in labels]
+
     body = []
     # Optional sector-report promo band (see _includes/paper-promo.html). Emitted
     # here so it survives every rebuild rather than being hand-added to the page.
-    if paper:
-        lines += [
-            "paper:",
-            "  slug: %s" % paper["slug"],
-            '  title: "%s"' % paper["title"],
-            '  blurb: "%s"' % paper["blurb"].replace('"', "'"),
-            '  price: "%s"' % paper.get("price", "500"),
-        ]
+    # `papers` (several) wins over `paper` (one) — the include accepts either.
+    promo = papers if papers else ([paper] if paper else [])
+    if promo:
+        if papers:
+            lines.append("papers:")
+            for p in papers:
+                lines += [
+                    "  - slug: %s" % p["slug"],
+                    '    title: "%s"' % p["title"],
+                    '    blurb: "%s"' % p["blurb"].replace('"', "'"),
+                    '    price: "%s"' % p.get("price", "500"),
+                ]
+                if p.get("kind"):
+                    lines.append('    kind: "%s"' % p["kind"])
+        else:
+            lines += [
+                "paper:",
+                "  slug: %s" % paper["slug"],
+                '  title: "%s"' % paper["title"],
+                '  blurb: "%s"' % paper["blurb"].replace('"', "'"),
+                '  price: "%s"' % paper.get("price", "500"),
+            ]
         body.append("{% include paper-promo.html %}")
     lines.append("---")
     body.append("{%% include %s %%}" % include)
@@ -780,6 +842,57 @@ def write_page(path, content):
 
 def esc(text):
     return text.replace('"', "'")
+
+
+# ---------------------------------------------------------------------------
+# Roster-driven sections
+# ---------------------------------------------------------------------------
+# Every sector page (banking, payments, healthcare, insurance, real estate,
+# energy, travel, telecom, headless, market data) is a curated roster in
+# all/0-working/<name>-roster.json with a tier per provider. Module level so a
+# single sector can be rebuilt without running the whole file.
+#
+# A section spec is (slug_page, roster_file, title, summary, paper) with an
+# optional 6th element carrying extras:
+#   tier_labels : per-section tier vocabulary, when the group's shared one
+#                 does not apply (banking has three different taxonomies)
+#   papers      : several promo papers instead of one
+#   tier_blurbs : override a separated tier's blurb for this section
+
+def build_roster_section_group(data_dir, meta_of, scores, sections,
+                               tier_labels, counts=None):
+    counts = {} if counts is None else counts
+    for spec in sections:
+        slug_page, roster_file, title, summary, paper = spec[:5]
+        extras = spec[5] if len(spec) > 5 else {}
+        labels = extras.get("tier_labels") or tier_labels
+
+        with open(os.path.join(ALL, "0-working", roster_file), "r", encoding="utf-8") as fh:
+            roster = json.load(fh)
+
+        entries = []
+        for p in roster["providers"]:
+            meta = meta_of(p["slug"])
+            if meta is None:
+                continue
+            entry = build_rated_entry(p["slug"], meta, scores)
+            tier = p.get("tier", "")
+            if tier:
+                entry["tier"] = labels.get(tier, titleize(tier))
+            entries.append(entry)
+
+        data_key = "providers-%s" % slug_page
+        with open(os.path.join(data_dir, "%s.json" % data_key), "w", encoding="utf-8") as fh:
+            json.dump(band_grouped(entries), fh, ensure_ascii=False, indent=1)
+
+        write_page(
+            os.path.join(SITE, slug_page, "index.html"),
+            listing_page(title, summary, data_key, rated=True, paper=paper,
+                         papers=extras.get("papers"), entries=entries,
+                         tier_blurbs=extras.get("tier_blurbs")),
+        )
+        counts[slug_page] = (len(entries), sum(1 for e in entries if "score" in e))
+    return counts
 
 
 # ---------------------------------------------------------------------------
@@ -940,6 +1053,9 @@ def main():
 
     def rated_entry(slug, meta):
         return build_rated_entry(slug, meta, scores)
+
+    def build_roster_sections(sections, tier_labels, counts):
+        build_roster_section_group(data_dir, meta_of, scores, sections, tier_labels, counts)
 
     # --- Industries -------------------------------------------------------
     # Two sources, unioned by slug: the jobs taxonomy in industries.yml (which
@@ -1175,9 +1291,14 @@ def main():
         ),
     )
 
-    # --- UK Banking -------------------------------------------------------
-    # Roster-driven (like Market Data): the curated UK banking list lives in
-    # all/0-working/uk-banks-roster.json with a tier per provider.
+    # --- Banking (UK / US / CA) -------------------------------------------
+    # Roster-driven, one taxonomy per market: British banking is organized by
+    # the CMA9 mandate, American banking by charter class and the BaaS layer,
+    # Canadian banking by the Bank Act schedules. Each market therefore carries
+    # its own tier vocabulary rather than a shared one.
+    #
+    # Australian banking is deliberately absent: that page is tag-derived
+    # (Australia + Banks) rather than roster-curated, and is built above.
     UK_TIER_LABELS = {
         "cma9":              "CMA9 (Mandated Open Banking)",
         "high-street":       "High-Street & Retail",
@@ -1190,36 +1311,6 @@ def main():
         "payments":          "Payments",
         "savings":           "Savings",
     }
-    uk_banks = []
-    uk_roster_path = os.path.join(ALL, "0-working", "uk-banks-roster.json")
-    with open(uk_roster_path, "r", encoding="utf-8") as fh:
-        uk_roster = json.load(fh)
-    for p in uk_roster["providers"]:
-        meta = meta_of(p["slug"])
-        if meta is None:
-            continue
-        entry = rated_entry(p["slug"], meta)
-        tier = p.get("tier", "")
-        if tier:
-            entry["tier"] = UK_TIER_LABELS.get(tier, titleize(tier))
-        uk_banks.append(entry)
-    uk_banks_grouped = band_grouped(uk_banks)
-    with open(os.path.join(data_dir, "providers-uk-banks.json"), "w", encoding="utf-8") as fh:
-        json.dump(uk_banks_grouped, fh, ensure_ascii=False, indent=1)
-
-    write_page(
-        os.path.join(SITE, "uk-banks", "index.html"),
-        listing_page(
-            "UK Banking",
-            "UK banks and building societies ranked by their Kin Score, from the CMA9 Open Banking mandate to challengers, building societies, and private banks.",
-            "providers-uk-banks",
-            rated=True,
-        ),
-    )
-
-    # --- US Banking -------------------------------------------------------
-    # Roster-driven (like Market Data / UK): the curated US banking list lives
-    # in all/0-working/us-banks-roster.json with a tier per provider.
     US_TIER_LABELS = {
         "money-center":    "Money-Center & Custody",
         "super-regional":  "Super-Regional",
@@ -1227,37 +1318,12 @@ def main():
         "digital":         "Digital & Neobank",
         "baas":            "Banking-as-a-Service",
         "credit-union":    "Credit Union",
-        "aggregator":      "Aggregator & FDX",
+        # FDX used to sit inside this tier, which is why it read "Aggregator &
+        # FDX". It is a standards body, not an aggregator: it publishes the FDX
+        # API specification the aggregators implement, and it sells nothing.
+        "aggregator":      "Aggregators & Open Finance",
+        "standards-body":  "Industry Bodies & Standards",
     }
-    us_banks = []
-    us_roster_path = os.path.join(ALL, "0-working", "us-banks-roster.json")
-    with open(us_roster_path, "r", encoding="utf-8") as fh:
-        us_roster = json.load(fh)
-    for p in us_roster["providers"]:
-        meta = meta_of(p["slug"])
-        if meta is None:
-            continue
-        entry = rated_entry(p["slug"], meta)
-        tier = p.get("tier", "")
-        if tier:
-            entry["tier"] = US_TIER_LABELS.get(tier, titleize(tier))
-        us_banks.append(entry)
-    us_banks_grouped = band_grouped(us_banks)
-    with open(os.path.join(data_dir, "providers-us-banks.json"), "w", encoding="utf-8") as fh:
-        json.dump(us_banks_grouped, fh, ensure_ascii=False, indent=1)
-
-    write_page(
-        os.path.join(SITE, "us-banks", "index.html"),
-        listing_page(
-            "US Banking",
-            "US banks, credit unions, neobanks, and banking-as-a-service providers ranked by their Kin Score — from the money-center banks and the BaaS layer to the aggregators wiring the CFPB 1033 / FDX open-finance era.",
-            "providers-us-banks",
-            rated=True,
-        ),
-    )
-
-    # --- Canadian Banking -------------------------------------------------
-    # Roster-driven (like US/UK): all/0-working/canadian-banks-roster.json.
     CA_TIER_LABELS = {
         "big-six":          "Big Six",
         "schedule-i":       "Schedule I (Domestic)",
@@ -1266,34 +1332,25 @@ def main():
         "provincial-crown": "Provincial / Crown",
         "credit-union":     "Credit Union & Caisse",
         "fintech":          "Fintech & Challenger",
+        # Interac and Moneris sell services; Payments Canada is the statutory
+        # body that operates Lynx and the Real-Time Rail and writes the ISO
+        # 20022 rules the banks clear through. Different thing, different tier.
         "infrastructure":   "Payments & Infrastructure",
+        "market-body":      "Market Bodies & Standards",
     }
-    ca_banks = []
-    ca_roster_path = os.path.join(ALL, "0-working", "canadian-banks-roster.json")
-    with open(ca_roster_path, "r", encoding="utf-8") as fh:
-        ca_roster = json.load(fh)
-    for p in ca_roster["providers"]:
-        meta = meta_of(p["slug"])
-        if meta is None:
-            continue
-        entry = rated_entry(p["slug"], meta)
-        tier = p.get("tier", "")
-        if tier:
-            entry["tier"] = CA_TIER_LABELS.get(tier, titleize(tier))
-        ca_banks.append(entry)
-    ca_banks_grouped = band_grouped(ca_banks)
-    with open(os.path.join(data_dir, "providers-canadian-banks.json"), "w", encoding="utf-8") as fh:
-        json.dump(ca_banks_grouped, fh, ensure_ascii=False, indent=1)
-
-    write_page(
-        os.path.join(SITE, "canadian-banks", "index.html"),
-        listing_page(
-            "Canadian Banking",
-            "Canadian banks, credit unions and caisses, and fintechs ranked by their Kin Score — the Big Six, the digital arms, and the challengers, ahead of Canada's Consumer-Driven Banking framework.",
-            "providers-canadian-banks",
-            rated=True,
-        ),
-    )
+    BANK_SECTIONS = [
+        ("uk-banks", "uk-banks-roster.json", "UK Banking",
+         "UK banks and building societies ranked by their Kin Score, from the CMA9 Open Banking mandate to challengers, building societies, and private banks.",
+         None, {"tier_labels": UK_TIER_LABELS}),
+        ("us-banks", "us-banks-roster.json", "US Banking",
+         "US banks, credit unions, neobanks, and banking-as-a-service providers ranked by their Kin Score — from the money-center banks and the BaaS layer to the aggregators wiring the CFPB 1033 / FDX open-finance era.",
+         None, {"tier_labels": US_TIER_LABELS}),
+        ("canadian-banks", "canadian-banks-roster.json", "Canadian Banking",
+         "Canadian banks, credit unions and caisses, and fintechs ranked by their Kin Score — the Big Six, the digital arms, and the challengers, ahead of Canada's Consumer-Driven Banking framework.",
+         None, {"tier_labels": CA_TIER_LABELS}),
+    ]
+    bank_counts = {}
+    build_roster_sections(BANK_SECTIONS, {}, bank_counts)
 
     # --- Payments (US / UK / AU / CA) -------------------------------------
     # Roster-driven, HQ/origin model: each payment company appears on its home
@@ -1334,31 +1391,6 @@ def main():
          {"slug": "state-of-canadian-payments-apis", "title": "The State of Canadian Payments APIs",
           "blurb": "14 Canadian payment companies scored — the thinnest, most concentrated market, where the API-native fintechs out-API the incumbents and the rails. VoPay's 404-operation rail abstraction is the deepest surface in the country, and the top score is an identity company that overstates its own agent surface.", "price": "500"}),
     ]
-    def build_roster_sections(sections, tier_labels, counts):
-        for slug_page, roster_file, title, summary, paper in sections:
-            roster_path = os.path.join(ALL, "0-working", roster_file)
-            with open(roster_path, "r", encoding="utf-8") as fh:
-                roster = json.load(fh)
-            entries = []
-            for p in roster["providers"]:
-                meta = meta_of(p["slug"])
-                if meta is None:
-                    continue
-                entry = rated_entry(p["slug"], meta)
-                tier = p.get("tier", "")
-                if tier:
-                    entry["tier"] = tier_labels.get(tier, titleize(tier))
-                entries.append(entry)
-            grouped = band_grouped(entries)
-            data_key = "providers-%s" % slug_page
-            with open(os.path.join(data_dir, "%s.json" % data_key), "w", encoding="utf-8") as fh:
-                json.dump(grouped, fh, ensure_ascii=False, indent=1)
-            write_page(
-                os.path.join(SITE, slug_page, "index.html"),
-                listing_page(title, summary, data_key, rated=True, paper=paper),
-            )
-            counts[slug_page] = (len(entries), sum(1 for e in entries if "score" in e))
-
     pay_counts = {}
     build_roster_sections(PAY_SECTIONS, PAY_TIER_LABELS, pay_counts)
 
@@ -1468,8 +1500,20 @@ def main():
     TELECOM_SECTIONS = [
         ("telecom", "telecom-roster.json", "Telecommunications",
          "The global telecom landscape ranked by Kin Score — mobile network operators across every major market, the CPaaS and messaging aggregators that resell their connectivity, the CAMARA / GSMA Open Gateway network-API exposure layer (Aduna, Nokia Network as Code), the standards bodies that write the specs (CAMARA, GSMA, 3GPP, ETSI, MEF, TM Forum), IoT and eSIM connectivity, UCaaS, wholesale interconnect, satellite and non-terrestrial networks, identity and anti-fraud, network vendors and BSS/OSS, and the regulators.",
-         {"slug": "state-of-telecom-apis", "title": "The State of Telecom APIs",
-          "blurb": "83 telecom organizations scored — the only sector with a real, industry-built API standard, and the widest gap in the series between signing it and shipping it. The aggregators that resell carrier connectivity out-publish their own suppliers by 19 points, and the standards bodies out-publish the carriers that wrote the standards.", "price": "500"}),
+         None,
+         # Two papers, and a regulator blurb specific to this sector: telecom's
+         # supervisors are the ones who conspicuously do NOT require the network
+         # capability that CAMARA standardizes to be exposed at all.
+         {"papers": [
+             {"slug": "state-of-telecom-apis", "title": "The State of Telecom APIs",
+              "blurb": "83 telecom organizations scored — the only sector with a real, industry-built API standard, and the widest gap in the series between signing it and shipping it. The aggregators that resell carrier connectivity out-publish their own suppliers by 19 points, and the standards bodies out-publish the carriers that wrote the standards.", "price": "500"},
+             {"slug": "the-camara-standard", "title": "The CAMARA Standard",
+              "kind": "API Evangelist Standard Report",
+              "blurb": "The standard itself, taken apart: 93 repositories in which 57 are Sandbox, 15 Incubating and none Graduated; 1,369 named participants across 487 organizations mapped for the first time; and exactly one operator on earth publishing a contract a developer can download, price and call self-serve.", "price": "500"},
+          ],
+          "tier_blurbs": {
+             "Regulators": "Supervisory bodies. None of them requires an operator to expose network capability as an API.",
+          }}),
     ]
     telecom_counts = {}
     build_roster_sections(TELECOM_SECTIONS, TELECOM_TIER_LABELS, telecom_counts)
@@ -1654,34 +1698,33 @@ def main():
         len(au_banks), sum(1 for b in au_banks if "score" in b)))
     print("market data:      %d (scored: %d)" % (
         len(market_data), sum(1 for e in market_data if "score" in e)))
-    print("uk banks:         %d (scored: %d)" % (
-        len(uk_banks), sum(1 for e in uk_banks if "score" in e)))
-    print("us banks:         %d (scored: %d)" % (
-        len(us_banks), sum(1 for e in us_banks if "score" in e)))
-    for slug_page, _r, _t, _s, _p in PAY_SECTIONS:
-        n, sc = pay_counts.get(slug_page, (0, 0))
-        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
-    for slug_page, _r, _t, _s, _p in HEALTH_SECTIONS:
-        n, sc = health_counts.get(slug_page, (0, 0))
-        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
-    for slug_page, _r, _t, _s, _p in INS_SECTIONS:
-        n, sc = ins_counts.get(slug_page, (0, 0))
-        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
-    for slug_page, _r, _t, _s, _p in TELECOM_SECTIONS:
-        n, sc = telecom_counts.get(slug_page, (0, 0))
-        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
-    for slug_page, _r, _t, _s, _p in RE_SECTIONS:
-        n, sc = re_counts.get(slug_page, (0, 0))
-        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
-    for slug_page, _r, _t, _s, _p in ENERGY_SECTIONS:
-        n, sc = energy_counts.get(slug_page, (0, 0))
-        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
-    for slug_page, _r, _t, _s, _p in TRAVEL_SECTIONS:
-        n, sc = travel_counts.get(slug_page, (0, 0))
-        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
-    for slug_page, _r, _t, _s, _p in HEADLESS_SECTIONS:
-        n, sc = headless_counts.get(slug_page, (0, 0))
-        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
+    for spec in BANK_SECTIONS:
+        n, sc = bank_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
+    for spec in PAY_SECTIONS:
+        n, sc = pay_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
+    for spec in HEALTH_SECTIONS:
+        n, sc = health_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
+    for spec in INS_SECTIONS:
+        n, sc = ins_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
+    for spec in TELECOM_SECTIONS:
+        n, sc = telecom_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
+    for spec in RE_SECTIONS:
+        n, sc = re_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
+    for spec in ENERGY_SECTIONS:
+        n, sc = energy_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
+    for spec in TRAVEL_SECTIONS:
+        n, sc = travel_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
+    for spec in HEADLESS_SECTIONS:
+        n, sc = headless_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
     print("secondary market: %d (scored: %d)" % (
         len(secondary_entries), sum(1 for e in secondary_entries if "score" in e)))
     print("venture capital:  %d (portfolio companies: %d)" % (

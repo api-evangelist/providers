@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 7,
-   "shown": 7,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Notion",
@@ -245,44 +245,6 @@
       "dry_run_mode": false
      },
      "rank": 6
-    },
-    {
-     "name": "Adobe",
-     "slug": "adobe",
-     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
-     "score": 67.4,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "commercial_clarity": 73.7,
-      "contract_quality": 79.6,
-      "developer_ergonomics": 63.0,
-      "discoverability": 64.8,
-      "governance": 68.8,
-      "operational_transparency": 42.1
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 47.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "agent_card": false,
-      "agent_skills": false,
-      "agentic_access": "derived",
-      "asyncapi_events": false,
-      "auth_clarity": true,
-      "consent_identity": false,
-      "dry_run_mode": false,
-      "error_semantics": false,
-      "idempotency": false,
-      "mcp_server": true,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "spec_presence": true,
-      "well_known_catalog": false
-     },
-     "rank": 7
     }
    ],
    "open": true
@@ -331,7 +293,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 7
     }
    ],
    "open": true
@@ -380,7 +342,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Coda",
@@ -418,7 +380,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "Clickup",
@@ -456,7 +418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Monday.com",
@@ -494,7 +456,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Clarivate",
@@ -539,7 +501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Elsevier",
@@ -584,7 +546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 13
     }
    ]
   },
@@ -632,7 +594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 14
     }
    ]
   },
@@ -680,7 +642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Gartner",
@@ -717,6 +679,51 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
+     },
+     "rank": 16
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Adobe",
+     "slug": "adobe",
+     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
+     "facets": {
+      "commercial_clarity": 73.7,
+      "contract_quality": 79.6,
+      "developer_ergonomics": 63.0,
+      "discoverability": 64.8,
+      "governance": 68.8,
+      "operational_transparency": 57.9
+     },
+     "scored_at": "2026-07-29",
+     "schema_version": "0.6",
+     "agent_score": 47.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "agent_card": false,
+      "agent_skills": false,
+      "agentic_access": "derived",
+      "asyncapi_events": false,
+      "auth_clarity": true,
+      "consent_identity": false,
+      "dry_run_mode": false,
+      "error_semantics": false,
+      "idempotency": false,
+      "mcp_server": true,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "spec_presence": true,
+      "well_known_catalog": false
      },
      "rank": 17
     }
