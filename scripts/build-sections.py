@@ -109,6 +109,22 @@ INDUSTRY_ICONS = {
 # unioned and the definition here wins for name/description/icon, which is how
 # thin taxonomy pages (Cybersecurity had 9 companies against 1,500+ security
 # providers in the catalog) get filled out.
+# Industry Reports that have shipped, keyed by industry slug. Rendered as the
+# paper-promo band above the listing on that industry's page (see
+# _includes/paper-promo.html). Emitted by the generator so the promo survives a
+# rebuild instead of being hand-added to a generated page and then wiped.
+INDUSTRY_PAPERS = {
+    "artificial-intelligence": {
+        "slug": "state-of-artificial-intelligence-apis",
+        "title": "The State of Artificial Intelligence APIs",
+        "blurb": "All 4,904 of these companies scored. The industry selling agents has a median "
+                 "agent-readiness of zero, and its score distribution matches the whole catalog "
+                 "within a rounding error.",
+        "price": "500",
+        "kind": "API Evangelist Industry Report",
+    },
+}
+
 TAG_INDUSTRIES = [
     # --- Tier 1 -----------------------------------------------------------
     {
@@ -581,7 +597,10 @@ def read_scores():
     scores = {}
     if not os.path.isdir(PROVIDERS):
         return scores
-    sc_re = re.compile(r"^score:\n\s{2}composite:\s*([\d.]+)\n\s{2}band:\s*(\S+)", re.MULTILINE)
+    # Parse the whole `score:` block rather than matching a fixed key order.
+    # score.rb has emitted both `composite`-first and alphabetical (`band`-first)
+    # blocks; the old two-line regex silently dropped the alphabetical ones,
+    # which sent an otherwise-scored provider to "Not Yet Rated" on every listing.
     for fname in os.listdir(PROVIDERS):
         if not fname.endswith(".md"):
             continue
@@ -590,9 +609,13 @@ def read_scores():
                 content = fh.read()
         except OSError:
             continue
-        m = sc_re.search(content)
-        if m:
-            scores[fname[:-3]] = {"composite": float(m.group(1)), "band": m.group(2)}
+        block = _fm_block(content, "score")
+        if not isinstance(block, dict):
+            continue
+        composite, band = block.get("composite"), block.get("band")
+        if composite is None or not band:
+            continue
+        scores[fname[:-3]] = {"composite": float(composite), "band": str(band)}
     return scores
 
 
@@ -828,6 +851,8 @@ def listing_page(title, summary, data_key, rated=False, paper=None,
                 '  blurb: "%s"' % paper["blurb"].replace('"', "'"),
                 '  price: "%s"' % paper.get("price", "500"),
             ]
+            if paper.get("kind"):
+                lines.append('  kind: "%s"' % paper["kind"])
         body.append("{% include paper-promo.html %}")
     lines.append("---")
     body.append("{%% include %s %%}" % include)
@@ -1144,6 +1169,7 @@ def main():
                 esc("%s providers in the %s industry, ranked by their Kin Score." % (len(entries), rec["name"])),
                 "providers-industry-%s" % ind_slug,
                 rated=True,
+                paper=INDUSTRY_PAPERS.get(ind_slug),
             ),
         )
     industry_cards.sort(key=lambda c: c["name"].lower())
@@ -1687,6 +1713,70 @@ def main():
     headless_counts = {}
     build_roster_sections(HEADLESS_SECTIONS, HEADLESS_TIER_LABELS, headless_counts)
 
+    # --- Logistics & Supply Chain (four cohorts, split by MODE) -----------
+    # The first sector in the series NOT split by country. A container, a
+    # parcel and an air waybill cross borders by definition, so an HQ model
+    # would file Maersk under Denmark and tell you nothing; each organization
+    # is filed by the mode it operates in instead.
+    #
+    # Logistics is also the sector that tests INTEROPERABILITY rather than
+    # mandate: no one party owns the transaction, so a shipment only moves if
+    # the next party can read what the last one published. That makes the
+    # standards bodies the variable to watch, and the four modes disagree
+    # about them completely — DCSA publishes conformant OpenAPI for ocean,
+    # IATA authors ONE Record for air cargo (and scored 21.5 on its own
+    # surface in the travel study), GS1 and the WCO sit horizontally across
+    # freight and customs, and road has no dominant body at all.
+    #
+    # Rosters live in all/0-working/<cohort>-roster.json.
+    LOGISTICS_TIER_LABELS = {
+        # air cargo & parcel
+        "air-cargo-carrier":         "Air Cargo Carriers",
+        "air-cargo-marketplace":     "Air Cargo Marketplaces",
+        "parcel-integrator":         "Parcel Integrators",
+        "postal-operator":           "Postal Operators",
+        "shipping-api-aggregator":   "Shipping API Aggregators",
+        "tracking-aggregator":       "Tracking Aggregators",
+        # freight platforms
+        "freight-forwarder":         "Freight Forwarders",
+        "visibility-platform":       "Visibility Platforms",
+        "supply-chain-software":     "Supply Chain Software",
+        "customs-trade-tech":        "Customs & Trade Tech",
+        "edi-integration":           "EDI & Integration",
+        "fulfilment-warehousing":    "Fulfilment & Warehousing",
+        # road & fleet
+        "telematics-fleet":          "Telematics & Fleet",
+        "digital-freight-marketplace": "Digital Freight Marketplaces",
+        "load-board":                "Load Boards",
+        "last-mile-delivery":        "Last-Mile Delivery",
+        "road-tms":                  "Transportation Management",
+        "road-carrier-3pl":          "Road Carriers & 3PLs",
+        # ocean & ports
+        "ocean-carrier":             "Ocean Carriers",
+        "port-terminal-operator":    "Ports & Terminal Operators",
+        "port-community-system":     "Port Community Systems",
+        "ocean-visibility":          "Ocean Visibility",
+        # shared
+        "industry-body-standards":   "Industry Bodies & Standards",
+        "regulator":                 "Regulators",
+    }
+    LOGISTICS_SECTIONS = [
+        ("air-cargo-parcel", "air-cargo-parcel-roster.json", "Air Cargo & Parcel Logistics",
+         "Air cargo and parcel organizations ranked by their Kin Score — the freighter carriers, the air cargo marketplaces selling capacity as an API, the parcel integrators whose developer portals are among the most mature in logistics, the national postal operators, and the shipping-API aggregators that resell all of them behind one contract. This is the mode IATA's ONE Record was written for, and the tier that actually publishes is the aggregator layer that exists because the carriers do not.",
+         None),
+        ("freight-platforms", "freight-platforms-roster.json", "Freight Platforms, Forwarders & Customs",
+         "Freight platforms, forwarders and customs technology ranked by their Kin Score — the global forwarders that sit between shippers and carriers exactly as a GDS sits between agencies and airlines, the visibility platforms that exist because neither end publishes reachable data, supply chain software, the customs and trade-compliance vendors selling duty and classification as an API, EDI integration, fulfilment and warehousing, and the two horizontal standards bodies whose identifiers and data models the whole sector borrows: GS1 and the World Customs Organization.",
+         None),
+        ("road-fleet", "road-fleet-roster.json", "Road, Fleet & Telematics Logistics",
+         "Road, fleet and telematics organizations ranked by their Kin Score — the telematics vendors that sell an API as the product because vehicle data has no other route to the customer, the digital freight marketplaces built API-first to disintermediate the broker, the load boards, last-mile delivery, transportation management systems and the road carriers and 3PLs. The one mode in logistics with no dominant standards body, which makes it the control group for whether a standards body helps or hinders what gets published.",
+         None),
+        ("ocean-ports", "ocean-ports-roster.json", "Ocean & Ports Logistics",
+         "Ocean shipping and port organizations ranked by their Kin Score — the container lines, the terminal operators, the port community systems built specifically to be the neutral integration point between hundreds of parties in one port, the ocean visibility platforms, the IMO, and DCSA: the association the largest carriers founded to publish common OpenAPI standards for booking, track-and-trace and the electronic bill of lading. The direct structural counterpart to IATA and NDC in aviation — same governance shape, very different publication posture.",
+         None),
+    ]
+    logistics_counts = {}
+    build_roster_sections(LOGISTICS_SECTIONS, LOGISTICS_TIER_LABELS, logistics_counts)
+
     secondary_entries = build_secondary_market(data_dir, meta_of, scores)
     vc_entries = build_vcs(data_dir, delisted)
 
@@ -1724,6 +1814,9 @@ def main():
         print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
     for spec in HEADLESS_SECTIONS:
         n, sc = headless_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
+    for spec in LOGISTICS_SECTIONS:
+        n, sc = logistics_counts.get(spec[0], (0, 0))
         print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
     print("secondary market: %d (scored: %d)" % (
         len(secondary_entries), sum(1 for e in secondary_entries if "score" in e)))
