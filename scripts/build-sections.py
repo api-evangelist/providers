@@ -121,7 +121,7 @@ INDUSTRY_PAPERS = {
                  "agent-readiness of zero, and its score distribution matches the whole catalog "
                  "within a rounding error.",
         "price": "500",
-        "kind": "API Evangelist Industry Report",
+        "kind": "API Evangelist Market Report",
     },
     "developer-tools": {
         "slug": "state-of-developer-tools-apis",
@@ -129,7 +129,7 @@ INDUSTRY_PAPERS = {
         "blurb": "The best-scoring industry in the catalog, first of twenty-five \u2014 and it publishes "
                  "idempotency at the same 2.8% rate as the worst. The gap was never competence.",
         "price": "500",
-        "kind": "API Evangelist Industry Report",
+        "kind": "API Evangelist Market Report",
     },
 }
 
