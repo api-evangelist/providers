@@ -1,0 +1,35 @@
+{%- comment -%}
+  The Personalized Checklist offer, rendered directly under a provider's Kin Score.
+
+  This is the one API Evangelist product that is deliberately NOT sold from
+  papers.apievangelist.com/products/ — it names a real company, so it is offered
+  where the question it answers actually gets asked: next to the free score.
+  Spec: api-evangelist/papers/PAPER-TYPES.md, "Providers".
+
+  Caller must gate on page.score.composite — an offer to itemize a score that
+  doesn't exist reads as a cold sales pitch rather than a next step.
+{%- endcomment -%}
+<aside class="prov-checklist">
+  <div class="prov-checklist-body">
+    <div class="prov-checklist-eyebrow">
+      <span class="material-symbols-outlined">checklist</span>
+      Work at {{ page.name }}?
+    </div>
+    <p class="prov-checklist-title">This score, itemized into a work plan.</p>
+    <p class="prov-checklist-text">
+      Everything above is free and stays free. A Personalized Checklist is what it's worth once
+      it's itemized: every rubric check {{ page.name }} is currently failing, each one traced to a
+      numbered check in the <a href="https://apievangelist.com/rating/">public rubric</a>, what
+      closing it is worth on the score, and what to do first. Written privately for your team, and
+      never published.
+    </p>
+  </div>
+  <div class="prov-checklist-buy">
+    <div class="prov-checklist-price">$1,500</div>
+    <p class="prov-checklist-note">One-time &middot; PDF, Word and deck</p>
+    <a class="pm-link primary" href="https://papers.apievangelist.com/products/providers/">
+      How it works
+      <span class="material-symbols-outlined">arrow_forward</span>
+    </a>
+  </div>
+</aside>

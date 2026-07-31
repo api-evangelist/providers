@@ -182,7 +182,23 @@ nav: Providers
   .prov-paper-cta { font-size: 0.8rem; font-weight: 600; color: var(--ae-green, #3d8b37); }
   .prov-paper-price { color: #1a1a2e; font-variant-numeric: tabular-nums; }
   .prov-paper-all { display: block; margin-top: 0.75rem; padding-top: 0.65rem; border-top: 1px solid #eef1f5; font-size: 0.78rem; color: #0d6efd; text-decoration: none; font-weight: 600; }
-  @media (max-width: 991px) { .prov-side { position: static; } }
+
+  /* Personalized Checklist offer — sits directly under the Kin Score panel,
+     because that is the only place the question it answers gets asked. This is
+     the one product NOT sold from papers.apievangelist.com/products/. */
+  .prov-checklist { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; justify-content: space-between;
+    border: 1px solid #e3e7ee; border-left: 4px solid var(--ae-green, #3d8b37); border-radius: 12px;
+    padding: 1.05rem 1.2rem; background: #fbfcfe; margin: -1.25rem 0 2.25rem; }
+  .prov-checklist-body { min-width: 15rem; flex: 1 1 21rem; }
+  .prov-checklist-eyebrow { display: flex; align-items: center; gap: 0.35rem; font-size: 0.64rem; text-transform: uppercase;
+    letter-spacing: 0.06em; font-weight: 700; color: var(--ae-green, #3d8b37); margin-bottom: 0.35rem; }
+  .prov-checklist-eyebrow .material-symbols-outlined { font-size: 15px; }
+  .prov-checklist-title { font-size: 0.98rem; font-weight: 700; color: #1a1a2e; margin: 0 0 0.35rem; line-height: 1.3; }
+  .prov-checklist-text { font-size: 0.82rem; color: #5a6472; line-height: 1.55; margin: 0; }
+  .prov-checklist-buy { text-align: right; flex: 0 0 auto; }
+  .prov-checklist-price { font-size: 1.25rem; font-weight: 700; color: #1a1a2e; font-variant-numeric: tabular-nums; line-height: 1; }
+  .prov-checklist-note { font-size: 0.7rem; color: #8a94a6; margin: 0.2rem 0 0.6rem; }
+  @media (max-width: 991px) { .prov-side { position: static; } .prov-checklist-buy { text-align: left; } }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
 
@@ -362,6 +378,15 @@ nav: Providers
         </div>
       </div>
       {%- endif %}
+      {%- endif %}
+
+      {%- comment -%}
+        ---- Personalized Checklist offer ----
+        Only where there is a score to itemize. Gated on the same condition as
+        the panel above so it can never appear on a page with no rating.
+      {%- endcomment -%}
+      {%- if page.score and page.score.composite %}
+        {% include provider-checklist-offer.html %}
       {%- endif %}
 
       {%- comment -%} ---- The specifications & artifacts, each with its own read ---- {%- endcomment -%}
