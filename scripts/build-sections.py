@@ -123,6 +123,14 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Industry Report",
     },
+    "developer-tools": {
+        "slug": "state-of-developer-tools-apis",
+        "title": "The State of Developer Tools APIs",
+        "blurb": "The best-scoring industry in the catalog, first of twenty-five \u2014 and it publishes "
+                 "idempotency at the same 2.8% rate as the worst. The gap was never competence.",
+        "price": "500",
+        "kind": "API Evangelist Industry Report",
+    },
 }
 
 TAG_INDUSTRIES = [
