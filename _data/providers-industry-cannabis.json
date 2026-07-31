@@ -27,8 +27,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -72,8 +72,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -110,8 +110,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

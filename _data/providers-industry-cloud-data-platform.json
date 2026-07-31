@@ -27,8 +27,8 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -36,7 +36,7 @@
       "score": 78.3,
       "matched_via": "tags"
      },
-     "agent_score": 49.8,
+     "agent_score": 45.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -72,8 +72,8 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -128,8 +128,8 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 55.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -177,8 +177,8 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -186,7 +186,7 @@
       "score": 58.3,
       "matched_via": "tags"
      },
-     "agent_score": 43.9,
+     "agent_score": 39.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -197,7 +197,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -222,8 +222,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -267,8 +267,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -322,8 +322,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {

@@ -1,6 +1,6 @@
 {
- "total": 17,
- "shown": 17,
+ "total": 18,
+ "shown": 18,
  "limit": 1000,
  "bands": [
   {
@@ -27,8 +27,8 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 52.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -75,8 +75,8 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -84,7 +84,7 @@
       "score": 81.9,
       "matched_via": "tags"
      },
-     "agent_score": 56.5,
+     "agent_score": 52.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -95,7 +95,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -131,9 +131,9 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 40.3,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -144,7 +144,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -169,8 +169,8 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -178,7 +178,7 @@
       "score": 55.7,
       "matched_via": "tags"
      },
-     "agent_score": 54.3,
+     "agent_score": 50.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -189,7 +189,7 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -214,8 +214,8 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -252,8 +252,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -307,8 +307,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -345,8 +345,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -390,8 +390,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -428,8 +428,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -466,8 +466,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -521,8 +521,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -559,8 +559,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -604,8 +604,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -652,8 +652,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -696,8 +696,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -733,8 +733,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -761,6 +761,22 @@
       "dry_run_mode": false
      },
      "rank": 17
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Kuehne+Nagel",
+     "slug": "kuehne-nagel",
+     "description": "Kuehne+Nagel International AG is a Swiss freight forwarder and contract logistics provider headquartered in Schindellegi, Switzerland, and one of the largest forwarders in the world across sea logistics, air logistics, road logistics and contract logistics. As a forwarder it sits in the intermediation layer of the supply chain — between shippers on one side and ocean carriers, airlines, hauliers, terminals and customs authorities on the other — and most of the data it exposes is carrier and terminal data it aggregates rather than originates. Its API posture is honest but conditional: a real WSO2-based developer portal at portal.api.kuehne-nagel.com lists 17 published APIs and serves every OpenAPI definition anonymously, but every subscription is customer-contract gated — a myKN account, a Kuehne+Nagel customer ID (CID) and an account manager who completes the \"customer setup\" are stated pre-requisites, so nobody outside a commercial relationship can call the gateway. Underneath the REST veneer the company's own connectivity page still advertises EDIFACT, ANSI X.12, Tradacoms, RosettaNet, iDOC, GS1 and CargoImp over AS2, OFTP-2, (S)FTP and VAN as the primary integration path, and its one customs \"EDI\" API is an unschematized pass-through. One surface — OceanEventInbox v1 — is explicitly built to the DCSA equipment-event standard, which makes Kuehne+Nagel a non-member implementer of a carrier standards body; the other sixteen APIs are proprietary Kuehne+Nagel contracts.",
+     "rank": 18
     }
    ]
   }

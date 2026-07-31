@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 15,
-   "shown": 15,
+   "count": 16,
+   "shown": 16,
    "providers": [
     {
      "name": "Salesforce",
@@ -27,9 +27,9 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 64.0,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 59.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -40,7 +40,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": false,
@@ -65,9 +65,9 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 60.4,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -78,7 +78,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -103,9 +103,9 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 63.7,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 59.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -116,7 +116,7 @@
       "error_semantics": "verified",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": true,
       "well_known_catalog": true,
       "consent_identity": false,
@@ -141,9 +141,9 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 60.8,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 56.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -154,7 +154,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": false,
@@ -179,9 +179,9 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 60.4,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -192,7 +192,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -217,8 +217,8 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 55.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -254,9 +254,9 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 46.8,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 42.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -267,7 +267,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -292,8 +292,8 @@
       "developer_ergonomics": 93.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -337,8 +337,8 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 52.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -375,9 +375,9 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 60.4,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -388,7 +388,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -413,9 +413,9 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 55.0,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 50.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -426,7 +426,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -451,8 +451,8 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -460,7 +460,7 @@
       "score": 73.6,
       "matched_via": "tags"
      },
-     "agent_score": 53.2,
+     "agent_score": 49.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -471,7 +471,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -496,8 +496,8 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 46.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -519,6 +519,44 @@
      "rank": 13
     },
     {
+     "name": "Adobe",
+     "slug": "adobe",
+     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
+     "score": 69.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 79.6,
+      "governance": 68.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 73.7
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 47.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 14
+    },
+    {
      "name": "Atlassian",
      "slug": "atlassian",
      "description": "Atlassian is a software company that develops collaboration, productivity, and project management tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline workflows, and support project tracking across a wide range of industries.",
@@ -534,8 +572,8 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -554,7 +592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Docusign",
@@ -572,9 +610,9 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 55.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 51.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -585,14 +623,14 @@
       "error_semantics": "verified",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     }
    ],
    "open": true
@@ -621,8 +659,8 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 55.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -641,7 +679,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Apple",
@@ -659,8 +697,8 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -679,7 +717,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Intuit",
@@ -697,8 +735,8 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -706,7 +744,7 @@
       "score": 54.7,
       "matched_via": "tags"
      },
-     "agent_score": 53.2,
+     "agent_score": 49.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -717,14 +755,14 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Cisco",
@@ -742,8 +780,8 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 54.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -762,7 +800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Zoom",
@@ -780,9 +818,9 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 45.9,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -793,14 +831,14 @@
       "error_semantics": "documented",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "WSO2",
@@ -818,8 +856,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -838,7 +876,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Pandium",
@@ -856,8 +894,8 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -876,7 +914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "SAP",
@@ -894,9 +932,9 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 57.7,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 53.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -907,14 +945,14 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Microsoft",
@@ -932,8 +970,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -952,7 +990,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Amazon",
@@ -970,8 +1008,8 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -997,7 +1035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Gravitee",
@@ -1015,9 +1053,9 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 43.2,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 50.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1025,7 +1063,7 @@
       "mcp_server": true,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "asyncapi_events": false,
@@ -1035,7 +1073,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     }
    ],
    "open": true
@@ -1064,8 +1102,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1091,7 +1129,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "SPIRE",
@@ -1109,9 +1147,9 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 27.0,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1122,14 +1160,14 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Upbound",
@@ -1147,8 +1185,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 41.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1167,7 +1205,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Cisco Systems",
@@ -1185,8 +1223,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1205,7 +1243,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "NetApp",
@@ -1223,8 +1261,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 41.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1243,7 +1281,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Rackspace Technology",
@@ -1261,8 +1299,8 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1281,7 +1319,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "ADP",
@@ -1299,8 +1337,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1319,7 +1357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Dropbox",
@@ -1337,8 +1375,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 47.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1357,7 +1395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Zoho",
@@ -1375,8 +1413,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 49.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1395,7 +1433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Synopsys",
@@ -1413,46 +1451,8 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 36
-    },
-    {
-     "name": "TD SYNNEX",
-     "slug": "td-synnex",
-     "description": "TD SYNNEX is one of the world's largest IT distributors and solutions aggregators, serving over 150,000 resellers, retailers, and other customers in more than 100 countries. The company provides technology distribution, integration, and solutions services. TD SYNNEX offers the StreamOne Ion platform with REST APIs that enable partners to manage cloud subscriptions, customers, orders, and billing through a unified interface supporting multiple cloud vendors. Named NVIDIA EMEA Distributor of the Year 2026.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/screenshots/td-synnex-2026-06-20T194950.png",
-     "score": 46.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 66.9,
-      "governance": 68.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1474,23 +1474,23 @@
      "rank": 37
     },
     {
-     "name": "Dell Technologies",
-     "slug": "dell-technologies",
-     "description": "Dell Technologies is a global Fortune 500 technology company that designs, develops, manufactures, and supports a wide range of computing products, including PCs, servers, storage, networking equipment, and software services. Dell publishes a developer platform exposing APIs and SDKs for managing PowerEdge servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling automation of IT operations and integration into enterprise tooling.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/screenshots/dell-technologies-2026-06-20T175900.png",
-     "score": 46.1,
+     "name": "TD SYNNEX",
+     "slug": "td-synnex",
+     "description": "TD SYNNEX is one of the world's largest IT distributors and solutions aggregators, serving over 150,000 resellers, retailers, and other customers in more than 100 countries. The company provides technology distribution, integration, and solutions services. TD SYNNEX offers the StreamOne Ion platform with REST APIs that enable partners to manage cloud subscriptions, customers, orders, and billing through a unified interface supporting multiple cloud vendors. Named NVIDIA EMEA Distributor of the Year 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/screenshots/td-synnex-2026-06-20T194950.png",
+     "score": 46.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 71.2,
-      "governance": 58.3,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 26.1,
+      "discoverability": 74.1,
+      "contract_quality": 66.9,
+      "governance": 68.8,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1512,23 +1512,23 @@
      "rank": 38
     },
     {
-     "name": "Broadcom",
-     "slug": "broadcom",
-     "description": "Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets, routers, and smart TVs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png",
-     "score": 44.8,
+     "name": "Dell Technologies",
+     "slug": "dell-technologies",
+     "description": "Dell Technologies is a global Fortune 500 technology company that designs, develops, manufactures, and supports a wide range of computing products, including PCs, servers, storage, networking equipment, and software services. Dell publishes a developer platform exposing APIs and SDKs for managing PowerEdge servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling automation of IT operations and integration into enterprise tooling.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/screenshots/dell-technologies-2026-06-20T175900.png",
+     "score": 46.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 74.2,
+      "discoverability": 68.5,
+      "contract_quality": 71.2,
       "governance": 58.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1550,23 +1550,23 @@
      "rank": 39
     },
     {
-     "name": "Toast",
-     "slug": "toast",
-     "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale, payment processing, and business management tools for the restaurant industry. The Toast platform exposes REST APIs enabling technology partners to build integrations for orders, menus, labor management, restaurant configuration, inventory/stock management, authentication, and partner ecosystem access. APIs use OAuth 2.0 client credentials authentication with GUIDs for resource identification. Toast serves 120,000+ restaurant locations and offers both partner integrations (requiring formal partnership) and custom integrations via the developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png",
-     "score": 44.1,
+     "name": "Broadcom",
+     "slug": "broadcom",
+     "description": "Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets, routers, and smart TVs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png",
+     "score": 44.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.6,
-      "contract_quality": 61.7,
-      "governance": 68.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
+      "discoverability": 64.8,
+      "contract_quality": 74.2,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1586,6 +1586,44 @@
       "dry_run_mode": false
      },
      "rank": 40
+    },
+    {
+     "name": "Toast",
+     "slug": "toast",
+     "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale, payment processing, and business management tools for the restaurant industry. The Toast platform exposes REST APIs enabling technology partners to build integrations for orders, menus, labor management, restaurant configuration, inventory/stock management, authentication, and partner ecosystem access. APIs use OAuth 2.0 client credentials authentication with GUIDs for resource identification. Toast serves 120,000+ restaurant locations and offers both partner integrations (requiring formal partnership) and custom integrations via the developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png",
+     "score": 44.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 55.6,
+      "contract_quality": 61.7,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 41
     }
    ]
   },
@@ -1613,8 +1651,8 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 32.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1633,7 +1671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Snyk",
@@ -1651,8 +1689,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1671,7 +1709,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "NCR",
@@ -1689,8 +1727,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1716,7 +1754,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "F5",
@@ -1734,46 +1772,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 44
-    },
-    {
-     "name": "Xerox",
-     "slug": "xerox",
-     "description": "Xerox is a global technology company and document management leader providing printing, digital document management, and business process solutions. Xerox offers the Xerox Developer Program providing open, standards-based APIs for integration with ConnectKey multifunction printers, FreeFlow production printing, Managed Print Services (MPS), and the Xerox Public Print Service. The program provides SDKs, APIs, and tools for building custom printing applications, workflow integrations, and enterprise print management solutions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/screenshots/xerox-2026-06-20T201703.png",
-     "score": 38.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 60.7,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1795,61 +1795,23 @@
      "rank": 45
     },
     {
-     "name": "Encore",
-     "slug": "encore",
-     "description": "Encore is an open source development platform for building type-safe, production-ready backend applications and distributed systems. It supports Go and TypeScript, provides built-in infrastructure automation for databases, caches, pub/sub, and cron jobs, and includes a local development dashboard with automatic API documentation, distributed tracing, and OpenAPI client generation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/encore/refs/heads/main/screenshots/encore-2026-06-20T180722.png",
-     "score": 36.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 9.7,
-      "governance": 58.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 14.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 46
-    },
-    {
-     "name": "Akamai Technologies",
-     "slug": "akamai-technologies",
-     "description": "Akamai Technologies is a major US corporation and Fortune 1000 company. The Akamai Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/screenshots/akamai-technologies-2026-06-20T171446.png",
-     "score": 34.7,
+     "name": "Xerox",
+     "slug": "xerox",
+     "description": "Xerox is a global technology company and document management leader providing printing, digital document management, and business process solutions. Xerox offers the Xerox Developer Program providing open, standards-based APIs for integration with ConnectKey multifunction printers, FreeFlow production printing, Managed Print Services (MPS), and the Xerox Public Print Service. The program provides SDKs, APIs, and tools for building custom printing applications, workflow integrations, and enterprise print management solutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/screenshots/xerox-2026-06-20T201703.png",
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 53.4,
+      "contract_quality": 60.7,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1868,26 +1830,64 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 46
     },
     {
-     "name": "DXC Technology",
-     "slug": "dxc-technology",
-     "description": "DXC Technology is a global IT services company that helps clients harness the power of innovation to thrive on change, providing application services, business process services, cloud, and security solutions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/screenshots/dxc-technology-2026-06-20T180335.png",
-     "score": 34.5,
+     "name": "Encore",
+     "slug": "encore",
+     "description": "Encore is an open source development platform for building type-safe, production-ready backend applications and distributed systems. It supports Go and TypeScript, provides built-in infrastructure automation for databases, caches, pub/sub, and cron jobs, and includes a local development dashboard with automatic API documentation, distributed tracing, and OpenAPI client generation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/encore/refs/heads/main/screenshots/encore-2026-06-20T180722.png",
+     "score": 36.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 61.9,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "contract_quality": 9.7,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 14.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 47
+    },
+    {
+     "name": "Akamai Technologies",
+     "slug": "akamai-technologies",
+     "description": "Akamai Technologies is a major US corporation and Fortune 1000 company. The Akamai Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/screenshots/akamai-technologies-2026-06-20T171446.png",
+     "score": 34.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 53.4,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1909,61 +1909,23 @@
      "rank": 48
     },
     {
-     "name": "Equinix",
-     "slug": "equinix",
-     "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to enterprises, cloud and IT service providers, and telecommunications networks worldwide. Equinix exposes a broad set of public APIs covering interconnection (Fabric), bare metal compute (Metal), Internet access, colocation operations, orders, smart hands, and authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png",
-     "score": 34.2,
+     "name": "DXC Technology",
+     "slug": "dxc-technology",
+     "description": "DXC Technology is a global IT services company that helps clients harness the power of innovation to thrive on change, providing application services, business process services, cloud, and security solutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/screenshots/dxc-technology-2026-06-20T180335.png",
+     "score": 34.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.3,
+      "discoverability": 59.3,
+      "contract_quality": 61.9,
       "governance": 0.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 21.7,
+      "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 44.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true
-     },
-     "rank": 49
-    },
-    {
-     "name": "Radius",
-     "slug": "radius",
-     "description": "Application platform for cloud-native applications that enables developers to define, deploy, and manage applications across multiple clouds and on-premises environments using a unified model.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/screenshots/radius-2026-06-20T192521.png",
-     "score": 31.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 55.6,
-      "contract_quality": 32.3,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1982,7 +1944,83 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 49
+    },
+    {
+     "name": "Equinix",
+     "slug": "equinix",
+     "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to enterprises, cloud and IT service providers, and telecommunications networks worldwide. Equinix exposes a broad set of public APIs covering interconnection (Fabric), bare metal compute (Metal), Internet access, colocation operations, orders, smart hands, and authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png",
+     "score": 34.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 55.3,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 44.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true
+     },
      "rank": 50
+    },
+    {
+     "name": "Radius",
+     "slug": "radius",
+     "description": "Application platform for cloud-native applications that enables developers to define, deploy, and manage applications across multiple clouds and on-premises environments using a unified model.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/screenshots/radius-2026-06-20T192521.png",
+     "score": 31.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 55.6,
+      "contract_quality": 32.3,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 51
     }
    ]
   },
@@ -2009,46 +2047,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 51
-    },
-    {
-     "name": "Cadence Design Systems",
-     "slug": "cadence",
-     "description": "Cadence Design Systems is a multinational electronic design automation (EDA) software and hardware company. Cadence provides tools for designing integrated circuits, systems on chips, printed circuit boards, and pharmaceutical drugs, with a portfolio that includes Virtuoso, Spectre, Genus, Innovus, JasperGold, Xcelium, Palladium, Allegro, OrCAD, and AI tools such as Cerebrus and ChipGPT.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/screenshots/cadence-2026-06-20T173836.png",
-     "score": 23.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2070,23 +2070,23 @@
      "rank": 52
     },
     {
-     "name": "CDW",
-     "slug": "cdw",
-     "description": "CDW is a leading multi-brand provider of information technology solutions to business, government, education, and healthcare customers. CDW offers eProcurement integration capabilities including a Catalog API, PunchOut (cXML/OCI), electronic purchase ordering, and electronic invoicing to enable procurement system integration with partners such as SAP Ariba, Coupa, Oracle, and Jaggaer.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cdw/refs/heads/main/screenshots/cdw-2026-06-20T174108.png",
-     "score": 19.8,
+     "name": "Cadence Design Systems",
+     "slug": "cadence",
+     "description": "Cadence Design Systems is a multinational electronic design automation (EDA) software and hardware company. Cadence provides tools for designing integrated circuits, systems on chips, printed circuit boards, and pharmaceutical drugs, with a portfolio that includes Virtuoso, Spectre, Genus, Innovus, JasperGold, Xcelium, Palladium, Allegro, OrCAD, and AI tools such as Cerebrus and ChipGPT.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/screenshots/cadence-2026-06-20T173836.png",
+     "score": 23.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 36.8
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2108,6 +2108,44 @@
      "rank": 53
     },
     {
+     "name": "CDW",
+     "slug": "cdw",
+     "description": "CDW is a leading multi-brand provider of information technology solutions to business, government, education, and healthcare customers. CDW offers eProcurement integration capabilities including a Catalog API, PunchOut (cXML/OCI), electronic purchase ordering, and electronic invoicing to enable procurement system integration with partners such as SAP Ariba, Coupa, Oracle, and Jaggaer.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cdw/refs/heads/main/screenshots/cdw-2026-06-20T174108.png",
+     "score": 19.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 54
+    },
+    {
      "name": "JMS",
      "slug": "jms",
      "description": "Java Message Service (JMS), now known as Jakarta Messaging, is a Java API that allows applications to create, send, receive, and read messages. It defines a common enterprise messaging API for loosely coupled, reliable, and asynchronous communication between distributed application components. Current release is Jakarta Messaging 3.1 (Jakarta EE 10).",
@@ -2123,8 +2161,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2150,7 +2188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "CACI International",
@@ -2168,8 +2206,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2188,7 +2226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
     }
    ]
   },
@@ -2216,46 +2254,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 56
-    },
-    {
-     "name": "Cognizant Technology Solutions",
-     "slug": "cognizant-technology",
-     "description": "Cognizant Technology Solutions is a multinational information technology services and consulting company that provides digital, technology, consulting, and operations services to clients worldwide. Cognizant does not publish a general-purpose public REST API. Its developer-facing footprint is centered on the Cognizant Neuro AI platform family (Neuro AI Decisioning, Neuro AI Enterprise Core, Neuro AI Engineering, Neuro AI for IT Operations) and the open-source Neuro SAN multi-agent orchestration framework released by Cognizant AI Lab. Other delivered platforms (BigFrame for mainframe data migration, ADM accelerators, industry vertical solutions) are typically engaged via consulting engagements rather than self-service APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/screenshots/cognizant-technology-2026-06-20T174719.png",
-     "score": 10.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2277,23 +2277,23 @@
      "rank": 57
     },
     {
-     "name": "Science Applications International Corporation (SAIC)",
-     "slug": "science-applications-international",
-     "description": "Science Applications International Corporation (SAIC) is a leading American technology integrator providing full life cycle services and solutions in the technical, engineering, and enterprise information technology markets. Headquartered in Reston, Virginia, SAIC serves the U.S. federal government with approximately $7.4 billion in annual revenues. The company delivers IT modernization, cloud computing, digital transformation, cybersecurity, AI/ML, and data analytics solutions primarily for defense, intelligence, and civilian government customers. SAIC's open source presence is at github.com/saic-oss with DevSecOps tools including Anvil (CI/CD container) and terraform modules for Kubernetes sandboxes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/science-applications-international/refs/heads/main/screenshots/science-applications-international-2026-06-20T193532.png",
-     "score": 10.2,
+     "name": "Cognizant Technology Solutions",
+     "slug": "cognizant-technology",
+     "description": "Cognizant Technology Solutions is a multinational information technology services and consulting company that provides digital, technology, consulting, and operations services to clients worldwide. Cognizant does not publish a general-purpose public REST API. Its developer-facing footprint is centered on the Cognizant Neuro AI platform family (Neuro AI Decisioning, Neuro AI Enterprise Core, Neuro AI Engineering, Neuro AI for IT Operations) and the open-source Neuro SAN multi-agent orchestration framework released by Cognizant AI Lab. Other delivered platforms (BigFrame for mainframe data migration, ADM accelerators, industry vertical solutions) are typically engaged via consulting engagements rather than self-service APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/screenshots/cognizant-technology-2026-06-20T174719.png",
+     "score": 10.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 12.9,
-      "governance": 10.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2315,6 +2315,44 @@
      "rank": 58
     },
     {
+     "name": "Science Applications International Corporation (SAIC)",
+     "slug": "science-applications-international",
+     "description": "Science Applications International Corporation (SAIC) is a leading American technology integrator providing full life cycle services and solutions in the technical, engineering, and enterprise information technology markets. Headquartered in Reston, Virginia, SAIC serves the U.S. federal government with approximately $7.4 billion in annual revenues. The company delivers IT modernization, cloud computing, digital transformation, cybersecurity, AI/ML, and data analytics solutions primarily for defense, intelligence, and civilian government customers. SAIC's open source presence is at github.com/saic-oss with DevSecOps tools including Anvil (CI/CD container) and terraform modules for Kubernetes sandboxes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/science-applications-international/refs/heads/main/screenshots/science-applications-international-2026-06-20T193532.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 12.9,
+      "governance": 10.4,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 59
+    },
+    {
      "name": "Diebold Nixdorf",
      "slug": "diebold",
      "description": "Diebold Nixdorf is a global leader in driving connected commerce for the financial and retail industries, providing self-service kiosks, ATMs, point-of-sale systems, Vynamic software, and related services. While Diebold Nixdorf operates several customer support and software portals (Aftersales Portal, eServices Portal, Manuals Drivers and Downloads), it does not currently publish a public open developer portal or open APIs. This repository is maintained as a placeholder for any APIs, developer tools, or machine-readable artifacts that may emerge.",
@@ -2330,8 +2368,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2357,7 +2395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Leidos",
@@ -2375,46 +2413,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 60
-    },
-    {
-     "name": "Alphabet",
-     "slug": "alphabet",
-     "description": "The parent company of Google and one of the world's most valuable corporations. Operates the dominant search engine, Android mobile OS, YouTube, Google Cloud, and Waymo autonomous vehicles alongside numerous technology ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alphabet/refs/heads/main/screenshots/alphabet-2026-07-25T195755.png",
-     "score": 4.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2436,11 +2436,11 @@
      "rank": 61
     },
     {
-     "name": "Alight",
-     "slug": "alight",
-     "description": "Alight is a leading cloud-based human capital and technology services provider that powers confident health, wealth, and wellbeing decisions for millions of employees and family members. The company delivers integrated benefits administration, payroll, and total wellbeing solutions through its Alight Worklife platform. Alight does not publish a public, self-service developer portal; integrations are typically delivered through enterprise client engagements.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alight/refs/heads/main/screenshots/alight-2026-06-20T171521.png",
-     "score": 4.4,
+     "name": "Alphabet",
+     "slug": "alphabet",
+     "description": "The parent company of Google and one of the world's most valuable corporations. Operates the dominant search engine, Android mobile OS, YouTube, Google Cloud, and Waymo autonomous vehicles alongside numerous technology ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alphabet/refs/heads/main/screenshots/alphabet-2026-07-25T195755.png",
+     "score": 4.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2448,11 +2448,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2474,23 +2474,23 @@
      "rank": 62
     },
     {
-     "name": "Hewlett Packard Enterprise",
-     "slug": "hewlett-packard-enterprise",
-     "description": "Hewlett Packard Enterprise is a global edge-to-cloud company that provides solutions including servers, storage, networking, software, services, and financial services to help customers capture value from data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hewlett-packard-enterprise/refs/heads/main/screenshots/hewlett-packard-enterprise-2026-06-20T182702.png",
-     "score": 4.2,
+     "name": "Alight",
+     "slug": "alight",
+     "description": "Alight is a leading cloud-based human capital and technology services provider that powers confident health, wealth, and wellbeing decisions for millions of employees and family members. The company delivers integrated benefits administration, payroll, and total wellbeing solutions through its Alight Worklife platform. Alight does not publish a public, self-service developer portal; integrations are typically delivered through enterprise client engagements.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alight/refs/heads/main/screenshots/alight-2026-06-20T171521.png",
+     "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2512,23 +2512,23 @@
      "rank": 63
     },
     {
-     "name": "Kyndryl Holdings",
-     "slug": "kyndryl-holdings",
-     "description": "Fortune 1000 company Kyndryl Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyndryl-holdings/refs/heads/main/screenshots/kyndryl-holdings-2026-06-20T184232.png",
-     "score": 3.7,
+     "name": "Hewlett Packard Enterprise",
+     "slug": "hewlett-packard-enterprise",
+     "description": "Hewlett Packard Enterprise is a global edge-to-cloud company that provides solutions including servers, storage, networking, software, services, and financial services to help customers capture value from data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hewlett-packard-enterprise/refs/heads/main/screenshots/hewlett-packard-enterprise-2026-06-20T182702.png",
+     "score": 4.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 25.9,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2550,11 +2550,11 @@
      "rank": 64
     },
     {
-     "name": "Insight Enterprises",
-     "slug": "insight-enterprises",
-     "description": "Insight Enterprises is a global Fortune 500 solutions integrator helping organizations transform technology, operations, and customer experiences to drive business outcomes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insight-enterprises/refs/heads/main/screenshots/insight-enterprises-2026-06-20T183359.png",
-     "score": 3.3,
+     "name": "Kyndryl Holdings",
+     "slug": "kyndryl-holdings",
+     "description": "Fortune 1000 company Kyndryl Holdings. Public API documentation has not yet been catalogued in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyndryl-holdings/refs/heads/main/screenshots/kyndryl-holdings-2026-06-20T184232.png",
+     "score": 3.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2562,11 +2562,11 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2588,23 +2588,23 @@
      "rank": 65
     },
     {
-     "name": "SS AND C Technologies",
-     "slug": "ss-and-c-technologies",
-     "description": "Fortune 1000 company SS AND C Technologies. Public API documentation has not yet been catalogued in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ss-and-c-technologies/refs/heads/main/screenshots/ss-and-c-technologies-2026-06-20T194433.png",
-     "score": 2.6,
+     "name": "Insight Enterprises",
+     "slug": "insight-enterprises",
+     "description": "Insight Enterprises is a global Fortune 500 solutions integrator helping organizations transform technology, operations, and customer experiences to drive business outcomes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insight-enterprises/refs/heads/main/screenshots/insight-enterprises-2026-06-20T183359.png",
+     "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2624,49 +2624,42 @@
       "dry_run_mode": false
      },
      "rank": 66
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
-     "name": "Adobe",
-     "slug": "adobe",
-     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
+     "name": "SS AND C Technologies",
+     "slug": "ss-and-c-technologies",
+     "description": "Fortune 1000 company SS AND C Technologies. Public API documentation has not yet been catalogued in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ss-and-c-technologies/refs/heads/main/screenshots/ss-and-c-technologies-2026-06-20T194433.png",
+     "score": 2.6,
+     "band": "minimal",
+     "band_label": "Minimal",
      "facets": {
-      "commercial_clarity": 73.7,
-      "contract_quality": 79.6,
-      "developer_ergonomics": 63.0,
-      "discoverability": 64.8,
-      "governance": 68.8,
-      "operational_transparency": 57.9
+      "discoverability": 25.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-29",
-     "schema_version": "0.6",
-     "agent_score": 47.7,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
      "agent_dims": {
-      "agent_card": false,
-      "agent_skills": false,
-      "agentic_access": "derived",
-      "asyncapi_events": false,
-      "auth_clarity": true,
-      "consent_identity": false,
-      "dry_run_mode": false,
-      "error_semantics": false,
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
       "idempotency": false,
-      "mcp_server": true,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "spec_presence": true,
-      "well_known_catalog": false
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
      },
      "rank": 67
     }

@@ -27,8 +27,8 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -36,7 +36,7 @@
       "score": 76.3,
       "matched_via": "tags"
      },
-     "agent_score": 41.2,
+     "agent_score": 37.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -84,8 +84,8 @@
       "developer_ergonomics": 40.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -93,7 +93,7 @@
       "score": 38.8,
       "matched_via": "tags"
      },
-     "agent_score": 40.3,
+     "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -104,7 +104,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -129,8 +129,8 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -185,8 +185,8 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -231,8 +231,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -276,8 +276,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -322,8 +322,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -367,8 +367,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -413,8 +413,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -468,8 +468,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",

@@ -27,8 +27,8 @@
       "developer_ergonomics": 95.1,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -36,7 +36,7 @@
       "score": 93.8,
       "matched_via": "tags"
      },
-     "agent_score": 63.5,
+     "agent_score": 59.5,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -73,8 +73,8 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -82,7 +82,7 @@
       "score": 63.3,
       "matched_via": "tags"
      },
-     "agent_score": 57.4,
+     "agent_score": 53.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -93,7 +93,7 @@
       "error_semantics": "documented",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -119,8 +119,8 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -128,7 +128,7 @@
       "score": 62.5,
       "matched_via": "tags"
      },
-     "agent_score": 60.1,
+     "agent_score": 56.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -139,7 +139,7 @@
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -165,8 +165,8 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -174,7 +174,7 @@
       "score": 68.8,
       "matched_via": "tags"
      },
-     "agent_score": 57.4,
+     "agent_score": 53.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -185,7 +185,7 @@
       "error_semantics": "documented",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -211,10 +211,10 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -224,7 +224,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -250,8 +250,8 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -300,8 +300,8 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -309,7 +309,7 @@
       "score": 78.1,
       "matched_via": "tags"
      },
-     "agent_score": 58.8,
+     "agent_score": 54.7,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -320,7 +320,7 @@
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -346,8 +346,8 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -355,7 +355,7 @@
       "score": 67.1,
       "matched_via": "tags"
      },
-     "agent_score": 45.3,
+     "agent_score": 41.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -366,7 +366,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -392,10 +392,10 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -405,7 +405,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -431,8 +431,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -476,8 +476,8 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -485,7 +485,7 @@
       "score": 68.8,
       "matched_via": "tags"
      },
-     "agent_score": 56.1,
+     "agent_score": 52.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -496,7 +496,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -521,8 +521,8 @@
       "developer_ergonomics": 91.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -567,8 +567,8 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -613,8 +613,8 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -622,7 +622,7 @@
       "score": 38.0,
       "matched_via": "tags"
      },
-     "agent_score": 73.2,
+     "agent_score": 69.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -633,7 +633,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -659,8 +659,8 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -704,8 +704,8 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -761,8 +761,8 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -770,8 +770,8 @@
       "score": 39.1,
       "matched_via": "tags"
      },
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -781,7 +781,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -807,8 +807,8 @@
       "developer_ergonomics": 71.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -816,7 +816,7 @@
       "score": 60.8,
       "matched_via": "tags"
      },
-     "agent_score": 58.8,
+     "agent_score": 54.7,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -827,7 +827,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -852,8 +852,8 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -861,7 +861,7 @@
       "score": 54.7,
       "matched_via": "tags"
      },
-     "agent_score": 61.9,
+     "agent_score": 57.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -872,7 +872,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -898,8 +898,8 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -907,7 +907,7 @@
       "score": 68.8,
       "matched_via": "tags"
      },
-     "agent_score": 43.2,
+     "agent_score": 39.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -918,7 +918,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true,
@@ -944,8 +944,8 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -953,7 +953,7 @@
       "score": 54.7,
       "matched_via": "tags"
      },
-     "agent_score": 54.3,
+     "agent_score": 50.2,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -964,7 +964,7 @@
       "error_semantics": "documented",
       "openapi_examples": "verified",
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -990,8 +990,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -999,8 +999,8 @@
       "score": 27.8,
       "matched_via": "tags"
      },
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -1010,7 +1010,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1036,8 +1036,8 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1045,8 +1045,8 @@
       "score": 68.8,
       "matched_via": "tags"
      },
-     "agent_score": 34.2,
-     "agent_band": "agent-ready",
+     "agent_score": 30.2,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -1056,7 +1056,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1082,9 +1082,9 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 42.8,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 38.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1095,7 +1095,7 @@
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1121,8 +1121,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1166,8 +1166,8 @@
       "developer_ergonomics": 77.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1175,7 +1175,7 @@
       "score": 56.3,
       "matched_via": "tags"
      },
-     "agent_score": 56.1,
+     "agent_score": 52.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -1186,7 +1186,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -1212,8 +1212,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1257,8 +1257,8 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1266,7 +1266,7 @@
       "score": 49.4,
       "matched_via": "tags"
      },
-     "agent_score": 55.2,
+     "agent_score": 51.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1277,7 +1277,7 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1303,8 +1303,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1349,8 +1349,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1395,8 +1395,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1404,7 +1404,7 @@
       "score": 34.4,
       "matched_via": "tags"
      },
-     "agent_score": 42.3,
+     "agent_score": 38.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1415,7 +1415,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1441,8 +1441,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1450,7 +1450,7 @@
       "score": 43.8,
       "matched_via": "tags"
      },
-     "agent_score": 46.4,
+     "agent_score": 42.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1461,7 +1461,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1487,8 +1487,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1533,10 +1533,10 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -1546,7 +1546,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1582,8 +1582,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1591,8 +1591,8 @@
       "score": 18.8,
       "matched_via": "tags"
      },
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -1602,7 +1602,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1628,8 +1628,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1674,8 +1674,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1720,8 +1720,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1729,7 +1729,7 @@
       "score": 21.5,
       "matched_via": "tags"
      },
-     "agent_score": 43.2,
+     "agent_score": 39.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1740,7 +1740,7 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1766,8 +1766,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1812,8 +1812,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1851,8 +1851,8 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1897,8 +1897,8 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1943,8 +1943,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1982,8 +1982,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2028,8 +2028,8 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2074,8 +2074,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2120,8 +2120,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2129,7 +2129,7 @@
       "score": 18.8,
       "matched_via": "tags"
      },
-     "agent_score": 32.9,
+     "agent_score": 28.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -2140,7 +2140,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2165,8 +2165,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2210,8 +2210,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2256,8 +2256,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2295,8 +2295,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2341,8 +2341,8 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2386,8 +2386,8 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2432,8 +2432,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2477,8 +2477,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2533,8 +2533,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2579,8 +2579,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2624,8 +2624,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2669,8 +2669,8 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2714,8 +2714,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2760,8 +2760,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2806,8 +2806,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2845,8 +2845,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2891,8 +2891,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2946,8 +2946,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2992,8 +2992,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3037,8 +3037,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3076,8 +3076,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

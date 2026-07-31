@@ -1,6 +1,6 @@
 {
- "total": 48,
- "shown": 48,
+ "total": 49,
+ "shown": 49,
  "limit": 1000,
  "bands": [
   {
@@ -27,8 +27,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -36,7 +36,7 @@
       "score": 45.3,
       "matched_via": "tags"
      },
-     "agent_score": 21.6,
+     "agent_score": 17.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -72,8 +72,8 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 32.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -110,8 +110,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -159,8 +159,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -203,8 +203,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -212,8 +212,8 @@
       "score": 28.3,
       "matched_via": "weak_tags"
      },
-     "agent_score": 34.2,
-     "agent_band": "agent-ready",
+     "agent_score": 30.2,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -223,7 +223,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -248,8 +248,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -292,8 +292,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -347,8 +347,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -391,8 +391,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -436,8 +436,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -481,8 +481,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -519,8 +519,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -564,8 +564,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -608,8 +608,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -652,8 +652,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -689,8 +689,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -734,8 +734,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -772,8 +772,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -827,8 +827,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -865,8 +865,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -903,8 +903,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -947,8 +947,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 14.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -984,8 +984,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1028,8 +1028,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1065,8 +1065,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1110,8 +1110,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1148,8 +1148,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1185,8 +1185,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1229,8 +1229,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1267,8 +1267,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1304,8 +1304,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1349,8 +1349,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1386,8 +1386,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1430,8 +1430,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1468,8 +1468,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1505,8 +1505,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1542,8 +1542,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1586,8 +1586,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1631,8 +1631,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1675,8 +1675,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1713,8 +1713,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1750,8 +1750,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1787,8 +1787,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1824,8 +1824,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1861,8 +1861,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1899,8 +1899,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1943,8 +1943,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1972,15 +1972,21 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "CargoAi",
+     "slug": "cargoai",
+     "description": "CargoAi is a Singapore-headquartered air cargo technology company that operates CargoMART, a digital marketplace where freight forwarders search routes, schedules, capacity and rates across 680+ airlines, book them, transmit the electronic air waybill, and track the shipment end to end. It sits in the middle of the air cargo chain as an aggregator between forwarders and their TMS vendors on one side and airline reservation and messaging systems on the other. Its API posture is genuinely public in documentation and sales-gated in access - the CargoCONNECT developer portal at cargoai.readme.io is open to anyone with no login and publishes a real OpenAPI 3.1 definition per operation, but an x-api-key is issued only after a commercial conversation with the CargoAi enterprise team. The published contract is a proprietary REST shape rather than an IATA ONE Record interface, though the payloads it carries are IATA-native - AWB numbers with airline prefixes, IATA airport and airline codes, Special Handling Codes, IATA cargo status event codes, FWB and FHL message content, and CO2 figures computed per IATA Recommended Practice 1678.",
+     "rank": 48
+    },
     {
      "name": "Hillhouse Investment",
      "slug": "hillhouse",
      "description": "Hillhouse Investment (formerly Hillhouse Capital) is a global investment firm founded in 2005 by Lei Zhang with seed capital from the Yale University endowment, and is one of Asia's largest private-market investors, managing an estimated US$100 billion in assets as of 2026. Headquartered in Singapore with offices in Hong Kong, Beijing, Shanghai, New York, London, and Abu Dhabi, the firm invests globally across all stages of a company's life cycle, spanning public equities, growth equity, private equity buyouts, venture capital (through its early-stage arm GL Ventures, launched in 2020), and real assets. Hillhouse describes itself as disciplined and pragmatic investors who prioritize business fundamentals and deep, bottom-up industry research, with sector focus on healthcare, industrials, energy transition, business services, and consumer. Its portfolio spans companies headquartered in more than 25 countries and has included category-defining businesses such as Tencent, JD.com, Baidu, Zoom, BeiGene, Miniso, Airbnb, Uber, and Didi. Backers have historically included major university endowments (Yale, Stanford, Princeton, MIT, University of Pennsylvania, University of Texas) and CPPIB.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hillhouse/refs/heads/main/screenshots/hillhouse-2026-07-25T221225.png",
-     "rank": 48
+     "rank": 49
     }
    ]
   }

@@ -26,8 +26,8 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -82,10 +82,10 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 47.7,
-     "agent_band": "agent-native",
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 43.7,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -95,7 +95,7 @@
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -120,9 +120,9 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 49.8,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 45.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -133,7 +133,7 @@
       "error_semantics": "documented",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -158,9 +158,9 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 51.1,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 47.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -171,7 +171,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -196,8 +196,8 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -205,7 +205,7 @@
       "score": 57.4,
       "matched_via": "tags"
      },
-     "agent_score": 57.0,
+     "agent_score": 52.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -216,7 +216,7 @@
       "error_semantics": "documented",
       "openapi_examples": "verified",
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -252,8 +252,8 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -261,7 +261,7 @@
       "score": 71.2,
       "matched_via": "tags"
      },
-     "agent_score": 43.9,
+     "agent_score": 39.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -272,7 +272,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -297,9 +297,9 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 50.2,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 46.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -310,7 +310,7 @@
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -335,9 +335,9 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 50.2,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 46.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -348,7 +348,7 @@
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -373,9 +373,9 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 46.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 42.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -386,7 +386,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -411,8 +411,8 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 49.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -449,8 +449,8 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 44.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -487,10 +487,10 @@
       "developer_ergonomics": 19.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 37.6,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 33.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -500,7 +500,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -525,9 +525,9 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 48.2,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -538,7 +538,7 @@
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -563,9 +563,9 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 40.3,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -576,7 +576,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -611,9 +611,9 @@
       "developer_ergonomics": 25.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
-     "agent_score": 41.2,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
+     "agent_score": 37.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -624,7 +624,7 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": true,
+      "asyncapi_events": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -649,8 +649,8 @@
       "developer_ergonomics": 21.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -687,8 +687,8 @@
       "developer_ergonomics": 14.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -732,8 +732,8 @@
       "developer_ergonomics": 21.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -777,8 +777,8 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -825,8 +825,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 12.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -863,8 +863,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -901,8 +901,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -939,8 +939,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -977,8 +977,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-28",
-     "schema_version": 0.6,
+     "scored_at": "2026-07-31",
+     "schema_version": "0.6.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",

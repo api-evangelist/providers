@@ -333,7 +333,7 @@
   "name": "Mobility & Fleet",
   "description": "Ride-hailing, micromobility, fleet management, EV charging, and the telematics layer under moving vehicles.",
   "icon": "directions_car",
-  "count": 578
+  "count": 579
  },
  {
   "slug": "creator-economy",
@@ -410,7 +410,7 @@
   "name": "Space & Satellite",
   "description": "Launch, satellites, ground segment, and the earth-observation and aviation data coming down from above.",
   "icon": "rocket_launch",
-  "count": 301
+  "count": 302
  },
  {
   "slug": "sports",
@@ -424,7 +424,7 @@
   "name": "Supply Chain & Procurement",
   "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
   "icon": "inventory_2",
-  "count": 1201
+  "count": 1213
  },
  {
   "slug": "tax-compliance-software",

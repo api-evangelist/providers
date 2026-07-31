@@ -1,4 +1,4 @@
-# Mirrored from api-search/signals/_data/scoring.yml by build-listing.py — do not edit here.
+# Mirrored from api-search/signals/_data/scoring.yml by build-sections.py — do not edit here.
 # Kin Score — Scoring Rubric (the API Evangelist rating system, licensed by APIs.io)
 #
 # Per-artifact checks produce raw points. Points roll up into facet sub-scores
@@ -8,8 +8,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.6
-last_updated: '2026-07-28'
+schema_version: 0.6.1
+last_updated: '2026-07-31'
 maintainer: kin@apievangelist.com
 
 # ---------------------------------------------------------------------------
@@ -201,6 +201,7 @@ provenance:
     contract_present: openapi          # contract_quality, 20 pts
     mcp_server: mcp                    # agent readiness, 12 pts
     agent_skills: skills               # agent readiness, 5 pts
+    asyncapi_events: asyncapi          # agent readiness, 6 pts
     agentic_access: agentic_access     # agent readiness, 10 pts
     conformance_declared: conformance  # governance, 6 pts
 
@@ -1710,7 +1711,7 @@ bands:
     label: Minimal
     min: 0
     range: 0 – 12.9
-    share: 42.6%
+    share: 42.7%
     description: >
       Index entry only; little beyond a description and a link. Nothing here is
       machine-readable enough for an agent to act on without a human first reading
@@ -2026,7 +2027,7 @@ agent_readiness:
     - id: agent-native
       label: Agent-Native
       min: 46
-      share: 1.2%
+      share: 1.1%
       description: >
         Built to be driven by agents, and the provider built it — a contract, a
         real agent surface the provider itself publishes, and the safety rails
@@ -2036,7 +2037,7 @@ agent_readiness:
     - id: agent-ready
       label: Agent-Ready
       min: 34
-      share: 14.3%
+      share: 13.2%
       description: >
         An agent can drive the core surface. A machine-readable contract and
         documented auth are in place, and there is real agent-facing work beyond
@@ -2051,7 +2052,7 @@ agent_readiness:
     - id: agent-aware
       label: Agent-Aware
       min: 6
-      share: 23.1%
+      share: 24.3%
       description: >
         Partial machine-readable surface. An agent can read some of the API but
         would hit implicit conventions a human silently absorbs — the gaps where it
