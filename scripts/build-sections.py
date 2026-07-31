@@ -131,6 +131,14 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
+    "cybersecurity": {
+        "slug": "state-of-cybersecurity-apis",
+        "title": "The State of Cybersecurity APIs",
+        "blurb": "Second-best-scoring market in the catalog \u2014 and 72% of it will not tell you how "
+                 "to report a vulnerability, now that the EU Cyber Resilience Act requires exactly that.",
+        "price": "500",
+        "kind": "API Evangelist Market Report",
+    },
 }
 
 TAG_INDUSTRIES = [
