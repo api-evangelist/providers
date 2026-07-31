@@ -8,47 +8,9 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
-    {
-     "name": "ArcBest",
-     "slug": "arcbest",
-     "description": "ArcBest is a logistics company offering less-than-truckload (LTL) freight, truckload, moving, and supply chain management services. The ArcBest API platform provides integration capabilities for freight rating, booking, tracking, and supply chain visibility.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/screenshots/arcbest-2026-06-20T172358.png",
-     "score": 46.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 63.6,
-      "governance": 68.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 1
-    },
     {
      "name": "UPS",
      "slug": "ups",
@@ -66,7 +28,44 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "Sysco",
+     "slug": "sysco",
+     "description": "Sysco is the global leader in selling, marketing, and distributing food products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. Sysco operates the Sysco Shop ecommerce platform (US, Canada, Bahamas) backed by an Apollo GraphQL supergraph composed of domain subgraphs for ordering, product, pricing, delivery, and accounts. Programmatic access is partner/customer-gated through the login-only APIC Developer Portal and through traditional EDI (X12) trading-partner integration; Sysco does not publish a self-serve public developer API, OpenAPI specification, or open GitHub presence.",
+     "score": 44.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 69.5,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -88,22 +87,23 @@
      "rank": 2
     },
     {
-     "name": "Sysco",
-     "slug": "sysco",
-     "description": "Sysco is the global leader in selling, marketing, and distributing food products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. Sysco operates the Sysco Shop ecommerce platform (US, Canada, Bahamas) backed by an Apollo GraphQL supergraph composed of domain subgraphs for ordering, product, pricing, delivery, and accounts. Programmatic access is partner/customer-gated through the login-only APIC Developer Portal and through traditional EDI (X12) trading-partner integration; Sysco does not publish a self-serve public developer API, OpenAPI specification, or open GitHub presence.",
-     "score": 44.7,
+     "name": "Ryder System",
+     "slug": "ryder-system",
+     "description": "Ryder System, Inc. is a leading provider of supply chain, dedicated transportation, and fleet management solutions. Ryder operates a developer portal offering REST APIs for fleet management and supply chain operations, enabling customers to integrate Ryder services into their business systems. The Fleet Management APIs support customers who lease, rent, and maintain vehicles, while the Supply Chain Solutions APIs support carrier management, load tracking, shipment management, and last-mile delivery operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png",
+     "score": 43.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 69.5,
-      "governance": 68.8,
+      "discoverability": 64.8,
+      "contract_quality": 69.9,
+      "governance": 37.5,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
+      "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -123,25 +123,35 @@
       "dry_run_mode": false
      },
      "rank": 3
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 9,
+   "shown": 9,
+   "providers": [
     {
-     "name": "Ryder System",
-     "slug": "ryder-system",
-     "description": "Ryder System, Inc. is a leading provider of supply chain, dedicated transportation, and fleet management solutions. Ryder operates a developer portal offering REST APIs for fleet management and supply chain operations, enabling customers to integrate Ryder services into their business systems. The Fleet Management APIs support customers who lease, rent, and maintain vehicles, while the Supply Chain Solutions APIs support carrier management, load tracking, shipment management, and last-mile delivery operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png",
-     "score": 43.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "name": "United Natural Foods (UNFI)",
+     "slug": "united-natural-foods",
+     "description": "United Natural Foods, Inc. (UNFI) is the largest publicly traded wholesale distributor of health and specialty food in the United States and Canada. UNFI supplies natural, organic, specialty, and conventional foods to over 30,000 retail locations. UNFI provides digital supplier and customer portals including myUNFI, supplier portal, EDI integration, and the Harmony Core API for data access.",
+     "score": 40.4,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 69.9,
+      "discoverability": 74.1,
+      "contract_quality": 71.3,
       "governance": 37.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 30.4,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -161,54 +171,6 @@
       "dry_run_mode": false
      },
      "rank": 4
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
-   "providers": [
-    {
-     "name": "United Natural Foods (UNFI)",
-     "slug": "united-natural-foods",
-     "description": "United Natural Foods, Inc. (UNFI) is the largest publicly traded wholesale distributor of health and specialty food in the United States and Canada. UNFI supplies natural, organic, specialty, and conventional foods to over 30,000 retail locations. UNFI provides digital supplier and customer portals including myUNFI, supplier portal, EDI integration, and the Harmony Core API for data access.",
-     "score": 40.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 71.3,
-      "governance": 37.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 5
     },
     {
      "name": "Gopuff",
@@ -227,7 +189,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -246,7 +208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "DHL",
@@ -265,7 +227,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -284,7 +246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "FedEx",
@@ -303,7 +265,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -313,6 +275,44 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "ArcBest",
+     "slug": "arcbest",
+     "description": "ArcBest is a logistics company offering less-than-truckload (LTL) freight, truckload, moving, and supply chain management services. The ArcBest API platform provides integration capabilities for freight rating, booking, tracking, and supply chain visibility.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/screenshots/arcbest-2026-06-20T172358.png",
+     "score": 37.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 25.2,
+      "governance": 68.8,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "asyncapi_events": false,
@@ -341,7 +341,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -379,7 +379,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -417,7 +417,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -455,7 +455,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -503,7 +503,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -541,7 +541,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -579,7 +579,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -624,7 +624,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -662,7 +662,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -700,7 +700,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -738,7 +738,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -776,7 +776,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -824,7 +824,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -862,7 +862,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -907,7 +907,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -951,7 +951,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -989,7 +989,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1027,7 +1027,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1065,7 +1065,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1103,7 +1103,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1148,7 +1148,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1186,7 +1186,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1224,7 +1224,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1262,7 +1262,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1299,7 +1299,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

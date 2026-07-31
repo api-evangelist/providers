@@ -28,7 +28,7 @@
       "commercial_clarity": 68.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -65,8 +65,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 20,
-   "shown": 20,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Verisk",
@@ -85,7 +85,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -131,7 +131,7 @@
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -170,7 +170,7 @@
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -208,7 +208,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -254,7 +254,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -299,7 +299,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -345,7 +345,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -368,91 +368,6 @@
      "rank": 8
     },
     {
-     "name": "Ease",
-     "slug": "ease",
-     "description": "Ease (legally Enrollease, Inc., San Francisco, with offices in Las Vegas and Omaha) is a United States benefits administration and HR platform sold through insurance brokers to small and mid-sized employers of roughly 2-250 employees. It covers online benefits enrollment, benefits and plan management, ACA reporting, onboarding and offboarding, and a partner marketplace spanning carriers, general agencies, third-party administrators, payroll providers and agency management systems. Ease is a group-benefits distribution platform rather than a risk carrier, so its lines of business are medical, dental, vision, life, AD&D, STD, LTD and voluntary/supplemental products written by its carrier partners. It was acquired by Employee Navigator in April 2023 and is now in announced end-of-life: Employee Navigator published a dated two-phase sunset on 2026-06-03 under which no new companies can be added to Ease from 2027-01-01 and the platform goes read-only, with integrations and support discontinued, on 2027-07-01. Its benefits API posture is partner-gated and closed: Ease publishes no public developer portal and no API reference for the product. developer.ease.com, developers.ease.com, api.ease.com and docs.ease.com all resolve through wildcard DNS to the Ease application sign-in page, and ease.com/developers, /api, /developer and /integrations return 404. The real integration surface is EaseConnect (self-service mapping of ANSI X12 EDI 834 enrollment files to carriers), EaseConnect+ (privately negotiated direct carrier data connections, which in the Principal integration include an Evidence of Insurability API and a Member Benefits API that Ease never documents publicly), marketplace API integrations with payroll and HRIS vendors such as ADP Workforce Now, ADP RUN, BambooHR, Paycor and Paylocity, and a partner portal whose data leaves by scheduled report or SFTP. Ease does however operate two real, anonymous, machine-readable read surfaces that this record captures: the WordPress REST API behind www.ease.com, which serves the full Ease Marketplace partner directory (110 partners, 16 partner types, 23 benefit types) alongside blog, page, event and testimonial content; and the Atlassian Statuspage v2 API on status.ease.com, which serves platform status, component health, incident history and an anonymous incident-webhook subscription. No ACORD, AL3, NGDS or IVANS reference appears anywhere on the site - Ease operates in the group-benefits ANSI X12 834 idiom, not the P&C ACORD idiom.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png",
-     "score": 49.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 58.1,
-      "governance": 20.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 34.2,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 45.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 43.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Employee Benefits Administration",
-     "rank": 9
-    },
-    {
-     "name": "Aflac",
-     "slug": "aflac",
-     "description": "Aflac is America's leading provider of supplemental insurance, offering products that pay benefits when a policyholder experiences an accident, illness, or injury. Aflac provides REST APIs through its Enterprise Connect (AEC) platform enabling benefits technology companies, HR platforms, and benefits administrators to integrate supplemental insurance enrollment, policy management, and claims capabilities into their workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png",
-     "score": 49.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 63.6,
-      "governance": 68.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Life, Health & Benefits Insurers",
-     "rank": 10
-    },
-    {
      "name": "At-Bay",
      "slug": "at-bay",
      "description": "At-Bay is an InsurSec company that combines cyber insurance with proactive security monitoring for businesses. Headquartered in New York with offices in San Francisco and Tel Aviv, At-Bay underwrites Surplus Cyber, Surplus Tech E&O, and Surplus Miscellaneous Professional Liability (MPL) coverage and bundles them with the At-Bay Stance security platform (advisory, fraud defense, incident response) and 24/7 Managed Detection and Response (MDR) across endpoint, email (MXDR), and multi-vector surfaces. At-Bay distributes through a network of independent brokers and partners and exposes a production-grade REST Partner API (v2) that lets brokerage platforms, digital distributors, and agency management systems quote, customize, bind, renew, retrieve documents, and receive webhook callbacks for the full policy lifecycle. Demo environment at api-demo.at-bay.com lets partners integrate without going through Broker of Record clearance.",
@@ -469,7 +384,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -496,7 +411,7 @@
       "dry_run_mode": false
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 11
+     "rank": 9
     },
     {
      "name": "Socotra",
@@ -514,7 +429,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -541,7 +456,7 @@
       "dry_run_mode": false
      },
      "tier": "Core Systems & Policy Administration",
-     "rank": 12
+     "rank": 10
     },
     {
      "name": "Travelers",
@@ -560,7 +475,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -587,7 +502,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 13
+     "rank": 11
     },
     {
      "name": "Majesco",
@@ -606,7 +521,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -626,7 +541,7 @@
       "dry_run_mode": false
      },
      "tier": "Core Systems & Policy Administration",
-     "rank": 14
+     "rank": 12
     },
     {
      "name": "Unum",
@@ -645,7 +560,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -672,7 +587,7 @@
       "dry_run_mode": false
      },
      "tier": "Life, Health & Benefits Insurers",
-     "rank": 15
+     "rank": 13
     },
     {
      "name": "Extend",
@@ -691,7 +606,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -718,7 +633,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Insurance & Distribution APIs",
-     "rank": 16
+     "rank": 14
     },
     {
      "name": "Solera",
@@ -736,7 +651,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -763,7 +678,7 @@
       "dry_run_mode": false
      },
      "tier": "Claims Technology",
-     "rank": 17
+     "rank": 15
     },
     {
      "name": "Noyo",
@@ -781,7 +696,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -808,7 +723,7 @@
       "dry_run_mode": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 18
+     "rank": 16
     },
     {
      "name": "Guidewire",
@@ -827,7 +742,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -854,7 +769,7 @@
       "dry_run_mode": false
      },
      "tier": "Core Systems & Policy Administration",
-     "rank": 19
+     "rank": 17
     },
     {
      "name": "Moody's RMS",
@@ -872,7 +787,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -899,7 +814,7 @@
       "dry_run_mode": false
      },
      "tier": "Risk Data & Analytics",
-     "rank": 20
+     "rank": 18
     },
     {
      "name": "Gusto",
@@ -918,7 +833,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 32.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -938,7 +853,53 @@
       "dry_run_mode": false
      },
      "tier": "Employee Benefits Administration",
-     "rank": 21
+     "rank": 19
+    },
+    {
+     "name": "Ease",
+     "slug": "ease",
+     "description": "Ease (legally Enrollease, Inc., San Francisco, with offices in Las Vegas and Omaha) is a United States benefits administration and HR platform sold through insurance brokers to small and mid-sized employers of roughly 2-250 employees. It covers online benefits enrollment, benefits and plan management, ACA reporting, onboarding and offboarding, and a partner marketplace spanning carriers, general agencies, third-party administrators, payroll providers and agency management systems. Ease is a group-benefits distribution platform rather than a risk carrier, so its lines of business are medical, dental, vision, life, AD&D, STD, LTD and voluntary/supplemental products written by its carrier partners. It was acquired by Employee Navigator in April 2023 and is now in announced end-of-life: Employee Navigator published a dated two-phase sunset on 2026-06-03 under which no new companies can be added to Ease from 2027-01-01 and the platform goes read-only, with integrations and support discontinued, on 2027-07-01. Its benefits API posture is partner-gated and closed: Ease publishes no public developer portal and no API reference for the product. developer.ease.com, developers.ease.com, api.ease.com and docs.ease.com all resolve through wildcard DNS to the Ease application sign-in page, and ease.com/developers, /api, /developer and /integrations return 404. The real integration surface is EaseConnect (self-service mapping of ANSI X12 EDI 834 enrollment files to carriers), EaseConnect+ (privately negotiated direct carrier data connections, which in the Principal integration include an Evidence of Insurability API and a Member Benefits API that Ease never documents publicly), marketplace API integrations with payroll and HRIS vendors such as ADP Workforce Now, ADP RUN, BambooHR, Paycor and Paylocity, and a partner portal whose data leaves by scheduled report or SFTP. Ease does however operate two real, anonymous, machine-readable read surfaces that this record captures: the WordPress REST API behind www.ease.com, which serves the full Ease Marketplace partner directory (110 partners, 16 partner types, 23 benefit types) alongside blog, page, event and testimonial content; and the Atlassian Statuspage v2 API on status.ease.com, which serves platform status, component health, incident history and an anonymous incident-webhook subscription. No ACORD, AL3, NGDS or IVANS reference appears anywhere on the site - Ease operates in the group-benefits ANSI X12 834 idiom, not the P&C ACORD idiom.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png",
+     "score": 42.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 24.4,
+      "governance": 20.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 45.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Employee Benefits Administration",
+     "rank": 20
     }
    ],
    "open": true
@@ -968,7 +929,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -995,7 +956,7 @@
       "dry_run_mode": false
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Humana",
@@ -1014,7 +975,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1032,6 +993,45 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Life, Health & Benefits Insurers",
+     "rank": 22
+    },
+    {
+     "name": "Aflac",
+     "slug": "aflac",
+     "description": "Aflac is America's leading provider of supplemental insurance, offering products that pay benefits when a policyholder experiences an accident, illness, or injury. Aflac provides REST APIs through its Enterprise Connect (AEC) platform enabling benefits technology companies, HR platforms, and benefits administrators to integrate supplemental insurance enrollment, policy management, and claims capabilities into their workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png",
+     "score": 39.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 25.2,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
@@ -1060,7 +1060,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1106,7 +1106,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1152,7 +1152,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1198,7 +1198,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1244,7 +1244,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1290,7 +1290,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1320,51 +1320,6 @@
      "rank": 29
     },
     {
-     "name": "NAIC",
-     "slug": "naic",
-     "description": "The National Association of Insurance Commissioners (NAIC) is the U.S. standard-setting and regulatory support organization created and governed by the chief insurance regulators of the 50 states, the District of Columbia and five territories. It is not a carrier and not a federal regulator - under the McCarran-Ferguson settlement the United States has no national insurance supervisor, so the NAIC is the coordinating body through which state-based regulation is made uniform. It writes the model laws, accounting practices and Annual Statement Blanks that every admitted insurer files against, operates the Financial Data Repository behind those filings, and runs the market infrastructure the industry actually transacts on: SERFF for electronic rate and form filing, State Based Systems (SBS) for producer and company licensing in roughly thirty jurisdictions, iSite+ and myNAIC for regulator analytics, OPTins for premium tax, and consumer-facing lookups such as the Consumer Information Source and the Life Insurance Policy Locator. Its lines of business span property and casualty, life and annuity, health, title and fraternal across the United States. Its API posture is partner-gated and closed: there is no developer portal at developer/developers/docs.naic.org (all NXDOMAIN), no documented self-serve API, and no downloadable OpenAPI anywhere on naic.org or serff.com. SERFF does operate real integration services - Legacy SPI (two-way PUSH/PULL), Legacy SIS (one-way PULL) and a Modernized Data API (one-way PULL), in PROD and BETA - but they are named only on a support checklist, provisioned by emailing wsrequest@naic.org, and fronted by Okta login walls. Bulk regulatory data is licensed by contract through idp@naic.org rather than served over an API. There is, however, one real and entirely undocumented public machine surface: content.naic.org runs Drupal 11 and serves a live, anonymously readable JSON:API v1.1 at /jsonapi, whose resource index enumerates 284 resource types and exposes the model law corpus with its MDL numbers, the state insurance department regulator directory, committees, insurance topics, publications, CIPR research and the newsroom. The NAIC also publishes a first-party llms.txt declaring AI usage preferences, attribution requirements and crawl limits - so its stated contract with automated consumers is more explicit than its contract with API developers.",
-     "score": 32.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 44.2,
-      "governance": 3.1,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 38.6,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 37.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Market Bodies, Standards & Regulators",
-     "rank": 30
-    },
-    {
      "name": "Pie Insurance",
      "slug": "pie-insurance",
      "description": "Pie Insurance is a Washington, DC and Denver-based insurtech founded in May 2017 that makes commercial insurance for small businesses, with workers' compensation as its flagship line. Pie underwrites its own workers' comp through The Pie Insurance Company (NAIC 21857) — the carrier formerly known as Pie Casualty Insurance Company, which Pie acquired as Western Select Insurance Company in 2021 and took full-stack in February 2023 with an A- (Excellent) rating from AM Best. In addition to workers' comp, Pie offers business owners policy (BOP), commercial auto, general liability, professional liability, and errors and omissions through partner carriers. The product is sold both direct-to-business and through a partner network of 4,000+ independent insurance agencies, who quote, bind, and service policies via the Pie agency portal and the Pie Partner API. The Partner API (api.post-prod.pieinsurance.com, REST/JSON, documented with OpenAPI 3.0.4) exposes class-code search, eligibility questions, appetite checks, price indications, full bindable quotes, quote documents, and quote PDF retrieval so agency management systems and partner platforms can embed the Pie workers' comp experience without redirecting users off-platform. Coverage is available in 39 states plus DC; 73% of submissions are auto-decided and average quote time is roughly three minutes. The company has raised approximately $621M across Seed through Series D from investors including Allianz X, SVB Capital, Greycroft, Aspect Ventures, and Elefund. CEO and co-founder is John Swigart. The Pie Partner API is the public developer surface; there is no broader open-source SDK or GitHub organization.",
@@ -1381,7 +1336,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1408,7 +1363,7 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 31
+     "rank": 30
     },
     {
      "name": "USAA",
@@ -1427,7 +1382,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1454,7 +1409,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Archipelago",
@@ -1473,7 +1428,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1500,7 +1455,7 @@
       "dry_run_mode": false
      },
      "tier": "Risk Data & Analytics",
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "AIG",
@@ -1519,7 +1474,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1546,7 +1501,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Progressive",
@@ -1565,7 +1520,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1592,7 +1547,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Arthur J. Gallagher",
@@ -1611,7 +1566,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1638,7 +1593,7 @@
       "dry_run_mode": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Resilience",
@@ -1656,7 +1611,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1683,7 +1638,7 @@
       "dry_run_mode": false
      },
      "tier": "Cyber & Specialty Risk",
-     "rank": 37
+     "rank": 36
     }
    ]
   },
@@ -1692,8 +1647,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 27,
-   "shown": 27,
+   "count": 28,
+   "shown": 28,
    "providers": [
     {
      "name": "Liberty Mutual Insurance",
@@ -1711,7 +1666,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1738,7 +1693,7 @@
       "dry_run_mode": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "Prudential Financial",
@@ -1756,7 +1711,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1783,6 +1738,51 @@
       "dry_run_mode": false
      },
      "tier": "Life, Health & Benefits Insurers",
+     "rank": 38
+    },
+    {
+     "name": "NAIC",
+     "slug": "naic",
+     "description": "The National Association of Insurance Commissioners (NAIC) is the U.S. standard-setting and regulatory support organization created and governed by the chief insurance regulators of the 50 states, the District of Columbia and five territories. It is not a carrier and not a federal regulator - under the McCarran-Ferguson settlement the United States has no national insurance supervisor, so the NAIC is the coordinating body through which state-based regulation is made uniform. It writes the model laws, accounting practices and Annual Statement Blanks that every admitted insurer files against, operates the Financial Data Repository behind those filings, and runs the market infrastructure the industry actually transacts on: SERFF for electronic rate and form filing, State Based Systems (SBS) for producer and company licensing in roughly thirty jurisdictions, iSite+ and myNAIC for regulator analytics, OPTins for premium tax, and consumer-facing lookups such as the Consumer Information Source and the Life Insurance Policy Locator. Its lines of business span property and casualty, life and annuity, health, title and fraternal across the United States. Its API posture is partner-gated and closed: there is no developer portal at developer/developers/docs.naic.org (all NXDOMAIN), no documented self-serve API, and no downloadable OpenAPI anywhere on naic.org or serff.com. SERFF does operate real integration services - Legacy SPI (two-way PUSH/PULL), Legacy SIS (one-way PULL) and a Modernized Data API (one-way PULL), in PROD and BETA - but they are named only on a support checklist, provisioned by emailing wsrequest@naic.org, and fronted by Okta login walls. Bulk regulatory data is licensed by contract through idp@naic.org rather than served over an API. There is, however, one real and entirely undocumented public machine surface: content.naic.org runs Drupal 11 and serves a live, anonymously readable JSON:API v1.1 at /jsonapi, whose resource index enumerates 284 resource types and exposes the model law corpus with its MDL numbers, the state insurance department regulator directory, committees, insurance topics, publications, CIPR research and the newsroom. The NAIC also publishes a first-party llms.txt declaring AI usage preferences, attribution requirements and crawl limits - so its stated contract with automated consumers is more explicit than its contract with API developers.",
+     "score": 26.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 14.0,
+      "governance": 3.1,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 38.6,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 37.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Market Bodies, Standards & Regulators",
      "rank": 39
     },
     {
@@ -1802,7 +1802,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1848,7 +1848,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1894,7 +1894,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1939,7 +1939,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1985,7 +1985,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2031,7 +2031,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2077,7 +2077,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2123,7 +2123,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2169,7 +2169,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2215,7 +2215,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2261,7 +2261,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2307,7 +2307,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2353,7 +2353,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2399,7 +2399,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2444,7 +2444,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2490,7 +2490,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2535,7 +2535,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2581,7 +2581,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2627,7 +2627,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2673,7 +2673,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2718,7 +2718,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2764,7 +2764,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2810,7 +2810,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2856,7 +2856,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2901,7 +2901,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2956,7 +2956,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3002,7 +3002,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3047,7 +3047,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3093,7 +3093,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3139,7 +3139,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3185,7 +3185,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3231,7 +3231,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3277,7 +3277,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3323,7 +3323,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3368,7 +3368,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3414,7 +3414,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3460,7 +3460,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3506,7 +3506,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3552,7 +3552,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3598,7 +3598,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

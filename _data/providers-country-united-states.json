@@ -28,7 +28,7 @@
       "commercial_clarity": 100.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -73,7 +73,7 @@
       "commercial_clarity": 81.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -117,7 +117,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -173,7 +173,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -217,7 +217,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -262,7 +262,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -299,7 +299,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -343,7 +343,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -388,7 +388,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -432,7 +432,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -477,7 +477,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -522,7 +522,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -567,7 +567,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -612,7 +612,7 @@
       "commercial_clarity": 89.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -656,7 +656,7 @@
       "commercial_clarity": 76.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -700,7 +700,7 @@
       "commercial_clarity": 76.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -755,7 +755,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 34.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -792,7 +792,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -836,7 +836,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -873,7 +873,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -917,7 +917,7 @@
       "commercial_clarity": 65.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -962,7 +962,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1006,7 +1006,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1050,7 +1050,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1094,7 +1094,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1138,7 +1138,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 38.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1175,7 +1175,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1219,7 +1219,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1263,7 +1263,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1307,7 +1307,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1351,7 +1351,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1395,7 +1395,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1439,7 +1439,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1483,7 +1483,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1527,7 +1527,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1556,50 +1556,6 @@
      "rank": 35
     },
     {
-     "name": "FERC",
-     "slug": "ferc",
-     "description": "The Federal Energy Regulatory Commission (FERC) is the independent United States federal agency that regulates the interstate transmission of electricity, natural gas, and oil, licenses hydropower projects, and oversees the wholesale power markets run by the seven ISOs and RTOs. FERC sits on the wholesale side of the US energy value chain — it does not regulate retail utility service, retail rates, or the customer relationship, which remain with the fifty state public utility commissions. That jurisdictional line defines FERC's API posture exactly. FERC operates a real, self-serve open data API at api.data.ferc.gov, documented at data.ferc.gov with a published OpenAPI 3.0 description, a free 40-character API key issued from a sign-up form, a 1,000-request-per-hour rate limit, and X-Api-Key header or api_key query authentication on the api.data.gov API Umbrella stack — genuinely open market and regulatory data covering the Market-Based Rate Database, FERC Form No. 552 natural gas transactions, FERC Form 556 qualifying facility certifications, Company Registration, Annual Charges, Information Collections Management, and the NEPA infrastructure schedule. FERC also runs a credentialed OAuth2 XBRL submission API at ecollection.ferc.gov for the mandated eForms filings (Form Nos. 1, 2, 3-Q, 6, 60, 552, 714). What FERC does NOT do is any part of consumer energy data — there is no Green Button, no ESPI, no consumer data right, and no individual customer usage or billing API anywhere in FERC's surface, because retail customer data is outside its statutory reach. FERC is therefore an open-market-data, zero-consumer-data regulator, and it publishes a better documented API than most of the utilities it indirectly touches.",
-     "score": 49.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 49.8,
-      "governance": 11.5,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 59.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 42.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 36
-    },
-    {
      "name": "Lone Wolf Technologies",
      "slug": "lone-wolf",
      "description": "Lone Wolf Technologies is the dominant back-office, transaction-management and forms vendor in North American residential real estate, headquartered in Dallas, Texas and backed by Stone Point Capital. Its software runs the paperwork and money side of the deal rather than the listing feed: brokerage accounting and commission processing (Back Office, the brokerWOLF lineage), transaction management in two editions (zipForm Edition and TransactionDesk Edition), Authentisign and Inkless e-signature, Cloud CMA comparative market analysis, Boost digital advertising (HomeSpotter), Spacio open-house lead capture, and Propertybase/Relationships CRM. Its forms suites are distributed to agents as association member benefits through state REALTOR associations and MLSs, which places it between the MLS layer and the brokerage. On API posture it is one of the strongest surfaces in this sector and an instructive counter-example to the MLS data providers: on 2026-02-02 it launched a public API Portal for the Lone Wolf Foundation platform, and its documentation hub at apidocs.lwolf.com publishes seven complete, anonymously downloadable OpenAPI 3.0 definitions (Transact, Deals, Back Office, Authentisign, TransactionDesk, zipForm and WolfConnect) plus an MCP server endpoint. Documentation is genuinely open; credentials are not. Keys are issued only after an access-request form is reviewed by the integrations team, and the zipForm API is explicitly licensed to third-party application partners. Lone Wolf is not a RESO-certified data distributor and publishes no RESO Web API, Data Dictionary endpoint, OData $metadata document or Universal Property Identifier — RESO certification governs MLS listing feeds, which is not the layer Lone Wolf occupies; it consumes MLS data under MLS agreements (Cloud CMA documents RETS live queries) rather than redistributing it.",
@@ -1615,7 +1571,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 54.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1634,52 +1590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
-    },
-    {
-     "name": "Ease",
-     "slug": "ease",
-     "description": "Ease (legally Enrollease, Inc., San Francisco, with offices in Las Vegas and Omaha) is a United States benefits administration and HR platform sold through insurance brokers to small and mid-sized employers of roughly 2-250 employees. It covers online benefits enrollment, benefits and plan management, ACA reporting, onboarding and offboarding, and a partner marketplace spanning carriers, general agencies, third-party administrators, payroll providers and agency management systems. Ease is a group-benefits distribution platform rather than a risk carrier, so its lines of business are medical, dental, vision, life, AD&D, STD, LTD and voluntary/supplemental products written by its carrier partners. It was acquired by Employee Navigator in April 2023 and is now in announced end-of-life: Employee Navigator published a dated two-phase sunset on 2026-06-03 under which no new companies can be added to Ease from 2027-01-01 and the platform goes read-only, with integrations and support discontinued, on 2027-07-01. Its benefits API posture is partner-gated and closed: Ease publishes no public developer portal and no API reference for the product. developer.ease.com, developers.ease.com, api.ease.com and docs.ease.com all resolve through wildcard DNS to the Ease application sign-in page, and ease.com/developers, /api, /developer and /integrations return 404. The real integration surface is EaseConnect (self-service mapping of ANSI X12 EDI 834 enrollment files to carriers), EaseConnect+ (privately negotiated direct carrier data connections, which in the Principal integration include an Evidence of Insurability API and a Member Benefits API that Ease never documents publicly), marketplace API integrations with payroll and HRIS vendors such as ADP Workforce Now, ADP RUN, BambooHR, Paycor and Paylocity, and a partner portal whose data leaves by scheduled report or SFTP. Ease does however operate two real, anonymous, machine-readable read surfaces that this record captures: the WordPress REST API behind www.ease.com, which serves the full Ease Marketplace partner directory (110 partners, 16 partner types, 23 benefit types) alongside blog, page, event and testimonial content; and the Atlassian Statuspage v2 API on status.ease.com, which serves platform status, component health, incident history and an anonymous incident-webhook subscription. No ACORD, AL3, NGDS or IVANS reference appears anywhere on the site - Ease operates in the group-benefits ANSI X12 834 idiom, not the P&C ACORD idiom.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png",
-     "score": 49.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 58.1,
-      "governance": 20.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 34.2,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 45.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 43.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 38
+     "rank": 36
     },
     {
      "name": "U.S. Department of Transportation",
@@ -1697,7 +1608,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1723,7 +1634,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 37
     },
     {
      "name": "RESO (Real Estate Standards Organization)",
@@ -1741,7 +1652,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 31.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1760,7 +1671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 38
     },
     {
      "name": "ERCOT",
@@ -1778,7 +1689,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1804,7 +1715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 39
     },
     {
      "name": "ACI Worldwide",
@@ -1823,7 +1734,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1849,7 +1760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 40
     },
     {
      "name": "Viator",
@@ -1867,7 +1778,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 43.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1886,7 +1797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 41
     },
     {
      "name": "Green Dot Corporation",
@@ -1905,7 +1816,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1931,7 +1842,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 42
     },
     {
      "name": "Shift4",
@@ -1949,7 +1860,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1975,7 +1886,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 43
     },
     {
      "name": "Weather.gov",
@@ -1994,7 +1905,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2020,7 +1931,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 44
     },
     {
      "name": "SoFi",
@@ -2039,7 +1950,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2065,7 +1976,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 45
     },
     {
      "name": "Bond",
@@ -2084,7 +1995,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2110,7 +2021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 46
     },
     {
      "name": "Finicity",
@@ -2129,7 +2040,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2155,7 +2066,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 47
     },
     {
      "name": "Keller Williams",
@@ -2173,7 +2084,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -2199,7 +2110,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 48
     },
     {
      "name": "Capital One",
@@ -2218,7 +2129,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2244,7 +2155,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 49
     },
     {
      "name": "Moxe Health",
@@ -2262,7 +2173,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2288,7 +2199,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 50
+    },
+    {
+     "name": "FERC",
+     "slug": "ferc",
+     "description": "The Federal Energy Regulatory Commission (FERC) is the independent United States federal agency that regulates the interstate transmission of electricity, natural gas, and oil, licenses hydropower projects, and oversees the wholesale power markets run by the seven ISOs and RTOs. FERC sits on the wholesale side of the US energy value chain — it does not regulate retail utility service, retail rates, or the customer relationship, which remain with the fifty state public utility commissions. That jurisdictional line defines FERC's API posture exactly. FERC operates a real, self-serve open data API at api.data.ferc.gov, documented at data.ferc.gov with a published OpenAPI 3.0 description, a free 40-character API key issued from a sign-up form, a 1,000-request-per-hour rate limit, and X-Api-Key header or api_key query authentication on the api.data.gov API Umbrella stack — genuinely open market and regulatory data covering the Market-Based Rate Database, FERC Form No. 552 natural gas transactions, FERC Form 556 qualifying facility certifications, Company Registration, Annual Charges, Information Collections Management, and the NEPA infrastructure schedule. FERC also runs a credentialed OAuth2 XBRL submission API at ecollection.ferc.gov for the mandated eForms filings (Form Nos. 1, 2, 3-Q, 6, 60, 552, 714). What FERC does NOT do is any part of consumer energy data — there is no Green Button, no ESPI, no consumer data right, and no individual customer usage or billing API anywhere in FERC's surface, because retail customer data is outside its statutory reach. FERC is therefore an open-market-data, zero-consumer-data regulator, and it publishes a better documented API than most of the utilities it indirectly touches.",
+     "score": 46.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 34.8,
+      "governance": 11.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 59.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 51
     },
     {
      "name": "American Express Global Business Travel",
@@ -2306,7 +2261,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 37.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2325,7 +2280,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 52
     },
     {
      "name": "Genability",
@@ -2343,7 +2298,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2369,7 +2324,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 53
     },
     {
      "name": "Solera",
@@ -2387,7 +2342,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2413,7 +2368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 54
     },
     {
      "name": "Fifth Third Bancorp",
@@ -2432,7 +2387,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2458,7 +2413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 55
     },
     {
      "name": "Totogi",
@@ -2476,7 +2431,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2502,7 +2457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "EIA",
@@ -2520,7 +2475,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2546,7 +2501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Carnegie Mellon University",
@@ -2565,7 +2520,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2591,7 +2546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "Epic Systems",
@@ -2610,7 +2565,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2636,7 +2591,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Human API",
@@ -2655,7 +2610,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2681,7 +2636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "University of Rochester",
@@ -2700,7 +2655,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2726,7 +2681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 61
     },
     {
      "name": "Vim",
@@ -2744,7 +2699,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2770,7 +2725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Johns Hopkins University",
@@ -2789,7 +2744,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2808,7 +2763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "University of California, San Diego",
@@ -2827,7 +2782,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2846,7 +2801,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "PJM Interconnection",
@@ -2864,7 +2819,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2890,7 +2845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "MISO",
@@ -2908,7 +2863,7 @@
       "commercial_clarity": 65.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2934,7 +2889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Northern Trust",
@@ -2953,7 +2908,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2979,7 +2934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "Customers Bank",
@@ -2998,7 +2953,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3024,7 +2979,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Pennsylvania State University",
@@ -3043,7 +2998,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3062,7 +3017,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "H1",
@@ -3081,7 +3036,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3107,7 +3062,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Varo Bank",
@@ -3126,7 +3081,7 @@
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3152,7 +3107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Con Edison",
@@ -3170,7 +3125,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3196,7 +3151,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Emory University",
@@ -3215,7 +3170,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3234,7 +3189,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Moody's RMS",
@@ -3252,7 +3207,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3278,7 +3233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "BMO",
@@ -3297,7 +3252,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3323,6 +3278,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 75
+    },
+    {
+     "name": "Ease",
+     "slug": "ease",
+     "description": "Ease (legally Enrollease, Inc., San Francisco, with offices in Las Vegas and Omaha) is a United States benefits administration and HR platform sold through insurance brokers to small and mid-sized employers of roughly 2-250 employees. It covers online benefits enrollment, benefits and plan management, ACA reporting, onboarding and offboarding, and a partner marketplace spanning carriers, general agencies, third-party administrators, payroll providers and agency management systems. Ease is a group-benefits distribution platform rather than a risk carrier, so its lines of business are medical, dental, vision, life, AD&D, STD, LTD and voluntary/supplemental products written by its carrier partners. It was acquired by Employee Navigator in April 2023 and is now in announced end-of-life: Employee Navigator published a dated two-phase sunset on 2026-06-03 under which no new companies can be added to Ease from 2027-01-01 and the platform goes read-only, with integrations and support discontinued, on 2027-07-01. Its benefits API posture is partner-gated and closed: Ease publishes no public developer portal and no API reference for the product. developer.ease.com, developers.ease.com, api.ease.com and docs.ease.com all resolve through wildcard DNS to the Ease application sign-in page, and ease.com/developers, /api, /developer and /integrations return 404. The real integration surface is EaseConnect (self-service mapping of ANSI X12 EDI 834 enrollment files to carriers), EaseConnect+ (privately negotiated direct carrier data connections, which in the Principal integration include an Evidence of Insurability API and a Member Benefits API that Ease never documents publicly), marketplace API integrations with payroll and HRIS vendors such as ADP Workforce Now, ADP RUN, BambooHR, Paycor and Paylocity, and a partner portal whose data leaves by scheduled report or SFTP. Ease does however operate two real, anonymous, machine-readable read surfaces that this record captures: the WordPress REST API behind www.ease.com, which serves the full Ease Marketplace partner directory (110 partners, 16 partner types, 23 benefit types) alongside blog, page, event and testimonial content; and the Atlassian Statuspage v2 API on status.ease.com, which serves platform status, component health, incident history and an anonymous incident-webhook subscription. No ACORD, AL3, NGDS or IVANS reference appears anywhere on the site - Ease operates in the group-benefits ANSI X12 834 idiom, not the P&C ACORD idiom.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png",
+     "score": 42.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 24.4,
+      "governance": 20.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 45.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 76
     },
     {
@@ -3342,7 +3342,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3387,7 +3387,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3422,8 +3422,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 43,
-   "shown": 43,
+   "count": 41,
+   "shown": 41,
    "providers": [
     {
      "name": "Southwest Power Pool",
@@ -3441,7 +3441,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3486,7 +3486,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3524,7 +3524,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3561,7 +3561,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3605,7 +3605,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 22.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3643,7 +3643,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3688,7 +3688,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3732,7 +3732,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -3776,7 +3776,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -3821,7 +3821,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3866,7 +3866,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3911,7 +3911,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3956,7 +3956,7 @@
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4001,7 +4001,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4046,7 +4046,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4091,7 +4091,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4136,7 +4136,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4181,7 +4181,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4226,7 +4226,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4271,7 +4271,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4316,7 +4316,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4361,7 +4361,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4406,7 +4406,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4451,7 +4451,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4496,7 +4496,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4541,7 +4541,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4586,7 +4586,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4631,7 +4631,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -4675,7 +4675,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4719,7 +4719,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4748,50 +4748,6 @@
      "rank": 108
     },
     {
-     "name": "NAIC",
-     "slug": "naic",
-     "description": "The National Association of Insurance Commissioners (NAIC) is the U.S. standard-setting and regulatory support organization created and governed by the chief insurance regulators of the 50 states, the District of Columbia and five territories. It is not a carrier and not a federal regulator - under the McCarran-Ferguson settlement the United States has no national insurance supervisor, so the NAIC is the coordinating body through which state-based regulation is made uniform. It writes the model laws, accounting practices and Annual Statement Blanks that every admitted insurer files against, operates the Financial Data Repository behind those filings, and runs the market infrastructure the industry actually transacts on: SERFF for electronic rate and form filing, State Based Systems (SBS) for producer and company licensing in roughly thirty jurisdictions, iSite+ and myNAIC for regulator analytics, OPTins for premium tax, and consumer-facing lookups such as the Consumer Information Source and the Life Insurance Policy Locator. Its lines of business span property and casualty, life and annuity, health, title and fraternal across the United States. Its API posture is partner-gated and closed: there is no developer portal at developer/developers/docs.naic.org (all NXDOMAIN), no documented self-serve API, and no downloadable OpenAPI anywhere on naic.org or serff.com. SERFF does operate real integration services - Legacy SPI (two-way PUSH/PULL), Legacy SIS (one-way PULL) and a Modernized Data API (one-way PULL), in PROD and BETA - but they are named only on a support checklist, provisioned by emailing wsrequest@naic.org, and fronted by Okta login walls. Bulk regulatory data is licensed by contract through idp@naic.org rather than served over an API. There is, however, one real and entirely undocumented public machine surface: content.naic.org runs Drupal 11 and serves a live, anonymously readable JSON:API v1.1 at /jsonapi, whose resource index enumerates 284 resource types and exposes the model law corpus with its MDL numbers, the state insurance department regulator directory, committees, insurance topics, publications, CIPR research and the newsroom. The NAIC also publishes a first-party llms.txt declaring AI usage preferences, attribution requirements and crawl limits - so its stated contract with automated consumers is more explicit than its contract with API developers.",
-     "score": 32.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 44.2,
-      "governance": 3.1,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 38.6,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 37.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 109
-    },
-    {
      "name": "USAA",
      "slug": "usaa",
      "description": "USAA (United Services Automobile Association) is a Fortune 100 financial services group offering banking, investing, and insurance products exclusively to people and families who serve, or have served, in the United States military. USAA does not publish a first-party public developer portal or downloadable API specifications. Third-party access to member financial data is delivered through consumer-permissioned open-banking aggregators — Plaid, Mastercard Open Banking (formerly Flinks), and BankSync — using OAuth 2.0 tokenized authorization rather than shared credentials. USAA is an active member and board participant of the Financial Data Exchange (FDX) and helps shape the FDX API standard for secure open finance data sharing in the US.",
@@ -4808,7 +4764,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4834,7 +4790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 109
     },
     {
      "name": "Nacha",
@@ -4852,7 +4808,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4878,7 +4834,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "Cohere Health",
@@ -4897,7 +4853,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4923,7 +4879,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "National Association of REALTORS",
@@ -4941,7 +4897,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 38.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4960,7 +4916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 112
     },
     {
      "name": "Marriott International",
@@ -4978,7 +4934,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 38.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4997,7 +4953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "Resilience",
@@ -5015,7 +4971,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5041,7 +4997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "Navy Federal Credit Union",
@@ -5059,7 +5015,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5085,7 +5041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "MLS Grid",
@@ -5103,7 +5059,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5122,7 +5078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "BankUnited",
@@ -5141,7 +5097,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5167,7 +5123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "New York Independent System Operator (NYISO)",
@@ -5185,7 +5141,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5211,51 +5167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
-    },
-    {
-     "name": "Southern California Edison",
-     "slug": "southern-california-edison",
-     "description": "Southern California Edison (SCE) is the regulated electric utility subsidiary of Edison International, delivering power to roughly 15 million people across a 50,000 square-mile service territory in central, coastal, and southern California. In the United States energy value chain SCE sits at the distribution and retail layer as an investor-owned utility (IOU) regulated by the California Public Utilities Commission, operating the meters, the distribution grid, and the customer of record relationship that every downstream energy-data platform, DER aggregator, demand response provider, and solar installer ultimately depends on. Its API posture splits cleanly in two. Consumer data is mandated but closed to the open web - SCE runs Green Button Connect My Data through its Customer Data Access platform under CPUC tariff Rule 26 (Advice 3087-E, Decision 14-05-016), and states publicly that third parties need OAuth 2.0 and bulk API capability consistent with the NAESB ESPI standard, but publishes no developer portal, no base URI, no OpenAPI, and no sandbox - a third party must register with a Taxpayer Identification Number, accept terms, and pass a machine-to-machine connectivity test before any endpoint is disclosed. Grid data is genuinely open - SCE's Distribution Resources Plan External Portal (DRPEP) serves Integration Capacity Analysis, distribution circuit, PSPS, fire map, and load growth layers over an anonymous, unauthenticated ArcGIS REST service catalog that any developer can query today without a key.",
-     "score": 28.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 16.1,
-      "governance": 11.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 34.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 51.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 120
+     "rank": 118
     },
     {
      "name": "Amwell",
@@ -5274,7 +5186,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5300,7 +5212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 119
     }
    ]
   },
@@ -5309,8 +5221,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 107,
-   "shown": 107,
+   "count": 109,
+   "shown": 109,
    "providers": [
     {
      "name": "Rhapsody",
@@ -5328,7 +5240,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5354,7 +5266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 120
     },
     {
      "name": "Western Alliance Bank",
@@ -5372,7 +5284,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5398,7 +5310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 121
     },
     {
      "name": "Bluevine",
@@ -5417,7 +5329,7 @@
       "commercial_clarity": 84.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5443,7 +5355,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 122
+    },
+    {
+     "name": "Southern California Edison",
+     "slug": "southern-california-edison",
+     "description": "Southern California Edison (SCE) is the regulated electric utility subsidiary of Edison International, delivering power to roughly 15 million people across a 50,000 square-mile service territory in central, coastal, and southern California. In the United States energy value chain SCE sits at the distribution and retail layer as an investor-owned utility (IOU) regulated by the California Public Utilities Commission, operating the meters, the distribution grid, and the customer of record relationship that every downstream energy-data platform, DER aggregator, demand response provider, and solar installer ultimately depends on. Its API posture splits cleanly in two. Consumer data is mandated but closed to the open web - SCE runs Green Button Connect My Data through its Customer Data Access platform under CPUC tariff Rule 26 (Advice 3087-E, Decision 14-05-016), and states publicly that third parties need OAuth 2.0 and bulk API capability consistent with the NAESB ESPI standard, but publishes no developer portal, no base URI, no OpenAPI, and no sandbox - a third party must register with a Taxpayer Identification Number, accept terms, and pass a machine-to-machine connectivity test before any endpoint is disclosed. Grid data is genuinely open - SCE's Distribution Resources Plan External Portal (DRPEP) serves Integration Capacity Analysis, distribution circuit, PSPS, fire map, and load growth layers over an anonymous, unauthenticated ArcGIS REST service catalog that any developer can query today without a key.",
+     "score": 27.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 77.8,
+      "contract_quality": 10.1,
+      "governance": 11.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 51.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 123
     },
     {
      "name": "East West Bank",
@@ -5462,7 +5418,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5488,6 +5444,50 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 124
+    },
+    {
+     "name": "NAIC",
+     "slug": "naic",
+     "description": "The National Association of Insurance Commissioners (NAIC) is the U.S. standard-setting and regulatory support organization created and governed by the chief insurance regulators of the 50 states, the District of Columbia and five territories. It is not a carrier and not a federal regulator - under the McCarran-Ferguson settlement the United States has no national insurance supervisor, so the NAIC is the coordinating body through which state-based regulation is made uniform. It writes the model laws, accounting practices and Annual Statement Blanks that every admitted insurer files against, operates the Financial Data Repository behind those filings, and runs the market infrastructure the industry actually transacts on: SERFF for electronic rate and form filing, State Based Systems (SBS) for producer and company licensing in roughly thirty jurisdictions, iSite+ and myNAIC for regulator analytics, OPTins for premium tax, and consumer-facing lookups such as the Consumer Information Source and the Life Insurance Policy Locator. Its lines of business span property and casualty, life and annuity, health, title and fraternal across the United States. Its API posture is partner-gated and closed: there is no developer portal at developer/developers/docs.naic.org (all NXDOMAIN), no documented self-serve API, and no downloadable OpenAPI anywhere on naic.org or serff.com. SERFF does operate real integration services - Legacy SPI (two-way PUSH/PULL), Legacy SIS (one-way PULL) and a Modernized Data API (one-way PULL), in PROD and BETA - but they are named only on a support checklist, provisioned by emailing wsrequest@naic.org, and fronted by Okta login walls. Bulk regulatory data is licensed by contract through idp@naic.org rather than served over an API. There is, however, one real and entirely undocumented public machine surface: content.naic.org runs Drupal 11 and serves a live, anonymously readable JSON:API v1.1 at /jsonapi, whose resource index enumerates 284 resource types and exposes the model law corpus with its MDL numbers, the state insurance department regulator directory, committees, insurance topics, publications, CIPR research and the newsroom. The NAIC also publishes a first-party llms.txt declaring AI usage preferences, attribution requirements and crawl limits - so its stated contract with automated consumers is more explicit than its contract with API developers.",
+     "score": 26.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 14.0,
+      "governance": 3.1,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 38.6,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 37.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 125
     },
     {
@@ -5507,7 +5507,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5551,7 +5551,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5595,7 +5595,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5639,7 +5639,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -5683,7 +5683,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5727,7 +5727,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5772,7 +5772,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5817,7 +5817,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5862,7 +5862,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5906,7 +5906,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5951,7 +5951,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5988,7 +5988,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 27.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6025,7 +6025,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6069,7 +6069,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -6114,7 +6114,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6151,7 +6151,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6188,7 +6188,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -6233,7 +6233,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -6277,7 +6277,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6321,7 +6321,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6366,7 +6366,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6411,7 +6411,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -6455,7 +6455,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6499,7 +6499,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -6543,7 +6543,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6588,7 +6588,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6626,7 +6626,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6664,7 +6664,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6701,7 +6701,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6739,7 +6739,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -6784,7 +6784,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6828,7 +6828,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6873,7 +6873,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6911,7 +6911,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6955,7 +6955,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7000,7 +7000,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7038,7 +7038,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -7083,7 +7083,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7121,7 +7121,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7159,7 +7159,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7197,7 +7197,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7242,7 +7242,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -7286,7 +7286,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -7331,7 +7331,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -7376,7 +7376,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7421,7 +7421,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7466,7 +7466,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7511,7 +7511,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7549,7 +7549,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7593,7 +7593,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 12.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7630,7 +7630,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7668,7 +7668,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -7713,7 +7713,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7758,7 +7758,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7803,7 +7803,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7848,7 +7848,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7892,7 +7892,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -7937,7 +7937,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -7982,7 +7982,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -8026,7 +8026,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8071,7 +8071,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -8116,7 +8116,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -8161,7 +8161,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -8205,7 +8205,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8250,7 +8250,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -8295,7 +8295,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -8340,7 +8340,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -8384,7 +8384,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8421,7 +8421,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -8466,7 +8466,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8511,7 +8511,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8556,7 +8556,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8601,7 +8601,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8646,7 +8646,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8691,7 +8691,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8736,7 +8736,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8781,7 +8781,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8826,7 +8826,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8871,7 +8871,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8916,7 +8916,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8961,7 +8961,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9006,7 +9006,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9051,7 +9051,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9095,7 +9095,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -9140,7 +9140,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -9184,7 +9184,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9229,7 +9229,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9274,7 +9274,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9318,7 +9318,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9363,7 +9363,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9408,7 +9408,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9452,7 +9452,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9490,7 +9490,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9535,7 +9535,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9580,7 +9580,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9625,7 +9625,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9670,7 +9670,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9715,7 +9715,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9760,7 +9760,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9805,7 +9805,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9849,7 +9849,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9893,7 +9893,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9938,7 +9938,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9993,7 +9993,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10037,7 +10037,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -10081,7 +10081,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10125,7 +10125,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10170,7 +10170,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10215,7 +10215,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10260,7 +10260,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10304,7 +10304,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -10348,7 +10348,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10392,7 +10392,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10436,7 +10436,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10480,7 +10480,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10524,7 +10524,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10568,7 +10568,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10612,7 +10612,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10657,7 +10657,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10702,7 +10702,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10746,7 +10746,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10790,7 +10790,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10834,7 +10834,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10879,7 +10879,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10924,7 +10924,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10968,7 +10968,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11012,7 +11012,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11056,7 +11056,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11101,7 +11101,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11146,7 +11146,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11191,7 +11191,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -11235,7 +11235,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11280,7 +11280,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11324,7 +11324,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11368,7 +11368,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11412,7 +11412,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -11456,7 +11456,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11500,7 +11500,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11545,7 +11545,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11590,7 +11590,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11634,7 +11634,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -11678,7 +11678,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",

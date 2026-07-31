@@ -4,68 +4,12 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Agilent Technologies",
-     "slug": "agilent-technologies",
-     "description": "Agilent Technologies is a global leader in life sciences, diagnostics, and applied chemical markets, providing instruments, software, services, and consumables for laboratory workflows. Agilent offers APIs for laboratory operations management including iLab for core facility billing and scheduling, SLIMS for laboratory information management, CrossLab Asset Manager for instrument management, and VWorks for laboratory automation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png",
-     "score": 46.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 69.1,
-      "governance": 68.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
    "band": "thin",
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Teledyne Technologies",
@@ -84,7 +28,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -95,6 +39,51 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "Agilent Technologies",
+     "slug": "agilent-technologies",
+     "description": "Agilent Technologies is a global leader in life sciences, diagnostics, and applied chemical markets, providing instruments, software, services, and consumables for laboratory workflows. Agilent offers APIs for laboratory operations management including iLab for core facility billing and scheduling, SLIMS for laboratory information management, CrossLab Asset Manager for instrument management, and VWorks for laboratory automation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png",
+     "score": 38.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 32.4,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
@@ -122,7 +111,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -178,7 +167,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -223,7 +212,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -268,7 +257,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -313,7 +302,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -334,7 +323,8 @@
      },
      "rank": 7
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "minimal",
@@ -360,7 +350,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -405,7 +395,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -449,7 +439,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -494,7 +484,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -539,7 +529,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -577,7 +567,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -615,7 +605,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -653,7 +643,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -691,7 +681,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -729,7 +719,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -767,7 +757,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -805,7 +795,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -8,7 +8,7 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.7
+schema_version: 0.8
 last_updated: '2026-07-31'
 maintainer: kin@apievangelist.com
 
@@ -204,6 +204,21 @@ provenance:
     asyncapi_events: asyncapi          # agent readiness, 6 pts
     agentic_access: agentic_access     # agent readiness, 10 pts
     conformance_declared: conformance  # governance, 6 pts
+
+  # 0.8: every check in these artifact blocks is provenance-graded, not just the
+  # presence check. Grading only `contract_present` was a half-measure — 20 of
+  # the 132 points in contract_quality — so a provider whose entire spec corpus
+  # API Evangelist wrote still earned full credit for info_complete,
+  # operations_summary_coverage, operationIds, response_coverage and the rest:
+  # spec craftsmanship it had no part in. An explicit per-check entry above wins
+  # over the class rule here.
+  #
+  # This grades DOWN to the derived floor (0.25), not to zero, and deliberately
+  # so: a thoroughly modeled OpenAPI with real descriptions and stable
+  # operationIds genuinely helps a consumer whatever its provenance. The credit
+  # table is a multiplier, not a gate.
+  applies_to_artifact:
+    openapi: openapi
 
 # ---------------------------------------------------------------------------
 # Facet weights for the composite provider score.
@@ -1700,7 +1715,7 @@ bands:
     label: Exemplar
     min: 66
     range: 66+
-    share: 1.3%
+    share: 1.2%
     description: >
       Reference-quality API operations across every facet — a rich contract, published
       governance, transparent operations, and machine-readable commercial terms. The
@@ -1709,7 +1724,7 @@ bands:
     label: Strong
     min: 56
     range: 56 – 65.9
-    share: 4.4%
+    share: 4.3%
     description: >
       Solid contracts, transparent operations, and an easy start. Typically complete on
       four or five facets with one clear soft spot — most often governance or a missing
@@ -1718,7 +1733,7 @@ bands:
     label: Developing
     min: 42
     range: 42 – 55.9
-    share: 13.8%
+    share: 13.7%
     description: >
       Real signal across most facets with visible, nameable gaps. The contract exists
       but is thin on descriptions or examples, or the portal is good while governance
@@ -1727,7 +1742,7 @@ bands:
     label: Thin
     min: 28
     range: 28 – 41.9
-    share: 14.4%
+    share: 14.7%
     description: >
       Limited machine-readable signal and partial portal coverage. Usually a provider
       with documentation a human can read but little a machine or agent can consume

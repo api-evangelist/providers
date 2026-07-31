@@ -28,7 +28,7 @@
       "commercial_clarity": 100.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -74,7 +74,7 @@
       "commercial_clarity": 100.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -120,7 +120,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -166,7 +166,7 @@
       "commercial_clarity": 81.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -212,7 +212,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -251,7 +251,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -290,7 +290,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -327,8 +327,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 9,
-   "shown": 9,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Unit",
@@ -347,7 +347,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -393,7 +393,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -432,7 +432,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -477,7 +477,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -522,7 +522,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -552,52 +552,6 @@
      "rank": 12
     },
     {
-     "name": "Block",
-     "slug": "block",
-     "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including Square (commerce and payments), Cash App (personal finance and investing), Afterpay (buy now pay later), TIDAL (music streaming), and Spiral (open-source Bitcoin development). The Square API enables developers to build commerce applications with payment processing, order management, catalog, customer engagement, and business operations capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png",
-     "score": 61.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 58.1,
-      "governance": 68.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 45.7,
-      "commercial_clarity": 84.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Gateways & PSPs",
-     "rank": 13
-    },
-    {
      "name": "Authorize.net",
      "slug": "authorize-net",
      "description": "Authorize.net is a leading payment gateway providing secure online payment processing for merchants. It offers a POST-based XML/JSON API, Accept.js hosted payment forms, the Accept Hosted solution, recurring billing (ARB), customer profile management (CIM), advanced fraud detection, and webhooks. Official SDKs are available for PHP, .NET, Java, Ruby, Python, and Node.js.",
@@ -614,7 +568,7 @@
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -641,7 +595,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Dwolla",
@@ -660,7 +614,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -687,7 +641,7 @@
       "dry_run_mode": false
      },
      "tier": "Financial Data & Aggregation",
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "TabaPay",
@@ -705,7 +659,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -732,7 +686,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 16
+     "rank": 15
     }
    ],
    "open": true
@@ -742,8 +696,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 20,
-   "shown": 20,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Circle",
@@ -762,7 +716,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -789,7 +743,7 @@
       "dry_run_mode": false
      },
      "tier": "Crypto & Stablecoin Rails",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Paxos",
@@ -807,7 +761,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -834,7 +788,7 @@
       "dry_run_mode": false
      },
      "tier": "Crypto & Stablecoin Rails",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Cash App",
@@ -853,7 +807,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -880,6 +834,52 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
+     "rank": 18
+    },
+    {
+     "name": "Block",
+     "slug": "block",
+     "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including Square (commerce and payments), Cash App (personal finance and investing), Afterpay (buy now pay later), TIDAL (music streaming), and Spiral (open-source Bitcoin development). The Square API enables developers to build commerce applications with payment processing, order management, catalog, customer engagement, and business operations capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png",
+     "score": 53.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 22.1,
+      "governance": 68.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 45.7,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Gateways & PSPs",
      "rank": 19
     },
     {
@@ -899,7 +899,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -945,7 +945,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -991,7 +991,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1037,7 +1037,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1083,7 +1083,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 38.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1121,7 +1121,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1167,7 +1167,7 @@
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1213,7 +1213,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1258,7 +1258,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1304,7 +1304,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1350,7 +1350,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1396,7 +1396,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1442,7 +1442,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1472,52 +1472,6 @@
      "rank": 32
     },
     {
-     "name": "Clover",
-     "slug": "clover",
-     "description": "Clover is a Fiserv-owned point-of-sale platform for small and mid-size merchants. The Clover developer platform exposes the Clover REST API for inventory/orders/customers/transactions, the Ecommerce API for online payments, an Android Payments API and Clover Android SDK for native apps on Clover devices, the REST Pay Display API for semi-integrated POS, the Remote Pay SDKs (cloud, Windows, iOS, Android), and the Clover Go SDK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/screenshots/clover-2026-06-20T174623.png",
-     "score": 43.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 62.0,
-      "governance": 68.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 42.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Acquirers & Processors",
-     "rank": 33
-    },
-    {
      "name": "Brex",
      "slug": "brex",
      "description": "Brex is the first fully unified spend platform with global corporate cards, expense management, reimbursements, travel, and bill pay. Brex makes it easy for finance teams to control all of their spend, all in one place. Using the Brex API, you can power your internal tools and create custom workflows.",
@@ -1534,7 +1488,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1554,7 +1508,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "Chargebee",
@@ -1573,7 +1527,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1600,53 +1554,7 @@
       "dry_run_mode": false
      },
      "tier": "Billing & Subscriptions",
-     "rank": 35
-    },
-    {
-     "name": "NCR",
-     "slug": "ncr",
-     "description": "NCR Corporation separated in October 2023 into two independent public companies: NCR Voyix, a global provider of digital commerce solutions for retailers and restaurants, and NCR Atleos, a leader in expanding self-directed banking through ATM networks. NCR Voyix operates the Voyix Commerce Platform, an API-based cloud architecture (the Business Services Platform) that powers unified-commerce POS, ecommerce, and payments for retail and restaurants. Developers access it at developer.ncrvoyix.com using AccessKey (HMAC SHA-512) authentication against api.ncr.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png",
-     "score": 42.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 60.4,
-      "governance": 68.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 21.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Acquirers & Processors",
-     "rank": 36
+     "rank": 34
     }
    ]
   },
@@ -1655,8 +1563,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 19,
-   "shown": 19,
+   "count": 21,
+   "shown": 21,
    "providers": [
     {
      "name": "Visa",
@@ -1675,7 +1583,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1702,7 +1610,7 @@
       "dry_run_mode": false
      },
      "tier": "Card Networks",
-     "rank": 37
+     "rank": 35
     },
     {
      "name": "Fiserv",
@@ -1721,7 +1629,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1748,7 +1656,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 38
+     "rank": 36
     },
     {
      "name": "Modern Treasury",
@@ -1767,7 +1675,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1794,7 +1702,7 @@
       "dry_run_mode": false
      },
      "tier": "Financial Data & Aggregation",
-     "rank": 39
+     "rank": 37
     },
     {
      "name": "Basis Theory",
@@ -1813,7 +1721,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1840,7 +1748,7 @@
       "dry_run_mode": false
      },
      "tier": "Fraud, Risk & Identity",
-     "rank": 40
+     "rank": 38
     },
     {
      "name": "Tipalti",
@@ -1859,7 +1767,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1879,7 +1787,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 41
+     "rank": 39
     },
     {
      "name": "American Express",
@@ -1898,7 +1806,7 @@
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1925,7 +1833,7 @@
       "dry_run_mode": false
      },
      "tier": "Card Networks",
-     "rank": 42
+     "rank": 40
     },
     {
      "name": "Euronet Worldwide",
@@ -1944,7 +1852,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1971,7 +1879,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 43
+     "rank": 41
     },
     {
      "name": "Melio",
@@ -1990,7 +1898,7 @@
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2010,7 +1918,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 44
+     "rank": 42
     },
     {
      "name": "FedNow Service",
@@ -2029,7 +1937,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2056,7 +1964,7 @@
       "dry_run_mode": false
      },
      "tier": "Domestic Rails & Schemes",
-     "rank": 45
+     "rank": 43
     },
     {
      "name": "Cross River",
@@ -2075,7 +1983,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2102,7 +2010,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 46
+     "rank": 44
     },
     {
      "name": "BILL",
@@ -2121,7 +2029,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2148,7 +2056,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 47
+     "rank": 45
     },
     {
      "name": "Worldpay",
@@ -2166,7 +2074,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2193,7 +2101,53 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 48
+     "rank": 46
+    },
+    {
+     "name": "Clover",
+     "slug": "clover",
+     "description": "Clover is a Fiserv-owned point-of-sale platform for small and mid-size merchants. The Clover developer platform exposes the Clover REST API for inventory/orders/customers/transactions, the Ecommerce API for online payments, an Android Payments API and Clover Android SDK for native apps on Clover devices, the REST Pay Display API for semi-integrated POS, the Remote Pay SDKs (cloud, Windows, iOS, Android), and the Clover Go SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/screenshots/clover-2026-06-20T174623.png",
+     "score": 35.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 24.8,
+      "governance": 68.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 42.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Acquirers & Processors",
+     "rank": 47
     },
     {
      "name": "Global Payments",
@@ -2212,7 +2166,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2239,7 +2193,7 @@
       "dry_run_mode": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 49
+     "rank": 48
     },
     {
      "name": "Paymentus",
@@ -2257,7 +2211,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2284,7 +2238,7 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 50
+     "rank": 49
     },
     {
      "name": "Discover",
@@ -2303,7 +2257,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2323,6 +2277,52 @@
       "dry_run_mode": false
      },
      "tier": "Card Networks",
+     "rank": 50
+    },
+    {
+     "name": "NCR",
+     "slug": "ncr",
+     "description": "NCR Corporation separated in October 2023 into two independent public companies: NCR Voyix, a global provider of digital commerce solutions for retailers and restaurants, and NCR Atleos, a leader in expanding self-directed banking through ATM networks. NCR Voyix operates the Voyix Commerce Platform, an API-based cloud architecture (the Business Services Platform) that powers unified-commerce POS, ecommerce, and payments for retail and restaurants. Developers access it at developer.ncrvoyix.com using AccessKey (HMAC SHA-512) authentication against api.ncr.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png",
+     "score": 34.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 24.4,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 21.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Acquirers & Processors",
      "rank": 51
     },
     {
@@ -2342,7 +2342,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2387,7 +2387,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2433,7 +2433,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2478,7 +2478,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2534,7 +2534,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2580,7 +2580,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2625,7 +2625,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2670,7 +2670,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2715,7 +2715,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2761,7 +2761,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2807,7 +2807,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2846,7 +2846,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2892,7 +2892,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2947,7 +2947,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2993,7 +2993,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3038,7 +3038,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3077,7 +3077,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

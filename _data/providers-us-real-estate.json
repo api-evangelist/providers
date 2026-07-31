@@ -4,62 +4,12 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "Yardi",
-     "slug": "yardi",
-     "description": "Yardi Systems, Inc. (Goleta, California) builds the investment and property management software that residential, commercial, affordable housing, public housing, military housing, self-storage, coworking and senior living operators run as their system of record — Voyager, Breeze, RentCafe, Elevate, Investment Suite, Matrix, Kube and Virtuoso. It sits on the systems-of-record rung of the real estate value chain: the ledger and operating platform a landlord or asset manager runs on, not a listing portal and not a registry operator. Its API posture, stated honestly, is licensed-access-only and partner-gated. There is no public developer portal — developer., developers., api. and docs. hosts do not resolve on yardi.com, and the /platform/ and /platform/api/ paths previously catalogued here return HTTP 404. Real interfaces exist in volume, but only behind the Voyager Standard Interface Partnership Program (SIPP): an application, a signed Data Exchange Agreement per interface type, a company at least two years old with three or more active Voyager clients, and an annual license fee per interface that is in some cases charged per transaction. A development sandbox is provided only after acceptance. The public \"find an interface partner\" page is a directory of 450+ already-accepted vendors across twelve interface categories, not documentation — its only calls to action are \"Talk to sales\" and \"Contact us\". Three public, machine-readable or anonymously readable surfaces do exist, and none of them is the Voyager API. Yardi ships a first-party MCP server, the Virtuoso Connector, whose OAuth 2.1 authorization contract is published anonymously on mcp.virtuoso.ai even though its tool list is not. status.yardi.com runs a full Atlassian Statuspage with an unauthenticated JSON API across 134 components in 16 product groups. And centershiftdevx.com, the legacy CenterShift developer site carried forward into Yardi Store, still serves genuine SWS2 endpoint documentation to anonymous readers — the only Yardi property that does. Every OpenAPI, JSON Schema, GraphQL schema, Postman collection and derived governance artifact in this repository was written by API Evangelist from Yardi's own interface naming and public partner documentation. Yardi publishes no OpenAPI, no WSDL, no OData $metadata and no machine-readable contract of any kind.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png",
-     "score": 57.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 62.2,
-      "governance": 58.3,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.7,
-     "agent_score": 45.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Property Management",
-     "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
    "band": "developing",
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Spark Platform",
@@ -77,7 +27,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 38.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -97,6 +47,45 @@
       "dry_run_mode": false
      },
      "tier": "Listing Data Infrastructure",
+     "rank": 1
+    },
+    {
+     "name": "Yardi",
+     "slug": "yardi",
+     "description": "Yardi Systems, Inc. (Goleta, California) builds the investment and property management software that residential, commercial, affordable housing, public housing, military housing, self-storage, coworking and senior living operators run as their system of record — Voyager, Breeze, RentCafe, Elevate, Investment Suite, Matrix, Kube and Virtuoso. It sits on the systems-of-record rung of the real estate value chain: the ledger and operating platform a landlord or asset manager runs on, not a listing portal and not a registry operator. Its API posture, stated honestly, is licensed-access-only and partner-gated. There is no public developer portal — developer., developers., api. and docs. hosts do not resolve on yardi.com, and the /platform/ and /platform/api/ paths previously catalogued here return HTTP 404. Real interfaces exist in volume, but only behind the Voyager Standard Interface Partnership Program (SIPP): an application, a signed Data Exchange Agreement per interface type, a company at least two years old with three or more active Voyager clients, and an annual license fee per interface that is in some cases charged per transaction. A development sandbox is provided only after acceptance. The public \"find an interface partner\" page is a directory of 450+ already-accepted vendors across twelve interface categories, not documentation — its only calls to action are \"Talk to sales\" and \"Contact us\". Three public, machine-readable or anonymously readable surfaces do exist, and none of them is the Voyager API. Yardi ships a first-party MCP server, the Virtuoso Connector, whose OAuth 2.1 authorization contract is published anonymously on mcp.virtuoso.ai even though its tool list is not. status.yardi.com runs a full Atlassian Statuspage with an unauthenticated JSON API across 134 components in 16 product groups. And centershiftdevx.com, the legacy CenterShift developer site carried forward into Yardi Store, still serves genuine SWS2 endpoint documentation to anonymous readers — the only Yardi property that does. Every OpenAPI, JSON Schema, GraphQL schema, Postman collection and derived governance artifact in this repository was written by API Evangelist from Yardi's own interface naming and public partner documentation. Yardi publishes no OpenAPI, no WSDL, no OData $metadata and no machine-readable contract of any kind.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png",
+     "score": 49.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 29.7,
+      "governance": 58.3,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.8,
+     "agent_score": 45.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Property Management",
      "rank": 2
     },
     {
@@ -115,7 +104,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 54.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -153,7 +142,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -191,7 +180,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 31.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -230,7 +219,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -268,7 +257,7 @@
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -306,7 +295,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 38.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -344,7 +333,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -401,7 +390,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -439,7 +428,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 22.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -477,7 +466,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -522,7 +511,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -568,7 +557,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -607,7 +596,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -646,7 +635,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -685,7 +674,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -731,7 +720,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -770,7 +759,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -808,7 +797,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -847,7 +836,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -885,7 +874,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -923,7 +912,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -961,7 +950,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 38.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1000,7 +989,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 27.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1039,7 +1028,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1078,7 +1067,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1123,7 +1112,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1162,7 +1151,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1184,7 +1173,8 @@
      "tier": "Property Management",
      "rank": 29
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "emerging",
@@ -1210,7 +1200,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1255,7 +1245,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1294,7 +1284,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1333,7 +1323,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1372,7 +1362,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1411,7 +1401,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1449,7 +1439,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1487,7 +1477,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1526,7 +1516,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1565,7 +1555,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1603,7 +1593,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1658,7 +1648,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1704,7 +1694,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1750,7 +1740,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1788,7 +1778,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1827,7 +1817,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.7,
+     "schema_version": 0.8,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
