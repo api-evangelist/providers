@@ -15,19 +15,19 @@
      "name": "TUI Group",
      "slug": "tui-group",
      "description": "TUI Group is the world's largest integrated leisure tourism business — a vertically integrated tour operator that owns the hotels, the cruise ships, the airlines and the retail brands it sells through, serving 34.7 million customers a year across tour operators in 18 countries. The United Kingdom is its largest single source market: TUI UK & Ireland and the UK-registered carrier TUI Airways sit at the centre of the group, alongside Marella Cruises, TUI Musement and the TUI Blue, Robinson and TUI Magic Life hotel brands. The group is domiciled in Hannover, Germany and listed on the Frankfurt MDAX, having ended its London primary listing in 2023. TUI sits at the supply end of the travel distribution chain rather than the intermediation end — it is the principal that creates package holidays, not a GDS or a channel manager — and it distributes chiefly through its own retail estate and websites, supplemented by B2B feeds to travel agents, OTAs and metasearch partners. On the API front TUI runs a real, publicly readable developer portal at developer.tui fronted by Apigee X, with 21 documented API products covering flight shopping and booking, departure control, packages, accommodation content, cruise and metasearch distribution. The documentation is genuinely open — base URLs, endpoints, auth flows, quota tiers, downloadable Postman collections and a public OpenAPI 3.0 document for every one of the 21 products (1,261 operations in total, served from the portal's Swagger UI) are all published without a login — but the runtime is not: every API product requires a partner-manager approval, most airline APIs additionally require a Navitaire New Skies agent profile and a production IP whitelist, and the TUI fly OTA API states plainly that step one is to conclude a contract. There is no self-serve key, no published developer terms of use (the portal's terms page is still unfilled lorem-ipsum placeholder text), no idempotency contract on any booking or payment operation, no status page, no event or webhook surface, and no documented bulk-export or data-portability operation for a departing partner.",
-     "score": 52.2,
+     "score": 53.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 51.5,
+      "contract_quality": 55.3,
       "governance": 20.8,
       "operational_transparency": 63.2,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -65,7 +65,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 32.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -91,19 +91,19 @@
      "name": "UK Civil Aviation Authority",
      "slug": "uk-caa",
      "description": "The UK Civil Aviation Authority (CAA) is the United Kingdom's independent aviation regulator and a public corporation of the Department for Transport. It licenses UK airlines, registers UK civil aircraft on the G-INFO register, regulates airspace and airports, economically regulates Heathrow and Gatwick, enforces UK air passenger rights, and — the part that matters most to travel distribution — runs the Air Travel Organiser's Licence (ATOL) scheme, which is the statutory gate every business selling flight-inclusive packages to UK consumers must pass through, including sellers established outside the UK. The CAA sits above the distribution chain rather than inside it: it does not distribute inventory, does not operate a GDS or NDC connection, and has no NDC posture of its own. Its API posture is thin and honest to record — there is no developer portal, no OpenAPI, and no published aviation data API. The only documented, self-serve, key-free public API on a CAA domain is the Citizen Space (Delib) consultation API at consultations.caa.co.uk/api, a vendor platform API rather than an aviation data API. The aviation surfaces that do exist — the G-INFO aircraft register search and the Check an ATOL search — are undocumented ASP.NET JSON backends whose CORS policy is locked to www.caa.co.uk and which are reCAPTCHA-gated. Bulk aviation data is delivered as CSV, PDF and XLSX files behind opaque GUID download URLs, and the full G-INFO aircraft register is a paid subscription emailed as an MS Excel file licensed for use on a single PC. Home market is the United Kingdom.",
-     "score": 42.0,
+     "score": 42.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 64.4,
+      "contract_quality": 67.4,
       "governance": 21.9,
       "operational_transparency": 26.3,
       "developer_ergonomics": 27.7,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -147,19 +147,19 @@
      "name": "TravelPerk",
      "slug": "travelperk",
      "description": "TravelPerk is a business-travel management platform that lets companies book and manage flights, hotels, trains, and cars in one place. Its Open API gives partners and customers programmatic access to bookings and trips, invoices and expenses, travelers and members, cost centers, scheduled reports, and webhooks for real-time travel and finance data exchange with HR systems, ERPs, and expense tools.",
-     "score": 38.4,
+     "score": 39.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 57.5,
+      "contract_quality": 61.1,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -186,19 +186,19 @@
      "slug": "duffel",
      "description": "Duffel provides a single REST API for selling travel - flights from 300+ airlines, 2M+ hotel properties (Stays), loyalty programmes, and merchant-of-record payments. The Duffel API exposes offer requests, offers, orders, seat maps, order changes and cancellations, payments, and Stays search-to-booking, with webhooks for asynchronous events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/screenshots/duffel-2026-07-25T212455.png",
-     "score": 34.9,
+     "score": 35.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 52.2,
+      "contract_quality": 56.3,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -243,7 +243,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -292,7 +292,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -319,19 +319,19 @@
      "slug": "travelport",
      "description": "A global travel technology company connecting travel providers with online and offline travel agencies. Operates a commerce platform facilitating airline, hotel, and car rental bookings through its Galileo, Apollo, and Worldspan systems.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png",
-     "score": 26.2,
+     "score": 26.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.9,
+      "contract_quality": 60.1,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -376,7 +376,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -414,7 +414,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -452,7 +452,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -490,7 +490,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 14.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -538,7 +538,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -577,7 +577,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

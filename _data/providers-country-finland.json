@@ -15,19 +15,19 @@
      "name": "Nokia Network as Code",
      "slug": "nokia-network-as-code",
      "description": "Nokia Network as Code is the network-API exposure and aggregation platform operated by Nokia Oyj from Espoo, Finland, launched in September 2023 to make CAMARA-standardised mobile network capabilities commercially reachable by ordinary application developers. It sits in the middle of the telecom value chain: beneath it, Nokia's Network Exposure Platform (NEP) is deployed inside a mobile operator's core to expose that operator's network; above it, the Network as Code developer platform aggregates many operators' networks behind one contract, one credential and one set of SDKs, so a developer integrates once instead of negotiating per-carrier. Nokia states more than 75 partners in the ecosystem — telecom providers, CPaaS platforms, systems integrators and vertical ISVs — with named operator agreements including Deutsche Telekom, Globe (Philippines), Orange (France and Spain), Rakuten Mobile, Tata Communications, Telefónica, TELUS and Vodafone (UK, Netherlands, Germany, Spain, Greece). Its API posture is unusually open for this tier and should be read honestly: the full platform OpenAPI is published verbatim in a public Apache-2.0 GitHub repository (nokia/network-as-code-sdks), generated Python and TypeScript SDKs ship on PyPI and npm, signup at networkascode.nokia.io is self-serve and a SIMULATOR plan exists — but the developer console, the API catalogue and the in-portal specification viewer all sit behind a login wall, the documentation site is a client-rendered SPA that returns HTTP 200 for any path and serves no crawlable content, and reaching a real subscriber on a real network in a given market still depends on Nokia having a commercial agreement with that market's operator. The platform is delivered through a white-labelled RapidAPI Enterprise Hub, and every production call is routed through the RapidAPI gateway host network-as-code.p-eu.rapidapi.com rather than a Nokia-owned API hostname. Nokia reaches the market directly and through Google Cloud Marketplace rather than through Aduna, the rival Ericsson-led carrier joint venture.",
-     "score": 61.2,
+     "score": 62.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 58.9,
+      "contract_quality": 62.4,
       "governance": 11.5,
       "operational_transparency": 39.5,
       "developer_ergonomics": 75.5,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -71,19 +71,19 @@
      "slug": "enable-banking",
      "description": "Enable Banking is a Finland-based Open Banking connectivity engine and licensed PSD2 Account Information Service Provider (AISP) regulated by the Finnish Financial Supervisory Authority (FIN-FSA). Headquartered in Espoo, Enable Banking provides a single harmonized API across 2,700+ banks (ASPSPs) in 30 European countries, exposing Account Information Services (AIS) and Payment Initiation Services (PIS), TPP Infrastructure-as-a-Service for licensed Third Party Providers, and an eIDAS-backed JWT authentication model. The platform processes 25M+ API requests monthly across the EEA and maintains 1,000+ ASPSP integrations, serving accounting and ERP platforms, credit risk and KYC providers, wealth managers, and payment service providers including Qred Bank, Fimento, CapitalBox, and iDenfy. Enable Banking is GDPR and DORA compliant with an active PSD3 / FIDA roadmap.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/screenshots/enable-banking-2026-06-20T180647.png",
-     "score": 54.7,
+     "score": 55.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 70.3,
+      "contract_quality": 72.9,
       "governance": 58.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 58.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -116,19 +116,19 @@
      "slug": "holvi",
      "description": "Holvi is a Finnish digital business-banking service for freelancers, founders and small businesses, founded in Helsinki in 2011 and operating as a regulated Authorised Payment Institution supervised by the Finnish Financial Supervisory Authority. It combines a business account with its own IBAN, a Holvi Business Mastercard, invoicing, expense tracking, VAT calculation and bookkeeping preparation in one dashboard, serving more than 150,000 businesses across Europe with a focus on Finland, Germany and Austria. For developers, Holvi publishes a PSD2 API v2.0 for licensed Third Party Providers, exposing account information (AISP) and payment initiation (PISP, SEPA / SEPA Instant / SWIFT) with Strong Customer Authentication and optional Verification of Payee.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png",
-     "score": 46.9,
+     "score": 47.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 12.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -184,7 +184,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -229,7 +229,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -274,7 +274,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -319,7 +319,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -366,7 +366,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -404,7 +404,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -441,7 +441,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -478,7 +478,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -516,7 +516,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -553,7 +553,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -591,7 +591,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -628,7 +628,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

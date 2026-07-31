@@ -16,19 +16,19 @@
      "slug": "trimble",
      "description": "Trimble Inc. is a global technology company that provides advanced positioning, navigation, and data analytics solutions across construction, agriculture, transportation, and geospatial industries. Founded in 1978 as Trimble Navigation Limited, the company integrates GPS, laser, optical, and inertial technologies with software and services. Trimble's developer platform spans construction collaboration (Trimble Connect), commercial vehicle routing (PC*MILER, Trimble Maps), building information modeling (Tekla, SketchUp), fleet management (TruckMate, TMT, CoPilot), precision positioning (Mobile Manager, TAP Store), and construction ERP (Viewpoint). Publicly traded on NASDAQ as TRMB.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/screenshots/trimble-2026-06-20T195713.png",
-     "score": 50.4,
+     "score": 50.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 76.2,
+      "contract_quality": 78.2,
       "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -54,19 +54,19 @@
      "slug": "agco",
      "description": "AGCO is a global leader in the design, manufacture, and distribution of agricultural machinery and precision ag technology. The AGCO AgCommand API enables approved third-party developers and service providers to access machine telemetry data, location tracking, and performance metrics from AGCO Connect-ready equipment including Fendt, Massey Ferguson, Challenger, and Valtra brands.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/screenshots/agco-2026-06-20T165808.png",
-     "score": 47.4,
+     "score": 48.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 61.6,
+      "contract_quality": 64.9,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -91,19 +91,19 @@
      "name": "Toro",
      "slug": "toro",
      "description": "The Toro Company is a leading worldwide provider of innovative solutions for the outdoor environment, including turf and landscape maintenance, snow and ice management, underground utility construction, rental and specialty construction, and irrigation and outdoor lighting solutions. Toro offers smart connected products including IntelliDash for golf course management, Horizon360 for landscape business management, Lynx Central Control for irrigation, and myTurf Pro for equipment fleet management.",
-     "score": 44.0,
+     "score": 44.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 63.9,
+      "contract_quality": 66.9,
       "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -129,19 +129,19 @@
      "slug": "archer-daniels-midland",
      "description": "Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and industrial markets worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png",
-     "score": 43.6,
+     "score": 44.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -190,7 +190,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -239,7 +239,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -277,7 +277,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -315,7 +315,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -353,7 +353,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -408,7 +408,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -453,7 +453,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -491,7 +491,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -536,7 +536,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -574,7 +574,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -612,7 +612,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -650,7 +650,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -687,7 +687,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -725,7 +725,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

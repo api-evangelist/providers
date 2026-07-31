@@ -4,31 +4,31 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6,
-   "shown": 6,
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Xcel Energy",
      "slug": "xcel-energy",
      "description": "Xcel Energy is a major U.S. electricity and natural gas utility holding company headquartered in Minneapolis, Minnesota, providing service to approximately 3.7 million electricity customers and 2.1 million natural gas customers across eight Midwestern and Western states: Colorado, Minnesota, Texas, New Mexico, North Dakota, South Dakota, Michigan, and Wisconsin. Xcel Energy operates a developer portal at developer-apim.aws.xcelenergy.com that organizes APIs across customer account management, billing, payments, product and service offerings, and request service. The company provides Green Button Connect My Data APIs based on the ESPI (Energy Services Provider Interface) standard developed by NAESB, enabling authorized third-party applications to access customer energy usage data via OAuth 2.0. Xcel Energy also supports IEEE 2030.5 protocol on newer Itron Gen 5 Riva smart meters for direct local-network access to real-time energy data including solar production. Beyond data APIs, Xcel Energy is a Fortune 500 company investing in clean energy, grid modernization, electric vehicle programs, demand response, and renewable energy interconnection.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/screenshots/xcel-energy-2026-06-20T201656.png",
-     "score": 41.1,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.1,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 45.1,
+      "contract_quality": 49.7,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 23.9,
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -55,25 +55,36 @@
       "dry_run_mode": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 5,
+   "shown": 5,
+   "providers": [
     {
      "name": "CMS Energy",
      "slug": "cms-energy",
      "description": "CMS Energy is an energy holding company whose primary subsidiary is Consumers Energy, an electric and natural gas utility serving customers in Michigan. Consumers Energy participates in the Green Button Connect My Data (GBCMD) program, exposing customer-authorized energy usage data to third parties via OAuth 2.0 - typically brokered through UtilityAPI - for use in energy management, demand response, EV charging, solar, and sustainability applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/screenshots/cms-energy-2026-06-20T174637.png",
-     "score": 36.9,
+     "score": 37.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 54.4,
+      "contract_quality": 58.3,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 23.9,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -106,19 +117,19 @@
      "slug": "pg-and-e",
      "description": "Pacific Gas and Electric Company (PG&E) is one of the largest combined natural gas and electric energy companies in the United States, serving approximately 16 million people in northern and central California. PG&E offers the Share My Data API, a Green Button Connect My Data implementation providing customer- authorized access to energy usage interval data for both electricity and gas through RESTful web services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/screenshots/pg-and-e-2026-06-20T191630.png",
-     "score": 30.4,
+     "score": 31.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 52.5,
+      "contract_quality": 56.6,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -156,7 +167,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -201,7 +212,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -246,7 +257,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -302,7 +313,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -347,7 +358,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -392,7 +403,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -437,7 +448,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -482,7 +493,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -527,7 +538,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -572,7 +583,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -616,7 +627,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -661,7 +672,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -689,8 +700,7 @@
      },
      "rank": 15
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "minimal",
@@ -717,7 +727,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -762,7 +772,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -807,7 +817,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -852,7 +862,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -896,7 +906,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -941,7 +951,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -986,7 +996,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1031,7 +1041,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1076,7 +1086,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1121,7 +1131,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1165,7 +1175,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1210,7 +1220,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1255,7 +1265,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1300,7 +1310,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1345,7 +1355,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1390,7 +1400,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1434,7 +1444,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1471,7 +1481,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1508,7 +1518,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1553,7 +1563,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1591,7 +1601,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1628,7 +1638,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1665,7 +1675,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1703,7 +1713,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

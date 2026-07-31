@@ -16,19 +16,19 @@
      "slug": "avito",
      "description": "Avito is Russia's largest online classifieds platform (avito.ru), founded in 2007, where individuals and businesses buy and sell across goods, vehicles, real estate, jobs and services. For business sellers and integrators Avito publishes a public Developer Portal (developers.avito.ru) exposing 25 OpenAPI 3.0.0 REST APIs on api.avito.ru covering item/listing management, autoload feed ingestion, the buyer-seller messenger, delivery, order and stock management, ratings and reviews, advertising and CPA/promotion campaigns, short-term rental, jobs (Avito.Rabota), and Autoteka vehicle history. All APIs use OAuth 2.0 (authorization_code for acting on behalf of users, client_credentials for a business's own account) with scoped access and per-minute rate limiting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avito/refs/heads/main/screenshots/avito-2026-07-25T201949.png",
-     "score": 50.4,
+     "score": 50.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 59.9,
+      "contract_quality": 60.9,
       "governance": 20.8,
       "operational_transparency": 50.0,
       "developer_ergonomics": 53.8,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -83,7 +83,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -120,7 +120,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -169,7 +169,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

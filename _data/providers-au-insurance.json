@@ -28,7 +28,7 @@
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -73,7 +73,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -106,19 +106,19 @@
      "name": "QBE Insurance",
      "slug": "qbe",
      "description": "QBE Insurance Group Limited is a Sydney-headquartered, ASX-listed global general insurance and reinsurance group, tracing back to 1886 in Townsville, Queensland, and operating today across Australia Pacific, North America and International divisions including a Lloyd's of London syndicate. QBE writes commercial and personal property and casualty lines — property, liability, motor and compulsory third party (CTP), workers compensation, marine, aviation, trade credit, crop and specialty — distributed overwhelmingly through brokers and agents rather than direct to consumers. Its API posture reflects that distribution model and is partner-gated by design: QBE Australia runs a real, publicly browsable Azure API Management developer portal at connect.api-au.qbe.com whose catalogue, operations, schemas and examples can be read anonymously, but every product requires an approved subscription (approvalRequired true) and the broker API is keyed to named partner platforms. The portal exposes genuine quote, bind, endorse, renew, cancel and refer operations for the commercial policy lifecycle — the four real insurance verbs, minus claims/FNOL, which QBE does not expose publicly. A separate QBE North America partner API hub at partnerportal-api.qbena.com serves an empty Azure APIM catalogue to anonymous callers but does publish seven named API products in its own content pages — Quote, Bind, Master Liability, Property Inquiry, Zip Code Validate and Reconciliation and Cancellation for Renters, plus Quote for Homeowners — behind a documented client-id/secret to JWT token exchange; no endpoints or specs are exposed. QBE Hong Kong documents a partner API behind qbe.com pages that are bot-blocked to anonymous fetchers. Australia is the home market; the Consumer Data Right was designated for general insurance and then deferred, so nothing here is compelled by regulation.",
-     "score": 43.2,
+     "score": 44.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 41.1,
+      "contract_quality": 45.0,
       "governance": 21.9,
       "operational_transparency": 15.8,
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -164,7 +164,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -220,7 +220,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -253,19 +253,19 @@
      "name": "Steadfast Group",
      "slug": "steadfast-group",
      "description": "Steadfast Group Limited (ASX:SDF) is the largest general insurance broker network and the largest group of insurance underwriting agencies in Australasia, headquartered in Sydney, Australia. It is a broker-intermediary rather than a risk carrier: the Steadfast Network comprises 414 independent brokerages placing approximately $12.7 billion in gross written premium, alongside 31 underwriting agencies writing roughly 100 products across business pack, liability, professional indemnity, cyber, construction, marine, aviation, farm, strata, motor and home and contents lines, plus complementary businesses covering premium funding (IQumulate), life insurance, workplace risk, legal and compliance. Its trading technology is the Steadfast Client Trading Platform (SCTP), launched in 2009, which lets network brokers send one question set to a panel of insurers for instant comparative quotes and which transacted over $1.5 billion in GWP in CY25 across 9 insurer lines and 23 connected partners; SCTP and the INSIGHT policy management platform are being consolidated into a broader \"Steadfast Apps\" broking platform. API posture, recorded honestly - Steadfast Group publishes NO developer portal, NO API documentation and NO specification of any kind, and a full crawl of all 311 pages in the public sitemap returned zero references to a developer portal, REST API, OpenAPI or Swagger. Two genuinely machine-readable surfaces nonetheless exist and neither is announced anywhere. The consumer Flood Risk Tracker is backed by a public, anonymous, undocumented JSON API that resolves Australian addresses against the national G-NAF dataset and returns Swiss Re river-flood and storm-surge risk layers, returning RFC 9457 problem details and advertising api-supported-versions 1.0; the OpenAPI in this record was derived from the tool's own client JavaScript and from live probes. Separately, idp.steadfast.com.au is an Okta-hosted OpenID Connect provider publishing a complete anonymous discovery document with PKCE S256 and DPoP, though client registration is commercially gated. The commercial surfaces remain closed: broker.steadfast.com.au is a credentialed broker login wall, and api.steadfast.com.au and api-sf.steadfast.com.au are live but undocumented hosts returning HTTP 403 at the root. Insurer and partner connectivity into SCTP is arranged commercially, not through self-serve onboarding. The company's most notable standards signal is governance rather than implementation: founder, Managing Director and CEO Robert B. Kelly AM is Chair of the ACORD Board in New York, though no ACORD, AL3, ACORD XML or NGDS implementation detail is published anywhere on the public site. Australia has the legal machinery for open insurance but no live obligation - the Consumer Data Right was designated to extend to general insurance and then deferred, so no regulatory forcing function pushes a broker network of this scale toward a public API.",
-     "score": 37.5,
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 59.3,
+      "contract_quality": 62.8,
       "governance": 11.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 19.0,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -295,69 +295,23 @@
      "rank": 6
     },
     {
-     "name": "Insurance Council of Australia",
-     "slug": "insurance-council-australia",
-     "description": "The Insurance Council of Australia (ICA) is the representative body for Australia's general insurance industry, whose members write approximately 90% of total premium income for private sector general insurers and reinsurers, spanning home and contents, motor, travel, liability, professional indemnity, commercial property and directors and officers lines. The ICA administers the General Insurance Code of Practice, issues catastrophe and significant event declarations, operates the member Data Hub that reports claim counts, incurred losses and closed rates for declared events, and advocates on resilience, climate risk, building standards and insurance affordability. It is a market body rather than a carrier — it sells no policies and exposes no quote, bind, issue or FNOL API. Its API posture is partner-gated with no public developer program: developer, developers, docs and api subdomains do not resolve, and /developers/, /developer/, /partners/ and /integrations/ all return 404. The only integration surface is the member portal at memberportal.insurancecouncil.com.au, an Azure AD B2C (OpenID Connect authorization code) login wall for member insurers. Catastrophe and resilience data is published as PDF reports and a downloadable XLSX master file rather than through an API, and no ACORD, AL3 or NGDS reference appears anywhere on the site — Australia's insurance data seam is the Consumer Data Right, which was designated for general insurance and then deferred.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/screenshots/insurance-council-australia-2026-07-25T222633.png",
-     "score": 34.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 16.1,
-      "governance": 3.1,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 43.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 63.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Market Bodies, Standards & Regulators",
-     "rank": 7
-    },
-    {
      "name": "Cover Genius",
      "slug": "cover-genius",
      "description": "Cover Genius is an insurtech company providing embedded insurance and protection at the point of sale. The XCover distribution API lets partners create insurance offers, confirm bookings, modify and cancel policies, and receive policy lifecycle webhooks, while the XClaim API handles claims intake and instant payments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/screenshots/cover-genius-2026-06-20T175139.png",
-     "score": 33.9,
+     "score": 34.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -384,6 +338,52 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Insurance & Distribution APIs",
+     "rank": 7
+    },
+    {
+     "name": "Insurance Council of Australia",
+     "slug": "insurance-council-australia",
+     "description": "The Insurance Council of Australia (ICA) is the representative body for Australia's general insurance industry, whose members write approximately 90% of total premium income for private sector general insurers and reinsurers, spanning home and contents, motor, travel, liability, professional indemnity, commercial property and directors and officers lines. The ICA administers the General Insurance Code of Practice, issues catastrophe and significant event declarations, operates the member Data Hub that reports claim counts, incurred losses and closed rates for declared events, and advocates on resilience, climate risk, building standards and insurance affordability. It is a market body rather than a carrier — it sells no policies and exposes no quote, bind, issue or FNOL API. Its API posture is partner-gated with no public developer program: developer, developers, docs and api subdomains do not resolve, and /developers/, /developer/, /partners/ and /integrations/ all return 404. The only integration surface is the member portal at memberportal.insurancecouncil.com.au, an Azure AD B2C (OpenID Connect authorization code) login wall for member insurers. Catastrophe and resilience data is published as PDF reports and a downloadable XLSX master file rather than through an API, and no ACORD, AL3 or NGDS reference appears anywhere on the site — Australia's insurance data seam is the Consumer Data Right, which was designated for general insurance and then deferred.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/screenshots/insurance-council-australia-2026-07-25T222633.png",
+     "score": 34.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 16.1,
+      "governance": 3.1,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 43.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 63.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Market Bodies, Standards & Regulators",
      "rank": 8
     },
     {
@@ -403,7 +403,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -449,7 +449,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -494,7 +494,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -550,7 +550,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -596,7 +596,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -641,7 +641,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -687,7 +687,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -732,7 +732,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -777,7 +777,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -822,7 +822,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -878,7 +878,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -924,7 +924,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

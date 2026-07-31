@@ -16,19 +16,19 @@
      "slug": "doku",
      "description": "DOKU (PT Nusa Satu Inti Artha) is Indonesia's pioneering payment gateway, founded in 2007 and licensed by Bank Indonesia as a Category 1 Payment Service Provider. Its developer platform exposes a hosted Checkout API plus a full suite of Bank Indonesia SNAP (Standar Nasional Open API Pembayaran) endpoints for Virtual Account, e-Wallet, Direct Debit, QRIS, and Kirim (payout/disbursement), all settling in Indonesian Rupiah (IDR).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png",
-     "score": 69.2,
+     "score": 69.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 64.7,
+      "contract_quality": 67.7,
       "governance": 20.8,
       "operational_transparency": 68.4,
       "developer_ergonomics": 73.4,
       "commercial_clarity": 100.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -72,19 +72,19 @@
      "slug": "komerce",
      "description": "Komerce is an Indonesian end-to-end e-commerce enabler serving more than 50,000 online sellers and SMEs with an integrated suite covering fulfilment, logistics, marketplace operations, CRM, advertising and payments — Komship, Kompack, Komplace, Komchat, Komcards, Komtim, Komads and Komclass. Its developer surface is published under the RajaOngkir brand and exposes four APIs: Shipping Cost (Cek Ongkir) for domestic and international rate lookup and airway-bill tracking across 17 Indonesian couriers, Shipping Delivery (Komship) for creating orders, requesting pickup, printing labels and tracking shipments, Payment Service for Virtual Account and QRIS transactions with signed callbacks, and QRISLY for turning a static QRIS into dynamic per-transaction QRIS codes. All four authenticate with a per-product header API key issued from the Collaborator dashboard, and the delivery, payment and QRIS products run a full isolated sandbox.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png",
-     "score": 57.0,
+     "score": 57.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 66.4,
+      "contract_quality": 69.2,
       "governance": 21.9,
       "operational_transparency": 23.7,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 76.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -120,27 +120,27 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Kredivo",
      "slug": "kredivo",
      "description": "Kredivo is a Southeast Asian consumer credit platform operated by FinAccel (Kredivo Group), best known for its \"Buy Now, Pay Later\" product offering instant real-time credit decisioning for online and offline purchases across Indonesia, Vietnam, Thailand and the Philippines. For developers, Kredivo publishes the Kredivo Checkout API — a merchant-facing HTTP/JSON payment API that lets an ecommerce store, marketplace, POS or EDC terminal offer installment payment (30 days through 24 months) at checkout. The API covers 2-click redirect checkout, 0-click tokenized express checkout, dynamic and static QR checkout for physical stores, EDC terminal checkout, transaction status polling, full and partial cancellation, user credit-limit lookup, and an installment/interest calculator, with asynchronous push notifications to a merchant-supplied push_uri and a signature-key confirmation callback. Kredivo Group also operates KrediFazz (instant cash loans), Krom (digital bank), Timo and GajiGesa.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/screenshots/kredivo-2026-07-25T224258.png",
-     "score": 52.4,
+     "score": 52.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 69.5,
+      "contract_quality": 72.1,
       "governance": 11.5,
       "operational_transparency": 34.2,
       "developer_ergonomics": 69.0,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -184,7 +184,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -229,7 +229,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -256,35 +256,25 @@
       "dry_run_mode": false
      },
      "rank": 5
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
-   "providers": [
+    },
     {
      "name": "IDRX",
      "slug": "idrx",
      "description": "IDRX is a stablecoin pegged 1:1 to the Indonesian Rupiah (IDR), issued by a regulated Indonesian entity and available across multiple EVM chains and Solana. Its REST API lets business (organization) accounts onboard KYC-verified users, register bank accounts, and process mint (fiat IDR -> IDRX / USDT on-chain), redeem (IDRX -> fiat IDR to a bank account), and bridge (cross-chain) transactions, plus query swap rates, fees, supported bank methods, and transaction history. Requests are authenticated with an API key and an HMAC-SHA256 request signature, and settlement is confirmed via single-delivery webhooks or transaction-history polling. IDRX is a portfolio company of a16z (crypto).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/screenshots/idrx-2026-07-25T222044.png",
-     "score": 41.7,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.2,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 72.6,
+      "contract_quality": 74.9,
       "governance": 11.5,
       "operational_transparency": 13.2,
       "developer_ergonomics": 53.8,
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -311,7 +301,17 @@
       "dry_run_mode": false
      },
      "rank": 6
-    },
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 7,
+   "shown": 7,
+   "providers": [
     {
      "name": "Shipper",
      "slug": "shipper",
@@ -328,7 +328,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 32.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -353,19 +353,19 @@
      "name": "Midtrans",
      "slug": "midtrans",
      "description": "Midtrans is an Indonesian payment gateway (part of the GoTo Group, alongside Gojek) that lets businesses accept online payments across cards, bank transfer / virtual accounts, e-wallets (GoPay, ShopeePay, QRIS), over-the-counter outlets, and cardless credit. It exposes Snap - a hosted / drop-in checkout - and a Core API for building custom checkout flows (charge, status, cancel, expire, refund, and card / GoPay tokenization), plus Payment Link, recurring Subscriptions, and Iris for disbursements / payouts. All APIs are REST over HTTPS with separate production (api.midtrans.com) and sandbox environments, authenticated with a Server Key over HTTP Basic (key as username, empty password); a public Client Key is used for browser-side card tokenization.",
-     "score": 36.3,
+     "score": 37.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 59.7,
+      "contract_quality": 63.1,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -397,19 +397,19 @@
      "name": "Telkomsel",
      "slug": "telkomsel",
      "description": "Telkomsel (PT Telekomunikasi Selular) is Indonesia's largest mobile network operator. Through DigiHub (digihub.telkomsel.com), its API marketplace, Telkomsel exposes network and subscriber APIs to developers and enterprises - A2P SMS and USSD messaging, subscriber status checks, identity verification (NIK/KTP matching), location verification, SIM swap detection (including a CAMARA-style API), consent management, and telco-data scoring products. Telkomsel is a GSMA Open Gateway participant, launching Number Verify, SIM Swap, and Device Location network APIs alongside the other Indonesian carriers, and partners with Vonage to distribute its network APIs globally. Access requires a DigiHub account; plans range from free sandbox trials and prepaid quota packages to enterprise tier and pay-as-you-use contracts.",
-     "score": 36.3,
+     "score": 37.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 58.5,
+      "contract_quality": 62.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -438,67 +438,23 @@
      "rank": 9
     },
     {
-     "name": "Xendit",
-     "slug": "xendit",
-     "description": "Xendit is a payments infrastructure provider for Southeast Asia, giving businesses in Indonesia, the Philippines, and the wider region a single REST API to accept payments, disburse funds, and manage money movement. The unified Payments API accepts virtual accounts, e-wallets (OVO, DANA, GoPay, ShopeePay, GCash, GrabPay, Maya), QR (QRIS / QR Ph), cards, direct debit, and retail outlets through Payment Requests and Payment Tokens; complementary APIs cover hosted Invoices, Payouts / disbursements, Balance, Transactions, Customers, and Refunds. All requests are authenticated with a secret API key over HTTP Basic against the base host https://api.xendit.co.",
-     "score": 34.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 60.2,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 18.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 10
-    },
-    {
      "name": "Kata.ai",
      "slug": "kataai",
      "description": "Kata.ai is an Indonesian enterprise conversational-AI company that builds AI agents and chatbots for customer experience, marketing, sales, and HR across financial services, retail, healthcare, automotive, and government. Its developer-facing Kata Platform lets teams create bot projects that bundle a Bot, CMS, and a Natural Language Understanding (NLU) model, then deploy them and connect messaging channels such as LINE, Telegram, WhatsApp, Facebook Messenger, Slack, and Qiscus. Kata.ai exposes a public REST API for managing projects, bots, deployments, environments, channels, teams, and NLUs, an NL Prediction API for entity extraction from a trained model, the kata command line tool, and the Aksara design system. Backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/screenshots/kataai-2026-07-25T223526.png",
-     "score": 34.4,
+     "score": 35.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 41.6,
+      "contract_quality": 46.6,
       "governance": 11.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 49.5,
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -524,25 +480,69 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 10
+    },
+    {
+     "name": "Xendit",
+     "slug": "xendit",
+     "description": "Xendit is a payments infrastructure provider for Southeast Asia, giving businesses in Indonesia, the Philippines, and the wider region a single REST API to accept payments, disburse funds, and manage money movement. The unified Payments API accepts virtual accounts, e-wallets (OVO, DANA, GoPay, ShopeePay, GCash, GrabPay, Maya), QR (QRIS / QR Ph), cards, direct debit, and retail outlets through Payment Requests and Payment Tokens; complementary APIs cover hosted Invoices, Payouts / disbursements, Balance, Transactions, Customers, and Refunds. All requests are authenticated with a secret API key over HTTP Basic against the base host https://api.xendit.co.",
+     "score": 35.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 63.6,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 18.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 11
     },
     {
      "name": "Xfers",
      "slug": "xfers",
      "description": "Xfers is a Southeast Asian payments infrastructure company founded in Singapore in 2015 and backed by 500 Global, providing bank-transfer collection, payouts, escrow-style wallets, and lending disbursement APIs across Singapore and Indonesia. Xfers merged with Payfazz in 2022 to form the Fazz Financial Group, with its regulated Singapore dollar stablecoin and payments business continuing as StraitsX; the Xfers v3 API documentation for Singapore and Indonesia remains published at docs.xfers.io.",
-     "score": 32.1,
+     "score": 32.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 85.2,
-      "contract_quality": 60.6,
+      "contract_quality": 63.9,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -575,19 +575,19 @@
      "slug": "goto-gojek",
      "description": "GoTo Group (PT GoTo Gojek Tokopedia Tbk) is Indonesia's largest digital ecosystem, formed by the 2021 merger of ride-hailing / on-demand superapp Gojek and e-commerce marketplace Tokopedia. It operates three business pillars: On-Demand Services (Gojek — ride hailing GoRide / GoCar, food delivery GoFood, parcel delivery GoSend, logistics GoBox, courier GoSend), E-Commerce (Tokopedia marketplace and Mitra Tokopedia), and Financial Technology (GoTo Financial — GoPay, GoPayLater, GoInvestasi). In 2024 GoTo divested Tokopedia's e-commerce operations to TikTok Shop / ByteDance, retaining a 25% stake in the combined Tokopedia–TikTok Shop entity; the developer.tokopedia.com portal now redirects to TikTok Shop's partner platform. GoTo continues to operate Gojek and GoTo Financial directly. There is no single GoTo group-wide developer portal — partner integrations happen at the product level (Gojek partner programs, GoPay PSP integrations, TikTok Shop Open Platform for the former Tokopedia surface).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/goto-gojek/refs/heads/main/screenshots/goto-gojek-2026-06-20T182257.png",
-     "score": 30.6,
+     "score": 31.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 50.0,
+      "contract_quality": 54.3,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -635,7 +635,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -672,7 +672,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -710,7 +710,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -754,7 +754,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -799,7 +799,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -844,7 +844,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -889,7 +889,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -934,7 +934,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -979,7 +979,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1024,7 +1024,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1061,7 +1061,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1106,7 +1106,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1144,7 +1144,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1182,7 +1182,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1220,7 +1220,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1264,7 +1264,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1301,7 +1301,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1346,7 +1346,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1383,7 +1383,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1421,7 +1421,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1459,7 +1459,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1506,7 +1506,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1551,7 +1551,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1596,7 +1596,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1634,7 +1634,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1679,7 +1679,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1717,7 +1717,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1761,7 +1761,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1799,7 +1799,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1837,7 +1837,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1875,7 +1875,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1913,7 +1913,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1950,7 +1950,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1987,7 +1987,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2024,7 +2024,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2062,7 +2062,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2100,7 +2100,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2137,7 +2137,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2175,7 +2175,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2212,7 +2212,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2250,7 +2250,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2288,7 +2288,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2326,7 +2326,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2363,7 +2363,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2401,7 +2401,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2439,7 +2439,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2477,7 +2477,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2515,7 +2515,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2553,7 +2553,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2591,7 +2591,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2628,7 +2628,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2665,7 +2665,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2709,7 +2709,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2747,7 +2747,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2785,7 +2785,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2823,7 +2823,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2860,7 +2860,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2897,7 +2897,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2934,7 +2934,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2971,7 +2971,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3008,7 +3008,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3045,7 +3045,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3082,7 +3082,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -16,19 +16,19 @@
      "slug": "zenrows",
      "description": "ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API (HTTP scrape with JS rendering, anti-bot bypass, screenshots, CSS/AI extraction, and PDF/markdown output), the Scraping Browser (cloud Playwright/Puppeteer/CDP browser over WebSocket), Residential Proxies (HTTP/SOCKS5 with sticky sessions and country targeting), and a set of vertical Scraper APIs for Amazon, Google, Walmart, Zillow, and Idealista. ZenRows also ships first-party Python, Node.js, and Go SDKs, a Scrapy middleware, deep integrations across Playwright, Puppeteer, Selenium, Scrapy, LangChain, LlamaIndex, OpenAI Agents SDK, Zapier, n8n, Make, Pipedream, Node-RED, MuleSoft, Clay, and an official MCP server (hosted at https://mcp.zenrows.com/mcp and as @zenrows/mcp on npm) exposing scrape and 30+ browser automation tools to AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png",
-     "score": 57.4,
+     "score": 57.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 72.0,
+      "contract_quality": 72.1,
       "governance": 68.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -65,19 +65,19 @@
      "slug": "openmercantil",
      "description": "OpenMercantil is an independent public-data API for Spanish company intelligence. It indexes the Boletin Oficial del Registro Mercantil (BORME) and cross-references it with 29+ public sources (CNMV, OEPM, PLACSP, BDNS, OpenSanctions, CCAA gazettes, CNMC, CENDOJ and more) to expose company search, structured company reports, registry event timelines, officer records, CNAE sector navigation, daily summaries, public-procurement rankings, a v1.4 cross-source trust score, and CSV/JSON exports. The public REST API is free, requires no API key, and is rate-limited per IP. The project is informational and does not replace official Registro Mercantil certificates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png",
-     "score": 50.7,
+     "score": 51.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 64.3,
+      "contract_quality": 67.4,
       "governance": 68.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 23.9,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -110,19 +110,19 @@
      "slug": "cobee",
      "description": "Cobee is a Madrid-based flexible employee benefits and compensation platform, acquired by Pluxee (Sodexo group) in 2024. It lets companies manage a modular multi-benefit program (meal, transport, training, health and life insurance, wellbeing and employee discounts) from a single dashboard, delivered to employees through a Cobee VISA card and mobile app. Cobee exposes a REST Public API (v3, OpenAPI 3.0.1) for HR and payroll integrations, covering companies, employees, benefit models, payroll cycles, and benefit consumptions, with OAuth 2.0 client-credentials (Auth0-issued JWT) auth and a separate staging sandbox. The Public API is currently available to Spanish customers, with credentials issued by the customer's Customer Success Manager.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png",
-     "score": 45.0,
+     "score": 46.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 47.5,
+      "contract_quality": 51.9,
       "governance": 20.8,
       "operational_transparency": 0.0,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -151,8 +151,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "BBVA",
@@ -171,7 +171,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -203,19 +203,19 @@
      "name": "Novicap",
      "slug": "novicap",
      "description": "Novicap is a Spanish working-capital and supply-chain-finance fintech that helps companies optimize their circulating capital. Its REST API (base URL https://api.novicap.com/v1) lets partners programmatically register suppliers, submit and manage invoices, and create payment instructions and adjustments across two products: Dynamic Discounting and Confirming Standard (reverse factoring). The API uses Bearer API-key authentication with a required product_id scope, JSON payloads, and URI-path versioning, and is documented in a public developer reference. Novicap is backed by Partech and Techstars.",
-     "score": 32.8,
+     "score": 34.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 42.4,
+      "contract_quality": 47.3,
       "governance": 11.5,
       "operational_transparency": 10.5,
       "developer_ergonomics": 29.9,
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 39.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -253,7 +253,7 @@
       "commercial_clarity": 65.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -273,35 +273,25 @@
       "dry_run_mode": false
      },
      "rank": 6
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "15–29.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 17,
-   "shown": 17,
-   "providers": [
+    },
     {
      "name": "Holded",
      "slug": "holded",
      "description": "Holded is a cloud-based all-in-one business management platform from Spain (now part of Visma) that combines ERP, CRM, accounting, invoicing, inventory, project management, HR, and team collaboration features for small and medium-sized businesses. The Holded REST API provides programmatic access to invoicing, contacts, products, accounting, projects, employees, and CRM data using a simple API key authentication scheme over JSON.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png",
-     "score": 27.9,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 28.9,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 53.4,
+      "contract_quality": 57.4,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 27.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -321,7 +311,17 @@
       "dry_run_mode": false
      },
      "rank": 7
-    },
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 16,
+   "shown": 16,
+   "providers": [
     {
      "name": "Universitat Pompeu Fabra",
      "slug": "universitat-pompeu-fabra",
@@ -339,7 +339,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -383,7 +383,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -428,7 +428,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -466,7 +466,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -504,7 +504,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -549,7 +549,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -587,7 +587,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -625,7 +625,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -670,7 +670,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -715,7 +715,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -760,7 +760,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -805,7 +805,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -850,7 +850,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -895,7 +895,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -932,7 +932,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -970,7 +970,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1025,7 +1025,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1063,7 +1063,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1108,7 +1108,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1153,7 +1153,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1190,7 +1190,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1228,7 +1228,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

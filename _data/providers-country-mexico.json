@@ -8,71 +8,27 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 10,
-   "shown": 10,
+   "count": 11,
+   "shown": 11,
    "providers": [
-    {
-     "name": "América Móvil",
-     "slug": "america-movil",
-     "description": "América Móvil, S.A.B. de C.V. is the largest telecommunications group in Latin America, headquartered in Mexico City and controlled by the Slim family. It serves roughly 331 million wireless subscribers and 79 million fixed revenue-generating units across 23 countries (2025 Form 20-F), operating as Telcel and Telmex in its home market of Mexico, as Claro across most of Latin America and the Caribbean, and as the majority owner of A1 Telekom Austria Group in Central and Eastern Europe. In the value chain it is a mobile network operator and fixed-line carrier — it owns the spectrum, the radio access network, the SIM estate and the subscriber identity records that network APIs monetize, and it does not resell anyone else's connectivity. Its API posture is the classic carrier posture: there is no corporate developer portal at americamovil.com (the domain is an investor-relations site and returns 403 to non-browser clients; developer.*, developers.*, docs.*, api.* and opengateway.* subdomains do not resolve), and the only real API surface in the group sits inside one operating company — Claro Brasil's \"Claro Insight\" marketplace at claroinsight.com.br, a registration-gated catalog of 14 network and identity APIs including CAMARA-aligned SIM Swap, Number Verification and Device Location. In Mexico, Telcel launched GSMA Open Gateway on 28 May 2025 alongside Altán Redes, AT&T Mexico and Telefónica Mexico with three APIs — SIM Swap, Number Verification and Device Location — but publishes no portal, no specification and no sandbox, only a business sales contact form. América Móvil is a GSMA Open Gateway participant and was named in Ericsson's September 2024 launch of the Aduna network-API joint venture, but it is absent from the final twelve-CSP equity structure completed in July 2025; in Brazil its CAMARA APIs reach developers through the CPaaS aggregator Infobip. Outside the Brazilian marketplace, América Móvil is partner-gated and sales-led, and is reachable by most developers only through an aggregator rather than directly.",
-     "score": 55.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 61.0,
-      "governance": 20.8,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 51.6,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 72.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 1
-    },
     {
      "name": "Conekta",
      "slug": "conekta",
      "description": "Conekta is a Mexico-based payment processor that lets businesses accept credit and debit cards, OXXO cash vouchers, SPEI bank transfers, Apple Pay, Google Pay, and Buy Now Pay Later through a single PCI-DSS Level 1 certified API. The platform serves the Mexican market with Spanish-language documentation, CNBV-aligned compliance, and full Orders, Charges, Customers, Subscriptions, Payment Links, Antifraud, Webhooks, Payouts, and Balances resources. Conekta publishes its OpenAPI 3.1 specification publicly under MIT license, ships official SDKs for PHP, Node.js, Python, Ruby, .NET, and Java, and offers mobile components for Android, iOS, Flutter, and React Native plus plugins for major e-commerce platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/screenshots/conekta-2026-06-20T174849.png",
-     "score": 55.2,
+     "score": 55.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 71.7,
+      "contract_quality": 74.1,
       "governance": 58.3,
       "operational_transparency": 42.1,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -98,25 +54,69 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 1
+    },
+    {
+     "name": "América Móvil",
+     "slug": "america-movil",
+     "description": "América Móvil, S.A.B. de C.V. is the largest telecommunications group in Latin America, headquartered in Mexico City and controlled by the Slim family. It serves roughly 331 million wireless subscribers and 79 million fixed revenue-generating units across 23 countries (2025 Form 20-F), operating as Telcel and Telmex in its home market of Mexico, as Claro across most of Latin America and the Caribbean, and as the majority owner of A1 Telekom Austria Group in Central and Eastern Europe. In the value chain it is a mobile network operator and fixed-line carrier — it owns the spectrum, the radio access network, the SIM estate and the subscriber identity records that network APIs monetize, and it does not resell anyone else's connectivity. Its API posture is the classic carrier posture: there is no corporate developer portal at americamovil.com (the domain is an investor-relations site and returns 403 to non-browser clients; developer.*, developers.*, docs.*, api.* and opengateway.* subdomains do not resolve), and the only real API surface in the group sits inside one operating company — Claro Brasil's \"Claro Insight\" marketplace at claroinsight.com.br, a registration-gated catalog of 14 network and identity APIs including CAMARA-aligned SIM Swap, Number Verification and Device Location. In Mexico, Telcel launched GSMA Open Gateway on 28 May 2025 alongside Altán Redes, AT&T Mexico and Telefónica Mexico with three APIs — SIM Swap, Number Verification and Device Location — but publishes no portal, no specification and no sandbox, only a business sales contact form. América Móvil is a GSMA Open Gateway participant and was named in Ericsson's September 2024 launch of the Aduna network-API joint venture, but it is absent from the final twelve-CSP equity structure completed in July 2025; in Brazil its CAMARA APIs reach developers through the CPaaS aggregator Infobip. Outside the Brazilian marketplace, América Móvil is partner-gated and sales-led, and is reachable by most developers only through an aggregator rather than directly.",
+     "score": 55.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 61.2,
+      "governance": 20.8,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 51.6,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 72.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 2
     },
     {
      "name": "Syntage",
      "slug": "syntage",
      "description": "Syntage is a Mexican fintech data platform that aggregates business and fiscal data from official Mexican sources (the SAT tax authority, RPC, RUG, credit bureaus / Buro de Credito, and blacklists) into a single API and dashboard. Financial institutions use it to analyze credit risk, verify CFDI invoices for factoring operations, run KYB/KYC/PLD compliance checks, and monitor taxpayer data changes in real time. Data is consumable via a REST API (JSON-LD / Hydra), an app dashboard, PDF reports, and Excel exports. Reported scale includes 300+ financial-institution clients and billions of transactions processed. ISO/IEC 27001:2022 certified.",
-     "score": 54.9,
+     "score": 55.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 71.0,
+      "contract_quality": 73.5,
       "governance": 11.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 49.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -142,19 +142,19 @@
      "slug": "kushki",
      "description": "Kushki is an Ecuador-headquartered LatAm fintech operating as a regional non-banking acquirer for the Andean and Pacific Alliance markets — Ecuador, Colombia, Peru, Chile, Mexico, and Brazil. The Kushki API unifies card payments, scheduled and one-click subscriptions, bank transfers (PSE, Webpay Transferencia, SPEI, PIX), cash vouchers (OXXO, PagoEfectivo, Boleto), payouts/dispersions, and card-present (Kushki One POS) behind a single REST surface. Authentication is split across a Public-Merchant-Id (used in the browser to tokenize cards) and a Private-Merchant-Id (used server-side to charge). PCI DSS Level 1, 3DS 2.0, multi-layer anti-fraud, hosted fields, Kajita payment forms, Smartlinks, and e-commerce plugins (Shopify, VTEX, WooCommerce, Magento, PrestaShop) round out the platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/screenshots/kushki-2026-06-20T184217.png",
-     "score": 53.7,
+     "score": 54.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 73.4,
+      "contract_quality": 75.7,
       "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 73.9,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -186,19 +186,19 @@
      "name": "Ualá",
      "slug": "ual",
      "description": "Ualá is a Latin American fintech founded in Argentina in 2017 by Pierpaolo Barbieri, offering a neobank super-app (prepaid and credit cards, savings, investments, loans, insurance) in Argentina and Mexico, where it operates as Ualá ABC through the acquired ABC Capital bank. Its merchant arm, Ualá Bis, provides payments acceptance — link de pago, POS, e-commerce plugins, and the API Cobros Online v2, a checkout API with hosted payment links, order retrieval and listing, refunds, and webhook status notifications, documented at developers.ualabis.com.ar with official Node.js and PHP SDKs.",
-     "score": 50.7,
+     "score": 51.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 67.6,
+      "contract_quality": 70.4,
       "governance": 11.5,
       "operational_transparency": 28.9,
       "developer_ergonomics": 69.0,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -231,19 +231,19 @@
      "slug": "99-minutos",
      "description": "99minutos (99 Minutos) is a Latin American last-mile logistics and delivery platform serving ecommerce businesses across Mexico, Chile, Colombia and Peru. It offers express parcel delivery (envios99), full-truck-load and drayage freight (freight99), fulfillment and warehousing (fulfill99) and custom logistics operations (tailor99), backed by a network of pickup/delivery points (Punto99). Its public REST API v3 lets developers resolve addresses to reusable location ids, quote shipping rates and coverage, create/confirm orders (including multibox), print PDF and ZPL labels, track shipments and subscribe to real-time status webhooks. Authentication is OAuth2 client-credentials that returns a bearer JWT. Surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline from the provider's own developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181249.png",
-     "score": 49.8,
+     "score": 50.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 59.6,
+      "contract_quality": 63.0,
       "governance": 11.5,
       "operational_transparency": 13.2,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 49.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -269,19 +269,19 @@
      "slug": "mercado-pago",
      "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, and Uruguay, with consumer wallet, merchant acquiring, card issuing, lending, and crypto products layered on top. The developer portal at developers.mercadopago.com exposes a deep payments stack — Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Orders API (next-gen checkout), Subscriptions, Payment Links, Point (in-person card readers), and QR payments — backed by REST APIs and official SDKs in Node.js / TypeScript, Python, PHP, Ruby, Java, .NET, Go, iOS, and Android, plus a CLI, an MCP server for AI agents, e-commerce plugins (WooCommerce, VTEX, Tiendanube, Shopify), and an n8n integration. Regional developer portals (.com.ar, .com.br, .com.mx, .com.cl, .com.co, .com.pe, .com.uy) localise docs and pricing per LATAM market.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png",
-     "score": 48.0,
+     "score": 48.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 70.3,
+      "contract_quality": 72.9,
       "governance": 52.1,
       "operational_transparency": 36.8,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -310,68 +310,23 @@
      "rank": 7
     },
     {
-     "name": "Gigstack",
-     "slug": "gigstack",
-     "description": "Gigstack (gigstack.pro) is a Mexican fintech and revenue-automation platform that automates electronic invoicing and tax compliance for businesses operating in Mexico. It generates CFDI 4.0 fiscal invoices through the SAT/PAC stamping pipeline, runs collections (cobranza) and accounts-receivable workflows, offers self-invoicing (autofactura) and customer portals, and performs automated SAT reconciliation and bulk SAT downloads (descarga masiva). Its REST API (v2, https://api.gigstack.io/v2) exposes clients, services, invoices (income/egress/draft/payment-complement), payments, receipts, retentions, teams, users, webhooks and SAT catalogs, with an official CLI and MCP server for terminal and agent workflows. Backed by 500 Global.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/screenshots/gigstack-2026-07-25T215817.png",
-     "score": 44.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 51.6,
-      "governance": 3.1,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 39.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 8
-    },
-    {
      "name": "Atrato",
      "slug": "atrato",
      "description": "Atrato (Atrato Technologies S.A.P.I. de C.V., atratopago.com) is a Mexican fintech offering buy-now-pay-later (BNPL) point-of-sale financing. Affiliated merchants let shoppers split purchases of up to $200,000 MXN into installments of up to 24 months, without a credit or debit card, with approval in minutes. Atrato serves furniture, healthcare, mobility, construction, motorcycle, appliance and other verticals, and is regulated by PROFECO. Its Atrato Partners platform exposes a REST integration API (api-partners) covering in-store cash-in payment collection and ecommerce checkout order generation, plus status/disbursement webhooks and WooCommerce, Shopify and Magento plugins. This profile was enriched from Atrato's public developer documentation at docs.atratopago.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/screenshots/atrato-2026-07-25T201622.png",
-     "score": 43.8,
+     "score": 44.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 61.3,
+      "contract_quality": 64.6,
       "governance": 11.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -397,6 +352,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 8
+    },
+    {
+     "name": "Gigstack",
+     "slug": "gigstack",
+     "description": "Gigstack (gigstack.pro) is a Mexican fintech and revenue-automation platform that automates electronic invoicing and tax compliance for businesses operating in Mexico. It generates CFDI 4.0 fiscal invoices through the SAT/PAC stamping pipeline, runs collections (cobranza) and accounts-receivable workflows, offers self-invoicing (autofactura) and customer portals, and performs automated SAT reconciliation and bulk SAT downloads (descarga masiva). Its REST API (v2, https://api.gigstack.io/v2) exposes clients, services, invoices (income/egress/draft/payment-complement), payments, receipts, retentions, teams, users, webhooks and SAT catalogs, with an official CLI and MCP server for terminal and agent workflows. Backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/screenshots/gigstack-2026-07-25T215817.png",
+     "score": 44.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 51.6,
+      "governance": 3.1,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 9
     },
     {
@@ -404,19 +404,19 @@
      "slug": "bitso",
      "description": "Bitso is one of Latin America's largest cryptocurrency exchanges and stablecoin-rail providers, serving Mexico, Argentina, Brazil, Colombia, and other LATAM markets. Bitso exposes a public REST trading API and a WebSocket feed at bitso.com/api/v3 for market data, order management, conversions, OTC / RFQ, and account operations; a Payouts & Pay-Ins API for cross-border crypto and fiat disbursements; and the Juno API for Mexican peso (MXN) rails and stablecoin programmable money. API and OpenAPI references are catalogued at docs.bitso.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/screenshots/bitso-2026-06-20T173323.png",
-     "score": 42.3,
+     "score": 42.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 64.0,
+      "contract_quality": 67.1,
       "governance": 41.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -443,6 +443,44 @@
       "dry_run_mode": false
      },
      "rank": 10
+    },
+    {
+     "name": "Contalink",
+     "slug": "contalink",
+     "description": "Contalink is a Mexican cloud accounting and payroll platform (\"contabilidad en la nube\") built for independent accountants, accounting firms (despachos) and SMEs. It automates repetitive Mexican fiscal work — bulk CFDI download and classification, electronic accounting, DIOT preparation, treasury and bank reconciliation, invoicing (facturación) and payroll (nómina) with digital stamping — across multiple companies and users. Contalink also exposes a REST API that lets external systems read and post accounting data: trial balance (balanza de comprobación), account balances, manual accounting policies (pólizas manuales), invoice reconciliation (conciliación), bank transactions (movimientos bancarios) and CFDI fiscal-document listing, upload and status checks. The API authenticates with a per-company API key sent in the Authorization header. Backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/screenshots/contalink-2026-07-25T210322.png",
+     "score": 42.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 54.3,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 22.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 11
     }
    ],
    "open": true
@@ -452,8 +490,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 11,
-   "shown": 11,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "Cuenca",
@@ -472,7 +510,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -498,7 +536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "TAXO",
@@ -516,7 +554,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 29.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -531,44 +569,6 @@
       "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 12
-    },
-    {
-     "name": "Contalink",
-     "slug": "contalink",
-     "description": "Contalink is a Mexican cloud accounting and payroll platform (\"contabilidad en la nube\") built for independent accountants, accounting firms (despachos) and SMEs. It automates repetitive Mexican fiscal work — bulk CFDI download and classification, electronic accounting, DIOT preparation, treasury and bank reconciliation, invoicing (facturación) and payroll (nómina) with digital stamping — across multiple companies and users. Contalink also exposes a REST API that lets external systems read and post accounting data: trial balance (balanza de comprobación), account balances, manual accounting policies (pólizas manuales), invoice reconciliation (conciliación), bank transactions (movimientos bancarios) and CFDI fiscal-document listing, upload and status checks. The API authenticates with a per-company API key sent in the Authorization header. Backed by 500 Global.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/screenshots/contalink-2026-07-25T210322.png",
-     "score": 41.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 50.0,
-      "governance": 11.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -592,7 +592,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -637,7 +637,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -674,14 +674,14 @@
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 60.5,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -706,19 +706,19 @@
      "name": "Super Seguros",
      "slug": "super-seguros",
      "description": "Super Seguros (super.mx) is a Mexican insurtech that lets people quote, buy, and manage insurance entirely online. Its developer product, Super Studio, is a set of REST APIs partners use to generate insurance quotes and sell policies — covering life insurance (12-month term and 5-year plans with savings), home, renters, and landlord products. Quoting endpoints are broadly available and return prefilled purchase links to super.mx; purchase endpoints let approved partners sell insurance directly via API. Authentication is via an X-Api-Key header, with separate sandbox and production hosts. Super Seguros is backed by Anthemis.",
-     "score": 33.7,
+     "score": 34.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 55.1,
+      "contract_quality": 58.9,
       "governance": 11.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -751,19 +751,19 @@
      "slug": "tecnologico-de-monterrey",
      "description": "Tecnológico de Monterrey (ITESM) is a private Mexican multi-campus university system headquartered in Monterrey, ranked #185 in the QS World University Rankings 2025. It operates a public API developer portal at api.tec.mx that exposes institutional API products (such as student grade/academic-progress, student management, human-capital management, and billing APIs) behind registration and subscription approval, and a public Dataverse-based research open-data repository at datahub.tec.mx run by its Institute for the Future of Education, which serves a public Native REST API and an OAI-PMH metadata endpoint.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tecnologico-de-monterrey/refs/heads/main/screenshots/tecnologico-de-monterrey-2026-06-20T195020.png",
-     "score": 33.2,
+     "score": 34.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 44.4,
+      "contract_quality": 49.2,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -792,6 +792,50 @@
      "rank": 18
     },
     {
+     "name": "Mercado Pago",
+     "slug": "mercadopago",
+     "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Its developer portal at developers.mercadopago.com exposes a rich payments stack - Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Subscriptions, Payment Links, Point (in-person card reader), and QR payments - backed by REST APIs and official SDKs in Node.js, Python, PHP, Ruby, Java, .NET, plus a CLI and an MCP server for AI agents. Regional portals (.com.ar, .com.br, .com.mx, etc.) localise the docs and pricing per LATAM market.",
+     "score": 32.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 54.3,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 18.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 19
+    },
+    {
      "name": "Aplazo",
      "slug": "aplazo",
      "description": "Aplazo is a Mexican buy now, pay later (BNPL) payment platform that lets shoppers split online and in-store purchases into installments without a credit card, paying over time directly from their bank account. For merchants, Aplazo exposes a REST payment API (api.aplazo.mx) and official e-commerce plugins (Magento 2, VTEX, Shopify, PrestaShop, Tiendanube) to originate loans at checkout, retrieve loan status, and process refunds and cancellations. Merchants authenticate with an apiToken and merchantId to obtain a short-lived JWT bearer token, then create loans that redirect the customer to Aplazo to complete financing. Aplazo is backed by QED Investors and operates in Mexico, settling in Mexican pesos (MXN).",
@@ -808,7 +852,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -834,7 +878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Facturama",
@@ -853,7 +897,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -865,50 +909,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 20
-    },
-    {
-     "name": "Mercado Pago",
-     "slug": "mercadopago",
-     "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Its developer portal at developers.mercadopago.com exposes a rich payments stack - Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Subscriptions, Payment Links, Point (in-person card reader), and QR payments - backed by REST APIs and official SDKs in Node.js, Python, PHP, Ruby, Java, .NET, plus a CLI and an MCP server for AI agents. Regional portals (.com.ar, .com.br, .com.mx, etc.) localise the docs and pricing per LATAM market.",
-     "score": 31.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 50.0,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 18.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -945,7 +945,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -983,7 +983,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1028,7 +1028,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1073,7 +1073,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1117,7 +1117,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1161,7 +1161,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1199,7 +1199,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1244,7 +1244,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1289,7 +1289,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1334,7 +1334,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1371,7 +1371,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1415,7 +1415,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1460,7 +1460,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1505,7 +1505,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1549,7 +1549,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1594,7 +1594,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1639,7 +1639,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1676,7 +1676,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1714,7 +1714,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1758,7 +1758,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1802,7 +1802,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1846,7 +1846,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1884,7 +1884,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1922,7 +1922,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1967,7 +1967,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2005,7 +2005,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2049,7 +2049,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2093,7 +2093,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2138,7 +2138,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2182,7 +2182,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2226,7 +2226,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2270,7 +2270,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2314,7 +2314,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2358,7 +2358,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2395,7 +2395,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2443,7 +2443,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2487,7 +2487,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2524,7 +2524,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2562,7 +2562,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2599,7 +2599,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2637,7 +2637,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2682,7 +2682,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2719,7 +2719,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2764,7 +2764,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2801,7 +2801,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2846,7 +2846,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2890,7 +2890,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2928,7 +2928,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2965,7 +2965,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3003,7 +3003,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3040,7 +3040,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3078,7 +3078,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3116,7 +3116,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3154,7 +3154,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3191,7 +3191,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3229,7 +3229,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3266,7 +3266,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3304,7 +3304,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3342,7 +3342,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3379,7 +3379,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3416,7 +3416,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3454,7 +3454,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3499,7 +3499,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3537,7 +3537,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3582,7 +3582,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3619,7 +3619,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3664,7 +3664,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3701,7 +3701,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3738,7 +3738,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3775,7 +3775,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3813,7 +3813,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3858,7 +3858,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3896,7 +3896,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3940,7 +3940,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3984,7 +3984,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4022,7 +4022,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4066,7 +4066,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4103,7 +4103,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4141,7 +4141,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4178,7 +4178,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4215,7 +4215,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4252,7 +4252,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4289,7 +4289,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4326,7 +4326,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4363,7 +4363,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4400,7 +4400,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4437,7 +4437,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4475,7 +4475,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4512,7 +4512,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",

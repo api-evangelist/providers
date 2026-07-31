@@ -16,19 +16,19 @@
      "slug": "apollo-insurance",
      "description": "APOLLO Insurance (APOLLO Insurance Agency Ltd., apollocover.com) is a Vancouver-founded Canadian digital insurance brokerage and MGA-style distribution platform that sells personal and small-commercial coverage entirely online — tenant and student tenant insurance in every province, homeowner, condo and townhouse, landlord and pet insurance on the personal side, and general liability, professional liability and directors and officers coverage on the business side. APOLLO does not underwrite; it distributes on a commission basis on behalf of A+ to A- rated Canadian carriers, and it sits in the thin digital-broker layer of a Big-Few Canadian market dominated by Intact, Definity, Co-operators and Desjardins. Its distinctive business is embedded tenant insurance for REITs and property managers: automated resident enrolment at lease signing, renewal handling, and real-time building-level compliance tracking, delivered through a Yardi Systems integration and its CoverTrack compliance product. Unusually for the Canadian insurance sector, APOLLO publishes a genuine, publicly readable developer portal at docs.apollocover.com — a Stoplight workspace with three public projects and downloadable OpenAPI definitions covering quote and application (pre-fill) for tenant insurance and compliance-status lookup for partner properties. The surface is real but partner-scoped: every call needs an affiliateId (a co-branded APOLLO subdomain) and an x-api-key token that APOLLO issues by hand to affiliates and property-manager partners, so there is no self-serve credential path and no consumer-facing API. Canada has no open-insurance mandate — OSFI supervises prudentially, the provinces (FSRA, AMF) supervise market conduct, and Consumer-Driven Banking excludes insurance entirely — so nothing forces this disclosure; APOLLO published it as a distribution strategy. No ACORD, AL3, IVANS or agency-management-system reference appears anywhere in its public site or documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/screenshots/apollo-insurance-2026-07-25T200828.png",
-     "score": 50.8,
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 20.8,
       "operational_transparency": 18.4,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -73,7 +73,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -118,7 +118,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -164,7 +164,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -209,19 +209,19 @@
      "slug": "cooperators",
      "description": "The Co-operators is a Canadian insurance and financial services co-operative, formed in 1978 from the amalgamation of the Saskatchewan and Ontario co-operative insurers whose roots run back to the Co-operative Life Insurance Company founded in Regina in 1945. It is owned by Canadian co-operatives, credit union centrals and farm organizations rather than public shareholders, and writes multi-line property and casualty, home, auto, farm, travel and life insurance alongside group benefits, group retirement and savings, wealth management and institutional asset management, reporting more than $62 billion in assets under administration, nearly 7,000 employees and more than 2,800 licensed insurance representatives across Canada. Its API posture is partner-gated. There is no first-party developer portal on cooperators.ca — developer, developers, docs, api and partners subdomains do not resolve in DNS, and /developers, /developer, /api, /partners and /integrations all return HTTP 404 — while the advisor and broker channel is a set of sign-in walls (lifeportal.cooperators.ca, benefitsnowlogon.cooperators.ca, basis.cooperators.ca, illustration.cumis.com). The only public API surface in the group belongs to its embedded-insurance brand Duuo, whose Duuo Platform partner APIs cover account, quote, payment and policy issuance for tenant and event insurance behind a signed partnership agreement and issued OAuth 2.0 client credentials; the developer portal Duuo advertises at developer.duuo.ca is a Postman-hosted documentation domain that returns HTTP 404 as of 2026-07-25. No ACORD, AL3 or CSIO reference was found anywhere in the company's public materials.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/screenshots/cooperators-2026-07-25T210405.png",
-     "score": 33.2,
+     "score": 33.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 77.8,
-      "contract_quality": 48.3,
+      "contract_quality": 49.6,
       "governance": 11.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 25.5,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -266,7 +266,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -323,7 +323,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -368,7 +368,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -414,7 +414,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -460,7 +460,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -505,7 +505,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -550,7 +550,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -595,7 +595,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -640,7 +640,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -685,7 +685,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -731,7 +731,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -777,7 +777,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -822,7 +822,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -878,7 +878,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -924,7 +924,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

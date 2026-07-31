@@ -16,19 +16,19 @@
      "slug": "crescendo-lab",
      "description": "Crescendo Lab is a Taiwan-based, Asia-leading AI omnichannel customer communication software company (cresclab.com) serving 800+ global brands, and a LINE Biz-Solutions Gold Partner. Its platform spans MAAC (AI marketing automation), CAAC (conversational applications), and DAAC (data intelligence) across LINE, WhatsApp, SMS, email, and social channels. Its developer-facing surface is MAAC Go (sms.cresclab.com) — a self-serve, NCC-compliant Taiwan SMS API with a published OpenAPI spec, first-party Node/Python SDKs, a CLI, an official MCP server, and delivery webhooks. Surfaced as a 500 Global portfolio company and enriched into the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png",
-     "score": 44.8,
+     "score": 45.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 63.7,
+      "contract_quality": 66.8,
       "governance": 11.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 58.2,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -72,19 +72,19 @@
      "slug": "autopass",
      "description": "Autopass (\"快速通\") is a Taiwan-based mobility financial-services platform that connects service locations, car-owner apps, payments and benefits so that every driver enjoys a fast, convenient driving experience. Through its \"powered by Autopass\" service-authorization program, channel brand partners embed license-plate-based parking payment into their own car-owner apps: they register user license plates, surface partner parking locations (POIs) with live rates and hours, read in-progress parking sessions and completed orders, and receive entry/exit/billing/refund notifications over an OAuth 2.0 / OpenID Connect secured API. Autopass aims to become Asia's largest provider of mobility financial services. Backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/screenshots/autopass-2026-07-25T201842.png",
-     "score": 41.4,
+     "score": 41.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 68.6,
+      "contract_quality": 71.3,
       "governance": 8.3,
       "operational_transparency": 7.9,
       "developer_ergonomics": 38.6,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -117,19 +117,19 @@
      "slug": "nthu",
      "description": "National Tsing Hua University (NTHU) is a national public research university in Hsinchu, Taiwan, originally founded in 1911 and re-established in Taiwan in 1956. It is ranked #210 in the QS World University Rankings 2025 and is one of Taiwan's premier research institutions across science, engineering, humanities, and management. NTHU does not operate an official institution-wide developer portal, but its public developer footprint centers on the community-maintained NTHU Data API (NTHU-SA), a live FastAPI/OpenAPI service that aggregates public campus data such as courses, buses, dining, library spaces, announcements, and energy usage. Related open-source work lives across student and lab GitHub organizations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png",
-     "score": 35.8,
+     "score": 36.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 59.5,
+      "contract_quality": 63.0,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -162,19 +162,19 @@
      "slug": "nycu",
      "description": "National Yang Ming Chiao Tung University (NYCU) is a public research university in Taiwan formed in 2021 from the merger of National Yang-Ming University and National Chiao Tung University, and ranked #219 in the QS World University Rankings 2025. Its public developer footprint centers on an OAuth 2.0 / single sign-on identity service (id.nycu.edu.tw) for third-party application integration, and the NYCU Dataverse research-data repository which exposes standard Dataverse REST APIs (Native and Search) and an OAI-PMH metadata-harvesting endpoint. Most administrative, course, and portal systems are gated behind institutional SSO rather than openly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png",
-     "score": 34.0,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 47.1,
+      "contract_quality": 51.6,
       "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -230,7 +230,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -268,7 +268,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -312,7 +312,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -356,7 +356,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -403,7 +403,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -440,7 +440,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -478,7 +478,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -516,7 +516,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -553,7 +553,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -590,7 +590,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -627,7 +627,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -664,7 +664,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

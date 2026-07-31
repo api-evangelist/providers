@@ -15,19 +15,19 @@
      "name": "PAY.JP",
      "slug": "payjp",
      "description": "PAY.JP is an online payment service operated by PAY, Inc. (PAY株式会社) in Japan. Its Stripe-style REST API lets merchants create charges, tokenize cards, manage customers, run subscriptions (定期課金), and settle transfers (入金) in Japanese yen, with a Platform API (beta) for marketplace/multi-tenant payouts.",
-     "score": 72.5,
+     "score": 73.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 61.9,
+      "contract_quality": 65.1,
       "governance": 20.8,
       "operational_transparency": 84.2,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 100.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -71,19 +71,19 @@
      "slug": "soracom",
      "description": "Soracom is a global IoT cellular connectivity and platform provider headquartered in Tokyo, founded in 2014, with regional operations in the US (Soracom Global) and EU. The platform pairs multicarrier SIMs (physical, eSIM, iSIM) across 170+ countries with a deep platform of cloud integration services (Beam, Funnel, Funk), data services (Harvest, Lagoon, Query, Orbit), device management (Inventory, Krypton, Endorse, Napter), and network gateways (VPG / Canal / Direct / Door / Gate / Junction / Peek). Soracom exposes the entire stack through a coverage-aware REST API documented at users.soracom.io and maintained as a public OpenAPI 3.0 specification in the soracom-cli GitHub repo.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png",
-     "score": 63.1,
+     "score": 63.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 68.4,
+      "contract_quality": 71.1,
       "governance": 68.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 84.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -139,7 +139,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 40.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -177,7 +177,7 @@
       "commercial_clarity": 76.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -210,19 +210,19 @@
      "slug": "logiless",
      "description": "LOGILESS (ロジレス) is a Japanese cloud EC logistics platform that unifies order management (OMS) and warehouse management (WMS) for e-commerce merchants — automating order intake from marketplaces and shopping carts (Rakuten, Shopify, ColorMe, futureshop, ec-force and more), inventory synchronization, allocation, shipping-label issuance and warehouse operations. LOGILESS exposes a RESTful, OAuth2-protected API (scoped per merchant) for reading and writing sales orders, outbound and inbound deliveries, sales returns, inter-warehouse transfers, articles (product master), multi-layer inventory summaries, warehouses, stores and suppliers. The company is a 500 Global portfolio company. This profile was enriched by the API Evangelist pipeline from LOGILESS's public developer documentation; the OpenAPI here is derived and not an official LOGILESS artifact.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/screenshots/logiless-2026-07-25T225502.png",
-     "score": 48.5,
+     "score": 48.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 51.7,
+      "contract_quality": 52.7,
       "governance": 11.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 39.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -248,19 +248,19 @@
      "slug": "paidy",
      "description": "Paidy is a Japanese buy now, pay later (BNPL) and digital payment service that enables Japanese consumers to make purchases and pay later via monthly consolidated billing. Merchants integrate Paidy Checkout (JavaScript) and the Paidy REST API to accept deferred payments, manage authorizations, capture funds, issue refunds, and handle recurring payments via stored tokens.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paidy/refs/heads/main/screenshots/paidy-2026-06-20T191326.png",
-     "score": 45.6,
+     "score": 46.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 69.1,
+      "contract_quality": 71.7,
       "governance": 58.3,
       "operational_transparency": 23.7,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -292,19 +292,19 @@
      "name": "PayPay",
      "slug": "paypay",
      "description": "PayPay is Japan's largest QR/barcode mobile-payment network (a SoftBank / Yahoo Japan / Paytm joint venture) with tens of millions of users. Its Open Payment API (OPA v2) lets payment partners and merchants collect payments from PayPay wallet users through dynamic QR codes, web checkout (Web Cashier), app-invoke deep links, and a pre-authorize-and-capture flow. The REST API (base //apigw.paypay.ne.jp) is secured with HMAC-SHA256 request signatures, settles in JPY, sends transaction webhooks plus daily reconciliation files, and ships official Node, PHP, Python and Java SDKs under the github.com/paypay organization.",
-     "score": 42.0,
+     "score": 42.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 55.5,
+      "contract_quality": 59.3,
       "governance": 11.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -346,19 +346,19 @@
      "name": "SmartHR",
      "slug": "smarthr",
      "description": "SmartHR is a leading Japanese cloud HR, labor, and personnel management SaaS (smarthr.jp). Its per-tenant REST API exposes an organization's employee (\"crew\") records and the master data around them - departments, employment types, business establishments, and custom field templates - plus webhook subscriptions for change notifications. The API is served from each customer's own tenant subdomain (https://{tenant}.smarthr.jp/api) under a /v1 path, and is authenticated with a per-tenant access token passed as a Bearer token.",
-     "score": 39.1,
+     "score": 39.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -384,19 +384,19 @@
      "slug": "kyoto",
      "description": "Kyoto University is a national research university in Kyoto, Japan, ranked #37 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on scholarly and open-source infrastructure rather than a centralized developer portal. Confirmed public surfaces include the KURENAI research information repository (DSpace) with a live OAI-PMH metadata endpoint, the kyoto-u \"Kyoto University Open Source Project\" GitHub organization, and a Shibboleth/SAML integrated authentication system operated by the Institute for Information Management and Communication (IIMC). Student information, course, and timetable systems are gated behind campus accounts and are not publicly documented APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kyoto/refs/heads/main/screenshots/kyoto-2026-06-20T184226.png",
-     "score": 37.1,
+     "score": 38.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 53.0,
+      "contract_quality": 57.0,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -429,19 +429,19 @@
      "slug": "freee",
      "description": "freee K.K. (freee株式会社) is a Japanese cloud business-management SaaS company. Its core products are freee Accounting (会計freee) - cloud accounting and bookkeeping - and freee HR & Payroll (人事労務freee) - HR, attendance, and payroll - plus invoicing (freee請求書) and sales management. freee exposes well-documented public REST APIs for both accounting and HR, authenticated with OAuth 2.0 (authorization code). Accounting endpoints live under https://api.freee.co.jp/api/1 and HR / payroll endpoints under https://api.freee.co.jp/hr/api/v1, and freee publishes machine-readable OpenAPI schemas for its platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/screenshots/freee-2026-07-25T215132.png",
-     "score": 36.8,
+     "score": 37.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.8,
+      "contract_quality": 60.5,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -467,19 +467,19 @@
      "slug": "j-quants",
      "description": "J-Quants is a financial data API service operated by Japan Exchange Group (JPX) that makes it easy for retail investors to obtain cleansed financial data such as stock prices and financials in historical format. The service democratizes access to raw financial data for investment analysis.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/screenshots/j-quants-2026-06-20T183644.png",
-     "score": 36.6,
+     "score": 37.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 54.0,
+      "contract_quality": 57.9,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -505,19 +505,19 @@
      "slug": "komoju",
      "description": "KOMOJU is a Japan-focused global payment gateway operated by Degica. Its REST API lets web and e-commerce merchants accept a wide range of local and international payment methods through one interface - credit cards, convenience store (konbini) cash payments, bank transfer, Pay-easy (ATM), and e-money / mobile wallets such as PayPay, Merpay, au PAY, Rakuten Pay, LINE Pay, Alipay, and WeChat Pay - plus a hosted checkout (Sessions), tokenization, saved customers, subscriptions, and webhook events. Base URL is https://komoju.com/api/v1 with HTTP Basic authentication using a secret or publishable API key.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/screenshots/komoju-2026-07-25T224141.png",
-     "score": 36.4,
+     "score": 37.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -550,19 +550,19 @@
      "slug": "line",
      "description": "LINE is a Japan-based messaging platform with over 200 million monthly active users across Japan, Taiwan, Thailand, and Indonesia, offering messaging, payments, news, and a broad ecosystem of services. The LINE Developers platform exposes public APIs for building chatbots, mini-apps, social login, and audience marketing, all documented as OpenAPI specifications. APIs use Bearer token authentication with channel access tokens issued per LINE channel.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png",
-     "score": 36.0,
+     "score": 36.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 68.2,
+      "contract_quality": 70.9,
       "governance": 27.1,
       "operational_transparency": 5.3,
       "developer_ergonomics": 37.0,
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -591,23 +591,60 @@
      "rank": 13
     },
     {
-     "name": "Rakuten",
-     "slug": "rakuten",
-     "description": "Rakuten Group is a Japan-headquartered internet conglomerate spanning e-commerce (Rakuten Ichiba), fintech (Rakuten Bank, Rakuten Card, Rakuten Securities), digital content (Rakuten Books, Kobo, Viki), travel (Rakuten Travel), telecom (Rakuten Mobile, Rakuten Symphony), and advertising (Rakuten Advertising). Rakuten exposes a long-standing public developer platform — Rakuten Web Services (webservice.rakuten.co.jp) — that offers REST/JSON APIs for searching Ichiba items and genres, books, CDs, DVDs, games, software, magazines, Kobo eBooks, Rakuten Travel hotels (simple, detail, vacant, keyword), Rakuten Recipe, and Rakuten GORA golf courses. All RWS APIs use a Rakuten application ID for authentication and are read-only. Rakuten separately operates merchant-facing RMS (Rakuten Merchant Server) APIs and Rakuten Pay merchant APIs, which are partner-gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/screenshots/rakuten-2026-06-20T192542.png",
-     "score": 33.9,
+     "name": "TableCheck",
+     "slug": "tablecheck",
+     "description": "TableCheck is a restaurant booking and guest-experience platform (founded 2011, headquartered in Tokyo, Japan) used by thousands of restaurants across 35+ countries to consolidate reservations, availability, guest CRM, memberships, and POS integration into one system. TableCheck exposes a production JSON/REST API, partitioned into components - Availability, Web Booking, Booking, CRM, POS, and Site Controller - under https://api.tablecheck.com/api. Access is partner-gated, and a per-environment secret_key is issued by the TableCheck API team on approval, while some components (notably the direct Booking API) are available only by special arrangement. Each component publishes an OpenAPI 3.0 description.",
+     "score": 34.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 58.5,
+      "contract_quality": 53.7,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Rakuten",
+     "slug": "rakuten",
+     "description": "Rakuten Group is a Japan-headquartered internet conglomerate spanning e-commerce (Rakuten Ichiba), fintech (Rakuten Bank, Rakuten Card, Rakuten Securities), digital content (Rakuten Books, Kobo, Viki), travel (Rakuten Travel), telecom (Rakuten Mobile, Rakuten Symphony), and advertising (Rakuten Advertising). Rakuten exposes a long-standing public developer platform — Rakuten Web Services (webservice.rakuten.co.jp) — that offers REST/JSON APIs for searching Ichiba items and genres, books, CDs, DVDs, games, software, magazines, Kobo eBooks, Rakuten Travel hotels (simple, detail, vacant, keyword), Rakuten Recipe, and Rakuten GORA golf courses. All RWS APIs use a Rakuten application ID for authentication and are read-only. Rakuten separately operates merchant-facing RMS (Rakuten Merchant Server) APIs and Rakuten Pay merchant APIs, which are partner-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/screenshots/rakuten-2026-06-20T192542.png",
+     "score": 34.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 59.7,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -633,35 +670,36 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
-     "name": "TableCheck",
-     "slug": "tablecheck",
-     "description": "TableCheck is a restaurant booking and guest-experience platform (founded 2011, headquartered in Tokyo, Japan) used by thousands of restaurants across 35+ countries to consolidate reservations, availability, guest CRM, memberships, and POS integration into one system. TableCheck exposes a production JSON/REST API, partitioned into components - Availability, Web Booking, Booking, CRM, POS, and Site Controller - under https://api.tablecheck.com/api. Access is partner-gated, and a per-environment secret_key is issued by the TableCheck API team on approval, while some components (notably the direct Booking API) are available only by special arrangement. Each component publishes an OpenAPI 3.0 description.",
-     "score": 33.3,
+     "name": "JAXA",
+     "slug": "jaxa",
+     "description": "Japan Aerospace Exploration Agency (JAXA) provides public APIs and data services for satellite Earth observation data, including GCOM/ALOS satellite imagery, global precipitation mapping, greenhouse gas monitoring, and scientific mission data from Japanese space programs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/screenshots/jaxa-2026-06-20T183708.png",
+     "score": 31.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 49.4,
+      "contract_quality": 55.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 28.9
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 41.0,
-     "agent_band": "agent-ready",
+     "schema_version": 0.7,
+     "agent_score": 21.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
+      "error_semantics": false,
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "asyncapi_events": false,
       "agent_skills": false,
@@ -670,7 +708,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "LegalOn",
@@ -689,7 +727,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -704,44 +742,6 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "JAXA",
-     "slug": "jaxa",
-     "description": "Japan Aerospace Exploration Agency (JAXA) provides public APIs and data services for satellite Earth observation data, including GCOM/ALOS satellite imagery, global precipitation mapping, greenhouse gas monitoring, and scientific mission data from Japanese space programs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/screenshots/jaxa-2026-06-20T183708.png",
-     "score": 30.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 50.8,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 21.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -764,7 +764,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -808,7 +808,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -853,7 +853,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -891,7 +891,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -946,7 +946,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -991,7 +991,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1029,7 +1029,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1067,7 +1067,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1105,7 +1105,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1143,7 +1143,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1188,7 +1188,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 18.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1226,7 +1226,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1264,7 +1264,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1301,7 +1301,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1338,7 +1338,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1376,7 +1376,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1421,7 +1421,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1459,7 +1459,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1504,7 +1504,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1549,7 +1549,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1594,7 +1594,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1639,7 +1639,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1684,7 +1684,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1729,7 +1729,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1773,7 +1773,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1811,7 +1811,7 @@
       "commercial_clarity": 26.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1848,7 +1848,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1886,7 +1886,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1931,7 +1931,7 @@
       "commercial_clarity": 26.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1979,7 +1979,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2017,7 +2017,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2062,7 +2062,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2106,7 +2106,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2144,7 +2144,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2182,7 +2182,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2220,7 +2220,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2265,7 +2265,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2302,7 +2302,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2340,7 +2340,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2378,7 +2378,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2423,7 +2423,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2468,7 +2468,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2512,7 +2512,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2550,7 +2550,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2588,7 +2588,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2625,7 +2625,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2662,7 +2662,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2700,7 +2700,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2745,7 +2745,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2782,7 +2782,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2820,7 +2820,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2858,7 +2858,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2895,7 +2895,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2932,7 +2932,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2970,7 +2970,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3007,7 +3007,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3051,7 +3051,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3089,7 +3089,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3127,7 +3127,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3164,7 +3164,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3201,7 +3201,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3238,7 +3238,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3275,7 +3275,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3312,7 +3312,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

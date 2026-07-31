@@ -16,19 +16,19 @@
      "slug": "storyblok",
      "description": "Storyblok is a headless content management system (CMS) with a visual editor that enables developers and content editors to collaboratively build and manage digital experiences. It provides APIs for content delivery, content management, image optimization, and webhook-based event notifications. Storyblok supports composable content through reusable components, multi-language content, and multi-site management with real-time collaboration features.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/screenshots/storyblok-2026-06-20T194608.png",
-     "score": 72.0,
+     "score": 71.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 78.1,
+      "contract_quality": 77.9,
       "governance": 53.1,
       "operational_transparency": 68.4,
       "developer_ergonomics": 52.2,
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 42.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -55,19 +55,19 @@
      "slug": "webflow",
      "description": "Webflow provides a visual web development platform with a comprehensive REST API for programmatically managing sites, CMS collections, ecommerce, assets, users, and forms. The Data API enables developers to build integrations, automate workflows, and extend Webflow's core functionality.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png",
-     "score": 70.8,
+     "score": 71.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 75.7,
+      "contract_quality": 77.5,
       "governance": 58.3,
       "operational_transparency": 76.3,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 81.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 56.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -94,19 +94,19 @@
      "slug": "commerce-layer",
      "description": "Commerce Layer is the headless, multi-market commerce API used by global brands to sell everywhere — web, mobile, in-store, chatbot, AI agent, and IoT. The company exposes a JSON:API-compliant Core API with 130+ top-level resources covering orders, line items, SKUs, bundles, prices, markets, stores, inventory, customers, payments (Adyen, Stripe, Braintree, PayPal, Klarna, Checkout.com), tax calculation (Avalara, TaxJar, Vertex, Stripe Tax), shipping, promotions, subscriptions, returns, and webhooks. The platform also ships a Provisioning API for organizations/SSO/credentials and a Metrics API for analytics (with a local MCP server for AI agents), plus hosted micro-frontends, dashboard apps, a CLI, CMS integrations, and SDKs for JavaScript/TypeScript, Ruby, React, and drop-in.js.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/screenshots/commerce-layer-2026-06-20T174813.png",
-     "score": 68.9,
+     "score": 69.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 71.7,
+      "contract_quality": 73.8,
       "governance": 58.3,
       "operational_transparency": 71.1,
       "developer_ergonomics": 76.1,
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -140,19 +140,19 @@
      "slug": "bright-data",
      "description": "Bright Data is an Israeli web data platform and operator of the world's largest legitimate residential proxy network (400M+ IPs across 195 countries). The platform combines proxy infrastructure (residential, ISP, datacenter, mobile) with higher-level web-access APIs — Web Unlocker, SERP API, Web Scraper API, Scraping Browser, Deep Lookup, and Web Archive — plus a 350-dataset marketplace and an MCP server that exposes 60+ web-access tools to AI agents. Serves 20,000+ customers across eCommerce, finance, real estate, ad-tech, and AI/ML, and is a primary supplier of training and grounding data for foundation-model providers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/screenshots/bright-data-2026-06-20T173659.png",
-     "score": 68.4,
+     "score": 69.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 68.6,
+      "contract_quality": 71.3,
       "governance": 58.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 32.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -179,19 +179,19 @@
      "slug": "salla",
      "description": "Salla is a Saudi Arabia-based e-commerce platform — often called the Shopify of the Middle East — that lets merchants launch, operate, and grow Arabic-first online stores without code. Founded in 2016 in Makkah by Nawaf Hariri and Salman Butt, Salla now powers more than 80,000 active stores. The platform exposes a Merchant REST API (https://api.salla.dev/admin/v2), an OAuth 2.0 Partners authorization service, signed webhooks for the full storefront lifecycle, a Shipping and Fulfillment app contract, the Twilight theme engine and JavaScript SDK, the Salla CLI, and official starter kits for PHP/Laravel and Node.js/Express. Backed by Sanabil (PIF), STV, Investcorp, Vision Ventures, and Raed Ventures, Salla raised a $130M pre-IPO round in 2024.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/screenshots/salla-2026-06-20T193358.png",
-     "score": 68.2,
+     "score": 68.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 68.3,
+      "contract_quality": 70.7,
       "governance": 68.8,
       "operational_transparency": 68.4,
       "developer_ergonomics": 78.3,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -225,19 +225,19 @@
      "slug": "wordpress",
      "description": "WordPress is an open-source content management system (CMS) that powers a significant portion of websites on the internet. Its REST API enables applications to interact with WordPress sites by sending and receiving data as JSON, allowing developers to build decoupled frontends, mobile apps, and integrations in any language. The extensive plugin and theme ecosystem, block editor, and AI capabilities make it accessible for building everything from personal blogs to complex enterprise websites.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/screenshots/wordpress-2026-06-20T201546.png",
-     "score": 66.5,
+     "score": 67.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 68.5,
+      "contract_quality": 70.8,
       "governance": 68.8,
       "operational_transparency": 78.9,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 52.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -267,27 +267,27 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 16,
-   "shown": 16,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Sanity",
      "slug": "sanity",
      "description": "Sanity is a composable content platform providing a headless CMS with a real-time collaborative editor (Sanity Studio) and a powerful HTTP API for managing structured content. The Sanity Content Lake stores content as flexible documents queryable via GROQ (Graph-Relational Object Queries). Key API capabilities include document querying, mutations, real-time listening, asset management, project management, webhooks, scheduling, roles and permissions, vector embeddings, and AI-powered content agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/screenshots/sanity-2026-06-20T193435.png",
-     "score": 65.5,
+     "score": 65.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 85.2,
+      "contract_quality": 86.3,
       "governance": 52.1,
       "operational_transparency": 52.6,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 42.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -314,19 +314,19 @@
      "slug": "shopify",
      "description": "Shopify is a complete commerce platform that lets you start, grow, and manage a business. The Shopify API lets you build apps and integrations that extend Shopify functionality for merchants.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png",
-     "score": 63.8,
+     "score": 64.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 40.7,
-      "contract_quality": 67.1,
+      "contract_quality": 69.9,
       "governance": 58.3,
       "operational_transparency": 86.8,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -356,62 +356,23 @@
      "rank": 8
     },
     {
-     "name": "WooCommerce",
-     "slug": "woocommerce",
-     "description": "WooCommerce is the world's most popular open-source eCommerce platform, built on WordPress. It provides a comprehensive REST API for managing products, orders, customers, coupons, reports, webhooks, and store settings, plus a public-facing Store API for headless frontends. WooCommerce also delivers real-time events via webhooks for order, product, customer, and subscription lifecycle changes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/screenshots/woocommerce-2026-06-20T201543.png",
-     "score": 63.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 83.9,
-      "governance": 52.1,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 49.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Platforms & Suites Going Headless",
-     "rank": 9
-    },
-    {
      "name": "Salesforce Experience Cloud",
      "slug": "salesforce-experience-cloud",
      "description": "APIs for building and managing Salesforce Experience Cloud sites, communities, and digital experiences including content management, theming, navigation, and Lightning Web Runtime powered portals.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/screenshots/salesforce-experience-cloud-2026-06-20T193345.png",
-     "score": 62.9,
+     "score": 63.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 68.8,
+      "contract_quality": 71.4,
       "governance": 68.8,
       "operational_transparency": 57.9,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -431,26 +392,26 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "Swell",
      "slug": "swell-io",
      "description": "Swell is a customizable, API-first headless commerce platform powering modern B2C, B2B, subscription, and marketplace experiences. It exposes a server-side Backend API for managing the full commerce data model (products, variants, carts, orders, payments, refunds, shipments, returns, subscriptions, accounts, invoices, coupons, promotions, gift cards, content, files, events, webhooks) plus a public-key client-side Frontend API for storefronts and an experimental GraphQL endpoint. The platform ships official Node and PHP libraries, a universal JavaScript SDK (Swell.js), headless storefront starters for Next.js (Horizon, verswell-commerce, nextjs-commerce) and Nuxt (Origin), a Swell Apps platform with CLI and Apps SDK for extending the data and logic layers via custom data models, events, notifications, webhooks, and edge functions running in 200+ locations, plus AI coding-agent skills and Claude Code plugins.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/screenshots/swell-io-2026-06-20T194803.png",
-     "score": 62.8,
+     "score": 63.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 67.1,
+      "contract_quality": 69.9,
       "governance": 68.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 84.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -477,6 +438,45 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
+     "rank": 10
+    },
+    {
+     "name": "WooCommerce",
+     "slug": "woocommerce",
+     "description": "WooCommerce is the world's most popular open-source eCommerce platform, built on WordPress. It provides a comprehensive REST API for managing products, orders, customers, coupons, reports, webhooks, and store settings, plus a public-facing Store API for headless frontends. WooCommerce also delivers real-time events via webhooks for order, product, customer, and subscription lifecycle changes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/screenshots/woocommerce-2026-06-20T201543.png",
+     "score": 63.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 85.0,
+      "governance": 52.1,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 49.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Platforms & Suites Going Headless",
      "rank": 11
     },
     {
@@ -495,7 +495,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -529,19 +529,19 @@
      "slug": "oxylabs",
      "description": "Oxylabs is a Lithuanian (Vilnius-based) web intelligence platform providing premium proxy networks (Residential, Datacenter, Mobile, ISP, Dedicated), web data acquisition APIs (Web Scraper API, SERP Scraper API, E-Commerce Scraper API, Real Estate Scraper API, Web Unblocker, Headless Browser), AI-native scraping tools (AI Studio — AI Scraper, AI Crawler, AI Map, Browser Agent, AI Search), an official MCP server, and ready-to-deliver datasets. The platform serves large-scale public web data extraction for e-commerce intelligence, brand protection, market research, SEO/SERP monitoring, cybersecurity, and AI/LLM training pipelines.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/screenshots/oxylabs-2026-06-20T191301.png",
-     "score": 60.6,
+     "score": 61.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 55.1,
+      "contract_quality": 58.9,
       "governance": 0.0,
       "operational_transparency": 68.4,
       "developer_ergonomics": 73.9,
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 47.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -568,19 +568,19 @@
      "slug": "apify",
      "description": "Apify is a full-stack web scraping and browser automation platform that enables developers to build, run, and scale web scrapers, crawlers, and data extraction tools using a cloud-based infrastructure with built-in proxy management, scheduling, and storage. The platform hosts thousands of ready-made Actors for scraping social media, search engines, maps, e-commerce sites, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/screenshots/apify-2026-06-20T172249.png",
-     "score": 59.7,
+     "score": 60.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 66.1,
+      "contract_quality": 69.0,
       "governance": 58.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 52.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -607,19 +607,19 @@
      "slug": "hyperbrowser",
      "description": "Hyperbrowser provides cloud browser infrastructure tailored for AI agents, bundling managed Chromium sessions with web scraping, crawling, and data-extraction APIs. The platform ships the open-source HyperAgent framework and first-class integrations for Browser-Use, Claude Computer Use, Gemini Computer Use, and OpenAI's CUA, so teams can deploy general-purpose web agents quickly. Customers include AI startups, data teams, and enterprises that need stealthy, multi-region browsers with CAPTCHA solving, proxies, and session profiles. Python and Node SDKs cover sessions, scrape/crawl/extract jobs, agent task management, and an MCP server lets any Model Context Protocol client (Claude Desktop, Cursor, Windsurf, etc.) drive Hyperbrowser tools. Pricing is usage-based via the hyperbrowser.ai pricing page.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/screenshots/hyperbrowser-2026-06-20T183036.png",
-     "score": 58.9,
+     "score": 59.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 64.0,
+      "contract_quality": 67.1,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 58.7,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -658,7 +658,7 @@
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -681,61 +681,22 @@
      "rank": 16
     },
     {
-     "name": "ScrapingBee",
-     "slug": "scrapingbee",
-     "description": "ScrapingBee is a France-based web scraping API that handles headless browsers, proxy rotation, anti-bot defenses, and CAPTCHA solving so developers can extract data from any website with a single API call. The platform exposes a unified HTML scraping endpoint alongside dedicated APIs for Google Search, Amazon, Walmart, YouTube, and ChatGPT, with JavaScript rendering, AI-powered data extraction, screenshots, and an MCP server for agentic workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/screenshots/scrapingbee-2026-06-20T193558.png",
-     "score": 57.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 61.9,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 84.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 41.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 17
-    },
-    {
      "name": "Optimizely",
      "slug": "optimizely",
      "description": "Optimizely is a digital experience platform that provides A/B testing, feature flagging, content management, and commerce solutions for enterprises. Their developer platform offers a comprehensive suite of REST and GraphQL APIs spanning experimentation, content delivery, customer data, campaign management, and e-commerce capabilities.",
-     "score": 57.8,
+     "score": 58.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 78.6,
+      "contract_quality": 80.4,
       "governance": 41.7,
       "operational_transparency": 36.8,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 81.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -755,6 +716,45 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
+     "rank": 17
+    },
+    {
+     "name": "ScrapingBee",
+     "slug": "scrapingbee",
+     "description": "ScrapingBee is a France-based web scraping API that handles headless browsers, proxy rotation, anti-bot defenses, and CAPTCHA solving so developers can extract data from any website with a single API call. The platform exposes a unified HTML scraping endpoint alongside dedicated APIs for Google Search, Amazon, Walmart, YouTube, and ChatGPT, with JavaScript rendering, AI-powered data extraction, screenshots, and an MCP server for agentic workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/screenshots/scrapingbee-2026-06-20T193558.png",
+     "score": 58.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 62.8,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 41.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless Browser & Rendering Infrastructure",
      "rank": 18
     },
     {
@@ -762,19 +762,19 @@
      "slug": "apache-ofbiz",
      "description": "Apache OFBiz is an open-source enterprise resource planning (ERP) system providing a suite of integrated business applications for CRM, e-commerce, supply chain management, manufacturing, accounting, order management, inventory, and warehousing. Built on a service-oriented architecture with a service engine, entity engine, and widget framework, OFBiz exposes a REST API plugin allowing any exported service to be invoked via JWT- authenticated HTTP endpoints. Governed by the Apache Software Foundation under the Apache License 2.0. Written in Java with Groovy scripting support.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/screenshots/apache-ofbiz-2026-06-20T172127.png",
-     "score": 57.5,
+     "score": 58.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 74.6,
+      "contract_quality": 76.7,
       "governance": 68.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -797,62 +797,23 @@
      "rank": 19
     },
     {
-     "name": "ZenRows",
-     "slug": "zenrows",
-     "description": "ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API (HTTP scrape with JS rendering, anti-bot bypass, screenshots, CSS/AI extraction, and PDF/markdown output), the Scraping Browser (cloud Playwright/Puppeteer/CDP browser over WebSocket), Residential Proxies (HTTP/SOCKS5 with sticky sessions and country targeting), and a set of vertical Scraper APIs for Amazon, Google, Walmart, Zillow, and Idealista. ZenRows also ships first-party Python, Node.js, and Go SDKs, a Scrapy middleware, deep integrations across Playwright, Puppeteer, Selenium, Scrapy, LangChain, LlamaIndex, OpenAI Agents SDK, Zapier, n8n, Make, Pipedream, Node-RED, MuleSoft, Clay, and an official MCP server (hosted at https://mcp.zenrows.com/mcp and as @zenrows/mcp on npm) exposing scrape and 30+ browser automation tools to AI agents.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png",
-     "score": 57.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 72.0,
-      "governance": 68.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 63.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 37.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 20
-    },
-    {
      "name": "API Snap",
      "slug": "api-snap",
      "description": "API Snap is a developer utility platform that consolidates 13+ commonly needed REST APIs into a single, unified service with one API key. The platform provides QR code generation, screenshot capture, image resize and conversion, HTML-to-PDF rendering, Markdown-to-HTML conversion, URL metadata extraction, cryptographic hashing, JWT decoding, Base64 encoding/decoding, UUID and unique ID generation, color format conversion, lorem ipsum text generation, and SVG placeholder image generation. API Snap aims to eliminate dependency bloat by letting developers replace small libraries and self-hosted utility services with simple HTTP requests against a managed, rate-limited, multi-tenant API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/screenshots/api-snap-2026-07-25T200604.png",
-     "score": 57.3,
+     "score": 57.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 81.4,
+      "contract_quality": 82.9,
       "governance": 68.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 47.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -872,26 +833,26 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "DatoCMS",
      "slug": "datocms",
      "description": "DatoCMS is a headless content management system that enables users to create, manage, and deliver digital content across websites, mobile apps, and other digital experiences. The platform exposes a JSON:API-based Content Management API for content and schema, and a CDN-fronted GraphQL Content Delivery API for read-heavy client applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/screenshots/datocms-2026-06-20T175706.png",
-     "score": 56.9,
+     "score": 57.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 62.7,
+      "contract_quality": 65.9,
       "governance": 68.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -911,36 +872,64 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
+     "rank": 21
+    },
+    {
+     "name": "ZenRows",
+     "slug": "zenrows",
+     "description": "ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API (HTTP scrape with JS rendering, anti-bot bypass, screenshots, CSS/AI extraction, and PDF/markdown output), the Scraping Browser (cloud Playwright/Puppeteer/CDP browser over WebSocket), Residential Proxies (HTTP/SOCKS5 with sticky sessions and country targeting), and a set of vertical Scraper APIs for Amazon, Google, Walmart, Zillow, and Idealista. ZenRows also ships first-party Python, Node.js, and Go SDKs, a Scrapy middleware, deep integrations across Playwright, Puppeteer, Selenium, Scrapy, LangChain, LlamaIndex, OpenAI Agents SDK, Zapier, n8n, Make, Pipedream, Node-RED, MuleSoft, Clay, and an official MCP server (hosted at https://mcp.zenrows.com/mcp and as @zenrows/mcp on npm) exposing scrape and 30+ browser automation tools to AI agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png",
+     "score": 57.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 72.1,
+      "governance": 68.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 63.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 37.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless Browser & Rendering Infrastructure",
      "rank": 22
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 32,
-   "shown": 32,
-   "providers": [
+    },
     {
      "name": "Uniform",
      "slug": "uniform",
      "description": "Uniform (Uniform Systems, Inc.) is a visual workspace and composable digital experience platform (DXP) that lets marketing and engineering teams compose content, commerce, and data from 70+ integrated sources — headless CMSes, commerce engines, DAMs, search, CDNs — into personalized, A/B-tested digital experiences without glue code. The Uniform Platform API (REST under /api/v1 and /api/v2 on uniform.app, with an EU data center at eu.uniform.app) manages compositions (Canvas), entries and content types, components, assets, releases, project maps, redirects, webhooks, integrations, roles and teams, and the classification/personalization surfaces (signals, quirks, tests, aggregates). Uniform ships 100+ npm packages under @uniformdev (framework SDKs for React, Next.js, Vue, Nuxt), a CLI, Svix-signed webhooks, an official hosted MCP server, and a published AI-rules library for LLM assistants. Recognized as a Visionary in the 2025 Gartner Magic Quadrant for Digital Experience Platforms; backed by Insight Partners.",
-     "score": 55.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 56.8,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 48.1,
+      "contract_quality": 52.5,
       "governance": 11.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 75.5,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 48.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -963,62 +952,23 @@
      "rank": 23
     },
     {
-     "name": "commercetools",
-     "slug": "commercetools",
-     "description": "commercetools is the leading composable, headless, API-first Commerce platform powering large-scale B2C, B2B, and marketplace digital commerce for enterprise brands. The platform exposes a broad API surface organized into the HTTP API (core REST interface), GraphQL API (flexible query and mutation alternative), Import API (bulk data ingestion), Change History API (audit log), Checkout API (managed checkout configuration), and Merchant Center Customizations API (custom UI extensions). It is complemented by official SDKs (TypeScript, Java, PHP, .NET, Python) and AsyncAPI-based subscriptions for event-driven integrations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/screenshots/commercetools-2026-06-20T174814.png",
-     "score": 55.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 78.8,
-      "governance": 47.9,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 57.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 35.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless & Composable Commerce",
-     "rank": 24
-    },
-    {
      "name": "Browserbase",
      "slug": "browserbase",
      "description": "Browserbase is a browser-agent platform that provides managed, headless Chromium browsers and supporting web primitives for AI agents and automation workloads. Customers use a single API key to spin up sessions, fetch and search the web, persist context, route LLM calls, and observe agent behavior across replays and logs. The company maintains the popular open-source Stagehand SDK, a Director UI for agent design, a Browse CLI, and an MCP server. Target customers are AI startups, agent developers, RPA teams, and enterprises running production web automation, with SOC 2 Type II and HIPAA options. Billing is usage-based with a free tier and paid plans on the pricing page.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/screenshots/browserbase-2026-06-20T173725.png",
-     "score": 55.4,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 56.2,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 62.7,
+      "contract_quality": 65.9,
       "governance": 58.3,
       "operational_transparency": 57.9,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1038,8 +988,58 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 25
+     "rank": 24
     },
+    {
+     "name": "commercetools",
+     "slug": "commercetools",
+     "description": "commercetools is the leading composable, headless, API-first Commerce platform powering large-scale B2C, B2B, and marketplace digital commerce for enterprise brands. The platform exposes a broad API surface organized into the HTTP API (core REST interface), GraphQL API (flexible query and mutation alternative), Import API (bulk data ingestion), Change History API (audit log), Checkout API (managed checkout configuration), and Merchant Center Customizations API (custom UI extensions). It is complemented by official SDKs (TypeScript, Java, PHP, .NET, Python) and AsyncAPI-based subscriptions for event-driven integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/screenshots/commercetools-2026-06-20T174814.png",
+     "score": 56.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 80.6,
+      "governance": 47.9,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 57.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 35.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless & Composable Commerce",
+     "rank": 25
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 31,
+   "shown": 31,
+   "providers": [
     {
      "name": "Builder.io",
      "slug": "builder-io",
@@ -1050,14 +1050,14 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 71.5,
+      "contract_quality": 71.6,
       "governance": 68.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1084,19 +1084,19 @@
      "slug": "strapi",
      "description": "Strapi is an open-source, headless CMS built with Node.js that gives developers full control over their content API. It provides a customizable admin panel for content management, automatically generates REST and GraphQL APIs for every content-type, and supports flexible database options including SQLite, PostgreSQL, MySQL, and MongoDB. Strapi v5 introduces a Document Service API with flattened response format, improved TypeScript support, and an enhanced content delivery API for building fast, decoupled frontends.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/screenshots/strapi-2026-06-20T194615.png",
-     "score": 53.6,
+     "score": 54.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 71.7,
+      "contract_quality": 74.1,
       "governance": 47.9,
       "operational_transparency": 57.9,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1123,19 +1123,19 @@
      "slug": "acquia",
      "description": "Acquia is a leading provider of digital experience management solutions for organizations looking to enhance their online presence. They offer a range of services, including cloud hosting, digital asset management, and content management, to help businesses create, manage, and optimize their websites and digital experiences.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/screenshots/acquia-2026-06-20T163944.png",
-     "score": 53.2,
+     "score": 53.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 63.4,
+      "contract_quality": 64.7,
       "governance": 68.8,
       "operational_transparency": 42.1,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1158,62 +1158,23 @@
      "rank": 28
     },
     {
-     "name": "Shopware",
-     "slug": "shopware",
-     "description": "Shopware is an open-source, API-first e-commerce platform built on Symfony and Vue.js, serving mid-market and enterprise merchants across B2C, D2C, and B2B use cases. The platform exposes two primary HTTP APIs: an Admin API for back-office integrations and automation, and a Store API for building headless customer-facing storefronts. Both APIs publish machine-readable OpenAPI 3 specifications directly from each running instance. Shopware is available as a free Community Edition (MIT-licensed), and as paid SaaS and self-hosted tiers (Rise, Evolve, Beyond) unlocking additional commerce capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shopware/refs/heads/main/screenshots/shopware-2026-06-20T193839.png",
-     "score": 53.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 65.6,
-      "governance": 68.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless & Composable Commerce",
-     "rank": 29
-    },
-    {
      "name": "Ninetailed",
      "slug": "ninetailed",
      "description": "Ninetailed (now Contentful Personalization) is an API-first personalization and experimentation platform for content-rich applications. It provides a REST-based Experience API for managing visitor profiles, defining audience segments, running A/B tests, and delivering personalized experiences at the edge. SDKs are available for JavaScript, React, Next.js, Node.js, and React Native.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ninetailed/refs/heads/main/screenshots/ninetailed-2026-06-20T190329.png",
-     "score": 52.8,
+     "score": 53.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 65.3,
+      "contract_quality": 68.2,
       "governance": 58.3,
       "operational_transparency": 68.4,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1233,26 +1194,26 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Contentful",
      "slug": "contentful",
      "description": "Contentful is a content management platform that allows businesses to create, manage, and deliver digital content across various channels and devices. By using Contentful, companies can streamline their content creation process, collaborate with team members, and ensure a consistent and cohesive brand message.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/screenshots/contentful-2026-06-20T174923.png",
-     "score": 52.4,
+     "score": 53.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 58.8,
+      "contract_quality": 61.8,
       "governance": 0.0,
       "operational_transparency": 71.1,
       "developer_ergonomics": 43.5,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 51.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1272,26 +1233,26 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 31
+     "rank": 30
     },
     {
-     "name": "Zesty",
-     "slug": "zesty",
-     "description": "Zesty.io is a composable, data-driven, headless CMS platform that provides REST APIs for authentication, account management, instance content management, and media file management. All resources are identified by ZUIDs (Zesty Universal Identifiers). The platform supports WebEngine for traditional CMS, headless API architecture, GraphQL, and JamStack implementations. Built on Google Cloud Platform with Fastly edge caching.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/screenshots/zesty-2026-06-20T201845.png",
-     "score": 51.9,
+     "name": "Shopware",
+     "slug": "shopware",
+     "description": "Shopware is an open-source, API-first e-commerce platform built on Symfony and Vue.js, serving mid-market and enterprise merchants across B2C, D2C, and B2B use cases. The platform exposes two primary HTTP APIs: an Admin API for back-office integrations and automation, and a Store API for building headless customer-facing storefronts. Both APIs publish machine-readable OpenAPI 3 specifications directly from each running instance. Shopware is available as a free Community Edition (MIT-licensed), and as paid SaaS and self-hosted tiers (Rise, Evolve, Beyond) unlocking additional commerce capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shopware/refs/heads/main/screenshots/shopware-2026-06-20T193839.png",
+     "score": 53.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 76.9,
-      "governance": 58.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 39.5
+      "discoverability": 74.1,
+      "contract_quality": 65.4,
+      "governance": 68.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1310,27 +1271,27 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Headless CMS & Content Platforms",
-     "rank": 32
+     "tier": "Headless & Composable Commerce",
+     "rank": 31
     },
     {
      "name": "Firecrawl",
      "slug": "firecrawl",
      "description": "Empower your AI apps with clean data from any website. Featuring advanced scraping, crawling, and data extraction capabilities. Firecrawl is an API service that takes a URL, crawls it, and converts it into clean markdown or structured data. We crawl all accessible subpages and give you clean data for each. No sitemap required.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/screenshots/firecrawl-2026-06-20T181259.png",
-     "score": 51.8,
+     "score": 52.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.6,
+      "contract_quality": 60.3,
       "governance": 0.0,
       "operational_transparency": 52.6,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1350,6 +1311,45 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
+     "rank": 32
+    },
+    {
+     "name": "Zesty",
+     "slug": "zesty",
+     "description": "Zesty.io is a composable, data-driven, headless CMS platform that provides REST APIs for authentication, account management, instance content management, and media file management. All resources are identified by ZUIDs (Zesty Universal Identifiers). The platform supports WebEngine for traditional CMS, headless API architecture, GraphQL, and JamStack implementations. Built on Google Cloud Platform with Fastly edge caching.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/screenshots/zesty-2026-06-20T201845.png",
+     "score": 52.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 78.9,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless CMS & Content Platforms",
      "rank": 33
     },
     {
@@ -1357,19 +1357,19 @@
      "slug": "bigcommerce",
      "description": "BigCommerce is a leading e-commerce platform providing APIs for building and managing online stores, products, catalogs, orders, customers, checkouts, payments, and shipping. BigCommerce powers tens of thousands of online stores with its open SaaS architecture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/screenshots/bigcommerce-2026-06-20T173231.png",
-     "score": 51.1,
+     "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 69.6,
+      "contract_quality": 72.2,
       "governance": 52.1,
       "operational_transparency": 44.7,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1403,19 +1403,19 @@
      "slug": "bloomreach",
      "description": "Digital commerce experience platform with REST APIs for search, merchandising, recommendations, CDP, and email/SMS marketing automation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-06-20T173521.png",
-     "score": 51.1,
+     "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 40.7,
-      "contract_quality": 70.4,
+      "contract_quality": 72.9,
       "governance": 68.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1442,19 +1442,19 @@
      "slug": "ghost",
      "description": "Ghost is an open-source publishing platform with hosted (Ghost(Pro)) and self-hosted options. It exposes a write-capable Admin API and a read-only Content API plus webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ghost/refs/heads/main/screenshots/ghost-2026-06-20T181818.png",
-     "score": 49.7,
+     "score": 50.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 76.4,
+      "contract_quality": 78.2,
       "governance": 41.7,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1481,19 +1481,19 @@
      "slug": "sitefinity-cms",
      "description": "Sitefinity CMS is a .NET-based content management system developed by Progress Software that provides REST APIs for managing content items, pages, users, roles, taxonomies, media, and e-commerce resources. Developers use the Sitefinity REST API to build headless front-ends, integrate third-party systems, automate content operations, and extend the platform with custom modules.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/screenshots/sitefinity-cms-2026-06-20T194001.png",
-     "score": 49.1,
+     "score": 49.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 68.6,
+      "contract_quality": 71.3,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1520,19 +1520,19 @@
      "slug": "spider-cloud",
      "description": "Spider is a Rust-based, AI-friendly web scraping and crawling cloud. Point it at a URL and get back clean markdown, structured JSON, screenshots, or links — at up to 100K pages per second — with anti-bot bypass, residential proxies, headless browsers, and native MCP, LangChain, LlamaIndex, CrewAI, and AutoGen integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/screenshots/spider-cloud-2026-06-20T194311.png",
-     "score": 48.9,
+     "score": 49.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 52.6,
       "developer_ergonomics": 47.8,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1559,19 +1559,19 @@
      "slug": "makeswift",
      "description": "Makeswift is a composable visual page builder for marketing teams and developers, built for Next.js. It lets marketers visually design, edit, and publish modern web frontends while developers register their own React components and keep full control over hosting and code. Makeswift ships an official React runtime SDK (@makeswift/runtime), a CLI, and a REST API at api.makeswift.com for programmatically managing sites, pages, and locales, plus a hosted documentation MCP server for AI clients. Makeswift is backed by Techstars and partners closely with BigCommerce for composable commerce.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/makeswift/refs/heads/main/screenshots/makeswift-2026-07-25T225954.png",
-     "score": 48.4,
+     "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 55.9,
+      "contract_quality": 59.7,
       "governance": 11.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 71.2,
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 48.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1598,19 +1598,19 @@
      "slug": "vtex",
      "description": "VTEX is a global enterprise digital commerce platform that provides end-to-end solutions for businesses to create, manage, and scale their online stores. Founded in Brazil, VTEX serves thousands of merchants across 38 countries with capabilities spanning catalog management, checkout, payments, logistics, marketplace, promotions, search, and customer identity. The platform offers an extensive API ecosystem enabling headless commerce, composable architectures, and deep integrations with third-party tools and marketplaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/screenshots/vtex-2026-06-20T201148.png",
-     "score": 48.2,
+     "score": 49.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 56.4,
+      "contract_quality": 60.1,
       "governance": 68.8,
       "operational_transparency": 68.4,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1644,19 +1644,19 @@
      "slug": "vendure",
      "description": "Vendure is an open-source headless commerce framework built in TypeScript on top of NestJS, GraphQL, and TypeORM. A Vendure server exposes two GraphQL APIs — the Shop API (consumed by storefronts) and the Admin API (consumed by the Dashboard and back-office tooling) — plus an Asset Server REST surface for uploads and image previews, and a plugin system that extends data, services, jobs, and resolvers. The project is GPLv3-licensed Vendure Core, complemented by a commercial Vendure Platform layer of 20+ enterprise plugins, a managed Vendure Cloud offering, an official MCP server, and a starter ecosystem (Next.js, Remix, Qwik, SvelteKit, Angular, Gatsby).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vendure/refs/heads/main/screenshots/vendure-2026-06-20T200911.png",
-     "score": 47.9,
+     "score": 48.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 72.6,
+      "contract_quality": 74.9,
       "governance": 68.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1679,101 +1679,23 @@
      "rank": 41
     },
     {
-     "name": "Scrapfly",
-     "slug": "scrapfly",
-     "description": "Scrapfly is a web scraping API platform that enables effortless collection of web data with battle-tested APIs that scale. It provides capabilities for scraping web pages, capturing screenshots, and extracting structured data with AI assistance to handle anti-bot measures and JavaScript rendering. One API key unlocks five APIs: Web Scraping (anti-bot unblocker), Cloud Browser (CDP), Screenshot, Extraction, and Crawler. Scrapfly operates globally with proxies across 190+ countries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/screenshots/scrapfly-2026-06-20T193556.png",
-     "score": 47.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 72.0,
-      "governance": 58.3,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 37.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": "conformant",
-      "dry_run_mode": false
-     },
-     "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 42
-    },
-    {
-     "name": "Contentstack",
-     "slug": "contentstack",
-     "description": "This document is a detailed reference to Contentstack’s Content Delivery API. Retrieve content from your account and deliver it to web and mobile properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png",
-     "score": 47.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 78.6,
-      "governance": 52.1,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 32.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless CMS & Content Platforms",
-     "rank": 43
-    },
-    {
      "name": "Django CMS",
      "slug": "django-cms",
      "description": "Django CMS is an open-source, enterprise-grade content management system built on Django and Python. It provides a REST API via the djangocms-rest package (built on Django REST Framework and drf-spectacular) that exposes pages, plugins, placeholders, navigation menus, breadcrumbs, and content structures as a browsable, read-only JSON/OpenAPI 3 interface. The API enables headless CMS deployments, allowing decoupled frontend applications — SPAs, static site generators, and mobile apps — to consume CMS-managed content with full multi-language and multi-site support.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/screenshots/django-cms-2026-06-20T180058.png",
-     "score": 47.2,
+     "score": 48.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.4,
+      "contract_quality": 63.8,
       "governance": 58.3,
       "operational_transparency": 42.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1793,26 +1715,26 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 44
+     "rank": 42
     },
     {
      "name": "SnapAPI",
      "slug": "snapapi",
      "description": "REST API for website screenshots, metadata extraction, text extraction, and PDF generation. Powered by headless Chromium. Free tier with 50 requests/month, no credit card required. API key issued via self-service signup.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snapapi/refs/heads/main/screenshots/snapapi-2026-06-20T194100.png",
-     "score": 47.2,
+     "score": 48.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 62.7,
+      "contract_quality": 65.9,
       "governance": 58.3,
       "operational_transparency": 31.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1832,6 +1754,84 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
+     "rank": 43
+    },
+    {
+     "name": "Contentstack",
+     "slug": "contentstack",
+     "description": "This document is a detailed reference to Contentstack’s Content Delivery API. Retrieve content from your account and deliver it to web and mobile properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png",
+     "score": 47.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 80.4,
+      "governance": 52.1,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless CMS & Content Platforms",
+     "rank": 44
+    },
+    {
+     "name": "Scrapfly",
+     "slug": "scrapfly",
+     "description": "Scrapfly is a web scraping API platform that enables effortless collection of web data with battle-tested APIs that scale. It provides capabilities for scraping web pages, capturing screenshots, and extracting structured data with AI assistance to handle anti-bot measures and JavaScript rendering. One API key unlocks five APIs: Web Scraping (anti-bot unblocker), Cloud Browser (CDP), Screenshot, Extraction, and Crawler. Scrapfly operates globally with proxies across 190+ countries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/screenshots/scrapfly-2026-06-20T193556.png",
+     "score": 47.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 72.1,
+      "governance": 58.3,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 37.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "conformant",
+      "dry_run_mode": false
+     },
+     "tier": "Headless Browser & Rendering Infrastructure",
      "rank": 45
     },
     {
@@ -1839,19 +1839,19 @@
      "slug": "alokai-formerly-vue-storefront",
      "description": "Alokai (formerly Vue Storefront) is a Frontend-as-a-Service platform for composable, headless commerce. It connects enterprise ecommerce backends (SAP Commerce Cloud, Salesforce, Adobe Commerce/Magento, commercetools, BigCommerce, Shopware and others) to fast, customizable storefronts through the Alokai SDK, a server-side Middleware layer, a Unified Data Layer, the StorefrontUI component library, and Alokai Cloud hosting managed via the Alokai Console. The Alokai Cloud API (\"farmer\", OpenAPI 3.0) programmatically manages cloud instances, deployments, pods, ingresses, CDN cache and environment variables, authenticated with X-Api-Key and X-User-Id headers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/screenshots/alokai-formerly-vue-storefront-2026-07-25T195748.png",
-     "score": 45.1,
+     "score": 46.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 38.1,
+      "contract_quality": 43.4,
       "governance": 11.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 24.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1878,19 +1878,19 @@
      "slug": "snipcart",
      "description": "Snipcart is a developer-first shopping cart platform that enables merchants to add fully functional e-commerce to any website by embedding a JavaScript snippet. It provides a REST API accessible at https://app.snipcart.com/api for managing orders, customers, products, discounts, notifications, abandoned carts, and custom shipping methods. Authentication uses HTTP Basic Auth with a secret API key generated from the merchant dashboard, and the platform supports webhooks for real-time event notifications on orders, subscriptions, shipping, and taxes. Snipcart is stack-agnostic and integrates with static site generators, headless CMSs, and modern JavaScript frameworks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/screenshots/snipcart-2026-06-20T194105.png",
-     "score": 44.6,
+     "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 64.7,
+      "contract_quality": 67.7,
       "governance": 10.4,
       "operational_transparency": 65.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1924,19 +1924,19 @@
      "slug": "spree",
      "description": "Open-source headless e-commerce framework with a REST API for managing products, variants, orders, customers, inventory, promotions, and payment processing. Spree provides two OpenAPI 3.0-documented APIs — a Store API for customer-facing operations and an Admin API for back-office management — along with a TypeScript SDK, CLI, and Next.js storefront starter.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spree/refs/heads/main/screenshots/spree-2026-06-20T194402.png",
-     "score": 44.2,
+     "score": 44.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 62.8,
+      "contract_quality": 65.9,
       "governance": 58.3,
       "operational_transparency": 42.1,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1966,62 +1966,23 @@
      "rank": 48
     },
     {
-     "name": "Sitecore",
-     "slug": "sitecore",
-     "description": "Sitecore is a global digital experience platform that combines content management, marketing automation, e-commerce, customer insight, and personalization to help brands deliver personalized customer experiences. Through its developer documentation at doc.sitecore.com and api-docs.sitecore.com, Sitecore provides REST, GraphQL, and event-streaming APIs spanning XM Cloud, Customer Data Platform, Personalize, OrderCloud, Content Hub, and Discover.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/screenshots/sitecore-2026-06-20T194003.png",
-     "score": 43.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 80.9,
-      "governance": 52.1,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 32.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Platforms & Suites Going Headless",
-     "rank": 49
-    },
-    {
      "name": "Drupal",
      "slug": "drupal",
      "description": "Drupal is an open-source content management system written in PHP and used to build websites, applications, and digital experiences for individuals, organizations, and enterprises worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/screenshots/drupal-2026-06-20T180306.png",
-     "score": 43.7,
+     "score": 44.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 65.7,
+      "contract_quality": 68.6,
       "governance": 58.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2041,6 +2002,45 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
+     "rank": 49
+    },
+    {
+     "name": "Sitecore",
+     "slug": "sitecore",
+     "description": "Sitecore is a global digital experience platform that combines content management, marketing automation, e-commerce, customer insight, and personalization to help brands deliver personalized customer experiences. Through its developer documentation at doc.sitecore.com and api-docs.sitecore.com, Sitecore provides REST, GraphQL, and event-streaming APIs spanning XM Cloud, Customer Data Platform, Personalize, OrderCloud, Content Hub, and Discover.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/screenshots/sitecore-2026-06-20T194003.png",
+     "score": 44.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 82.3,
+      "governance": 52.1,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Platforms & Suites Going Headless",
      "rank": 50
     },
     {
@@ -2048,19 +2048,19 @@
      "slug": "diffbot",
      "description": "Diffbot is a company that provides AI-powered web scraping and data extraction services. Their technology allows businesses to automatically extract and organize data from any website, turning unstructured web content into structured data that can be easily analyzed and used for various purposes. Diffbot's solution is used by companies across industries to gather competitive intelligence, monitor market trends, track online mentions, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/screenshots/diffbot-2026-06-20T180012.png",
-     "score": 43.5,
+     "score": 43.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 50.0,
+      "contract_quality": 51.9,
       "governance": 0.0,
       "operational_transparency": 52.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2087,19 +2087,19 @@
      "slug": "elastic-path",
      "description": "Elastic Path is a headless commerce platform providing REST and GraphQL APIs for managing catalogs, products, price books, promotions, carts, orders, subscriptions, payments, and customer accounts in composable commerce architectures. It is designed for B2B, D2C, and multi-brand enterprise retailers building API-first, microservices-based shopping experiences.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/screenshots/elastic-path-2026-06-20T180529.png",
-     "score": 43.0,
+     "score": 43.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 63.5,
+      "contract_quality": 66.2,
       "governance": 58.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2129,61 +2129,22 @@
      "rank": 52
     },
     {
-     "name": "Magento",
-     "slug": "magento",
-     "description": "Overview of the Adobe Commerce and Magento Open Source REST API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/screenshots/magento-2026-06-20T184844.png",
-     "score": 42.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 70.9,
-      "governance": 41.7,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 35.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Platforms & Suites Going Headless",
-     "rank": 53
-    },
-    {
      "name": "Subbly",
      "slug": "subbly",
      "description": "Subbly is a subscription-first commerce platform for building and running subscription boxes, memberships, and recurring-product businesses without code. Alongside the no-code storefront and merchant admin, Subbly ships a developer surface for headless and custom builds: the SubblyCart.js embeddable cart widget and the Subbly.js SDK (@subbly/sdk), a browser-side client that talks to Subbly's REST backend to manage products, bundles, carts, checkout and purchase, customers, and subscriptions. Subbly also exposes a public Orders API for integrating directly with any 3PL / fulfillment provider (documentation is provided by Subbly on request), plus an in-app webhook platform for notifying external services of order and subscription events. Subbly does not publish a fully open, self-serve REST reference or an OpenAPI definition; the SDK abstracts the underlying endpoints, so the API surface modeled here is derived from the documented SDK operations and is flagged as modeled.",
-     "score": 42.4,
+     "score": 43.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 57.6,
+      "contract_quality": 61.2,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 37.0,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2203,35 +2164,64 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
+     "rank": 53
+    },
+    {
+     "name": "Magento",
+     "slug": "magento",
+     "description": "Overview of the Adobe Commerce and Magento Open Source REST API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/screenshots/magento-2026-06-20T184844.png",
+     "score": 43.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 73.1,
+      "governance": 41.7,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 35.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Platforms & Suites Going Headless",
      "rank": 54
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 33,
-   "shown": 33,
-   "providers": [
+    },
     {
      "name": "fabric",
      "slug": "fabric-com",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/screenshots/fabric-com-2026-06-20T181000.png",
-     "score": 41.8,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.4,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 40.7,
-      "contract_quality": 66.5,
+      "contract_quality": 69.4,
       "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2265,19 +2255,19 @@
      "slug": "virto-commerce",
      "description": "Virto Commerce is an open-source, API-first B2B e-commerce platform built on .NET Core. It provides REST and GraphQL APIs for catalog management, pricing, inventory, order management, customer organizations, marketing, payments, shipping, subscriptions, and complex B2B purchasing workflows including quotes, contracts, and approval routing. The modular architecture offers 100+ independently deployable modules covering the full commerce stack for enterprise deployments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/screenshots/virto-commerce-2026-06-20T201036.png",
-     "score": 41.8,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.4,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 49.1,
+      "contract_quality": 52.0,
       "governance": 0.0,
       "operational_transparency": 52.6,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2305,64 +2295,35 @@
      },
      "tier": "Headless & Composable Commerce",
      "rank": 56
-    },
-    {
-     "name": "Lightpanda",
-     "slug": "lightpanda",
-     "description": "Lightpanda is an open-source headless browser built from scratch in Zig for AI agents and large-scale automation. It is not a REST API; its programmable interface is the Chrome DevTools Protocol (CDP) exposed over a WebSocket endpoint, making it a drop-in target for Puppeteer, Playwright, and chromedp clients. It ships as an open-source binary/CLI (AGPL-3.0) and as Lightpanda Cloud, a managed CDP browser service.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/screenshots/lightpanda-2026-06-20T184520.png",
-     "score": 40.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 54.3,
-      "governance": 58.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 20.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 57
-    },
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 31,
+   "shown": 31,
+   "providers": [
     {
      "name": "Kernel",
      "slug": "kernel-so",
      "description": "Kernel is browser infrastructure for AI agents and web automations. Founded in 2025 by Catherine Jue (CEO) and Rafael Garcia (CTO) and backed by Accel and Y Combinator (S25), Kernel runs sandboxed Chromium browsers on a unikernel platform with sub-150ms cold starts, built-in stealth mode, residential proxies, CAPTCHA solving, session recording, live view, persistent profiles, and a serverless app platform that co-locates agent code with browsers. Kernel works with Playwright, Puppeteer, Browser Use, Stagehand, Magnitude, Notte, and the Anthropic/OpenAI/Gemini computer-use loops. The REST API at api.onkernel.com exposes browsers, browser pools, profiles, proxies, replays, extensions, computer controls, filesystem, processes, Playwright execution, managed auth, credentials, apps, deployments, invocations, and projects.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kernel-so/refs/heads/main/screenshots/kernel-so-2026-06-20T183954.png",
-     "score": 40.5,
+     "score": 41.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 57.4,
+      "contract_quality": 61.0,
       "governance": 0.0,
       "operational_transparency": 15.8,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2382,38 +2343,38 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 58
+     "rank": 57
     },
     {
-     "name": "Crawlbase",
-     "slug": "crawlbase",
-     "description": "Crawlbase (formerly ProxyCrawl) is a web crawling and scraping platform that fetches any web page through a large rotating proxy network with optional headless-Chrome JavaScript rendering, returning raw HTML, Markdown, screenshots, or structured JSON. A single token-authenticated REST host (api.crawlbase.com) exposes the Crawling API, a Scraper API of ready-made site extractors, Cloud Storage for crawled pages, a Screenshots API, and a Leads API for domain email discovery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/screenshots/crawlbase-2026-07-25T210650.png",
-     "score": 39.5,
+     "name": "Lightpanda",
+     "slug": "lightpanda",
+     "description": "Lightpanda is an open-source headless browser built from scratch in Zig for AI agents and large-scale automation. It is not a REST API; its programmable interface is the Chrome DevTools Protocol (CDP) exposed over a WebSocket endpoint, making it a drop-in target for Puppeteer, Playwright, and chromedp clients. It ships as an open-source binary/CLI (AGPL-3.0) and as Lightpanda Cloud, a managed CDP browser service.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/screenshots/lightpanda-2026-06-20T184520.png",
+     "score": 40.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
-      "governance": 0.0,
+      "contract_quality": 54.3,
+      "governance": 58.3,
       "operational_transparency": 36.8,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 30.6,
+     "schema_version": 0.7,
+     "agent_score": 20.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
+      "agentic_access": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "asyncapi_events": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2421,26 +2382,26 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "Medusa",
      "slug": "medusa-js",
      "description": "Medusa is an open-source headless commerce platform written in Node.js and TypeScript, distributed under the MIT license. The Medusa server exposes two REST APIs - a public Store API consumed by storefronts and end-customer clients, and a privileged Admin API consumed by the Medusa Admin dashboard and back-office tooling - both documented with OpenAPI. Around the server the project ships a modular Framework (API Routes, Modules, Module Links, Workflows, Subscribers, Scheduled Jobs, Admin Extensions), the Commerce Modules (cart, payment, customer, pricing, promotion, product, order, inventory, fulfillment, stock location, region, sales channel, tax, currency, API keys, user, auth), the @medusajs/js-sdk TypeScript client, the Medusa CLI (create-medusa-app), the Next.js storefront starter, a remote MCP server that exposes the docs to LLM coding assistants, and Medusa Cloud as an optional managed hosting offering with predictable per-environment pricing and no GMV fees.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/medusa-js/refs/heads/main/screenshots/medusa-js-2026-06-20T185127.png",
-     "score": 38.8,
+     "score": 39.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 45.8,
+      "contract_quality": 50.4,
       "governance": 0.0,
       "operational_transparency": 42.1,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2460,6 +2421,45 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
+     "rank": 59
+    },
+    {
+     "name": "Crawlbase",
+     "slug": "crawlbase",
+     "description": "Crawlbase (formerly ProxyCrawl) is a web crawling and scraping platform that fetches any web page through a large rotating proxy network with optional headless-Chrome JavaScript rendering, returning raw HTML, Markdown, screenshots, or structured JSON. A single token-authenticated REST host (api.crawlbase.com) exposes the Crawling API, a Scraper API of ready-made site extractors, Cloud Storage for crawled pages, a Screenshots API, and a Leads API for domain email discovery.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/screenshots/crawlbase-2026-07-25T210650.png",
+     "score": 39.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 61.2,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless Browser & Rendering Infrastructure",
      "rank": 60
     },
     {
@@ -2467,19 +2467,19 @@
      "slug": "airtop",
      "description": "Airtop is a cloud-browser API for AI agents. It runs remote Chromium sessions in the cloud and exposes them through a REST API so agents can open windows, navigate pages, and interact with sites using natural-language instructions - clicking, typing, scraping, and querying pages with AI - without brittle selectors or self-hosted browser infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/screenshots/airtop-2026-06-20T171435.png",
-     "score": 38.6,
+     "score": 39.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.8,
+      "contract_quality": 60.5,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2506,19 +2506,19 @@
      "slug": "zenscrape",
      "description": "Zenscrape is a web scraping API that returns the rendered HTML of any target URL while handling proxy rotation, headless-browser JavaScript rendering, geotargeting, and Cloudflare protection. A single GET /get request fetches a page through a rotating pool of standard or premium residential proxies, with a /status endpoint for remaining credits and an HTTP proxy-mode interface for existing proxy-based clients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenscrape/refs/heads/main/screenshots/zenscrape-2026-06-20T201818.png",
-     "score": 38.2,
+     "score": 39.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2545,19 +2545,19 @@
      "slug": "saleor",
      "description": "Saleor is an open-source, GraphQL-first commerce platform built in Python (Django) with a TypeScript dashboard. The entire commerce surface is exposed through a single GraphQL API used by storefronts, the Saleor Dashboard, and third-party Saleor Apps; mutations and queries cover products, channels, carts (checkout), orders, payments, promotions, taxes, attributes, and warehouses. Developer surface includes Saleor Cloud, the Saleor App SDK and App Template, a starter storefront, language SDKs (saleor-sdk for TS/JS), and an App Store of first-party and partner integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/screenshots/saleor-2026-06-20T193340.png",
-     "score": 37.7,
+     "score": 38.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 61.9,
+      "contract_quality": 65.1,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2580,62 +2580,23 @@
      "rank": 63
     },
     {
-     "name": "Craft CMS",
-     "slug": "craft-cms",
-     "description": "Craft CMS is a flexible, self-hosted PHP content management system built on Yii 2, designed for creating bespoke digital experiences. It features an auto-generated GraphQL API for headless implementations, enabling queries against entries, assets, categories, and custom fields via token-based authentication. The Element API plugin extends Craft with configurable JSON REST endpoints for any element type, using URL pattern routing and the Fractal transformation library. Craft supports multi-site architecture, unlimited content types, and is deployable on-premise or via Craft Cloud, the official managed hosting platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/screenshots/craft-cms-2026-06-20T175204.png",
-     "score": 37.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 51.9,
-      "governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless CMS & Content Platforms",
-     "rank": 64
-    },
-    {
      "name": "Bold Commerce",
      "slug": "bold-commerce",
      "description": "Bold Commerce builds modular e-commerce apps and headless commerce APIs for subscriptions, checkout, and pricing. Merchants and developers integrate Bold Subscriptions (recurring orders and branded customer portals), Bold Checkout (a headless, fully customizable checkout across Frontend, Backend, and Admin surfaces), and Bold Price Rules (discounts, promotions, and dynamic pricing), alongside supporting Products, Customers, and Shops APIs. Requests are made against api.boldcommerce.com and authenticated with an OAuth 2.0 access token (public integrations) or a scoped API access token (private integrations), passed as a Bearer token.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bold-commerce/refs/heads/main/screenshots/bold-commerce-2026-07-25T203530.png",
-     "score": 37.4,
+     "score": 38.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 53.1,
+      "contract_quality": 57.1,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2662,26 +2623,26 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Kontent AI",
      "slug": "kontent-ai",
      "description": "Kontent.ai is a headless content management system providing REST and GraphQL APIs for delivering, managing, and synchronizing content across digital channels, plus image transformation and subscription management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/screenshots/kontent-ai-2026-06-20T184133.png",
-     "score": 37.0,
+     "score": 38.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 52.5,
+      "contract_quality": 56.6,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2701,26 +2662,64 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
+     "rank": 65
+    },
+    {
+     "name": "Steel",
+     "slug": "steel-dev",
+     "description": "Steel is the open-source browser API for AI agents and apps. The Steel Cloud REST API (https://api.steel.dev/v1) launches and manages cloud browser sessions, runs stateless quick actions (scrape, screenshot, pdf, search), and exposes a live session viewer, while long-running automation connects to a per-session Chrome DevTools Protocol (CDP) WebSocket driven with Playwright, Puppeteer, or Selenium. The same surface ships self-hosted under Apache-2.0 as steel-browser.",
+     "score": 37.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 54.7,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless Browser & Rendering Infrastructure",
      "rank": 66
     },
     {
-     "name": "Payload",
-     "slug": "payload",
-     "description": "Payload is an open-source TypeScript-first headless CMS and application framework that ships with auto-generated REST, GraphQL, and Local APIs, authentication, access control, file storage, and a Next.js-native admin UI used to build content-driven websites, applications, and digital products.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/payload/refs/heads/main/screenshots/payload-2026-06-20T191457.png",
-     "score": 37.0,
+     "name": "Craft CMS",
+     "slug": "craft-cms",
+     "description": "Craft CMS is a flexible, self-hosted PHP content management system built on Yii 2, designed for creating bespoke digital experiences. It features an auto-generated GraphQL API for headless implementations, enabling queries against entries, assets, categories, and custom fields via token-based authentication. The Element API plugin extends Craft with configurable JSON REST endpoints for any element type, using URL pattern routing and the Fractal transformation library. Craft supports multi-site architecture, unlimited content types, and is deployable on-premise or via Craft Cloud, the official managed hosting platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/screenshots/craft-cms-2026-06-20T175204.png",
+     "score": 37.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 32.3,
+      "contract_quality": 51.9,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 71.1
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2743,22 +2742,22 @@
      "rank": 67
     },
     {
-     "name": "Steel",
-     "slug": "steel-dev",
-     "description": "Steel is the open-source browser API for AI agents and apps. The Steel Cloud REST API (https://api.steel.dev/v1) launches and manages cloud browser sessions, runs stateless quick actions (scrape, screenshot, pdf, search), and exposes a live session viewer, while long-running automation connects to a per-session Chrome DevTools Protocol (CDP) WebSocket driven with Playwright, Puppeteer, or Selenium. The same surface ships self-hosted under Apache-2.0 as steel-browser.",
-     "score": 36.6,
+     "name": "PDFEndpoint",
+     "slug": "pdfendpoint",
+     "description": "PDFEndpoint is a lightweight HTML and URL to PDF conversion API. A single REST endpoint renders raw HTML or a publicly accessible HTTPS URL into a PDF using a headless browser, with extensive options for page size, margins, orientation, headers and footers, encryption, and multiple delivery modes (JSON URL, base64, inline, webhook, S3, GCP). A sandbox mode watermarks output without consuming the monthly quota.",
+     "score": 37.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 50.4,
+      "contract_quality": 63.6,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 31.6,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2781,29 +2780,30 @@
      "rank": 68
     },
     {
-     "name": "PDFEndpoint",
-     "slug": "pdfendpoint",
-     "description": "PDFEndpoint is a lightweight HTML and URL to PDF conversion API. A single REST endpoint renders raw HTML or a publicly accessible HTTPS URL into a PDF using a headless browser, with extensive options for page size, margins, orientation, headers and footers, encryption, and multiple delivery modes (JSON URL, base64, inline, webhook, S3, GCP). A sandbox mode watermarks output without consuming the monthly quota.",
-     "score": 36.3,
+     "name": "Payload",
+     "slug": "payload",
+     "description": "Payload is an open-source TypeScript-first headless CMS and application framework that ships with auto-generated REST, GraphQL, and Local APIs, authentication, access control, file storage, and a Next.js-native admin UI used to build content-driven websites, applications, and digital products.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/payload/refs/heads/main/screenshots/payload-2026-06-20T191457.png",
+     "score": 37.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "discoverability": 68.5,
+      "contract_quality": 32.3,
       "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 30.6,
+     "schema_version": 0.7,
+     "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
+      "agentic_access": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -2815,7 +2815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Headless Browser & Rendering Infrastructure",
+     "tier": "Headless CMS & Content Platforms",
      "rank": 69
     },
     {
@@ -2823,19 +2823,19 @@
      "slug": "typo3",
      "description": "TYPO3 is an open-source enterprise PHP content management system providing REST APIs via the TYPO3 Headless extension and get.typo3.org release API for managing pages, content elements, media, navigation, and site configuration. The headless JSON content API delivers structured page and content data to decoupled frontend applications such as PWAs and SPAs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/screenshots/typo3-2026-06-20T195907.png",
-     "score": 35.7,
+     "score": 36.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 44.7,
+      "contract_quality": 49.4,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2858,62 +2858,23 @@
      "rank": 70
     },
     {
-     "name": "Crystallize",
-     "slug": "crystallize",
-     "description": "Crystallize is a headless product information management (PIM) and commerce platform built around a set of GraphQL APIs. It separates product storytelling from the commerce engine, exposing a Catalogue API for reading structured product data, a Discovery (Search) API for browse and search, a Shop API for cart and checkout, an Order/Subscription API, and a Core/PIM API for managing shapes, items, and tenants.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crystallize/refs/heads/main/screenshots/crystallize-2026-06-20T175316.png",
-     "score": 35.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 39.1,
-      "commercial_clarity": 73.7
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless & Composable Commerce",
-     "rank": 71
-    },
-    {
      "name": "dotCMS",
      "slug": "dotcms",
      "description": "dotCMS is a content management system that provides organizations with a powerful platform to create, manage, and deliver digital content. It offers a wide range of features, including content authoring tools, workflow management, personalization capabilities, and content analytics. With dotCMS, users can easily create and update websites, intranet portals, and mobile applications. The platform is designed to be flexible and scalable, making it suitable for businesses of all sizes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dotcms/refs/heads/main/screenshots/dotcms-2026-06-20T180201.png",
-     "score": 35.2,
+     "score": 36.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 53.9,
+      "contract_quality": 57.8,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2933,26 +2894,26 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "Browser Use",
      "slug": "browser-use",
      "description": "Browser Use is an open-source framework for AI-powered browser automation and web interaction.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/screenshots/browser-use-2026-06-20T173722.png",
-     "score": 35.0,
+     "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 46.3,
-      "contract_quality": 53.4,
+      "contract_quality": 57.4,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2972,30 +2933,30 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 73
+     "rank": 72
     },
     {
-     "name": "Bagisto",
-     "slug": "bagisto",
-     "description": "Bagisto is a free and open-source Laravel e-commerce platform that provides REST and GraphQL APIs for managing products, categories, customers, orders, inventory, carts, and multi-channel selling. Built on Laravel Sanctum, the API offers both a public Storefront API and a full-control Admin API, making it suitable for headless commerce, mobile apps, and third-party integrations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/screenshots/bagisto-2026-06-20T172936.png",
-     "score": 34.6,
+     "name": "Crystallize",
+     "slug": "crystallize",
+     "description": "Crystallize is a headless product information management (PIM) and commerce platform built around a set of GraphQL APIs. It separates product storytelling from the commerce engine, exposing a Catalogue API for reading structured product data, a Discovery (Search) API for browse and search, a Shop API for cart and checkout, an Order/Subscription API, and a Core/PIM API for managing shapes, items, and tenants.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crystallize/refs/heads/main/screenshots/crystallize-2026-06-20T175316.png",
+     "score": 35.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 43.2,
+      "discoverability": 74.1,
+      "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 39.1,
+      "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
+     "schema_version": 0.7,
+     "agent_score": 3.2,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
+      "spec_presence": false,
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
@@ -3011,143 +2972,26 @@
       "dry_run_mode": false
      },
      "tier": "Headless & Composable Commerce",
-     "rank": 74
-    },
-    {
-     "name": "Kentico",
-     "slug": "kentico",
-     "description": "Kentico is an enterprise .NET CMS and digital experience platform offering REST and GraphQL APIs for managing web content, e-commerce, digital marketing, and personalization. Xperience by Kentico provides headless channel GraphQL endpoints auto-generated per channel, a content item .NET API, file storage APIs supporting Azure Blob and Amazon S3, and a management REST service for CRUD operations on CMS objects. The platform supports ASP.NET Core with channel-based licensing covering website, email, and headless channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kentico/refs/heads/main/screenshots/kentico-2026-06-20T183955.png",
-     "score": 34.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 42.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 57.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Platforms & Suites Going Headless",
-     "rank": 75
-    },
-    {
-     "name": "ScrapingAnt",
-     "slug": "scrapingant",
-     "description": "ScrapingAnt is a web scraping API service that handles proxy rotation, headless browsers, and CAPTCHA solving for reliable web data extraction.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/screenshots/scrapingant-2026-06-20T193558.png",
-     "score": 34.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 53.4,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless Browser & Rendering Infrastructure",
-     "rank": 76
-    },
-    {
-     "name": "TinaCMS",
-     "slug": "tinacms",
-     "description": "TinaCMS is an open-source, Git-backed headless CMS that provides a GraphQL Content API for managing Markdown, MDX, and JSON content stored in Git repositories. It enables real-time visual editing for Next.js, Astro, and other frameworks, with TinaCloud offering a hosted Data Layer that indexes and serves content via per-project GraphQL endpoints with editorial workflow, media management, and authentication support.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tinacms/refs/heads/main/screenshots/tinacms-2026-06-20T195408.png",
-     "score": 34.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 42.0,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless CMS & Content Platforms",
-     "rank": 77
+     "rank": 73
     },
     {
      "name": "Contensis",
      "slug": "contensis",
      "description": "Contensis is an enterprise-level Content Management System (CMS) developed by Zengenti, designed to help organizations create, manage, and deliver digital content across multiple platforms and devices through HTTP, JavaScript, and .Net APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/screenshots/contensis-2026-06-20T174925.png",
-     "score": 34.1,
+     "score": 35.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 44.9,
+      "contract_quality": 49.6,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 15.2,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3167,26 +3011,104 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 78
+     "rank": 74
+    },
+    {
+     "name": "ScrapingAnt",
+     "slug": "scrapingant",
+     "description": "ScrapingAnt is a web scraping API service that handles proxy rotation, headless browsers, and CAPTCHA solving for reliable web data extraction.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/screenshots/scrapingant-2026-06-20T193558.png",
+     "score": 34.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 55.0,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless Browser & Rendering Infrastructure",
+     "rank": 75
+    },
+    {
+     "name": "Bagisto",
+     "slug": "bagisto",
+     "description": "Bagisto is a free and open-source Laravel e-commerce platform that provides REST and GraphQL APIs for managing products, categories, customers, orders, inventory, carts, and multi-channel selling. Built on Laravel Sanctum, the API offers both a public Storefront API and a full-control Admin API, making it suitable for headless commerce, mobile apps, and third-party integrations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/screenshots/bagisto-2026-06-20T172936.png",
+     "score": 34.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 43.2,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless & Composable Commerce",
+     "rank": 76
     },
     {
      "name": "Plasmic",
      "slug": "plasmic",
      "description": "Plasmic is a visual builder and headless CMS for front-end development. Designers and developers compose pages and components in Plasmic Studio, then ship them via either the Headless API (Loader) for runtime fetching or the Codegen pipeline for generated React/Next.js/Gatsby source. The platform also exposes a CMS for structured content, a CLI for code synchronization, and a REST API for programmatic access. Open source components live under the plasmicapp GitHub organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/screenshots/plasmic-2026-06-20T191800.png",
-     "score": 33.4,
+     "score": 34.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 50.0,
+      "contract_quality": 54.3,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3206,64 +3128,104 @@
       "dry_run_mode": false
      },
      "tier": "Headless CMS & Content Platforms",
-     "rank": 79
+     "rank": 77
     },
     {
-     "name": "Packdigital",
-     "slug": "packdigital",
-     "description": "Pack Digital is a digital experience platform purpose-built for Shopify Hydrogen that lets AI agents and human teams collaborate on headless storefronts: agents draft changes, the team reviews them in content releases, and you ship when ready. Pack pairs a visual Customizer, server-side A/B testing, media and localization, and the open-source Blueprint Hydrogen theme with a developer surface — a GraphQL Content Management API, JavaScript SDKs (@pack/client, @pack/react, @pack/hydrogen, @pack/types), and an official hosted MCP server for agent-native content editing, publishing, scheduling, and testing. Backed by Norwest Venture Partners.",
-     "score": 32.5,
+     "name": "Kentico",
+     "slug": "kentico",
+     "description": "Kentico is an enterprise .NET CMS and digital experience platform offering REST and GraphQL APIs for managing web content, e-commerce, digital marketing, and personalization. Xperience by Kentico provides headless channel GraphQL endpoints auto-generated per channel, a content item .NET API, file storage APIs supporting Azure Blob and Amazon S3, and a management REST service for CRUD operations on CMS objects. The platform supports ASP.NET Core with channel-based licensing covering website, email, and headless channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kentico/refs/heads/main/screenshots/kentico-2026-06-20T183955.png",
+     "score": 34.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 3.1,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 44.7
+      "discoverability": 74.1,
+      "contract_quality": 42.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 24.5,
+     "schema_version": 0.7,
+     "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
+      "spec_presence": true,
       "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
+      "mcp_server": false,
+      "auth_clarity": false,
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "asyncapi_events": false,
-      "agent_skills": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Headless & Composable Commerce",
-     "rank": 80
+     "tier": "Platforms & Suites Going Headless",
+     "rank": 78
+    },
+    {
+     "name": "TinaCMS",
+     "slug": "tinacms",
+     "description": "TinaCMS is an open-source, Git-backed headless CMS that provides a GraphQL Content API for managing Markdown, MDX, and JSON content stored in Git repositories. It enables real-time visual editing for Next.js, Astro, and other frameworks, with TinaCloud offering a hosted Data Layer that indexes and serves content via per-project GraphQL endpoints with editorial workflow, media management, and authentication support.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tinacms/refs/heads/main/screenshots/tinacms-2026-06-20T195408.png",
+     "score": 34.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 42.0,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless CMS & Content Platforms",
+     "rank": 79
     },
     {
      "name": "Liferay",
      "slug": "liferay",
      "description": "Liferay DXP is an open-source digital experience platform offering headless REST APIs for managing users, roles, permissions, content, and site configuration. The Roles API lets you list, retrieve, and associate or dissociate regular, site, and organization roles for users.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/screenshots/liferay-2026-06-20T184517.png",
-     "score": 32.4,
+     "score": 33.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 44.9,
+      "contract_quality": 49.6,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3283,26 +3245,26 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Salesforce Commerce Cloud",
      "slug": "salesforce-commerce-cloud",
      "description": "Salesforce Commerce Cloud (formerly Demandware) is an enterprise commerce platform supporting B2C and B2B storefronts, order management, product content, and headless commerce experiences. Commerce Cloud exposes two REST API products: the legacy Open Commerce API (OCAPI) and the modern Salesforce Commerce API (SCAPI), a unified RAML-defined API family built for headless commerce. SCAPI uses OAuth 2.0 via Salesforce Account Manager and groups APIs into Shopper, Data, and Admin tiers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/screenshots/salesforce-commerce-cloud-2026-06-20T193346.png",
-     "score": 31.8,
+     "score": 32.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.9,
+      "contract_quality": 60.1,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 37.0,
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3322,26 +3284,26 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 82
+     "rank": 81
     },
     {
      "name": "Selenium",
      "slug": "selenium",
      "description": "Selenium is a suite of tools for automating web browsers across many platforms. It provides a way to control browsers programmatically for testing web applications and automating browser-based tasks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/screenshots/selenium-2026-06-20T193639.png",
-     "score": 31.4,
+     "score": 32.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 40.7,
+      "contract_quality": 45.7,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3361,6 +3323,44 @@
       "dry_run_mode": false
      },
      "tier": "Headless Browser & Rendering Infrastructure",
+     "rank": 82
+    },
+    {
+     "name": "Packdigital",
+     "slug": "packdigital",
+     "description": "Pack Digital is a digital experience platform purpose-built for Shopify Hydrogen that lets AI agents and human teams collaborate on headless storefronts: agents draft changes, the team reviews them in content releases, and you ship when ready. Pack pairs a visual Customizer, server-side A/B testing, media and localization, and the open-source Blueprint Hydrogen theme with a developer surface — a GraphQL Content Management API, JavaScript SDKs (@pack/client, @pack/react, @pack/hydrogen, @pack/types), and an official hosted MCP server for agent-native content editing, publishing, scheduling, and testing. Backed by Norwest Venture Partners.",
+     "score": 32.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 24.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless & Composable Commerce",
      "rank": 83
     },
     {
@@ -3380,7 +3380,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3419,7 +3419,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3458,7 +3458,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3497,7 +3497,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3546,7 +3546,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3591,7 +3591,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3637,7 +3637,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3676,7 +3676,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3714,7 +3714,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3753,7 +3753,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3792,7 +3792,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3831,7 +3831,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 14.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3854,62 +3854,23 @@
      "rank": 95
     },
     {
-     "name": "Caisy",
-     "slug": "caisy",
-     "description": "GraphQL-native headless CMS with a real-time GraphQL content API, rich text as AST, multi-site support, and component-based content blueprints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caisy/refs/heads/main/screenshots/caisy-2026-06-20T173839.png",
-     "score": 24.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 43.2,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless CMS & Content Platforms",
-     "rank": 96
-    },
-    {
      "name": "Adobe Experience Manager",
      "slug": "adobe-experience-manager",
      "description": "Adobe Experience Manager (AEM) is an enterprise content management solution for building websites, mobile apps, and forms, combining a digital asset management system, content fragment authoring, and adaptive forms in a single platform delivered as a cloud service. AEM provides REST APIs, GraphQL endpoints, and Java/JavaScript SDKs for content delivery, authoring, asset management, and infrastructure operations. Authentication for AEM as a Cloud Service uses Adobe IMS OAuth 2.0 service tokens.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/screenshots/adobe-experience-manager-2026-06-20T164924.png",
-     "score": 24.4,
+     "score": 24.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 43.2,
+      "contract_quality": 45.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 27.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3929,6 +3890,45 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
+     "rank": 96
+    },
+    {
+     "name": "Caisy",
+     "slug": "caisy",
+     "description": "GraphQL-native headless CMS with a real-time GraphQL content API, rich text as AST, multi-site support, and component-based content blueprints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caisy/refs/heads/main/screenshots/caisy-2026-06-20T173839.png",
+     "score": 24.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 43.2,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless CMS & Content Platforms",
      "rank": 97
     },
     {
@@ -3948,7 +3948,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3987,7 +3987,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4026,7 +4026,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 1.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4065,7 +4065,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4103,7 +4103,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4142,7 +4142,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4181,7 +4181,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4220,7 +4220,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4259,7 +4259,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4308,7 +4308,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4346,7 +4346,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

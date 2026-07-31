@@ -16,19 +16,19 @@
      "slug": "vesselfinder",
      "description": "VesselFinder is a maritime intelligence company operating a global AIS vessel-tracking network (terrestrial AIS plus satellite AIS) and offering ship positions, voyage history, vessel particulars, port-call events, sea-distance routing, and ocean-container track-and-trace through its developer APIs. The platform pairs a credit-metered AIS REST API (Vessels, PortCalls, ExpectedArrivals, MasterData, Distance, plus subscription feeds VesselsList and LiveData) with a separate Container Tracking API that returns shipment schedules and real-time vessel positions by container number. VesselFinder also runs a public web map, iOS/Android apps, an embeddable map widget, a fleet explorer, and a route planner.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png",
-     "score": 59.6,
+     "score": 59.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 74.6,
+      "contract_quality": 74.4,
       "governance": 68.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -65,19 +65,19 @@
      "name": "Xeneta",
      "slug": "xeneta",
      "description": "Xeneta is an ocean and air freight rate benchmarking and market analytics platform headquartered in Oslo, Norway. It crowdsources contracted freight rates from shippers and forwarders into the world's largest rate database, and its REST API (v3.0) exposes ocean and air market rates, your own contracted prices, carrier spread, estimated rates, capacity, carbon emissions, and schedule reliability data, plus a separate airline reports API for airlines, shippers, and freight forwarders.",
-     "score": 51.1,
+     "score": 51.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 58.5,
+      "contract_quality": 62.0,
       "governance": 20.8,
       "operational_transparency": 28.9,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -111,19 +111,19 @@
      "slug": "vizion",
      "description": "Vizion provides a container tracking API that delivers clean, standardized, and detailed shipment tracking events from ocean carriers, terminals, rail, and customs data sources. The REST API returns JSON-encoded responses and supports webhooks for real-time shipment data. Vizion sources data from all major global ocean carriers and standardizes it into a consistent schema regardless of carrier or data source.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/screenshots/vizion-2026-06-20T201119.png",
-     "score": 50.9,
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 71.6,
+      "contract_quality": 74.0,
       "governance": 58.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 37.0,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -150,19 +150,19 @@
      "slug": "marinetraffic",
      "description": "MarineTraffic, a Kpler company, is a global provider of vessel tracking and maritime intelligence data. The platform offers AIS-based real-time vessel positions, port calls, predictive ETAs, historical voyage data, and ship registry information used for fleet monitoring, port operations, and supply chain visibility.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/screenshots/marinetraffic-2026-06-20T184951.png",
-     "score": 49.0,
+     "score": 48.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 74.0,
+      "contract_quality": 73.9,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -199,19 +199,19 @@
      "name": "Terminal49",
      "slug": "terminal49",
      "description": "Terminal49 is an automated container and ocean-freight tracking platform. Its v2 REST API (JSON:API) lets shippers, forwarders, and logistics software track Bills of Lading, bookings, and container numbers across global ocean carriers and North American rail, returning normalized milestones, ETAs, terminal availability, holds, demurrage fees, and last free day, with webhooks for real-time updates.",
-     "score": 37.4,
+     "score": 38.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 51.7,
+      "contract_quality": 55.8,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -237,19 +237,19 @@
      "name": "Portcast",
      "slug": "portcast",
      "description": "Portcast is a predictive supply-chain visibility platform whose Container Tracking API delivers the full journey of an ocean container - milestones, vessel schedules, port codes, and machine-learning predicted ETAs and ETDs - in a single JSON response, tracked by container number, bill of lading, or booking number plus carrier SCAC, with push (webhook) callbacks on every update.",
-     "score": 35.3,
+     "score": 36.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 59.2,
+      "contract_quality": 62.6,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -298,7 +298,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -337,7 +337,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -376,7 +376,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -425,7 +425,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -464,7 +464,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -503,7 +503,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -541,7 +541,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -580,7 +580,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

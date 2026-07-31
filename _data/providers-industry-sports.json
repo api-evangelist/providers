@@ -16,19 +16,19 @@
      "slug": "national-hockey-league",
      "description": "The National Hockey League (NHL) is the premier professional ice hockey league in North America, comprised of 32 franchises across the United States and Canada. The NHL produces the Stanley Cup playoffs and is one of the major North American professional sports leagues. The NHL does not publish an officially documented developer portal; the league operates undocumented JSON endpoints used by its first-party web and mobile apps (api-web.nhle.com) and provides advanced statistics through NHL EDGE. Commercial data feeds are licensed through SMT, Sportradar, and other approved partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png",
-     "score": 18.7,
+     "score": 19.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 48.9,
+      "contract_quality": 53.3,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 18.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -53,19 +53,19 @@
      "name": "Major League Baseball",
      "slug": "major-league-baseball",
      "description": "Major League Baseball (MLB) is the professional baseball organization of the United States and Canada, operating the National League and American League with 30 teams. MLB Advanced Media (now part of MLB) provides public stats and game data through the MLB Stats API and the legacy MLB Data (lookup service) API, used by teams, broadcasters, analysts, and a wide community of developers building stats sites, fantasy applications, and analytical tools. MLB also exposes Statcast data through Baseball Savant. There is no general-purpose self-service developer portal with terms or signup; the APIs are widely consumed but are formally intended for partner use.",
-     "score": 17.5,
+     "score": 18.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 42.3,
+      "contract_quality": 47.3,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 18.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -114,7 +114,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -152,7 +152,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -190,7 +190,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -227,7 +227,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

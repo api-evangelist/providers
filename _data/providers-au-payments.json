@@ -8,27 +8,27 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Airwallex",
      "slug": "airwallex",
      "description": "Airwallex is a financial technology company that specializes in providing global payment solutions for businesses. Their platform enables companies to accept payments, manage multi-currency accounts, convert currencies at competitive rates, send cross-border payments, issue corporate cards, and embed financial services into their own products. Airwallex serves businesses in over 150 countries with APIs for payment acceptance, FX, accounts, transfers, and embedded finance.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png",
-     "score": 63.6,
+     "score": 64.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 63.3,
+      "contract_quality": 66.5,
       "governance": 68.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 58.7,
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -61,19 +61,19 @@
      "name": "Zepto",
      "slug": "zepto-payments",
      "description": "Zepto is a Gold Coast, Australia based account-to-account (A2A) payments company that gives merchants and platforms programmable, real-time access to Australia's core money-movement rails. Its unified REST API moves money over the New Payments Platform (NPP) for instant account-to-account payments, PayTo for mandated real-time debits, PayID addressing, BECS Direct Entry (direct debit and direct credit), and stored-value float accounts, with real-time messaging, settlement and reconciliation. Zepto is the first non-authorised-deposit-taking institution (non-ADI) approved to connect directly to the NPP as a \"Connected Institution\" for PayTo, positioning it as an infrastructure-grade money-movement provider rather than a card acquirer. Its API posture is genuinely developer-first and API-native: a public ReadMe developer portal, a full sandbox, idempotent asynchronous payment flows, webhook notifications, and seven downloadable OpenAPI specifications covering the core payments API, PayTo, Confirmation of Payee (Validate), disputes, clients, merchant reports and notifications.",
-     "score": 57.8,
+     "score": 58.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 55.2,
+      "contract_quality": 59.0,
       "governance": 20.8,
       "operational_transparency": 55.3,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -119,7 +119,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -149,67 +149,22 @@
      "rank": 3
     },
     {
-     "name": "Zai",
-     "slug": "zai",
-     "description": "Zai (hellozai.com, formerly Assembly Payments / Assembly) is an Australian payments and Payments-as-a-Service provider headquartered in Melbourne. Zai gives platforms, marketplaces and vertical software companies a programmable way to onboard users, hold funds in managed wallet accounts, collect pay-ins (card, direct debit, BPAY, PayID), and disburse pay-outs across many parties in a single transaction flow. It is API-first: the Assembly API exposes wallet accounts, users, items, transactions, bank accounts, card accounts, fees, callbacks and batch disbursements, layered with Australia's New Payments Platform rails through dedicated Virtual Accounts / PayID and PayTo APIs, plus an Asynchronous API for long-running operations. Authentication is OAuth2 client-credentials (bearer tokens on PayTo), with a Live and Pre-live (sandbox) environment, webhooks with signature verification, and a developer dashboard. Positioned as the embedded-payments and marketplace-money-movement layer for the Australian market and platforms operating there.",
-     "score": 56.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 51.6,
-      "governance": 20.8,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 73.4,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 75.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 39.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Open Banking & A2A Payments",
-     "rank": 4
-    },
-    {
      "name": "Pinch Payments",
      "slug": "pinch-payments",
      "description": "Pinch Payments is an Australian, Brisbane-based payment orchestration and payment-facilitator platform that automates invoice collection and receivables for service businesses, bookkeepers, and software platforms across Australia and New Zealand. Marketing itself as \"Aussie-Made Payments Infrastructure,\" Pinch lets merchants accept direct debit (bank account) and card payments (Visa, Mastercard, American Express), build payment plans and subscriptions, tokenise payment sources client-side with its CaptureJS library, and reconcile settlements back into Xero, QuickBooks, and MYOB. Its Glassbox / Managed Merchants offering is a Payfac-as-a-Service seam with KYC, compliance, and sub-merchant onboarding for platforms acting as aggregators or marketplaces. Pinch is genuinely API-first: it ships a fully documented REST API (JSON, OAuth2 client-credentials auth), a ReadMe-hosted developer portal with a live API explorer, per-product OpenAPI 3.1 definitions, a published Postman collection, an official .NET SDK, Zapier/n8n/viaSocket no-code connectors, webhooks for real-time events, and an llms.txt + docs MCP server for AI-assisted integration.",
-     "score": 56.7,
+     "score": 57.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 63.1,
+      "contract_quality": 64.3,
       "governance": 11.5,
       "operational_transparency": 52.6,
       "developer_ergonomics": 79.9,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -236,36 +191,70 @@
       "dry_run_mode": false
      },
      "tier": "Spend, AP & AR",
+     "rank": 4
+    },
+    {
+     "name": "Zai",
+     "slug": "zai",
+     "description": "Zai (hellozai.com, formerly Assembly Payments / Assembly) is an Australian payments and Payments-as-a-Service provider headquartered in Melbourne. Zai gives platforms, marketplaces and vertical software companies a programmable way to onboard users, hold funds in managed wallet accounts, collect pay-ins (card, direct debit, BPAY, PayID), and disburse pay-outs across many parties in a single transaction flow. It is API-first: the Assembly API exposes wallet accounts, users, items, transactions, bank accounts, card accounts, fees, callbacks and batch disbursements, layered with Australia's New Payments Platform rails through dedicated Virtual Accounts / PayID and PayTo APIs, plus an Asynchronous API for long-running operations. Authentication is OAuth2 client-credentials (bearer tokens on PayTo), with a Live and Pre-live (sandbox) environment, webhooks with signature verification, and a developer dashboard. Positioned as the embedded-payments and marketplace-money-movement layer for the Australian market and platforms operating there.",
+     "score": 56.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 51.6,
+      "governance": 20.8,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 75.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 39.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Open Banking & A2A Payments",
      "rank": 5
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 8,
-   "shown": 8,
-   "providers": [
+    },
     {
      "name": "Monoova",
      "slug": "monoova",
      "description": "Monoova is an Australian payments platform that lets businesses receive, manage, and pay funds in AUD across every domestic rail through a single set of RESTful JSON APIs. Operated by Monoova Global Payments Pty Ltd (AFSL 421414) and enrolled with AUSTRAC, it connects directly to the New Payments Platform (real-time account-to-account transfers via NPP/Osko, PayID addressing, and PayTo mandated debits) alongside BPAY, direct entry (credit/debit), card acquiring, and Apple Pay / Google Pay. Its Automatcher reconciliation engine, virtual mAccount/mWallet hierarchies, Confirmation of Payee, account verification, payment tokenisation, and webhook-driven reporting target fintechs, marketplaces, payroll, lending, remittance, and SaaS businesses (customers include Wise, Nium, Finder, and Sharesies). Monoova is genuinely API-first: it ships a public developer portal, a Redoc API reference, downloadable OpenAPI specifications, and a public Postman workspace, plus a free self-serve sandbox.",
-     "score": 55.5,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 56.3,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 57.6,
+      "contract_quality": 61.2,
       "governance": 11.5,
       "operational_transparency": 39.5,
       "developer_ergonomics": 73.4,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -293,24 +282,35 @@
      },
      "tier": "Open Banking & A2A Payments",
      "rank": 6
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 7,
+   "shown": 7,
+   "providers": [
     {
      "name": "Tyro Payments",
      "slug": "tyro",
      "description": "Tyro Payments is an ASX-listed Australian payments company and one of the country's largest merchant acquirers outside the major banks, holding its own banking licence. Founded in 2003, Tyro provides EFTPOS terminals, in-person and online card acceptance, and integrated payments for more than 70,000 Australian merchants across hospitality, retail and health. Its developer surface, Tyro Connect, is a genuinely API-first platform: a REST API family (served from https://api.tyro.com/connect and secured with OpenID Connect / OAuth 2.0) that links Point of Sale software, ordering, booking, loyalty and reporting apps to Tyro merchants, alongside Tyro.js, mobile SDKs and Tap to Pay (SoftPOS) for card-present and online payments. Home market is Australia.",
-     "score": 54.3,
+     "score": 54.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 68.1,
+      "contract_quality": 70.8,
       "governance": 20.8,
       "operational_transparency": 55.3,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -344,19 +344,19 @@
      "slug": "azupay",
      "description": "Azupay is an Australian real-time payments company that moves money over the New Payments Platform (NPP), the account-to-account rails operated by Australian Payments Plus. It is API-first: merchants and platforms embed Azupay to receive payments via PayID (AzupayId), send outbound payments to a PayID or BSB/account number (AzupayOut), and collect recurring or on-demand debits through PayTo mandates and payment agreements (AzupayTo). Azupay also offers Confirmation of Payee (CoP) account checks and PayID enquiry to reduce misdirected-payment and fraud risk, batch/file (ABA and SFTP) processing for bulk payouts and collections, reporting, balance management, sub-client and API-key management, and hosted UX apps (Pay by Bank, Disbursements, Subscriptions). Its public developer portal documents a REST API at api.azupay.com.au/v1 with a UAT environment, authenticated by API key (secret and distributable keys in the Authorization header) with OAuth 2.0 client-credentials available as an additional server-to-server option, plus webhooks for asynchronous payment status. Home market is Australia; the surface is genuinely self-serve and documented, though production access and some capabilities (sub-clients, OAuth2) are enabled per client by Azupay.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png",
-     "score": 54.0,
+     "score": 54.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 68.1,
+      "contract_quality": 70.9,
       "governance": 11.5,
       "operational_transparency": 47.4,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -390,19 +390,19 @@
      "slug": "basiq",
      "description": "Basiq is an Australian open banking and financial data API platform providing unified access to bank account data and enrichment services. It enables fintechs, lenders, and financial service providers to connect to 180+ Australian and New Zealand banks via CDR (Consumer Data Right) and third-party connectors. The Basiq API provides user management, bank connections, account balances, transaction history, income verification, and expense categorization. Uses JWT Bearer token authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/screenshots/basiq-2026-06-20T173039.png",
-     "score": 50.3,
+     "score": 50.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 69.5,
+      "contract_quality": 72.1,
       "governance": 68.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -435,19 +435,19 @@
      "name": "Weel",
      "slug": "weel",
      "description": "Weel (formerly DiviPay, operated by Weel Pty Ltd) is a Melbourne-based all-in-one spend management platform for finance teams in Australia and New Zealand, serving over 4,000 finance teams and 60,000+ card holders. Weel issues virtual and physical Visa debit cards with real-time limits and controls, and layers accounts payable automation, expense management, reimbursements, subscription management, budgets, and approval policies on top. Rather than operating payment rails directly, Weel sits on the spend and AP/AR seam, syncing approved spend into Xero, QuickBooks, MYOB, and NetSuite. On the API posture, Weel ships a genuine public developer portal at developer.letsweel.com (Redocly-based) documenting a single RESTful \"Weel Open API\" that both reads and writes budgets, users, transactions, custom fields, accounting codes, categories, invites, and top-ups, authenticated with a bearer API key generated in-app. API access is an Enterprise-tier capability. No public webhooks, Postman collection, or OAuth flow are documented as of this review.",
-     "score": 47.0,
+     "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 37.3,
+      "contract_quality": 42.6,
       "governance": 20.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 53.8,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -480,19 +480,19 @@
      "name": "Till Payments",
      "slug": "till-payments",
      "description": "Till Payments is a Sydney, Australia founded merchant acquirer and payment technology company (established 2012), focused on integrated payments for independent software vendors, platforms, and omnichannel merchants across online, in-person, and unattended channels. Its product family spans a card-present and card-not-present processing Gateway, a PCI-enabled Direct API for merchants handling raw card data, Pay By Link, and Terminal Connect for in-person device integrations. Till was acquired by Nuvei in 2024 and now operates as part of Nuvei's global platform while retaining its Australian home market and developer surface. Its API posture is genuinely API-first: a public developer hub, hosted V3 reference documentation, and two downloadable OpenAPI 3.0 specifications (the Gateway API and the Direct PCI-enabled Payment Platform), both authenticated with HTTP Basic credentials over TLS 1.2+.",
-     "score": 43.7,
+     "score": 44.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 53.5,
+      "contract_quality": 57.5,
       "governance": 11.5,
       "operational_transparency": 28.9,
       "developer_ergonomics": 42.9,
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -526,19 +526,19 @@
      "slug": "pin-payments",
      "description": "A complete payments solution, built for speed and simplicity around your unique business needs. The Pin Payments API enables developers to charge cards, manage customers, store payment sources, issue refunds, and run subscriptions through a RESTful JSON interface secured with HTTP Basic authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/screenshots/pin-payments-2026-06-20T191711.png",
-     "score": 42.5,
+     "score": 43.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 48.3,
+      "contract_quality": 52.7,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 84.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -584,7 +584,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -640,7 +640,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -686,7 +686,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -731,7 +731,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -787,7 +787,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -833,7 +833,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -878,7 +878,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -924,7 +924,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",

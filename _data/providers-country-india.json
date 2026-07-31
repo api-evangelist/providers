@@ -16,19 +16,19 @@
      "slug": "kaleyra",
      "description": "Kaleyra is a global omnichannel CPaaS provider (a Tata Communications company since October 2023) offering SMS, WhatsApp, RCS, Voice, Email, Verify (OTP), and Video communication APIs. Its REST APIs authenticate with an api-key header, address accounts by SID in the path, and are served from region-specific hosts for India, APAC, and EU data residency.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/screenshots/kaleyra-2026-07-25T223430.png",
-     "score": 63.4,
+     "score": 63.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 69.1,
+      "contract_quality": 71.7,
       "governance": 11.5,
       "operational_transparency": 86.8,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 65.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -61,19 +61,19 @@
      "slug": "digio",
      "description": "Digio is an India-based digital trust and paperwork automation platform. Its REST APIs deliver legally-valid Aadhaar and OTP eSign, eStamping, KYC (CKYC, KRA, DigiLocker, offline Aadhaar, and Video KYC), eNACH/NACH eMandates and UPI Autopay recurring payments, AML/CFT screening, and template-based document and agreement management. All endpoints use HTTPS with HTTP Basic authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/screenshots/digio-2026-07-25T212007.png",
-     "score": 63.1,
+     "score": 63.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 70.3,
+      "contract_quality": 72.9,
       "governance": 11.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 89.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 39.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -99,19 +99,19 @@
      "slug": "100ms-live",
      "description": "100ms is a live video and audio infrastructure company headquartered in Bengaluru, India that provides developer SDKs and a REST control plane for embedding video conferencing, interactive live streaming (HLS), RTMP ingest/egress, recording, real-time chat/messaging, polls, whiteboard, and AI-powered transcription into applications. The company was acquired by Disney+ Hotstar (JioCinema/JioHotstar) in 2023 and continues to operate as an independent commercial SaaS — the same infrastructure powering some of the largest live cricket audiences in the world (IPL on JioCinema/Hotstar). The platform exposes a single Server-Side REST API at api.100ms.live/v2 plus client SDKs for Web (JavaScript/React), iOS (Swift), Android (Kotlin), React Native, Flutter, and a Node.js server SDK, with public OpenAPI specs generated from the docs and a Postman collection.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/screenshots/100ms-live-2026-06-20T162232.png",
-     "score": 60.6,
+     "score": 61.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 65.9,
+      "contract_quality": 68.5,
       "governance": 68.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 50.0,
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -137,19 +137,19 @@
      "slug": "groww",
      "description": "Groww is an Indian fintech company offering investing and trading in stocks, futures & options, mutual funds, ETFs, IPOs and more through its consumer app and web platform. Backed by Iconiq Capital, Ribbit Capital and Y Combinator, Groww also operates the Groww Trading API — an official programmatic interface for algorithmic trading that covers order management (place/modify/cancel), portfolio holdings and positions, margin calculation, live market data (LTP, full quote, OHLC, option chain and greeks) and historical candle data across the CASH (equity) and FNO (derivatives) segments on Indian exchanges. Requests hit https://api.groww.in, are versioned with the X-API-VERSION header, and are authenticated with a daily Bearer access token generated via an API key + secret checksum, a TOTP flow, or an OAuth2 authorization-code flow.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png",
-     "score": 58.6,
+     "score": 58.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 58.5,
+      "contract_quality": 58.9,
       "governance": 11.5,
       "operational_transparency": 39.5,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 65.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -185,26 +185,26 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 14,
-   "shown": 14,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "Route Mobile",
      "slug": "route-mobile",
      "description": "Route Mobile Limited is a Mumbai-headquartered cloud communications platform (CPaaS) provider and one of India's largest A2P messaging aggregators, listed on the BSE and NSE and now majority-owned by Belgium's Proximus Group, where it sits alongside BICS and Telesign inside Proximus Global. It sells enterprise messaging (SMS, WhatsApp Business Platform, RCS, Viber, Google Business Messages, Telegram, Instagram), OTP and identity verification, voice and cloud telephony, transactional email through SendClean, URL shortening through Acculync, and a telecom-operator product line (SMSC-as-a-service, the Route Shield SMS firewall, Route Hub, and Instant Virtual Numbers) that puts it on both sides of the carrier relationship — reselling operator connectivity to enterprises while also selling infrastructure back to operators. Its API posture is genuinely self-serve and public: a ReadMe-hosted developer portal at developer.rmlconnect.net documents roughly 108 REST operations across SMS, WhatsApp, RCS, Viber and email, backed by five downloadable OpenAPI 3.0 definitions that are also mirrored in first-party GitHub repositories with Postman collections and Redoc pages. That places Route Mobile firmly in the CPaaS-aggregator half of telecom rather than the partner-gated operator half. On the sector's defining standards question it is thinner than its marketing suggests: nothing in its public documentation references CAMARA, GSMA Open Gateway, Number Verification, SIM Swap, Device Location or CIBA, and its network-API story lives entirely at the parent level, in Proximus Global's Konera aggregation platform announced as \"aligned with GSMA's CAMARA standardization initiative\" — a press release, not a callable Route Mobile endpoint. Authentication across its live APIs is legacy-CPaaS rather than telco-standard: username and password query parameters for SMS, JWT bearer tokens minted by product-level login endpoints for WhatsApp, RCS and Viber, and owner_id plus token in the request body for email.",
-     "score": 55.0,
+     "score": 55.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 66.4,
+      "contract_quality": 69.3,
       "governance": 20.8,
       "operational_transparency": 44.7,
       "developer_ergonomics": 60.3,
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -236,19 +236,19 @@
      "name": "Reliance Jio",
      "slug": "reliance-jio",
      "description": "Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and Reliance Industries, is India's largest mobile network operator, serving roughly half a billion subscribers on an all-IP 4G/5G network from its home market of India, alongside JioFiber broadband, JioAirFiber fixed wireless, IoT connectivity, and an enterprise CPaaS business branded JioCX. Jio sits at the network-operator layer of the telecom value chain and its API posture is split in two. Its BSS/OSS side is unusually standards-forward - Jio was the first communications service provider to reach TM Forum Open API Platinum conformance, with more than twenty certified Open APIs - but those interfaces are internal supplier-integration contracts, not a public developer product. Its network APIs are genuinely live, since Jio launched the CAMARA SIM Swap API alongside Bharti Airtel and Vodafone Idea under GSMA Open Gateway, and Jio is one of the twelve carrier equity owners of Aduna, the Ericsson-led network-API joint venture. There is, however, no first-party Open Gateway developer portal - opengateway.jio.com and developers.opengateway.jio.com do not resolve - so those network APIs are partner-gated and reachable only through the Aduna aggregation channel, the GSMA federated hub, and CPaaS partners rather than directly from Jio. What Jio does publish self-serve is a real developer portal for its SaaS products at dev.jiomeet.com, covering the JioMeet and JioEvents platform REST APIs with JWT and OAuth 2.0 auth and thirty-four public client SDK repositories, plus a set-top-box app developer programme at developer.jio.com. Jio serves no downloadable OpenAPI or Swagger document anywhere across those surfaces, but the dev.jiomeet.com reference is generated by the docusaurus-openapi-docs plugin and its build embeds the real OpenAPI operation objects - method, path, servers, parameters, request bodies, responses and security schemes - which API Evangelist harvested into three OpenAPI 3.0.3 documents covering 29 operations on two previously undocumented hosts, jiomeetpro.jio.com and jioevents.com.",
-     "score": 54.4,
+     "score": 55.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 52.1,
+      "contract_quality": 56.2,
       "governance": 20.8,
       "operational_transparency": 15.8,
       "developer_ergonomics": 60.3,
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -280,19 +280,19 @@
      "name": "Beatoven.ai",
      "slug": "beatoven",
      "description": "Beatoven.ai is an Indian generative-music startup (Bengaluru, founded 2021) building text-to-music and text-to-sound-effects models for video creators, podcasters, game developers, and brands. Its Maestro Music and Maestro SFX models render royalty-free background tracks and foley from natural-language prompts, with downloads delivered as mp3, aac, or wav plus separately rendered stems (bass, chords, melody, percussion). Beatoven is Fairly Trained certified - musicians whose work appears in the training corpus receive equitable compensation. The company exposes a public REST Composition API (public-api.beatoven.ai) plus an open-source Python SDK (github.com/Beatoven/public-api), a Make.com integration, and a self-serve API dashboard. The company has raised an ~$1.3M pre-Series A led by Capital 2B and IvyCap Ventures, claims 2M+ creators and 15M+ tracks generated, and reports 96% of its revenue from international markets.",
-     "score": 54.2,
+     "score": 54.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 78.0,
+      "contract_quality": 79.8,
       "governance": 20.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 52.2,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -317,19 +317,19 @@
      "name": "Xflow",
      "slug": "xflow",
      "description": "Xflow is a cross-border payments platform for Indian businesses, freelancers, and exporters, enabling them to receive international payments through local collection accounts (ACH in the US, SEPA in the EU) with one-day INR settlement, transparent FX at mid-market rates, and automated FIRA and compliance reporting. The Xflow REST API exposes accounts, receivables, payment links, deposits, payouts, transfers, balances, exchange rates, and webhook endpoints so platforms and payment aggregators can embed compliant India-bound money movement.",
-     "score": 52.7,
+     "score": 53.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 60.3,
+      "contract_quality": 63.7,
       "governance": 20.8,
       "operational_transparency": 13.2,
       "developer_ergonomics": 73.4,
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -361,19 +361,19 @@
      "name": "Bharti Airtel",
      "slug": "bharti-airtel",
      "description": "Bharti Airtel Limited is an Indian multinational telecommunications operator headquartered in New Delhi, and one of the two dominant mobile network operators in its home market of India alongside Reliance Jio. It runs mobile (2G/4G/5G), fixed broadband, DTH television, enterprise connectivity, data centre (Nxtra) and payments-bank businesses across India, South Asia and — through the separately listed Airtel Africa — fourteen African countries. In the telecom value chain Airtel is an access-network owner: it holds the spectrum, the SIM estate, the subscriber identity and the network signalling that the rest of the industry resells. Its API posture is split in two, and the split is the whole story. The connectivity-product side is genuinely API-native and publicly documented: Airtel IQ, the operator's CPaaS suite, publishes open Swagger for its SMS and CDR reporting APIs and offers a self-serve trial account, while the Airtel IoT and Airtel Locate developer portals publish complete OpenAPI 3.0 catalogues (43 and 19 operations) as Redoc pages that need no login. The network-API side — the CAMARA and GSMA Open Gateway surface that defines this sector — is the opposite: Airtel is a GSMA Open Gateway signatory, a founding operator shareholder in Aduna (the Ericsson-led network-API joint venture), and has commercially launched a CAMARA SIM Swap API to Indian banks through a federated Jio/Vi/Airtel channel, yet it publishes no CAMARA endpoint, no CAMARA specification, no CIBA authorization surface and no network-API developer portal of its own. Developers reach Airtel's network capabilities only through aggregators — Aduna, and Nokia's Network as Code platform — never directly. Its own \"Airtel API Marketplace\" at developers.airtel.in is a login wall, and its original 2017 Smart API partner programme at openapi.airtel.in/smartapi survives as an unmaintained legacy portal.",
-     "score": 51.7,
+     "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 57.0,
+      "contract_quality": 60.7,
       "governance": 11.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -406,19 +406,19 @@
      "slug": "credgenics",
      "description": "Credgenics is an AI-powered debt collection and loan recovery SaaS platform used by banks, NBFCs, housing-finance companies, microfinance institutions, fintechs and asset-reconstruction companies (primarily in India). Its REST Recovery API lets lenders push loan, customer, payment and transaction data into the platform and read collections status, DPD and penalties back, alongside digital communications, a GenAI voicebot (Swara), predictive dialing (DialNext), field collections (CG Collect), litigation management, online dispute resolution and the Billzy loan-repayment payments product. Authentication is a client-credentials exchange returning a short-lived `authenticationtoken`; every request carries the tenant `company_id`.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/screenshots/credgenics-2026-07-25T210716.png",
-     "score": 48.6,
+     "score": 49.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 59.3,
+      "contract_quality": 62.8,
       "governance": 20.8,
       "operational_transparency": 13.2,
       "developer_ergonomics": 51.6,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 39.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -444,19 +444,19 @@
      "slug": "keka",
      "description": "Keka is an Indian HR and payroll management platform providing a REST API for managing employee data, attendance, leave, payroll processing, expense management, and performance management. The API uses OAuth 2.0 authentication and supports webhooks for event-driven integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/keka/refs/heads/main/screenshots/keka-2026-06-20T183947.png",
-     "score": 47.7,
+     "score": 48.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 54.0,
+      "contract_quality": 57.9,
       "governance": 58.3,
       "operational_transparency": 42.1,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -482,19 +482,19 @@
      "slug": "wazirx",
      "description": "WazirX is an Indian cryptocurrency exchange (transitioning to Zettai) providing REST and WebSocket APIs for spot trading on INR and crypto markets, order management, market data, account management, and wallet operations. The exchange supports automated trading via HMAC SHA256-authenticated endpoints and real-time streaming through WebSocket connections.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/screenshots/wazirx-2026-06-20T201306.png",
-     "score": 47.3,
+     "score": 47.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 61.3,
+      "contract_quality": 62.3,
       "governance": 58.3,
       "operational_transparency": 5.3,
       "developer_ergonomics": 17.4,
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -523,67 +523,23 @@
      "rank": 12
     },
     {
-     "name": "Tata Communications",
-     "slug": "tata-communications",
-     "description": "Tata Communications is the global wholesale carrier and digital-infrastructure arm of India's Tata Group, headquartered in Mumbai. It owns one of the world's largest subsea cable networks, carries a large share of global internet routes, and sells international voice and messaging wholesale, IZO network services, MOVE global IoT and eSIM connectivity, MVNE services, and — through its October 2023 acquisition of Kaleyra — a full CPaaS, UCaaS, and CCaaS stack. It sits in the supply layer of the telecom value chain: a carrier's carrier whose customers are mostly other operators, enterprises, and aggregators rather than individual developers. Its API posture matches that position and is honestly partner-gated. Tata Communications runs a real first-party developer portal at developer.tatacommunications.com, built on Akana Community Manager, whose catalogue names 49 APIs — but only three are marked Public and return a downloadable Swagger 2.0 document to an anonymous caller; the other forty-six answer 401. MOVE IoT has a second, separate Azure API Management portal that lists three API products but gates the reference behind sign-in. The DIGO CPaaS documentation site is HTML-only, sales-gated behind a \"we will get in touch\" form, and was serving an expired TLS certificate at the time of review. No CAMARA network API and no GSMA Open Gateway participation could be evidenced anywhere on its properties. In practice most developers reach Tata Communications through the separately branded Kaleyra CPaaS portal rather than through Tata Communications itself.",
-     "score": 47.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 51.6,
-      "governance": 20.8,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 45.1,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 13
-    },
-    {
      "name": "Cashfree Payments",
      "slug": "cashfree",
      "description": "Cashfree Payments is an Indian payment gateway and banking platform providing REST APIs for payment links, subscriptions, payouts, refunds, QR codes, and banking payouts across UPI, credit and debit cards, net banking, and international payment methods. It serves over one million businesses with RBI authorisation as a Payment Aggregator and Prepaid Payment Instrument provider.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/screenshots/cashfree-2026-06-20T174035.png",
-     "score": 46.8,
+     "score": 47.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 66.8,
+      "contract_quality": 69.6,
       "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -609,6 +565,50 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 13
+    },
+    {
+     "name": "Tata Communications",
+     "slug": "tata-communications",
+     "description": "Tata Communications is the global wholesale carrier and digital-infrastructure arm of India's Tata Group, headquartered in Mumbai. It owns one of the world's largest subsea cable networks, carries a large share of global internet routes, and sells international voice and messaging wholesale, IZO network services, MOVE global IoT and eSIM connectivity, MVNE services, and — through its October 2023 acquisition of Kaleyra — a full CPaaS, UCaaS, and CCaaS stack. It sits in the supply layer of the telecom value chain: a carrier's carrier whose customers are mostly other operators, enterprises, and aggregators rather than individual developers. Its API posture matches that position and is honestly partner-gated. Tata Communications runs a real first-party developer portal at developer.tatacommunications.com, built on Akana Community Manager, whose catalogue names 49 APIs — but only three are marked Public and return a downloadable Swagger 2.0 document to an anonymous caller; the other forty-six answer 401. MOVE IoT has a second, separate Azure API Management portal that lists three API products but gates the reference behind sign-in. The DIGO CPaaS documentation site is HTML-only, sales-gated behind a \"we will get in touch\" form, and was serving an expired TLS certificate at the time of review. No CAMARA network API and no GSMA Open Gateway participation could be evidenced anywhere on its properties. In practice most developers reach Tata Communications through the separately branded Kaleyra CPaaS portal rather than through Tata Communications itself.",
+     "score": 47.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 51.6,
+      "governance": 20.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 45.1,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 50.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 14
     },
     {
@@ -616,19 +616,19 @@
      "slug": "instamojo",
      "description": "Indian digital payments and e-commerce platform with a REST API for payment requests, refunds, store products, order management, and mobile payment links. Trusted by over 1.2 million Indian small businesses.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/screenshots/instamojo-2026-06-20T183413.png",
-     "score": 46.3,
+     "score": 46.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 70.3,
+      "contract_quality": 72.9,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -661,19 +661,19 @@
      "slug": "razorpay",
      "description": "Razorpay is India's leading full-stack payments and business banking platform, enabling merchants to accept, process, and disburse payments across cards, UPI, netbanking, wallets, EMI, and BNPL through a single integration. Its developer platform exposes a fully RESTful API at https://api.razorpay.com/v1 (with select v2 resources) returning JSON, secured by HTTP Basic authentication using a key_id and key_secret pair. Beyond core payment processing, Razorpay offers payment links, hosted pages, subscriptions, smart routing, refunds, settlements, payouts via RazorpayX, and KYC-driven onboarding.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/screenshots/razorpay-2026-06-20T192629.png",
-     "score": 44.9,
+     "score": 45.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 63.6,
+      "contract_quality": 66.7,
       "governance": 41.7,
       "operational_transparency": 36.8,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -706,19 +706,19 @@
      "slug": "decentro",
      "description": "Decentro is a banking-as-a-service platform that provides businesses with seamless integration to Indian banking infrastructure - including payments (UPI, IMPS, NEFT, RTGS), virtual accounts, KYC, ledger primitives, and credit-bureau data. Decentro publishes a developer portal and Postman collection covering six API categories: KYC & Onboarding, Bytes (alternate data), Scanner (forensics), Payments, Virtual Accounts, and Ledger.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/screenshots/decentro-2026-06-20T175753.png",
-     "score": 44.3,
+     "score": 45.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 62.7,
+      "contract_quality": 65.9,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -763,7 +763,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 26.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -783,36 +783,25 @@
       "dry_run_mode": false
      },
      "rank": 18
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 24,
-   "shown": 24,
-   "providers": [
+    },
     {
      "name": "Leo1",
      "slug": "leo1",
      "description": "LEO1 is a Mumbai-based education fintech founded in 2017 that operates an all-in-one campus and financial platform for Indian educational institutions. The company issues co-branded student and alumni prepaid cards, collects and reconciles institutional fees, and originates fee-financing (education loan) journeys that convert lump-sum tuition into instalments while giving institutes regularized cash flow. LEO1 exposes the LEO1 Fees SDK — a documented server-to-server and web checkout integration that lets an institute ERP start a fee transaction, embed the hosted checkout, and receive payment-gateway and fee-finance webhook notifications — backed by a public OpenAPI 3.0.2 description covering student, fee-due, fee-collection, payment, NACH/eNACH mandate, refund, penalty, waiver, settlement and institute administration operations. Backed by QED Investors, LEO1 reports partnerships with 31+ institution groups serving over half a million students across India.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leo1/refs/heads/main/screenshots/leo1-2026-07-25T224919.png",
-     "score": 41.9,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.7,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 55.0,
+      "contract_quality": 58.8,
       "governance": 11.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 58.2,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -839,70 +828,36 @@
       "dry_run_mode": false
      },
      "rank": 19
-    },
-    {
-     "name": "CoinSwitch",
-     "slug": "coinswitch",
-     "description": "CoinSwitch is one of India's largest retail crypto investing platforms, based in Bengaluru and backed by a16z, Paradigm, and Ribbit Capital. Alongside its consumer buy/sell app it operates CoinSwitch PRO, a professional trading venue that exposes a public REST and WebSocket API for programmatic trading. The CoinSwitch PRO API (base https://coinswitch.co/trade/api/v2) covers Spot trading on INR and USDT pairs, USDT-margined Perpetual Futures with up to 100x leverage, low-latency High-Frequency Trading (HFT) endpoints, and Options (private beta). Developers can place, cancel, and track orders, read portfolios and trading fees, and subscribe to real-time order, balance, and candlestick streams over Socket.IO. Requests authenticate with an API key and an Ed25519 request signature (X-AUTH-APIKEY / X-AUTH-SIGNATURE / X-AUTH-EPOCH), with reference signing implementations published for Python, Java, Go, and Node.js.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinswitch/refs/heads/main/screenshots/coinswitch-2026-07-25T210036.png",
-     "score": 41.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 0.0,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 54.3,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 33.3,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 20
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 24,
+   "shown": 24,
+   "providers": [
     {
      "name": "Exotel",
      "slug": "exotel",
      "description": "Exotel is an Indian cloud telephony and customer-engagement (CPaaS) platform offering programmable voice, SMS, virtual numbers (ExoPhones), IVR/call flows, call campaigns, and call-center tooling. Its Twilio-style REST APIs place outbound calls (connect two numbers or connect a number to a call flow), send SMS, return call and number metadata, and manage campaigns, over region-specific subdomains (api.exotel.com for Singapore, api.in.exotel.com for Mumbai/India) using HTTP Basic auth with an API Key and API Token. Exotel AgentStream adds a documented WebSocket voice-streaming API for real-time voicebots.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/screenshots/exotel-2026-07-25T213905.png",
-     "score": 41.2,
+     "score": 41.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 67.2,
+      "contract_quality": 69.6,
       "governance": 41.7,
       "operational_transparency": 31.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -928,25 +883,70 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 20
+    },
+    {
+     "name": "CoinSwitch",
+     "slug": "coinswitch",
+     "description": "CoinSwitch is one of India's largest retail crypto investing platforms, based in Bengaluru and backed by a16z, Paradigm, and Ribbit Capital. Alongside its consumer buy/sell app it operates CoinSwitch PRO, a professional trading venue that exposes a public REST and WebSocket API for programmatic trading. The CoinSwitch PRO API (base https://coinswitch.co/trade/api/v2) covers Spot trading on INR and USDT pairs, USDT-margined Perpetual Futures with up to 100x leverage, low-latency High-Frequency Trading (HFT) endpoints, and Options (private beta). Developers can place, cancel, and track orders, read portfolios and trading fees, and subscribe to real-time order, balance, and candlestick streams over Socket.IO. Requests authenticate with an API key and an Ed25519 request signature (X-AUTH-APIKEY / X-AUTH-SIGNATURE / X-AUTH-EPOCH), with reference signing implementations published for Python, Java, Go, and Node.js.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinswitch/refs/heads/main/screenshots/coinswitch-2026-07-25T210036.png",
+     "score": 41.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 0.0,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 54.3,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 33.3,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 36.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 21
     },
     {
      "name": "Orange Health",
      "slug": "orange-health",
      "description": "Orange Health Labs is an Indian at-home diagnostics laboratory serving Bengaluru, Delhi, Gurgaon, Noida and Hyderabad, offering 60-minute home sample collection and test results within about six hours. Its Partner API (documented on Apiary as the \"Partner API Public Order Flow\") lets healthcare partners, employers and apps check location serviceability and slots, create home-collection, lab-drop-off and health-camp orders, track order status, reschedule, cancel and add on tests, and pull structured investigation-level test results. Order lifecycle transitions (order.created through order.completed / order.cancelled) are delivered as HMAC-SHA256 signed webhooks. Authentication is an api_key request header.",
-     "score": 40.8,
+     "score": 41.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 71.1,
+      "contract_quality": 73.6,
       "governance": 11.5,
       "operational_transparency": 18.4,
       "developer_ergonomics": 36.4,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -979,19 +979,19 @@
      "slug": "cashflo",
      "description": "CashFlo is an India-based fintech platform that automates enterprise finance operations across accounts payable, payments, GST compliance, vendor management, and supply-chain financing. Its modules cover invoice OCR and n-way matching, approval workflows, multi-bank payments and reconciliation, GST filing / e-invoicing / e-way bills, vendor onboarding and KYC, and dynamic cash discounting for working-capital optimization. CashFlo connects to major ERPs (SAP ECC/S4 HANA/Business One, Oracle NetSuite/Fusion/EBS, Microsoft Dynamics 365/NAV/Business Central) and exposes a JWT-secured Data Ingestion API for pushing purchase orders and goods-receipt notes into the platform. Backed by General Catalyst.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/screenshots/cashflo-2026-07-25T204721.png",
-     "score": 39.8,
+     "score": 40.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 48.9,
+      "contract_quality": 53.2,
       "governance": 11.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1020,23 +1020,61 @@
      "rank": 23
     },
     {
+     "name": "HyperVerge",
+     "slug": "hyperverge",
+     "description": "HyperVerge is an AI-based identity verification and customer onboarding platform (India-HQ, global) providing document OCR and KYC extraction, face match, passive liveness, government/central database verification, and field matching. Its REST APIs extract and verify Indian identity documents (PAN, Aadhaar, Passport, Voter ID, Driving License), match a selfie against an ID photo, and validate user input against central databases for onboarding, AML, and fraud prevention. APIs are region-hosted (India `ind-*`, plus APAC/other regions) and authenticated with an appId and appKey issued by HyperVerge; enterprise onboarding is required to obtain credentials.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/screenshots/hyperverge-2026-07-25T221937.png",
+     "score": 39.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 64.8,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 24
+    },
+    {
      "name": "Acko",
      "slug": "acko",
      "description": "Acko (ACKO Technology & Services Private Limited) is an Indian digital-first general insurance company founded in 2016 and headquartered in Bengaluru, Karnataka. Acko sells car, bike, health, term life and travel insurance entirely online, along with group health and personal-accident cover and embedded insurance for partners. It is a portfolio company of Accel. Acko exposes insurance policy certificates to citizens through India's government API Setu / DigiLocker platform (car, health and two-wheeler certificate fetch), and operates a separate enterprise/partner issuance API covering token generation, Loan-Shield, Trip, GIG, Health, House, Credit Life, Fire, Cyber and Electronics products plus policy and claims management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/screenshots/acko-2026-07-25T181503.png",
-     "score": 38.4,
+     "score": 39.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 11.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 36.4,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1062,44 +1100,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
-    },
-    {
-     "name": "HyperVerge",
-     "slug": "hyperverge",
-     "description": "HyperVerge is an AI-based identity verification and customer onboarding platform (India-HQ, global) providing document OCR and KYC extraction, face match, passive liveness, government/central database verification, and field matching. Its REST APIs extract and verify Indian identity documents (PAN, Aadhaar, Passport, Voter ID, Driving License), match a selfie against an ID photo, and validate user input against central databases for onboarding, AML, and fraud prevention. APIs are region-hosted (India `ind-*`, plus APAC/other regions) and authenticated with an appId and appKey issued by HyperVerge; enterprise onboarding is required to obtain credentials.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/screenshots/hyperverge-2026-07-25T221937.png",
-     "score": 38.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 61.5,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 25
     },
     {
@@ -1107,19 +1107,19 @@
      "slug": "iisc",
      "description": "The Indian Institute of Science (IISc) Bangalore is India's premier research-intensive university, founded in 1909, and ranked #211 in the QS World University Rankings 2025. IISc does not operate a formal, centralized public developer portal. Its confirmable public machine-readable footprint is academic: the ePrints@IISc institutional repository (EPrints software) exposes an OAI-PMH metadata interface, and the DSpace-based ETD@IISc theses repository is likewise OAI-compliant. Individual labs and centres publish open source on GitHub (for example cni-iisc, csl-iisc, val-iisc), but there is no single official institutional GitHub org with public repositories or a documented REST API program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/screenshots/iisc-2026-06-20T183226.png",
-     "score": 37.6,
+     "score": 38.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 55.9,
+      "contract_quality": 59.7,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1141,61 +1141,23 @@
      "rank": 26
     },
     {
-     "name": "Flipkart",
-     "slug": "flipkart",
-     "description": "Flipkart is one of India's largest e-commerce marketplaces, headquartered in Bengaluru and majority-owned by Walmart. For third-party developers and sellers it publishes the Flipkart Marketplace Seller API (v3), an OAuth 2.0 protected REST API hosted at api.flipkart.net that covers listing management, order and shipment management, returns, and report generation, plus an Order Management Notification (webhook) service for order events. Flipkart also runs an affiliate program with its own tooling. This profile captures Flipkart's public developer surface: the seller API, its OAuth authentication and scopes, conventions, lifecycle, and domain security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flipkart/refs/heads/main/screenshots/flipkart-2026-07-25T214803.png",
-     "score": 36.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 51.6,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 29.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 27
-    },
-    {
      "name": "Juspay",
      "slug": "juspay",
      "description": "Juspay is an Indian payments orchestration and checkout platform that routes transactions across payment gateways, aggregators, UPI, cards, wallets, and netbanking for merchants, banks, and card networks. Its server-to-server Express Checkout / PG REST APIs create and track orders, process transactions, issue refunds, and manage customers, and pair with the HyperSDK / Hyper Checkout drop-in checkout. APIs authenticate with an API key over HTTP Basic plus a merchant ID header, against a sandbox and a production host.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/screenshots/juspay-2026-07-25T223337.png",
-     "score": 36.4,
+     "score": 37.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1221,7 +1183,83 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 27
+    },
+    {
+     "name": "Flipkart",
+     "slug": "flipkart",
+     "description": "Flipkart is one of India's largest e-commerce marketplaces, headquartered in Bengaluru and majority-owned by Walmart. For third-party developers and sellers it publishes the Flipkart Marketplace Seller API (v3), an OAuth 2.0 protected REST API hosted at api.flipkart.net that covers listing management, order and shipment management, returns, and report generation, plus an Order Management Notification (webhook) service for order events. Flipkart also runs an affiliate program with its own tooling. This profile captures Flipkart's public developer surface: the seller API, its OAuth authentication and scopes, conventions, lifecycle, and domain security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flipkart/refs/heads/main/screenshots/flipkart-2026-07-25T214803.png",
+     "score": 36.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 51.6,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 29.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 28
+    },
+    {
+     "name": "Indian Institute of Technology Kanpur",
+     "slug": "iit-kanpur",
+     "description": "The Indian Institute of Technology Kanpur (IIT Kanpur), founded in 1959 and located in Kanpur, Uttar Pradesh, is one of India's premier engineering and research institutions, ranked #263 in the QS World University Rankings 2025. It does not operate a unified central developer portal; its verifiable public programmatic footprint centers on the P.K. Kelkar (PKK) Library, whose Koha integrated library system exposes a live OAI-PMH 2.0 metadata-harvesting endpoint and a Koha ILS-DI service. Administrative and academic systems such as the Pingala ERP/SIS are login-gated with no documented public API, and there is no single official institutional GitHub organization, though numerous student clubs and academic departments maintain their own GitHub orgs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png",
+     "score": 35.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 59.8,
+      "governance": 58.3,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 28.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 29
     },
     {
      "name": "Easebuzz",
@@ -1240,7 +1278,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1266,51 +1304,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
-    },
-    {
-     "name": "Cleartax",
-     "slug": "cleartax",
-     "description": "Cleartax (operating as Clear, clear.in) is an Indian fintech and financial-compliance automation platform that provides tax, GST, and e-invoicing software for individuals, tax professionals, and over 4,000 enterprises. Clear exposes a suite of developer APIs through its documentation portal at docs.cleartax.in, including the Clear Finance Cloud (CFC) ingestion APIs, the GST 2.0 / GSP filing API, the Max ITC input-tax-credit reconciliation API, the GLS API, the E-Invoicing and E-Waybill APIs (with government IRP/NIC-compatible endpoints and DSC signing), the Invoicing API, and KSA (Saudi Arabia) e-invoicing APIs. APIs authenticate with a client secret exchanged for an access token and run against production (api.clear.in) and sandbox (api-sandbox.clear.in) hosts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/screenshots/cleartax-2026-07-25T205549.png",
-     "score": 34.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 60.9,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 48.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 18.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 30
     },
     {
@@ -1318,19 +1311,19 @@
      "slug": "gupshup",
      "description": "Gupshup is a conversational messaging and CPaaS platform (headquartered in India) that lets businesses send and receive messages across WhatsApp, SMS, RCS, and other channels, plus build chatbots and conversational AI journeys. The developer platform exposes REST APIs on api.gupshup.io - most prominently the WhatsApp Business API (send session and template messages, opt-in management, templates, media, and inbound webhooks) - authenticated with an apikey header and scoped to a registered app. Separate SMS, RCS, and Partner API surfaces are also documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/screenshots/gupshup-2026-07-25T220436.png",
-     "score": 34.7,
+     "score": 35.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1359,71 +1352,34 @@
      "rank": 31
     },
     {
-     "name": "Indian Institute of Technology Kanpur",
-     "slug": "iit-kanpur",
-     "description": "The Indian Institute of Technology Kanpur (IIT Kanpur), founded in 1959 and located in Kanpur, Uttar Pradesh, is one of India's premier engineering and research institutions, ranked #263 in the QS World University Rankings 2025. It does not operate a unified central developer portal; its verifiable public programmatic footprint centers on the P.K. Kelkar (PKK) Library, whose Koha integrated library system exposes a live OAI-PMH 2.0 metadata-harvesting endpoint and a Koha ILS-DI service. Administrative and academic systems such as the Pingala ERP/SIS are login-gated with no documented public API, and there is no single official institutional GitHub organization, though numerous student clubs and academic departments maintain their own GitHub orgs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png",
-     "score": 34.5,
+     "name": "Cleartax",
+     "slug": "cleartax",
+     "description": "Cleartax (operating as Clear, clear.in) is an Indian fintech and financial-compliance automation platform that provides tax, GST, and e-invoicing software for individuals, tax professionals, and over 4,000 enterprises. Clear exposes a suite of developer APIs through its documentation portal at docs.cleartax.in, including the Clear Finance Cloud (CFC) ingestion APIs, the GST 2.0 / GSP filing API, the Max ITC input-tax-credit reconciliation API, the GLS API, the E-Invoicing and E-Waybill APIs (with government IRP/NIC-compatible endpoints and DSC signing), the Invoicing API, and KSA (Saudi Arabia) e-invoicing APIs. APIs authenticate with a client secret exchanged for an access token and run against production (api.clear.in) and sandbox (api-sandbox.clear.in) hosts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/screenshots/cleartax-2026-07-25T205549.png",
+     "score": 34.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 56.1,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
+      "discoverability": 92.6,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 60.9,
+      "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 28.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 32
-    },
-    {
-     "name": "Vauld",
-     "slug": "vauld",
-     "description": "Vauld (formerly Bank of Hodlers) is a crypto asset management platform founded in India and headquartered in Singapore, backed by Peter Thiel's Valar Ventures, Pantera Capital, and Coinbase Ventures. Its Enterprise API exposes wallets, INR fiat rails, KYC verification, crypto swaps, borrowing, and lending to partner organisations, authenticated with HMAC-SHA256 request signing. Vauld suspended customer withdrawals in July 2022 and entered creditor-protection restructuring in Singapore; the API documentation remains published and the platform API still responds, though the documented testnet hosts no longer resolve.",
-     "score": 34.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 3.1,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 28.3,
-      "matched_via": "weak_tags"
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 48.1,
+      "matched_via": "tags"
      },
-     "agent_score": 30.2,
+     "agent_score": 18.9,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": true,
+      "spec_presence": false,
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": true,
@@ -1431,33 +1387,33 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": "derived",
+      "asyncapi_events": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
+      "well_known_catalog": true,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "PhonePe",
      "slug": "phonepe",
      "description": "PhonePe is India's largest UPI payments network, owned by Walmart. Its PhonePe Business / Developer platform exposes the PhonePe Payment Gateway (PG) APIs for collecting payments, refunds, and status checks across UPI, cards, netbanking, and wallets, alongside in-store solutions (Static QR, Dynamic QR, Collect Call, Integrated EDC). Backend integrations are wrapped in official Java, Python, Node.js, and PHP server SDKs, with mobile SDKs for Android, iOS, Flutter, React Native, and Ionic. PhonePe also operates the Indus AppStore, a developer platform for native app distribution in India.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/screenshots/phonepe-2026-06-20T191650.png",
-     "score": 34.1,
+     "score": 34.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 60.7,
+      "contract_quality": 64.1,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1483,6 +1439,50 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 33
+    },
+    {
+     "name": "Vauld",
+     "slug": "vauld",
+     "description": "Vauld (formerly Bank of Hodlers) is a crypto asset management platform founded in India and headquartered in Singapore, backed by Peter Thiel's Valar Ventures, Pantera Capital, and Coinbase Ventures. Its Enterprise API exposes wallets, INR fiat rails, KYC verification, crypto swaps, borrowing, and lending to partner organisations, authenticated with HMAC-SHA256 request signing. Vauld suspended customer withdrawals in July 2022 and entered creditor-protection restructuring in Singapore; the API documentation remains published and the platform API still responds, though the documented testnet hosts no longer resolve.",
+     "score": 34.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 3.1,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 28.3,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 30.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 34
     },
     {
@@ -1502,7 +1502,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 27.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1539,7 +1539,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 17.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1565,19 +1565,19 @@
      "slug": "paytm",
      "description": "Paytm (One97 Communications) is India's leading digital payments and financial services company. Through Paytm for Business it operates a wide catalogue of payment APIs covering online payment gateway, UPI, payment links, subscriptions, auto-debit, pre-auth, refunds, settlement, payouts, token gateway, bank offers, EMI, disputes, and in-store retail solutions (Dynamic QR, EDC, Point-of-Sale). Backend integrations are exposed via REST APIs at the secure gateway (securegw.paytm.in), with first-party Android, iOS, Flutter, React Native, and Web JS / Custom Checkout / JS Elements SDKs, and server SDKs for S2S checksum-signed flows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/screenshots/paytm-2026-06-20T191508.png",
-     "score": 32.2,
+     "score": 33.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 56.8,
+      "contract_quality": 60.5,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1622,7 +1622,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1659,7 +1659,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1704,7 +1704,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1748,7 +1748,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 29.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1786,7 +1786,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1813,6 +1813,43 @@
       "dry_run_mode": false
      },
      "rank": 42
+    },
+    {
+     "name": "Quikr",
+     "slug": "quikr",
+     "description": "Quikr is India's leading online classifieds platform, describing itself as \"India's no. 1 online classifieds platform\" for buying, selling, and renting across vehicles, real estate, jobs, mobiles, electronics, furniture, and 300+ service categories, plus education, events, pets, and matrimonial listings. Quikr operates a portfolio of brands including CommonFloor, Hiree, IndiaProperty, and Zefo. The Quikr Developer Platform (QDP) exposes classifieds data and actions to approved partner apps through an invitation-only beta API at api.quikr.com, using custom HMAC-SHA1 signed request headers rather than OAuth. Quikr is backed by Norwest Venture Partners.",
+     "score": 28.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 57.4,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 43
     }
    ]
   },
@@ -1821,8 +1858,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 60,
-   "shown": 60,
+   "count": 59,
+   "shown": 59,
    "providers": [
     {
      "name": "Indian Institute of Technology Bombay",
@@ -1841,7 +1878,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1856,43 +1893,6 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 43
-    },
-    {
-     "name": "Quikr",
-     "slug": "quikr",
-     "description": "Quikr is India's leading online classifieds platform, describing itself as \"India's no. 1 online classifieds platform\" for buying, selling, and renting across vehicles, real estate, jobs, mobiles, electronics, furniture, and 300+ service categories, plus education, events, pets, and matrimonial listings. Quikr operates a portfolio of brands including CommonFloor, Hiree, IndiaProperty, and Zefo. The Quikr Developer Platform (QDP) exposes classifieds data and actions to approved partner apps through an invitation-only beta API at api.quikr.com, using custom HMAC-SHA1 signed request headers rather than OAuth. Quikr is backed by Norwest Venture Partners.",
-     "score": 27.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 53.4,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -1916,7 +1916,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1953,7 +1953,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1998,7 +1998,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2043,7 +2043,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2087,7 +2087,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2131,7 +2131,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 31.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2169,7 +2169,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2206,7 +2206,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2244,7 +2244,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2281,7 +2281,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 9.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2319,7 +2319,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2363,7 +2363,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2408,7 +2408,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2445,7 +2445,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2490,7 +2490,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2527,7 +2527,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 5.4,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2565,7 +2565,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2603,7 +2603,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2648,7 +2648,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2685,7 +2685,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -2730,7 +2730,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2775,7 +2775,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2820,7 +2820,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2865,7 +2865,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2902,7 +2902,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2946,7 +2946,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2983,7 +2983,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3020,7 +3020,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3057,7 +3057,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3101,7 +3101,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3145,7 +3145,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -3190,7 +3190,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3227,7 +3227,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3265,7 +3265,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3309,7 +3309,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3346,7 +3346,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -3391,7 +3391,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3428,7 +3428,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3473,7 +3473,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3518,7 +3518,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3562,7 +3562,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3606,7 +3606,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3643,7 +3643,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3688,7 +3688,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3732,7 +3732,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3776,7 +3776,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3820,7 +3820,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3857,7 +3857,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3894,7 +3894,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3932,7 +3932,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3970,7 +3970,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4015,7 +4015,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4052,7 +4052,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4089,7 +4089,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4126,7 +4126,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4170,7 +4170,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4207,7 +4207,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4244,7 +4244,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4291,7 +4291,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4329,7 +4329,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4373,7 +4373,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4417,7 +4417,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4462,7 +4462,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4500,7 +4500,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4544,7 +4544,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4582,7 +4582,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4620,7 +4620,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4657,7 +4657,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4695,7 +4695,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4733,7 +4733,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4778,7 +4778,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4822,7 +4822,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4866,7 +4866,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4911,7 +4911,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4955,7 +4955,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5000,7 +5000,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5044,7 +5044,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5088,7 +5088,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5133,7 +5133,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5178,7 +5178,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5223,7 +5223,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5268,7 +5268,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5312,7 +5312,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5356,7 +5356,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5400,7 +5400,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5445,7 +5445,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5482,7 +5482,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5526,7 +5526,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5571,7 +5571,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5615,7 +5615,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5652,7 +5652,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5696,7 +5696,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5734,7 +5734,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5779,7 +5779,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5816,7 +5816,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5853,7 +5853,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5891,7 +5891,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5929,7 +5929,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5966,7 +5966,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6004,7 +6004,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6042,7 +6042,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6079,7 +6079,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6117,7 +6117,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6154,7 +6154,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6191,7 +6191,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6236,7 +6236,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6281,7 +6281,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 14.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6319,7 +6319,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6357,7 +6357,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6395,7 +6395,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6433,7 +6433,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6471,7 +6471,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6509,7 +6509,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6546,7 +6546,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6584,7 +6584,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6622,7 +6622,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6660,7 +6660,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6697,7 +6697,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6734,7 +6734,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6771,7 +6771,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6808,7 +6808,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6845,7 +6845,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6883,7 +6883,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6920,7 +6920,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6964,7 +6964,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7002,7 +7002,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7040,7 +7040,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7078,7 +7078,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7116,7 +7116,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7154,7 +7154,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7192,7 +7192,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7229,7 +7229,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7266,7 +7266,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7303,7 +7303,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7340,7 +7340,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7377,7 +7377,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7414,7 +7414,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7451,7 +7451,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7489,7 +7489,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7527,7 +7527,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7565,7 +7565,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7602,7 +7602,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7639,7 +7639,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7677,7 +7677,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7714,7 +7714,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7751,7 +7751,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7788,7 +7788,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7826,7 +7826,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7863,7 +7863,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -7907,7 +7907,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7944,7 +7944,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7982,7 +7982,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8019,7 +8019,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8057,7 +8057,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8095,7 +8095,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8133,7 +8133,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8170,7 +8170,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8207,7 +8207,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8244,7 +8244,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8281,7 +8281,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8319,7 +8319,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -8363,7 +8363,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8407,7 +8407,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8445,7 +8445,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8482,7 +8482,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8520,7 +8520,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8558,7 +8558,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8595,7 +8595,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -8639,7 +8639,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -8684,7 +8684,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8722,7 +8722,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8759,7 +8759,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -8803,7 +8803,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -8847,7 +8847,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8884,7 +8884,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8921,7 +8921,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8966,7 +8966,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9004,7 +9004,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9042,7 +9042,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9087,7 +9087,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9124,7 +9124,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9168,7 +9168,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -9212,7 +9212,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -9257,7 +9257,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9294,7 +9294,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9331,7 +9331,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9369,7 +9369,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9407,7 +9407,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9445,7 +9445,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -9489,7 +9489,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -9534,7 +9534,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9572,7 +9572,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9610,7 +9610,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -9655,7 +9655,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -9699,7 +9699,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -9743,7 +9743,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -9787,7 +9787,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -9831,7 +9831,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9868,7 +9868,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -9912,7 +9912,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -9956,7 +9956,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -10001,7 +10001,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10039,7 +10039,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10084,7 +10084,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10121,7 +10121,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10158,7 +10158,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10195,7 +10195,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10239,7 +10239,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10276,7 +10276,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10320,7 +10320,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10364,7 +10364,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10402,7 +10402,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10440,7 +10440,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10477,7 +10477,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10515,7 +10515,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10553,7 +10553,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10591,7 +10591,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10628,7 +10628,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10666,7 +10666,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10704,7 +10704,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10742,7 +10742,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10780,7 +10780,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10817,7 +10817,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10854,7 +10854,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10892,7 +10892,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10929,7 +10929,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10967,7 +10967,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11004,7 +11004,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11041,7 +11041,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11078,7 +11078,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11116,7 +11116,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11153,7 +11153,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11190,7 +11190,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11227,7 +11227,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11264,7 +11264,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11301,7 +11301,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11338,7 +11338,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11375,7 +11375,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11412,7 +11412,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11449,7 +11449,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11486,7 +11486,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11523,7 +11523,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11560,7 +11560,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11597,7 +11597,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11634,7 +11634,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11671,7 +11671,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11708,7 +11708,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11745,7 +11745,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11782,7 +11782,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11819,7 +11819,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11856,7 +11856,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11893,7 +11893,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11930,7 +11930,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11967,7 +11967,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12004,7 +12004,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12041,7 +12041,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12078,7 +12078,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12122,7 +12122,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -12166,7 +12166,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

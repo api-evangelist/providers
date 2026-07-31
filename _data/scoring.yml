@@ -8,7 +8,7 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.6.1
+schema_version: 0.7
 last_updated: '2026-07-31'
 maintainer: kin@apievangelist.com
 
@@ -738,6 +738,41 @@ artifacts:
           Declared schemes are actually bound to operations, globally or individually.
           A scheme defined but never applied tells a consumer nothing about what a given
           call requires.
+      - id: oauth_flows_current
+        label: Declares no deprecated OAuth grant
+        facet: contract_quality
+        points: 4
+        rule: 'no securityScheme declares the implicit or resource-owner-password OAuth grant'
+        description: >
+          NEW IN 0.7. The implicit grant returns an access token in the browser redirect
+          fragment; the password grant has the client handle the user's credentials directly.
+          Both are recommended against by the OAuth 2.0 Security BCP (RFC 9700) and removed
+          outright in OAuth 2.1. Measured across 14,195 published contracts, 775 still declare
+          implicit and 72 declare password - 28.9% of every OAuth-using contract. Vacuously
+          satisfied by a contract declaring no OAuth: this scores the PRESENCE of a deprecated
+          flow, not the absence of OAuth.
+      - id: credentials_not_in_query
+        label: Keeps credentials out of the query string
+        facet: contract_quality
+        points: 3
+        rule: 'no apiKey securityScheme declares in: query'
+        description: >
+          NEW IN 0.7. An API key in the query string lands in server logs, proxy logs, browser
+          history and referrer headers. 815 of 14,195 published contracts place the credential
+          there. Vacuously satisfied where no apiKey scheme is declared.
+      - id: oauth_scopes_enumerated
+        label: Enumerates OAuth scopes
+        facet: contract_quality
+        points: 4
+        rule: 'every declared oauth2 flow enumerates at least one scope'
+        description: >
+          NEW IN 0.7. Scope is how OAuth expresses least privilege - the difference between a
+          token that can read a calendar and one that can delete an account. Only 15.3% of
+          published contracts enumerate any scope, so roughly four in five OAuth-declaring
+          contracts describe how to obtain a credential and never what it permits. This is the
+          mechanism behind the missing least-privilege models found in every market report.
+          Distinct from reg_oauth_scopes, which applies only where a regulatory regime does;
+          this one applies to every provider. Vacuously satisfied without OAuth.
       - id: webhooks_or_callbacks
         label: Webhooks or callbacks
         facet: contract_quality
@@ -1665,7 +1700,7 @@ bands:
     label: Exemplar
     min: 66
     range: 66+
-    share: 1.0%
+    share: 1.3%
     description: >
       Reference-quality API operations across every facet — a rich contract, published
       governance, transparent operations, and machine-readable commercial terms. The
@@ -1674,7 +1709,7 @@ bands:
     label: Strong
     min: 56
     range: 56 – 65.9
-    share: 4.2%
+    share: 4.4%
     description: >
       Solid contracts, transparent operations, and an easy start. Typically complete on
       four or five facets with one clear soft spot — most often governance or a missing
@@ -1683,7 +1718,7 @@ bands:
     label: Developing
     min: 42
     range: 42 – 55.9
-    share: 13.7%
+    share: 13.8%
     description: >
       Real signal across most facets with visible, nameable gaps. The contract exists
       but is thin on descriptions or examples, or the portal is good while governance
@@ -1692,7 +1727,7 @@ bands:
     label: Thin
     min: 28
     range: 28 – 41.9
-    share: 14.9%
+    share: 14.4%
     description: >
       Limited machine-readable signal and partial portal coverage. Usually a provider
       with documentation a human can read but little a machine or agent can consume
@@ -1701,7 +1736,7 @@ bands:
     label: Emerging
     min: 13
     range: 13 – 27.9
-    share: 23.5%
+    share: 23.4%
     description: >
       More than an index entry, but the surface is still mostly links rather than
       artifacts. These providers have started publishing — a portal, a few common

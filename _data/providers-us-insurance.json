@@ -4,31 +4,31 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 19,
-   "shown": 19,
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Cigna",
      "slug": "cigna",
      "description": "Cigna Healthcare is a leading global health services company offering medical, dental, behavioral, and pharmacy plans for individuals, families, and employers. The Cigna Developer Portal exposes CMS-mandated FHIR APIs for Patient Access, Provider Directory, Drug Formulary, and Provider Access, along with member and provider service APIs that enable third-party applications, electronic health record systems, and partners to access member health data with consent and look up Cigna network providers and formulary information.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/screenshots/cigna-2026-06-20T174340.png",
-     "score": 55.8,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 56.4,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 58.4,
+      "contract_quality": 61.5,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 68.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -56,25 +56,36 @@
      },
      "tier": "Life, Health & Benefits Insurers",
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 20,
+   "shown": 20,
+   "providers": [
     {
      "name": "Verisk",
      "slug": "verisk",
      "description": "Verisk (formerly ISO) is a leading data analytics and technology company serving the insurance, energy, and financial services industries. Verisk provides risk scoring, actuarial data, property analytics, catastrophe modeling, claims benchmarking, and underwriting intelligence through RESTful APIs that power insurance pricing, reserving, and exposure management workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-06-20T200935.png",
-     "score": 55.2,
+     "score": 55.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 80.5,
+      "contract_quality": 82.2,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -108,19 +119,19 @@
      "slug": "duck-creek",
      "description": "The path forward to competing today and in the future requires an open platform designed to sit at the center of your P&C solutions – and seamlessly.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/screenshots/duck-creek-2026-06-20T180408.png",
-     "score": 54.4,
+     "score": 55.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 68.3,
+      "contract_quality": 70.7,
       "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 52.2,
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -147,19 +158,19 @@
      "slug": "corelogic",
      "description": "CoreLogic — rebranded as Cotality in 2025 — is a property data and analytics company providing real estate, mortgage, tax, hazard, and climate-risk information across approximately 99% of U.S. residential properties plus operations in Australia, New Zealand, the United Kingdom, Canada, Germany, and India. The company was taken private by Stone Point Capital and Insight Partners in June 2021 in a $6B transaction. The primary public developer surface is Trestle (trestle-documentation.corelogic.com / api.cotality.com), which delivers MLS listing, member, office, media, and team data via a RESO Web API 2.0 / OData 4.0 endpoint, a RETS 1.8 endpoint, and a Direct Web API for Matrix CRM and MLO (member loan officer) integrations. Most other Cotality data products — 360 Property Data, Climate Risk Analytics, Discovery Platform — are delivered through cloud data shares (AWS, Databricks, Google Cloud, Azure, Snowflake) and SFTP rather than self-service REST APIs and are gated behind enterprise sales.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/screenshots/corelogic-2026-06-20T175025.png",
-     "score": 53.4,
+     "score": 54.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 63.9,
+      "contract_quality": 66.9,
       "governance": 31.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -197,7 +208,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -231,19 +242,19 @@
      "slug": "ascend",
      "description": "Ascend is a financial operations platform built for the insurance industry, offering AI-powered accounting automation, payments, and premium financing in a single vertically integrated solution. Its REST API (v1) lets insurance agencies, wholesalers, MGAs, and carriers automate billing and invoicing, premium financing and installment plans, cash application, carrier payables, and direct bill workflows — managing insureds, programs, billables, invoices, loans, payouts, refunds, and one-time payments programmatically, secured with bearer tokens and HMAC-signed webhooks for invoice, payout, and refund events. Trusted by over 4,000 insurance businesses, including over half of the 50 largest brokers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/screenshots/ascend-2026-07-25T201401.png",
-     "score": 51.1,
+     "score": 51.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 59.5,
+      "contract_quality": 63.0,
       "governance": 20.8,
       "operational_transparency": 34.2,
       "developer_ergonomics": 60.3,
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -276,19 +287,19 @@
      "name": "ACORD",
      "slug": "acord",
      "description": "ACORD is a global standards-setting body for the insurance industry, providing data standards, reference architecture, and digital tools that enable insurers, brokers, and software providers to exchange information.",
-     "score": 50.7,
+     "score": 51.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 77.1,
+      "contract_quality": 79.1,
       "governance": 68.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -322,19 +333,19 @@
      "slug": "state-farm",
      "description": "State Farm is the largest property and casualty insurance provider in the United States, headquartered in Bloomington, Illinois. Founded in 1922, the company offers a comprehensive range of insurance products including auto, home, renters, life, health, business, and farm/ranch insurance, as well as banking and financial services. State Farm operates through a network of approximately 19,000 agents across the US and Canada. The company has invested heavily in its digital transformation, operating a Partner Gateway developer portal at developer.statefarm.com that exposes APIs enabling partners, agents, and third-party platforms to integrate with State Farm's insurance products and services. State Farm is a mutual company owned by its policyholders, consistently ranked among the Fortune 50.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/screenshots/state-farm-2026-06-20T194520.png",
-     "score": 49.7,
+     "score": 50.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 72.7,
+      "contract_quality": 74.8,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -361,19 +372,19 @@
      "slug": "ease",
      "description": "Ease (legally Enrollease, Inc., San Francisco, with offices in Las Vegas and Omaha) is a United States benefits administration and HR platform sold through insurance brokers to small and mid-sized employers of roughly 2-250 employees. It covers online benefits enrollment, benefits and plan management, ACA reporting, onboarding and offboarding, and a partner marketplace spanning carriers, general agencies, third-party administrators, payroll providers and agency management systems. Ease is a group-benefits distribution platform rather than a risk carrier, so its lines of business are medical, dental, vision, life, AD&D, STD, LTD and voluntary/supplemental products written by its carrier partners. It was acquired by Employee Navigator in April 2023 and is now in announced end-of-life: Employee Navigator published a dated two-phase sunset on 2026-06-03 under which no new companies can be added to Ease from 2027-01-01 and the platform goes read-only, with integrations and support discontinued, on 2027-07-01. Its benefits API posture is partner-gated and closed: Ease publishes no public developer portal and no API reference for the product. developer.ease.com, developers.ease.com, api.ease.com and docs.ease.com all resolve through wildcard DNS to the Ease application sign-in page, and ease.com/developers, /api, /developer and /integrations return 404. The real integration surface is EaseConnect (self-service mapping of ANSI X12 EDI 834 enrollment files to carriers), EaseConnect+ (privately negotiated direct carrier data connections, which in the Principal integration include an Evidence of Insurability API and a Member Benefits API that Ease never documents publicly), marketplace API integrations with payroll and HRIS vendors such as ADP Workforce Now, ADP RUN, BambooHR, Paycor and Paylocity, and a partner portal whose data leaves by scheduled report or SFTP. Ease does however operate two real, anonymous, machine-readable read surfaces that this record captures: the WordPress REST API behind www.ease.com, which serves the full Ease Marketplace partner directory (110 partners, 16 partner types, 23 benefit types) alongside blog, page, event and testimonial content; and the Atlassian Statuspage v2 API on status.ease.com, which serves platform status, component health, incident history and an anonymous incident-webhook subscription. No ACORD, AL3, NGDS or IVANS reference appears anywhere on the site - Ease operates in the group-benefits ANSI X12 834 idiom, not the P&C ACORD idiom.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png",
-     "score": 48.6,
+     "score": 49.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 54.2,
+      "contract_quality": 58.1,
       "governance": 20.8,
       "operational_transparency": 42.1,
       "developer_ergonomics": 34.2,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -407,19 +418,19 @@
      "slug": "aflac",
      "description": "Aflac is America's leading provider of supplemental insurance, offering products that pay benefits when a policyholder experiences an accident, illness, or injury. Aflac provides REST APIs through its Enterprise Connect (AEC) platform enabling benefits technology companies, HR platforms, and benefits administrators to integrate supplemental insurance enrollment, policy management, and claims capabilities into their workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png",
-     "score": 48.4,
+     "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -446,19 +457,19 @@
      "slug": "at-bay",
      "description": "At-Bay is an InsurSec company that combines cyber insurance with proactive security monitoring for businesses. Headquartered in New York with offices in San Francisco and Tel Aviv, At-Bay underwrites Surplus Cyber, Surplus Tech E&O, and Surplus Miscellaneous Professional Liability (MPL) coverage and bundles them with the At-Bay Stance security platform (advisory, fraud defense, incident response) and 24/7 Managed Detection and Response (MDR) across endpoint, email (MXDR), and multi-vector surfaces. At-Bay distributes through a network of independent brokers and partners and exposes a production-grade REST Partner API (v2) that lets brokerage platforms, digital distributors, and agency management systems quote, customize, bind, renew, retrieve documents, and receive webhook callbacks for the full policy lifecycle. Demo environment at api-demo.at-bay.com lets partners integrate without going through Broker of Record clearance.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/screenshots/at-bay-2026-06-20T172516.png",
-     "score": 48.2,
+     "score": 48.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 73.4,
+      "contract_quality": 75.7,
       "governance": 68.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -488,68 +499,22 @@
      "rank": 11
     },
     {
-     "name": "Travelers",
-     "slug": "travelers",
-     "description": "Travelers is one of the largest property casualty insurance companies in the United States and a Fortune 500 company. Through their developer portal, Travelers provides APIs for business insurance claim reporting, commercial quoting, and policy management to enable agents, brokers, and partners to programmatically manage insurance workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/screenshots/travelers-2026-06-20T195635.png",
-     "score": 47.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 72.0,
-      "governance": 58.3,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 51.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 12
-    },
-    {
      "name": "Socotra",
      "slug": "socotra",
      "description": "Socotra is a cloud-native insurance core platform that lets carriers, MGAs, and program administrators configure, launch, and operate insurance products across any line, geography, or distribution channel. Its Connected Core / Insurance Suite exposes a broad REST API covering business accounts, accounts and contacts, quotes and quick quotes, policy management and transactions, billing, invoicing and payments, claims (FNOL), producer management, work management, documents, accounting, reporting, search, moratoriums, configuration, and an event/webhook system. The platform ships first-party npm SDKs and CLIs, a schema-driven React UI SDK, a hosted Model Context Protocol (MCP) server for AI agents, and per-tenant configuration deployment. Backed by 8VC and Insight Partners. This profile was enriched by the API Evangelist pipeline from Socotra's public developer surface.",
-     "score": 47.7,
+     "score": 48.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 42.5,
+      "contract_quality": 47.4,
       "governance": 11.5,
       "operational_transparency": 31.6,
       "developer_ergonomics": 82.1,
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -576,72 +541,72 @@
       "dry_run_mode": false
      },
      "tier": "Core Systems & Policy Administration",
-     "rank": 13
+     "rank": 12
     },
     {
-     "name": "Extend",
-     "slug": "extend",
-     "description": "Extend is a product and shipping protection platform for merchants and ecommerce brands. Its API lets merchants surface extended-warranty and shipping-protection offers at checkout and post-purchase, create and manage protection contracts, process orders and line items, file and track claims, and manage service orders, refunds, and leads. Extend provides separate demo (sandbox) and production environments, header-based date versioning, OAuth2 client-credentials authentication with short-lived access tokens, idempotency keys on writes, and webhooks for claim and service-order status changes, alongside client-side SDKs and prebuilt commerce-platform integrations for Shopify, BigCommerce, Magento, WooCommerce, and Salesforce Commerce Cloud.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/screenshots/extend-2026-07-25T213943.png",
-     "score": 47.5,
+     "name": "Travelers",
+     "slug": "travelers",
+     "description": "Travelers is one of the largest property casualty insurance companies in the United States and a Fortune 500 company. Through their developer portal, Travelers provides APIs for business insurance claim reporting, commercial quoting, and policy management to enable agents, brokers, and partners to programmatically manage insurance workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/screenshots/travelers-2026-06-20T195635.png",
+     "score": 48.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 34.2
+      "discoverability": 74.1,
+      "contract_quality": 74.4,
+      "governance": 58.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
-      "score": 37.9,
+      "score": 51.5,
       "matched_via": "tags"
      },
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
+      "agentic_access": "derived",
+      "mcp_server": false,
       "auth_clarity": true,
-      "idempotency": "documented",
+      "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
       "agent_skills": false,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Embedded Insurance & Distribution APIs",
-     "rank": 14
+     "tier": "P&C / General Insurers",
+     "rank": 13
     },
     {
      "name": "Majesco",
      "slug": "majesco",
      "description": "Majesco is a global leader of cloud insurance software solutions for insurance business transformation, helping insurance carriers innovate, modernize, and accelerate their digital strategies.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/screenshots/majesco-2026-06-20T184906.png",
-     "score": 47.4,
+     "score": 47.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 71.5,
+      "contract_quality": 73.6,
       "governance": 58.3,
       "operational_transparency": 31.6,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -661,26 +626,26 @@
       "dry_run_mode": false
      },
      "tier": "Core Systems & Policy Administration",
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Unum",
      "slug": "unum",
      "description": "Unum Group is a leading provider of financial protection benefits including disability insurance, life insurance, dental insurance, vision insurance, and critical illness coverage. Unum's developer platform offers APIs for HR system integration, eligibility management, leave and absence management, enrollment, and evidence of insurability processing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/screenshots/unum-2026-06-20T200424.png",
-     "score": 47.2,
+     "score": 47.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 69.5,
+      "contract_quality": 72.1,
       "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -707,6 +672,52 @@
       "dry_run_mode": false
      },
      "tier": "Life, Health & Benefits Insurers",
+     "rank": 15
+    },
+    {
+     "name": "Extend",
+     "slug": "extend",
+     "description": "Extend is a product and shipping protection platform for merchants and ecommerce brands. Its API lets merchants surface extended-warranty and shipping-protection offers at checkout and post-purchase, create and manage protection contracts, process orders and line items, file and track claims, and manage service orders, refunds, and leads. Extend provides separate demo (sandbox) and production environments, header-based date versioning, OAuth2 client-credentials authentication with short-lived access tokens, idempotency keys on writes, and webhooks for claim and service-order status changes, alongside client-side SDKs and prebuilt commerce-platform integrations for Shopify, BigCommerce, Magento, WooCommerce, and Salesforce Commerce Cloud.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/screenshots/extend-2026-07-25T213943.png",
+     "score": 47.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 37.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Embedded Insurance & Distribution APIs",
      "rank": 16
     },
     {
@@ -725,7 +736,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -758,19 +769,19 @@
      "name": "Noyo",
      "slug": "noyo",
      "description": "Noyo operates benefits data infrastructure that automates the exchange of employee benefits enrollment data between benefits administration platforms, brokers, and insurance carriers. Its APIs let ben-admin platforms connect a group to a carrier, send member snapshots (new hires, qualifying life events, open enrollment, COBRA, terminations), and receive near-real-time, field-level tracking of every change through to carrier confirmation. The Fulfillment API manages groups, connections, employees, dependents, enrollments, plans, renewals and member requests; the Tracking API surfaces differences and discrepancies; the Carrier API exposes carrier network configuration. Noyo standardizes the messy, EDI-heavy world of carrier data exchange behind a modern REST interface with webhooks and a sandbox.",
-     "score": 44.4,
+     "score": 45.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 53.4,
+      "contract_quality": 57.4,
       "governance": 11.5,
       "operational_transparency": 23.7,
       "developer_ergonomics": 58.2,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -804,19 +815,19 @@
      "slug": "guidewire",
      "description": "Guidewire provides the insurance industry's leading platform including PolicyCenter, ClaimCenter, and BillingCenter. REST APIs enable policy lifecycle management, claims processing, payment orchestration, and underwriting workflows for P&C insurance carriers on the Guidewire Cloud platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/screenshots/guidewire-2026-06-20T182433.png",
-     "score": 43.8,
+     "score": 44.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 76.6,
+      "contract_quality": 78.1,
       "governance": 47.9,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -844,74 +855,24 @@
      },
      "tier": "Core Systems & Policy Administration",
      "rank": 19
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 18,
-   "shown": 18,
-   "providers": [
-    {
-     "name": "Gusto",
-     "slug": "gusto",
-     "description": "A cloud-based payroll, benefits, and human resources platform designed for small and medium-sized businesses. Gusto Embedded enables platforms to integrate payroll, tax filing, and HR workflows directly into their products via a REST API, React SDK, and webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png",
-     "score": 41.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 66.2,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 32.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Employee Benefits Administration",
-     "rank": 20
     },
     {
      "name": "Moody's RMS",
      "slug": "moodys-rms",
      "description": "Moody's RMS is the catastrophe risk modeling and risk-data business of Moody's Corporation, headquartered in Newark, California in its home market of the United States and serving property and casualty insurers, reinsurers, brokers, and capital-market participants worldwide. Founded at Stanford in 1988 as Risk Management Solutions and acquired by Moody's in 2021, the company sells peril models (hurricane, earthquake, flood, wildfire, severe convective storm, terror, cyber, pandemic) and the exposure data infrastructure that carriers use to price, accumulate, and transfer catastrophe risk. Its products run on the cloud-native Intelligent Risk Platform, which fronts Risk Modeler, ExposureIQ, UnderwriteIQ, TreatyIQ, and Risk Data Exchange. Unlike most of the US insurance sector, Moody's RMS is genuinely API-forward: it operates a public, self-serve ReadMe developer portal at developer.rms.com covering Platform APIs, Risk Modeler, Data Bridge, Location Intelligence, and Climate On Demand, publishes downloadable OpenAPI 3.0 definitions and public Postman collections from its own rms-developers GitHub repository, and exposes live REST hosts at api-use1.rms.com and api-euw1.rms.com. Reference documentation is readable without a login, but the APIs themselves are tenant-scoped: keys are issued only to licensed Intelligent Risk Platform tenants, so there is no self-serve signup and no sandbox. Its data-standards posture is cat-risk rather than ACORD — the exchange formats are the RMS EDM/RDM databases, the Risk Data Open Standard (RDOS), and interoperability with CEDE and OED; ACORD appears only as a geocoding-resolution code mapping inside the Location Intelligence API. These are risk-data and analytics APIs, not policy APIs: no quote, bind, issue, or FNOL surface is published.",
-     "score": 41.6,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.8,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 38.5,
+      "contract_quality": 43.7,
       "governance": 11.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 64.7,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -938,26 +899,76 @@
       "dry_run_mode": false
      },
      "tier": "Risk Data & Analytics",
-     "rank": 21
+     "rank": 20
     },
+    {
+     "name": "Gusto",
+     "slug": "gusto",
+     "description": "A cloud-based payroll, benefits, and human resources platform designed for small and medium-sized businesses. Gusto Embedded enables platforms to integrate payroll, tax filing, and HR workflows directly into their products via a REST API, React SDK, and webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png",
+     "score": 42.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 68.7,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 32.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Employee Benefits Administration",
+     "rank": 21
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 16,
+   "shown": 16,
+   "providers": [
     {
      "name": "Coalition",
      "slug": "coalition-inc",
      "description": "Coalition is a San Francisco–headquartered cyber insurance and active risk management provider founded in 2017 by Joshua Motta (CEO) and John Hering. Coalition pairs commercial insurance lines — Cyber, Technology Errors & Omissions, Executive Risks (D&O, EPL, Fiduciary, Crime), Miscellaneous Professional Liability, and AI coverage — with a continuous attack-surface monitoring and incident-response platform (Coalition Control, Wirespeed ADR, Coalition Incident Response, Security Awareness Training). The company's underwriting engine is exposed to brokers and distribution partners through the Coalition Active Insurance API, a RESTful surface that supports rate, quote, bind, document generation, renewals, and webhook events across the United States and Canada, with executive risks APIs and additional product lines added over time. Coalition also publishes a public Exploit Scoring System (ESS) API at ess-api.coalitioninc.com that exposes CVE detail, ESS/EPSS/CVSS scoring, exploit references (ExploitDB, Metasploit), GitHub repository signals, and Twitter mention timelines for over 200,000 vulnerabilities. Coalition is backed by Allianz X, Valor Equity Partners, Ribbit Capital, Mitsui Sumitomo, Kinetic Partners and other strategic insurers (Allianz, Arch, Ascot, Zurich, Swiss Re, Lloyd's syndicates); it raised a $250M Series F in 2022 at a $5B valuation. The Active Insurance API is partner-gated (no public OpenAPI), but the ESS API is fully public with OpenAPI 3.1, an interactive docs UI, and ReDoc.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coalition-inc/refs/heads/main/screenshots/coalition-inc-2026-06-20T174644.png",
-     "score": 41.0,
+     "score": 41.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 69.3,
+      "contract_quality": 71.6,
       "governance": 47.9,
       "operational_transparency": 42.1,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -991,19 +1002,19 @@
      "slug": "humana",
      "description": "Humana is a U.S. health insurance company that provides Medicare, Medicaid, and employer-sponsored health insurance plans, along with wellness programs and healthcare services. Humana publishes a suite of FHIR-compliant APIs that give third-party applications access to member health data, coverage information, drug formularies, and provider directories under CMS interoperability rules.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/screenshots/humana-2026-06-20T182931.png",
-     "score": 40.5,
+     "score": 41.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 59.9,
+      "contract_quality": 62.8,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1037,19 +1048,19 @@
      "slug": "elevance-health",
      "description": "Elevance Health (formerly Anthem) is a Fortune 500 health benefits company that serves members through Blue Cross and Blue Shield affiliated health plans across multiple states. The company offers medical, pharmacy, dental, vision, and other specialty insurance and exposes a set of CMS Interoperability and Patient Access FHIR APIs to enable members, providers, and partner payers to securely exchange coverage, clinical, claims, provider directory, and formulary data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/screenshots/elevance-health-2026-06-20T180559.png",
-     "score": 37.3,
+     "score": 38.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 53.4,
+      "contract_quality": 57.4,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1095,7 +1106,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1141,7 +1152,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1187,7 +1198,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1221,19 +1232,19 @@
      "slug": "boost-insurance",
      "description": "Boost Insurance is an insurance-as-a-service / embedded-insurance infrastructure platform that packages compliance, capital, and technology into a turnkey, white-labeled program accessible through a modern RESTful API. The Boost Policy Admin System (PAS) lets partners quote, bind, issue, endorse, cancel, and manage claims for admitted and surplus-lines products using JSON over OAuth 2.0.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/screenshots/boost-insurance-2026-07-25T203625.png",
-     "score": 35.5,
+     "score": 35.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.8,
+      "contract_quality": 57.4,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1279,7 +1290,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1309,160 +1320,22 @@
      "rank": 29
     },
     {
-     "name": "USAA",
-     "slug": "usaa",
-     "description": "USAA (United Services Automobile Association) is a Fortune 100 financial services group offering banking, investing, and insurance products exclusively to people and families who serve, or have served, in the United States military. USAA does not publish a first-party public developer portal or downloadable API specifications. Third-party access to member financial data is delivered through consumer-permissioned open-banking aggregators — Plaid, Mastercard Open Banking (formerly Flinks), and BankSync — using OAuth 2.0 tokenized authorization rather than shared credentials. USAA is an active member and board participant of the Financial Data Exchange (FDX) and helps shape the FDX API standard for secure open finance data sharing in the US.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png",
-     "score": 32.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 12.9,
-      "governance": 70.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 29.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 18.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 30
-    },
-    {
-     "name": "Archipelago",
-     "slug": "archipelago",
-     "description": "Archipelago is a San Francisco-based insurtech company, founded in 2018, that operates an AI-powered platform and agent for property and casualty (P&C) insurance risk data. Its software helps commercial property owners, brokers, and insurance underwriters ingest, remediate, enrich, and centralize Statement of Values (SOV) data and property documents, making risk information model-ready for submission to insurance markets. Archipelago exposes a customer-facing GraphQL API so customers can use their property data in custom applications, and the platform holds a SOC 2 Type 2 attestation. The company is backed by Canaan Partners, Scale Venture Partners, Ignition Partners, Prologis Ventures, Stone Point Capital, and Zigg Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/archipelago/refs/heads/main/screenshots/archipelago-2026-07-25T201034.png",
-     "score": 32.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 45.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 9.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Risk Data & Analytics",
-     "rank": 31
-    },
-    {
-     "name": "AIG",
-     "slug": "aig",
-     "description": "American International Group, Inc. (AIG) is a global insurance organization founded in 1919 and operating in over 200 countries and jurisdictions. AIG provides comprehensive risk solutions including property casualty, cyber, professional liability, casualty, specialty insurance, and reinsurance services for individuals and businesses. AIG operates digital portals for brokers and clients including myAIG for North America brokers and IntelliRisk Advanced for claims management, but does not currently offer a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/screenshots/aig-2026-06-20T170849.png",
-     "score": 32.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 12.9,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 28.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 32
-    },
-    {
      "name": "NAIC",
      "slug": "naic",
      "description": "The National Association of Insurance Commissioners (NAIC) is the U.S. standard-setting and regulatory support organization created and governed by the chief insurance regulators of the 50 states, the District of Columbia and five territories. It is not a carrier and not a federal regulator - under the McCarran-Ferguson settlement the United States has no national insurance supervisor, so the NAIC is the coordinating body through which state-based regulation is made uniform. It writes the model laws, accounting practices and Annual Statement Blanks that every admitted insurer files against, operates the Financial Data Repository behind those filings, and runs the market infrastructure the industry actually transacts on: SERFF for electronic rate and form filing, State Based Systems (SBS) for producer and company licensing in roughly thirty jurisdictions, iSite+ and myNAIC for regulator analytics, OPTins for premium tax, and consumer-facing lookups such as the Consumer Information Source and the Life Insurance Policy Locator. Its lines of business span property and casualty, life and annuity, health, title and fraternal across the United States. Its API posture is partner-gated and closed: there is no developer portal at developer/developers/docs.naic.org (all NXDOMAIN), no documented self-serve API, and no downloadable OpenAPI anywhere on naic.org or serff.com. SERFF does operate real integration services - Legacy SPI (two-way PUSH/PULL), Legacy SIS (one-way PULL) and a Modernized Data API (one-way PULL), in PROD and BETA - but they are named only on a support checklist, provisioned by emailing wsrequest@naic.org, and fronted by Okta login walls. Bulk regulatory data is licensed by contract through idp@naic.org rather than served over an API. There is, however, one real and entirely undocumented public machine surface: content.naic.org runs Drupal 11 and serves a live, anonymously readable JSON:API v1.1 at /jsonapi, whose resource index enumerates 284 resource types and exposes the model law corpus with its MDL numbers, the state insurance department regulator directory, committees, insurance topics, publications, CIPR research and the newsroom. The NAIC also publishes a first-party llms.txt declaring AI usage preferences, attribution requirements and crawl limits - so its stated contract with automated consumers is more explicit than its contract with API developers.",
-     "score": 31.8,
+     "score": 32.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 39.0,
+      "contract_quality": 44.2,
       "governance": 3.1,
       "operational_transparency": 0.0,
       "developer_ergonomics": 38.6,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1489,26 +1362,26 @@
       "dry_run_mode": false
      },
      "tier": "Market Bodies, Standards & Regulators",
-     "rank": 33
+     "rank": 30
     },
     {
      "name": "Pie Insurance",
      "slug": "pie-insurance",
      "description": "Pie Insurance is a Washington, DC and Denver-based insurtech founded in May 2017 that makes commercial insurance for small businesses, with workers' compensation as its flagship line. Pie underwrites its own workers' comp through The Pie Insurance Company (NAIC 21857) — the carrier formerly known as Pie Casualty Insurance Company, which Pie acquired as Western Select Insurance Company in 2021 and took full-stack in February 2023 with an A- (Excellent) rating from AM Best. In addition to workers' comp, Pie offers business owners policy (BOP), commercial auto, general liability, professional liability, and errors and omissions through partner carriers. The product is sold both direct-to-business and through a partner network of 4,000+ independent insurance agencies, who quote, bind, and service policies via the Pie agency portal and the Pie Partner API. The Partner API (api.post-prod.pieinsurance.com, REST/JSON, documented with OpenAPI 3.0.4) exposes class-code search, eligibility questions, appetite checks, price indications, full bindable quotes, quote documents, and quote PDF retrieval so agency management systems and partner platforms can embed the Pie workers' comp experience without redirecting users off-platform. Coverage is available in 39 states plus DC; 73% of submissions are auto-decided and average quote time is roughly three minutes. The company has raised approximately $621M across Seed through Series D from investors including Allianz X, SVB Capital, Greycroft, Aspect Ventures, and Elefund. CEO and co-founder is John Swigart. The Pie Partner API is the public developer surface; there is no broader open-source SDK or GitHub organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/screenshots/pie-insurance-2026-06-20T191702.png",
-     "score": 31.5,
+     "score": 32.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 45.3,
+      "contract_quality": 50.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1535,6 +1408,144 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 31
+    },
+    {
+     "name": "USAA",
+     "slug": "usaa",
+     "description": "USAA (United Services Automobile Association) is a Fortune 100 financial services group offering banking, investing, and insurance products exclusively to people and families who serve, or have served, in the United States military. USAA does not publish a first-party public developer portal or downloadable API specifications. Third-party access to member financial data is delivered through consumer-permissioned open-banking aggregators — Plaid, Mastercard Open Banking (formerly Flinks), and BankSync — using OAuth 2.0 tokenized authorization rather than shared credentials. USAA is an active member and board participant of the Financial Data Exchange (FDX) and helps shape the FDX API standard for secure open finance data sharing in the US.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png",
+     "score": 32.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 12.9,
+      "governance": 70.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 29.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 18.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 32
+    },
+    {
+     "name": "Archipelago",
+     "slug": "archipelago",
+     "description": "Archipelago is a San Francisco-based insurtech company, founded in 2018, that operates an AI-powered platform and agent for property and casualty (P&C) insurance risk data. Its software helps commercial property owners, brokers, and insurance underwriters ingest, remediate, enrich, and centralize Statement of Values (SOV) data and property documents, making risk information model-ready for submission to insurance markets. Archipelago exposes a customer-facing GraphQL API so customers can use their property data in custom applications, and the platform holds a SOC 2 Type 2 attestation. The company is backed by Canaan Partners, Scale Venture Partners, Ignition Partners, Prologis Ventures, Stone Point Capital, and Zigg Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/archipelago/refs/heads/main/screenshots/archipelago-2026-07-25T201034.png",
+     "score": 32.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 45.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Risk Data & Analytics",
+     "rank": 33
+    },
+    {
+     "name": "AIG",
+     "slug": "aig",
+     "description": "American International Group, Inc. (AIG) is a global insurance organization founded in 1919 and operating in over 200 countries and jurisdictions. AIG provides comprehensive risk solutions including property casualty, cyber, professional liability, casualty, specialty insurance, and reinsurance services for individuals and businesses. AIG operates digital portals for brokers and clients including myAIG for North America brokers and IntelliRisk Advanced for claims management, but does not currently offer a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aig/refs/heads/main/screenshots/aig-2026-06-20T170849.png",
+     "score": 32.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 12.9,
+      "governance": 58.3,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 28.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "P&C / General Insurers",
      "rank": 34
     },
     {
@@ -1542,19 +1553,19 @@
      "slug": "progressive",
      "description": "The Progressive Corporation is one of the largest providers of car insurance in the United States, also offering personal and commercial auto, home, renters, boat, motorcycle, and other insurance products. Progressive operates a developer portal at developer.progressive.com offering APIs for auto insurance quoting, certificate of insurance generation, and agent portal integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/screenshots/progressive-2026-06-20T192149.png",
-     "score": 31.5,
+     "score": 32.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.2,
+      "contract_quality": 59.5,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1588,19 +1599,19 @@
      "slug": "arthur-j-gallagher",
      "description": "Arthur J. Gallagher & Co. is a global insurance brokerage, risk management, and consulting firm headquartered in Rolling Meadows, Illinois. The company provides insurance brokerage, risk management, employee benefits, and retirement services to clients worldwide. Its subsidiaries include Gallagher Security (which offers the Command Centre REST API for physical security integration) and Gallagher Bassett (which offers claims management APIs for third-party claims administration). Arthur J. Gallagher serves clients in over 130 countries through its international network of brokers and offices.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/screenshots/arthur-j-gallagher-2026-06-20T172441.png",
-     "score": 31.1,
+     "score": 32.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 49.2,
+      "contract_quality": 53.5,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 17.4,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1645,7 +1656,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1674,8 +1685,7 @@
      "tier": "Cyber & Specialty Risk",
      "rank": 37
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "emerging",
@@ -1689,19 +1699,19 @@
      "name": "Liberty Mutual Insurance",
      "slug": "liberty-mutual-insurance",
      "description": "Liberty Mutual Insurance Group is one of the largest global property and casualty insurers, headquartered in Boston, Massachusetts. The company offers a wide range of insurance products and services, including personal automobile, homeowners, workers compensation, and commercial lines, and exposes API-based insurance solutions for partners across the insurance lifecycle from quote-and-purchase through policyholder service and claims.",
-     "score": 26.6,
+     "score": 27.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 52.5,
+      "contract_quality": 56.6,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1734,19 +1744,19 @@
      "name": "Prudential Financial",
      "slug": "prudential-financial",
      "description": "Prudential Financial, Inc. is a global financial services company offering insurance, retirement planning, investment management, and other financial products and services. Founded in 1875 and headquartered in Newark, New Jersey, the company serves individual and institutional customers worldwide.",
-     "score": 25.9,
+     "score": 26.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 54.2,
+      "contract_quality": 58.1,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1792,7 +1802,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1838,7 +1848,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1884,7 +1894,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1929,7 +1939,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1975,7 +1985,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2021,7 +2031,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2067,7 +2077,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2113,7 +2123,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2159,7 +2169,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2205,7 +2215,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2251,7 +2261,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2297,7 +2307,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2343,7 +2353,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2389,7 +2399,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2434,7 +2444,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2480,7 +2490,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2525,7 +2535,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2571,7 +2581,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2617,7 +2627,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2663,7 +2673,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2708,7 +2718,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2754,7 +2764,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2800,7 +2810,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2846,7 +2856,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2891,7 +2901,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2946,7 +2956,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2992,7 +3002,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3037,7 +3047,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3083,7 +3093,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3129,7 +3139,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3175,7 +3185,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3221,7 +3231,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3267,7 +3277,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3313,7 +3323,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3358,7 +3368,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3404,7 +3414,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3450,7 +3460,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3496,7 +3506,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3542,7 +3552,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3588,7 +3598,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -15,19 +15,19 @@
      "name": "PortOne",
      "slug": "portone",
      "description": "PortOne (formerly Iamport) is a Korea-based payment orchestration platform that lets online businesses integrate one API to reach 100+ Korean and global payment methods and PSPs. The V2 REST API (api.portone.io) covers payments, billing keys, scheduled/recurring payments, identity verification, cash receipts, B2B tax invoices, and partner settlement, with the legacy V1 API still served at api.iamport.kr.",
-     "score": 65.2,
+     "score": 65.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 64.6,
+      "contract_quality": 67.6,
       "governance": 11.5,
       "operational_transparency": 84.2,
       "developer_ergonomics": 79.9,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -71,19 +71,19 @@
      "slug": "korbit",
      "description": "Korbit is South Korea's first cryptocurrency exchange, founded in 2013 and headquartered in Seoul, offering KRW-denominated spot trading of bitcoin, ether and other digital assets to Korean retail and institutional customers. Korbit publishes the Korbit Open API v2, a REST and WebSocket interface covering market data (tickers, orderbook, trades, candlesticks, tick-size policy), order placement and cancellation, order and trade history, balances, cryptocurrency deposit-address management and withdrawals, and KRW deposit/withdrawal push notifications. Authentication is by API key (X-KAPI-KEY) with per-request HMAC-SHA256 or ED25519 signatures, granular key permissions and optional IP allowlisting. Korbit is unusually agent-forward for an exchange: it ships an official Go CLI with a bundled MCP server and Agent Skill, a documented llms.txt, and a downloadable local sandbox that mocks the full REST and WebSocket surface for no-risk development.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png",
-     "score": 45.5,
+     "score": 46.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 72.1,
+      "contract_quality": 74.2,
       "governance": 11.5,
       "operational_transparency": 13.2,
       "developer_ergonomics": 77.7,
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -112,6 +112,44 @@
      "rank": 2
     },
     {
+     "name": "Kurly",
+     "slug": "kurly",
+     "description": "Kurly (컬리, operated by The Farmers Front) is a South Korean online grocery and lifestyle commerce company, known for Market Kurly and its overnight \"dawn delivery\" (샛별배송) model built on a cold-chain fulfillment network. Kurly Logistics Services (KLS) opens that network to contracted shipper clients (화주사) as a B2B Open API spanning three service families: fulfillment (물류대행), where Kurly holds and ships the shipper's stock, covering goods master, inbound receiving, inventory and ledgers, outbound orders and fulfillment plans; delivery agency (배송대행), where the shipper ships from their own warehouse over Kurly's Nextmile last-mile network; and shared delivery tracking. Access is contract-gated — clientId and secretKey are issued only after IP allowlist registration — and Kurly states as policy that KLS does not push data to external systems, so integrations poll rather than subscribe to webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png",
+     "score": 44.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 57.0,
+      "governance": 21.9,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 49.3,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 3
+    },
+    {
      "name": "Payple",
      "slug": "payple",
      "description": "Payple (페이플) is a South Korean payment gateway (PG) and fintech provider that lets merchants accept online payments across domestic and international cards, real-time bank-account payments, recurring / billing-key charges, link payments, identity verification, and settlement / payout (Hub) services. Integration is offered through a hosted payment window initialized in the browser with a public client key, plus a server-side REST API (v2) authorized with partner credentials (PCD_CST_ID / PCD_CUST_KEY). Payple is a registered Korean electronic financial business with an Innovative Financial Service (혁신금융서비스) designation, and it publishes official language sample source, policy documents, and a developer center. This profile was enriched by the API Evangelist pipeline from the Payple developer center and the PAYPLECORP GitHub organization.",
@@ -127,7 +165,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -153,44 +191,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
-    },
-    {
-     "name": "Kurly",
-     "slug": "kurly",
-     "description": "Kurly (컬리, operated by The Farmers Front) is a South Korean online grocery and lifestyle commerce company, known for Market Kurly and its overnight \"dawn delivery\" (샛별배송) model built on a cold-chain fulfillment network. Kurly Logistics Services (KLS) opens that network to contracted shipper clients (화주사) as a B2B Open API spanning three service families: fulfillment (물류대행), where Kurly holds and ships the shipper's stock, covering goods master, inbound receiving, inventory and ledgers, outbound orders and fulfillment plans; delivery agency (배송대행), where the shipper ships from their own warehouse over Kurly's Nextmile last-mile network; and shared delivery tracking. Access is contract-gated — clientId and secretKey are issued only after IP allowlist registration — and Kurly states as policy that KLS does not push data to external systems, so integrations poll rather than subscribe to webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png",
-     "score": 43.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 53.0,
-      "governance": 21.9,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 49.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 4
     }
    ],
@@ -209,19 +209,19 @@
      "slug": "bithumb",
      "description": "Bithumb is South Korea's leading cryptocurrency exchange platform offering REST and WebSocket APIs for spot trading across KRW, BTC, and USDT markets. The APIs cover market data, order management, account management, deposit and withdrawal operations, and real-time streaming for 396+ cryptocurrencies.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png",
-     "score": 41.4,
+     "score": 41.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.9,
+      "contract_quality": 58.3,
       "governance": 58.3,
       "operational_transparency": 15.8,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -254,19 +254,19 @@
      "slug": "yonsei",
      "description": "Yonsei University is a private research university in Seoul, South Korea, founded in 1885 and ranked #73 in the QS World University Rankings 2025. Its public, machine-readable footprint is limited and primarily research- and library-oriented: the Yonsei Research Information portal runs on Elsevier Pure (which exposes Pure OAI-PMH and REST endpoints, but they require credentials/IP allow-listing and return HTTP 401 publicly), and the medical library operates a DSpace 5.5 institutional repository (YUHSpace) whose RSS feed is publicly reachable while its OAI-PMH/REST paths are not currently resolvable. No official, documented public developer portal or open API was confirmed; the only related GitHub presence is a student-run Google Developer Group (gdg-yonsei), not an official institutional API organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/screenshots/yonsei-2026-06-20T201758.png",
-     "score": 40.0,
+     "score": 40.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 60.7,
+      "contract_quality": 64.0,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -303,7 +303,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -335,19 +335,19 @@
      "name": "Mindlogic",
      "slug": "mindlogic",
      "description": "Mindlogic is a South Korean generative-AI company whose products include FactChat (a multi-LLM enterprise chat platform with Studio chatbot building, deep research, meeting notes, and image/video generation), Bliss (a persona chatbot that learns a person's voice and personality for fan engagement), and Informe (a multilingual document-grounded website chatbot). For developers, Mindlogic operates the FactChat API Gateway — a unified, OpenAI- and Anthropic-compatible LLM proxy that fronts models from OpenAI, Anthropic, Google Gemini, xAI and Perplexity behind a single API key, metered in credits, with chat completions, an OpenAI Responses pass-through, an Anthropic Messages pass-through, text-to-speech, and image/video generation.",
-     "score": 37.3,
+     "score": 38.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 44.9,
+      "contract_quality": 49.6,
       "governance": 20.8,
       "operational_transparency": 0.0,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 38.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -372,19 +372,19 @@
      "name": "Toss Payments",
      "slug": "toss-payments",
      "description": "Toss Payments is a South Korean payment gateway (PG) operated by Viva Republica, the company behind the Toss super-app. Its REST API lets merchants accept and manage online payments across cards, Korean easy-pay wallets (Toss Pay, KakaoPay, Naver Pay), virtual accounts, bank transfer, and mobile-phone billing. The Core API (base https://api.tosspayments.com) covers payment confirmation and cancellation, recurring billing keys, virtual account issuance, cash receipts, transaction and settlement queries, and seller payouts, with asynchronous results delivered by webhooks. Authentication is HTTP Basic using a secret API key.",
-     "score": 35.8,
+     "score": 36.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -417,19 +417,19 @@
      "slug": "kakao",
      "description": "Kakao Corp. is the South Korean technology group behind KakaoTalk — the dominant mobile messenger in Korea — along with KakaoPay (payments), Kakao Bank (digital bank), KakaoMobility (taxi, navigation, parking), KakaoMap, Kakao Games, Kakao Entertainment (Melon, Kakao Webtoon, Daum), and KakaoCloud. Kakao runs its public developer platform at developers.kakao.com, exposing REST APIs for Kakao Login (OAuth 2.0), Kakao Sync, KakaoTalk Share / Message / Friend Picker / Channel, KakaoStory, KakaoNavi, KakaoMap, Local search, Daum Search, KakaoPay (PG / online easy-pay), and KoGPT generative AI. KakaoMobility and Kakao Enterprise / KakaoCloud each operate additional partner- facing developer surfaces.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/screenshots/kakao-2026-06-20T183903.png",
-     "score": 33.9,
+     "score": 34.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.8,
+      "contract_quality": 60.5,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -473,7 +473,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 27.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -521,7 +521,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -566,7 +566,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -604,7 +604,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -642,7 +642,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -687,7 +687,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -725,7 +725,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -763,7 +763,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -801,7 +801,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -845,7 +845,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -883,7 +883,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -921,7 +921,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -958,7 +958,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1002,7 +1002,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1049,7 +1049,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1087,7 +1087,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1124,7 +1124,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1162,7 +1162,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1199,7 +1199,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1237,7 +1237,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1275,7 +1275,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1313,7 +1313,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1350,7 +1350,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1388,7 +1388,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1433,7 +1433,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1470,7 +1470,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1508,7 +1508,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1553,7 +1553,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1591,7 +1591,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1629,7 +1629,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1666,7 +1666,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1703,7 +1703,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1740,7 +1740,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1785,7 +1785,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1823,7 +1823,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1861,7 +1861,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1898,7 +1898,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1935,7 +1935,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1972,7 +1972,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2009,7 +2009,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2046,7 +2046,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2083,7 +2083,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2120,7 +2120,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2157,7 +2157,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2194,7 +2194,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2231,7 +2231,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2268,7 +2268,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2305,7 +2305,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2342,7 +2342,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2379,7 +2379,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2416,7 +2416,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",

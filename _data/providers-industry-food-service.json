@@ -16,19 +16,19 @@
      "slug": "starbucks",
      "description": "Starbucks provides partner APIs for ordering, loyalty program integration, store locations, and menu data through their developer portal. These APIs enable authorized partners to integrate Starbucks ordering, rewards, and store discovery into their applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png",
-     "score": 48.6,
+     "score": 49.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 70.1,
+      "contract_quality": 72.3,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -54,19 +54,19 @@
      "slug": "aramark",
      "description": "Aramark is a Fortune 500 company providing food, facilities, and uniform services. The Marko platform provides a data and AI API with 70+ services for real-time insights across organizational, point-of-sale, product, and revenue data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png",
-     "score": 45.6,
+     "score": 46.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -115,7 +115,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -141,19 +141,19 @@
      "slug": "chickfila",
      "description": "Chick-fil-A is an American fast-food restaurant chain specializing in chicken sandwiches and operating over 3,000 locations across the United States. Known for customer service and a closed-on-Sunday policy, Chick-fil-A operates the Chick-fil-A One tiered loyalty program, the Chick-fil-A mobile app for ordering and rewards, the catering platform, and eGift Cards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png",
-     "score": 29.8,
+     "score": 31.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 45.1,
+      "contract_quality": 49.8,
       "governance": 68.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 28.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -202,7 +202,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -240,7 +240,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 4.7,
      "agent_band": "human-only",
      "agent_dims": {
@@ -278,7 +278,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -326,7 +326,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -364,7 +364,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -402,7 +402,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -440,7 +440,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -477,7 +477,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -515,7 +515,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -553,7 +553,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -591,7 +591,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -629,7 +629,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

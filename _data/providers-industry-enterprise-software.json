@@ -16,19 +16,19 @@
      "slug": "salesforce",
      "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png",
-     "score": 79.7,
+     "score": 80.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 77.8,
-      "contract_quality": 82.2,
+      "contract_quality": 83.5,
       "governance": 80.2,
       "operational_transparency": 78.9,
       "developer_ergonomics": 78.3,
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 59.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -54,19 +54,19 @@
      "slug": "hubspot",
      "description": "HubSpot provides a full platform of marketing, sales, customer service, and CRM software plus the methodology, resources, and support to help businesses grow better.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
-     "score": 77.3,
+     "score": 77.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 40.7,
-      "contract_quality": 85.7,
+      "contract_quality": 86.7,
       "governance": 47.9,
       "operational_transparency": 78.9,
       "developer_ergonomics": 87.0,
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -92,19 +92,19 @@
      "slug": "autodesk",
      "description": "Autodesk is a global leader in design, engineering, and entertainment software, providing cloud-connected platform APIs through Autodesk Platform Services (APS). APS APIs enable developers to build applications that access design data, automate workflows, visualize 3D models, manage construction projects, create digital twins, and integrate sustainability data across Autodesk's product ecosystem including AutoCAD, Revit, Inventor, Maya, BIM 360, and Autodesk Construction Cloud.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png",
-     "score": 76.0,
+     "score": 76.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 79.3,
+      "contract_quality": 81.1,
       "governance": 59.4,
       "operational_transparency": 68.4,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 59.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -130,19 +130,19 @@
      "slug": "avalara",
      "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
-     "score": 75.2,
+     "score": 75.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 74.2,
+      "contract_quality": 76.1,
       "governance": 83.3,
       "operational_transparency": 57.9,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 89.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 56.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -168,19 +168,19 @@
      "slug": "servicenow",
      "description": "ServiceNow provides cloud-based platform services that automate enterprise IT operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png",
-     "score": 74.6,
+     "score": 75.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 77.9,
+      "contract_quality": 79.5,
       "governance": 63.5,
       "operational_transparency": 57.9,
       "developer_ergonomics": 84.8,
       "commercial_clarity": 81.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -206,19 +206,19 @@
      "slug": "ibm",
      "description": "A collection of IBM's public APIs and developer resources.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png",
-     "score": 74.1,
+     "score": 74.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 85.2,
-      "contract_quality": 74.5,
+      "contract_quality": 76.4,
       "governance": 69.8,
       "operational_transparency": 68.4,
       "developer_ergonomics": 69.6,
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -243,19 +243,19 @@
      "name": "Okta",
      "slug": "okta",
      "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Security Posture Management, Access Gateway, and API Access Management. Customer identity is handled by Auth0, which Okta acquired in 2021 and now operates as its consumer-facing identity arm. The platform now extends to securing AI agents via Okta for AI Agents and the Cross-App Access (XAA) protocol — an emerging OAuth profile based on the IETF ID-JAG draft for agent-to-app authorization. The Okta Management API is the primary developer surface, with an official MCP server (okta-mcp-server) exposing administrative operations to LLM agents under human-in-the-loop confirmation.",
-     "score": 71.4,
+     "score": 71.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 77.3,
+      "contract_quality": 79.0,
       "governance": 47.9,
       "operational_transparency": 68.4,
       "developer_ergonomics": 76.1,
       "commercial_clarity": 81.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 42.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -277,23 +277,61 @@
      "rank": 7
     },
     {
+     "name": "Oracle",
+     "slug": "oracle",
+     "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png",
+     "score": 71.4,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 72.4,
+      "governance": 68.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 52.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 8
+    },
+    {
      "name": "Meta",
      "slug": "meta",
      "description": "Collection of Meta (Facebook) platform APIs for social networking, messaging, advertising, content publishing, AI, and developer tools across Facebook, Instagram, WhatsApp, Threads, and Messenger.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png",
-     "score": 71.2,
+     "score": 71.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 62.0,
+      "contract_quality": 62.2,
       "governance": 69.8,
       "operational_transparency": 76.3,
       "developer_ergonomics": 93.5,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -319,44 +357,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
-    },
-    {
-     "name": "Oracle",
-     "slug": "oracle",
-     "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png",
-     "score": 70.8,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 70.2,
-      "governance": 68.8,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 78.3,
-      "commercial_clarity": 84.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 52.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 9
     },
     {
@@ -364,19 +364,19 @@
      "slug": "palo-alto-networks",
      "description": "Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations, and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png",
-     "score": 70.8,
+     "score": 71.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 92.5,
+      "contract_quality": 93.1,
       "governance": 62.5,
       "operational_transparency": 68.4,
       "developer_ergonomics": 69.6,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -402,19 +402,19 @@
      "slug": "airtable",
      "description": "Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png",
-     "score": 70.6,
+     "score": 70.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 86.1,
+      "contract_quality": 87.2,
       "governance": 58.3,
       "operational_transparency": 68.4,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 50.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -440,19 +440,19 @@
      "slug": "slack",
      "description": "Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png",
-     "score": 70.2,
+     "score": 70.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 71.8,
+      "contract_quality": 73.9,
       "governance": 31.3,
       "operational_transparency": 86.8,
       "developer_ergonomics": 84.8,
       "commercial_clarity": 68.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -485,19 +485,19 @@
      "slug": "workday",
      "description": "Collection of Workday REST and SOAP APIs for human capital management, financial management, enterprise planning, analytics, and platform extensibility.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png",
-     "score": 69.9,
+     "score": 70.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 77.8,
-      "contract_quality": 83.2,
+      "contract_quality": 84.4,
       "governance": 80.2,
       "operational_transparency": 57.9,
       "developer_ergonomics": 63.0,
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 46.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -523,19 +523,19 @@
      "slug": "adobe",
      "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
-     "score": 69.5,
+     "score": 69.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 79.6,
+      "contract_quality": 81.3,
       "governance": 68.8,
       "operational_transparency": 57.9,
       "developer_ergonomics": 63.0,
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -561,19 +561,19 @@
      "slug": "atlassian",
      "description": "Atlassian is a software company that develops collaboration, productivity, and project management tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline workflows, and support project tracking across a wide range of industries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png",
-     "score": 68.7,
+     "score": 69.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 77.0,
+      "contract_quality": 79.0,
       "governance": 68.8,
       "operational_transparency": 78.9,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 68.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 56.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -599,19 +599,19 @@
      "slug": "docusign",
      "description": "DocuSign helps organizations connect and automate how they prepare, sign, act on, and manage agreements. As part of the DocuSign Agreement Cloud, DocuSign offers eSignature, the world's.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png",
-     "score": 68.1,
+     "score": 68.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 77.4,
+      "contract_quality": 79.1,
       "governance": 47.9,
       "operational_transparency": 78.9,
       "developer_ergonomics": 63.0,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 51.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -648,19 +648,19 @@
      "slug": "snowflake",
      "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
-     "score": 65.1,
+     "score": 65.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 40.7,
-      "contract_quality": 73.7,
+      "contract_quality": 76.0,
       "governance": 58.3,
       "operational_transparency": 68.4,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 68.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -686,19 +686,19 @@
      "slug": "apple",
      "description": "Collection of Apple's public APIs and developer resources.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png",
-     "score": 63.7,
+     "score": 64.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 63.0,
-      "contract_quality": 78.1,
+      "contract_quality": 79.7,
       "governance": 58.3,
       "operational_transparency": 57.9,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -720,23 +720,61 @@
      "rank": 18
     },
     {
+     "name": "Cisco",
+     "slug": "cisco",
+     "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and other Cisco products to automate network operations, build integrations, and extend platform capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png",
+     "score": 63.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 61.1,
+      "governance": 69.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 54.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 19
+    },
+    {
      "name": "Intuit",
      "slug": "intuit",
      "description": "Collection of APIs offered by Intuit for financial and business management services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png",
-     "score": 62.9,
+     "score": 63.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 83.9,
+      "contract_quality": 85.1,
       "governance": 27.1,
       "operational_transparency": 78.9,
       "developer_ergonomics": 60.9,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -762,44 +800,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
-    },
-    {
-     "name": "Cisco",
-     "slug": "cisco",
-     "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and other Cisco products to automate network operations, build integrations, and extend platform capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png",
-     "score": 62.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 58.0,
-      "governance": 69.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 54.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 20
     },
     {
@@ -807,19 +807,19 @@
      "slug": "zoom",
      "description": "Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png",
-     "score": 62.7,
+     "score": 63.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 76.9,
+      "contract_quality": 78.6,
       "governance": 41.7,
       "operational_transparency": 63.2,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -845,19 +845,19 @@
      "slug": "wso2",
      "description": "WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forrester Wave API Management Q3 2024 report.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png",
-     "score": 62.4,
+     "score": 62.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 57.4,
+      "contract_quality": 58.1,
       "governance": 68.8,
       "operational_transparency": 68.4,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -883,19 +883,19 @@
      "slug": "pandium",
      "description": "Transform integration development from a fragmented, ad hoc process into a streamlined, repeatable workflow with Pandiums Integration Platform. With Pandium, B2B SaaS companies can meet customer demands, reduce technical debt, and stay ahead in an increasingly connected world.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/screenshots/pandium-2026-06-20T191334.png",
-     "score": 61.7,
+     "score": 62.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 74.6,
+      "contract_quality": 76.7,
       "governance": 58.3,
       "operational_transparency": 63.2,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -921,19 +921,19 @@
      "slug": "sap",
      "description": "Collection of SAP's enterprise APIs for business applications and cloud services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png",
-     "score": 60.7,
+     "score": 60.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 53.7,
-      "contract_quality": 75.4,
+      "contract_quality": 74.7,
       "governance": 41.7,
       "operational_transparency": 57.9,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 53.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -959,19 +959,19 @@
      "slug": "microsoft",
      "description": "Collection of Microsoft's primary APIs and developer resources.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
-     "score": 59.5,
+     "score": 60.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 77.2,
+      "contract_quality": 78.9,
       "governance": 58.3,
       "operational_transparency": 42.1,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -997,19 +997,19 @@
      "slug": "amazon",
      "description": "Amazon is a global technology and e-commerce company offering a wide range of consumer and developer APIs including the Selling Partner API for marketplace sellers, Advertising API for campaign management, Amazon Pay for payments, Alexa Skills Kit for voice experiences, Amazon Appstore for mobile applications, and the Creators API for affiliate publishers. These APIs power Amazon's ecosystem of sellers, developers, advertisers, and content creators.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png",
-     "score": 59.2,
+     "score": 59.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 76.4,
+      "contract_quality": 78.2,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1042,19 +1042,19 @@
      "slug": "gravitee",
      "description": "Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with native MCP and LLM-proxy capabilities. The core projects are Apache 2.0 OSS, with an Enterprise commercial offering and a managed Gravitee Cloud SaaS. The platform supports synchronous and asynchronous APIs across REST, GraphQL, WebSocket, gRPC, SSE, Webhooks, Kafka, MQTT, AMQP, and Model Context Protocol (MCP).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png",
-     "score": 57.3,
+     "score": 58.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 61.3,
+      "contract_quality": 64.6,
       "governance": 58.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 50.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1083,27 +1083,27 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 14,
-   "shown": 14,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Ciena",
      "slug": "ciena",
      "description": "Ciena Corporation is a global networking equipment, software, and services vendor focused on optical and packet networking, SDN, and service automation. This index covers Ciena's open APIs across the Blue Planet automation platform, the Ciena MCP (Manage, Control, and Plan) NMS, and the Emulation Cloud developer environment, exposing TM Forum Open APIs, MEF Lifecycle Service Orchestration (LSO) APIs (Legato, Sonata), and ONAP-aligned policy controls for telecom carriers and managed service providers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-06-20T174339.png",
-     "score": 54.9,
+     "score": 55.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 66.9,
+      "contract_quality": 69.8,
       "governance": 58.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1136,19 +1136,19 @@
      "slug": "spire",
      "description": "SPIRE (SPIFFE Runtime Environment) is the reference implementation of the SPIFFE standard, providing a toolchain for establishing trust between software systems across a wide variety of hosting platforms through automated attestation and workload identity distribution. SPIRE manages a certificate authority, performs node and workload attestation, and issues SVIDs to workloads through the SPIFFE Workload API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/screenshots/spire-2026-06-20T194318.png",
-     "score": 53.4,
+     "score": 53.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 69.2,
+      "contract_quality": 71.3,
       "governance": 62.5,
       "operational_transparency": 63.2,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1174,19 +1174,19 @@
      "slug": "upbound",
      "description": "Upbound is a universal cloud platform built on Crossplane, providing managed control planes and a marketplace for cloud infrastructure APIs. The Upbound API enables programmatic management of organizations, spaces, control planes, package repositories, teams, and robot accounts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/screenshots/upbound-2026-06-20T200438.png",
-     "score": 52.1,
+     "score": 52.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 69.5,
+      "contract_quality": 72.1,
       "governance": 58.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 41.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1212,19 +1212,19 @@
      "slug": "cisco-systems",
      "description": "Cisco Systems is a global technology company providing networking, security, collaboration, and cloud infrastructure products. Cisco exposes its programmable surface through Cisco DevNet, a single developer portal that aggregates documentation, sandboxes, code exchange, and learning labs across the company's hardware and software portfolio. Major API domains include Catalyst Center and Meraki for network management, IOS XE RESTCONF for device-level programmability, Webex for collaboration, Secure Firewall and ISE for security, ThousandEyes and AppDynamics for observability, and Intersight for cloud-managed infrastructure. Authentication models vary by product line and include OAuth 2.0, API keys, basic-auth token exchange, and HTTP signature authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/screenshots/cisco-systems-2026-06-20T174403.png",
-     "score": 52.0,
+     "score": 52.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 68.6,
+      "contract_quality": 71.3,
       "governance": 20.8,
       "operational_transparency": 42.1,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1250,19 +1250,19 @@
      "slug": "netapp",
      "description": "Collection of NetApp APIs for cloud data services, storage management, and infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/screenshots/netapp-2026-06-20T190143.png",
-     "score": 51.3,
+     "score": 52.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 63.6,
+      "contract_quality": 66.7,
       "governance": 58.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 41.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1288,19 +1288,19 @@
      "slug": "rackspace-technology",
      "description": "Rackspace Technology is a multicloud solutions provider offering managed services, professional services, and consulting across cloud infrastructure, applications, data, AI, and cybersecurity. The company operates as a trusted operator of the full stack from governed private cloud to AI in production, with offerings spanning private, public, and hybrid cloud, VMware, OpenStack, Kubernetes, Microsoft 365, ERP/CRM, and security services. Rackspace exposes a broad set of public APIs covering ticketing, DNS, load balancing, monitoring, metrics, cloud orchestration, billing, identity, and customer service.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png",
-     "score": 50.4,
+     "score": 51.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 58.2,
+      "contract_quality": 61.7,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 54.3,
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1326,19 +1326,19 @@
      "slug": "adp",
      "description": "ADP (Automatic Data Processing) is a global provider of cloud-based human capital management solutions including payroll, benefits, talent, time, tax, and HR services for businesses of all sizes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png",
-     "score": 49.4,
+     "score": 49.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 73.7,
+      "contract_quality": 75.7,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1364,19 +1364,19 @@
      "slug": "dropbox",
      "description": "Dropbox is a file hosting service operated by the American company Dropbox, Inc., headquartered in San Francisco, California, U.S. that offers cloud storage, file synchronization, personal cloud, and client software.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/screenshots/dropbox-2026-06-20T180244.png",
-     "score": 48.1,
+     "score": 48.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 60.8,
+      "contract_quality": 63.7,
       "governance": 58.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 47.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1402,19 +1402,19 @@
      "slug": "zoho",
      "description": "Zoho is a comprehensive cloud software suite offering 55+ integrated business applications for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by over 130 million users worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/screenshots/zoho-2026-06-20T201931.png",
-     "score": 47.7,
+     "score": 48.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 49.7,
+      "contract_quality": 54.0,
       "governance": 0.0,
       "operational_transparency": 52.6,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1440,19 +1440,19 @@
      "slug": "synopsys",
      "description": "Synopsys is a global leader in semiconductor design EDA tools and software security testing. The company's Software Integrity Group (now rebranded as Black Duck) provides application security testing products including Polaris, Coverity (SAST), Black Duck (SCA), and Seeker (IAST). Synopsys also offers cloud-based EDA and semiconductor design services through the Synopsys Cloud platform with the OpenLink API for license entitlement management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/screenshots/synopsys-2026-06-20T194831.png",
-     "score": 47.2,
+     "score": 47.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 66.9,
+      "contract_quality": 69.8,
       "governance": 68.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 23.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1478,19 +1478,19 @@
      "slug": "td-synnex",
      "description": "TD SYNNEX is one of the world's largest IT distributors and solutions aggregators, serving over 150,000 resellers, retailers, and other customers in more than 100 countries. The company provides technology distribution, integration, and solutions services. TD SYNNEX offers the StreamOne Ion platform with REST APIs that enable partners to manage cloud subscriptions, customers, orders, and billing through a unified interface supporting multiple cloud vendors. Named NVIDIA EMEA Distributor of the Year 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/screenshots/td-synnex-2026-06-20T194950.png",
-     "score": 46.6,
+     "score": 47.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 66.9,
+      "contract_quality": 69.8,
       "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1516,19 +1516,19 @@
      "slug": "dell-technologies",
      "description": "Dell Technologies is a global Fortune 500 technology company that designs, develops, manufactures, and supports a wide range of computing products, including PCs, servers, storage, networking equipment, and software services. Dell publishes a developer platform exposing APIs and SDKs for managing PowerEdge servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling automation of IT operations and integration into enterprise tooling.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dell-technologies/refs/heads/main/screenshots/dell-technologies-2026-06-20T175900.png",
-     "score": 46.1,
+     "score": 46.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 71.2,
+      "contract_quality": 73.6,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1554,19 +1554,19 @@
      "slug": "broadcom",
      "description": "Broadcom is a global technology company that specializes in the design and manufacturing of semiconductors and other hardware components for a wide range of industries. They provide a diverse portfolio of products for the enterprise, data center, networking, telecommunications, and consumer electronics markets. Broadcom's technology is used in a variety of devices such as smartphones, tablets, routers, and smart TVs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png",
-     "score": 44.8,
+     "score": 45.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 74.2,
+      "contract_quality": 76.4,
       "governance": 58.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1604,7 +1604,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1624,35 +1624,25 @@
       "dry_run_mode": false
      },
      "rank": 41
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 10,
-   "shown": 10,
-   "providers": [
+    },
     {
      "name": "Gusto",
      "slug": "gusto",
      "description": "A cloud-based payroll, benefits, and human resources platform designed for small and medium-sized businesses. Gusto Embedded enables platforms to integrate payroll, tax filing, and HR workflows directly into their products via a REST API, React SDK, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png",
-     "score": 41.8,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.4,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 66.2,
+      "contract_quality": 68.7,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 50.0,
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 32.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1678,19 +1668,19 @@
      "slug": "snyk",
      "description": "Snyk is a developer-first security platform covering code, open-source dependencies, container images, and infrastructure-as-code. The Snyk REST API and V1 API expose groups, organizations, projects, issues, targets, integrations, audit logs, SBOMs, container images, custom base images, webhooks, and exports for application-security teams.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png",
-     "score": 41.4,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.2,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 58.5,
+      "contract_quality": 61.6,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1716,19 +1706,19 @@
      "slug": "ncr",
      "description": "NCR Corporation separated in October 2023 into two independent public companies: NCR Voyix, a global provider of digital commerce solutions for retailers and restaurants, and NCR Atleos, a leader in expanding self-directed banking through ATM networks. NCR Voyix operates the Voyix Commerce Platform, an API-based cloud architecture (the Business Services Platform) that powers unified-commerce POS, ecommerce, and payments for retail and restaurants. Developers access it at developer.ncrvoyix.com using AccessKey (HMAC SHA-512) authentication against api.ncr.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png",
-     "score": 41.2,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.0,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 56.7,
+      "contract_quality": 60.4,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1755,25 +1745,35 @@
       "dry_run_mode": false
      },
      "rank": 44
-    },
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 7,
+   "shown": 7,
+   "providers": [
     {
      "name": "F5",
      "slug": "f5",
      "description": "F5 is a global company that specializes in application delivery and security solutions for businesses. They provide products and services that help organizations efficiently and securely deliver applications to users across any network or cloud environment. F5's solutions are designed to optimize the performance, availability, and security of applications, ensuring a seamless user experience. The F5 portfolio includes BIG-IP for high-performance app and API delivery, NGINX for cloud-native delivery and security across modern apps and Kubernetes, and F5 Distributed Cloud Services for SaaS-based delivery, security, and networking across multicloud environments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/screenshots/f5-2026-06-20T180954.png",
-     "score": 38.3,
+     "score": 39.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 49.2,
+      "contract_quality": 53.5,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1799,19 +1799,19 @@
      "slug": "xerox",
      "description": "Xerox is a global technology company and document management leader providing printing, digital document management, and business process solutions. Xerox offers the Xerox Developer Program providing open, standards-based APIs for integration with ConnectKey multifunction printers, FreeFlow production printing, Managed Print Services (MPS), and the Xerox Public Print Service. The program provides SDKs, APIs, and tools for building custom printing applications, workflow integrations, and enterprise print management solutions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/screenshots/xerox-2026-06-20T201703.png",
-     "score": 38.3,
+     "score": 39.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 60.7,
+      "contract_quality": 64.1,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1849,7 +1849,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 14.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1875,19 +1875,19 @@
      "slug": "akamai-technologies",
      "description": "Akamai Technologies is a major US corporation and Fortune 1000 company. The Akamai Technologies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/akamai-technologies/refs/heads/main/screenshots/akamai-technologies-2026-06-20T171446.png",
-     "score": 34.7,
+     "score": 35.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 53.4,
+      "contract_quality": 57.4,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1913,19 +1913,19 @@
      "slug": "dxc-technology",
      "description": "DXC Technology is a global IT services company that helps clients harness the power of innovation to thrive on change, providing application services, business process services, cloud, and security solutions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/screenshots/dxc-technology-2026-06-20T180335.png",
-     "score": 34.5,
+     "score": 35.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 61.9,
+      "contract_quality": 65.1,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1951,19 +1951,19 @@
      "slug": "equinix",
      "description": "Equinix is a global digital infrastructure company that provides interconnection and data center services to enterprises, cloud and IT service providers, and telecommunications networks worldwide. Equinix exposes a broad set of public APIs covering interconnection (Fabric), bare metal compute (Metal), Internet access, colocation operations, orders, smart hands, and authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png",
-     "score": 34.2,
+     "score": 35.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 55.3,
+      "contract_quality": 59.1,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2001,7 +2001,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2048,7 +2048,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2086,7 +2086,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2124,7 +2124,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2162,7 +2162,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2207,7 +2207,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2255,7 +2255,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2293,7 +2293,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2331,7 +2331,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2369,7 +2369,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2414,7 +2414,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2452,7 +2452,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2490,7 +2490,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2528,7 +2528,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2566,7 +2566,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2604,7 +2604,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2642,7 +2642,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

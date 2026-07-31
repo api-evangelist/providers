@@ -4,30 +4,30 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "exemplar",
-   "label": "Exemplar",
-   "range": "70+",
-   "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "shown": 1,
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Ordnance Survey",
      "slug": "ordnance-survey",
      "description": "Ordnance Survey is Great Britain's national mapping agency, a government-owned company that maintains the addressing and mapping layer the UK property market runs on - the Unique Property Reference Number (UPRN), the TOID, AddressBase, and the OS National Geographic Database. The UK has no MLS; residential listings sit behind the Rightmove/Zoopla duopoly and agency CRM software, so the open layer in this market is public-sector rather than private, and OS is one half of it alongside HM Land Registry. Its API posture is unusually honest for this sector - the OS Data Hub is a self-serve developer portal with real machine-readable contracts, including OGC-conformant OpenAPI 3.0 documents served live and anonymously at api.os.uk for OS NGD API - Features and Tiles, plus published OpenAPI for the OS Downloads and OS Net APIs. The split that matters is licensing, not reachability: OS OpenData products (OS Open UPRN, OS Open TOID, Code-Point Open, OS Open Names, Boundary-Line, OS Open Linked Identifiers) are free and downloadable with no API key at all through the OS Downloads API, while the premium addressing and mapping products behind OS Places API, OS Features API, and the NGD collections require a paid Premium plan or Public Sector Geospatial Agreement (PSGA) membership. RESO plays no part here - the Real Estate Standards Organization standards are a US MLS construct and appear nowhere in the OS estate. Home market is the United Kingdom.",
-     "score": 66.0,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "score": 65.9,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 45.3,
+      "contract_quality": 44.6,
       "governance": 20.8,
       "operational_transparency": 86.8,
       "developer_ergonomics": 73.4,
       "commercial_clarity": 76.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -55,18 +55,7 @@
      },
      "tier": "Land Registries & Government",
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
+    },
     {
      "name": "Reapit",
      "slug": "reapit",
@@ -83,7 +72,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 43.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -109,19 +98,19 @@
      "name": "Arthur Online",
      "slug": "arthur-online",
      "description": "Arthur Online is a London-headquartered UK property management software platform, founded in 2008 and acquired by Aareon in January 2021, that gives letting agents, self-managing landlords, block and social housing managers, and student accommodation operators a cloud system of record for properties, units, tenancies, tenants, applicants, viewings, maintenance work orders, certificates, utilities and rental financials, with companion mobile apps for managers, tenants, contractors and owners. It sits in the middle of the UK residential lettings value chain: it is the agency-side operational system that pushes stock out to the Rightmove and Zoopla portals and pulls accounting into Xero and QuickBooks, rather than a listings marketplace or a data cooperative. Its API posture is unusually open for the sector but is not open data: the full Arthur API v2 reference is published without a login as a public Postman collection at developer.arthuronline.co.uk covering 324 documented requests across 16 resource areas, yet every call is tenant-scoped OAuth 2.0 Authorization Code plus an X-EntityID header, credentials are issued only from inside a paying Arthur account after contacting Arthur support, and no data is readable anonymously. There is no RESO posture at all — the United Kingdom has no MLS, no NAR, and no RESO Data Dictionary or Web API certification regime, so listings interoperability here is portal-to-CRM feeds rather than a certified machine-readable standard.",
-     "score": 58.4,
+     "score": 58.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 58.9,
+      "contract_quality": 60.3,
       "governance": 21.9,
       "operational_transparency": 34.2,
       "developer_ergonomics": 60.3,
       "commercial_clarity": 76.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 45.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -144,60 +133,22 @@
      "rank": 3
     },
     {
-     "name": "Fixflo",
-     "slug": "fixflo",
-     "description": "Fixflo (a trading name of Tactile Limited, London, United Kingdom, acquired by Aareon in 2021) is a UK repairs, maintenance and compliance management platform for lettings agents, block managers and commercial property managers. Occupiers report issues through a guided fault tree, and Fixflo routes the work to contractors, tracks jobs, service programmes, warranties and invoices, and syncs the resulting records back into the agency CRM. It sits in the post-tenancy operations layer of the UK property value chain rather than the listings layer — the UK has no MLS and no RESO, so there is no industry-mandated machine-readable listing contract here and Fixflo makes no RESO claim. Its API posture is unusually open for the sector in one respect and closed in another. A genuinely public Stoplight developer portal at api-docs.fixflo.com publishes a complete OpenAPI 3.0 description of the v2 API (135 paths, 164 operations, 25 resource tags) that anyone can read and download without logging in, but actually calling it is licensed. Every use of the API is subject to the signed Fixflo Application Developer and API Licence Agreement, keys are issued by support after a review of the use case, and the runtime base URL is the customer's own per-tenant subdomain. Read the contract freely; sign an agreement to use it.",
-     "score": 56.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 59.7,
-      "governance": 11.5,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 73.4,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 47.1,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Property Management",
-     "rank": 4
-    },
-    {
      "name": "HM Land Registry",
      "slug": "hm-land-registry",
      "description": "HM Land Registry is the non-ministerial government department that registers the ownership of land and property in England and Wales, guaranteeing title to more than 26 million registered estates. In a United Kingdom market that has no MLS and no cooperative listing standard — residential listings are controlled by the Rightmove and Zoopla duopoly and reach them through agency CRM software — HMLR is the counterweight, and it sits at the legal foundation of the value chain rather than at the consumer end: it is the authoritative source of who owns what, what it sold for, and where its boundaries are, and every conveyancing transaction in England and Wales terminates at its register. Its API posture is genuinely and unusually good for a registry, but it is split into three tiers that should never be conflated. First, a real open layer: the landregistry.data.gov.uk platform serves a live, anonymous, unauthenticated SPARQL 1.1 endpoint plus a W3C Linked Data API over Price Paid Data and the UK House Price Index, with JSON/CSV/Turtle content negotiation, alongside bulk Price Paid CSVs and INSPIRE index polygons — all under the Open Government Licence v3.0 with no signup, no key and no fee. Second, a self-serve keyed tier: the Use land and property data service issues an API key automatically on account creation and exposes a documented REST API for dataset metadata and signed download URLs, but the datasets behind it require a signed licence per dataset and some are chargeable — the Registered Leases commercial licence is £5,000 a year plus VAT, and the National Polygon Service, which holds the title boundary polygons and the title number to UPRN lookup, is £20,000 a year plus VAT. A state registry selling the spatial extent of the public record back to the public is the finding, and it is recorded here plainly. Third, the Business Gateway: the B2B channel that conveyancers and their case management systems use to submit applications to change the register, order official copies and run priority searches. Its developer pack is fully public on GitHub Pages with eight downloadable OpenAPI 3.0/3.1 contracts and 37 SOAP XSDs, but the production host businessgateway.landregistry.gov.uk will not complete a TLS handshake without an HMLR-issued client certificate, and access requires signing a development licence and holding a business e-services account. There is no RESO Web API certification, no RESO Data Dictionary, no OData $metadata document and no Universal Property Identifier anywhere in HMLR's stack — RESO is a North American NAR construct with no UK adoption, and HMLR's machine-readable contracts are OpenAPI, XSD and W3C linked data instead.",
-     "score": 56.2,
+     "score": 56.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 77.8,
+      "contract_quality": 79.7,
       "governance": 21.9,
       "operational_transparency": 31.6,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -224,6 +175,44 @@
       "dry_run_mode": false
      },
      "tier": "Land Registries & Government",
+     "rank": 4
+    },
+    {
+     "name": "Fixflo",
+     "slug": "fixflo",
+     "description": "Fixflo (a trading name of Tactile Limited, London, United Kingdom, acquired by Aareon in 2021) is a UK repairs, maintenance and compliance management platform for lettings agents, block managers and commercial property managers. Occupiers report issues through a guided fault tree, and Fixflo routes the work to contractors, tracks jobs, service programmes, warranties and invoices, and syncs the resulting records back into the agency CRM. It sits in the post-tenancy operations layer of the UK property value chain rather than the listings layer — the UK has no MLS and no RESO, so there is no industry-mandated machine-readable listing contract here and Fixflo makes no RESO claim. Its API posture is unusually open for the sector in one respect and closed in another. A genuinely public Stoplight developer portal at api-docs.fixflo.com publishes a complete OpenAPI 3.0 description of the v2 API (135 paths, 164 operations, 25 resource tags) that anyone can read and download without logging in, but actually calling it is licensed. Every use of the API is subject to the signed Fixflo Application Developer and API Licence Agreement, keys are issued by support after a review of the use case, and the runtime base URL is the customer's own per-tenant subdomain. Read the contract freely; sign an agreement to use it.",
+     "score": 56.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 59.7,
+      "governance": 11.5,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 47.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Property Management",
      "rank": 5
     }
    ],
@@ -253,7 +242,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -286,19 +275,19 @@
      "name": "Landmark Information Group",
      "slug": "landmark-information",
      "description": "Landmark Information Group is a United Kingdom property and land data business, part of Daily Mail and General Trust (DMGT), that sits in the middle of the UK residential and commercial property transaction rather than at the listing end of it. Founded in 1995 and headquartered in Exeter, it aggregates 700+ datasets from nearly 400 suppliers — Ordnance Survey mapping and AddressBase/UPRN addressing, environmental and flood and mining risk, historical maps, planning applications, and Barbour ABI project data — and sells them as conveyancing search reports (SearchFlow, Envirocheck, RiskView, SiteSolutions), estate agency compliance and material information products (LandmarkAgent, Metropix floor plans), case management software for property lawyers (Optimus, Intelliworks, Ochresoft, Vantage), and lender/surveyor valuation infrastructure (Secure Panel Network SPN and SPN+, Q-Guard). The UK has no MLS and no RESO equivalent — residential listings are controlled by the Rightmove/Zoopla duopoly and reached through agency CRMs — so Landmark is not a listings company; it is the transaction-data and workflow layer beneath conveyancers, lenders, surveyors, and agents. Its API posture is unusually honest for this sector: Landmark runs a genuinely public, un-gated API documentation portal at landmarkcloudservices.com that publishes full OpenAPI 3.x contracts for its Compliance/Order, Conveyancing, Intelliworks, Document Vault, and Milestone Notification APIs, plus a public HTML technical pack for the Barbour ABI-powered Planning API. Reading the contracts is open to anyone; calling them is not. Every API is OAuth 2.0 client-credentials against Landmark's Auth0 tenant with a client ID and secret issued only after a commercial account is onboarded (\"your Landmark contact will confirm what's available to you\"), and the Planning API requires a paid subscription or pay-as-you-go agreement plus an API key issued by Landmark. There is no RESO Web API certification, no RESO Data Dictionary posture, no OData $metadata document and no Universal Property Identifier anywhere in Landmark's surface — RESO is a North American MLS construct and is simply absent from the UK market. Landmark publishes no open data of its own; the open UK property layer belongs to HM Land Registry and Ordnance Survey, both of which are Landmark suppliers rather than Landmark products.",
-     "score": 51.8,
+     "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 64.8,
+      "contract_quality": 67.8,
       "governance": 11.5,
       "operational_transparency": 50.0,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 46.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -324,19 +313,19 @@
      "name": "Street.co.uk",
      "slug": "street-co",
      "description": "Street.co.uk (Street Systems Limited, Manchester, England) is a UK estate agency CRM and property management platform for residential sales, lettings, property management and client accounting. In the United Kingdom there is no MLS and no RESO — residential listing distribution runs from agency CRM software out to the Rightmove and Zoopla portals — which places Street.co.uk at the agency system-of-record layer of the value chain, upstream of the portal duopoly and alongside Reapit, Alto and Apex27. Its API posture is unusually open for this sector: three OpenAPI 3.1 contracts (Street Open API, Property Feed, Spectre) are published unauthenticated on a public Scalar developer portal at developers.street.co.uk and can be downloaded as JSON or YAML by anyone. Access to the data behind them is not open — production bearer tokens are generated inside a paying agency's Street account under Settings > Account Administration > Applications, and a non-customer developer must email apis@street.co.uk to be issued a sandbox token on the staging environment. Nothing RESO, no OData $metadata, and no open government data is published by Street.co.uk itself; the open UK property data layer sits with HM Land Registry and Ordnance Survey, not with the CRM vendors.",
-     "score": 51.8,
+     "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 63.0,
+      "contract_quality": 66.1,
       "governance": 20.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 46.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -374,7 +363,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 42.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -397,60 +386,22 @@
      "rank": 9
     },
     {
-     "name": "Rightmove",
-     "slug": "rightmove",
-     "description": "Rightmove is the United Kingdom's largest residential property portal, operated by Rightmove Group Limited (Milton Keynes) and listed on the London Stock Exchange as Rightmove plc. It aggregates for-sale, to-let, new-homes, commercial and overseas listings supplied by member estate agents, letting agents and new-homes developers, and monetises the audience by charging those agents for advertising rather than by licensing data. The UK has no MLS, so Rightmove sits at the demand end of the value chain and its inbound feeds — not any cooperative database — are the machine-readable surface. Its API posture is publish-in, not read-out - the documented APIs let an agent's CRM or feed provider push listings into Rightmove, and there is no public API for reading listings, sold prices or valuations. A public Apigee developer portal at api-docs.rightmove.co.uk (\"Rightmove APIs - Early adopters\") anonymously serves a real OpenAPI 3.0.1 contract for the Commercial Listings API, and www.rightmove.co.uk/adf.html publishes the Real Time Data Feed specification, but working credentials for every environment are issued case by case by the Rightmove Data Feed Team and use is governed by a binding End User Licence Agreement. No RESO Web API or Data Dictionary certification, OData `$metadata` document or Universal Property Identifier appears anywhere in Rightmove's surface - RESO is a North American, NAR-driven standard with no UK counterpart, and Rightmove uses its own proprietary ADF/RTDF schema instead.",
-     "score": 46.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 58.5,
-      "governance": 11.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 60.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 49.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Portals & Marketplaces",
-     "rank": 10
-    },
-    {
      "name": "Hometrack",
      "slug": "hometrack",
      "description": "Hometrack is a United Kingdom property data, valuation and risk-decisioning company, founded in 1999 and now part of Houseful — the Silver Lake-owned group that also owns Zoopla, PrimeLocation, Alto and Jupix. It launched its automated valuation model in 2002 and says it now runs more than 50 million valuations a year, that 18 of the top 20 UK mortgage lenders use its AVM in their origination processes, and that it was the first AVM accredited by Moody's, Standard & Poor's and Fitch. It is a founding member of the European AVM Alliance. In the UK value chain it does not sit on the listings side at all: with no MLS in this market, residential listings are controlled by Rightmove and Zoopla and reach them through agency CRM software, while Hometrack sits on the lending and risk side — valuation, comparables, climate and property risk data, surveyor allocation and case management for mortgage lenders, surveyors, brokers, housing associations and investors. Its API posture is unusually revealing and must be stated in two halves. The developer surface is real and genuinely public: an Azure API Management developer portal at developer.hometrack.com is served anonymously, its data plane answers unauthenticated requests, and six APIs — a Valuation API, a Broker AVM API, a Property Risk Hub core client API, a Climate API, a Climate GraphQL API and an internal-facing public API — are listed there with full operation and schema metadata, from which six OpenAPI 3.0.1 documents were harvested. The access gate, however, is commercial: the portal states plainly that \"to interact with any of our APIs you will need to have a valid API Key for that respective product. If you do not yet have an API Key, please contact us\", and the gateway at api.hometrack.com answers anonymous calls with HTTP 401 \"Unauthorized. Access token is missing or invalid.\" Authentication is OAuth 2.0 client credentials through Auth0 (hometrack-prod.eu.auth0.com) against the audience https://api.hometrack.com, with documented scopes read:valuations and write:valuations. So: contracts are readable by anyone, data is reachable by nobody without a Hometrack commercial agreement. There is no RESO Web API or Data Dictionary certification and no OData $metadata anywhere in Hometrack's stack — RESO is a North American NAR/MLS construct and the UK has no MLS to certify against. Notably, Hometrack's Climate API keys every property off the UPRN, the Unique Property Reference Number issued by GeoPlace and distributed by Ordnance Survey: the UK does have a universal property identifier, it just comes from government rather than from a real-estate standards body. Hometrack itself publishes no open data — the open UK property layer is HM Land Registry Price Paid and Ordnance Survey, not Hometrack.",
-     "score": 45.4,
+     "score": 46.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 48.0,
+      "contract_quality": 50.7,
       "governance": 20.8,
       "operational_transparency": 28.9,
       "developer_ergonomics": 47.3,
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -470,25 +421,63 @@
       "dry_run_mode": false
      },
      "tier": "Valuation & AVM",
+     "rank": 10
+    },
+    {
+     "name": "Rightmove",
+     "slug": "rightmove",
+     "description": "Rightmove is the United Kingdom's largest residential property portal, operated by Rightmove Group Limited (Milton Keynes) and listed on the London Stock Exchange as Rightmove plc. It aggregates for-sale, to-let, new-homes, commercial and overseas listings supplied by member estate agents, letting agents and new-homes developers, and monetises the audience by charging those agents for advertising rather than by licensing data. The UK has no MLS, so Rightmove sits at the demand end of the value chain and its inbound feeds — not any cooperative database — are the machine-readable surface. Its API posture is publish-in, not read-out - the documented APIs let an agent's CRM or feed provider push listings into Rightmove, and there is no public API for reading listings, sold prices or valuations. A public Apigee developer portal at api-docs.rightmove.co.uk (\"Rightmove APIs - Early adopters\") anonymously serves a real OpenAPI 3.0.1 contract for the Commercial Listings API, and www.rightmove.co.uk/adf.html publishes the Real Time Data Feed specification, but working credentials for every environment are issued case by case by the Rightmove Data Feed Team and use is governed by a binding End User Licence Agreement. No RESO Web API or Data Dictionary certification, OData `$metadata` document or Universal Property Identifier appears anywhere in Rightmove's surface - RESO is a North American, NAR-driven standard with no UK counterpart, and Rightmove uses its own proprietary ADF/RTDF schema instead.",
+     "score": 45.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 55.8,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 49.3,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Portals & Marketplaces",
      "rank": 11
     },
     {
      "name": "Apex27",
      "slug": "apex27",
      "description": "Apex27 Limited is a United Kingdom estate agency CRM vendor, founded in 2019 and headquartered in the UK, selling cloud software to sales, lettings and commercial agents for £35 per user per month. It sits in the middle of the UK residential value chain — between the agent and the portals — capturing leads, applicants, listings, viewings, valuations, offers, sales progression and tenancies, then syndicating listings out to Rightmove, Zoopla, OnTheMarket and others. Because the UK has no MLS and no cooperative listing database, that CRM seat is the only practical route a listing takes to market, and Apex27 is one of the private gatekeepers of it. Apex27 does operate two real HTTP APIs — the Apex27 CRM API at api.apex27.co.uk and a per-tenant Portal API that powers agency websites — but neither has a public developer portal. The documentation URL that Apex27's own published n8n node points at, docs.apex27.co.uk, returns 404, and every CRM endpoint returns 401 Unauthorised without a key issued inside a paid tenant. Access is customer-only, not self-serve. RESO does not apply — no RESO Web API or Data Dictionary certification exists for Apex27 or for the UK market at all, since RESO is a NAR/MLS construct with no UK counterpart. Apex27 publishes no open data; the UK's open property layer belongs to HM Land Registry and Ordnance Survey, not to the CRM vendors.",
-     "score": 44.2,
+     "score": 44.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 68.2,
+      "contract_quality": 69.8,
       "governance": 21.9,
       "operational_transparency": 23.7,
       "developer_ergonomics": 19.0,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 33.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -526,7 +515,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -564,7 +553,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -586,7 +575,8 @@
      "tier": "Property Data & Analytics",
      "rank": 14
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "thin",
@@ -600,19 +590,19 @@
      "name": "Purplebricks",
      "slug": "purplebricks",
      "description": "Purplebricks is the United Kingdom's largest online (hybrid) estate agency, founded in 2014 by Michael and Kenny Bruce and David Shepherd, selling and letting residential property across England, Wales and Scotland through a fixed-fee, remote model staffed by local property experts rather than a high-street branch network. After a 2023 sale to rival online agent Strike for a nominal one pound the combined business was rebranded back under the Purplebricks name, and in 2026 the founding Bruce brothers returned alongside Sir Charles Dunstone's Freston Ventures. It sits on the brokerage rung of the value chain, originating the seller relationship and the listing and then distributing that stock to Rightmove, Zoopla, OnTheMarket and PrimeLocation through the UK's portal feed arrangements, because the UK has no MLS and therefore no shared cooperative data exchange. Its API posture is best described as published-but-undeclared: there is no developer portal, no partner programme, no signup and no documentation site, yet the estate serves sixteen real OpenAPI 3.0.1 documents and thirteen live public Swagger UIs across api.purplebricks.co.uk and www.purplebricks.co.uk, covering property, account, valuations, viewings, messaging, lettings, branch/portal syndication, communications, conveyancing, agent, feedback, workflow and Outlook calendar sync. Every operation is Bearer-token protected with no public key issuance, errors are ASP.NET ProblemDetails (RFC 7807), and the branch service exposes the Rightmove, Zoopla and OnTheMarket syndication seam directly. RESO is absent, as expected outside North America, and the genuinely open UK property data layer it consumes for its sold-prices tool belongs to government (HM Land Registry), not to Purplebricks.",
-     "score": 38.2,
+     "score": 39.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 51.2,
+      "contract_quality": 55.3,
       "governance": 11.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 25.5,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 37.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -650,7 +640,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 40.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -676,19 +666,19 @@
      "name": "Connells Group",
      "slug": "connells",
      "description": "Connells Limited, trading as Connells Group, is the United Kingdom's largest estate agency and property services group, headquartered at Cumbria House in Leighton Buzzard, Bedfordshire, and a wholly owned subsidiary of Skipton Building Society. It states 1,200+ branches, 16,000+ colleagues, more than 80 local brands including Connells, Countrywide, Hamptons, Sequence, Bairstow Eves, Fox & Sons, John D Wood & Co, Gascoigne Halman and Blundells, roughly 115,000 property sales a year and about 10% market share, 165,000+ managed tenancies and £33bn+ of arranged mortgage lending. It occupies almost the entire residential value chain at once: estate agency, residential and corporate lettings, new homes, land and planning, auctions, surveys and valuations, conveyancing, mortgage services, asset management, affordable housing, EPCs and inventories, commercial agency and a research and consultancy practice. Its home market is the United Kingdom, where there is no MLS and no cooperative listing standard — residential stock reaches consumers through the Rightmove and Zoopla portal duopoly by way of agency CRM and website software rather than a shared pool, and Connells' own consumer property sites are built on the Homeflow platform. Its API posture is closed and undocumented. No developer portal exists: developer., developers., api. and docs.connellsgroup.co.uk do not resolve, and /developers, /api, /docs, /openapi.json, /swagger.json, /api-docs and /.well-known/openid-configuration return 404 on both connellsgroup.co.uk and connells.co.uk. It publishes no OpenAPI, no GraphQL, no AsyncAPI, no MCP server and no client SDK — the only first-party package on any public registry is a dormant npm colour-token file for its website. Probing on 2026-07-26 did, however, find a small live JSON surface underneath the consumer site at https://www.connells.co.uk/api: six anonymous read-only Next.js route handlers serving the branch finder, people directory, testimonials wall and place autocomplete, plus a seventh (/api/properties) that returns HTTP 500. These are undocumented internal website routes, not a product — unversioned, unsupported, rate limited by Cloudflare, capped at 12 records because no paging parameter works, and carrying application errors inside HTTP 200 bodies. Only connells.co.uk exposes them; the sibling brand sites redirect /api/* away. The group's 88-URL corporate sitemap contains no developer path — its one /developers/ page is addressed to property developers, not software developers. Integration is real but partner-only: Connells Survey & Valuation advertises delivering \"totally integrated panel and risk management technology solutions to lenders\" for the 40+ lenders whose valuation panels it manages, and reaches them through third-party platforms such as Cotality's LenderHub, while Countrywide Surveying Services' Geoconnect engine is described as connecting internal and external data sources through API integrations it consumes rather than publishes. There is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in the estate — RESO is a North American NAR/MLS mechanism and the UK has no MLS to certify against. Connells publishes no open data either; its research product, covering 88% of UK postcode areas from branch-level proprietary data, is sold through a brochure request and a contact form, and the genuinely open UK property layer belongs to the public sector (HM Land Registry Price Paid Data and Ordnance Survey), not to the brokerage.",
-     "score": 31.4,
+     "score": 32.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 36.6,
+      "contract_quality": 42.0,
       "governance": 12.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 14.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -733,7 +723,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -778,7 +768,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -826,7 +816,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -864,7 +854,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -902,7 +892,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -940,7 +930,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -978,7 +968,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",

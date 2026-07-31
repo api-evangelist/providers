@@ -16,19 +16,19 @@
      "slug": "yr-no",
      "description": "Yr is a weather service from the Norwegian Meteorological Institute (MET Norway) and the Norwegian Broadcasting Corporation (NRK), providing free, high-quality weather forecasts for locations worldwide via a simple REST interface. The MET Weather API offers a comprehensive suite of products including location-based forecasts, weather alerts, nowcasts, ocean forecasts, aviation weather, sunrise and sun event calculations, radar imagery, and historical meteorological observation data. All data is open under CC BY 4.0 and requires only a User-Agent identification header — no API key or account is needed.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yr-no/refs/heads/main/screenshots/yr-no-2026-06-20T201749.png",
-     "score": 45.8,
+     "score": 46.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 62.9,
+      "contract_quality": 66.0,
       "governance": 58.3,
       "operational_transparency": 5.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -72,19 +72,19 @@
      "slug": "ntnu",
      "description": "The Norwegian University of Science and Technology (NTNU) is Norway's largest university, headquartered in Trondheim with campuses in Gjoverik and Alesund, and ranked #264 in the QS World University Rankings 2025. NTNU does not operate a single consolidated institutional developer portal; instead its public, machine-readable footprint is delivered largely through national shared research and education infrastructure operated by Sikt (the Norwegian Agency for Shared Services in Education and Research). Confirmed public, programmatic access exists via the Cristin research information REST API (NTNU is Cristin institution 194), the NVA (Nasjonalt vitenarkiv) API that now hosts the migrated NTNU Open institutional repository, the DataverseNO research-data repository API, the TP timetable web service, and Feide/Dataporten identity (OpenID Connect / OAuth2 / SAML). Several NTNU lab and student GitHub organizations exist, but there is no single official institutional GitHub org.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png",
-     "score": 40.4,
+     "score": 41.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 54.2,
+      "contract_quality": 58.1,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -117,19 +117,19 @@
      "slug": "autopay",
      "description": "Autopay is a Norwegian parking payment and management platform that provides APIs for parking operators, landlords, fleet managers, and third-party integrators. The platform enables automated parking permit management, payment processing, fleet tracking, and parking statistics with 13+ distinct API endpoints. All integrators must accept the Autopay API Usage Agreement before accessing the APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/screenshots/autopay-2026-06-20T172701.png",
-     "score": 39.0,
+     "score": 40.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 51.0,
+      "contract_quality": 55.2,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -167,7 +167,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 15.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -216,7 +216,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -254,7 +254,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -291,7 +291,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -328,7 +328,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -373,7 +373,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -411,7 +411,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -448,7 +448,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

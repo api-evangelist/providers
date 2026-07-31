@@ -15,19 +15,19 @@
      "name": "KPN",
      "slug": "kpn",
      "description": "Koninklijke KPN N.V. is the incumbent telecommunications and IT provider of the Netherlands, operating the country's national fixed (copper and fibre) and mobile networks and selling telephony, broadband, television, IoT connectivity and managed IT services to consumers, businesses and — through KPN Wholesale — to other operators. In the telecom API value chain KPN sits on the network-operator side, but it is a conspicuous exception to the carrier norm: rather than routing developers exclusively through aggregators, KPN runs a genuine self-serve developer portal at developer.kpn.com where anyone can register a free account, get a client ID and secret, test in a sandbox at no cost, and see per-transaction pricing, then upgrade to production via a KRN company number or an iDIN identity check. Thirty-four OpenAPI/Swagger definitions are published anonymously downloadable under KPN's public SwaggerHub organisation, all fronted by an Apigee-style gateway at api-prd.kpn.com with OAuth 2.0 client-credentials. KPN is listed in the official CAMARA landscape as an operator and, with Odido and Vodafone under the COIN association and GSMA Open Gateway, launched CAMARA-standard fraud-prevention APIs for the Dutch market in October 2025; its SIM Swap definition points explicitly at github.com/camaraproject as its product documentation. KPN is not an Aduna shareholder and does not reach developers through that JV. Notably, KPN also resells Vonage and Apidaze CPaaS products through its own portal — the aggregator layer appearing inside the carrier's own catalogue rather than the other way round.",
-     "score": 62.9,
+     "score": 63.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 77.8,
-      "contract_quality": 64.2,
+      "contract_quality": 65.3,
       "governance": 20.8,
       "operational_transparency": 94.7,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -63,8 +63,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 7,
-   "shown": 7,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "ChannelEngine",
@@ -83,7 +83,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 44.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -108,19 +108,19 @@
      "name": "Payt",
      "slug": "payt",
      "description": "Payt (Payt B.V.) is a Netherlands-based accounts receivable management platform that automates invoice follow-up and payment collection while keeping personal contact with customers. It syncs invoices and debtor data from accounting and ERP systems, then runs the collections workflow: automated reminders, flexible payment plans, debt-collection cases, creditworthiness checks, electronic (UBL/Peppol) invoicing, a self-service debtor portal, and payment reconciliation. Payt exposes a REST Customer API (api.paytsoftware.com, v1) with OAuth 2.0 authorization, cursor pagination and incremental sync, a rich signed-webhook event surface, and bulk CSV/XML/JSON imports. Surfaced as a portfolio company of Partech and enriched into the API Evangelist network.",
-     "score": 51.7,
+     "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 56.8,
+      "contract_quality": 60.5,
       "governance": 20.8,
       "operational_transparency": 47.4,
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -152,19 +152,19 @@
      "name": "Telefoon",
      "slug": "telefoon",
      "description": "Telefoon is a cloud telephony and communications platform offering programmable voice, SMS, and number management APIs tailored for European markets. Built for GDPR compliance and EU regulatory requirements, Telefoon provides developers with REST APIs to build voice calling, SMS notification, number provisioning, and interactive voice response (IVR) solutions. The platform supports Dutch, Belgian, German, and broader European telecommunications infrastructure with local number availability and EU data residency.",
-     "score": 50.8,
+     "score": 51.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 63.6,
+      "contract_quality": 66.7,
       "governance": 58.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -197,19 +197,19 @@
      "slug": "bunq",
      "description": "bunq is a European (Dutch) neobank offering personal and business accounts across the EU. Its Public API is a REST API over HTTPS (https://api.bunq.com/v1, sandbox https://public-api.sandbox.bunq.com/v1) that lets account holders and licensed third parties read accounts, initiate SEPA and internal payments, send and answer payment requests, manage cards, export statements, upload attachments, and subscribe to event callbacks. bunq uses a distinctive multi-step handshake - installation (register an RSA public key), device-server, then session-server - after which requests are RSA-signed with X-Bunq-Client-Signature and authenticated with a session token in X-Bunq-Client-Authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png",
-     "score": 45.6,
+     "score": 46.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 52.6,
       "developer_ergonomics": 37.0,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -242,19 +242,19 @@
      "slug": "wageningen-university-research",
      "description": "Wageningen University & Research (WUR) is a Dutch university and research institution based in Wageningen, Netherlands, specializing in the domain of healthy food and living environment, and ranked #100 in the QS World University Rankings 2025. Its public developer footprint centers on the agri-food research domain rather than a single central API platform: the AgroDataCube provides a token-based REST API over a large open data collection for agri-food applications, and Wageningen Food & Biobased Research (WFBR) operates an Azure API Management developer portal publishing a Food API for scientific data about food products. WUR also runs a Pure-powered Research Portal (research.wur.nl) and a public Data Portal, though documented public web-service/OAI endpoints there were not openly reachable at review time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png",
-     "score": 44.8,
+     "score": 45.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 74.6,
+      "contract_quality": 76.8,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -287,19 +287,19 @@
      "slug": "university-of-amsterdam",
      "description": "The University of Amsterdam (Universiteit van Amsterdam, UvA) is a public research university in Amsterdam, Netherlands, ranked #43 in the QS World University Rankings 2025. Its public developer/API footprint is centered on the University Library's open-data program: a Linked Open Data platform (Triply) exposing digitized collections via REST, SPARQL, and GraphQL, plus OAI-PMH metadata-harvesting endpoints for the central catalogue, archival collection descriptions, and the Figshare-backed research data repository. UvA does not publish a unified, key-issuing public developer portal; the confirmed machine-readable interfaces are library/open-data oriented and most institutional/SIS APIs are internal or gated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/screenshots/university-of-amsterdam-2026-06-20T200128.png",
-     "score": 43.3,
+     "score": 43.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 71.2,
+      "contract_quality": 73.6,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -332,19 +332,19 @@
      "slug": "erasmus-university-rotterdam",
      "description": "Erasmus University Rotterdam (EUR) is a public research university in Rotterdam, the Netherlands, ranked #158 in the QS World University Rankings 2025. EUR does not operate a single consolidated public developer portal; its discoverable, programmatic surface is concentrated in scholarly and research-data infrastructure. RePub, the institutional repository, exposes a confirmed live OAI-PMH metadata feed, the EUR research data repository is hosted on Figshare (reachable via the Figshare public REST API), and the EUR & Erasmus MC research information portal runs on Pure (CRIS) with an OAI-PMH service path. Most course, timetable, identity, and administrative interfaces are gated behind institutional affiliation rather than openly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png",
-     "score": 42.5,
+     "score": 43.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 66.7,
+      "contract_quality": 69.5,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -364,36 +364,25 @@
       "dry_run_mode": false
      },
      "rank": 8
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6,
-   "shown": 6,
-   "providers": [
+    },
     {
      "name": "Utrecht University",
      "slug": "utrecht",
      "description": "Utrecht University (Universiteit Utrecht) is a public research university in Utrecht, Netherlands, ranked #105 in the QS World University Rankings 2025. Its public developer and API footprint is centered on open research infrastructure rather than a formal developer portal: the Utrecht University Library runs a DSpace institutional repository exposing publication metadata via OAI-PMH, the university maintains a large public GitHub organization (UtrechtUniversity) that publishes open-source research software, and it develops Yoda, an iRODS-based research data management platform. There is no single consolidated, self-service API developer portal; most administrative and identity systems are gated behind institutional SolisID/SSO.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png",
-     "score": 41.7,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.5,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 63.6,
+      "contract_quality": 66.7,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -418,19 +407,19 @@
      "name": "Nmbrs",
      "slug": "nmbrs",
      "description": "Nmbrs (Visma Nmbrs) is cloud HR and payroll software for the Netherlands and Sweden, widely used by employers, accountants, and payroll service providers. Nmbrs exposes its HRIS and payroll data through a public API in two generations. The current, forward-looking interface is a REST API served from https://api.nmbrsapp.com, authenticated with OAuth 2.0 (Authorization Code flow via identityservice.nmbrs.com) plus a per-product subscription key, with granular scopes over companies, employees, employments, salaries, wage components, payruns, and absences. The older SOAP API (api.nmbrs.nl/soap/v3 - EmployeeService, CompanyService, DebtorService) remains available for existing integrations but is deprecated and scheduled to be retired on 1 March 2027, after which REST is the only supported API.",
-     "score": 41.4,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.2,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -450,25 +439,36 @@
       "dry_run_mode": false
      },
      "rank": 10
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 4,
+   "shown": 4,
+   "providers": [
     {
      "name": "Eindhoven University of Technology",
      "slug": "eindhoven-university-of-technology",
      "description": "Eindhoven University of Technology (TU/e) is a research-driven public technical university in Eindhoven, Netherlands, ranked #136 in the QS World University Rankings 2025. Its public, machine-readable developer footprint centers on its Elsevier Pure research information system, which exposes the institutional research output through an OAI-PMH metadata-harvesting interface and the Pure Web Service (REST/SOAP) API. TU/e does not operate a single consolidated public developer portal; programmatic access to course, identity, and library systems is generally institution-internal or vendor-mediated, and numerous departmental research groups publish open-source code across separate GitHub organizations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/screenshots/eindhoven-university-of-technology-2026-06-20T180525.png",
-     "score": 39.9,
+     "score": 40.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 56.6,
+      "contract_quality": 60.3,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -501,19 +501,19 @@
      "slug": "vrije-universiteit-amsterdam",
      "description": "Vrije Universiteit Amsterdam (VU Amsterdam) is a public research university in the Netherlands, ranked #221 in the QS World University Rankings 2025. Like most universities, VU Amsterdam does not operate a centralized public developer portal. Its programmatic footprint is concentrated in research-infrastructure systems: the VU Research Portal (research.vu.nl), an Elsevier Pure instance that exposes a live OAI-PMH harvesting endpoint and a Pure REST web service, and research data published through DataverseNL. The University Library maintains an active public GitHub organization (ubvu) of open-science tooling. Most teaching, student-information, and identity systems are internal and not publicly documented.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/screenshots/vrije-universiteit-amsterdam-2026-06-20T201145.png",
-     "score": 38.8,
+     "score": 39.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 57.0,
+      "contract_quality": 60.6,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -546,19 +546,19 @@
      "slug": "university-of-groningen",
      "description": "The University of Groningen (Rijksuniversiteit Groningen, RUG/UG) is a public research university in Groningen, Netherlands, founded in 1614 and ranked #75 in the QS World University Rankings 2025. Its public, machine-readable developer/API footprint is centered on research-output and research-data infrastructure: an OAI-PMH metadata-harvesting endpoint over its Pure CRIS research portal (OpenAIRE CERIF profile), the Elsevier Pure REST web-services API (live but API-key gated), and the shared DataverseNL data repository (Dataverse Native REST API) that serves as the UG default repository for research data and software. The University does not operate a single unified, self-service public developer portal; most institutional, SIS, timetable, and identity APIs are internal or gated. The University also maintains an official GitHub organization publishing open-source research-data and education tools.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png",
-     "score": 37.9,
+     "score": 38.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 49.5,
+      "contract_quality": 53.8,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -591,19 +591,19 @@
      "slug": "maastricht",
      "description": "Maastricht University (UM) is an international research university in Maastricht, Netherlands, known for its Problem-Based Learning model and ranked #230 in the QS World University Rankings 2025. UM does not operate a unified public developer portal; its confirmed machine-readable footprint consists of standards-based research-infrastructure interfaces rather than a productized API program. The Pure (Elsevier) current research information system at cris.maastrichtuniversity.nl exposes a live OAI-PMH endpoint serving OpenAIRE CERIF metadata, research data is published through the shared DataverseNL platform (a Dataverse instance with a public REST API), and the Maastricht University Institute of Data Science maintains an active open-source GitHub organization. Identity is federated via Shibboleth/SAML.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png",
-     "score": 36.8,
+     "score": 37.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 45.8,
+      "contract_quality": 50.5,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -657,7 +657,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -702,7 +702,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -740,7 +740,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -778,7 +778,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -823,7 +823,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -867,7 +867,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -914,7 +914,7 @@
       "commercial_clarity": 15.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -958,7 +958,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -996,7 +996,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1041,7 +1041,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1086,7 +1086,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1123,7 +1123,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1160,7 +1160,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1205,7 +1205,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1249,7 +1249,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1287,7 +1287,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

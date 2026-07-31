@@ -16,19 +16,19 @@
      "slug": "vistra",
      "description": "Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically submit company incorporation requests in supported jurisdictions (initially British Virgin Islands), upload supporting documents to pre-signed storage URLs, and integrate Vistra's corporate services into business process workflows. Authentication uses OAuth2 bearer tokens obtained through the Vistra Developer Portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png",
-     "score": 49.7,
+     "score": 50.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 68.6,
+      "contract_quality": 71.3,
       "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -65,19 +65,19 @@
      "slug": "cbre",
      "description": "CBRE Group, Inc. (NYSE: CBRE) is the world's largest commercial real estate services and investment firm, with 155,000 professionals across 500+ offices in 100+ countries. CBRE provides advisory and transaction, project management, property management, valuation, investment management, and consulting services. Its technology arm publishes developer APIs through developer.cbre.com that expose property, analytics, and facilities data to partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cbre/refs/heads/main/screenshots/cbre-2026-06-20T174059.png",
-     "score": 39.7,
+     "score": 40.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 61.9,
+      "contract_quality": 65.1,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -103,19 +103,19 @@
      "slug": "kpmg",
      "description": "KPMG is one of the Big Four professional services organizations, operating through a global network of independent member firms affiliated with KPMG International Limited, a private English company limited by guarantee that itself does not provide services to clients. The network spans more than 276,000 partners and employees across 138 countries and territories. KPMG organizes delivery across six service lines — Audit & Assurance, Tax, Legal, Advisory, ESG, and AI — and serves six industries: Consumer / Retail / Leisure; Energy, Natural Resources & Chemicals; Financial Services; Healthcare; Government & Public Sector; and Private Enterprise. AI is a first-class service line built on the KPMG Trusted AI framework — a ten-pillar approach covering Reliability, Security, Safety, Privacy, Sustainability, Explainability, Integrity, Transparency, Fairness, and Accountability — and packaged through five AI solutions: KPMG AI Jumpstart, AI Strategy, AI Trust, AI Workforce, and AI Technology. Alliances anchoring the AI delivery surface include Microsoft, Oracle, Salesforce, SAP, ServiceNow, and Workday, with collaboration noted with the World Economic Forum. KPMG Lakehouse, the firm's USD 450 million learning-and-innovation campus in Lake Nona, Orlando, is the cultural and AI-upskilling hub for the US firm and a venue for client innovation sessions in generative AI, ESG, and talent strategy. Insights is KPMG's research-publishing surface, organized across topic categories including AI and Technology, ESG, Operations, Risk and Regulation, Transformation, Value Creation, Workforce, Public Policy & Regulatory Change, Business Transformation, Audit & Assurance, Tax, Advisory, Sustainability, and Transactions, with flagship series such as the KPMG US Technology Survey Report, the KPMG Global Third-Party Risk Management Survey, the KPMG M&A Deal Market Study, Fit for Pillar Two, and AI Governance Principles for Boards. KPMG does not publish a public developer API or corporate developer portal at the network level; the firm has no enumerable public GitHub organization at `github.com/kpmg`. The one meaningful public API surface inside the KPMG brand is KPMG Origins (`kpmgorigins.com`) — an Australian regulated-waste tracking platform (initially the NSW Integrated Waste Tracking System / IWTS, with Queensland and other jurisdictions in scope) that exposes two REST APIs (Movements + Registries) over Swagger with API-key authentication, intended for integration with waste-operator software rather than as a general-purpose KPMG developer surface. Distribution to readers and client stakeholders flows through the Insights site, the US Subscription Center (Opportunity (In)sight monthly newsletter), KPMG Australia's Business Insights podcast, and per-page RSS feeds offered on individual KPMG member-firm pages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/screenshots/kpmg-2026-06-20T184147.png",
-     "score": 35.3,
+     "score": 36.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -164,7 +164,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -202,7 +202,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -240,7 +240,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -277,7 +277,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -315,7 +315,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -353,7 +353,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -391,7 +391,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -429,7 +429,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -467,7 +467,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -521,7 +521,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -559,7 +559,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -597,7 +597,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -635,7 +635,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -673,7 +673,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -710,7 +710,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -755,7 +755,7 @@
       "commercial_clarity": 7.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -792,7 +792,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -830,7 +830,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -868,7 +868,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -906,7 +906,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -944,7 +944,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -982,7 +982,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1020,7 +1020,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1058,7 +1058,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1095,7 +1095,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

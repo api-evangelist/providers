@@ -12,6 +12,82 @@
    "shown": 3,
    "providers": [
     {
+     "name": "Advance Intelligence Group",
+     "slug": "advance-intelligence-group",
+     "description": "Advance Intelligence Group is an AI-driven technology company headquartered in Singapore, founded in 2016 and backed by SoftBank Vision Fund, Warburg Pincus and others. It operates three core business lines: ADVANCE.AI (Southeast Asia's leading provider of digital identity verification, KYC/KYB, AML, compliance and risk-management solutions, serving 500+ enterprise clients), Atome Financial (buy-now-pay-later and digital lending) and Ginee (e-commerce enablement). The ADVANCE.AI business unit exposes a public Open API for eKYC — token authentication, global document verification, OCR field extraction, face comparison and liveness detection — used across banking, fintech, payments, retail and e-commerce in emerging markets. This API Evangelist profile was enriched from the public developer documentation at doc.advance.ai.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png",
+     "score": 43.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 60.5,
+      "governance": 20.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 51.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 32.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    },
+    {
+     "name": "National University of Singapore",
+     "slug": "nus",
+     "description": "The National University of Singapore (NUS) is Singapore's flagship public research university, ranked #8 in the QS World University Rankings 2025. NUS does not operate a single unified, public developer portal; its documented, programmatically accessible footprint is concentrated in its open scholarly infrastructure. The institutional repository ScholarBank@NUS runs on DSpace 7.6 and exposes both a REST API and an OAI-PMH metadata harvesting interface. Module and timetable data is also available via the community-maintained NUSMods API (unofficial), which normalizes NUS course information. Most administrative and student-facing systems sit behind ADFS/SAML single sign-on and are not publicly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/screenshots/nus-2026-06-20T190528.png",
+     "score": 42.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 70.5,
+      "governance": 58.3,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 2
+    },
+    {
      "name": "Aspire",
      "slug": "aspire",
      "description": "Aspire is a Singapore-headquartered fintech offering an all-in-one finance platform for growing businesses operating globally. Its products include multi-currency business accounts, corporate cards, global payments and FX, expense and budget management, bill pay, bulk payments, invoice and accounts-receivable management, yield on idle balances, and global payroll. Aspire also exposes a developer API (api.aspireapp.com/public/v1) covering payouts/transfers, card issuance, and bank-feed/transaction reporting, secured with OAuth 2.0 bearer tokens (client-credentials and authorization-code + PKCE flows), idempotency keys, and webhooks. The company serves 50,000+ businesses, is backed by Lightspeed Venture Partners, and is PCI DSS v4.0.1, ISO/IEC 27001:2022, and SOC 2 Type 2 certified.",
@@ -28,7 +104,7 @@
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -54,82 +130,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1
-    },
-    {
-     "name": "Advance Intelligence Group",
-     "slug": "advance-intelligence-group",
-     "description": "Advance Intelligence Group is an AI-driven technology company headquartered in Singapore, founded in 2016 and backed by SoftBank Vision Fund, Warburg Pincus and others. It operates three core business lines: ADVANCE.AI (Southeast Asia's leading provider of digital identity verification, KYC/KYB, AML, compliance and risk-management solutions, serving 500+ enterprise clients), Atome Financial (buy-now-pay-later and digital lending) and Ginee (e-commerce enablement). The ADVANCE.AI business unit exposes a public Open API for eKYC — token authentication, global document verification, OCR field extraction, face comparison and liveness detection — used across banking, fintech, payments, retail and e-commerce in emerging markets. This API Evangelist profile was enriched from the public developer documentation at doc.advance.ai.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png",
-     "score": 42.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 56.8,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 51.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 32.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 2
-    },
-    {
-     "name": "National University of Singapore",
-     "slug": "nus",
-     "description": "The National University of Singapore (NUS) is Singapore's flagship public research university, ranked #8 in the QS World University Rankings 2025. NUS does not operate a single unified, public developer portal; its documented, programmatically accessible footprint is concentrated in its open scholarly infrastructure. The institutional repository ScholarBank@NUS runs on DSpace 7.6 and exposes both a REST API and an OAI-PMH metadata harvesting interface. Module and timetable data is also available via the community-maintained NUSMods API (unofficial), which normalizes NUS course information. Most administrative and student-facing systems sit behind ADFS/SAML single sign-on and are not publicly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/screenshots/nus-2026-06-20T190528.png",
-     "score": 42.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 67.8,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 3
     }
    ],
@@ -148,19 +148,19 @@
      "slug": "ntu",
      "description": "Nanyang Technological University (NTU Singapore) is a public research university in Singapore and is ranked #15 in the QS World University Rankings 2025. NTU's public, machine-readable footprint is concentrated in its library and research infrastructure: DR-NTU (Data), a Dataverse-based open research data repository, exposes a documented HTTP API, and DR-NTU (Digital Repository of NTU), a DSpace 7 / DSpace-CRIS institutional repository, exposes a REST API and an OAI-PMH endpoint. Other institutional systems (student information, timetabling, mobile app backends, SSO) are present but not publicly documented as open APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/screenshots/ntu-2026-06-20T190501.png",
-     "score": 36.4,
+     "score": 37.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 62.4,
+      "contract_quality": 65.6,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -189,67 +189,23 @@
      "rank": 4
     },
     {
-     "name": "Vauld",
-     "slug": "vauld",
-     "description": "Vauld (formerly Bank of Hodlers) is a crypto asset management platform founded in India and headquartered in Singapore, backed by Peter Thiel's Valar Ventures, Pantera Capital, and Coinbase Ventures. Its Enterprise API exposes wallets, INR fiat rails, KYC verification, crypto swaps, borrowing, and lending to partner organisations, authenticated with HMAC-SHA256 request signing. Vauld suspended customer withdrawals in July 2022 and entered creditor-protection restructuring in Singapore; the API documentation remains published and the platform API still responds, though the documented testnet hosts no longer resolve.",
-     "score": 34.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 3.1,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 28.3,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 30.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 5
-    },
-    {
      "name": "2C2P",
      "slug": "2c2p",
      "description": "2C2P is a Singapore-headquartered payments platform serving merchants across Southeast Asia and beyond. Its Payment Gateway (PGW) API - currently Payment v4.3 - lets merchants accept cards, e-wallets, QR, installments, and alternative payment methods via a server-to-server REST interface where every request and response body is a JWT (JWS) signed with the merchant's secret key. The platform covers hosted-page and Secure Fields (direct) card capture, tokenization and recurring payments, transaction inquiry and status, void/cancel and refund maintenance, currency exchange, and backend (server-to-server) payment notifications. 2C2P is part of Ant International.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/2c2p/refs/heads/main/screenshots/2c2p-2026-07-25T181135.png",
-     "score": 33.5,
+     "score": 34.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 50.8,
+      "contract_quality": 55.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -275,25 +231,69 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 5
+    },
+    {
+     "name": "Vauld",
+     "slug": "vauld",
+     "description": "Vauld (formerly Bank of Hodlers) is a crypto asset management platform founded in India and headquartered in Singapore, backed by Peter Thiel's Valar Ventures, Pantera Capital, and Coinbase Ventures. Its Enterprise API exposes wallets, INR fiat rails, KYC verification, crypto swaps, borrowing, and lending to partner organisations, authenticated with HMAC-SHA256 request signing. Vauld suspended customer withdrawals in July 2022 and entered creditor-protection restructuring in Singapore; the API documentation remains published and the platform API still responds, though the documented testnet hosts no longer resolve.",
+     "score": 34.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 3.1,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 28.3,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 30.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 6
     },
     {
      "name": "Xfers",
      "slug": "xfers",
      "description": "Xfers is a Southeast Asian payments infrastructure company founded in Singapore in 2015 and backed by 500 Global, providing bank-transfer collection, payouts, escrow-style wallets, and lending disbursement APIs across Singapore and Indonesia. Xfers merged with Payfazz in 2022 to form the Fazz Financial Group, with its regulated Singapore dollar stablecoin and payments business continuing as StraitsX; the Xfers v3 API documentation for Singapore and Indonesia remains published at docs.xfers.io.",
-     "score": 32.1,
+     "score": 32.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 85.2,
-      "contract_quality": 60.6,
+      "contract_quality": 63.9,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -348,7 +348,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -392,7 +392,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -437,7 +437,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -482,7 +482,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -520,7 +520,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -565,7 +565,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -609,7 +609,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -653,7 +653,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -690,7 +690,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -735,7 +735,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -773,7 +773,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -828,7 +828,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -866,7 +866,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -904,7 +904,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -948,7 +948,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 14.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -985,7 +985,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1029,7 +1029,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1066,7 +1066,7 @@
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1111,7 +1111,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1149,7 +1149,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1186,7 +1186,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1230,7 +1230,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1268,7 +1268,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1305,7 +1305,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1350,7 +1350,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1387,7 +1387,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1431,7 +1431,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1469,7 +1469,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1506,7 +1506,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1543,7 +1543,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1587,7 +1587,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1632,7 +1632,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1676,7 +1676,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1714,7 +1714,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1751,7 +1751,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1788,7 +1788,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1825,7 +1825,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1862,7 +1862,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1900,7 +1900,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1944,7 +1944,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

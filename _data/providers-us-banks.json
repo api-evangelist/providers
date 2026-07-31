@@ -16,19 +16,19 @@
      "slug": "plaid",
      "description": "Plaid is a US financial-technology company and data-network aggregator that provides an API platform for businesses to securely connect with their users' bank and financial accounts. Plaid acts as the interface between 12,000+ financial institutions and third-party applications, powering bank-account verification (Auth, Balance, Identity), transactions and enrichment, income and asset verification, lending data (Assets, Liabilities, Investments, Consumer Report/CRA), risk and fraud tooling (Signal, Beacon, Monitor watchlist screening, Identity Verification), and money movement (Transfer, Payment Initiation, Virtual Accounts). Developers integrate through Plaid Link, a self-serve dashboard, client credentials, per-Item access tokens, and a publicly published OpenAPI definition. In the US voluntary open-finance landscape Plaid is an aggregator, and it also operates Core Exchange, its FDX-aligned data-access API for data providers, positioning it for CFPB 1033 open-banking rules.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png",
-     "score": 74.6,
+     "score": 75.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 67.8,
+      "contract_quality": 70.2,
       "governance": 62.5,
       "operational_transparency": 84.2,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 100.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -62,19 +62,19 @@
      "slug": "highnote",
      "description": "Highnote is a modern, unified embedded-finance and banking-as-a-service platform for card issuing, card acquiring, credit, and real-time money movement, with a built-in real-time programmable ledger and full program management. The entire platform is driven by a single GraphQL API at https://api.us.highnote.com/graphql (test https://api.us.test.highnote.com/graphql), authenticated with a base64-encoded API key over HTTP Basic auth. One endpoint covers card products, US person and business account holders (KYC/KYB onboarding), financial accounts and credit lines, virtual/physical/tokenized payment cards, transaction authorization and clearing, disputes, spend and velocity rules, collaborative authorization, multi-rail money movement (ACH, wire, RTP, push-to-card), and outbound webhook event notifications. Highnote is a US-based platform serving digital-first businesses embedding financial products; access is enterprise, contract-gated, with self-serve dashboard signup and a test environment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png",
-     "score": 69.5,
+     "score": 69.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 74.5,
+      "contract_quality": 76.4,
       "governance": 20.8,
       "operational_transparency": 73.7,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 81.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -131,7 +131,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -164,19 +164,19 @@
      "name": "MX",
      "slug": "mx",
      "description": "MX Technologies is a privately held financial data platform headquartered in Lehi, Utah, operating as a B2B data aggregator and open-finance infrastructure provider rather than a chartered bank or credit union. MX connects consumer and business accounts across tens of thousands of financial institutions and fintechs, then cleanses, categorizes, and enhances the resulting transaction data so banks and fintechs can build verification, aggregation, and personal-finance experiences. Unlike most US banks, MX runs a real, self-documented developer surface — the MX Platform API (HTTP Basic auth over https://api.mx.com), a Consent Management API, and a Data Access product that shares and consumes institution data using FDX and OAuth standards — with downloadable OpenAPI 3.0 specifications published at docs.mx.com. MX is one of the major US open-finance aggregators (alongside Plaid, Finicity, and Akoya) and positions Data Access as FDX-conformant, consumer-permissioned, tokenized data sharing.",
-     "score": 60.6,
+     "score": 61.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 64.0,
+      "contract_quality": 67.1,
       "governance": 20.8,
       "operational_transparency": 94.7,
       "developer_ergonomics": 53.8,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -210,19 +210,19 @@
      "slug": "dwolla",
      "description": "Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day), instant/real-time payments over the RTP Network and FedNow Service, bank funding sources with micro-deposit and Open Banking (Plaid/MX) verification, verified Customers (personal and business with beneficial-owner/KYC flows), mass payments, labels and ledgers, virtual account numbers, and webhook event notifications. Dwolla ships official SDKs for Node, Python, Ruby, PHP, C#, and Kotlin, low-code Drop-in Components, and a read-only MCP server for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png",
-     "score": 59.9,
+     "score": 60.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 68.4,
+      "contract_quality": 69.6,
       "governance": 20.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -268,7 +268,7 @@
       "commercial_clarity": 89.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -305,9 +305,48 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 27,
-   "shown": 27,
+   "count": 29,
+   "shown": 29,
    "providers": [
+    {
+     "name": "State Street",
+     "slug": "state-street",
+     "description": "State Street Corporation is one of the world's largest financial services companies, headquartered in Boston, Massachusetts. Founded in 1792, State Street provides investment servicing, investment management, investment research, and trading services to institutional investors including mutual funds, collective investment funds, corporate and public retirement plans, insurance companies, foundations, and endowments. State Street manages approximately $4.7 trillion in assets under management through State Street Global Advisors and services nearly $40 trillion in assets under custody. The company operates the State Street Alpha front-to-back investment management platform, Fund Connect for ETF creation and redemption, and Charles River Development for investment management technology. State Street's developer portal at developer.statestreet.com provides OAuth 2.0-secured APIs enabling institutional clients to programmatically access portfolio data, transaction history, NAV calculations, analytics, and ETF order management. APIs follow REST conventions with OpenAPI 3.0 specifications, JSON data format, and JSON Schema documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/screenshots/state-street-2026-06-20T194521.png",
+     "score": 54.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 72.1,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 43.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Money-Center & Custody",
+     "rank": 7
+    },
     {
      "name": "Cash App",
      "slug": "cash-app",
@@ -325,7 +364,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -352,45 +391,6 @@
       "dry_run_mode": false
      },
      "tier": "Digital & Neobank",
-     "rank": 7
-    },
-    {
-     "name": "State Street",
-     "slug": "state-street",
-     "description": "State Street Corporation is one of the world's largest financial services companies, headquartered in Boston, Massachusetts. Founded in 1792, State Street provides investment servicing, investment management, investment research, and trading services to institutional investors including mutual funds, collective investment funds, corporate and public retirement plans, insurance companies, foundations, and endowments. State Street manages approximately $4.7 trillion in assets under management through State Street Global Advisors and services nearly $40 trillion in assets under custody. The company operates the State Street Alpha front-to-back investment management platform, Fund Connect for ETF creation and redemption, and Charles River Development for investment management technology. State Street's developer portal at developer.statestreet.com provides OAuth 2.0-secured APIs enabling institutional clients to programmatically access portfolio data, transaction history, NAV calculations, analytics, and ETF order management. APIs follow REST conventions with OpenAPI 3.0 specifications, JSON data format, and JSON Schema documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/screenshots/state-street-2026-06-20T194521.png",
-     "score": 53.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 69.5,
-      "governance": 68.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 43.5,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 41.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Money-Center & Custody",
      "rank": 8
     },
     {
@@ -398,19 +398,19 @@
      "slug": "charles-schwab",
      "description": "Charles Schwab is a financial services company providing brokerage, banking, asset management, and financial advisory services to individual investors and independent investment advisors. The Schwab Developer Portal exposes Trader APIs that let registered applications access account balances, positions, and orders, place equity and option trades, and consume real-time and historical market data through OAuth 2.0-secured REST endpoints.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png",
-     "score": 52.4,
+     "score": 53.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 63.5,
+      "contract_quality": 66.2,
       "governance": 58.3,
       "operational_transparency": 31.6,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -444,19 +444,19 @@
      "slug": "bank-of-america",
      "description": "Bank of America is a multinational investment bank and financial services holding company providing consumer banking, wealth management, corporate banking, and investment banking services worldwide. The CashPro Developer Studio provides REST APIs for corporate treasury clients to automate account management, payments, balance reporting, and statement access, supporting over 350 payment types and integration with TMS and ERP platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png",
-     "score": 52.0,
+     "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 70.1,
+      "contract_quality": 72.3,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -489,19 +489,19 @@
      "name": "TD Bank",
      "slug": "td-bank",
      "description": "TD Bank, N.A. (America's Most Convenient Bank) is the U.S. retail and commercial subsidiary of Toronto-Dominion Bank, serving more than 10 million customers from Maine to Florida through roughly 1,100 branches. TD's Open Banking developer portal (hosted at developer.td.com / openbanking.amcb.developer.td.com) exposes an FDX-aligned API suite — Account Basic, Account Detailed, Customer, Transactions, Statements, Tax Forms, Bill Payment, Rewards — plus Consent, Token, Service Token, Apps Management, and Notifications utility APIs that are operated for vetted fintechs and data aggregators via the Akoya Data Access Network. TD also exposes TD Online Mart Recurring Payment APIs through its US/Canadian Merchant Solutions (Worldline-backed).",
-     "score": 51.3,
+     "score": 52.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 57.6,
+      "contract_quality": 61.2,
       "governance": 68.8,
       "operational_transparency": 47.4,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -535,19 +535,19 @@
      "slug": "moov",
      "description": "Moov is a financial infrastructure platform that enables developers to embed money movement capabilities directly into their applications. Their developer platform provides a RESTful API, client-side JavaScript SDK, pre-built UI components, and official backend SDKs across multiple languages for building compliant, full-featured financial products.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-06-20T185802.png",
-     "score": 50.8,
+     "score": 51.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 87.3,
+      "contract_quality": 88.4,
       "governance": 41.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -581,19 +581,19 @@
      "slug": "fdx",
      "description": "Financial Data Exchange (FDX) is a non-profit industry standards body operating in the US and Canada that produces the FDX API, a royalty-free REST standard for consumer-permissioned financial data sharing. The FDX API defines interoperable endpoints covering deposit accounts, loan accounts, investment accounts, insurance policies, tax data, payroll data, reward programs, and consent management, enabling data providers (financial institutions), data access platforms (aggregators), and data recipients (fintechs) to exchange consumer financial data without exposing user credentials. As of early 2026 over 130 million consumer accounts are connected via the FDX API across 200+ member organizations including Bank of America, Chase, Citi, Wells Fargo, Plaid, and MX. FDX API v6.5 is the current stable release.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png",
-     "score": 50.3,
+     "score": 50.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 65.9,
+      "contract_quality": 68.5,
       "governance": 58.3,
       "operational_transparency": 5.3,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -623,6 +623,45 @@
      "rank": 13
     },
     {
+     "name": "Wells Fargo",
+     "slug": "wells-fargo",
+     "description": "Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png",
+     "score": 49.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 79.8,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Money-Center & Custody",
+     "rank": 14
+    },
+    {
      "name": "Green Dot Corporation",
      "slug": "green-dot",
      "description": "Green Dot Corporation (NYSE: GDOT) is a US fintech and bank holding company whose subsidiary Green Dot Bank is a chartered, FDIC-insured member bank. Its Green Dot Arc embedded-finance / Banking-as-a-Service (BaaS) platform lets brands and fintech partners embed banking and payments — account enrollment, KYC/KYB, DDA and prepaid accounts, ACH, transfers, bill pay, card issuing, cash deposits, mobile check deposit, disbursements, and P2P — through a REST API surface. The public developer portal (developer.greendot.com) documents 300+ JSON/OAuth2 endpoints; production access, credentials, and the full Swagger definition are provisioned per-partner after a commercial onboarding.",
@@ -639,7 +678,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -666,111 +705,26 @@
       "dry_run_mode": false
      },
      "tier": "Digital & Neobank",
-     "rank": 14
-    },
-    {
-     "name": "Wells Fargo",
-     "slug": "wells-fargo",
-     "description": "Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png",
-     "score": 48.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 78.2,
-      "governance": 68.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Money-Center & Custody",
      "rank": 15
-    },
-    {
-     "name": "Bond",
-     "slug": "bond",
-     "description": "Bond Financial Technologies is an enterprise-grade banking-as-a-service (BaaS) and embedded finance platform that lets software companies and fintechs embed financial products directly into their applications through a single REST API. The platform covers consumer and commercial deposit accounts, credit-builder and secured charge cards, debit and virtual card issuing and management, money movement (ACH and account-to-account transfers, external-account linking via Plaid), a transaction ledger, statements, identity verification (KYC, KYB, and beneficial-owner verification powered by Persona), webhook event subscriptions, and a full sandbox with simulation endpoints for authorizations, settlements, and KYC/KYB scenarios. Bond exposes API-key authenticated endpoints under api.bond.tech with pre-integrated bank partnerships. Bond was acquired by FIS in June 2023; its developer documentation remains live at docs.bond.tech. Surfaced originally as a portfolio company of Canaan Partners and enriched here from Bond's public developer documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/screenshots/bond-2026-07-25T203549.png",
-     "score": 48.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 38.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Banking-as-a-Service",
-     "rank": 16
     },
     {
      "name": "Chase",
      "slug": "chase",
      "description": "JPMorgan Chase Bank, N.A. is a leading US financial institution providing consumer and commercial banking, credit cards, mortgages, and merchant services. The Chase Developer Portal exposes APIs for FDX-aligned account aggregation, customer consent, rewards balances, and the Loyalty Pay with Points platform that lets enrolled merchants and partners enable customers to redeem Ultimate Rewards points at checkout.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/screenshots/chase-2026-06-20T174235.png",
-     "score": 47.9,
+     "score": 48.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 57.6,
+      "contract_quality": 61.2,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 23.9,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -797,26 +751,26 @@
       "dry_run_mode": false
      },
      "tier": "Money-Center & Custody",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "SoFi",
      "slug": "sofi",
      "description": "SoFi (Social Finance) is a digital personal finance company and federally chartered bank offering an integrated suite of financial products including banking (checking and savings), personal loans, student loan refinancing, private student loans, mortgages, home equity products, active and automated investing, cryptocurrency trading, and credit cards. The platform is unified through the SoFi app and complemented by a SoFi Plus premium membership ($10/month) that unlocks enhanced APY, investment matching, loan rate discounts, and unlimited financial planner access. Third-party integration with SoFi accounts is facilitated through open banking aggregators Plaid and Finicity (Mastercard Open Banking) for consumer-permissioned data access. SoFi's subsidiary Galileo Financial Technologies provides the underlying fintech infrastructure and white-label banking APIs used by major fintech brands globally. SoFi does not publish a first-party consumer-facing open-banking API; consumer account access is aggregator-only (Plaid, Finicity, MX, Akoya). Its real first-party public API surface is B2B/partner-oriented: two documented REST APIs in SoFi's public Postman workspace (a Partner Offer Pre-Qualification API exposing SoFi's PL/SLR underwriting model, and a Home Loan Affiliate Lead API), a Business Banking developer-docs project at docs.sofi.com, and the SoFi Tech Solutions (formerly Galileo) platform at docs.tech.sofi.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/screenshots/sofi-2026-06-20T194126.png",
-     "score": 47.6,
+     "score": 48.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 60.2,
+      "contract_quality": 63.6,
       "governance": 11.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 49.5,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -843,72 +797,72 @@
       "dry_run_mode": false
      },
      "tier": "Digital & Neobank",
-     "rank": 18
+     "rank": 17
     },
     {
-     "name": "Capital One",
-     "slug": "capital-one",
-     "description": "Capital One is a US money-center bank and financial services company offering credit cards, checking and savings accounts, loans, and auto financing. Through the Capital One DevExchange developer program the bank publishes a catalog of partner-facing production APIs for account lookup, transaction authorizations, credit offers, customer transactions, credit card applications, auto financing, proactive prescreen, partner account summary, shop with rewards, and public key sharing for client authentication. Access is secured with OAuth 2.0 and a public sandbox supports pre-production integration, with production access gated behind partner approval. Developer documentation is HTML-only (the portal is a single-page app); Capital One does not publish downloadable OpenAPI specifications. As an FDX member, Capital One also supports consumer-permissioned open-finance data access through aggregators in the US voluntary open-banking context.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png",
-     "score": 47.2,
+     "name": "Bond",
+     "slug": "bond",
+     "description": "Bond Financial Technologies is an enterprise-grade banking-as-a-service (BaaS) and embedded finance platform that lets software companies and fintechs embed financial products directly into their applications through a single REST API. The platform covers consumer and commercial deposit accounts, credit-builder and secured charge cards, debit and virtual card issuing and management, money movement (ACH and account-to-account transfers, external-account linking via Plaid), a transaction ledger, statements, identity verification (KYC, KYB, and beneficial-owner verification powered by Persona), webhook event subscriptions, and a full sandbox with simulation endpoints for authorizations, settlements, and KYC/KYB scenarios. Bond exposes API-key authenticated endpoints under api.bond.tech with pre-integrated bank partnerships. Bond was acquired by FIS in June 2023; its developer documentation remains live at docs.bond.tech. Surfaced originally as a portfolio company of Canaan Partners and enriched here from Bond's public developer documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bond/refs/heads/main/screenshots/bond-2026-07-25T203549.png",
+     "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 43.2,
+      "contract_quality": 51.6,
       "governance": 12.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 52.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 63.0,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 49.4,
+      "score": 38.0,
       "matched_via": "tags"
      },
-     "agent_score": 34.7,
-     "agent_band": "agent-ready",
+     "agent_score": 30.2,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "documented",
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
       "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Money-Center & Custody",
-     "rank": 19
+     "tier": "Banking-as-a-Service",
+     "rank": 18
     },
     {
      "name": "Finicity",
      "slug": "finicity",
      "description": "Finicity, LLC is a Utah-based financial-data aggregator and open-finance technology provider acquired by Mastercard in 2020 and now operating as Mastercard Open Banking (US) within Mastercard Open Finance. It is not a chartered bank but a consumer-permissioned data-access and decisioning platform (and an FCRA-regulated consumer reporting agency for its verification products), providing account and transaction aggregation, Verification of Assets, Income and Employment, transaction and cash-flow analysis, statements, and account validation for ACH payments. Finicity runs a first-party developer portal (developer.mastercard.com/open-banking-us, formerly developer.finicity.com and docs.finicity.com, both of which now redirect) over the live api.finicity.com host, is a founding participant in the Financial Data Exchange (FDX) with FDX-aligned data-sharing APIs, and positions its platform as an enabler of CFPB Section 1033 personal financial data rights. Public product documentation is openly reachable, but the full API reference and any machine-readable OpenAPI specification are partner-gated behind Mastercard Developers credentials.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/screenshots/finicity-2026-07-25T214523.png",
-     "score": 47.2,
+     "score": 47.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 59.3,
+      "contract_quality": 62.8,
       "governance": 11.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 71.2,
       "commercial_clarity": 13.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -935,26 +889,26 @@
       "dry_run_mode": false
      },
      "tier": "Aggregators & Open Finance",
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Synchrony Financial",
      "slug": "synchrony-financial",
      "description": "Synchrony Financial is one of the nation's premier consumer financial services companies, providing a range of credit products through programs established with retailers, manufacturers, and merchants. Synchrony offers APIs enabling partners and retailers to integrate credit applications, authorizations, payments, loyalty, and account management into their digital commerce experiences.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/screenshots/synchrony-financial-2026-06-20T194826.png",
-     "score": 47.2,
+     "score": 47.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 68.6,
+      "contract_quality": 71.3,
       "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -981,26 +935,26 @@
       "dry_run_mode": false
      },
      "tier": "Super-Regional",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Synapse",
      "slug": "synapse",
      "description": "Synapse is the reference Matrix homeserver implementation maintained by Element (formerly by the Matrix.org Foundation). Written in Python and Rust, it implements the Matrix open standard for secure, decentralized real-time communication. Synapse powers thousands of deployments worldwide and provides Client-Server, Server-Server (federation), Application Service, Identity Service, and Admin APIs. Since version 1.99, maintained by Element under AGPL-3.0.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/screenshots/synapse-2026-06-20T194821.png",
-     "score": 46.6,
+     "score": 47.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 62.7,
+      "contract_quality": 65.9,
       "governance": 58.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1027,6 +981,52 @@
       "dry_run_mode": false
      },
      "tier": "Banking-as-a-Service",
+     "rank": 21
+    },
+    {
+     "name": "Capital One",
+     "slug": "capital-one",
+     "description": "Capital One is a US money-center bank and financial services company offering credit cards, checking and savings accounts, loans, and auto financing. Through the Capital One DevExchange developer program the bank publishes a catalog of partner-facing production APIs for account lookup, transaction authorizations, credit offers, customer transactions, credit card applications, auto financing, proactive prescreen, partner account summary, shop with rewards, and public key sharing for client authentication. Access is secured with OAuth 2.0 and a public sandbox supports pre-production integration, with production access gated behind partner approval. Developer documentation is HTML-only (the portal is a single-page app); Capital One does not publish downloadable OpenAPI specifications. As an FDX member, Capital One also supports consumer-permissioned open-finance data access through aggregators in the US voluntary open-banking context.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png",
+     "score": 47.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 43.2,
+      "governance": 12.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 49.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 34.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Money-Center & Custody",
      "rank": 22
     },
     {
@@ -1034,19 +1034,19 @@
      "slug": "chime",
      "description": "Chime is a neobank and fintech platform offering fee-free checking and savings accounts, early paycheck access, credit building, and peer-to-peer payment features for consumer banking. The Chime Partner API enables developers to access user account information, transaction details, account balances, statements, and payment initiation through OAuth 2.0 authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/screenshots/chime-2026-06-20T174317.png",
-     "score": 46.2,
+     "score": 46.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 70.8,
+      "contract_quality": 73.0,
       "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1092,7 +1092,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1126,19 +1126,19 @@
      "slug": "lithic",
      "description": "Lithic is a modern card-issuing and program-management platform offering REST APIs for cards, accounts, transactions, authorization control, ACH/wire payments, external bank accounts, account-holder KYC/KYB, 3-D Secure, tokenization, disputes, and webhooks. OpenAPI spec is published via Stainless and powers official SDKs in Node, Python, Go, Java, Kotlin.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithic/refs/heads/main/screenshots/lithic-2026-06-20T184605.png",
-     "score": 44.8,
+     "score": 45.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 65.9,
+      "contract_quality": 68.4,
       "governance": 58.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1172,19 +1172,19 @@
      "slug": "citizens-financial",
      "description": "Citizens Financial Group is one of the oldest and largest financial institutions in the United States, providing retail and commercial banking products and services to individuals, small businesses, middle-market companies, and large corporations. Citizens exposes its programmable surface through the Citizens developer portal at developer.citizensbank.com, with REST APIs for deposit account and transaction data, ATM location services, and point-of-sale consumer financing through Citizens Pay. Authentication is OAuth 2.0 and the portal provides both sandbox and production environments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/screenshots/citizens-financial-2026-06-20T174412.png",
-     "score": 44.4,
+     "score": 45.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 68.6,
+      "contract_quality": 71.3,
       "governance": 20.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1214,114 +1214,22 @@
      "rank": 26
     },
     {
-     "name": "US Bancorp",
-     "slug": "us-bancorp",
-     "description": "U.S. Bancorp is the parent company of U.S. Bank National Association, one of the largest commercial banks in the United States. U.S. Bank provides a developer portal at developer.usbank.com offering APIs for corporate banking, payments, and treasury management including RTP, ACH, Positive Pay, corporate account information, data toolbox, fleet management (Voyager), freight payment, and push-to-card capabilities. Authentication uses OAuth MFA with SinglePoint credentials.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/screenshots/us-bancorp-2026-06-20T200603.png",
-     "score": 43.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 75.0,
-      "governance": 58.3,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 43.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Money-Center & Custody",
-     "rank": 27
-    },
-    {
-     "name": "Northern Trust",
-     "slug": "northern-trust",
-     "description": "Northern Trust is a Fortune 500 global financial services firm providing asset servicing, asset management, wealth management, and banking to corporations, institutions, family offices, and individuals worldwide. Its first-party developer program, the Northern Trust API Store at developer.ntrs.com, exposes asset-servicing capabilities as REST APIs across custody, fund accounting, transfer agency, middle office, data management, and risk and performance, plus an event-notification service. The catalog is a partner/registration surface: browsing product domains is public, but API reference specifications (downloadable as spec.json) and live access sit behind Okta-based OIDC login. Northern Trust does not publish a public consumer open-banking API; retail account connectivity is reached indirectly through data aggregators.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/northern-trust/refs/heads/main/screenshots/northern-trust-2026-06-20T190416.png",
-     "score": 43.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 45.7,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 60.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Money-Center & Custody",
-     "rank": 28
-    },
-    {
      "name": "Regions Financial",
      "slug": "regions-financial",
      "description": "Regions Financial Corporation is a member of the S&P 500 Index and one of the nation's largest full-service providers of consumer and commercial banking, wealth management, and mortgage products and services. Regions Bank is implementing open banking capabilities through a partnership with Axway's Amplify Open Banking solution, building APIs aligned to the Financial Data Exchange (FDX) standard to enable secure financial data sharing with fintech partners and third-party platforms. Regions joined FDX in 2021 and is targeting compliance with CFPB open banking rules by April 2027.",
-     "score": 43.4,
+     "score": 44.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 66.9,
+      "contract_quality": 69.8,
       "governance": 68.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1348,72 +1256,72 @@
       "dry_run_mode": false
      },
      "tier": "Super-Regional",
-     "rank": 29
+     "rank": 27
     },
     {
-     "name": "Customers Bank",
-     "slug": "customers-bank",
-     "description": "Customers Bank is a Pennsylvania state-chartered, FDIC-insured full-service commercial bank and the principal subsidiary of Customers Bancorp, Inc. (NYSE CUBI), a super-regional bank holding company with roughly $22 billion in assets headquartered in West Reading, Pennsylvania. Beyond traditional commercial and consumer banking it operates a national embedded-banking / Banking-as-a-Service platform, exposing a first-party, OAuth2-secured REST API surface (accounts, ACH, wires, instant payments, book transfers, consumer lending, plus partner, IT-operations and webhook management) to fintech and corporate partners through a public ReadMe developer portal at cubiapi.readme.io, complete with a hosted Model Context Protocol (MCP) server for AI agents. This is proprietary, partner-gated integration infrastructure rather than an FDX or CFPB Section 1033 consumer-permissioned data-sharing API; no FDX-conformant or Section 1033 data-access endpoint is publicly documented, and the surface is a sandbox-first partner API secured by OAuth2 client-credentials with HMAC-signed webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/screenshots/customers-bank-2026-07-25T211012.png",
-     "score": 43.3,
+     "name": "US Bancorp",
+     "slug": "us-bancorp",
+     "description": "U.S. Bancorp is the parent company of U.S. Bank National Association, one of the largest commercial banks in the United States. U.S. Bank provides a developer portal at developer.usbank.com offering APIs for corporate banking, payments, and treasury management including RTP, ACH, Positive Pay, corporate account information, data toolbox, fleet management (Voyager), freight payment, and push-to-card capabilities. Authentication uses OAuth MFA with SinglePoint credentials.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/screenshots/us-bancorp-2026-06-20T200603.png",
+     "score": 44.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 51.6,
-      "governance": 11.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 21.1
+      "discoverability": 64.8,
+      "contract_quality": 77.2,
+      "governance": 58.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 39.2,
+      "score": 43.0,
       "matched_via": "tags"
      },
-     "agent_score": 48.4,
-     "agent_band": "agent-native",
+     "agent_score": 37.8,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
+      "idempotency": false,
+      "error_semantics": "verified",
       "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
-      "agent_skills": "derived",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Regional",
-     "rank": 30
+     "tier": "Money-Center & Custody",
+     "rank": 28
     },
     {
      "name": "Marqeta",
      "slug": "marqeta",
      "description": "Marqeta is a modern card-issuing and embedded-finance platform. The Core API is a large RESTful surface covering cards, users, businesses, GPA orders, KYC/KYB, fee transfer, transactions, real-time decisioning, MCC groups, programs, and webhooks. The Diva (Digital Wallets, Tokenization, 3DS) API extends the Core API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png",
-     "score": 43.3,
+     "score": 43.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 73.7,
+      "contract_quality": 75.7,
       "governance": 41.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1440,6 +1348,98 @@
       "dry_run_mode": false
      },
      "tier": "Banking-as-a-Service",
+     "rank": 29
+    },
+    {
+     "name": "Northern Trust",
+     "slug": "northern-trust",
+     "description": "Northern Trust is a Fortune 500 global financial services firm providing asset servicing, asset management, wealth management, and banking to corporations, institutions, family offices, and individuals worldwide. Its first-party developer program, the Northern Trust API Store at developer.ntrs.com, exposes asset-servicing capabilities as REST APIs across custody, fund accounting, transfer agency, middle office, data management, and risk and performance, plus an event-notification service. The catalog is a partner/registration surface: browsing product domains is public, but API reference specifications (downloadable as spec.json) and live access sit behind Okta-based OIDC login. Northern Trust does not publish a public consumer open-banking API; retail account connectivity is reached indirectly through data aggregators.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/northern-trust/refs/heads/main/screenshots/northern-trust-2026-06-20T190416.png",
+     "score": 43.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 45.7,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 60.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Money-Center & Custody",
+     "rank": 30
+    },
+    {
+     "name": "Customers Bank",
+     "slug": "customers-bank",
+     "description": "Customers Bank is a Pennsylvania state-chartered, FDIC-insured full-service commercial bank and the principal subsidiary of Customers Bancorp, Inc. (NYSE CUBI), a super-regional bank holding company with roughly $22 billion in assets headquartered in West Reading, Pennsylvania. Beyond traditional commercial and consumer banking it operates a national embedded-banking / Banking-as-a-Service platform, exposing a first-party, OAuth2-secured REST API surface (accounts, ACH, wires, instant payments, book transfers, consumer lending, plus partner, IT-operations and webhook management) to fintech and corporate partners through a public ReadMe developer portal at cubiapi.readme.io, complete with a hosted Model Context Protocol (MCP) server for AI agents. This is proprietary, partner-gated integration infrastructure rather than an FDX or CFPB Section 1033 consumer-permissioned data-sharing API; no FDX-conformant or Section 1033 data-access endpoint is publicly documented, and the surface is a sandbox-first partner API secured by OAuth2 client-credentials with HMAC-signed webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/customers-bank/refs/heads/main/screenshots/customers-bank-2026-07-25T211012.png",
+     "score": 43.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 51.6,
+      "governance": 11.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 39.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Regional",
      "rank": 31
     },
     {
@@ -1459,7 +1459,7 @@
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1505,7 +1505,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1533,35 +1533,25 @@
      },
      "tier": "Super-Regional",
      "rank": 33
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 16,
-   "shown": 16,
-   "providers": [
+    },
     {
      "name": "KeyCorp",
      "slug": "keycorp",
      "description": "KeyCorp (KeyBank) is one of the nation's largest bank-based financial services companies and a super-regional commercial bank headquartered in Cleveland, Ohio, providing deposit, lending, cash management, treasury, and investment services to individuals, small businesses, and middle-market companies. The KeyBank Developer Portal at developer.key.com publishes a self-service catalog of commercial and embedded-banking APIs covering account information reporting, ACH origination, RTP and wire payments, account validation, ACH/wire/RTP inquiry, check services, and payment event webhooks. Each product ships a downloadable OpenAPI 3.1 definition and is secured with OAuth2 bearer tokens, mutual TLS client certificates, and FAPI-style interaction-id headers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png",
-     "score": 41.8,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.3,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 69.1,
+      "contract_quality": 71.8,
       "governance": 11.5,
       "operational_transparency": 28.9,
       "developer_ergonomics": 42.9,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1595,19 +1585,19 @@
      "slug": "mercury",
      "description": "Mercury is a banking platform built for startups and tech companies, offering checking, savings, treasury, and corporate-card services. The Mercury REST API exposes accounts, transactions, statements, recipients, ACH and wire payments, treasury yield, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/screenshots/mercury-2026-06-20T185218.png",
-     "score": 41.8,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.3,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 65.4,
+      "contract_quality": 67.7,
       "governance": 47.9,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1635,25 +1625,35 @@
      },
      "tier": "Digital & Neobank",
      "rank": 35
-    },
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 14,
+   "shown": 14,
+   "providers": [
     {
      "name": "Envestnet",
      "slug": "envestnet",
      "description": "Envestnet is an ever-evolving network of data-driven services, products, tools, and technologies designed to enable the Intelligent Financial Life. Our robust financial wellness ecosystem offers solutions for every role in the financial advice industry, including the Yodlee account aggregation, verification, credit, insights, and personalized view APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/screenshots/envestnet-2026-06-20T180737.png",
-     "score": 40.1,
+     "score": 41.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 50.1,
+      "contract_quality": 54.4,
       "governance": 58.3,
       "operational_transparency": 42.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1699,7 +1699,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1729,115 +1729,23 @@
      "rank": 37
     },
     {
-     "name": "American Express",
-     "slug": "american-express",
-     "description": "American Express is a globally integrated payments company and card network that offers charge and credit cards, merchant acquiring, corporate payments, travel, and Membership Rewards loyalty. Its developer platform at developer.americanexpress.com publishes a partner-oriented catalog of REST APIs spanning tokenization (AETS), fraud prevention (Enhanced Authorization), PSD2 open-banking account, transaction and confirmation-of-funds services, corporate @ Work expense management, Pay with Points redemption, Pay with Bank transfer payment initiation, Payment Account Reference, card-linked Smart Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated for registered issuers, merchants, acquirers, and partners rather than open self-service.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png",
-     "score": 38.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 63.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 39.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Super-Regional",
-     "rank": 38
-    },
-    {
-     "name": "Citigroup",
-     "slug": "citigroup",
-     "description": "Citigroup (Citi) is a global, diversified money-center financial services holding company headquartered in New York City, serving consumers, corporations, governments, and institutions across roughly 90 countries. Citi exposes public API access through two distinct, voluntary developer surfaces. The retail Citi Developer Hub (developer.citi.com, now consolidated into the Citi Partner Portal at partner.citi.com) was one of the earliest bank open-banking programs, launched in 2016, and documents seven core API product families: Accounts, Authorize, Customers, Money Movement, Utilities, Onboarding, and Pay with Points, secured with OAuth 2.0 authorization-code and consent flows against a developer sandbox. The corporate surface is CitiConnect, part of Treasury and Trade Solutions (TTS), which has processed more than one billion API calls since 2017 and exposes real-time payments, cross-border WorldLink FX, statements and reporting, request-to-pay, proof-of-payment, and account-balance APIs across the full TTS footprint, integrated through ERP and TMS systems with OAuth 2.0 and mutual TLS. As a US institution Citi participates in voluntary open finance rather than a single mandated contract: it is a co-owner of the Akoya data-access network and shares consumer-permissioned data under emerging FDX / CFPB Section 1033 norms. No public downloadable OpenAPI, Swagger, SDK, or Postman artifacts are published; documentation is HTML and partner-gated, so entries below are documented humanURL references without harvested machine-readable specs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/citigroup/refs/heads/main/screenshots/citigroup-2026-06-20T174411.png",
-     "score": 37.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 12.9,
-      "governance": 33.3,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 48.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 15.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Money-Center & Custody",
-     "rank": 39
-    },
-    {
      "name": "Huntington Bancshares",
      "slug": "huntington-bancshares",
      "description": "Huntington Bancshares is a regional bank holding company that provides full-service consumer and business banking, insurance, investment, mortgage, equipment leasing, and commercial banking services. Huntington operates a developer portal at hnbdevportal.huntington.com built on Apigee X, offering API-first treasury management solutions with over 500 interfaces that process more than 10 million transaction events daily.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/screenshots/huntington-bancshares-2026-06-20T182949.png",
-     "score": 37.8,
+     "score": 38.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 60.7,
+      "contract_quality": 64.1,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1864,6 +1772,98 @@
       "dry_run_mode": false
      },
      "tier": "Super-Regional",
+     "rank": 38
+    },
+    {
+     "name": "American Express",
+     "slug": "american-express",
+     "description": "American Express is a globally integrated payments company and card network that offers charge and credit cards, merchant acquiring, corporate payments, travel, and Membership Rewards loyalty. Its developer platform at developer.americanexpress.com publishes a partner-oriented catalog of REST APIs spanning tokenization (AETS), fraud prevention (Enhanced Authorization), PSD2 open-banking account, transaction and confirmation-of-funds services, corporate @ Work expense management, Pay with Points redemption, Pay with Bank transfer payment initiation, Payment Account Reference, card-linked Smart Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated for registered issuers, merchants, acquirers, and partners rather than open self-service.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png",
+     "score": 38.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 63.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 39.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 12.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Super-Regional",
+     "rank": 39
+    },
+    {
+     "name": "Citigroup",
+     "slug": "citigroup",
+     "description": "Citigroup (Citi) is a global, diversified money-center financial services holding company headquartered in New York City, serving consumers, corporations, governments, and institutions across roughly 90 countries. Citi exposes public API access through two distinct, voluntary developer surfaces. The retail Citi Developer Hub (developer.citi.com, now consolidated into the Citi Partner Portal at partner.citi.com) was one of the earliest bank open-banking programs, launched in 2016, and documents seven core API product families: Accounts, Authorize, Customers, Money Movement, Utilities, Onboarding, and Pay with Points, secured with OAuth 2.0 authorization-code and consent flows against a developer sandbox. The corporate surface is CitiConnect, part of Treasury and Trade Solutions (TTS), which has processed more than one billion API calls since 2017 and exposes real-time payments, cross-border WorldLink FX, statements and reporting, request-to-pay, proof-of-payment, and account-balance APIs across the full TTS footprint, integrated through ERP and TMS systems with OAuth 2.0 and mutual TLS. As a US institution Citi participates in voluntary open finance rather than a single mandated contract: it is a co-owner of the Akoya data-access network and shares consumer-permissioned data under emerging FDX / CFPB Section 1033 norms. No public downloadable OpenAPI, Swagger, SDK, or Postman artifacts are published; documentation is HTML and partner-gated, so entries below are documented humanURL references without harvested machine-readable specs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/citigroup/refs/heads/main/screenshots/citigroup-2026-06-20T174411.png",
+     "score": 37.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 12.9,
+      "governance": 33.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 48.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 15.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Money-Center & Custody",
      "rank": 40
     },
     {
@@ -1883,7 +1883,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1929,7 +1929,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1975,7 +1975,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2021,7 +2021,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2051,68 +2051,23 @@
      "rank": 44
     },
     {
-     "name": "Navy Federal Credit Union",
-     "slug": "navy-federal-credit-union",
-     "description": "Navy Federal Credit Union is a federally chartered credit union headquartered in Vienna, Virginia, and the largest credit union in the world by both assets and membership, serving more than 14 million members across the armed forces, Department of Defense, veterans, and their families. As a not-for-profit, member-owned financial cooperative regulated by the National Credit Union Administration (NCUA), it offers deposit accounts, credit cards, auto and mortgage lending, and investment services. On the open-finance front, Navy Federal operates a genuine first-party developer program — the Navy Federal API Exchange at developer.navyfederal.org — that publishes a consumer- permissioned, open-banking-style API catalog of eight data-access products (account details, holders, statements, transactions, customer accounts, customer details, plus OAuth/API-management and an mTLS gateway-connectivity test). Access is partner-gated behind registration and a signed Data Access Agreement, secured with OAuth member consent and mutual-TLS whitelisting; no OpenAPI/Swagger is publicly downloadable pre-login. Navy Federal also exposes member-permissioned data through aggregators (Plaid, Envestnet | Yodlee via a 2021 data access agreement, Flinks) rather than solely direct first-party integration.",
-     "score": 30.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 55.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 15.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Credit Union",
-     "rank": 45
-    },
-    {
      "name": "Increase",
      "slug": "increase",
      "description": "Increase is a banking and payments API providing direct ACH, wire, RTP, FedNow, check, and card programs. Bank-direct connectivity (no aggregator middle layer).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png",
-     "score": 30.5,
+     "score": 31.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 54.4,
+      "contract_quality": 58.3,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2139,25 +2094,25 @@
       "dry_run_mode": false
      },
      "tier": "Banking-as-a-Service",
-     "rank": 46
+     "rank": 45
     },
     {
      "name": "Column",
      "slug": "column",
      "description": "Column is a chartered nationally-regulated bank purpose-built for developer APIs. Offers ACH, wires, FedNow, checks, BIN sponsorship, and bank-direct ledgering.",
-     "score": 30.2,
+     "score": 30.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 61.0,
+      "contract_quality": 63.9,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2184,6 +2139,51 @@
       "dry_run_mode": false
      },
      "tier": "Banking-as-a-Service",
+     "rank": 46
+    },
+    {
+     "name": "Navy Federal Credit Union",
+     "slug": "navy-federal-credit-union",
+     "description": "Navy Federal Credit Union is a federally chartered credit union headquartered in Vienna, Virginia, and the largest credit union in the world by both assets and membership, serving more than 14 million members across the armed forces, Department of Defense, veterans, and their families. As a not-for-profit, member-owned financial cooperative regulated by the National Credit Union Administration (NCUA), it offers deposit accounts, credit cards, auto and mortgage lending, and investment services. On the open-finance front, Navy Federal operates a genuine first-party developer program — the Navy Federal API Exchange at developer.navyfederal.org — that publishes a consumer- permissioned, open-banking-style API catalog of eight data-access products (account details, holders, statements, transactions, customer accounts, customer details, plus OAuth/API-management and an mTLS gateway-connectivity test). Access is partner-gated behind registration and a signed Data Access Agreement, secured with OAuth member consent and mutual-TLS whitelisting; no OpenAPI/Swagger is publicly downloadable pre-login. Navy Federal also exposes member-permissioned data through aggregators (Plaid, Envestnet | Yodlee via a 2021 data access agreement, Flinks) rather than solely direct first-party integration.",
+     "score": 30.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 55.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 15.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Credit Union",
      "rank": 47
     },
     {
@@ -2191,19 +2191,19 @@
      "slug": "treasury-prime",
      "description": "Treasury Prime is an embedded banking platform connecting fintechs and enterprises to a network of partner banks. Provides REST APIs for persons, businesses, accounts, cards, payments (ACH, wire, book), transactions, statements, and webhooks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/screenshots/treasury-prime-2026-06-20T195641.png",
-     "score": 29.2,
+     "score": 30.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 50.0,
+      "contract_quality": 54.3,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2249,7 +2249,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2304,7 +2304,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2350,7 +2350,7 @@
       "commercial_clarity": 84.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2396,7 +2396,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2441,7 +2441,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2486,7 +2486,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2532,7 +2532,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2578,7 +2578,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2623,7 +2623,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2669,7 +2669,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2715,7 +2715,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2761,7 +2761,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2807,7 +2807,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2853,7 +2853,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2899,7 +2899,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2945,7 +2945,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2991,7 +2991,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3036,7 +3036,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3082,7 +3082,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3128,7 +3128,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3173,7 +3173,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3219,7 +3219,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3265,7 +3265,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3311,7 +3311,7 @@
       "commercial_clarity": 31.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3357,7 +3357,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3403,7 +3403,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3449,7 +3449,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3495,7 +3495,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3540,7 +3540,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3585,7 +3585,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3631,7 +3631,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3687,7 +3687,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3732,7 +3732,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3777,7 +3777,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3823,7 +3823,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3869,7 +3869,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3915,7 +3915,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3960,7 +3960,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4005,7 +4005,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4050,7 +4050,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4095,7 +4095,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4140,7 +4140,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4185,7 +4185,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4230,7 +4230,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4276,7 +4276,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4322,7 +4322,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4367,7 +4367,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4412,7 +4412,7 @@
       "commercial_clarity": 23.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4458,7 +4458,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4504,7 +4504,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4549,7 +4549,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4594,7 +4594,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4639,7 +4639,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4685,7 +4685,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4731,7 +4731,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4776,7 +4776,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4822,7 +4822,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4867,7 +4867,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4912,7 +4912,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4957,7 +4957,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5002,7 +5002,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5048,7 +5048,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5094,7 +5094,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5139,7 +5139,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5184,7 +5184,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",

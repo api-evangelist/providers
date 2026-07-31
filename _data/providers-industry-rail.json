@@ -15,19 +15,19 @@
      "name": "Union Pacific",
      "slug": "union-pacific",
      "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states in the western two-thirds of the country. The company transports a diverse range of commodities including agricultural products, automotive goods, chemicals, energy resources, and industrial materials. Union Pacific's API platform gives businesses programmatic access to real-time shipment tracking, equipment management, intermodal planning, and supply chain exception handling, enabling seamless integration with logistics and supply chain management systems.",
-     "score": 37.2,
+     "score": 38.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 59.3,
+      "contract_quality": 62.8,
       "governance": 58.3,
       "operational_transparency": 21.1,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -49,28 +49,28 @@
      "rank": 1
     },
     {
-     "name": "Westinghouse Air Brake Technologies",
-     "slug": "westinghouse-air-brake-technologies",
-     "description": "Westinghouse Air Brake Technologies Corporation (Wabtec) is a leading global provider of equipment, systems, digital solutions, and value-added services for the freight rail and passenger transit industries. Wabtec's digital platform, WabtecONE, delivers cloud and on-premise solutions for fleet management, condition monitoring, transportation management (RailConnect TMS), performance analytics, predictive maintenance, and signaling. Wabtec provides B2B API integrations for railroad operators, mines, ports, and transit agencies to connect their operations with the WabtecONE platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/westinghouse-air-brake-technologies/refs/heads/main/screenshots/westinghouse-air-brake-technologies-2026-06-20T201407.png",
-     "score": 33.5,
+     "name": "Norfolk Southern",
+     "slug": "norfolk-southern",
+     "description": "Norfolk Southern Corporation is one of the nation's premier transportation companies, operating approximately 19,300 route miles in 22 states and the District of Columbia. Norfolk Southern offers an API Resource Platform (ApiHub) providing real-time visibility into shipment status, trip plans, and gate receipts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/screenshots/norfolk-southern-2026-06-20T190408.png",
+     "score": 34.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 12.9,
-      "governance": 58.3,
-      "operational_transparency": 36.8,
+      "discoverability": 74.1,
+      "contract_quality": 59.7,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 3.2,
-     "agent_band": "human-only",
+     "schema_version": 0.7,
+     "agent_score": 21.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
+      "spec_presence": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
@@ -87,28 +87,28 @@
      "rank": 2
     },
     {
-     "name": "Norfolk Southern",
-     "slug": "norfolk-southern",
-     "description": "Norfolk Southern Corporation is one of the nation's premier transportation companies, operating approximately 19,300 route miles in 22 states and the District of Columbia. Norfolk Southern offers an API Resource Platform (ApiHub) providing real-time visibility into shipment status, trip plans, and gate receipts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/screenshots/norfolk-southern-2026-06-20T190408.png",
-     "score": 33.2,
+     "name": "Westinghouse Air Brake Technologies",
+     "slug": "westinghouse-air-brake-technologies",
+     "description": "Westinghouse Air Brake Technologies Corporation (Wabtec) is a leading global provider of equipment, systems, digital solutions, and value-added services for the freight rail and passenger transit industries. Wabtec's digital platform, WabtecONE, delivers cloud and on-premise solutions for fleet management, condition monitoring, transportation management (RailConnect TMS), performance analytics, predictive maintenance, and signaling. Wabtec provides B2B API integrations for railroad operators, mines, ports, and transit agencies to connect their operations with the WabtecONE platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/westinghouse-air-brake-technologies/refs/heads/main/screenshots/westinghouse-air-brake-technologies-2026-06-20T201407.png",
+     "score": 33.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 55.9,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
+      "discoverability": 59.3,
+      "contract_quality": 12.9,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
       "developer_ergonomics": 13.0,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "agent_score": 21.6,
-     "agent_band": "agent-aware",
+     "schema_version": 0.7,
+     "agent_score": 3.2,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
+      "spec_presence": false,
+      "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
@@ -152,7 +152,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -190,7 +190,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -228,7 +228,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -265,7 +265,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -303,7 +303,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

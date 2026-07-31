@@ -16,19 +16,19 @@
      "slug": "beazley",
      "description": "Beazley plc is a London-headquartered specialty insurer and one of the largest managing agents at Lloyd's of London, underwriting through Lloyd's syndicates alongside US admitted and surplus lines carriers and a European company platform. Its book is specialty property and casualty — cyber and technology risks (where it is a global market leader), professional indemnity, management liability and directors and officers, marine, political risk, contingency, environmental, healthcare and property. Its home market is the United Kingdom, where there is no open-insurance mandate; the only market-wide data and API modernization effort is the Lloyd's Blueprint Two programme, and Beazley sat on the closed beta group that tested Lloyd's ACORD-based Core Data Record. Unusually for a carrier, Beazley operates a real first-party developer portal at developer.beazley.com — an Azure API Management portal with self-serve account signup, a publicly browsable catalog of 14 published APIs across nine families, sandbox environments, and machine-readable OpenAPI 3.0.1 for every one of them. The APIs are partner-and-broker oriented rather than consumer facing — risk and quote data capture into Beazley's core Record of Risk systems, broker and insured marketing data, compliance validation, currency exchange, a cyber rater, and insurance-terms reference data. Every API is behind an Azure APIM subscription key and every product carries approvalRequired, so browsing and spec download are open but actually calling the gateway requires Beazley to approve the subscription. There is no ACORD, AL3 or IVANS reference anywhere in the portal or the specs, no webhook or event catalog, no GraphQL, and no bind, issue or FNOL endpoint — bind is done by brokers through the gated myBeazley quote-and-bind portal, not through the public API surface. Beazley is subject to a recommended all-cash offer from Zurich Insurance Group announced 2 March 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png",
-     "score": 48.9,
+     "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 47.8,
+      "contract_quality": 49.9,
       "governance": 11.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 49.5,
       "commercial_clarity": 81.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -73,7 +73,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -103,67 +103,22 @@
      "rank": 2
     },
     {
-     "name": "PPL",
-     "slug": "ppl-london-market",
-     "description": "PPL (Placing Platform Limited) is the London Market's not-for-profit electronic placing platform, incorporated in England and Wales in 2013 and trading since the first risk was bound on the platform in July 2016. Owned collectively by the market it serves, PPL lets brokers and carriers quote, negotiate, bind and renew open-market (re)insurance risks electronically across almost all classes of business written in London, and is used by roughly 200 carriers and 200 broking firms. It is market infrastructure rather than a carrier or a broker - it writes no insurance and carries no risk - and it is one of the accredited placing platforms underpinning Lloyd's Blueprint Two, generating the Core Data Record for bound business. Its API posture is unusual for insurance and genuinely good: the PPL Next Gen API Developer Portal at developer.pplnextgen.com is publicly readable and publishes a real API catalogue of five REST collections - Organisations, Placements, Submissions, Documents and Events - each with a downloadable OpenAPI 3.0 document and a Postman collection, built on REST standards and the ACORD GRLC (Global Reinsurance and Large Commercial) data model. Actually calling the APIs is market-gated rather than self-serve: consumers must be onboarded by PPL, subscribe to LIMOSS API Common Services, be guested into the Microsoft Entra ID (Azure AD) tenant of the LIMOSS API Gateway, and register an X.509 certificate per environment. The surface covers quote and bind (submission negotiation, contract negotiation, participations, firm order) and contract issuance via the Market Reform Contract document set; there is no claims or FNOL API, and no webhook or event-push surface - the Events API is pull-based.",
-     "score": 43.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 32.3,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 63.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 42.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Market Bodies, Standards & Regulators",
-     "rank": 3
-    },
-    {
      "name": "Towers Watson",
      "slug": "towers-watson",
      "description": "Towers Watson was a global professional services company that provided risk management, actuarial, human capital, and investment consulting services before merging with Willis Group to form Willis Towers Watson (now WTW) in 2016. WTW provides data-driven, insight-led solutions in risk, broking, HR consulting, and benefits administration across 140+ countries. WTW's software products include the HR Portal for employee benefits communication, benefits administration systems, compensation management tools, and actuarial modeling platforms.",
-     "score": 43.1,
+     "score": 43.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 66.3,
+      "contract_quality": 69.1,
       "governance": 68.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -190,6 +145,51 @@
       "dry_run_mode": false
      },
      "tier": "Brokers & Intermediaries",
+     "rank": 3
+    },
+    {
+     "name": "PPL",
+     "slug": "ppl-london-market",
+     "description": "PPL (Placing Platform Limited) is the London Market's not-for-profit electronic placing platform, incorporated in England and Wales in 2013 and trading since the first risk was bound on the platform in July 2016. Owned collectively by the market it serves, PPL lets brokers and carriers quote, negotiate, bind and renew open-market (re)insurance risks electronically across almost all classes of business written in London, and is used by roughly 200 carriers and 200 broking firms. It is market infrastructure rather than a carrier or a broker - it writes no insurance and carries no risk - and it is one of the accredited placing platforms underpinning Lloyd's Blueprint Two, generating the Core Data Record for bound business. Its API posture is unusual for insurance and genuinely good: the PPL Next Gen API Developer Portal at developer.pplnextgen.com is publicly readable and publishes a real API catalogue of five REST collections - Organisations, Placements, Submissions, Documents and Events - each with a downloadable OpenAPI 3.0 document and a Postman collection, built on REST standards and the ACORD GRLC (Global Reinsurance and Large Commercial) data model. Actually calling the APIs is market-gated rather than self-serve: consumers must be onboarded by PPL, subscribe to LIMOSS API Common Services, be guested into the Microsoft Entra ID (Azure AD) tenant of the LIMOSS API Gateway, and register an X.509 certificate per environment. The surface covers quote and bind (submission negotiation, contract negotiation, participations, firm order) and contract issuance via the Market Reform Contract document set; there is no claims or FNOL API, and no webhook or event-push surface - the Events API is pull-based.",
+     "score": 43.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 32.3,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 63.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Market Bodies, Standards & Regulators",
      "rank": 4
     }
    ],
@@ -220,7 +220,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -266,7 +266,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -311,7 +311,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -357,7 +357,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -403,7 +403,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -449,7 +449,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -479,68 +479,22 @@
      "rank": 10
     },
     {
-     "name": "Hiscox",
-     "slug": "hiscox",
-     "description": "Hiscox Ltd is a diversified international specialist insurance and reinsurance group with roots in the Lloyd's of London market dating to 1901, domiciled in Bermuda and listed on the London Stock Exchange, operating from 31 offices across 13 countries. Its home market is the United Kingdom, where it underwrites through three segments: Hiscox Retail (small business, professional and specialty personal lines sold direct and through brokers in the UK, Europe and the USA), Hiscox London Market (larger and more complex specialty risks written out of London for a worldwide client base, including marine, energy, aviation, specialty property and casualty, and cyber), and Hiscox Re & ILS (reinsurance and insurance-linked securities). Its API posture is partner-gated rather than public. Hiscox operates a genuine first-party developer portal at developer.hiscox.com serving its US small-business arm, and that portal publicly enumerates three active APIs - Eligibility, Quote v4 and Setup Payment - but every reference document, sandbox credential and OpenAPI/Swagger file sits behind a login that is only issued after a Hiscox Partnership Manager approves a commercial partnership. There is no self-serve signup, no downloadable specification and no public claims or FNOL API. The group does ship APIs outside that portal: Hiscox London Market launched a Cargo API for small cargo and stock throughput risks in June 2025, built in-house and distributed through broker partners as coverholders, but it has no developer portal listing, no documentation and no specification - it is announced through the newsroom and reached through a broker partnership. Authentication is OAuth 2.0 plus a partner-issued API key over TLS 1.2 only, all APIs are REST, and both XML and JSON are supported. Hiscox's most concrete open-standards footprint is ACORD rather than REST: in July 2025 ACORD and Howden announced that ACORD Standards for digital accounting and invoicing went live in the UK retail insurance market with Hiscox as the receiving insurer, responding in real time to Howden's digital invoices through the ACORD Solutions Group ADEPT (ACORD Data Exchange Platform & Translator) receiver portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/screenshots/hiscox-2026-07-25T221253.png",
-     "score": 32.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 45.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 9.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 11
-    },
-    {
      "name": "Zego",
      "slug": "zego",
      "description": "Zego is an FCA-regulated UK insurtech providing flexible, technology-driven motor and public-liability insurance built for the gig economy. Its telematics app (Sense) rewards safe driving, and it covers food-delivery and courier riders, private-hire and taxi drivers, van drivers, fleets, and learner drivers with monthly or annual policies. Zego works with partners such as Uber, Deliveroo, Just Eat and Amazon Flex, has served around 750,000 drivers and sold over 94 million policies. Beyond consumer products, Zego operates a RESTful Partner API (developer.zego.com, base URL api.zego.com) that lets work providers activate and deactivate insurance cover per shift, register and validate customers, enrol customers on public liability, issue fixed-term policies, and match external users to Zego customers, with signed webhooks for sign-up integration.",
-     "score": 32.7,
+     "score": 33.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 65.3,
+      "contract_quality": 68.2,
       "governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -567,6 +521,52 @@
       "dry_run_mode": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
+     "rank": 11
+    },
+    {
+     "name": "Hiscox",
+     "slug": "hiscox",
+     "description": "Hiscox Ltd is a diversified international specialist insurance and reinsurance group with roots in the Lloyd's of London market dating to 1901, domiciled in Bermuda and listed on the London Stock Exchange, operating from 31 offices across 13 countries. Its home market is the United Kingdom, where it underwrites through three segments: Hiscox Retail (small business, professional and specialty personal lines sold direct and through brokers in the UK, Europe and the USA), Hiscox London Market (larger and more complex specialty risks written out of London for a worldwide client base, including marine, energy, aviation, specialty property and casualty, and cyber), and Hiscox Re & ILS (reinsurance and insurance-linked securities). Its API posture is partner-gated rather than public. Hiscox operates a genuine first-party developer portal at developer.hiscox.com serving its US small-business arm, and that portal publicly enumerates three active APIs - Eligibility, Quote v4 and Setup Payment - but every reference document, sandbox credential and OpenAPI/Swagger file sits behind a login that is only issued after a Hiscox Partnership Manager approves a commercial partnership. There is no self-serve signup, no downloadable specification and no public claims or FNOL API. The group does ship APIs outside that portal: Hiscox London Market launched a Cargo API for small cargo and stock throughput risks in June 2025, built in-house and distributed through broker partners as coverholders, but it has no developer portal listing, no documentation and no specification - it is announced through the newsroom and reached through a broker partnership. Authentication is OAuth 2.0 plus a partner-issued API key over TLS 1.2 only, all APIs are REST, and both XML and JSON are supported. Hiscox's most concrete open-standards footprint is ACORD rather than REST: in July 2025 ACORD and Howden announced that ACORD Standards for digital accounting and invoicing went live in the UK retail insurance market with Hiscox as the receiving insurer, responding in real time to Howden's digital invoices through the ACORD Solutions Group ADEPT (ACORD Data Exchange Platform & Translator) receiver portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hiscox/refs/heads/main/screenshots/hiscox-2026-07-25T221253.png",
+     "score": 32.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 45.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "P&C / General Insurers",
      "rank": 12
     },
     {
@@ -586,7 +586,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -632,7 +632,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -678,7 +678,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -735,7 +735,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -781,7 +781,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -827,7 +827,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -872,7 +872,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -917,7 +917,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -963,7 +963,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1008,7 +1008,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1053,7 +1053,7 @@
       "commercial_clarity": 26.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1099,7 +1099,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1145,7 +1145,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1191,7 +1191,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1236,7 +1236,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1281,7 +1281,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1326,7 +1326,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1372,7 +1372,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1418,7 +1418,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1464,7 +1464,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1519,7 +1519,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1565,7 +1565,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1611,7 +1611,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

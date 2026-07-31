@@ -15,19 +15,19 @@
      "name": "Xoserve",
      "slug": "xoserve",
      "description": "Xoserve Limited is the Central Data Services Provider (CDSP) for Great Britain's gas market — funded, governed and owned by the gas industry itself. From Solihull it operates the central register of every gas supply point in Britain and runs the systems the market clears through: UK Link, the Gemini transmission system, the Gas Enquiry Service, the Contact Management Service, SwitchStream and the Data Discovery Platform. It sits between the gas transporters, the independent gas transporters, the shippers and the retail suppliers under the Uniform Network Code (UNC) and the Data Services Contract (DSC), with further obligations under the Retail Energy Code. Britain mandated this data infrastructure, not a consumer data right: there is no CDR-style, consent-driven data portability obligation on Xoserve, and no Green Button or Consumer Data Standards implementation. Its API posture reflects that split exactly. Xoserve does publish a real developer portal — the Discovery API Platform, delivered by its service provider Correla at discoveryapiportal.correla.com — where four documented REST APIs (Shipper, Supplier, Meter Asset v1 and v2) expose meter-point-level information including proposed Formula Year Annual Quantity values, current supplier, network and meter asset detail. Anyone may browse that catalogue and export the OpenAPI documents anonymously, but nobody can call the gateway without being an eligible licensed GB gas industry party: every product requires a subscription AND approval, keys are issued only after a contract is countersigned, and the gateway returns 401 for everyone else. Consumer usage data is therefore reachable through a documented API, but only by accredited industry, never by a consumer or an agent acting on their behalf. On the other side, Xoserve publishes no open machine-readable market-data API at all — its public outputs are the free findmysupplier consumer lookup it operates and the Market Domain Data participant list as a spreadsheet download.",
-     "score": 60.0,
+     "score": 60.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 37.3,
+      "contract_quality": 40.3,
       "governance": 20.8,
       "operational_transparency": 63.2,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 84.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -60,19 +60,19 @@
      "name": "EDF Energy",
      "slug": "edf-energy",
      "description": "EDF Energy Ltd is the British integrated energy business wholly owned by Electricite de France (EDF), the French state-owned utility. Formed in 2002 from London Electricity, SWEB and SEEBOARD and enlarged by the 2009 acquisition of British Energy, it is one of the largest suppliers of electricity and gas in Great Britain with roughly five million customer accounts, and it is also Britain's largest generator of zero-carbon electricity — it operates the country's fleet of operating nuclear power stations (the advanced gas-cooled reactors at Hartlepool, Heysham 1, Heysham 2 and Torness, and the Sizewell B pressurised water reactor), is building Hinkley Point C, and owns wind, solar, battery (Pivot Power) and EV charging (Pod Point) businesses. It therefore sits at both ends of the GB value chain: a licensed generator and wholesale market participant, and the retailer of record holding the customer relationship, the billing account and the meter data. Its API posture is the opposite of the mandated-utility pattern. The United Kingdom has no consumer energy data-portability right — no Consumer Data Right, no Green Button obligation. Britain mandated infrastructure instead: the licensed Smart DCC monopoly carries smart-meter traffic under the Smart Energy Code, and EDF is bound by that as a licensed supplier, but it confers no third-party consumer data API. And yet EDF publishes one of the more substantial public API programmes of any European utility, because it does not run its own retail platform: in 2023 EDF licensed Kraken from Octopus Energy Group and completed the migration of 5.8 million customer accounts in fifteen months, so EDF's API is Kraken's API, branded for EDF GB at developer.edfgb-kraken.energy. That portal is fully public and was confirmed live at HTTP 200 on 2026-07-27. It publishes a first-party OpenAPI 3.0.3 document for a 27-path REST API, a second OpenAPI 3.0.3 document for a 16-path customer-migration API, and a GraphQL API whose schema — 2,492 types, 246 queries, 417 mutations — was harvested by anonymous introspection with no key and no account. EDF's retail tariff and product data is genuinely open: GET https://api.edfgb-kraken.energy/v1/products/ returned 21 live products at HTTP 200 anonymously, and the GraphQL energyProducts query returns real EDF tariffs with brand \"EDF\". Consumer usage and billing data is documented in the same contracts but requires an Authorization token issued to the account holder, or an OAuth application authorised against the OpenID Connect server at auth.edfgb-kraken.energy, whose anonymously served discovery document advertises 111 scopes including request:consumption-data and view:smartflex-data. Open market data is the gap: EDF discloses its REMIT generation unavailability on its own website as an HTML table, but the XML and CSV export links it publishes on that very page both return HTTP 404, and the machine-readable channel for those disclosures is Elexon's BMRS platform, which EDF does not operate — 27 EDF REMIT messages under registration code 48X000000000022A were confirmed there in a single week. Open on tariffs, gated on consumer data, broken on its own market-data exports, and none of it compelled.",
-     "score": 56.4,
+     "score": 57.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 53.3,
+      "contract_quality": 56.8,
       "governance": 20.8,
       "operational_transparency": 60.5,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -113,68 +113,23 @@
    "shown": 11,
    "providers": [
     {
-     "name": "Electricity North West",
-     "slug": "electricity-north-west",
-     "description": "Electricity North West — rebranded SP Electricity North West in August 2025 after Iberdrola acquired it and folded it in alongside SP Energy Networks — is the regulated electricity distribution network operator for the North West of England, running roughly 13,000 km of overhead line and more than 44,000 km of underground cable from Cumbria to Manchester. It is a poles-and-wires business in the regulated middle of the United Kingdom value chain: it owns the meter point and the network, it earns a regulated revenue under Ofgem's RIIO-ED2 price control, and it never bills the household — the supplier does. Its API posture is a clean split and worth stating plainly. On the MARKET-DATA side it is genuinely API-native for a network operator: it runs an Opendatasoft-hosted open data portal at electricitynorthwest.opendatasoft.com carrying 146 datasets — embedded capacity register, DFES scenarios, LV headroom and peak demand, network capacity heatmaps, GSP connection queue, GIS conductor and substation layers — served through the documented Opendatasoft Explore REST API v2.1 (and legacy v2.0) with a real OpenAPI 3.0.3 contract, a DCAT-AP catalogue export, and an in-portal API console. 96 of those datasets are CC BY 4.0 and 8 are Open Government Licence v3.0, but 41 sit under a bespoke \"SP ENW Shared Licence\" rather than an open one. On the CONSUMER-DATA side there is nothing: the United Kingdom has no consumer energy data-portability right equivalent to Australia's Consumer Data Right, Great Britain's smart-meter mandate produced infrastructure (the licensed Smart DCC) rather than a data right, Green Button has no UK footprint, and Electricity North West publishes no customer usage or billing API of any kind. The obligation that actually binds it is Ofgem's Data Best Practice Guidance under the RIIO-ED2 digitalisation licence condition — an open-data duty, not a consumer data right — and the portal is a real, verifiable implementation of it. Note that the corporate site www.enwl.co.uk sits behind a Cloudflare managed challenge and returns HTTP 403 to every non-browser client, so no part of the main website is machine-readable.",
-     "score": 52.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 32.3,
-      "governance": 11.5,
-      "operational_transparency": 86.8,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 47.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Network Distributors",
-     "rank": 3
-    },
-    {
      "name": "Octopus Energy",
      "slug": "octopus-energy",
      "description": "Octopus Energy is a UK-founded retail energy supplier and the parent of Kraken Technologies, the AI-powered energy operating system that runs both Octopus and many of the world's largest utilities. Octopus operates a free, open REST API at api.octopus.energy/v1/ that exposes the full UK product catalog, electricity and gas tariff pricing (including the half-hourly wholesale-linked Agile Octopus and Tracker tariffs), meter-point details, half-hourly smart-meter consumption, and industry grid supply points. The Kraken developer portal at developer.octopus.energy adds a second REST surface generated from an OpenAPI spec plus a GraphQL API at /v1/graphql/ with API Collections grouping partner-facing queries and mutations for accounts, ledgers, billing, smart meters, EV charging, heat pumps, batteries, and Intelligent Octopus dispatch. Through Kraken Technologies the same platform powers 90M+ customer accounts at EDF, E.ON, Origin Energy, Tokyo Gas, Plentitude, National Grid, Severn Trent, and other utilities in 30 countries — making Octopus one of the most consequential open and programmable surfaces in retail energy.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/screenshots/octopus-energy-2026-06-20T190615.png",
-     "score": 52.3,
+     "score": 52.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 69.1,
+      "contract_quality": 71.8,
       "governance": 58.3,
       "operational_transparency": 63.2,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -201,25 +156,70 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
+     "rank": 3
+    },
+    {
+     "name": "Electricity North West",
+     "slug": "electricity-north-west",
+     "description": "Electricity North West — rebranded SP Electricity North West in August 2025 after Iberdrola acquired it and folded it in alongside SP Energy Networks — is the regulated electricity distribution network operator for the North West of England, running roughly 13,000 km of overhead line and more than 44,000 km of underground cable from Cumbria to Manchester. It is a poles-and-wires business in the regulated middle of the United Kingdom value chain: it owns the meter point and the network, it earns a regulated revenue under Ofgem's RIIO-ED2 price control, and it never bills the household — the supplier does. Its API posture is a clean split and worth stating plainly. On the MARKET-DATA side it is genuinely API-native for a network operator: it runs an Opendatasoft-hosted open data portal at electricitynorthwest.opendatasoft.com carrying 146 datasets — embedded capacity register, DFES scenarios, LV headroom and peak demand, network capacity heatmaps, GSP connection queue, GIS conductor and substation layers — served through the documented Opendatasoft Explore REST API v2.1 (and legacy v2.0) with a real OpenAPI 3.0.3 contract, a DCAT-AP catalogue export, and an in-portal API console. 96 of those datasets are CC BY 4.0 and 8 are Open Government Licence v3.0, but 41 sit under a bespoke \"SP ENW Shared Licence\" rather than an open one. On the CONSUMER-DATA side there is nothing: the United Kingdom has no consumer energy data-portability right equivalent to Australia's Consumer Data Right, Great Britain's smart-meter mandate produced infrastructure (the licensed Smart DCC) rather than a data right, Green Button has no UK footprint, and Electricity North West publishes no customer usage or billing API of any kind. The obligation that actually binds it is Ofgem's Data Best Practice Guidance under the RIIO-ED2 digitalisation licence condition — an open-data duty, not a consumer data right — and the portal is a real, verifiable implementation of it. Note that the corporate site www.enwl.co.uk sits behind a Cloudflare managed challenge and returns HTTP 403 to every non-browser client, so no part of the main website is machine-readable.",
+     "score": 52.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 32.3,
+      "governance": 11.5,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 47.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Network Distributors",
      "rank": 4
     },
     {
      "name": "Centrica",
      "slug": "centrica",
      "description": "Centrica plc is the FTSE-listed British energy and services group behind British Gas, the United Kingdom's largest household energy supplier, along with Bord Gais Energy in Ireland, Centrica Business Solutions, Centrica Energy (its wholesale power, gas and LNG trading arm) and the Hive connected-home brand. It sits across the whole value chain — upstream gas and storage at Rough, generation and battery flexibility, wholesale trading and route-to-market, retail supply to roughly ten million UK homes, and a field-service engineering business — after exiting North America with the sale of Direct Energy to NRG in January 2021 to refocus on the UK and Ireland. Its API posture is honestly closed: Britain mandated the smart-metering INFRASTRUCTURE (the licensed Smart DCC monopoly and the SMETS2 rollout) rather than a consumer data right, so Centrica has no Consumer Data Right, no Green Button and no standards-conformant consumer usage endpoint. The DESNZ non-domestic smart meter data access requirement that does bind it is discharged by a written request answered within ten working days, not by an API. Household consumers reach their own data only through the British Gas app and account login; business customers through the Energy360 DataView portal. The single publicly reachable developer surface found is the Centrica FieldOps Azure API Management developer portal — a partner field-operations platform in its development environment — and Centrica publishes no open grid or market data of its own, leaving that to NESO, Elexon and the DNOs.",
-     "score": 50.1,
+     "score": 50.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 53.4,
+      "contract_quality": 55.0,
       "governance": 11.5,
       "operational_transparency": 47.4,
       "developer_ergonomics": 45.1,
       "commercial_clarity": 55.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -252,19 +252,19 @@
      "name": "n3rgy",
      "slug": "n3rgy",
      "description": "n3rgy data limited is a United Kingdom smart-energy data platform, registered in England (No. 11712674) and owned by Smart Metering Systems Ltd. It sits between Great Britain's mandated smart-metering infrastructure — the DCC network, SMETS2 home area networks (HANs), and the ESME/GSME electricity and gas meters behind them — and the organisations that want to read from it, letting a business collect consumption, production, and tariff data for a property (addressed by MPAN/MPRN, collectively MPxN) once the occupant has granted consent, without that business having to become a DCC user in its own right. Its API posture is public in documentation and closed in access: a genuinely anonymous MkDocs developer guide and a complete OpenAPI 3.0.1 contract for the Customer Service API V2 are served to anyone, while every operation is x-api-key gated and live keys must be enabled by the n3rgy back office after a business sign-up. Britain mandated the metering infrastructure, not a consumer data right, so nothing here is a Consumer Data Right or Green Button implementation — n3rgy publishes no open grid or market data at all, and the formerly public consumer API is, by the company's own statement, no longer available.",
-     "score": 49.6,
+     "score": 50.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 60.8,
+      "contract_quality": 64.2,
       "governance": 11.5,
       "operational_transparency": 52.6,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -309,7 +309,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -354,7 +354,7 @@
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -399,7 +399,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -432,19 +432,19 @@
      "name": "Utilita",
      "slug": "utilita",
      "description": "Utilita Energy is a United Kingdom household electricity and gas supplier founded in 2003 and headquartered in Eastleigh, Hampshire, specialising in smart Pay As You Go (prepayment) energy for roughly 800,000 mostly lower-income homes. It sits at the retail end of the GB energy value chain — buying wholesale, holding an Ofgem supply licence, and acceding to the Smart Energy Code as a DCC user — and it was the first company in Great Britain to install a residential smart electricity meter (2005) and a combined smart gas and electricity system (2008). Its ENERGY DATA posture is closed on every axis. Britain mandated the smart-meter INFRASTRUCTURE (the Smart DCC, the Smart Energy Code, SMETS1/SMETS2 devices) rather than a consumer data right, so no CDR- or Green-Button-style obligation compels Utilita to publish a customer data API, and it publishes none: no developer portal, no customer usage API, and no open market or grid data — developer., developers., api., docs. and data.utilita.co.uk do not resolve, and /developers, /api, /docs, /data and /openapi.json all return 404. Customer usage and top-up data reaches people only through the My Utilita web portal and mobile app behind an account login; third parties reach GB smart-meter data through the DCC \"Other User\" route under the Data Access and Privacy Framework, not through Utilita. Utilita does, however, run one genuine public API: the anonymous, CORS-open, documented Utilita Status API at status.utilita.co.uk/api/v2, which reports the live health of 21 tracked components — SMETS1/SMETS2 smart meters, Guest Payments, Open Banking, PayPoint and PayZone top-up channels, the My Utilita app and web portal, Power-up, the websites, the contact centre, smart meter installations and the smart metering network — along with incident and scheduled-maintenance history and self-serve webhook, RSS and Atom notifications. Recorded here as an honest closed-supplier baseline for the UK energy sector, with an operational-transparency surface that is real and usable.",
-     "score": 47.1,
+     "score": 47.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 66.1,
+      "contract_quality": 69.0,
       "governance": 3.1,
       "operational_transparency": 23.7,
       "developer_ergonomics": 34.2,
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -477,19 +477,19 @@
      "name": "char.gy",
      "slug": "chargy",
      "description": "char.gy is a British public electric-vehicle charge point operator that specialises in on-street charging for the roughly forty percent of UK households with no off-street parking, and it is best known for putting the charger inside the lamp post. Founded by Richard Stobart out of the digital agency Unboxed, it installed its first public charger in Marlow, Buckinghamshire in 2018, is now led by CEO John Lewis from Floor 5, 55 King William St, London EC4R 9AD, and is backed with £100m by Zouk Capital through the UK Government-backed Charging Infrastructure Investment Fund. Its own about page claims over 5,000 charge points and 28.3 million kg of CO2 saved, and its live open data feed returned an x-total-count of 5,409 locations on 2026-07-27. In the UK energy value chain it sits at the very end of the wire: it is not a licensed supplier, not a network operator and not a metering agent, it operates charge points on street furniture owned by local authorities — Haringey, Southwark, Brent, Barnet, Harrow, Coventry, Brighton and Hove, Richmond and Wandsworth, Enfield and others — authorising drivers, metering the session and pricing it. Britain has no consumer data-portability mandate for energy equivalent to Australia's Consumer Data Right, so nothing compels char.gy to expose an individual driver's usage or billing data through an API, and it does not: there is no consumer API, no OAuth server, no OpenID Connect discovery document and no accredited-recipient scheme anywhere on the domain. What Britain DID mandate here is open infrastructure data. The Public Charge Point Regulations 2023 (SI 2023/1168), Part 4 regulation 10(5), require every charge point operator to make reference data and availability data available to the public free of charge, in a machine readable format, and — the crucial clause — \"without any requirement to agree to terms and conditions regarding the use of that data\". char.gy complies, and the compliance is real rather than claimed: it publishes an OCPI-shaped Locations feed and an OCPI-shaped Tariffs feed at https://char.gy/open-ocpi/locations and https://char.gy/open-ocpi/tariffs, both of which returned HTTP 200 with application/json to a completely anonymous GET on 2026-07-27, paginated with x-total-count, x-limit and RFC 5988 Link rel=\"next\" headers, carrying real GB*CGY*E*NNNNN EVSE identifiers, IEC 62196 Type 2 connectors, per-connector tariff_ids and time-of-day restricted pence-per-kWh price components. The posture is therefore the clean split this sector keeps producing, but rotated: market and infrastructure data wide open and genuinely ungated because a regulation forbids gating it, consumer data entirely absent because no regulation asks for it, and the commercial OCPI CPO roaming interface at /ocpi/cpo/ closed behind OCPI Token authorization for partner e-mobility service providers. There is no developer portal — the entire public documentation for the open API is a single Freshdesk help-centre article.",
-     "score": 44.3,
+     "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 55.9,
+      "contract_quality": 59.7,
       "governance": 20.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 27.7,
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -519,68 +519,22 @@
      "rank": 11
     },
     {
-     "name": "Elexon",
-     "slug": "elexon",
-     "description": "Elexon is the UK's Balancing and Settlement Code (BSC) Company, responsible for administering the electricity balancing and settlement arrangements in Great Britain. As the operator of the Balancing Mechanism Reporting Service (BMRS), Elexon publishes a publicly accessible REST API — the Insights Solution API — that provides free, no-key access to real-time and historical data from the UK electricity market. The API covers balancing mechanism dynamic and physical data per Balancing Mechanism Unit (BMU), bid-offer acceptances, balancing services adjustments, physical notifications, generation availability forecasts, settlement reports, meter readings, and UK market transparency data mandated under European legislation. All data is returned in JSON, XML, or CSV format. A companion near-real-time push service (IRIS — Insights Real-time Information Service) streams the same datasets over WebSocket/STOMP for latency-sensitive consumers. The API is freely accessible to industry participants and the public with no registration or API key required, and data may be reused with attribution (\"Contains BMRS data © Elexon Limited copyright and database right\").",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elexon/refs/heads/main/screenshots/elexon-2026-06-20T180600.png",
-     "score": 43.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 54.7,
-      "governance": 58.3,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 20.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "System & Market Operators",
-     "rank": 12
-    },
-    {
      "name": "Smart DCC",
      "slug": "dcc-smart",
      "description": "Smart DCC (the Data Communications Company) is the Ofgem-licensed monopoly that operates Britain's national smart metering communications network, connecting electricity and gas smart meters in homes and businesses to energy suppliers, network operators and other authorised users over a single secure wide-area network. It sits in the middle of the United Kingdom energy value chain as shared infrastructure rather than as a retailer or a data marketplace, and it is regulated through the Smart Meter Communication Licence and governed by the Smart Energy Code. Its API posture reflects that position exactly. Britain mandated the infrastructure, not a consumer data right — there is no UK equivalent of the Australian Consumer Data Right for energy, so Smart DCC operates no consumer data-portability API and publishes no Green Button or Consumer Data Standards surface. The real production interface is the DCC User Interface Specification (DUIS), an XML web service reached over a DCC User Gateway Connection, plus the Self-Service Interface; the DUIS specification and its XML schema are published openly as Smart Energy Code subsidiary documents, but the gateway itself is closed to anyone who has not acceded to the Smart Energy Code and passed SMKI and User Entry Process Testing. The only self-serve, machine-readable contract Smart DCC publishes is an OpenAPI for the open-source DCC Boxed DUIS signing and validation tool on GitHub. Network statistics are shown on a public dashboard as a rendered web page with no documented open data API or bulk download, so both the consumer-data and market-data sides are effectively closed while the interface specification itself is open.",
-     "score": 43.4,
+     "score": 44.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 77.8,
-      "contract_quality": 47.5,
+      "contract_quality": 51.9,
       "governance": 31.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -607,6 +561,52 @@
       "dry_run_mode": false
      },
      "tier": "Metering",
+     "rank": 12
+    },
+    {
+     "name": "Elexon",
+     "slug": "elexon",
+     "description": "Elexon is the UK's Balancing and Settlement Code (BSC) Company, responsible for administering the electricity balancing and settlement arrangements in Great Britain. As the operator of the Balancing Mechanism Reporting Service (BMRS), Elexon publishes a publicly accessible REST API — the Insights Solution API — that provides free, no-key access to real-time and historical data from the UK electricity market. The API covers balancing mechanism dynamic and physical data per Balancing Mechanism Unit (BMU), bid-offer acceptances, balancing services adjustments, physical notifications, generation availability forecasts, settlement reports, meter readings, and UK market transparency data mandated under European legislation. All data is returned in JSON, XML, or CSV format. A companion near-real-time push service (IRIS — Insights Real-time Information Service) streams the same datasets over WebSocket/STOMP for latency-sensitive consumers. The API is freely accessible to industry participants and the public with no registration or API key required, and data may be reused with attribution (\"Contains BMRS data © Elexon Limited copyright and database right\").",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elexon/refs/heads/main/screenshots/elexon-2026-06-20T180600.png",
+     "score": 44.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 58.5,
+      "governance": 58.3,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 20.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "System & Market Operators",
      "rank": 13
     }
    ],
@@ -636,7 +636,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -670,19 +670,19 @@
      "slug": "axle-energy",
      "description": "Axle Energy operates a virtual power plant (VPP) platform that connects distributed energy assets — electric vehicles, EV chargers, home batteries, and heat pumps — to electricity flexibility markets through a single unified API. Partners (carmakers, charger and battery OEMs, HVAC suppliers, and utilities) register sites and assets, prequalify and enrol them in flex propositions, stream telemetry and plug/charge events, and let end users monetise shiftable demand. The API covers authentication, meter lookup (MPAN), sites, assets, telemetry/readings, rewards/payouts, validation, and half-hourly price curves, with markets live across Great Britain, France, Germany, the Netherlands, Denmark and Sweden. React/hosted UI components and a documented outbound dispatch webhook round out the developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/screenshots/axle-energy-2026-07-25T202055.png",
-     "score": 38.0,
+     "score": 37.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 67.8,
+      "contract_quality": 65.9,
       "governance": 11.5,
       "operational_transparency": 13.2,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -727,7 +727,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -772,7 +772,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -817,7 +817,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -862,7 +862,7 @@
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -907,7 +907,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -952,7 +952,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -997,7 +997,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1052,7 +1052,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1097,7 +1097,7 @@
       "commercial_clarity": 44.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1142,7 +1142,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1187,7 +1187,7 @@
       "commercial_clarity": 42.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": "0.6.1",
+     "schema_version": 0.7,
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
