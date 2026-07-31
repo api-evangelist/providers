@@ -3166,7 +3166,7 @@
    "url": "https://providers.apis.io/providers/adnectar/"
   },
   {
-   "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
+   "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud",
    "name": "Adobe",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
    "slug": "adobe",
@@ -31445,7 +31445,7 @@
    "url": "https://providers.apis.io/providers/camara/"
   },
   {
-   "description": "CAMARA is the Telco Global API Alliance — an open-source project hosted by the Linux Foundation that",
+   "description": "CAMARA is the Telco Global API Alliance — an open-source project hosted by the Linux Foundation",
    "name": "CAMARA Project",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/screenshots/camara-project-2026-06-20T173902.png",
    "slug": "camara-project",
@@ -32820,6 +32820,13 @@
    "url": "https://providers.apis.io/providers/cargo-one/"
   },
   {
+   "description": "CargoAi is a Singapore-headquartered air cargo technology company that",
+   "name": "CargoAi",
+   "slug": "cargoai",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/cargoai"
+  },
+  {
    "description": "Cargobase is a cloud-based Transportation Management System (TMS) for enterprise shippers that automates spot-buy and contract freight procurement across air, ocean, road, and courier modes. Shippers request quotes, compare carrier and forwarder rates apples-to-apples, award and execute shipments, track them in real time, audit freight invoices, and report on carbon emissions and logistics-provider performance from a single platform. Founded in 2013, Cargobase serves automotive, aviation, semiconductor, machinery, energy, and oil-and-gas shippers worldwide, is ISO/IEC 27001 certified and SOC 2 compliant, and is backed by 500 Global.",
    "name": "Cargobase",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/cargobase/refs/heads/main/screenshots/cargobase-2026-07-25T204603.png",
@@ -32833,6 +32840,13 @@
    "slug": "cargodocs",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/cargodocs/"
+  },
+  {
+   "description": "Cargolux Airlines International S.A. is Europe's largest all-cargo airline, headquartered at Luxembourg Findel Airport in Luxembourg and operating a global Boeing 747 freighter network under IATA designator CV and air waybill prefix 172 (with Cargolux Italia on prefix 356). In the logistics chain Cargolux is the main-leg air carrier: it sells capacity to freight forwarders and general sales agents rather than to shippers, hands cargo to terminal and ground handling operators such as its Luxcargo Handling subsidiary, and files customs and security data on behalf of the contracted forwarder. Its API posture is honestly a customer-contract one. Cargolux publishes no developer portal and no machine-readable contract of any kind — developer.cargolux.com, developers.cargolux.com and docs.cargolux.com do not resolve, and /developers, /api, /openapi.json, /swagger.json, /api-docs and /.well-known/ all return 404 on www.cargolux.com. The only public self-service surfaces are HTML: a track-and-trace widget and a flight scheduler on the marketing site, plus a login-walled Customer Portal at my.cargolux.com. A real quote-and- booking API exists, but it is a bilateral, commercially negotiated forwarder interface — piloted with Kuehne+Nagel in 2021 and extended to DB Schenker — with no published reference, and it is complemented by indirect distribution through the cargo.one, CargoAi and WebCargo by Freightos marketplaces. Underneath, Cargolux runs IBS Software's iCargo SaaS cargo management system and holds a large minority stake in Luxembourg's CHAMP Cargosystems, whose developer.champ.aero portal is the developer surface Cargolux's ecosystem actually reads — CHAMP's, not Cargolux's. IATA e-AWB \"Single Process\" is documented; no IATA ONE Record or Cargo-XML publication was found.",
+   "name": "Cargolux",
+   "slug": "cargolux",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/cargolux"
   },
   {
    "description": "Cargomatic is a technology-enabled marketplace for local freight and drayage that connects shippers with a network of more than 35,000 professional truck drivers across the top 20 ports in the continental United States. Its platform automates quoting, booking, dispatch, tracking, and document exchange for drayage, intermodal, less-than-truckload (LTL), full-truckload (FTL), and white-glove final-mile delivery. Cargomatic exposes a public REST API (the Cargomatic Public API) so shippers and carriers can automate the same quoting, order-creation, shipment-status, stop-management, driver-assignment, and document workflows available in the Cargomatic portal, authenticating with JWT bearer tokens issued from an authentication endpoint. The company is headquartered in Long Beach, California and is backed by Canaan Partners and the SoftBank Vision Fund.",
@@ -49217,6 +49231,13 @@
    "url": "https://providers.apis.io/providers/dazzle-ai/"
   },
   {
+   "description": "DB Schenker (Schenker AG, headquartered in Essen, Germany) is one of the world's largest freight forwarders and contract logistics providers, moving air, ocean, land and rail freight and running warehousing for shippers across roughly 1,850 locations. As a forwarder it sits in the intermediation layer of the supply chain — between the shipper who owns the cargo and the carriers, terminals and customs authorities who move and clear it — buying capacity it does not own and reselling visibility it did not have to publish. Its API posture is honestly a customer-contract posture, not a public developer posture. Deutsche Bahn sold DB Schenker to DSV A/S, completing 30 April 2025, and as of this profile www.dbschenker.com 301-redirects to dsv.com while the global developer portal at api-portal.dbschenker.com answers HTTP 410 Gone. The one DB Schenker-branded machine-readable API surface still live is the Nordic parcel \"Partner services API\" at parcelservices-se.dbschenker.com/Apipartner, which publishes four Swagger 2.0 documents openly but returns 401 on every operation without HTTP Basic credentials issued against a signed Swedish transport agreement. Its EDI endpoints are proprietary JSON, not EDIFACT or X12, and no DCSA, IATA ONE Record, GS1 EPCIS or WCO Data Model conformant contract was found on any reachable host.",
+   "name": "DB Schenker",
+   "slug": "db-schenker",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/db-schenker"
+  },
+  {
    "description": "DBnomics is the world's economic database - a free, open-source",
    "name": "DBnomics",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/screenshots/dbnomics-2026-07-25T211453.png",
@@ -58311,6 +58332,13 @@
    "url": "https://providers.apis.io/providers/emidat/"
   },
   {
+   "description": "Emirates SkyCargo is the air cargo division of Emirates Airline, headquartered at Dubai International Airport in the United Arab Emirates, moving general freight, pharmaceuticals, perishables, live animals, valuables, mail and courier traffic across a network of more than 140 destinations on six continents using both freighters and passenger-aircraft bellyhold capacity. In the shipment chain it is the airborne carrier leg sitting between the freight forwarder and the ground handler, and it books almost exclusively through intermediaries rather than shippers directly. Its API posture is advertised but not published: Emirates SkyCargo states on its own Digital Booking Channels page that it offers \"a direct API connection to your in-house system\" covering booking creation, amendments, cancellations and track and trace, yet there is no developer portal, no API reference, no OpenAPI or AsyncAPI document, no base URL and no self-serve signup anywhere on skycargo.com. Access is obtained only by emailing SkyCargoAPISupport@emirates.com to negotiate a host-to-host connection, by integrating through the CargoWise transport management system, by submitting Freight Forwarding Requests over EDI, or by booking through the WebCargo, CargoAi, Pelicargo and cargo.one marketplaces, which themselves require IATA/CASS accreditation. The one standard the organization documents on its own surface is IATA e-AWB: agents must sign the IATA Multilateral e-AWB Agreement before submitting FWB and FHL cargo messages over EDI messaging. This is an EDI-and-bilateral-integration carrier with a customer-contract portal veneer, not a public API provider.",
+   "name": "Emirates SkyCargo",
+   "slug": "emirates-skycargo",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/emirates-skycargo"
+  },
+  {
    "description": "EMIS Health is a United Kingdom health-technology company and one of",
    "name": "EMIS Health",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/screenshots/emis-health-2026-07-25T213240.png",
@@ -61739,6 +61767,13 @@
    "slug": "evreka",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/evreka/"
+  },
+  {
+   "description": "Evri is the United Kingdom's largest dedicated parcel delivery company, formerly Hermes UK, headquartered in Leeds and majority owned by Apollo-managed funds. Following the CMA-cleared 2025 merger with DHL eCommerce UK, the combined group delivers more than a billion parcels a year across a courier network of 30,000+ couriers and van drivers, thousands of ParcelShops and lockers, and domestic, returns and international services for retailers and marketplace sellers. Evri sits at the last-mile end of the supply chain — the carrier a shipper, retailer or e-commerce platform hands a parcel to for final delivery in the UK. Its API posture is customer-contract portal only: Evri publishes no developer portal, no public API reference and no machine-readable specification. The host api.evri.com resolves to a live Tyk API Gateway (5.13.0) whose only publicly reachable path is an unauthenticated health check; every other probed path returns 404 and no listen path is discoverable without credentials. Shipment, label, ParcelShop, Print in Store and tracking credentials are issued by an Evri account manager or sales representative to contracted Corporate or Business accounts, with sandbox and production credentials handed over by email. In practice most integrators reach Evri indirectly through shipping-API aggregators such as EasyPost, ShipEngine / ShipStation, Sendcloud, AfterShip and Intersoft Sapient rather than directly.",
+   "name": "Evri",
+   "slug": "evri",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/evri"
   },
   {
    "description": "Evrim is the upstream signal layer for U.S. financial institutions, the defense industrial base, and federal agencies. The Evrim REST API (\"Data when and how you want it.\", v0.5.18) builds structured intelligence profiles from reusable templates and fields, captures point-in-time snapshots, and extracts values and relationships from source content. Every operation authenticates with a Knox-issued API token sent as an HTTP Bearer credential, and an official Stainless-generated Python SDK is published on PyPI.",
@@ -104495,6 +104530,13 @@
    "slug": "lufthansa",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/lufthansa/"
+  },
+  {
+   "description": "Lufthansa Cargo AG is the air freight arm of the Lufthansa Group, headquartered in Frankfurt, Germany. It sells and operates belly capacity across the Lufthansa passenger fleet plus its own Boeing 777F freighters, and runs the Frankfurt Cargo Center hub, so it sits in the chain as the airline carrier between the freight forwarder and the destination handling agent. Its API posture is real but two-speed: a live Apigee developer portal at developer.lufthansa-cargo.com publishes four OpenAPI 3.0 contracts anonymously downloadable without a login (Routing Offer, Shipment Tracking, Shipment Tracking Subscribe, Station Information), while six further API products in the same portfolio - smartBooking, Truck PreAdvice, ULD Status, AirMail, CargoXML and CargoIMP - are published only as info-block stubs carrying the sentence that access is granted upon prior approval and agreement. Registration is reviewed by Lufthansa Cargo API managers before keys are issued and production access requires successful test-environment validation, so this is application-approval, not self-serve. The published REST surface is a proprietary Lufthansa Cargo shape, but it carries open air-cargo vocabulary inside it - IATA AWB prefix 020 plus 8-digit AWB numbers, 3-letter IATA station codes and the IATA cargo status code set (RCS, MAN, DEP, ARR, RCF, NFD, DLV) - while the legacy Cargo-IMP and Cargo-XML EDI message sets remain in the portfolio as gated products and IATA ONE Record went live in July 2026 through the IBS Software ONE Record server rather than as anything Lufthansa Cargo publishes itself.",
+   "name": "Lufthansa Cargo",
+   "slug": "lufthansa-cargo",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/lufthansa-cargo"
   },
   {
    "description": "Lugg is an on-demand moving and delivery service that connects customers with background-checked movers and trucks for same-day and scheduled jobs across 20+ U.S. metropolitan areas. Beyond consumer moves, Lugg handles furniture and appliance delivery, junk removal and donation pickups, and labor-only help, with real-time tracking and in-app payment. Lugg also publishes a partner / developer REST API (documented at docs.lugg.com, served from api.lugg.com) that lets retailers, marketplaces, and platforms embed Lugg delivery: it exposes OAuth2 authentication, quotes, bookings and multi-stop booking flows, schedules, and webhook endpoints, with a documented sandbox environment, pagination, rate limiting, and error semantics. Lugg is a Y Combinator-backed company.",
@@ -196077,6 +196119,13 @@
    "slug": "zong",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/zong/"
+  },
+  {
+   "description": "Zonos is a cross-border trade technology company headquartered in St. George,",
+   "name": "Zonos",
+   "slug": "zonos",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/zonos"
   },
   {
    "description": "\"Facts and pictures of zoo animals\"",

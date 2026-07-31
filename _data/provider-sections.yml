@@ -201,6 +201,27 @@
           href: /canadian-travel/
           count: { from: total, key: providers-canadian-travel }
 
+    - name: Logistics & Supply Chain
+      icon: local_shipping
+      description: >-
+        Split by mode rather than country, because a container, a parcel and an air waybill
+        cross borders by definition — air cargo and parcel, freight platforms, forwarders and
+        customs, road, fleet and telematics, and ocean and ports. The sector where no single
+        party owns the transaction, ranked by Kin Score.
+      markets:
+        - name: Air Cargo & Parcel
+          href: /air-cargo-parcel/
+          count: { from: total, key: providers-air-cargo-parcel }
+        - name: Freight Platforms
+          href: /freight-platforms/
+          count: { from: total, key: providers-freight-platforms }
+        - name: Road & Fleet
+          href: /road-fleet/
+          count: { from: total, key: providers-road-fleet }
+        - name: Ocean & Ports
+          href: /ocean-ports/
+          count: { from: total, key: providers-ocean-ports }
+
     - name: Telecommunications
       icon: cell_tower
       unit: providers
@@ -235,7 +256,7 @@
 
 - id: collections
   title: Collections
-  intro: Standing rosters of providers drawn from public indexes, government registries, private-market venues, venture portfolios, and open-source foundations.
+  intro: Standing rosters of providers drawn from public indexes, government registries, universities, private-market venues, venture portfolios, and open-source foundations.
   columns: col-md-4
   cards:
 
@@ -266,6 +287,16 @@
         EquityZen, Nasdaq Private Market, and Augment — ranked by their Kin Score.
       href: /secondary-market/
       cta: Browse Secondary Market
+
+    - name: Universities
+      icon: school
+      unit: institutions
+      count: { from: total, key: providers-universities }
+      description: >-
+        Universities and research institutions publishing APIs — course and campus data,
+        library and repository catalogs, open research data, and scholarly collections.
+      href: /universities/
+      cta: Browse Universities
 
     - name: U.S. Federal Government
       icon: gavel

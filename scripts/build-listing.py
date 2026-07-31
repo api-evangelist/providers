@@ -11,11 +11,13 @@ Output:
   - _data/providers.json               : alphabetical { letter: [...] }
   - _data/providers-fortune1000.json   : flat list of Fortune 1000 providers
   - _data/providers-federal.json       : flat list of Federal Government providers
+  - _data/providers-universities.json  : flat list of universities
   - _data/providers-{band}.json        : flat list per apis.io rating band
   - index.html                         : home with category cards (includes home.html)
   - alphabetical/index.html + alphabetical/<letter>/index.html
   - fortune-1000/index.html
   - federal-government/index.html
+  - universities/index.html
   - {exemplar,strong,developing,thin,minimal}/index.html
 """
 import json
@@ -40,6 +42,14 @@ FORTUNE_TAGS = {"Fortune 100", "Fortune 500", "Fortune 1000"}
 FEDERAL_TAGS = {"Federal Government", "United States Government", "Federal"}
 APACHE_TAGS = {"Apache"}
 CNCF_TAGS = {"CNCF"}
+
+# Universities = degree-granting institutions only. Deliberately keyed on the
+# "University" tag alone and NOT on "Higher Education", which the enrichment
+# pipeline also hangs on the ed-tech vendors that SELL to universities —
+# Canvas LMS, Handshake, 2U, Barnes & Noble Education, Piazza, Top Hat. Those
+# are suppliers to the sector, not institutions in it, and mixing them in
+# would make the collection a market listing rather than an institution one.
+UNIVERSITY_TAGS = {"University"}
 
 # European Government = a provider carrying BOTH a government tag and a
 # European location tag (country / region / European Union).
@@ -402,6 +412,7 @@ def main():
     european = []
     apache = []
     cncf = []
+    universities = []
     band_lists = {b: [] for b in BANDS}
     counts = {"provider": 0, "repo": 0}
 
@@ -445,6 +456,8 @@ def main():
                 apache.append(entry)
             if tag_set & CNCF_TAGS:
                 cncf.append(entry)
+            if tag_set & UNIVERSITY_TAGS:
+                universities.append(entry)
             if band in band_lists:
                 band_lists[band].append(entry)
 
@@ -456,6 +469,7 @@ def main():
     european.sort(key=lambda x: x["name"].lower())
     apache.sort(key=lambda x: x["name"].lower())
     cncf.sort(key=lambda x: x["name"].lower())
+    universities.sort(key=lambda x: x["name"].lower())
     for b in BANDS:
         band_lists[b].sort(key=lambda x: x["name"].lower())
 
@@ -480,6 +494,8 @@ def main():
         json.dump(band_grouped(apache), fh, ensure_ascii=False, indent=1)
     with open(os.path.join(data_dir, "providers-cncf.json"), "w", encoding="utf-8") as fh:
         json.dump(band_grouped(cncf), fh, ensure_ascii=False, indent=1)
+    with open(os.path.join(data_dir, "providers-universities.json"), "w", encoding="utf-8") as fh:
+        json.dump(band_grouped(universities), fh, ensure_ascii=False, indent=1)
     for b in BANDS:
         with open(os.path.join(data_dir, "providers-%s.json" % b), "w", encoding="utf-8") as fh:
             json.dump(band_grouped(band_lists[b]), fh, ensure_ascii=False, indent=1)
@@ -491,17 +507,18 @@ def main():
     print("european:     %d" % len(european))
     print("apache:       %d" % len(apache))
     print("cncf:         %d" % len(cncf))
+    print("universities: %d" % len(universities))
     for b in BANDS:
         print("band/%-12s %d" % (b + ":", len(band_lists[b])))
 
-    return groups, fortune1000, federal, european, apache, cncf, band_lists
+    return groups, fortune1000, federal, european, apache, cncf, universities, band_lists
 
 
 # ---------------------------------------------------------------------------
 # Page generation
 # ---------------------------------------------------------------------------
 
-def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists):
+def write_pages(groups, fortune1000, federal, european, apache, cncf, universities, band_lists):
     letters = list(string.ascii_uppercase)
 
     # --- Home page ---
@@ -615,6 +632,16 @@ def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists
             "Cloud Native Computing Foundation (CNCF) projects publishing APIs on the network.",
         ))
 
+    d = os.path.join(SITE, "universities")
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(flat_page(
+            "Universities",
+            "providers-universities",
+            "Universities and research institutions with APIs, ranked by their Kin Score.",
+            "Universities and research institutions publishing APIs on the network — course and campus data, library and repository catalogs, open research data, identity, and the OAI-PMH and IIIF endpoints behind their scholarly collections.",
+        ))
+
     for b in BANDS:
         label, desc = BAND_META[b]
         d = os.path.join(SITE, b)
@@ -637,5 +664,5 @@ def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists
 
 
 if __name__ == "__main__":
-    g, f1000, fed, eur, apa, cn, bands = main()
-    write_pages(g, f1000, fed, eur, apa, cn, bands)
+    g, f1000, fed, eur, apa, cn, uni, bands = main()
+    write_pages(g, f1000, fed, eur, apa, cn, uni, bands)
