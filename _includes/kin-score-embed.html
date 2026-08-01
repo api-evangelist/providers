@@ -1,0 +1,151 @@
+{%- comment -%}
+  ---- Embed this Kin Score ----------------------------------------------------
+
+  The copy/paste block that puts this provider's K'in sun on their OWN website.
+  Rendered by apis.io/badge/* (see apis-io-aws/lambdas/badge/), which redraws the
+  sun from the live score, so a provider pastes this once and it stays current.
+
+  This file is a DELIBERATE COPY, kept identical on both sites — the same
+  arrangement as assets/js/kin-glyph.js. The only difference between the two
+  copies is `include.target`, which decides where the pasted link points:
+
+      {% raw %}{% include kin-score-embed.html target="apis-io" %}{% endraw %}          (apis.io)
+      {% raw %}{% include kin-score-embed.html target="api-evangelist" %}{% endraw %}   (apievangelist.com)
+
+  WHY THE SNIPPET LOOKS THE WAY IT DOES. The <a> is real HTML with no query
+  string and no rel=nofollow, and the <img> alt is a full sentence naming the
+  score and API Evangelist. That is the entire SEO payload: a crawler that never
+  runs JavaScript still sees an editorial link from the provider's own site, and
+  because the image is the only child of the link, its alt IS the anchor text.
+  Attribution comes from the badge request's Referer, which names the exact
+  embedding page — better data than a utm tag, and it keeps the link clean.
+  Do not "improve" this by adding tracking parameters to the href.
+
+  Guarded on page.score.composite by the caller; render nothing without a score.
+{%- endcomment -%}
+
+{%- assign badge_origin = "https://apis.io" -%}
+{%- if include.target == "api-evangelist" -%}
+  {%- assign badge_href = "https://providers.apievangelist.com/providers/" | append: page.slug | append: "/" -%}
+  {%- assign badge_title = page.name | append: " on API Evangelist — API profile and Kin Score" -%}
+{%- else -%}
+  {%- assign badge_href = "https://apis.io/providers/" | append: page.slug | append: "/" -%}
+  {%- assign badge_title = page.name | append: " on APIs.io — API discovery and ratings" -%}
+{%- endif -%}
+
+{%- comment -%}
+  The alt text must be the SAME sentence the badge service puts in the SVG's
+  aria-label (altText() in render.mjs), so the page, the image and a screen
+  reader all say one thing. `times: 1.0 | round: 1` reproduces toFixed(1) —
+  without it a provider scoring exactly 72 renders "72" here and "72.0" there.
+{%- endcomment -%}
+{%- assign kse_score = page.score.composite | times: 1.0 | round: 1 -%}
+{%- capture kse_alt -%}
+{{ page.name }} Kin Score: {{ kse_score }} out of 100 ({{ page.score.band | capitalize }}){% if page.agent_readiness and page.agent_readiness.band %}, agent readiness {{ page.agent_readiness.score | round }}/100 ({{ page.agent_readiness.band | replace: '-', ' ' }}){% endif %} &mdash; API rating by API Evangelist
+{%- endcapture -%}
+{%- assign kse_alt = kse_alt | strip | replace: '&mdash;', '—' -%}
+
+<style>
+  .kse { background:#fff; border:1px solid #e3e7ee; border-radius:12px; padding:1.5rem; margin-bottom:2rem; }
+  .kse-top { display:flex; align-items:flex-start; gap:1.25rem; flex-wrap:wrap; margin-bottom:1rem; }
+  .kse-top p { margin:0; font-size:0.9rem; color:#5b6270; line-height:1.55; flex:1 1 320px; }
+  .kse-preview { flex:0 0 auto; }
+  .kse-preview img { display:block; width:96px; height:96px; }
+  .kse-tabs { display:flex; flex-wrap:wrap; gap:0.35rem; margin-bottom:0.75rem; }
+  .kse-tab { border:1px solid #e3e7ee; background:#fff; color:#5b6270; border-radius:999px;
+             padding:0.3rem 0.75rem; font:600 0.78rem system-ui,-apple-system,sans-serif; cursor:pointer; }
+  .kse-tab[aria-selected="true"] { background:#0d6efd; border-color:#0d6efd; color:#fff; }
+  .kse-box { position:relative; }
+  .kse-box pre { background:#f6f8fa; border:1px solid #e3e7ee; border-radius:8px; margin:0;
+                 padding:0.85rem 1rem; overflow-x:auto; white-space:pre;
+                 font:0.76rem/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; color:#12172b; }
+  .kse-copy { position:absolute; top:0.5rem; right:0.5rem; border:1px solid #e3e7ee; background:#fff;
+              color:#5b6270; border-radius:6px; padding:0.28rem 0.6rem;
+              font:600 0.72rem system-ui,-apple-system,sans-serif; cursor:pointer; }
+  .kse-copy:hover { border-color:#0d6efd; color:#0d6efd; }
+  .kse-copy[data-done] { color:#1baf7a; border-color:#1baf7a; }
+  .kse-foot { margin:0.85rem 0 0; font-size:0.8rem; color:#8a94a6; }
+  .kse-foot a { color:#0d6efd; text-decoration:none; }
+  .kse-foot a:hover { text-decoration:underline; }
+  .kse [hidden] { display:none; }
+</style>
+
+<div class="kse">
+  <div class="kse-top">
+    <span class="kse-preview">
+      <img src="{{ badge_origin }}/badge/{{ page.slug }}.svg" width="96" height="96"
+           alt="{{ kse_alt | escape }}" loading="lazy">
+    </span>
+    <p><strong>Put this on your own site.</strong> The badge is drawn live from {{ page.name }}'s
+       current Kin Score — paste it once and it updates itself every time the score is recomputed.
+       It follows your visitor's light or dark setting, and it links back here so anyone who sees
+       it can read the full breakdown.</p>
+  </div>
+
+  <div class="kse-tabs" role="tablist">
+    <button class="kse-tab" type="button" role="tab" aria-selected="true"  data-kse="html">HTML</button>
+    <button class="kse-tab" type="button" role="tab" aria-selected="false" data-kse="markdown">Markdown / README</button>
+    <button class="kse-tab" type="button" role="tab" aria-selected="false" data-kse="card">Card</button>
+  </div>
+
+  <div class="kse-box" data-kse-panel="html">
+    <button class="kse-copy" type="button">Copy</button>
+    <pre><code>&lt;!-- Kin Score · API Evangelist --&gt;
+&lt;a href="{{ badge_href }}"
+   title="{{ badge_title | escape }}"&gt;
+  &lt;img src="{{ badge_origin }}/badge/{{ page.slug }}.svg"
+       alt="{{ kse_alt | escape }}" width="150" height="150" loading="lazy"&gt;
+&lt;/a&gt;</code></pre>
+  </div>
+
+  <div class="kse-box" data-kse-panel="markdown" hidden>
+    <button class="kse-copy" type="button">Copy</button>
+    <pre><code>[![{{ kse_alt }}]({{ badge_origin }}/badge/{{ page.slug }}/flat.svg)]({{ badge_href }})</code></pre>
+  </div>
+
+  <div class="kse-box" data-kse-panel="card" hidden>
+    <button class="kse-copy" type="button">Copy</button>
+    <pre><code>&lt;!-- Kin Score · API Evangelist --&gt;
+&lt;a href="{{ badge_href }}"
+   title="{{ badge_title | escape }}"&gt;
+  &lt;img src="{{ badge_origin }}/badge/{{ page.slug }}/card.svg"
+       alt="{{ kse_alt | escape }}" width="340" height="120" loading="lazy"&gt;
+&lt;/a&gt;</code></pre>
+  </div>
+
+  <p class="kse-foot">
+    <a href="{{ badge_origin }}/badge/{{ page.slug }}/">More shapes, themes and sizes &rarr;</a>
+    &middot; <a href="{{ badge_origin }}/badge/{{ page.slug }}.json">Score as JSON</a>
+    &middot; <a href="{{ badge_origin }}/badge/">How badges work</a>
+  </p>
+</div>
+
+<script>
+/* Tabs + copy. Scoped to .kse so a page can carry more than one without them
+   fighting, and written without any framework because this include is copied
+   verbatim onto two Jekyll sites that share no build step. */
+(function () {
+  document.querySelectorAll('.kse').forEach(function (root) {
+    root.querySelectorAll('.kse-tab').forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        root.querySelectorAll('.kse-tab').forEach(function (t) {
+          t.setAttribute('aria-selected', String(t === tab));
+        });
+        root.querySelectorAll('[data-kse-panel]').forEach(function (p) {
+          p.hidden = p.getAttribute('data-kse-panel') !== tab.getAttribute('data-kse');
+        });
+      });
+    });
+    root.querySelectorAll('.kse-copy').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var code = btn.parentNode.querySelector('pre').textContent;
+        navigator.clipboard.writeText(code).then(function () {
+          btn.textContent = 'Copied';
+          btn.setAttribute('data-done', '1');
+          setTimeout(function () { btn.textContent = 'Copy'; btn.removeAttribute('data-done'); }, 1600);
+        });
+      });
+    });
+  });
+})();
+</script>

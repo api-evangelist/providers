@@ -381,11 +381,14 @@ nav: Providers
       {%- endif %}
 
       {%- comment -%}
-        ---- Personalized Checklist offer ----
-        Only where there is a score to itemize. Gated on the same condition as
-        the panel above so it can never appear on a page with no rating.
+        ---- Embed this score, then the Personalized Checklist offer ----
+        Both gated on the same condition as the panel above so neither can appear
+        on a page with no rating. Order is deliberate: the embed block is the free
+        thing a provider who likes their score wants next, and it seeds a link
+        back here; the paid checklist follows for the ones who do not.
       {%- endcomment -%}
       {%- if page.score and page.score.composite %}
+        {% include kin-score-embed.html target="api-evangelist" %}
         {% include provider-checklist-offer.html %}
       {%- endif %}
 
