@@ -14,12 +14,13 @@
 
   WHY THE SNIPPET LOOKS THE WAY IT DOES. The <a> is real HTML with no query
   string and no rel=nofollow, and the <img> alt is a full sentence naming the
-  score and API Evangelist. That is the entire SEO payload: a crawler that never
-  runs JavaScript still sees an editorial link from the provider's own site, and
-  because the image is the only child of the link, its alt IS the anchor text.
-  Attribution comes from the badge request's Referer, which names the exact
-  embedding page — better data than a utm tag, and it keeps the link clean.
-  Do not "improve" this by adding tracking parameters to the href.
+  provider and API Evangelist — but NOT the score (see below). That is the entire
+  SEO payload: a crawler that never runs JavaScript still sees an editorial link
+  from the provider's own site, and because the image is the only child of the
+  link, its alt IS the anchor text. Attribution comes from the badge request's
+  Referer, which names the exact embedding page — better data than a utm tag, and
+  it keeps the link clean. Do not "improve" this by adding tracking parameters to
+  the href.
 
   Guarded on page.score.composite by the caller; render nothing without a score.
 {%- endcomment -%}
@@ -34,14 +35,23 @@
 {%- endif -%}
 
 {%- comment -%}
-  The alt text must be the SAME sentence the badge service puts in the SVG's
-  aria-label (altText() in render.mjs), so the page, the image and a screen
-  reader all say one thing. `times: 1.0 | round: 1` reproduces toFixed(1) —
-  without it a provider scoring exactly 72 renders "72" here and "72.0" there.
+  The alt text carries NO SCORE, deliberately, and must match embedAltText() in
+  the badge service's render.mjs.
+
+  It once repeated the number, matching the SVG's own aria-label, and that was a
+  defect: this snippet gets pasted onto someone else's site once and kept, while
+  the image behind it re-renders from the live score forever. A baked-in number
+  is therefore guaranteed to drift out of step with the picture beside it — and
+  since alt is both the anchor text and what a screen reader announces, the drift
+  is an accessibility bug, not a cosmetic one. It showed up on day one: this page
+  and the badge disagreed immediately, because this site's front matter and the
+  badge shard come from different scoring runs.
+
+  Rule: anything baked into the embedder's HTML must be true indefinitely.
+  Time-varying values belong in the image, which updates.
 {%- endcomment -%}
-{%- assign kse_score = page.score.composite | times: 1.0 | round: 1 -%}
 {%- capture kse_alt -%}
-{{ page.name }} Kin Score: {{ kse_score }} out of 100 ({{ page.score.band | capitalize }}){% if page.agent_readiness and page.agent_readiness.band %}, agent readiness {{ page.agent_readiness.score | round }}/100 ({{ page.agent_readiness.band | replace: '-', ' ' }}){% endif %} &mdash; API rating by API Evangelist
+{{ page.name }} Kin Score &mdash; API readiness rating by API Evangelist
 {%- endcapture -%}
 {%- assign kse_alt = kse_alt | strip | replace: '&mdash;', '—' -%}
 
