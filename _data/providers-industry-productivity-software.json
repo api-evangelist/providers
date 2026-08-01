@@ -28,7 +28,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 57.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -40,7 +40,7 @@
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "verified",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true,
@@ -48,6 +48,44 @@
       "dry_run_mode": false
      },
      "rank": 1
+    },
+    {
+     "name": "Asana",
+     "slug": "asana",
+     "description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work. The Asana API allows developers to programmatically access and integrate Asana's project management capabilities into their applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png",
+     "score": 77.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 86.5,
+      "governance": 52.1,
+      "operational_transparency": 94.7,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 92.1
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.9,
+     "agent_score": 41.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 2
     },
     {
      "name": "Postman",
@@ -66,7 +104,7 @@
       "commercial_clarity": 100.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -78,47 +116,9 @@
       "error_semantics": false,
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 2
-    },
-    {
-     "name": "Asana",
-     "slug": "asana",
-     "description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work. The Asana API allows developers to programmatically access and integrate Asana's project management capabilities into their applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png",
-     "score": 76.7,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 84.9,
-      "governance": 52.1,
-      "operational_transparency": 94.7,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 92.1
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 41.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -142,7 +142,7 @@
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 50.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -154,7 +154,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -173,14 +173,14 @@
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 73.9,
+      "contract_quality": 74.0,
       "governance": 31.3,
       "operational_transparency": 86.8,
       "developer_ergonomics": 84.8,
       "commercial_clarity": 68.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -199,7 +199,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -225,7 +225,7 @@
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -237,7 +237,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -251,20 +251,20 @@
      "slug": "atlassian",
      "description": "Atlassian is a software company that develops collaboration, productivity, and project management tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline workflows, and support project tracking across a wide range of industries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png",
-     "score": 69.2,
+     "score": 69.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 79.0,
+      "contract_quality": 79.8,
       "governance": 68.8,
       "operational_transparency": 78.9,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 68.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 56.3,
+     "schema_version": 0.9,
+     "agent_score": 59.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -275,12 +275,12 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
+      "dry_run_mode": true
      },
      "rank": 7
     }
@@ -312,7 +312,7 @@
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -324,7 +324,7 @@
       "error_semantics": false,
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -361,7 +361,7 @@
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -373,7 +373,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -387,19 +387,19 @@
      "slug": "coda",
      "description": "Coda is an all-in-one doc platform combining documents, spreadsheets, and apps. The Coda API exposes docs, pages, tables, rows, columns, controls, formulas, automations, packs, permissions, and analytics for programmatic integration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/screenshots/coda-2026-06-20T174651.png",
-     "score": 51.2,
+     "score": 51.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 72.3,
+      "contract_quality": 73.3,
       "governance": 41.7,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -411,7 +411,7 @@
       "error_semantics": false,
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -437,7 +437,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -449,7 +449,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -463,19 +463,19 @@
      "slug": "monday-com",
      "description": "An expressive API to interact with your workflows, automate processes, power integrations, and more!",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/screenshots/monday-com-2026-06-20T185722.png",
-     "score": 47.0,
+     "score": 46.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 77.5,
+      "contract_quality": 73.6,
       "governance": 47.9,
       "operational_transparency": 36.8,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 38.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -487,7 +487,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -513,7 +513,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -532,7 +532,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -558,7 +558,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -577,7 +577,7 @@
       "error_semantics": false,
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -613,7 +613,7 @@
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -625,7 +625,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -661,7 +661,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -673,7 +673,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -699,7 +699,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -711,7 +711,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,

@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Bloomberg",
@@ -28,7 +28,7 @@
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -47,7 +47,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -73,7 +73,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -92,7 +92,7 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -100,36 +100,25 @@
       "dry_run_mode": false
      },
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
      "name": "Snowflake",
      "slug": "snowflake",
      "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
-     "score": 65.7,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 66.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
       "discoverability": 40.7,
-      "contract_quality": 76.0,
+      "contract_quality": 77.3,
       "governance": 58.3,
       "operational_transparency": 68.4,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 68.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -141,7 +130,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -166,19 +155,19 @@
      "slug": "dow-jones",
      "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-     "score": 50.0,
+     "score": 53.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 51.6,
+      "contract_quality": 66.2,
       "governance": 11.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -186,7 +175,7 @@
       "score": 58.3,
       "matched_via": "tags"
      },
-     "agent_score": 39.9,
+     "agent_score": 52.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -194,10 +183,10 @@
       "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -223,7 +212,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -242,7 +231,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -268,7 +257,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -287,7 +276,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -296,7 +285,8 @@
      },
      "rank": 6
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "emerging",
@@ -323,7 +313,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -335,7 +325,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,

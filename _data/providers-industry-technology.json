@@ -16,19 +16,19 @@
      "slug": "stripe",
      "description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png",
-     "score": 84.6,
+     "score": 84.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 72.5,
+      "contract_quality": 72.9,
       "governance": 63.5,
       "operational_transparency": 94.7,
       "developer_ergonomics": 95.1,
       "commercial_clarity": 100.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -47,7 +47,7 @@
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -73,7 +73,7 @@
       "commercial_clarity": 100.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -85,7 +85,7 @@
       "error_semantics": false,
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": false,
@@ -111,7 +111,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -123,7 +123,7 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true,
@@ -137,19 +137,19 @@
      "slug": "twilio",
      "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
-     "score": 74.1,
+     "score": 74.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 77.8,
-      "contract_quality": 70.8,
+      "contract_quality": 71.1,
       "governance": 69.8,
       "operational_transparency": 94.7,
       "developer_ergonomics": 84.8,
       "commercial_clarity": 76.3
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -168,7 +168,7 @@
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -194,7 +194,7 @@
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -213,7 +213,7 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -221,6 +221,44 @@
       "dry_run_mode": false
      },
      "rank": 5
+    },
+    {
+     "name": "Composio",
+     "slug": "composio",
+     "description": "Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router for runtime tool discovery, webhook triggers, and a CLI so agents turn intent into action without custom integration work.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/screenshots/composio-2026-06-20T174834.png",
+     "score": 71.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 66.5,
+      "governance": 69.8,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 71.1
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.9,
+     "agent_score": 66.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 6
     },
     {
      "name": "Splunk",
@@ -232,15 +270,15 @@
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 55.6,
-      "contract_quality": 77.9,
+      "contract_quality": 78.1,
       "governance": 58.3,
       "operational_transparency": 68.4,
       "developer_ergonomics": 73.9,
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 47.7,
+     "schema_version": 0.9,
+     "agent_score": 55.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -248,17 +286,17 @@
       "mcp_server": true,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Meta",
@@ -277,7 +315,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -296,14 +334,14 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Zuplo",
@@ -322,7 +360,7 @@
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 45.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -334,47 +372,9 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "verified",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 8
-    },
-    {
-     "name": "Composio",
-     "slug": "composio",
-     "description": "Composio is an agent execution platform that bridges AI decision-making and real-world action across 1000+ apps through just-in-time tool calls, secure delegated auth, sandboxed environments, an MCP gateway, parallel execution, and context-aware sessions. Developers get managed OAuth, a tool router for runtime tool discovery, webhook triggers, and a CLI so agents turn intent into action without custom integration work.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/screenshots/composio-2026-06-20T174834.png",
-     "score": 71.1,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 64.7,
-      "governance": 69.8,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 71.1
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 66.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -398,7 +398,7 @@
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 55.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -410,7 +410,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -436,7 +436,7 @@
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -448,7 +448,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -462,19 +462,19 @@
      "slug": "hookdeck",
      "description": "Hookdeck is a Toronto-based webhook and event-infrastructure platform. The Hookdeck Event Gateway sits between webhook senders and your services to receive, verify, queue, retry, transform, filter, route, and observe events reliably at scale. Hookdeck exposes a fully versioned REST Admin API, a CLI for local development, language SDKs (TypeScript, Go, Python, .NET), a Terraform provider, and the open-source Outpost project for self-hostable outbound webhook delivery.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/screenshots/hookdeck-2026-06-20T182825.png",
-     "score": 68.0,
+     "score": 68.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 77.2,
+      "contract_quality": 78.7,
       "governance": 58.3,
       "operational_transparency": 78.9,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 84.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -493,7 +493,7 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -510,27 +510,27 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 17,
-   "shown": 17,
+   "count": 18,
+   "shown": 18,
    "providers": [
     {
      "name": "Shopify",
      "slug": "shopify",
      "description": "Shopify is a complete commerce platform that lets you start, grow, and manage a business. The Shopify API lets you build apps and integrations that extend Shopify functionality for merchants.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png",
-     "score": 64.4,
+     "score": 64.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 40.7,
-      "contract_quality": 69.9,
+      "contract_quality": 71.7,
       "governance": 58.3,
       "operational_transparency": 86.8,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -549,7 +549,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": true,
+      "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -563,19 +563,19 @@
      "slug": "amadeus",
      "description": "Amadeus for Developers is the self-service developer program from Amadeus IT Group, the leading technology provider for the global travel and tourism industry. The Self-Service catalog offers 40+ travel REST APIs across flights, hotels, destination experiences, cars and transfers, market insights, itinerary management, and AI-powered prediction services. APIs use OAuth2 client credentials authentication and are organized into Test (free, capped) and Production (paid, higher TPS) environments. Note: Amadeus has announced the Self-Service developer portal will be decommissioned on 17 July 2026; Enterprise customers retain access to the equivalent Enterprise APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png",
-     "score": 64.3,
+     "score": 64.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 79.8,
+      "contract_quality": 80.1,
       "governance": 68.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 42.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -587,7 +587,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -606,14 +606,14 @@
      "band_label": "Strong",
      "facets": {
       "discoverability": 63.0,
-      "contract_quality": 79.7,
+      "contract_quality": 79.6,
       "governance": 58.3,
       "operational_transparency": 57.9,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -625,7 +625,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -651,7 +651,7 @@
       "commercial_clarity": 81.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 45.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -663,7 +663,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -688,7 +688,7 @@
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 42.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -700,7 +700,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -726,7 +726,7 @@
       "commercial_clarity": 92.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -738,7 +738,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -764,7 +764,7 @@
       "commercial_clarity": 78.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -776,7 +776,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -790,19 +790,19 @@
      "slug": "tyk",
      "description": "Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png",
-     "score": 62.1,
+     "score": 62.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 67.0,
+      "contract_quality": 68.0,
       "governance": 68.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -814,7 +814,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -822,6 +822,44 @@
       "dry_run_mode": false
      },
      "rank": 20
+    },
+    {
+     "name": "Cisco",
+     "slug": "cisco",
+     "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and other Cisco products to automate network operations, build integrations, and extend platform capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png",
+     "score": 61.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 53.1,
+      "governance": 69.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.9,
+     "agent_score": 54.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 21
     },
     {
      "name": "Jentic",
@@ -840,7 +878,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 48.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -852,14 +890,14 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Microsoft",
@@ -878,7 +916,7 @@
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -890,14 +928,14 @@
       "error_semantics": false,
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Uber",
@@ -916,7 +954,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -928,14 +966,14 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Amazon",
@@ -954,7 +992,7 @@
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -973,33 +1011,33 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Kong",
      "slug": "kong",
      "description": "Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agent Gateway, Kong Event Gateway (Kafka-native governance), Kong Mesh (service mesh on Kuma and Envoy), Kong MCP Registry (centralized directory of MCP servers and tools for AI agents), Kong Context Mesh, and Kong Insomnia (API design and testing). Together they unify governance across APIs, real-time event streams, LLM calls, MCP tools, and agent-to-agent communication for the agentic era.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png",
-     "score": 59.5,
+     "score": 59.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 68.4,
+      "contract_quality": 68.8,
       "governance": 58.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 63.0,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 51.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1011,14 +1049,14 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Advanced Micro Devices",
@@ -1037,7 +1075,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1049,33 +1087,33 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Gravitee",
      "slug": "gravitee",
      "description": "Gravitee.io is an open-source API management platform from GraviteeSource, combining a high-performance API Gateway, full-lifecycle API Management, Access Management (IAM), Cockpit (multi-environment control plane), an Alert Engine, a Kubernetes Operator, and a new AI Agent Management suite with native MCP and LLM-proxy capabilities. The core projects are Apache 2.0 OSS, with an Enterprise commercial offering and a managed Gravitee Cloud SaaS. The platform supports synchronous and asynchronous APIs across REST, GraphQL, WebSocket, gRPC, SSE, Webhooks, Kafka, MQTT, AMQP, and Model Context Protocol (MCP).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png",
-     "score": 58.1,
+     "score": 58.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 64.6,
+      "contract_quality": 64.9,
       "governance": 58.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 57.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 50.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1087,14 +1125,14 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Snapchat",
@@ -1113,7 +1151,7 @@
       "commercial_clarity": 73.7
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1132,14 +1170,14 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "AssemblyAI",
@@ -1158,9 +1196,9 @@
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
+     "schema_version": 0.9,
+     "agent_score": 34.7,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -1170,14 +1208,14 @@
       "error_semantics": false,
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": true,
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     }
    ],
    "open": true
@@ -1187,8 +1225,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 33,
-   "shown": 33,
+   "count": 32,
+   "shown": 32,
    "providers": [
     {
      "name": "Ciena",
@@ -1207,7 +1245,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1226,48 +1264,10 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 30
-    },
-    {
-     "name": "Cisco",
-     "slug": "cisco",
-     "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure platforms. Through Cisco DevNet, developers can access REST APIs, SDKs, and developer tools for Meraki, Webex, Catalyst Center, ACI, ISE, Intersight, ThousandEyes, SD-WAN, and other Cisco products to automate network operations, build integrations, and extend platform capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png",
-     "score": 55.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 29.5,
-      "governance": 69.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 54.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -1290,7 +1290,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1302,7 +1302,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1328,7 +1328,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1340,7 +1340,7 @@
       "error_semantics": false,
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1366,7 +1366,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 33.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1378,7 +1378,7 @@
       "error_semantics": false,
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "asyncapi_events": "derived",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1404,7 +1404,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1416,7 +1416,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1442,7 +1442,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1454,7 +1454,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1480,7 +1480,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1492,7 +1492,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1500,6 +1500,44 @@
       "dry_run_mode": false
      },
      "rank": 37
+    },
+    {
+     "name": "Scalar",
+     "slug": "scalar",
+     "description": "Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go, PHP, Java, and Ruby. Used by teams at SmartBear, Microsoft ASP.NET, and 30+ framework ecosystems including Express, FastAPI, NestJS, and Spring Boot. The platform has 14.9k GitHub stars and is MIT licensed. Scalar is backed by a strong open-source community and positions itself as the modern, open alternative to Swagger UI and Postman.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/screenshots/scalar-2026-06-20T193504.png",
+     "score": 52.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 57.4,
+      "governance": 68.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 57.9
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.9,
+     "agent_score": 39.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 38
     },
     {
      "name": "Cisco Systems",
@@ -1518,7 +1556,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1530,45 +1568,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 38
-    },
-    {
-     "name": "Scalar",
-     "slug": "scalar",
-     "description": "Scalar is an open-source API platform built around the OpenAPI standard. It provides API documentation (API References), an offline-first API client, a centralized API registry for managing OpenAPI documents, JSON schemas and Spectral rules, and automated SDK generation for TypeScript, Python, Go, PHP, Java, and Ruby. Used by teams at SmartBear, Microsoft ASP.NET, and 30+ framework ecosystems including Express, FastAPI, NestJS, and Spring Boot. The platform has 14.9k GitHub stars and is MIT licensed. Scalar is backed by a strong open-source community and positions itself as the modern, open alternative to Swagger UI and Postman.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/screenshots/scalar-2026-06-20T193504.png",
-     "score": 52.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 57.1,
-      "governance": 68.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 57.9
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 39.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1594,7 +1594,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1606,7 +1606,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": false,
@@ -1632,7 +1632,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 41.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1644,7 +1644,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1670,7 +1670,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1682,7 +1682,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1696,19 +1696,19 @@
      "slug": "fusionauth",
      "description": "FusionAuth is a developer-focused customer identity and access management (CIAM) platform that delivers authentication, authorization, registration, multi-factor authentication, single sign-on, OAuth2 and OpenID Connect, and user management capabilities through a comprehensive REST API and self-hostable identity service.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fusionauth/refs/heads/main/screenshots/fusionauth-2026-06-20T181624.png",
-     "score": 50.9,
+     "score": 51.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 50.0,
+      "contract_quality": 50.4,
       "governance": 0.0,
       "operational_transparency": 52.6,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 81.6
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1720,7 +1720,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1734,20 +1734,20 @@
      "slug": "pinterest",
      "description": "Pinterest is an American image sharing and social media service designed to enable saving and discovery of information like recipes, home, style, motivation, and inspiration on the internet using images and, on a smaller scale, animated GIFs and videos, in the form of pinboards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pinterest/refs/heads/main/screenshots/pinterest-2026-06-20T191721.png",
-     "score": 50.7,
+     "score": 50.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 62.5,
+      "contract_quality": 63.0,
       "governance": 0.0,
       "operational_transparency": 57.9,
       "developer_ergonomics": 47.8,
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 38.7,
+     "schema_version": 0.9,
+     "agent_score": 41.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1756,9 +1756,9 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "partial",
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1777,14 +1777,14 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 61.3,
+      "contract_quality": 61.4,
       "governance": 68.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 54.3,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1796,7 +1796,7 @@
       "error_semantics": false,
       "openapi_examples": "partial",
       "rate_limit_signal": "verified",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1822,7 +1822,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1834,7 +1834,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1844,61 +1844,23 @@
      "rank": 46
     },
     {
-     "name": "Linear",
-     "slug": "linear",
-     "description": "Linear's public API is built using GraphQL. It's the same API we use internally for developing our applications. If you are new to GraphQL, Apollo has resources for beginners. The official GraphQL documentation is another good starting point.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/screenshots/linear-2026-06-20T184541.png",
-     "score": 49.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 89.1,
-      "governance": 41.7,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 48.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "asyncapi_events": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 47
-    },
-    {
      "name": "Google",
      "slug": "google",
      "description": "Google's public APIs and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/screenshots/google-2026-06-20T182002.png",
-     "score": 48.6,
+     "score": 48.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 60.8,
+      "contract_quality": 61.5,
       "governance": 0.0,
       "operational_transparency": 42.1,
       "developer_ergonomics": 43.5,
       "commercial_clarity": 71.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1910,14 +1872,14 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 47
     },
     {
      "name": "Verizon",
@@ -1936,7 +1898,7 @@
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1955,7 +1917,45 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 48
+    },
+    {
+     "name": "Rapid7",
+     "slug": "rapid7",
+     "description": "Rapid7 is a cybersecurity company providing the Insight Platform with products for vulnerability management (InsightVM), SIEM/XDR (InsightIDR), application security (InsightAppSec), cloud security (InsightCloudSec), and SOAR (InsightConnect). The Rapid7 Command/Insight Platform API exposes REST endpoints across regional hosts such as us.api.insight.rapid7.com for managing assets, vulnerabilities, investigations, and integrations. Authentication is performed with an organization or user API key passed in the `X-Api-Key` header.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rapid7/refs/heads/main/screenshots/rapid7-2026-06-20T192558.png",
+     "score": 48.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 63.6,
+      "governance": 58.3,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.9,
+     "agent_score": 55.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1965,35 +1965,35 @@
      "rank": 49
     },
     {
-     "name": "Rapid7",
-     "slug": "rapid7",
-     "description": "Rapid7 is a cybersecurity company providing the Insight Platform with products for vulnerability management (InsightVM), SIEM/XDR (InsightIDR), application security (InsightAppSec), cloud security (InsightCloudSec), and SOAR (InsightConnect). The Rapid7 Command/Insight Platform API exposes REST endpoints across regional hosts such as us.api.insight.rapid7.com for managing assets, vulnerabilities, investigations, and integrations. Authentication is performed with an organization or user API key passed in the `X-Api-Key` header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rapid7/refs/heads/main/screenshots/rapid7-2026-06-20T192558.png",
+     "name": "Linear",
+     "slug": "linear",
+     "description": "Linear's public API is built using GraphQL. It's the same API we use internally for developing our applications. If you are new to GraphQL, Apollo has resources for beginners. The official GraphQL documentation is another good starting point.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/screenshots/linear-2026-06-20T184541.png",
      "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 63.1,
-      "governance": 58.3,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 39.5
+      "discoverability": 59.3,
+      "contract_quality": 83.8,
+      "governance": 41.7,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 51.8,
+     "schema_version": 0.9,
+     "agent_score": 48.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2019,7 +2019,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2031,7 +2031,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2057,7 +2057,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 39.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2069,7 +2069,7 @@
       "error_semantics": "verified",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2095,7 +2095,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2107,7 +2107,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2133,7 +2133,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2145,7 +2145,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2171,7 +2171,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2183,7 +2183,7 @@
       "error_semantics": false,
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2209,7 +2209,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 32.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2221,7 +2221,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2247,7 +2247,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2259,7 +2259,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2285,7 +2285,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2297,7 +2297,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2323,7 +2323,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2335,7 +2335,7 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2361,7 +2361,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2380,7 +2380,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2406,7 +2406,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2418,7 +2418,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2444,7 +2444,7 @@
       "commercial_clarity": 63.2
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2456,7 +2456,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2491,7 +2491,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2503,7 +2503,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2529,7 +2529,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2541,7 +2541,7 @@
       "error_semantics": false,
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2567,7 +2567,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2579,7 +2579,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2605,7 +2605,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2617,7 +2617,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2643,7 +2643,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2655,7 +2655,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": false,
@@ -2681,7 +2681,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2693,7 +2693,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2719,7 +2719,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2731,7 +2731,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2750,14 +2750,14 @@
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 59.1,
+      "contract_quality": 59.2,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2769,7 +2769,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2795,7 +2795,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2807,7 +2807,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2833,7 +2833,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2845,7 +2845,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2871,7 +2871,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2883,7 +2883,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2909,7 +2909,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2921,7 +2921,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2946,7 +2946,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2958,7 +2958,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -2972,19 +2972,19 @@
      "slug": "booking-holdings",
      "description": "Booking Holdings is the world's leading provider of online travel and related services, operating a portfolio of brands including Booking.com, Priceline, Agoda, KAYAK, OpenTable, Rentalcars.com, Rocketmiles, FareHarbor, HotelsCombined, Cheapflights, and Momondo. The company connects travelers with accommodations, flights, rental cars, restaurant reservations, and travel experiences worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/screenshots/booking-holdings-2026-06-20T173602.png",
-     "score": 32.2,
+     "score": 32.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 23.4,
+      "contract_quality": 23.8,
       "governance": 47.9,
       "operational_transparency": 36.8,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2996,7 +2996,7 @@
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3022,7 +3022,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3034,7 +3034,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3060,7 +3060,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3072,7 +3072,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3098,7 +3098,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3110,7 +3110,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3136,7 +3136,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3155,7 +3155,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3181,7 +3181,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3193,7 +3193,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3229,7 +3229,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3248,7 +3248,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3274,7 +3274,7 @@
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3286,7 +3286,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3312,7 +3312,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3324,7 +3324,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3350,7 +3350,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3362,7 +3362,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3370,6 +3370,44 @@
       "dry_run_mode": false
      },
      "rank": 85
+    },
+    {
+     "name": "Nasdaq",
+     "slug": "nasdaq",
+     "description": "Fortune 1000 company Nasdaq. Public real-time delivery is Apache Kafka via Nasdaq Cloud Data Service (NCDS); modeled here in AsyncAPI 2.6 with kafka bindings.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/screenshots/nasdaq-2026-06-20T190000.png",
+     "score": 25.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 58.0,
+      "governance": 47.9,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-31",
+     "schema_version": 0.9,
+     "agent_score": 17.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 86
     },
     {
      "name": "Roper Technologies",
@@ -3387,7 +3425,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3399,14 +3437,14 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Lenovo",
@@ -3425,7 +3463,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 27.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3437,45 +3475,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 87
-    },
-    {
-     "name": "Nasdaq",
-     "slug": "nasdaq",
-     "description": "Fortune 1000 company Nasdaq. Public real-time delivery is Apache Kafka via Nasdaq Cloud Data Service (NCDS); modeled here in AsyncAPI 2.6 with kafka bindings.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/screenshots/nasdaq-2026-06-20T190000.png",
-     "score": 23.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 51.6,
-      "governance": 47.9,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.8,
-     "agent_score": 17.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": "derived",
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3501,7 +3501,7 @@
       "commercial_clarity": 60.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3513,7 +3513,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3539,7 +3539,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3551,7 +3551,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3577,7 +3577,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3589,7 +3589,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3615,7 +3615,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3627,7 +3627,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3653,7 +3653,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3665,7 +3665,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3691,7 +3691,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3703,7 +3703,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3729,7 +3729,7 @@
       "commercial_clarity": 39.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3741,7 +3741,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3767,7 +3767,7 @@
       "commercial_clarity": 47.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3779,7 +3779,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3805,7 +3805,7 @@
       "commercial_clarity": 36.8
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3817,7 +3817,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3842,7 +3842,7 @@
       "commercial_clarity": 28.9
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3854,7 +3854,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3880,7 +3880,7 @@
       "commercial_clarity": 10.5
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3892,7 +3892,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3928,7 +3928,7 @@
       "commercial_clarity": 18.4
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3940,7 +3940,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3966,7 +3966,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3978,7 +3978,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4004,7 +4004,7 @@
       "commercial_clarity": 21.1
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4023,7 +4023,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4049,7 +4049,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4061,7 +4061,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4087,7 +4087,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4099,7 +4099,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4125,7 +4125,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4137,7 +4137,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4162,7 +4162,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4174,7 +4174,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4200,7 +4200,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4212,7 +4212,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4237,7 +4237,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4249,7 +4249,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4275,7 +4275,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4287,7 +4287,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4313,7 +4313,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4325,7 +4325,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4351,7 +4351,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4370,7 +4370,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4396,7 +4396,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4408,7 +4408,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4434,7 +4434,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4446,7 +4446,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4472,7 +4472,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4484,7 +4484,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4510,7 +4510,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4522,7 +4522,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4548,7 +4548,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4560,7 +4560,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4586,7 +4586,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4598,7 +4598,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4624,7 +4624,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4636,7 +4636,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4661,7 +4661,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4673,7 +4673,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4698,7 +4698,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4710,7 +4710,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4736,7 +4736,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4748,7 +4748,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4774,7 +4774,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4786,7 +4786,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4812,7 +4812,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4824,7 +4824,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4850,7 +4850,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4862,7 +4862,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4888,7 +4888,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4900,7 +4900,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4926,7 +4926,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4938,7 +4938,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -4963,7 +4963,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4975,7 +4975,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -5001,7 +5001,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5013,7 +5013,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -5038,7 +5038,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5050,7 +5050,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -5076,7 +5076,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5088,7 +5088,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -5114,7 +5114,7 @@
       "commercial_clarity": 0.0
      },
      "scored_at": "2026-07-31",
-     "schema_version": 0.8,
+     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5126,7 +5126,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,

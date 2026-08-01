@@ -1,4 +1,4 @@
-# Mirrored from api-search/signals/_data/scoring.yml by build-sections.py — do not edit here.
+# Mirrored from api-search/signals/_data/scoring.yml by build-listing.py — do not edit here.
 # Kin Score — Scoring Rubric (the API Evangelist rating system, licensed by APIs.io)
 #
 # Per-artifact checks produce raw points. Points roll up into facet sub-scores
@@ -8,7 +8,7 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.8
+schema_version: 0.9
 last_updated: '2026-07-31'
 maintainer: kin@apievangelist.com
 
@@ -201,9 +201,20 @@ provenance:
     contract_present: openapi          # contract_quality, 20 pts
     mcp_server: mcp                    # agent readiness, 12 pts
     agent_skills: skills               # agent readiness, 5 pts
-    asyncapi_events: asyncapi          # agent readiness, 6 pts
+    event_surface_described: asyncapi  # agent readiness, 6 pts
+
     agentic_access: agentic_access     # agent readiness, 10 pts
     conformance_declared: conformance  # governance, 6 pts
+  # 0.9: a dimension satisfiable from MORE THAN ONE artifact class must grade
+  # against whichever class actually satisfied it. `event_surface_described` is
+  # satisfied by an AsyncAPI document (graded `asyncapi` above, and 0 providers
+  # publish one) OR by a `webhooks`/`callbacks` object inside the provider's
+  # as-published OpenAPI. The latter is first-party BY CONSTRUCTION: it is read
+  # from openapi/_original/, the verbatim harvest archive, so the provider wrote
+  # it and we only stored it. Grading that through the `asyncapi` class would
+  # discount a provider for our authorship of an artifact they did not use.
+  first_party_when:
+    event_surface_described: openapi_events
 
   # 0.8: every check in these artifact blocks is provenance-graded, not just the
   # presence check. Grading only `contract_present` was a half-measure — 20 of
@@ -1742,7 +1753,7 @@ bands:
     label: Thin
     min: 28
     range: 28 – 41.9
-    share: 14.7%
+    share: 14.6%
     description: >
       Limited machine-readable signal and partial portal coverage. Usually a provider
       with documentation a human can read but little a machine or agent can consume
@@ -1751,7 +1762,7 @@ bands:
     label: Emerging
     min: 13
     range: 13 – 27.9
-    share: 23.4%
+    share: 23.5%
     description: >
       More than an index entry, but the surface is still mostly links rather than
       artifacts. These providers have started publishing — a portal, a few common
@@ -1927,13 +1938,23 @@ agent_readiness:
         it can plan against. Full credit requires the API to surface live rate-limit
         state in RESPONSE HEADERS, which is what an agent reads mid-run — documented
         limits tell it the ceiling, headers tell it where it is.
-    - id: asyncapi_events
+    - id: event_surface_described
       label: Typed Event Surface
       points: 6
-      signal: 'api_specs includes AsyncAPI, or common[].type includes Webhooks'
+      signal: 'AsyncAPI document, OR webhooks/callbacks objects in the as-published
+               OpenAPI, OR common[].type includes Webhooks'
       description: >
         Event and webhook surfaces are described by a contract, so an agent that
         must react to state changes has a typed surface rather than example payloads.
+        RENAMED AND WIDENED IN 0.9 — it was `asyncapi_events` and read only the
+        asyncapi/ directory, which named the artifact rather than the capability
+        and scored a provider false for describing their events the other legal
+        way. A webhook can be described in OpenAPI: 3.1 added a top-level
+        `webhooks` object and `callbacks` predates it. In this catalog 125
+        providers do exactly that — 87 via `webhooks` across 2,218 events, 39 via
+        `callbacks` — against ZERO who publish AsyncAPI. Both count, equally: the
+        dimension asks whether an agent can read the event surface, not which
+        specification the provider chose to write it in.
     - id: agent_skills
       label: Agent Skills
       points: 5
@@ -2077,7 +2098,7 @@ agent_readiness:
     - id: agent-native
       label: Agent-Native
       min: 46
-      share: 1.1%
+      share: 1.2%
       description: >
         Built to be driven by agents, and the provider built it — a contract, a
         real agent surface the provider itself publishes, and the safety rails
@@ -2102,7 +2123,7 @@ agent_readiness:
     - id: agent-aware
       label: Agent-Aware
       min: 6
-      share: 24.3%
+      share: 24.1%
       description: >
         Partial machine-readable surface. An agent can read some of the API but
         would hit implicit conventions a human silently absorbs — the gaps where it

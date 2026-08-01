@@ -891,6 +891,13 @@
    "url": "https://providers.apis.io/providers/61draw/"
   },
   {
+   "description": "6K Inc is a North Andover, Massachusetts advanced-materials company that produces engineered powders and battery materials with UniMelt, its patented microwave-based production-scale plasma system. Named for the roughly 6,000 K plasma temperature it operates at — the temperature of the surface of the sun — UniMelt uses tightly controlled thermal plasma beams to melt or vaporize precursor feedstock into particles with precise size distribution and crystalline phase, in seconds rather than the days conventional processes require, while cutting energy use and eliminating wastewater. The company operates through two divisions. 6K Additive, with production in Burgettstown, Pennsylvania, makes sustainably sourced metal powders for additive manufacturing — titanium Ti-6Al-4V, nickel superalloys Ni625 and Ni718, stainless SS316L, refractory tungsten, niobium C103, copper C18150 and the HEA1000 refractory alloy — reclaiming CNC scrap and revert metal into premium AM powder. 6K Energy produces domestically sourced lithium-ion battery cathode and solid-state materials including NMC, LFP, LLZO, LMO, LTO and LNMO. Additional applications span semiconductor CMP, specialty ceramics, advanced coatings, lighting and display materials, nano-engineered powders, and federal/defense programs; 6K has received US Department of Defense and Department of Energy awards for domestic critical-materials capacity. 6K is a privately held company whose shares trade on secondary markets. Enrichment probing on 2026-07-31 found no public developer API, OpenAPI/AsyncAPI/GraphQL contract, developer portal, SDK, MCP server, agent card, or event surface — 6K is a materials manufacturer, not an API provider.",
+   "name": "6K",
+   "slug": "6k",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/6k"
+  },
+  {
    "description": "'6 River Systems (6RS) is a warehouse fulfillment automation company founded in 2015 in",
    "name": "6river",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/6river/refs/heads/main/screenshots/6river-2026-07-25T181222.png",
@@ -2026,6 +2033,13 @@
    "slug": "acceptance-criteria",
    "type": "Repository",
    "url": "https://github.com/api-evangelist/acceptance-criteria"
+  },
+  {
+   "description": "'accessiBe is a web accessibility technology company whose products help",
+   "name": "accessiBe",
+   "slug": "accessibe",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/accessibe"
   },
   {
    "description": "Guidelines and technical specifications that ensure digital content, applications, and technologies are usable by people with disabilities, including standards like WCAG, Section 508, and ARIA. These standards help organizations meet regulatory requirements and demonstrate accountability to stakeholders.",
@@ -3684,6 +3698,13 @@
    "url": "https://providers.apis.io/providers/aerialoop/"
   },
   {
+   "description": "'Aerin Medical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)",
+   "name": "Aerin Medical",
+   "slug": "aerin-medical",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/aerin-medical"
+  },
+  {
    "description": "Comprehensive weather data REST API providing forecasts, observations, severe weather alerts, historical data, satellite imagery, and maps for global locations. Now operating as Xweather (acquired by Vaisala in 2022), the platform offers 60+ endpoints covering current conditions, forecasts up to 15 days, air quality, lightning, maritime weather, road conditions, wildfires, earthquakes, and tropical cyclones. Developer toolkits are available for JavaScript, Python, iOS, and Android.",
    "name": "AerisWeather",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/aerisweather/refs/heads/main/screenshots/aerisweather-2026-06-20T165453.png",
@@ -3769,6 +3790,13 @@
    "slug": "aes",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/aes/"
+  },
+  {
+   "description": "'Aescape is a New York City lifestyle-robotics company, founded in 2017",
+   "name": "Aescape",
+   "slug": "aescape",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/aescape"
   },
   {
    "description": "The Alberta Electric System Operator (AESO) is the independent, not-for-profit system and market operator for Alberta's electricity system — a statutory body created under Alberta's Electric Utilities Act that dispatches generation and operates the Alberta Interconnected Electric System twenty-four hours a day for roughly five million Albertans, plans the transmission system, administers grid connections, and runs Alberta's energy-only wholesale market including price settlement and market rules. It sits in the middle of the value chain: it does not own generation, wires or retail customers, it clears the pool, publishes the Pool Price, and holds the market-wide operational data every generator, retailer and trader in Alberta depends on. Its API posture is unusually clean for the sector and is the exact opposite of a compliance story — there is no mandate on AESO at all. Alberta has no Consumer Data Right, no Green Button regulation (that is Ontario's, by regulation, and Nova Scotia's), and no consumer energy-data obligation of any kind, and AESO holds no retail customer usage or billing data, so the consumer-data half of this sector simply does not exist here. What AESO publishes voluntarily is a genuinely open market-data surface in two layers: the legacy Energy Trading System report servlets at ets.aeso.ca, which return real CSV and HTML market reports — current supply and demand, pool price, system marginal price, daily averages, outages — anonymously with no key, no account and no licence click-through; and a modern Azure API Management gateway at apimgw.aeso.ca fronting fourteen documented JSON APIs whose full reference, operations, schemas and OpenAPI export can be read anonymously from the public developer portal, and whose keys are issued self-serve — email confirmation, subscribe to the single \"AESO Public API\" product, keys generated instantly, no approval step. Authentication is a single API-KEY request header (or a subscription-key query parameter). The one real friction is legal rather than technical: AESO's site terms permit non-commercial, personal or educational use only, and any other use requires written permission.",
@@ -4195,6 +4223,13 @@
    "slug": "agentic-data-intelligence",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/agentic-data-intelligence/"
+  },
+  {
+   "description": "Agentic Resource Discovery (ARD) is a proposed open standard for the discovery layer that sits in front of every agentic protocol — the step before invocation, where a client asks \"what is available for this task?\" and gets back a ranked set of MCP servers, agent cards, skills, workflows and APIs it could use. Publishers describe their resources once in an AI Catalog manifest at /.well-known/ai-catalog.json on their own domain, anchored by a urn:air: URN derived from that domain; independent discovery services crawl those manifests and expose them through a small REST interface whose only mandatory endpoint is POST /search. It deliberately does not execute anything — MCP, A2A and OpenAPI keep that job — and it deliberately does not try to be the one registry, inverting the submit-to-a-registry model in favour of publish-to-your-own-domain. Published as a v0.9 draft proposal on 28 May 2026 under Apache 2.0 by three authors at Microsoft, Google and Hugging Face, with a contributors wall of eleven organizations. It has no foundation, no charter, no participant roster and no working groups; it does have nine public architecture decision records and an official conformance CLI. This repo profiles it as a coalition with artifacts, and measures the distance between the specification and the endpoint.",
+   "name": "Agentic Resource Discovery (ARD)",
+   "slug": "agentic-resource-discovery",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/agentic-resource-discovery"
   },
   {
    "description": "'Agentio is an AI-native platform for creator advertising that connects",
@@ -4993,6 +5028,13 @@
    "slug": "air-canada",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/air-canada/"
+  },
+  {
+   "description": "'Air Company (AIRCO) is a carbon conversion technology company founded",
+   "name": "Air Company",
+   "slug": "air-company",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/air-company"
   },
   {
    "description": "Air Doctor is a digital health platform that connects travelers and people living abroad with a global network of vetted private doctors and specialists, offering in-person clinic visits, home visits, and telemedicine appointments in multiple languages across more than 75 countries. Users search for and book local doctors through the Air Doctor mobile app and web app, and the company operates a large B2B business embedding its provider network into travel insurance, assistance, and health-plan partners (including brands such as Allianz Global Assistance, ERGO, World Nomads, and Charles Taylor). Air Doctor is backed by Lightspeed Venture Partners. This API Evangelist profile tracks the company's public developer, partner, and web surface; Air Doctor does not publish a public API or developer portal at this time, so this profile is maintained as an identity and web-property record.",
@@ -7750,6 +7792,13 @@
    "url": "https://providers.apis.io/providers/alyne/"
   },
   {
+   "description": "'Alzheon, Inc. is a privately held clinical-stage biopharmaceutical company",
+   "name": "Alzheon",
+   "slug": "alzheon",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/alzheon"
+  },
+  {
    "description": "'Amadeus for Developers is the self-service developer program from Amadeus",
    "name": "Amadeus",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png",
@@ -9754,6 +9803,13 @@
    "url": "https://providers.apis.io/providers/ambience-ai/"
   },
   {
+   "description": "'Ambience Healthcare is a San Francisco based ambient clinical AI company",
+   "name": "Ambience Healthcare",
+   "slug": "ambience-healthcare",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/ambience-healthcare"
+  },
+  {
    "description": "Ambient Mesh is a sidecar-less service mesh architecture built on Istio that simplifies microservices communication, enhances zero-trust security, and improves observability without requiring sidecar proxy injection. It uses a shared per-node proxy (ztunnel) for zero-trust security and optional waypoint proxies for advanced Layer 7 policies, enabling seamless migration from sidecar-based meshes with zero downtime.",
    "name": "Ambient Mesh",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/ambient-mesh/refs/heads/main/screenshots/ambient-mesh-2026-06-20T171854.png",
@@ -11033,6 +11089,13 @@
    "url": "https://providers.apis.io/providers/andustry/"
   },
   {
+   "description": "'anecdotes is an enterprise Governance, Risk and Compliance (GRC) platform,",
+   "name": "anecdotes",
+   "slug": "anecdotes",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/anecdotes"
+  },
+  {
    "description": "Angelcam is a cloud video-surveillance platform that connects any IP camera to the cloud",
    "name": "AngelCam",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png",
@@ -11379,6 +11442,13 @@
    "url": "https://providers.apis.io/providers/anomali/"
   },
   {
+   "description": "Anomalo is an AI-powered data quality and data observability platform that automatically detects, alerts on, triages and helps resolve data issues before they reach analytics, reporting or AI models. It connects directly to cloud data warehouses and lakehouses — Snowflake, Databricks, BigQuery, Redshift, Amazon S3 and others — profiles the tables it monitors, and applies unsupervised machine learning to surface anomalies without requiring engineers to hand-author rules or maintain thresholds, alongside declaratively configured validation checks. The platform covers structured, semi-structured and unstructured data, performs root-cause analysis on failed checks, tracks table lineage, and routes alerts to Slack, Microsoft Teams, Jira, ServiceNow, PagerDuty and email. Anomalo exposes a REST Public API (`/api/public/v1/`) for warehouse connection, table configuration, check authoring and execution, check-run results, labels, lineage edges, users, API keys and access-group administration, plus a first-party Python client and CLI, an Apache Airflow provider, and an official MCP server shipped as a Google Gemini CLI extension. Anomalo is deployed per-tenant, with API documentation gated to customers; the company holds SOC 2 Type 2 and ISO 27001 attestations.",
+   "name": "Anomalo",
+   "slug": "anomalo",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/anomalo"
+  },
+  {
    "description": "A curated collection of APIs, tools, and platforms for detecting anomalies in data streams, time series, and multivariate metrics. Covers cloud ML services, observability platforms, and open-source frameworks used for fraud detection, predictive maintenance, IoT monitoring, and security analytics.",
    "name": "Anomaly Detection",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/screenshots/anomaly-detection-2026-06-20T172012.png",
@@ -11680,6 +11750,13 @@
    "slug": "anvil",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/anvil/"
+  },
+  {
+   "description": "'Anvilogic is an Agentic SecOps platform founded in 2019 by former SOC",
+   "name": "Anvilogic",
+   "slug": "anvilogic",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/anvilogic"
   },
   {
    "description": "Anvyl is a supply chain and production management platform (a \"Production Hub\") for consumer-brand and e-commerce companies, connecting brands with their suppliers to manage the purchase-order and manufacturing lifecycle in one place: issuing and tracking purchase orders, coordinating production milestones and tasks, managing suppliers and SKUs/products, and monitoring inbound shipments and logistics. Anvyl was acquired by Sage and now operates under the Sage umbrella. It exposes a token-authenticated REST API (api.anvyl.com/api/v1) documented via Stoplight, with resources such as purchase orders. This profile was surfaced as a portfolio company of Redpoint Ventures and enriched by the API Evangelist pipeline from Anvyl's live public developer surface.",
@@ -14151,6 +14228,13 @@
    "url": "https://providers.apis.io/providers/appsamurai/"
   },
   {
+   "description": "'AppsFlyer is a mobile marketing analytics and attribution platform used by app marketers",
+   "name": "AppsFlyer",
+   "slug": "appsflyer",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/appsflyer"
+  },
+  {
    "description": "Appsmith is an open source low-code platform for building internal tools and workflow applications.",
    "name": "Appsmith",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/screenshots/appsmith-2026-06-20T172348.png",
@@ -14466,6 +14550,13 @@
    "url": "https://providers.apis.io/providers/aquafortus/"
   },
   {
+   "description": "'Aquant is an agentic AI platform built for organizations that manufacture,",
+   "name": "Aquant",
+   "slug": "aquant",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/aquant"
+  },
+  {
    "description": "Aquant is an agentic AI platform purpose-built for servicing complex equipment, used by manufacturers and service organizations across industrial equipment, medical devices, food equipment, high-tech and electronics, printing, and energy. The platform lets teams deploy specialized service AI agents through Agent Studio and a prebuilt Agent Library, and adds Voice AI (Roger) and Vision AI so field technicians, call-center agents, customer self-service, and service leaders get expert-level guidance across the full service lifecycle from diagnosis to resolution. Aquant integrates with existing CRM and field-service systems and continuously learns from an organization's institutional service knowledge to drive service revenue, scale service teams, accelerate onboarding, and increase remote resolution rates. Aquant is a portfolio company of Lightspeed Venture Partners. It does not publish a public developer portal or OpenAPI-described API; platform API access is delivered to enterprise customers, so this profile captures the company's identity, security/compliance posture, and public web properties.",
    "name": "Aquant",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/aquant-io/refs/heads/main/screenshots/aquant-io-2026-07-25T200949.png",
@@ -14589,6 +14680,13 @@
    "slug": "arbor",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/arbor/"
+  },
+  {
+   "description": "Arbor Biotechnologies is a next-generation gene editing company founded in 2016 by Feng Zhang, David Walt, David Scott and Winston Yan, and headquartered in Cambridge, Massachusetts. Its proprietary AI- and machine-learning-guided discovery engine has produced a toolbox of programmable DNA editors spanning knockdown, nuclease excision and compact reverse-transcriptase editing, aimed at functionally curative genomic medicines. The wholly-owned pipeline is focused on liver disease (ABO-101 for primary hyperoxaluria type 1 and ABO-103, both LNP-delivered and partnered with Chiesi Group) and CNS disease (ABO-202, ABO-203 and ABO-204 for ALS, plus ABO-206, all AAV-delivered), alongside collaborative ex vivo cell therapy programs run with Vertex, Allogene, Edigene and Chiesi. Investors include ARCH Venture Partners, Ally Bridge Group, Temasek, TCG and the Samsung Life Science Fund. Arbor operates no product or developer API and publishes no developer portal, SDKs or API documentation; its corporate site does serve the standard WordPress REST API anonymously, which makes its press releases, site pages and taxonomies machine-readable.",
+   "name": "Arbor Biotechnologies",
+   "slug": "arbor-biotechnologies",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/arbor-biotechnologies"
   },
   {
    "description": "Arbor Networks is the DDoS protection and network-visibility division of NETSCOUT (Arbor Networks was acquired by NETSCOUT in 2015). Drawing on more than 25 years of experience and visibility into roughly 800 Tbps of global internet traffic across 550+ service-provider and enterprise customers, Arbor builds products that detect and mitigate distributed denial-of-service (DDoS) attacks and provide network traffic analytics. Its portfolio includes Arbor Sightline (formerly Peakflow SP) for service-provider-scale monitoring, analytics and mitigation orchestration; Arbor Edge Defense (AED) as an inline stateless perimeter appliance; the Arbor Threat Mitigation System (TMS); Arbor Cloud managed scrubbing (16 global scrubbing centers, 15+ Tbps); and Arbor Spectrum/Insight for advanced threat analytics. Arbor exposes programmatic control primarily through the Sightline \"SP REST API\" (a JSON:API-compliant interface rooted at /api/sp/ on the appliance) and the Edge Defense Manager (EDM) API, with first-party client tooling published on GitHub and PyPI.",
@@ -16257,6 +16355,13 @@
    "slug": "ashr",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/ashr/"
+  },
+  {
+   "description": "'Ashvattha Therapeutics is a clinical-stage biopharmaceutical company developing",
+   "name": "Ashvattha Therapeutics",
+   "slug": "ashvattha-therapeutics",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/ashvattha-therapeutics"
   },
   {
    "description": "Asiabiome is a company surfaced as a portfolio company of 500-global and added to the API",
@@ -18336,6 +18441,13 @@
    "url": "https://providers.apis.io/providers/automaton/"
   },
   {
+   "description": "Automattic is the company behind WordPress.com, Jetpack, WooCommerce, Tumblr, Gravatar, Akismet, WordPress VIP, Pocket Casts, Day One, Beeper and Simplenote. Its developer platform centres on the WordPress.com REST API at public-api.wordpress.com, which serves three parallel namespaces — the WordPress.com-native /rest/v1.x family, the WordPress-core-compatible /wp/v2 family, and the WordPress.com and Jetpack platform extensions in /wpcom/v2 — all behind a single OAuth 2.1 and OpenID Connect authorization server with PKCE, dynamic client registration and resource indicators. Every /rest/ version publishes a machine-readable help document and every /wp/ and /wpcom/ namespace publishes a route index, so the whole surface is self-describing even though Automattic does not ship OpenAPI for it. Automattic also runs a hosted Model Context Protocol server for WordPress.com, publishes OpenAPI for Akismet and for the Jetpack ai-plugin surface, and exposes a GraphQL Platform API for the enterprise WordPress VIP product.",
+   "name": "Automattic",
+   "slug": "automattic",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/automattic"
+  },
+  {
    "description": "Automax AI is a fintech company delivering AI-native residential property appraisals built for modern mortgage lending and the UAD 3.6 standard. Lenders order signed residential appraisals directly from their loan origination system (LOS) and get them back in days rather than weeks, combining AI-assisted market data analysis with licensed appraiser review. The platform pairs a hybrid appraisal workflow (automated mobile data capture of floor plans and photos plus human quality review) with an Appraisal Copilot report-writing and analysis suite, automated appraiser matching and assignment, nationwide licensed-appraiser coverage, and real-time order status tracking. Automax AI is a Y Combinator portfolio company. As of this profile the company exposes web and mobile applications (an appraiser Copilot at copilot.automax.ai and an iOS app) but publishes no public developer API, OpenAPI specification, or developer portal.",
    "name": "Automax Ai",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/automax-ai/refs/heads/main/screenshots/automax-ai-2026-07-25T201830.png",
@@ -19510,6 +19622,13 @@
    "url": "https://providers.apis.io/providers/axiom-controller/"
   },
   {
+   "description": "Axiom Space, Inc. is a privately funded American space infrastructure developer headquartered in Houston, Texas, founded in 2016 by Kam Ghaffarian and former NASA International Space Station Program Manager Michael Suffredini. The company is building Axiom Station, the world's first commercial space station and planned successor to the ISS, and has flown private astronaut missions to the ISS (Ax-1 through Ax-4). Axiom Space also develops the Axiom Extravehicular Mobility Unit (AxEMU) spacesuit for NASA's return to the lunar surface, and sells human spaceflight, microgravity research, in-space manufacturing, and Orbital Data Center services (in-orbit cloud compute, with the ODC T1 node built alongside Kepler Communications and Skyloom Global). As of this enrichment pass Axiom Space publishes no public developer API, SDK, developer portal, or machine-readable API contract — every offering is transacted through direct enterprise, agency, and government engagement, and its only public code presence is a two-repository GitHub organization holding forks of NASA simulation software (Trick and GUNNS).",
+   "name": "Axiom Space",
+   "slug": "axiom-space",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/axiom-space"
+  },
+  {
    "description": "'Axiom Trust Company is a vertically integrated trust company and technology",
    "name": "Axiom Trust",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/axiom-trust/refs/heads/main/screenshots/axiom-trust-2026-07-25T202040.png",
@@ -19651,6 +19770,13 @@
    "slug": "axsome-therapeutics",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/axsome-therapeutics/"
+  },
+  {
+   "description": "'Axtria is an AI-first cloud software and data analytics company built",
+   "name": "Axtria",
+   "slug": "axtria",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/axtria"
   },
   {
    "description": "Axway provides API management, integration, and security solutions enabling organizations to connect, secure, and manage APIs across hybrid IT environments. Axway offers the Amplify platform for API management and a range of integration and security products for enterprises.",
@@ -24707,6 +24833,13 @@
    "url": "https://providers.apis.io/providers/bitfount/"
   },
   {
+   "description": "'Bitfury Group is a blockchain technology company founded in 2011 as one of the earliest",
+   "name": "BitFury",
+   "slug": "bitfury-group",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/bitfury-group"
+  },
+  {
    "description": "Bitfusion (Bitfusion.io) was a GPU virtualization startup whose FlexDirect software pooled and disaggregated GPUs across a network so machine learning and AI workloads could share accelerator hardware on demand. VMware acquired Bitfusion in August 2019 and folded the technology into vSphere as \"vSphere Bitfusion.\" VMware/Broadcom later declared End of Availability for vSphere Bitfusion effective May 2023, with end of maintenance in May 2025. The independent company no longer operates and the bitfusion.io domain no longer resolves; there is no independent, active public API surface remaining for this provider.",
    "name": "Bitfusion",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitfusion/refs/heads/main/screenshots/bitfusion-2026-07-25T203155.png",
@@ -27831,6 +27964,13 @@
    "url": "https://providers.apis.io/providers/box/"
   },
   {
+   "description": "'BOXABL Inc. is a Las Vegas, Nevada manufacturer of factory-built, foldable",
+   "name": "Boxabl",
+   "slug": "boxabl",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/boxabl"
+  },
+  {
    "description": "Boxbee is an on-demand storage and reusable moving-box rental service operating",
    "name": "Boxbee",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/boxbee/refs/heads/main/screenshots/boxbee-2026-07-25T203652.png",
@@ -28912,6 +29052,13 @@
    "slug": "brightroll",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/brightroll/"
+  },
+  {
+   "description": "Brightseed is a bioactives and AI company founded in 2017 (San Francisco, CA, with operations in Durham,",
+   "name": "Brightseed",
+   "slug": "brightseed",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/brightseed"
   },
   {
    "description": "'Brightside (Brightside Benefit, Inc.) is an employer-sponsored financial",
@@ -33162,6 +33309,13 @@
    "url": "https://providers.apis.io/providers/carsxe/"
   },
   {
+   "description": "'Cart.com is a unified commerce and logistics provider for B2C and B2B",
+   "name": "Cart.com",
+   "slug": "cart-com",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/cart-com"
+  },
+  {
    "description": "Carta is an equity management platform offering a REST API for cap table management, 409A valuations, fund administration, employee equity plans, and investor portfolio management. Carta's Developer Platform exposes four API suites — Launch, Investor, Issuer, and Portfolio — authenticated via OAuth 2.0 (Authorization Code and Client Credentials flows). Partner access is invite-only and requires SOC 2 Type 2 certification; Carta customers may request access to their own data on demand. A mock API environment at mock-api.carta.com is provided for sandbox development.",
    "name": "Carta",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/screenshots/carta-2026-06-20T174019.png",
@@ -37031,7 +37185,7 @@
    "url": "https://providers.apis.io/providers/cirsium-biosciences/"
   },
   {
-   "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud infrastructure",
+   "description": "Cisco provides a comprehensive suite of APIs across its networking, security, collaboration, and cloud",
    "name": "Cisco",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png",
    "slug": "cisco",
@@ -41581,7 +41735,7 @@
    "url": "https://providers.apis.io/providers/community-transit/"
   },
   {
-   "description": "Commure is a San Francisco-based AI-native healthcare technology company that operates an integrated clinical and operational platform for United States health systems following its 2023 combination with Athelas. Its products span Ambient AI clinical documentation (Scribe/Dictation), end-to-end Revenue Cycle Management (RCM), Call Center Agents, referral Orchestrator, patient Engage coordination, Commure Pro clinical intelligence, Strongline staff-safety alerting, and Athelas Home point-of-care diagnostics, integrating with 60+ EHRs across 130+ health systems processing over $25B in annual claims. Commure launched a FHIR-native open developer platform in 2020, but that public developer portal (developer.commure.com) is no longer live; today the API surface is a gated, partner-only offering governed by a Developer User Agreement (Sandbox Environment + Developer Services), with no self-serve public API documentation, FHIR CapabilityStatement, or downloadable OpenAPI currently published. Home market is the United States.",
+   "description": "Commure is a San Francisco-based AI-native healthcare technology company that operates an integrated clinical and operational platform for United States health systems following its 2023 combination with Athelas. Its products span Ambient AI clinical documentation (Scribe/Dictation), end-to-end Revenue Cycle Management (RCM), Call Center Agents, referral Orchestrator, patient Engage coordination, Commure Pro clinical intelligence, Strongline staff-safety alerting, and Athelas Home point-of-care diagnostics, integrating with 60+ EHRs across 130+ health systems processing over $25B in annual claims. Commure launched a FHIR-native open developer platform in 2020; that public developer portal (developer.commure.com) and its tenant API hosts (api-{tenant-id}.developer.commure.com) no longer resolve, and today the API surface is a gated, partner-only offering governed by a Developer User Agreement (Sandbox Environment + Developer Services). The one surviving first-party machine-readable contract is Commure's public Postman workspace, which publishes a 59-request \"Commure FHIR API\" collection covering the HL7 FHIR RESTful, terminology and Bulk Data operations plus the OpenID Connect / SMART App Launch authentication endpoints, alongside five clinical-scenario collections. Home market is the United States.",
    "name": "Commure",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png",
    "slug": "commure",
@@ -52468,6 +52622,13 @@
    "url": "https://providers.apis.io/providers/dispatch-goods/"
   },
   {
+   "description": "'DispatchHealth is a Denver, Colorado-based provider of complex medical",
+   "name": "DispatchHealth",
+   "slug": "dispatchhealth",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/dispatchhealth"
+  },
+  {
    "description": "'Disperse was a London-based construction technology company, backed by Northzone,",
    "name": "Disperse",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/disperse/refs/heads/main/screenshots/disperse-2026-07-25T212104.png",
@@ -62158,6 +62319,13 @@
    "url": "https://providers.apis.io/providers/exoscale/"
   },
   {
+   "description": "'Exotec is a French warehouse automation manufacturer and integrator, founded",
+   "name": "Exotec",
+   "slug": "exotec",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/exotec"
+  },
+  {
    "description": "Exotel is an Indian cloud telephony and customer-engagement (CPaaS)",
    "name": "Exotel",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/screenshots/exotel-2026-07-25T213905.png",
@@ -68246,6 +68414,13 @@
    "url": "https://providers.apis.io/providers/formation-bio/"
   },
   {
+   "description": "'Formation Bio (formerly TrialSpark, rebranded in December 2023) is a",
+   "name": "Formation Bio",
+   "slug": "trialspark",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/trialspark"
+  },
+  {
    "description": "Formbricks is an open-source experience management and survey platform",
    "name": "Formbricks",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/formbricks/refs/heads/main/screenshots/formbricks-2026-06-20T181436.png",
@@ -71382,6 +71557,13 @@
    "url": "https://providers.apis.io/providers/gebeya/"
   },
   {
+   "description": "'Gecko Robotics is a Pittsburgh, Pennsylvania based AI and robotics company",
+   "name": "Gecko Robotics",
+   "slug": "gecko-robotics",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/gecko-robotics"
+  },
+  {
    "description": "Geckoboard is a cloud dashboard service that lets teams build TV-ready, real-time business dashboards from spreadsheets, databases, and 90+ pre-built integrations (Salesforce, HubSpot, Stripe, Zendesk, Google Analytics, etc.). The Geckoboard Datasets API lets developers push their own data into Geckoboard by defining a schema and appending or replacing records, which can then power any dashboard visualization. The API is HTTPS-only and authenticates with HTTP Basic auth using a Geckoboard API key as the username.",
    "name": "Geckoboard",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/screenshots/geckoboard-2026-06-20T181707.png",
@@ -72594,6 +72776,13 @@
    "slug": "getinsured",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/getinsured/"
+  },
+  {
+   "description": "Getir is an Istanbul-based on-demand delivery company, founded in 2015, that pioneered the ultrafast \"groceries in minutes\" model and grew into a super-app spanning rapid grocery (Getir), large-basket grocery (GetirBüyük), water (GetirSu), restaurant food delivery (GetirYemek / GetirFood) and local-merchant commerce (GetirÇarşı / GetirLocals). Its developer-facing surface is a partner-integration platform rather than a public product API: Getir publishes the GetirFood API — a Swagger 2.0 contract at food-external-api-gateway.getirapi.com covering restaurant onboarding, menu and product status, working hours, delivery zones, payment methods and the full food-order lifecycle (verify, prepare, handover, deliver, cancel, transfer) — for POS and integrator companies that connect restaurant point-of-sale systems to GetirFood. Orders are pushed to partners over webhooks, with a documented rate limiter, a 99-entry service error registry, published test cards and a dedicated test environment. In February 2026 Uber agreed to acquire Getir's Türkiye delivery business, cleared by the Turkish Competition Authority in June 2026.",
+   "name": "Getir",
+   "slug": "getir",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/getir"
   },
   {
    "description": "'GetLinks is an AI-powered hiring operating system for Southeast Asia, operating",
@@ -79664,6 +79853,13 @@
    "url": "https://providers.apis.io/providers/havenly/"
   },
   {
+   "description": "HavocAI (Havoc) is a Providence, Rhode Island-based defense technology",
+   "name": "HavocAI",
+   "slug": "havocai",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/havocai"
+  },
+  {
    "description": "Hawaii Open Data Portal is a state government open-data portal for United States running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 976 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
    "name": "Hawaii Open Data Portal",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-hawaii-gov/refs/heads/main/screenshots/opendata-hawaii-gov-2026-06-20T190939.png",
@@ -84623,6 +84819,13 @@
    "slug": "hyperguest",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/hyperguest/"
+  },
+  {
+   "description": "Hyperice is a recovery and movement-enhancement technology company founded in 2010 and headquartered in Irvine, California, known for the Hypervolt percussion massage line, the Normatec dynamic air-compression systems it acquired in 2020, and the Venom thermal/vibration wearables. Its API surface is not a developer platform but an agentic-commerce storefront: hyperice.com runs on Shopify and publishes a machine-readable agent contract at /llms.txt and /agents.md, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, a live MCP shopping server at /api/ucp/mcp, a fully introspectable Shopify Storefront GraphQL API, OIDC/OAuth2 customer accounts at accounts.hyperice.com, and an unauthenticated read-only product and collection JSON surface.",
+   "name": "Hyperice",
+   "slug": "hyperice",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/hyperice"
   },
   {
    "description": "Hyperink is a company surfaced as a portfolio company of a16z and added to the API Evangelist",
@@ -106391,6 +106594,13 @@
    "url": "https://providers.apis.io/providers/mammoth-biosciences/"
   },
   {
+   "description": "'Mammoth Brands is the consumer packaged goods company formerly known as Harry''s",
+   "name": "Mammoth Brands",
+   "slug": "harry-s",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/harry-s"
+  },
+  {
    "description": "Mammoth Media is a Greylock-backed consumer technology company whose current product is TokenBot (mammoth.la now redirects to tokenbot.com) — a social, copy-trading platform for cryptocurrency communities on Discord and Telegram that synchronizes algorithmic trades across 12+ exchanges in real time. For developers TokenBot exposes a documented REST API (api.tokenbot.com/v1), a GraphQL API, HMAC-signed webhooks with 46 event types, a stdio Model Context Protocol (MCP) server exposing 25 tools, and a first-party `tokenbot` CLI distributed via npm and Homebrew. Authentication is API-key (tb_live_/tb_test_) or a secp256k1 signed-request fast-path; the CLI-first design keeps exchange keys under user control (trade-only permissions, no withdrawal access).",
    "name": "Mammoth Media",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/mammoth-media/refs/heads/main/screenshots/mammoth-media-2026-07-25T230015.png",
@@ -110949,6 +111159,13 @@
    "url": "https://providers.apis.io/providers/microservice-architecture-patterns/"
   },
   {
+   "description": "micro1 is an AI-native talent and human-data company. Its AI recruiter, Zara, runs conversational technical interviews at scale — generating role-specific questions from the skills you want tested, branching in real time, adding an optional coding exercise, and returning a structured report with per-skill AI ratings, CEFR-style soft-skill scores, a proctoring integrity score, transcripts and session recordings. The company also operates an expert-human-data business (Realm reinforcement- learning environments, Cortex agent evaluations, and robotics data collection) that supplies training and evaluation data to frontier AI labs. The micro1 Public API exposes the AI-interview platform: create standard or custom-question interviews, invite candidates, list jobs and job applicants, retrieve completed reports and recordings, and register webhooks so an ATS is notified in real time when interviews start, reports are generated, recordings finish processing, or resume scores land.",
+   "name": "micro1",
+   "slug": "micro1",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/micro1"
+  },
+  {
    "description": "'Microagi (stylized microagi) is a data research lab building end-to-end",
    "name": "Microagi",
    "slug": "microagi",
@@ -114071,6 +114288,13 @@
    "slug": "mollybox",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/mollybox/"
+  },
+  {
+   "description": "Moloco is a machine-learning advertising company that operates three developer-facing platforms: Moloco Ads (a performance demand-side platform for app marketers), Moloco Commerce Media / MCM (a retail-media platform that lets marketplaces and retailers run sponsored product, brand, display and reserved-display ads on their own inventory), and Moloco Streaming Monetization. Its public API surface spans a Campaign Management API and a Cloud Auth API on api.moloco.cloud for the DSP side, plus MCM Management, Decision, Event and Webhook APIs on mcm-api.moloco.com for the commerce-media side, covering ad accounts, products, campaigns, ad groups, creatives, audience targets, catalog items, wallets, spending limits, reporting, log export, real-time ad decisioning and first-party user-event ingestion.",
+   "name": "MOLOCO",
+   "slug": "moloco",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/moloco"
   },
   {
    "description": "Molson Coors Beverage Company is one of the world's largest brewers, with a portfolio of beers and beverages including Coors Light, Miller Lite, Coors Banquet, Blue Moon, Carling, and many others.",
@@ -119610,6 +119834,13 @@
    "url": "https://providers.apis.io/providers/nexthop-systems/"
   },
   {
+   "description": "'Nextiva is a Scottsdale, Arizona based cloud communications and customer",
+   "name": "Nextiva",
+   "slug": "nextiva",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/nextiva"
+  },
+  {
    "description": "Nextra is an open-source, Next.js-based documentation framework for building fast, modern, and beautifully styled documentation sites. It extends Next.js with MDX support, file-system routing, built-in search powered by Pagefind, syntax highlighting via Rehype Pretty Code, LaTeX rendering, static image optimization, i18n support, and a full-featured docs theme with sidebar, navbar, TOC, dark mode, and breadcrumb navigation.",
    "name": "Nextra",
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/nextra/refs/heads/main/screenshots/nextra-2026-06-20T190301.png",
@@ -120781,6 +121012,13 @@
    "slug": "nooks",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/nooks/"
+  },
+  {
+   "description": "'Noom, Inc. is a New York-based digital health company founded in 2008",
+   "name": "Noom",
+   "slug": "noom",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/noom"
   },
   {
    "description": "Noon is a Dubai-headquartered e-commerce marketplace and digital ecosystem launched in 2017 as a joint venture between Saudi Arabia's Public Investment Fund and Emirati businessman Mohamed Alabbar. Frequently described as the Amazon of the MENA region, Noon operates as the leading online shopping destination across the Kingdom of Saudi Arabia, the United Arab Emirates, and Egypt, offering electronics, mobiles, fashion, beauty, home, appliances, baby, and grocery categories through a hybrid first-party and third-party seller marketplace. Beyond the core marketplace, Noon has expanded into a lifestyle super-app spanning Noon Food (quick-service restaurant delivery competing with Talabat and Deliveroo), Noon Daily (next-day grocery delivery), Noon Minutes (15-minute instant grocery and essentials delivery), Noon Pay and the Noon mobile wallet (QR payments, bill pay, and a co-branded credit card), Noon VIP (loyalty/subscription), NowNow (on-demand delivery in KSA), and SIVVI (acquired regional fashion brand). Noon operates its own last-mile logistics arm and warehouses across the region, and provides a Fulfilled by Partner Integration (FBPI) program with commercial APIs that allow third-party sellers and channel-integration partners (ChannelEngine, Unicommerce, Vinculum, Ecom Energize and others) to programmatically publish catalog, sync inventory, and manage shipments. These APIs are gated to onboarded sellers and certified integrators inside the noon.partners environment — there is no general public developer portal, no published OpenAPI specification, and no Noon-maintained SDKs, CLIs, or open-source repositories.",
@@ -122616,6 +122854,13 @@
    "url": "https://providers.apis.io/providers/o1labs/"
   },
   {
+   "description": "'o9 Solutions is an enterprise AI platform for integrated planning and",
+   "name": "o9 Solutions",
+   "slug": "o9-solutions",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/o9-solutions"
+  },
+  {
    "description": "Oak is an AI-native identity operating system that governs human, machine, and AI-agent identities from a single platform. Its Identity Intelligence Layer unifies identity data into a graph that serves as a foundational security layer, paired with Agentic Identity governance for AI agents, a Connect Any connector layer spanning on-premises, SaaS, cloud, and custom systems, and White Glove enterprise onboarding services. Oak is an early-stage, enterprise/sales-led identity-security company backed by CRV; it currently exposes a customer login app but no public API, developer portal, or documentation.",
    "name": "Oak",
    "slug": "oak",
@@ -123849,6 +124094,13 @@
    "slug": "olin",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/olin/"
+  },
+  {
+   "description": "OLIPOP PBC is an Oakland, California prebiotic soda maker founded in 2018 by Ben Goodwin and David Lester, built around its trademarked OLISMART blend of plant fibers, prebiotics and botanicals, sold across tens of thousands of US retail locations and direct to consumers at drinkolipop.com. It has no traditional developer program, but its Shopify-hosted storefront is a genuinely agent-native commerce surface: the domain publishes a first-party llms.txt and agents.md describing how AI agents may interact with the store, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, a live UCP/MCP JSON-RPC endpoint at /api/ucp/mcp for catalog search, cart, checkout and order tools, an anonymously introspectable Shopify Storefront GraphQL API, unauthenticated product/collection JSON endpoints, and OpenID Connect discovery for customer accounts. Checkout is explicitly gated on contemporaneous human buyer approval.",
+   "name": "Olipop",
+   "slug": "olipop",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/olipop"
   },
   {
    "description": "Olist is a Brazilian commerce technology company headquartered in Curitiba, Paraná, offering an integrated ecosystem of solutions that automate business management for online sellers. Its products include an ERP for inventory, invoicing and order automation, a multi-marketplace Integration Hub (Mercado Livre, TikTok Shop and others), a POS for physical stores, a digital account with Pix payments, shipping and fulfillment (Envios), and storefront creation. Olist exposes robust partner APIs through its Technology Partner program (\"Parceiro Tecnológico\"), where approved developers receive test credentials and Swagger documentation to build and homologate integrations reaching 60,000+ merchants. The public API surface is gated behind partner registration; no open developer portal or OpenAPI specification is published.",
@@ -157092,6 +157344,13 @@
    "url": "https://providers.apis.io/providers/sierra-ai/"
   },
   {
+   "description": "'Sierra Space is a commercial space and defense technology company headquartered",
+   "name": "Sierra Space",
+   "slug": "sierra-space",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/sierra-space"
+  },
+  {
    "description": "Sierra Ventures is an early-stage venture capital firm founded by Peter Wendell in 1982 and headquartered in San Mateo, California, in the heart of Silicon Valley. The firm invests from inception through Series A in first-principles founders under the tagline \"Conviction Before Consensus,\" writing checks of up to $5M at seed and up to $10M at Series A. Sierra's current investment thesis centers on the next wave of enterprise technology: Vertical AI (purpose-built AI for specific industries), Infrastructure AI, Frontier and Deep Tech, and Physical AI and Robotics, alongside a longstanding history in enterprise applications, digital health, SaaS, and security. Over its 40-plus-year history the firm has invested more than $2 billion across 13 early-stage funds, with its 13th fund closing in 2023 at $265 million, following Fund 12 at $215 million and Fund 11 at $170 million. Sierra reports 35 IPOs and hundreds of successful exits, having backed companies such as Elastic, Astronomer, Chronosphere, CourseHero, Q-CTRL, Spectro Cloud, Endor Labs, and Reflection AI. The firm is notable for its CXO Advisory Board of Fortune 1000 enterprise leaders who help portfolio companies land early customers. This profile tracks Sierra Ventures' identity and its portfolio graph across the API Evangelist network.",
    "name": "Sierra Ventures",
    "slug": "sierra-ventures",
@@ -160966,6 +161225,13 @@
    "slug": "soma-energy",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/soma-energy/"
+  },
+  {
+   "description": "'Somatus is a value-based kidney and heart care management company founded",
+   "name": "Somatus",
+   "slug": "somatus",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/somatus"
   },
   {
    "description": "Somethings is a teen mental health support platform that connects adolescents with Certified Peer Specialist Mentors through a mobile app for iOS and Android. Rather than traditional therapy or AI chatbots, teens can call or chat anytime with trained mentors who have personal lived experience overcoming challenges like anxiety, depression, self-harm, eating disorders, and ADHD, backed by clinical supervision. The service is HIPAA-compliant and sold to health plans, insurers, employers, and directly to parents. Somethings is a venture-backed company in the API Evangelist network; it operates a consumer/clinical mobile product and does not currently publish a public developer API surface.",
@@ -166355,6 +166621,13 @@
    "slug": "sunairio",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/sunairio/"
+  },
+  {
+   "description": "Sunbit is a Los Angeles based financial technology company that builds point-of-sale buy now, pay-over-time financing for everyday needs — auto service and dealerships, dental, eyewear, veterinary, med spa, home services, and general retail. Merchants and SaaS platforms integrate Sunbit through a partner API and a hosted JavaScript SDK covering four products: Pre-Qualification (send a customer a no-hard-credit-check qualification link), Sunbit Estimate (an \"As Low As\" monthly payment shown on a price, estimate or invoice), Checkout (Sunbit added as a payment method via a tokenized server-to-server flow and a modal), and Text to Pay-Over-Time (an SMS payment link). The platform also exposes merchant onboarding, transaction lookup, void and partial refund, reporting, and HMAC-SHA256 signed webhooks. Loans are originated through regulated bank partners.",
+   "name": "Sunbit",
+   "slug": "sunbit",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/sunbit"
   },
   {
    "description": "Sunborne is a company surfaced as a portfolio company of general-catalyst and added to the",
@@ -181850,6 +182123,13 @@
    "slug": "unplugg",
    "type": "API Provider",
    "url": "https://providers.apis.io/providers/unplugg/"
+  },
+  {
+   "description": "'Unqork is an enterprise application development platform — a no-code / \"codeless\"",
+   "name": "Unqork",
+   "slug": "unqork",
+   "type": "Repository",
+   "url": "https://github.com/api-evangelist/unqork"
   },
   {
    "description": "Unravel is an AI-powered data observability and FinOps platform that helps data teams optimize performance, control costs, and troubleshoot data pipelines across Databricks, Snowflake, Google BigQuery, Amazon EMR, and Cloudera. Each Unravel instance exposes REST APIs for application performance data, cluster operations and resource metrics, chargeback reporting, anomaly detection, and pipeline monitoring, authorized with API tokens created in the Unravel UI.",
