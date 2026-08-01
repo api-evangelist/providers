@@ -484,7 +484,7 @@ BAND_LABELS = {
 # at 137 providers, not at 4,910: the Artificial Intelligence page shipped at 62MB
 # before this cap. Band headers keep their true counts; only the rendered rows are
 # cut, top-down by Kin Score, and both listing and band say so.
-LISTING_LIMIT = 1000
+LISTING_LIMIT = int(os.environ.get("LISTING_LIMIT", "1000"))  # override to emit uncapped cohorts for bundling
 
 
 def delisted_slugs():
