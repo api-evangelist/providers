@@ -1805,9 +1805,9 @@ def main():
     # in all/0-working/management-roster.json are named by hand and the
     # boundary is stated as editorial.
     #
-    # Two tiers, both factual rather than editorial: does the vendor sell the
-    # whole lifecycle as a product, or is it the data plane you put in front
-    # of an API. Portals and docs, metering and billing, analytics and
+    # 35 vendors. Two tiers, both factual rather than editorial: does the
+    # vendor sell the whole lifecycle as a product, or is it the data plane
+    # you put in front of an API. Portals and docs, metering and billing, analytics and
     # observability, API security and service mesh are REAL adjacent markets
     # and are covered in their own areas, not folded in here.
     MANAGEMENT_TIER_LABELS = {
@@ -1816,7 +1816,7 @@ def main():
     }
     MANAGEMENT_SECTIONS = [
         ("management", "management-roster.json", "API Management",
-         "The API management market ranked by Kin Score — the 21 full-stack platforms that sell the whole lifecycle as one product (Apigee, Kong, MuleSoft, IBM API Connect, Axway, Azure API Management, WSO2, Tyk, Gravitee, Zuplo, Postman, Red Hat 3scale, SAP, TIBCO, Software AG, Broadcom, APIwiz, APIIDA, APIPark, Apiman, Apidog) and the 15 gateways, ingress controllers and data planes you put in front of an API (Amazon API Gateway, Google Cloud API Gateway, NGINX, Traefik, Envoy, Envoy Gateway, Apache APISIX, KrakenD, Higress, Solo.io, Emissary-Ingress, Spring Cloud Gateway, Netflix Zuul, Apinizer, Bifrost). API management is a fuzzy category, so this cohort is named by hand rather than matched — developer portals, documentation, metering, analytics, API security and service mesh are real adjacent markets and are covered in their own areas.",
+         "The API management market ranked by Kin Score — the 20 full-stack platforms that sell the whole lifecycle as one product (Apigee, Kong, MuleSoft, IBM API Connect, Axway, Azure API Management, WSO2, Tyk, Gravitee, Zuplo, Red Hat 3scale, SAP, TIBCO, Software AG, Broadcom, APIwiz, APIIDA, APIPark, Apiman, Apidog) and the 15 gateways, ingress controllers and data planes you put in front of an API (Amazon API Gateway, Google Cloud API Gateway, NGINX, Traefik, Envoy, Envoy Gateway, Apache APISIX, KrakenD, Higress, Solo.io, Emissary-Ingress, Spring Cloud Gateway, Netflix Zuul, Apinizer, Bifrost). API management is a fuzzy category, so this cohort is named by hand rather than matched — developer portals, documentation, metering, analytics, API security and service mesh are real adjacent markets and are covered in their own areas.",
          {"slug": "state-of-management-apis", "title": "The State of API Management",
           "blurb": "36 API management vendors scored — the market that sells other people their API practice, measured on its own rubric. The platforms average 55.0 against a whole-catalog average of 22.6, and 37.9 on agent readiness. Apigee scores 74.0 on the composite and 30.6 on agents. Not one vendor of 36 signals idempotency, in the market that sells you the gateway where you would implement it.", "price": "500"}),
     ]

@@ -1,6 +1,6 @@
 {
- "total": 36,
- "shown": 36,
+ "total": 35,
+ "shown": 35,
  "limit": 1000,
  "bands": [
   {
@@ -8,48 +8,9 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 7,
-   "shown": 7,
+   "count": 6,
+   "shown": 6,
    "providers": [
-    {
-     "name": "Postman",
-     "slug": "postman",
-     "description": "Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows, AI Agent Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections, Insights, and a public Postman API Network with millions of public workspaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png",
-     "score": 76.8,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 77.3,
-      "governance": 47.9,
-      "operational_transparency": 78.9,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 100.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 49.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 1
-    },
     {
      "name": "Apigee",
      "slug": "apigee",
@@ -87,7 +48,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 2
+     "rank": 1
     },
     {
      "name": "MuleSoft",
@@ -126,7 +87,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 3
+     "rank": 2
     },
     {
      "name": "Amazon API Gateway",
@@ -165,7 +126,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 4
+     "rank": 3
     },
     {
      "name": "Zuplo",
@@ -204,7 +165,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "Apidog",
@@ -243,7 +204,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Microsoft Azure API Management",
@@ -281,7 +242,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 7
+     "rank": 6
     }
    ],
    "open": true
@@ -331,7 +292,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "WSO2",
@@ -370,7 +331,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Tyk",
@@ -409,7 +370,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "Google Cloud API Gateway",
@@ -448,7 +409,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Kong",
@@ -487,7 +448,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Red Hat 3scale",
@@ -526,7 +487,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "SAP API Management",
@@ -565,7 +526,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "TIBCO",
@@ -611,7 +572,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 15
+     "rank": 14
     }
    ],
    "open": true
@@ -661,7 +622,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Apache APISIX",
@@ -700,7 +661,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "APIPark",
@@ -739,7 +700,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "APIIDA",
@@ -778,7 +739,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Traefik Labs",
@@ -817,7 +778,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Apinizer",
@@ -856,7 +817,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Emissary-Ingress",
@@ -895,7 +856,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "IBM API Connect",
@@ -934,7 +895,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "Envoy",
@@ -973,7 +934,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Spring Cloud Gateway",
@@ -1012,7 +973,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Software AG",
@@ -1051,7 +1012,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "KrakenD",
@@ -1090,7 +1051,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Broadcom",
@@ -1129,7 +1090,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "NGINX",
@@ -1168,7 +1129,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Solo.io",
@@ -1207,7 +1168,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Bifrost",
@@ -1246,7 +1207,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 31
+     "rank": 30
     }
    ]
   },
@@ -1295,7 +1256,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 32
+     "rank": 31
     }
    ]
   },
@@ -1344,7 +1305,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Netflix Zuul",
@@ -1383,7 +1344,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "APIwiz",
@@ -1422,7 +1383,7 @@
       "dry_run_mode": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Envoy Gateway",
@@ -1461,7 +1422,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 36
+     "rank": 35
     }
    ]
   }
