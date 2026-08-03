@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: CRV
 nav: Providers
 network: true
-random_paper: 3
+random_paper: 46
 slug: crv
 tags:
 - Venture Capital

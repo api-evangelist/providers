@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -738,7 +738,7 @@ plans:
 - name: Cloudformation Plans Pricing
   plan_count: 3
   slug: cloudformation-plans-pricing
-random_paper: 34
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Cloudformation Rate Limits
@@ -762,16 +762,16 @@ rules:
   slug: cloudformation-spectral-rules
 score:
   band: exemplar
-  composite: 71.9
-  delta: -3.4
+  composite: 72.6
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.2
+    contract_quality: 72.1
     developer_ergonomics: 82.6
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 75.3
+  previous_composite: 72.6
   provenance:
     agentic_access: derived
     contracts:
@@ -779,8 +779,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:

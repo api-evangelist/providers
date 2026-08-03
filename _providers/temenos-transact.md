@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -629,7 +629,7 @@ plans:
 - name: Temenos Transact Plans Pricing
   plan_count: 1
   slug: temenos-transact-plans-pricing
-random_paper: 32
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Temenos Transact Rate Limits
@@ -653,16 +653,16 @@ rules:
   slug: temenos-transact-spectral-rules
 score:
   band: developing
-  composite: 52.9
-  delta: -6.9
+  composite: 53.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 76.3
+    contract_quality: 78.3
     developer_ergonomics: 50.0
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 59.8
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -676,9 +676,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/screenshots/temenos-transact-2026-06-20T195053.png
 security:
 - kind: authentication

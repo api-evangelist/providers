@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: EPX card-not-present and card-present payment processing surface — Hosted Checkout, Hosted Pay Page, Browser Post API, and the North EPX Custom Pay REST API — handling sales, authorizations, captures,
@@ -104,11 +104,11 @@ overview: 'Electronic payment Exchange Inc publishes 1 API on the [APIs.io](http
 
 
   Electronic payment Exchange Inc''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 80
+random_paper: 74
 score:
   band: emerging
   composite: 27.6
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -116,15 +116,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 30.8
+  previous_composite: 27.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

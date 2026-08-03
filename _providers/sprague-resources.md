@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 8
 common:
@@ -132,7 +132,7 @@ press:
 - date: '2026-05-25'
   title: Sprague Resources LP Announces Cash Distribution for the First ...
   url: https://www.marketscreener.com/quote/stock/SPRAGUE-RESOURCES-LP-14670204/news/Sprague-Resources-LP-Announces-Cash-Distribution-for-the-First-Quarter-of-2022-and-Earnings-Conferen-40140081/
-random_paper: 69
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Sprague Resources Rate Limits
@@ -149,7 +149,7 @@ rules:
 score:
   band: emerging
   composite: 26.8
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 12.9
@@ -157,16 +157,16 @@ score:
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 33.4
+  previous_composite: 26.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprague-resources/refs/heads/main/screenshots/sprague-resources-2026-06-20T194400.png
 security:
 - kind: domain-security

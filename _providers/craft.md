@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Craft Connect exposes a user's Craft Space, Daily Notes, tasks, and selected documents over REST as part of the Imagine platform, so tools like Apple Shortcuts, n8n, Zapier, Replit, and custom code ca
@@ -146,11 +146,11 @@ overview: 'craft publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   craft''s developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, and 17 more developer resources.'
-random_paper: 36
+random_paper: 53
 score:
   band: thin
   composite: 35.0
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
@@ -158,12 +158,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 34.0
+  previous_composite: 35.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/craft/refs/heads/main/screenshots/craft-2026-07-25T210634.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 14
 apis:
 - description: Everything about [accounts](#model/account)
@@ -195,19 +195,19 @@ overview: 'Slide publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slide''s developer surface includes authentication, documentation, API reference, getting-started guide, support, changelog, and 20 more developer resources.'
-random_paper: 37
+random_paper: 54
 score:
   band: developing
-  composite: 49.4
-  delta: -2.9
+  composite: 50.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 55.9
+    contract_quality: 59.9
     developer_ergonomics: 53.8
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 52.3
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -217,8 +217,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

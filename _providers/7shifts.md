@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -313,7 +313,7 @@ plans:
 - name: 7Shifts Plans Pricing
   plan_count: 4
   slug: 7shifts-plans-pricing
-random_paper: 56
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: 7Shifts Rate Limits
@@ -342,16 +342,16 @@ scopes:
   summary_line: 18 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.1
-  delta: -4.3
+  composite: 54.0
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 65.0
+    contract_quality: 64.9
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 58.4
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     contracts:
@@ -359,8 +359,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/screenshots/7shifts-2026-06-20T162818.png
 security:

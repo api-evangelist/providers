@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: Endpoint to get details of sites from Homes England Land Hub
@@ -189,19 +189,19 @@ overview: 'Land Insight publishes 12 APIs on the [APIs.io](https://apis.io/) net
 
 
   Land Insight''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 70
+random_paper: 78
 score:
   band: developing
-  composite: 49.4
-  delta: -1.5
+  composite: 50.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 59.2
+    contract_quality: 62.7
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 50.9
+  previous_composite: 50.3
   provenance:
     conformance: derived
     contracts:
@@ -211,8 +211,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/screenshots/land-insight-2026-07-25T224458.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 17
 apis:
 - description: Dedicated endpoint to Accounts.
@@ -200,7 +200,7 @@ overview: 'Vectra AI publishes 17 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Vectra AI''s developer surface includes authentication, engineering blog, support, pricing, documentation, changelog, and 19 more developer resources.'
-random_paper: 62
+random_paper: 18
 scopes:
 - name: Vectranetworks Scopes
   scope_count: 0
@@ -208,16 +208,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.0
-  delta: -2.6
+  composite: 43.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 45.6
+    contract_quality: 50.2
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 44.6
+  previous_composite: 43.2
   provenance:
     conformance: derived
     contracts:
@@ -227,8 +227,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

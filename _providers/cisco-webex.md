@@ -16,92 +16,56 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: documented
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-07-28'
+  score: 64.4
+  scored_at: '2026-08-03'
 agentic_access:
-- acting_count: 50
-  human_in_the_loop: 9
+- acting_count: 1056
+  human_in_the_loop: 204
   name: Cisco Webex Agentic Access
-  operation_count: 92
+  operation_count: 2053
   slug: cisco-webex-agentic-access
-  summary_line: 92 operations · 50 acting · 9 human-in-the-loop
-api_count: 21
+  summary_line: 2053 operations · 1056 acting · 204 human-in-the-loop
+api_count: 9
 apis:
-- description: Operations for accessing admin audit events
-  name: Cisco Webex Admin Audit Events API
-  slug: cisco-webex-admin-audit-events-api
-- description: Admin and compliance officer operations for recordings
-  name: Cisco Webex Admin Recordings API
-  slug: cisco-webex-admin-recordings-api
-- description: Operations for managing adaptive card attachment actions
-  name: Cisco Webex Attachment Actions API
-  slug: cisco-webex-attachment-actions-api
-- description: Operations for controlling active calls
-  name: Cisco Webex Call Controls API
-  slug: cisco-webex-call-controls-api
-- description: Operations for managing converged recordings
-  name: Cisco Webex Converged Recordings API
-  slug: cisco-webex-converged-recordings-api
-- description: Operations for managing Webex devices
+- description: The Webex Administration API — 148 operations across 115 paths, from Cisco's published OpenAPI definition.
+  name: Cisco Webex Administration API
+  slug: admin
+- description: The Webex BroadWorks API — 19 operations across 11 paths, from Cisco's published OpenAPI definition.
+  name: Cisco Webex BroadWorks API
+  slug: broadworks
+- description: The Webex Cloud Calling API — 1087 operations across 687 paths, from Cisco's published OpenAPI definition.
+  name: Cisco Webex Cloud Calling API
+  slug: cloud-calling
+- description: The Webex Contact Center API — 448 operations across 327 paths, from Cisco's published OpenAPI definition.
+  name: Cisco Webex Contact Center API
+  slug: contact-center
+- description: The Webex Devices API — 101 operations across 67 paths, from Cisco's published OpenAPI definition.
   name: Cisco Webex Devices API
-  slug: cisco-webex-devices-api
-- description: Operations for accessing compliance events
-  name: Cisco Webex Events API
-  slug: cisco-webex-events-api
-- description: Operations for managing Webex licenses
-  name: Cisco Webex Licenses API
-  slug: cisco-webex-licenses-api
-- description: Operations for managing Webex meetings
+  slug: device
+- description: The Webex Meetings API — 168 operations across 128 paths, from Cisco's published OpenAPI definition.
   name: Cisco Webex Meetings API
-  slug: cisco-webex-meetings-api
-- description: Operations for managing room memberships
-  name: Cisco Webex Memberships API
-  slug: cisco-webex-memberships-api
-- description: Operations for sending and managing messages
-  name: Cisco Webex Messages API
-  slug: cisco-webex-messages-api
-- description: Operations for managing organizations
-  name: Cisco Webex Organizations API
-  slug: cisco-webex-organizations-api
-- description: Operations for managing people and user profiles
-  name: Cisco Webex People API
-  slug: cisco-webex-people-api
-- description: Operations for managing meeting recordings
-  name: Cisco Webex Recordings API
-  slug: cisco-webex-recordings-api
-- description: Operations for managing meeting registrants
-  name: Cisco Webex Registrants API
-  slug: cisco-webex-registrants-api
-- description: Operations for retrieving organizational roles
-  name: Cisco Webex Roles API
-  slug: cisco-webex-roles-api
-- description: Operations for managing Webex rooms (spaces)
-  name: Cisco Webex Rooms API
-  slug: cisco-webex-rooms-api
-- description: Operations for managing team memberships
-  name: Cisco Webex Team Memberships API
-  slug: cisco-webex-team-memberships-api
-- description: Operations for managing Webex teams
-  name: Cisco Webex Teams API
-  slug: cisco-webex-teams-api
-- description: Operations for managing webhooks
-  name: Cisco Webex Webhooks API
-  slug: cisco-webex-webhooks-api
-- description: Operations for managing workspaces
-  name: Cisco Webex Workspaces API
-  slug: cisco-webex-workspaces-api
+  slug: meeting
+- description: The Webex Messaging API — 63 operations across 36 paths, from Cisco's published OpenAPI definition.
+  name: Cisco Webex Messaging API
+  slug: messaging
+- description: The Webex Unified CM API — 1 operations across 1 paths, from Cisco's published OpenAPI definition.
+  name: Cisco Webex Unified CM API
+  slug: ucm
+- description: The Webex Wholesale API — 18 operations across 10 paths, from Cisco's published OpenAPI definition.
+  name: Cisco Webex Wholesale API
+  slug: wholesale
 arazzos:
 - description: ''
   name: _Index
@@ -136,7 +100,7 @@ arazzos:
 - description: Create a meeting and post its join link as a message into a room.
   name: Cisco Webex Schedule a Meeting and Notify a Room
   slug: cisco-webex-schedule-meeting-and-notify-room-workflow
-artifact_total: 131
+artifact_total: 119
 collections:
 - collection_type: postman
   name: Cisco Webex Admin Audit Events API
@@ -620,11 +584,11 @@ mcp_servers:
 - description: ''
   name: cisco-webex-mcp.yml
   slug: cisco-webex-mcpyml
-modified: '2026-06-20'
+modified: '2026-07-31'
 name: Cisco Webex
 nav: Providers
 network: true
-overview: 'Cisco Webex publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Admin Audit Events API, Admin Recordings API, Attachment Actions API, and 18 more. Tagged areas include Collaboration, Communications, Meetings, Messaging, and Teams.
+overview: 'Cisco Webex publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Administration API, BroadWorks API, Cloud Calling API, and 6 more. Tagged areas include Collaboration, Communications, Meetings, Messaging, and Teams.
 
 
   The Cisco Webex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -635,7 +599,7 @@ plans:
 - name: Cisco Webex Plans Pricing
   plan_count: 4
   slug: cisco-webex-plans-pricing
-random_paper: 47
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Cisco Webex Rate Limits
@@ -664,33 +628,33 @@ scopes:
   summary_line: 30 scopes
 score:
   band: exemplar
-  composite: 74.8
-  delta: 0.4
+  composite: 71.8
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 68.5
+    contract_quality: 57.4
     developer_ergonomics: 71.7
-    discoverability: 87.0
+    discoverability: 92.6
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 74.4
+  previous_composite: 71.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
-      marker_coverage: 0.0
-      total: 21
+      marker_coverage: 100.0
+      total: 9
     mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 80.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 73.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/screenshots/cisco-webex-2026-06-20T174405.png
 security:

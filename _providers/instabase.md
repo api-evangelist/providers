@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-07-28'
+  score: 47.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -197,19 +197,19 @@ overview: 'Instabase publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Instabase''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 22 more developer resources.'
-random_paper: 52
+random_paper: 4
 score:
-  band: developing
-  composite: 55.5
-  delta: -2.8
+  band: strong
+  composite: 56.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.6
+    contract_quality: 71.4
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 58.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,8 +226,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/screenshots/instabase-2026-07-25T222558.png
 security:

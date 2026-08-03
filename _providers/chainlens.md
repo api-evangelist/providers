@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -267,23 +267,23 @@ plans:
 - name: Chainlens Plans Pricing
   plan_count: 1
   slug: chainlens-plans-pricing
-random_paper: 47
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Chainlens Rate Limits
   slug: chainlens-rate-limits
 score:
   band: thin
-  composite: 36.1
-  delta: -2.9
+  composite: 37.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 35.2
+    contract_quality: 40.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.0
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -291,8 +291,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/screenshots/chainlens-2026-06-20T174159.png
 security:

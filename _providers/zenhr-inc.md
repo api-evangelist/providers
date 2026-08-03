@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 58
 apis:
 - description: The Approvals API from ZenHR Inc — 2 operation(s) for approvals.
@@ -343,7 +343,7 @@ overview: 'ZenHR Inc publishes 58 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ZenHR Inc''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 24 more developer resources.'
-random_paper: 8
+random_paper: 55
 scopes:
 - name: Zenhr Inc Scopes
   scope_count: 9
@@ -351,16 +351,16 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.6
-  delta: -0.1
+  composite: 51.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.9
+    contract_quality: 60.6
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 50.7
+  previous_composite: 51.5
   provenance:
     conformance: first-party
     contracts:
@@ -370,8 +370,8 @@ score:
       total: 58
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

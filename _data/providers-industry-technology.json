@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 12,
-   "shown": 12,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "Stripe",
@@ -420,6 +420,44 @@
      "rank": 10
     },
     {
+     "name": "Amadeus",
+     "slug": "amadeus",
+     "description": "Amadeus for Developers is the self-service developer program from Amadeus IT Group, the leading technology provider for the global travel and tourism industry. The Self-Service catalog offers 40+ travel REST APIs across flights, hotels, destination experiences, cars and transfers, market insights, itinerary management, and AI-powered prediction services. APIs use OAuth2 client credentials authentication and are organized into Test (free, capped) and Production (paid, higher TPS) environments. Note: Amadeus has announced the Self-Service developer portal will be decommissioned on 17 July 2026; Enterprise customers retain access to the equivalent Enterprise APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png",
+     "score": 68.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 80.1,
+      "governance": 68.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 71.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 42.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 11
+    },
+    {
      "name": "Treblle",
      "slug": "treblle",
      "description": "Treblle helps engineering and product teams build, ship and understand their REST APIs in one single place. Empowering API producers by showing actionable data in real-time where it matters. Gain a deeper understanding of your API consumers and elevate developer experience (DX). Treblle analyzes 40+ API-specific data points for every API request across the entire API landscape.",
@@ -455,7 +493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Hookdeck",
@@ -500,7 +538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     }
    ],
    "open": true
@@ -510,8 +548,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 18,
-   "shown": 18,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Shopify",
@@ -550,44 +588,6 @@
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "Amadeus",
-     "slug": "amadeus",
-     "description": "Amadeus for Developers is the self-service developer program from Amadeus IT Group, the leading technology provider for the global travel and tourism industry. The Self-Service catalog offers 40+ travel REST APIs across flights, hotels, destination experiences, cars and transfers, market insights, itinerary management, and AI-powered prediction services. APIs use OAuth2 client credentials authentication and are organized into Test (free, capped) and Production (paid, higher TPS) environments. Note: Amadeus has announced the Self-Service developer portal will be decommissioned on 17 July 2026; Enterprise customers retain access to the equivalent Enterprise APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png",
-     "score": 64.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 80.1,
-      "governance": 68.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 71.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 42.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -748,6 +748,44 @@
      "rank": 18
     },
     {
+     "name": "Tyk",
+     "slug": "tyk",
+     "description": "Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png",
+     "score": 63.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 68.0,
+      "governance": 68.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 55.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 19
+    },
+    {
      "name": "WSO2",
      "slug": "wso2",
      "description": "WSO2 API Manager is an open-source API management platform supporting REST, SOAP, and GraphQL with flexible hybrid deployment. It provides a unified control plane for managing APIs, AI models, and agents across on-premises, hybrid, and cloud environments. WSO2 is recognized as a Leader in the Forrester Wave API Management Q3 2024 report.",
@@ -783,82 +821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
-    },
-    {
-     "name": "Tyk",
-     "slug": "tyk",
-     "description": "Tyk is an open-source API gateway and management platform supporting REST, GraphQL, gRPC, and Async APIs with a developer portal, analytics, and flexible deployment across cloud, on-premise, and hybrid environments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png",
-     "score": 62.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 68.0,
-      "governance": 68.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 55.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 20
-    },
-    {
-     "name": "Solo.io",
-     "slug": "solo-io",
-     "description": "Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gateway; Solo Enterprise for Istio (formerly Gloo Mesh), a hardened Istio service mesh with ambient mode; Agentgateway Enterprise, a Rust-based AI-native gateway for LLM, MCP, and A2A traffic; Kagent Enterprise, a Kubernetes-native agent runtime; and Agentregistry Enterprise, a registry for agents, MCP servers, and AI tools. Solo.io also ships Gloo Portal, a developer portal whose Portal Server REST API manages API products, teams, apps, subscriptions, API keys, and OAuth credentials, and contributes the kgateway, agentgateway, kagent, and Istio ambient-mesh open-source projects.",
-     "score": 61.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 63.3,
-      "governance": 20.8,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 59.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 21
     },
     {
      "name": "Cisco",
@@ -893,6 +856,43 @@
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 21
+    },
+    {
+     "name": "Solo.io",
+     "slug": "solo-io",
+     "description": "Solo.io is a cloud-native application-networking company founded in 2017 that builds enterprise and open-source API gateways, service mesh, and agentic-AI infrastructure. Its products include Kgateway Enterprise (formerly Gloo Gateway), an Envoy-powered Kubernetes Gateway API ingress and API gateway; Solo Enterprise for Istio (formerly Gloo Mesh), a hardened Istio service mesh with ambient mode; Agentgateway Enterprise, a Rust-based AI-native gateway for LLM, MCP, and A2A traffic; Kagent Enterprise, a Kubernetes-native agent runtime; and Agentregistry Enterprise, a registry for agents, MCP servers, and AI tools. Solo.io also ships Gloo Portal, a developer portal whose Portal Server REST API manages API products, teams, apps, subscriptions, API keys, and OAuth credentials, and contributes the kgateway, agentgateway, kagent, and Istio ambient-mesh open-source projects.",
+     "score": 61.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 64.9,
+      "governance": 11.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 55.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },

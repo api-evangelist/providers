@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 24
 common:
@@ -218,11 +218,11 @@ overview: 'BharatPe is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BharatPe''s developer surface includes engineering blog and 35 more developer resources.'
-random_paper: 19
+random_paper: 79
 score:
   band: minimal
   composite: 12.1
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -230,15 +230,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.8
+  previous_composite: 12.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bharatpe/refs/heads/main/screenshots/bharatpe-2026-07-25T202853.png
 security:

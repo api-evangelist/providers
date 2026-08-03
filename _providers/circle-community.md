@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Circle Community Plans Pricing
   plan_count: 4
   slug: circle-community-plans-pricing
-random_paper: 28
+random_paper: 53
 rate_limits:
 - limit_count: 4
   name: Circle Community Rate Limits
@@ -148,16 +148,16 @@ rules:
   slug: circle-community-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.3
-  delta: -3.5
+  composite: 44.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 59.7
+    contract_quality: 62.7
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 31.6
-  previous_composite: 46.8
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/screenshots/circle-community-2026-07-25T205412.png
 security:

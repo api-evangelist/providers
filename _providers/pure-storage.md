@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 756
   human_in_the_loop: 18
@@ -926,7 +926,7 @@ plans:
 - name: Pure Storage Plans Pricing
   plan_count: 1
   slug: pure-storage-plans-pricing
-random_paper: 16
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Pure Storage Rate Limits
@@ -950,16 +950,16 @@ rules:
   slug: pure-storage-rules
 score:
   band: developing
-  composite: 48.7
-  delta: -5.7
+  composite: 49.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.7
+    contract_quality: 61.4
     developer_ergonomics: 54.3
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 54.4
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -967,9 +967,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 129
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pure-storage/refs/heads/main/screenshots/pure-storage-2026-06-20T192313.png
 security:
 - kind: authentication

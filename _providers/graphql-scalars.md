@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Open-source TypeScript/JavaScript library providing 80+ custom GraphQL scalar types (DateTime, EmailAddress, UUID, IPv4, IBAN, JSONObject, etc.) for building precise, type-safe GraphQL schemas compati
@@ -87,11 +87,11 @@ overview: 'GraphQL Scalars publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   GraphQL Scalars'' developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 65
+random_paper: 21
 score:
   band: emerging
   composite: 24.1
-  delta: 10.3
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 48.1
@@ -99,10 +99,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 13.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 24.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql-scalars/refs/heads/main/screenshots/graphql-scalars-2026-06-20T182338.png
 security:
 - kind: domain-security

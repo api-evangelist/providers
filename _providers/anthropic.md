@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-07-28'
+  score: 57.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -796,7 +796,7 @@ plans:
 - name: Anthropic Plans Pricing
   plan_count: 5
   slug: anthropic-plans-pricing
-random_paper: 66
+random_paper: 18
 rate_limits:
 - limit_count: 12
   name: Anthropic Rate Limits
@@ -820,16 +820,16 @@ rules:
   slug: anthropic-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.6
-  delta: -0.5
+  composite: 75.0
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 82.7
+    contract_quality: 84.0
     developer_ergonomics: 80.4
     discoverability: 68.5
     governance: 53.1
     operational_transparency: 68.4
-  previous_composite: 75.1
+  previous_composite: 75.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -839,8 +839,8 @@ score:
       marker_coverage: 0.0
       total: 24
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png
 security:

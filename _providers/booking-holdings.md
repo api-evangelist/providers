@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -404,7 +404,7 @@ plans:
 - name: Booking Holdings Plans Pricing
   plan_count: 2
   slug: booking-holdings-plans-pricing
-random_paper: 6
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Booking Holdings Rate Limits
@@ -436,16 +436,16 @@ rules:
   slug: booking-holdings-spectral-rules
 score:
   band: thin
-  composite: 39.4
-  delta: -6.8
+  composite: 32.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 52.2
+    contract_quality: 23.8
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 46.2
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -453,9 +453,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/screenshots/booking-holdings-2026-06-20T173602.png
 security:
 - kind: authentication

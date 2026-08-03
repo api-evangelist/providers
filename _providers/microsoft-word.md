@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -497,7 +497,7 @@ plans:
 - name: Microsoft Word Plans Pricing
   plan_count: 7
   slug: microsoft-word-plans-pricing
-random_paper: 77
+random_paper: 46
 rate_limits:
 - limit_count: 4
   name: Microsoft Word Rate Limits
@@ -525,17 +525,17 @@ scopes:
   slug: microsoft-word-scopes
   summary_line: 8 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 68.1
-  delta: -4.4
+  band: strong
+  composite: 59.7
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 65.7
+    contract_quality: 32.3
     developer_ergonomics: 63.0
     discoverability: 68.5
     governance: 80.2
     operational_transparency: 68.4
-  previous_composite: 72.5
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -545,8 +545,8 @@ score:
       marker_coverage: 100.0
       total: 18
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

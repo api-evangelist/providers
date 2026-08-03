@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Ashby",
@@ -285,6 +285,43 @@
      "rank": 7
     },
     {
+     "name": "Connecteam",
+     "slug": "connecteam",
+     "description": "Connecteam is a mobile-first workforce management platform for deskless and non-desk teams, bundling time clock and GPS timesheets, job scheduling, task boards, digital forms and checklists, chat and company communication, HR onboarding, time off, pay rates and sales data into three purchasable hubs (Operations, Communications, HR & Skills). Its public REST API at api.connecteam.com is described by an OpenAPI 3.1 contract covering 145 operations across 98 paths, authenticated either with a company X-API-KEY header or OAuth 2.0 client-credentials tokens scoped across 61 named permissions, and it declares 41 webhook events for time activity, shifts, users, tasks, forms and chat. API access is gated to the Expert plan and above, with per-plan rate limits surfaced in x-ratelimit-* response headers.",
+     "score": 68.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 69.1,
+      "governance": 11.5,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 92.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 57.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 8
+    },
+    {
      "name": "Absentify",
      "slug": "absentify",
      "description": "Absentify is an absence management platform integrated with Microsoft 365 and Microsoft Teams that helps businesses track and manage employee absences, leave requests, approvals, and team schedules. Built by BrainCore Solutions GmbH, it provides a REST API for integrating absence management into custom workflows, HR systems, and business automation tools.",
@@ -320,7 +357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     }
    ],
    "open": true
@@ -365,43 +402,6 @@
       "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "Connecteam",
-     "slug": "connecteam",
-     "description": "Connecteam is a mobile-first workforce management platform for deskless and non-desk teams, bundling time clock and GPS timesheets, job scheduling, task boards, digital forms and checklists, chat and company communication, HR onboarding, time off, pay rates and sales data into three purchasable hubs (Operations, Communications, HR & Skills). Its public REST API at api.connecteam.com is described by an OpenAPI 3.1 contract covering 145 operations across 98 paths, authenticated either with a company X-API-KEY header or OAuth 2.0 client-credentials tokens scoped across 61 named permissions, and it declares 41 webhook events for time activity, shifts, users, tasks, forms and chat. API access is gated to the Expert plan and above, with per-plan rate limits surfaced in x-ratelimit-* response headers.",
-     "score": 64.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 69.1,
-      "governance": 11.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 92.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 57.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -726,6 +726,43 @@
      "rank": 18
     },
     {
+     "name": "Rocketlane",
+     "slug": "rocketlane",
+     "description": "Rocketlane is an AI-powered Professional Services Automation (PSA) platform that unifies customer onboarding, project delivery, resource management, time tracking, and professional-services financials in one system. Its public REST API (base https://api.rocketlane.com/api/1.0/) exposes projects, tasks, phases, spaces, space documents, custom fields, time entries, time-offs, resource allocations, users, and invoices, authenticated with a workspace api-key header and paginated with cursors. Outbound webhooks broadcast task, project, and phase lifecycle events, and a first-party CLI (@rocketlane/rli) supports building apps for the Rocketlane Marketplace. Originally added to the API Evangelist network as a portfolio-company lead (8vc, Insight Partners); enriched from its live developer surface.",
+     "score": 61.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 68.1,
+      "governance": 20.8,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 52.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 19
+    },
+    {
      "name": "Indeed",
      "slug": "indeed",
      "description": "Indeed is the world's largest job site, connecting millions of job seekers with employers across industries and locations worldwide. Indeed offers a suite of APIs for applicant tracking systems, job boards, and hiring platforms to integrate with its employment ecosystem.",
@@ -761,7 +798,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
+    },
+    {
+     "name": "Visier",
+     "slug": "visier",
+     "description": "Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data In (Direct Data Intake, Data Upload, job handling), Data Out (Data Query, Vee, exports), Administration (tenants, users, profiles, permissions, projects), Analytic Model (data model, concepts, metrics, dimensions), Planning, Webhooks, and dataset APIs such as Compensation Benchmarks and the Skills Intelligence Engine. OpenAPI v3 definitions for every collection are published on GitHub at visier/openapi-clients, generated Python SDKs ship to PyPI, and a hosted Visier Query MCP server exposes Vee and data-query tools to MCP clients over OAuth 2.0.",
+     "score": 60.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 58.2,
+      "governance": 11.5,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 77.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 49.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 21
     },
     {
      "name": "Workday Payroll",
@@ -799,7 +873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Paradox",
@@ -844,7 +918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Lever",
@@ -881,44 +955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
-    },
-    {
-     "name": "Visier",
-     "slug": "visier",
-     "description": "Visier is a workforce and people analytics platform that consolidates HR, talent, compensation, and operational data into a purpose-built people data model, then exposes that model for analysis, planning, and AI-assisted question answering. Visier publishes a broad suite of public REST APIs — Data In (Direct Data Intake, Data Upload, job handling), Data Out (Data Query, Vee, exports), Administration (tenants, users, profiles, permissions, projects), Analytic Model (data model, concepts, metrics, dimensions), Planning, Webhooks, and dataset APIs such as Compensation Benchmarks and the Skills Intelligence Engine. OpenAPI v3 definitions for every collection are published on GitHub at visier/openapi-clients, generated Python SDKs ship to PyPI, and a hosted Visier Query MCP server exposes Vee and data-query tools to MCP clients over OAuth 2.0.",
-     "score": 60.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 58.2,
-      "governance": 20.8,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 82.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 64.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Wingspan",
@@ -962,7 +999,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Deel",
@@ -1000,7 +1037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Kota",
@@ -1045,7 +1082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Culture Amp",
@@ -1083,7 +1120,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "HeyMilo",
@@ -1113,43 +1150,6 @@
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 28
-    },
-    {
-     "name": "Rocketlane",
-     "slug": "rocketlane",
-     "description": "Rocketlane is an AI-powered Professional Services Automation (PSA) platform that unifies customer onboarding, project delivery, resource management, time tracking, and professional-services financials in one system. Its public REST API (base https://api.rocketlane.com/api/1.0/) exposes projects, tasks, phases, spaces, space documents, custom fields, time entries, time-offs, resource allocations, users, and invoices, authenticated with a workspace api-key header and paginated with cursors. Outbound webhooks broadcast task, project, and phase lifecycle events, and a first-party CLI (@rocketlane/rli) supports building apps for the Rocketlane Marketplace. Originally added to the API Evangelist network as a portfolio-company lead (8vc, Insight Partners); enriched from its live developer surface.",
-     "score": 58.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 68.1,
-      "governance": 20.8,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 52.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
@@ -1326,6 +1326,44 @@
      "rank": 33
     },
     {
+     "name": "Hi Bob",
+     "slug": "hi-bob",
+     "description": "HiBob (bob) is an all-in-one HR platform that connects people management, payroll, benefits, and finance for modern, mid-sized and multinational companies. Bob's Public API gives developers programmatic access to core HR data and workflows — employee profiles and org data, time off and attendance, tasks, documents and eSign, goals, job catalog, hiring/ATS, learning, and workforce planning — over a versioned REST API at https://api.hibob.com/v1. Authentication is token-based via API \"service users\" (HTTP Basic with a service-user ID and token) with granular category and field permissions, plus OAuth 2.0 (authorization code + refresh) for approved Marketplace partners scoped to endpoint-level permissions. The API offers cursor-based pagination, rate limiting with X-RateLimit-* headers, HMAC-signed Webhooks v2 for event notifications, an official hosted Bob MCP Server for AI tools, and a published llms.txt index of the developer docs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hi-bob/refs/heads/main/screenshots/hi-bob-2026-07-25T221129.png",
+     "score": 57.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 78.9,
+      "developer_ergonomics": 60.9,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 34
+    },
+    {
      "name": "HR Partner",
      "slug": "hr-partner",
      "description": "HR Partner is a cloud-based human resources management SaaS platform from HR Partner Software Pty Ltd (Australia), aimed at organizations of roughly 20 to 500 employees. The platform covers employee records, recruitment and applicant tracking, onboarding and training checklists, leave requests and accruals, an employee self-service portal, performance reviews and goals, electronic signatures, expense claims, timesheets, document library, organizational chart, company calendar, and HR reports. HR Partner exposes a single public REST API at api.hrpartner.io, authenticated via per-account API key (x-api-key header), with rate limits of 60 requests/second and a 900 requests-per-minute burst ceiling. The API is read-mostly with selected write endpoints for employees, applicants, applications, timesheets, and reminders, and is described as being in an early release phase.",
@@ -1361,7 +1399,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Workday Recruiting",
@@ -1399,7 +1437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Databricks Asset Bundles",
@@ -1437,7 +1475,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Lattice",
@@ -1475,7 +1513,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "SAP S/4HANA",
@@ -1513,7 +1551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Credentially",
@@ -1558,7 +1596,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "WakaTime",
@@ -1596,7 +1634,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Genesys",
@@ -1641,7 +1679,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     }
    ],
    "open": true
@@ -1651,8 +1689,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 121,
-   "shown": 121,
+   "count": 122,
+   "shown": 122,
    "providers": [
     {
      "name": "Reflektive",
@@ -1690,7 +1728,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
+    },
+    {
+     "name": "Palenca (Vech)",
+     "slug": "palenca-vech",
+     "description": "Palenca is a Latin American income and employment verification API (headquartered in Mexico, backed by 500 Global). Through a single REST API and an embeddable Widget, workers securely connect their gig-economy platform (Uber, Rappi, DiDi, inDriver, iFood, PedidosYa) and formal-economy sources (IMSS, ISSSTE, CDT/Carteira de Trabalho) to share verified income, earnings, employment history, and account data with fintechs, banks, and lenders. Palenca serves Mexico and Brazil, exposes users, accounts, logins, earnings, consents, insights, and webhooks resources, and ships a JS/CDN/ES6 widget and mobile SDKs for end-user account linking.",
+     "score": 55.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 55.2,
+      "governance": 20.8,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 44.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 44
     },
     {
      "name": "Ethena",
@@ -1728,7 +1803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 45
     },
     {
      "name": "Workday Integrations",
@@ -1766,7 +1841,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 46
     },
     {
      "name": "Ashby",
@@ -1804,7 +1879,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 47
     },
     {
      "name": "Skedulo",
@@ -1841,45 +1916,90 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 48
     },
     {
-     "name": "Hi Bob",
-     "slug": "hi-bob",
-     "description": "HiBob (bob) is an all-in-one HR platform that connects people management, payroll, benefits, and finance for modern, mid-sized and multinational companies. Bob's Public API gives developers programmatic access to core HR data and workflows — employee profiles and org data, time off and attendance, tasks, documents and eSign, goals, job catalog, hiring/ATS, learning, and workforce planning — over a versioned REST API at https://api.hibob.com/v1. Authentication is token-based via API \"service users\" (HTTP Basic with a service-user ID and token) with granular category and field permissions, plus OAuth 2.0 (authorization code + refresh) for approved Marketplace partners scoped to endpoint-level permissions. The API offers cursor-based pagination, rate limiting with X-RateLimit-* headers, HMAC-signed Webhooks v2 for event notifications, an official hosted Bob MCP Server for AI tools, and a published llms.txt index of the developer docs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hi-bob/refs/heads/main/screenshots/hi-bob-2026-07-25T221129.png",
-     "score": 54.9,
+     "name": "Zoho People",
+     "slug": "zoho-people",
+     "description": "Zoho People is Zoho's cloud-based, AI-first HR management system (HRMS) spanning core HR, time and attendance, leave, performance, learning, recruitment, payroll and analytics — bundled inside the Zoho One business suite. The Zoho People REST API exposes employee records, custom forms, leave, attendance, time tracking, automation, and dashboard data in XML or JSON, secured with Zoho OAuth 2.0 via the Zoho Accounts service and the seven `ZOHOPEOPLE` scopes (employee, forms, dashboard, automation, timetracker, attendance, leave).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/screenshots/zoho-people-2026-06-20T201945.png",
+     "score": 55.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 60.9,
-      "commercial_clarity": 60.5
+      "discoverability": 74.1,
+      "contract_quality": 68.9,
+      "governance": 58.3,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 63.2
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 49
+    },
+    {
+     "name": "Financial Data Exchange (FDX)",
+     "slug": "fdx",
+     "description": "Financial Data Exchange (FDX) is a non-profit industry standards body operating in the US and Canada that produces the FDX API, a royalty-free REST standard for consumer-permissioned financial data sharing. The FDX API defines interoperable endpoints covering deposit accounts, loan accounts, investment accounts, insurance policies, tax data, payroll data, reward programs, and consent management, enabling data providers (financial institutions), data access platforms (aggregators), and data recipients (fintechs) to exchange consumer financial data without exposing user credentials. As of early 2026 over 130 million consumer accounts are connected via the FDX API across 200+ member organizations including Bank of America, Chase, Citi, Wells Fargo, Plaid, and MX. FDX API v6.5 is the current stable release.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png",
+     "score": 54.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 68.9,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 53.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 50
     },
     {
      "name": "Small Improvements",
@@ -1917,7 +2037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 51
     },
     {
      "name": "7shifts",
@@ -1955,7 +2075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 52
     },
     {
      "name": "TalentLMS",
@@ -1993,7 +2113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 53
     },
     {
      "name": "Check Technologies",
@@ -2038,7 +2158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 54
     },
     {
      "name": "KolayIK",
@@ -2076,7 +2196,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 55
     },
     {
      "name": "Leapsome",
@@ -2114,7 +2234,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 56
     },
     {
      "name": "Truto",
@@ -2152,7 +2272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 57
     },
     {
      "name": "Clockodo",
@@ -2190,7 +2310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 58
     },
     {
      "name": "Paychex",
@@ -2228,7 +2348,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 59
     },
     {
      "name": "Lever",
@@ -2266,7 +2386,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 60
     },
     {
      "name": "Goethena",
@@ -2304,7 +2424,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 61
     },
     {
      "name": "Argyle",
@@ -2342,7 +2462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "KUFU",
@@ -2380,7 +2500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 63
     },
     {
      "name": "Leena AI",
@@ -2418,44 +2538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
-    },
-    {
-     "name": "Palenca (Vech)",
-     "slug": "palenca-vech",
-     "description": "Palenca is a Latin American income and employment verification API (headquartered in Mexico, backed by 500 Global). Through a single REST API and an embeddable Widget, workers securely connect their gig-economy platform (Uber, Rappi, DiDi, inDriver, iFood, PedidosYa) and formal-economy sources (IMSS, ISSSTE, CDT/Carteira de Trabalho) to share verified income, earnings, employment history, and account data with fintechs, banks, and lenders. Palenca serves Mexico and Brazil, exposes users, accounts, logins, earnings, consents, insights, and webhooks resources, and ships a JS/CDN/ES6 widget and mobile SDKs for end-user account linking.",
-     "score": 52.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 55.2,
-      "governance": 20.8,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 44.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "When I Work",
@@ -2493,7 +2576,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 65
     },
     {
      "name": "Workday Tracking System",
@@ -2531,7 +2614,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "Workleap",
@@ -2569,7 +2652,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 67
     },
     {
      "name": "SmartRecruiters",
@@ -2607,45 +2690,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
-    },
-    {
-     "name": "Zoho People",
-     "slug": "zoho-people",
-     "description": "Zoho People is Zoho's cloud-based, AI-first HR management system (HRMS) spanning core HR, time and attendance, leave, performance, learning, recruitment, payroll and analytics — bundled inside the Zoho One business suite. The Zoho People REST API exposes employee records, custom forms, leave, attendance, time tracking, automation, and dashboard data in XML or JSON, secured with Zoho OAuth 2.0 via the Zoho Accounts service and the seven `ZOHOPEOPLE` scopes (employee, forms, dashboard, automation, timetracker, attendance, leave).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/screenshots/zoho-people-2026-06-20T201945.png",
-     "score": 52.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 68.9,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 63.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Codesignal",
@@ -2683,7 +2728,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "FlowAccount",
@@ -2721,7 +2766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Puzzle",
@@ -2758,7 +2803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Trakstar",
@@ -2796,7 +2841,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Weavix",
@@ -2840,7 +2885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Rentahuman",
@@ -2884,7 +2929,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Workable",
@@ -2922,7 +2967,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Cadana",
@@ -2967,7 +3012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Pinwheel",
@@ -3012,7 +3057,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Thatch Health",
@@ -3056,7 +3101,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "ZenHR Inc",
@@ -3093,7 +3138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "ActivTrak",
@@ -3131,7 +3176,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Charthop",
@@ -3169,7 +3214,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
+    },
+    {
+     "name": "Fama",
+     "slug": "fama",
+     "description": "Fama is an AI-powered social media and online screening platform for employment decisions. Its REST API lets HR platforms and background-screening providers submit candidate checks and retrieve behavioral findings — flagged posts, web content, and social profiles — mapped to workplace-misconduct categories across 30+ languages while filtering out protected-class information for EEOC/FCRA-aligned adjudication. Reports are delivered via completion callbacks or polling as JSON or a signed PDF, powering pre-employment screening (Fama Plus), comprehensive candidate assessment (Fama 360), and ongoing employee monitoring (Fama Pulse).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png",
+     "score": 51.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 37.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 82
     },
     {
      "name": "SAP Fieldglass",
@@ -3207,7 +3290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 83
     },
     {
      "name": "Google Cloud Talent Solution",
@@ -3245,52 +3328,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 84
     },
     {
-     "name": "Financial Data Exchange (FDX)",
-     "slug": "fdx",
-     "description": "Financial Data Exchange (FDX) is a non-profit industry standards body operating in the US and Canada that produces the FDX API, a royalty-free REST standard for consumer-permissioned financial data sharing. The FDX API defines interoperable endpoints covering deposit accounts, loan accounts, investment accounts, insurance policies, tax data, payroll data, reward programs, and consent management, enabling data providers (financial institutions), data access platforms (aggregators), and data recipients (fintechs) to exchange consumer financial data without exposing user credentials. As of early 2026 over 130 million consumer accounts are connected via the FDX API across 200+ member organizations including Bank of America, Chase, Citi, Wells Fargo, Plaid, and MX. FDX API v6.5 is the current stable release.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png",
+     "name": "Fountain",
+     "slug": "fountain",
+     "description": "Fountain is an AI-powered frontline workforce management platform used by 500+ enterprise employers across retail, logistics, hospitality, healthcare, and food service to source, hire, onboard, schedule, and retain high-volume hourly workers. Its developer platform exposes a REST API — the Hire v2 API plus newer Workforce, Attendance, Scheduling, Compliance, Referral, Pool, and Pulse microservices — for programmatically managing applicants, openings, positions, locations, interview slots, workers, documents, custom attributes, and data exports. Authentication is OAuth2 client-credentials (with a legacy X-ACCESS-TOKEN key model on tenant hosts), webhooks are HMAC-SHA-256 signed, requests are rate limited to 120/minute, and deprecations are signaled with RFC 8594 Sunset headers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/screenshots/fountain-2026-07-25T215050.png",
      "score": 50.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 68.9,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 60.5
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 42.1
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 53.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.9,
+     "agent_score": 43.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
+      "agentic_access": false,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 85
     },
     {
      "name": "Teambridge",
@@ -3327,7 +3403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 86
     },
     {
      "name": "Avito",
@@ -3372,7 +3448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 87
     },
     {
      "name": "Smokeball",
@@ -3410,7 +3486,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 88
     },
     {
      "name": "Willo",
@@ -3447,7 +3523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 89
     },
     {
      "name": "Vistra",
@@ -3485,7 +3561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 90
     },
     {
      "name": "Request Finance",
@@ -3529,7 +3605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "ADP",
@@ -3567,7 +3643,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 92
+    },
+    {
+     "name": "Wellhub",
+     "slug": "wellhub",
+     "description": "Wellhub (formerly Gympass) is a corporate wellbeing platform that gives employees access to a network of fitness, mindfulness, therapy, nutrition, and sleep partners through their employer's benefits program. For system integrators it publishes a public Integrations API: an OAuth2 client-credentials REST API that lets a client's HR or payroll system sync employee eligibility to Wellhub in real time, so employees gain access on hire and lose it on termination. The API models eligibility as batch jobs (create a job, add up to 500 items, submit, then poll status and read per-record errors) and is documented on a Stoplight-powered developer hub with a downloadable OpenAPI 3.0 contract and a synthetic-data Sandbox. Wellhub is backed by Atomico, HV Capital, and SoftBank Vision Fund.",
+     "score": 49.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 59.5,
+      "governance": 11.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 93
     },
     {
      "name": "Kombo",
@@ -3605,7 +3725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 94
     },
     {
      "name": "Sage",
@@ -3643,7 +3763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 95
     },
     {
      "name": "Work Market",
@@ -3687,7 +3807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 96
     },
     {
      "name": "QGenda",
@@ -3731,7 +3851,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 97
+    },
+    {
+     "name": "Zoho",
+     "slug": "zoho",
+     "description": "Zoho is a comprehensive cloud software suite offering 55+ integrated business applications for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by over 130 million users worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/screenshots/zoho-2026-06-20T201931.png",
+     "score": 49.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 55.3,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 71.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 49.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 98
     },
     {
      "name": "Knit",
@@ -3769,7 +3927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 99
     },
     {
      "name": "Rollee",
@@ -3813,7 +3971,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 100
     },
     {
      "name": "Papaya Global",
@@ -3858,7 +4016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 101
     },
     {
      "name": "Telleroo",
@@ -3902,7 +4060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 102
     },
     {
      "name": "Get On Board",
@@ -3940,7 +4098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 103
     },
     {
      "name": "Sage HR",
@@ -3978,7 +4136,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 104
     },
     {
      "name": "UKG",
@@ -4016,7 +4174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 105
     },
     {
      "name": "Optibus",
@@ -4053,7 +4211,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 106
     },
     {
      "name": "Phenom",
@@ -4090,7 +4248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 107
     },
     {
      "name": "Keka HR",
@@ -4128,7 +4286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 108
     },
     {
      "name": "Nayya",
@@ -4172,45 +4330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
-    },
-    {
-     "name": "Fama",
-     "slug": "fama",
-     "description": "Fama is an AI-powered social media and online screening platform for employment decisions. Its REST API lets HR platforms and background-screening providers submit candidate checks and retrieve behavioral findings — flagged posts, web content, and social profiles — mapped to workplace-misconduct categories across 30+ languages while filtering out protected-class information for EEOC/FCRA-aligned adjudication. Reports are delivered via completion callbacks or polling as JSON or a signed PDF, powering pre-employment screening (Fama Plus), comprehensive candidate assessment (Fama 360), and ongoing employee monitoring (Fama Pulse).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png",
-     "score": 48.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 37.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 106
+     "rank": 109
     },
     {
      "name": "Clio",
@@ -4248,7 +4368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 110
     },
     {
      "name": "Comeet",
@@ -4286,7 +4406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 111
     },
     {
      "name": "Quinyx",
@@ -4323,7 +4443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 112
     },
     {
      "name": "Finch",
@@ -4361,45 +4481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
-    },
-    {
-     "name": "Fountain",
-     "slug": "fountain",
-     "description": "Fountain is an AI-powered frontline workforce management platform used by 500+ enterprise employers across retail, logistics, hospitality, healthcare, and food service to source, hire, onboard, schedule, and retain high-volume hourly workers. Its developer platform exposes a REST API — the Hire v2 API plus newer Workforce, Attendance, Scheduling, Compliance, Referral, Pool, and Pulse microservices — for programmatically managing applicants, openings, positions, locations, interview slots, workers, documents, custom attributes, and data exports. Authentication is OAuth2 client-credentials (with a legacy X-ACCESS-TOKEN key model on tenant hosts), webhooks are HMAC-SHA-256 signed, requests are rate limited to 120/minute, and deprecations are signaled with RFC 8594 Sunset headers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/screenshots/fountain-2026-07-25T215050.png",
-     "score": 48.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 43.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 111
+     "rank": 113
     },
     {
      "name": "Flash App",
@@ -4444,7 +4526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 114
     },
     {
      "name": "CodeSignal, Inc.",
@@ -4482,7 +4564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 115
     },
     {
      "name": "micro1",
@@ -4519,7 +4601,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 116
     },
     {
      "name": "Sun Life",
@@ -4563,7 +4645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 117
     },
     {
      "name": "Thatch",
@@ -4607,7 +4689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 118
     },
     {
      "name": "TeamOhana",
@@ -4644,7 +4726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 119
     },
     {
      "name": "Garner Health",
@@ -4689,7 +4771,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 120
     },
     {
      "name": "Hakuna",
@@ -4727,7 +4809,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 121
     },
     {
      "name": "ERPNext",
@@ -4765,44 +4847,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
-    },
-    {
-     "name": "401GO",
-     "slug": "401go",
-     "description": "401GO is a Utah-based retirement technology provider that delivers fast, low-cost 401(k), Solo 401(k), Cash Balance and IRA plans to small and medium-sized businesses, sole proprietors, financial advisors, payroll bureaus and HCM platforms. The 401GO API is a partner-oriented REST API on app.401go.com that lets payroll providers and benefits platforms programmatically set up plans, sync participant census data, read plan provisions and employer match formulas, retrieve deferral elections and loan deductions, and submit payroll contribution files — the 360-degree payroll integration 401GO markets to HCM partners. The same API also exposes participant-facing surfaces for investments and portfolios, rebalancing, beneficiaries, disbursements, loan requests, rollovers, retirement-planning projections, notifications and documents. Access is OAuth 2.0 (authorization code and client credentials) with OpenID Connect SSO, and is further gated by a per-client endpoint-plus-HTTP-method allow list negotiated during partner onboarding.",
-     "score": 46.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 46.7,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 68.0,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "MyCase",
@@ -4847,7 +4892,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "VA Lighthouse",
@@ -4892,7 +4937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Cobee by Pluxee",
@@ -4930,7 +4975,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Humaans",
@@ -4968,7 +5013,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Timeular",
@@ -5001,50 +5046,6 @@
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 126
-    },
-    {
-     "name": "Wellhub",
-     "slug": "wellhub",
-     "description": "Wellhub (formerly Gympass) is a corporate wellbeing platform that gives employees access to a network of fitness, mindfulness, therapy, nutrition, and sleep partners through their employer's benefits program. For system integrators it publishes a public Integrations API: an OAuth2 client-credentials REST API that lets a client's HR or payroll system sync employee eligibility to Wellhub in real time, so employees gain access on hire and lose it on termination. The API models eligibility as batch jobs (create a job, add up to 500 items, submit, then poll status and read per-record errors) and is documented on a Stoplight-powered developer hub with a downloadable OpenAPI 3.0 contract and a synthetic-data Sandbox. Wellhub is backed by Atomico, HV Capital, and SoftBank Vision Fund.",
-     "score": 46.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 59.5,
-      "governance": 11.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 37.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -5166,6 +5167,44 @@
      "rank": 130
     },
     {
+     "name": "Consola Finance",
+     "slug": "consola-finance",
+     "description": "Consola Finance is an enterprise-grade automated crypto accounting and finance platform for digital assets, acquired by and now operating as part of Request Finance. It lets finance and accounting teams monitor wallets across 25+ blockchains and 20+ exchanges (Binance, Coinbase, Kraken, KuCoin and others), automate bookkeeping, categorize and label on-chain transactions, filter spam, and generate audit-ready reports — transaction history, historical wallet balances, team breakdowns, contact lists, and realized / unrealized gains and losses — exported to CSV, XLSX and JSON, with integrations into existing ERP and accounting systems. As part of Request Finance it shares the Request Finance REST API for accounts payable / receivable, invoicing and payroll, authenticated with API keys or OAuth over JSON/HTTPS.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/consola-finance/refs/heads/main/screenshots/consola-finance-2026-07-25T210307.png",
+     "score": 45.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 0.0,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 33.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 131
+    },
+    {
      "name": "VidGrid",
      "slug": "vidgrid",
      "description": "VidGrid is an enterprise video platform for recording, hosting, captioning, and sharing interactive video, acquired by Paylocity and now branded VidGrid by Paylocity. Its Content Management API v2 is a JSON REST API for managing videos, captions, folders, users, and search on an account, plus record/upload tokens that launch the embeddable screen recorder and uploader, with webhook events for video and caption processing. API keys are Enterprise-restricted after a 14-day trial.",
@@ -5200,7 +5239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Supaglue",
@@ -5238,7 +5277,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Yoobic",
@@ -5275,7 +5314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Noyo",
@@ -5319,7 +5358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "OpenProject",
@@ -5357,7 +5396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "CareAcademy",
@@ -5401,7 +5440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Gloat",
@@ -5439,7 +5478,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Microsoft LinkedIn",
@@ -5477,7 +5516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "PracticePanther",
@@ -5515,7 +5554,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "Workstream",
@@ -5552,7 +5591,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "QuotaPath",
@@ -5589,7 +5628,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Absence.io",
@@ -5627,7 +5666,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 143
+    },
+    {
+     "name": "401GO",
+     "slug": "401go",
+     "description": "401GO is a Utah-based retirement technology provider that delivers fast, low-cost 401(k), Solo 401(k), Cash Balance and IRA plans to small and medium-sized businesses, sole proprietors, financial advisors, payroll bureaus and HCM platforms. The 401GO API is a partner-oriented REST API on app.401go.com that lets payroll providers and benefits platforms programmatically set up plans, sync participant census data, read plan provisions and employer match formulas, retrieve deferral elections and loan deductions, and submit payroll contribution files — the 360-degree payroll integration 401GO markets to HCM partners. The same API also exposes participant-facing surfaces for investments and portfolios, rebalancing, beneficiaries, disbursements, loan requests, rollovers, retirement-planning projections, notifications and documents. Access is OAuth 2.0 (authorization code and client credentials) with OpenID Connect SSO, and is further gated by a per-client endpoint-plus-HTTP-method allow list negotiated during partner onboarding.",
+     "score": 44.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 46.7,
+      "governance": 11.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 57.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 144
     },
     {
      "name": "GoGet",
@@ -5665,7 +5741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 145
     },
     {
      "name": "Cachet",
@@ -5710,45 +5786,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
-    },
-    {
-     "name": "Zoho",
-     "slug": "zoho",
-     "description": "Zoho is a comprehensive cloud software suite offering 55+ integrated business applications for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by over 130 million users worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/screenshots/zoho-2026-06-20T201931.png",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 32.4,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 71.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 39.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "Towers Watson",
@@ -5792,7 +5830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "Human Interest",
@@ -5830,7 +5868,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Pinwheel",
@@ -5868,7 +5906,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "RocketReach",
@@ -5906,7 +5944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "Everhour",
@@ -5944,7 +5982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Hubstaff",
@@ -5982,7 +6020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Litmus Hiring",
@@ -6020,7 +6058,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "Upwork",
@@ -6058,7 +6096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Mosaic",
@@ -6096,7 +6134,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Veterans Affairs",
@@ -6141,7 +6179,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
+    },
+    {
+     "name": "Onsi",
+     "slug": "onsi",
+     "description": "Onsi is a global technology provider and UK/EU insurance intermediary that delivers flexible, shift-linked worker benefits — on-demand (\"Embedded\") pay, insurance cover, and a rewards marketplace — to employers and their frontline workers. Its Partner (BMO) API lets benefit-program partners manage members (invite, read, update, replace, and offboard individually, in batches, or via full-list CSV jobs), read tiers and earned-wage balances, run on-demand pay withdrawals through a two-step intent/complete flow, and reconcile pay cycles and deductions with payroll. Authentication is an x-api-key header; requests support idempotency (x-idempotency-key, 7-day retention) and skip/take offset pagination, with a consistent code/message error envelope.",
+     "score": 42.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 52.9,
+      "governance": 11.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 37.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 52.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 157
     },
     {
      "name": "VCV",
@@ -6178,7 +6260,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 158
     },
     {
      "name": "Ease",
@@ -6223,7 +6305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 159
     },
     {
      "name": "Harver",
@@ -6261,7 +6343,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 160
     },
     {
      "name": "Gusto",
@@ -6299,7 +6381,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 161
     },
     {
      "name": "Nmbrs",
@@ -6336,7 +6418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 162
     },
     {
      "name": "Contalink",
@@ -6374,7 +6456,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 163
     },
     {
      "name": "Great-West Lifeco",
@@ -6419,7 +6501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 164
     }
    ]
   },
@@ -6428,47 +6510,9 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 127,
-   "shown": 127,
+   "count": 125,
+   "shown": 125,
    "providers": [
-    {
-     "name": "Consola Finance",
-     "slug": "consola-finance",
-     "description": "Consola Finance is an enterprise-grade automated crypto accounting and finance platform for digital assets, acquired by and now operating as part of Request Finance. It lets finance and accounting teams monitor wallets across 25+ blockchains and 20+ exchanges (Binance, Coinbase, Kraken, KuCoin and others), automate bookkeeping, categorize and label on-chain transactions, filter spam, and generate audit-ready reports — transaction history, historical wallet balances, team breakdowns, contact lists, and realized / unrealized gains and losses — exported to CSV, XLSX and JSON, with integrations into existing ERP and accounting systems. As part of Request Finance it shares the Request Finance REST API for accounts payable / receivable, invoicing and payroll, authenticated with API keys or OAuth over JSON/HTTPS.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/consola-finance/refs/heads/main/screenshots/consola-finance-2026-07-25T210307.png",
-     "score": 41.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 23.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 33.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 163
-    },
     {
      "name": "15Five",
      "slug": "15five",
@@ -6505,7 +6549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "GoodHire",
@@ -6543,7 +6587,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "iCIMS",
@@ -6581,7 +6625,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "TimeCamp",
@@ -6618,7 +6662,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "酷学院 (Cool College)",
@@ -6656,7 +6700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "handy",
@@ -6694,7 +6738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Sterling",
@@ -6731,7 +6775,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "TalkPush",
@@ -6775,7 +6819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Eightfold",
@@ -6813,7 +6857,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Guusto",
@@ -6846,50 +6890,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 173
-    },
-    {
-     "name": "Onsi",
-     "slug": "onsi",
-     "description": "Onsi is a global technology provider and UK/EU insurance intermediary that delivers flexible, shift-linked worker benefits — on-demand (\"Embedded\") pay, insurance cover, and a rewards marketplace — to employers and their frontline workers. Its Partner (BMO) API lets benefit-program partners manage members (invite, read, update, replace, and offboard individually, in batches, or via full-list CSV jobs), read tiers and earned-wage balances, run on-demand pay withdrawals through a two-step intent/complete flow, and reconcile pay cycles and deductions with payroll. Authentication is an x-api-key header; requests support idempotency (x-idempotency-key, 7-day retention) and skip/take offset pagination, with a consistent code/message error envelope.",
-     "score": 40.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 52.9,
-      "governance": 11.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 37.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 52.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -7426,6 +7426,43 @@
      "rank": 188
     },
     {
+     "name": "Nova Lima",
+     "slug": "nova-lima",
+     "description": "Runrun.it (headquartered in Nova Lima, Brazil, and backed by 500 Global) is process and project management software that automates work requests and organizes a team's tasks, projects, clients, time tracking, and documents in a single place. Its public REST API (v1.0) exposes tasks, projects, boards and board stages, clients, teams, users, comments, documents, evaluations, templates, and time-worked reporting, authenticated with App-Key and User-Token request headers on paid plans. The platform also publishes an OAuth 2.0/2.1 authorization server (authorization code + PKCE), a hosted OAuth-protected MCP server at /mcp, and a webhook event system covering roughly 35 task, project, client, team, and comment events.",
+     "score": 39.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 47.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 189
+    },
+    {
      "name": "Popp",
      "slug": "popp",
      "description": "Popp (Popp AI) is an API-first conversation engine for staffing and recruitment firms. It automates high-volume candidate interactions — screening tens of thousands of applicants, collecting and validating right-to-work and certification documents, running AI candidate analysis, auto-scheduling interviews with calendar sync, and re-qualifying dormant candidate databases — through a drag-and-drop workflow builder and a REST API. The platform exposes conversations, campaigns, documents, analysis, scheduling, and multi-step workflows over https://api.joinpopp.com/v1 with API-key authentication, SHA256-signed webhooks across four event categories, and a published remote MCP server for agent access. Backed by Techstars.",
@@ -7460,7 +7497,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Staffbase",
@@ -7497,7 +7534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Nectar",
@@ -7534,7 +7571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "AbsenceSoft",
@@ -7572,7 +7609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Frappe",
@@ -7610,7 +7647,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "Mosey",
@@ -7647,7 +7684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "Checkr",
@@ -7685,7 +7722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "Fountain",
@@ -7723,7 +7760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "Freshteam",
@@ -7761,7 +7798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Sesame HR",
@@ -7798,7 +7835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Fourth",
@@ -7836,7 +7873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "freee",
@@ -7874,7 +7911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "Zeal",
@@ -7911,7 +7948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "Docebo",
@@ -7949,7 +7986,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "Replicon",
@@ -7986,7 +8023,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Arist",
@@ -8030,7 +8067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "Deputy",
@@ -8068,7 +8105,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 206
     },
     {
      "name": "Bindbee",
@@ -8106,7 +8143,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 207
     },
     {
      "name": "Bullhorn",
@@ -8144,7 +8181,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 208
     },
     {
      "name": "BigChange",
@@ -8178,43 +8215,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 208
-    },
-    {
-     "name": "Nova Lima",
-     "slug": "nova-lima",
-     "description": "Runrun.it (headquartered in Nova Lima, Brazil, and backed by 500 Global) is process and project management software that automates work requests and organizes a team's tasks, projects, clients, time tracking, and documents in a single place. Its public REST API (v1.0) exposes tasks, projects, boards and board stages, clients, teams, users, comments, documents, evaluations, templates, and time-worked reporting, authenticated with App-Key and User-Token request headers on paid plans. The platform also publishes an OAuth 2.0/2.1 authorization server (authorization code + PKCE), a hosted OAuth-protected MCP server at /mcp, and a webhook event system covering roughly 35 task, project, client, team, and comment events.",
-     "score": 36.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 47.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

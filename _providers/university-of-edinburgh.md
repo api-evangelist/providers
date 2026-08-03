@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: University Of Edinburgh Plans Pricing
   plan_count: 2
   slug: university-of-edinburgh-plans-pricing
-random_paper: 81
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: University Of Edinburgh Rate Limits
@@ -189,16 +189,16 @@ rules:
   slug: university-of-edinburgh-rules
 score:
   band: thin
-  composite: 38.8
-  delta: -4.5
+  composite: 39.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.1
+    contract_quality: 64.5
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 43.3
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/screenshots/university-of-edinburgh-2026-06-20T200145.png
 security:

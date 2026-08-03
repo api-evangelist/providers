@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-07-28'
+  score: 21.2
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -130,11 +130,11 @@ overview: 'Tonkean is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tonkean''s developer surface includes documentation, engineering blog, pricing, signup flow, support, changelog, and 14 more developer resources.'
-random_paper: 14
+random_paper: 87
 score:
   band: developing
   composite: 42.2
-  delta: 8.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -142,12 +142,12 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 33.4
+  previous_composite: 42.2
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Tonkean Domain Security

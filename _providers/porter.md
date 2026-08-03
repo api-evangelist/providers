@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Porter Plans Pricing
   plan_count: 1
   slug: porter-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Porter Rate Limits
@@ -166,16 +166,16 @@ rules:
   slug: porter-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.2
-  delta: -5.0
+  composite: 46.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 64.4
+    contract_quality: 67.4
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 51.2
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -183,9 +183,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/screenshots/porter-2026-06-20T191932.png
 security:
 - kind: authentication

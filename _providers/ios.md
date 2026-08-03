@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-07-28'
+  score: 42.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 0
@@ -1496,7 +1496,7 @@ plans:
 - name: Ios Plans Pricing
   plan_count: 5
   slug: ios-plans-pricing
-random_paper: 3
+random_paper: 46
 rate_limits:
 - limit_count: 7
   name: Ios Rate Limits
@@ -1528,16 +1528,16 @@ rules:
   slug: ios-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.8
-  delta: -4.6
+  composite: 58.1
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 67.2
+    contract_quality: 68.3
     developer_ergonomics: 45.7
     discoverability: 59.3
     governance: 37.5
     operational_transparency: 68.4
-  previous_composite: 62.4
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1551,8 +1551,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/screenshots/ios-2026-06-20T183533.png
 security:

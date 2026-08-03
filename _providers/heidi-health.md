@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -366,7 +366,7 @@ plans:
 - name: Heidi Health Plans Pricing
   plan_count: 4
   slug: heidi-health-plans-pricing
-random_paper: 42
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Heidi Health Rate Limits
@@ -390,16 +390,16 @@ rules:
   slug: heidi-health-rules
 score:
   band: strong
-  composite: 61.4
-  delta: -7.8
+  composite: 62.0
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 70.7
+    contract_quality: 73.2
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 69.2
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     contracts:
@@ -413,9 +413,9 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/screenshots/heidi-health-2026-06-20T182614.png
 security:
 - kind: authentication

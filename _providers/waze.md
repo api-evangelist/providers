@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: URL-invocation API to open the Waze app from an external link to locate an address, drop a pin, or start navigation. Query params include ll (lat,lon), q (search), navigate, z (zoom), favorite, and av
@@ -129,11 +129,11 @@ overview: 'Waze publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Waze''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 29
+random_paper: 59
 score:
   band: emerging
   composite: 24.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -141,9 +141,9 @@ score:
     discoverability: 92.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 24.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

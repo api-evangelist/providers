@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 45
 apis:
 - description: The Addresses API from Onfido — 1 operation(s) for addresses.
@@ -264,31 +264,31 @@ plans:
 - name: Onfido Plans Pricing
   plan_count: 3
   slug: onfido-plans-pricing
-random_paper: 65
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Onfido Rate Limits
   slug: onfido-rate-limits
 score:
   band: developing
-  composite: 49.7
-  delta: -2.3
+  composite: 50.6
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 56.7
+    contract_quality: 60.5
     developer_ergonomics: 34.8
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 63.2
-  previous_composite: 52.0
+  previous_composite: 50.6
   provenance:
     contracts:
       callable: 97.8
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfido/refs/heads/main/screenshots/onfido-2026-06-20T190718.png
 security:

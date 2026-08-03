@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -299,7 +299,7 @@ plans:
 - name: Basiq Plans Pricing
   plan_count: 3
   slug: basiq-plans-pricing
-random_paper: 36
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Basiq Rate Limits
@@ -323,16 +323,16 @@ rules:
   slug: basiq-spectral-rules
 score:
   band: developing
-  composite: 50.3
-  delta: -7.1
+  composite: 50.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.5
+    contract_quality: 72.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 57.4
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -346,9 +346,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/screenshots/basiq-2026-06-20T173039.png
 security:
 - kind: authentication

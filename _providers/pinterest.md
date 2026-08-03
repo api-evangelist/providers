@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-07-28'
+  score: 41.9
+  scored_at: '2026-08-03'
 api_count: 117
 apis:
 - description: The Access API from Pinterest — 3 operation(s) for access.
@@ -536,31 +536,31 @@ plans:
 - name: Pinterest Plans Pricing
   plan_count: 3
   slug: pinterest-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Pinterest Rate Limits
   slug: pinterest-rate-limits
 score:
   band: developing
-  composite: 50.0
-  delta: -1.2
+  composite: 50.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 59.5
+    contract_quality: 63.0
     developer_ergonomics: 47.8
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 51.2
+  previous_composite: 50.9
   provenance:
     contracts:
       callable: 99.2
       derived: 0
       marker_coverage: 0.0
       total: 118
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinterest/refs/heads/main/screenshots/pinterest-2026-06-20T191721.png
 security:

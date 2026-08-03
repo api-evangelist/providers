@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -369,7 +369,7 @@ overview: 'Toolhouse publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Toolhouse''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, support, tooling, and 39 more developer resources.'
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 10
   name: Toolhouse Rate Limits
@@ -393,16 +393,16 @@ rules:
   slug: toolhouse-rules
 score:
   band: strong
-  composite: 59.8
-  delta: -4.6
+  composite: 60.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 55.3
+    contract_quality: 60.0
     developer_ergonomics: 54.3
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 64.4
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     contracts:
@@ -410,8 +410,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

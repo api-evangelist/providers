@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-07-28'
+  score: 34.2
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: Hosted Payment Pages (HPP) integration. The merchant's browser POSTs a URL-encoded request to the Gateway, which collects and processes the cardholder's payment details on a Cardstream-hosted page (li
@@ -171,11 +171,11 @@ overview: 'Cardstream publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cardstream''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, changelog, sandbox, and 22 more developer resources.'
-random_paper: 78
+random_paper: 17
 score:
   band: developing
   composite: 50.9
-  delta: 7.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 51.6
@@ -183,7 +183,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 43.2
+  previous_composite: 50.9
   provenance:
     conformance: first-party
   regulatory:
@@ -192,9 +192,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardstream/refs/heads/main/screenshots/cardstream-2026-07-25T204520.png
 security:
 - kind: authentication

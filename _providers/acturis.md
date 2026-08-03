@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -129,11 +129,11 @@ overview: 'Acturis is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Acturis'' developer surface includes FAQ, engineering blog, and 19 more developer resources.'
-random_paper: 25
+random_paper: 3
 score:
   band: emerging
   composite: 15.1
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
@@ -141,7 +141,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 15.8
+  previous_composite: 15.1
   provenance:
     conformance: first-party
   regulatory:
@@ -150,8 +150,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acturis/refs/heads/main/screenshots/acturis-2026-07-25T181537.png
 security:

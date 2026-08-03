@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-07-28'
+  score: 36.9
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: REST API that automates tax registration, calculation, and filing while the merchant keeps their own checkout and PSP. Server-to-server, OAuth2 client-credentials. Covers tax calculations, tax transac
@@ -145,11 +145,11 @@ overview: 'Outpost publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Outpost''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 14 more developer resources.'
-random_paper: 60
+random_paper: 38
 score:
   band: thin
   composite: 38.9
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -157,7 +157,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 7.9
-  previous_composite: 35.5
+  previous_composite: 38.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -167,8 +167,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

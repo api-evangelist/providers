@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -481,7 +481,7 @@ plans:
 - name: Aserto Plans Pricing
   plan_count: 3
   slug: aserto-plans-pricing
-random_paper: 80
+random_paper: 84
 rate_limits:
 - limit_count: 0
   name: Aserto Rate Limits
@@ -497,16 +497,16 @@ rules:
   slug: aserto-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.1
-  delta: -6.0
+  composite: 42.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.0
+    contract_quality: 57.9
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 48.1
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -520,9 +520,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/screenshots/aserto-2026-06-20T172456.png
 security:
 - kind: authentication

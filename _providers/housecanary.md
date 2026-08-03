@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: REST API providing property-level data including AVM valuations, rental value, land value, LTV, sales history, tax history, flood data, school info, and geographic features for US residential properti
@@ -115,7 +115,7 @@ plans:
 - name: Housecanary Plans Pricing
   plan_count: 4
   slug: housecanary-plans-pricing
-random_paper: 38
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Housecanary Rate Limits
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.2
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 45.2
@@ -131,9 +131,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 41.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 37.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housecanary/refs/heads/main/screenshots/housecanary-2026-06-20T182847.png
 security:

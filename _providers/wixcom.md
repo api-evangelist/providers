@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-07-28'
+  score: 49.1
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The unified Wix REST API exposes every Wix business solution — Stores, Bookings, Events, CMS/Data, Contacts, Payments, Marketing, Restaurants, Media, Members, and more — as JSON-over-HTTPS endpoints o
@@ -210,7 +210,7 @@ overview: 'Wix.com publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Wix.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 7
+random_paper: 93
 scopes:
 - name: Wixcom Scopes
   scope_count: 2
@@ -219,7 +219,7 @@ scopes:
 score:
   band: strong
   composite: 62.5
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -227,7 +227,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 63.2
-  previous_composite: 59.7
+  previous_composite: 62.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -238,8 +238,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

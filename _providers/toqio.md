@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-07-28'
+  score: 40.8
+  scored_at: '2026-08-03'
 api_count: 49
 apis:
 - description: The Account API from Toqio — 7 operation(s) for account.
@@ -315,7 +315,7 @@ overview: 'Toqio publishes 49 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Toqio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 64
+random_paper: 81
 scopes:
 - name: Toqio Scopes
   scope_count: 3
@@ -323,16 +323,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 54.6
-  delta: -2.4
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 63.1
+    contract_quality: 63.2
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 57.0
+  previous_composite: 54.7
   provenance:
     conformance: first-party
     contracts:
@@ -348,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

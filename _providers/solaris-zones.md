@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 12
@@ -1278,7 +1278,7 @@ plans:
 - name: Solaris Zones Plans Pricing
   plan_count: 1
   slug: solaris-zones-plans-pricing
-random_paper: 57
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Solaris Zones Rate Limits
@@ -1302,16 +1302,16 @@ rules:
   slug: solaris-zones-spectral-rules
 score:
   band: developing
-  composite: 53.0
-  delta: -3.9
+  composite: 53.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.1
+    contract_quality: 69.9
     developer_ergonomics: 45.7
     discoverability: 66.7
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 56.9
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1319,8 +1319,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/screenshots/solaris-zones-2026-06-20T194146.png
 security:

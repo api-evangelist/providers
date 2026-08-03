@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-07-28'
+  score: 38.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -436,7 +436,7 @@ plans:
 - name: Affirm Plans Pricing
   plan_count: 1
   slug: affirm-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Affirm Rate Limits
@@ -468,16 +468,16 @@ rules:
   slug: affirm-spectral-rules
 score:
   band: developing
-  composite: 44.4
-  delta: -4.5
+  composite: 44.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 86.9
+    contract_quality: 87.8
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 48.9
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -491,8 +491,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/screenshots/affirm-2026-06-20T165638.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 5
 common:
@@ -125,7 +125,7 @@ overview: 'Cumbuca is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cumbuca''s developer surface includes documentation, getting-started guide, engineering blog, support, authentication, and 14 more developer resources.'
-random_paper: 80
+random_paper: 71
 scopes:
 - name: Cumbuca Scopes
   scope_count: 4
@@ -134,7 +134,7 @@ scopes:
 score:
   band: thin
   composite: 32.9
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
@@ -142,7 +142,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 33.2
+  previous_composite: 32.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -152,8 +152,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 79.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumbuca/refs/heads/main/screenshots/cumbuca-2026-07-25T210921.png
 security:

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-07-28'
+  score: 17.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Real-Time Cryptocurrency derivatives trading platform based in Hong Kong
@@ -74,7 +74,7 @@ overview: 'Bitmex publishes 1 API on the [APIs.io](https://apis.io/) network: Bi
 
 
   Bitmex''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 75
+random_paper: 79
 rules:
 - name: Bitmex API Rules
   rule_count: 10
@@ -87,7 +87,7 @@ rules:
 score:
   band: emerging
   composite: 25.5
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 54.3
@@ -95,9 +95,9 @@ score:
     discoverability: 57.4
     governance: 47.9
     operational_transparency: 0.0
-  previous_composite: 22.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 25.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitmex/refs/heads/main/screenshots/bitmex-2026-06-20T173314.png
 security:

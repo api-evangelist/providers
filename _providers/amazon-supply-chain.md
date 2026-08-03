@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ plans:
 - name: Amazon Supply Chain Plans Pricing
   plan_count: 3
   slug: amazon-supply-chain-plans-pricing
-random_paper: 50
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Amazon Supply Chain Rate Limits
@@ -279,17 +279,17 @@ rules:
     warn: 10
   slug: amazon-supply-chain-spectral-rules
 score:
-  band: strong
-  composite: 59.8
-  delta: -6.8
+  band: developing
+  composite: 52.8
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 51.2
+    contract_quality: 23.1
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 66.6
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -297,9 +297,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/screenshots/amazon-supply-chain-2026-06-20T171834.png
 security:
 - kind: authentication

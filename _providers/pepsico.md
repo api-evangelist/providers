@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -104,23 +104,23 @@ press:
 - date: '2026-05-25'
   title: PepsiCo Announces Industry-First AI and Digital Twin ...
   url: https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia
-random_paper: 17
+random_paper: 90
 rate_limits:
 - limit_count: 1
   name: Pepsico Rate Limits
   slug: pepsico-rate-limits
 score:
   band: thin
-  composite: 32.1
-  delta: -1.7
+  composite: 32.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 10.9
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.8
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -128,8 +128,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/screenshots/pepsico-2026-06-20T191557.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: Daily-updated CSV dataset containing information on 85,000+ airports worldwide, including ICAO/IATA codes, coordinates, elevation, type, scheduled service status, and links to official and Wikipedia p
@@ -104,7 +104,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 78
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.3
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 8.1
@@ -120,15 +120,15 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.8
+  previous_composite: 20.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ourairports/refs/heads/main/screenshots/ourairports-2026-06-20T191224.png
 security:

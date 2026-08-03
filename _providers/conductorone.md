@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-07-28'
+  score: 36.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 6
@@ -337,7 +337,7 @@ overview: 'ConductorOne publishes 46 APIs on the [APIs.io](https://apis.io/) net
 
 
   ConductorOne''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, CLI, and 27 more developer resources.'
-random_paper: 69
+random_paper: 64
 scopes:
 - name: Conductorone Scopes
   scope_count: 0
@@ -345,16 +345,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.8
-  delta: -1.3
+  composite: 57.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.8
+    contract_quality: 65.1
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 59.1
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -365,8 +365,8 @@ score:
       total: 46
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/screenshots/conductorone-2026-07-25T210248.png
 security:

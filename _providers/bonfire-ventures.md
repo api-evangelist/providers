@@ -20,7 +20,7 @@ modified: '2026-07-18'
 name: Bonfire Ventures
 nav: Providers
 network: true
-random_paper: 38
+random_paper: 63
 slug: bonfire-ventures
 tags:
 - Venture Capital

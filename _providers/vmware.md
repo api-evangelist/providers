@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -993,7 +993,7 @@ plans:
 - name: Vmware Plans Pricing
   plan_count: 1
   slug: vmware-plans-pricing
-random_paper: 2
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: Vmware Rate Limits
@@ -1017,16 +1017,16 @@ rules:
   slug: vmware-spectral-rules
 score:
   band: strong
-  composite: 59.8
-  delta: -3.6
+  composite: 60.5
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 67.4
+    contract_quality: 70.2
     developer_ergonomics: 52.2
     discoverability: 40.7
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 63.4
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1034,8 +1034,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/screenshots/vmware-2026-06-20T201116.png
 security:

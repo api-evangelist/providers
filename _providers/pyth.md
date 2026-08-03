@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,19 +179,19 @@ overview: 'Pyth publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Pyth''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 20 more developer resources.'
-random_paper: 43
+random_paper: 73
 score:
   band: developing
-  composite: 49.1
-  delta: -1.8
+  composite: 50.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 47.6
+    contract_quality: 52.1
     developer_ergonomics: 76.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 50.9
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,8 +208,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

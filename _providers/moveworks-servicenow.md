@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-07-28'
+  score: 48.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -218,19 +218,19 @@ overview: 'Moveworks (ServiceNow) publishes 1 API on the [APIs.io](https://apis.
 
 
   Moveworks (ServiceNow)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 11
+random_paper: 53
 score:
   band: strong
-  composite: 64.4
-  delta: 2.1
+  composite: 65.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 73.4
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 68.4
-  previous_composite: 62.3
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -241,8 +241,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

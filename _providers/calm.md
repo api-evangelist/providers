@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ overview: 'Calm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Calm''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 16 more developer resources.'
-random_paper: 3
+random_paper: 33
 scopes:
 - name: Calm Scopes
   scope_count: 2
@@ -162,16 +162,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 41.5
-  delta: -6.5
+  composite: 34.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 47.9
+    contract_quality: 16.0
     developer_ergonomics: 60.3
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 48.0
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,9 +188,9 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/screenshots/calm-2026-07-25T204251.png
 security:
 - kind: authentication

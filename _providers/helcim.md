@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
-    idempotency: documented
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-07-28'
+  score: 54.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -235,23 +235,23 @@ overview: 'Helcim publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Helcim''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, pricing, and 33 more developer resources.'
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Helcim Rate Limits
   slug: helcim-rate-limits
 score:
   band: strong
-  composite: 59.1
-  delta: -2.5
+  composite: 60.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 51.6
+    contract_quality: 59.0
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 84.2
-  previous_composite: 61.6
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,8 +263,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png
 security:

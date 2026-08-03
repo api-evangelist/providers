@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 34
 apis:
 - description: Managed ClickHouse-based columnar cloud database (AWS us-east-1) pre-loaded with two petabytes of AlgoSeek historical and near-real-time market data, queried with full SQL. Programmatic access is docu
@@ -262,19 +262,19 @@ overview: 'AlgoSeek publishes 33 APIs on the [APIs.io](https://apis.io/) network
 
 
   AlgoSeek''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 23
+random_paper: 83
 score:
   band: developing
-  composite: 44.5
-  delta: -3.8
+  composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 49.3
+    contract_quality: 53.7
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 48.3
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
@@ -290,8 +290,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/screenshots/algoseek-2026-07-22T202132.png
 security:

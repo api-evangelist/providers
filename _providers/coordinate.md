@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 13
 apis:
 - description: Discussion entries on projects, tasks, and goals.
@@ -195,19 +195,19 @@ overview: 'Coordinate publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Coordinate''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 80
+random_paper: 19
 score:
   band: developing
-  composite: 46.4
-  delta: -1.8
+  composite: 47.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.1
+    contract_quality: 69.9
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 48.2
+  previous_composite: 47.1
   provenance:
     conformance: derived
     contracts:
@@ -217,8 +217,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/screenshots/coordinate-2026-07-25T210404.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Seed API connects a vending operator's POS and machine fleet to Cantaloupe's cashless gateway and reporting cloud. It compiles transactions, fees, and payments into a single bill across vending, micro
@@ -92,7 +92,7 @@ plans:
 - name: Cantaloupe Seed Api Plans Pricing
   plan_count: 3
   slug: cantaloupe-seed-api-plans-pricing
-random_paper: 3
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Cantaloupe Seed Api Rate Limits
@@ -100,7 +100,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.2
-  delta: -3.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 0.0
@@ -108,15 +108,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 30.7
+  previous_composite: 27.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cantaloupe-seed-api/refs/heads/main/screenshots/cantaloupe-seed-api-2026-06-20T173927.png
 security:

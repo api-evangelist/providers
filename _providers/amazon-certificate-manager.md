@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ overview: 'Amazon Certificate Manager publishes 1 API on the [APIs.io](https://a
 
 
   Amazon Certificate Manager''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 22 more developer resources.'
-random_paper: 80
+random_paper: 57
 rules:
 - name: Amazon Certificate Manager API Rules
   rule_count: 5
@@ -262,16 +262,16 @@ rules:
   slug: amazon-certificate-manager-spectral-rules
 score:
   band: strong
-  composite: 56.5
-  delta: -1.1
+  composite: 57.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.0
+    contract_quality: 74.4
     developer_ergonomics: 30.4
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 31.6
-  previous_composite: 57.6
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,8 +281,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/screenshots/amazon-certificate-manager-2026-07-25T195941.png
 security:

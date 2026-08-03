@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-07-28'
+  score: 53.4
+  scored_at: '2026-08-03'
 api_count: 18
 apis:
 - description: The aiTaskBuilder API from Prolific — 24 operation(s) for aitaskbuilder.
@@ -238,19 +238,19 @@ overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network
 
 
   Prolific''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 36
+random_paper: 1
 score:
-  band: developing
-  composite: 55.3
-  delta: 0.1
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.0
+    contract_quality: 68.6
     developer_ergonomics: 82.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 55.2
+  previous_composite: 56.2
   provenance:
     conformance: derived
     contracts:
@@ -260,8 +260,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

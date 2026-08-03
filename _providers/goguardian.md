@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Consumer-side roster synchronization. GoGuardian ingests organizations (OUs), students, teachers, guardians, classes, and enrollments from a district's Student Information System via the OneRoster 1.1
@@ -86,11 +86,11 @@ overview: 'GoGuardian publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   GoGuardian''s developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 73
+random_paper: 12
 score:
   band: minimal
   composite: 10.2
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -98,9 +98,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 10.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goguardian/refs/heads/main/screenshots/goguardian-2026-07-25T220010.png
 security:

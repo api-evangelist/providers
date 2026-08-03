@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 71.8
-  scored_at: '2026-07-28'
+  score: 67.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 5
@@ -269,23 +269,23 @@ plans:
 - name: Coasty Plans
   plan_count: 4
   slug: coasty-plans
-random_paper: 3
+random_paper: 89
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Coasty Rate Limits
   slug: coasty-rate-limits
 score:
-  band: strong
-  composite: 63.2
-  delta: 0.1
+  band: exemplar
+  composite: 67.4
+  delta: 2.7
   facets:
     commercial_clarity: 76.3
-    contract_quality: 66.0
+    contract_quality: 71.8
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 47.4
-  previous_composite: 63.1
+    operational_transparency: 68.4
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +296,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/screenshots/coasty-2026-07-25T205838.png
 security:

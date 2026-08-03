@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-07-28'
+  score: 25.5
+  scored_at: '2026-08-03'
 api_count: 13
 apis:
 - description: Operations for managing account-level resources
@@ -167,19 +167,19 @@ overview: '10Web publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   10Web''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 12 more developer resources.'
-random_paper: 5
+random_paper: 35
 score:
   band: developing
-  composite: 45.7
-  delta: -0.4
+  composite: 46.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 55.2
+    contract_quality: 59.1
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 46.1
+  previous_composite: 46.7
   provenance:
     conformance: derived
     contracts:
@@ -189,8 +189,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/screenshots/10web-2026-07-25T181101.png
 security:

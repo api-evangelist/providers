@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -127,23 +127,23 @@ plans:
 - name: Pverify Plans Pricing
   plan_count: 2
   slug: pverify-plans-pricing
-random_paper: 35
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Pverify Rate Limits
   slug: pverify-rate-limits
 score:
   band: thin
-  composite: 33.8
-  delta: -3.1
+  composite: 34.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.9
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +157,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

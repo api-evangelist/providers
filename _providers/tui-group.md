@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -28,9 +28,6 @@ agentic_access:
   summary_line: 1261 operations · 653 acting · 18 human-in-the-loop
 api_count: 21
 apis:
-- description: TUI's single point of access for IATA New Distribution Capability traffic, routing NDC 21.3 Shopping, Selling and Servicing messages through to Navitaire. Published operations are AirShopping, OfferPr
-  name: TUI Flight NDC Gateway (Navitaire)
-  slug: tui-flight-ndc-gateway
 - description: JSON API onto the Navitaire New Skies passenger service system, used to create and maintain flight bookings and perform operational tasks such as retrieving flight manifests. The set of permitted oper
   name: TUI New Skies Digital API
   slug: tui-newskies-digital-api
@@ -52,15 +49,9 @@ apis:
 - description: 'Distribution API for TUI fly Benelux content — the routes and destinations sold on tuifly.be, tui.nl, tuifly.ma and tuifly.fr — offered to third parties who want to resell TUI fly flights. Documented '
   name: TUI Flight OTA API
   slug: tui-flight-ota-api
-- description: TUI's B2B tour-operator booking interface for travel agents, implementing the Dutch ANVR G7 standard "standard for ANVR XML-message flow" at TravelMessage version 3.1. Documented dialogues are Availab
-  name: TUI TravelMessage G7 v3.1 API
-  slug: tui-b2bota-g7-travelmessage
 - description: Accommodation content companion to the TravelMessage G7 booking interface, described on the portal as OTA content V2.0 and delivered as JSON rather than the G7 XML. Returns the content of a particular
   name: TUI OTA Content API
   slug: tui-ota-content-api
-- description: Bulk package supply feed for OTAs, delivered as XML files placed on a TUI server for SFTP download rather than over HTTP. The message is a TUI custom version 1.5.1 built on the TUI XML Supply standard
-  name: TUI Supply v1.5.1
-  slug: tui-supply
 - description: Proxy service exposing the WallDy holiday search over Apigee X. A single POST /offers operation takes accommodation IDs and a travel window with optional party composition, board type, departure and a
   name: TUI WallDy Holiday Offers Search API (search-walldy)
   slug: tui-search-walldy-api
@@ -70,27 +61,36 @@ apis:
 - description: Metasearch partner interface onto TUI's accommodation portfolio for the Central region (Germany). Two documented operations — GET /hotel_inventory returns the hotels portfolio and POST /hotel_availabi
   name: TUI Meta Search Generics API
   slug: tui-meta-search-generic-api
-- description: Metasearch partner interface for the Nordic region (Sweden, Denmark, Finland, Norway). Documented operations are GET /{market}/flights/search/{agent}, GET /{market}/flights/{agent}/route-feed, GET /{m
-  name: TUI Meta Partner Packages & Flights API
-  slug: tui-meta-partner-packages-flights
-- description: Real-time package search for meta partners in the Nordic region, returning live pricing and availability over REST with OAuth 2.0 client credentials.
-  name: TUI Partner Live Search API
-  slug: tui-meta-partner-package-live-search
 - description: Accommodation content for partners in the Nordic region (Sweden, Denmark, Finland, Norway), exposed as REST endpoints secured with OAuth 2.0 client credentials.
   name: TUI Partner Content API
   slug: tui-partner-content-api
-- description: Cruise shopping family covering Cruise Offers Search across itineraries, date ranges and durations; Unique Cruise Offers Search for a specific itinerary; Cruise Alternate Cabin and Board Search; Cruis
-  name: TUI Cruise Price and Availability API (Cruise Offers v1.0)
-  slug: tui-cruise-price-and-availability
-- description: Cruise booking flow for OTA partners, documented as three sequential operations — Validate Holiday (validates the booking with customer and travel details and returns the latest prices) at /cruise-ota
-  name: TUI Cruise OTA Booking APIs v1.0
-  slug: tui-cruise-booking-apis
-- description: Returns the physical cabins available on a cruise for a given itinerary, duration, cabin type, occupancy and board, with promo code support.
-  name: TUI Cruise Cabin Availability API v1.0
-  slug: tui-cruise-cabin-availability
 - description: GraphQL endpoint for ship reference content — cabin types, boards and deck plans — queried for specific information related to a ship. The only GraphQL surface in TUI's published catalog.
   name: TUI Ship Content API v1.0
   slug: tui-ship-content-api
+- description: TUI Group TravelMessage.v31 from TUI Group — 10 path(s) described in OpenAPI.
+  name: TUI Group TravelMessage.v31
+  slug: tui-group-tui-b2bota-g7-travelmessage-openapi
+- description: TUI Group TUI Cruise Booking APIs from TUI Group — 2 path(s) described in OpenAPI.
+  name: TUI Group TUI Cruise Booking APIs
+  slug: tui-group-tui-cruise-booking-apis-openapi
+- description: TUI Group Cruise Cabin Availability from TUI Group — 1 path(s) described in OpenAPI.
+  name: TUI Group Cruise Cabin Availability
+  slug: tui-group-tui-cruise-cabin-availability-openapi
+- description: TUI Group TUI Cruise Price and Availability. from TUI Group — 6 path(s) described in OpenAPI.
+  name: TUI Group TUI Cruise Price and Availability.
+  slug: tui-group-tui-cruise-price-and-availability-openapi
+- description: TUI Group Flight-ndc-gateway-navitaire from TUI Group — 26 path(s) described in OpenAPI.
+  name: TUI Group Flight-ndc-gateway-navitaire
+  slug: tui-group-tui-flight-ndc-gateway-openapi
+- description: TUI Group Meta Partner Package Live Search from TUI Group — 3 path(s) described in OpenAPI.
+  name: TUI Group Meta Partner Package Live Search
+  slug: tui-group-tui-meta-partner-package-live-search-openapi
+- description: TUI Group Meta Partner Packages & Flights from TUI Group — 5 path(s) described in OpenAPI.
+  name: TUI Group Meta Partner Packages & Flights
+  slug: tui-group-tui-meta-partner-packages-flights-openapi
+- description: TUI Group Supply from TUI Group — 1 path(s) described in OpenAPI.
+  name: TUI Group Supply
+  slug: tui-group-tui-supply-openapi
 artifact_total: 27
 common:
 - group: agent
@@ -267,11 +267,11 @@ modified: '2026-07-28'
 name: TUI Group
 nav: Providers
 network: true
-overview: 'TUI Group publishes 21 APIs on the [APIs.io](https://apis.io/) network, including TUI Flight NDC Gateway (Navitaire), TUI New Skies Digital API, TUI New Skies GoNow API, and 18 more. Tagged areas include Travel, United Kingdom, Aviation, Airline, and Tour Operator.
+overview: 'TUI Group publishes 21 APIs on the [APIs.io](https://apis.io/) network, including TUI New Skies Digital API, TUI New Skies GoNow API, TUI New Skies Payment API, and 18 more. Tagged areas include Travel, United Kingdom, Aviation, Airline, and Tour Operator.
 
 
   TUI Group''s developer surface includes authentication, changelog, sandbox, documentation, API reference, signup flow, getting-started guide, and 34 more developer resources.'
-random_paper: 38
+random_paper: 85
 rate_limits:
 - limit_count: 6
   name: Tui Group Rate Limits
@@ -283,14 +283,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 52.2
+  composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.5
+    contract_quality: 55.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 63.2
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,8 +303,9 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Tui Group Authentication

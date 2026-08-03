@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-07-28'
+  score: 54.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -188,19 +188,19 @@ overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Osmosis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 22 more developer resources.'
-random_paper: 43
+random_paper: 21
 score:
   band: developing
-  composite: 53.5
-  delta: -1.2
+  composite: 54.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 62.2
+    contract_quality: 65.5
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 54.7
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +211,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

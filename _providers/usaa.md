@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 11
 common:
@@ -147,7 +147,7 @@ press:
 - date: '2026-05-25'
   title: Responsible Use of Artificial Intelligence
   url: https://www.usaa.com/about/artificial-intelligence/
-random_paper: 16
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Usaa Rate Limits
@@ -164,7 +164,7 @@ rules:
 score:
   band: thin
   composite: 32.5
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 12.9
@@ -172,7 +172,7 @@ score:
     discoverability: 68.5
     governance: 70.8
     operational_transparency: 36.8
-  previous_composite: 36.3
+  previous_composite: 32.5
   provenance:
     conformance: first-party
   regulatory:
@@ -181,8 +181,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usaa/refs/heads/main/screenshots/usaa-2026-06-20T200644.png
 security:

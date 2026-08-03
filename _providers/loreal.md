@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: ModiFace, a L'Oréal company, provides an augmented reality virtual try-on platform for beauty brands and retailers. The platform offers a software development kit (SDK), embeddable miniprogram, and AP
@@ -103,11 +103,11 @@ overview: 'L''Oréal publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   L''Oréal''s developer surface includes product news, engineering blog, and 12 more developer resources.'
-random_paper: 65
+random_paper: 69
 score:
   band: minimal
   composite: 8.1
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -115,9 +115,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 8.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

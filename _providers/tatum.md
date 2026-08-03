@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,23 +140,23 @@ plans:
 - name: Tatum Plans Pricing
   plan_count: 5
   slug: tatum-plans-pricing
-random_paper: 63
+random_paper: 80
 rate_limits:
 - limit_count: 3
   name: Tatum Rate Limits
   slug: tatum-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: -3.3
+  composite: 37.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 40.4
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -170,8 +170,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/screenshots/tatum-2026-06-20T194929.png
 security:

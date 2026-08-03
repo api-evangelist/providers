@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Department Of The Interior Plans Pricing
   plan_count: 1
   slug: department-of-the-interior-plans-pricing
-random_paper: 79
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Department Of The Interior Rate Limits
@@ -191,16 +191,16 @@ rules:
   slug: doi-rules
 score:
   band: developing
-  composite: 45.3
-  delta: -3.5
+  composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 66.1
+    contract_quality: 66.7
     developer_ergonomics: 28.3
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 48.8
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -208,8 +208,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/screenshots/department-of-the-interior-2026-06-20T175924.png
 security:

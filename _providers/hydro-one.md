@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Hydro One's Green Button Connect My Data implementation, mandated by Ontario Regulation 633/21. A registered third-party vendor obtains an OAuth 2.0 authorization code after the customer authenticates
@@ -130,7 +130,7 @@ overview: 'Hydro One publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Hydro One''s developer surface includes authentication, sandbox, documentation, getting-started guide, signup flow, support, product news, and 13 more developer resources.'
-random_paper: 15
+random_paper: 62
 scopes:
 - name: Hydro One Scopes
   scope_count: 0
@@ -139,7 +139,7 @@ scopes:
 score:
   band: thin
   composite: 29.2
-  delta: 6.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -147,7 +147,7 @@ score:
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 23.1
+  previous_composite: 29.2
   provenance:
     conformance: first-party
   regulatory:
@@ -156,9 +156,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Hydro One Authentication

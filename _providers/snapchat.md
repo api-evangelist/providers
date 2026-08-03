@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -283,7 +283,7 @@ plans:
 - name: Snapchat Plans Pricing
   plan_count: 1
   slug: snapchat-plans-pricing
-random_paper: 30
+random_paper: 90
 rate_limits:
 - limit_count: 2
   name: Snapchat Rate Limits
@@ -312,16 +312,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 57.0
-  delta: -2.5
+  composite: 57.4
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 72.7
+    contract_quality: 74.7
     developer_ergonomics: 34.8
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 59.5
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -335,8 +335,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png
 security:

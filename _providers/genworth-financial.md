@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,11 +83,11 @@ press:
 - date: '2026-05-25'
   title: Genworth Financial Announces First Quarter 2026 Results
   url: https://investor.genworth.com/news-events/press-releases/detail/1056/genworth-financial-announces-first-quarter-2026-results
-random_paper: 52
+random_paper: 51
 score:
   band: minimal
   composite: 5.2
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -95,15 +95,15 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.0
+  previous_composite: 5.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genworth-financial/refs/heads/main/screenshots/genworth-financial-2026-06-20T181741.png
 security:

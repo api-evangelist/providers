@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -366,7 +366,7 @@ plans:
 - name: Perforce Plans Pricing
   plan_count: 5
   slug: perforce-plans-pricing
-random_paper: 34
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Perforce Rate Limits
@@ -390,16 +390,16 @@ rules:
   slug: perforce-spectral-rules
 score:
   band: strong
-  composite: 60.0
-  delta: -3.0
+  composite: 60.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.7
+    contract_quality: 72.4
     developer_ergonomics: 58.7
     discoverability: 63.0
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 63.0
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     contracts:
@@ -407,8 +407,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/screenshots/perforce-2026-06-20T191608.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -195,23 +195,23 @@ plans:
 - name: Descript Plans Pricing
   plan_count: 5
   slug: descript-plans-pricing
-random_paper: 42
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Descript Rate Limits
   slug: descript-rate-limits
 score:
   band: strong
-  composite: 56.9
-  delta: -2.8
+  composite: 58.5
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 55.0
+    contract_quality: 61.4
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 59.7
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     contracts:
@@ -219,8 +219,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/screenshots/descript-2026-06-20T175933.png
 security:

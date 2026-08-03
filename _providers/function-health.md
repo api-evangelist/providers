@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: Authenticated member web and mobile dashboard for viewing 100+ lab biomarkers, trends across testing rounds, clinician notes, biological age, and a personalized action plan. There is no documented pub
@@ -101,7 +101,7 @@ plans:
 - name: Function Health Plans Pricing
   plan_count: 2
   slug: function-health-plans-pricing
-random_paper: 69
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Function Health Rate Limits
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.5
-  delta: -4.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 32.3
@@ -117,15 +117,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.1
+  previous_composite: 24.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

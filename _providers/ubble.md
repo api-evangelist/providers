@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 11
 apis:
 - description: The Address document verifications (Coming soon) API from Ubble — 8 operation(s) for address document verifications (coming soon).
@@ -209,19 +209,19 @@ overview: 'Ubble publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ubble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 23 more developer resources.'
-random_paper: 30
+random_paper: 47
 score:
   band: developing
-  composite: 54.7
-  delta: -1.4
+  composite: 55.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.0
+    contract_quality: 66.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 56.1
+  previous_composite: 55.5
   provenance:
     conformance: derived
     contracts:
@@ -231,8 +231,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

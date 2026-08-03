@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ press:
 - date: '2026-05-25'
   title: Ciena Solidifies AI Networking Leadership, Unveils New ...
   url: https://www.ciena.com/about/newsroom/press-releases/ciena-solidifies-ai-networking-leadership-unveils-new-innovations-for-high-speed-connectivity
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Ciena Rate Limits
@@ -220,16 +220,16 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.9
-  delta: -2.1
+  composite: 55.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.9
+    contract_quality: 69.8
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 57.0
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +243,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-06-20T174339.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-07-28'
+  score: 28.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ overview: 'Azure OpenAI Service publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Azure OpenAI Service''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 2
+random_paper: 92
 rules:
 - name: Azure OpenAI Service API Rules
   rule_count: 9
@@ -168,16 +168,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 38.8
-  delta: -2.9
+  composite: 39.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 65.7
+    contract_quality: 69.5
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 0.0
-  previous_composite: 41.7
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/screenshots/azure-openai-2026-06-20T172911.png
 security:

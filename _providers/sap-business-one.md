@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -141,19 +141,19 @@ overview: 'SAP Business One publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
 
   SAP Business One''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 54
+random_paper: 92
 score:
-  band: emerging
-  composite: 27.4
-  delta: -3.1
+  band: thin
+  composite: 28.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 50.7
+    contract_quality: 54.9
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 30.5
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +161,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/screenshots/sap-business-one-2026-06-20T193419.png
 security:

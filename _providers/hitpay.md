@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-07-28'
+  score: 53.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -369,23 +369,23 @@ plans:
 - name: Hitpay Plans Pricing
   plan_count: 3
   slug: hitpay-plans-pricing
-random_paper: 81
+random_paper: 85
 rate_limits:
 - limit_count: 1
   name: Hitpay Rate Limits
   slug: hitpay-rate-limits
 score:
   band: exemplar
-  composite: 68.6
-  delta: 0.2
+  composite: 69.4
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 62.5
+    contract_quality: 66.1
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 50.0
-  previous_composite: 68.4
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,8 +402,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/screenshots/hitpay-2026-07-25T221304.png
 security:

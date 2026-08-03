@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for Anvyl's supply chain / production platform. Resources are served under https://api.anvyl.com/api/v1 (e.g. purchase orders); unauthenticated requests return 401. Docume
@@ -88,11 +88,11 @@ overview: 'Anvyl publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Anvyl''s developer surface includes documentation, API reference, authentication, and 7 more developer resources.'
-random_paper: 62
+random_paper: 79
 score:
   band: emerging
   composite: 16.1
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -100,9 +100,9 @@ score:
     discoverability: 79.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 17.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 16.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anvyl/refs/heads/main/screenshots/anvyl-2026-07-25T200445.png
 security:

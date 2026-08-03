@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Thesportsdb Plans Pricing
   plan_count: 3
   slug: thesportsdb-plans-pricing
-random_paper: 54
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Thesportsdb Rate Limits
@@ -157,17 +157,17 @@ rules:
     warn: 5
   slug: thesportsdb-rules
 score:
-  band: thin
-  composite: 41.9
-  delta: -4.0
+  band: developing
+  composite: 42.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 45.9
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +181,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/screenshots/thesportsdb-2026-06-20T195300.png
 security:

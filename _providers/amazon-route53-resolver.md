@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -5060,7 +5060,7 @@ plans:
 - name: Amazon Route53 Resolver Plans Pricing
   plan_count: 3
   slug: amazon-route53-resolver-plans-pricing
-random_paper: 67
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Route53 Resolver Rate Limits
@@ -5084,16 +5084,16 @@ rules:
   slug: amazon-route53-resolver-spectral-rules
 score:
   band: strong
-  composite: 59.0
-  delta: -2.3
+  composite: 59.7
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 64.4
+    contract_quality: 67.4
     developer_ergonomics: 37.0
     discoverability: 40.7
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 61.3
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     contracts:
@@ -5101,8 +5101,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 63
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/screenshots/amazon-route53-resolver-2026-06-20T171815.png
 security:

@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-07-28'
+  score: 32.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: This is an OpenAPI for the Mastodon API.
@@ -103,7 +103,7 @@ plans:
 - name: Mastodon Plans Pricing
   plan_count: 3
   slug: mastodon-plans-pricing
-random_paper: 49
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Mastodon Rate Limits
@@ -119,25 +119,25 @@ rules:
   slug: mastodon-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 41.2
-  delta: -5.3
+  composite: 39.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 51.6
+    contract_quality: 43.5
     developer_ergonomics: 28.3
     discoverability: 50.0
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 46.5
+  previous_composite: 39.2
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastodon/refs/heads/main/screenshots/mastodon-2026-06-20T185024.png
 security:
 - kind: domain-security

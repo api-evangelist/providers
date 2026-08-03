@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Create new patients, update and synchronize patient demographics and medical history, and upload patient documents into Denticon. Access is partner approved and scoped by practice group (PGID) and off
@@ -97,11 +97,11 @@ overview: 'Denticon publishes 7 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Denticon''s developer surface includes documentation, signup flow, and 6 more developer resources.'
-random_paper: 32
+random_paper: 92
 score:
   band: emerging
   composite: 13.4
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -109,15 +109,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.2
+  previous_composite: 13.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/denticon/refs/heads/main/screenshots/denticon-2026-07-25T211726.png
 security:

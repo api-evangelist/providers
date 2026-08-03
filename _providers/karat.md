@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Karat''s GraphQL API for managing technical-interview hiring workflows: query candidacies, roles, groups and users; invite candidates into assessments; and bulk-update candidacy dispositions. Hosted pe'
@@ -160,11 +160,11 @@ overview: 'Karat publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Karat''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 39
+random_paper: 56
 score:
   band: thin
   composite: 40.4
-  delta: 7.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 37.0
@@ -172,14 +172,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 32.5
+  previous_composite: 40.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karat/refs/heads/main/screenshots/karat-2026-07-25T223504.png
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Airwallex Plans Pricing
   plan_count: 3
   slug: airwallex-plans-pricing
-random_paper: 67
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Airwallex Rate Limits
@@ -305,16 +305,16 @@ rules:
   slug: airwallex-spectral-rules
 score:
   band: strong
-  composite: 63.6
-  delta: -5.3
+  composite: 64.3
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 63.3
+    contract_quality: 66.5
     developer_ergonomics: 58.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 68.9
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     contracts:
@@ -328,9 +328,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png
 security:
 - kind: authentication

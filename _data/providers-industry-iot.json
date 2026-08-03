@@ -1506,6 +1506,44 @@
      "rank": 38
     },
     {
+     "name": "MaintainX",
+     "slug": "maintainx",
+     "description": "MaintainX is a mobile-first computerized maintenance management system (CMMS) and enterprise asset management (EAM) platform for the industrial and frontline workforce. Teams use it to manage work orders, work requests, assets, parts inventory, purchase orders, meters, preventive maintenance plans, procedures, inspections, and vendors. The MaintainX REST API v1 (https://api.getmaintainx.com/v1) exposes all of these entities programmatically with Bearer (JWT) API-key authentication, cursor pagination, timestamp-based change polling, documented rate limits, and 46 webhook event types for real-time integration. Backed by Bain Capital Ventures and Bessemer Venture Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/maintainx/refs/heads/main/screenshots/maintainx-2026-07-25T225951.png",
+     "score": 62.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 68.4,
+      "governance": 11.5,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 45.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 39
+    },
+    {
      "name": "TagoIO",
      "slug": "tago-io",
      "description": "TagoIO is an IoT cloud application development platform that enables businesses to build, deploy, and manage IoT applications with a comprehensive REST API. The platform provides full programmatic control over devices, dashboards, data storage, analysis scripts, alerts, and user management. TagoIO exposes regional REST API endpoints covering device data ingestion, entity management, access control policies, and file storage, all secured with token-based authentication. Plans range from a free tier supporting five devices up to an enterprise-grade TagoDeploy option supporting millions of devices with dedicated cloud instances and customizable rate limits.",
@@ -1541,7 +1579,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Heidi Health",
@@ -1586,7 +1624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Vital",
@@ -1631,7 +1669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "WHOOP",
@@ -1676,7 +1714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Google Nest Smart Device Management",
@@ -1714,7 +1752,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "KORE Wireless",
@@ -1758,7 +1796,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Amazon Timestream",
@@ -1796,7 +1834,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Kolide",
@@ -1834,7 +1872,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
+    },
+    {
+     "name": "Starlink",
+     "slug": "starlink",
+     "description": "Starlink is the low-Earth-orbit satellite internet constellation operated by SpaceX from Hawthorne, California, delivering broadband and non-terrestrial connectivity to residential, business, maritime, aviation, and government customers in the United States and roughly a hundred other markets. In the telecom value chain Starlink is an access-network operator that sells connectivity directly to end customers and wholesales capacity to airlines, shipping lines, and mobile network operators, rather than a CPaaS aggregator or a GSMA-affiliated mobile network operator. Its API posture is unusually open for an access provider and unusually narrow in scope. The Starlink Public API V2 is fully documented in public at starlink.readme.io, its OpenAPI 3.0.4 description is downloadable anonymously from starlink.com with no login, and SpaceX publishes an official gRPC protobuf for the local device API on GitHub. But the API is operational rather than developer-product, covering account, service line, user terminal, router, billing, and telemetry management, and credentials are gated behind an enterprise or business Starlink account whose admin must mint a V2 service account. No CAMARA implementation, no GSMA Open Gateway participation, and no TM Forum Open API conformance was found anywhere in Starlink's published material.",
+     "score": 59.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 58.7,
+      "governance": 11.5,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 75.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 52.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 48
     },
     {
      "name": "ThingsBoard",
@@ -1872,45 +1954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
-    },
-    {
-     "name": "MaintainX",
-     "slug": "maintainx",
-     "description": "MaintainX is a mobile-first computerized maintenance management system (CMMS) and enterprise asset management (EAM) platform for the industrial and frontline workforce. Teams use it to manage work orders, work requests, assets, parts inventory, purchase orders, meters, preventive maintenance plans, procedures, inspections, and vendors. The MaintainX REST API v1 (https://api.getmaintainx.com/v1) exposes all of these entities programmatically with Bearer (JWT) API-key authentication, cursor pagination, timestamp-based change polling, documented rate limits, and 46 webhook event types for real-time integration. Backed by Bain Capital Ventures and Bessemer Venture Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/maintainx/refs/heads/main/screenshots/maintainx-2026-07-25T225951.png",
-     "score": 58.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 68.4,
-      "governance": 11.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 45.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Verkada",
@@ -1947,7 +1991,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Telia Company",
@@ -1991,7 +2035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "ETSI",
@@ -2035,7 +2079,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Blues",
@@ -2072,50 +2116,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": true
-     },
-     "rank": 52
-    },
-    {
-     "name": "Starlink",
-     "slug": "starlink",
-     "description": "Starlink is the low-Earth-orbit satellite internet constellation operated by SpaceX from Hawthorne, California, delivering broadband and non-terrestrial connectivity to residential, business, maritime, aviation, and government customers in the United States and roughly a hundred other markets. In the telecom value chain Starlink is an access-network operator that sells connectivity directly to end customers and wholesales capacity to airlines, shipping lines, and mobile network operators, rather than a CPaaS aggregator or a GSMA-affiliated mobile network operator. Its API posture is unusually open for an access provider and unusually narrow in scope. The Starlink Public API V2 is fully documented in public at starlink.readme.io, its OpenAPI 3.0.4 description is downloadable anonymously from starlink.com with no login, and SpaceX publishes an official gRPC protobuf for the local device API on GitHub. But the API is operational rather than developer-product, covering account, service line, user terminal, router, billing, and telemetry management, and credentials are gated behind an enterprise or business Starlink account whose admin must mint a V2 service account. No CAMARA implementation, no GSMA Open Gateway participation, and no TM Forum Open API conformance was found anywhere in Starlink's published material.",
-     "score": 56.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 58.7,
-      "governance": 11.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 75.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 52.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
      },
      "rank": 53
     },
@@ -2165,8 +2165,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 122,
-   "shown": 122,
+   "count": 124,
+   "shown": 124,
    "providers": [
     {
      "name": "Fleet",
@@ -2588,6 +2588,50 @@
      "rank": 64
     },
     {
+     "name": "TPG Telecom",
+     "slug": "tpg-telecom",
+     "description": "TPG Telecom Limited is Australia's second-largest telecommunications company and an ASX-listed mobile network operator and fixed broadband carrier, formed by the 2020 merger of Vodafone Hutchison Australia and TPG Corporation. It runs its own mobile network reaching 98.4% of the Australian population and sells under the Vodafone, TPG, iiNet, Internode, Lebara and felix brands, with business, enterprise, government and wholesale services consolidated under Vodafone Business. In the telecom API value chain TPG Telecom sits squarely on the network side and not the developer side: it publishes no first-party developer portal, no downloadable OpenAPI, and no network APIs. Its only public, callable developer surface is the Vodafone Business Messaging Hub — a white-labelled Sinch MessageMedia (Sinch Engage) CPaaS platform running on TPG-branded hosts at messaging.tpgtelecom.com.au and api.messaging.tpgtelecom.com.au, with documentation served from a Zendesk help centre and an Apiary API Blueprint owned by MessageMedia. On the sector's defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG's public position is that it is \"closely watching developments like GSMA Open Gateway\" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.",
+     "score": 53.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 3.1,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 38.6,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 51.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 65
+    },
+    {
      "name": "Tuya",
      "slug": "tuya",
      "description": "Tuya Smart is a global leading AI cloud platform service provider (NYSE: TUYA; HKEX: 2391) that enables IoT device manufacturers, solution providers, and app developers to build smart home and industrial IoT applications. The platform provides APIs for device management, smart home management, scene automation, data analytics, and industry-specific integrations across smart home, energy, security, and industrial verticals. Tuya operates six global data centers and handles over 100 million concurrent requests.",
@@ -2623,7 +2667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "CNH",
@@ -2661,7 +2705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Ditto",
@@ -2699,7 +2743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Ninetailed",
@@ -2737,7 +2781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Bharti Airtel",
@@ -2781,7 +2825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Particle",
@@ -2819,7 +2863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Gameye",
@@ -2857,7 +2901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Oura Ring",
@@ -2902,7 +2946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Sofar Ocean",
@@ -2935,43 +2979,6 @@
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 73
-    },
-    {
-     "name": "Picarro",
-     "slug": "picarro",
-     "description": "Picarro, Inc. is a Santa Clara, California company that builds high-precision gas concentration and stable-isotope analyzers based on Cavity Ring-Down Spectroscopy (CRDS), together with the cloud software and mobile platforms that turn those measurements into operational decisions. Its instruments measure more than 700 compounds — methane, ethane, CO2, N2O, ammonia, ethylene oxide, hydrogen peroxide, water isotopes and cleanroom-level airborne molecular contamination — at parts-per- billion and parts-per-trillion sensitivity. Picarro serves natural gas utilities (mobile methane leak detection and the Picarro Surveyor programme), sterilization and EtO facilities, refinery and chemical-plant fenceline monitoring, semiconductor cleanrooms and FOUP contamination control, pharmaceutical manufacturing, and atmospheric and earth-science research. The company reports 25+ years of operation, 5,000+ instruments installed in about 100 countries, and 77 patents. Its software side is P-Cubed, a cloud data-processing and storage platform with a customer-facing API for custom data transformation routines, a companion mobile app for field leak investigations, and — for semiconductor deployments — a publicly published gRPC/ProtoBuf interface (picarro/sam-foup-public) for external control and monitoring of Picarro Edge systems.",
-     "score": 53.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 49.4,
-      "governance": 12.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 42.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -3055,43 +3062,6 @@
      "rank": 76
     },
     {
-     "name": "Afero",
-     "slug": "afero",
-     "description": "Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux Device SDK for firmware, a Bluetooth Low Energy and Wi-Fi onboarding path, the Afero Profile Editor low-code device-modeling tool, Java (Android) and Swift (iOS) mobile SDKs with a Softhub, and the Afero Cloud — a RESTful API at api.afero.io that lists accounts and devices, reports real-time device state, executes attribute read and write actions on connected devices, and drives the over-the-air firmware pipeline. Afero has raised $73.2M from investors including Samsung Catalyst Fund and Crosspoint Capital Partners and reports millions of deployed devices across 200+ product categories in consumer, enterprise and industrial markets.",
-     "score": 52.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 60.9,
-      "governance": 20.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 51.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 77
-    },
-    {
      "name": "SPAN",
      "slug": "span-io",
      "description": "SPAN is a San Francisco-based home energy technology company building smart electrical panels that replace traditional residential breaker boxes with a software-defined, controllable, and metered panel. SPAN Panel provides whole-home real-time power and energy metering, per-circuit monitoring and remote relay control, grid/islanding state management for whole-home backup with solar and energy storage, EV charging coordination via SPAN Drive, and a mobile app for energy management. As of the SPAN Panel firmware r202603 release (Q1 2026), SPAN exposes a public-beta on-premise SPAN API for software integrations between SPAN Panel and other devices on the home Local Area Network. The SPAN API is a real, documented HTTP + MQTT/Homie surface that runs directly on the panel — there is no cloud-hosted developer endpoint. The REST surface provides authentication, system status, Wi-Fi setup, panel state, per-circuit control, panel grid relay, energy storage state-of-energy, and emergency reconnect operations. The publish/subscribe surface uses the Electrification Bus (eBus) framework and Homie Convention over MQTT for streaming real-time panel state, per-circuit telemetry, and control of relays. SPAN API is licensed for personal, non-commercial use under MIT-0 for docs and example code; commercial / fleet use requires the separately licensed SPAN Fleet Manager.",
@@ -3134,7 +3104,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "Cribl",
@@ -3172,7 +3142,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Weavix",
@@ -3216,7 +3186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Whereby",
@@ -3254,7 +3224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 80
     },
     {
      "name": "Enphase Energy",
@@ -3294,6 +3264,44 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 81
+    },
+    {
+     "name": "AngelCam",
+     "slug": "angelcam",
+     "description": "Angelcam is a cloud video-surveillance platform that connects any IP camera to the cloud — via ONVIF and the open-source Arrow connector — for live viewing, cloud recording, clip creation and sharing, two-way audio, sensors, and Remote Technical Surveillance (RTS) event notifications. The Angelcam RESTful API (HTTPS-only JSON, organised around Spaces, secured with OAuth2 or a Personal Access Token) exposes 90+ endpoints across cameras, recordings, clips, events, Arrow clients, notifications, speakers, and services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png",
+     "score": 51.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 67.7,
+      "governance": 11.5,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 46.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -3340,6 +3348,156 @@
      "rank": 83
     },
     {
+     "name": "Afero",
+     "slug": "afero",
+     "description": "Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux Device SDK for firmware, a Bluetooth Low Energy and Wi-Fi onboarding path, the Afero Profile Editor low-code device-modeling tool, Java (Android) and Swift (iOS) mobile SDKs with a Softhub, and the Afero Cloud — a RESTful API at api.afero.io that lists accounts and devices, reports real-time device state, executes attribute read and write actions on connected devices, and drives the over-the-air firmware pipeline. Afero has raised $73.2M from investors including Samsung Catalyst Fund and Crosspoint Capital Partners and reports millions of deployed devices across 200+ product categories in consumer, enterprise and industrial markets.",
+     "score": 51.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 64.7,
+      "governance": 11.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 41.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 84
+    },
+    {
+     "name": "Cloudflare KV",
+     "slug": "cloudflare-kv",
+     "description": "Cloudflare Workers KV is a globally distributed key-value store that allows developers to store and retrieve data at low latency from Cloudflare's edge network. It provides a REST API for reading, writing, deleting, and listing key-value pairs across namespaces, making it ideal for caching, configuration management, session storage, API authorization, and dynamic routing. KV supports eventual consistency across Cloudflare's global network with read latencies under 5ms, and is accessible both via Workers bindings and external REST API calls.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudflare-kv/refs/heads/main/screenshots/cloudflare-kv-2026-06-20T174555.png",
+     "score": 50.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 63.6,
+      "governance": 58.3,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 28.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 85
+    },
+    {
+     "name": "LocoNav",
+     "slug": "loconav",
+     "description": "LocoNav is an AI- and IoT-powered GPS vehicle tracking and smart fleet management platform used across 50+ countries, integrating 2,200+ device and sensor types to track vehicles and assets in real time. Its LocoNav Integration API exposes REST endpoints and webhooks for fleet telematics: telematics data (sensor readings, GPS location, distance, timelines, video and live streams), CRUD management of drivers, vehicles, trips, geofence polygons and users, driver-vehicle assignment, vehicle scorecards, immobilization, live share links, and alert subscriptions. Real-time alert and live-location webhooks push events such as overspeed, harsh braking/acceleration, geofence, fatigue, crash, fuel-theft, anti-theft and device-offline. Authentication is a user-level token in the User-Authentication header; all listing endpoints are paginated and time parameters use epoch seconds.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png",
+     "score": 50.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 70.0,
+      "governance": 20.8,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 49.5,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 36.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 86
+    },
+    {
+     "name": "Picarro",
+     "slug": "picarro",
+     "description": "Picarro, Inc. is a Santa Clara, California company that builds high-precision gas concentration and stable-isotope analyzers based on Cavity Ring-Down Spectroscopy (CRDS), together with the cloud software and mobile platforms that turn those measurements into operational decisions. Its instruments measure more than 700 compounds — methane, ethane, CO2, N2O, ammonia, ethylene oxide, hydrogen peroxide, water isotopes and cleanroom-level airborne molecular contamination — at parts-per- billion and parts-per-trillion sensitivity. Picarro serves natural gas utilities (mobile methane leak detection and the Picarro Surveyor programme), sterilization and EtO facilities, refinery and chemical-plant fenceline monitoring, semiconductor cleanrooms and FOUP contamination control, pharmaceutical manufacturing, and atmospheric and earth-science research. The company reports 25+ years of operation, 5,000+ instruments installed in about 100 countries, and 77 patents. Its software side is P-Cubed, a cloud data-processing and storage platform with a customer-facing API for custom data transformation routines, a companion mobile app for field leak investigations, and — for semiconductor deployments — a publicly published gRPC/ProtoBuf interface (picarro/sam-foup-public) for external control and monitoring of Picarro Edge systems.",
+     "score": 50.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 49.4,
+      "governance": 3.1,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 64.7,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 34.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 87
+    },
+    {
      "name": "Balena",
      "slug": "balena",
      "description": "Balena is a complete platform for building, deploying, and managing fleets of connected Linux devices. The platform combines balenaOS, balenaEngine, balenaCloud, the balena CLI, and the balena SDK so teams can build container-based device images and continuously deliver them to devices in the field. The balenaCloud REST API exposes device, fleet, release, and organization management using OData-style queries.",
@@ -3375,7 +3533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 88
     },
     {
      "name": "Trimble Agriculture",
@@ -3413,7 +3571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 89
     },
     {
      "name": "Door",
@@ -3451,7 +3609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 90
     },
     {
      "name": "AT&T",
@@ -3495,7 +3653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 91
     },
     {
      "name": "Google Fit REST",
@@ -3540,7 +3698,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 92
     },
     {
      "name": "Siemens PLM",
@@ -3577,7 +3735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 93
     },
     {
      "name": "Azure Stream Analytics",
@@ -3615,7 +3773,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 94
     },
     {
      "name": "MTN Group",
@@ -3659,51 +3817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
-    },
-    {
-     "name": "TPG Telecom",
-     "slug": "tpg-telecom",
-     "description": "TPG Telecom Limited is Australia's second-largest telecommunications company and an ASX-listed mobile network operator and fixed broadband carrier, formed by the 2020 merger of Vodafone Hutchison Australia and TPG Corporation. It runs its own mobile network reaching 98.4% of the Australian population and sells under the Vodafone, TPG, iiNet, Internode, Lebara and felix brands, with business, enterprise, government and wholesale services consolidated under Vodafone Business. In the telecom API value chain TPG Telecom sits squarely on the network side and not the developer side: it publishes no first-party developer portal, no downloadable OpenAPI, and no network APIs. Its only public, callable developer surface is the Vodafone Business Messaging Hub — a white-labelled Sinch MessageMedia (Sinch Engage) CPaaS platform running on TPG-branded hosts at messaging.tpgtelecom.com.au and api.messaging.tpgtelecom.com.au, with documentation served from a Zendesk help centre and an Apiary API Blueprint owned by MessageMedia. On the sector's defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG's public position is that it is \"closely watching developments like GSMA Open Gateway\" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.",
-     "score": 50.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 3.1,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 38.6,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 51.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 43.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 92
+     "rank": 95
     },
     {
      "name": "KISI",
@@ -3741,7 +3855,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 96
     },
     {
      "name": "Nortech",
@@ -3778,7 +3892,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 97
     },
     {
      "name": "Under Armour",
@@ -3823,7 +3937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 98
     },
     {
      "name": "Butlr",
@@ -3861,7 +3975,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 99
     },
     {
      "name": "Celona",
@@ -3906,7 +4020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 100
     },
     {
      "name": "Facilio",
@@ -3944,7 +4058,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 101
     },
     {
      "name": "Lakeside Software",
@@ -3982,7 +4096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 102
     },
     {
      "name": "Sense",
@@ -4027,7 +4141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 103
     },
     {
      "name": "Arduino",
@@ -4065,7 +4179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 104
     },
     {
      "name": "Human API",
@@ -4110,7 +4224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 105
     },
     {
      "name": "Akamai",
@@ -4148,7 +4262,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 103
+     "rank": 106
     },
     {
      "name": "Cradlepoint",
@@ -4186,7 +4300,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 107
     },
     {
      "name": "Lunar Energy",
@@ -4231,7 +4345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 108
     },
     {
      "name": "Xiaomi",
@@ -4269,45 +4383,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
-    },
-    {
-     "name": "AngelCam",
-     "slug": "angelcam",
-     "description": "Angelcam is a cloud video-surveillance platform that connects any IP camera to the cloud — via ONVIF and the open-source Arrow connector — for live viewing, cloud recording, clip creation and sharing, two-way audio, sensors, and Remote Technical Surveillance (RTS) event notifications. The Angelcam RESTful API (HTTPS-only JSON, organised around Spaces, secured with OAuth2 or a Personal Access Token) exposes 90+ endpoints across cameras, recordings, clips, events, Arrow clients, notifications, speakers, and services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png",
-     "score": 48.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 67.7,
-      "governance": 11.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 46.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 107
+     "rank": 109
     },
     {
      "name": "Memfault",
@@ -4345,7 +4421,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 110
     },
     {
      "name": "Particle",
@@ -4383,7 +4459,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 111
     },
     {
      "name": "Verizon",
@@ -4428,7 +4504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 112
     },
     {
      "name": "Hildebrand",
@@ -4472,7 +4548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 113
     },
     {
      "name": "Air Quality Programmatic APIs",
@@ -4517,7 +4593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 114
     },
     {
      "name": "Dexcom",
@@ -4562,45 +4638,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
-    },
-    {
-     "name": "LocoNav",
-     "slug": "loconav",
-     "description": "LocoNav is an AI- and IoT-powered GPS vehicle tracking and smart fleet management platform used across 50+ countries, integrating 2,200+ device and sensor types to track vehicles and assets in real time. Its LocoNav Integration API exposes REST endpoints and webhooks for fleet telematics: telematics data (sensor readings, GPS location, distance, timelines, video and live streams), CRUD management of drivers, vehicles, trips, geofence polygons and users, driver-vehicle assignment, vehicle scorecards, immobilization, live share links, and alert subscriptions. Real-time alert and live-location webhooks push events such as overspeed, harsh braking/acceleration, geofence, fatigue, crash, fuel-theft, anti-theft and device-offline. Authentication is a user-level token in the User-Authentication header; all listing endpoints are paginated and time parameters use epoch seconds.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png",
-     "score": 48.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 70.0,
-      "governance": 20.8,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 49.5,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 36.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Nest",
@@ -4637,7 +4675,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Ring",
@@ -4674,7 +4712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 117
     },
     {
      "name": "Samsara",
@@ -4712,7 +4750,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 118
     },
     {
      "name": "WHOOP",
@@ -4757,7 +4795,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "LEEO Insurance Services",
@@ -4802,7 +4840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Renesas",
@@ -4839,7 +4877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Verdigris Technologies",
@@ -4883,7 +4921,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Stanley Black & Decker",
@@ -4921,7 +4959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Itron",
@@ -4966,7 +5004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Spectro Cloud",
@@ -5003,7 +5041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Wahoo Fitness",
@@ -5041,7 +5079,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Google Assistant",
@@ -5079,7 +5117,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "Tata Communications",
@@ -5118,44 +5156,6 @@
       "rate_limit_signal": false,
       "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 127
-    },
-    {
-     "name": "Cloudflare KV",
-     "slug": "cloudflare-kv",
-     "description": "Cloudflare Workers KV is a globally distributed key-value store that allows developers to store and retrieve data at low latency from Cloudflare's edge network. It provides a REST API for reading, writing, deleting, and listing key-value pairs across namespaces, making it ideal for caching, configuration management, session storage, API authorization, and dynamic routing. KV supports eventual consistency across Cloudflare's global network with read latencies under 5ms, and is accessible both via Workers bindings and external REST API calls.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudflare-kv/refs/heads/main/screenshots/cloudflare-kv-2026-06-20T174555.png",
-     "score": 46.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 63.6,
-      "governance": 58.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 28.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -5509,6 +5509,51 @@
      "rank": 137
     },
     {
+     "name": "Withings",
+     "slug": "withings",
+     "description": "Withings is a connected health device platform providing a REST API for accessing data from smart scales, blood pressure monitors, sleep trackers, thermometers, and fitness watches. The API uses OAuth2 for authentication and provides access to a wide range of health biomarkers including body composition, cardiovascular data, sleep metrics, activity tracking, and clinical-grade measurements. Partners and developers can integrate Withings health data into their applications for remote patient monitoring, wellness platforms, and research applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png",
+     "score": 46.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 69.8,
+      "governance": 68.8,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 21.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true
+     },
+     "rank": 138
+    },
+    {
      "name": "Macrometa",
      "slug": "macrometa",
      "description": "Macrometa is a global data network and edge computing platform. Its Global Data Network (GDN) provides a geo-distributed, serverless NoSQL database, pub/sub streams, complex event processing, and edge functions through a unified REST API plus first-party Python (pyC8) and JavaScript (jsC8) SDKs. Macrometa has since expanded into PhotonIQ, an AI-powered edge delivery suite for web performance and digital operations — prerendering, edge-side tagging, function-as-a-service, digital fingerprinting, virtual waiting rooms, event delivery, and hypersearch. This profile catalogs Macrometa's published OpenAPI surface across the GDN core and the PhotonIQ product family, along with its SDKs, CLI, status page, and developer documentation.",
@@ -5544,7 +5589,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
+    },
+    {
+     "name": "Solaredge",
+     "slug": "solaredge",
+     "description": "SolarEdge Technologies is a global provider of DC-optimized photovoltaic (PV) inverter systems — combining power optimizers, string inverters, batteries, EV chargers and a cloud monitoring platform for residential, commercial and utility solar installations. Its public developer surface is the SolarEdge Monitoring API, a read-only REST API over monitoringapi.solaredge.com that exposes site inventory, energy and power production, battery/storage telemetry, environmental benefits, equipment/inverter data, meters and sensors for the sites an account can access. Authentication is a single api_key query parameter issued in the SolarEdge monitoring platform; responses are JSON by default and errors use RFC 9457 problem+json (verified live).",
+     "score": 46.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 62.8,
+      "governance": 11.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 34.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 140
     },
     {
      "name": "Density",
@@ -5582,7 +5664,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 141
     },
     {
      "name": "Esper",
@@ -5620,7 +5702,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 142
     },
     {
      "name": "Siemens",
@@ -5657,7 +5739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 143
     },
     {
      "name": "Orange",
@@ -5702,7 +5784,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 144
     },
     {
      "name": "Mercedes-Benz Mercedes me",
@@ -5739,7 +5821,96 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 145
+    },
+    {
+     "name": "Limitless",
+     "slug": "limitless",
+     "description": "Limitless builds the Pendant, a wearable AI device that continuously captures and transcribes the conversations its wearer has, paired with a desktop, web, and mobile app plus \"Ask AI\" for searching that personal history. The Limitless Developer API gives users programmatic access to their own data: lifelogs (Pendant recordings with markdown transcripts and a speaker-attributed structured contents tree), Ask AI chat history including the assistant's tool calls and the entries it retrieved, and raw Ogg Opus audio export. The API is authenticated with an X-API-Key header, is cursor paginated, and supports hybrid keyword plus semantic search across a user's lifelogs. Limitless also runs an official hosted MCP server at https://api.limitless.ai/mcp, backed by a complete OAuth 2.0 and OpenID Connect discovery surface with PKCE and dynamic client registration. Limitless was acquired by Meta; Pendant sales ended 2025-12-05 and existing customers are supported through 2026 on a free Unlimited Plan.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/screenshots/limitless-2026-07-25T225205.png",
+     "score": 45.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 32.3,
+      "governance": 11.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 58.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 146
+    },
+    {
+     "name": "Rogers Communications",
+     "slug": "rogers",
+     "description": "Rogers Communications is Canada's largest wireless carrier and, following its 2023 acquisition of Shaw Communications, one of the country's largest cable, internet, and media companies. It operates a national 5G mobile network, broadband and TV services under the Rogers, Fido, chatr, and Shaw/Ignite brands, and owns Rogers Sports & Media. In the telecom API value chain Rogers sits squarely on the network-operator side, not the developer-facing side: it has no first-party developer portal, publishes no OpenAPI or Swagger definitions, runs no sandbox, and ships no first-party SDKs. Its legacy developer programme, Rogers Catalyst, is dead — www.rogers.com/developer still 301s to a meta-refresh page pointing at rogerscatalyst.com, a domain that no longer belongs to Rogers (re-registered through NameCheap with registrant privacy in December 2023) and that now serves a one-byte blank page. Rogers' network capabilities reach developers only through intermediaries: EnStream LP, the identity and fraud joint venture it co-owns with Bell Mobility and TELUS, which resells Canadian carrier Number Verification and SIM Swap data on a sales-led, contract-first basis with no public documentation; Aduna, the Ericsson-and-carrier joint venture that announced an EnStream partnership in February 2025 to bring Bell, Rogers, and TELUS network APIs onto a CAMARA-aligned platform; and, historically, a Canada-exclusive private preview of Microsoft's Azure Programmable Connectivity announced at MWC 2023, whose public documentation has since been retired. On 2026-06-30 Vonage commercially launched SIM Swap Detection and Silent Authentication across Canada, connecting to Bell, Rogers and TELUS via Aduna's integration with EnStream — the first documented, self-serve way to buy Rogers-derived network signals, though the contract, docs and sandbox all belong to Vonage. Rogers is partner-gated and reachable only through aggregators — the CAMARA posture is real but wholesale, and nothing is callable from a Rogers-owned domain.",
+     "score": 45.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 34.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 20.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 147
     },
     {
      "name": "Estimote Inc",
@@ -5777,7 +5948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 148
     },
     {
      "name": "Lytx",
@@ -5815,7 +5986,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 149
     },
     {
      "name": "Liesheng Group",
@@ -5860,7 +6031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 150
     },
     {
      "name": "Geotab",
@@ -5898,7 +6069,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 151
     },
     {
      "name": "World Air Quality Index (WAQI)",
@@ -5943,7 +6114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 152
     },
     {
      "name": "Butlr Technologies",
@@ -5981,7 +6152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 153
     },
     {
      "name": "Golioth",
@@ -6019,7 +6190,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 154
+    },
+    {
+     "name": "SolarEdge",
+     "slug": "solar-edge",
+     "description": "SolarEdge Technologies provides a cloud-based Monitoring API that enables web services and third-party applications to access real-time and historical solar production data stored on the SolarEdge monitoring server. The REST API delivers site energy measurements, power flow data, inverter technical telemetry, battery storage status, equipment inventory, and environmental benefit metrics for SolarEdge-connected systems. Authentication is handled via an API key generated through the SolarEdge monitoring portal, and all requests are made over HTTPS with responses returned in JSON format. The platform supports both site-level and account-level queries, with bulk call options allowing developers to retrieve data across multiple sites in a single request. SolarEdge serves residential, commercial, and utility-scale solar installations globally, making their API central to energy management integrations, home automation platforms, and fleet monitoring solutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png",
+     "score": 44.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 69.4,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 23.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 155
     },
     {
      "name": "Bell Canada",
@@ -6063,7 +6279,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 156
     },
     {
      "name": "AspenTech",
@@ -6108,52 +6324,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
-    },
-    {
-     "name": "Withings",
-     "slug": "withings",
-     "description": "Withings is a connected health device platform providing a REST API for accessing data from smart scales, blood pressure monitors, sleep trackers, thermometers, and fitness watches. The API uses OAuth2 for authentication and provides access to a wide range of health biomarkers including body composition, cardiovascular data, sleep metrics, activity tracking, and clinical-grade measurements. Partners and developers can integrate Withings health data into their applications for remote patient monitoring, wellness platforms, and research applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 69.8,
-      "governance": 68.8,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 42.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true
-     },
-     "rank": 153
+     "rank": 157
     },
     {
      "name": "Aklivity",
@@ -6191,7 +6362,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 158
     },
     {
      "name": "Inductive Automation",
@@ -6229,7 +6400,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 159
     },
     {
      "name": "Steelcase",
@@ -6266,7 +6437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 160
     },
     {
      "name": "WeFitter",
@@ -6310,44 +6481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
-    },
-    {
-     "name": "BeeHero",
-     "slug": "beehero",
-     "description": "BeeHero is a precision-pollination company that instruments commercial beehives and crop fields with low-cost IoT sensors, then turns the resulting acoustic, temperature, humidity and bee-activity data into pollination analytics for growers, beekeepers and agribusinesses. Founded in 2017 by Omer Davidi, Itai Kanot and Yuval Regev, with operations in California and Tel Aviv, it runs an in-hive Precision-Pollination-as-a-Service offering and an in-field Pollination Insight Platform (PIP) across crops including almonds, apples, avocados, blueberries, canola, cherries, carrot and onion seed, cucurbits and macadamia. BeeHero exposes a bearer-token REST API at backend.beehero.io/external — documented with Swagger UI at docs.beehero.io — for sensor samples, in-hive audio samples and gateway configuration, and publishes an official BeeHero MCP server to npm for agent access to its platform entities (groups, farms, orchards, yards, gateways, sensors, inspections, experiments).",
-     "score": 43.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 62.8,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 59.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 158
+     "rank": 161
     },
     {
      "name": "Rachio",
@@ -6384,7 +6518,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 162
+    },
+    {
+     "name": "Shiftmove",
+     "slug": "shiftmove",
+     "description": "Shiftmove GmbH is a Berlin-based European fleet management software company backed by Battery Ventures, operating the Vimcar, Fleet, Avrios, Optimum and Océan brands and managing 730,000+ vehicles for 25,000+ fleet customers. Its developer surface is the Avrios Fleet-API, a Swagger 2.0 REST API (base URL https://api.avrios.com) that syncs fleet data — vehicles, drivers, driver/vehicle assignments, license plates, vehicle financing, usages, invoices, organizations and custom fields — with the Avrios/Shiftmove platform. The API uses HTTP Basic authentication, is rate limited to 300 requests per minute, exposes 40 operations across ten resource groups, follows semantic versioning, and returns page-number paginated responses.",
+     "score": 43.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 32.3,
+      "governance": 11.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 42.9,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 38.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 163
     },
     {
      "name": "China Mobile",
@@ -6428,7 +6599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 164
     },
     {
      "name": "Picogrid",
@@ -6465,7 +6636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 165
     },
     {
      "name": "Tesla",
@@ -6509,7 +6680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 166
     },
     {
      "name": "Wattwatchers",
@@ -6553,7 +6724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 167
     },
     {
      "name": "Expanso",
@@ -6591,7 +6762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 168
     },
     {
      "name": "Gardin",
@@ -6629,7 +6800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 169
     },
     {
      "name": "Revvo",
@@ -6666,7 +6837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 170
     },
     {
      "name": "ADT",
@@ -6704,7 +6875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 171
     },
     {
      "name": "Litmus Automation",
@@ -6742,34 +6913,26 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 172
     },
     {
-     "name": "Limitless",
-     "slug": "limitless",
-     "description": "Limitless builds the Pendant, a wearable AI device that continuously captures and transcribes the conversations its wearer has, paired with a desktop, web, and mobile app plus \"Ask AI\" for searching that personal history. The Limitless Developer API gives users programmatic access to their own data: lifelogs (Pendant recordings with markdown transcripts and a speaker-attributed structured contents tree), Ask AI chat history including the assistant's tool calls and the entries it retrieved, and raw Ogg Opus audio export. The API is authenticated with an X-API-Key header, is cursor paginated, and supports hybrid keyword plus semantic search across a user's lifelogs. Limitless also runs an official hosted MCP server at https://api.limitless.ai/mcp, backed by a complete OAuth 2.0 and OpenID Connect discovery surface with PKCE and dynamic client registration. Limitless was acquired by Meta; Pendant sales ended 2025-12-05 and existing customers are supported through 2026 on a free Unlimited Plan.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/screenshots/limitless-2026-07-25T225205.png",
+     "name": "BeeHero",
+     "slug": "beehero",
+     "description": "BeeHero is a precision-pollination company that instruments commercial beehives and crop fields with low-cost IoT sensors, then turns the resulting acoustic, temperature, humidity and bee-activity data into pollination analytics for growers, beekeepers and agribusinesses. Founded in 2017 by Omer Davidi, Itai Kanot and Yuval Regev, with operations in California and Tel Aviv, it runs an in-hive Precision-Pollination-as-a-Service offering and an in-field Pollination Insight Platform (PIP) across crops including almonds, apples, avocados, blueberries, canola, cherries, carrot and onion seed, cucurbits and macadamia. BeeHero exposes a bearer-token REST API at backend.beehero.io/external — documented with Swagger UI at docs.beehero.io — for sensor samples, in-hive audio samples and gateway configuration, and publishes an official BeeHero MCP server to npm for agent access to its platform entities (groups, farms, orchards, yards, gateways, sensors, inspections, experiments).",
      "score": 42.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 32.3,
+      "discoverability": 87.0,
+      "contract_quality": 66.7,
       "governance": 11.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 60.3,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 42.9,
       "commercial_clarity": 34.2
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 58.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.8,
+     "agent_score": 49.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -6778,16 +6941,16 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 173
     },
     {
      "name": "Cognite",
@@ -6825,7 +6988,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 174
     },
     {
      "name": "Crate Io",
@@ -6863,7 +7026,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 175
     },
     {
      "name": "Oden Technologies",
@@ -6900,88 +7063,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
-    },
-    {
-     "name": "Rogers Communications",
-     "slug": "rogers",
-     "description": "Rogers Communications is Canada's largest wireless carrier and, following its 2023 acquisition of Shaw Communications, one of the country's largest cable, internet, and media companies. It operates a national 5G mobile network, broadband and TV services under the Rogers, Fido, chatr, and Shaw/Ignite brands, and owns Rogers Sports & Media. In the telecom API value chain Rogers sits squarely on the network-operator side, not the developer-facing side: it has no first-party developer portal, publishes no OpenAPI or Swagger definitions, runs no sandbox, and ships no first-party SDKs. Its legacy developer programme, Rogers Catalyst, is dead — www.rogers.com/developer still 301s to a meta-refresh page pointing at rogerscatalyst.com, a domain that no longer belongs to Rogers (re-registered through NameCheap with registrant privacy in December 2023) and that now serves a one-byte blank page. Rogers' network capabilities reach developers only through intermediaries: EnStream LP, the identity and fraud joint venture it co-owns with Bell Mobility and TELUS, which resells Canadian carrier Number Verification and SIM Swap data on a sales-led, contract-first basis with no public documentation; Aduna, the Ericsson-and-carrier joint venture that announced an EnStream partnership in February 2025 to bring Bell, Rogers, and TELUS network APIs onto a CAMARA-aligned platform; and, historically, a Canada-exclusive private preview of Microsoft's Azure Programmable Connectivity announced at MWC 2023, whose public documentation has since been retired. On 2026-06-30 Vonage commercially launched SIM Swap Detection and Silent Authentication across Canada, connecting to Bell, Rogers and TELUS via Aduna's integration with EnStream — the first documented, self-serve way to buy Rogers-derived network signals, though the contract, docs and sandbox all belong to Vonage. Rogers is partner-gated and reachable only through aggregators — the CAMARA posture is real but wholesale, and nothing is callable from a Rogers-owned domain.",
-     "score": 42.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 34.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 20.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 173
-    },
-    {
-     "name": "Solaredge",
-     "slug": "solaredge",
-     "description": "SolarEdge Technologies is a global provider of DC-optimized photovoltaic (PV) inverter systems — combining power optimizers, string inverters, batteries, EV chargers and a cloud monitoring platform for residential, commercial and utility solar installations. Its public developer surface is the SolarEdge Monitoring API, a read-only REST API over monitoringapi.solaredge.com that exposes site inventory, energy and power production, battery/storage telemetry, environmental benefits, equipment/inverter data, meters and sensors for the sites an account can access. Authentication is a single api_key query parameter issued in the SolarEdge monitoring platform; responses are JSON by default and errors use RFC 9457 problem+json (verified live).",
-     "score": 42.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 62.8,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 34.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 174
+     "rank": 176
     },
     {
      "name": "Automile",
@@ -7019,7 +7101,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 177
     },
     {
      "name": "Nine Fives",
@@ -7056,7 +7138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 178
     }
    ]
   },
@@ -7065,8 +7147,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 112,
-   "shown": 112,
+   "count": 110,
+   "shown": 110,
    "providers": [
     {
      "name": "VivaLNK",
@@ -7103,7 +7185,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 179
     },
     {
      "name": "Akri",
@@ -7141,7 +7223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 180
     },
     {
      "name": "High Mobility",
@@ -7179,7 +7261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 181
     },
     {
      "name": "Moxion Power Co",
@@ -7216,7 +7298,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 182
     },
     {
      "name": "Screenleap Inc",
@@ -7253,52 +7335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
-    },
-    {
-     "name": "SolarEdge",
-     "slug": "solar-edge",
-     "description": "SolarEdge Technologies provides a cloud-based Monitoring API that enables web services and third-party applications to access real-time and historical solar production data stored on the SolarEdge monitoring server. The REST API delivers site energy measurements, power flow data, inverter technical telemetry, battery storage status, equipment inventory, and environmental benefit metrics for SolarEdge-connected systems. Authentication is handled via an API key generated through the SolarEdge monitoring portal, and all requests are made over HTTPS with responses returned in JSON format. The platform supports both site-level and account-level queries, with bulk call options allowing developers to retrieve data across multiple sites in a single request. SolarEdge serves residential, commercial, and utility-scale solar installations globally, making their API central to energy management integrations, home automation platforms, and fleet monitoring solutions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png",
-     "score": 41.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 69.4,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 23.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "LISNR",
@@ -7336,7 +7373,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "CAT",
@@ -7374,7 +7411,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "steute Technologies GmbH & Co. KG",
@@ -7411,7 +7448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Qwilt",
@@ -7448,7 +7485,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
+    },
+    {
+     "name": "Sigfox",
+     "slug": "sigfox",
+     "description": "Sigfox is the 0G low-power wide-area network (LPWAN) for massive IoT, now operated as a technology by UnaBiz. The Sigfox Cloud exposes a RESTful backend API (base https://api.sigfox.com/v2) for managing devices, device types, contracts, groups, users, base stations, coverage predictions, and for retrieving device messages and configuring callbacks that push uplink data to customer systems. The network reaches 70+ countries and millions of connected devices. The API uses HTTP Basic authentication with API-access credentials scoped by role-based profiles, URI-path versioning (/v2), documented rate limits, and a published OpenAPI specification.",
+     "score": 40.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 32.3,
+      "governance": 3.1,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 34.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 188
     },
     {
      "name": "Ultrahuman",
@@ -7492,7 +7573,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 189
     },
     {
      "name": "Cisco Control Hub",
@@ -7530,7 +7611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 190
     },
     {
      "name": "Sensibo",
@@ -7567,7 +7648,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 191
     },
     {
      "name": "PlayerData",
@@ -7604,7 +7685,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 192
     },
     {
      "name": "PubNub",
@@ -7649,26 +7730,34 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 193
     },
     {
-     "name": "Shiftmove",
-     "slug": "shiftmove",
-     "description": "Shiftmove GmbH is a Berlin-based European fleet management software company backed by Battery Ventures, operating the Vimcar, Fleet, Avrios, Optimum and Océan brands and managing 730,000+ vehicles for 25,000+ fleet customers. Its developer surface is the Avrios Fleet-API, a Swagger 2.0 REST API (base URL https://api.avrios.com) that syncs fleet data — vehicles, drivers, driver/vehicle assignments, license plates, vehicle financing, usages, invoices, organizations and custom fields — with the Avrios/Shiftmove platform. The API uses HTTP Basic authentication, is rate limited to 300 requests per minute, exposes 40 operations across ten resource groups, follows semantic versioning, and returns page-number paginated responses.",
-     "score": 40.4,
+     "name": "Bitfinder",
+     "slug": "bitfinder",
+     "description": "Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC), and fine dust (PM2.5). The Awair Home & OAuth Developer API lets developers, partners, and hobbyists read a user's registered devices and their air-data time series (latest, raw per-second, 5-minute-average, and 15-minute-average) on behalf of Awair users, authorized with an OAuth 2.0 or Developer Console Bearer token. Bitfinder was a Techstars portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png",
+     "score": 40.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 32.3,
+      "contract_quality": 15.5,
       "governance": 11.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 42.9,
-      "commercial_clarity": 50.0
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 34.2
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 38.1,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -7681,12 +7770,12 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 194
     },
     {
      "name": "Pulsoid",
@@ -7731,7 +7820,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 195
     },
     {
      "name": "Reelables",
@@ -7769,7 +7858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 196
     },
     {
      "name": "Zephyr Project",
@@ -7807,7 +7896,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 197
     },
     {
      "name": "Gradient",
@@ -7845,7 +7934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 198
     },
     {
      "name": "FitBark",
@@ -7890,7 +7979,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 199
     },
     {
      "name": "Apache Derby",
@@ -7928,7 +8017,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 200
+    },
+    {
+     "name": "aWATTar",
+     "slug": "awattar",
+     "description": "aWATTar provides a free, public REST API delivering real-time and next-day hourly electricity spot prices sourced from the EPEX Spot market exchange for both Austria and Germany. The API enables developers, smart home integrators, and commercial operators to build dynamic energy pricing applications that respond to market conditions. Prices are updated daily at 14:00 CET covering the following day, and the API returns JSON data including start/end timestamps and market price per MWh. No authentication token is required, making integration straightforward for any developer. The service is offered free of charge under a fair-use policy of 100 requests per day per client, supporting use cases such as EV charging optimization, smart heating control, and automated energy management systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/awattar/refs/heads/main/screenshots/awattar-2026-06-20T172732.png",
+     "score": 39.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 67.4,
+      "governance": 58.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 14.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 201
     },
     {
      "name": "Sonos",
@@ -7972,7 +8106,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 202
     },
     {
      "name": "TrainingPeaks",
@@ -8016,7 +8150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 203
     },
     {
      "name": "Sentera",
@@ -8054,7 +8188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 204
     },
     {
      "name": "EZRentOut",
@@ -8092,7 +8226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 205
     },
     {
      "name": "IXON",
@@ -8130,7 +8264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 206
     },
     {
      "name": "PTC",
@@ -8168,7 +8302,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 207
     },
     {
      "name": "Apache NiFi",
@@ -8206,7 +8340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 208
     },
     {
      "name": "Iru",
@@ -8244,7 +8378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 209
     },
     {
      "name": "Alloy Automation",
@@ -8282,7 +8416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 210
     },
     {
      "name": "QuantCDN",
@@ -8320,7 +8454,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 211
+    },
+    {
+     "name": "Guidewheel",
+     "slug": "guidewheel",
+     "description": "Guidewheel is a FactoryOps platform for manufacturing. Non-invasive, clip-on current sensors attach to any machine's power leads — regardless of age, make or model — and stream a real-time heartbeat of machine state (running, idle, down) over cellular, with no PLC, SCADA or plant Wi-Fi access required. The platform turns that signal into real-time OEE, downtime categorization and reasoning, Pareto analysis, cycle-time tracking, scrap tracking, shift and plant reporting, and alerting. Guidewheel exposes a REST/JSON API under /api/v1 for CMMS and ERP integration — devices, telemetry, uptime and load states, energy, issues, production entries, SKUs, tags, device lists, plants, shifts and scrap — authenticated with a company-scoped API key in the x-api-key header. It also ships native SAP integration plus Oracle, Epicor, Microsoft Dynamics, Power BI and MaintainX connections via Workato.",
+     "score": 38.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 65.8
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 212
     },
     {
      "name": "Fleetio",
@@ -8358,7 +8536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 213
     },
     {
      "name": "Govee",
@@ -8396,7 +8574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 214
     },
     {
      "name": "TRONITY",
@@ -8433,7 +8611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 215
     },
     {
      "name": "Edgegap",
@@ -8471,7 +8649,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 216
     },
     {
      "name": "Validic",
@@ -8515,52 +8693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
-    },
-    {
-     "name": "Bitfinder",
-     "slug": "bitfinder",
-     "description": "Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC), and fine dust (PM2.5). The Awair Home & OAuth Developer API lets developers, partners, and hobbyists read a user's registered devices and their air-data time series (latest, raw per-second, 5-minute-average, and 15-minute-average) on behalf of Awair users, authorized with an OAuth 2.0 or Developer Console Bearer token. Bitfinder was a Techstars portfolio company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png",
-     "score": 37.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 15.5,
-      "governance": 11.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 214
+     "rank": 217
     },
     {
      "name": "BLE",
@@ -8598,7 +8731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 218
     },
     {
      "name": "Wyze",
@@ -8635,7 +8768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 219
     },
     {
      "name": "Armada",
@@ -8673,7 +8806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 220
     },
     {
      "name": "Polar",
@@ -8711,139 +8844,6 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 218
-    },
-    {
-     "name": "aWATTar",
-     "slug": "awattar",
-     "description": "aWATTar provides a free, public REST API delivering real-time and next-day hourly electricity spot prices sourced from the EPEX Spot market exchange for both Austria and Germany. The API enables developers, smart home integrators, and commercial operators to build dynamic energy pricing applications that respond to market conditions. Prices are updated daily at 14:00 CET covering the following day, and the API returns JSON data including start/end timestamps and market price per MWh. No authentication token is required, making integration straightforward for any developer. The service is offered free of charge under a fair-use policy of 100 requests per day per client, supporting use cases such as EV charging optimization, smart heating control, and automated energy management systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/awattar/refs/heads/main/screenshots/awattar-2026-06-20T172732.png",
-     "score": 37.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 67.4,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 14.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 219
-    },
-    {
-     "name": "1KOMMA5°",
-     "slug": "1komma5",
-     "description": "1KOMMA5° (1Komma5 Grad) is a Hamburg, Germany headquartered smart-energy company that sells, installs and operates integrated residential energy systems — rooftop photovoltaics, battery storage, heat pumps and EV charging — and ties them together with Heartbeat AI, its energy-management platform. Heartbeat aggregates customer hardware into one of Europe's largest residential virtual power plants, optimising self-consumption and trading household flexibility against day-ahead and intraday electricity markets. The company operates across Germany, Australia, the Netherlands, Sweden, Finland, Denmark and Belgium. Its machine-readable surface is small and mostly internal: a live OpenAPI 3.0 for the Offer Tool API used by its sales and partner network, an Auth0-backed OIDC provider at auth.1komma5grad.com, and the undocumented Heartbeat customer API that its mobile apps and community-built Home Assistant integrations consume.",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 43.4,
-      "governance": 20.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 220
-    },
-    {
-     "name": "Sigfox",
-     "slug": "sigfox",
-     "description": "Sigfox is the 0G low-power wide-area network (LPWAN) for massive IoT, now operated as a technology by UnaBiz. The Sigfox Cloud exposes a RESTful backend API (base https://api.sigfox.com/v2) for managing devices, device types, contracts, groups, users, base stations, coverage predictions, and for retrieving device messages and configuring callbacks that push uplink data to customer systems. The network reaches 70+ countries and millions of connected devices. The API uses HTTP Basic authentication with API-access credentials scoped by role-based profiles, URI-path versioning (/v2), documented rate limits, and a published OpenAPI specification.",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 32.3,
-      "governance": 3.1,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 34.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 32.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -8936,6 +8936,51 @@
      "rank": 223
     },
     {
+     "name": "LI-COR Intermediate",
+     "slug": "li-cor-intermediate",
+     "description": "LI-COR Intermediate, Inc. is the Battery Ventures-backed holding entity for LI-COR, a Lincoln, Nebraska environmental and life-science instrumentation maker founded more than fifty years ago. The group operates under two brands: LI-COR Environmental (licor.com), which builds greenhouse-gas analyzers, eddy-covariance flux systems, photosynthesis and soil-gas instruments, and the HOBO line of data loggers; and LICORbio (licorbio.com), which builds Western blot imaging systems and infrared fluorescent dyes and reagents. Its instruments are cited in more than 73,000 research publications and used across 1,200+ universities in 150+ countries. The connected-device side of the business runs through LI-COR Cloud (licor.cloud, formerly HOBOlink), which exposes a public read-only HOBOLINK External API for pulling logger and sensor observations into customer systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png",
+     "score": 37.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 52.7,
+      "governance": 11.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 36.4,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 224
+    },
+    {
      "name": "Cypress Semiconductor",
      "slug": "cypress-semiconductor",
      "description": "Cypress Semiconductor was a US-based semiconductor company known for its PSoC programmable system-on-chip microcontrollers, WICED Wi-Fi and Bluetooth connectivity stacks, NOR Flash memory, CapSense capacitive touch sensing, and Traveo automotive microcontrollers. Infineon Technologies completed its $9.4 billion acquisition of Cypress on April 16, 2020, and Cypress now operates as a wholly owned subsidiary of Infineon. The former Cypress product lines (PSoC, AIROC formerly WICED, NOR Flash, CapSense, Traveo) remain in active development under Infineon branding, and the cypress.com domain redirects to infineon.com. The former Cypress developer surface — including PSoC Creator (legacy) and the modern ModusToolbox embedded development ecosystem — is now hosted on the Infineon GitHub organization (github.com/Infineon) which contains 2,143 public repositories spanning code examples, board support packages, HAL libraries, middleware, and configurators for PSoC, AIROC, Traveo, XMC, and AURIX device families. The original Cypress GitHub organization (github.com/cypresssemiconductorco) has been wound down to four placeholder repos that redirect users to the Infineon org. Cypress' APIs are predominantly embedded software APIs (C/C++ HAL, PDL, middleware libraries) rather than HTTP/REST surfaces, consumed by firmware engineers via ModusToolbox, Eclipse, and Visual Studio Code workflows.",
@@ -8971,7 +9016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 225
     },
     {
      "name": "WasmEdge",
@@ -9009,7 +9054,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 226
     },
     {
      "name": "Zededa",
@@ -9046,7 +9091,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 227
     },
     {
      "name": "Spike",
@@ -9090,7 +9135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 228
     },
     {
      "name": "Telnyx",
@@ -9135,7 +9180,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 229
     },
     {
      "name": "Samsung SmartThings",
@@ -9172,7 +9217,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 230
     },
     {
      "name": "Schneider Electric Exchange",
@@ -9210,7 +9255,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 231
     },
     {
      "name": "Flic",
@@ -9248,7 +9293,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 232
     },
     {
      "name": "Terra",
@@ -9292,7 +9337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 233
     },
     {
      "name": "HiveMQ",
@@ -9337,7 +9382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 234
     },
     {
      "name": "Tive",
@@ -9374,7 +9419,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 235
     },
     {
      "name": "Motorola Solutions",
@@ -9412,7 +9457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 236
     },
     {
      "name": "EcoFlow",
@@ -9453,50 +9498,6 @@
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 236
-    },
-    {
-     "name": "Guidewheel",
-     "slug": "guidewheel",
-     "description": "Guidewheel is a FactoryOps platform for manufacturing. Non-invasive, clip-on current sensors attach to any machine's power leads — regardless of age, make or model — and stream a real-time heartbeat of machine state (running, idle, down) over cellular, with no PLC, SCADA or plant Wi-Fi access required. The platform turns that signal into real-time OEE, downtime categorization and reasoning, Pareto analysis, cycle-time tracking, scrap tracking, shift and plant reporting, and alerting. Guidewheel exposes a REST/JSON API under /api/v1 for CMMS and ERP integration — devices, telemetry, uptime and load states, energy, issues, production entries, SKUs, tags, device lists, plants, shifts and scrap — authenticated with a company-scoped API key in the x-api-key header. It also ships native SAP integration plus Oracle, Epicor, Microsoft Dynamics, Power BI and MaintainX connections via Workato.",
-     "score": 36.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 3.1,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 65.8
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 33.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -9631,6 +9632,50 @@
      "rank": 240
     },
     {
+     "name": "1KOMMA5°",
+     "slug": "1komma5",
+     "description": "1KOMMA5° (1Komma5 Grad) is a Hamburg, Germany headquartered smart-energy company that sells, installs and operates integrated residential energy systems — rooftop photovoltaics, battery storage, heat pumps and EV charging — and ties them together with Heartbeat AI, its energy-management platform. Heartbeat aggregates customer hardware into one of Europe's largest residential virtual power plants, optimising self-consumption and trading household flexibility against day-ahead and intraday electricity markets. The company operates across Germany, Australia, the Netherlands, Sweden, Finland, Denmark and Belgium. Its machine-readable surface is small and mostly internal: a live OpenAPI 3.0 for the Offer Tool API used by its sales and partner network, an Auth0-backed OIDC provider at auth.1komma5grad.com, and the undocumented Heartbeat customer API that its mobile apps and community-built Home Assistant integrations consume.",
+     "score": 35.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 43.4,
+      "governance": 11.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 241
+    },
+    {
      "name": "Metriport",
      "slug": "metriport",
      "description": "Metriport is an open-source, universal API for healthcare data. The Medical API exchanges patient medical records across the CommonWell and Carequality networks and returns consolidated FHIR R4 data, while the Devices API hydrates activity, biometrics, nutrition, and sleep data from consumer wearables and mHealth apps. Companies can use the hosted Metriport cloud or self-host the open-source code to avoid vendor lock-in.",
@@ -9672,7 +9717,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 242
     },
     {
      "name": "Invendor",
@@ -9710,7 +9755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "Anduril Industries",
@@ -9748,7 +9793,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "Otonomo",
@@ -9781,51 +9826,6 @@
       "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 244
-    },
-    {
-     "name": "LI-COR Intermediate",
-     "slug": "li-cor-intermediate",
-     "description": "LI-COR Intermediate, Inc. is the Battery Ventures-backed holding entity for LI-COR, a Lincoln, Nebraska environmental and life-science instrumentation maker founded more than fifty years ago. The group operates under two brands: LI-COR Environmental (licor.com), which builds greenhouse-gas analyzers, eddy-covariance flux systems, photosynthesis and soil-gas instruments, and the HOBO line of data loggers; and LICORbio (licorbio.com), which builds Western blot imaging systems and infrared fluorescent dyes and reagents. Its instruments are cited in more than 73,000 research publications and used across 1,200+ universities in 150+ countries. The connected-device side of the business runs through LI-COR Cloud (licor.cloud, formerly HOBOlink), which exposes a public read-only HOBOLINK External API for pulling logger and sensor observations into customer systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png",
-     "score": 34.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 52.7,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 36.4,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -12171,7 +12171,7 @@
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 30.6,
+     "agent_score": 26.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -12182,7 +12182,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": true,
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ overview: 'The Climate Corporation publishes 8 APIs on the [APIs.io](https://api
 
 
   The Climate Corporation''s developer surface includes documentation, API reference, signup flow, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 50
+random_paper: 66
 scopes:
 - name: The Climate Corporation Scopes
   scope_count: 24
@@ -172,16 +172,16 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.1
-  delta: -1.7
+  composite: 43.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.2
+    contract_quality: 63.2
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 44.8
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,8 +192,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

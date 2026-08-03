@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -228,7 +228,7 @@ plans:
 - name: Rippling Plans Pricing
   plan_count: 8
   slug: rippling-plans-pricing
-random_paper: 49
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Rippling Rate Limits
@@ -244,16 +244,16 @@ rules:
   slug: rippling-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 57.5
-  delta: -1.6
+  composite: 58.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 70.5
+    contract_quality: 72.5
     developer_ergonomics: 32.6
     discoverability: 46.3
     governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 59.1
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     contracts:
@@ -261,8 +261,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/screenshots/rippling-2026-06-20T193125.png
 security:

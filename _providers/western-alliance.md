@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Western Alliance Bank's commercial open-banking API lets approved business clients interact directly with WAB systems to access balance and transaction information, retrieve check images, initiate fun
@@ -99,11 +99,11 @@ overview: 'Western Alliance Bank publishes 1 API on the [APIs.io](https://apis.i
 
 
   Western Alliance Bank''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, and 10 more developer resources.'
-random_paper: 6
+random_paper: 31
 score:
   band: emerging
   composite: 27.9
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -111,7 +111,7 @@ score:
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 29.1
+  previous_composite: 27.9
   provenance:
     conformance: first-party
   regulatory:
@@ -120,8 +120,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

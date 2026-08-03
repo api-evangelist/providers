@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ plans:
 - name: Kustomer Plans Pricing
   plan_count: 1
   slug: kustomer-plans-pricing
-random_paper: 70
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Kustomer Rate Limits
@@ -142,16 +142,16 @@ rules:
   slug: kustomer-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 40.1
-  delta: -7.3
+  composite: 40.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 75.9
+    contract_quality: 77.7
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 47.9
     operational_transparency: 26.3
-  previous_composite: 47.4
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -165,9 +165,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/screenshots/kustomer-2026-06-20T184221.png
 security:
 - kind: authentication

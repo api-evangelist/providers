@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -312,7 +312,7 @@ plans:
 - name: Truework Plans Pricing
   plan_count: 3
   slug: truework-plans-pricing
-random_paper: 79
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Truework Rate Limits
@@ -328,16 +328,16 @@ rules:
   slug: truework-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.1
-  delta: -3.3
+  composite: 68.2
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 70.3
+    contract_quality: 74.4
     developer_ergonomics: 63.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 76.3
-  previous_composite: 70.4
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     contracts:
@@ -345,8 +345,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/screenshots/truework-2026-06-20T195901.png
 security:

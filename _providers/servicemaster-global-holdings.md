@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -63,11 +63,11 @@ press:
 - date: '2026-05-25'
   title: 'Shareholder Alert: Robbins LLP Announces It Is Investigating ...'
   url: https://www.businesswire.com/news/home/20200611005774/en/Shareholder-Alert-Robbins-LLP-Announces-It-Is-Investigating-ServiceMaster-Global-Holdings-Inc.-SERV-for-Misleading-Shareholders
-random_paper: 24
+random_paper: 31
 score:
   band: minimal
   composite: 2.6
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -75,9 +75,9 @@ score:
     discoverability: 25.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 3.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 2.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 slug: servicemaster-global-holdings
 tags:

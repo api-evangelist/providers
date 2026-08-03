@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Current version of the Enverus Developer API (formerly Drillinginfo Direct Access). Read-only JSON access to energy datasets — wells, well-origins, wellbores, production, completions, permits, rigs, c
@@ -143,11 +143,11 @@ overview: 'Drillinginfo publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Drillinginfo''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 15 more developer resources.'
-random_paper: 51
+random_paper: 46
 score:
   band: thin
   composite: 31.9
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -155,7 +155,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 31.8
+  previous_composite: 31.9
   provenance:
     conformance: first-party
     mcp: derived
@@ -165,8 +165,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drillinginfo/refs/heads/main/screenshots/drillinginfo-2026-07-25T212404.png
 security:

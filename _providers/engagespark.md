@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-07-28'
+  score: 27.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -148,19 +148,19 @@ overview: 'engageSPARK publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   engageSPARK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 12
+random_paper: 20
 score:
-  band: thin
-  composite: 41.6
-  delta: -5.3
+  band: developing
+  composite: 42.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 70.9
+    contract_quality: 73.4
     developer_ergonomics: 42.9
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 46.9
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -177,9 +177,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/screenshots/engagespark-2026-07-25T213341.png
 security:
 - kind: authentication

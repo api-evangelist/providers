@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -182,9 +182,9 @@ plans:
 - name: Warpstream Plans Pricing
   plan_count: 6
   slug: warpstream-plans-pricing
-random_paper: 28
+random_paper: 49
 rate_limits:
-- limit_count: 0
+- limit_count: 5
   name: Warpstream Rate Limits
   slug: warpstream-rate-limits
 rules:
@@ -197,17 +197,17 @@ rules:
     warn: 4
   slug: warpstream-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 51.6
-  delta: -4.5
+  band: strong
+  composite: 56.3
+  delta: 4.1
   facets:
     commercial_clarity: 57.9
-    contract_quality: 68.9
+    contract_quality: 71.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 21.1
-  previous_composite: 56.1
+    operational_transparency: 52.6
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/screenshots/warpstream-2026-06-20T201333.png
 security:

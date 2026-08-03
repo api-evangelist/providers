@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-07-28'
+  score: 50.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ overview: 'Bridge publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Bridge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 47
+random_paper: 51
 scopes:
 - name: Bridge Scopes
   scope_count: 0
@@ -271,16 +271,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.8
-  delta: -4.4
+  composite: 51.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.9
+    contract_quality: 67.4
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 55.2
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -297,8 +297,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png
 security:

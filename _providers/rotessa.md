@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.7
-  scored_at: '2026-07-28'
+  score: 34.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -26,7 +26,7 @@ agentic_access:
   operation_count: 13
   slug: rotessa-agentic-access
   summary_line: 13 operations · 9 acting
-api_count: 3
+api_count: 4
 apis:
 - description: Create, retrieve, and update the customers (bank-account holders) that Rotessa withdraws recurring payments from. Supports lookup by Rotessa customer ID or by a merchant-supplied custom identifier, an
   name: Rotessa Customers API
@@ -37,7 +37,10 @@ apis:
 - description: Retrieve financial transaction records and their status (and status reasons) for reconciliation and reporting via the transaction report endpoint. Base URL https://api.rotessa.com/v1; API-key authenti
   name: Rotessa Transaction Report API
   slug: rotessa-transaction-report-api
-artifact_total: 7
+- description: Rotessa API from Rotessa — 9 path(s) described in OpenAPI.
+  name: Rotessa API
+  slug: rotessa-openapi
+artifact_total: 8
 common:
 - group: agent
   title: ''
@@ -176,23 +179,23 @@ modified: '2026-07-25'
 name: Rotessa
 nav: Providers
 network: true
-overview: 'Rotessa publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Canada, Pre-Authorized Debit, ACH, and Account-to-Account.
+overview: 'Rotessa publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Canada, Pre-Authorized Debit, ACH, and Account-to-Account.
 
 
   Rotessa''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 24 more developer resources.'
-random_paper: 31
+random_paper: 9
 score:
-  band: thin
-  composite: 34.3
-  delta: -3.1
+  band: developing
+  composite: 45.4
+  delta: 11.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 8.1
+    contract_quality: 60.5
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 37.4
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,9 +212,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: flat
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: rising
 security:
 - kind: authentication
   name: Rotessa Authentication

@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    idempotency: documented
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-07-28'
+  score: 54.5
+  scored_at: '2026-08-03'
 api_count: 26
 apis:
 - description: Streamline your client onboarding process to create, update, and manage clients, parties, documents, and due diligence requirements in a fully digital workflow so you can automate Know Your Customer (
@@ -46,36 +46,21 @@ apis:
 - description: Notification API enables merchants to subscribe to and receive notifications in real-time.
   name: Notifications API
   slug: notifications-api
-- description: '## Pay By Bank v1 - PIS API --- > J.P. Morgan as a registered Third Party Provider (**TPP**) of Open Banking services, > offers a seamless integration platform for Pay by Bank such that: > - clients c'
-  name: Pay By Bank PIS
-  slug: pay-by-bank-pis
 - description: Streamline your digital payment experience to create, update, and manage payment requests and payment links, letting your customers pay instantly via shareable QR codes or payment URLs. You can easily
   name: Request to Pay via QR Code API
   slug: request-to-pay-via-qr-code-api
 - description: The Checkout API provides a unified interface for merchants to enable consumer checkout and accept payments within their overall commerce experience.
   name: Checkout API
   slug: checkout-api
-- description: Enable access to account information services that allow J.P. Morgan clients to leverage Open Banking for data from customer bank accounts. Support consent management, account verification, balance re
-  name: Account Information Services
-  slug: account-information-services
 - description: End to end disputes management interface.
   name: Dispute Management API
   slug: dispute-management-api
 - description: Manage your accounts programmatically. Create new accounts, retrieve details and balances, and organize all your client accounts in one place. This allows you to automate account operations and keep y
   name: Accounts API
   slug: accounts-api
-- description: Connect to retrieve account details, transactions, payment network information, and statements for eligible USD-denominated US checking, savings, and money market accounts using the Financial Data Exc
-  name: J.P. Morgan Business Direct Connect
-  slug: j-p-morgan-business-direct-connect
-- description: Enable and manage payments, refunds, withdrawals, and provider connectivity across multiple markets using secure open banking infrastructure.
-  name: Payment Initiation Service
-  slug: payment-initiation-service
 - description: Programmatically receives and decisions Payment Holds, automating your fraud review and hold resolution workflow to minimize operational delays while adhering to corporate IT standards.
   name: Alerts and Decisioning API
   slug: alerts-and-decisioning-api
-- description: Initiate, track, and manage payments and payment returns across a wide range of payment types, including ACH, wires, real-time payments, cards, and digital wallets, so you can automate your payment wo
-  name: Global Payments
-  slug: global-payments
 - description: Product configuration APIs that can be used to create, configure and maintain Commerce platform accounts.
   name: Product Configuration API
   slug: product-configuration-api
@@ -109,6 +94,21 @@ apis:
 - description: 'The Wallet Decryption API decrypts the Apple Pay, Google Pay, and Paze wallet encrypted payment bundles to obtain network tokens, cryptograms, electronic commerce indicators (ECIs), and other payment '
   name: Wallet Decryption API
   slug: wallet-decryption-api
+- description: JPMorgan Chase Account Information Services from JPMorgan Chase — 7 path(s) described in OpenAPI.
+  name: JPMorgan Chase Account Information Services
+  slug: jp-morgan-chase-account-information-services-openapi
+- description: JPMorgan Chase Global Payments from JPMorgan Chase — 4 path(s) described in OpenAPI.
+  name: JPMorgan Chase Global Payments
+  slug: jp-morgan-chase-global-payments-openapi
+- description: JPMorgan Chase J.P. Morgan Business Direct Connect from JPMorgan Chase — 7 path(s) described in OpenAPI.
+  name: JPMorgan Chase J.P. Morgan Business Direct Connect
+  slug: jp-morgan-chase-j-p-morgan-business-direct-connect-openapi
+- description: JPMorgan Chase Pay By Bank PIS from JPMorgan Chase — 12 path(s) described in OpenAPI.
+  name: JPMorgan Chase Pay By Bank PIS
+  slug: jp-morgan-chase-pay-by-bank-pis-openapi
+- description: JPMorgan Chase Payment Initiation Service from JPMorgan Chase — 6 path(s) described in OpenAPI.
+  name: JPMorgan Chase Payment Initiation Service
+  slug: jp-morgan-chase-payment-initiation-service-openapi
 artifact_total: 32
 asyncapis:
 - description: ''
@@ -284,23 +284,23 @@ press:
 - date: ''
   title: JPMorganChase announces $24 million to help strengthen shipbuilding in Philadelphia and America’s defense industrial base
   url: https://www.jpmorganchase.com/newsroom/press-releases/2026/24-million-strengthening-shipbuilding-philadelphia
-random_paper: 25
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Jp Morgan Chase Rate Limits
   slug: jp-morgan-chase-rate-limits
 score:
   band: developing
-  composite: 51.9
-  delta: 35.3
+  composite: 52.9
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 67.6
+    contract_quality: 72.5
     developer_ergonomics: 54.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 60.5
-  previous_composite: 16.6
+  previous_composite: 52.9
   provenance:
     contracts:
       callable: 100.0
@@ -313,9 +313,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png
 security:
 - kind: authentication

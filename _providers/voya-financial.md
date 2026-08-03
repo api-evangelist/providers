@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Voya celebrates success of 24/7 chatbot and emerging ...
   url: https://www.voya.com/news/2022/11/voya-celebrates-success-247-chatbot-and-emerging-artificial-intelligence-capabilities
-random_paper: 31
+random_paper: 0
 rules:
 - name: Voya Financial API Rules
   rule_count: 5
@@ -109,7 +109,7 @@ rules:
 score:
   band: emerging
   composite: 14.7
-  delta: -3.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 8.1
@@ -117,9 +117,9 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 18.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 14.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voya-financial/refs/heads/main/screenshots/voya-financial-2026-06-20T201145.png
 security:

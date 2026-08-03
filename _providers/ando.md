@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: verified
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.3
-  scored_at: '2026-07-28'
+  score: 59.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -227,19 +227,19 @@ overview: 'Ando publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ando''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 28 more developer resources.'
-random_paper: 8
+random_paper: 38
 score:
   band: developing
-  composite: 51.7
-  delta: -3.5
+  composite: 52.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.0
+    contract_quality: 71.1
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 55.2
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,8 +256,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/screenshots/ando-2026-07-25T200233.png
 security:

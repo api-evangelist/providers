@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -300,7 +300,7 @@ overview: 'Amazon Amplify publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Amazon Amplify''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 51
+random_paper: 20
 rules:
 - name: Amazon Amplify API Rules
   rule_count: 5
@@ -320,16 +320,16 @@ rules:
   slug: amazon-amplify-spectral-rules
 score:
   band: developing
-  composite: 54.6
-  delta: -2.3
+  composite: 55.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 73.7
+    contract_quality: 76.0
     developer_ergonomics: 43.5
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 5.3
-  previous_composite: 56.9
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -339,8 +339,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/screenshots/amazon-amplify-2026-07-25T195912.png
 security:

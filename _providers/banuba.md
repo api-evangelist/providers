@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: The Banuba Face AR SDK provides AR face effects, beauty filters, and face tracking for mobile (iOS/Android), web, and desktop applications. The SDK includes real-time face detection, 3D face tracking,
@@ -157,7 +157,7 @@ plans:
 - name: Banuba Plans Pricing
   plan_count: 3
   slug: banuba-plans-pricing
-random_paper: 43
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Banuba Rate Limits
@@ -182,7 +182,7 @@ rules:
 score:
   band: thin
   composite: 34.9
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 12.9
@@ -190,10 +190,10 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 39.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 34.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banuba/refs/heads/main/screenshots/banuba-2026-06-20T172957.png
 security:
 - kind: domain-security

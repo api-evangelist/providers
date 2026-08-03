@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -140,11 +140,11 @@ overview: 'Avrea is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Avrea''s developer surface includes documentation, getting-started guide, developer console, pricing, engineering blog, signup flow, support, and 17 more developer resources.'
-random_paper: 35
+random_paper: 52
 score:
   band: thin
   composite: 37.0
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -152,11 +152,11 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 35.4
+  previous_composite: 37.0
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avrea/refs/heads/main/screenshots/avrea-2026-07-25T202013.png
 security:

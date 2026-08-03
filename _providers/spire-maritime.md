@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: GraphQL `vessels` query returning up to 1,000 vessels per page - static data (name, MMSI, IMO, callsign, flag, shipType, dimensions), last position update (lat/long, course, heading, speed, collection
@@ -109,7 +109,7 @@ plans:
 - name: Spire Maritime Plans Pricing
   plan_count: 1
   slug: spire-maritime-plans-pricing
-random_paper: 54
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Spire Maritime Rate Limits
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.7
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 43.2
@@ -125,10 +125,10 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 24.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 32.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Spire Maritime Authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -376,7 +376,7 @@ plans:
 - name: Edamam Plans Pricing
   plan_count: 4
   slug: edamam-plans-pricing
-random_paper: 39
+random_paper: 43
 rate_limits:
 - limit_count: 11
   name: Edamam Rate Limits
@@ -399,17 +399,17 @@ rules:
     warn: 20
   slug: edamam-spectral-rules
 score:
-  band: developing
-  composite: 51.0
-  delta: -7.3
+  band: thin
+  composite: 41.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.9
+    contract_quality: 25.0
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 58.3
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -417,9 +417,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edamam/refs/heads/main/screenshots/edamam-2026-06-20T180443.png
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Internal REST API that powers checkout on the Perpay Marketplace. Handles product ordering, spending-limit enforcement, and installment plan creation for approved consumers. Access is limited to Perpa
@@ -126,7 +126,7 @@ plans:
 - name: Perpay Plans Pricing
   plan_count: 1
   slug: perpay-plans-pricing
-random_paper: 1
+random_paper: 87
 rate_limits:
 - limit_count: 1
   name: Perpay Rate Limits
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.5
-  delta: -4.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 8.1
@@ -142,15 +142,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 32.2
+  previous_composite: 27.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 37.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/screenshots/perpay-2026-06-20T191609.png
 security:

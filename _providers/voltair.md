@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 api_count: 16
 apis:
 - description: The ApiKeys API from Voltair — 2 operation(s) for apikeys.
@@ -184,23 +184,23 @@ overview: 'Voltair publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Voltair''s developer surface includes documentation, API reference, authentication, and 17 more developer resources.'
-random_paper: 31
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Voltair Rate Limits
   slug: voltair-rate-limits
 score:
   band: thin
-  composite: 31.7
-  delta: -3.9
+  composite: 32.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 59.6
+    contract_quality: 63.0
     developer_ergonomics: 29.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 35.6
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
@@ -216,8 +216,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

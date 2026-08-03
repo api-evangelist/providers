@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -192,7 +192,7 @@ plans:
 - name: Project44 Plans Pricing
   plan_count: 1
   slug: project44-plans-pricing
-random_paper: 43
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Project44 Rate Limits
@@ -221,16 +221,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.6
-  delta: -2.8
+  composite: 47.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 81.0
+    contract_quality: 82.4
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 26.3
-  previous_composite: 50.4
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +238,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/screenshots/project44-2026-06-20T192205.png
 security:

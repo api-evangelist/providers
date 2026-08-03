@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-07-28'
+  score: 31.3
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Browser SDK exposing window.blinkSDK. Provides Login with Blink (getAuthorizationCode), subscription entitlement checks (isSubscribed, getSubscription, onSubscriptionChange), single-article charging (
@@ -171,19 +171,19 @@ overview: 'Blink Ledger Systems publishes 3 APIs on the [APIs.io](https://apis.i
 
 
   Blink Ledger Systems'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 69
+random_paper: 42
 score:
-  band: developing
-  composite: 45.7
-  delta: -4.9
+  band: thin
+  composite: 39.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.4
+    contract_quality: 24.2
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 50.6
+  previous_composite: 39.5
   provenance:
     conformance: derived
     contracts:
@@ -199,8 +199,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/screenshots/blink-ledger-systems-2026-07-25T203322.png
 security:

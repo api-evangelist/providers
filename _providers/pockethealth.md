@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: Partner-gated developer capability, modeled from PocketHealth's public developer-program description. Lets a RIS/PACS/VNA vendor enroll patients for PocketHealth access natively from within the vendor
@@ -81,11 +81,11 @@ plans:
 - name: Pockethealth Plans Pricing
   plan_count: 5
   slug: pockethealth-plans-pricing
-random_paper: 46
+random_paper: 41
 score:
   band: emerging
   composite: 13.5
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -93,15 +93,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.2
+  previous_composite: 13.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,11 +95,11 @@ overview: 'United States Africa Command is profiled on the [APIs.io](https://api
 
 
   United States Africa Command''s developer surface includes YouTube channel and 10 more developer resources.'
-random_paper: 5
+random_paper: 38
 score:
   band: minimal
   composite: 8.5
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 17.7
@@ -107,9 +107,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 8.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-africa-command/refs/heads/main/screenshots/united-states-africa-command-2026-06-20T200045.png
 security:

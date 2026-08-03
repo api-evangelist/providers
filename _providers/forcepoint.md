@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: Config, Log export, and IP APIs plus SCIM 2.0 user/group provisioning for Forcepoint ONE / Data Security Cloud (SSE). OAuth 2.0 bearer authentication with configurable permission scopes.
@@ -133,11 +133,11 @@ overview: 'Forcepoint publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Forcepoint''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 15
+random_paper: 36
 score:
   band: thin
   composite: 29.3
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -145,11 +145,11 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 29.7
+  previous_composite: 29.3
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forcepoint/refs/heads/main/screenshots/forcepoint-2026-07-25T214926.png
 security:

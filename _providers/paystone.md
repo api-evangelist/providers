@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -161,19 +161,19 @@ overview: 'Paystone publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Paystone''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 63
+random_paper: 28
 score:
   band: developing
-  composite: 46.6
-  delta: -4.1
+  composite: 47.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 64.4
+    contract_quality: 70.5
     developer_ergonomics: 45.1
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 50.7
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,8 +190,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

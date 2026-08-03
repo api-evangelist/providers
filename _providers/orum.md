@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -226,7 +226,7 @@ overview: 'Orum publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Orum''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 21 more developer resources.'
-random_paper: 41
+random_paper: 71
 scopes:
 - name: Orum Scopes
   scope_count: 29
@@ -234,16 +234,16 @@ scopes:
   summary_line: 29 scopes · clientCredentials
 score:
   band: developing
-  composite: 46.2
-  delta: -4.3
+  composite: 46.8
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
-    contract_quality: 65.5
+    contract_quality: 68.5
     developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 50.5
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,8 +260,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 49.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 16
 common:
@@ -97,11 +97,11 @@ press:
 - date: '2026-05-25'
   title: American Family Insurance and AWS Team Up to Drive ...
   url: https://www.businesswire.com/news/home/20221201005413/en/American-Family-Insurance-and-AWS-Team-Up-to-Drive-Innovation-in-the-Insurance-Industry
-random_paper: 72
+random_paper: 62
 score:
   band: minimal
   composite: 7.1
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -109,15 +109,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.2
+  previous_composite: 7.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/screenshots/american-family-insurance-2026-06-20T171911.png
 security:

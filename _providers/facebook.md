@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -588,7 +588,7 @@ press:
 - date: '2026-05-25'
   title: 'Introducing the Meta AI App: A New Way to Access Your AI ...'
   url: https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/
-random_paper: 6
+random_paper: 66
 rate_limits:
 - limit_count: 12
   name: Facebook Rate Limits
@@ -611,17 +611,17 @@ rules:
     warn: 15
   slug: facebook-spectral-rules
 score:
-  band: strong
-  composite: 57.4
-  delta: -8.5
+  band: developing
+  composite: 50.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.1
+    contract_quality: 24.5
     developer_ergonomics: 41.3
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 65.9
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     contracts:
@@ -635,9 +635,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/screenshots/facebook-2026-07-25T214133.png
 security:
 - kind: authentication

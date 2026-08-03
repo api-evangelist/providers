@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -516,9 +516,9 @@ plans:
 - name: Nvidia Nim Plans Pricing
   plan_count: 3
   slug: nvidia-nim-plans-pricing
-random_paper: 20
+random_paper: 54
 rate_limits:
-- limit_count: 0
+- limit_count: 6
   name: Nvidia Nim Rate Limits
   slug: nvidia-nim-rate-limits
 rules:
@@ -532,16 +532,16 @@ rules:
   slug: nvidia-nim-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.0
-  delta: -2.4
+  composite: 75.7
+  delta: 4.1
   facets:
     commercial_clarity: 78.9
-    contract_quality: 74.0
+    contract_quality: 76.3
     developer_ergonomics: 76.1
     discoverability: 83.3
     governance: 69.8
-    operational_transparency: 36.8
-  previous_composite: 73.4
+    operational_transparency: 68.4
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -551,8 +551,8 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ plans:
 - name: Google Merchant Center Plans Pricing
   plan_count: 3
   slug: google-merchant-center-plans-pricing
-random_paper: 4
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Google Merchant Center Rate Limits
@@ -195,16 +195,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 60.9
-  delta: -3.2
+  composite: 61.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 63.6
+    contract_quality: 66.7
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 64.1
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/screenshots/google-merchant-center-2026-06-20T182216.png
 security:

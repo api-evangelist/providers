@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 177
 apis:
 - description: The Accord API from Lane API — 1 operation(s) for accord.
@@ -585,31 +585,31 @@ plans:
 - name: Lane Api Plans Pricing
   plan_count: 3
   slug: lane-api-plans-pricing
-random_paper: 37
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Lane Api Rate Limits
   slug: lane-api-rate-limits
 score:
   band: thin
-  composite: 31.3
-  delta: -1.3
+  composite: 30.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.3
+    contract_quality: 55.0
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 32.6
+  previous_composite: 30.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 177
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lane-api/refs/heads/main/screenshots/lane-api-2026-06-20T184300.png
 security:

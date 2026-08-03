@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-07-28'
+  score: 63.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 30
@@ -26,7 +26,7 @@ agentic_access:
   operation_count: 1886
   slug: infobip-agentic-access
   summary_line: 1886 operations · 1172 acting · 30 human-in-the-loop
-api_count: 46
+api_count: 47
 apis:
 - description: Infobip's Two Factor Authentication API for OTP (One Time Passcode) delivery and verification. OTPs can be delivered over SMS, Voice or Email. Learn more about the workflow and setup. You can use SDKs
   name: Infobip 2FA API
@@ -166,7 +166,10 @@ apis:
 - description: Zalo offers businesses a dynamic tool - Zalo Notification Service. This solution is designed to revolutionize customer engagement and communication strategies, providing businesses with a direct and e
   name: Infobip Zalo API
   slug: infobip-zalo
-artifact_total: 102
+- description: Infobip OpenAPI Specification from Infobip — 652 path(s) described in OpenAPI.
+  name: Infobip OpenAPI Specification
+  slug: infobip-platform-full-openapi
+artifact_total: 103
 asyncapis:
 - description: AsyncAPI projection of the 102 webhooks published in the Infobip platform OpenAPI 3.1 document (the "webhooks" object). Each channel is an Infobip-originated HTTP callback delivered to a customer-conf
   name: Infobip platform webhooks
@@ -583,16 +586,16 @@ modified: '2026-07-25'
 name: Infobip
 nav: Providers
 network: true
-overview: 'Infobip publishes 46 APIs on the [APIs.io](https://apis.io/) network, including 2FA API, Account management API, AI Assistants API, and 43 more. Tagged areas include Telecommunications, Croatia, CPaaS, Messaging, and SMS.
+overview: 'Infobip publishes 47 APIs on the [APIs.io](https://apis.io/) network, including 2FA API, Account management API, AI Assistants API, and 44 more. Tagged areas include Telecommunications, Croatia, CPaaS, Messaging, and SMS.
 
 
   The Infobip catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
   Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 57 more developer resources.'
-random_paper: 5
+random_paper: 78
 rate_limits:
-- limit_count: 0
+- limit_count: 44
   name: Infobip Rate Limits
   slug: infobip-rate-limits
 scopes:
@@ -601,17 +604,17 @@ scopes:
   slug: infobip-scopes
   summary_line: 159 scopes · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 65.3
-  delta: 3.7
+  band: exemplar
+  composite: 72.4
+  delta: 3.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.6
+    contract_quality: 68.7
     developer_ergonomics: 79.9
     discoverability: 87.0
     governance: 20.8
-    operational_transparency: 63.2
-  previous_composite: 61.6
+    operational_transparency: 94.7
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -628,8 +631,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 93.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

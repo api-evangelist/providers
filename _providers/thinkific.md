@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -326,7 +326,7 @@ plans:
 - name: Thinkific Plans Pricing
   plan_count: 4
   slug: thinkific-plans-pricing
-random_paper: 51
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Thinkific Rate Limits
@@ -342,16 +342,16 @@ rules:
   slug: thinkific-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.7
-  delta: -4.1
+  composite: 59.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.1
+    contract_quality: 69.9
     developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 62.8
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     contracts:
@@ -359,8 +359,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/screenshots/thinkific-2026-06-20T195305.png
 security:

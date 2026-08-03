@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -314,7 +314,7 @@ plans:
 - name: Amazon Kinesis Plans Pricing
   plan_count: 3
   slug: amazon-kinesis-plans-pricing
-random_paper: 55
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Amazon Kinesis Rate Limits
@@ -346,16 +346,16 @@ rules:
   slug: amazon-kinesis-spectral-rules
 score:
   band: exemplar
-  composite: 66.7
-  delta: -4.1
+  composite: 67.1
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 84.4
+    contract_quality: 85.8
     developer_ergonomics: 45.7
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 70.8
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     contracts:
@@ -363,8 +363,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/screenshots/amazon-kinesis-2026-06-20T171718.png
 security:

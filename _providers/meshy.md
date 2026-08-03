@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API at https://api.meshy.ai for Text-to-3D (v2 with preview + refine workflow), Image-to-3D, Multi Image-to-3D, Remesh, Rigging, Animation, Retexture, Text-to-Image, Image-to-Image, Multi-Color P
@@ -100,31 +100,31 @@ plans:
 - name: Meshy Plans Pricing
   plan_count: 4
   slug: meshy-plans-pricing
-random_paper: 58
+random_paper: 75
 rate_limits:
 - limit_count: 7
   name: Meshy Rate Limits
   slug: meshy-rate-limits
 score:
   band: thin
-  composite: 31.8
-  delta: -1.7
+  composite: 35.3
+  delta: 3.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 40.3
+    contract_quality: 54.3
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 33.5
+  previous_composite: 31.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meshy/refs/heads/main/screenshots/meshy-2026-06-20T185245.png
 security:

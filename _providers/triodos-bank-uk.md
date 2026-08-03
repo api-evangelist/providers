@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-07-28'
+  score: 48.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -205,7 +205,7 @@ overview: 'Triodos Bank UK publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Triodos Bank UK''s developer surface includes authentication, sandbox, changelog, API reference, signup flow, documentation, getting-started guide, and 27 more developer resources.'
-random_paper: 22
+random_paper: 73
 scopes:
 - name: Triodos Bank Uk Scopes
   scope_count: 5
@@ -213,21 +213,21 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 46.8
-  delta: -4.2
+  composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 32.3
+    contract_quality: 51.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 51.0
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
@@ -238,9 +238,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 79.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 94.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

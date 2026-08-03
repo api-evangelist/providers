@@ -18,11 +18,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -31,7 +31,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -245,23 +245,23 @@ plans:
 - name: Rea Group Plans
   plan_count: 2
   slug: rea-group-plans
-random_paper: 12
+random_paper: 59
 rate_limits:
-- limit_count: 0
+- limit_count: 16
   name: Rea Group Rate Limits
   slug: rea-group-rate-limits
 score:
-  band: developing
-  composite: 50.4
-  delta: 0.5
+  band: strong
+  composite: 56.1
+  delta: 4.1
   facets:
     commercial_clarity: 55.3
-    contract_quality: 55.4
+    contract_quality: 62.1
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 21.1
-  previous_composite: 49.9
+    operational_transparency: 52.6
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,8 +272,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/screenshots/rea-group-2026-07-27T125400.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ overview: 'HSBC Bank Australia publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   HSBC Bank Australia''s developer surface includes documentation, getting-started guide, support, authentication, and 20 more developer resources.'
-random_paper: 33
+random_paper: 2
 scopes:
 - name: Hsbc Australia Scopes
   scope_count: 10
@@ -192,16 +192,16 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.5
-  delta: -2.0
+  composite: 44.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 45.5
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -218,8 +218,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/screenshots/hsbc-australia-2026-07-21T114727.png
 security:

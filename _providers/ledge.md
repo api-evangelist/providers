@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Data sources connected to Ledge (banks, payment service providers, ERPs, databases) and the datasets fetched from them.
@@ -179,7 +179,7 @@ overview: 'Ledge publishes 2 APIs on the [APIs.io](https://apis.io/) network: So
 
 
   Ledge''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 24 more developer resources.'
-random_paper: 21
+random_paper: 38
 scopes:
 - name: Ledge Scopes
   scope_count: 0
@@ -188,7 +188,7 @@ scopes:
 score:
   band: strong
   composite: 56.6
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 63.6
@@ -196,7 +196,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 56.9
+  previous_composite: 56.6
   provenance:
     conformance: first-party
     contracts:
@@ -206,8 +206,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/screenshots/ledge-2026-07-25T224813.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -195,9 +195,9 @@ plans:
 - name: Clari Plans Pricing
   plan_count: 3
   slug: clari-plans-pricing
-random_paper: 31
+random_paper: 48
 rate_limits:
-- limit_count: 0
+- limit_count: 6
   name: Clari Rate Limits
   slug: clari-rate-limits
 rules:
@@ -210,17 +210,17 @@ rules:
     warn: 3
   slug: clari-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 54.1
-  delta: -3.6
+  band: strong
+  composite: 58.6
+  delta: 4.1
   facets:
     commercial_clarity: 57.9
-    contract_quality: 79.1
+    contract_quality: 80.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 21.1
-  previous_composite: 57.7
+    operational_transparency: 52.6
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     contracts:
@@ -228,8 +228,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/screenshots/clari-2026-06-20T174439.png
 security:

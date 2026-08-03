@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: Configurable cancel flow with retention offers
@@ -181,19 +181,19 @@ overview: 'ZeroSettle publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ZeroSettle''s developer surface includes authentication, changelog, sandbox, documentation, API reference, quickstart, signup flow, and 18 more developer resources.'
-random_paper: 39
+random_paper: 60
 score:
   band: developing
-  composite: 49.8
-  delta: -2.3
+  composite: 50.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 61.7
+    contract_quality: 64.9
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 52.1
+  previous_composite: 50.5
   provenance:
     conformance: derived
     contracts:
@@ -209,8 +209,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: OASIS Standard publish/subscribe messaging protocol for IoT and M2M communication. MQTT v5.0 defines the wire format and behavior of CONNECT, PUBLISH, SUBSCRIBE, UNSUBSCRIBE, PINGREQ, DISCONNECT and o
@@ -78,11 +78,11 @@ overview: 'MQTT publishes 1 API on the [APIs.io](https://apis.io/) network: Vers
 
 
   MQTT''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 44
+random_paper: 74
 score:
   band: emerging
   composite: 19.0
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -90,15 +90,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 16.0
+  previous_composite: 19.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mqtt/refs/heads/main/screenshots/mqtt-2026-06-20T185839.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Pointclickcare Plans Pricing
   plan_count: 3
   slug: pointclickcare-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Pointclickcare Rate Limits
@@ -201,16 +201,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.0
-  delta: -6.8
+  composite: 60.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 73.7
+    contract_quality: 76.0
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 66.8
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -224,9 +224,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/screenshots/pointclickcare-2026-06-20T191845.png
 security:
 - kind: authentication

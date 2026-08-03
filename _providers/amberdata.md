@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-07-28'
+  score: 57.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,18 +57,18 @@ apis:
 - description: Spot market analytics across supported exchanges (order-book depth, trade analytics).
   name: Amberdata Spot API
   slug: amberdata-spot-api
-- description: Spot, futures, and options market data — exchanges reference, tickers, trades, OHLCV, order-book snapshots and events, funding rates, open interest, and liquidations.
-  name: Amberdata Market Data API
-  slug: amberdata-market-data-api
-- description: Latest and historical global asset and pair prices, VWAP, TWAP, and reference rates.
-  name: Amberdata Price API
-  slug: amberdata-price-api
-- description: Cross-market metrics and analytics series for digital assets.
-  name: Amberdata Market Metrics API
-  slug: amberdata-market-metrics-api
-- description: Asset Reference & Classification (ARC) — reference data, classifications, and updates for digital assets.
-  name: Amberdata ARC API
-  slug: amberdata-arc-api
+- description: Amberdata Asset Reference & Classification API from Amberdata — 4 path(s) described in OpenAPI.
+  name: Amberdata Asset Reference & Classification API
+  slug: amberdata-arc-openapi
+- description: Amberdata Market-api from Amberdata — 55 path(s) described in OpenAPI.
+  name: Amberdata Market-api
+  slug: amberdata-market-openapi
+- description: Amberdata Market Metrics from Amberdata — 6 path(s) described in OpenAPI.
+  name: Amberdata Market Metrics
+  slug: amberdata-metrics-openapi
+- description: Amberdata Pricing from Amberdata — 16 path(s) described in OpenAPI.
+  name: Amberdata Pricing
+  slug: amberdata-price-openapi
 artifact_total: 34
 asyncapis:
 - description: AsyncAPI 2.6 description of Amberdata's **real-time WebSocket streaming** surface. Unlike the Groq reference (which exposes no WebSocket), Amberdata DOES publish a documented public WebSocket API. Cli
@@ -284,7 +284,7 @@ plans:
 - name: Amberdata Plans Pricing
   plan_count: 2
   slug: amberdata-plans-pricing
-random_paper: 27
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Amberdata Rate Limits
@@ -300,16 +300,16 @@ rules:
   slug: amberdata-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 63.3
-  delta: -1.5
+  composite: 64.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.9
+    contract_quality: 64.8
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 53.1
     operational_transparency: 76.3
-  previous_composite: 64.8
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,8 +326,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/screenshots/amberdata-2026-07-22T202146.png
 security:

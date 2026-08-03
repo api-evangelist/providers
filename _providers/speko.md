@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -163,19 +163,19 @@ overview: 'Speko publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Speko''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
-random_paper: 54
+random_paper: 71
 score:
   band: developing
-  composite: 53.8
-  delta: -1.8
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 68.3
+    contract_quality: 72.5
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 55.6
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -192,8 +192,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

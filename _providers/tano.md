@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: flavored
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.1
-  scored_at: '2026-07-28'
+  score: 23.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -26,8 +26,24 @@ agentic_access:
   operation_count: 17
   slug: tano-agentic-access
   summary_line: 17 operations · 9 acting
-api_count: 0
-artifact_total: 3
+api_count: 5
+apis:
+- description: Brand signups for product offerings (Creator Partnership Ads, Content Analysis Framework, Creator Discovery Guide, USA waitlist).
+  name: Tano Brand Signups API
+  slug: tano-brand-signups-api
+- description: Contact form submissions and updates.
+  name: Tano Contact API
+  slug: tano-contact-api
+- description: Creator-side signups.
+  name: Tano Creator Signups API
+  slug: tano-creator-signups-api
+- description: Static discovery files for AI agents (llms.txt, manifests, sitemap).
+  name: Tano Discovery API
+  slug: tano-discovery-api
+- description: Webinar and event registrations.
+  name: Tano Events API
+  slug: tano-events-api
+artifact_total: 8
 common:
 - group: other
   title: ''
@@ -44,20 +60,20 @@ modified: '2026-07-17'
 name: Tano
 nav: Providers
 network: true
-overview: Tano is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 24
+overview: Tano publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Brand Signups API, Contact API, Creator Signups API, and 2 more. Tagged areas include Company.
+random_paper: 54
 score:
-  band: minimal
-  composite: 8.0
-  delta: -34.8
+  band: emerging
+  composite: 21.2
+  delta: 4.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 8.1
+    contract_quality: 58.5
     developer_ergonomics: 0.0
-    discoverability: 46.3
+    discoverability: 51.9
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 42.8
+  previous_composite: 16.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -68,9 +84,9 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Tano Authentication

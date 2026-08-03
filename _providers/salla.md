@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -441,7 +441,7 @@ plans:
 - name: Salla Plans Pricing
   plan_count: 5
   slug: salla-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Salla Rate Limits
@@ -470,16 +470,16 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.2
-  delta: -6.9
+  composite: 68.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 68.3
+    contract_quality: 70.7
     developer_ergonomics: 78.3
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 75.1
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     contracts:
@@ -493,9 +493,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/screenshots/salla-2026-06-20T193358.png
 security:
 - kind: authentication

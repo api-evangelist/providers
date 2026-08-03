@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 23
 apis:
 - description: Endpoints for MLS listings data assembled by Anywhere's MLS Data Platform (MDP), which downloads, processes and enriches listings from multiple MLS sources. Returns listings in canonical RESO format e
@@ -260,7 +260,7 @@ overview: 'Anywhere Real Estate publishes 23 APIs on the [APIs.io](https://apis.
 
 
   Anywhere Real Estate''s developer surface includes authentication, changelog, sandbox, developer portal, documentation, getting-started guide, signup flow, and 29 more developer resources.'
-random_paper: 55
+random_paper: 28
 scopes:
 - name: Anywhere Real Estate Scopes
   scope_count: 0
@@ -269,7 +269,7 @@ scopes:
 score:
   band: thin
   composite: 39.8
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -277,7 +277,7 @@ score:
     discoverability: 83.3
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 41.9
+  previous_composite: 39.8
   provenance:
     conformance: first-party
   regulatory:
@@ -286,8 +286,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 66.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

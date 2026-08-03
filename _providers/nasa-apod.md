@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Nasa Apod Plans Pricing
   plan_count: 3
   slug: nasa-apod-plans-pricing
-random_paper: 64
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Nasa Apod Rate Limits
@@ -151,16 +151,16 @@ rules:
   slug: nasa-apod-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: -4.2
+  composite: 49.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.3
+    contract_quality: 70.5
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 53.6
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -174,8 +174,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-apod/refs/heads/main/screenshots/nasa-apod-2026-06-20T185946.png
 security:

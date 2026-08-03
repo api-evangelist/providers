@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: The Health API from Checkmate — 1 operation(s) for health.
@@ -154,19 +154,19 @@ overview: 'Checkmate publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Checkmate''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 31
+random_paper: 78
 score:
-  band: thin
-  composite: 41.6
-  delta: -0.7
+  band: developing
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 49.7
+    contract_quality: 54.0
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 42.3
+  previous_composite: 42.7
   provenance:
     conformance: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkmate/refs/heads/main/screenshots/checkmate-2026-07-25T205130.png
 security:

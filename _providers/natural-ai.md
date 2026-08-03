@@ -15,12 +15,12 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
-    idempotency: documented
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: true
     openapi_examples: verified
     rate_limit_signal: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 72.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 6
@@ -306,7 +306,7 @@ overview: 'Natural AI publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Natural AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, changelog, and 31 more developer resources.'
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Natural Ai Rate Limits
@@ -318,16 +318,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.7
-  delta: 0.7
+  composite: 65.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 66.1
+    contract_quality: 74.4
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 63.0
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,8 +344,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

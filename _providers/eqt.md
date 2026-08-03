@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,11 +80,11 @@ press:
 - date: '2026-05-25'
   title: EQT Introduces AI Infrastructure Strategy to Help Build ...
   url: https://www.prnewswire.com/news-releases/eqt-introduces-ai-infrastructure-strategy-to-help-build-the-foundation-of-the-ai-economy-302748973.html
-random_paper: 2
+random_paper: 45
 score:
   band: minimal
   composite: 5.5
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -92,15 +92,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.8
+  previous_composite: 5.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eqt/refs/heads/main/screenshots/eqt-2026-06-20T180803.png
 security:

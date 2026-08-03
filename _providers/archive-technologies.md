@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Archive''s public GraphQL API for programmatic access to creator and UGC workspace data — creators, social profiles, items (posts/reels/stories/videos), engagement history, content views, collections, '
@@ -148,7 +148,7 @@ overview: 'Archive Technologies publishes 1 API on the [APIs.io](https://apis.io
 
 
   Archive Technologies'' developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 18 more developer resources.'
-random_paper: 17
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Archive Technologies Rate Limits
@@ -161,7 +161,7 @@ scopes:
 score:
   band: thin
   composite: 33.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -169,13 +169,13 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 52.6
-  previous_composite: 34.2
+  previous_composite: 33.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/screenshots/archive-technologies-2026-07-25T201038.png
 security:

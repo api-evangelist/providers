@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: 'insurancecouncil.com.au runs on WordPress and leaves the standard WordPress REST API reachable anonymously at /wp-json/, returning JSON for pages, media (the PDF publication corpus of media releases, '
@@ -201,7 +201,7 @@ overview: 'Insurance Council of Australia publishes 3 APIs on the [APIs.io](http
 
 
   Insurance Council of Australia''s developer surface includes authentication, developer portal, documentation, engineering blog, support, YouTube channel, and 25 more developer resources.'
-random_paper: 67
+random_paper: 18
 scopes:
 - name: Insurance Council Australia Scopes
   scope_count: 1
@@ -210,7 +210,7 @@ scopes:
 score:
   band: thin
   composite: 34.4
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 16.1
@@ -218,7 +218,7 @@ score:
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 37.1
+  previous_composite: 34.4
   provenance:
     conformance: derived
     mcp: first-party
@@ -228,8 +228,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/screenshots/insurance-council-australia-2026-07-25T222633.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -180,19 +180,19 @@ overview: 'Keyframe Labs publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Keyframe Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 21 more developer resources.'
-random_paper: 3
+random_paper: 80
 score:
   band: thin
-  composite: 38.5
-  delta: -5.2
+  composite: 39.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 54.9
+    contract_quality: 58.8
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 43.7
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,9 +209,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/screenshots/keyframe-labs-2026-07-25T223654.png
 security:
 - kind: authentication

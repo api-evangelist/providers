@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -142,23 +142,23 @@ plans:
 - name: Loops Plans Pricing
   plan_count: 1
   slug: loops-plans-pricing
-random_paper: 65
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: Loops Rate Limits
   slug: loops-rate-limits
 score:
   band: thin
-  composite: 33.8
-  delta: -2.5
+  composite: 34.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.2
+    contract_quality: 59.1
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 36.3
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -166,8 +166,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/screenshots/loops-2026-06-20T184718.png
 security:

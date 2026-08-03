@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -569,7 +569,7 @@ plans:
 - name: Ambassador Plans Pricing
   plan_count: 4
   slug: ambassador-plans-pricing
-random_paper: 69
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Ambassador Rate Limits
@@ -593,16 +593,16 @@ rules:
   slug: ambassador-spectral-rules
 score:
   band: developing
-  composite: 53.5
-  delta: -4.7
+  composite: 54.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.9
+    contract_quality: 66.9
     developer_ergonomics: 37.0
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 58.2
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -610,8 +610,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/screenshots/ambassador-2026-06-20T171959.png
 security:

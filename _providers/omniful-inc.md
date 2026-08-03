@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-07-28'
+  score: 29.7
+  scored_at: '2026-08-03'
 api_count: 34
 apis:
 - description: The Background Jobs API from Omniful, Inc. — 1 operation(s) for background jobs.
@@ -230,19 +230,19 @@ overview: 'Omniful, Inc. publishes 34 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Omniful, Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, and 13 more developer resources.'
-random_paper: 55
+random_paper: 76
 score:
   band: developing
-  composite: 45.6
-  delta: -0.7
+  composite: 46.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 64.9
+    contract_quality: 68.1
     developer_ergonomics: 45.7
     discoverability: 81.5
     governance: 8.3
     operational_transparency: 36.8
-  previous_composite: 46.3
+  previous_composite: 46.4
   provenance:
     contracts:
       callable: 100.0
@@ -250,8 +250,8 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

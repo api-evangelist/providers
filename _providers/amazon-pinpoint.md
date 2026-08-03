@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-07-28'
+  score: 41.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -7405,7 +7405,7 @@ plans:
 - name: Amazon Pinpoint Plans Pricing
   plan_count: 3
   slug: amazon-pinpoint-plans-pricing
-random_paper: 14
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Amazon Pinpoint Rate Limits
@@ -7429,16 +7429,16 @@ rules:
   slug: amazon-pinpoint-spectral-rules
 score:
   band: strong
-  composite: 63.7
-  delta: -6.6
+  composite: 64.7
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 63.4
+    contract_quality: 68.0
     developer_ergonomics: 63.0
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 70.3
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     contracts:
@@ -7452,9 +7452,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/screenshots/amazon-pinpoint-2026-06-20T171757.png
 security:
 - kind: authentication

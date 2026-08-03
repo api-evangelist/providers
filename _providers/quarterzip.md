@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 26.6
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -131,11 +131,11 @@ overview: 'Quarterzip is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Quarterzip''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 14 more developer resources.'
-random_paper: 45
+random_paper: 66
 score:
   band: thin
   composite: 40.8
-  delta: 7.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.6
@@ -143,7 +143,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 33.8
+  previous_composite: 40.8
   provenance:
     conformance: first-party
   regulatory:
@@ -152,9 +152,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Quarterzip Authentication

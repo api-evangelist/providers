@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ plans:
 - name: The News Api Plans Pricing
   plan_count: 3
   slug: the-news-api-plans-pricing
-random_paper: 22
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: The News Api Rate Limits
@@ -171,16 +171,16 @@ rules:
   slug: the-news-api-rules
 score:
   band: developing
-  composite: 50.4
-  delta: -4.4
+  composite: 50.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.9
+    contract_quality: 67.4
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 54.8
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     contracts:
@@ -188,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/screenshots/the-news-api-2026-06-20T195226.png
 security:

@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.2
-  scored_at: '2026-07-28'
+  score: 38.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -28,12 +28,12 @@ agentic_access:
   summary_line: 4 operations · 3 acting
 api_count: 2
 apis:
-- description: 'LLM chat completions (OpenAI-compatible), embeddings, reranking, batch, image generation (FLUX.1, Seedream 3.0/4.0, Qwen), image editing (upscale, background removal/replacement, inpaint, reimagine), '
-  name: Novita AI Platform API
-  slug: platform
 - description: On-demand GPU instance management and templates plus serverless GPU endpoints. Create, start, stop, and delete instances; list products and templates; query usage-based and fixed-term billing.
   name: Novita AI GPU API
   slug: gpu
+- description: The Openai API from Novita AI — 4 operation(s) for openai.
+  name: Novita AI Openai API
+  slug: novita-ai-openai-api
 artifact_total: 11
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the asynchronous surfaces of the Novita AI platform: 1. **Server-Sent Events (SSE) streaming** for OpenAI-compatible chat completions (`POST /openai/v1/chat/completions` wi'
@@ -168,7 +168,7 @@ modified: '2026-05-30'
 name: Novita AI
 nav: Providers
 network: true
-overview: 'Novita AI publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include AI, LLM, Inference, GPU, and OpenAI Compatible.
+overview: 'Novita AI publishes 1 API on the [APIs.io](https://apis.io/) network: Openai API. Tagged areas include AI, LLM, Inference, GPU, and OpenAI Compatible.
 
 
   The Novita AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -179,7 +179,7 @@ plans:
 - name: Novita Ai Plans Pricing
   plan_count: 1
   slug: novita-ai-plans-pricing
-random_paper: 2
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Novita Ai Rate Limits
@@ -196,7 +196,7 @@ rules:
 score:
   band: developing
   composite: 53.9
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 59.7
@@ -204,7 +204,7 @@ score:
     discoverability: 68.5
     governance: 41.7
     operational_transparency: 42.1
-  previous_composite: 56.2
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/screenshots/novita-ai-2026-06-20T190520.png
 security:

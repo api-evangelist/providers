@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 2
@@ -232,19 +232,19 @@ overview: 'Forward Networks publishes 20 APIs on the [APIs.io](https://apis.io/)
 
 
   Forward Networks'' developer surface includes documentation, authentication, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 55
+random_paper: 80
 score:
   band: developing
-  composite: 44.9
-  delta: -1.6
+  composite: 46.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 42.5
+    contract_quality: 48.2
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 46.5
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,8 +255,8 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/screenshots/forward-networks-2026-07-25T215024.png
 security:

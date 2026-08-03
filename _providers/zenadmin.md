@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 28.4
-  scored_at: '2026-07-28'
+  score: 24.3
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The Catalog API from ZenAdmin — 3 operation(s) for catalog.
@@ -114,19 +114,19 @@ overview: 'ZenAdmin publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ZenAdmin''s developer surface includes documentation, API reference, engineering blog, and 8 more developer resources.'
-random_paper: 34
+random_paper: 94
 score:
   band: thin
-  composite: 36.6
-  delta: -2.9
+  composite: 28.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.6
+    contract_quality: 24.7
     developer_ergonomics: 26.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 39.5
+  previous_composite: 28.9
   provenance:
     conformance: derived
     contracts:
@@ -136,8 +136,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

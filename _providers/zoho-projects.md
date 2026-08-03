@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for Zoho Projects that enables developers to programmatically manage projects, tasks, milestones, bugs, time logs, documents, forums, and user collaboration. Supports OAuth 2.0 authentication
@@ -108,7 +108,7 @@ plans:
 - name: Zoho Projects Plans Pricing
   plan_count: 4
   slug: zoho-projects-plans-pricing
-random_paper: 55
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Zoho Projects Rate Limits
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.9
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 32.3
@@ -124,9 +124,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 37.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 33.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-projects/refs/heads/main/screenshots/zoho-projects-2026-06-20T201947.png
 security:

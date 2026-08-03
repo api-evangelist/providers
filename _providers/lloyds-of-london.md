@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: 'Market API for electronic placement in the London subscription market — create submissions and submission versions, upload Market Reform Contract and quote documents, add carriers and underwriters to '
@@ -224,7 +224,7 @@ overview: 'Lloyd''s of London publishes 4 APIs on the [APIs.io](https://apis.io/
 
 
   Lloyd''s of London''s developer surface includes authentication, code examples, changelog, sandbox, support, engineering blog, documentation, and 20 more developer resources.'
-random_paper: 58
+random_paper: 1
 scopes:
 - name: Lloyds Of London Scopes
   scope_count: 1
@@ -233,7 +233,7 @@ scopes:
 score:
   band: thin
   composite: 31.9
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -241,7 +241,7 @@ score:
     discoverability: 83.3
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 33.4
+  previous_composite: 31.9
   provenance:
     conformance: first-party
   regulatory:
@@ -250,8 +250,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 72.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-of-london/refs/heads/main/screenshots/lloyds-of-london-2026-07-25T225413.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -123,19 +123,19 @@ overview: 'AWS CodeBuild publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   AWS CodeBuild''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, and 10 more developer resources.'
-random_paper: 3
+random_paper: 80
 score:
   band: thin
-  composite: 36.6
-  delta: -1.9
+  composite: 37.5
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 43.5
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 38.5
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -143,8 +143,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/screenshots/aws-codebuild-2026-06-20T172754.png
 security:

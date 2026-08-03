@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -124,11 +124,11 @@ overview: 'Elementl is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Elementl''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
-random_paper: 34
+random_paper: 94
 score:
   band: thin
   composite: 29.5
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -136,9 +136,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 31.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 29.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elementl/refs/heads/main/screenshots/elementl-2026-07-25T213125.png
 security:

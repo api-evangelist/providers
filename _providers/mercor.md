@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: 'The core Mercor platform that matches expert humans to AI lab and enterprise demand for RLHF, SFT, evals, agent training, and frontier research projects. Domains covered include software engineering, '
@@ -142,7 +142,7 @@ plans:
 - name: Mercor Plans Pricing
   plan_count: 1
   slug: mercor-plans-pricing
-random_paper: 74
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Mercor Rate Limits
@@ -150,7 +150,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.8
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -158,9 +158,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 21.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercor/refs/heads/main/screenshots/mercor-2026-06-20T185214.png
 security:

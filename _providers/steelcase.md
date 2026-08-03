@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ press:
 - date: '2025-09-30'
   title: Steelcase 2025 Impact Report Highlights the Strength of Community and Progress Toward a Net-Zero Future
   url: https://www.steelcase.com/press-releases/steelcase-2025-impact-report-highlights-the-strength-of-community-and-progress-toward-a-net-zero-future/
-random_paper: 51
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Steelcase Rate Limits
@@ -210,16 +210,16 @@ rules:
   slug: steelcase-rules
 score:
   band: developing
-  composite: 42.4
-  delta: -5.4
+  composite: 43.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.3
+    contract_quality: 61.0
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 47.8
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -227,9 +227,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Steelcase Domain Security

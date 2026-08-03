@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -182,19 +182,19 @@ overview: 'PackageX publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   PackageX''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, authentication, changelog, and 22 more developer resources.'
-random_paper: 16
+random_paper: 76
 score:
   band: developing
-  composite: 50.0
-  delta: -1.4
+  composite: 50.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 69.0
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 51.4
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

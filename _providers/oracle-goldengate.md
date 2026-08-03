@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 7
@@ -4012,7 +4012,7 @@ plans:
 - name: Oracle Goldengate Plans Pricing
   plan_count: 3
   slug: oracle-goldengate-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Oracle Goldengate Rate Limits
@@ -4036,16 +4036,16 @@ rules:
   slug: oracle-goldengate-spectral-rules
 score:
   band: exemplar
-  composite: 66.2
-  delta: -5.1
+  composite: 67.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 66.6
+    contract_quality: 69.7
     developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 71.3
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     contracts:
@@ -4053,9 +4053,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/screenshots/oracle-goldengate-2026-06-20T191134.png
 security:
 - kind: authentication

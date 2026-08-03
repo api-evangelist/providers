@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -846,7 +846,7 @@ plans:
 - name: Google Cloud Platform Plans Pricing
   plan_count: 5
   slug: google-cloud-platform-plans-pricing
-random_paper: 81
+random_paper: 41
 rate_limits:
 - limit_count: 7
   name: Google Cloud Platform Rate Limits
@@ -875,16 +875,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 81.0
-  delta: 0.6
+  composite: 81.1
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 76.6
+    contract_quality: 76.7
     developer_ergonomics: 78.3
     discoverability: 75.9
     governance: 69.8
     operational_transparency: 78.9
-  previous_composite: 80.4
+  previous_composite: 81.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -894,8 +894,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/screenshots/google-cloud-platform-2026-06-20T182128.png
 security:

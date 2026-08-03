@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 35.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 604
   human_in_the_loop: 578
@@ -564,7 +564,7 @@ plans:
 - name: Frontegg Plans Pricing
   plan_count: 2
   slug: frontegg-plans-pricing
-random_paper: 40
+random_paper: 5
 rate_limits:
 - limit_count: 8
   name: Frontegg Rate Limits
@@ -659,17 +659,17 @@ rules:
     warn: 3
   slug: frontegg-tenants-rules
 score:
-  band: developing
-  composite: 55.9
-  delta: -3.5
+  band: strong
+  composite: 56.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.8
+    contract_quality: 71.2
     developer_ergonomics: 63.0
     discoverability: 68.5
     governance: 37.5
     operational_transparency: 52.6
-  previous_composite: 59.4
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -677,8 +677,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 63
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-06-20T181552.png
 security:

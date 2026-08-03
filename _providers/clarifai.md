@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 247
   human_in_the_loop: 6
@@ -223,7 +223,7 @@ plans:
 - name: Clarifai Plans Pricing
   plan_count: 4
   slug: clarifai-plans-pricing
-random_paper: 7
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Clarifai Rate Limits
@@ -240,7 +240,7 @@ rules:
 score:
   band: developing
   composite: 42.8
-  delta: -6.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 45.2
@@ -248,7 +248,7 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 48.9
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -256,9 +256,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarifai/refs/heads/main/screenshots/clarifai-2026-06-20T174436.png
 security:
 - kind: domain-security

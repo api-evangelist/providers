@@ -564,8 +564,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 11,
-   "shown": 11,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "StockData",
@@ -1026,6 +1026,52 @@
      "rank": 22
     },
     {
+     "name": "Marketstack",
+     "slug": "marketstack",
+     "description": "Marketstack is a real-time, intraday, and historical stock market data API from APILayer, delivering JSON data for tickers across 70+ global stock exchanges. The REST API covers end-of-day and intraday prices, real-time stock prices, splits, dividends, commodities, company ratings, market indexes, bonds, ETF holdings, currencies, timezones, and SEC EDGAR company filings and facts, all authenticated with a simple access_key query parameter.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png",
+     "score": 56.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 94.4,
+      "contract_quality": 48.1,
+      "governance": 11.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 51.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Developer-First",
+     "rank": 23
+    },
+    {
      "name": "Finage",
      "slug": "finage",
      "description": "Finage is a London-based real-time and historical market data provider covering US and global stocks, forex, cryptocurrencies, CFD indices, ETFs, bonds, and company fundamentals. Data is delivered through a read-only REST API (api.finage.co.uk, API-key auth, 72 documented endpoints spanning quotes, trades, OHLCV aggregates, snapshots, financial statements, calendars, news, and technical indicators), dedicated per-customer WebSocket streams on finage.ws for real-time trades and quotes, and embeddable website widgets served from cdn.finage.co.uk. Plans range from a free 1,000 request/month tier through Basic API packages to Professional unlimited WebSocket feeds, with a 3-day free trial across all markets.",
@@ -1069,7 +1115,7 @@
       "dry_run_mode": false
      },
      "tier": "Developer-First",
-     "rank": 23
+     "rank": 24
     }
    ],
    "open": true
@@ -1126,7 +1172,7 @@
       "dry_run_mode": false
      },
      "tier": "Developer-First",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Coin Metrics",
@@ -1172,7 +1218,7 @@
       "dry_run_mode": false
      },
      "tier": "Crypto Market Data",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "London Stock Exchange Group",
@@ -1218,7 +1264,7 @@
       "dry_run_mode": false
      },
      "tier": "Enterprise Platform",
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "SIX",
@@ -1264,52 +1310,6 @@
       "dry_run_mode": false
      },
      "tier": "Exchange Data Arm",
-     "rank": 27
-    },
-    {
-     "name": "Marketstack",
-     "slug": "marketstack",
-     "description": "Marketstack is a real-time, intraday, and historical stock market data API from APILayer, delivering JSON data for tickers across 70+ global stock exchanges. The REST API covers end-of-day and intraday prices, real-time stock prices, splits, dividends, commodities, company ratings, market indexes, bonds, ETF holdings, currencies, timezones, and SEC EDGAR company filings and facts, all authenticated with a simple access_key query parameter.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png",
-     "score": 53.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 94.4,
-      "contract_quality": 48.1,
-      "governance": 11.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 51.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 43.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Developer-First",
      "rank": 28
     },
     {
@@ -1955,6 +1955,52 @@
      },
      "tier": "Developer-First",
      "rank": 42
+    },
+    {
+     "name": "Nasdaq Data Link",
+     "slug": "nasdaq-data-link",
+     "description": "Nasdaq Data Link (formerly Quandl) is Nasdaq's financial, economic, and alternative data platform, offering hundreds of free and premium datasets from publishers like Zacks, Sharadar, QuoteMedia, and the World Bank. Data is delivered through a REST API for tables data, a REST API for real-time or delayed exchange data, and a streaming API (Nasdaq Cloud Data Service), with official Python, R, Excel, and CLI tooling.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/screenshots/nasdaq-data-link-2026-06-20T185954.png",
+     "score": 43.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 58.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Exchange Data Arm",
+     "rank": 43
     }
    ]
   },
@@ -1963,8 +2009,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 10,
-   "shown": 10,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Xignite",
@@ -2010,52 +2056,6 @@
       "dry_run_mode": false
      },
      "tier": "Feed & Infrastructure",
-     "rank": 43
-    },
-    {
-     "name": "Nasdaq Data Link",
-     "slug": "nasdaq-data-link",
-     "description": "Nasdaq Data Link (formerly Quandl) is Nasdaq's financial, economic, and alternative data platform, offering hundreds of free and premium datasets from publishers like Zacks, Sharadar, QuoteMedia, and the World Bank. Data is delivered through a REST API for tables data, a REST API for real-time or delayed exchange data, and a streaming API (Nasdaq Cloud Data Service), with official Python, R, Excel, and CLI tooling.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nasdaq-data-link/refs/heads/main/screenshots/nasdaq-data-link-2026-06-20T185954.png",
-     "score": 39.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 76.1,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 58.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Exchange Data Arm",
      "rank": 44
     },
     {

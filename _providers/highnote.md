@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-07-28'
+  score: 53.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -273,23 +273,23 @@ plans:
 - name: Highnote Plans Pricing
   plan_count: 2
   slug: highnote-plans-pricing
-random_paper: 34
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Highnote Rate Limits
   slug: highnote-rate-limits
 score:
   band: exemplar
-  composite: 69.5
-  delta: 1.2
+  composite: 69.9
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 74.5
+    contract_quality: 76.4
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 73.7
-  previous_composite: 68.3
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,8 +306,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png
 security:

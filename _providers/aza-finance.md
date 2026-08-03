@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -222,19 +222,19 @@ overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   AZA Finance''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 19 more developer resources.'
-random_paper: 19
+random_paper: 40
 score:
   band: developing
-  composite: 48.3
-  delta: -3.9
+  composite: 49.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 67.7
+    contract_quality: 70.8
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 52.2
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +251,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/screenshots/aza-finance-2026-07-25T202112.png
 security:

@@ -17,11 +17,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: false
     openapi_examples: partial
@@ -29,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-07-28'
+  score: 53.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -265,9 +265,9 @@ overview: 'Origin Energy publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Origin Energy''s developer surface includes authentication, documentation, changelog, engineering blog, support, pricing, signup flow, and 34 more developer resources.'
-random_paper: 31
+random_paper: 13
 rate_limits:
-- limit_count: 0
+- limit_count: 6
   name: Origin Energy Rate Limits
   slug: origin-energy-rate-limits
 scopes:
@@ -276,17 +276,17 @@ scopes:
   slug: origin-energy-scopes
   summary_line: 113 scopes
 score:
-  band: developing
-  composite: 55.0
-  delta: -2.5
+  band: strong
+  composite: 60.9
+  delta: 3.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.3
+    contract_quality: 65.6
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 63.2
-  previous_composite: 57.5
+    operational_transparency: 94.7
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,8 +303,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 3
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -163,7 +163,7 @@ rules:
 score:
   band: thin
   composite: 35.3
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 32.3
@@ -171,7 +171,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 41.1
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -179,9 +179,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/languagetools/refs/heads/main/screenshots/languagetools-2026-06-20T184312.png
 security:
 - kind: domain-security

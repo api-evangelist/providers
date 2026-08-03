@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'The Kotak Mahindra Bank enterprise open-banking API platform. A curated corporate banking API stack of 39 published API products across six categories — Account Services, Payment Services, Collection '
@@ -137,11 +137,11 @@ overview: 'Kotak Mahindra Bank publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Kotak Mahindra Bank''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, FAQ, sandbox, and 15 more developer resources.'
-random_paper: 46
+random_paper: 63
 score:
   band: thin
   composite: 28.8
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -149,7 +149,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 31.4
+  previous_composite: 28.8
   provenance:
     conformance: first-party
   regulatory:
@@ -158,8 +158,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kotak/refs/heads/main/screenshots/kotak-2026-07-25T224245.png
 security:

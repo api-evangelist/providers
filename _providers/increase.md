@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 42.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 1
@@ -281,23 +281,23 @@ plans:
 - name: Increase Plans Pricing
   plan_count: 1
   slug: increase-plans-pricing
-random_paper: 22
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: Increase Rate Limits
   slug: increase-rate-limits
 score:
   band: thin
-  composite: 30.5
-  delta: -4.2
+  composite: 31.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.4
+    contract_quality: 59.6
     developer_ergonomics: 13.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.7
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -311,8 +311,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 22.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png
 security:

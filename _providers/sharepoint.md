@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -424,7 +424,7 @@ plans:
 - name: Sharepoint Plans Pricing
   plan_count: 5
   slug: sharepoint-plans-pricing
-random_paper: 19
+random_paper: 40
 rate_limits:
 - limit_count: 27
   name: Sharepoint Rate Limits
@@ -452,17 +452,17 @@ scopes:
   slug: sharepoint-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.6
-  delta: -3.5
+  band: developing
+  composite: 51.0
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 48.9
+    contract_quality: 22.6
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 61.1
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -472,8 +472,8 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/screenshots/sharepoint-2026-06-20T193748.png
 security:

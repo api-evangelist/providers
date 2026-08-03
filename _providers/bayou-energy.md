@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -117,23 +117,23 @@ plans:
 - name: Bayou Energy Plans Pricing
   plan_count: 2
   slug: bayou-energy-plans-pricing
-random_paper: 9
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Bayou Energy Rate Limits
   slug: bayou-energy-rate-limits
 score:
   band: thin
-  composite: 31.7
-  delta: -4.9
+  composite: 32.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.6
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -147,8 +147,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/screenshots/bayou-energy-2026-07-25T202450.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ plans:
 - name: Apigit Plans Pricing
   plan_count: 3
   slug: apigit-plans-pricing
-random_paper: 64
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Apigit Rate Limits
@@ -183,17 +183,17 @@ rules:
     warn: 11
   slug: apigit-spectral-rules
 score:
-  band: developing
-  composite: 49.4
-  delta: -7.4
+  band: thin
+  composite: 40.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.6
+    contract_quality: 28.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 56.8
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -201,9 +201,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/screenshots/apigit-2026-06-20T172238.png
 security:
 - kind: authentication

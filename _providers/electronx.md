@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'The ElectronX FIX API provides programmatic access to the exchange through three session types: Order Entry (submit, modify, cancel orders and receive execution reports), Market Data (real-time prices'
@@ -116,11 +116,11 @@ overview: 'Electronx publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Electronx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 10 more developer resources.'
-random_paper: 78
+random_paper: 30
 score:
   band: thin
   composite: 29.5
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -128,7 +128,7 @@ score:
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 32.1
+  previous_composite: 29.5
   provenance:
     conformance: first-party
   regulatory:
@@ -137,8 +137,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/screenshots/electronx-2026-07-25T213109.png
 security:

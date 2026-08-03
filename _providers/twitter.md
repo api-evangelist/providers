@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 40.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 3
@@ -669,7 +669,7 @@ plans:
 - name: Twitter Plans Pricing
   plan_count: 1
   slug: twitter-plans-pricing
-random_paper: 49
+random_paper: 27
 rate_limits:
 - limit_count: 13
   name: Twitter Rate Limits
@@ -698,16 +698,16 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.9
-  delta: -3.6
+  composite: 65.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.2
+    contract_quality: 69.6
     developer_ergonomics: 60.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 67.5
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     contracts:
@@ -715,8 +715,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/screenshots/twitter-2026-06-20T195857.png
 security:

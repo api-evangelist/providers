@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 364
   human_in_the_loop: 21
@@ -309,19 +309,19 @@ overview: 'Extreme Networks publishes 45 APIs on the [APIs.io](https://apis.io/)
 
 
   Extreme Networks'' developer surface includes authentication, API reference, GitHub presence, documentation, support, engineering blog, status page, and 17 more developer resources.'
-random_paper: 60
+random_paper: 85
 score:
   band: thin
-  composite: 33.7
-  delta: -1.6
+  composite: 34.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.9
+    contract_quality: 60.5
     developer_ergonomics: 41.3
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 35.3
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -329,8 +329,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 45
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/screenshots/extreme-networks-2026-06-20T180950.png
 security:

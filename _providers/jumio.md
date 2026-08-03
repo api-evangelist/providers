@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-07-28'
+  score: 20.7
+  scored_at: '2026-08-03'
 api_count: 14
 apis:
 - description: Initiates and retrieves ID verification transactions. Issues a token used to start the SDK or hosted web flow, accepts callback events when the verification is complete, and exposes endpoints to retri
@@ -142,7 +142,7 @@ plans:
 - name: Jumio Plans Pricing
   plan_count: 1
   slug: jumio-plans-pricing
-random_paper: 56
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Jumio Rate Limits
@@ -159,7 +159,7 @@ rules:
 score:
   band: thin
   composite: 40.1
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 50.6
@@ -167,9 +167,9 @@ score:
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 38.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 40.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumio/refs/heads/main/screenshots/jumio-2026-06-20T183827.png
 security:

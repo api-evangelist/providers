@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -307,7 +307,7 @@ plans:
 - name: Lev Plans
   plan_count: 4
   slug: lev-plans
-random_paper: 81
+random_paper: 42
 rate_limits:
 - limit_count: 6
   name: Lev Rate Limits
@@ -319,16 +319,16 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.1
-  delta: -0.7
+  composite: 69.9
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 57.9
+    contract_quality: 61.7
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 73.7
-  previous_composite: 69.8
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -345,8 +345,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png
 security:

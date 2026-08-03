@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -189,23 +189,23 @@ plans:
 - name: Forex Com Plans Pricing
   plan_count: 3
   slug: forex-com-plans-pricing
-random_paper: 10
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Forex Com Rate Limits
   slug: forex-com-rate-limits
 score:
   band: developing
-  composite: 46.2
-  delta: -1.7
+  composite: 47.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.9
+    contract_quality: 66.1
     developer_ergonomics: 43.5
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 47.9
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +213,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/screenshots/forex-com-2026-06-20T181434.png
 security:

@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-07-28'
+  score: 33.3
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Public and authenticated REST API on api.ledgerx.com covering exchange contracts, traded contracts, contract tickers, positions, trades (own and global), upcoming exchange holidays and account balance
@@ -139,7 +139,7 @@ overview: 'LedgerX (MIAX Derivatives Exchange) publishes 1 API on the [APIs.io](
 
 
   LedgerX (MIAX Derivatives Exchange)''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 13 more developer resources.'
-random_paper: 9
+random_paper: 82
 rate_limits:
 - limit_count: 0
   name: Ledgerx Rate Limits
@@ -147,7 +147,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.8
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.1
@@ -155,7 +155,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 34.2
+  previous_composite: 37.8
   provenance:
     conformance: first-party
   regulatory:
@@ -164,8 +164,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 36.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledgerx/refs/heads/main/screenshots/ledgerx-2026-07-25T224817.png
 security:

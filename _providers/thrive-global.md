@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: Ambient soundscapes and narrated bedtime stories — audio for focus, relaxation, and sleep
@@ -173,19 +173,19 @@ overview: 'Thrive Global publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Thrive Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 16
+random_paper: 93
 score:
   band: developing
-  composite: 50.2
-  delta: -4.2
+  composite: 50.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.0
+    contract_quality: 64.3
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 54.4
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -201,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

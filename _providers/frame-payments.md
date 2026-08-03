@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-07-28'
+  score: 38.7
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Frame REST API for payments, payouts, accounts, KYC/identity, disputes, subscriptions, invoices, and usage-based billing. Bearer secret-key auth over HTTPS; page-based pagination; HMAC-SHA256 sign
@@ -163,11 +163,11 @@ overview: 'Frame Payments publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Frame Payments'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, CLI, and 20 more developer resources.'
-random_paper: 55
+random_paper: 24
 score:
   band: developing
   composite: 49.8
-  delta: 7.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -175,7 +175,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 13.2
-  previous_composite: 42.8
+  previous_composite: 49.8
   provenance:
     conformance: first-party
     skills: first-party
@@ -185,9 +185,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frame-payments/refs/heads/main/screenshots/frame-payments-2026-07-25T215103.png
 security:
 - kind: authentication

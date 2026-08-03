@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -888,7 +888,7 @@ overview: 'Amazon CodeGuru Security publishes 8 APIs on the [APIs.io](https://ap
 
 
   Amazon CodeGuru Security''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 26
+random_paper: 16
 rules:
 - name: Amazon CodeGuru Security API Rules
   rule_count: 5
@@ -908,16 +908,16 @@ rules:
   slug: amazon-codeguru-security-spectral-rules
 score:
   band: strong
-  composite: 61.2
-  delta: -1.7
+  composite: 61.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 72.9
+    contract_quality: 75.2
     developer_ergonomics: 54.3
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 62.9
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -927,8 +927,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/screenshots/amazon-codeguru-security-2026-07-25T200005.png
 security:

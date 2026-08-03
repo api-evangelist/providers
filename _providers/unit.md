@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,9 +27,9 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-07-28'
-api_count: 16
+  score: 41.2
+  scored_at: '2026-08-03'
+api_count: 17
 apis:
 - description: End-customer onboarding — create and manage individual and business Applications, application forms, KYC/KYB document upload, verification, and beneficial owners.
   name: Unit Applications API
@@ -79,7 +79,10 @@ apis:
 - description: Sandbox-only simulation endpoints (received ACH payments, ATM deposits, card activation) plus store and ATM location reference data for testing integrations.
   name: Unit Sandbox and Reference API
   slug: sandbox
-artifact_total: 42
+- description: Unit OpenAPI specifications from Unit — 117 path(s) described in OpenAPI.
+  name: Unit OpenAPI specifications
+  slug: unit-openapi-source
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Unit Events Webhooks
@@ -322,7 +325,7 @@ modified: '2026-07-23'
 name: Unit
 nav: Providers
 network: true
-overview: 'Unit publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Customers API, Accounts API, and 13 more. Tagged areas include FinTech, BaaS, Banking, Payments, and Card Issuing.
+overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Customers API, Accounts API, and 14 more. Tagged areas include FinTech, BaaS, Banking, Payments, and Card Issuing.
 
 
   The Unit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -333,7 +336,7 @@ plans:
 - name: Unit Plans Pricing
   plan_count: 2
   slug: unit-plans-pricing
-random_paper: 38
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Unit Rate Limits
@@ -345,20 +348,20 @@ scopes:
   summary_line: 46 scopes
 score:
   band: strong
-  composite: 64.5
-  delta: -8.2
+  composite: 63.6
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 51.6
+    contract_quality: 47.3
     developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 84.2
-  previous_composite: 72.7
+  previous_composite: 63.6
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 17
@@ -370,9 +373,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit/refs/heads/main/screenshots/unit-2026-06-20T200056.png
 security:
 - kind: authentication

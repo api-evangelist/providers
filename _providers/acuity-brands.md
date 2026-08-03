@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ press:
 - date: '2026-05-25'
   title: 6 Nuanced Takeaways from Acuity's Boldest Year Yet
   url: https://inside.lighting/news/25-10/6-nuanced-takeaways-acuitys-boldest-year-yet
-random_paper: 22
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Acuity Brands Rate Limits
@@ -261,16 +261,16 @@ rules:
   slug: acuity-brands-spectral-rules
 score:
   band: developing
-  composite: 42.0
-  delta: -3.8
+  composite: 42.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 73.7
+    contract_quality: 76.0
     developer_ergonomics: 28.3
     discoverability: 31.5
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 45.8
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -278,8 +278,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/screenshots/acuity-brands-2026-06-20T164408.png
 security:

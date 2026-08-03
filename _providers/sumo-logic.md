@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 9
@@ -309,7 +309,7 @@ plans:
 - name: Sumo Logic Plans Pricing
   plan_count: 3
   slug: sumo-logic-plans-pricing
-random_paper: 39
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Sumo Logic Rate Limits
@@ -332,17 +332,17 @@ rules:
     warn: 5
   slug: sumo-logic-rules
 score:
-  band: developing
-  composite: 55.2
-  delta: -3.9
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 62.0
+    contract_quality: 65.8
     developer_ergonomics: 47.8
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.1
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -350,8 +350,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 54
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/screenshots/sumo-logic-2026-06-20T194649.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -191,23 +191,23 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 23
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: -2.1
+  composite: 34.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 47.9
+    contract_quality: 52.3
     developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 35.2
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frax/refs/heads/main/screenshots/frax-2026-06-20T181515.png
 security:

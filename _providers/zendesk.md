@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-07-28'
+  score: 55.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -1249,7 +1249,7 @@ plans:
 - name: Zendesk Plans Pricing
   plan_count: 7
   slug: zendesk-plans-pricing
-random_paper: 18
+random_paper: 91
 rate_limits:
 - limit_count: 17
   name: Zendesk Rate Limits
@@ -1286,16 +1286,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.0
-  delta: -1.7
+  composite: 68.8
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 57.4
+    contract_quality: 60.6
     developer_ergonomics: 58.7
     discoverability: 68.5
     governance: 53.1
     operational_transparency: 78.9
-  previous_composite: 69.7
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1305,8 +1305,8 @@ score:
       marker_coverage: 0.0
       total: 80
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png
 security:

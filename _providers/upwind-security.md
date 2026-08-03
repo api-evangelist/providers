@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-07-28'
+  score: 55.9
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: The Access Management resource offers methods for managing groups, members, roles, and scopes.
@@ -204,24 +204,24 @@ overview: 'Upwind Security publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Upwind Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 21 more developer resources.'
-random_paper: 38
+random_paper: 76
 scopes:
 - name: Upwind Security Scopes
   scope_count: 26
   slug: upwind-security-scopes
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 55.3
-  delta: 1.5
+  band: strong
+  composite: 56.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.1
+    contract_quality: 66.2
     developer_ergonomics: 60.9
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 53.8
+  previous_composite: 56.3
   provenance:
     conformance: first-party
     contracts:
@@ -231,8 +231,8 @@ score:
       total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ plans:
 - name: Absence Io Plans Pricing
   plan_count: 3
   slug: absence-io-plans-pricing
-random_paper: 80
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Absence Io Rate Limits
@@ -291,16 +291,16 @@ rules:
   slug: absence-io-spectral-rules
 score:
   band: developing
-  composite: 53.9
-  delta: -6.2
+  composite: 44.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 70.3
+    contract_quality: 33.3
     developer_ergonomics: 17.4
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 60.1
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -308,9 +308,9 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/screenshots/absence-io-2026-06-20T163343.png
 security:
 - kind: authentication

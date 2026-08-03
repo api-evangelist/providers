@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: documented
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -230,23 +230,23 @@ overview: 'EIA publishes 1 API on the [APIs.io](https://apis.io/) network: Open 
 
 
   EIA''s developer surface includes authentication, developer portal, documentation, signup flow, developer console, tooling, API reference, and 37 more developer resources.'
-random_paper: 57
+random_paper: 18
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Eia Rate Limits
   slug: eia-rate-limits
 score:
   band: developing
-  composite: 43.8
-  delta: -3.3
+  composite: 48.8
+  delta: 2.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 33.1
+    contract_quality: 45.7
     developer_ergonomics: 69.0
     discoverability: 87.0
     governance: 11.5
-    operational_transparency: 39.5
-  previous_composite: 47.1
+    operational_transparency: 60.5
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,8 +263,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

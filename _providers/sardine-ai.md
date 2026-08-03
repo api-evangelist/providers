@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: Submit customer profile and onboarding signals (KYC, KYB, document verification, sanctions/PEP screening, identity fraud, synthetic ID detection, behavioral biometrics, device intelligence) and receiv
@@ -243,11 +243,11 @@ overview: 'Sardine publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Sardine''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, tooling, pricing, and 32 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: emerging
   composite: 19.9
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
@@ -255,9 +255,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 22.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 19.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sardine-ai/refs/heads/main/screenshots/sardine-ai-2026-06-20T193433.png
 security:

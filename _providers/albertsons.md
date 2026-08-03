@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ plans:
 - name: Albertsons Plans Pricing
   plan_count: 1
   slug: albertsons-plans-pricing
-random_paper: 19
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Albertsons Rate Limits
@@ -269,17 +269,17 @@ rules:
     warn: 20
   slug: albertsons-spectral-rules
 score:
-  band: developing
-  composite: 49.9
-  delta: -7.8
+  band: thin
+  composite: 40.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.3
+    contract_quality: 33.3
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 57.7
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -287,9 +287,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Albertsons Authentication

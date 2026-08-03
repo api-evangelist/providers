@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-07-28'
+  score: 54.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 2
@@ -256,19 +256,19 @@ overview: 'Qwiet publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Qwiet''s developer surface includes documentation, API reference, engineering blog, pricing, support, authentication, CLI, and 21 more developer resources.'
-random_paper: 62
+random_paper: 79
 score:
   band: developing
-  composite: 49.9
-  delta: -0.7
+  composite: 50.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.2
+    contract_quality: 66.6
     developer_ergonomics: 54.3
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 50.6
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,8 +279,8 @@ score:
       total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -1415,7 +1415,7 @@ plans:
 - name: Oracle E Business Suite Plans Pricing
   plan_count: 4
   slug: oracle-e-business-suite-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Oracle E Business Suite Rate Limits
@@ -1439,16 +1439,16 @@ rules:
   slug: oracle-e-business-suite-spectral-rules
 score:
   band: exemplar
-  composite: 72.7
-  delta: -4.0
+  composite: 73.1
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 80.4
+    contract_quality: 82.1
     developer_ergonomics: 78.3
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 76.7
+  previous_composite: 73.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1456,8 +1456,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/screenshots/oracle-e-business-suite-2026-06-20T191127.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-07-28'
+  score: 47.7
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: OpenAI-compatible chat completions for the Step model family (e.g. step-3.7-flash, step-3.5-flash, stepaudio-2.5-chat), with multimodal image/video/audio message parts, tool calling, JSON mode, stream
@@ -192,7 +192,7 @@ overview: 'StepFun publishes 1 API on the [APIs.io](https://apis.io/) network: R
 
 
   StepFun''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 35
+random_paper: 13
 rate_limits:
 - limit_count: 18
   name: Stepfun Rate Limits
@@ -200,7 +200,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.9
-  delta: 6.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 49.4
@@ -208,13 +208,13 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 44.7
+  previous_composite: 50.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Stepfun Authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -218,23 +218,23 @@ overview: 'Leadspace publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Leadspace''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
-random_paper: 28
+random_paper: 75
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Leadspace Rate Limits
   slug: leadspace-rate-limits
 score:
   band: strong
-  composite: 57.5
-  delta: -0.9
+  composite: 60.8
+  delta: 2.7
   facets:
     commercial_clarity: 42.1
-    contract_quality: 71.7
+    contract_quality: 74.1
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 63.2
-  previous_composite: 58.4
+    operational_transparency: 84.2
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -245,8 +245,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/screenshots/leadspace-2026-07-25T224715.png
 security:

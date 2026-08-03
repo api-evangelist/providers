@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: flavored
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: false
-    spec_presence: false
+    openapi_examples: verified
+    rate_limit_signal: verified
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.1
-  scored_at: '2026-07-28'
+  score: 40.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 3
@@ -26,8 +26,78 @@ agentic_access:
   operation_count: 223
   slug: sageox-agentic-access
   summary_line: 223 operations · 105 acting · 3 human-in-the-loop
-api_count: 0
-artifact_total: 4
+api_count: 23
+apis:
+- description: Administrative analytics, session management, and system operations. Includes active session counts, user analytics, and management endpoints restricted to admin roles.
+  name: Sageox Admin API
+  slug: sageox-admin-api
+- description: Multi-tenant telemetry platform for CLI tools and AI agents. Register applications, ingest events via API key authentication, and query analytics through the dashboard API. **Two authentication models
+  name: Sageox AgentX API
+  slug: sageox-agentx-api
+- description: The API Keys API from Sageox — 2 operation(s) for api keys.
+  name: Sageox API Keys API
+  slug: sageox-api-keys-api
+- description: Session management and token lifecycle. Validates JWT tokens issued by Better Auth, returns session details and user identity. Used by both web app and CLI for authentication verification.
+  name: Sageox Auth API
+  slug: sageox-auth-api
+- description: Integration endpoints for the `ox` CLI tool. Includes device flow authentication (code request → polling → token exchange), server-side diagnostics, repository initialization, and friction event track
+  name: Sageox CLI API
+  slug: sageox-cli-api
+- description: The Devices API from Sageox — 7 operation(s) for devices.
+  name: Sageox Devices API
+  slug: sageox-devices-api
+- description: The Firmware Admin API from Sageox — 9 operation(s) for firmware admin.
+  name: Sageox Firmware Admin API
+  slug: sageox-firmware-admin-api
+- description: The Firmware OTA API from Sageox — 1 operation(s) for firmware ota.
+  name: Sageox Firmware OTA API
+  slug: sageox-firmware-ota-api
+- description: Browse repository files, view commits, compare branches, and manage the Ledger. The Ledger stores historical context (decisions, discussions, AI-generated summaries) as version-controlled files in a G
+  name: Sageox Git API
+  slug: sageox-git-api
+- description: AI-generated guidance content and statistics. Provides contextual recommendations, best practices, and insights derived from team context and recording analysis.
+  name: Sageox Guidance API
+  slug: sageox-guidance-api
+- description: Service health and readiness endpoints for orchestration platforms. The `/live` endpoint returns service liveness; `/ready` confirms database connectivity and dependency availability.
+  name: Sageox Health API
+  slug: sageox-health-api
+- description: OpenAI-compatible chat completion endpoints. Proxies requests to configured LLM providers (Bedrock, OpenAI) with model routing, token usage tracking, and streaming support. Follows the OpenAI `/v1/cha
+  name: Sageox LLM API
+  slug: sageox-llm-api
+- description: Collect frontend application logs for centralized error tracking and debugging. Accepts batches of structured log entries from web and CLI clients with severity levels and metadata.
+  name: Sageox Logs API
+  slug: sageox-logs-api
+- description: The Miscellaneous API from Sageox — 12 operation(s) for miscellaneous.
+  name: Sageox Miscellaneous API
+  slug: sageox-miscellaneous-api
+- description: Read, manage, and stream real-time notifications. Supports SSE (Server-Sent Events) for live delivery, bulk operations (mark read, delete), and preference-based filtering. Notifications originate from
+  name: Sageox Notifications API
+  slug: sageox-notifications-api
+- description: Upload and manage photos with automatic OCR text extraction. Photos can be scoped to a repository (linked to recordings/discussions) or a team (shared resources). Uses presigned URLs for direct-to-sto
+  name: Sageox Photos API
+  slug: sageox-photos-api
+- description: Unauthenticated endpoints for public-facing data. Returns team profiles, public recording metadata, shared conventions, and repository status without requiring authentication. Rate limited per IP.
+  name: Sageox Public API
+  slug: sageox-public-api
+- description: 'Full lifecycle management for discussion recordings: chunked upload, transcription, speaker identification, AI-generated summaries, decisions, and action items. Recordings feed into the repository Led'
+  name: Sageox Recordings API
+  slug: sageox-recordings-api
+- description: The Repositories API from Sageox — 6 operation(s) for repositories.
+  name: Sageox Repositories API
+  slug: sageox-repositories-api
+- description: Repository initialization and merge operations. `initRepo` creates or reconnects a repository with SageOx (idempotent). `mergeRepos` combines ledger data when repositories are merged.
+  name: Sageox Repository API
+  slug: sageox-repository-api
+- description: The runs API from Sageox — 7 operation(s) for runs.
+  name: Sageox runs API
+  slug: sageox-runs-api
+- description: Create and manage teams with hierarchical membership (owner, admin, member). Handles invitations via email with role assignment, team-wide conventions and norms, and child-team relationships. Teams ar
+  name: Sageox Teams API
+  slug: sageox-teams-api
+- description: Manage user profiles, preferences, API keys, and account settings. Preferences control notification delivery, theme, and feature opt-ins. API keys authenticate CLI and programmatic access.
+  name: Sageox Users API
+  slug: sageox-users-api
+artifact_total: 27
 common:
 - group: other
   title: ''
@@ -40,25 +110,25 @@ modified: '2026-07-17'
 name: Sageox
 nav: Providers
 network: true
-overview: Sageox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 73
+overview: Sageox publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Admin API, AgentX API, API Keys API, and 20 more. Tagged areas include Company.
+random_paper: 77
 scopes:
 - name: Sageox Scopes
   scope_count: 4
   slug: sageox-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: minimal
-  composite: 8.0
-  delta: -40.1
+  band: emerging
+  composite: 22.7
+  delta: 4.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 8.1
+    contract_quality: 64.5
     developer_ergonomics: 0.0
-    discoverability: 46.3
+    discoverability: 51.9
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 48.1
+  previous_composite: 18.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -69,9 +139,9 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Sageox Authentication

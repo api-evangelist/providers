@@ -209,9 +209,53 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 15,
-   "shown": 15,
+   "count": 16,
+   "shown": 16,
    "providers": [
+    {
+     "name": "Enphase Energy",
+     "slug": "enphase",
+     "description": "Enphase Energy is a Petaluma, California home-energy technology manufacturer and the dominant supplier of solar microinverters in the United States, shipping IQ Microinverters, IQ Batteries, IQ EV Chargers and the Envoy/IQ Gateway that ties them together through the Enlighten cloud. It sits on the DER side of the energy value chain rather than the utility side: it does not own meters, sell electricity, or operate a grid, so no consumer energy data mandate reaches it — there is no Green Button, ESPI or NAESB implementation anywhere in its developer surface, and the United States has no compulsory retail energy data right to designate it under. Its API posture is nevertheless unusually open for this sector. The Enphase Developer Portal at developer-v4.enphase.com is a genuine self-serve 3scale portal where anyone can register, create an application and subscribe to a free Watt plan, and it publishes three complete, anonymously downloadable machine-readable contracts covering 124 paths and 148 operations. The split that defines Enphase is consumer-data-open, market-data-closed: a third-party developer can retrieve an individual homeowner's site production, consumption, battery and EV charger telemetry through documented OAuth 2.0 authorization-code flows with the system owner's explicit approval, but Enphase publishes no open grid, wholesale market or system-wide generation data of any kind. Access is tiered — self-serve for monitoring, application-approval for installer commissioning (10+ installations required), and partner-only for the Virtual Power Plant API, which is the one place a real standard appears: OCPP 1.6 for EV charger control against third-party CSMS platforms.",
+     "score": 63.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 63.6,
+      "governance": 20.8,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 6
+    },
     {
      "name": "Tesla Energy",
      "slug": "tesla-energy",
@@ -254,7 +298,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "OpenUV",
@@ -292,7 +336,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Google Earth Engine REST",
@@ -330,7 +374,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Solcast",
@@ -375,7 +419,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
+    },
+    {
+     "name": "Origin Energy",
+     "slug": "origin-energy",
+     "description": "Origin Energy Limited is Australia's largest energy retailer, an ASX-listed integrated gas and electricity company headquartered in Sydney that supplies roughly 4.5 million electricity, natural gas, LPG and broadband customer accounts, operates the Eraring Power Station and a large gas-fired and renewable generation portfolio, holds a stake in the Australia Pacific LNG project, and runs the Origin Loop virtual power plant. It sits at the retail end of the National Electricity Market value chain, buying and generating wholesale energy and selling it to households and businesses. Its API posture is defined almost entirely by regulation rather than by a developer strategy: Origin is a designated energy data holder under Australia's Consumer Data Right and that obligation is genuinely implemented — it appears on the CDR Register with its own public base URI, serves the Consumer Data Standards discovery endpoints anonymously, and presents an mTLS resource endpoint whose TLS certificate is issued by the ACCC's own CDR Certificate Authority — but every byte of actual customer usage, billing and DER data behind that surface is reachable only by an accredited data recipient acting on a consumer's consent. Alongside the mandate, Origin runs its retail business on Octopus Energy's Kraken platform (Origin holds an equity stake in Octopus and Kraken Technologies), which exposes a publicly readable partner developer portal with downloadable OpenAPI definitions, a GraphQL API, an external events catalogue and an OpenID Connect authorisation server — none of it self-serve. Origin publishes no open grid, market or system data of its own; the only anonymously retrievable data is its retail plan reference data, and that is served from the Australian Energy Regulator's Energy Made Easy CDR gateway, not from an Origin host.",
+     "score": 60.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 65.6,
+      "governance": 20.8,
+      "operational_transparency": 94.7,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 53.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 11
     },
     {
      "name": "Maxar Technologies",
@@ -413,51 +501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
-    },
-    {
-     "name": "Enphase Energy",
-     "slug": "enphase",
-     "description": "Enphase Energy is a Petaluma, California home-energy technology manufacturer and the dominant supplier of solar microinverters in the United States, shipping IQ Microinverters, IQ Batteries, IQ EV Chargers and the Envoy/IQ Gateway that ties them together through the Enlighten cloud. It sits on the DER side of the energy value chain rather than the utility side: it does not own meters, sell electricity, or operate a grid, so no consumer energy data mandate reaches it — there is no Green Button, ESPI or NAESB implementation anywhere in its developer surface, and the United States has no compulsory retail energy data right to designate it under. Its API posture is nevertheless unusually open for this sector. The Enphase Developer Portal at developer-v4.enphase.com is a genuine self-serve 3scale portal where anyone can register, create an application and subscribe to a free Watt plan, and it publishes three complete, anonymously downloadable machine-readable contracts covering 124 paths and 148 operations. The split that defines Enphase is consumer-data-open, market-data-closed: a third-party developer can retrieve an individual homeowner's site production, consumption, battery and EV charger telemetry through documented OAuth 2.0 authorization-code flows with the system owner's explicit approval, but Enphase publishes no open grid, wholesale market or system-wide generation data of any kind. Access is tiered — self-serve for monitoring, application-approval for installer commissioning (10+ installations required), and partner-only for the Virtual Power Plant API, which is the one place a real standard appears: OCPP 1.6 for EV charger control against third-party CSMS platforms.",
-     "score": 60.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 63.6,
-      "governance": 20.8,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Salesforce Net Zero Cloud",
@@ -495,7 +539,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Arcadia",
@@ -540,7 +584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Stormglass",
@@ -578,7 +622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Climatiq",
@@ -623,7 +667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Shell",
@@ -665,50 +709,6 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "Origin Energy",
-     "slug": "origin-energy",
-     "description": "Origin Energy Limited is Australia's largest energy retailer, an ASX-listed integrated gas and electricity company headquartered in Sydney that supplies roughly 4.5 million electricity, natural gas, LPG and broadband customer accounts, operates the Eraring Power Station and a large gas-fired and renewable generation portfolio, holds a stake in the Australia Pacific LNG project, and runs the Origin Loop virtual power plant. It sits at the retail end of the National Electricity Market value chain, buying and generating wholesale energy and selling it to households and businesses. Its API posture is defined almost entirely by regulation rather than by a developer strategy: Origin is a designated energy data holder under Australia's Consumer Data Right and that obligation is genuinely implemented — it appears on the CDR Register with its own public base URI, serves the Consumer Data Standards discovery endpoints anonymously, and presents an mTLS resource endpoint whose TLS certificate is issued by the ACCC's own CDR Certificate Authority — but every byte of actual customer usage, billing and DER data behind that surface is reachable only by an accredited data recipient acting on a consumer's consent. Alongside the mandate, Origin runs its retail business on Octopus Energy's Kraken platform (Origin holds an equity stake in Octopus and Kraken Technologies), which exposes a publicly readable partner developer portal with downloadable OpenAPI definitions, a GraphQL API, an external events catalogue and an OpenID Connect authorisation server — none of it self-serve. Origin publishes no open grid, market or system data of its own; the only anonymously retrievable data is its retail plan reference data, and that is served from the Australian Energy Regulator's Energy Made Easy CDR gateway, not from an Origin host.",
-     "score": 57.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 65.6,
-      "governance": 20.8,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 53.8,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 53.8,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -760,41 +760,86 @@
      "rank": 18
     },
     {
-     "name": "Back Market",
-     "slug": "back-market",
-     "description": "Back Market is a French-founded global online marketplace dedicated exclusively to refurbished consumer electronics — smartphones, laptops, tablets, consoles, watches, audio and home appliances — operating across 17 countries on three regional platforms (EU via backmarket.fr, North America via backmarket.com, Asia-Pacific via backmarket.co.jp). For the ~1,800 professional refurbishers selling on the platform, Back Market publishes a seller-facing REST API (the \"Back Market API Guidelines\") covering the marketplace taxonomy, product and listing management, order and orderline workflows, BuyBack (trade-in) orders and listings, Backship deliveries and returns, the Care after-sales platform (claims, messages, refunds, item transfers), and Backbox competitive pricing data. The API is documented as an OpenAPI 3.0.3 contract rendered with Stoplight Elements at api.backmarket.dev, authenticated with a Basic token issued from the seller Back Office, and mirrored by preprod environments on every regional platform.",
-     "score": 56.2,
+     "name": "depop",
+     "slug": "depop",
+     "description": "Depop is a peer-to-peer fashion marketplace where people buy, sell and discover secondhand and unique clothing. Its Selling API is an enterprise partner API that lets approved partners automate the seller experience on Depop: create and manage listings (by SKU, product id or slug), manage orders, mark parcels shipped, issue refunds, submit and automate offers, read seller and shipping details, and pull shop and product insights. The API is OpenAPI 3.1, secured with per-shop API keys and OAuth 2.0 (Authorization Code + PKCE) with granular scopes, documents rate limits, and emits webhooks for new orders, refunds and product likes. Access is by invitation via developers@depop.com. Depop is backed by Balderton Capital, Creandum, EQT Ventures and HV Capital and is owned by Etsy.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/screenshots/depop-2026-07-25T211730.png",
+     "score": 56.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 58.7,
-      "governance": 41.7,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 34.2
+      "discoverability": 92.6,
+      "contract_quality": 73.6,
+      "governance": 11.5,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 21.1
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 72.5,
+     "agent_score": 57.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 19
+    },
+    {
+     "name": "UK Power Networks",
+     "slug": "uk-power-networks",
+     "description": "UK Power Networks is the distribution network operator for London, the South East and the East of England, running three electricity distribution licence areas — London Power Networks (LPN), South Eastern Power Networks (SPN) and Eastern Power Networks (EPN) — and the Distribution System Operator function that sits on top of them. It is a poles-and-wires business: it owns the substations, cables and overhead lines, holds the network capacity and connection queue, and handles more than 70,000 connection enquiries a year, but it does not sell electricity and has no retail customer relationship to expose. Its API posture is the exact inverse of the usual utility story. Britain never legislated a consumer energy data right — there is no CDR equivalent, no Green Button obligation, and the one thing the UK did mandate was infrastructure (the Smart DCC carrying smart-meter traffic under the Smart Energy Code), which produces no public API. What did produce an API was Ofgem's Data Best Practice and digitalisation obligation on network licensees, and UK Power Networks has actually implemented it: a live Opendatasoft-hosted Open Data Portal serving 136 datasets over a documented, versioned REST API with a real OpenAPI 3.0.3 contract published at its own domain, a DCAT-AP catalogue export, and an official open-source Python client (ukpyn) on PyPI. So the split is unusually sharp and unusually positive on one side: market and network data is genuinely open and genuinely queryable — live faults, carbon intensity, embedded capacity register, substation and feeder-level smart meter aggregates, LTDS tables, flexibility dispatches, curtailment events — while consumer data is not merely closed but absent, because as a DNO it holds no billable customer account to hand over. The gate is free and self-serve rather than open: the catalogue and 36 of 136 datasets answer anonymously, but the other 99 return HTTP 403 until you register a free account and mint an API key.",
+     "score": 56.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 58.9,
+      "governance": 31.3,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 48.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 54.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "LiquiDonate",
@@ -832,7 +877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     }
    ],
    "open": true
@@ -842,8 +887,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 80,
-   "shown": 80,
+   "count": 79,
+   "shown": 79,
    "providers": [
     {
      "name": "Coperniq",
@@ -888,7 +933,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
+    },
+    {
+     "name": "Hydro-Québec",
+     "slug": "hydro-quebec",
+     "description": "Hydro-Québec is the government-owned Crown corporation that generates, transmits and distributes almost all of the electricity consumed in Québec, Canada — a vertically integrated, near-monopoly utility running one of the largest hydroelectric fleets in the world and serving roughly 4.6 million customer accounts across the province. It sits at every point of the value chain at once, as generator, transmission owner, distributor and retailer, plus a cross-border exporter into the New England and New York markets. Its API posture is a clean split. Market and grid data is genuinely open — a public Opendatasoft-powered portal at donnees.hydroquebec.com serves 26 datasets (electricity demand and generation, imports and exports, outages, GHG emission factors, hydrometric and weather data, winter peak demand events, vegetation control) through a documented, anonymously callable REST API with a machine-readable OpenAPI 3.0.3 description and a DCAT catalog export, licensed CC BY-NC 4.0. Consumer data is closed — there is no documented customer-facing API, no Green Button Download My Data or Connect My Data service, and no third-party consent flow; a customer's own usage is reachable only by logging into the Espace client web portal. Québec has no consumer energy data right. Ontario's Green Button regulation (O. Reg. 633/21 under the Electricity Act, 1998) is province-specific and does not bind Hydro-Québec, and Canada has no national equivalent to Australia's Consumer Data Right energy regime. Open market data, closed consumer data, no mandate.",
+     "score": 54.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 58.9,
+      "governance": 11.5,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 62.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 23
     },
     {
      "name": "Eaton",
@@ -933,51 +1022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
-    },
-    {
-     "name": "UK Power Networks",
-     "slug": "uk-power-networks",
-     "description": "UK Power Networks is the distribution network operator for London, the South East and the East of England, running three electricity distribution licence areas — London Power Networks (LPN), South Eastern Power Networks (SPN) and Eastern Power Networks (EPN) — and the Distribution System Operator function that sits on top of them. It is a poles-and-wires business: it owns the substations, cables and overhead lines, holds the network capacity and connection queue, and handles more than 70,000 connection enquiries a year, but it does not sell electricity and has no retail customer relationship to expose. Its API posture is the exact inverse of the usual utility story. Britain never legislated a consumer energy data right — there is no CDR equivalent, no Green Button obligation, and the one thing the UK did mandate was infrastructure (the Smart DCC carrying smart-meter traffic under the Smart Energy Code), which produces no public API. What did produce an API was Ofgem's Data Best Practice and digitalisation obligation on network licensees, and UK Power Networks has actually implemented it: a live Opendatasoft-hosted Open Data Portal serving 136 datasets over a documented, versioned REST API with a real OpenAPI 3.0.3 contract published at its own domain, a DCAT-AP catalogue export, and an official open-source Python client (ukpyn) on PyPI. So the split is unusually sharp and unusually positive on one side: market and network data is genuinely open and genuinely queryable — live faults, carbon intensity, embedded capacity register, substation and feeder-level smart meter aggregates, LTDS tables, flexibility dispatches, curtailment events — while consumer data is not merely closed but absent, because as a DNO it holds no billable customer account to hand over. The gate is free and self-serve rather than open: the catalogue and 36 of 136 datasets answer anonymously, but the other 99 return HTTP 403 until you register a free account and mint an API key.",
-     "score": 54.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 58.9,
-      "governance": 31.3,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 73.4,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 48.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 54.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Altruistiq",
@@ -1015,7 +1060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Scope3",
@@ -1052,27 +1097,26 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
-     "name": "depop",
-     "slug": "depop",
-     "description": "Depop is a peer-to-peer fashion marketplace where people buy, sell and discover secondhand and unique clothing. Its Selling API is an enterprise partner API that lets approved partners automate the seller experience on Depop: create and manage listings (by SKU, product id or slug), manage orders, mark parcels shipped, issue refunds, submit and automate offers, read seller and shipping details, and pull shop and product insights. The API is OpenAPI 3.1, secured with per-shop API keys and OAuth 2.0 (Authorization Code + PKCE) with granular scopes, documents rate limits, and emits webhooks for new orders, refunds and product likes. Access is by invitation via developers@depop.com. Depop is backed by Balderton Capital, Creandum, EQT Ventures and HV Capital and is owned by Etsy.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/screenshots/depop-2026-07-25T211730.png",
-     "score": 54.0,
+     "name": "Back Market",
+     "slug": "back-market",
+     "description": "Back Market is a French-founded global online marketplace dedicated exclusively to refurbished consumer electronics — smartphones, laptops, tablets, consoles, watches, audio and home appliances — operating across 17 countries on three regional platforms (EU via backmarket.fr, North America via backmarket.com, Asia-Pacific via backmarket.co.jp). For the ~1,800 professional refurbishers selling on the platform, Back Market publishes a seller-facing REST API (the \"Back Market API Guidelines\") covering the marketplace taxonomy, product and listing management, order and orderline workflows, BuyBack (trade-in) orders and listings, Backship deliveries and returns, the Care after-sales platform (claims, messages, refunds, item transfers), and Backbox competitive pricing data. The API is documented as an OpenAPI 3.0.3 contract rendered with Stoplight Elements at api.backmarket.dev, authenticated with a Basic token issued from the seller Back Office, and mirrored by preprod environments on every regional platform.",
+     "score": 53.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 73.6,
-      "governance": 11.5,
-      "operational_transparency": 63.2,
+      "discoverability": 87.0,
+      "contract_quality": 62.6,
+      "governance": 32.3,
+      "operational_transparency": 47.4,
       "developer_ergonomics": 62.5,
-      "commercial_clarity": 21.1
+      "commercial_clarity": 34.2
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 57.0,
+     "agent_score": 54.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1083,14 +1127,58 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "event_surface_described": true,
+      "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 27
+    },
+    {
+     "name": "Voltus",
+     "slug": "voltus",
+     "description": "Voltus is a United States virtual power plant (VPP) operator and distributed energy resource (DER) technology platform, headquartered in San Francisco, California, that aggregates commercial, industrial, residential and transportation loads and batteries into wholesale electricity markets across all of North America's organized markets (AESO, CAISO, ERCOT, IESO, ISO-NE, MISO, NYISO, PJM, SPP). It sits in the demand-response and flexibility layer of the energy value chain: it is not a utility and not a metering data holder, so no Green Button, Consumer Data Right or smart-meter data mandate applies to it — mandate regime is honestly none. Its API posture is unusually good for the sector and unusually split. Voltus runs a genuine public developer portal at api.voltus.co/docs (Docusaurus, no login) with concepts, tutorials, an OpenAPI-generated reference and a changelog, plus a fully anonymous sandbox at sandbox.voltus.co that answers real HTTP requests with the documented public key \"X-Voltus-API-Key: secret\" — a developer can call it before signing anything. Production, however, is partner-only: api.voltus.co/2022-04-15 returns 401 Permission denied to the sandbox key, and real access requires a commercial partnership plus a signed Letter of Authorization per site. Site telemetry and dispatch control are exposed to partners over that account-scoped REST API and over OpenADR 2.0a Simple HTTP PULL with mutual TLS; Voltus publishes no open grid or market data of its own, so consumer/site energy data is available under contract while market data is closed. No downloadable OpenAPI or Swagger document is served — /openapi.json, /swagger.json and /openapi3.yaml all 404 — but the portal is built with the Docusaurus OpenAPI plugin, and the real operation objects (parameters, request bodies, response schemas, examples) were recovered verbatim from the published build and assembled into openapi/voltus-openapi.yml: 10 operations across 8 paths.",
+     "score": 53.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 68.2,
+      "governance": 20.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 44.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "Cloverly",
@@ -1128,7 +1216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "Genability",
@@ -1172,7 +1260,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "Sofar Ocean",
@@ -1209,44 +1297,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
-    },
-    {
-     "name": "Picarro",
-     "slug": "picarro",
-     "description": "Picarro, Inc. is a Santa Clara, California company that builds high-precision gas concentration and stable-isotope analyzers based on Cavity Ring-Down Spectroscopy (CRDS), together with the cloud software and mobile platforms that turn those measurements into operational decisions. Its instruments measure more than 700 compounds — methane, ethane, CO2, N2O, ammonia, ethylene oxide, hydrogen peroxide, water isotopes and cleanroom-level airborne molecular contamination — at parts-per- billion and parts-per-trillion sensitivity. Picarro serves natural gas utilities (mobile methane leak detection and the Picarro Surveyor programme), sterilization and EtO facilities, refinery and chemical-plant fenceline monitoring, semiconductor cleanrooms and FOUP contamination control, pharmaceutical manufacturing, and atmospheric and earth-science research. The company reports 25+ years of operation, 5,000+ instruments installed in about 100 countries, and 77 patents. Its software side is P-Cubed, a cloud data-processing and storage platform with a customer-facing API for custom data transformation routines, a companion mobile app for field leak investigations, and — for semiconductor deployments — a publicly published gRPC/ProtoBuf interface (picarro/sam-foup-public) for external control and monitoring of Picarro Edge systems.",
-     "score": 53.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 49.4,
-      "governance": 12.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 42.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Alasco",
@@ -1284,7 +1335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Octopus Energy",
@@ -1329,7 +1380,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "SPAN",
@@ -1371,50 +1422,6 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 33
-    },
-    {
-     "name": "Hydro-Québec",
-     "slug": "hydro-quebec",
-     "description": "Hydro-Québec is the government-owned Crown corporation that generates, transmits and distributes almost all of the electricity consumed in Québec, Canada — a vertically integrated, near-monopoly utility running one of the largest hydroelectric fleets in the world and serving roughly 4.6 million customer accounts across the province. It sits at every point of the value chain at once, as generator, transmission owner, distributor and retailer, plus a cross-border exporter into the New England and New York markets. Its API posture is a clean split. Market and grid data is genuinely open — a public Opendatasoft-powered portal at donnees.hydroquebec.com serves 26 datasets (electricity demand and generation, imports and exports, outages, GHG emission factors, hydrometric and weather data, winter peak demand events, vegetation control) through a documented, anonymously callable REST API with a machine-readable OpenAPI 3.0.3 description and a DCAT catalog export, licensed CC BY-NC 4.0. Consumer data is closed — there is no documented customer-facing API, no Green Button Download My Data or Connect My Data service, and no third-party consent flow; a customer's own usage is reachable only by logging into the Espace client web portal. Québec has no consumer energy data right. Ontario's Green Button regulation (O. Reg. 633/21 under the Electricity Act, 1998) is province-specific and does not bind Hydro-Québec, and Canada has no national equivalent to Australia's Consumer Data Right energy regime. Open market data, closed consumer data, no mandate.",
-     "score": 52.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 58.9,
-      "governance": 11.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 62.8,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -1586,6 +1593,50 @@
      "rank": 38
     },
     {
+     "name": "Amber Electric",
+     "slug": "amber-electric",
+     "description": "Amber Electric is an Australian electricity retailer (ABN 98623603805) that sells wholesale National Electricity Market pricing straight through to residential customers on a flat monthly membership, rather than marking energy up, and automates home batteries, solar exports and EV charging against those half-hourly prices. It sits at the retail end of the Australian energy value chain, between AEMO's wholesale market and the household meter. Its API posture is unusually honest and unusually split. Amber publishes a real, verbatim OpenAPI 3.0.0 contract for a REST API at https://api.amber.com.au/v1 covering sites, prices, forecasts and usage, but the token that unlocks it is generated inside the logged-in customer app at https://app.amber.com.au/developers, so the API is customer-account-required rather than self-serve — a developer who is not an Amber customer cannot obtain a key. One endpoint is the exception: the spec explicitly declares `security: []` on GET /state/{state}/renewables/current, and that grid renewables-percentage feed really does answer anonymously for NSW, VIC, QLD and SA, so open market data and gated consumer data live inside the same contract. Separately, Amber is a designated Consumer Data Right energy data holder that is genuinely live, not merely designated: it is listed on the ACCC CDR Register with a working public base URI at https://public.cdr.amber.com.au, whose CDS discovery endpoints and anonymously-served OpenID Connect configuration advertise the full Consumer Data Standards energy scope set behind private_key_jwt and CDR accreditation.",
+     "score": 51.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 54.0,
+      "governance": 20.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 51.6,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 74.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 39
+    },
+    {
      "name": "NASA FIRMS",
      "slug": "nasa-firms",
      "description": "NASA Fire Information for Resource Management System (FIRMS) REST API providing near-real-time satellite fire detections globally from MODIS (Terra/Aqua), VIIRS (S-NPP, NOAA-20, NOAA-21), and LANDSAT instruments. Data is available within 3 hours of satellite observation worldwide, with Ultra Real-Time detections available within 60 seconds for the US and Canada. Supports area-based bounding box queries, KML fire footprints by region, data availability checks, and missing data identification. Free MAP_KEY registration required.",
@@ -1623,50 +1674,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 39
-    },
-    {
-     "name": "Voltus",
-     "slug": "voltus",
-     "description": "Voltus is a United States virtual power plant (VPP) operator and distributed energy resource (DER) technology platform, headquartered in San Francisco, California, that aggregates commercial, industrial, residential and transportation loads and batteries into wholesale electricity markets across all of North America's organized markets (AESO, CAISO, ERCOT, IESO, ISO-NE, MISO, NYISO, PJM, SPP). It sits in the demand-response and flexibility layer of the energy value chain: it is not a utility and not a metering data holder, so no Green Button, Consumer Data Right or smart-meter data mandate applies to it — mandate regime is honestly none. Its API posture is unusually good for the sector and unusually split. Voltus runs a genuine public developer portal at api.voltus.co/docs (Docusaurus, no login) with concepts, tutorials, an OpenAPI-generated reference and a changelog, plus a fully anonymous sandbox at sandbox.voltus.co that answers real HTTP requests with the documented public key \"X-Voltus-API-Key: secret\" — a developer can call it before signing anything. Production, however, is partner-only: api.voltus.co/2022-04-15 returns 401 Permission denied to the sandbox key, and real access requires a commercial partnership plus a signed Letter of Authorization per site. Site telemetry and dispatch control are exposed to partners over that account-scoped REST API and over OpenADR 2.0a Simple HTTP PULL with mutual TLS; Voltus publishes no open grid or market data of its own, so consumer/site energy data is available under contract while market data is closed. No downloadable OpenAPI or Swagger document is served — /openapi.json, /swagger.json and /openapi3.yaml all 404 — but the portal is built with the Docusaurus OpenAPI plugin, and the real operation objects (parameters, request bodies, response schemas, examples) were recovered verbatim from the published build and assembled into openapi/voltus-openapi.yml: 10 operations across 8 paths.",
-     "score": 51.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 68.2,
-      "governance": 20.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 60.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 44.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 43.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -1720,6 +1727,43 @@
      "rank": 41
     },
     {
+     "name": "Picarro",
+     "slug": "picarro",
+     "description": "Picarro, Inc. is a Santa Clara, California company that builds high-precision gas concentration and stable-isotope analyzers based on Cavity Ring-Down Spectroscopy (CRDS), together with the cloud software and mobile platforms that turn those measurements into operational decisions. Its instruments measure more than 700 compounds — methane, ethane, CO2, N2O, ammonia, ethylene oxide, hydrogen peroxide, water isotopes and cleanroom-level airborne molecular contamination — at parts-per- billion and parts-per-trillion sensitivity. Picarro serves natural gas utilities (mobile methane leak detection and the Picarro Surveyor programme), sterilization and EtO facilities, refinery and chemical-plant fenceline monitoring, semiconductor cleanrooms and FOUP contamination control, pharmaceutical manufacturing, and atmospheric and earth-science research. The company reports 25+ years of operation, 5,000+ instruments installed in about 100 countries, and 77 patents. Its software side is P-Cubed, a cloud data-processing and storage platform with a customer-facing API for custom data transformation routines, a companion mobile app for field leak investigations, and — for semiconductor deployments — a publicly published gRPC/ProtoBuf interface (picarro/sam-foup-public) for external control and monitoring of Picarro Edge systems.",
+     "score": 50.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 49.4,
+      "governance": 3.1,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 64.7,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 34.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 42
+    },
+    {
      "name": "Virtual Peaker",
      "slug": "virtual-peaker",
      "description": "Virtual Peaker is a Louisville, Kentucky software company selling grid-edge DERMS and virtual power plant software to United States and Canadian electric utilities — investor-owned utilities, municipal utilities, and rural electric cooperatives. Its platform is sold as three suites: Shift (grid-edge DERMS device control and demand response event dispatch), Relay (customer engagement, enrollment, and incentive processing), and Envision (demand forecasting). Virtual Peaker sits in the private DER-orchestration layer of the energy value chain, between device OEMs behind the meter and the utility back office — it is a vendor, not a utility, not a retailer, and not a data holder, so no consumer energy data right attaches to it. There is no Green Button / ESPI implementation here, no Consumer Data Right obligation, and no open market or grid data of any kind. What it does publish is its own API specification: Gravity Connect, an OpenAPI 3.0.0 contract (v2.0.6) that Virtual Peaker authored and openly published as a vendor-agnostic alternative to OpenADR and IEEE 2030.5 for onboarding and controlling DER devices. Gravity Connect is two-sided — the device OEM implements one half, the VPP platform implements the other — and both halves are readable anonymously as full Redoc API references. The honest posture: a real, downloadable, standards-ambitious API contract that is effectively undiscoverable (it is linked from nowhere on the marketing site) and whose credentials are partner-only, issued per utility program by emailing the Gravity Connect team. The commercial Shift API is named and sold on the marketing site but has no public documentation at all.",
@@ -1761,7 +1805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Endeavour Energy",
@@ -1805,7 +1849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Ostrom",
@@ -1849,7 +1893,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Siemens PLM",
@@ -1886,7 +1930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Arcadia",
@@ -1931,7 +1975,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "UtilityAPI",
@@ -1976,7 +2020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Sense",
@@ -2021,7 +2065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Agromonitoring",
@@ -2059,7 +2103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Palmetto",
@@ -2097,50 +2141,6 @@
       "openapi_examples": "verified",
       "rate_limit_signal": false,
       "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 50
-    },
-    {
-     "name": "Amber Electric",
-     "slug": "amber-electric",
-     "description": "Amber Electric is an Australian electricity retailer (ABN 98623603805) that sells wholesale National Electricity Market pricing straight through to residential customers on a flat monthly membership, rather than marking energy up, and automates home batteries, solar exports and EV charging against those half-hourly prices. It sits at the retail end of the Australian energy value chain, between AEMO's wholesale market and the household meter. Its API posture is unusually honest and unusually split. Amber publishes a real, verbatim OpenAPI 3.0.0 contract for a REST API at https://api.amber.com.au/v1 covering sites, prices, forecasts and usage, but the token that unlocks it is generated inside the logged-in customer app at https://app.amber.com.au/developers, so the API is customer-account-required rather than self-serve — a developer who is not an Amber customer cannot obtain a key. One endpoint is the exception: the spec explicitly declares `security: []` on GET /state/{state}/renewables/current, and that grid renewables-percentage feed really does answer anonymously for NSW, VIC, QLD and SA, so open market data and gated consumer data live inside the same contract. Separately, Amber is a designated Consumer Data Right energy data holder that is genuinely live, not merely designated: it is listed on the ACCC CDR Register with a working public base URI at https://public.cdr.amber.com.au, whose CDS discovery endpoints and anonymously-served OpenID Connect configuration advertise the full Consumer Data Standards energy scope set behind private_key_jwt and CDR accreditation.",
-     "score": 49.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 54.0,
-      "governance": 20.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 51.6,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 74.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -2233,6 +2233,50 @@
      "rank": 53
     },
     {
+     "name": "EIA",
+     "slug": "eia",
+     "description": "The U.S. Energy Information Administration (EIA) is the independent statistical and analytical agency within the U.S. Department of Energy, created by the Department of Energy Organization Act of 1977, that collects, analyzes, and disseminates energy information for the United States. EIA sits at the measurement layer of the American energy value chain rather than the operating layer - it does not generate, transmit, distribute, or retail energy, and it does not regulate anyone. Instead it compels the industry to report through mandatory survey forms (EIA-860, EIA-861, EIA-923, EIA-176, EIA-914, EIA-930 and dozens more) and then publishes the result as the reference statistics for electricity, natural gas, petroleum, coal, nuclear, renewables, emissions, and international energy. EIA's API posture is the strongest of any organization in this sector and a genuine benchmark for government data anywhere. The Open Data APIv2 at api.eia.gov/v2 is a fully RESTful, self-documenting, hierarchically routed API covering more than two million time series, described by a real downloadable OpenAPI 3.0.0 contract carrying 225 paths and 278 operations, opened by a free API key that is emailed automatically from a public registration form with no review, no accreditation, and no licence to sign. A companion bulk download facility at api.eia.gov/bulk serves the same data as manifest-indexed zip archives and requires no key at all. The split that defines this sector is absolute here. EIA's market, system, and grid data is wide open - hourly balancing-authority demand and interchange, wholesale and spot prices, generator-level capacity and operations - while EIA publishes no consumer energy data API of any kind. There is no Green Button, no ESPI, no Download My Data, no Connect My Data, no consent flow, and no customer usage or billing endpoint, because individual customer data is never collected by EIA in the first place; its surveys arrive already aggregated from utilities and are further protected by statutory confidentiality. EIA is therefore the clearest instance of the recurring finding in this series - a federal data agency that publishes a far better documented, far more accessible API than the regulated utilities whose numbers it reports.",
+     "score": 48.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 45.7,
+      "governance": 11.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 41.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 51.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 54
+    },
+    {
      "name": "Measurabl",
      "slug": "measurabl",
      "description": "Measurabl is an ESG (environmental, social and governance) data and sustainability management platform for commercial real estate, used by owners, investors, asset managers and capital-markets participants to measure, manage, report and act on building performance data. The platform covers utility and waste data collection, carbon accounting, green building certifications and ratings, local performance ordinance compliance, CRREM transition-risk analysis, and portfolio and fund-level ESG reporting. Measurabl exposes this through a REST API surface documented in Swagger UI at api.measurabl.com: a Core API for reading and writing portfolios, buildings, spaces, funds, energy/water meters and readings, waste meters, certifications and ratings; an ESGx Buildings (Insights) API for asset-level energy and carbon estimates, certification and ordinance lookups, CRREM lookups and bulk exports; ESGx Securities and ESGx Securities Compliance Files APIs for listed real estate company-level and building-level datasets; and a Partner API for partner-side portfolio, building and monthly utility data access. Every API is OpenAPI 3.0.1, secured with OAuth 2.0 client credentials, and returns JSON:API (application/vnd.api+json) documents.",
@@ -2267,7 +2311,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Air Quality Programmatic APIs",
@@ -2312,7 +2356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Patch",
@@ -2350,7 +2394,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Reposit Power",
@@ -2394,7 +2438,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Open-Meteo",
@@ -2432,7 +2476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Verdigris Technologies",
@@ -2476,7 +2520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Reonic",
@@ -2513,7 +2557,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "Danish Meteorological Institutes",
@@ -2558,7 +2602,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 62
     },
     {
      "name": "Patch",
@@ -2596,7 +2640,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 63
     },
     {
      "name": "Powershop",
@@ -2640,7 +2684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Sentinel Hub",
@@ -2678,7 +2722,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 65
+    },
+    {
+     "name": "Saildrone",
+     "slug": "saildrone",
+     "description": "Saildrone is an Alameda, California maritime autonomy company that designs, manufactures, and operates a global fleet of wind/solar-powered autonomous surface vehicles (USVs) for ocean science, maritime domain awareness, and defense applications. Founded in 2012 by Richard Jenkins, the company runs four USV classes — Explorer (23ft, environmental sensing), Voyager (33ft, MDA and counter-narcotics), Surveyor (65ft, deep-ocean bathymetric mapping), and the newer Spectre (ISR / anti-submarine warfare / kinetic payloads). Saildrone has logged over 2.5M nautical miles and 65,000 days at sea across customers including NOAA PMEL, NOAA SWFSC, the US Navy (Task Force 59), NASA, EUMETSAT, BOEM, and Lockheed Martin (which invested $50M in October 2025). Saildrone delivers data through two product surfaces — the Saildrone Mission Portal (secure web app for tasking and live multi-INT visualization) and the Saildrone Public Mission API (BETA) at developer-mission.saildrone.com, which exposes key/secret authenticated endpoints for health, drone access discovery, and time-series retrieval across vehicle, atmospheric, oceanographic, and biogeochemical datasets. Open ocean data from past missions is published via NOAA PMEL ERDDAP and NCEI under open-data terms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png",
+     "score": 47.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 79.1,
+      "governance": 68.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 66
     },
     {
      "name": "Sinai Technologies",
@@ -2715,51 +2797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
-    },
-    {
-     "name": "EIA",
-     "slug": "eia",
-     "description": "The U.S. Energy Information Administration (EIA) is the independent statistical and analytical agency within the U.S. Department of Energy, created by the Department of Energy Organization Act of 1977, that collects, analyzes, and disseminates energy information for the United States. EIA sits at the measurement layer of the American energy value chain rather than the operating layer - it does not generate, transmit, distribute, or retail energy, and it does not regulate anyone. Instead it compels the industry to report through mandatory survey forms (EIA-860, EIA-861, EIA-923, EIA-176, EIA-914, EIA-930 and dozens more) and then publishes the result as the reference statistics for electricity, natural gas, petroleum, coal, nuclear, renewables, emissions, and international energy. EIA's API posture is the strongest of any organization in this sector and a genuine benchmark for government data anywhere. The Open Data APIv2 at api.eia.gov/v2 is a fully RESTful, self-documenting, hierarchically routed API covering more than two million time series, described by a real downloadable OpenAPI 3.0.0 contract carrying 225 paths and 278 operations, opened by a free API key that is emailed automatically from a public registration form with no review, no accreditation, and no licence to sign. A companion bulk download facility at api.eia.gov/bulk serves the same data as manifest-indexed zip archives and requires no key at all. The split that defines this sector is absolute here. EIA's market, system, and grid data is wide open - hourly balancing-authority demand and interchange, wholesale and spot prices, generator-level capacity and operations - while EIA publishes no consumer energy data API of any kind. There is no Green Button, no ESPI, no Download My Data, no Connect My Data, no consent flow, and no customer usage or billing endpoint, because individual customer data is never collected by EIA in the first place; its surveys arrive already aggregated from utilities and are further protected by statutory confidentiality. EIA is therefore the clearest instance of the recurring finding in this series - a federal data agency that publishes a far better documented, far more accessible API than the regulated utilities whose numbers it reports.",
-     "score": 46.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 45.7,
-      "governance": 11.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 41.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 51.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "OpenWeather",
@@ -2797,7 +2835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Yr",
@@ -2842,7 +2880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "MISO",
@@ -2886,7 +2924,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Prewave",
@@ -2923,7 +2961,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Rentle",
@@ -2960,7 +2998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Waste Management",
@@ -2998,7 +3036,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
+    },
+    {
+     "name": "Solaredge",
+     "slug": "solaredge",
+     "description": "SolarEdge Technologies is a global provider of DC-optimized photovoltaic (PV) inverter systems — combining power optimizers, string inverters, batteries, EV chargers and a cloud monitoring platform for residential, commercial and utility solar installations. Its public developer surface is the SolarEdge Monitoring API, a read-only REST API over monitoringapi.solaredge.com that exposes site inventory, energy and power production, battery/storage telemetry, environmental benefits, equipment/inverter data, meters and sensors for the sites an account can access. Authentication is a single api_key query parameter issued in the SolarEdge monitoring platform; responses are JSON by default and errors use RFC 9457 problem+json (verified live).",
+     "score": 46.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 62.8,
+      "governance": 11.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 34.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 74
     },
     {
      "name": "Arlula",
@@ -3036,7 +3111,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "Capella Space",
@@ -3074,7 +3149,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "United States Department of Agriculture",
@@ -3112,7 +3187,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 77
     },
     {
      "name": "Tomorrow.io",
@@ -3150,7 +3225,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 78
     },
     {
      "name": "CCH Tagetik",
@@ -3188,7 +3263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "DLR",
@@ -3233,7 +3308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 80
     },
     {
      "name": "World Air Quality Index (WAQI)",
@@ -3278,7 +3353,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 81
+    },
+    {
+     "name": "SolarEdge",
+     "slug": "solar-edge",
+     "description": "SolarEdge Technologies provides a cloud-based Monitoring API that enables web services and third-party applications to access real-time and historical solar production data stored on the SolarEdge monitoring server. The REST API delivers site energy measurements, power flow data, inverter technical telemetry, battery storage status, equipment inventory, and environmental benefit metrics for SolarEdge-connected systems. Authentication is handled via an API key generated through the SolarEdge monitoring portal, and all requests are made over HTTPS with responses returned in JSON format. The platform supports both site-level and account-level queries, with bulk call options allowing developers to retrieve data across multiple sites in a single request. SolarEdge serves residential, commercial, and utility-scale solar installations globally, making their API central to energy management integrations, home automation platforms, and fleet monitoring solutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png",
+     "score": 44.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 69.4,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 23.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 82
     },
     {
      "name": "WattTime",
@@ -3323,7 +3443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 83
     },
     {
      "name": "The Climate Corporation",
@@ -3360,7 +3480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 84
     },
     {
      "name": "Signal AI",
@@ -3397,7 +3517,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 85
     },
     {
      "name": "Validere",
@@ -3441,7 +3561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 86
     },
     {
      "name": "Pixxel",
@@ -3478,7 +3598,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 87
     },
     {
      "name": "Sunrise Sunset",
@@ -3516,7 +3636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 88
     },
     {
      "name": "Hydrosat",
@@ -3554,7 +3674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 89
     },
     {
      "name": "Carbon Intensity API",
@@ -3599,7 +3719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 90
     },
     {
      "name": "NASA CMR",
@@ -3644,7 +3764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 91
     },
     {
      "name": "NOAA — National Oceanic and Atmospheric Administration",
@@ -3688,7 +3808,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 92
     },
     {
      "name": "Con Edison",
@@ -3732,7 +3852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 93
     },
     {
      "name": "NOAA",
@@ -3777,45 +3897,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
-    },
-    {
-     "name": "Saildrone",
-     "slug": "saildrone",
-     "description": "Saildrone is an Alameda, California maritime autonomy company that designs, manufactures, and operates a global fleet of wind/solar-powered autonomous surface vehicles (USVs) for ocean science, maritime domain awareness, and defense applications. Founded in 2012 by Richard Jenkins, the company runs four USV classes — Explorer (23ft, environmental sensing), Voyager (33ft, MDA and counter-narcotics), Surveyor (65ft, deep-ocean bathymetric mapping), and the newer Spectre (ISR / anti-submarine warfare / kinetic payloads). Saildrone has logged over 2.5M nautical miles and 65,000 days at sea across customers including NOAA PMEL, NOAA SWFSC, the US Navy (Task Force 59), NASA, EUMETSAT, BOEM, and Lockheed Martin (which invested $50M in October 2025). Saildrone delivers data through two product surfaces — the Saildrone Mission Portal (secure web app for tasking and live multi-INT visualization) and the Saildrone Public Mission API (BETA) at developer-mission.saildrone.com, which exposes key/secret authenticated endpoints for health, drone access discovery, and time-series retrieval across vehicle, atmospheric, oceanographic, and biogeochemical datasets. Open ocean data from past missions is published via NOAA PMEL ERDDAP and NCEI under open-data terms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png",
-     "score": 43.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 79.1,
-      "governance": 68.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 92
+     "rank": 94
     },
     {
      "name": "Tesla",
@@ -3859,7 +3941,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 95
     },
     {
      "name": "Moody's Corporation",
@@ -3896,7 +3978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 96
     },
     {
      "name": "Airbus",
@@ -3934,44 +4016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
-    },
-    {
-     "name": "Turntide Technologies",
-     "slug": "turntide-technologies",
-     "description": "Turntide Technologies is an electrification company that designs and manufactures axial flux electric motors, power electronics and inverters, modular battery energy storage, and thermal management systems for electric and hybrid platforms across agriculture, automotive, commercial vehicles, construction, gensets, industrial equipment, marine, rail and recreation. Founded in 2013 as Software Motor Corporation and rebranded to Turntide in 2020, the company grew through acquisitions including Riptide (building automation, 2021), Hyperdrive (batteries), AVID Technology (EV controls) and BorgWarner's Gateshead drivetrain division. Turntide publishes no public developer API for its hardware products; the only machine-readable surfaces observed on its own hosts are the WordPress REST API at turntide.com/wp-json, the WordPress Abilities API, and an OAuth-protected MCP server advertised via RFC 8414 / RFC 9728 well-known metadata.",
-     "score": 42.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 55.8,
-      "governance": 20.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 56.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Wattwatchers",
@@ -4015,7 +4060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "AptarGroup",
@@ -4052,7 +4097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Gardin",
@@ -4090,43 +4135,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
-    },
-    {
-     "name": "Solaredge",
-     "slug": "solaredge",
-     "description": "SolarEdge Technologies is a global provider of DC-optimized photovoltaic (PV) inverter systems — combining power optimizers, string inverters, batteries, EV chargers and a cloud monitoring platform for residential, commercial and utility solar installations. Its public developer surface is the SolarEdge Monitoring API, a read-only REST API over monitoringapi.solaredge.com that exposes site inventory, energy and power production, battery/storage telemetry, environmental benefits, equipment/inverter data, meters and sensors for the sites an account can access. Authentication is a single api_key query parameter issued in the SolarEdge monitoring platform; responses are JSON by default and errors use RFC 9457 problem+json (verified live).",
-     "score": 42.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 62.8,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 34.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 100
     }
    ]
@@ -4136,8 +4144,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 75,
-   "shown": 75,
+   "count": 74,
+   "shown": 74,
    "providers": [
     {
      "name": "Good Leap",
@@ -4222,51 +4230,6 @@
      "rank": 102
     },
     {
-     "name": "SolarEdge",
-     "slug": "solar-edge",
-     "description": "SolarEdge Technologies provides a cloud-based Monitoring API that enables web services and third-party applications to access real-time and historical solar production data stored on the SolarEdge monitoring server. The REST API delivers site energy measurements, power flow data, inverter technical telemetry, battery storage status, equipment inventory, and environmental benefit metrics for SolarEdge-connected systems. Authentication is handled via an API key generated through the SolarEdge monitoring portal, and all requests are made over HTTPS with responses returned in JSON format. The platform supports both site-level and account-level queries, with bulk call options allowing developers to retrieve data across multiple sites in a single request. SolarEdge serves residential, commercial, and utility-scale solar installations globally, making their API central to energy management integrations, home automation platforms, and fleet monitoring solutions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png",
-     "score": 41.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 69.4,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 23.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 103
-    },
-    {
      "name": "Emitwise",
      "slug": "emitwise",
      "description": "Emitwise is a London-based carbon accounting and Scope 3 reporting platform that uses AI to help large enterprises measure, manage, and reduce their product carbon footprint (PCF) and supply-chain greenhouse-gas emissions. The platform ingests spend data, activity data, and supplier information, auto-classifies suppliers, and produces audit-ready emissions reporting aligned with the GHG Protocol (Scope 1, 2, and 3) and frameworks such as CDP and CSRD. The Emitwise developer API at api.emitwise.com exposes facilities, projects, activity-data files, schema metadata, and aggregated supplier emissions data so customers can integrate carbon accounting into procurement, ERP, and sustainability reporting systems. Access is granted per-customer through Emitwise CSMs; API keys are generated from the Company settings area of the dashboard. In July 2025, Emitwise was acquired by Green Project Technologies; the Emitwise platform and team are now part of Green Project's end-to-end decarbonization solutions, while the existing Emitwise developer portal and API endpoints remain live for customers.",
@@ -4302,7 +4265,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 103
     },
     {
      "name": "Department of Energy",
@@ -4347,7 +4310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 104
     },
     {
      "name": "Planet",
@@ -4384,7 +4347,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 105
     },
     {
      "name": "US Geological Survey",
@@ -4422,7 +4385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 106
     },
     {
      "name": "AMCS Group",
@@ -4467,7 +4430,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 107
     },
     {
      "name": "Department of Energy",
@@ -4512,44 +4475,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
-    },
-    {
-     "name": "Perfect Day",
-     "slug": "perfect-day",
-     "description": "Perfect Day is a Berkeley, California food-technology company, founded in 2014, that makes animal-free dairy proteins with precision fermentation. Rather than farming cows, Perfect Day ferments microflora carrying milk's protein-coding genes to produce ProFerm, a non-animal whey protein with no lactose, cholesterol, hormones or antibiotics, which it sells business-to-business to consumer brands making ice cream, cream cheese, milk, yogurt, protein powders and bakery products. The company is a member of the Precision Fermentation Alliance. Perfect Day publishes no product or developer API; the single machine-readable surface it operates is the WordPress REST API (wp/v2) behind perfectday.com, which exposes anonymous read access to its blog posts, newsroom items, success stories, pages, media, taxonomies and site search, plus authenticated write operations via WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
-     "score": 40.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 60.7,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 51.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 110
+     "rank": 108
     },
     {
      "name": "Xignite",
@@ -4594,7 +4520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 109
     },
     {
      "name": "Urban Sky",
@@ -4631,7 +4557,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 110
     },
     {
      "name": "UP42",
@@ -4668,7 +4594,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 111
+    },
+    {
+     "name": "Perfect Day",
+     "slug": "perfect-day",
+     "description": "Perfect Day is a Berkeley, California food-technology company, founded in 2014, that makes animal-free dairy proteins with precision fermentation. Rather than farming cows, Perfect Day ferments microflora carrying milk's protein-coding genes to produce ProFerm, a non-animal whey protein with no lactose, cholesterol, hormones or antibiotics, which it sells business-to-business to consumer brands making ice cream, cream cheese, milk, yogurt, protein powders and bakery products. The company is a member of the Precision Fermentation Alliance. Perfect Day publishes no product or developer API; the single machine-readable surface it operates is the WordPress REST API (wp/v2) behind perfectday.com, which exposes anonymous read access to its blog posts, newsroom items, success stories, pages, media, taxonomies and site search, plus authenticated write operations via WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
+     "score": 39.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 64.5,
+      "governance": 11.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 42.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 48.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 112
     },
     {
      "name": "Searoutes",
@@ -4705,7 +4668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 113
     },
     {
      "name": "Eurostat",
@@ -4750,7 +4713,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "Dott",
@@ -4788,7 +4751,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 115
     },
     {
      "name": "Planet Labs",
@@ -4826,7 +4789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Energy Queensland",
@@ -4870,7 +4833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 117
     },
     {
      "name": "Maxar",
@@ -4908,7 +4871,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "First Street",
@@ -4946,7 +4909,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "SkyWatch",
@@ -4983,7 +4946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Retraced",
@@ -5020,7 +4983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 121
     },
     {
      "name": "The National Aeronautics and Space Administration",
@@ -5065,7 +5028,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "World Bank",
@@ -5110,7 +5073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "Benevity",
@@ -5148,7 +5111,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Axle Energy",
@@ -5193,51 +5156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
-    },
-    {
-     "name": "1KOMMA5°",
-     "slug": "1komma5",
-     "description": "1KOMMA5° (1Komma5 Grad) is a Hamburg, Germany headquartered smart-energy company that sells, installs and operates integrated residential energy systems — rooftop photovoltaics, battery storage, heat pumps and EV charging — and ties them together with Heartbeat AI, its energy-management platform. Heartbeat aggregates customer hardware into one of Europe's largest residential virtual power plants, optimising self-consumption and trading household flexibility against day-ahead and intraday electricity markets. The company operates across Germany, Australia, the Netherlands, Sweden, Finland, Denmark and Belgium. Its machine-readable surface is small and mostly internal: a live OpenAPI 3.0 for the Offer Tool API used by its sales and partner network, an Auth0-backed OIDC provider at auth.1komma5grad.com, and the undocumented Heartbeat customer API that its mobile apps and community-built Home Assistant integrations consume.",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 43.4,
-      "governance": 20.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 127
+     "rank": 125
     },
     {
      "name": "AGL Energy",
@@ -5281,7 +5200,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 126
     },
     {
      "name": "Electricity Maps",
@@ -5326,7 +5245,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 127
     },
     {
      "name": "Alphageo",
@@ -5364,7 +5283,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 128
+    },
+    {
+     "name": "LI-COR Intermediate",
+     "slug": "li-cor-intermediate",
+     "description": "LI-COR Intermediate, Inc. is the Battery Ventures-backed holding entity for LI-COR, a Lincoln, Nebraska environmental and life-science instrumentation maker founded more than fifty years ago. The group operates under two brands: LI-COR Environmental (licor.com), which builds greenhouse-gas analyzers, eddy-covariance flux systems, photosynthesis and soil-gas instruments, and the HOBO line of data loggers; and LICORbio (licorbio.com), which builds Western blot imaging systems and infrared fluorescent dyes and reagents. Its instruments are cited in more than 73,000 research publications and used across 1,200+ universities in 150+ countries. The connected-device side of the business runs through LI-COR Cloud (licor.cloud, formerly HOBOlink), which exposes a public read-only HOBOLINK External API for pulling logger and sensor observations into customer systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png",
+     "score": 37.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 52.7,
+      "governance": 11.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 36.4,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 129
     },
     {
      "name": "ATCO",
@@ -5408,7 +5372,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Aurora Solar",
@@ -5453,7 +5417,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "Isometric",
@@ -5498,7 +5462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "World Meteorological Organization",
@@ -5543,7 +5507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "Electricity Maps",
@@ -5588,7 +5552,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "KPMG",
@@ -5626,7 +5590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "US Department of Commerce",
@@ -5671,7 +5635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 136
     },
     {
      "name": "EcoFlow",
@@ -5716,7 +5680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "FuelEconomy.gov",
@@ -5761,7 +5725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "ICEYE",
@@ -5799,7 +5763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "WM",
@@ -5833,6 +5797,50 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 140
+    },
+    {
+     "name": "1KOMMA5°",
+     "slug": "1komma5",
+     "description": "1KOMMA5° (1Komma5 Grad) is a Hamburg, Germany headquartered smart-energy company that sells, installs and operates integrated residential energy systems — rooftop photovoltaics, battery storage, heat pumps and EV charging — and ties them together with Heartbeat AI, its energy-management platform. Heartbeat aggregates customer hardware into one of Europe's largest residential virtual power plants, optimising self-consumption and trading household flexibility against day-ahead and intraday electricity markets. The company operates across Germany, Australia, the Netherlands, Sweden, Finland, Denmark and Belgium. Its machine-readable surface is small and mostly internal: a live OpenAPI 3.0 for the Offer Tool API used by its sales and partner network, an Auth0-backed OIDC provider at auth.1komma5grad.com, and the undocumented Heartbeat customer API that its mobile apps and community-built Home Assistant integrations consume.",
+     "score": 35.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 43.4,
+      "governance": 11.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -6085,51 +6093,6 @@
      "rank": 147
     },
     {
-     "name": "LI-COR Intermediate",
-     "slug": "li-cor-intermediate",
-     "description": "LI-COR Intermediate, Inc. is the Battery Ventures-backed holding entity for LI-COR, a Lincoln, Nebraska environmental and life-science instrumentation maker founded more than fifty years ago. The group operates under two brands: LI-COR Environmental (licor.com), which builds greenhouse-gas analyzers, eddy-covariance flux systems, photosynthesis and soil-gas instruments, and the HOBO line of data loggers; and LICORbio (licorbio.com), which builds Western blot imaging systems and infrared fluorescent dyes and reagents. Its instruments are cited in more than 73,000 research publications and used across 1,200+ universities in 150+ countries. The connected-device side of the business runs through LI-COR Cloud (licor.cloud, formerly HOBOlink), which exposes a public read-only HOBOLINK External API for pulling logger and sensor observations into customer systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png",
-     "score": 34.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 52.7,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 36.4,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 148
-    },
-    {
      "name": "Everledger",
      "slug": "everledger",
      "description": "Everledger is a supply-chain transparency company that uses a private, enterprise blockchain plus IoT to create tamper-evident digital identities (\"digital twins\") for physical assets and to track their provenance from origin to market. Its platform spans diamonds, coloured gemstones, wine and spirits, art, fashion and luxury goods, critical minerals, batteries and insurance. The developer surface is the Everledger Platform API (marketed as \"Amplify\") — a suite of REST APIs including the Provenance API (a full, media-rich provenance report for any object), the Object API (verify an object's identity against its digital twin) and the Transfer API (reassign ownership of a digital asset on the blockchain when a sale is made) — plus an embeddable Amplify Widget for eCommerce. Access is via the invite-only Everledger Developer Community (EDC). Founded by Leanne Kemp and backed by Bloomberg Beta, the company restructured in 2023 and continues to operate on its core gems, minerals and textiles markets.",
@@ -6165,44 +6128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
-    },
-    {
-     "name": "Ascend Elements",
-     "slug": "ascend-elements",
-     "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
-     "score": 34.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 61.3,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 63.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 150
+     "rank": 148
     },
     {
      "name": "LanzaTech",
@@ -6247,7 +6173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 149
     },
     {
      "name": "NASA Earthdata",
@@ -6285,7 +6211,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 150
     },
     {
      "name": "Gotham Greens",
@@ -6322,7 +6248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 151
     },
     {
      "name": "Tetra Tech",
@@ -6360,7 +6286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 152
     },
     {
      "name": "Greenly",
@@ -6398,7 +6324,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 153
     },
     {
      "name": "Toucan",
@@ -6435,7 +6361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 154
     },
     {
      "name": "Urjanet",
@@ -6479,7 +6405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 155
     },
     {
      "name": "Voltair",
@@ -6523,7 +6449,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 156
     },
     {
      "name": "Univers",
@@ -6567,7 +6493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 157
     },
     {
      "name": "Ellipsis Drive",
@@ -6605,7 +6531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 158
     },
     {
      "name": "JAXA",
@@ -6643,7 +6569,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 159
     },
     {
      "name": "National Renewable Energy Laboratory",
@@ -6687,7 +6613,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 160
+    },
+    {
+     "name": "Turntide Technologies",
+     "slug": "turntide-technologies",
+     "description": "Turntide Technologies is an electrification company that designs and manufactures axial flux electric motors, power electronics and inverters, modular battery energy storage, and thermal management systems for electric and hybrid platforms across agriculture, automotive, commercial vehicles, construction, gensets, industrial equipment, marine, rail and recreation. Founded in 2013 as Software Motor Corporation and rebranded to Turntide in 2020, the company grew through acquisitions including Riptide (building automation, 2021), Hyperdrive (batteries), AVID Technology (EV controls) and BorgWarner's Gateshead drivetrain division. Turntide publishes no public developer API for its hardware products; the only machine-readable surfaces observed on its own hosts are the WordPress REST API at turntide.com/wp-json, the WordPress Abilities API, and an OAuth-protected MCP server advertised via RFC 8414 / RFC 9728 well-known metadata.",
+     "score": 31.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 14.9,
+      "governance": 20.8,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 36.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 46.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 161
     },
     {
      "name": "E.ON Next",
@@ -6731,7 +6694,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 162
     },
     {
      "name": "National Energy System Operator (NESO)",
@@ -6775,7 +6738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "WinCL",
@@ -6819,7 +6782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 164
     },
     {
      "name": "Good Energy",
@@ -6863,7 +6826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 165
     },
     {
      "name": "Environmental Protection Agency",
@@ -6908,7 +6871,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 166
     },
     {
      "name": "New York Independent System Operator (NYISO)",
@@ -6952,7 +6915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 167
     },
     {
      "name": "Isometric",
@@ -6997,7 +6960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 168
     },
     {
      "name": "Persefoni",
@@ -7035,7 +6998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 169
     },
     {
      "name": "MSCI",
@@ -7073,7 +7036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 170
     },
     {
      "name": "Breathe Battery Technologies",
@@ -7111,7 +7074,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 171
     },
     {
      "name": "Bonneville Power Administration",
@@ -7156,7 +7119,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "Crusoe",
@@ -7201,7 +7164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "Southern California Edison",
@@ -7245,7 +7208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 174
     }
    ]
   },
@@ -7254,8 +7217,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 194,
-   "shown": 194,
+   "count": 195,
+   "shown": 195,
    "providers": [
     {
      "name": "NOAA ERDDAP",
@@ -7292,6 +7255,51 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 175
+    },
+    {
+     "name": "National Grid ESO",
+     "slug": "national-grid",
+     "description": "National Energy System Operator (NESO) provides open data APIs for the UK electricity system, including carbon intensity forecasts, demand data, generation mix, ancillary services, balancing costs, and operational data for Great Britain's electricity network. The Carbon Intensity API delivers 96+ hour ahead forecasts at both national and regional levels, while the NESO Data Portal (CKAN-based) exposes hundreds of datasets covering the full spectrum of electricity system operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-grid/refs/heads/main/screenshots/national-grid-2026-06-20T190017.png",
+     "score": 27.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 32.3,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 21.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -7662,43 +7670,6 @@
      "rank": 185
     },
     {
-     "name": "5ire",
-     "slug": "5ire",
-     "description": "5ire (5ireChain) is a layer-1, EVM-compatible smart contract blockchain built on the Polkadot SDK (Substrate), founded in 2021 and headquartered in Dubai with engineering in India. The chain positions sustainability as a first-class protocol concern: its Sustainable Proof of Stake / \"Proof of 5ire\" consensus scores validators against ESG data so block production and rewards are weighted by environmental and social performance, aligned to the UN Sustainable Development Goals. Developers reach the network through a standard Ethereum JSON-RPC endpoint (mainnet chain ID 995, Thunder testnet chain ID 997) using MetaMask, Hardhat, Foundry, Remix, wagmi and Ganache, or through the native Substrate/WASM side of the chain via the Polkadot-derived @5ire/api JavaScript client. Supporting surfaces include the 5irescan block explorer, a testnet faucet, validator and nominator applications, the 5ire wallet browser extension, and a 5ire IDE for contract deployment. 5ire has raised roughly USD 121M and trades on secondary private markets; it publishes no OpenAPI, AsyncAPI, MCP server or A2A agent card.",
-     "score": 25.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 9.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 186
-    },
-    {
      "name": "EcoCart",
      "slug": "ecocart",
      "description": "EcoCart is a sustainable-commerce platform that embeds climate contributions, shipping protection, and returns management directly into the e-commerce checkout experience. It lets merchants calculate and offset the carbon footprint of orders, offer package protection, provide returns and cashback incentives, and communicate their sustainability story across the customer journey. EcoCart reports helping over 2,000 merchants mitigate more than 400 million pounds of greenhouse gases. The platform integrates with major e-commerce systems and exposes a developer API (hosted on Stoplight at api.ecocart.io) plus a first-party React component library for embedding sustainable-checkout surfaces into storefronts. EcoCart is backed by 500 Global.",
@@ -7741,44 +7712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
-    },
-    {
-     "name": "Aptera Motors",
-     "slug": "aptera-motors",
-     "description": "Aptera Motors Corp. (Nasdaq: SEV) is a Carlsbad, California solar electric vehicle manufacturer founded by Steve Fambro and Chris Anthony. The company builds a three-wheeled, two-seat enclosed autocycle covered in roughly 700 watts of integrated solar cells, designed to add up to 40 miles of range per day from sunlight alone and to travel up to 10,000 miles a year on free solar power, with a 400-mile battery range on the Launch Edition, over 320 MPGe efficiency, a ~2,200 lb curb weight and 0-60 mph in under six seconds. Aptera sells reservations direct to consumers through its own configurator, runs a branded Shopify merchandise storefront, and has committed to open-source driver assistance by integrating comma.ai openpilot into the vehicle. Aptera publishes no public developer program, API documentation, or machine-readable API contract as of this enrichment pass.",
-     "score": 25.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 188
+     "rank": 186
     },
     {
      "name": "AiDASH",
@@ -7822,7 +7756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 187
     },
     {
      "name": "Ausgrid",
@@ -7866,7 +7800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 188
     },
     {
      "name": "Cority",
@@ -7904,23 +7838,22 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 189
     },
     {
-     "name": "National Grid ESO",
-     "slug": "national-grid",
-     "description": "National Energy System Operator (NESO) provides open data APIs for the UK electricity system, including carbon intensity forecasts, demand data, generation mix, ancillary services, balancing costs, and operational data for Great Britain's electricity network. The Carbon Intensity API delivers 96+ hour ahead forecasts at both national and regional levels, while the NESO Data Portal (CKAN-based) exposes hundreds of datasets covering the full spectrum of electricity system operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-grid/refs/heads/main/screenshots/national-grid-2026-06-20T190017.png",
+     "name": "ENMAX",
+     "slug": "enmax",
+     "description": "ENMAX Corporation is the Calgary-based energy company owned outright by The City of Calgary, describing itself on its own about page as \"a regulated wires company, a competitive power generator and an energy retailer\" operating \"across Alberta and Maine.\" It spans three tiers of the value chain at once: ENMAX Power owns and operates the regulated electricity distribution and transmission system inside Calgary, ENMAX Energy generates power and sells electricity and natural gas into Alberta's deregulated retail market under the Easymax brand, and Versant Power — acquired from Emera in 2020 — is the transmission and distribution utility for northern and eastern Maine. Its API posture is the exact inverse of the Ontario utilities it is usually compared to, and the inversion is the finding. No consumer energy data mandate binds ENMAX anywhere it operates: Alberta has no Green Button regulation, Ontario's O. Reg. 633/21 does not reach across the provincial border, Canada has no national equivalent, and Maine imposes no Green Button obligation on Versant Power. Unmandated, ENMAX built nothing — its own support documentation states plainly that the Energy Insights usage view inside a customer's Easymax account \"is view-only within your online account and can't be exported at this time,\" which is a harder closure than most: not merely no API, but no CSV, no XML, and no Green Button either. There is no developer portal, no developer, api, docs or data subdomain, no OpenAPI, and no published third-party data path. What ENMAX does publish openly is grid data. Its Hosting Capacity, Load Capacity and Service Area maps, linked from enmax.com/system-resources, are ArcGIS Online web applications backed by ArcGIS REST feature services that answer anonymous machine-readable queries with no key, no signup and no terms — distribution-feeder DER hosting headroom and remaining load capacity for the Calgary service territory, the data a solar or storage developer actually needs. ENMAX never calls this an API and documents none of it, but it is real, it is open, and it is queryable. Wide open on grid data, completely shut on customer data.",
      "score": 25.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 32.3,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 39.5
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 34.2
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
@@ -7928,19 +7861,19 @@
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 21.6,
+      "score": 33.8,
       "matched_via": "tags"
      },
-     "agent_score": 19.4,
+     "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": true,
+      "spec_presence": false,
       "agentic_access": false,
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -7949,7 +7882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 190
     },
     {
      "name": "Enviance",
@@ -7987,7 +7920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 191
     },
     {
      "name": "Ernst & Young (EY)",
@@ -8025,7 +7958,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 192
     },
     {
      "name": "SA Power Networks",
@@ -8064,6 +7997,80 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 193
+    },
+    {
+     "name": "5ire",
+     "slug": "5ire",
+     "description": "5ire (5ireChain) is a layer-1, EVM-compatible smart contract blockchain built on the Polkadot SDK (Substrate), founded in 2021 and headquartered in Dubai with engineering in India. The chain positions sustainability as a first-class protocol concern: its Sustainable Proof of Stake / \"Proof of 5ire\" consensus scores validators against ESG data so block production and rewards are weighted by environmental and social performance, aligned to the UN Sustainable Development Goals. Developers reach the network through a standard Ethereum JSON-RPC endpoint (mainnet chain ID 995, Thunder testnet chain ID 997) using MetaMask, Hardhat, Foundry, Remix, wagmi and Ganache, or through the native Substrate/WASM side of the chain via the Polkadot-derived @5ire/api JavaScript client. Supporting surfaces include the 5irescan block explorer, a testnet faucet, validator and nominator applications, the 5ire wallet browser extension, and a 5ire IDE for contract deployment. 5ire has raised roughly USD 121M and trades on secondary private markets; it publishes no OpenAPI, AsyncAPI, MCP server or A2A agent card.",
+     "score": 24.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 9.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 194
+    },
+    {
+     "name": "Aptera Motors",
+     "slug": "aptera-motors",
+     "description": "Aptera Motors Corp. (Nasdaq: SEV) is a Carlsbad, California solar electric vehicle manufacturer founded by Steve Fambro and Chris Anthony. The company builds a three-wheeled, two-seat enclosed autocycle covered in roughly 700 watts of integrated solar cells, designed to add up to 40 miles of range per day from sunlight alone and to travel up to 10,000 miles a year on free solar power, with a 400-mile battery range on the Launch Edition, over 320 MPGe efficiency, a ~2,200 lb curb weight and 0-60 mph in under six seconds. Aptera sells reservations direct to consumers through its own configurator, runs a branded Shopify merchandise storefront, and has committed to open-source driver assistance by integrating comma.ai openpilot into the vehicle. Aptera publishes no public developer program, API documentation, or machine-readable API contract as of this enrichment pass.",
+     "score": 24.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": true,
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
@@ -8192,50 +8199,6 @@
      "rank": 198
     },
     {
-     "name": "ENMAX",
-     "slug": "enmax",
-     "description": "ENMAX Corporation is the Calgary-based energy company owned outright by The City of Calgary, describing itself on its own about page as \"a regulated wires company, a competitive power generator and an energy retailer\" operating \"across Alberta and Maine.\" It spans three tiers of the value chain at once: ENMAX Power owns and operates the regulated electricity distribution and transmission system inside Calgary, ENMAX Energy generates power and sells electricity and natural gas into Alberta's deregulated retail market under the Easymax brand, and Versant Power — acquired from Emera in 2020 — is the transmission and distribution utility for northern and eastern Maine. Its API posture is the exact inverse of the Ontario utilities it is usually compared to, and the inversion is the finding. No consumer energy data mandate binds ENMAX anywhere it operates: Alberta has no Green Button regulation, Ontario's O. Reg. 633/21 does not reach across the provincial border, Canada has no national equivalent, and Maine imposes no Green Button obligation on Versant Power. Unmandated, ENMAX built nothing — its own support documentation states plainly that the Energy Insights usage view inside a customer's Easymax account \"is view-only within your online account and can't be exported at this time,\" which is a harder closure than most: not merely no API, but no CSV, no XML, and no Green Button either. There is no developer portal, no developer, api, docs or data subdomain, no OpenAPI, and no published third-party data path. What ENMAX does publish openly is grid data. Its Hosting Capacity, Load Capacity and Service Area maps, linked from enmax.com/system-resources, are ArcGIS Online web applications backed by ArcGIS REST feature services that answer anonymous machine-readable queries with no key, no signup and no terms — distribution-feeder DER hosting headroom and remaining load capacity for the Calgary service territory, the data a solar or storage developer actually needs. ENMAX never calls this an API and documents none of it, but it is real, it is open, and it is queryable. Wide open on grid data, completely shut on customer data.",
-     "score": 23.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 33.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 199
-    },
-    {
      "name": "Wyvern",
      "slug": "wyvern",
      "description": "Wyvern is a Canadian space technology company operating the world's first commercial hyperspectral satellite constellation. Its Dragonette satellites deliver 31-band VNIR imagery at 5.3 metre ground sampling distance for agriculture, forestry, energy, mining, and defence use cases. Wyvern publishes an Open Data Program of free hyperspectral imagery delivered as a public STAC 1.0.0 catalog, alongside a knowledge centre, data product guide, and open notebooks for working with its imagery.",
@@ -8277,7 +8240,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 199
     },
     {
      "name": "AES Corporation",
@@ -8322,7 +8285,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 200
     },
     {
      "name": "Climate-X",
@@ -8367,7 +8330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 201
     },
     {
      "name": "Waste Connections",
@@ -8405,7 +8368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 202
     },
     {
      "name": "Supplier",
@@ -8442,7 +8405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 203
     },
     {
      "name": "Bureau of Land Management",
@@ -8480,7 +8443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 204
     },
     {
      "name": "Uppercase",
@@ -8517,7 +8480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 205
     },
     {
      "name": "dClimate",
@@ -8555,7 +8518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 206
     },
     {
      "name": "International Energy Agency (IEA)",
@@ -8599,7 +8562,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 207
     },
     {
      "name": "Sharethrough",
@@ -8637,7 +8600,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 208
     },
     {
      "name": "Avetta",
@@ -8675,7 +8638,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 209
     },
     {
      "name": "Brookfield Asset Management",
@@ -8713,7 +8676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 210
     },
     {
      "name": "AerisWeather",
@@ -8751,7 +8714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 211
     },
     {
      "name": "Bureau of Safety and Environmental Enforcement",
@@ -8789,7 +8752,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 212
     },
     {
      "name": "TO THE MARKET",
@@ -8826,7 +8789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 213
     },
     {
      "name": "Nova Scotia Power",
@@ -8870,7 +8833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 214
     },
     {
      "name": "OVO Energy",
@@ -8914,7 +8877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 215
     },
     {
      "name": "EnergyHub",
@@ -8958,7 +8921,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "Grubbly Farms",
@@ -8995,7 +8958,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "CeresAI",
@@ -9040,7 +9003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "EarthOptics",
@@ -9077,7 +9040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "Satellogic",
@@ -9122,7 +9085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "Deloitte",
@@ -9160,7 +9123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "UrbanFootprint",
@@ -9197,7 +9160,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "Ecologi",
@@ -9235,7 +9198,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "Sustaira",
@@ -9273,7 +9236,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "BreezoMeter",
@@ -9311,7 +9274,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "Libryo",
@@ -9349,7 +9312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "Climeworks",
@@ -9393,7 +9356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 227
     },
     {
      "name": "Copernicus Marine",
@@ -9438,7 +9401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 228
     },
     {
      "name": "GoodLeap",
@@ -9476,7 +9439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 229
     },
     {
      "name": "Eliq",
@@ -9521,7 +9484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 230
     },
     {
      "name": "Rhythmos",
@@ -9565,7 +9528,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 231
     },
     {
      "name": "terralayr",
@@ -9609,7 +9572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 232
     },
     {
      "name": "Allbirds",
@@ -9641,6 +9604,43 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 233
+    },
+    {
+     "name": "Ascend Elements",
+     "slug": "ascend-elements",
+     "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
+     "score": 19.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 16.3,
+      "governance": 11.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.8,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 5
@@ -491,7 +491,7 @@ plans:
 - name: Typesense Plans Pricing
   plan_count: 5
   slug: typesense-plans-pricing
-random_paper: 8
+random_paper: 42
 rate_limits:
 - limit_count: 3
   name: Typesense Rate Limits
@@ -507,16 +507,16 @@ rules:
   slug: typesense-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.1
-  delta: -3.2
+  composite: 56.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.3
+    contract_quality: 71.6
     developer_ergonomics: 21.7
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 59.3
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     contracts:
@@ -524,8 +524,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/screenshots/typesense-2026-06-20T195907.png
 security:

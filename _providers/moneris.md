@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
-    idempotency: documented
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-07-28'
+  score: 69.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ overview: 'Moneris publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Moneris'' developer surface includes authentication, sandbox, getting-started guide, changelog, signup flow, documentation, engineering blog, and 26 more developer resources.'
-random_paper: 27
+random_paper: 5
 scopes:
 - name: Moneris Scopes
   scope_count: 14
@@ -224,21 +224,21 @@ scopes:
   summary_line: 14 scopes · clientCredentials
 score:
   band: strong
-  composite: 57.1
-  delta: -1.6
+  composite: 61.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 51.6
+    contract_quality: 73.8
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 58.7
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -250,8 +250,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

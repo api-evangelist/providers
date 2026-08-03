@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: 'Partner-gated Upload/Download integration that pushes ACORD-based application and submission data from an agency management system (AMS) into the Semsee platform for multi-carrier quoting. No public, '
@@ -109,7 +109,7 @@ plans:
 - name: Semsee Plans Pricing
   plan_count: 3
   slug: semsee-plans-pricing
-random_paper: 68
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Semsee Rate Limits
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.3
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 32.3
@@ -125,16 +125,16 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.3
+  previous_composite: 29.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Semsee Domain Security

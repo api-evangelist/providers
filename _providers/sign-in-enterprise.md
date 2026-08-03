@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-07-28'
+  score: 53.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ overview: 'Sign In Enterprise publishes 14 APIs on the [APIs.io](https://apis.io
 
 
   Sign In Enterprise''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, and 24 more developer resources.'
-random_paper: 23
+random_paper: 22
 scopes:
 - name: Sign In Enterprise Scopes
   scope_count: 48
@@ -233,16 +233,16 @@ scopes:
   summary_line: 48 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.5
-  delta: -1.4
+  composite: 53.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.5
+    contract_quality: 71.6
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 53.9
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -253,8 +253,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

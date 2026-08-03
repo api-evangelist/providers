@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 39.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,19 +187,19 @@ overview: 'Sofar Ocean publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Sofar Ocean''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 21 more developer resources.'
-random_paper: 36
+random_paper: 57
 score:
   band: developing
-  composite: 53.0
-  delta: -1.4
+  composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 72.0
+    contract_quality: 72.1
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 54.4
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,8 +210,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

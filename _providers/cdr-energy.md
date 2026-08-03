@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-07-28'
+  score: 45.9
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The ACCC-operated Consumer Data Right Register, the ecosystem's source of truth for who is allowed to participate. Unauthenticated endpoints return the energy data holder brand summary (84 brands with
@@ -249,9 +249,9 @@ overview: 'Consumer Data Right (Energy) publishes 6 APIs on the [APIs.io](https:
 
 
   Consumer Data Right (Energy)''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, changelog, and 35 more developer resources.'
-random_paper: 24
+random_paper: 58
 rate_limits:
-- limit_count: 0
+- limit_count: 6
   name: Cdr Energy Rate Limits
   slug: cdr-energy-rate-limits
 scopes:
@@ -260,21 +260,21 @@ scopes:
   slug: cdr-energy-scopes
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 50.6
-  delta: -4.5
+  band: strong
+  composite: 58.3
+  delta: 3.4
   facets:
     commercial_clarity: 7.9
-    contract_quality: 51.6
+    contract_quality: 64.2
     developer_ergonomics: 79.9
     discoverability: 83.3
     governance: 20.8
-    operational_transparency: 68.4
-  previous_composite: 55.1
+    operational_transparency: 100.0
+  previous_composite: 54.9
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 16.7
       derived: 0
       marker_coverage: 0.0
       total: 6
@@ -285,9 +285,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 52.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 63.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

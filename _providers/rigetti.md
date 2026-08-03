@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -388,7 +388,7 @@ plans:
 - name: Rigetti Plans Pricing
   plan_count: 6
   slug: rigetti-plans-pricing
-random_paper: 22
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Rigetti Rate Limits
@@ -404,16 +404,16 @@ rules:
   slug: rigetti-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 66.5
-  delta: -4.3
+  composite: 67.0
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 72.8
+    contract_quality: 74.8
     developer_ergonomics: 65.2
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 70.8
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     contracts:
@@ -421,8 +421,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/screenshots/rigetti-2026-06-20T193115.png
 security:

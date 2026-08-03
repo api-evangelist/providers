@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 13
 apis:
 - description: Admin endpoints
@@ -144,23 +144,23 @@ overview: 'Recall publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Recall''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 53
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Recall Rate Limits
   slug: recall-rate-limits
 score:
   band: thin
-  composite: 40.3
+  composite: 41.4
   delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 54.6
+    contract_quality: 59.3
     developer_ergonomics: 47.8
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 40.3
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -170,8 +170,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

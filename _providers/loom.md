@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Embed Loom's recording experience directly into your web app. The recordSDK lets users record screen, mic, and camera, and uploads the resulting video to a Loom-hosted account. Authenticated via OAuth
@@ -120,7 +120,7 @@ plans:
 - name: Loom Plans Pricing
   plan_count: 4
   slug: loom-plans-pricing
-random_paper: 29
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Loom Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.8
-  delta: 8.3
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 43.2
@@ -136,10 +136,10 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 28.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 36.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loom/refs/heads/main/screenshots/loom-2026-06-20T184719.png
 security:
 - kind: domain-security

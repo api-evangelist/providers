@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -341,7 +341,7 @@ plans:
 - name: Rackspace Technology Plans Pricing
   plan_count: 1
   slug: rackspace-technology-plans-pricing
-random_paper: 20
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Rackspace Technology Rate Limits
@@ -365,16 +365,16 @@ rules:
   slug: rackspace-technology-rules
 score:
   band: developing
-  composite: 50.4
-  delta: -7.1
+  composite: 43.0
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 58.2
+    contract_quality: 28.8
     developer_ergonomics: 54.3
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 57.5
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -382,9 +382,9 @@ score:
       derived: 19
       marker_coverage: 100.0
       total: 19
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png
 security:
 - kind: authentication

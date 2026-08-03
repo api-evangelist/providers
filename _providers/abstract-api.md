@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -833,7 +833,7 @@ plans:
 - name: Abstract Api Plans Pricing
   plan_count: 5
   slug: abstract-api-plans-pricing
-random_paper: 63
+random_paper: 71
 rate_limits:
 - limit_count: 6
   name: Abstract Api Rate Limits
@@ -856,17 +856,17 @@ rules:
     warn: 17
   slug: abstract-api-spectral-rules
 score:
-  band: strong
-  composite: 63.0
-  delta: -7.6
+  band: developing
+  composite: 54.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 68.6
+    contract_quality: 32.4
     developer_ergonomics: 45.7
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 70.6
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     contracts:
@@ -874,9 +874,9 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/screenshots/abstract-api-2026-06-20T163436.png
 security:
 - kind: authentication

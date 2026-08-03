@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ overview: 'ManageEngine ServiceDesk Plus publishes 1 API on the [APIs.io](https:
 
 
   ManageEngine ServiceDesk Plus'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 33
+random_paper: 58
 scopes:
 - name: Servicedesk Plus Scopes
   scope_count: 5
@@ -122,16 +122,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.1
-  delta: -1.8
+  composite: 29.1
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.9
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -139,8 +139,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/screenshots/servicedesk-plus-2026-06-20T193729.png
 security:

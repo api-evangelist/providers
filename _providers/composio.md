@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 3
@@ -561,7 +561,7 @@ plans:
 - name: Composio Plans Pricing
   plan_count: 4
   slug: composio-plans-pricing
-random_paper: 53
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Composio Rate Limits
@@ -585,16 +585,16 @@ rules:
   slug: composio-rules
 score:
   band: exemplar
-  composite: 70.3
-  delta: -0.7
+  composite: 71.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.4
+    contract_quality: 66.5
     developer_ergonomics: 73.9
     discoverability: 87.0
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 71.0
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -604,8 +604,8 @@ score:
       marker_coverage: 0.0
       total: 38
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/screenshots/composio-2026-06-20T174834.png
 security:

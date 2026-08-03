@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-07-28'
+  score: 30.2
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -103,11 +103,11 @@ overview: 'Blassa Inc. is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Blassa Inc.''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: thin
   composite: 35.0
-  delta: 7.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -115,10 +115,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 35.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blassa-inc/refs/heads/main/screenshots/blassa-inc-2026-07-25T203300.png
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ plans:
 - name: Abortion Policy Api Plans Pricing
   plan_count: 3
   slug: abortion-policy-api-plans-pricing
-random_paper: 36
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Abortion Policy Api Rate Limits
@@ -230,16 +230,16 @@ rules:
   slug: abortion-policy-api-spectral-rules
 score:
   band: developing
-  composite: 50.2
-  delta: -9.4
+  composite: 42.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.8
+    contract_quality: 31.0
     developer_ergonomics: 32.6
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 59.6
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -253,9 +253,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/screenshots/abortion-policy-api-2026-06-20T161254.png
 security:
 - kind: authentication

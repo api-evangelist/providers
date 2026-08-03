@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: flavored
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.9
-  scored_at: '2026-07-28'
+  score: 57.9
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The Accounts API from Brale — 4 operation(s) for accounts.
@@ -74,6 +74,10 @@ collections:
   name: Brale Accounts Webhooks API
   slug: postman-brale-webhooks-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/brale/overview
 - group: other
   title: ''
   type: AgentCard
@@ -248,8 +252,8 @@ overview: 'Brale publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Brale catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Brale''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 32 more developer resources.'
-random_paper: 26
+  Brale''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 33 more developer resources.'
+random_paper: 43
 scopes:
 - name: Brale Scopes
   scope_count: 20
@@ -257,16 +261,16 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: strong
-  composite: 60.9
-  delta: -4.5
+  composite: 61.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.4
+    contract_quality: 69.8
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 65.4
+  previous_composite: 61.7
   provenance:
     conformance: derived
     contracts:
@@ -282,8 +286,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/screenshots/brale-2026-07-25T203713.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: Apache Zookeeper Plans Pricing
   plan_count: 3
   slug: apache-zookeeper-plans-pricing
-random_paper: 77
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Apache Zookeeper Rate Limits
@@ -181,16 +181,16 @@ rules:
   slug: apache-zookeeper-spectral-rules
 score:
   band: developing
-  composite: 46.0
-  delta: -3.7
+  composite: 47.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 49.2
+    contract_quality: 53.5
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 27.1
     operational_transparency: 47.4
-  previous_composite: 49.7
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +198,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/screenshots/apache-zookeeper-2026-06-20T172200.png
 security:

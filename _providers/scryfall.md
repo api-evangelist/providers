@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-07-28'
+  score: 26.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Scryfall REST API exposes Magic - The Gathering card data, set metadata, Oracle rulings, symbology, catalogs of in-game data points, daily bulk-data exports, and card-object migration records. The
@@ -345,7 +345,7 @@ plans:
 - name: Scryfall Plans Pricing
   plan_count: 2
   slug: scryfall-plans-pricing
-random_paper: 44
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Scryfall Rate Limits
@@ -369,16 +369,16 @@ rules:
   slug: scryfall-rules
 score:
   band: strong
-  composite: 57.1
-  delta: -4.7
+  composite: 57.6
+  delta: 0.5
   facets:
     commercial_clarity: 52.6
-    contract_quality: 64.5
+    contract_quality: 66.7
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 61.8
+  previous_composite: 57.1
   provenance:
     contracts:
       callable: 100.0
@@ -391,8 +391,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/screenshots/scryfall-2026-06-20T193609.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: Core @coinbase/onchainkit npm package providing React components and TypeScript utilities for onchain apps. Includes Wallet, Identity, Transaction, Swap, Checkout, Fund, NFT, Token, and Earn component
@@ -105,7 +105,7 @@ plans:
 - name: Coinbase Onchain Kit Plans Pricing
   plan_count: 1
   slug: coinbase-onchain-kit-plans-pricing
-random_paper: 22
+random_paper: 90
 rate_limits:
 - limit_count: 2
   name: Coinbase Onchain Kit Rate Limits
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.3
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -121,9 +121,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 18.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase-onchain-kit/refs/heads/main/screenshots/coinbase-onchain-kit-2026-06-20T174729.png
 security:

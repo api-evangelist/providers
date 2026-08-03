@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.5
-  scored_at: '2026-07-28'
+  score: 30.4
+  scored_at: '2026-08-03'
 api_count: 18
 apis:
 - description: The Aramex API from Mile — 3 operation(s) for aramex.
@@ -190,19 +190,19 @@ overview: 'Mile publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mile''s developer surface includes documentation, API reference, engineering blog, signup flow, support, pricing, authentication, and 13 more developer resources.'
-random_paper: 13
+random_paper: 43
 score:
   band: developing
-  composite: 43.2
-  delta: -1.2
+  composite: 44.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.7
+    contract_quality: 65.9
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 44.4
+  previous_composite: 44.0
   provenance:
     conformance: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

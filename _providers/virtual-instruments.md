@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-07-28'
+  score: 41.0
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Global View APIs for alerts, external alert ingestion, and on-prem storage dashboards. Function-based JSON POST bodies over a Solr-style query engine, served from the Virtana cloud platform.
@@ -177,11 +177,11 @@ overview: 'Virtana (Virtual Instruments) publishes 3 APIs on the [APIs.io](https
 
 
   Virtana (Virtual Instruments)''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 21 more developer resources.'
-random_paper: 80
+random_paper: 53
 score:
   band: developing
   composite: 53.0
-  delta: 8.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -189,13 +189,13 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 44.9
+  previous_composite: 53.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Virtual Instruments Authentication

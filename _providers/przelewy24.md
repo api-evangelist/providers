@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -1413,7 +1413,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1429,16 +1429,16 @@ rules:
   slug: przelewy24-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.5
-  delta: -5.6
+  composite: 45.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.2
+    contract_quality: 64.5
     developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 15.8
-  previous_composite: 50.1
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1452,9 +1452,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png
 security:
 - kind: authentication

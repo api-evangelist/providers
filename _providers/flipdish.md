@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 323
   human_in_the_loop: 10
@@ -3291,7 +3291,7 @@ plans:
 - name: Flipdish Plans Pricing
   plan_count: 3
   slug: flipdish-plans-pricing
-random_paper: 31
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Flipdish Rate Limits
@@ -3320,16 +3320,16 @@ scopes:
   summary_line: 1 scope · implicit/clientCredentials
 score:
   band: strong
-  composite: 59.1
-  delta: -5.5
+  composite: 59.3
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 70.8
+    contract_quality: 72.0
     developer_ergonomics: 63.0
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 64.6
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     contracts:
@@ -3343,9 +3343,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/screenshots/flipdish-2026-06-20T181315.png
 security:
 - kind: authentication

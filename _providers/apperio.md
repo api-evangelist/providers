@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -179,23 +179,23 @@ overview: 'Apperio publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Apperio''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 20 more developer resources.'
-random_paper: 14
+random_paper: 87
 rate_limits:
 - limit_count: 2
   name: Apperio Rate Limits
   slug: apperio-rate-limits
 score:
   band: developing
-  composite: 50.6
-  delta: -1.4
+  composite: 52.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 46.6
+    contract_quality: 54.1
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 52.0
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +206,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/screenshots/apperio-2026-07-25T200728.png
 security:

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -160,11 +160,11 @@ overview: 'RentSpree is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   RentSpree''s developer surface includes pricing, engineering blog, GitHub presence, YouTube channel, and 25 more developer resources.'
-random_paper: 0
+random_paper: 34
 score:
   band: emerging
   composite: 16.0
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -172,15 +172,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 18.5
+  previous_composite: 16.0
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentspree/refs/heads/main/screenshots/rentspree-2026-06-20T192855.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-07-28'
+  score: 38.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ plans:
 - name: Axiom Plans Pricing
   plan_count: 3
   slug: axiom-plans-pricing
-random_paper: 50
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Axiom Rate Limits
@@ -224,16 +224,16 @@ rules:
   slug: axiom-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: -3.0
+  composite: 53.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 50.8
+    contract_quality: 55.0
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 27.1
     operational_transparency: 52.6
-  previous_composite: 55.2
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     contracts:
@@ -241,8 +241,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom/refs/heads/main/screenshots/axiom-2026-06-20T172818.png
 security:

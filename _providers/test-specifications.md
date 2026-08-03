@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: The OpenAPI Specification (OAS) is the de-facto standard for describing RESTful APIs. OpenAPI documents serve as machine-readable test specifications that tools such as Dredd, Schemathesis, and Postma
@@ -118,7 +118,7 @@ plans:
 - name: Test Specifications Plans Pricing
   plan_count: 3
   slug: test-specifications-plans-pricing
-random_paper: 17
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Test Specifications Rate Limits
@@ -135,7 +135,7 @@ rules:
 score:
   band: thin
   composite: 31.8
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 12.9
@@ -143,9 +143,9 @@ score:
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 36.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 31.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-specifications/refs/heads/main/screenshots/test-specifications-2026-06-20T195154.png
 security:

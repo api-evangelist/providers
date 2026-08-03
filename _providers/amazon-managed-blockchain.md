@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1561,7 +1561,7 @@ plans:
 - name: Amazon Managed Blockchain Plans Pricing
   plan_count: 3
   slug: amazon-managed-blockchain-plans-pricing
-random_paper: 31
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Blockchain Rate Limits
@@ -1585,16 +1585,16 @@ rules:
   slug: amazon-managed-blockchain-spectral-rules
 score:
   band: strong
-  composite: 65.2
-  delta: -3.1
+  composite: 65.9
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 74.4
+    contract_quality: 77.1
     developer_ergonomics: 43.5
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 68.3
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1602,8 +1602,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/screenshots/amazon-managed-blockchain-2026-06-20T171732.png
 security:

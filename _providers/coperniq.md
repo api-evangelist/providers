@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -275,23 +275,23 @@ overview: 'Coperniq publishes 28 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coperniq''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 25 more developer resources.'
-random_paper: 45
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Coperniq Rate Limits
   slug: coperniq-rate-limits
 score:
   band: developing
-  composite: 54.0
-  delta: -3.5
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 65.6
+    contract_quality: 68.8
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 57.5
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,8 +308,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/screenshots/coperniq-2026-07-25T210410.png
 security:

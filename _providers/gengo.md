@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-07-28'
+  score: 34.0
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: Account information, stats, balance and preferred translators.
@@ -182,19 +182,19 @@ overview: 'Gengo publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Gengo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 36
+random_paper: 53
 score:
   band: developing
-  composite: 48.5
-  delta: -2.1
+  composite: 48.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.9
+    contract_quality: 62.8
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 50.6
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gengo/refs/heads/main/screenshots/gengo-2026-07-25T215611.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ plans:
 - name: Httpstat Plans Pricing
   plan_count: 3
   slug: httpstat-plans-pricing
-random_paper: 72
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Httpstat Rate Limits
@@ -101,17 +101,17 @@ rules:
     warn: 0
   slug: httpstat-rules
 score:
-  band: emerging
-  composite: 27.6
-  delta: -5.3
+  band: thin
+  composite: 28.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 47.5
+    contract_quality: 51.9
     developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 10.4
     operational_transparency: 31.6
-  previous_composite: 32.9
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     contracts:
@@ -125,9 +125,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Httpstat Domain Security

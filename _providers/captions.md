@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -190,19 +190,19 @@ plans:
 - name: Captions Plans
   plan_count: 5
   slug: captions-plans
-random_paper: 45
+random_paper: 10
 score:
   band: developing
-  composite: 51.7
-  delta: -2.7
+  composite: 53.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 41.2
+    contract_quality: 46.2
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 54.4
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -213,8 +213,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
 security:

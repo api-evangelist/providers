@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    idempotency: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 52.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -3263,7 +3263,7 @@ plans:
 - name: Aws App Mesh Plans Pricing
   plan_count: 3
   slug: aws-app-mesh-plans-pricing
-random_paper: 23
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Aws App Mesh Rate Limits
@@ -3287,16 +3287,16 @@ rules:
   slug: aws-app-mesh-spectral-rules
 score:
   band: strong
-  composite: 65.0
-  delta: -3.5
+  composite: 65.5
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 72.9
+    contract_quality: 75.2
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 68.5
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     contracts:
@@ -3304,8 +3304,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/screenshots/aws-app-mesh-2026-06-20T172740.png
 security:

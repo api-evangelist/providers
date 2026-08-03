@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The HTX Spot REST API provides HTTP access to reference data (system status, symbols, currencies, chains), market data (klines, tickers, depth, trades, 24h summaries), account and balance information,
@@ -131,23 +131,23 @@ overview: 'HTX publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   HTX''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 13 more developer resources.'
-random_paper: 12
+random_paper: 55
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Htx Rate Limits
   slug: htx-rate-limits
 score:
   band: thin
-  composite: 31.1
-  delta: -2.7
+  composite: 33.4
+  delta: 2.3
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 56.5
     discoverability: 79.6
     governance: 3.1
-    operational_transparency: 21.1
-  previous_composite: 33.8
+    operational_transparency: 42.1
+  previous_composite: 31.1
   provenance:
     conformance: derived
   regulatory:
@@ -156,8 +156,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/htx/refs/heads/main/screenshots/htx-2026-07-25T221552.png
 security:

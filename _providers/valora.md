@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Divvi Hooks API (positions and shortcuts), served under /hooks-api
@@ -156,19 +156,19 @@ overview: 'Valora publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Valora''s developer surface includes engineering blog, support, documentation, sandbox, changelog, authentication, and 17 more developer resources.'
-random_paper: 71
+random_paper: 75
 score:
   band: thin
-  composite: 36.8
-  delta: -5.9
+  composite: 31.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 40.8
+    contract_quality: 14.4
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 42.7
+  previous_composite: 31.2
   provenance:
     conformance: derived
     contracts:
@@ -184,9 +184,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Valora Authentication

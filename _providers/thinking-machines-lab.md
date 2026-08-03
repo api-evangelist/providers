@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -164,7 +164,7 @@ overview: 'Thinking Machines Lab is profiled on the [APIs.io](https://apis.io/) 
 
 
   Thinking Machines Lab''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 43
+random_paper: 3
 scopes:
 - name: Thinking Machines Lab Scopes
   scope_count: 4
@@ -173,7 +173,7 @@ scopes:
 score:
   band: thin
   composite: 35.1
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -181,11 +181,11 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 55.3
-  previous_composite: 34.6
+  previous_composite: 35.1
   provenance:
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

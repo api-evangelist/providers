@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: WGL Energy Services is an unregulated retail energy subsidiary of WGL Holdings that sells natural gas and electricity to commercial, industrial, and residential customers in Maryland, Virginia, Delawa
@@ -135,7 +135,7 @@ press:
 - date: '2026-05-25'
   title: Climate and Energy
   url: https://www.asyousow.org/our-work/climate-and-energy
-random_paper: 1
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Wgl Holdings Rate Limits
@@ -152,7 +152,7 @@ rules:
 score:
   band: emerging
   composite: 27.7
-  delta: -7.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 12.9
@@ -160,16 +160,16 @@ score:
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 34.9
+  previous_composite: 27.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Wgl Holdings Domain Security

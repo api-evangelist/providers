@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: verified
     mcp_server: true
     openapi_examples: partial
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.9
-  scored_at: '2026-07-28'
+  score: 73.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -360,7 +360,7 @@ overview: 'Lightspark publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
-random_paper: 15
+random_paper: 36
 rules:
 - name: Lightspark API Rules
   rule_count: 13
@@ -372,16 +372,16 @@ rules:
   slug: lightspark-grid-spectral
 score:
   band: exemplar
-  composite: 66.6
-  delta: -2.9
+  composite: 67.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.5
+    contract_quality: 75.5
     developer_ergonomics: 86.4
     discoverability: 92.6
     governance: 47.9
     operational_transparency: 63.2
-  previous_composite: 69.5
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -398,8 +398,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/screenshots/lightspark-2026-07-25T225132.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-07-28'
+  score: 40.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -248,19 +248,19 @@ overview: 'Defacto publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Defacto''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 70
+random_paper: 61
 score:
   band: developing
-  composite: 54.4
-  delta: -0.3
+  composite: 55.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.6
+    contract_quality: 68.9
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 54.7
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,8 +271,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defacto/refs/heads/main/screenshots/defacto-2026-07-25T211617.png
 security:

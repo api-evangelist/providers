@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-07-28'
+  score: 50.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -194,19 +194,19 @@ overview: 'Carry1st publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Carry1st''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 21 more developer resources.'
-random_paper: 5
+random_paper: 65
 score:
   band: developing
-  composite: 48.3
-  delta: -3.8
+  composite: 48.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 73.7
+    contract_quality: 76.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 52.1
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +223,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/screenshots/carry1st-2026-07-25T204645.png
 security:

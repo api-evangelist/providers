@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -117,23 +117,23 @@ press:
 - date: '2026-05-25'
   title: Delaware Market Conduct Examination Report The Lincoln ...
   url: https://insurance.delaware.gov/wp-content/uploads/sites/15/2025/09/LincolnNationalLifeInsuranceCo2024web.pdf
-random_paper: 10
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Lincoln National Rate Limits
   slug: lincoln-national-rate-limits
 score:
   band: thin
-  composite: 28.3
-  delta: -2.3
+  composite: 29.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.9
+    contract_quality: 59.7
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 30.6
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -147,8 +147,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/screenshots/lincoln-national-2026-06-20T184534.png
 security:

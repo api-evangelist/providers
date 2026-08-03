@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,11 +79,11 @@ overview: 'Bluecoat (Symantec) is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Bluecoat (Symantec)''s developer surface includes developer portal, documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 38
+random_paper: 50
 score:
   band: emerging
   composite: 15.1
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -91,9 +91,9 @@ score:
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 15.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecoat-symantec/refs/heads/main/screenshots/bluecoat-symantec-2026-07-25T203444.png
 security:

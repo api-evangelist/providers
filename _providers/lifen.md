@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-07-28'
+  score: 47.1
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: The CommunicationRequest API from Lifen — 3 operation(s) for communicationrequest.
@@ -240,9 +240,9 @@ overview: 'Lifen publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lifen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
-random_paper: 34
+random_paper: 51
 rate_limits:
-- limit_count: 0
+- limit_count: 6
   name: Lifen Rate Limits
   slug: lifen-rate-limits
 scopes:
@@ -252,16 +252,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.9
-  delta: -3.4
+  composite: 61.0
+  delta: 3.5
   facets:
     commercial_clarity: 42.1
-    contract_quality: 64.3
+    contract_quality: 67.3
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 44.7
-  previous_composite: 60.3
+    operational_transparency: 76.3
+  previous_composite: 57.5
   provenance:
     conformance: first-party
     contracts:
@@ -277,8 +277,8 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png
 security:

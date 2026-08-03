@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -238,19 +238,19 @@ overview: 'The San Francisco Compute Company publishes 14 APIs on the [APIs.io](
 
 
   The San Francisco Compute Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 28 more developer resources.'
-random_paper: 19
+random_paper: 69
 score:
   band: strong
-  composite: 56.2
-  delta: 0.4
+  composite: 57.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 58.1
+    contract_quality: 62.4
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 55.8
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -261,8 +261,8 @@ score:
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

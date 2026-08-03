@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Alloovium's public REST API v2 for document intelligence over construction projects — vault (projects, documents, hybrid search), chat (grounded, cited answers), workflows (automation runs), and templ
@@ -160,7 +160,7 @@ overview: 'Alloovium publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Alloovium''s developer surface includes documentation, API reference, getting-started guide, changelog, pricing, support, authentication, and 20 more developer resources.'
-random_paper: 0
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: Alloovium Rate Limits
@@ -173,7 +173,7 @@ scopes:
 score:
   band: developing
   composite: 43.0
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 32.3
@@ -181,13 +181,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 44.3
+  previous_composite: 43.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/screenshots/alloovium-2026-07-25T195710.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 4
@@ -281,7 +281,7 @@ plans:
 - name: Suprsend Plans Pricing
   plan_count: 4
   slug: suprsend-plans-pricing
-random_paper: 64
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Suprsend Rate Limits
@@ -297,16 +297,16 @@ rules:
   slug: suprsend-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.4
-  delta: -7.8
+  composite: 55.3
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 69.1
+    contract_quality: 73.3
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 62.2
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -320,9 +320,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/screenshots/suprsend-2026-06-20T194803.png
 security:
 - kind: authentication

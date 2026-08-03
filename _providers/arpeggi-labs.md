@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Split an audio track into vocal and instrument stems.
@@ -160,23 +160,23 @@ overview: 'Arpeggi Labs publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Arpeggi Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 50
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Arpeggi Labs Rate Limits
   slug: arpeggi-labs-rate-limits
 score:
   band: developing
-  composite: 46.1
-  delta: -4.3
+  composite: 46.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 50.4
+  previous_composite: 46.8
   provenance:
     conformance: derived
     contracts:
@@ -192,8 +192,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/screenshots/arpeggi-labs-2026-07-25T201241.png
 security:

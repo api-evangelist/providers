@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -206,23 +206,23 @@ overview: 'LeadGenius publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LeadGenius'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 73
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Leadgenius Rate Limits
   slug: leadgenius-rate-limits
 score:
   band: developing
-  composite: 53.1
-  delta: -1.5
+  composite: 53.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 73.6
+    contract_quality: 75.9
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 54.6
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,8 +233,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/screenshots/leadgenius-2026-07-25T224714.png
 security:

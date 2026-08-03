@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The official Containerfile reference shipped with the containers/common project. Documents every Containerfile instruction, syntax, and the ways Containerfile differs from Dockerfile, including secret
@@ -97,7 +97,7 @@ plans:
 - name: Containerfile Plans Pricing
   plan_count: 3
   slug: containerfile-plans-pricing
-random_paper: 67
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Containerfile Rate Limits
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.1
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -113,9 +113,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 25.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 23.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/containerfile/refs/heads/main/screenshots/containerfile-2026-06-20T174922.png
 security:

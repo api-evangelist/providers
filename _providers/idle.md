@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 4
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -184,16 +184,16 @@ rules:
   slug: idle-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.6
-  delta: -4.4
+  composite: 49.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.4
+    contract_quality: 71.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 53.0
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/screenshots/idle-2026-06-20T183210.png
 security:

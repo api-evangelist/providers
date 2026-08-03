@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: Pricing, prepaid balance, and checkout.
@@ -165,23 +165,23 @@ overview: 'Overshoot publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Overshoot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Overshoot Rate Limits
   slug: overshoot-rate-limits
 score:
   band: developing
-  composite: 42.2
-  delta: -2.3
+  composite: 43.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 43.5
+    contract_quality: 48.4
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 44.5
+  previous_composite: 43.4
   provenance:
     conformance: derived
     contracts:
@@ -191,8 +191,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -2586,7 +2586,7 @@ plans:
 - name: Amazon Well Architected Tool Plans Pricing
   plan_count: 3
   slug: amazon-well-architected-tool-plans-pricing
-random_paper: 27
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Amazon Well Architected Tool Rate Limits
@@ -2610,16 +2610,16 @@ rules:
   slug: amazon-well-architected-tool-spectral-rules
 score:
   band: exemplar
-  composite: 67.6
-  delta: -4.6
+  composite: 68.3
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
-    contract_quality: 74.1
+    contract_quality: 76.8
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 72.2
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     contracts:
@@ -2627,8 +2627,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/screenshots/amazon-well-architected-tool-2026-07-25T200017.png
 security:

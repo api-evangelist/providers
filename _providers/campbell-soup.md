@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Campbell's Kitchen API exposes the Campbell's Kitchen recipe and product catalog — including thousands of recipes across Campbell's, Swanson, Pace, Prego, and Pepperidge Farm brands — to developer
@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Campbell Soup uses AI to go from Mmm ...
   url: https://njbiz.com/campbell-soup-uses-ai-to-go-from-mmm-mmm-good-to-even-better/
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Campbell Soup Rate Limits
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.3
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -117,9 +117,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 9.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/screenshots/campbell-soup-2026-06-20T173906.png
 security:

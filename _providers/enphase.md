@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 45.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -247,9 +247,9 @@ plans:
 - name: Enphase Plans
   plan_count: 5
   slug: enphase-plans
-random_paper: 2
+random_paper: 75
 rate_limits:
-- limit_count: 0
+- limit_count: 8
   name: Enphase Rate Limits
   slug: enphase-rate-limits
 scopes:
@@ -259,16 +259,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.5
-  delta: -1.5
+  composite: 63.6
+  delta: 3.5
   facets:
     commercial_clarity: 76.3
-    contract_quality: 51.6
+    contract_quality: 63.6
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 39.5
-  previous_composite: 59.0
+    operational_transparency: 71.1
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,8 +280,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

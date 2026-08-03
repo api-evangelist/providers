@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-07-28'
+  score: 37.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -385,9 +385,9 @@ plans:
 - name: E2B Dev Plans Pricing
   plan_count: 3
   slug: e2b-dev-plans-pricing
-random_paper: 39
+random_paper: 43
 rate_limits:
-- limit_count: 0
+- limit_count: 8
   name: E2B Dev Rate Limits
   slug: e2b-dev-rate-limits
 rules:
@@ -400,17 +400,17 @@ rules:
     warn: 3
   slug: e2b-dev-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 61.8
-  delta: -2.9
+  band: exemplar
+  composite: 66.6
+  delta: 4.1
   facets:
     commercial_clarity: 68.4
-    contract_quality: 64.9
+    contract_quality: 67.9
     developer_ergonomics: 78.3
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 64.7
+    operational_transparency: 52.6
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     contracts:
@@ -418,8 +418,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/screenshots/e2b-dev-2026-06-20T180353.png
 security:

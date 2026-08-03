@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Server-to-server ingest/tracking API for sending AI interactions, events, feedback signals, and user identity into Raindrop. Bearer write-key auth; authorized requests return 204. Project targeting vi
@@ -167,7 +167,7 @@ overview: 'Raindrop publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Raindrop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, support, and 21 more developer resources.'
-random_paper: 43
+random_paper: 8
 scopes:
 - name: Raindrop Scopes
   scope_count: 0
@@ -176,7 +176,7 @@ scopes:
 score:
   band: thin
   composite: 40.1
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -184,13 +184,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 13.2
-  previous_composite: 39.1
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

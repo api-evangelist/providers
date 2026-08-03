@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -120,11 +120,11 @@ overview: 'Koala Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Koala Health''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 47
+random_paper: 55
 score:
   band: emerging
   composite: 22.3
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -132,7 +132,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 24.3
+  previous_composite: 22.3
   provenance:
     conformance: first-party
   regulatory:
@@ -141,8 +141,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koala-health/refs/heads/main/screenshots/koala-health-2026-07-25T224026.png
 security:

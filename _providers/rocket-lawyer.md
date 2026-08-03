@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -234,19 +234,19 @@ overview: 'Rocket Lawyer publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   Rocket Lawyer''s developer surface includes authentication, developer portal, getting-started guide, documentation, release notes, signup flow, support, and 29 more developer resources.'
-random_paper: 41
+random_paper: 23
 score:
   band: developing
-  composite: 42.2
-  delta: -2.6
+  composite: 43.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 52.5
+    contract_quality: 55.9
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 44.8
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -254,8 +254,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/screenshots/rocket-lawyer-2026-06-20T193152.png
 security:

@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-07-28'
+  score: 44.4
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Workspace-scoped REST API for embedding Improvado's data extraction, transformation, and load pipeline into agency and platform products. Manages data sources, connections, accounts, extraction templa
@@ -187,11 +187,11 @@ overview: 'Improvado publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Improvado''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 75
+random_paper: 27
 score:
   band: developing
   composite: 52.9
-  delta: 5.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -199,14 +199,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 50.0
-  previous_composite: 47.0
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/screenshots/improvado-2026-07-25T222205.png
 security:
 - kind: authentication

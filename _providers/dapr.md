@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-07-28'
+  score: 23.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -255,7 +255,7 @@ plans:
 - name: Dapr Plans Pricing
   plan_count: 1
   slug: dapr-plans-pricing
-random_paper: 13
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Dapr Rate Limits
@@ -287,16 +287,16 @@ rules:
   slug: dapr-rules
 score:
   band: developing
-  composite: 51.1
-  delta: -5.1
+  composite: 51.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.3
+    contract_quality: 73.7
     developer_ergonomics: 32.6
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 56.2
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -304,9 +304,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/screenshots/dapr-2026-06-20T175454.png
 security:
 - kind: domain-security

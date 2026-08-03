@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-07-28'
+  score: 47.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -34,9 +34,9 @@ apis:
 - description: The Third Party side of the OpenESPI reference implementation — ApplicationInformation, Authorization and RetailCustomer operations documented as legacy Swagger 1.2 resource listings served from GBA's
   name: Green Button Third Party (OpenESPI) API
   slug: green-button-third-party-api
-- description: The OAuth 2.0 / OpenID Connect authorization server the Green Button Alliance publishes as part of its OpenESPI reference implementation, and the only Green Button contract with a modern write surface
-  name: OpenESPI Authorization Server API
-  slug: openespi-authorization-server-api
+- description: Green Button Alliance OpenESPI Authorization Server API from Green Button Alliance — 12 path(s) described in OpenAPI.
+  name: Green Button Alliance OpenESPI Authorization Server API
+  slug: green-button-alliance-authorization-server-openapi
 artifact_total: 15
 asyncapis:
 - description: ''
@@ -272,7 +272,7 @@ overview: 'Green Button Alliance publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Green Button Alliance''s developer surface includes authentication, code examples, sandbox, support, pricing, signup flow, documentation, and 42 more developer resources.'
-random_paper: 62
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Green Button Alliance Rate Limits
@@ -284,16 +284,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.4
-  delta: 4.0
+  composite: 55.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.9
+    contract_quality: 62.7
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 31.3
     operational_transparency: 23.7
-  previous_composite: 51.4
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,8 +310,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 82.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

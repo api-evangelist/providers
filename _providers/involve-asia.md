@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -196,19 +196,19 @@ overview: 'Involve Asia publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Involve Asia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 0
+random_paper: 90
 score:
   band: developing
-  composite: 47.2
-  delta: -1.1
+  composite: 48.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 65.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 48.3
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,8 +219,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/screenshots/involve-asia-2026-07-25T222801.png
 security:

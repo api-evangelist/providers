@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -148,9 +148,9 @@ plans:
 - name: Zenserp Plans Pricing
   plan_count: 6
   slug: zenserp-plans-pricing
-random_paper: 37
+random_paper: 15
 rate_limits:
-- limit_count: 0
+- limit_count: 7
   name: Zenserp Rate Limits
   slug: zenserp-rate-limits
 rules:
@@ -164,16 +164,16 @@ rules:
   slug: zenserp-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.2
-  delta: -4.4
+  composite: 53.4
+  delta: 4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.9
+    contract_quality: 71.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 53.6
+    operational_transparency: 52.6
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +181,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/screenshots/zenserp-2026-06-20T201820.png
 security:

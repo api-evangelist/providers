@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -80,11 +80,11 @@ plans:
 - name: Theranest Plans Pricing
   plan_count: 5
   slug: theranest-plans-pricing
-random_paper: 72
+random_paper: 24
 score:
   band: emerging
   composite: 13.6
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -92,15 +92,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.9
+  previous_composite: 13.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

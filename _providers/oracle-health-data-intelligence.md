@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,23 +87,23 @@ plans:
 - name: Oracle Health Data Intelligence Plans Pricing
   plan_count: 3
   slug: oracle-health-data-intelligence-plans-pricing
-random_paper: 38
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Oracle Health Data Intelligence Rate Limits
   slug: oracle-health-data-intelligence-rate-limits
 score:
   band: thin
-  composite: 31.2
-  delta: -2.8
+  composite: 32.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 10.9
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.0
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -117,8 +117,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/screenshots/oracle-health-data-intelligence-2026-06-20T191145.png
 security:

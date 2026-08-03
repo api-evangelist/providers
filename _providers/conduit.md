@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -352,23 +352,23 @@ overview: 'Conduit publishes 52 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Conduit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 20
+random_paper: 93
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Conduit Rate Limits
   slug: conduit-rate-limits
 score:
-  band: developing
-  composite: 53.3
-  delta: 1.4
+  band: strong
+  composite: 58.9
+  delta: 4.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 28.8
+    contract_quality: 34.9
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 47.4
-  previous_composite: 51.9
+    operational_transparency: 78.9
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,8 +379,8 @@ score:
       total: 52
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conduit/refs/heads/main/screenshots/conduit-2026-07-25T210242.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-07-28'
+  score: 44.6
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: S3-compatible object storage REST API implementing Amazon S3 bucket and object operations (put/get/list/delete objects, multipart uploads, versioning, object locking, lifecycle, replication), authenti
@@ -186,11 +186,11 @@ overview: 'MinIO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   MinIO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 24 more developer resources.'
-random_paper: 48
+random_paper: 65
 score:
   band: strong
   composite: 56.4
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -198,13 +198,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 48.2
+  previous_composite: 56.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Minio Authentication

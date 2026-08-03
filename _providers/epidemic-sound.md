@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ plans:
 - name: Epidemic Sound Plans Pricing
   plan_count: 5
   slug: epidemic-sound-plans-pricing
-random_paper: 36
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Epidemic Sound Rate Limits
@@ -275,16 +275,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.5
-  delta: -2.2
+  composite: 49.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 59.7
+    contract_quality: 60.5
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 51.7
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -292,8 +292,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/screenshots/epidemic-sound-2026-06-20T180755.png
 security:

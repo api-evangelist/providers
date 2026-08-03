@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-07-28'
+  score: 45.7
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Public GraphQL Admin API for ikas stores — read and write products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhoo
@@ -159,7 +159,7 @@ overview: 'Ikas, IKAS Teknoloji AS publishes 1 API on the [APIs.io](https://apis
 
 
   Ikas, IKAS Teknoloji AS''s developer surface includes documentation, getting-started guide, sandbox, pricing, authentication, CLI, and 19 more developer resources.'
-random_paper: 38
+random_paper: 80
 scopes:
 - name: Ikas Ikas Teknoloji As Scopes
   scope_count: 10
@@ -168,7 +168,7 @@ scopes:
 score:
   band: thin
   composite: 40.6
-  delta: 6.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.6
@@ -176,14 +176,14 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 34.5
+  previous_composite: 40.6
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/screenshots/ikas-ikas-teknoloji-as-2026-07-25T222057.png
 security:
 - kind: authentication

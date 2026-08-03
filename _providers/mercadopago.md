@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -165,23 +165,23 @@ plans:
 - name: Mercadopago Plans Pricing
   plan_count: 1
   slug: mercadopago-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Mercadopago Rate Limits
   slug: mercadopago-rate-limits
 score:
   band: thin
-  composite: 31.9
-  delta: -2.7
+  composite: 32.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 28.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.6
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

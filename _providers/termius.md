@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Create a new Group
@@ -183,19 +183,19 @@ overview: 'Termius publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Termius'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 39
+random_paper: 17
 score:
   band: developing
-  composite: 50.1
-  delta: -2.5
+  composite: 51.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 47.5
+    contract_quality: 51.9
     developer_ergonomics: 53.8
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 52.6
+  previous_composite: 51.2
   provenance:
     conformance: derived
     contracts:
@@ -205,8 +205,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

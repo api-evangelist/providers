@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ overview: 'Code Ocean publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Code Ocean''s developer surface includes documentation, API reference, getting-started guide, authentication, and 14 more developer resources.'
-random_paper: 72
+random_paper: 24
 scopes:
 - name: Code Ocean Scopes
   scope_count: 4
@@ -145,16 +145,16 @@ scopes:
   summary_line: 4 scopes
 score:
   band: thin
-  composite: 39.2
-  delta: -3.2
+  composite: 39.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 62.5
     discoverability: 85.2
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 42.4
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -171,8 +171,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/screenshots/code-ocean-2026-07-25T205905.png
 security:

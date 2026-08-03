@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Sense Plans Pricing
   plan_count: 3
   slug: sense-plans-pricing
-random_paper: 50
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Sense Rate Limits
@@ -186,16 +186,16 @@ rules:
   slug: sense-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.9
-  delta: -9.0
+  composite: 49.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.7
+    contract_quality: 74.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 57.9
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -209,9 +209,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sense/refs/heads/main/screenshots/sense-2026-06-20T193703.png
 security:
 - kind: authentication

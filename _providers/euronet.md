@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'Euronet Worldwide publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   Euronet Worldwide''s developer surface includes authentication, API reference, pricing, engineering blog, documentation, signup flow, and 22 more developer resources.'
-random_paper: 32
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Euronet Rate Limits
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.2
-  delta: -5.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 32.3
@@ -193,7 +193,7 @@ score:
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 43.6
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,9 +205,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/screenshots/euronet-2026-07-25T213700.png
 security:
 - kind: authentication

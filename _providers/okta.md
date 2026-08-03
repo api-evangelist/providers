@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-07-28'
+  score: 42.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 210
   human_in_the_loop: 15
@@ -1956,7 +1956,7 @@ plans:
 - name: Okta Plans Pricing
   plan_count: 6
   slug: okta-plans-pricing
-random_paper: 21
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Okta Rate Limits
@@ -1988,16 +1988,16 @@ rules:
   slug: okta-rules
 score:
   band: exemplar
-  composite: 71.4
-  delta: -3.3
+  composite: 72.0
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 77.3
+    contract_quality: 79.6
     developer_ergonomics: 76.1
     discoverability: 59.3
     governance: 47.9
     operational_transparency: 68.4
-  previous_composite: 74.7
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     contracts:
@@ -2005,8 +2005,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

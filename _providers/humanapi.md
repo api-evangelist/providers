@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 43.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -180,19 +180,19 @@ overview: 'HumanAPI publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   HumanAPI''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 19 more developer resources.'
-random_paper: 31
+random_paper: 91
 score:
   band: developing
-  composite: 44.2
-  delta: -4.1
+  composite: 44.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 64.5
+    contract_quality: 67.5
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 48.3
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,8 +209,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/screenshots/humanapi-2026-07-25T221702.png
 security:

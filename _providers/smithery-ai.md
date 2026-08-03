@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 6
@@ -410,7 +410,7 @@ plans:
 - name: Smithery Ai Plans Pricing
   plan_count: 4
   slug: smithery-ai-plans-pricing
-random_paper: 66
+random_paper: 87
 rate_limits:
 - limit_count: 6
   name: Smithery Ai Rate Limits
@@ -434,16 +434,16 @@ rules:
   slug: smithery-ai-rules
 score:
   band: strong
-  composite: 57.5
-  delta: -3.9
+  composite: 58.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.1
+    contract_quality: 71.2
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 61.4
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     contracts:
@@ -451,8 +451,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

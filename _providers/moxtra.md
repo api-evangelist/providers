@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Moxtra's REST API for building embedded collaboration experiences, covering users, binders (workspaces), pages, messages, files, meetings, todos, signatures, and webhooks. Authentication uses OAuth 2.
@@ -87,11 +87,11 @@ overview: 'Moxtra publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Moxtra''s developer surface includes documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 11
+random_paper: 2
 score:
   band: emerging
   composite: 13.7
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
@@ -99,15 +99,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.8
+  previous_composite: 13.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxtra/refs/heads/main/screenshots/moxtra-2026-06-20T185836.png
 security:

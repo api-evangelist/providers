@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -270,23 +270,23 @@ plans:
 - name: Elasticsearch Plans Pricing
   plan_count: 3
   slug: elasticsearch-plans-pricing
-random_paper: 59
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Elasticsearch Rate Limits
   slug: elasticsearch-rate-limits
 score:
   band: strong
-  composite: 56.5
-  delta: 1.2
+  composite: 57.6
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 49.2
+    contract_quality: 53.5
     developer_ergonomics: 52.2
     discoverability: 90.7
     governance: 11.5
     operational_transparency: 57.9
-  previous_composite: 55.3
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +296,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/screenshots/elasticsearch-2026-06-20T180540.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Cloudrf Plans Pricing
   plan_count: 3
   slug: cloudrf-plans-pricing
-random_paper: 13
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Cloudrf Rate Limits
@@ -166,16 +166,16 @@ rules:
   slug: cloudrf-rules
 score:
   band: developing
-  composite: 42.2
-  delta: -4.9
+  composite: 42.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.2
+    contract_quality: 66.3
     developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 47.1
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 29.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/screenshots/cloudrf-2026-06-20T174617.png
 security:

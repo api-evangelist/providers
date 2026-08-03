@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -1201,7 +1201,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 61
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1217,16 +1217,16 @@ rules:
   slug: etoro-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.6
-  delta: -3.9
+  composite: 39.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 44.7
+    contract_quality: 49.7
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 0.0
-  previous_composite: 42.5
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1240,8 +1240,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/screenshots/etoro-2026-06-20T180841.png
 security:

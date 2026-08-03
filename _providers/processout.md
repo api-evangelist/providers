@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 69.6
-  scored_at: '2026-07-28'
+  score: 65.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -253,23 +253,23 @@ overview: 'ProcessOut publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ProcessOut''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
-random_paper: 45
+random_paper: 66
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Processout Rate Limits
   slug: processout-rate-limits
 score:
   band: strong
-  composite: 60.2
-  delta: 0.9
+  composite: 63.9
+  delta: 2.3
   facets:
     commercial_clarity: 42.1
-    contract_quality: 66.6
+    contract_quality: 72.9
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 39.5
-  previous_composite: 59.3
+    operational_transparency: 60.5
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,8 +286,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

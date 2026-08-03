@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,11 +78,11 @@ press:
 - date: '2026-05-25'
   title: Innodata Selected by Palantir to Accelerate Advanced ...
   url: https://via.ritzau.dk/pressemeddelelse/14773949/innodata-selected-by-palantir-to-accelerate-advanced-initiatives-in-ai-powered-rodeo-modernization?publisherId=13560585&lang=en
-random_paper: 36
+random_paper: 14
 score:
   band: minimal
   composite: 4.0
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -90,9 +90,9 @@ score:
     discoverability: 35.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 4.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyone/refs/heads/main/screenshots/polyone-2026-06-20T191918.png
 security:

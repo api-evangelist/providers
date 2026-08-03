@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Supplier product catalog retrieval, filtering and upload.
@@ -166,7 +166,7 @@ overview: 'Recurrency publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Recurrency''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 24
+random_paper: 45
 scopes:
 - name: Recurrency Scopes
   scope_count: 4
@@ -174,16 +174,16 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.8
-  delta: -0.6
+  composite: 45.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 51.6
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 45.4
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -193,8 +193,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

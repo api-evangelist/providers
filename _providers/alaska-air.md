@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -398,7 +398,7 @@ press:
 - date: '2026-05-25'
   title: Alaska Airlines and Tailsight launch AI-powered ...
   url: https://www.prnewswire.com/news-releases/alaska-airlines-and-tailsight-launch-ai-powered-maintenance-planning-solution-302744315.html
-random_paper: 80
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Alaska Air Rate Limits
@@ -426,17 +426,17 @@ scopes:
   slug: alaska-air-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 46.9
-  delta: -7.6
+  band: thin
+  composite: 38.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.2
+    contract_quality: 25.2
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 54.5
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -444,9 +444,9 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png
 security:
 - kind: authentication

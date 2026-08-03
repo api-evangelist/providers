@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 35.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Greptile Plans Pricing
   plan_count: 4
   slug: greptile-plans-pricing
-random_paper: 40
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Greptile Rate Limits
@@ -152,16 +152,16 @@ rules:
   slug: greptile-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 46.2
-  delta: -3.7
+  composite: 46.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 70.9
+    contract_quality: 73.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 49.9
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -169,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/screenshots/greptile-2026-06-20T182408.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 16
 apis:
 - description: 'SCIM 2.0 surface for provisioning Venminder platform users — list, get, search, create and patch Users using urn:ietf:params:scim:schemas:core:2.0:User plus the urn:ietf:params:scim:schemas:extension:'
@@ -209,7 +209,7 @@ overview: 'Venminder (Digital Comply) publishes 15 APIs on the [APIs.io](https:/
 
 
   Venminder (Digital Comply)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 74
+random_paper: 77
 scopes:
 - name: Venminder Digital Comply Scopes
   scope_count: 1
@@ -217,16 +217,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 45.8
-  delta: -1.0
+  composite: 47.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 43.2
+    contract_quality: 48.4
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 46.8
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     contracts:
@@ -236,8 +236,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

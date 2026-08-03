@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -2554,7 +2554,7 @@ plans:
 - name: Airbyte Plans Pricing
   plan_count: 5
   slug: airbyte-plans-pricing
-random_paper: 14
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Airbyte Rate Limits
@@ -2583,16 +2583,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 75.1
-  delta: 0.6
+  composite: 75.7
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 62.9
+    contract_quality: 65.5
     developer_ergonomics: 78.3
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 73.7
-  previous_composite: 74.5
+  previous_composite: 75.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2602,8 +2602,8 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png
 security:

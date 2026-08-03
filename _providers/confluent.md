@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -128,23 +128,23 @@ plans:
 - name: Confluent Plans Pricing
   plan_count: 3
   slug: confluent-plans-pricing
-random_paper: 72
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Confluent Rate Limits
   slug: confluent-rate-limits
 score:
   band: thin
-  composite: 34.2
-  delta: -1.4
+  composite: 35.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 13.0
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 35.6
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/screenshots/confluent-2026-06-20T174900.png
 security:

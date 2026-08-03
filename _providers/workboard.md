@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-07-28'
+  score: 57.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 12
@@ -226,19 +226,19 @@ overview: 'WorkBoard publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   WorkBoard''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 24 more developer resources.'
-random_paper: 69
+random_paper: 21
 score:
   band: strong
-  composite: 57.1
-  delta: 1.2
+  composite: 58.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.5
+    contract_quality: 66.6
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 55.9
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -249,8 +249,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

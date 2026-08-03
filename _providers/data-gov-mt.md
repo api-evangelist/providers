@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Bespoke MITA-built open-data portal (JS SPA) at portal.data.gov.mt / open.data.gov.mt. The catalog is DCAT-AP-compliant and harvested into data.europa.eu (~230+ datasets across sectors such as plannin
@@ -63,11 +63,11 @@ name: data.gov.mt (Open Data Malta)
 nav: Providers
 network: true
 overview: data.gov.mt (Open Data Malta) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, Custom Platform, DCAT-AP, Government Data, and National Government.
-random_paper: 73
+random_paper: 12
 score:
   band: minimal
   composite: 9.2
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -75,15 +75,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.8
+  previous_composite: 9.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov-mt/refs/heads/main/screenshots/data-gov-mt-2026-07-25T211239.png
 security:

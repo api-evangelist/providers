@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: The WasmEdge C API provides a low-level interface for embedding the WasmEdge runtime into C/C++ host applications. It exposes the full WasmEdge runtime capabilities including module instantiation, fun
@@ -151,7 +151,7 @@ plans:
 - name: Wasmedge Plans Pricing
   plan_count: 3
   slug: wasmedge-plans-pricing
-random_paper: 25
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Wasmedge Rate Limits
@@ -168,7 +168,7 @@ rules:
 score:
   band: thin
   composite: 36.9
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 17.7
@@ -176,9 +176,9 @@ score:
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 41.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 36.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmedge/refs/heads/main/screenshots/wasmedge-2026-06-20T201238.png
 security:

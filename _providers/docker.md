@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -324,7 +324,7 @@ plans:
 - name: Docker Plans Pricing
   plan_count: 3
   slug: docker-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Docker Rate Limits
@@ -332,7 +332,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.2
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 32.3
@@ -340,7 +340,7 @@ score:
     discoverability: 74.1
     governance: 11.5
     operational_transparency: 68.4
-  previous_composite: 45.3
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -350,8 +350,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/screenshots/docker-2026-06-20T180111.png
 security:

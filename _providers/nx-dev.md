@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 10
 apis:
 - description: The Nx command-line interface — the primary surface for running, caching, and orchestrating tasks across a monorepo. Built in Rust for performance and extensible via TypeScript plugins. Supports `nx r
@@ -241,11 +241,11 @@ overview: 'Nx publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nx''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, changelog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 20
+random_paper: 24
 score:
   band: emerging
   composite: 19.4
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -253,9 +253,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 21.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 19.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

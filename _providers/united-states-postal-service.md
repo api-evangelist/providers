@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ plans:
 - name: United States Postal Service Plans Pricing
   plan_count: 2
   slug: united-states-postal-service-plans-pricing
-random_paper: 68
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: United States Postal Service Rate Limits
@@ -405,16 +405,16 @@ rules:
   slug: united-states-postal-service-spectral-rules
 score:
   band: developing
-  composite: 51.1
-  delta: -7.6
+  composite: 43.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.3
+    contract_quality: 33.3
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 58.7
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -428,9 +428,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/screenshots/united-states-postal-service-2026-06-20T200056.png
 security:
 - kind: authentication

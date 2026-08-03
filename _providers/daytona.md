@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 9
@@ -178,23 +178,23 @@ plans:
 - name: Daytona Plans Pricing
   plan_count: 1
   slug: daytona-plans-pricing
-random_paper: 14
+random_paper: 87
 rate_limits:
 - limit_count: 2
   name: Daytona Rate Limits
   slug: daytona-rate-limits
 score:
   band: thin
-  composite: 39.4
-  delta: -3.8
+  composite: 40.9
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 42.4
+    contract_quality: 48.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 43.2
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona/refs/heads/main/screenshots/daytona-2026-06-20T175735.png
 security:

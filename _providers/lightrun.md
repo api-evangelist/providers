@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-07-28'
+  score: 55.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -263,7 +263,7 @@ overview: 'Lightrun publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Lightrun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
-random_paper: 57
+random_paper: 22
 scopes:
 - name: Lightrun Scopes
   scope_count: 0
@@ -271,16 +271,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.9
-  delta: 0.8
+  composite: 59.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.3
+    contract_quality: 63.9
     developer_ergonomics: 76.1
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 58.1
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -291,8 +291,8 @@ score:
       total: 20
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/screenshots/lightrun-2026-07-25T225125.png
 security:

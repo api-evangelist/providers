@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-07-28'
+  score: 52.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -509,7 +509,7 @@ press:
 - date: '2026-05-25'
   title: Visa's 30-Year AI Legacy Fuels Launch of New Global AI ...
   url: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20076.html
-random_paper: 25
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Visa Rate Limits
@@ -532,17 +532,17 @@ rules:
     warn: 5
   slug: visa-rules
 score:
-  band: thin
-  composite: 41.3
-  delta: -3.4
+  band: developing
+  composite: 42.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.1
+    contract_quality: 64.5
     developer_ergonomics: 26.1
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 44.7
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -556,8 +556,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png
 security:

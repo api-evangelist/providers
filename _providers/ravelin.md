@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -257,19 +257,19 @@ overview: 'Ravelin publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ravelin''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 25 more developer resources.'
-random_paper: 15
+random_paper: 88
 score:
   band: developing
-  composite: 45.2
-  delta: -4.4
+  composite: 45.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 59.6
+    contract_quality: 63.0
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 49.6
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -283,8 +283,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/screenshots/ravelin-2026-06-20T192610.png
 security:

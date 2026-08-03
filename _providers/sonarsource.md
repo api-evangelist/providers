@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -279,19 +279,19 @@ overview: 'SonarSource publishes 33 APIs on the [APIs.io](https://apis.io/) netw
 
 
   SonarSource''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 56
+random_paper: 64
 score:
-  band: developing
-  composite: 55.6
-  delta: -1.2
+  band: strong
+  composite: 56.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.7
+    contract_quality: 66.1
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 56.8
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,8 +302,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 5
@@ -735,7 +735,7 @@ plans:
 - name: Memesio Plans Pricing
   plan_count: 4
   slug: memesio-plans-pricing
-random_paper: 13
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Memesio Rate Limits
@@ -758,17 +758,17 @@ rules:
     warn: 7
   slug: memesio-rules
 score:
-  band: thin
-  composite: 41.8
-  delta: -3.7
+  band: developing
+  composite: 42.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 51.9
+    contract_quality: 56.0
     developer_ergonomics: 19.6
     discoverability: 79.6
     governance: 58.3
     operational_transparency: 15.8
-  previous_composite: 45.5
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -776,8 +776,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/screenshots/memesio-2026-06-20T185140.png
 security:

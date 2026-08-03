@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,6 +51,10 @@ collections:
   name: Google Cloud Storage JSON API
   slug: open-cloud-storage
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/google-cloud-storage/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,12 +146,12 @@ overview: 'Google Cloud Storage publishes 2 APIs on the [APIs.io](https://apis.i
   The Google Cloud Storage catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Storage''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Cloud Storage''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Cloud Storage Plans Pricing
   plan_count: 3
   slug: google-cloud-storage-plans-pricing
-random_paper: 51
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Google Cloud Storage Rate Limits
@@ -168,16 +172,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.6
-  delta: -4.0
+  composite: 63.1
+  delta: 0.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 72.0
-    developer_ergonomics: 43.5
+    contract_quality: 74.4
+    developer_ergonomics: 47.8
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 65.6
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-storage/refs/heads/main/screenshots/google-cloud-storage-2026-06-20T182138.png
 security:

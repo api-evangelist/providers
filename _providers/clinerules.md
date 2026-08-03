@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 5
 common:
@@ -87,7 +87,7 @@ overview: '.clinerules is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   .clinerules'' developer surface includes documentation and 7 more developer resources.'
-random_paper: 12
+random_paper: 33
 rules:
 - name: .clinerules API Rules
   rule_count: 4
@@ -100,7 +100,7 @@ rules:
 score:
   band: emerging
   composite: 15.8
-  delta: -3.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 8.1
@@ -108,9 +108,9 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 19.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 15.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clinerules/refs/heads/main/screenshots/clinerules-2026-06-20T174528.png
 security:

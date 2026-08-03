@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -236,14 +236,14 @@ overview: 'Codesphere publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Codesphere''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 28 more developer resources.'
-random_paper: 74
+random_paper: 13
 score:
   band: developing
-  composite: 53.8
-  delta: -1.5
+  composite: 55.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.9
+    contract_quality: 58.6
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
@@ -259,8 +259,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/screenshots/codesphere-2026-07-25T205930.png
 security:

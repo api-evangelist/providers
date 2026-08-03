@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 429
   human_in_the_loop: 29
@@ -374,7 +374,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 48
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -387,7 +387,7 @@ scopes:
 score:
   band: thin
   composite: 35.7
-  delta: -5.4
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 32.3
@@ -395,7 +395,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 41.1
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -409,9 +409,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Wordline Authentication

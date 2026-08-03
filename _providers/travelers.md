@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ press:
 - date: '2026-05-25'
   title: Travelers partners with Anthropic to expand AI assistants ...
   url: https://hartfordbusiness.com/article/travelers-partners-with-anthropic-to-expand-ai-assistants-companywide/
-random_paper: 0
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Travelers Rate Limits
@@ -182,16 +182,16 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.9
-  delta: -4.6
+  composite: 48.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 72.0
+    contract_quality: 74.4
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 52.5
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -205,8 +205,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/screenshots/travelers-2026-06-20T195635.png
 security:

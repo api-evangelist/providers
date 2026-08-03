@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ overview: 'Community publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Community''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 13
+random_paper: 47
 scopes:
 - name: Community Scopes
   scope_count: 0
@@ -196,15 +196,15 @@ scopes:
 score:
   band: developing
   composite: 53.6
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.4
+    contract_quality: 66.1
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 52.8
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,8 +221,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/screenshots/community-2026-07-25T210140.png
 security:

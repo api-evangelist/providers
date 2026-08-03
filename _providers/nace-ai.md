@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -134,23 +134,23 @@ overview: 'Nace Ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Nace Ai''s developer surface includes authentication, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 80
+random_paper: 84
 rate_limits:
 - limit_count: 3
   name: Nace Ai Rate Limits
   slug: nace-ai-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: -1.8
+  composite: 38.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 50.0
+    contract_quality: 55.8
     developer_ergonomics: 23.4
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 38.9
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -161,8 +161,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

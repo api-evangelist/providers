@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -259,19 +259,19 @@ overview: 'KolayIK publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   KolayIK''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 33 more developer resources.'
-random_paper: 18
+random_paper: 91
 score:
   band: developing
-  composite: 52.8
-  delta: -0.1
+  composite: 53.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 57.8
+    contract_quality: 62.0
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 52.9
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -282,8 +282,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/screenshots/kolayik-2026-07-25T224126.png
 security:

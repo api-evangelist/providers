@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -566,7 +566,7 @@ plans:
 - name: Flutterwave Plans Pricing
   plan_count: 9
   slug: flutterwave-plans-pricing
-random_paper: 61
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Flutterwave Rate Limits
@@ -595,16 +595,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.2
-  delta: -6.9
+  composite: 62.0
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 71.2
+    contract_quality: 70.7
     developer_ergonomics: 65.2
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 69.1
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     contracts:
@@ -618,9 +618,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/screenshots/flutterwave-2026-06-20T181343.png
 security:
 - kind: authentication

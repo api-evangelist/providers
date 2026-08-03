@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -449,7 +449,7 @@ plans:
 - name: Uber Plans Pricing
   plan_count: 1
   slug: uber-plans-pricing
-random_paper: 20
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Uber Rate Limits
@@ -473,16 +473,16 @@ rules:
   slug: uber-rules
 score:
   band: strong
-  composite: 59.4
-  delta: -2.2
+  composite: 59.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 78.4
+    contract_quality: 80.0
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 61.6
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     contracts:
@@ -490,8 +490,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The Design API API from Unmade — 9 operation(s) for design api.
@@ -151,23 +151,23 @@ overview: 'Unmade publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Unmade''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Unmade Rate Limits
   slug: unmade-rate-limits
 score:
   band: thin
-  composite: 35.5
-  delta: -1.1
+  composite: 36.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 54.0
+    contract_quality: 59.3
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 36.6
+  previous_composite: 36.8
   provenance:
     conformance: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

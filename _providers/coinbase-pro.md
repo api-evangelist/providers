@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-07-28'
+  score: 17.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Cryptocurrency Trading Platform
@@ -71,7 +71,7 @@ overview: 'Coinbase Pro publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   The Coinbase Pro catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 70
+random_paper: 78
 rules:
 - name: Coinbase Pro API Rules
   rule_count: 9
@@ -84,7 +84,7 @@ rules:
 score:
   band: emerging
   composite: 26.5
-  delta: 7.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 63.0
@@ -92,10 +92,10 @@ score:
     discoverability: 57.4
     governance: 41.7
     operational_transparency: 0.0
-  previous_composite: 18.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 26.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase-pro/refs/heads/main/screenshots/coinbase-pro-2026-06-20T174731.png
 security:
 - kind: domain-security

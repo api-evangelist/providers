@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Core JavaScript APIs for building Lightning Web Components including decorators, wire service, and component lifecycle methods.
@@ -72,7 +72,7 @@ plans:
 - name: Lightning Web Components Plans Pricing
   plan_count: 3
   slug: lightning-web-components-plans-pricing
-random_paper: 6
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Lightning Web Components Rate Limits
@@ -80,7 +80,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.9
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -88,9 +88,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 22.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 20.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/screenshots/lightning-web-components-2026-06-20T184521.png
 security:

@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-07-28'
+  score: 30.2
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Single-customer integration API for the Funnel leasing platform — create prospects in the CRM, schedule property tours/appointments, and process lease applications. Resources include Appointments, Com
@@ -126,11 +126,11 @@ overview: 'Funnel Leasing publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Funnel Leasing''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, support, and 11 more developer resources.'
-random_paper: 38
+random_paper: 7
 score:
   band: thin
   composite: 39.8
-  delta: 7.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -138,12 +138,12 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 7.9
-  previous_composite: 32.8
+  previous_composite: 39.8
   provenance:
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/funnel-leasing/refs/heads/main/screenshots/funnel-leasing-2026-07-25T215321.png
 security:
 - kind: authentication

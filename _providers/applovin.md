@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -328,7 +328,7 @@ plans:
 - name: Applovin Plans Pricing
   plan_count: 1
   slug: applovin-plans-pricing
-random_paper: 53
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Applovin Rate Limits
@@ -352,16 +352,16 @@ rules:
   slug: applovin-rules
 score:
   band: developing
-  composite: 53.6
-  delta: -6.8
+  composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.0
+    contract_quality: 24.5
     developer_ergonomics: 54.3
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 60.4
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -369,9 +369,9 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
 security:
 - kind: authentication

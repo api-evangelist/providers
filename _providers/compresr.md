@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -278,23 +278,23 @@ plans:
 - name: Compresr Plans
   plan_count: 2
   slug: compresr-plans
-random_paper: 55
+random_paper: 20
 rate_limits:
-- limit_count: 0
+- limit_count: 5
   name: Compresr Rate Limits
   slug: compresr-rate-limits
 score:
   band: strong
-  composite: 57.2
-  delta: -1.3
+  composite: 62.5
+  delta: 4.1
   facets:
     commercial_clarity: 73.7
-    contract_quality: 49.8
+    contract_quality: 54.3
     developer_ergonomics: 78.3
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 28.9
-  previous_composite: 58.5
+    operational_transparency: 60.5
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,8 +305,8 @@ score:
       total: 27
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/screenshots/compresr-2026-07-25T210203.png
 security:

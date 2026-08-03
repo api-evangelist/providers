@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ press:
 - date: '2026-05-25'
   title: Vantiv and Worldpay Complete Combination to Form ...
   url: https://www.prnewswire.com/news-releases/vantiv-and-worldpay-complete-combination-to-form-worldpay-inc-300583008.html
-random_paper: 8
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Vantiv Rate Limits
@@ -225,16 +225,16 @@ rules:
   slug: vantiv-rules
 score:
   band: developing
-  composite: 47.1
-  delta: -5.1
+  composite: 47.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.2
+    contract_quality: 73.6
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 52.2
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -248,9 +248,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Vantiv Authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -124,23 +124,23 @@ plans:
 - name: Hawksoft Plans Pricing
   plan_count: 2
   slug: hawksoft-plans-pricing
-random_paper: 51
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Hawksoft Rate Limits
   slug: hawksoft-rate-limits
 score:
   band: thin
-  composite: 38.0
-  delta: -3.4
+  composite: 38.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 56.1
+    contract_quality: 59.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 41.4
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/screenshots/hawksoft-2026-07-25T220807.png
 security:

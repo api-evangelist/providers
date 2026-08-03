@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -439,7 +439,7 @@ plans:
 - name: Salesforce Einstein Plans Pricing
   plan_count: 1
   slug: salesforce-einstein-plans-pricing
-random_paper: 3
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Salesforce Einstein Rate Limits
@@ -468,16 +468,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.9
-  delta: -3.8
+  composite: 55.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.6
+    contract_quality: 71.3
     developer_ergonomics: 37.0
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 58.7
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     contracts:
@@ -485,8 +485,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/screenshots/salesforce-einstein-2026-06-20T193344.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -380,7 +380,7 @@ plans:
 - name: Sendbird Plans Pricing
   plan_count: 4
   slug: sendbird-plans-pricing
-random_paper: 23
+random_paper: 83
 rate_limits:
 - limit_count: 13
   name: Sendbird Rate Limits
@@ -404,11 +404,11 @@ rules:
   slug: sendbird-rules
 score:
   band: exemplar
-  composite: 69.7
-  delta: -0.5
+  composite: 70.2
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 75.2
+    contract_quality: 77.0
     developer_ergonomics: 32.6
     discoverability: 90.7
     governance: 80.2
@@ -423,8 +423,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/screenshots/sendbird-2026-06-20T193652.png
 security:

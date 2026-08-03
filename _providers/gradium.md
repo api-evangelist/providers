@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-07-28'
+  score: 40.8
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The metering API from Gradium — 1 operation(s) for metering.
@@ -218,19 +218,19 @@ overview: 'Gradium publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Gradium''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, sandbox, and 29 more developer resources.'
-random_paper: 7
+random_paper: 80
 score:
-  band: developing
-  composite: 55.1
-  delta: -2.3
+  band: strong
+  composite: 56.0
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 56.6
+    contract_quality: 60.3
     developer_ergonomics: 75.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 57.4
+  previous_composite: 56.0
   provenance:
     conformance: derived
     contracts:
@@ -240,8 +240,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/screenshots/gradium-2026-07-25T220210.png
 security:

@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: flavored
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 4.1
-  scored_at: '2026-07-28'
+  score: 27.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -26,8 +26,18 @@ agentic_access:
   operation_count: 12
   slug: savvly-agentic-access
   summary_line: 12 operations
-api_count: 0
-artifact_total: 2
+api_count: 3
+apis:
+- description: The Comparisons API from Savvly — 2 operation(s) for comparisons.
+  name: Savvly Comparisons API
+  slug: savvly-comparisons-api
+- description: The Product API from Savvly — 6 operation(s) for product.
+  name: Savvly Product API
+  slug: savvly-product-api
+- description: The Projections API from Savvly — 4 operation(s) for projections.
+  name: Savvly Projections API
+  slug: savvly-projections-api
+artifact_total: 5
 common:
 - group: other
   title: ''
@@ -44,20 +54,20 @@ modified: '2026-07-17'
 name: Savvly
 nav: Providers
 network: true
-overview: Savvly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 21
+overview: 'Savvly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Comparisons API, Product API, and Projections API. Tagged areas include Company.'
+random_paper: 12
 score:
-  band: minimal
-  composite: 8.0
-  delta: -22.4
+  band: emerging
+  composite: 20.5
+  delta: 4.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 8.1
+    contract_quality: 55.6
     developer_ergonomics: 0.0
-    discoverability: 46.3
+    discoverability: 51.9
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 30.4
+  previous_composite: 16.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -68,9 +78,9 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Savvly Domain Security

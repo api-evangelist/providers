@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Gamerpower Plans Pricing
   plan_count: 2
   slug: gamerpower-plans-pricing
-random_paper: 15
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Gamerpower Rate Limits
@@ -181,16 +181,16 @@ rules:
   slug: gamerpower-rules
 score:
   band: thin
-  composite: 39.4
-  delta: -6.2
+  composite: 31.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.6
+    contract_quality: 29.1
     developer_ergonomics: 8.7
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 45.6
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -198,9 +198,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamerpower/refs/heads/main/screenshots/gamerpower-2026-06-20T181638.png
 security:
 - kind: domain-security

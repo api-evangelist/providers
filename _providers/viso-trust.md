@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-07-28'
+  score: 33.6
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: The client-api-assessment-rest-resource API from VISO Trust — 7 operation(s) for client-api-assessment-rest-resource.
@@ -196,19 +196,19 @@ overview: 'VISO Trust publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VISO Trust''s developer surface includes documentation, API reference, quickstart, support, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 6
+random_paper: 27
 score:
   band: developing
-  composite: 51.3
-  delta: -2.4
+  composite: 52.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 59.9
+    contract_quality: 63.3
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 53.7
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -218,8 +218,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

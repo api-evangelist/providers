@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -462,9 +462,9 @@ plans:
 - name: Trakt Plans Pricing
   plan_count: 3
   slug: trakt-plans-pricing
-random_paper: 58
+random_paper: 75
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Trakt Rate Limits
   slug: trakt-rate-limits
 rules:
@@ -485,17 +485,17 @@ rules:
     warn: 7
   slug: trakt-rules
 score:
-  band: strong
-  composite: 63.2
-  delta: -2.6
+  band: exemplar
+  composite: 66.6
+  delta: 2.8
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.8
+    contract_quality: 72.4
     developer_ergonomics: 54.3
     discoverability: 75.9
     governance: 68.8
-    operational_transparency: 36.8
-  previous_composite: 65.8
+    operational_transparency: 57.9
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     contracts:
@@ -503,8 +503,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trakt/refs/heads/main/screenshots/trakt-2026-06-20T195545.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 32
@@ -292,7 +292,7 @@ plans:
 - name: Gremlin Plans Pricing
   plan_count: 3
   slug: gremlin-plans-pricing
-random_paper: 12
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Gremlin Rate Limits
@@ -308,16 +308,16 @@ rules:
   slug: gremlin-rules
 score:
   band: developing
-  composite: 54.2
-  delta: -2.1
+  composite: 55.2
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 57.8
+    contract_quality: 61.5
     developer_ergonomics: 45.7
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 56.3
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     contracts:
@@ -325,8 +325,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 55
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gremlin/refs/heads/main/screenshots/gremlin-2026-06-20T182400.png
 security:

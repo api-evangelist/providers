@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Account management
@@ -192,19 +192,19 @@ overview: 'Sigma360 publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Sigma360''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 21 more developer resources.'
-random_paper: 22
+random_paper: 4
 score:
   band: developing
-  composite: 52.6
-  delta: -2.0
+  composite: 53.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.3
+    contract_quality: 71.3
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 54.6
+  previous_composite: 53.6
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +214,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

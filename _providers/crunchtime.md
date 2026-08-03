@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Crunchtime Inventory & Labor API is a REST/JSON web-services API for integrating restaurant back-office data with the Crunchtime platform. It exposes 150+ operations organized by functional area —
@@ -128,7 +128,7 @@ overview: 'Crunchtime publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Crunchtime''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 8
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Crunchtime Rate Limits
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.2
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -144,11 +144,11 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 55.3
-  previous_composite: 35.3
+  previous_composite: 36.2
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchtime/refs/heads/main/screenshots/crunchtime-2026-07-25T210820.png
 security:

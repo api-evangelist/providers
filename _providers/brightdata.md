@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 35.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: Brightdata Plans Pricing
   plan_count: 4
   slug: brightdata-plans-pricing
-random_paper: 66
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Brightdata Rate Limits
@@ -147,16 +147,16 @@ rules:
   slug: brightdata-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 47.6
-  delta: -3.9
+  composite: 48.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.8
+    contract_quality: 72.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 51.5
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -164,8 +164,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/screenshots/brightdata-2026-07-25T203834.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ plans:
 - name: Datafiniti Plans Pricing
   plan_count: 3
   slug: datafiniti-plans-pricing
-random_paper: 69
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Datafiniti Rate Limits
@@ -208,16 +208,16 @@ rules:
   slug: datafiniti-rules
 score:
   band: developing
-  composite: 50.9
-  delta: -4.1
+  composite: 51.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 64.7
+    contract_quality: 67.8
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 55.0
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -225,8 +225,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafiniti/refs/heads/main/screenshots/datafiniti-2026-06-20T175637.png
 security:

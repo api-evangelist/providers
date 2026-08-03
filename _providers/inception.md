@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -201,23 +201,23 @@ plans:
 - name: Inception Plans
   plan_count: 3
   slug: inception-plans
-random_paper: 67
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Inception Rate Limits
   slug: inception-rate-limits
 score:
-  band: developing
-  composite: 55.9
-  delta: -2.3
+  band: strong
+  composite: 56.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 65.3
+    contract_quality: 68.2
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 58.2
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,8 +228,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/screenshots/inception-2026-07-25T222332.png
 security:

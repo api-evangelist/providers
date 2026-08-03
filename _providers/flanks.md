@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: OAuth2-secured wealth-data API covering the Connect flow (connectors, sessions, SCA resolution), Credentials, Entities, Aggregation, and Letters, returning standardized portfolios, investments, accoun
@@ -168,11 +168,11 @@ overview: 'Flanks publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Flanks'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 22 more developer resources.'
-random_paper: 65
+random_paper: 69
 score:
   band: thin
   composite: 40.1
-  delta: -4.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -180,7 +180,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 44.2
+  previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -190,8 +190,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flanks/refs/heads/main/screenshots/flanks-2026-07-25T214706.png
 security:

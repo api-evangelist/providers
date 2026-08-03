@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The Discovery API from Voidpet — 1 operation(s) for discovery.
@@ -107,19 +107,19 @@ overview: 'Voidpet publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Voidpet''s developer surface includes authentication, documentation, API reference, engineering blog, and 9 more developer resources.'
-random_paper: 25
+random_paper: 3
 score:
   band: thin
-  composite: 34.0
-  delta: 1.4
+  composite: 35.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 44.1
+    contract_quality: 48.8
     developer_ergonomics: 43.5
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 32.6
+  previous_composite: 35.2
   provenance:
     conformance: derived
     contracts:
@@ -129,8 +129,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

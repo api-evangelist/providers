@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -342,7 +342,7 @@ plans:
 - name: Ordnance Survey Plans
   plan_count: 3
   slug: ordnance-survey-plans
-random_paper: 15
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Ordnance Survey Rate Limits
@@ -354,21 +354,21 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 66.0
-  delta: -2.5
+  composite: 67.2
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 45.3
+    contract_quality: 50.8
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 86.8
-  previous_composite: 68.5
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 20.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
@@ -380,8 +380,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

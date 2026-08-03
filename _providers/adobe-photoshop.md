@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-07-28'
+  score: 50.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -570,7 +570,7 @@ plans:
 - name: Adobe Photoshop Plans Pricing
   plan_count: 4
   slug: adobe-photoshop-plans-pricing
-random_paper: 72
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Adobe Photoshop Rate Limits
@@ -602,16 +602,16 @@ rules:
   slug: adobe-photoshop-spectral-rules
 score:
   band: exemplar
-  composite: 66.7
-  delta: -1.3
+  composite: 67.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 86.4
+    contract_quality: 87.6
     developer_ergonomics: 54.3
     discoverability: 92.6
     governance: 38.5
     operational_transparency: 63.2
-  previous_composite: 68.0
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -621,8 +621,8 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png
 security:

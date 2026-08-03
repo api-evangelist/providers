@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Microsoft Graph Whiteboard API enables developers to manage Microsoft Whiteboard resources programmatically. Applications can create whiteboards, manage participants, and export whiteboard content
@@ -96,7 +96,7 @@ plans:
 - name: Microsoft Whiteboard Plans Pricing
   plan_count: 3
   slug: microsoft-whiteboard-plans-pricing
-random_paper: 42
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Microsoft Whiteboard Rate Limits
@@ -104,7 +104,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.3
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -112,9 +112,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 31.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 29.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-whiteboard/refs/heads/main/screenshots/microsoft-whiteboard-2026-06-20T185544.png
 security:

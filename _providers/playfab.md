@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -197,23 +197,23 @@ plans:
 - name: Playfab Plans Pricing
   plan_count: 1
   slug: playfab-plans-pricing
-random_paper: 79
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Playfab Rate Limits
   slug: playfab-rate-limits
 score:
   band: developing
-  composite: 50.8
-  delta: 0.4
+  composite: 51.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.9
+    contract_quality: 60.1
     developer_ergonomics: 54.3
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 50.4
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/screenshots/playfab-2026-06-20T191806.png
 security:

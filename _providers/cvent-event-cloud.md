@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Cvent Event Cloud Plans Pricing
   plan_count: 3
   slug: cvent-event-cloud-plans-pricing
-random_paper: 75
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Cvent Event Cloud Rate Limits
@@ -169,16 +169,16 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.3
-  delta: -2.2
+  composite: 50.4
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 51.2
+    contract_quality: 55.4
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 51.5
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -186,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/screenshots/cvent-event-cloud-2026-06-20T175402.png
 security:

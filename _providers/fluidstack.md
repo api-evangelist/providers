@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -168,19 +168,19 @@ overview: 'Fluidstack publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Fluidstack''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 14 more developer resources.'
-random_paper: 0
+random_paper: 21
 score:
   band: thin
-  composite: 31.0
-  delta: -2.2
+  composite: 31.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 56.1
+    contract_quality: 59.8
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 33.2
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -188,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/screenshots/fluidstack-2026-06-20T181337.png
 security:

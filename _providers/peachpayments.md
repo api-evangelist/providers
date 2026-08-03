@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-07-28'
+  score: 36.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -269,23 +269,23 @@ plans:
 - name: Peachpayments Plans Pricing
   plan_count: 2
   slug: peachpayments-plans-pricing
-random_paper: 0
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Peachpayments Rate Limits
   slug: peachpayments-rate-limits
 score:
   band: exemplar
-  composite: 71.4
-  delta: 0.3
+  composite: 72.0
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
-    contract_quality: 68.4
+    contract_quality: 71.1
     developer_ergonomics: 71.2
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 71.1
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,8 +302,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

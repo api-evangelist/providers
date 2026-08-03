@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 16
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 426
   slug: clerk-com-agentic-access
   summary_line: 426 operations · 273 acting · 16 human-in-the-loop
-api_count: 76
+api_count: 77
 apis:
 - description: The Account Portal API from Clerk — 1 operation(s) for account portal.
   name: Clerk Account Portal API
@@ -267,7 +267,10 @@ apis:
 - description: Well-known endpoints like JWKS, deep linking, and openid-configuration.
   name: Clerk Well Known API
   slug: clerk-com-well-known-api
-artifact_total: 220
+- description: Clerk Webhook Events from Clerk, described in OpenAPI.
+  name: Clerk Webhook Events
+  slug: clerk-webhooks-openapi
+artifact_total: 221
 collections:
 - collection_type: postman
   name: Clerk Backend Account Portal API
@@ -976,7 +979,7 @@ modified: '2026-05-22'
 name: Clerk
 nav: Providers
 network: true
-overview: 'Clerk publishes 76 APIs on the [APIs.io](https://apis.io/) network, including Account Portal API, Active Sessions API, Actor Tokens API, and 73 more. Tagged areas include Authentication, Authorization, B2B SaaS, CIAM, and Identity Management.
+overview: 'Clerk publishes 77 APIs on the [APIs.io](https://apis.io/) network, including Account Portal API, Active Sessions API, Actor Tokens API, and 74 more. Tagged areas include Authentication, Authorization, B2B SaaS, CIAM, and Identity Management.
 
 
   The Clerk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -987,7 +990,7 @@ plans:
 - name: Clerk Com Plans Pricing
   plan_count: 4
   slug: clerk-com-plans-pricing
-random_paper: 73
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Clerk Com Rate Limits
@@ -1011,16 +1014,16 @@ rules:
   slug: clerk-rules
 score:
   band: strong
-  composite: 64.9
-  delta: -3.6
+  composite: 65.8
+  delta: -0.1
   facets:
     commercial_clarity: 84.2
-    contract_quality: 65.5
+    contract_quality: 69.1
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 68.5
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1028,8 +1031,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 77
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/screenshots/clerk-com-2026-06-20T174512.png
 security:

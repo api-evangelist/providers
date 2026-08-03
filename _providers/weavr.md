@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: verified
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 68.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 5
@@ -339,19 +339,19 @@ overview: 'Weavr publishes 43 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Weavr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 29 more developer resources.'
-random_paper: 57
+random_paper: 74
 score:
   band: strong
-  composite: 61.0
-  delta: 1.2
+  composite: 62.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.9
+    contract_quality: 65.5
     developer_ergonomics: 73.9
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 59.8
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -368,8 +368,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -279,7 +279,7 @@ plans:
 - name: Gotowebinar Plans Pricing
   plan_count: 4
   slug: gotowebinar-plans-pricing
-random_paper: 37
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Gotowebinar Rate Limits
@@ -316,16 +316,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.4
-  delta: -4.2
+  composite: 55.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.6
+    contract_quality: 71.3
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 58.6
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
@@ -333,8 +333,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/screenshots/gotowebinar-2026-06-20T182257.png
 security:

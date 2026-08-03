@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: HTTP API for programmatic interaction with SonarQube Server, enabling management of projects, quality gates, issues, rules, users, and integrations with external tools.
@@ -156,7 +156,7 @@ plans:
 - name: Sonarqube Plans Pricing
   plan_count: 3
   slug: sonarqube-plans-pricing
-random_paper: 74
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Sonarqube Rate Limits
@@ -180,25 +180,25 @@ rules:
   slug: sonarqube-rules
 score:
   band: strong
-  composite: 56.2
-  delta: -5.1
+  composite: 60.3
+  delta: 4.1
   facets:
     commercial_clarity: 71.1
-    contract_quality: 56.5
+    contract_quality: 72.9
     developer_ergonomics: 43.5
     discoverability: 40.7
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 61.3
+  previous_composite: 56.2
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarqube/refs/heads/main/screenshots/sonarqube-2026-06-20T194159.png
 security:
 - kind: domain-security

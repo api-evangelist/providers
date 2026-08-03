@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: Check budget allocations and remaining GPU hours
@@ -165,19 +165,19 @@ overview: 'Chamber publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Chamber''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 66
+random_paper: 57
 score:
   band: developing
-  composite: 47.4
-  delta: -1.4
+  composite: 48.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 48.8
+  previous_composite: 48.2
   provenance:
     conformance: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/screenshots/chamber-2026-07-25T205029.png
 security:

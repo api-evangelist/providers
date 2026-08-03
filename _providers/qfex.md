@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-07-28'
+  score: 44.4
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: 'Multiplexed WebSocket gateway for all QFEX real-time market data streams: order book, trades, candles, BBO, mark price, funding rate, open interest, market stats and reference data. Documented as Asyn'
@@ -197,19 +197,19 @@ overview: 'Qfex publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Qfex''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 23 more developer resources.'
-random_paper: 26
+random_paper: 56
 score:
   band: developing
-  composite: 54.4
-  delta: -4.1
+  composite: 55.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 61.5
+    contract_quality: 65.3
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 58.5
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -225,8 +225,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

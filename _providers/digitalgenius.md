@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-07-28'
+  score: 37.4
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: HTTP API and flow-execution surface for DigitalGenius AI agents, including generic DG API calls, flow execution, JSON handling, and the hosted MCP server. Region-scoped EU/US hosts, HTTP Basic (encode
@@ -147,11 +147,11 @@ overview: 'DigitalGenius publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   DigitalGenius'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 73
+random_paper: 55
 score:
   band: developing
   composite: 45.7
-  delta: 5.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -159,12 +159,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 40.1
+  previous_composite: 45.7
   provenance:
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digitalgenius/refs/heads/main/screenshots/digitalgenius-2026-07-25T212022.png
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Management and orchestration REST API of the Versa Director control plane — SD-WAN workflows, appliance/device management, templates and device groups, dashboard/live status, health, assets, audit log
@@ -147,7 +147,7 @@ overview: 'Versa Networks publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Versa Networks'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 7
+random_paper: 58
 score:
   band: thin
   composite: 30.4
@@ -164,8 +164,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

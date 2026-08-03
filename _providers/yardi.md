@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -306,7 +306,7 @@ plans:
 - name: Yardi Plans Pricing
   plan_count: 1
   slug: yardi-plans-pricing
-random_paper: 45
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Yardi Rate Limits
@@ -329,17 +329,17 @@ rules:
     warn: 8
   slug: yardi-rules
 score:
-  band: strong
-  composite: 56.9
-  delta: -6.0
+  band: developing
+  composite: 49.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 59.1
+    contract_quality: 29.7
     developer_ergonomics: 50.0
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 62.9
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -347,9 +347,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png
 security:
 - kind: authentication

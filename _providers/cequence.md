@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: API Spyder is a SaaS-based, agentless external discovery service that provides an attacker's view into an organization's public-facing API hosts, hosting providers, and API-specific exposures includin
@@ -112,7 +112,7 @@ plans:
 - name: Cequence Plans Pricing
   plan_count: 3
   slug: cequence-plans-pricing
-random_paper: 21
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Cequence Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.1
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 0.0
@@ -128,9 +128,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 26.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 24.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cequence/refs/heads/main/screenshots/cequence-2026-06-20T174136.png
 security:

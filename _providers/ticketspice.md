@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -135,23 +135,23 @@ plans:
 - name: Ticketspice Plans Pricing
   plan_count: 3
   slug: ticketspice-plans-pricing
-random_paper: 28
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Ticketspice Rate Limits
   slug: ticketspice-rate-limits
 score:
   band: thin
-  composite: 34.2
-  delta: -3.6
+  composite: 35.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 51.7
+    contract_quality: 55.8
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.8
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +165,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

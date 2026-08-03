@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -292,7 +292,7 @@ overview: 'Amazon CloudTrail publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CloudTrail''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 23 more developer resources.'
-random_paper: 44
+random_paper: 56
 rules:
 - name: Amazon CloudTrail API Rules
   rule_count: 5
@@ -312,16 +312,16 @@ rules:
   slug: amazon-cloudtrail-spectral-rules
 score:
   band: strong
-  composite: 57.9
-  delta: -1.2
+  composite: 58.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.7
+    contract_quality: 76.0
     developer_ergonomics: 39.1
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 59.1
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,8 +331,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/screenshots/amazon-cloudtrail-2026-07-25T195952.png
 security:

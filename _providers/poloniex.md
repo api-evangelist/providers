@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-07-28'
+  score: 17.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: US based digital asset exchange
@@ -63,7 +63,7 @@ overview: 'Poloniex publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   The Poloniex catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 58
+random_paper: 23
 rules:
 - name: Poloniex API Rules
   rule_count: 8
@@ -75,18 +75,18 @@ rules:
   slug: poloniex-asyncapi-spectral-rules
 score:
   band: emerging
-  composite: 24.4
-  delta: 4.7
+  composite: 25.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 51.6
+    contract_quality: 54.3
     developer_ergonomics: 0.0
     discoverability: 57.4
     governance: 47.9
     operational_transparency: 0.0
-  previous_composite: 19.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 25.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poloniex/refs/heads/main/screenshots/poloniex-2026-06-20T191855.png
 security:

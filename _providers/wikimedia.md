@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -400,15 +400,15 @@ plans:
 - name: Wikimedia Enterprise
   plan_count: 2
   slug: wikimedia-enterprise
-random_paper: 46
+random_paper: 93
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Mediawiki Action Api
   slug: mediawiki-action-api
 - limit_count: 0
   name: Mediawiki Rest Api
   slug: mediawiki-rest-api
-- limit_count: 0
+- limit_count: 3
   name: Wikimedia Enterprise Api
   slug: wikimedia-enterprise-api
 - limit_count: 0
@@ -425,16 +425,16 @@ rules:
   slug: wikimedia-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.6
-  delta: -3.2
+  composite: 53.4
+  delta: 2.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.2
+    contract_quality: 61.4
     developer_ergonomics: 37.0
     discoverability: 81.5
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 52.8
+    operational_transparency: 42.1
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -442,8 +442,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/screenshots/wikimedia-2026-06-20T201454.png
 security:

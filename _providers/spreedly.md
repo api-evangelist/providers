@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-07-28'
+  score: 58.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -251,19 +251,19 @@ overview: 'Spreedly publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 36 more developer resources.'
-random_paper: 52
+random_paper: 17
 score:
   band: strong
-  composite: 62.1
-  delta: -0.7
+  composite: 65.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.6
+    contract_quality: 68.7
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 62.8
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -275,8 +275,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

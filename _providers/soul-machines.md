@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-07-28'
+  score: 37.4
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Real-time WebSocket session API used by the Web SDK to connect a browser client to a Digital Person running on the Soul Machines session server. A session is authenticated with either an API key (conf
@@ -158,11 +158,11 @@ overview: 'Soul Machines publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Soul Machines'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 24
+random_paper: 6
 score:
   band: developing
   composite: 49.4
-  delta: 5.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -170,12 +170,12 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 43.8
+  previous_composite: 49.4
   provenance:
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Soul Machines Authentication

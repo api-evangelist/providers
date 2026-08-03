@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -111,11 +111,11 @@ overview: 'Entropik is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Entropik''s developer surface includes pricing, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 56
+random_paper: 21
 score:
   band: emerging
   composite: 22.4
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -123,11 +123,11 @@ score:
     discoverability: 61.1
     governance: 12.5
     operational_transparency: 10.5
-  previous_composite: 21.5
+  previous_composite: 22.4
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entropik/refs/heads/main/screenshots/entropik-2026-07-25T213442.png
 security:

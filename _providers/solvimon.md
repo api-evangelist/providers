@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 287
   human_in_the_loop: 4
@@ -380,19 +380,19 @@ overview: 'Solvimon publishes 64 APIs on the [APIs.io](https://apis.io/) network
 
 
   Solvimon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 26 more developer resources.'
-random_paper: 67
+random_paper: 32
 score:
   band: developing
-  composite: 51.4
-  delta: -2.6
+  composite: 52.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 52.9
+    contract_quality: 58.4
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 54.0
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,8 +409,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

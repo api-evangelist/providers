@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Tiffany & Co.'s direct-to-consumer e-commerce platform at tiffany.com, enabling online browsing, customization, and purchase of jewelry, watches, accessories, and home items. The platform supports pro
@@ -142,7 +142,7 @@ press:
 - date: '2026-05-25'
   title: Disclaimer missing on likely AI-generated Tom Tiffany ...
   url: https://isthmus.com/news/news/disclaimer-missing-on-likely-ai-generated-tom-tiffany-campaign-ad/
-random_paper: 15
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: Tiffany Rate Limits
@@ -159,7 +159,7 @@ rules:
 score:
   band: thin
   composite: 34.5
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 17.7
@@ -167,10 +167,10 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 39.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 34.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiffany/refs/heads/main/screenshots/tiffany-2026-06-20T195341.png
 security:
 - kind: domain-security

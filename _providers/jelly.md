@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Jelly's GraphQL API for costing and kitchen management. Single POST endpoint at api.getjelly.co.uk with bearer-token auth and public introspection; exposes kitchens, ingredients, recipes, dishes, menu
@@ -140,11 +140,11 @@ overview: 'Jelly publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jelly''s developer surface includes documentation, pricing, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 52
+random_paper: 69
 score:
   band: thin
   composite: 35.7
-  delta: 8.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 43.2
@@ -152,14 +152,14 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 10.5
-  previous_composite: 27.4
+  previous_composite: 35.7
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jelly/refs/heads/main/screenshots/jelly-2026-07-25T223126.png
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: REST API that powers Transcend's privacy operations, including data subject requests, preflight identifier enrichment, custom integrations for access and erasure, preferences and consent management, a
@@ -230,7 +230,7 @@ plans:
 - name: Transcend Io Plans Pricing
   plan_count: 5
   slug: transcend-io-plans-pricing
-random_paper: 75
+random_paper: 83
 rate_limits:
 - limit_count: 3
   name: Transcend Io Rate Limits
@@ -255,7 +255,7 @@ rules:
 score:
   band: developing
   composite: 53.3
-  delta: -4.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 69.4
@@ -263,15 +263,15 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 58.0
+  previous_composite: 53.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/screenshots/transcend-io-2026-06-20T195548.png
 security:

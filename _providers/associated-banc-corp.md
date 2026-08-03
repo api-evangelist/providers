@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Associated Bank surfaces core-banking integration through its core provider, Jack Henry, via the jXchange SOAP API platform. Documented services for this institution include Account History Search, Ac
@@ -71,11 +71,11 @@ overview: 'Associated Bank publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Associated Bank''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 18
+random_paper: 86
 score:
   band: emerging
   composite: 13.0
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -83,15 +83,15 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/associated-banc-corp/refs/heads/main/screenshots/associated-banc-corp-2026-07-25T201444.png
 security:

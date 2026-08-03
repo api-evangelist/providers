@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-07-28'
+  score: 41.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -149,19 +149,19 @@ overview: 'Scratchpay publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Scratchpay''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 8
+random_paper: 29
 score:
   band: thin
-  composite: 37.2
-  delta: -5.3
+  composite: 38.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 41.3
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 42.5
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -177,9 +177,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Scratchpay Authentication

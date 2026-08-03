@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -210,7 +210,7 @@ plans:
 - name: Bunny Net Plans Pricing
   plan_count: 1
   slug: bunny-net-plans-pricing
-random_paper: 26
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Bunny Net Rate Limits
@@ -225,17 +225,17 @@ rules:
     warn: 2
   slug: bunny-net-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 41.7
-  delta: -2.3
+  band: developing
+  composite: 42.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.4
+    contract_quality: 67.7
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 27.1
     operational_transparency: 26.3
-  previous_composite: 44.0
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +243,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/screenshots/bunny-net-2026-06-20T173805.png
 security:

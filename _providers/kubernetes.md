@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-07-28'
+  score: 41.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -436,7 +436,7 @@ plans:
 - name: Kubernetes Plans Pricing
   plan_count: 3
   slug: kubernetes-plans-pricing
-random_paper: 14
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Kubernetes Rate Limits
@@ -460,16 +460,16 @@ rules:
   slug: kubernetes-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.9
-  delta: -1.0
+  composite: 65.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 83.4
+    contract_quality: 85.3
     developer_ergonomics: 56.5
     discoverability: 92.6
     governance: 53.1
     operational_transparency: 71.1
-  previous_composite: 65.9
+  previous_composite: 65.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -479,8 +479,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:

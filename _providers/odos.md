@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Apis
   plan_count: 4
   slug: apis
-random_paper: 27
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Apis
@@ -170,17 +170,17 @@ rules:
     warn: 4
   slug: odos-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 41.7
-  delta: -5.0
+  band: developing
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.5
+    contract_quality: 56.6
     developer_ergonomics: 17.4
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 46.7
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -188,9 +188,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/screenshots/odos-2026-06-20T190622.png
 security:
 - kind: domain-security

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-07-28'
+  score: 56.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -257,19 +257,19 @@ overview: 'Cint publishes 25 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cint''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 20
+random_paper: 50
 score:
   band: developing
-  composite: 53.7
-  delta: -1.6
+  composite: 54.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.0
+    contract_quality: 71.5
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 55.3
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,8 +280,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/screenshots/cint-2026-07-25T205351.png
 security:

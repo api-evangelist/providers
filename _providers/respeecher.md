@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-07-28'
+  score: 30.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ plans:
 - name: Respeecher Plans Pricing
   plan_count: 6
   slug: respeecher-plans-pricing
-random_paper: 78
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Respeecher Rate Limits
@@ -182,16 +182,16 @@ rules:
   slug: respeecher-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 36.2
-  delta: -3.3
+  composite: 37.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 54.5
+    contract_quality: 57.9
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 39.5
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

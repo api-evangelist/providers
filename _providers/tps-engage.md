@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The Play API from TPS Engage — 1 operation(s) for play.
@@ -106,19 +106,19 @@ overview: 'TPS Engage publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TPS Engage''s developer surface includes documentation, API reference, support, pricing, signup flow, and 9 more developer resources.'
-random_paper: 19
+random_paper: 53
 score:
   band: thin
-  composite: 36.2
-  delta: 0.4
+  composite: 37.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 49.2
+    contract_quality: 53.5
     developer_ergonomics: 21.2
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 35.8
+  previous_composite: 37.3
   provenance:
     conformance: derived
     contracts:
@@ -128,8 +128,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

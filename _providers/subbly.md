@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -139,23 +139,23 @@ plans:
 - name: Subbly Plans Pricing
   plan_count: 5
   slug: subbly-plans-pricing
-random_paper: 1
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Subbly Rate Limits
   slug: subbly-rate-limits
 score:
   band: developing
-  composite: 42.4
-  delta: -1.8
+  composite: 43.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.6
+    contract_quality: 61.2
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 44.2
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

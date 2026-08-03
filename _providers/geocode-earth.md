@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -118,23 +118,23 @@ plans:
 - name: Geocode Earth Plans Pricing
   plan_count: 5
   slug: geocode-earth-plans-pricing
-random_paper: 73
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Geocode Earth Rate Limits
   slug: geocode-earth-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: -2.4
+  composite: 37.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.6
+    contract_quality: 64.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 40.0
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -148,8 +148,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geocode-earth/refs/heads/main/screenshots/geocode-earth-2026-07-25T215637.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 62
 apis:
 - description: The Action Catalog API from Instana — 5 operation(s) for action catalog.
@@ -267,31 +267,31 @@ plans:
 - name: Instana Plans Pricing
   plan_count: 3
   slug: instana-plans-pricing
-random_paper: 12
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Instana Rate Limits
   slug: instana-rate-limits
 score:
   band: thin
-  composite: 34.0
-  delta: -1.5
+  composite: 35.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.6
+    contract_quality: 62.2
     developer_ergonomics: 13.0
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.5
+  previous_composite: 35.2
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 62
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instana/refs/heads/main/screenshots/instana-2026-06-20T183421.png
 security:

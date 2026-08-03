@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-07-28'
+  score: 46.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -193,19 +193,19 @@ overview: 'Receeve publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Receeve''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 17 more developer resources.'
-random_paper: 79
+random_paper: 70
 score:
   band: thin
-  composite: 39.7
-  delta: -4.2
+  composite: 40.5
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
-    contract_quality: 64.6
+    contract_quality: 68.3
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 43.9
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +222,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

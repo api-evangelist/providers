@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'The developer interfaces to the HEAVY.AI platform: native SQL against the GPU-accelerated HeavyDB engine, an Apache Thrift API, JDBC/ODBC drivers, the heavysql CLI console, a Python client (heavyai) a'
@@ -120,11 +120,11 @@ overview: 'HEAVY.AI publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   HEAVY.AI''s developer surface includes documentation, API reference, getting-started guide, changelog, CLI, authentication, and 11 more developer resources.'
-random_paper: 5
+random_paper: 78
 score:
   band: emerging
   composite: 24.0
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -132,11 +132,11 @@ score:
     discoverability: 77.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 24.2
+  previous_composite: 24.0
   provenance:
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heavyai/refs/heads/main/screenshots/heavyai-2026-07-25T220902.png
 security:

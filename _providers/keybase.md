@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Keybase public HTTP JSON API (v1.0). Read-oriented endpoints for user lookup and discovery by social proof, PGP public-key fetch, Merkle-tree root and block retrieval for verification, and the salt/lo
@@ -100,11 +100,11 @@ overview: 'Keybase publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Keybase''s developer surface includes documentation, API reference, engineering blog, support, CLI, and 7 more developer resources.'
-random_paper: 2
+random_paper: 75
 score:
   band: emerging
   composite: 18.1
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -112,7 +112,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 15.8
-  previous_composite: 20.0
+  previous_composite: 18.1
   provenance:
     conformance: derived
     mcp: derived
@@ -123,8 +123,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keybase/refs/heads/main/screenshots/keybase-2026-07-25T223641.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-07-28'
+  score: 37.6
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Socket.IO WebSockets API for real-time speech recognition. After JWT login via the HTTP API, clients set recognition options (set_options), then send recognize_audio_samples for pre-segmented speech o
@@ -165,19 +165,19 @@ overview: 'Voiceitt publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Voiceitt''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 51
+random_paper: 16
 score:
   band: developing
-  composite: 46.3
-  delta: -1.8
+  composite: 47.0
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 56.2
+    contract_quality: 59.5
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 48.1
+  previous_composite: 47.0
   provenance:
     conformance: first-party
     contracts:
@@ -193,8 +193,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

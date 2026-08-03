@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: verified
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -419,19 +419,19 @@ overview: 'Payabli publishes 33 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Payabli''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 0
+random_paper: 73
 score:
   band: strong
-  composite: 61.2
-  delta: 0.6
+  composite: 62.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 54.5
+    contract_quality: 59.7
     developer_ergonomics: 91.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 60.6
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -448,8 +448,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

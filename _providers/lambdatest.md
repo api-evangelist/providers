@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -213,7 +213,7 @@ plans:
 - name: Lambdatest Plans Pricing
   plan_count: 12
   slug: lambdatest-plans-pricing
-random_paper: 73
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Lambdatest Rate Limits
@@ -229,16 +229,16 @@ rules:
   slug: lambdatest-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: -4.8
+  composite: 53.6
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 62.6
+    contract_quality: 65.9
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 57.6
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +246,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/screenshots/lambdatest-2026-06-20T184255.png
 security:

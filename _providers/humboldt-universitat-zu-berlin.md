@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Humboldt Universitat Zu Berlin Plans Pricing
   plan_count: 2
   slug: humboldt-universitat-zu-berlin-plans-pricing
-random_paper: 53
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Humboldt Universitat Zu Berlin Rate Limits
@@ -181,16 +181,16 @@ rules:
   slug: humboldt-universitat-zu-berlin-rules
 score:
   band: thin
-  composite: 39.4
-  delta: -3.9
+  composite: 40.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 58.2
+    contract_quality: 61.8
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 43.3
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +198,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/screenshots/humboldt-universitat-zu-berlin-2026-06-20T182937.png
 security:

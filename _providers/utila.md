@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-07-28'
+  score: 37.6
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: The Address Book API from Utila — 5 operation(s) for address book.
@@ -235,19 +235,19 @@ overview: 'Utila publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Utila''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 27 more developer resources.'
-random_paper: 51
+random_paper: 68
 score:
   band: strong
-  composite: 58.2
-  delta: -3.8
+  composite: 58.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.6
+    contract_quality: 66.7
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 62.0
+  previous_composite: 58.8
   provenance:
     conformance: derived
     contracts:
@@ -263,8 +263,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

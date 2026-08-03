@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: 'PJM''s public wholesale market and system data catalogue, exposed as a REST API behind Azure API Management. Feeds include day-ahead and real-time hourly and five-minute LMPs, ancillary service prices '
@@ -234,23 +234,23 @@ overview: 'PJM Interconnection publishes 6 APIs on the [APIs.io](https://apis.io
 
 
   PJM Interconnection''s developer surface includes documentation, signup flow, authentication, engineering blog, support, legal docs, API reference, and 36 more developer resources.'
-random_paper: 81
+random_paper: 42
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Pjm Rate Limits
   slug: pjm-rate-limits
 score:
   band: developing
-  composite: 43.6
-  delta: -4.7
+  composite: 45.9
+  delta: 2.3
   facets:
     commercial_clarity: 44.7
     contract_quality: 9.7
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 22.9
-    operational_transparency: 55.3
-  previous_composite: 48.3
+    operational_transparency: 76.3
+  previous_composite: 43.6
   provenance:
     conformance: first-party
     skills: derived
@@ -260,8 +260,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

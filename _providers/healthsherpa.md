@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: verified
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 64.4
-  scored_at: '2026-07-28'
+  score: 60.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -174,19 +174,19 @@ overview: 'HealthSherpa publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   HealthSherpa''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 43
+random_paper: 38
 score:
   band: developing
-  composite: 43.8
-  delta: -2.5
+  composite: 44.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 69.4
+    contract_quality: 73.3
     developer_ergonomics: 58.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 46.3
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,8 +203,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/screenshots/healthsherpa-2026-07-25T220840.png
 security:

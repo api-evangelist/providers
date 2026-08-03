@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: Stere's API-as-a-Service lets an insurer or MGA either bring its own existing underwriting API ("Bring-your-own-API") or have Stere build one, with rate, quote, bind, policy issuance, data enrichment,
@@ -90,11 +90,11 @@ plans:
 - name: Stere Plans Pricing
   plan_count: 1
   slug: stere-plans-pricing
-random_paper: 55
+random_paper: 72
 score:
   band: minimal
   composite: 12.2
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -102,15 +102,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.7
+  previous_composite: 12.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

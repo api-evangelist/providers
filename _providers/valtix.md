@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 26.6
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -103,11 +103,11 @@ overview: 'Valtix is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Valtix''s developer surface includes documentation, getting-started guide, support, changelog, authentication, and 8 more developer resources.'
-random_paper: 8
+random_paper: 94
 score:
   band: thin
   composite: 30.5
-  delta: 7.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -115,10 +115,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 23.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 30.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Valtix Authentication

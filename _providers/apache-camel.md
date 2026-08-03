@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The Apache Camel Java DSL provides a fluent API for defining integration routes using Enterprise Integration Patterns. Developers define RouteBuilder subclasses to connect Camel components via endpoin
@@ -157,7 +157,7 @@ plans:
 - name: Apache Camel Plans Pricing
   plan_count: 3
   slug: apache-camel-plans-pricing
-random_paper: 21
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Apache Camel Rate Limits
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.8
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -173,15 +173,15 @@ score:
     discoverability: 64.8
     governance: 10.4
     operational_transparency: 52.6
-  previous_composite: 33.7
+  previous_composite: 30.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 29.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-camel/refs/heads/main/screenshots/apache-camel-2026-06-20T172046.png
 security:

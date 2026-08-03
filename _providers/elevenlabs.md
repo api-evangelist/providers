@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -447,7 +447,7 @@ plans:
 - name: Elevenlabs Plans Pricing
   plan_count: 7
   slug: elevenlabs-plans-pricing
-random_paper: 73
+random_paper: 12
 rate_limits:
 - limit_count: 7
   name: Elevenlabs Rate Limits
@@ -471,16 +471,16 @@ rules:
   slug: elevenlabs-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: -2.1
+  composite: 46.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 81.8
+    contract_quality: 83.1
     developer_ergonomics: 13.0
     discoverability: 50.0
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 47.8
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -488,8 +488,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

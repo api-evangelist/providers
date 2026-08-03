@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-07-28'
+  score: 51.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -631,7 +631,7 @@ plans:
 - name: Vapi Ai Plans Pricing
   plan_count: 4
   slug: vapi-ai-plans-pricing
-random_paper: 23
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Vapi Ai Rate Limits
@@ -663,16 +663,16 @@ rules:
   slug: vapi-ai-rules
 score:
   band: exemplar
-  composite: 74.8
-  delta: -0.6
+  composite: 75.7
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 76.0
+    contract_quality: 79.5
     developer_ergonomics: 76.1
     discoverability: 77.8
     governance: 59.4
     operational_transparency: 76.3
-  previous_composite: 75.4
+  previous_composite: 75.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -682,8 +682,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/screenshots/vapi-ai-2026-06-20T200922.png
 security:

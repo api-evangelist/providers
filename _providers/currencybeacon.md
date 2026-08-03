@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,9 +144,9 @@ plans:
 - name: Currencybeacon Plans Pricing
   plan_count: 5
   slug: currencybeacon-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
-- limit_count: 0
+- limit_count: 4
   name: Currencybeacon Rate Limits
   slug: currencybeacon-rate-limits
 rules:
@@ -160,16 +160,16 @@ rules:
   slug: currencybeacon-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.4
-  delta: -4.0
+  composite: 51.6
+  delta: 4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.3
+    contract_quality: 65.9
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 51.4
+    operational_transparency: 52.6
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencybeacon/refs/heads/main/screenshots/currencybeacon-2026-06-20T175338.png
 security:

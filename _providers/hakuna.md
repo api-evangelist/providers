@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -182,23 +182,23 @@ overview: 'Hakuna publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Hakuna''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 17 more developer resources.'
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Hakuna Rate Limits
   slug: hakuna-rate-limits
 score:
   band: developing
-  composite: 46.0
-  delta: -1.3
+  composite: 46.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.6
+    contract_quality: 62.2
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 47.3
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,8 +209,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hakuna/refs/heads/main/screenshots/hakuna-2026-07-25T220533.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ overview: 'zopa publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   zopa''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 23 more developer resources.'
-random_paper: 32
+random_paper: 62
 scopes:
 - name: Zopa Scopes
   scope_count: 2
@@ -212,16 +212,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 48.4
-  delta: -4.9
+  composite: 49.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 50.2
+    contract_quality: 55.0
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 53.3
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +238,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

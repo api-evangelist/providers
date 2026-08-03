@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 26.6
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -95,11 +95,11 @@ overview: 'Divshot is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Divshot''s developer surface includes CLI, authentication, and 9 more developer resources.'
-random_paper: 31
+random_paper: 9
 score:
   band: emerging
   composite: 26.2
-  delta: 7.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -107,10 +107,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 18.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 26.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Divshot Authentication

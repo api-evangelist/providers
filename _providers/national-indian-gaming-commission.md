@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -60,11 +60,11 @@ name: National Indian Gaming Commission
 nav: Providers
 network: true
 overview: National Indian Gaming Commission is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Gaming, Regulation, and Tribal.
-random_paper: 52
+random_paper: 7
 score:
   band: minimal
   composite: 4.1
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -72,9 +72,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 4.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-indian-gaming-commission/refs/heads/main/screenshots/national-indian-gaming-commission-2026-06-20T190023.png
 security:

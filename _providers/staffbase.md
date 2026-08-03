@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for the Staffbase employee experience platform — manage users, groups, news, pages, media, notifications, spaces, campaigns, analytics, and audit logs. Authenticated with HTTP Basic auth carr
@@ -176,11 +176,11 @@ overview: 'Staffbase publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Staffbase''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 24 more developer resources.'
-random_paper: 41
+random_paper: 88
 score:
   band: thin
   composite: 39.5
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -188,12 +188,12 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 47.4
-  previous_composite: 41.0
+  previous_composite: 39.5
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

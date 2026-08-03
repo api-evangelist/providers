@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,11 +91,11 @@ overview: 'Kontoor Brands is profiled on the [APIs.io](https://apis.io/) network
 
 
   Kontoor Brands'' developer surface includes product news, engineering blog, and 10 more developer resources.'
-random_paper: 65
+random_paper: 34
 score:
   band: minimal
   composite: 9.1
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -103,9 +103,9 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 9.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kontoor-brands/refs/heads/main/screenshots/kontoor-brands-2026-06-20T184137.png
 security:

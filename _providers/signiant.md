@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 32.9
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: Unified API to manage storage, endpoints, users, and roles across multiple Signiant products. Authenticates via OAuth 2.0 client_credentials, returning a one-hour JWT bearer token.
@@ -176,11 +176,11 @@ overview: 'Signiant publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Signiant''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 41
+random_paper: 6
 score:
   band: developing
   composite: 51.1
-  delta: 6.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.6
@@ -188,13 +188,13 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 44.4
+  previous_composite: 51.1
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Signiant Authentication

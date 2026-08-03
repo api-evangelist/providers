@@ -15,12 +15,12 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    idempotency: documented
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -158,19 +158,19 @@ overview: 'Notyfi publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Notyfi''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 15 more developer resources.'
-random_paper: 9
+random_paper: 0
 score:
   band: developing
-  composite: 45.8
-  delta: -0.9
+  composite: 46.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 64.8
+    contract_quality: 67.6
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 46.7
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -181,8 +181,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

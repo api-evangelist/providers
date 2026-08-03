@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -836,7 +836,7 @@ plans:
 - name: Ringcentral Plans Pricing
   plan_count: 5
   slug: ringcentral-plans-pricing
-random_paper: 29
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Ringcentral Rate Limits
@@ -857,16 +857,16 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 66.9
-  delta: -2.6
+  composite: 66.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 65.1
+    contract_quality: 63.4
     developer_ergonomics: 73.9
     discoverability: 68.5
     governance: 59.4
     operational_transparency: 76.3
-  previous_composite: 69.5
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -882,8 +882,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 54.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png
 security:

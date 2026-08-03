@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 39.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -282,19 +282,19 @@ overview: 'Dinari publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Dinari''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
-random_paper: 57
+random_paper: 61
 score:
   band: strong
-  composite: 57.3
-  delta: -3.9
+  composite: 57.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 71.7
+    contract_quality: 74.4
     developer_ergonomics: 73.4
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 61.2
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,8 +311,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/screenshots/dinari-2026-07-25T212044.png
 security:

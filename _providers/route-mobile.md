@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-07-28'
+  score: 49.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 3
@@ -217,23 +217,23 @@ overview: 'Route Mobile publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Route Mobile''s developer surface includes authentication, sandbox, getting-started guide, support, documentation, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 6
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Route Mobile Rate Limits
   slug: route-mobile-rate-limits
 score:
-  band: developing
-  composite: 55.0
-  delta: 0.2
+  band: strong
+  composite: 56.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 66.4
+    contract_quality: 74.2
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 54.8
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -250,8 +250,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

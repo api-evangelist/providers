@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ overview: 'Spaceflight News publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Spaceflight News'' developer surface includes documentation, changelog, FAQ, tooling, and 18 more developer resources.'
-random_paper: 12
+random_paper: 37
 rules:
 - name: Spaceflight News API Rules
   rule_count: 5
@@ -291,17 +291,17 @@ rules:
     warn: 24
   slug: spaceflight-news-rules
 score:
-  band: thin
-  composite: 34.9
-  delta: -6.8
+  band: emerging
+  composite: 26.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 55.9
+    contract_quality: 24.2
     developer_ergonomics: 8.7
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 41.7
+  previous_composite: 26.9
   provenance:
     agentic_access: derived
     contracts:
@@ -309,9 +309,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spaceflight-news/refs/heads/main/screenshots/spaceflight-news-2026-06-20T194233.png
 security:
 - kind: domain-security

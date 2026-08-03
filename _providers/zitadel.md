@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -388,7 +388,7 @@ plans:
 - name: Zitadel Plans Pricing
   plan_count: 3
   slug: zitadel-plans-pricing
-random_paper: 11
+random_paper: 84
 rate_limits:
 - limit_count: 2
   name: Zitadel Rate Limits
@@ -412,16 +412,16 @@ rules:
   slug: zitadel-spectral
 score:
   band: strong
-  composite: 58.1
-  delta: -3.3
+  composite: 58.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 76.8
+    contract_quality: 78.7
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 61.4
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     contracts:
@@ -429,8 +429,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/screenshots/zitadel-2026-06-20T201924.png
 security:

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 20
 apis:
 - description: OpenAI Evals is the open-source framework released by OpenAI for evaluating large language models and LLM-based systems. The README states "Evals provide a framework for evaluating large language mode
@@ -253,7 +253,7 @@ overview: 'Evals publishes 20 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   The Evals catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 47
+random_paper: 64
 rules:
 - name: Evals API Rules
   rule_count: 5
@@ -266,7 +266,7 @@ rules:
 score:
   band: emerging
   composite: 20.8
-  delta: -5.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 17.7
@@ -274,10 +274,10 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 26.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 20.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evals/refs/heads/main/screenshots/evals-2026-06-20T180857.png
 security:
 - kind: domain-security

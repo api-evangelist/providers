@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 49.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 250
   slug: dtn-agentic-access
   summary_line: 250 operations · 17 acting
-api_count: 37
+api_count: 38
 apis:
 - description: DTN Weather Conditions API delivers worldwide forecast, current condition, and historical weather data. The API leverages cloud technology and global forecast models to provide validated, continuously
   name: DTN Weather Conditions API
@@ -149,7 +149,10 @@ apis:
 - description: How to request radar and text products from RadarScope servers
   name: DTN RadarScope API
   slug: radarscope-radar-products
-artifact_total: 50
+- description: DTN Weather Conditions API from DTN — 6 path(s) described in OpenAPI.
+  name: DTN Weather Conditions API
+  slug: dtn-weather-conditions-openapi
+artifact_total: 51
 asyncapis:
 - description: Faithful AsyncAPI rendering of DTN's Agency Bulletin WebSocket API, which streams global weather agency bulletins in real time over a WebSocket upgrade (HTTP 101). Derived from the provider's publishe
   name: DTN Agency Bulletin WebSocket API (event surface)
@@ -158,6 +161,10 @@ asyncapis:
   name: DTN Lightning Stream API (event surface)
   slug: dtn-lightning-stream-asyncapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dtn/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -319,18 +326,18 @@ modified: '2026-07-22'
 name: DTN
 nav: Providers
 network: true
-overview: 'DTN publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Weather Conditions API, Point Observation API, Radar Precipitation Forecast API, and 33 more. Tagged areas include Weather, Agriculture, Energy, Market Data, and Aviation.
+overview: 'DTN publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Weather Conditions API, Point Observation API, Radar Precipitation Forecast API, and 34 more. Tagged areas include Weather, Agriculture, Energy, Market Data, and Aviation.
 
 
   The DTN catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  DTN''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, sandbox, and 27 more developer resources.'
+  DTN''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, sandbox, and 28 more developer resources.'
 plans:
 - name: Dtn Plans Pricing
   plan_count: 2
   slug: dtn-plans-pricing
-random_paper: 80
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Dtn Rate Limits
@@ -351,16 +358,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.6
-  delta: -5.7
+  composite: 61.7
+  delta: 0.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.6
+    contract_quality: 68.4
     developer_ergonomics: 66.8
     discoverability: 68.5
     governance: 69.8
     operational_transparency: 52.6
-  previous_composite: 68.3
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -377,9 +384,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png
 security:
 - kind: authentication

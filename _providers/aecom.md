@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: PipeInsights is AECOM's cloud-based SaaS solution for AI-powered sewer inspection analysis. It enables municipalities and utilities to upload sewer inspection footage, perform QA/QC defect coding, aut
@@ -150,7 +150,7 @@ press:
 - date: '2026-05-25'
   title: How AECOM, Nine and Urbis are reshaping creativity with AI
   url: https://blog.adobe.com/en/publish/2025/07/17/how-aecom-nine-and-urbis-are-reshaping-creativity-with-ai
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Aecom Rate Limits
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.9
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 17.7
@@ -166,9 +166,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 27.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/screenshots/aecom-2026-06-20T165431.png
 security:

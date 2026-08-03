@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 0
@@ -325,7 +325,7 @@ plans:
 - name: Amerihealth Caritas Plans Pricing
   plan_count: 4
   slug: amerihealth-caritas-plans-pricing
-random_paper: 58
+random_paper: 44
 rate_limits:
 - limit_count: 6
   name: Amerihealth Caritas Rate Limits
@@ -349,16 +349,16 @@ rules:
   slug: amerihealth-caritas-rules
 score:
   band: developing
-  composite: 45.7
-  delta: -6.0
+  composite: 46.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.8
+    contract_quality: 61.4
     developer_ergonomics: 39.1
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 51.7
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -372,9 +372,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/screenshots/amerihealth-caritas-2026-06-20T171925.png
 security:
 - kind: authentication

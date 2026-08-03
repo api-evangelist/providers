@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -109,19 +109,19 @@ overview: 'Gemnote publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Gemnote''s developer surface includes documentation, API reference, engineering blog, pricing, support, and 7 more developer resources.'
-random_paper: 13
+random_paper: 86
 score:
-  band: thin
-  composite: 33.5
-  delta: -3.0
+  band: emerging
+  composite: 25.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 47.5
+    contract_quality: 15.9
     developer_ergonomics: 30.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 36.5
+  previous_composite: 25.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -132,8 +132,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/screenshots/gemnote-2026-07-25T215530.png
 security:

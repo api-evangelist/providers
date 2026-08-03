@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -138,7 +138,7 @@ plans:
 - name: Microsoft Azure Site Recovery Plans Pricing
   plan_count: 3
   slug: microsoft-azure-site-recovery-plans-pricing
-random_paper: 32
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Site Recovery Rate Limits
@@ -150,16 +150,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.0
-  delta: -1.8
+  composite: 50.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 53.4
+    contract_quality: 54.3
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 51.8
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/screenshots/microsoft-azure-site-recovery-2026-06-20T185437.png
 security:

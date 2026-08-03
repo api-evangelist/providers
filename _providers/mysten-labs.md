@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.2
-  scored_at: '2026-07-28'
+  score: 49.1
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: The Sui full-node JSON-RPC API (OpenRPC 1.2.6) for reading objects, coins, balances, events, checkpoints, dynamic fields, and system state, and for dry-running/executing transaction blocks. 56 methods
@@ -189,11 +189,11 @@ overview: 'Mysten Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Mysten Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
-random_paper: 69
+random_paper: 90
 score:
   band: developing
   composite: 47.3
-  delta: 6.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -201,14 +201,14 @@ score:
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 63.2
-  previous_composite: 40.4
+  previous_composite: 47.3
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Mysten Labs Authentication

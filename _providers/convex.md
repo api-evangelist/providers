@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-07-28'
+  score: 50.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -306,7 +306,7 @@ plans:
 - name: Convex Plans Pricing
   plan_count: 3
   slug: convex-plans-pricing
-random_paper: 3
+random_paper: 89
 rate_limits:
 - limit_count: 28
   name: Convex Rate Limits
@@ -354,16 +354,16 @@ rules:
   slug: convex-management-api-rules
 score:
   band: strong
-  composite: 63.2
-  delta: -3.6
+  composite: 63.6
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 74.5
+    contract_quality: 76.4
     developer_ergonomics: 43.5
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 66.8
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     contracts:
@@ -371,8 +371,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/screenshots/convex-2026-06-20T175006.png
 security:

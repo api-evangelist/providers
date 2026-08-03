@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'The Middleware Public API provides programmatic access to observability data including metrics, logs, traces, events, alerts, and dashboards, enabling integration of monitoring and observability into '
@@ -120,7 +120,7 @@ plans:
 - name: Middleware Plans Pricing
   plan_count: 3
   slug: middleware-plans-pricing
-random_paper: 70
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Middleware Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.2
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 8.1
@@ -136,9 +136,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 32.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/middleware/refs/heads/main/screenshots/middleware-2026-06-20T185551.png
 security:

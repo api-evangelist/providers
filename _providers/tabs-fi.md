@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -163,23 +163,23 @@ plans:
 - name: Tabs Fi Plans Pricing
   plan_count: 1
   slug: tabs-fi-plans-pricing
-random_paper: 22
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Tabs Fi Rate Limits
   slug: tabs-fi-rate-limits
 score:
   band: thin
-  composite: 32.4
-  delta: -2.6
+  composite: 33.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.0
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabs-fi/refs/heads/main/screenshots/tabs-fi-2026-06-20T194954.png
 security:

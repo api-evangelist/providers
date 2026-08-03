@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -636,7 +636,7 @@ plans:
 - name: Socket Dev Plans Pricing
   plan_count: 3
   slug: socket-dev-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Socket Dev Rate Limits
@@ -665,16 +665,16 @@ scopes:
   summary_line: 97 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 71.8
-  delta: -0.4
+  composite: 72.9
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 70.0
+    contract_quality: 74.4
     developer_ergonomics: 67.4
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 72.2
+  previous_composite: 72.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -684,8 +684,8 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/screenshots/socket-dev-2026-06-20T194122.png
 security:

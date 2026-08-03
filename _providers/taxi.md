@@ -21,7 +21,7 @@ modified: '2026-05-19'
 name: Taxi - Describe How Your APIs and Data Relate
 nav: Providers
 network: true
-random_paper: 28
+random_paper: 58
 slug: taxi
 tags:
 - API Description

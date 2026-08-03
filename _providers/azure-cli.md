@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Azure CLI is the official cross-platform command-line tool for managing Microsoft Azure resources and services from the terminal.
@@ -116,7 +116,7 @@ plans:
 - name: Azure Cli Plans Pricing
   plan_count: 3
   slug: azure-cli-plans-pricing
-random_paper: 6
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Azure Cli Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.5
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -132,9 +132,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 23.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 22.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-cli/refs/heads/main/screenshots/azure-cli-2026-06-20T172838.png
 security:

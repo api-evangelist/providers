@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Orchestrates identity verification workflows (the Back Office Server, "BOS"). Creates a verification session/workflow, accepts document and selfie media, and returns a unique session/document identifi
@@ -109,7 +109,7 @@ plans:
 - name: Au10Tix Plans Pricing
   plan_count: 1
   slug: au10tix-plans-pricing
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Au10Tix Rate Limits
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.7
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 32.3
@@ -125,9 +125,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 29.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/au10tix/refs/heads/main/screenshots/au10tix-2026-07-25T201647.png
 security:

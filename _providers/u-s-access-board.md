@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 20
 common:
@@ -122,7 +122,7 @@ plans:
 - name: U S Access Board Plans Pricing
   plan_count: 3
   slug: u-s-access-board-plans-pricing
-random_paper: 37
+random_paper: 88
 rate_limits:
 - limit_count: 5
   name: U S Access Board Rate Limits
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.1
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 17.7
@@ -138,9 +138,9 @@ score:
     discoverability: 50.0
     governance: 10.4
     operational_transparency: 36.8
-  previous_composite: 30.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 28.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-access-board/refs/heads/main/screenshots/u-s-access-board-2026-06-20T195910.png
 security:

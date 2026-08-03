@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -108,7 +108,7 @@ overview: 'MacroFab is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MacroFab''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 7
+random_paper: 67
 scopes:
 - name: Macrofab Scopes
   scope_count: 2
@@ -117,7 +117,7 @@ scopes:
 score:
   band: emerging
   composite: 21.1
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -125,11 +125,11 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 19.5
+  previous_composite: 21.1
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrofab/refs/heads/main/screenshots/macrofab-2026-07-25T225819.png
 security:

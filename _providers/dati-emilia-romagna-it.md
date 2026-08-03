@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: CKAN Action API for dati.emilia-romagna.it, a consistent JSON-over-HTTP interface over a catalog of 2,851 datasets. Standard actions include package_search, package_show, package_list, organization_li
@@ -84,7 +84,7 @@ plans:
 - name: Dati Emilia Romagna It Plans Pricing
   plan_count: 1
   slug: dati-emilia-romagna-it-plans-pricing
-random_paper: 8
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Dati Emilia Romagna It Rate Limits
@@ -92,7 +92,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.2
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -100,15 +100,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 18.5
+  previous_composite: 16.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dati-emilia-romagna-it/refs/heads/main/screenshots/dati-emilia-romagna-it-2026-06-20T175659.png
 security:

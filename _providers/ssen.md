@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-07-28'
+  score: 50.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -199,23 +199,23 @@ overview: 'Scottish and Southern Electricity Networks publishes 1 API on the [AP
 
 
   Scottish and Southern Electricity Networks'' developer surface includes authentication, getting-started guide, support, engineering blog, signup flow, documentation, developer portal, and 28 more developer resources.'
-random_paper: 31
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Ssen Rate Limits
   slug: ssen-rate-limits
 score:
-  band: thin
-  composite: 40.5
-  delta: -6.4
+  band: developing
+  composite: 46.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 58.9
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 46.9
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,9 +227,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Ssen Authentication

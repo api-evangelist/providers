@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -182,23 +182,23 @@ plans:
 - name: Celcoin Plans Pricing
   plan_count: 4
   slug: celcoin-plans-pricing
-random_paper: 77
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Celcoin Rate Limits
   slug: celcoin-rate-limits
 score:
   band: thin
-  composite: 35.7
-  delta: -4.5
+  composite: 36.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 44.6
+    contract_quality: 49.9
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 10.4
     operational_transparency: 21.1
-  previous_composite: 40.2
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/screenshots/celcoin-2026-06-20T174114.png
 security:

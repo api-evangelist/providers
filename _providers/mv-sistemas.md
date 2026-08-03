@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 43.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -248,19 +248,19 @@ overview: 'MV sistemas publishes 35 APIs on the [APIs.io](https://apis.io/) netw
 
 
   MV sistemas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 79
+random_paper: 5
 score:
   band: thin
-  composite: 40.5
-  delta: -3.1
+  composite: 41.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 64.3
+    contract_quality: 67.3
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 43.6
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,8 +277,8 @@ score:
     regime: Health
     regime_id: health
     score: 35.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

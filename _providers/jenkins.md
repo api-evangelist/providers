@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -234,23 +234,23 @@ plans:
 - name: Jenkins Plans Pricing
   plan_count: 3
   slug: jenkins-plans-pricing
-random_paper: 16
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Jenkins Rate Limits
   slug: jenkins-rate-limits
 score:
   band: developing
-  composite: 52.1
-  delta: 0.5
+  composite: 53.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 49.2
+    contract_quality: 53.5
     developer_ergonomics: 52.2
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 57.9
-  previous_composite: 51.6
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,8 +260,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/screenshots/jenkins-2026-06-20T183720.png
 security:

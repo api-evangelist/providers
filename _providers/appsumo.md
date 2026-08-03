@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ plans:
 - name: Appsumo Plans Pricing
   plan_count: 3
   slug: appsumo-plans-pricing
-random_paper: 35
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Appsumo Rate Limits
@@ -214,16 +214,16 @@ rules:
   slug: appsumo-spectral-rules
 score:
   band: strong
-  composite: 61.1
-  delta: -2.4
+  composite: 61.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 74.9
+    contract_quality: 77.0
     developer_ergonomics: 41.3
     discoverability: 44.4
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 63.5
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     contracts:
@@ -231,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/screenshots/appsumo-2026-06-20T172331.png
 security:

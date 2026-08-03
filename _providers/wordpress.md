@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -493,7 +493,7 @@ plans:
 - name: Wordpress Plans Pricing
   plan_count: 3
   slug: wordpress-plans-pricing
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Wordpress Rate Limits
@@ -516,17 +516,17 @@ rules:
     warn: 23
   slug: wordpress-spectral-rules
 score:
-  band: exemplar
-  composite: 66.5
-  delta: -5.9
+  band: strong
+  composite: 59.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.5
+    contract_quality: 40.5
     developer_ergonomics: 65.2
     discoverability: 57.4
     governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 72.4
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     contracts:
@@ -534,9 +534,9 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/screenshots/wordpress-2026-06-20T201546.png
 security:
 - kind: authentication

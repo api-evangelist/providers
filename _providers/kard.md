@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ overview: 'Kard publishes 16 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kard''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, engineering blog, support, and 27 more developer resources.'
-random_paper: 8
+random_paper: 38
 scopes:
 - name: Kard Scopes
   scope_count: 13
@@ -255,16 +255,16 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: developing
-  composite: 52.6
-  delta: 0.1
+  composite: 53.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 65.5
+    contract_quality: 69.0
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 52.5
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,8 +275,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/screenshots/kard-2026-07-25T223510.png
 security:

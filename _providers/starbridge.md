@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.4
-  scored_at: '2026-07-28'
+  score: 56.3
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The Bridges API from Starbridge — 4 operation(s) for bridges.
@@ -182,19 +182,19 @@ overview: 'Starbridge publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Starbridge''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 79
+random_paper: 18
 score:
   band: developing
-  composite: 51.4
-  delta: -0.8
+  composite: 51.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.9
+    contract_quality: 71.5
     developer_ergonomics: 58.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 52.2
+  previous_composite: 51.9
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +210,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Checkout Com Plans Pricing
   plan_count: 1
   slug: checkout-com-plans-pricing
-random_paper: 70
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Checkout Com Rate Limits
@@ -204,16 +204,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.8
-  delta: -3.8
+  composite: 38.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 56.9
+    contract_quality: 60.1
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 41.6
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -227,8 +227,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/screenshots/checkout-com-2026-06-20T174248.png
 security:

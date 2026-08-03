@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -752,7 +752,7 @@ plans:
 - name: Amazon Polly Plans Pricing
   plan_count: 3
   slug: amazon-polly-plans-pricing
-random_paper: 21
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Amazon Polly Rate Limits
@@ -775,17 +775,17 @@ rules:
     warn: 11
   slug: amazon-polly-spectral-rules
 score:
-  band: strong
-  composite: 65.6
-  delta: -7.4
+  band: exemplar
+  composite: 66.1
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.7
+    contract_quality: 72.3
     developer_ergonomics: 63.0
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 73.0
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     contracts:
@@ -799,9 +799,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/screenshots/amazon-polly-2026-06-20T171758.png
 security:
 - kind: authentication

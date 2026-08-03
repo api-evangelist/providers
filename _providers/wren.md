@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Manage the prepaid credit balance
@@ -70,27 +70,27 @@ name: Wren
 nav: Providers
 network: true
 overview: Wren publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Credits API, Offset Orders API, Portfolios API, and 4 more. Tagged areas include Company.
-random_paper: 34
+random_paper: 64
 score:
-  band: emerging
-  composite: 16.1
-  delta: -4.3
+  band: minimal
+  composite: 7.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 49.5
+    contract_quality: 16.4
     developer_ergonomics: 0.0
     discoverability: 37.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.4
+  previous_composite: 7.8
   provenance:
     contracts:
       callable: 100.0
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 slug: wren
 tags:

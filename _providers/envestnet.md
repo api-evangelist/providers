@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -1375,7 +1375,7 @@ plans:
 - name: Envestnet Plans Pricing
   plan_count: 2
   slug: envestnet-plans-pricing
-random_paper: 4
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Envestnet Rate Limits
@@ -1391,16 +1391,16 @@ rules:
   slug: envestnet-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.1
-  delta: -6.5
+  composite: 41.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.1
+    contract_quality: 54.8
     developer_ergonomics: 10.9
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 46.6
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1414,9 +1414,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/screenshots/envestnet-2026-06-20T180737.png
 security:
 - kind: domain-security

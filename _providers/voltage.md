@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-07-28'
+  score: 44.4
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for sending and receiving Bitcoin/Lightning payments. Manage wallets, create send/receive payments (BOLT11, on-chain, BIP21), lock BTC/USD exchange rates with quotes, view lines of credit, an
@@ -210,11 +210,11 @@ overview: 'Voltage publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Voltage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 16
+random_paper: 89
 score:
   band: strong
   composite: 56.0
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
@@ -222,7 +222,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 55.3
-  previous_composite: 54.3
+  previous_composite: 56.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -233,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

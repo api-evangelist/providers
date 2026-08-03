@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 35.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ plans:
 - name: Magento Plans Pricing
   plan_count: 3
   slug: magento-plans-pricing
-random_paper: 9
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Magento Rate Limits
@@ -318,16 +318,16 @@ rules:
   slug: magento-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.6
-  delta: -3.8
+  composite: 43.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.9
+    contract_quality: 73.1
     developer_ergonomics: 10.9
     discoverability: 50.0
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 46.4
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -335,8 +335,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/screenshots/magento-2026-06-20T184844.png
 security:

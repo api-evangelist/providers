@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,11 +37,8 @@ agentic_access:
   operation_count: 15
   slug: finnhub-agentic-access
   summary_line: 15 operations
-api_count: 8
+api_count: 7
 apis:
-- description: With the sole mission of democratizing financial data, Finnhub offers a realtime REST API for stocks, forex, and cryptocurrency, including market data, company fundamentals, economic data, and alterna
-  name: Finnhub
-  slug: finnhub
 - description: The Company News API from Finnhub — 1 operation(s) for company news.
   name: Finnhub Company News API
   slug: finnhub-company-news-api
@@ -63,7 +60,7 @@ apis:
 - description: The Stock API from Finnhub — 5 operation(s) for stock.
   name: Finnhub Stock API
   slug: finnhub-stock-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: AsyncAPI specification for Finnhub's real-time streaming WebSocket APIs. A single WebSocket endpoint (wss://ws.finnhub.io) multiplexes three documented streams selected by the envelope `type` field on
   name: Finnhub WebSocket API
@@ -205,7 +202,7 @@ modified: '2026-07-22'
 name: Finnhub
 nav: Providers
 network: true
-overview: 'Finnhub publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Finnhub, Company News API, Crypto API, and 5 more. Tagged areas include Financial, Market Data, Stocks, Forex, and Cryptocurrency.
+overview: 'Finnhub publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Company News API, Crypto API, Forex API, and 4 more. Tagged areas include Financial, Market Data, Stocks, Forex, and Cryptocurrency.
 
 
   The Finnhub catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -216,7 +213,7 @@ plans:
 - name: Finnhub Plans Pricing
   plan_count: 3
   slug: finnhub-plans-pricing
-random_paper: 8
+random_paper: 81
 rate_limits:
 - limit_count: 6
   name: Finnhub Rate Limits
@@ -232,16 +229,16 @@ rules:
   slug: finnhub-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 55.4
-  delta: -2.7
+  composite: 55.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.0
+    contract_quality: 63.9
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 53.1
     operational_transparency: 36.8
-  previous_composite: 58.1
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,8 +255,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/screenshots/finnhub-2026-06-20T181219.png
 security:

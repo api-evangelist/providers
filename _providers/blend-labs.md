@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-07-28'
+  score: 21.2
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Blend's platform API for home lending, consumer lending, deposit account opening, documents and disclosures, e-signature packages, electronic and remote online notary (RON) closings, verification of i
@@ -127,11 +127,11 @@ overview: 'Blend Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Blend Labs'' developer surface includes documentation, API reference, getting-started guide, support, changelog, signup flow, pricing, and 10 more developer resources.'
-random_paper: 78
+random_paper: 30
 score:
   band: thin
   composite: 37.8
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 51.6
@@ -139,7 +139,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 39.7
+  previous_composite: 37.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -149,8 +149,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blend-labs/refs/heads/main/screenshots/blend-labs-2026-07-25T203310.png
 security:

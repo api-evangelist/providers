@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-07-28'
+  score: 46.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -212,19 +212,19 @@ overview: 'Ansa publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ansa''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
-random_paper: 9
+random_paper: 39
 score:
   band: developing
-  composite: 54.7
-  delta: -1.9
+  composite: 55.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.6
+    contract_quality: 66.8
     developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 56.6
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -241,8 +241,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/screenshots/ansa-2026-07-25T200309.png
 security:

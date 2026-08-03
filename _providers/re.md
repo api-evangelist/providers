@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Health, APY, NAV, and price series
@@ -160,19 +160,19 @@ overview: 'Re publishes 5 APIs on the [APIs.io](https://apis.io/) network, inclu
 
 
   Re''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 18 more developer resources.'
-random_paper: 51
+random_paper: 25
 score:
   band: thin
-  composite: 40.7
-  delta: -3.2
+  composite: 41.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 50.8
+    contract_quality: 55.0
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 43.9
+  previous_composite: 41.6
   provenance:
     conformance: derived
     contracts:
@@ -188,8 +188,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

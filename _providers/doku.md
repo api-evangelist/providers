@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-07-28'
+  score: 54.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -261,23 +261,23 @@ plans:
 - name: Doku Plans Pricing
   plan_count: 3
   slug: doku-plans-pricing
-random_paper: 25
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Doku Rate Limits
   slug: doku-rate-limits
 score:
   band: exemplar
-  composite: 69.2
-  delta: -2.2
+  composite: 69.9
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 64.7
+    contract_quality: 67.7
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 68.4
-  previous_composite: 71.4
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -294,8 +294,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png
 security:

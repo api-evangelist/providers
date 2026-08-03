@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-07-28'
+  score: 23.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ plans:
 - name: Spire Plans Pricing
   plan_count: 3
   slug: spire-plans-pricing
-random_paper: 55
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Spire Rate Limits
@@ -241,16 +241,16 @@ rules:
   slug: spire-rules
 score:
   band: developing
-  composite: 53.4
-  delta: -3.8
+  composite: 53.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.2
+    contract_quality: 71.3
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 62.5
     operational_transparency: 63.2
-  previous_composite: 57.2
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -258,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/screenshots/spire-2026-06-20T194318.png
 security:

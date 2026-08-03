@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ plans:
 - name: Clover Plans Pricing
   plan_count: 2
   slug: clover-plans-pricing
-random_paper: 77
+random_paper: 81
 rate_limits:
 - limit_count: 4
   name: Clover Rate Limits
@@ -293,17 +293,17 @@ scopes:
   slug: clover-scopes
   summary_line: 13 scopes · authorizationCode
 score:
-  band: developing
-  composite: 43.1
-  delta: -8.7
+  band: thin
+  composite: 35.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.5
+    contract_quality: 24.8
     developer_ergonomics: 13.0
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 51.8
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -317,9 +317,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/screenshots/clover-2026-06-20T174623.png
 security:
 - kind: authentication

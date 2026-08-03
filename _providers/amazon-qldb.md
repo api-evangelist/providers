@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -976,7 +976,7 @@ plans:
 - name: Amazon Qldb Plans Pricing
   plan_count: 3
   slug: amazon-qldb-plans-pricing
-random_paper: 44
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Amazon Qldb Rate Limits
@@ -1000,16 +1000,16 @@ rules:
   slug: amazon-qldb-spectral-rules
 score:
   band: strong
-  composite: 62.1
-  delta: -2.6
+  composite: 63.1
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 64.2
+    contract_quality: 68.2
     developer_ergonomics: 43.5
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 64.7
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1017,8 +1017,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/screenshots/amazon-qldb-2026-06-20T171803.png
 security:

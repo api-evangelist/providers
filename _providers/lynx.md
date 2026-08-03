@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Lynx FinHealth API for embedded health accounts, enrollment, contributions, payments and distributions, transactions, and card issuance/management. Reference is gated behind developer login; a hosted '
@@ -127,11 +127,11 @@ overview: 'Lynx publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lynx''s developer surface includes documentation, API reference, getting-started guide, changelog, sandbox, signup flow, support, and 13 more developer resources.'
-random_paper: 49
+random_paper: 79
 score:
   band: thin
   composite: 32.9
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -139,7 +139,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 34.5
+  previous_composite: 32.9
   provenance:
     conformance: first-party
   regulatory:
@@ -148,8 +148,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 36.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lynx/refs/heads/main/screenshots/lynx-2026-07-25T225752.png
 security:

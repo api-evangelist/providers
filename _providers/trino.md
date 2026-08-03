@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -345,7 +345,7 @@ plans:
 - name: Trino Plans Pricing
   plan_count: 3
   slug: trino-plans-pricing
-random_paper: 64
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Trino Rate Limits
@@ -369,16 +369,16 @@ rules:
   slug: trino-rules
 score:
   band: developing
-  composite: 50.6
-  delta: -5.5
+  composite: 51.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 28.3
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 56.1
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -386,9 +386,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trino/refs/heads/main/screenshots/trino-2026-06-20T195720.png
 security:
 - kind: domain-security

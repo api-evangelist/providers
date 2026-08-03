@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,9 +154,9 @@ plans:
 - name: Newsapi Plans Pricing
   plan_count: 4
   slug: newsapi-plans-pricing
-random_paper: 21
+random_paper: 94
 rate_limits:
-- limit_count: 0
+- limit_count: 5
   name: Newsapi Rate Limits
   slug: newsapi-rate-limits
 rules:
@@ -170,16 +170,16 @@ rules:
   slug: newsapi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.2
-  delta: -4.2
+  composite: 55.2
+  delta: 4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 78.8
+    contract_quality: 78.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 55.4
+    operational_transparency: 52.6
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newsapi/refs/heads/main/screenshots/newsapi-2026-06-20T190246.png
 security:

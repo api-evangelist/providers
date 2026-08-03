@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-07-28'
+  score: 30.2
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Token- and signature-authenticated REST API for enterprises to integrate Fenbeitong organization structure, orders (flights, car, train, hotel, dining, takeout, procurement), approvals, budgets and bi
@@ -131,11 +131,11 @@ overview: 'Fenbeitong publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Fenbeitong''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 12 more developer resources.'
-random_paper: 73
+random_paper: 12
 score:
   band: developing
   composite: 42.3
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -143,15 +143,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 39.8
+  previous_composite: 42.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fenbeitong/refs/heads/main/screenshots/fenbeitong-2026-07-25T214442.png
 security:

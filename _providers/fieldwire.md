@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 35.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -422,9 +422,9 @@ plans:
 - name: Fieldwire Plans Pricing
   plan_count: 5
   slug: fieldwire-plans-pricing
-random_paper: 53
+random_paper: 5
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Fieldwire Rate Limits
   slug: fieldwire-rate-limits
 rules:
@@ -454,16 +454,16 @@ rules:
   slug: fieldwire-rules
 score:
   band: strong
-  composite: 61.3
-  delta: -1.3
+  composite: 64.5
+  delta: 2.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 77.4
+    contract_quality: 79.1
     developer_ergonomics: 54.3
     discoverability: 50.0
     governance: 47.9
-    operational_transparency: 47.4
-  previous_composite: 62.6
+    operational_transparency: 68.4
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     contracts:
@@ -471,8 +471,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/screenshots/fieldwire-2026-06-20T181155.png
 security:

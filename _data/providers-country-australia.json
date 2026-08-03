@@ -8,8 +8,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 16,
-   "shown": 16,
+   "count": 18,
+   "shown": 18,
    "providers": [
     {
      "name": "Sendle",
@@ -48,6 +48,51 @@
       "dry_run_mode": false
      },
      "rank": 1
+    },
+    {
+     "name": "Kudosity",
+     "slug": "kudosity",
+     "description": "Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, lists, dedicated virtual numbers, keywords, email-to-SMS and all reporting. Both share one account, one set of senders and one bill. Both ship public OpenAPI documents. What makes Kudosity unusual for its size is the agent-native surface layered on top: a hosted MCP server whose tools/list answers without credentials, llms.txt on both the docs and marketing hosts with per-section fan-out, and five published agent integrations — a Claude Code plugin, a GitHub Copilot extension, a Gemini CLI extension, an OpenClaw channel plugin and an SMS GitHub Action — all open source in a public GitHub organization. RCS is in beta; there is no voice product, no sandbox and no idempotency key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png",
+     "score": 62.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 63.7,
+      "governance": 3.1,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 92.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 50.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 2
     },
     {
      "name": "Heidi Health",
@@ -92,7 +137,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2
+     "rank": 3
+    },
+    {
+     "name": "Telstra",
+     "slug": "telstra",
+     "description": "Telstra is Australia's largest telecommunications and mobile network operator, providing fixed broadband, mobile voice and data, enterprise networking, and IoT connectivity across Australia and into Asia. Telstra exposes a developer programme at dev.telstra.com fronting carrier-grade Messaging (SMS / MMS) and Mobile Number Verification APIs, with official SDKs in Python, Node.js, Java, .NET, and Go, and Arduino libraries for the Telstra Cat-1 and Cat-M1 IoT development kits. APIs are reached at tapi.telstra.com behind OAuth 2.0 client credentials with the NSMS or MNV scopes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/screenshots/telstra-2026-06-20T195052.png",
+     "score": 61.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 76.2,
+      "governance": 68.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 54.3,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 58.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 4
     },
     {
      "name": "Zai",
@@ -136,7 +226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 5
     },
     {
      "name": "PEXA",
@@ -174,52 +264,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 6
     },
     {
-     "name": "Kudosity",
-     "slug": "kudosity",
-     "description": "Kudosity is an Australian business messaging platform — formerly Burst SMS / TransmitSMS — running two live public REST APIs on two hosts. The Transmit Message API (v2) covers SMS, MMS, WhatsApp and RCS with API-managed webhooks and sender registration; the Transmit SMS API (v1) carries contacts, lists, dedicated virtual numbers, keywords, email-to-SMS and all reporting. Both share one account, one set of senders and one bill. Both ship public OpenAPI documents. What makes Kudosity unusual for its size is the agent-native surface layered on top: a hosted MCP server whose tools/list answers without credentials, llms.txt on both the docs and marketing hosts with per-section fan-out, and five published agent integrations — a Claude Code plugin, a GitHub Copilot extension, a Gemini CLI extension, an OpenClaw channel plugin and an SMS GitHub Action — all open source in a public GitHub organization. RCS is in beta; there is no voice product, no sandbox and no idempotency key.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png",
-     "score": 60.1,
+     "name": "Origin Energy",
+     "slug": "origin-energy",
+     "description": "Origin Energy Limited is Australia's largest energy retailer, an ASX-listed integrated gas and electricity company headquartered in Sydney that supplies roughly 4.5 million electricity, natural gas, LPG and broadband customer accounts, operates the Eraring Power Station and a large gas-fired and renewable generation portfolio, holds a stake in the Australia Pacific LNG project, and runs the Origin Loop virtual power plant. It sits at the retail end of the National Electricity Market value chain, buying and generating wholesale energy and selling it to households and businesses. Its API posture is defined almost entirely by regulation rather than by a developer strategy: Origin is a designated energy data holder under Australia's Consumer Data Right and that obligation is genuinely implemented — it appears on the CDR Register with its own public base URI, serves the Consumer Data Standards discovery endpoints anonymously, and presents an mTLS resource endpoint whose TLS certificate is issued by the ACCC's own CDR Certificate Authority — but every byte of actual customer usage, billing and DER data behind that surface is reachable only by an accredited data recipient acting on a consumer's consent. Alongside the mandate, Origin runs its retail business on Octopus Energy's Kraken platform (Origin holds an equity stake in Octopus and Kraken Technologies), which exposes a publicly readable partner developer portal with downloadable OpenAPI definitions, a GraphQL API, an external events catalogue and an OpenID Connect authorisation server — none of it self-serve. Origin publishes no open grid, market or system data of its own; the only anonymously retrievable data is its retail plan reference data, and that is served from the Australian Energy Regulator's Energy Made Easy CDR gateway, not from an Origin host.",
+     "score": 60.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 63.7,
-      "governance": 3.1,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 92.1
+      "discoverability": 92.6,
+      "contract_quality": 65.6,
+      "governance": 20.8,
+      "operational_transparency": 94.7,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 44.7
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 50.0,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
       "matched_via": "tags"
      },
      "agent_score": 53.8,
-     "agent_band": "agent-ready",
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
+      "well_known_catalog": true,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 7
     },
     {
      "name": "Fat Zebra",
@@ -264,7 +353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 8
     },
     {
      "name": "Monoova",
@@ -308,7 +397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 9
     },
     {
      "name": "Reapit",
@@ -345,7 +434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 10
     },
     {
      "name": "Zepto",
@@ -389,52 +478,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 11
     },
     {
-     "name": "Telstra",
-     "slug": "telstra",
-     "description": "Telstra is Australia's largest telecommunications and mobile network operator, providing fixed broadband, mobile voice and data, enterprise networking, and IoT connectivity across Australia and into Asia. Telstra exposes a developer programme at dev.telstra.com fronting carrier-grade Messaging (SMS / MMS) and Mobile Number Verification APIs, with official SDKs in Python, Node.js, Java, .NET, and Go, and Arduino libraries for the Telstra Cat-1 and Cat-M1 IoT development kits. APIs are reached at tapi.telstra.com behind OAuth 2.0 client credentials with the NSMS or MNV scopes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/screenshots/telstra-2026-06-20T195052.png",
+     "name": "Consumer Data Right (Energy)",
+     "slug": "cdr-energy",
+     "description": "The Consumer Data Right (CDR) is Australia's statutory consumer data-sharing regime, created under Part IVD of the Competition and Consumer Act 2010 and extended from banking into electricity by the Consumer Data Right (Energy Sector) Designation 2020. It is run by three bodies: the ACCC as lead regulator and operator of the CDR Register, the OAIC as privacy regulator, and the Treasury Data Standards Body, which writes the binding Consumer Data Standards. In energy the regime obliges electricity retailers to expose plans, accounts, billing, invoices, payment schedules, concessions, service points, interval usage and DER data through one identical, versioned API contract, with AEMO acting as the Secondary Data Holder gateway for NMI standing data, metering data and the DER register. Unlike almost every other energy-sector data mandate, this one is verifiably implemented rather than merely announced: the public CDR Register listed 84 energy data holder brands with live public base URIs when probed on 2026-07-27, and 53 of those base URIs returned standards-conformant product data anonymously on the first request. Its API posture is a clean two-speed split — genuinely open, unauthenticated market data (retail plan and tariff reference data, plus the participant register itself) sitting alongside consumer data that is closed behind ACCC accreditation, mutual TLS, FAPI-grade OAuth 2.0 / OpenID Connect and explicit, revocable consumer consent. Home market Australia.",
      "score": 58.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 76.2,
-      "governance": 68.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 54.3,
-      "commercial_clarity": 50.0
+      "discoverability": 83.3,
+      "contract_quality": 64.2,
+      "governance": 20.8,
+      "operational_transparency": 100.0,
+      "developer_ergonomics": 79.9,
+      "commercial_clarity": 7.9
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 58.3,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 63.5,
       "matched_via": "tags"
      },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
+     "agent_score": 45.9,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
+      "agentic_access": false,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 12
     },
     {
      "name": "AEMO",
@@ -478,7 +566,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 13
     },
     {
      "name": "Halo Connect",
@@ -523,51 +611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
-    },
-    {
-     "name": "Origin Energy",
-     "slug": "origin-energy",
-     "description": "Origin Energy Limited is Australia's largest energy retailer, an ASX-listed integrated gas and electricity company headquartered in Sydney that supplies roughly 4.5 million electricity, natural gas, LPG and broadband customer accounts, operates the Eraring Power Station and a large gas-fired and renewable generation portfolio, holds a stake in the Australia Pacific LNG project, and runs the Origin Loop virtual power plant. It sits at the retail end of the National Electricity Market value chain, buying and generating wholesale energy and selling it to households and businesses. Its API posture is defined almost entirely by regulation rather than by a developer strategy: Origin is a designated energy data holder under Australia's Consumer Data Right and that obligation is genuinely implemented — it appears on the CDR Register with its own public base URI, serves the Consumer Data Standards discovery endpoints anonymously, and presents an mTLS resource endpoint whose TLS certificate is issued by the ACCC's own CDR Certificate Authority — but every byte of actual customer usage, billing and DER data behind that surface is reachable only by an accredited data recipient acting on a consumer's consent. Alongside the mandate, Origin runs its retail business on Octopus Energy's Kraken platform (Origin holds an equity stake in Octopus and Kraken Technologies), which exposes a publicly readable partner developer portal with downloadable OpenAPI definitions, a GraphQL API, an external events catalogue and an OpenID Connect authorisation server — none of it self-serve. Origin publishes no open grid, market or system data of its own; the only anonymously retrievable data is its retail plan reference data, and that is served from the Australian Energy Regulator's Energy Made Easy CDR gateway, not from an Origin host.",
-     "score": 57.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 65.6,
-      "governance": 20.8,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 53.8,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 53.8,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "HR Partner",
@@ -605,7 +649,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Pinch Payments",
@@ -649,7 +693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "ACMA",
@@ -693,7 +737,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
+    },
+    {
+     "name": "REA Group",
+     "slug": "rea-group",
+     "description": "REA Group Limited is an ASX-listed (ASX:REA) digital real estate advertising business headquartered in Melbourne, Australia and majority-owned by News Corp. It operates realestate.com.au and realcommercial.com.au, the property data and analytics brand PropTrack, the Mortgage Choice broking network, and REA India (Housing.com, PropTiger, and Makaan). REA Group's public developer surface is delivered through PropTrack, whose developer portal publishes nine OpenAPI 3.1 documents covering 32 operations - OAuth token issuance, address matching and suggestion, property summary, attributes, planning, tenure, listings and transactions, automated valuations (AVM Sale, Rent, Plus and Pro), PDF valuation and property reports, suburb-level market history, supply and demand, auction results and demographics, plus a Disclaimers API that serves the attribution text PropTrack contractually requires alongside its data. Every service also publishes a live, unauthenticated Stoplight mock server, so the contract can be exercised before a commercial agreement is signed. The APIs are documented publicly but are partner-gated - access requires a commercial agreement arranged through an Account Manager, and calls are authenticated with OAuth 2.0 client credentials exchanged for a one-hour JWT bearer token at data.proptrack.com. Alongside PropTrack, REA Group runs the realestate.com.au Partner Portal (partner.realestate.com.au), the integration surface for real estate agencies and their CRM / software providers to publish for-sale and for-rent listings onto realestate.com.au and realcommercial.com.au and to receive buyer and renter enquiries. Listing distribution uses REAXML, REA's long-standing industry-standard XML property feed (schema published at reaxml.realestate.com.au), which the majority of Australian agency CRMs implement, with partner onboarding, API credentials (Client ID + secret) and enquiry delivery managed through the partner portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/screenshots/rea-group-2026-07-27T125400.png",
+     "score": 56.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 62.1,
+      "governance": 11.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 55.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 48.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 18
     }
    ],
    "open": true
@@ -703,8 +785,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 64,
-   "shown": 64,
+   "count": 62,
+   "shown": 62,
    "providers": [
     {
      "name": "Azupay",
@@ -749,51 +831,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
-    },
-    {
-     "name": "Consumer Data Right (Energy)",
-     "slug": "cdr-energy",
-     "description": "The Consumer Data Right (CDR) is Australia's statutory consumer data-sharing regime, created under Part IVD of the Competition and Consumer Act 2010 and extended from banking into electricity by the Consumer Data Right (Energy Sector) Designation 2020. It is run by three bodies: the ACCC as lead regulator and operator of the CDR Register, the OAIC as privacy regulator, and the Treasury Data Standards Body, which writes the binding Consumer Data Standards. In energy the regime obliges electricity retailers to expose plans, accounts, billing, invoices, payment schedules, concessions, service points, interval usage and DER data through one identical, versioned API contract, with AEMO acting as the Secondary Data Holder gateway for NMI standing data, metering data and the DER register. Unlike almost every other energy-sector data mandate, this one is verifiably implemented rather than merely announced: the public CDR Register listed 84 energy data holder brands with live public base URIs when probed on 2026-07-27, and 53 of those base URIs returned standards-conformant product data anonymously on the first request. Its API posture is a clean two-speed split — genuinely open, unauthenticated market data (retail plan and tariff reference data, plus the participant register itself) sitting alongside consumer data that is closed behind ACCC accreditation, mutual TLS, FAPI-grade OAuth 2.0 / OpenID Connect and explicit, revocable consumer consent. Home market Australia.",
-     "score": 54.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 64.2,
-      "governance": 20.8,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 79.9,
-      "commercial_clarity": 7.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 63.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Tyro Payments",
@@ -837,7 +875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Optus",
@@ -881,7 +919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Coviu",
@@ -926,7 +964,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "VaultRE",
@@ -964,7 +1002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Buildxact",
@@ -1002,7 +1040,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
+    },
+    {
+     "name": "TPG Telecom",
+     "slug": "tpg-telecom",
+     "description": "TPG Telecom Limited is Australia's second-largest telecommunications company and an ASX-listed mobile network operator and fixed broadband carrier, formed by the 2020 merger of Vodafone Hutchison Australia and TPG Corporation. It runs its own mobile network reaching 98.4% of the Australian population and sells under the Vodafone, TPG, iiNet, Internode, Lebara and felix brands, with business, enterprise, government and wholesale services consolidated under Vodafone Business. In the telecom API value chain TPG Telecom sits squarely on the network side and not the developer side: it publishes no first-party developer portal, no downloadable OpenAPI, and no network APIs. Its only public, callable developer surface is the Vodafone Business Messaging Hub — a white-labelled Sinch MessageMedia (Sinch Engage) CPaaS platform running on TPG-branded hosts at messaging.tpgtelecom.com.au and api.messaging.tpgtelecom.com.au, with documentation served from a Zendesk help centre and an Apiary API Blueprint owned by MessageMedia. On the sector's defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG's public position is that it is \"closely watching developments like GSMA Open Gateway\" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.",
+     "score": 53.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 3.1,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 38.6,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 51.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 25
     },
     {
      "name": "Up",
@@ -1047,7 +1129,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "IMB Bank",
@@ -1092,7 +1174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 27
     },
     {
      "name": "Weel",
@@ -1136,23 +1218,22 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 28
     },
     {
-     "name": "REA Group",
-     "slug": "rea-group",
-     "description": "REA Group Limited is an ASX-listed (ASX:REA) digital real estate advertising business headquartered in Melbourne, Australia and majority-owned by News Corp. It operates realestate.com.au and realcommercial.com.au, the property data and analytics brand PropTrack, the Mortgage Choice broking network, and REA India (Housing.com, PropTiger, and Makaan). REA Group's public developer surface is delivered through PropTrack, whose developer portal publishes nine OpenAPI 3.1 documents covering 32 operations - OAuth token issuance, address matching and suggestion, property summary, attributes, planning, tenure, listings and transactions, automated valuations (AVM Sale, Rent, Plus and Pro), PDF valuation and property reports, suburb-level market history, supply and demand, auction results and demographics, plus a Disclaimers API that serves the attribution text PropTrack contractually requires alongside its data. Every service also publishes a live, unauthenticated Stoplight mock server, so the contract can be exercised before a commercial agreement is signed. The APIs are documented publicly but are partner-gated - access requires a commercial agreement arranged through an Account Manager, and calls are authenticated with OAuth 2.0 client credentials exchanged for a one-hour JWT bearer token at data.proptrack.com. Alongside PropTrack, REA Group runs the realestate.com.au Partner Portal (partner.realestate.com.au), the integration surface for real estate agencies and their CRM / software providers to publish for-sale and for-rent listings onto realestate.com.au and realcommercial.com.au and to receive buyer and renter enquiries. Listing distribution uses REAXML, REA's long-standing industry-standard XML property feed (schema published at reaxml.realestate.com.au), which the majority of Australian agency CRMs implement, with partner onboarding, API credentials (Client ID + secret) and enquiry delivery managed through the partner portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/screenshots/rea-group-2026-07-27T125400.png",
-     "score": 52.0,
+     "name": "Webjet",
+     "slug": "webjet",
+     "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 62.1,
+      "discoverability": 83.3,
+      "contract_quality": 52.6,
       "governance": 11.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 60.3,
-      "commercial_clarity": 55.3
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 52.6
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
@@ -1161,7 +1242,7 @@
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": false,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "documented",
@@ -1170,11 +1251,55 @@
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": true,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 29
+    },
+    {
+     "name": "Amber Electric",
+     "slug": "amber-electric",
+     "description": "Amber Electric is an Australian electricity retailer (ABN 98623603805) that sells wholesale National Electricity Market pricing straight through to residential customers on a flat monthly membership, rather than marking energy up, and automates home batteries, solar exports and EV charging against those half-hourly prices. It sits at the retail end of the Australian energy value chain, between AEMO's wholesale market and the household meter. Its API posture is unusually honest and unusually split. Amber publishes a real, verbatim OpenAPI 3.0.0 contract for a REST API at https://api.amber.com.au/v1 covering sites, prices, forecasts and usage, but the token that unlocks it is generated inside the logged-in customer app at https://app.amber.com.au/developers, so the API is customer-account-required rather than self-serve — a developer who is not an Amber customer cannot obtain a key. One endpoint is the exception: the spec explicitly declares `security: []` on GET /state/{state}/renewables/current, and that grid renewables-percentage feed really does answer anonymously for NSW, VIC, QLD and SA, so open market data and gated consumer data live inside the same contract. Separately, Amber is a designated Consumer Data Right energy data holder that is genuinely live, not merely designated: it is listed on the ACCC CDR Register with a working public base URI at https://public.cdr.amber.com.au, whose CDS discovery endpoints and anonymously-served OpenID Connect configuration advertise the full Consumer Data Standards energy scope set behind private_key_jwt and CDR accreditation.",
+     "score": 51.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 54.0,
+      "governance": 20.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 51.6,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 74.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 30
     },
     {
      "name": "Best Practice Software",
@@ -1219,7 +1344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 31
     },
     {
      "name": "Evari",
@@ -1264,7 +1389,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 32
+    },
+    {
+     "name": "Australian Energy Regulator",
+     "slug": "aer",
+     "description": "The Australian Energy Regulator (AER) is the independent national economic regulator of Australia's energy markets, established under the Competition and Consumer Act 2010 and operating alongside the ACCC. It sets network revenues and prices, enforces the National Electricity, Gas and Energy Retail Rules, monitors wholesale and retail market conduct, sets the Default Market Offer, keeps the public registers of authorised retailers and exemptions, and operates Energy Made Easy, the government price-comparison service. Its API posture is the strongest found among Australian energy regulators and it is genuinely implemented rather than merely mandated. The AER is a designated data holder under the Competition and Consumer (Consumer Data Right) Rules 2020 and it serves the Consumer Data Standards energy Product Reference Data endpoints — Get Generic Plans and Get Generic Plan Detail — anonymously, with no accreditation, no API key and no signup, returning live retail plan, tariff, fee, discount and eligibility data for the six jurisdictions that adopted the National Energy Customer Framework. Verified on 2026-07-27, 79 of the 84 energy data-holder brands in the ACCC CDR Register point their productBaseUri at the AER's own host, cdr.energymadeeasy.gov.au, which makes the regulator the actual operator of the product-data API layer for nearly the whole Australian retail energy industry. The split matters: the AER's open surface is product and tariff data only. It holds and exposes no individual consumer usage or billing data — the CDR consumer endpoints 404 on its host — because those flow from retailers as primary data holders and AEMO as the secondary data holder gateway, behind ACCC accreditation, OAuth2/OIDC and mTLS. The AER's own market statistics, wholesale performance reporting and public registers are published as web pages, charts and document downloads, not as an API, and no developer., developers., api., docs. or data. subdomain resolves.",
+     "score": 50.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 54.3,
+      "governance": 20.8,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 47.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 48.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 33
     },
     {
      "name": "Basiq",
@@ -1309,7 +1478,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 34
     },
     {
      "name": "Endeavour Energy",
@@ -1353,7 +1522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 35
     },
     {
      "name": "Macquarie Bank",
@@ -1398,51 +1567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
-    },
-    {
-     "name": "TPG Telecom",
-     "slug": "tpg-telecom",
-     "description": "TPG Telecom Limited is Australia's second-largest telecommunications company and an ASX-listed mobile network operator and fixed broadband carrier, formed by the 2020 merger of Vodafone Hutchison Australia and TPG Corporation. It runs its own mobile network reaching 98.4% of the Australian population and sells under the Vodafone, TPG, iiNet, Internode, Lebara and felix brands, with business, enterprise, government and wholesale services consolidated under Vodafone Business. In the telecom API value chain TPG Telecom sits squarely on the network side and not the developer side: it publishes no first-party developer portal, no downloadable OpenAPI, and no network APIs. Its only public, callable developer surface is the Vodafone Business Messaging Hub — a white-labelled Sinch MessageMedia (Sinch Engage) CPaaS platform running on TPG-branded hosts at messaging.tpgtelecom.com.au and api.messaging.tpgtelecom.com.au, with documentation served from a Zendesk help centre and an Apiary API Blueprint owned by MessageMedia. On the sector's defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG's public position is that it is \"closely watching developments like GSMA Open Gateway\" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.",
-     "score": 50.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 3.1,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 38.6,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 51.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 43.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 33
+     "rank": 36
     },
     {
      "name": "Newcastle Permanent Building Society",
@@ -1487,7 +1612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 37
     },
     {
      "name": "Domain Group",
@@ -1525,7 +1650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 38
     },
     {
      "name": "Chargefox",
@@ -1569,51 +1694,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
-    },
-    {
-     "name": "Amber Electric",
-     "slug": "amber-electric",
-     "description": "Amber Electric is an Australian electricity retailer (ABN 98623603805) that sells wholesale National Electricity Market pricing straight through to residential customers on a flat monthly membership, rather than marking energy up, and automates home batteries, solar exports and EV charging against those half-hourly prices. It sits at the retail end of the Australian energy value chain, between AEMO's wholesale market and the household meter. Its API posture is unusually honest and unusually split. Amber publishes a real, verbatim OpenAPI 3.0.0 contract for a REST API at https://api.amber.com.au/v1 covering sites, prices, forecasts and usage, but the token that unlocks it is generated inside the logged-in customer app at https://app.amber.com.au/developers, so the API is customer-account-required rather than self-serve — a developer who is not an Amber customer cannot obtain a key. One endpoint is the exception: the spec explicitly declares `security: []` on GET /state/{state}/renewables/current, and that grid renewables-percentage feed really does answer anonymously for NSW, VIC, QLD and SA, so open market data and gated consumer data live inside the same contract. Separately, Amber is a designated Consumer Data Right energy data holder that is genuinely live, not merely designated: it is listed on the ACCC CDR Register with a working public base URI at https://public.cdr.amber.com.au, whose CDS discovery endpoints and anonymously-served OpenID Connect configuration advertise the full Consumer Data Standards energy scope set behind private_key_jwt and CDR accreditation.",
-     "score": 49.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 54.0,
-      "governance": 20.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 51.6,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 74.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 37
+     "rank": 39
     },
     {
      "name": "Landgate",
@@ -1658,7 +1739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 40
     },
     {
      "name": "Westpac Banking Corporation",
@@ -1703,7 +1784,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 41
+    },
+    {
+     "name": "Simply Energy",
+     "slug": "simply-energy",
+     "description": "Simply Energy is the former brand of the Australian electricity and gas retailer that now trades as ENGIE, operated by IPower Pty Ltd (ACN 111 267 228) and IPower 2 Pty Ltd (ABN 24 070 374 293) trading as ENGIE (ABN 67 269 241 237), together with Simply Energy Solutions Pty Ltd. The business carried the Simply Energy name for seventeen years before rebranding to ENGIE in April 2024, and supplies more than 700,000 residential and business accounts across Victoria, South Australia, New South Wales, Queensland and Western Australia. It sits on the retail tier of the National Electricity Market value chain, buying wholesale energy and billing end customers, rather than in generation, transmission or distribution. Its API posture is entirely a product of statutory mandate, and in this case the mandate is genuinely implemented rather than merely claimed. The company is a designated Consumer Data Right energy data holder (data holder provider number DH002028) and is listed on the live CDR Register under the ENGIE brand. Its unauthenticated CDR Generic Plans endpoint, hosted for it by the Australian Energy Regulator's Energy Made Easy service, returns 2,452 real ENGIE tariff plans conforming to the Consumer Data Standards energy schemas, and its own registered public base URI serves the Consumer Data Standards discovery endpoints with correct x-v version negotiation. Everything else is closed. Customer usage, billing, service point and DER data are available only to ACCC accredited data recipients with explicit consumer consent, there is no developer portal, no self-serve API keys, no published OpenID Connect discovery document, and no open grid, market or system data of any kind.",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 54.3,
+      "governance": 20.8,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 42
     },
     {
      "name": "BankVic",
@@ -1748,7 +1873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 43
     },
     {
      "name": "Red Energy",
@@ -1792,44 +1917,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
-    },
-    {
-     "name": "Webjet",
-     "slug": "webjet",
-     "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
-     "score": 48.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 52.6,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 73.4,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 48.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 42
+     "rank": 44
     },
     {
      "name": "Open",
@@ -1873,7 +1961,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 45
     },
     {
      "name": "Monash University",
@@ -1918,7 +2006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 46
     },
     {
      "name": "Reposit Power",
@@ -1962,7 +2050,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 47
     },
     {
      "name": "Australia and New Zealand Banking Group (ANZ)",
@@ -2007,7 +2095,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 48
     },
     {
      "name": "Powershop",
@@ -2051,7 +2139,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 49
     },
     {
      "name": "St.George Bank",
@@ -2096,7 +2184,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 50
     },
     {
      "name": "Suncorp Bank",
@@ -2141,51 +2229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
-    },
-    {
-     "name": "Australian Energy Regulator",
-     "slug": "aer",
-     "description": "The Australian Energy Regulator (AER) is the independent national economic regulator of Australia's energy markets, established under the Competition and Consumer Act 2010 and operating alongside the ACCC. It sets network revenues and prices, enforces the National Electricity, Gas and Energy Retail Rules, monitors wholesale and retail market conduct, sets the Default Market Offer, keeps the public registers of authorised retailers and exemptions, and operates Energy Made Easy, the government price-comparison service. Its API posture is the strongest found among Australian energy regulators and it is genuinely implemented rather than merely mandated. The AER is a designated data holder under the Competition and Consumer (Consumer Data Right) Rules 2020 and it serves the Consumer Data Standards energy Product Reference Data endpoints — Get Generic Plans and Get Generic Plan Detail — anonymously, with no accreditation, no API key and no signup, returning live retail plan, tariff, fee, discount and eligibility data for the six jurisdictions that adopted the National Energy Customer Framework. Verified on 2026-07-27, 79 of the 84 energy data-holder brands in the ACCC CDR Register point their productBaseUri at the AER's own host, cdr.energymadeeasy.gov.au, which makes the regulator the actual operator of the product-data API layer for nearly the whole Australian retail energy industry. The split matters: the AER's open surface is product and tariff data only. It holds and exposes no individual consumer usage or billing data — the CDR consumer endpoints 404 on its host — because those flow from retailers as primary data holders and AEMO as the secondary data holder gateway, behind ACCC accreditation, OAuth2/OIDC and mTLS. The AER's own market statistics, wholesale performance reporting and public registers are published as web pages, charts and document downloads, not as an API, and no developer., developers., api., docs. or data. subdomain resolves.",
-     "score": 47.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 54.3,
-      "governance": 20.8,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 47.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 48.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 42.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Bank First",
@@ -2230,7 +2274,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Regional Australia Bank",
@@ -2275,7 +2319,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "BCU Bank",
@@ -2320,7 +2364,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Bendigo and Adelaide Bank",
@@ -2365,7 +2409,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "EnergyAustralia",
@@ -2409,7 +2453,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
+    },
+    {
+     "name": "Alinta Energy",
+     "slug": "alinta-energy",
+     "description": "Alinta Energy is one of Australia's largest integrated energy retailers and generators, owned by Hong Kong-based Chow Tai Fook Enterprises, supplying electricity and gas to more than a million homes and businesses across Western Australia, South Australia, Victoria, New South Wales and Queensland while operating an owned and contracted generation portfolio of roughly 3,000 MW spanning gas, coal, wind, solar and battery storage, plus the Lumo Energy retail brand. It sits at the retail end of the value chain — the tier the Australian Consumer Data Right binds. Alinta is a designated and live CDR energy data holder: its own public base URI https://public.cdr.alintaenergy.com.au serves the standards-conformant discovery endpoints (confirmed HTTP 200), and 493 of its energy plans are published anonymously through the CDR generic plan data channel — but that plan channel is hosted by the Australian Energy Regulator's Energy Made Easy platform, not by Alinta. Its API posture is therefore honestly summarised as mandate-implemented but developer-closed: everything of substance sits behind ACCC accreditation and consumer consent, Alinta publishes no developer portal, no self-serve API, no proprietary OpenAPI and no open grid or market data of its own.",
+     "score": 46.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 54.3,
+      "governance": 11.5,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 56.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 57
     },
     {
      "name": "Qudos Bank",
@@ -2454,7 +2542,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 58
     },
     {
      "name": "Till Payments",
@@ -2498,7 +2586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 59
     },
     {
      "name": "NSW Land Registry Services",
@@ -2543,7 +2631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 60
     },
     {
      "name": "CoreLogic Australia",
@@ -2581,7 +2669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 61
     },
     {
      "name": "University of Adelaide",
@@ -2626,7 +2714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 62
     },
     {
      "name": "Teachers Mutual Bank",
@@ -2671,7 +2759,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 63
     },
     {
      "name": "National Australia Bank",
@@ -2716,51 +2804,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
-    },
-    {
-     "name": "Simply Energy",
-     "slug": "simply-energy",
-     "description": "Simply Energy is the former brand of the Australian electricity and gas retailer that now trades as ENGIE, operated by IPower Pty Ltd (ACN 111 267 228) and IPower 2 Pty Ltd (ABN 24 070 374 293) trading as ENGIE (ABN 67 269 241 237), together with Simply Energy Solutions Pty Ltd. The business carried the Simply Energy name for seventeen years before rebranding to ENGIE in April 2024, and supplies more than 700,000 residential and business accounts across Victoria, South Australia, New South Wales, Queensland and Western Australia. It sits on the retail tier of the National Electricity Market value chain, buying wholesale energy and billing end customers, rather than in generation, transmission or distribution. Its API posture is entirely a product of statutory mandate, and in this case the mandate is genuinely implemented rather than merely claimed. The company is a designated Consumer Data Right energy data holder (data holder provider number DH002028) and is listed on the live CDR Register under the ENGIE brand. Its unauthenticated CDR Generic Plans endpoint, hosted for it by the Australian Energy Regulator's Energy Made Easy service, returns 2,452 real ENGIE tariff plans conforming to the Consumer Data Standards energy schemas, and its own registered public base URI serves the Consumer Data Standards discovery endpoints with correct x-v version negotiation. Everything else is closed. Customer usage, billing, service point and DER data are available only to ACCC accredited data recipients with explicit consumer consent, there is no developer portal, no self-serve API keys, no published OpenID Connect discovery document, and no open grid, market or system data of any kind.",
-     "score": 45.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 54.3,
-      "governance": 20.8,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 34.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Deakin University",
@@ -2805,7 +2849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "MOVE Bank",
@@ -2850,7 +2894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Great Southern Bank",
@@ -2895,7 +2939,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "RMIT University",
@@ -2933,7 +2977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "HSBC Bank Australia",
@@ -2978,7 +3022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Macquarie University",
@@ -3016,7 +3060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "University of Newcastle Australia",
@@ -3054,7 +3098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "University of Western Australia",
@@ -3092,7 +3136,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "AMP Bank",
@@ -3137,7 +3181,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Bank of Queensland",
@@ -3182,7 +3226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Alex Bank",
@@ -3227,7 +3271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Codafication",
@@ -3272,7 +3316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "ING Australia",
@@ -3310,50 +3354,6 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 76
-    },
-    {
-     "name": "Alinta Energy",
-     "slug": "alinta-energy",
-     "description": "Alinta Energy is one of Australia's largest integrated energy retailers and generators, owned by Hong Kong-based Chow Tai Fook Enterprises, supplying electricity and gas to more than a million homes and businesses across Western Australia, South Australia, Victoria, New South Wales and Queensland while operating an owned and contracted generation portfolio of roughly 3,000 MW spanning gas, coal, wind, solar and battery storage, plus the Lumo Energy retail brand. It sits at the retail end of the value chain — the tier the Australian Consumer Data Right binds. Alinta is a designated and live CDR energy data holder: its own public base URI https://public.cdr.alintaenergy.com.au serves the standards-conformant discovery endpoints (confirmed HTTP 200), and 493 of its energy plans are published anonymously through the CDR generic plan data channel — but that plan channel is hosted by the Australian Energy Regulator's Energy Made Easy platform, not by Alinta. Its API posture is therefore honestly summarised as mandate-implemented but developer-closed: everything of substance sits behind ACCC accreditation and consumer consent, Alinta publishes no developer portal, no self-serve API, no proprietary OpenAPI and no open grid or market data of its own.",
-     "score": 42.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 54.3,
-      "governance": 11.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 34.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 56.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": true,
@@ -4361,6 +4361,43 @@
      "rank": 99
     },
     {
+     "name": "Qantas",
+     "slug": "qantas",
+     "description": "Qantas Airways Limited is Australia's flag carrier and, with its low-cost subsidiary Jetstar, one half of a domestic duopoly alongside Virgin Australia. In the distribution chain Qantas is the supplier of its own inventory — it sits upstream of the GDSs (Amadeus, Sabre, Travelport), the aggregators (Duffel, Travelfusion, Mystifly, Verteil, AirGateway, TPConnects, TravelSky) and the large Australian agency groups (Flight Centre, Corporate Travel Management, Webjet). Its API posture is distribution-only and fully gated. Qantas publishes no developer portal, no OpenAPI or Swagger definition, and no public consumer API; developer., developers., docs. and api.qantas.com.au do not resolve, and api.qantas.com returns 404 on every path probed. The one real API is the Qantas Distribution Platform (QDP) NDC XML API, built with Farelogix (now Accelya) and certified by IATA to NDC@Scale. It is documented in prose on Qantas Agency Connect but no endpoint, schema or specification is published; a technology partner must sign a Qantas Distribution Platform Access Agreement, subject to Qantas technical and commercial approval, before it is granted test-environment access, and an agency must hold IATA, ARC, TIDS or VTC accreditation. Public docs on how to get in, no public contract and no exit path.",
+     "score": 38.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 77.8,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 9.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 100
+    },
+    {
      "name": "Steadfast Group",
      "slug": "steadfast-group",
      "description": "Steadfast Group Limited (ASX:SDF) is the largest general insurance broker network and the largest group of insurance underwriting agencies in Australasia, headquartered in Sydney, Australia. It is a broker-intermediary rather than a risk carrier: the Steadfast Network comprises 414 independent brokerages placing approximately $12.7 billion in gross written premium, alongside 31 underwriting agencies writing roughly 100 products across business pack, liability, professional indemnity, cyber, construction, marine, aviation, farm, strata, motor and home and contents lines, plus complementary businesses covering premium funding (IQumulate), life insurance, workplace risk, legal and compliance. Its trading technology is the Steadfast Client Trading Platform (SCTP), launched in 2009, which lets network brokers send one question set to a panel of insurers for instant comparative quotes and which transacted over $1.5 billion in GWP in CY25 across 9 insurer lines and 23 connected partners; SCTP and the INSIGHT policy management platform are being consolidated into a broader \"Steadfast Apps\" broking platform. API posture, recorded honestly - Steadfast Group publishes NO developer portal, NO API documentation and NO specification of any kind, and a full crawl of all 311 pages in the public sitemap returned zero references to a developer portal, REST API, OpenAPI or Swagger. Two genuinely machine-readable surfaces nonetheless exist and neither is announced anywhere. The consumer Flood Risk Tracker is backed by a public, anonymous, undocumented JSON API that resolves Australian addresses against the national G-NAF dataset and returns Swiss Re river-flood and storm-surge risk layers, returning RFC 9457 problem details and advertising api-supported-versions 1.0; the OpenAPI in this record was derived from the tool's own client JavaScript and from live probes. Separately, idp.steadfast.com.au is an Okta-hosted OpenID Connect provider publishing a complete anonymous discovery document with PKCE S256 and DPoP, though client registration is commercially gated. The commercial surfaces remain closed: broker.steadfast.com.au is a credentialed broker login wall, and api.steadfast.com.au and api-sf.steadfast.com.au are live but undocumented hosts returning HTTP 403 at the root. Insurer and partner connectivity into SCTP is arranged commercially, not through self-serve onboarding. The company's most notable standards signal is governance rather than implementation: founder, Managing Director and CEO Robert B. Kelly AM is Chair of the ACORD Board in New York, though no ACORD, AL3, ACORD XML or NGDS implementation detail is published anywhere on the public site. Australia has the legal machinery for open insurance but no live obligation - the Consumer Data Right was designated to extend to general insurance and then deferred, so no regulatory forcing function pushes a broker network of this scale toward a public API.",
@@ -4402,7 +4439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "RACQ Bank",
@@ -4447,7 +4484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "HotDoc",
@@ -4492,7 +4529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Pricefinder",
@@ -4537,7 +4574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Shippit",
@@ -4574,7 +4611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "P&N Bank",
@@ -4619,7 +4656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "QBE Insurance",
@@ -4663,7 +4700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "AGL Energy",
@@ -4707,7 +4744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Bank of Sydney",
@@ -4752,7 +4789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "La Trobe University",
@@ -4797,7 +4834,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Australian Digital Health Agency",
@@ -4841,7 +4878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "G&C Mutual Bank",
@@ -4886,7 +4923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "Australian Military Bank",
@@ -4931,7 +4968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 113
     },
     {
      "name": "ubank",
@@ -4976,7 +5013,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Healthdirect Australia",
@@ -5021,7 +5058,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Civil Aviation Safety Authority (CASA)",
@@ -5065,7 +5102,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 116
     },
     {
      "name": "Police Bank",
@@ -5107,43 +5144,6 @@
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 116
-    },
-    {
-     "name": "Qantas",
-     "slug": "qantas",
-     "description": "Qantas Airways Limited is Australia's flag carrier and, with its low-cost subsidiary Jetstar, one half of a domestic duopoly alongside Virgin Australia. In the distribution chain Qantas is the supplier of its own inventory — it sits upstream of the GDSs (Amadeus, Sabre, Travelport), the aggregators (Duffel, Travelfusion, Mystifly, Verteil, AirGateway, TPConnects, TravelSky) and the large Australian agency groups (Flight Centre, Corporate Travel Management, Webjet). Its API posture is distribution-only and fully gated. Qantas publishes no developer portal, no OpenAPI or Swagger definition, and no public consumer API; developer., developers., docs. and api.qantas.com.au do not resolve, and api.qantas.com returns 404 on every path probed. The one real API is the Qantas Distribution Platform (QDP) NDC XML API, built with Farelogix (now Accelya) and certified by IATA to NDC@Scale. It is documented in prose on Qantas Agency Connect but no endpoint, schema or specification is published; a technology partner must sign a Qantas Distribution Platform Access Agreement, subject to Qantas technical and commercial approval, before it is granted test-environment access, and an agency must hold IATA, ARC, TIDS or VTC accreditation. Public docs on how to get in, no public contract and no exit path.",
-     "score": 35.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 9.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -6422,6 +6422,43 @@
      "rank": 146
     },
     {
+     "name": "View.com.au",
+     "slug": "view-com-au",
+     "description": "View.com.au is an Australian residential property portal operated by View Media Group Pty Ltd (ACN 619 657 680) through view.com.au Pty Ltd (ACN 088 369 395), based in Victoria. It is the challenger portal to the REA Group / Domain duopoly, carrying for-sale, for-rent and sold listings, agency and agent profiles, Victorian sales and auction results, off-market \"Property 360\" property records with price estimates and planning/zoning overlays, plus home loans and editorial. Its API posture is unusual and worth stating precisely. The company publishes no developer portal, no OpenAPI, and no self-serve API program, and every HTML page on view.com.au sits behind DataDome bot protection that returns HTTP 403 to non-browser clients — yet it operates a completely public, unauthenticated Model Context Protocol server at https://mcp.view.com.au/mcp that returns live listing data to any anonymous agent. The human web is closed to machines while the agent surface is wide open. RESO plays no part here. RESO is a US National Association of REALTORS construct, and the RESO certified-organizations directory lists no Australian organizations at all.",
+     "score": 23.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 15.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 147
+    },
+    {
      "name": "Medibank",
      "slug": "medibank",
      "description": "Medibank Private Limited (ASX: MPL) is Australia's largest private health insurer, headquartered in Melbourne and operating two retail brands, Medibank and ahm, alongside the Amplar Health services arm. Founded in 1976 as a government-owned fund and privatised through an ASX listing in 2014, it underwrites hospital, extras and ambulance cover for Australian residents, Overseas Student Health Cover and Overseas Visitors Health Cover, and distributes travel, pet, life, income protection and accident cover (Recover Boost) alongside its core private health insurance book. Its home market is Australia, where private health insurance is a separately regulated market supervised by APRA and the Private Health Insurance Ombudsman, and where the Consumer Data Right that opened banking and energy was designated for general insurance and then deferred — so there is no open insurance obligation and no CDR seam reaching a health fund like Medibank. Medibank's API posture is fully partner-gated and there is no public API. No developer portal exists on any conventional host: developer, developers, docs and apis subdomains of medibank.com.au do not resolve in DNS, api.medibank.com.au resolves but does not accept public TCP connections on port 443, and /developers, /api, /developer, /partners and /integrations all return HTTP 404 on www.medibank.com.au, whose 1,364-URL sitemap contains no developer or API page at all. The only first-party integration surfaces are login walls and email-gated onboarding: providers.medibank.com.au is a React single-page \"Medibank - Provider Self Service\" application (Provider Central, ESP) that returns its shell for every path, portal.medibank.com.au is a Palo Alto GlobalProtect corporate VPN, and the HCP Portal for Hospital Casemix Protocol submissions is granted only by emailing Medibank's HCP team. The real machine-to-machine claiming rails are third-party and government-operated rather than Medibank-published: ECLIPSE, the Services Australia in-patient online claiming system, carries hospital claims and 25 percent Fund Gap medical claims under claim type \"MB\" and serves Online Eligibility Check with Presenting Illness codes, with ECFWeb and THELMA as alternative eligibility channels and HICAPS and iSOFT terminals handling ancillary claiming. No ACORD reference of any kind appears on Medibank's public estate, which is the expected result — Australian private health insurance runs on ECLIPSE, HCP and the MBS rather than on ACORD AL3 or ACORD XML. No OpenAPI or Swagger definition, no Postman collection, no GraphQL or gRPC surface, no webhook or event catalog, and no documented authentication scheme could be confirmed anywhere on Medibank's public web estate as of 2026-07-25, and none of the four insurance API verbs — quote, bind, issue or FNOL — is exposed to unauthenticated developers.",
@@ -6463,7 +6500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "University of New South Wales",
@@ -6496,43 +6533,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 148
-    },
-    {
-     "name": "View.com.au",
-     "slug": "view-com-au",
-     "description": "View.com.au is an Australian residential property portal operated by View Media Group Pty Ltd (ACN 619 657 680) through view.com.au Pty Ltd (ACN 088 369 395), based in Victoria. It is the challenger portal to the REA Group / Domain duopoly, carrying for-sale, for-rent and sold listings, agency and agent profiles, Victorian sales and auction results, off-market \"Property 360\" property records with price estimates and planning/zoning overlays, plus home loans and editorial. Its API posture is unusual and worth stating precisely. The company publishes no developer portal, no OpenAPI, and no self-serve API program, and every HTML page on view.com.au sits behind DataDome bot protection that returns HTTP 403 to non-browser clients — yet it operates a completely public, unauthenticated Model Context Protocol server at https://mcp.view.com.au/mcp that returns live listing data to any anonymous agent. The human web is closed to machines while the agent surface is wide open. RESO plays no part here. RESO is a US National Association of REALTORS construct, and the RESO certified-organizations directory lists no Australian organizations at all.",
-     "score": 20.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 3.1,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 15.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ press:
 - date: '2026-05-25'
   title: AI could pose risk for food and ag companies
   url: https://www.agriculturedive.com/news/ai-could-create-risk-for-food-and-ag-companies-ADM-Coca-Cola/724981/
-random_paper: 52
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Archer Daniels Midland Rate Limits
@@ -252,17 +252,17 @@ rules:
     warn: 11
   slug: archer-daniels-midland-spectral-rules
 score:
-  band: developing
-  composite: 43.6
-  delta: -7.6
+  band: thin
+  composite: 34.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.2
+    contract_quality: 25.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 51.2
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -270,9 +270,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png
 security:
 - kind: authentication

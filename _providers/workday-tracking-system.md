@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -596,7 +596,7 @@ plans:
 - name: Workday Tracking System Plans Pricing
   plan_count: 1
   slug: workday-tracking-system-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Workday Tracking System Rate Limits
@@ -619,17 +619,17 @@ rules:
     warn: 44
   slug: workday-tracking-system-spectral-rules
 score:
-  band: strong
-  composite: 60.7
-  delta: -7.1
+  band: developing
+  composite: 52.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 62.7
+    contract_quality: 29.8
     developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 67.8
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     contracts:
@@ -637,9 +637,9 @@ score:
       derived: 13
       marker_coverage: 100.0
       total: 13
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/screenshots/workday-tracking-system-2026-06-20T201611.png
 security:
 - kind: authentication

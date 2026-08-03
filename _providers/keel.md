@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -144,11 +144,11 @@ overview: 'Keel is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Keel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 18 more developer resources.'
-random_paper: 7
+random_paper: 37
 score:
   band: thin
   composite: 31.4
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -156,11 +156,11 @@ score:
     discoverability: 57.4
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 31.0
+  previous_composite: 31.4
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keel/refs/heads/main/screenshots/keel-2026-07-25T223544.png
 security:

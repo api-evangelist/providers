@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -203,19 +203,19 @@ overview: 'Retraced publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Retraced''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 22
+random_paper: 82
 score:
   band: thin
-  composite: 36.8
-  delta: -2.1
+  composite: 38.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 31.5
+    contract_quality: 37.0
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 38.9
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,8 +226,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

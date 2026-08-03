@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.7
-  scored_at: '2026-07-28'
+  score: 59.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -1297,7 +1297,7 @@ press:
 - date: '2026-05-25'
   title: Home - ADSK News - Autodesk
   url: https://adsknews.autodesk.com/en/?newsfeed_page=14
-random_paper: 24
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Autodesk Rate Limits
@@ -1326,16 +1326,16 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 76.0
-  delta: 0.2
+  composite: 76.5
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 79.3
+    contract_quality: 81.1
     developer_ergonomics: 65.2
     discoverability: 87.0
     governance: 59.4
     operational_transparency: 68.4
-  previous_composite: 75.8
+  previous_composite: 76.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1345,8 +1345,8 @@ score:
       marker_coverage: 0.0
       total: 48
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -155,23 +155,23 @@ plans:
 - name: One Inch Plans Pricing
   plan_count: 4
   slug: one-inch-plans-pricing
-random_paper: 47
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: One Inch Rate Limits
   slug: one-inch-rate-limits
 score:
   band: thin
-  composite: 40.4
-  delta: -2.0
+  composite: 41.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.4
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/screenshots/one-inch-2026-06-20T190708.png
 security:

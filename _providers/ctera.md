@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: RESTful management API for the CTERA Portal. Exposes a uniform object namespace (users, devices, folders, and more) where each object is addressed by a unique URI, using GET/PUT/POST/DELETE verbs. Aut
@@ -148,11 +148,11 @@ overview: 'CTERA publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   CTERA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, training material, CLI, and 17 more developer resources.'
-random_paper: 35
+random_paper: 52
 score:
   band: thin
   composite: 29.4
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -160,13 +160,13 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 30.6
+  previous_composite: 29.4
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ctera/refs/heads/main/screenshots/ctera-2026-07-25T210844.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -401,7 +401,7 @@ press:
 - date: '2026-05-07'
   title: Introducing the Teradata Autonomous Knowledge Platform
   url: https://www.teradata.com/press-releases/2026/introducing-the-autonomous-knowledge-platform
-random_paper: 18
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Teradata Rate Limits
@@ -424,17 +424,17 @@ rules:
     warn: 15
   slug: teradata-spectral-rules
 score:
-  band: strong
-  composite: 63.7
-  delta: -7.0
+  band: developing
+  composite: 55.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.2
+    contract_quality: 24.5
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 70.7
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -442,9 +442,9 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/screenshots/teradata-2026-06-20T195123.png
 security:
 - kind: authentication

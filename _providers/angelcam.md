@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 8
@@ -268,9 +268,9 @@ overview: 'AngelCam publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   AngelCam''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 21 more developer resources.'
-random_paper: 4
+random_paper: 64
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Angelcam Rate Limits
   slug: angelcam-rate-limits
 scopes:
@@ -280,16 +280,16 @@ scopes:
   summary_line: 51 scopes · authorizationCode/password
 score:
   band: developing
-  composite: 48.8
-  delta: -2.8
+  composite: 51.5
+  delta: 2.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 67.9
+    contract_quality: 67.7
     developer_ergonomics: 56.0
     discoverability: 75.9
     governance: 11.5
-    operational_transparency: 36.8
-  previous_composite: 51.6
+    operational_transparency: 57.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,8 +300,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png
 security:

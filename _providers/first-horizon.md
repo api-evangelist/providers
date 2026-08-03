@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Move Money Transfer is First Horizon's RESTful payments-initiation API for Treasury Management clients, used to originate and manage funds transfers programmatically from an ERP, accounting, or treasu
@@ -100,11 +100,11 @@ overview: 'First Horizon publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   First Horizon''s developer surface includes documentation, authentication, and 8 more developer resources.'
-random_paper: 62
+random_paper: 44
 score:
   band: emerging
   composite: 15.4
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -112,7 +112,7 @@ score:
     discoverability: 72.2
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 17.8
+  previous_composite: 15.4
   provenance:
     conformance: first-party
   regulatory:
@@ -121,8 +121,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

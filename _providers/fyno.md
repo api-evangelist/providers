@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -69,8 +69,31 @@ apis:
 - description: The User Properties API from Fyno — 7 operation(s) for user properties.
   name: Fyno User Properties API
   slug: fyno-user-properties-api
-artifact_total: 25
+artifact_total: 31
+collections:
+- collection_type: postman
+  name: Fyno Rest Fire an Event API
+  slug: postman-fyno-fire-an-event-api
+- collection_type: postman
+  name: Fyno Rest Fire an Event Fyno Verify API
+  slug: postman-fyno-fyno-verify-api
+- collection_type: postman
+  name: Fyno Rest Fire an Event Manage User Profiles API
+  slug: postman-fyno-manage-user-profiles-api
+- collection_type: postman
+  name: Fyno Rest Fire an Event Manage User Subscriptions & Preferences API
+  slug: postman-fyno-manage-user-subscriptions-preferences-api
+- collection_type: postman
+  name: Fyno Rest Fire an Event Suppression List API
+  slug: postman-fyno-suppression-list-api
+- collection_type: postman
+  name: Fyno Rest Fire an Event User Properties API
+  slug: postman-fyno-user-properties-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/fyno/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -190,12 +213,12 @@ overview: 'Fyno publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
   The Fyno catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Fyno''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, and 13 more developer resources.'
+  Fyno''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, changelog, and 14 more developer resources.'
 plans:
 - name: Fyno Plans Pricing
   plan_count: 5
   slug: fyno-plans-pricing
-random_paper: 34
+random_paper: 64
 rate_limits:
 - limit_count: 6
   name: Fyno Rate Limits
@@ -210,17 +233,17 @@ rules:
     warn: 4
   slug: fyno-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 55.3
-  delta: -8.8
+  band: strong
+  composite: 56.7
+  delta: 0.8
   facets:
     commercial_clarity: 57.9
-    contract_quality: 71.5
-    developer_ergonomics: 28.3
+    contract_quality: 74.4
+    developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 64.1
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     contracts:
@@ -234,9 +257,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/screenshots/fyno-2026-06-20T181627.png
 security:
 - kind: authentication

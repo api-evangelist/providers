@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-07-28'
+  score: 23.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ plans:
 - name: Apache Pulsar Plans Pricing
   plan_count: 3
   slug: apache-pulsar-plans-pricing
-random_paper: 6
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Apache Pulsar Rate Limits
@@ -251,17 +251,17 @@ rules:
     warn: 5
   slug: apache-pulsar-spectral-rules
 score:
-  band: thin
-  composite: 41.4
-  delta: -8.0
+  band: developing
+  composite: 42.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.8
+    contract_quality: 65.5
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 62.5
     operational_transparency: 36.8
-  previous_composite: 49.4
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -275,9 +275,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pulsar/refs/heads/main/screenshots/apache-pulsar-2026-06-20T172138.png
 security:
 - kind: domain-security

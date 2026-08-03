@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.0
-  scored_at: '2026-07-28'
+  score: 59.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -17163,7 +17163,7 @@ press:
 - date: '2026-05-21'
   title: 'More than 50,000 Hours Back: What a Year of Manager Agent Taught Us'
   url: https://www.salesforce.com/news/stories/lessons-from-one-year-of-manager-agent/
-random_paper: 26
+random_paper: 27
 rate_limits:
 - limit_count: 6
   name: Salesforce Rate Limits
@@ -17200,16 +17200,16 @@ scopes:
   summary_line: 36 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 79.7
-  delta: -0.8
+  composite: 80.1
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 82.2
+    contract_quality: 84.1
     developer_ergonomics: 78.3
     discoverability: 77.8
     governance: 80.2
     operational_transparency: 78.9
-  previous_composite: 80.5
+  previous_composite: 80.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -17219,8 +17219,8 @@ score:
       marker_coverage: 0.0
       total: 256
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:

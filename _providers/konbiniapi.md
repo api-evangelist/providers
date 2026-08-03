@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -380,7 +380,7 @@ plans:
 - name: Konbiniapi Plans Pricing
   plan_count: 5
   slug: konbiniapi-plans-pricing
-random_paper: 76
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Konbiniapi Rate Limits
@@ -404,16 +404,16 @@ rules:
   slug: konbiniapi-rules
 score:
   band: developing
-  composite: 54.4
-  delta: -4.9
+  composite: 55.5
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 76.3
+    contract_quality: 81.4
     developer_ergonomics: 30.4
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 59.3
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -427,8 +427,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/screenshots/konbiniapi-2026-06-20T184125.png
 security:

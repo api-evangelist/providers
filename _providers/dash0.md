@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: flavored
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.2
-  scored_at: '2026-07-28'
+  score: 60.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -273,7 +273,7 @@ overview: 'Dash0 publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Dash0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 54
+random_paper: 84
 scopes:
 - name: Dash0 Scopes
   scope_count: 1
@@ -281,16 +281,16 @@ scopes:
   summary_line: 1 scope · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 60.6
-  delta: 0.8
+  composite: 61.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.7
+    contract_quality: 61.5
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 59.8
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,8 +301,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/screenshots/dash0-2026-07-25T211225.png
 security:

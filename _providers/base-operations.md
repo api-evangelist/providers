@@ -13,22 +13,22 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: derived
+    agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
-    mcp_server: derived
+    mcp_server: true
     openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-07-28'
+  score: 47.3
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: The Analytics API from Base Operations — 2 operation(s) for analytics.
@@ -181,30 +181,21 @@ overview: 'Base Operations publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Base Operations'' developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 72
+random_paper: 28
 score:
   band: developing
-  composite: 42.8
-  delta: -2.4
+  composite: 44.8
+  delta: 0.4
   facets:
     commercial_clarity: 52.6
-    contract_quality: 52.2
-    developer_ergonomics: 45.1
+    contract_quality: 52.4
+    developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 11.5
+    governance: 8.3
     operational_transparency: 5.3
-  previous_composite: 45.2
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 12
-    mcp: derived
-    skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 44.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/screenshots/base-operations-2026-07-25T202413.png
 security:

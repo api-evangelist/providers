@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -266,7 +266,7 @@ plans:
 - name: Art Institute Of Chicago Plans Pricing
   plan_count: 1
   slug: art-institute-of-chicago-plans-pricing
-random_paper: 16
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Art Institute Of Chicago Rate Limits
@@ -290,16 +290,16 @@ rules:
   slug: art-institute-of-chicago-rules
 score:
   band: thin
-  composite: 32.3
-  delta: -2.6
+  composite: 32.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 67.8
+    contract_quality: 70.5
     developer_ergonomics: 2.2
     discoverability: 57.4
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 34.9
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -313,8 +313,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/screenshots/art-institute-of-chicago-2026-06-20T172440.png
 security:

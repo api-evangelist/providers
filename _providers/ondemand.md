@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-07-28'
+  score: 49.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -173,23 +173,23 @@ overview: 'Ondemand publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ondemand''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 18
+random_paper: 78
 rate_limits:
-- limit_count: 0
+- limit_count: 4
   name: Ondemand Rate Limits
   slug: ondemand-rate-limits
 score:
   band: developing
-  composite: 44.5
-  delta: -1.3
+  composite: 49.6
+  delta: 4.1
   facets:
     commercial_clarity: 23.7
-    contract_quality: 64.9
+    contract_quality: 68.7
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 13.2
-  previous_composite: 45.8
+    operational_transparency: 44.7
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -200,8 +200,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

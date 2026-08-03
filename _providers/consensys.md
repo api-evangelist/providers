@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Infura's managed Web3 API surface — JSON-RPC 2.0 access to Ethereum and 40+ EVM networks (Base, Arbitrum, Optimism, Polygon, Linea, and more), plus IPFS and a Gas API. Authenticated with an API key em
@@ -168,11 +168,11 @@ overview: 'Consensys publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Consensys'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 13
+random_paper: 47
 score:
   band: developing
   composite: 42.8
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -180,7 +180,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 45.3
+  previous_composite: 42.8
   provenance:
     conformance: first-party
   regulatory:
@@ -189,8 +189,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consensys/refs/heads/main/screenshots/consensys-2026-07-25T210303.png
 security:

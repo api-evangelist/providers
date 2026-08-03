@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,11 +60,11 @@ press:
 - date: '2026-05-25'
   title: BUILT TO PERFORM
   url: https://www.crowncork.com/sites/default/files/2025-03/2024_Annual_Report-Crown_Holdings_Inc.pdf
-random_paper: 60
+random_paper: 29
 score:
   band: minimal
   composite: 2.6
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -72,9 +72,9 @@ score:
     discoverability: 25.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 3.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 2.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crown-holdings/refs/heads/main/screenshots/crown-holdings-2026-06-20T175301.png
 slug: crown-holdings

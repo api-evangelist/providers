@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Retrieve and (with the Write API / Ascend scopes) manage patient demographics, contact details, household and responsible-party relationships, and patient status. On Dentrix Ascend this is a REST/JSON
@@ -107,7 +107,7 @@ plans:
 - name: Dentrix Plans Pricing
   plan_count: 3
   slug: dentrix-plans-pricing
-random_paper: 28
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Dentrix Rate Limits
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.6
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -123,15 +123,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 22.3
+  previous_composite: 19.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dentrix/refs/heads/main/screenshots/dentrix-2026-07-25T211726.png
 security:

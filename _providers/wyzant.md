@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -110,23 +110,23 @@ plans:
 - name: Wyzant Plans Pricing
   plan_count: 2
   slug: wyzant-plans-pricing
-random_paper: 29
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Wyzant Rate Limits
   slug: wyzant-rate-limits
 score:
   band: thin
-  composite: 32.5
-  delta: -1.9
+  composite: 33.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.2
+    contract_quality: 58.1
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 34.4
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -134,8 +134,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.4
-  scored_at: '2026-07-28'
+  score: 62.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -382,7 +382,7 @@ overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 8
+random_paper: 81
 scopes:
 - name: Chariot Scopes
   scope_count: 4
@@ -390,16 +390,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.0
-  delta: -2.3
+  composite: 60.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 72.1
+    contract_quality: 74.6
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 62.3
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -416,8 +416,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/screenshots/chariot-2026-07-25T205102.png
 security:

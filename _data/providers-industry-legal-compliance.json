@@ -558,8 +558,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 64,
-   "shown": 64,
+   "count": 67,
+   "shown": 67,
    "providers": [
     {
      "name": "Dropbox Sign (HelloSign)",
@@ -2006,6 +2006,81 @@
      "rank": 52
     },
     {
+     "name": "Kaseya",
+     "slug": "kaseya",
+     "description": "Kaseya is a Miami-based provider of IT and security management software for managed service providers (MSPs) and internal IT teams, delivering its portfolio through the Kaseya 365 and IT Complete platforms. The company owns a large family of separately-branded products, several of which ship public REST APIs: Kaseya BMS (business management / PSA), Datto Autotask PSA, Datto RMM (remote monitoring and management), Kaseya VSA 9 and VSA 10 (endpoint management), IT Glue (IT documentation), myITprocess, Datto BCDR, SaaS Alerts, RocketCyber, Graphus, Spanning and Vonahi vPenTest. Kaseya publishes machine-readable contracts for three of these surfaces — the BMS API 2.0 (OpenAPI 3.0.1), the Datto|Autotask PSA REST API (Swagger 2.0, 3,000+ operations) and the Datto RMM API v2 (OpenAPI 3.1.0) — with the remainder documented in HTML help systems or behind tenant authentication.",
+     "score": 58.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 56.1,
+      "governance": 11.5,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 50.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 53
+    },
+    {
+     "name": "JupiterOne",
+     "slug": "jupiterone",
+     "description": "JupiterOne is a cyber asset attack surface management (CAASM) and security asset intelligence platform that maps an organization's entire digital environment — cloud resources, devices, users, code repositories, findings, and the relationships between them — into a single queryable graph. Its public GraphQL API and the J1QL query language let teams query the graph, create and mutate entities and relationships, ingest data through sync jobs, run alert rules with webhook/SNS/SQS/Slack/Jira actions, manage IAM and questions, and automate compliance evidence collection. JupiterOne was founded in 2018 and is headquartered in Morrisville, North Carolina.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/screenshots/jupiterone-2026-07-25T223332.png",
+     "score": 58.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 40.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 54
+    },
+    {
      "name": "Transmit Security",
      "slug": "transmit-security",
      "description": "Transmit Security provides the Mosaic platform, a comprehensive CIAM (Customer Identity and Access Management) solution offering REST APIs for passkey and WebAuthn authentication, fraud detection and risk-based access control, identity orchestration, identity verification, and user journey management. The platform delivers unified identity management across customer, business, and workforce contexts through an API-first architecture with OAuth2 and JWT authentication. Mosaic serves leading banks, insurers, and retailers worldwide with region-specific deployments across the US, EU, Canada, and Australia, backed by a 99.99% uptime SLA.",
@@ -2041,7 +2116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 55
     },
     {
      "name": "Amazon CloudTrail",
@@ -2079,7 +2154,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 56
     },
     {
      "name": "DocuSeal",
@@ -2117,7 +2192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 57
     },
     {
      "name": "Amazon Control Tower",
@@ -2155,7 +2230,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 58
+    },
+    {
+     "name": "Sikoia",
+     "slug": "sikoia",
+     "description": "Sikoia is a UK-based (FCA-authorised AISP), ISO 27001-certified customer-verification platform for financial services. Its REST API automates KYC/KYB and onboarding by grouping companies and people into cases and enriching them with company registry data, company & consumer credit reports, identity verification (IDV), open banking, document upload with classification/extraction and integrity/tampering checks, income & employer verification, affordability insights, PEPs & sanctions and adverse-media screening, plus validation/completeness checklists. The v2 API uses OAuth 2.0 client-credentials, JSON over HTTPS, HMAC-signed webhooks, and a documented rate-limit, error, and deprecation model.",
+     "score": 58.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 72.7,
+      "governance": 20.8,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 38.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 53.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 59
     },
     {
      "name": "Docparser",
@@ -2193,7 +2312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 60
     },
     {
      "name": "SafetyCulture",
@@ -2230,7 +2349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 61
     },
     {
      "name": "Topograph",
@@ -2267,7 +2386,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "Vanta",
@@ -2305,44 +2424,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
-    },
-    {
-     "name": "Abnormal AI",
-     "slug": "abnormal",
-     "description": "Abnormal AI (formerly Abnormal Security) is a San Francisco based cloud email and human-behavior security company whose behavioral AI platform protects Microsoft 365 and Google Workspace against phishing, business email compromise, vendor fraud, account takeover and misdirected email. The platform is API-first: it integrates with Microsoft and Google over their APIs rather than by rewriting MX records, and every capability in the Abnormal Portal — threats, cases, AI Security Mailbox, employee and vendor insights, audit logs, RBAC roles and users, security posture management and dashboard aggregations — is also reachable through the Abnormal Security Client API, a bearer-token REST API published as OpenAPI 3.0.3 on SwaggerHub with separate US and EU production hosts. Abnormal also streams the same event data to SIEM and SOAR platforms over near-real-time webhooks.",
-     "score": 57.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 65.7,
-      "governance": 20.8,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 49.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 61
+     "rank": 63
     },
     {
      "name": "Inkit",
@@ -2380,7 +2462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Justworks",
@@ -2425,7 +2507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 65
     },
     {
      "name": "AgeChecker.Net",
@@ -2463,7 +2545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "SpotDraft",
@@ -2501,7 +2583,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 67
+    },
+    {
+     "name": "Anvil",
+     "slug": "anvil",
+     "description": "Anvil is a PDF infrastructure platform providing REST and GraphQL APIs for filling PDF templates with JSON data, generating PDFs from HTML or Markdown, collecting e-signatures (Etch), building web forms, and extracting data from documents via OCR and Document AI. Designed for developers embedding paperwork automation into applications across HR, insurance, financial services, and legal workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/screenshots/anvil-2026-06-20T172029.png",
+     "score": 57.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 76.4,
+      "governance": 58.3,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 37.0,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 47.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 68
     },
     {
      "name": "SAP Ariba",
@@ -2539,7 +2659,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 69
     },
     {
      "name": "Spin.AI",
@@ -2577,7 +2697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 70
     },
     {
      "name": "Chef Software",
@@ -2615,7 +2735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 71
     },
     {
      "name": "EPA — U.S. Environmental Protection Agency",
@@ -2660,7 +2780,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 72
     },
     {
      "name": "HR Partner",
@@ -2698,7 +2818,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 73
     },
     {
      "name": "Tropic",
@@ -2736,7 +2856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 74
     },
     {
      "name": "Spektr",
@@ -2773,7 +2893,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 75
     },
     {
      "name": "Unstoppable Finance (Iron)",
@@ -2817,7 +2937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 76
     },
     {
      "name": "FormAssembly",
@@ -2862,7 +2982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 77
     },
     {
      "name": "SignWell",
@@ -2900,7 +3020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 78
     },
     {
      "name": "Credentially",
@@ -2945,7 +3065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 79
     },
     {
      "name": "Inspectorio",
@@ -2983,7 +3103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 80
     },
     {
      "name": "JAMF",
@@ -3021,7 +3141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 81
     }
    ],
    "open": true
@@ -3031,8 +3151,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 193,
-   "shown": 193,
+   "count": 190,
+   "shown": 190,
    "providers": [
     {
      "name": "Enable Banking",
@@ -3077,7 +3197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 82
     },
     {
      "name": "LeaseAccelerator",
@@ -3115,51 +3235,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 83
     },
     {
-     "name": "Sikoia",
-     "slug": "sikoia",
-     "description": "Sikoia is a UK-based (FCA-authorised AISP), ISO 27001-certified customer-verification platform for financial services. Its REST API automates KYC/KYB and onboarding by grouping companies and people into cases and enriching them with company registry data, company & consumer credit reports, identity verification (IDV), open banking, document upload with classification/extraction and integrity/tampering checks, income & employer verification, affordability insights, PEPs & sanctions and adverse-media screening, plus validation/completeness checklists. The v2 API uses OAuth 2.0 client-credentials, JSON over HTTPS, HMAC-signed webhooks, and a documented rate-limit, error, and deprecation model.",
-     "score": 55.9,
+     "name": "Abnormal AI",
+     "slug": "abnormal",
+     "description": "Abnormal AI (formerly Abnormal Security) is a San Francisco based cloud email and human-behavior security company whose behavioral AI platform protects Microsoft 365 and Google Workspace against phishing, business email compromise, vendor fraud, account takeover and misdirected email. The platform is API-first: it integrates with Microsoft and Google over their APIs rather than by rewriting MX records, and every capability in the Abnormal Portal — threats, cases, AI Security Mailbox, employee and vendor insights, audit logs, RBAC roles and users, security posture management and dashboard aggregations — is also reachable through the Abnormal Security Client API, a bearer-token REST API published as OpenAPI 3.0.3 on SwaggerHub with separate US and EU production hosts. Abnormal also streams the same event data to SIEM and SOAR platforms over near-real-time webhooks.",
+     "score": 55.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 72.7,
-      "governance": 20.8,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 52.6
+      "discoverability": 87.0,
+      "contract_quality": 65.7,
+      "governance": 11.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 50.0
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 38.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 53.4,
-     "agent_band": "agent-native",
+     "agent_score": 41.7,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
+      "agentic_access": false,
+      "mcp_server": false,
       "auth_clarity": true,
-      "idempotency": "documented",
+      "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
       "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 84
     },
     {
      "name": "Robin AI",
@@ -3197,7 +3310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 85
     },
     {
      "name": "Certifaction",
@@ -3235,7 +3348,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 86
     },
     {
      "name": "Red Hat Enterprise Linux",
@@ -3273,7 +3386,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 87
     },
     {
      "name": "Syntage",
@@ -3310,7 +3423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 88
     },
     {
      "name": "Verisk",
@@ -3355,7 +3468,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 89
     },
     {
      "name": "Ubble",
@@ -3392,7 +3505,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 90
     },
     {
      "name": "Smile Identity",
@@ -3429,7 +3542,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 91
     },
     {
      "name": "Fiat Republic",
@@ -3474,7 +3587,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 92
+    },
+    {
+     "name": "MINE",
+     "slug": "mine",
+     "description": "Mine (MineOS) is a data privacy, governance, and AI security posture management platform backed by Battery Ventures. Its MineOS product automates data mapping and inventory, data subject / privacy rights requests (DSR), consent management, vendor and third-party risk (TPRM) assessments, and AI governance (AISPM) for enterprises, while the MineApp helps individuals reclaim their personal data. The MineOS public API (OpenAPI 3.0.1, API-key Bearer auth, EU + US datacenter endpoints) exposes tickets / privacy requests, data-source systems, assessments and templates, employees and business units, AI agent and device discovery, and webhook subscriptions, plus a hosted remote MCP server for agent access.",
+     "score": 55.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 59.8,
+      "governance": 20.8,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 57.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 93
     },
     {
      "name": "Parcha",
@@ -3511,7 +3661,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 94
     },
     {
      "name": "Amazon Config",
@@ -3549,7 +3699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 95
     },
     {
      "name": "Ethena",
@@ -3587,44 +3737,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 96
     },
     {
-     "name": "ThreatLocker",
-     "slug": "threatlocker",
-     "description": "ThreatLocker is a Zero Trust endpoint and cloud security platform used by enterprises and managed service providers to enforce least privilege across endpoints, networks, and cloud workloads. Its capabilities include Application Control (allowlisting), Ringfencing, Elevation Control, Storage Control, Network Control / ZTNA, Web Content Control, Patch Management, and ThreatLocker Detect (managed detection and response). The multi-tenant ThreatLocker Portal is exposed programmatically through the PortalAPI — a public OpenAPI 3.0 REST contract covering action logs, applications, approval requests, computers and computer groups, maintenance mode, organizations, policies, reports, saved searches, scheduled agent actions, system audit, tags, upload requests, and agent versions. The platform is deployed as regionally isolated instances (A–H plus AE1, AU1, CA1, EU1, SA1 and a FedRAMP instance), so both the portal and the API are addressed per instance.",
+     "name": "LeafLink",
+     "slug": "leaflink",
+     "description": "LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments and net terms (LeafLink Financial), logistics and transportation, inventory management, seed-to-sale traceability integration, compliance and licensing, advertising and market insights into one system of record for regulated cannabis wholesale. LeafLink publishes a public REST API at api.leaflink.com — the current dated version 2022-10-31, authenticated with JWT bearer tokens, spanning 182 paths and 269 operations across products, orders, customers, inventory, payments, logistics, traceability, compliance, taxes and messaging — alongside a legacy Marketplace V2 API at app.leaflink.com/api/v2 with 66 paths and 111 operations. Both are documented with OpenAPI on the LeafLink Developer Hub, and the platform supports HMAC-signed webhooks for order and product events.",
      "score": 55.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 52.7,
-      "governance": 20.8,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 60.5
+      "contract_quality": 62.5,
+      "governance": 11.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 52.6
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 58.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 46.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 97
     },
     {
      "name": "Inth",
@@ -3662,7 +3819,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 98
     },
     {
      "name": "Circle",
@@ -3707,7 +3864,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 99
     },
     {
      "name": "GetAccept",
@@ -3745,44 +3902,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
-    },
-    {
-     "name": "Kaseya",
-     "slug": "kaseya",
-     "description": "Kaseya is a Miami-based provider of IT and security management software for managed service providers (MSPs) and internal IT teams, delivering its portfolio through the Kaseya 365 and IT Complete platforms. The company owns a large family of separately-branded products, several of which ship public REST APIs: Kaseya BMS (business management / PSA), Datto Autotask PSA, Datto RMM (remote monitoring and management), Kaseya VSA 9 and VSA 10 (endpoint management), IT Glue (IT documentation), myITprocess, Datto BCDR, SaaS Alerts, RocketCyber, Graphus, Spanning and Vonahi vPenTest. Kaseya publishes machine-readable contracts for three of these surfaces — the BMS API 2.0 (OpenAPI 3.0.1), the Datto|Autotask PSA REST API (Swagger 2.0, 3,000+ operations) and the Datto RMM API v2 (OpenAPI 3.1.0) — with the remainder documented in HTML help systems or behind tenant authentication.",
-     "score": 54.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 56.1,
-      "governance": 11.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 53.8,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 50.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 97
+     "rank": 100
     },
     {
      "name": "Nuix",
@@ -3820,7 +3940,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 101
     },
     {
      "name": "Plerion",
@@ -3857,7 +3977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 102
     },
     {
      "name": "Toqio",
@@ -3901,7 +4021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 103
     },
     {
      "name": "DocSpring",
@@ -3939,7 +4059,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 104
+    },
+    {
+     "name": "Origami Risk",
+     "slug": "origami-risk",
+     "description": "Origami Risk is a Chicago-headquartered risk, safety and insurance SaaS company founded in 2009 that began as a single-version cloud RMIS (risk management information system) and grew into a core-systems platform for the United States property and casualty market. It sells policy administration, digital underwriting, rating, billing, premium audit, claims administration, compliance and EHS/GRC modules to carriers, MGAs, program administrators, third-party administrators, risk pools, brokers, healthcare systems and large self-insureds, across workers' compensation, medical professional liability, personal auto and homeowners lines. Unlike most US insurance organizations, Origami Risk sits in the software layer between carriers and distribution and therefore does publish a genuinely public, self-serve developer portal at developers.origamirisk.com — a ReadMe-hosted reference readable without login, covering quote and proposal creation, rating, bind, policy issue/endorse/cancel, billing and payments, claims-from-incident and first-report actions, files, reports, domain metadata and outbound webhooks. Four OpenAPI definitions are downloadable from the portal's spec registry, though three of the four are thin scaffolds and the bulk of the reference is hand-authored per-endpoint documentation rather than a complete machine-readable spec. Access to a live tenant is still commercial — the base URL is a per-customer https://{environment}.origamirisk.com host and authentication is token-based or HMAC against a provisioned account — and no ACORD, AL3, IVANS or NGDS conformance is claimed anywhere in the marketing site or the developer portal.",
+     "score": 54.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 47.8,
+      "governance": 11.5,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 45.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 40.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 105
     },
     {
      "name": "Trelica",
@@ -3977,45 +4141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
-    },
-    {
-     "name": "JupiterOne",
-     "slug": "jupiterone",
-     "description": "JupiterOne is a cyber asset attack surface management (CAASM) and security asset intelligence platform that maps an organization's entire digital environment — cloud resources, devices, users, code repositories, findings, and the relationships between them — into a single queryable graph. Its public GraphQL API and the J1QL query language let teams query the graph, create and mutate entities and relationships, ingest data through sync jobs, run alert rules with webhook/SNS/SQS/Slack/Jira actions, manage IAM and questions, and automate compliance evidence collection. JupiterOne was founded in 2018 and is headquartered in Morrisville, North Carolina.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jupiterone/refs/heads/main/screenshots/jupiterone-2026-07-25T223332.png",
-     "score": 54.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 40.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 103
+     "rank": 106
     },
     {
      "name": "Pimloc",
@@ -4052,7 +4178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 107
     },
     {
      "name": "YouSign",
@@ -4090,7 +4216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 108
     },
     {
      "name": "accessiBe",
@@ -4127,7 +4253,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 109
+    },
+    {
+     "name": "Hubflo",
+     "slug": "hubflo",
+     "description": "Hubflo is a client portal platform for service businesses — consultants, agencies, accountants, and professional-service firms — bringing client onboarding, messaging, document management, e-signatures, forms, proposals, invoicing, tasks, and project collaboration into one branded workspace. Hubflo exposes a REST API (v2) at app.hubflo.com/api/v2 with bearer-token authentication, JSON request/response bodies, UUID resource identifiers, page-based pagination, a 1000 request/minute rate limit, and a native webhook system spanning 29 event types across companies, contacts, workspaces, invoices, forms, tasks, and e-signature submissions. Hubflo also publishes official TypeScript and MCP-server packages and a hosted remote MCP server. Backed by Seedcamp.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/screenshots/hubflo-2026-07-25T221612.png",
+     "score": 54.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 67.4,
+      "governance": 11.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 61.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 110
     },
     {
      "name": "Diligent",
@@ -4165,7 +4329,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 111
     },
     {
      "name": "Qwilr",
@@ -4202,7 +4366,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 112
+    },
+    {
+     "name": "SingleFile",
+     "slug": "singlefile",
+     "description": "SingleFile is an AI-powered entity management and corporate compliance platform for corporations, law firms, and investment organizations. It automates business entity formation, EIN filing, annual report filing, registered agent services, UCC filings, and Corporate Transparency Act (BOI/FinCEN) reporting across all 52 US jurisdictions. The SingleFile External API (v1) exposes organizations, entities, contacts, jurisdictions, documents, orders, tasks, and filing schemas over a REST/JSON interface secured with OAuth 2.0 client credentials, with webhooks for real-time order, document, entity, jurisdiction, and task events. SingleFile is SOC 2 Type II certified.",
+     "score": 53.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 58.0,
+      "governance": 20.8,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 39.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 113
     },
     {
      "name": "Check Technologies",
@@ -4247,7 +4448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 114
     },
     {
      "name": "Sign In Enterprise",
@@ -4284,7 +4485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 115
     },
     {
      "name": "London Stock Exchange Group",
@@ -4329,27 +4530,27 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 116
     },
     {
-     "name": "Anvil",
-     "slug": "anvil",
-     "description": "Anvil is a PDF infrastructure platform providing REST and GraphQL APIs for filling PDF templates with JSON data, generating PDFs from HTML or Markdown, collecting e-signatures (Etch), building web forms, and extracting data from documents via OCR and Document AI. Designed for developers embedding paperwork automation into applications across HR, insurance, financial services, and legal workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anvil/refs/heads/main/screenshots/anvil-2026-06-20T172029.png",
+     "name": "BoldSign",
+     "slug": "boldsign",
+     "description": "BoldSign is an e-signature platform built by Syncfusion that provides a REST API for sending documents for electronic signature, managing reusable templates, tracking envelope status, and embedding signing and requesting workflows directly into third-party applications. The API supports both API key and OAuth 2.0 authentication and outputs JSON responses across US, EU, CA, and AU regional endpoints. BoldSign offers official SDKs for .NET, Python, Java, Node.js, and PHP, along with a free sandbox environment, a Postman collection, and an interactive API Explorer. The platform is SOC 2 Type II, HIPAA, GDPR, and eIDAS compliant, and supports webhooks for real-time event notifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/screenshots/boldsign-2026-06-20T173555.png",
      "score": 53.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 76.4,
+      "contract_quality": 72.1,
       "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 37.0,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 28.3,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 47.3,
+     "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -4358,8 +4559,8 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -4367,7 +4568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 117
     },
     {
      "name": "Goodstack",
@@ -4412,7 +4613,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 118
     },
     {
      "name": "LevelBlue",
@@ -4450,7 +4651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 119
     },
     {
      "name": "Sigma360",
@@ -4487,7 +4688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 120
     },
     {
      "name": "Confident LIMS",
@@ -4525,7 +4726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 121
     },
     {
      "name": "Goethena",
@@ -4563,7 +4764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 122
     },
     {
      "name": "RelativityOne",
@@ -4601,7 +4802,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 123
     },
     {
      "name": "Transcend",
@@ -4639,51 +4840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
-    },
-    {
-     "name": "TraceLink",
-     "slug": "tracelink",
-     "description": "TraceLink, Inc. is a Massachusetts-based supply chain digitalization company for the life sciences and healthcare industries, best known for pharmaceutical serialization and track-and-trace compliance (US DSCSA, EU FMD, and roughly two dozen national regimes) delivered on its multienterprise OPUS network platform. TraceLink exposes several distinct integration surfaces rather than one REST API: a set of publicly served SOAP/WSDL services on api.tracelink.com (Serialized Operations Manager, Product Track, Serial Number Exchange), a synchronous REST API for Smart Event Manager, an event-driven OPUS Platform API where every call is a POST to a single /api/events endpoint carrying a header/payload envelope keyed by a fully qualified eventName, a GraphQL endpoint at /api/graphql used by the Agile Process Teams app, and asynchronous B2B message exchange over AS2, SFTP, and HTTP POST using EPCIS, EDI ANSI X12, SAP IDoc, and TraceLink XML canonical documents. Its published API guides, canonical JSON Schemas, and code samples are the machine-readable surface catalogued here.",
-     "score": 53.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 45.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 57.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 120
+     "rank": 124
     },
     {
      "name": "Amazon Backup",
@@ -4721,44 +4878,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 125
     },
     {
-     "name": "MINE",
-     "slug": "mine",
-     "description": "Mine (MineOS) is a data privacy, governance, and AI security posture management platform backed by Battery Ventures. Its MineOS product automates data mapping and inventory, data subject / privacy rights requests (DSR), consent management, vendor and third-party risk (TPRM) assessments, and AI governance (AISPM) for enterprises, while the MineApp helps individuals reclaim their personal data. The MineOS public API (OpenAPI 3.0.1, API-key Bearer auth, EU + US datacenter endpoints) exposes tickets / privacy requests, data-source systems, assessments and templates, employees and business units, AI agent and device discovery, and webhook subscriptions, plus a hosted remote MCP server for agent access.",
-     "score": 52.6,
+     "name": "ThreatLocker",
+     "slug": "threatlocker",
+     "description": "ThreatLocker is a Zero Trust endpoint and cloud security platform used by enterprises and managed service providers to enforce least privilege across endpoints, networks, and cloud workloads. Its capabilities include Application Control (allowlisting), Ringfencing, Elevation Control, Storage Control, Network Control / ZTNA, Web Content Control, Patch Management, and ThreatLocker Detect (managed detection and response). The multi-tenant ThreatLocker Portal is exposed programmatically through the PortalAPI — a public OpenAPI 3.0 REST contract covering action logs, applications, approval requests, computers and computer groups, maintenance mode, organizations, policies, reports, saved searches, scheduled agent actions, system audit, tags, upload requests, and agent versions. The platform is deployed as regionally isolated instances (A–H plus AE1, AU1, CA1, EU1, SA1 and a FedRAMP instance), so both the portal and the API are addressed per instance.",
+     "score": 52.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 59.8,
+      "discoverability": 87.0,
+      "contract_quality": 52.7,
       "governance": 20.8,
       "operational_transparency": 39.5,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 36.8
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 60.5
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 57.9,
+     "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": true,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 126
     },
     {
      "name": "Verifiable",
@@ -4802,7 +4959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 127
     },
     {
      "name": "Apperio",
@@ -4840,7 +4997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 128
     },
     {
      "name": "Fieldguide",
@@ -4878,7 +5035,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 129
+    },
+    {
+     "name": "TRM Labs",
+     "slug": "trm-labs",
+     "description": "TRM Labs is a blockchain intelligence company that helps financial institutions, crypto businesses, and government agencies detect and investigate crypto-related fraud, money laundering, and sanctions violations. Its public API surface includes the TRM Sanctions API for screening blockchain addresses against sanctions lists, and the Chainabuse Public API (community-sourced scam reporting) for contributing, retrieving, and looking up reports of malicious addresses, tokens, transactions, and domains. Both APIs use HTTP Basic authentication and are documented at docs.trmlabs.com.",
+     "score": 52.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 65.1,
+      "governance": 11.5,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 47.3,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 41.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 130
     },
     {
      "name": "SecurityScorecard",
@@ -4915,7 +5109,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 131
+    },
+    {
+     "name": "Zoho Sign",
+     "slug": "zoho-sign",
+     "description": "Zoho Sign is a cloud-based electronic signature platform that provides a REST API for sending documents for signature, managing templates, tracking signing status, and automating signature workflows. The API supports OAuth 2.0 authentication and enables developers to create envelopes, manage recipients, configure signing fields, trigger bulk sends, and retrieve audit trails programmatically. Over 25,000 envelopes are sent daily through Zoho Sign APIs, covering use cases from simple document signing to embedded signing, in-person signing, and enterprise compliance workflows including 21 CFR Part 11 and QES.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/screenshots/zoho-sign-2026-06-20T201947.png",
+     "score": 52.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 67.4,
+      "governance": 58.3,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 37.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 132
     },
     {
      "name": "Murex",
@@ -4960,7 +5192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 133
     },
     {
      "name": "BankruptcyWatch",
@@ -4998,7 +5230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 134
     },
     {
      "name": "VISO Trust",
@@ -5035,7 +5267,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 135
     },
     {
      "name": "Kion",
@@ -5073,7 +5305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 136
     },
     {
      "name": "Trato",
@@ -5110,7 +5342,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 137
     },
     {
      "name": "IF",
@@ -5155,7 +5387,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 138
     },
     {
      "name": "Strise",
@@ -5192,7 +5424,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 139
     },
     {
      "name": "Heron",
@@ -5237,7 +5469,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 140
+    },
+    {
+     "name": "Salv",
+     "slug": "salv",
+     "description": "Salv is an Estonian financial-crime prevention (FinCrime) SaaS platform used by banks, fintechs, and payment service providers to detect money laundering and prevent fraud. Its products include Salv Screening (sanctions, PEP/RCA and adverse-media screening), Salv Monitoring (real-time and post-event transaction monitoring), Salv Risk Scoring, and Salv Bridge (collaborative intelligence sharing). The Salv AML API (OpenAPI 3.0.3, OAuth2 client-credentials, scope `aml`) exposes 36 operations across persons, transactions, monitoring, screening, risk, alerts, custom lists, and bulk data upload, with a webhook surface for alert and status events. Salv is ISO/IEC 27001:2022 certified and SOC 2 Type 2 compliant.",
+     "score": 51.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 70.9,
+      "governance": 20.8,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 52.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 141
     },
     {
      "name": "Vatstack",
@@ -5275,51 +5544,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
-    },
-    {
-     "name": "LeafLink",
-     "slug": "leaflink",
-     "description": "LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments and net terms (LeafLink Financial), logistics and transportation, inventory management, seed-to-sale traceability integration, compliance and licensing, advertising and market insights into one system of record for regulated cannabis wholesale. LeafLink publishes a public REST API at api.leaflink.com — the current dated version 2022-10-31, authenticated with JWT bearer tokens, spanning 182 paths and 269 operations across products, orders, customers, inventory, payments, logistics, traceability, compliance, taxes and messaging — alongside a legacy Marketplace V2 API at app.leaflink.com/api/v2 with 66 paths and 111 operations. Both are documented with OpenAPI on the LeafLink Developer Hub, and the platform supports HMAC-signed webhooks for order and product events.",
-     "score": 51.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 62.5,
-      "governance": 11.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 46.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 136
+     "rank": 142
     },
     {
      "name": "Trustwell",
@@ -5357,7 +5582,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 143
     },
     {
      "name": "APOLLO Insurance",
@@ -5402,7 +5627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 144
     },
     {
      "name": "Cadana",
@@ -5447,7 +5672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 145
     },
     {
      "name": "Synack",
@@ -5484,7 +5709,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 146
     },
     {
      "name": "Kodex",
@@ -5529,7 +5754,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 147
     },
     {
      "name": "Trioptima",
@@ -5574,7 +5799,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 148
     },
     {
      "name": "Amazon Service Catalog",
@@ -5612,45 +5837,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 149
     },
     {
-     "name": "Hubflo",
-     "slug": "hubflo",
-     "description": "Hubflo is a client portal platform for service businesses — consultants, agencies, accountants, and professional-service firms — bringing client onboarding, messaging, document management, e-signatures, forms, proposals, invoicing, tasks, and project collaboration into one branded workspace. Hubflo exposes a REST API (v2) at app.hubflo.com/api/v2 with bearer-token authentication, JSON request/response bodies, UUID resource identifiers, page-based pagination, a 1000 request/minute rate limit, and a native webhook system spanning 29 event types across companies, contacts, workspaces, invoices, forms, tasks, and e-signature submissions. Hubflo also publishes official TypeScript and MCP-server packages and a hosted remote MCP server. Backed by Seedcamp.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/screenshots/hubflo-2026-07-25T221612.png",
+     "name": "Fama",
+     "slug": "fama",
+     "description": "Fama is an AI-powered social media and online screening platform for employment decisions. Its REST API lets HR platforms and background-screening providers submit candidate checks and retrieve behavioral findings — flagged posts, web content, and social profiles — mapped to workplace-misconduct categories across 30+ languages while filtering out protected-class information for EEOC/FCRA-aligned adjudication. Reports are delivered via completion callbacks or polling as JSON or a signed PDF, powering pre-employment screening (Fama Plus), comprehensive candidate assessment (Fama 360), and ongoing employee monitoring (Fama Pulse).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png",
      "score": 51.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 67.4,
-      "governance": 11.5,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 44.7
+      "discoverability": 75.9,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 50.0
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 61.0,
+     "agent_score": 37.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 150
     },
     {
      "name": "Intralinks",
@@ -5688,7 +5913,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 151
+    },
+    {
+     "name": "TraceLink",
+     "slug": "tracelink",
+     "description": "TraceLink, Inc. is a Massachusetts-based supply chain digitalization company for the life sciences and healthcare industries, best known for pharmaceutical serialization and track-and-trace compliance (US DSCSA, EU FMD, and roughly two dozen national regimes) delivered on its multienterprise OPUS network platform. TraceLink exposes several distinct integration surfaces rather than one REST API: a set of publicly served SOAP/WSDL services on api.tracelink.com (Serialized Operations Manager, Product Track, Serial Number Exchange), a synchronous REST API for Smart Event Manager, an event-driven OPUS Platform API where every call is a POST to a single /api/events endpoint carrying a header/payload envelope keyed by a fully qualified eventName, a GraphQL endpoint at /api/graphql used by the Agile Process Teams app, and asynchronous B2B message exchange over AS2, SFTP, and HTTP POST using EPCIS, EDI ANSI X12, SAP IDoc, and TraceLink XML canonical documents. Its published API guides, canonical JSON Schemas, and code samples are the machine-readable surface catalogued here.",
+     "score": 51.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 45.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 152
     },
     {
      "name": "USPTO",
@@ -5733,7 +6002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 153
     },
     {
      "name": "vLex",
@@ -5771,51 +6040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
-    },
-    {
-     "name": "Origami Risk",
-     "slug": "origami-risk",
-     "description": "Origami Risk is a Chicago-headquartered risk, safety and insurance SaaS company founded in 2009 that began as a single-version cloud RMIS (risk management information system) and grew into a core-systems platform for the United States property and casualty market. It sells policy administration, digital underwriting, rating, billing, premium audit, claims administration, compliance and EHS/GRC modules to carriers, MGAs, program administrators, third-party administrators, risk pools, brokers, healthcare systems and large self-insureds, across workers' compensation, medical professional liability, personal auto and homeowners lines. Unlike most US insurance organizations, Origami Risk sits in the software layer between carriers and distribution and therefore does publish a genuinely public, self-serve developer portal at developers.origamirisk.com — a ReadMe-hosted reference readable without login, covering quote and proposal creation, rating, bind, policy issue/endorse/cancel, billing and payments, claims-from-incident and first-report actions, files, reports, domain metadata and outbound webhooks. Four OpenAPI definitions are downloadable from the portal's spec registry, though three of the four are thin scaffolds and the bulk of the reference is hand-authored per-endpoint documentation rather than a complete machine-readable spec. Access to a live tenant is still commercial — the base URL is a per-customer https://{environment}.origamirisk.com host and authentication is token-based or HMAC against a provisioned account — and no ACORD, AL3, IVANS or NGDS conformance is claimed anywhere in the marketing site or the developer portal.",
-     "score": 51.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 47.8,
-      "governance": 11.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 45.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 40.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 148
+     "rank": 154
     },
     {
      "name": "Microsoft SharePoint",
@@ -5853,7 +6078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 155
     },
     {
      "name": "Ask Sage",
@@ -5898,45 +6123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
-    },
-    {
-     "name": "BoldSign",
-     "slug": "boldsign",
-     "description": "BoldSign is an e-signature platform built by Syncfusion that provides a REST API for sending documents for electronic signature, managing reusable templates, tracking envelope status, and embedding signing and requesting workflows directly into third-party applications. The API supports both API key and OAuth 2.0 authentication and outputs JSON responses across US, EU, CA, and AU regional endpoints. BoldSign offers official SDKs for .NET, Python, Java, Node.js, and PHP, along with a free sandbox environment, a Postman collection, and an interactive API Explorer. The platform is SOC 2 Type II, HIPAA, GDPR, and eIDAS compliant, and supports webhooks for real-time event notifications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/screenshots/boldsign-2026-06-20T173555.png",
-     "score": 50.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 72.1,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 37.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 151
+     "rank": 156
     },
     {
      "name": "Smokeball",
@@ -5974,7 +6161,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 157
     },
     {
      "name": "AppOmni",
@@ -6012,7 +6199,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 158
     },
     {
      "name": "Lone Wolf Technologies",
@@ -6049,7 +6236,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 159
     },
     {
      "name": "Shieldpay",
@@ -6093,7 +6280,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 160
     },
     {
      "name": "Templafy",
@@ -6130,7 +6317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 161
     },
     {
      "name": "LogicGate",
@@ -6168,7 +6355,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 162
     },
     {
      "name": "Vistra",
@@ -6206,7 +6393,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 163
     },
     {
      "name": "Merkle Science",
@@ -6243,7 +6430,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 164
     },
     {
      "name": "Solaris",
@@ -6287,7 +6474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 165
     },
     {
      "name": "Ariba Sourcing",
@@ -6325,7 +6512,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 166
     },
     {
      "name": "Trabex",
@@ -6363,7 +6550,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 167
     },
     {
      "name": "Gauntlet",
@@ -6401,7 +6588,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 168
     },
     {
      "name": "Frame Payments",
@@ -6446,7 +6633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 169
     },
     {
      "name": "Ricoh USA",
@@ -6484,44 +6671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
-    },
-    {
-     "name": "SingleFile",
-     "slug": "singlefile",
-     "description": "SingleFile is an AI-powered entity management and corporate compliance platform for corporations, law firms, and investment organizations. It automates business entity formation, EIN filing, annual report filing, registered agent services, UCC filings, and Corporate Transparency Act (BOI/FinCEN) reporting across all 52 US jurisdictions. The SingleFile External API (v1) exposes organizations, entities, contacts, jurisdictions, documents, orders, tasks, and filing schemas over a REST/JSON interface secured with OAuth 2.0 client credentials, with webhooks for real-time order, document, entity, jurisdiction, and task events. SingleFile is SOC 2 Type II certified.",
-     "score": 49.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 58.0,
-      "governance": 20.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 39.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 166
+     "rank": 170
     },
     {
      "name": "Common Paper",
@@ -6559,7 +6709,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 171
     },
     {
      "name": "LendKey",
@@ -6604,7 +6754,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 172
     },
     {
      "name": "Cable",
@@ -6649,7 +6799,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 173
     },
     {
      "name": "CloudGuard",
@@ -6687,7 +6837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 174
     },
     {
      "name": "k-ID",
@@ -6725,7 +6875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 175
     },
     {
      "name": "BitPowr Technologies, Inc.",
@@ -6770,7 +6920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 176
     },
     {
      "name": "Notarize",
@@ -6807,7 +6957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 177
     },
     {
      "name": "Qualio",
@@ -6851,7 +7001,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 178
     },
     {
      "name": "SafetyKit",
@@ -6888,7 +7038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 179
     },
     {
      "name": "Azure Policy",
@@ -6933,7 +7083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 180
     },
     {
      "name": "Papaya Global",
@@ -6978,44 +7128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
-    },
-    {
-     "name": "Salv",
-     "slug": "salv",
-     "description": "Salv is an Estonian financial-crime prevention (FinCrime) SaaS platform used by banks, fintechs, and payment service providers to detect money laundering and prevent fraud. Its products include Salv Screening (sanctions, PEP/RCA and adverse-media screening), Salv Monitoring (real-time and post-event transaction monitoring), Salv Risk Scoring, and Salv Bridge (collaborative intelligence sharing). The Salv AML API (OpenAPI 3.0.3, OAuth2 client-credentials, scope `aml`) exposes 36 operations across persons, transactions, monitoring, screening, risk, alerts, custom lists, and bulk data upload, with a webhook surface for alert and status events. Salv is ISO/IEC 27001:2022 certified and SOC 2 Type 2 compliant.",
-     "score": 49.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 70.9,
-      "governance": 20.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 18.4
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 52.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 178
+     "rank": 181
     },
     {
      "name": "Saasment",
@@ -7053,7 +7166,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 182
     },
     {
      "name": "Cognito",
@@ -7091,7 +7204,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 183
     },
     {
      "name": "Measurabl",
@@ -7128,7 +7241,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 184
     },
     {
      "name": "Sadq Holding Limited",
@@ -7165,7 +7278,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 185
     },
     {
      "name": "Tradeverifyd",
@@ -7202,90 +7315,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
-    },
-    {
-     "name": "Alloy",
-     "slug": "alloy",
-     "description": "Alloy is an identity decisioning platform that provides a single REST API for running KYC/KYB workflows, evaluating applicant risk, automating compliance decisions, and managing ongoing monitoring throughout the customer lifecycle. The platform connects banks and fintechs to more than 85 data sources for fraud prevention, credit underwriting, transaction monitoring, and regulatory compliance via configurable workflow-based evaluations and journey applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/screenshots/alloy-2026-06-20T171540.png",
-     "score": 48.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 56.4,
-      "governance": 0.0,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 73.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 25.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 184
-    },
-    {
-     "name": "Fama",
-     "slug": "fama",
-     "description": "Fama is an AI-powered social media and online screening platform for employment decisions. Its REST API lets HR platforms and background-screening providers submit candidate checks and retrieve behavioral findings — flagged posts, web content, and social profiles — mapped to workplace-misconduct categories across 30+ languages while filtering out protected-class information for EEOC/FCRA-aligned adjudication. Reports are delivered via completion callbacks or polling as JSON or a signed PDF, powering pre-employment screening (Fama Plus), comprehensive candidate assessment (Fama 360), and ongoing employee monitoring (Fama Pulse).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png",
-     "score": 48.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 37.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Clio",
@@ -7323,7 +7353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Global Relay",
@@ -7361,7 +7391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Trail",
@@ -7398,82 +7428,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
-    },
-    {
-     "name": "TRM Labs",
-     "slug": "trm-labs",
-     "description": "TRM Labs is a blockchain intelligence company that helps financial institutions, crypto businesses, and government agencies detect and investigate crypto-related fraud, money laundering, and sanctions violations. Its public API surface includes the TRM Sanctions API for screening blockchain addresses against sanctions lists, and the Chainabuse Public API (community-sourced scam reporting) for contributing, retrieving, and looking up reports of malicious addresses, tokens, transactions, and domains. Both APIs use HTTP Basic authentication and are documented at docs.trmlabs.com.",
-     "score": 48.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 65.1,
-      "governance": 11.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 47.3,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 41.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 189
-    },
-    {
-     "name": "Zoho Sign",
-     "slug": "zoho-sign",
-     "description": "Zoho Sign is a cloud-based electronic signature platform that provides a REST API for sending documents for signature, managing templates, tracking signing status, and automating signature workflows. The API supports OAuth 2.0 authentication and enables developers to create envelopes, manage recipients, configure signing fields, trigger bulk sends, and retrieve audit trails programmatically. Over 25,000 envelopes are sent daily through Zoho Sign APIs, covering use cases from simple document signing to embedded signing, in-person signing, and enterprise compliance workflows including 21 CFR Part 11 and QES.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/screenshots/zoho-sign-2026-06-20T201947.png",
-     "score": 48.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 67.4,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 37.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 190
     },
     {
      "name": "TrustLayer",
@@ -7517,7 +7472,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "Tesser",
@@ -7561,7 +7516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "LEEO Insurance Services",
@@ -7606,7 +7561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "PDFfiller",
@@ -7644,7 +7599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "Rainbird Technologies",
@@ -7681,7 +7636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "Autodesk BIM 360",
@@ -7719,7 +7674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "Feathery",
@@ -7764,7 +7719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 196
     },
     {
      "name": "International Trade Administration",
@@ -7802,7 +7757,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 197
     },
     {
      "name": "Extend",
@@ -7847,7 +7802,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 198
     },
     {
      "name": "BetterCloud",
@@ -7885,7 +7840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 199
     },
     {
      "name": "Docupilot",
@@ -7923,7 +7878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 200
     },
     {
      "name": "Middesk",
@@ -7961,7 +7916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 201
     },
     {
      "name": "Traiana",
@@ -7999,7 +7954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 202
     },
     {
      "name": "Prisma Cloud",
@@ -8037,7 +7992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 203
     },
     {
      "name": "Wegalvanize",
@@ -8074,7 +8029,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 204
     },
     {
      "name": "Confident Cannabis",
@@ -8119,7 +8074,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 205
     },
     {
      "name": "OpenPages",
@@ -8156,7 +8111,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 206
     },
     {
      "name": "Venminder (Digital Comply)",
@@ -8193,7 +8148,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 207
     },
     {
      "name": "Microsoft Intune",
@@ -8231,7 +8186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 208
     },
     {
      "name": "Patsnap",
@@ -8275,7 +8230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 209
     },
     {
      "name": "FOSSology",
@@ -8313,7 +8268,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 210
     },
     {
      "name": "SEC API",
@@ -8350,7 +8305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 211
     },
     {
      "name": "Adaptive Security",
@@ -8388,7 +8343,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 212
     },
     {
      "name": "FINRA",
@@ -8429,6 +8384,50 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 213
+    },
+    {
+     "name": "Rhizome Ai",
+     "slug": "rhizome-ai",
+     "description": "Rhizome AI is an AI-powered regulatory research platform for pharmaceutical and medical device companies. It lets regulatory affairs teams ask questions and receive cited answers grounded in primary-source documents from health authorities worldwide (FDA, EMA, Health Canada, Swissmedic, MHRA, TGA and others across 10+ agencies), retrieving from up to a thousand documents without hallucinating. Beyond the web application, Rhizome AI publishes an enterprise HTTP API that exposes BM25 keyword search across the regulatory document corpus and full-text, page-by-page document retrieval, authenticated with an x-api-key header. A YC-backed company, Rhizome AI was surfaced as a portfolio-company lead and enriched from its public developer documentation.",
+     "score": 46.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 68.2,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -9277,6 +9276,51 @@
      "rank": 236
     },
     {
+     "name": "Alloy",
+     "slug": "alloy",
+     "description": "Alloy is an identity decisioning platform that provides a single REST API for running KYC/KYB workflows, evaluating applicant risk, automating compliance decisions, and managing ongoing monitoring throughout the customer lifecycle. The platform connects banks and fintechs to more than 85 data sources for fraud prevention, credit underwriting, transaction monitoring, and regulatory compliance via configurable workflow-based evaluations and journey applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/screenshots/alloy-2026-06-20T171540.png",
+     "score": 45.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 56.4,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 73.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 25.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 237
+    },
+    {
      "name": "Blockaid",
      "slug": "blockaid",
      "description": "Blockaid is a web3 security platform that detects and prevents scams, fraud, financial risk, and smart-contract exploits in real time. Its API scans transactions, addresses, tokens, dApp sites, and signed messages across EVM chains, Solana, Bitcoin, Stellar, Sui, Starknet, Tron, and Hedera, returning a risk verdict that wallets, exchanges, and marketplaces (MetaMask, Coinbase, Uniswap, OpenSea) use to block malicious activity before a user signs. Products include End User Protection, Onchain Monitoring, Crypto Fraud Prevention, the Cosigner policy engine, and compliance Risk Exposure. Backed by Greylock, GV, and Ribbit Capital.",
@@ -9312,7 +9356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 238
     },
     {
      "name": "PracticePanther",
@@ -9350,7 +9394,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 239
     },
     {
      "name": "Trellis Research",
@@ -9387,7 +9431,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 240
+    },
+    {
+     "name": "Interos",
+     "slug": "interos",
+     "description": "Interos operates an automated supplier-resilience platform that maps and continuously monitors extended, multi-tier supply chains for Fortune 1000 companies and federal agencies. Its cloud-native, multi-tenant SaaS uses AI and a large B2B relationship graph to deliver real-time, multi-domain risk scores and alerts. The public Interos API (REST/JSON, OpenAPI 3.0.2) exposes organization search, organization and risk profiles, the supplier relationship graph, organization groups, custom fields, and scenario watchlists, authenticated with x-api-key and x-customer-id headers. Headquartered in Arlington, Virginia; backed by Kleiner Perkins.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/screenshots/interos-2026-07-25T222710.png",
+     "score": 44.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 59.8,
+      "governance": 11.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 38.6,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 241
     },
     {
      "name": "Causa Prima",
@@ -9432,7 +9514,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 242
     },
     {
      "name": "Clarivate",
@@ -9477,7 +9559,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 243
     },
     {
      "name": "CourtListener",
@@ -9522,7 +9604,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 244
     },
     {
      "name": "Cloud Custodian",
@@ -9560,51 +9642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
-    },
-    {
-     "name": "Rhizome Ai",
-     "slug": "rhizome-ai",
-     "description": "Rhizome AI is an AI-powered regulatory research platform for pharmaceutical and medical device companies. It lets regulatory affairs teams ask questions and receive cited answers grounded in primary-source documents from health authorities worldwide (FDA, EMA, Health Canada, Swissmedic, MHRA, TGA and others across 10+ agencies), retrieving from up to a thousand documents without hallucinating. Beyond the web application, Rhizome AI publishes an enterprise HTTP API that exposes BM25 keyword search across the regulatory document corpus and full-text, page-by-page document retrieval, authenticated with an x-api-key header. A YC-backed company, Rhizome AI was surfaced as a portfolio-company lead and enriched from its public developer documentation.",
-     "score": 44.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 68.2,
-      "governance": 11.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 53.8,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 244
+     "rank": 245
     },
     {
      "name": "Usercentrics",
@@ -9642,7 +9680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "Ariba",
@@ -9680,7 +9718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "Distru",
@@ -9718,7 +9756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "StoneX",
@@ -9763,7 +9801,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "Aikido Security",
@@ -9801,7 +9839,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 250
     },
     {
      "name": "Puppet",
@@ -9838,7 +9876,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 251
     },
     {
      "name": "Skyflow",
@@ -9882,7 +9920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 252
     },
     {
      "name": "FrankieOne",
@@ -9920,7 +9958,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 253
     },
     {
      "name": "Juro",
@@ -9958,7 +9996,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "Towers Watson",
@@ -10002,7 +10040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
      "name": "Nudge Security",
@@ -10040,7 +10078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 256
     },
     {
      "name": "Rocket Lawyer",
@@ -10078,7 +10116,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 257
     },
     {
      "name": "Upwork",
@@ -10116,7 +10154,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 258
     },
     {
      "name": "Advance Intelligence Group",
@@ -10154,7 +10192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 259
     },
     {
      "name": "Alloovium",
@@ -10192,7 +10230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 260
     },
     {
      "name": "Hacware",
@@ -10226,50 +10264,6 @@
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 260
-    },
-    {
-     "name": "Rentberry",
-     "slug": "rentberry",
-     "description": "Rentberry, Inc. is an international long-term home rental marketplace founded in 2015 and headquartered in San Francisco, California. The platform runs the whole rental lifecycle in one closed loop for both tenants and landlords: property listing and syndication, search across residential rental cities worldwide, virtual tours and open-house scheduling, custom rent offers and negotiation, rental applications with proof-of-income attachments, US credit and background screening, e-signed rental contracts and contract templates, online rent collection and rental subscriptions via Stripe, in-platform messaging, maintenance and complaint handling, and a flexible-living concept aimed at digital nomads. Rentberry operates a versioned REST API at api.rentberry.com whose Swagger UI at /docs publishes an OpenAPI 3.0.0 description covering applications, auth and social OAuth login, listings, search, contracts, screening, payments, rentals, messaging, user verification and localization.",
-     "score": 43.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 47.9,
-      "governance": 20.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 54.3,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 39.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 40.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -10510,24 +10504,23 @@
      "rank": 267
     },
     {
-     "name": "Interos",
-     "slug": "interos",
-     "description": "Interos operates an automated supplier-resilience platform that maps and continuously monitors extended, multi-tier supply chains for Fortune 1000 companies and federal agencies. Its cloud-native, multi-tenant SaaS uses AI and a large B2B relationship graph to deliver real-time, multi-domain risk scores and alerts. The public Interos API (REST/JSON, OpenAPI 3.0.2) exposes organization search, organization and risk profiles, the supplier relationship graph, organization groups, custom fields, and scenario watchlists, authenticated with x-api-key and x-customer-id headers. Headquartered in Arlington, Virginia; backed by Kleiner Perkins.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/screenshots/interos-2026-07-25T222710.png",
-     "score": 42.2,
+     "name": "Scout RFP (Workday Strategic Sourcing)",
+     "slug": "scoutrfp",
+     "description": "Scout RFP is a strategic sourcing and supplier engagement platform founded in 2014 and acquired by Workday in 2019, where it now ships as Workday Strategic Sourcing. The product covers sourcing events (RFPs/RFIs/RFQs and auctions), supplier management, contracts, projects, spend categories, awards, and supplier payments. Its public developer platform exposes a JSON:API-conformant REST API across eleven versioned services — Suppliers, Events, Reports, Contracts, Projects, Payments, Fields, Awards, Attachments, and Spend Categories — plus a SCIM 2.0 user-provisioning API. Authentication is by company API key plus a per-user personal token, all calls are HTTPS/JSON:API, cursor paginated, and rate limited to five requests per second. The legacy v3 API on api.scoutrfp.com was sunset April 18, 2025 in favor of the versioned services on api.us.workdayspend.com (with EU and CA regional hosts).",
+     "score": 42.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 59.8,
+      "discoverability": 63.0,
+      "contract_quality": 63.5,
       "governance": 11.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 38.6,
-      "commercial_clarity": 34.2
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 49.5,
+      "commercial_clarity": 15.8
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 45.3,
+     "agent_score": 48.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -10536,11 +10529,11 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": false,
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -10999,6 +10992,50 @@
      "rank": 279
     },
     {
+     "name": "Rentberry",
+     "slug": "rentberry",
+     "description": "Rentberry, Inc. is an international long-term home rental marketplace founded in 2015 and headquartered in San Francisco, California. The platform runs the whole rental lifecycle in one closed loop for both tenants and landlords: property listing and syndication, search across residential rental cities worldwide, virtual tours and open-house scheduling, custom rent offers and negotiation, rental applications with proof-of-income attachments, US credit and background screening, e-signed rental contracts and contract templates, online rent collection and rental subscriptions via Stripe, in-platform messaging, maintenance and complaint handling, and a flexible-living concept aimed at digital nomads. Rentberry operates a versioned REST API at api.rentberry.com whose Swagger UI at /docs publishes an OpenAPI 3.0.0 description covering applications, auth and social OAuth login, listings, search, contracts, screening, payments, rentals, messaging, user verification and localization.",
+     "score": 41.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 47.9,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 49.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 280
+    },
+    {
      "name": "GoodHire",
      "slug": "goodhire",
      "description": "GoodHire is an FCRA-compliant employment background check platform aimed at small and midsize businesses, offering criminal, identity, employment, education, and reference screening with candidate self-consent workflows. GoodHire was acquired by Checkr (the developer-first background check company) in 2021 - the deal was reported at roughly $400M - and now operates as \"GoodHire, A Checkr Company.\" The GoodHire API is a RESTful, FCRA-compliant background screening API split into a Customer API (a single company ordering its own reports) and a Partner API (HR platforms that let their employer customers order GoodHire reports). Background checks are ordered by creating a report object tied to a candidate and a package; status changes are delivered via webhooks. API keys are gated - developers request access from api@goodhire.com and build against a sandbox before production.",
@@ -11034,7 +11071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 280
+     "rank": 281
     },
     {
      "name": "Signeasy",
@@ -11071,7 +11108,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 281
+     "rank": 282
     },
     {
      "name": "Actionstep",
@@ -11109,7 +11146,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 282
+     "rank": 283
+    },
+    {
+     "name": "zkMe",
+     "slug": "zkme",
+     "description": "zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever handling raw personal data. Its product suite spans zkKYC (customer identity with sanction, age, citizenship, location and uniqueness/anti-Sybil proofs), zkKYB (business entity and UBO verification), zkOBS (open-banking proof of accredited investor and proof of address), and KYT (on-chain wallet-address and transaction risk screening). Verification runs client-side through embeddable JavaScript and mobile widgets; integrators then query outcomes through the zkMe Open API on agw.zk.me using an AppID + API key pair. zkMe also publishes zkTLS verifier SDKs, DID registry/resolver tooling and smart contracts through its zkMeLabs GitHub org.",
+     "score": 41.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 54.1,
+      "governance": 11.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 47.3,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 22.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 284
     },
     {
      "name": "Ketryx",
@@ -11154,7 +11228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 283
+     "rank": 285
     },
     {
      "name": "US Court of Appeals for the Federal Circuit",
@@ -11192,7 +11266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 284
+     "rank": 286
     },
     {
      "name": "Lex Machina",
@@ -11230,7 +11304,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 285
+     "rank": 287
     },
     {
      "name": "CashFlo",
@@ -11275,7 +11349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 286
+     "rank": 288
     },
     {
      "name": "Ironclad Clickwrap",
@@ -11313,7 +11387,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 287
+     "rank": 289
     },
     {
      "name": "Sterling",
@@ -11350,7 +11424,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 288
+     "rank": 290
     },
     {
      "name": "Viewpoints AI",
@@ -11387,7 +11461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 289
+     "rank": 291
     },
     {
      "name": "Forest Admin",
@@ -11425,7 +11499,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 290
+     "rank": 292
     },
     {
      "name": "Theta Lake",
@@ -11462,7 +11536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 291
+     "rank": 293
     },
     {
      "name": "Accurate Background",
@@ -11500,7 +11574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 292
+     "rank": 294
     },
     {
      "name": "BeyondTrust",
@@ -11538,7 +11612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 293
+     "rank": 295
     },
     {
      "name": "Eversign",
@@ -11576,7 +11650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 294
+     "rank": 296
     },
     {
      "name": "Certn",
@@ -11614,7 +11688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 295
+     "rank": 297
     },
     {
      "name": "SimCorp Dimension",
@@ -11659,7 +11733,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 296
+     "rank": 298
+    },
+    {
+     "name": "USPTO",
+     "slug": "uspto-gov",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/screenshots/uspto-gov-2026-06-20T200720.png",
+     "score": 40.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 72.3,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 299
     },
     {
      "name": "Mondoo",
@@ -11696,7 +11814,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 297
+     "rank": 300
     },
     {
      "name": "Midpage",
@@ -11733,7 +11851,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 298
+     "rank": 301
     },
     {
      "name": "StrongDM",
@@ -11770,7 +11888,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 299
+     "rank": 302
     },
     {
      "name": "iDenfy",
@@ -11808,7 +11926,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 300
+     "rank": 303
     },
     {
      "name": "Allianz Trade",
@@ -11853,7 +11971,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 301
+     "rank": 304
     },
     {
      "name": "Litmos",
@@ -11891,7 +12009,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 302
+     "rank": 305
     },
     {
      "name": "Story Protocol",
@@ -11928,7 +12046,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 303
+     "rank": 306
     },
     {
      "name": "Formstack",
@@ -11966,44 +12084,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 304
+     "rank": 307
     },
     {
-     "name": "Scout RFP (Workday Strategic Sourcing)",
-     "slug": "scoutrfp",
-     "description": "Scout RFP is a strategic sourcing and supplier engagement platform founded in 2014 and acquired by Workday in 2019, where it now ships as Workday Strategic Sourcing. The product covers sourcing events (RFPs/RFIs/RFQs and auctions), supplier management, contracts, projects, spend categories, awards, and supplier payments. Its public developer platform exposes a JSON:API-conformant REST API across eleven versioned services — Suppliers, Events, Reports, Contracts, Projects, Payments, Fields, Awards, Attachments, and Spend Categories — plus a SCIM 2.0 user-provisioning API. Authentication is by company API key plus a per-user personal token, all calls are HTTPS/JSON:API, cursor paginated, and rate limited to five requests per second. The legacy v3 API on api.scoutrfp.com was sunset April 18, 2025 in favor of the versioned services on api.us.workdayspend.com (with EU and CA regional hosts).",
-     "score": 39.7,
+     "name": "Conga",
+     "slug": "conga",
+     "description": "Conga (formerly Apttus + Conga) is an enterprise Revenue Lifecycle Management vendor whose Conga Advantage Platform unifies Configure-Price-Quote (CPQ), Contract Lifecycle Management (CLM), document generation and e-signature, X-Author authoring, and AI-assisted contract intelligence. The platform exposes a broad RESTful API surface (CLM, cart/CPQ, catalog, user-management, document- and conversion-management, e-sign, search, scheduler, and extensibility services) documented on a public ReadMe-hosted developer portal at developer.conga.com. APIs use OAuth 2.0 bearer tokens minted through region-specific Conga login services, JSON request/response bodies, cursor-free page/limit pagination with Content-Range headers, URI filtering, and a JSON:API error envelope. Conga is backed by ICONIQ Capital and Insight Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/screenshots/conga-2026-07-25T210254.png",
+     "score": 39.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 63.5,
-      "governance": 11.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 49.5,
-      "commercial_clarity": 15.8
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 47.4
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 48.0,
-     "agent_band": "agent-ready",
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 305
+     "rank": 308
     },
     {
      "name": "InCountry",
@@ -12041,7 +12160,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 306
+     "rank": 309
     },
     {
      "name": "Kubescape",
@@ -12079,7 +12198,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 307
+     "rank": 310
     },
     {
      "name": "Shufti Pro",
@@ -12116,7 +12235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 308
+     "rank": 311
     },
     {
      "name": "Voyc",
@@ -12153,7 +12272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 309
+     "rank": 312
     },
     {
      "name": "ARMO",
@@ -12191,7 +12310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 310
+     "rank": 313
     },
     {
      "name": "AbsenceSoft",
@@ -12229,7 +12348,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 311
+     "rank": 314
     },
     {
      "name": "Concord",
@@ -12267,7 +12386,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 312
+     "rank": 315
     },
     {
      "name": "Oneflow",
@@ -12304,7 +12423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 313
+     "rank": 316
     },
     {
      "name": "SAM.gov",
@@ -12342,7 +12461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 314
+     "rank": 317
     },
     {
      "name": "Xerox",
@@ -12380,7 +12499,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 315
+     "rank": 318
     },
     {
      "name": "Bureau of Industry and Security",
@@ -12418,7 +12537,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 316
+     "rank": 319
     },
     {
      "name": "Bureau of Industry Security",
@@ -12456,7 +12575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 317
+     "rank": 320
     },
     {
      "name": "LinkSquares",
@@ -12494,7 +12613,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 318
+     "rank": 321
     },
     {
      "name": "US Copyright Office",
@@ -12539,7 +12658,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 319
+     "rank": 322
     },
     {
      "name": "Iru",
@@ -12577,7 +12696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 320
+     "rank": 323
     },
     {
      "name": "Salt Edge",
@@ -12622,7 +12741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 321
+     "rank": 324
     },
     {
      "name": "DISCO",
@@ -12660,7 +12779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 322
+     "rank": 325
     },
     {
      "name": "Documenso",
@@ -12698,7 +12817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 323
+     "rank": 326
     },
     {
      "name": "HoneyBook",
@@ -12743,7 +12862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 324
+     "rank": 327
     },
     {
      "name": "Mosey",
@@ -12780,7 +12899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 325
+     "rank": 328
     },
     {
      "name": "Nutrient.io",
@@ -12818,7 +12937,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 326
+     "rank": 329
     },
     {
      "name": "Valgo",
@@ -12862,44 +12981,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 327
-    },
-    {
-     "name": "zkMe",
-     "slug": "zkme",
-     "description": "zkMe is a decentralized identity network delivering privacy-preserving compliance for Web3. Using zero-knowledge proofs, self-sovereign identity (SSI) wallets, DID methods and soulbound tokens, zkMe lets applications verify their users and businesses without ever handling raw personal data. Its product suite spans zkKYC (customer identity with sanction, age, citizenship, location and uniqueness/anti-Sybil proofs), zkKYB (business entity and UBO verification), zkOBS (open-banking proof of accredited investor and proof of address), and KYT (on-chain wallet-address and transaction risk screening). Verification runs client-side through embeddable JavaScript and mobile widgets; integrators then query outcomes through the zkMe Open API on agw.zk.me using an AppID + API key pair. zkMe also publishes zkTLS verifier SDKs, DID registry/resolver tooling and smart contracts through its zkMeLabs GitHub org.",
-     "score": 38.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 54.1,
-      "governance": 11.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 47.3,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 22.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 328
+     "rank": 330
     },
     {
      "name": "Caplinked",
@@ -12937,7 +13019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 329
+     "rank": 331
     },
     {
      "name": "Checkr",
@@ -12975,7 +13057,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 330
+     "rank": 332
     },
     {
      "name": "Dimensions",
@@ -13013,7 +13095,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 331
+     "rank": 333
     },
     {
      "name": "Enigma Analytics",
@@ -13051,7 +13133,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 332
+     "rank": 334
     },
     {
      "name": "Retraced",
@@ -13088,7 +13170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 333
+     "rank": 335
     },
     {
      "name": "Persona",
@@ -13125,7 +13207,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 334
+     "rank": 336
     },
     {
      "name": "Signaturely",
@@ -13162,51 +13244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 335
-    },
-    {
-     "name": "USPTO",
-     "slug": "uspto-gov",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/screenshots/uspto-gov-2026-06-20T200720.png",
-     "score": 37.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 72.3,
-      "governance": 68.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 336
+     "rank": 337
     },
     {
      "name": "Cyera",
@@ -13244,7 +13282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 337
+     "rank": 338
     },
     {
      "name": "dotloop",
@@ -13282,7 +13320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 338
+     "rank": 339
     },
     {
      "name": "IDwall",
@@ -13320,7 +13358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 339
+     "rank": 340
     },
     {
      "name": "Amazon Audit Manager",
@@ -13358,7 +13396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 340
+     "rank": 341
     },
     {
      "name": "Motive",
@@ -13396,7 +13434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 341
+     "rank": 342
     },
     {
      "name": "Legit Security",
@@ -13434,7 +13472,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 342
+     "rank": 343
     },
     {
      "name": "Tabs",
@@ -13471,7 +13509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 343
+     "rank": 344
     },
     {
      "name": "Contractbook",
@@ -13509,7 +13547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 344
+     "rank": 345
     },
     {
      "name": "Scrive",
@@ -13546,7 +13584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 345
+     "rank": 346
     },
     {
      "name": "Free Law Project",
@@ -13580,44 +13618,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 346
-    },
-    {
-     "name": "Conga",
-     "slug": "conga",
-     "description": "Conga (formerly Apttus + Conga) is an enterprise Revenue Lifecycle Management vendor whose Conga Advantage Platform unifies Configure-Price-Quote (CPQ), Contract Lifecycle Management (CLM), document generation and e-signature, X-Author authoring, and AI-assisted contract intelligence. The platform exposes a broad RESTful API surface (CLM, cart/CPQ, catalog, user-management, document- and conversion-management, e-sign, search, scheduler, and extensibility services) documented on a public ReadMe-hosted developer portal at developer.conga.com. APIs use OAuth 2.0 bearer tokens minted through region-specific Conga login services, JSON request/response bodies, cursor-free page/limit pagination with Content-Range headers, URI filtering, and a JSON:API error envelope. Conga is backed by ICONIQ Capital and Insight Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/screenshots/conga-2026-07-25T210254.png",
-     "score": 36.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -13933,6 +13933,43 @@
      "rank": 355
     },
     {
+     "name": "Balbix",
+     "slug": "balbix",
+     "description": "Balbix is a cyber risk and exposure management platform founded in 2015 in San Jose, California. The Balbix Security Cloud (Balbix D3) ingests telemetry from 70+ security and IT systems through pre-built connectors and sensors, unifies it into a single asset, application, vulnerability and software inventory model, and quantifies breach risk in dollar terms so security teams can prioritize remediation. The platform covers cyber asset attack surface management (CAASM), continuous threat exposure management (CTEM), AppSec risk, and cyber risk quantification (CRQ), and ships BIX, a natural-language AI assistant for security posture questions. Balbix exposes a read-only REST API (v1) for programmatic access to assets, vulnerabilities, misconfigurations, software inventory, applications and application artifacts. Balbix was acquired by SAFE Security in November 2025; balbix.com now redirects to safe.security and the Balbix product documentation is published as the \"Balbix Help\" section of docs.safe.security.",
+     "score": 36.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 15.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 356
+    },
+    {
      "name": "Enigma",
      "slug": "enigma",
      "description": "Enigma provides business identity infrastructure for the United States, built on entity-resolution technology that links brands, DBAs, operating locations, legal entities, and ownership into unified business records. Its Identity Graph aggregates hundreds of public and third-party sources plus 750M+ anonymized cards and 30B+ annual transactions, powering KYB and onboarding, sanctions and negative-news screening, payment risk and underwriting, and go-to-market data. Developers access this through a GraphQL Data API, a KYB REST API, and a remote MCP server.",
@@ -13968,7 +14005,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 356
+     "rank": 357
     },
     {
      "name": "Immersive Labs",
@@ -14006,7 +14043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 357
+     "rank": 358
     },
     {
      "name": "KPMG",
@@ -14044,7 +14081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 358
+     "rank": 359
     },
     {
      "name": "Sphere",
@@ -14081,7 +14118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 359
+     "rank": 360
     },
     {
      "name": "Dropbox Sign",
@@ -14119,7 +14156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 360
+     "rank": 361
     },
     {
      "name": "eCFR",
@@ -14164,7 +14201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 361
+     "rank": 362
     },
     {
      "name": "Eldorado",
@@ -14209,7 +14246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 362
+     "rank": 363
     },
     {
      "name": "Sirion",
@@ -14246,7 +14283,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 363
+     "rank": 364
     },
     {
      "name": "SkySlope",
@@ -14283,7 +14320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 364
+     "rank": 365
     },
     {
      "name": "airSlate",
@@ -14321,7 +14358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 365
+     "rank": 366
     },
     {
      "name": "Clumio",
@@ -14359,7 +14396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 366
+     "rank": 367
     },
     {
      "name": "Evisort",
@@ -14397,7 +14434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 367
+     "rank": 368
     },
     {
      "name": "Agentsync",
@@ -14442,7 +14479,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 368
+     "rank": 369
     },
     {
      "name": "Patlytics",
@@ -14479,7 +14516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 369
+     "rank": 370
     },
     {
      "name": "Logikcull",
@@ -14517,7 +14554,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 370
+     "rank": 371
     },
     {
      "name": "TrueVault",
@@ -14554,7 +14591,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 371
+     "rank": 372
     },
     {
      "name": "Cleartax",
@@ -14599,7 +14636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 372
+     "rank": 373
     },
     {
      "name": "Bryter",
@@ -14637,7 +14674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 373
+     "rank": 374
     },
     {
      "name": "Sardine",
@@ -14675,7 +14712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 374
+     "rank": 375
     },
     {
      "name": "Tradogram",
@@ -14713,7 +14750,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 375
+     "rank": 376
     },
     {
      "name": "APIGovernance.Dev",
@@ -14751,7 +14788,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 376
+     "rank": 377
     },
     {
      "name": "Nutrical Solution Ltd",
@@ -14795,7 +14832,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 377
+     "rank": 378
     },
     {
      "name": "LiquidTrust",
@@ -14840,7 +14877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 378
+     "rank": 379
     },
     {
      "name": "Oyster HR",
@@ -14878,7 +14915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 379
+     "rank": 380
     },
     {
      "name": "Paperform",
@@ -14923,7 +14960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 380
+     "rank": 381
     },
     {
      "name": "Trustlogix",
@@ -14960,7 +14997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 381
+     "rank": 382
     },
     {
      "name": "Rimsys",
@@ -15004,7 +15041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 382
+     "rank": 383
     },
     {
      "name": "Drata",
@@ -15038,43 +15075,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 383
-    },
-    {
-     "name": "Balbix",
-     "slug": "balbix",
-     "description": "Balbix is a cyber risk and exposure management platform founded in 2015 in San Jose, California. The Balbix Security Cloud (Balbix D3) ingests telemetry from 70+ security and IT systems through pre-built connectors and sensors, unifies it into a single asset, application, vulnerability and software inventory model, and quantifies breach risk in dollar terms so security teams can prioritize remediation. The platform covers cyber asset attack surface management (CAASM), continuous threat exposure management (CTEM), AppSec risk, and cyber risk quantification (CRQ), and ships BIX, a natural-language AI assistant for security posture questions. Balbix exposes a read-only REST API (v1) for programmatic access to assets, vulnerabilities, misconfigurations, software inventory, applications and application artifacts. Balbix was acquired by SAFE Security in November 2025; balbix.com now redirects to safe.security and the Balbix product documentation is published as the \"Balbix Help\" section of docs.safe.security.",
-     "score": 33.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 15.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

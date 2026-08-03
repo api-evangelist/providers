@@ -287,8 +287,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 33,
-   "shown": 33,
+   "count": 35,
+   "shown": 35,
    "providers": [
     {
      "name": "Tink",
@@ -515,6 +515,50 @@
      "rank": 11
     },
     {
+     "name": "MethodFi",
+     "slug": "methodfi",
+     "description": "Method (Method Financial) is the infrastructure layer for consumer liability data and payments. Its API lets developers create entities, verify identity, and use Connect to discover a user's complete liability picture across 15,000+ institutions (credit cards, auto loans, student loans, mortgages, personal loans) without credential sharing, then normalize that data and move money via ACH to pay down those liabilities. Additional products include credit scores, card-brand enrichment, financial attributes, transactions, updates/subscriptions for monitoring, reports, and embeddable UI (Opal/Elements). Method powers lending, personal finance management, and commerce/card-linking use cases.",
+     "score": 63.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 75.0,
+      "governance": 20.8,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 71.2,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 59.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 53.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 12
+    },
+    {
      "name": "Fintecture",
      "slug": "fintecture",
      "description": "Fintecture is a French Open Banking payments platform and ACPR-authorised payment institution (#17248). Its API stack covers PSD2 Payment Initiation (Immediate Transfer, Smart Transfer, Request To Pay, Buy Now Pay Later, Verified Payout, Immediate Refund), PSD2 Account Information (accounts, holders, transactions, identity verification), Customers, E-Mandates, and a beta Organisation Access Credentials surface for managing multi-tenant enterprise estates. Clients include Auchan, Bricoman, Pluxee, PMU, and Edenred, with 2M+ end payers served. Plug-and-play modules for PrestaShop, Magento, Shopify, WordPress, Odoo, Intershop, and Oasis sit on top of official JavaScript, Python, PHP, and Ruby SDKs.",
@@ -557,7 +601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Slash",
@@ -601,7 +645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Super Payments",
@@ -645,7 +689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Weavr",
@@ -689,7 +733,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "MX",
@@ -733,7 +777,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Zai",
@@ -777,7 +821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Efí Pay (Gerencianet)",
@@ -822,7 +866,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Chariot",
@@ -867,7 +911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Dun & Bradstreet",
@@ -905,7 +949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Dwolla",
@@ -950,7 +994,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Moneyhub",
@@ -990,50 +1034,6 @@
       "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 22
-    },
-    {
-     "name": "MethodFi",
-     "slug": "methodfi",
-     "description": "Method (Method Financial) is the infrastructure layer for consumer liability data and payments. Its API lets developers create entities, verify identity, and use Connect to discover a user's complete liability picture across 15,000+ institutions (credit cards, auto loans, student loans, mortgages, personal loans) without credential sharing, then normalize that data and move money via ACH to pay down those liabilities. Additional products include credit scores, card-brand enrichment, financial attributes, transactions, updates/subscriptions for monitoring, reports, and embeddable UI (Opal/Elements). Method powers lending, personal finance management, and commerce/card-linking use cases.",
-     "score": 59.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 75.0,
-      "governance": 20.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 71.2,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 59.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 53.8,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -1308,6 +1308,50 @@
      "rank": 29
     },
     {
+     "name": "Sikoia",
+     "slug": "sikoia",
+     "description": "Sikoia is a UK-based (FCA-authorised AISP), ISO 27001-certified customer-verification platform for financial services. Its REST API automates KYC/KYB and onboarding by grouping companies and people into cases and enriching them with company registry data, company & consumer credit reports, identity verification (IDV), open banking, document upload with classification/extraction and integrity/tampering checks, income & employer verification, affordability insights, PEPs & sanctions and adverse-media screening, plus validation/completeness checklists. The v2 API uses OAuth 2.0 client-credentials, JSON over HTTPS, HMAC-signed webhooks, and a documented rate-limit, error, and deprecation model.",
+     "score": 58.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 72.7,
+      "governance": 20.8,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 38.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 53.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 30
+    },
+    {
      "name": "Narmi",
      "slug": "narmi",
      "description": "Narmi is a digital banking platform for community banks and credit unions in the United States. The Narmi One platform unifies consumer and business digital banking, omnichannel account opening (Narmi Grow), instant payments over FedNow (Narmi Now), fraud prevention (Narmi Guard), lending (Narmi Lend), a digital back-office (Narmi Command), an API-driven open architecture (Narmi Open), and agentic AI capabilities (Narmi AI). Narmi integrates with major core banking systems including Corelation Keystone, Symitar, Jack Henry Silverlake, Fiserv DNA/Premier, FIS Horizon/IBS, and COCC. The Narmi Public API is a REST API (OAuth 2.0, 189 operations) exposing accounts, balances, transactions, cards, ACH, Fedwire, FedNow, SWIFT wires, deposits, alerts, and messaging. Narmi launched the first MCP server deployed by a U.S. bank (with Grasshopper Bank, August 2025).",
@@ -1349,7 +1393,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "AEMO",
@@ -1393,7 +1437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Akoya",
@@ -1438,7 +1482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Cash App",
@@ -1483,7 +1527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "N3XT",
@@ -1527,7 +1571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "TrueLayer",
@@ -1572,7 +1616,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Total Expert",
@@ -1616,7 +1660,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Unstoppable Finance (Iron)",
@@ -1660,7 +1704,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Swan",
@@ -1704,7 +1748,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "CloudWalk",
@@ -1748,7 +1792,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
+    },
+    {
+     "name": "Anchorage Digital",
+     "slug": "anchorage",
+     "description": "Anchorage Digital is the first federally chartered crypto bank in the U.S., providing institutional-grade digital asset infrastructure through its integrated Prime platform: qualified custody of crypto and USD, institutional trading with deep liquidity, staking across dozens of proof-of-stake networks, the Atlas on-chain settlement network, stablecoin issuance and conversion, and integrated cash-and-crypto banking. Its REST API v2.0 (and newer v3 surface) exposes 100+ operations across custody, wallets, addresses, transfers, transactions, trading, Atlas settlement, collateral management, onboarding, subaccounts, tax, stablecoins, and webhook notifications, secured with API keys plus Ed25519 request signing and quorum approval. Trusted by institutions including BlackRock, Goldman Sachs, and Grayscale.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/screenshots/anchorage-2026-07-25T200219.png",
+     "score": 56.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 73.1,
+      "governance": 11.5,
+      "operational_transparency": 78.9,
+      "developer_ergonomics": 64.7,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 39.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 62.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 41
     }
    ],
    "open": true
@@ -1758,8 +1847,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 176,
-   "shown": 176,
+   "count": 174,
+   "shown": 174,
    "providers": [
     {
      "name": "Enable Banking",
@@ -1804,51 +1893,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
-    },
-    {
-     "name": "Sikoia",
-     "slug": "sikoia",
-     "description": "Sikoia is a UK-based (FCA-authorised AISP), ISO 27001-certified customer-verification platform for financial services. Its REST API automates KYC/KYB and onboarding by grouping companies and people into cases and enriching them with company registry data, company & consumer credit reports, identity verification (IDV), open banking, document upload with classification/extraction and integrity/tampering checks, income & employer verification, affordability insights, PEPs & sanctions and adverse-media screening, plus validation/completeness checklists. The v2 API uses OAuth 2.0 client-credentials, JSON over HTTPS, HMAC-signed webhooks, and a documented rate-limit, error, and deprecation model.",
-     "score": 55.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 72.7,
-      "governance": 20.8,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 38.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 53.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Azupay",
@@ -1893,7 +1938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "NatWest Group",
@@ -1937,7 +1982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Fiat Republic",
@@ -1982,7 +2027,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Defacto",
@@ -2020,7 +2065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "FinGoal",
@@ -2065,7 +2110,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Yapily",
@@ -2110,7 +2155,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Lean Technologies",
@@ -2155,7 +2200,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Toqio",
@@ -2199,7 +2244,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
+    },
+    {
+     "name": "Financial Data Exchange (FDX)",
+     "slug": "fdx",
+     "description": "Financial Data Exchange (FDX) is a non-profit industry standards body operating in the US and Canada that produces the FDX API, a royalty-free REST standard for consumer-permissioned financial data sharing. The FDX API defines interoperable endpoints covering deposit accounts, loan accounts, investment accounts, insurance policies, tax data, payroll data, reward programs, and consent management, enabling data providers (financial institutions), data access platforms (aggregators), and data recipients (fintechs) to exchange consumer financial data without exposing user credentials. As of early 2026 over 130 million consumer accounts are connected via the FDX API across 200+ member organizations including Bank of America, Chase, Citi, Wells Fargo, Plaid, and MX. FDX API v6.5 is the current stable release.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png",
+     "score": 54.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 68.9,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 53.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 51
     },
     {
      "name": "SWIFT",
@@ -2244,7 +2334,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 52
     },
     {
      "name": "Pliant",
@@ -2288,7 +2378,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 53
+    },
+    {
+     "name": "Jiko",
+     "slug": "jiko",
+     "description": "Jiko is a fintech infrastructure company that turns idle cash into US Treasury bills held in the customer's own name, combining a nationally chartered bank, a registered broker-dealer, and a real-time settlement network (JikoNet) behind a single API. Its \"Jiko as a Service\" platform lets partners embed T-bill-backed accounts, virtual and physical debit cards, pockets (paired bank + brokerage accounts), and multi-rail money movement (ACH, wire, SWIFT, cards, and 24/7 on-us JikoNet transfers) into their own applications. Jiko exposes two OAuth 2.0 / HMAC-secured REST APIs — a Customer API for direct integrators and a Partner API for embedding Jiko products on behalf of end customers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-07-25T223151.png",
+     "score": 54.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 62.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 54
     },
     {
      "name": "LendAPI",
@@ -2333,52 +2468,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
-    },
-    {
-     "name": "Anchorage Digital",
-     "slug": "anchorage",
-     "description": "Anchorage Digital is the first federally chartered crypto bank in the U.S., providing institutional-grade digital asset infrastructure through its integrated Prime platform: qualified custody of crypto and USD, institutional trading with deep liquidity, staking across dozens of proof-of-stake networks, the Atlas on-chain settlement network, stablecoin issuance and conversion, and integrated cash-and-crypto banking. Its REST API v2.0 (and newer v3 surface) exposes 100+ operations across custody, wallets, addresses, transfers, transactions, trading, Atlas settlement, collateral management, onboarding, subaccounts, tax, stablecoins, and webhook notifications, secured with API keys plus Ed25519 request signing and quorum approval. Trusted by institutions including BlackRock, Goldman Sachs, and Grayscale.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anchorage/refs/heads/main/screenshots/anchorage-2026-07-25T200219.png",
-     "score": 53.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 73.1,
-      "governance": 11.5,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 64.7,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 39.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 62.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 53
+     "rank": 55
     },
     {
      "name": "SIX",
@@ -2423,7 +2513,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 56
     },
     {
      "name": "Up",
@@ -2468,7 +2558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 57
     },
     {
      "name": "Montran",
@@ -2513,7 +2603,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 58
     },
     {
      "name": "Temenos Transact",
@@ -2558,7 +2648,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 59
     },
     {
      "name": "first direct",
@@ -2603,7 +2693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 60
     },
     {
      "name": "IMB Bank",
@@ -2648,7 +2738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 61
     },
     {
      "name": "Simplifi/Simplifipay",
@@ -2692,7 +2782,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 62
     },
     {
      "name": "Triodos Bank UK",
@@ -2736,7 +2826,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 63
     },
     {
      "name": "Charles Schwab",
@@ -2781,7 +2871,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Spare",
@@ -2825,7 +2915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 65
     },
     {
      "name": "JPMorgan Chase",
@@ -2870,7 +2960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "Soldo",
@@ -2914,7 +3004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 67
     },
     {
      "name": "Volt",
@@ -2958,7 +3048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 68
     },
     {
      "name": "Bank of America",
@@ -3003,7 +3093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 69
     },
     {
      "name": "Truist Financial",
@@ -3048,7 +3138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 70
     },
     {
      "name": "BNY Mellon",
@@ -3093,7 +3183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 71
     },
     {
      "name": "Stark Bank",
@@ -3137,7 +3227,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 72
     },
     {
      "name": "Atlar",
@@ -3182,7 +3272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 73
     },
     {
      "name": "TD Bank",
@@ -3226,7 +3316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 74
     },
     {
      "name": "VoPay",
@@ -3270,7 +3360,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "IF",
@@ -3315,7 +3405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "Upgrade",
@@ -3359,7 +3449,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 77
     },
     {
      "name": "BCB Group",
@@ -3404,7 +3494,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 78
     },
     {
      "name": "ECOMMPAY",
@@ -3449,7 +3539,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "Kontomatik",
@@ -3494,7 +3584,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 80
     },
     {
      "name": "MX Technologies",
@@ -3539,7 +3629,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 81
     },
     {
      "name": "Griffin",
@@ -3584,7 +3674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 82
     },
     {
      "name": "Pinwheel",
@@ -3629,7 +3719,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 83
+    },
+    {
+     "name": "Anchorage Digital",
+     "slug": "anchorage-digital",
+     "description": "Anchorage Digital is a regulated digital-asset platform for institutions, operating Anchorage Digital Bank, N.A. — the first federally chartered (OCC) crypto bank in the United States — plus regulated entities in Singapore and New York. It provides qualified custody, trading (Anchorage Digital Prime), staking, on-chain settlement via the Atlas Settlement Network, stablecoin issuance and conversion, governance participation, and tax reporting. Its REST API v2.0 exposes 134 operations across custody, wallets, transfers, trading, Atlas settlement, onboarding, subaccounts, tax, and webhook notifications, secured with API keys plus Ed25519 request signing. Anchorage also ships an Agentic Banking product with a hosted MCP server that lets AI agents spend against pre-authorized budgets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anchorage-digital/refs/heads/main/screenshots/anchorage-digital-2026-07-25T200222.png",
+     "score": 51.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 73.4,
+      "governance": 11.5,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 39.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 61.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 84
     },
     {
      "name": "Ualá",
@@ -3673,7 +3808,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 85
     },
     {
      "name": "Augustus",
@@ -3718,7 +3853,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 86
     },
     {
      "name": "AltScore",
@@ -3763,7 +3898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 87
     },
     {
      "name": "Modulr",
@@ -3807,7 +3942,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 85
+     "rank": 88
     },
     {
      "name": "Moov",
@@ -3852,7 +3987,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 89
     },
     {
      "name": "Nopan",
@@ -3896,7 +4031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 90
     },
     {
      "name": "Revolut",
@@ -3940,52 +4075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
-    },
-    {
-     "name": "Financial Data Exchange (FDX)",
-     "slug": "fdx",
-     "description": "Financial Data Exchange (FDX) is a non-profit industry standards body operating in the US and Canada that produces the FDX API, a royalty-free REST standard for consumer-permissioned financial data sharing. The FDX API defines interoperable endpoints covering deposit accounts, loan accounts, investment accounts, insurance policies, tax data, payroll data, reward programs, and consent management, enabling data providers (financial institutions), data access platforms (aggregators), and data recipients (fintechs) to exchange consumer financial data without exposing user credentials. As of early 2026 over 130 million consumer accounts are connected via the FDX API across 200+ member organizations including Bank of America, Chase, Citi, Wells Fargo, Plaid, and MX. FDX API v6.5 is the current stable release.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png",
-     "score": 50.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 68.9,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 53.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "Basiq",
@@ -4030,52 +4120,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
-    },
-    {
-     "name": "Jiko",
-     "slug": "jiko",
-     "description": "Jiko is a fintech infrastructure company that turns idle cash into US Treasury bills held in the customer's own name, combining a nationally chartered bank, a registered broker-dealer, and a real-time settlement network (JikoNet) behind a single API. Its \"Jiko as a Service\" platform lets partners embed T-bill-backed accounts, virtual and physical debit cards, pockets (paired bank + brokerage accounts), and multi-rail money movement (ACH, wire, SWIFT, cards, and 24/7 on-us JikoNet transfers) into their own applications. Jiko exposes two OAuth 2.0 / HMAC-secured REST APIs — a Customer API for direct integrators and a Partner API for embedding Jiko products on behalf of end customers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-07-25T223151.png",
-     "score": 50.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 62.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Slope",
@@ -4119,7 +4164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Shieldpay",
@@ -4163,7 +4208,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Tribe Payments",
@@ -4207,7 +4252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "Macquarie Bank",
@@ -4252,7 +4297,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 96
+    },
+    {
+     "name": "Sibill",
+     "slug": "sibill",
+     "description": "Sibill is an Italian fintech platform that centralizes financial and administrative management for small and medium-sized businesses (PMI). It unifies electronic invoicing (submitted to the Agenzia delle Entrate SDI), treasury and cash-flow monitoring, payments, business accounts and debit cards, and AI-assisted reconciliation of bank transactions against invoices and deadlines. The Sibill Integration API exposes companies, bank accounts, categories, counterparts, documents, payment flows, reconciliations, products and transactions over a REST interface secured with Bearer API keys, with cursor pagination, field expansion, and Document/Flow webhooks. Backed by Creandum.",
+     "score": 50.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 63.0,
+      "governance": 11.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 31.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 97
     },
     {
      "name": "Solaris",
@@ -4296,7 +4385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 98
     },
     {
      "name": "Newcastle Permanent Building Society",
@@ -4341,7 +4430,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 99
     },
     {
      "name": "Finicity",
@@ -4386,7 +4475,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 100
     },
     {
      "name": "Upward Financial",
@@ -4430,7 +4519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 101
     },
     {
      "name": "Algbra",
@@ -4475,7 +4564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 102
     },
     {
      "name": "LendKey",
@@ -4520,7 +4609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 103
     },
     {
      "name": "Cable",
@@ -4565,7 +4654,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 104
     },
     {
      "name": "Coutts",
@@ -4610,7 +4699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 105
     },
     {
      "name": "Rollee",
@@ -4654,7 +4743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 106
     },
     {
      "name": "zopa",
@@ -4698,7 +4787,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 107
     },
     {
      "name": "Datanomik",
@@ -4743,7 +4832,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 108
     },
     {
      "name": "lemon.markets",
@@ -4788,7 +4877,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 109
     },
     {
      "name": "Nymcard",
@@ -4832,7 +4921,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 110
     },
     {
      "name": "Telleroo",
@@ -4876,52 +4965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
-    },
-    {
-     "name": "Anchorage Digital",
-     "slug": "anchorage-digital",
-     "description": "Anchorage Digital is a regulated digital-asset platform for institutions, operating Anchorage Digital Bank, N.A. — the first federally chartered (OCC) crypto bank in the United States — plus regulated entities in Singapore and New York. It provides qualified custody, trading (Anchorage Digital Prime), staking, on-chain settlement via the Atlas Settlement Network, stablecoin issuance and conversion, governance participation, and tax reporting. Its REST API v2.0 exposes 134 operations across custody, wallets, transfers, trading, Atlas settlement, onboarding, subaccounts, tax, and webhook notifications, secured with API keys plus Ed25519 request signing. Anchorage also ships an Agentic Banking product with a hosted MCP server that lets AI agents spend against pre-authorized budgets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/anchorage-digital/refs/heads/main/screenshots/anchorage-digital-2026-07-25T200222.png",
-     "score": 49.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 73.4,
-      "governance": 11.5,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 39.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 61.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 110
+     "rank": 111
     },
     {
      "name": "Westpac Banking Corporation",
@@ -4966,7 +5010,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 112
     },
     {
      "name": "Green Dot Corporation",
@@ -5011,7 +5055,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 113
+    },
+    {
+     "name": "Simply Energy",
+     "slug": "simply-energy",
+     "description": "Simply Energy is the former brand of the Australian electricity and gas retailer that now trades as ENGIE, operated by IPower Pty Ltd (ACN 111 267 228) and IPower 2 Pty Ltd (ABN 24 070 374 293) trading as ENGIE (ABN 67 269 241 237), together with Simply Energy Solutions Pty Ltd. The business carried the Simply Energy name for seventeen years before rebranding to ENGIE in April 2024, and supplies more than 700,000 residential and business accounts across Victoria, South Australia, New South Wales, Queensland and Western Australia. It sits on the retail tier of the National Electricity Market value chain, buying wholesale energy and billing end customers, rather than in generation, transmission or distribution. Its API posture is entirely a product of statutory mandate, and in this case the mandate is genuinely implemented rather than merely claimed. The company is a designated Consumer Data Right energy data holder (data holder provider number DH002028) and is listed on the live CDR Register under the ENGIE brand. Its unauthenticated CDR Generic Plans endpoint, hosted for it by the Australian Energy Regulator's Energy Made Easy service, returns 2,452 real ENGIE tariff plans conforming to the Consumer Data Standards energy schemas, and its own registered public base URI serves the Consumer Data Standards discovery endpoints with correct x-v version negotiation. Everything else is closed. Customer usage, billing, service point and DER data are available only to ACCC accredited data recipients with explicit consumer consent, there is no developer portal, no self-serve API keys, no published OpenID Connect discovery document, and no open grid, market or system data of any kind.",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 54.3,
+      "governance": 20.8,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 114
     },
     {
      "name": "BankVic",
@@ -5056,7 +5144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 115
     },
     {
      "name": "Red Energy",
@@ -5100,7 +5188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 116
     },
     {
      "name": "Chase",
@@ -5145,7 +5233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 117
     },
     {
      "name": "Danske Bank (UK)",
@@ -5190,7 +5278,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 118
     },
     {
      "name": "Credilinq.ai",
@@ -5235,7 +5323,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 119
     },
     {
      "name": "Alliance Data Systems (Bread Financial Holdings)",
@@ -5280,7 +5368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 120
     },
     {
      "name": "MX Platform",
@@ -5325,7 +5413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 121
     },
     {
      "name": "PayWithMyBank (Trustly)",
@@ -5369,7 +5457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 122
     },
     {
      "name": "TreasurySpring",
@@ -5413,7 +5501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 123
     },
     {
      "name": "SoFi",
@@ -5458,7 +5546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 124
     },
     {
      "name": "Teller",
@@ -5502,7 +5590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 125
     },
     {
      "name": "Bond",
@@ -5547,7 +5635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 126
     },
     {
      "name": "Hampden & Co",
@@ -5592,7 +5680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 127
     },
     {
      "name": "Tesser",
@@ -5636,7 +5724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 128
     },
     {
      "name": "UK Open Banking",
@@ -5681,7 +5769,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 129
     },
     {
      "name": "Lemon Markets",
@@ -5726,51 +5814,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
-    },
-    {
-     "name": "Sibill",
-     "slug": "sibill",
-     "description": "Sibill is an Italian fintech platform that centralizes financial and administrative management for small and medium-sized businesses (PMI). It unifies electronic invoicing (submitted to the Agenzia delle Entrate SDI), treasury and cash-flow monitoring, payments, business accounts and debit cards, and AI-assisted reconciliation of bank transactions against invoices and deadlines. The Sibill Integration API exposes companies, bank accounts, categories, counterparts, documents, payment flows, reconciliations, products and transactions over a REST interface secured with Bearer API keys, with cursor pagination, field expansion, and Document/Flow webhooks. Backed by Creandum.",
-     "score": 48.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 63.0,
-      "governance": 11.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 31.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "Fifth Third Bancorp",
@@ -5815,7 +5859,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Synchrony Financial",
@@ -5860,7 +5904,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Australia and New Zealand Banking Group (ANZ)",
@@ -5905,7 +5949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Holvi",
@@ -5950,7 +5994,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "WealthKernel",
@@ -5994,7 +6038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "St.George Bank",
@@ -6039,7 +6083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Suncorp Bank",
@@ -6084,7 +6128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Allica Bank",
@@ -6129,7 +6173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Bank of Ireland (UK)",
@@ -6174,7 +6218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "BMO",
@@ -6219,7 +6263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "Capital One",
@@ -6264,7 +6308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Bud Financial",
@@ -6309,7 +6353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "Stitch",
@@ -6354,7 +6398,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "Wise",
@@ -6399,7 +6443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Bank First",
@@ -6444,7 +6488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "Orum",
@@ -6488,7 +6532,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "Thredd",
@@ -6532,7 +6576,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "Chime",
@@ -6577,7 +6621,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Regional Australia Bank",
@@ -6622,7 +6666,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "BCU Bank",
@@ -6667,7 +6711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "bunq",
@@ -6712,7 +6756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Mastercard",
@@ -6757,7 +6801,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Bendigo and Adelaide Bank",
@@ -6802,7 +6846,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "Banked",
@@ -6847,7 +6891,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "ClearBank",
@@ -6892,7 +6936,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "EnergyAustralia",
@@ -6936,7 +6980,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
+    },
+    {
+     "name": "Alinta Energy",
+     "slug": "alinta-energy",
+     "description": "Alinta Energy is one of Australia's largest integrated energy retailers and generators, owned by Hong Kong-based Chow Tai Fook Enterprises, supplying electricity and gas to more than a million homes and businesses across Western Australia, South Australia, Victoria, New South Wales and Queensland while operating an owned and contracted generation portfolio of roughly 3,000 MW spanning gas, coal, wind, solar and battery storage, plus the Lumo Energy retail brand. It sits at the retail end of the value chain — the tier the Australian Consumer Data Right binds. Alinta is a designated and live CDR energy data holder: its own public base URI https://public.cdr.alintaenergy.com.au serves the standards-conformant discovery endpoints (confirmed HTTP 200), and 493 of its energy plans are published anonymously through the CDR generic plan data channel — but that plan channel is hosted by the Australian Energy Regulator's Energy Made Easy platform, not by Alinta. Its API posture is therefore honestly summarised as mandate-implemented but developer-closed: everything of substance sits behind ACCC accreditation and consumer consent, Alinta publishes no developer portal, no self-serve API, no proprietary OpenAPI and no open grid or market data of its own.",
+     "score": 46.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 54.3,
+      "governance": 11.5,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 56.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 157
     },
     {
      "name": "Qudos Bank",
@@ -6981,7 +7069,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 158
     },
     {
      "name": "Lorum",
@@ -7026,7 +7114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 159
     },
     {
      "name": "Montonio",
@@ -7070,7 +7158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 160
     },
     {
      "name": "Avaloq",
@@ -7115,7 +7203,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 161
     },
     {
      "name": "Teachers Mutual Bank",
@@ -7160,7 +7248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 162
     },
     {
      "name": "Yorkshire Building Society",
@@ -7204,7 +7292,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 163
     },
     {
      "name": "Buxfer",
@@ -7249,7 +7337,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 164
     },
     {
      "name": "Interhyp",
@@ -7294,7 +7382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 165
     },
     {
      "name": "Starling Bank",
@@ -7338,7 +7426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 166
     },
     {
      "name": "Customers Bank",
@@ -7383,7 +7471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 167
     },
     {
      "name": "National Australia Bank",
@@ -7428,7 +7516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 168
     },
     {
      "name": "Rotessa",
@@ -7472,51 +7560,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
-    },
-    {
-     "name": "Simply Energy",
-     "slug": "simply-energy",
-     "description": "Simply Energy is the former brand of the Australian electricity and gas retailer that now trades as ENGIE, operated by IPower Pty Ltd (ACN 111 267 228) and IPower 2 Pty Ltd (ABN 24 070 374 293) trading as ENGIE (ABN 67 269 241 237), together with Simply Energy Solutions Pty Ltd. The business carried the Simply Energy name for seventeen years before rebranding to ENGIE in April 2024, and supplies more than 700,000 residential and business accounts across Victoria, South Australia, New South Wales, Queensland and Western Australia. It sits on the retail tier of the National Electricity Market value chain, buying wholesale energy and billing end customers, rather than in generation, transmission or distribution. Its API posture is entirely a product of statutory mandate, and in this case the mandate is genuinely implemented rather than merely claimed. The company is a designated Consumer Data Right energy data holder (data holder provider number DH002028) and is listed on the live CDR Register under the ENGIE brand. Its unauthenticated CDR Generic Plans endpoint, hosted for it by the Australian Energy Regulator's Energy Made Easy service, returns 2,452 real ENGIE tariff plans conforming to the Consumer Data Standards energy schemas, and its own registered public base URI serves the Consumer Data Standards discovery endpoints with correct x-v version negotiation. Everything else is closed. Customer usage, billing, service point and DER data are available only to ACCC accredited data recipients with explicit consumer consent, there is no developer portal, no self-serve API keys, no published OpenID Connect discovery document, and no open grid, market or system data of any kind.",
-     "score": 45.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 54.3,
-      "governance": 20.8,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 34.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "Column Tax",
@@ -7561,7 +7605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "FIS Global",
@@ -7606,7 +7650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "MOVE Bank",
@@ -7651,7 +7695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "GoCardless",
@@ -7696,7 +7740,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Citizens Financial",
@@ -7741,7 +7785,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Decentro",
@@ -7786,7 +7830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Great Southern Bank",
@@ -7831,7 +7875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "Kroo",
@@ -7876,7 +7920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "Sandbox Banking",
@@ -7921,7 +7965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Investec",
@@ -7966,7 +8010,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Coventry Building Society",
@@ -8011,7 +8055,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "HSBC Bank Australia",
@@ -8056,7 +8100,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Lloyds Banking Group",
@@ -8101,7 +8145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Casap",
@@ -8146,7 +8190,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Cora",
@@ -8191,7 +8235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "ModernFi",
@@ -8235,7 +8279,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "Chase UK",
@@ -8280,7 +8324,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Regions Financial",
@@ -8324,7 +8368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "US Bancorp",
@@ -8369,7 +8413,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Vanquis Banking Group",
@@ -8413,7 +8457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Scotiabank",
@@ -8458,7 +8502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Hevn Inc",
@@ -8503,7 +8547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Nomba",
@@ -8548,7 +8592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Era",
@@ -8593,7 +8637,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Oper Credits",
@@ -8637,7 +8681,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "Mettle",
@@ -8681,7 +8725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "AMP Bank",
@@ -8726,7 +8770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "Northern Trust",
@@ -8771,7 +8815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "Bank of Queensland",
@@ -8816,7 +8860,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "The Co-operative Bank",
@@ -8861,7 +8905,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Monzo",
@@ -8905,7 +8949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "OSFI",
@@ -8949,7 +8993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "Varo Bank",
@@ -8994,7 +9038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "Cashplus Bank",
@@ -9039,7 +9083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "Alex Bank",
@@ -9084,7 +9128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "ING Australia",
@@ -9129,7 +9173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "TSB Bank",
@@ -9170,50 +9214,6 @@
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 205
-    },
-    {
-     "name": "Alinta Energy",
-     "slug": "alinta-energy",
-     "description": "Alinta Energy is one of Australia's largest integrated energy retailers and generators, owned by Hong Kong-based Chow Tai Fook Enterprises, supplying electricity and gas to more than a million homes and businesses across Western Australia, South Australia, Victoria, New South Wales and Queensland while operating an owned and contracted generation portfolio of roughly 3,000 MW spanning gas, coal, wind, solar and battery storage, plus the Lumo Energy retail brand. It sits at the retail end of the value chain — the tier the Australian Consumer Data Right binds. Alinta is a designated and live CDR energy data holder: its own public base URI https://public.cdr.alintaenergy.com.au serves the standards-conformant discovery endpoints (confirmed HTTP 200), and 493 of its energy plans are published anonymously through the CDR generic plan data channel — but that plan channel is hosted by the Australian Energy Regulator's Energy Made Easy platform, not by Alinta. Its API posture is therefore honestly summarised as mandate-implemented but developer-closed: everything of substance sits behind ACCC accreditation and consumer consent, Alinta publishes no developer portal, no self-serve API, no proprietary OpenAPI and no open grid or market data of its own.",
-     "score": 42.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 54.3,
-      "governance": 11.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 34.2,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 56.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -10039,6 +10039,51 @@
      "rank": 224
     },
     {
+     "name": "Cobre",
+     "slug": "cobre",
+     "description": "Cobre is a Latin American B2B payments and treasury platform that gives finance teams, fintechs, PSPs and banks a single API and portal to move money in and out of Colombia and Mexico (and via Fedwire in the United States) and across borders. Its modular products cover Local Payments (Bre-B, Fast Pay, ACH and PSE in Colombia; SPEI and CLABEs in Mexico), Cross Border Payments with FX quotes, Global Payouts in stablecoins, and Connect for centralizing and reconciling bank accounts. The developer API is a REST platform (v1) with bearer-JWT auth via a credential exchange, required idempotency on money movements, page-based pagination, a 30 TPS rate limit, HMAC-signed webhook notifications, and a full portal for maker-checker approvals, reconciliation and reporting. Cobre is a QED Investors portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/screenshots/cobre-2026-07-25T205845.png",
+     "score": 41.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 50.6,
+      "governance": 12.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 27.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 225
+    },
+    {
      "name": "Ordo",
      "slug": "ordo",
      "description": "Ordo (operated by The Smart Request Company Ltd, ordohq.com / ordopay.com) is a United Kingdom open-banking payments provider that lets businesses collect money directly from a customer's bank account over the UK Faster Payments rails, avoiding card fees and chargebacks. Built on PSD2 / Open Banking payment initiation, its fully hosted, white-labelled platform delivers Request to Pay, one-off payment requests, e-commerce, Point of Sale / QR code and contact centre payments, plus Variable Recurring Payments (VRP) for fixed, variable and sweeping collections, and account information (AIS) and account verification services. Ordo is FCA-authorised and an Open Banking regulated provider, with a developer surface historically published as a ReadMe.io portal at docs.myordo.com backed by an Azure API Management gateway (test.api.ordopay.com). Ordo has since ceased trading and been acquired by Neonomics; the marketing site at ordopay.com remains live while the developer portal is now offline. Its API posture is documented here honestly from six OpenAPI 3.0.1 definitions harvested verbatim from the archived developer portal.",
@@ -10080,7 +10125,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 226
+    },
+    {
+     "name": "Q2",
+     "slug": "q2",
+     "description": "Q2 Holdings is a financial services software company that provides digital banking, lending, and embedded finance solutions to banks, credit unions, and fintechs. Its embedded finance platform, Helix by Q2 (formerly CorePro / Cambr), exposes a REST API that lets developers incorporate real, FDIC-insured savings and checking accounts, cards, transfers, and ACH into their own applications. The Helix API covers account, customer, card, external-account, transfer, transaction, statement, and program management, with a real-time Events Bus, SFTP batch files, and an administrative web application. Q2 serves over 1,000 financial institutions and 10M+ digital banking end users.",
+     "score": 41.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 3.1,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 34.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 39.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 227
     },
     {
      "name": "Santander UK",
@@ -10124,7 +10213,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 228
     },
     {
      "name": "BankSA",
@@ -10169,7 +10258,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 229
     },
     {
      "name": "Bankwest",
@@ -10214,7 +10303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 230
     },
     {
      "name": "Envestnet",
@@ -10259,7 +10348,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 231
     },
     {
      "name": "Rabobank Australia",
@@ -10304,7 +10393,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 232
     },
     {
      "name": "Secure Trust Bank",
@@ -10348,7 +10437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 233
     },
     {
      "name": "Barclays",
@@ -10393,7 +10482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 234
     },
     {
      "name": "C. Hoare & Co.",
@@ -10438,7 +10527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 235
     },
     {
      "name": "Lithic",
@@ -10483,7 +10572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 236
     },
     {
      "name": "Mambu",
@@ -10528,7 +10617,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 237
     },
     {
      "name": "Modern Treasury",
@@ -10573,7 +10662,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 238
     },
     {
      "name": "Gateway Bank",
@@ -10618,7 +10707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 239
     },
     {
      "name": "Monument Bank",
@@ -10662,7 +10751,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 240
     },
     {
      "name": "Thought Machine",
@@ -10688,8 +10777,8 @@
       "score": 59.5,
       "matched_via": "tags"
      },
-     "agent_score": 34.2,
-     "agent_band": "agent-ready",
+     "agent_score": 30.2,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -10699,14 +10788,14 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": true,
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 241
     },
     {
      "name": "BALAD CORP",
@@ -10751,7 +10840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 242
     },
     {
      "name": "Bank Australia",
@@ -10796,7 +10885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 243
     },
     {
      "name": "Fiserv",
@@ -10841,7 +10930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 244
     },
     {
      "name": "Nationwide Building Society",
@@ -10885,7 +10974,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 245
     },
     {
      "name": "Cynergy Bank",
@@ -10930,7 +11019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 246
     },
     {
      "name": "Flanks",
@@ -10975,7 +11064,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 247
     },
     {
      "name": "Virgin Money UK",
@@ -11019,7 +11108,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 248
+    },
+    {
+     "name": "FDIC",
+     "slug": "fdic",
+     "description": "The Federal Deposit Insurance Corporation (FDIC) provides the BankFind Suite REST API, offering developers programmatic access to publicly available data on FDIC-insured financial institutions. The API enables searching, filtering, and downloading information about bank institutions, branch locations, financial reports, structure change history, failed banks, and summary deposit data. All data is provided free of charge under the U.S. public domain license.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/screenshots/fdic-2026-06-20T181105.png",
+     "score": 39.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 65.1,
+      "governance": 58.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 13.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 249
     },
     {
      "name": "OPay",
@@ -11064,7 +11198,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 250
     },
     {
      "name": "AIB Group (UK)",
@@ -11109,7 +11243,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 251
     },
     {
      "name": "Hume Bank",
@@ -11154,7 +11288,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 252
     },
     {
      "name": "Loopay",
@@ -11199,52 +11333,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
-    },
-    {
-     "name": "Cobre",
-     "slug": "cobre",
-     "description": "Cobre is a Latin American B2B payments and treasury platform that gives finance teams, fintechs, PSPs and banks a single API and portal to move money in and out of Colombia and Mexico (and via Fedwire in the United States) and across borders. Its modular products cover Local Payments (Bre-B, Fast Pay, ACH and PSE in Colombia; SPEI and CLABEs in Mexico), Cross Border Payments with FX quotes, Global Payouts in stablecoins, and Connect for centralizing and reconciling bank accounts. The developer API is a REST platform (v1) with bearer-JWT auth via a credential exchange, required idempotency on money movements, page-based pagination, a 30 TPS rate limit, HMAC-signed webhook notifications, and a full portal for maker-checker approvals, reconciliation and reporting. Cobre is a QED Investors portfolio company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/screenshots/cobre-2026-07-25T205845.png",
-     "score": 39.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 50.6,
-      "governance": 12.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 7.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 27.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 251
+     "rank": 253
     },
     {
      "name": "Australian Unity Bank",
@@ -11289,7 +11378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 254
     },
     {
      "name": "Auswide Bank",
@@ -11334,7 +11423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 255
     },
     {
      "name": "Bank of Scotland",
@@ -11379,51 +11468,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
-    },
-    {
-     "name": "Q2",
-     "slug": "q2",
-     "description": "Q2 Holdings is a financial services software company that provides digital banking, lending, and embedded finance solutions to banks, credit unions, and fintechs. Its embedded finance platform, Helix by Q2 (formerly CorePro / Cambr), exposes a REST API that lets developers incorporate real, FDIC-insured savings and checking accounts, cards, transfers, and ACH into their own applications. The Helix API covers account, customer, card, external-account, transfer, transaction, statement, and program management, with a real-time Events Bus, SFTP batch files, and an administrative web application. Q2 serves over 1,000 financial institutions and 10M+ digital banking end users.",
-     "score": 38.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 3.1,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 34.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 39.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 255
+     "rank": 256
     },
     {
      "name": "First Citizens BancShares",
@@ -11468,7 +11513,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 257
     },
     {
      "name": "Iniciador",
@@ -11513,7 +11558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 258
     },
     {
      "name": "Recognise Bank",
@@ -11557,7 +11602,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 259
     },
     {
      "name": "Huntington Bancshares",
@@ -11602,7 +11647,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 260
     },
     {
      "name": "Salt Edge",
@@ -11647,7 +11692,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 261
     },
     {
      "name": "Tandem Bank",
@@ -11691,7 +11736,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 262
     },
     {
      "name": "American Express",
@@ -11736,7 +11781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 263
     },
     {
      "name": "Energy Queensland",
@@ -11780,7 +11825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 264
     },
     {
      "name": "People First Bank",
@@ -11825,7 +11870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 265
     },
     {
      "name": "Weatherbys Bank",
@@ -11869,7 +11914,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 266
     },
     {
      "name": "Greater Bank",
@@ -11914,7 +11959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 267
     },
     {
      "name": "National Credit Union Administration (NCUA)",
@@ -11959,7 +12004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 268
     },
     {
      "name": "RACQ Bank",
@@ -12004,7 +12049,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 269
     },
     {
      "name": "Tuum",
@@ -12048,7 +12093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
+     "rank": 270
     },
     {
      "name": "Kanastra",
@@ -12093,7 +12138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
+     "rank": 271
     },
     {
      "name": "Blend Labs",
@@ -12138,7 +12183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 272
     },
     {
      "name": "Citigroup",
@@ -12183,7 +12228,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 273
     },
     {
      "name": "Blend",
@@ -12228,7 +12273,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 273
+     "rank": 274
     },
     {
      "name": "End Close",
@@ -12273,7 +12318,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 274
+     "rank": 275
     },
     {
      "name": "P&N Bank",
@@ -12318,7 +12363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 275
+     "rank": 276
     },
     {
      "name": "Konsentus",
@@ -12363,7 +12408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 276
+     "rank": 277
     },
     {
      "name": "U.S. Treasury Fiscal Data",
@@ -12401,7 +12446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 277
+     "rank": 278
     },
     {
      "name": "AGL Energy",
@@ -12440,51 +12485,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 278
-    },
-    {
-     "name": "FDIC",
-     "slug": "fdic",
-     "description": "The Federal Deposit Insurance Corporation (FDIC) provides the BankFind Suite REST API, offering developers programmatic access to publicly available data on FDIC-insured financial institutions. The API enables searching, filtering, and downloading information about bank institutions, branch locations, financial reports, structure change history, failed banks, and summary deposit data. All data is provided free of charge under the U.S. public domain license.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/screenshots/fdic-2026-06-20T181105.png",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 65.1,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 13.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -14951,6 +14951,51 @@
      "rank": 334
     },
     {
+     "name": "Financial Conduct Authority",
+     "slug": "fca-uk",
+     "description": "The Financial Conduct Authority (FCA) is the United Kingdom's conduct regulator for around 42,000 financial services firms and the prudential regulator for most non-bank firms, operating alongside the Prudential Regulation Authority under the dual-regulation model. In insurance the FCA owns conduct regulation of general insurance and protection markets through ICOBS and the Consumer Duty, authorises and supervises insurers, Lloyd's managing agents, MGAs, brokers and appointed representatives, and publishes market-wide insurance data such as the annual General Insurance Value Measures. Its API posture is that of a regulator, not a carrier: there is no open-insurance obligation in the UK and the FCA publishes no insurance product API of its own. It does operate two genuine public APIs. The Financial Services Register API at register.fca.org.uk/services/V0.1 exposes firm, individual and fund authorisation records including insurance permissions and appointed-representative relationships; access is free and self-serve but the developer portal and its reference documentation sit behind a Salesforce registration login, and authentication is by X-Auth-Email and X-Auth-Key headers. The data publication API at api.data.fca.org.uk is an anonymous OpenSearch-style query interface over FIRDS and FITRS file artefacts, documented in the FCA's own published technical specifications — markets reference data, not insurance data. Neither API has an OpenAPI definition. Everything else the FCA publishes for the insurance market is documents and spreadsheets: the Handbook, market bulletins, consultation papers, and XLSX data releases. The FCA's Open Finance roadmap of 14 April 2026 names insurance as an in-scope sector but remains a vision document, with a formal discussion paper on the first scheme not due until Q4 2026, so no insurance data-sharing API mandate exists. No ACORD reference appears anywhere on fca.org.uk.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/screenshots/fca-uk-2026-07-25T214305.png",
+     "score": 31.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 335
+    },
+    {
      "name": "NPP Australia (AP+)",
      "slug": "npp-australia",
      "description": "NPP Australia is the operator of the New Payments Platform (NPP), Australia's national real-time, data-rich, account-to-account payments infrastructure that settles 24 hours a day, 365 days a year across more than 100 connected banks, credit unions, fintechs and government agencies. Since 2021 NPP Australia has been a wholly owned subsidiary of Australian Payments Plus (AP+), the entity formed by amalgamating NPP Australia, BPAY Group and eftpos. On top of the core clearing-and-settlement rail, NPP operates two overlay services: PayID, an addressing service that maps a mobile number, email, ABN or organisation ID to a bank account, and PayTo, a real-time mandated-debit capability that gives consumers visibility and control over recurring and one-off account debits. Its home market is Australia, and it sits alongside the Consumer Data Right as the country's payments spine. Its API posture is that of a scheme and rail operator rather than a self-serve PSP: NPP Australia itself does not sell a public API, but it publishes the ISO 20022-aligned NPP API Framework that defines the mandatory technical approach and data attributes NPP Participants implement, and AP+ runs a (registration-gated) developer portal plus a SWIFT-hosted API sandbox. The consumable APIs are offered by NPP Participants, not by NPP Australia.",
@@ -14992,7 +15037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 335
+     "rank": 336
     },
     {
      "name": "BB&T Corp (Truist)",
@@ -15037,7 +15082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 336
+     "rank": 337
     },
     {
      "name": "Riskified",
@@ -15082,7 +15127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 337
+     "rank": 338
     },
     {
      "name": "Alt Bank",
@@ -15127,7 +15172,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 338
+     "rank": 339
     },
     {
      "name": "Increase",
@@ -15172,7 +15217,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 339
+     "rank": 340
     },
     {
      "name": "Chief Financial Officers Council",
@@ -15217,7 +15262,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 340
+     "rank": 341
     },
     {
      "name": "Federal Deposit Insurance Corporation",
@@ -15262,7 +15307,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 341
+     "rank": 342
     },
     {
      "name": "Interac",
@@ -15307,7 +15352,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 342
+     "rank": 343
     },
     {
      "name": "OlympusDAO",
@@ -15345,7 +15390,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 343
+     "rank": 344
     },
     {
      "name": "Avenue Bank",
@@ -15390,7 +15435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 344
+     "rank": 345
     },
     {
      "name": "BMO Financial Group",
@@ -15435,7 +15480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 345
+     "rank": 346
     },
     {
      "name": "Djamo",
@@ -15480,7 +15525,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 346
+     "rank": 347
     },
     {
      "name": "Embat",
@@ -15525,7 +15570,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 347
+     "rank": 348
     },
     {
      "name": "Judo Bank",
@@ -15570,7 +15615,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 348
+     "rank": 349
     },
     {
      "name": "Column",
@@ -15614,7 +15659,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 349
+     "rank": 350
     },
     {
      "name": "Lane API",
@@ -15652,7 +15697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 350
+     "rank": 351
     },
     {
      "name": "Navy Federal Credit Union",
@@ -15696,7 +15741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 351
+     "rank": 352
     },
     {
      "name": "Orbii",
@@ -15740,7 +15785,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 352
+     "rank": 353
     },
     {
      "name": "Treasury Prime",
@@ -15785,7 +15830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 353
+     "rank": 354
     },
     {
      "name": "ABN AMRO",
@@ -15830,7 +15875,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 354
+     "rank": 355
     },
     {
      "name": "Swan",
@@ -15870,51 +15915,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 355
-    },
-    {
-     "name": "Financial Conduct Authority",
-     "slug": "fca-uk",
-     "description": "The Financial Conduct Authority (FCA) is the United Kingdom's conduct regulator for around 42,000 financial services firms and the prudential regulator for most non-bank firms, operating alongside the Prudential Regulation Authority under the dual-regulation model. In insurance the FCA owns conduct regulation of general insurance and protection markets through ICOBS and the Consumer Duty, authorises and supervises insurers, Lloyd's managing agents, MGAs, brokers and appointed representatives, and publishes market-wide insurance data such as the annual General Insurance Value Measures. Its API posture is that of a regulator, not a carrier: there is no open-insurance obligation in the UK and the FCA publishes no insurance product API of its own. It does operate two genuine public APIs. The Financial Services Register API at register.fca.org.uk/services/V0.1 exposes firm, individual and fund authorisation records including insurance permissions and appointed-representative relationships; access is free and self-serve but the developer portal and its reference documentation sit behind a Salesforce registration login, and authentication is by X-Auth-Email and X-Auth-Key headers. The data publication API at api.data.fca.org.uk is an anonymous OpenSearch-style query interface over FIRDS and FITRS file artefacts, documented in the FCA's own published technical specifications — markets reference data, not insurance data. Neither API has an OpenAPI definition. Everything else the FCA publishes for the insurance market is documents and spreadsheets: the Handbook, market bulletins, consultation papers, and XLSX data releases. The FCA's Open Finance roadmap of 14 April 2026 names insurance as an in-scope sector but remains a vision document, with a formal discussion paper on the first scheme not due until Q4 2026, so no insurance data-sharing API mandate exists. No ACORD reference appears anywhere on fca.org.uk.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/screenshots/fca-uk-2026-07-25T214305.png",
-     "score": 29.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 41.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -17951,6 +17951,51 @@
      "rank": 402
     },
     {
+     "name": "KakaoBank",
+     "slug": "kakaobank",
+     "description": "KakaoBank is South Korea's leading internet-only bank, offering REST APIs for account management, fund transfers, loans, credit scoring, and open banking data connectivity for the Korean market. Founded in 2016 and backed by Kakao Corp., KakaoBank serves over 26 million customers through a fully mobile and API-first digital banking platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakaobank/refs/heads/main/screenshots/kakaobank-2026-06-20T183912.png",
+     "score": 23.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 7.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 403
+    },
+    {
      "name": "Kantox",
      "slug": "kantox",
      "description": "Kantox is a foreign-exchange (FX) risk management and Currency Management Automation software company, headquartered in London and Barcelona and part of BNP Paribas. Its flagship platform, Kantox Dynamic Hedging, automates the full pre-trade, trade and post-trade FX workflow — exposure collection, rules-based hedge execution, dynamic pricing with live mid-market rates across 130+ currencies, and end-to-end reporting. Companies connect their ERP, TMS or trading systems (SAP, Oracle, Microsoft Dynamics, NetSuite, 360T, FXall) to Kantox through a REST API or SFTP, using API calls and webhooks to submit forecasts, orders and invoices and to receive real-time FX and pricing updates. Kantox is authorised by the UK Financial Conduct Authority (FCA) and regulated by the Bank of Spain.",
@@ -17993,7 +18038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 403
+     "rank": 404
     },
     {
      "name": "Juni",
@@ -18037,7 +18082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 404
+     "rank": 405
     },
     {
      "name": "Bancomat",
@@ -18082,7 +18127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 405
+     "rank": 406
     },
     {
      "name": "Maisa",
@@ -18127,7 +18172,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 406
+     "rank": 407
     },
     {
      "name": "Truist",
@@ -18171,7 +18216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 407
+     "rank": 408
     },
     {
      "name": "Tink",
@@ -18216,7 +18261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 408
+     "rank": 409
     },
     {
      "name": "Climate-X",
@@ -18261,7 +18306,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 409
+     "rank": 410
     },
     {
      "name": "Committee on Foreign Investment in the United States",
@@ -18299,7 +18344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 410
+     "rank": 411
     },
     {
      "name": "Leeds Building Society",
@@ -18344,7 +18389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 411
+     "rank": 412
     },
     {
      "name": "Royal Bank of Canada",
@@ -18388,7 +18433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 412
+     "rank": 413
     },
     {
      "name": "AgentIQ",
@@ -18433,7 +18478,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 413
+     "rank": 414
     },
     {
      "name": "Dolibarr",
@@ -18478,7 +18523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 414
+     "rank": 415
     },
     {
      "name": "Open (open.money)",
@@ -18523,7 +18568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 415
+     "rank": 416
     },
     {
      "name": "CRS Credit API",
@@ -18561,7 +18606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 416
+     "rank": 417
     },
     {
      "name": "Jifiti",
@@ -18606,7 +18651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 417
+     "rank": 418
     },
     {
      "name": "Office of the Comptroller of the Currency (OCC)",
@@ -18651,7 +18696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 418
+     "rank": 419
     },
     {
      "name": "Brookfield Asset Management",
@@ -18689,7 +18734,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 419
+     "rank": 420
     },
     {
      "name": "Cowrywise",
@@ -18727,7 +18772,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 420
+     "rank": 421
     },
     {
      "name": "Greenlight",
@@ -18772,7 +18817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 421
+     "rank": 422
     },
     {
      "name": "Novo",
@@ -18816,7 +18861,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 422
+     "rank": 423
     },
     {
      "name": "Alkami",
@@ -18861,7 +18906,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 423
+     "rank": 424
     },
     {
      "name": "Yubi (fka CredAvenue)",
@@ -18898,7 +18943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 424
+     "rank": 425
     },
     {
      "name": "3Jane",
@@ -18936,7 +18981,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 425
+     "rank": 426
     },
     {
      "name": "MFellows",
@@ -18980,7 +19025,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 426
+     "rank": 427
     },
     {
      "name": "Lendbuzz",
@@ -19017,7 +19062,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 427
+     "rank": 428
     },
     {
      "name": "Stash",
@@ -19062,7 +19107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 428
+     "rank": 429
     },
     {
      "name": "BNP Paribas",
@@ -19107,7 +19152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 429
+     "rank": 430
     },
     {
      "name": "Constantinople",
@@ -19152,7 +19197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 430
+     "rank": 431
     },
     {
      "name": "BNY Mellon",
@@ -19197,7 +19242,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 431
+     "rank": 432
     },
     {
      "name": "Finverse",
@@ -19242,7 +19287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 432
+     "rank": 433
     },
     {
      "name": "KOHO",
@@ -19286,7 +19331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 433
+     "rank": 434
     },
     {
      "name": "Beem",
@@ -19331,7 +19376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 434
+     "rank": 435
     },
     {
      "name": "Prism Data",
@@ -19375,7 +19420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 435
+     "rank": 436
     },
     {
      "name": "Esusu",
@@ -19413,7 +19458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 436
+     "rank": 437
     },
     {
      "name": "Finli",
@@ -19458,7 +19503,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 437
+     "rank": 438
     },
     {
      "name": "Found",
@@ -19496,51 +19541,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 438
-    },
-    {
-     "name": "KakaoBank",
-     "slug": "kakaobank",
-     "description": "KakaoBank is South Korea's leading internet-only bank, offering REST APIs for account management, fund transfers, loans, credit scoring, and open banking data connectivity for the Korean market. Founded in 2016 and backed by Kakao Corp., KakaoBank serves over 26 million customers through a fully mobile and API-first digital banking platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakaobank/refs/heads/main/screenshots/kakaobank-2026-06-20T183912.png",
-     "score": 20.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,

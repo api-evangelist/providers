@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-07-28'
+  score: 50.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -204,7 +204,7 @@ overview: 'Azupay publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 26 more developer resources.'
-random_paper: 10
+random_paper: 1
 scopes:
 - name: Azupay Scopes
   scope_count: 1
@@ -212,16 +212,16 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 54.0
-  delta: -5.9
+  composite: 55.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 68.1
+    contract_quality: 72.4
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 59.9
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,10 +237,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+    score: 58.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png
 security:
 - kind: authentication

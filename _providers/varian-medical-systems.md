@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ press:
 - date: '2026-05-25'
   title: AI-Enabled Radiation Therapy System & 1,000th Patient
   url: https://siteman.wustl.edu/ai-enabled-radiation-therapy-system-at-siteman/
-random_paper: 28
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Varian Medical Systems Rate Limits
@@ -225,16 +225,16 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.0
-  delta: -5.6
+  composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 70.9
+    contract_quality: 73.4
     developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 50.6
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -248,9 +248,9 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/screenshots/varian-medical-systems-2026-06-20T200814.png
 security:
 - kind: authentication

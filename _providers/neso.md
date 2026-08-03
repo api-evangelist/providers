@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The public CKAN 2.8.7 API behind the NESO Data Portal, serving 128 open datasets covering GB electricity demand, generation, balancing, ancillary services, constraints, interconnectors, connection reg
@@ -168,7 +168,7 @@ overview: 'National Energy System Operator (NESO) publishes 2 APIs on the [APIs.
 
 
   National Energy System Operator (NESO)''s developer surface includes authentication, documentation, developer portal, API reference, support, product news, and 22 more developer resources.'
-random_paper: 27
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Neso Rate Limits
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.1
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -184,7 +184,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 47.4
-  previous_composite: 36.0
+  previous_composite: 30.1
   provenance:
     conformance: derived
     mcp: derived
@@ -195,9 +195,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Neso Authentication

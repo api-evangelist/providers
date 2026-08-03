@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Get decisions from your knowledge maps. **Start** a session, **inject** any available facts, run a **query**, provide a **response** to any questions asked and **undo** your answers to give a differen
@@ -185,14 +185,14 @@ overview: 'Rainbird Technologies publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Rainbird Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 23 more developer resources.'
-random_paper: 40
+random_paper: 82
 score:
   band: developing
-  composite: 46.6
-  delta: -1.2
+  composite: 47.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.6
+    contract_quality: 60.5
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
@@ -207,8 +207,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

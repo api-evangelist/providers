@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,23 +164,23 @@ press:
 - date: '2026-05-25'
   title: 'Constellation Brands: Leveraging Technology, Data, and ...'
   url: https://cdotimes.com/2024/07/01/constellation-brands-leveraging-technology-data-and-ai-for-excellence/
-random_paper: 36
+random_paper: 91
 rate_limits:
 - limit_count: 1
   name: Constellation Brands Rate Limits
   slug: constellation-brands-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: -2.1
+  composite: 37.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.0
+    contract_quality: 51.9
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.3
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -188,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/screenshots/constellation-brands-2026-06-20T174911.png
 security:

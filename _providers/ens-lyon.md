@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint scoped to the ENS de Lyon (ens-lyon) collection of the national HAL open archive. Exposes the institution's open-access scholarly publication metadata (article
@@ -113,7 +113,7 @@ plans:
 - name: Ens Lyon Plans Pricing
   plan_count: 2
   slug: ens-lyon-plans-pricing
-random_paper: 1
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Ens Lyon Rate Limits
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.6
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 12.9
@@ -129,9 +129,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 21.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ens-lyon/refs/heads/main/screenshots/ens-lyon-2026-06-20T180729.png
 security:

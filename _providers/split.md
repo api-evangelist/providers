@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -458,7 +458,7 @@ plans:
 - name: Split Plans Pricing
   plan_count: 3
   slug: split-plans-pricing
-random_paper: 64
+random_paper: 81
 rate_limits:
 - limit_count: 3
   name: Split Rate Limits
@@ -482,16 +482,16 @@ rules:
   slug: split-rules
 score:
   band: strong
-  composite: 58.3
-  delta: -3.3
+  composite: 59.0
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 68.5
+    contract_quality: 71.2
     developer_ergonomics: 34.8
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 61.6
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     contracts:
@@ -499,8 +499,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/screenshots/split-2026-06-20T194330.png
 security:

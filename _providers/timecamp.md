@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -194,23 +194,23 @@ plans:
 - name: Timecamp Plans Pricing
   plan_count: 5
   slug: timecamp-plans-pricing
-random_paper: 28
+random_paper: 88
 rate_limits:
 - limit_count: 2
   name: Timecamp Rate Limits
   slug: timecamp-rate-limits
 score:
   band: thin
-  composite: 39.9
-  delta: -2.0
+  composite: 40.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.3
+    contract_quality: 64.2
     developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 41.9
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -218,8 +218,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

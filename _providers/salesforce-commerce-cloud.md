@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -137,19 +137,19 @@ overview: 'Salesforce Commerce Cloud publishes 1 API on the [APIs.io](https://ap
 
 
   Salesforce Commerce Cloud''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 71
+random_paper: 61
 score:
   band: thin
-  composite: 31.8
-  delta: -1.2
+  composite: 32.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 56.9
+    contract_quality: 60.1
     developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.0
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +157,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/screenshots/salesforce-commerce-cloud-2026-06-20T193346.png
 security:

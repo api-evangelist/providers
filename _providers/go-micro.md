@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Go Micro is a distributed systems framework for building microservices in Go, providing service discovery, load balancing, message encoding, RPC, and async messaging out of the box.
@@ -90,7 +90,7 @@ plans:
 - name: Go Micro Plans Pricing
   plan_count: 3
   slug: go-micro-plans-pricing
-random_paper: 59
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Go Micro Rate Limits
@@ -107,7 +107,7 @@ rules:
 score:
   band: thin
   composite: 33.0
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 16.1
@@ -115,9 +115,9 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 37.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 33.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/go-micro/refs/heads/main/screenshots/go-micro-2026-06-20T181938.png
 security:

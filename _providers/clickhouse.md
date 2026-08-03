@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -168,6 +168,10 @@ common:
   title: ''
   type: Spectral
   url: rules/clickhouse-rules.yml
+- group: other
+  title: ''
+  type: AICatalog
+  url: ai-catalog/clickhouse-ai-catalog.yml
 created: '2024-01-01'
 description: ClickHouse is a fast open-source column-oriented database management system that enables real-time analytical reporting using SQL. ClickHouse exposes multiple interfaces - an HTTP interface for SQL queries, native TCP, MySQL and PostgreSQL wire-compatible interfaces, and a gRPC interface - and the ClickHouse Cloud management plane offers a public OpenAPI-described REST API for provisioning and managing services, organizations, members, API keys, backups, and private endpoints.
 finops:
@@ -191,12 +195,12 @@ overview: 'ClickHouse publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The ClickHouse catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  ClickHouse''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, engineering blog, pricing, support, and 13 more developer resources.'
+  ClickHouse''s developer surface includes authentication, documentation, getting-started guide, GitHub presence, engineering blog, pricing, support, and 14 more developer resources.'
 plans:
 - name: Clickhouse Plans Pricing
   plan_count: 3
   slug: clickhouse-plans-pricing
-random_paper: 0
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Clickhouse Rate Limits
@@ -220,16 +224,16 @@ rules:
   slug: clickhouse-rules
 score:
   band: strong
-  composite: 58.4
-  delta: -3.7
+  composite: 59.3
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 59.3
+    contract_quality: 62.8
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 62.1
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     contracts:
@@ -237,8 +241,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/screenshots/clickhouse-2026-06-20T174515.png
 security:

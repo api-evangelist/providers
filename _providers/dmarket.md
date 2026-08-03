@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: User profile and balance.
@@ -143,19 +143,19 @@ overview: 'DMarket publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   DMarket''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 12 more developer resources.'
-random_paper: 6
+random_paper: 79
 score:
   band: developing
-  composite: 43.4
-  delta: -3.8
+  composite: 44.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 53.9
+    contract_quality: 58.4
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 47.2
+  previous_composite: 44.3
   provenance:
     conformance: derived
     contracts:
@@ -171,8 +171,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/screenshots/dmarket-2026-07-25T212204.png
 security:

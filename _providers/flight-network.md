@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: true
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,10 +146,11 @@ overview: 'Flight Network is profiled on the [APIs.io](https://apis.io/) network
 
 
   Flight Network''s developer surface includes FAQ, documentation, support, and 23 more developer resources.'
-random_paper: 67
+random_paper: 36
 score:
   band: emerging
   composite: 18.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -157,11 +158,13 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 15.8
+  previous_composite: 18.7
   provenance:
     agentic_access: first-party
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Flight Network Domain Security

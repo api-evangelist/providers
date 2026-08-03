@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -510,7 +510,7 @@ plans:
 - name: Bigoven Plans Pricing
   plan_count: 5
   slug: bigoven-plans-pricing
-random_paper: 8
+random_paper: 81
 rate_limits:
 - limit_count: 0
   name: Bigoven Rate Limits
@@ -525,17 +525,17 @@ rules:
     warn: 4
   slug: bigoven-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 41.5
-  delta: -3.9
+  band: developing
+  composite: 42.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 48.3
+    contract_quality: 52.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 45.4
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -543,8 +543,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/screenshots/bigoven-2026-06-20T173235.png
 security:

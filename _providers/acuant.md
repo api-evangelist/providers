@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ plans:
 - name: Acuant Plans Pricing
   plan_count: 5
   slug: acuant-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Acuant Rate Limits
@@ -204,16 +204,16 @@ rules:
   slug: acuant-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.1
-  delta: -4.3
+  composite: 50.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
+    contract_quality: 73.3
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 54.4
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuant/refs/heads/main/screenshots/acuant-2026-06-20T164341.png
 security:

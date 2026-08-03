@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 26.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The public REST and WebSocket API served by Espresso query services and nodes (Tide Disco framework). Comprises independent modules — availability (Tiramisu DA blocks/headers/payloads/VID), node, stat
@@ -127,11 +127,11 @@ overview: 'Espresso publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Espresso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, authentication, and 11 more developer resources.'
-random_paper: 64
+random_paper: 29
 score:
   band: thin
   composite: 38.3
-  delta: 7.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.6
@@ -139,12 +139,12 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 31.2
+  previous_composite: 38.3
   provenance:
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/espresso/refs/heads/main/screenshots/espresso-2026-07-25T213631.png
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-07-28'
+  score: 40.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -359,7 +359,7 @@ plans:
 - name: Amazon Sqs Plans Pricing
   plan_count: 3
   slug: amazon-sqs-plans-pricing
-random_paper: 50
+random_paper: 84
 rate_limits:
 - limit_count: 5
   name: Amazon Sqs Rate Limits
@@ -390,17 +390,17 @@ rules:
     warn: 9
   slug: amazon-sqs-spectral-rules
 score:
-  band: developing
-  composite: 55.6
-  delta: -4.5
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 75.4
+    contract_quality: 78.3
     developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 47.4
-  previous_composite: 60.1
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -414,8 +414,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/screenshots/amazon-sqs-2026-06-20T171828.png
 security:

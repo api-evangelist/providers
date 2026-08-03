@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-07-28'
+  score: 33.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -196,23 +196,23 @@ plans:
 - name: Liveblocks Plans Pricing
   plan_count: 1
   slug: liveblocks-plans-pricing
-random_paper: 4
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Liveblocks Rate Limits
   slug: liveblocks-rate-limits
 score:
-  band: developing
-  composite: 55.6
-  delta: -1.0
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 69.6
+    contract_quality: 71.8
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 56.6
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/screenshots/liveblocks-2026-06-20T184615.png
 security:

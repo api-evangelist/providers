@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The Sherwin-Williams Supplier API enables B2B partners to integrate supply chain workflows, manage purchase orders, submit invoices, and exchange product and inventory data with Sherwin-Williams enter
@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: Sherwin-Williams Positions Itself as the One Partner for ...
   url: https://www.prnewswire.com/news-releases/sherwin-williams-positions-itself-as-the-one-partner-for-data-center-construction-302764452.html
-random_paper: 39
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Sherwin Williams Rate Limits
@@ -152,7 +152,7 @@ rules:
 score:
   band: thin
   composite: 33.6
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 29.0
@@ -160,10 +160,10 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 38.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 33.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sherwin-williams/refs/heads/main/screenshots/sherwin-williams-2026-06-20T193801.png
 security:
 - kind: domain-security

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,11 +83,11 @@ press:
 - date: '2026-05-25'
   title: A proprietary artificial intelligence (AI) agent, dubbed Rai ...
   url: https://www.facebook.com/RaymondJames/posts/a-proprietary-artificial-intelligence-ai-agent-dubbed-rai-will-deliver-enhanced-/1312009590958420/
-random_paper: 17
+random_paper: 33
 score:
   band: minimal
   composite: 12.0
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -95,15 +95,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.4
+  previous_composite: 12.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raymond-james-financial/refs/heads/main/screenshots/raymond-james-financial-2026-06-20T192618.png
 security:

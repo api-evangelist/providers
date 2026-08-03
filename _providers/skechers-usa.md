@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Skechers operates a direct-to-consumer digital commerce platform at skechers.com that enables online shopping for footwear, apparel, and accessories. The platform integrates with e-commerce infrastruc
@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: 'When IR Met AI: How the Technology Is Shaping Earnings- ...'
   url: https://www.wsj.com/articles/when-ir-met-ai-how-the-technology-is-shaping-earnings-day-prep-5054a057
-random_paper: 0
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Skechers Usa Rate Limits
@@ -147,7 +147,7 @@ rules:
 score:
   band: thin
   composite: 33.2
-  delta: -5.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 12.9
@@ -155,10 +155,10 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 38.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 33.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/screenshots/skechers-usa-2026-06-20T194019.png
 security:
 - kind: domain-security

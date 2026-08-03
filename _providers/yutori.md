@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.0
-  scored_at: '2026-07-28'
+  score: 55.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -190,19 +190,19 @@ overview: 'Yutori publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Yutori''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, engineering blog, and 21 more developer resources.'
-random_paper: 28
+random_paper: 19
 score:
   band: developing
-  composite: 53.4
-  delta: 0.6
+  composite: 54.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 65.3
+    contract_quality: 67.9
     developer_ergonomics: 73.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 52.8
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,8 +213,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

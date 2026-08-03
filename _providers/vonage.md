@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-07-28'
+  score: 42.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -324,7 +324,7 @@ plans:
 - name: Vonage Plans Pricing
   plan_count: 2
   slug: vonage-plans-pricing
-random_paper: 66
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Vonage Rate Limits
@@ -356,16 +356,16 @@ rules:
   slug: vonage-rules
 score:
   band: strong
-  composite: 59.7
-  delta: -5.6
+  composite: 60.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.5
+    contract_quality: 76.4
     developer_ergonomics: 69.6
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 65.3
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -379,9 +379,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png
 security:
 - kind: authentication

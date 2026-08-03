@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: REST API for Adobe Commerce providing access to products, catalogs, categories, customers, carts, checkout, orders, inventory, sales rules, CMS content, and store configuration. Endpoints follow the p
@@ -94,11 +94,11 @@ overview: 'Adobe Commerce publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Adobe Commerce''s developer surface includes documentation, signup flow, pricing, support, and 6 more developer resources.'
-random_paper: 1
+random_paper: 65
 score:
   band: emerging
   composite: 14.0
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -106,9 +106,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 16.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 14.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-commerce/refs/heads/main/screenshots/adobe-commerce-2026-06-20T164845.png
 security:

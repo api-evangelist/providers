@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -126,23 +126,23 @@ plans:
 - name: Whippy Plans Pricing
   plan_count: 6
   slug: whippy-plans-pricing
-random_paper: 17
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Whippy Rate Limits
   slug: whippy-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: -5.3
+  composite: 35.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 55.8
+    contract_quality: 59.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.9
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -156,9 +156,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/screenshots/whippy-2026-06-20T201440.png
 security:
 - kind: authentication

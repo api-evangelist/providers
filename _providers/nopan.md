@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-07-28'
+  score: 46.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ overview: 'Nopan publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nopan''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 22 more developer resources.'
-random_paper: 48
+random_paper: 65
 scopes:
 - name: Nopan Scopes
   scope_count: 2
@@ -212,16 +212,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.2
-  delta: -4.0
+  composite: 51.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.0
+    contract_quality: 66.1
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 53.2
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,9 +237,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 72.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

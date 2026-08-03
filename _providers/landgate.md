@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ overview: 'Landgate publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 12
+random_paper: 72
 scopes:
 - name: Landgate Scopes
   scope_count: 6
@@ -179,16 +179,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.2
-  delta: 0.2
+  composite: 49.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 52.0
+    contract_quality: 56.1
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 48.0
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 79.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/screenshots/landgate-2026-07-27T125338.png
 security:

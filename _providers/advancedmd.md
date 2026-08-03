@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-07-28'
+  score: 55.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ overview: 'AdvancedMD publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AdvancedMD''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, FAQ, signup flow, and 36 more developer resources.'
-random_paper: 47
+random_paper: 81
 rate_limits:
 - limit_count: 0
   name: Advancedmd Rate Limits
@@ -248,22 +248,22 @@ scopes:
   slug: advancedmd-scopes
   summary_line: 128 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 50.7
-  delta: -2.8
+  band: strong
+  composite: 56.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 40.0
+    contract_quality: 55.5
     developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 53.5
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 66.7
       derived: 0
       marker_coverage: 0.0
       total: 3
@@ -274,9 +274,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 66.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 82.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

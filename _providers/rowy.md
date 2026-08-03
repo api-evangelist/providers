@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Rowy's primary inbound API surface. Each table can generate an HTTPS webhook endpoint running on Google Cloud Run (the rowy-hooks service) that receives POST requests from external systems. Built-in t
@@ -98,7 +98,7 @@ plans:
 - name: Rowy Plans Pricing
   plan_count: 3
   slug: rowy-plans-pricing
-random_paper: 55
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Rowy Rate Limits
@@ -106,7 +106,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.0
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 32.3
@@ -114,9 +114,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 29.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/screenshots/rowy-2026-06-20T193228.png
 security:

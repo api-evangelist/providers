@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'RESTful print-on-demand API that lets businesses integrate Blurb''s book, magazine, and notebook printing and fulfillment into their own platforms. Orders and real-time fulfillment updates are handled '
@@ -95,11 +95,11 @@ overview: 'Blurb publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Blurb''s developer surface includes documentation, getting-started guide, pricing, support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 43
+random_paper: 60
 score:
   band: emerging
   composite: 22.8
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -107,9 +107,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 25.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 22.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blurb/refs/heads/main/screenshots/blurb-2026-07-25T203511.png
 security:

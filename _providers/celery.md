@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: Core API for defining and executing distributed tasks in Celery. Supports task decorators, retries, timeouts, rate limiting, and custom task classes.
@@ -125,7 +125,7 @@ plans:
 - name: Celery Plans Pricing
   plan_count: 3
   slug: celery-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Celery Rate Limits
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.3
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -141,9 +141,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 29.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 27.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celery/refs/heads/main/screenshots/celery-2026-06-20T174110.png
 security:

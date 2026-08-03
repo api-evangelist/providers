@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: conformant
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: documented
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-07-28'
+  score: 51.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -26,15 +26,60 @@ agentic_access:
   operation_count: 83
   slug: pydantic-ai-agentic-access
   summary_line: 83 operations · 42 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 17
 apis:
-- description: The core PydanticAI Python agent framework providing the Agent class, model provider integrations, tool registration, structured output validation, dependency injection, streaming, and durable executi
-  name: PydanticAI Agent Framework
-  slug: pydantic-ai-agent-framework
-- description: Pydantic Logfire is an OpenTelemetry-based observability platform with purpose-built features for LLM applications, including conversation panels, token tracking, cost monitoring, tool call inspection
-  name: Pydantic Logfire
-  slug: pydantic-logfire
-artifact_total: 37
+- description: The Alerts API from PydanticAI — 2 operation(s) for alerts.
+  name: PydanticAI Alerts API
+  slug: pydantic-ai-alerts-api
+- description: The API Keys API from PydanticAI — 2 operation(s) for api keys.
+  name: PydanticAI API Keys API
+  slug: pydantic-ai-api-keys-api
+- description: The Audit Logs API from PydanticAI — 2 operation(s) for audit logs.
+  name: PydanticAI Audit Logs API
+  slug: pydantic-ai-audit-logs-api
+- description: The Billing API from PydanticAI — 1 operation(s) for billing.
+  name: PydanticAI Billing API
+  slug: pydantic-ai-billing-api
+- description: The Channels API from PydanticAI — 2 operation(s) for channels.
+  name: PydanticAI Channels API
+  slug: pydantic-ai-channels-api
+- description: The Dashboards API from PydanticAI — 2 operation(s) for dashboards.
+  name: PydanticAI Dashboards API
+  slug: pydantic-ai-dashboards-api
+- description: The discovery API from PydanticAI — 1 operation(s) for discovery.
+  name: PydanticAI discovery API
+  slug: pydantic-ai-discovery-api
+- description: The Group Mappings API from PydanticAI — 2 operation(s) for group mappings.
+  name: PydanticAI Group Mappings API
+  slug: pydantic-ai-group-mappings-api
+- description: The Instance API from PydanticAI — 3 operation(s) for instance.
+  name: PydanticAI Instance API
+  slug: pydantic-ai-instance-api
+- description: The Invitations API from PydanticAI — 1 operation(s) for invitations.
+  name: PydanticAI Invitations API
+  slug: pydantic-ai-invitations-api
+- description: The Members API from PydanticAI — 2 operation(s) for members.
+  name: PydanticAI Members API
+  slug: pydantic-ai-members-api
+- description: The OAuth API from PydanticAI — 6 operation(s) for oauth.
+  name: PydanticAI OAuth API
+  slug: pydantic-ai-oauth-api
+- description: The Organizations API from PydanticAI — 3 operation(s) for organizations.
+  name: PydanticAI Organizations API
+  slug: pydantic-ai-organizations-api
+- description: The Projects API from PydanticAI — 16 operation(s) for projects.
+  name: PydanticAI Projects API
+  slug: pydantic-ai-projects-api
+- description: The SCIM API from PydanticAI — 8 operation(s) for scim.
+  name: PydanticAI SCIM API
+  slug: pydantic-ai-scim-api
+- description: The Usage API from PydanticAI — 6 operation(s) for usage.
+  name: PydanticAI Usage API
+  slug: pydantic-ai-usage-api
+- description: The Variables API from PydanticAI — 2 operation(s) for variables.
+  name: PydanticAI Variables API
+  slug: pydantic-ai-variables-api
+artifact_total: 52
 collections:
 - collection_type: postman
   name: Pydantic API Discovery Alerts API
@@ -88,6 +133,10 @@ collections:
   name: Pydantic API Discovery Alerts Variables API
   slug: postman-pydantic-ai-variables-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/pydanticai/overview
 - group: other
   title: ''
   type: AgentCard
@@ -215,18 +264,18 @@ modified: '2026-06-12'
 name: PydanticAI
 nav: Providers
 network: true
-overview: 'PydanticAI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Agent Framework and Pydantic Logfire. Tagged areas include AI, Agents, Python, LLM, and Type Safety.
+overview: 'PydanticAI publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, API Keys API, Audit Logs API, and 14 more. Tagged areas include AI, Agents, Python, LLM, and Type Safety.
 
 
   The PydanticAI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PydanticAI''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 17 more developer resources.'
+  PydanticAI''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 18 more developer resources.'
 plans:
 - name: Pydantic Ai Plans Pricing
   plan_count: 4
   slug: pydantic-ai-plans-pricing
-random_paper: 41
+random_paper: 62
 rate_limits:
 - limit_count: 6
   name: Pydantic Ai Rate Limits
@@ -246,17 +295,17 @@ scopes:
   slug: pydantic-ai-scopes
   summary_line: 38 scopes · authorizationCode
 score:
-  band: developing
-  composite: 54.4
-  delta: -5.9
+  band: strong
+  composite: 57.7
+  delta: 1.4
   facets:
     commercial_clarity: 57.9
-    contract_quality: 62.9
-    developer_ergonomics: 21.7
-    discoverability: 68.5
+    contract_quality: 70.4
+    developer_ergonomics: 26.1
+    discoverability: 74.1
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 60.3
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -264,9 +313,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/screenshots/pydantic-ai-2026-06-20T192356.png
 security:
 - kind: authentication

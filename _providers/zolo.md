@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -148,11 +148,11 @@ overview: 'Zolo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Zolo''s developer surface includes engineering blog, support, legal docs, YouTube channel, and 21 more developer resources.'
-random_paper: 42
+random_paper: 72
 score:
   band: emerging
   composite: 14.8
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 8.1
@@ -160,11 +160,11 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 14.6
+  previous_composite: 14.8
   provenance:
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

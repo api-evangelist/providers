@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for the Hush Security platform, secured with OAuth 2.0 client-credentials (API Key ID + Secret exchanged at POST /v1/oauth/token for a Bearer access token). Region-scoped host (US). Errors fo
@@ -148,11 +148,11 @@ overview: 'Hush Security publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Hush Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
-random_paper: 61
+random_paper: 43
 score:
   band: thin
   composite: 35.2
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -160,12 +160,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 34.3
+  previous_composite: 35.2
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hush-security/refs/heads/main/screenshots/hush-security-2026-07-25T221747.png
 security:

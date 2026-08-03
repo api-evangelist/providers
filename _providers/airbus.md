@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -156,23 +156,23 @@ plans:
 - name: Airbus Plans Pricing
   plan_count: 4
   slug: airbus-plans-pricing
-random_paper: 72
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Airbus Rate Limits
   slug: airbus-rate-limits
 score:
-  band: thin
-  composite: 41.8
-  delta: -1.8
+  band: developing
+  composite: 42.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 43.6
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -180,8 +180,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/screenshots/airbus-2026-06-20T171419.png
 security:

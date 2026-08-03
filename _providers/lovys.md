@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Partner/reseller REST API to embed Lovys insurance products — real-time quotes, plans/pricing/coverage, customer data, policy purchase and activation, and policy lifecycle/renewals across home, smartp
@@ -97,11 +97,11 @@ overview: 'Lovys publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lovys'' developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 5 more developer resources.'
-random_paper: 81
+random_paper: 3
 score:
   band: emerging
   composite: 20.9
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -109,15 +109,15 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 23.2
+  previous_composite: 20.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lovys/refs/heads/main/screenshots/lovys-2026-07-25T225619.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -187,23 +187,23 @@ overview: 'Endgame publishes 1 API on the [APIs.io](https://apis.io/) network: T
 
 
   Endgame''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 25 more developer resources.'
-random_paper: 28
+random_paper: 6
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: End Game Rate Limits
   slug: end-game-rate-limits
 score:
-  band: developing
-  composite: 52.7
-  delta: -0.6
+  band: strong
+  composite: 56.3
+  delta: 2.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 62.5
     discoverability: 75.9
     governance: 20.8
-    operational_transparency: 42.1
-  previous_composite: 53.3
+    operational_transparency: 63.2
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -214,8 +214,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/screenshots/end-game-2026-07-25T213310.png
 security:

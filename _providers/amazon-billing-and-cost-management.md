@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ overview: 'Amazon Billing And Cost Management publishes 9 APIs on the [APIs.io](
 
 
   Amazon Billing And Cost Management''s developer surface includes authentication, developer portal, developer console, documentation, pricing, FAQ, engineering blog, and 17 more developer resources.'
-random_paper: 2
+random_paper: 39
 rules:
 - name: Amazon Billing And Cost Management API Rules
   rule_count: 5
@@ -220,16 +220,16 @@ rules:
   slug: amazon-billing-and-cost-management-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: -1.3
+  composite: 52.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.5
+    contract_quality: 70.3
     developer_ergonomics: 45.7
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 5.3
-  previous_composite: 53.5
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +239,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/screenshots/amazon-billing-and-cost-management-2026-07-25T195936.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -121,23 +121,23 @@ plans:
 - name: Leanplum Plans Pricing
   plan_count: 2
   slug: leanplum-plans-pricing
-random_paper: 42
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Leanplum Rate Limits
   slug: leanplum-rate-limits
 score:
   band: thin
-  composite: 28.7
-  delta: -5.7
+  composite: 29.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 50.4
+    contract_quality: 54.6
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.4
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -151,9 +151,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/screenshots/leanplum-2026-07-25T224746.png
 security:
 - kind: domain-security

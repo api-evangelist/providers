@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Programmatic access to Ema AI Employees. REST (HTTP/JSON) quickstart plus a gRPC-Web path for advanced endpoints, covering Chat, Workflows, Dashboards, Document Generation, Templates, Triggers and ten
@@ -124,11 +124,11 @@ overview: 'Ema publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ema''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 61
+random_paper: 22
 score:
   band: emerging
   composite: 26.8
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -136,9 +136,9 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 27.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 26.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ema/refs/heads/main/screenshots/ema-2026-07-25T213219.png
 security:

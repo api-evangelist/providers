@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-07-28'
+  score: 37.2
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: Labels
@@ -217,19 +217,19 @@ overview: 'Veho Tech publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Veho Tech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 21 more developer resources.'
-random_paper: 79
+random_paper: 44
 score:
   band: developing
-  composite: 54.3
-  delta: -1.7
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 81.6
+    contract_quality: 83.2
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 56.0
+  previous_composite: 54.7
   provenance:
     conformance: derived
     contracts:
@@ -239,8 +239,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

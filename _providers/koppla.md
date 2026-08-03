@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: koppla advertises an "Offene Schnittstelle / API" (open interface / API) as an included capability of its Enterprise plan, alongside a Power BI integration that pushes koppla schedule data into custom
@@ -192,11 +192,11 @@ overview: 'Koppla publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Koppla''s developer surface includes signup flow, support, engineering blog, pricing, YouTube channel, authentication, and 29 more developer resources.'
-random_paper: 73
+random_paper: 77
 score:
   band: thin
   composite: 41.8
-  delta: 9.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 43.2
@@ -204,14 +204,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 34.2
-  previous_composite: 32.3
+  previous_composite: 41.8
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koppla/refs/heads/main/screenshots/koppla-2026-07-25T224214.png
 security:
 - kind: authentication

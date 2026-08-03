@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -243,21 +243,23 @@ overview: 'Webjet publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Webjet''s developer surface includes authentication, sandbox, API reference, getting-started guide, pricing, engineering blog, documentation, and 32 more developer resources.'
-random_paper: 67
+random_paper: 71
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Webjet Rate Limits
   slug: webjet-rate-limits
 score:
   band: developing
-  composite: 47.5
+  composite: 51.5
+  delta: 2.8
   facets:
     commercial_clarity: 52.6
-    contract_quality: 47.8
+    contract_quality: 52.6
     developer_ergonomics: 73.4
     discoverability: 83.3
     governance: 11.5
-    operational_transparency: 5.3
+    operational_transparency: 26.3
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +270,9 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Webjet Authentication

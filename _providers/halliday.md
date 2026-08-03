@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -191,19 +191,19 @@ overview: 'Halliday publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Halliday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 22 more developer resources.'
-random_paper: 20
+random_paper: 80
 score:
   band: developing
-  composite: 53.1
-  delta: -3.1
+  composite: 53.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 74.6
+    contract_quality: 77.5
     developer_ergonomics: 73.9
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 56.2
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -220,8 +220,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/screenshots/halliday-2026-07-25T220546.png
 security:

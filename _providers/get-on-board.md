@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-07-28'
+  score: 46.6
+  scored_at: '2026-08-03'
 api_count: 22
 apis:
 - description: Job applications management
@@ -234,14 +234,14 @@ overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) net
 
 
   Get On Board''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, sandbox, and 21 more developer resources.'
-random_paper: 3
+random_paper: 11
 score:
   band: developing
-  composite: 47.8
-  delta: -1.2
+  composite: 49.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.9
+    contract_quality: 65.6
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 11.5
@@ -256,8 +256,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/get-on-board/refs/heads/main/screenshots/get-on-board-2026-07-25T215711.png
 security:

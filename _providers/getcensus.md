@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Census Management REST API allows developers to programmatically manage syncs, connections, models, segments, and destinations within Census workspaces and organizations. Supports both workspace-l
@@ -116,7 +116,7 @@ plans:
 - name: Getcensus Plans Pricing
   plan_count: 4
   slug: getcensus-plans-pricing
-random_paper: 75
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Getcensus Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.2
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 32.3
@@ -132,9 +132,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 40.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 36.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getcensus/refs/heads/main/screenshots/getcensus-2026-06-20T181807.png
 security:

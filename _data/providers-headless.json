@@ -271,6 +271,52 @@
      "rank": 6
     },
     {
+     "name": "Swell",
+     "slug": "swell-io",
+     "description": "Swell is a customizable, API-first headless commerce platform powering modern B2C, B2B, subscription, and marketplace experiences. It exposes a server-side Backend API for managing the full commerce data model (products, variants, carts, orders, payments, refunds, shipments, returns, subscriptions, accounts, invoices, coupons, promotions, gift cards, content, files, events, webhooks) plus a public-key client-side Frontend API for storefronts and an experimental GraphQL endpoint. The platform ships official Node and PHP libraries, a universal JavaScript SDK (Swell.js), headless storefront starters for Next.js (Horizon, verswell-commerce, nextjs-commerce) and Nuxt (Origin), a Swell Apps platform with CLI and Apps SDK for extending the data and logic layers via custom data models, events, notifications, webhooks, and edge functions running in 200+ locations, plus AI coding-agent skills and Claude Code plugins.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/screenshots/swell-io-2026-06-20T194803.png",
+     "score": 65.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 69.9,
+      "governance": 68.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Headless & Composable Commerce",
+     "rank": 7
+    },
+    {
      "name": "Shopify",
      "slug": "shopify",
      "description": "Shopify is a complete commerce platform that lets you start, grow, and manage a business. The Shopify API lets you build apps and integrations that extend Shopify functionality for merchants.",
@@ -314,7 +360,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Salesforce Experience Cloud",
@@ -353,7 +399,7 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "WooCommerce",
@@ -392,52 +438,6 @@
       "dry_run_mode": false
      },
      "tier": "Platforms & Suites Going Headless",
-     "rank": 9
-    },
-    {
-     "name": "Swell",
-     "slug": "swell-io",
-     "description": "Swell is a customizable, API-first headless commerce platform powering modern B2C, B2B, subscription, and marketplace experiences. It exposes a server-side Backend API for managing the full commerce data model (products, variants, carts, orders, payments, refunds, shipments, returns, subscriptions, accounts, invoices, coupons, promotions, gift cards, content, files, events, webhooks) plus a public-key client-side Frontend API for storefronts and an experimental GraphQL endpoint. The platform ships official Node and PHP libraries, a universal JavaScript SDK (Swell.js), headless storefront starters for Next.js (Horizon, verswell-commerce, nextjs-commerce) and Nuxt (Origin), a Swell Apps platform with CLI and Apps SDK for extending the data and logic layers via custom data models, events, notifications, webhooks, and edge functions running in 200+ locations, plus AI coding-agent skills and Claude Code plugins.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/screenshots/swell-io-2026-06-20T194803.png",
-     "score": 63.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 69.9,
-      "governance": 68.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 84.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 39.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Headless & Composable Commerce",
      "rank": 10
     },
     {

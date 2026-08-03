@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -231,6 +231,10 @@ common:
   title: ''
   type: Arazzo
   url: arazzo/opus-clip-and-publish.yml
+- group: other
+  title: ''
+  type: AICatalog
+  url: ai-catalog/opus-ai-catalog.yml
 created: '2026-07-17'
 description: OpusClip (Opus) is an AI video platform that turns long-form videos into short-form, viral clips and publishes them to social platforms. The OpusClip API lets developers submit a source video by URL or upload, create a clipping project, tune curation/import/render preferences, apply brand templates, retrieve exportable clips and transcripts, organize clips into collections, run censor and generative thumbnail jobs, and generate, publish, or schedule social posts to connected accounts. The API is REST over JSON at https://api.opus.pro, authenticated with a bearer API key, with HMAC-signed webhooks, page-based pagination, and a hosted MCP server plus an Agent Skill for agent-native access. API access is available on the Pro (Beta), Max, and Business plans.
 image: https://cdn.prod.website-files.com/6388604483b03a9ecb34d695/6435197bfb1d6e486e04c37b_webclip.png
@@ -246,20 +250,20 @@ network: true
 overview: 'Opus publishes 11 APIs on the [APIs.io](https://apis.io/) network, including brand-templates API, censor-jobs API, clip-project API, and 8 more. Tagged areas include Company, Frontier Tech, Video, AI, and Video Editing.
 
 
-  Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 45
+  Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+random_paper: 75
 score:
   band: developing
-  composite: 51.1
-  delta: -0.4
+  composite: 52.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 46.2
+    contract_quality: 51.1
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 51.5
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,8 +274,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

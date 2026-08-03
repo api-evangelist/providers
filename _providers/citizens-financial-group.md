@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: Citizens Open Banking API is the FDX-aligned API surface launched in Q1 2025 that gives business, commercial, wealth, and private- banking customers a single endpoint to share account balances, transa
@@ -135,7 +135,7 @@ plans:
 - name: Citizens Financial Group Plans Pricing
   plan_count: 2
   slug: citizens-financial-group-plans-pricing
-random_paper: 75
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Citizens Financial Group Rate Limits
@@ -152,7 +152,7 @@ rules:
 score:
   band: thin
   composite: 29.3
-  delta: -5.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 12.9
@@ -160,16 +160,16 @@ score:
     discoverability: 64.8
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 34.8
+  previous_composite: 29.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/screenshots/citizens-financial-group-2026-06-20T174413.png
 security:
 - kind: domain-security

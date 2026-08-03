@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-07-28'
+  score: 49.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -219,23 +219,23 @@ overview: 'Sibill publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sibill''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 65
+random_paper: 69
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Sibill Rate Limits
   slug: sibill-rate-limits
 score:
   band: developing
-  composite: 46.9
-  delta: -6.0
+  composite: 50.3
+  delta: 2.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.6
+    contract_quality: 63.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 23.7
-  previous_composite: 52.9
+    operational_transparency: 44.7
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,9 +252,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Sibill Authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-07-28'
+  score: 50.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 430
   human_in_the_loop: 11
@@ -452,11 +452,11 @@ overview: 'Charthop publishes 87 APIs on the [APIs.io](https://apis.io/) network
 
 
   Charthop''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 25 more developer resources.'
-random_paper: 37
+random_paper: 2
 score:
   band: developing
   composite: 51.4
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -464,7 +464,7 @@ score:
     discoverability: 74.1
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 53.3
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -475,8 +475,8 @@ score:
       total: 87
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/screenshots/charthop-2026-07-25T205113.png
 security:

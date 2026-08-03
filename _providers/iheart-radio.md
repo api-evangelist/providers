@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: The iHeartRadio Catalog API provides search and discovery capabilities across the iHeartRadio content catalog, including live broadcast radio stations, digital-only stations, podcasts, artists, tracks
@@ -110,7 +110,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 61
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.3
-  delta: -3.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 32.3
@@ -126,9 +126,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 28.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/screenshots/iheart-radio-2026-06-20T183223.png
 security:

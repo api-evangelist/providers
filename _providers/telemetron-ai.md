@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -160,19 +160,19 @@ overview: 'Telemetron publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Telemetron''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 17 more developer resources.'
-random_paper: 22
+random_paper: 4
 score:
   band: developing
-  composite: 45.7
-  delta: -0.3
+  composite: 46.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.8
+    contract_quality: 66.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 46.0
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -183,8 +183,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Waste Connections MyAccount customer portal provides online access to account management, service scheduling, pickup notifications, billing, and payment services for residential and commercial cus
@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: AMP to Operate Waste Connections Recycling Facility ...
   url: https://ampsortation.com/articles/first-of-its-kind-facility-featuring-fully-integra
-random_paper: 58
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Waste Connections Rate Limits
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.6
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 17.7
@@ -124,9 +124,9 @@ score:
     discoverability: 66.7
     governance: 10.4
     operational_transparency: 21.1
-  previous_composite: 25.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 22.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waste-connections/refs/heads/main/screenshots/waste-connections-2026-06-20T201242.png
 security:

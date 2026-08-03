@@ -1,0 +1,291 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: true
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: false
+    mcp_server: false
+    openapi_examples: partial
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 46.2
+  scored_at: '2026-08-03'
+agentic_access:
+- acting_count: 5
+  human_in_the_loop: 0
+  name: Blockchain.Com Agentic Access
+  operation_count: 35
+  slug: blockchain.com-agentic-access
+  summary_line: 35 operations · 5 acting
+api_count: 11
+apis:
+- description: REST API for the Blockchain.com Exchange covering unauthenticated market data (L2/L3 order books, tickers, symbols) and authenticated trading (orders, fills, fees) and payments (accounts, deposits, wi
+  name: Blockchain.com Exchange REST API
+  slug: blockchaincom-exchange-rest-api
+- description: Real-time WebSocket gateway for the Blockchain.com Exchange. Anonymous channels stream heartbeat, L2/L3 order books, prices, symbols, ticker and trades; authenticated channels cover auth, balances and
+  name: Blockchain.com Exchange WebSocket API
+  slug: blockchaincom-exchange-websocket-api
+- description: Partner API behind Blockchain.com Pay, the embeddable fiat-to-crypto on-ramp. Provides eligibility data (currencies, regions, payment methods), real-time buy quotes and order lookup, authenticated wit
+  name: Blockchain.com Pay Partner API
+  slug: blockchaincom-pay-partner-api
+- description: Free JSON API over the Blockchain.com Explorer data set — single blocks, transactions, addresses, unspent outputs, block height and latest block queries for Bitcoin.
+  name: Blockchain Data API
+  slug: blockchain-data-api
+- description: Plain-text query API returning single values for blockchain statistics such as block count, difficulty, hash rate, total bitcoins in circulation, market cap and address balances.
+  name: Blockchain.com Simple Query API
+  slug: blockchaincom-simple-query-api
+- description: Ticker and currency-conversion API returning bitcoin exchange rates across major fiat currencies, aggregated from the major exchanges.
+  name: Blockchain.com Exchange Rates API
+  slug: blockchaincom-exchange-rates-api
+- description: JSON/CSV feed behind the Blockchain.com charts and stats pages — per-chart time series, network statistics, and mining pool distribution.
+  name: Blockchain.com Charts and Statistics API
+  slug: blockchaincom-charts-and-statistics-api
+- description: Low-latency streaming socket channel providing notifications on new bitcoin blocks, unconfirmed transactions and watched addresses via the unconfirmed_sub, blocks_sub and addr_sub subscription operati
+  name: Blockchain.com Explorer WebSocket API
+  slug: blockchaincom-explorer-websocket-api
+- description: Public backend service for NFT market data, returning NFT assets owned by an address and individual asset lookups by network, contract address and token id. Publishes a Swagger 2.0 definition at its d
+  name: Blockchain.com NFT Market API
+  slug: blockchaincom-nft-market-api
+- description: OAuth 2.0 resource gateway that lets a third-party app read a consenting user's Blockchain.com custodial wallet data. Two endpoints are documented — transaction history (scope read_transactions, up to
+  name: Blockchain.com OAuth Resources API
+  slug: blockchaincom-oauth-resources-api
+- description: Open-source Wallet API service (service-my-wallet-v3) that runs locally and exposes HTTP endpoints for creating wallets, sending payments, and checking balances against Blockchain.com wallets, plus th
+  name: Blockchain.com Wallet API
+  slug: blockchaincom-wallet-api
+artifact_total: 19
+asyncapis:
+- description: ''
+  name: Blockchain.Com Event Surface
+  slug: blockchain.com-event-surface
+common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/blockchain.com-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/blockchain.com-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/blockchain.com-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/blockchain.com-security.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/blockchain.com-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/blockchain.com-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/blockchain.com-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.blockchain.com/legal/licenses
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/blockchain.com-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/blockchain.com-data-model.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/blockchain.com-scopes.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/blockchain.com-components.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/blockchain.com-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/blockchain.com-event-surface.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/blockchain.com-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/blockchain.com-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/blockchain.com-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/blockchain.com-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.blockchain.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.blockchain.com/explorer/api
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.blockchain.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.blockchain.com/v3/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.blockchain.com/pay/getting-started
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.blockchain.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/blockchain
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.blockchain.com/prices
+- group: start
+  title: ''
+  type: SignUp
+  url: https://login.blockchain.com/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.blockchain.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.blockchain.com/legal/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.blockchain.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.blockchain.com/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.blockchain.com/.well-known/security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/blockchain.com-llms.txt
+created: '2026-08-02'
+description: Blockchain.com is a cryptocurrency financial services company that operates the Blockchain.com Explorer (one of the longest-running Bitcoin block explorers), a self-custody and custodial wallet, an institutional spot exchange, and Blockchain.com Pay, an embeddable fiat-to-crypto on-ramp and off-ramp for partners. Its public API surface spans the Exchange REST API (market data, trading, deposits and withdrawals, authenticated with an X-API-Token header), a FIX-named WebSocket trading and market-data gateway, the Pay Partner API (eligibility, quotes and orders, authenticated with public and private API key headers plus order webhooks), the free Blockchain Data, Simple Query, Exchange Rates and Charts & Statistics APIs on blockchain.info, a real-time blockchain WebSocket notification stream, an NFT Market API, and the open-source Wallet API service (service-my-wallet-v3) with first-party client libraries for Python, Node.js, Ruby, PHP and Java.
+image: https://www.blockchain.com/static/apple-touch-icon.png
+json_schemas:
+- name: Blockchain.Com Pay Webhook Event
+  property_count: 0
+  slug: blockchain.com-pay-webhook-event
+layout: provider
+modified: '2026-08-02'
+name: Blockchain.com
+nav: Providers
+network: true
+overview: 'Blockchain.com publishes 3 APIs on the [APIs.io](https://apis.io/) network: Exchange REST API, Pay Partner API, and NFT Market API. Tagged areas include cryptocurrency, bitcoin, blockchain, exchange, and trading.
+
+
+  The Blockchain.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Blockchain.com''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 27 more developer resources.'
+random_paper: 73
+rate_limits:
+- limit_count: 2
+  name: Blockchain.Com Rate Limits
+  slug: blockchain.com-rate-limits
+scopes:
+- name: Blockchain.Com Scopes
+  scope_count: 2
+  slug: blockchain.com-scopes
+  summary_line: 2 scopes
+score:
+  band: strong
+  composite: 60.9
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 71.4
+    developer_ergonomics: 60.3
+    discoverability: 92.6
+    governance: 11.5
+    operational_transparency: 60.5
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: derived
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 71.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+security:
+- kind: authentication
+  name: Blockchain.Com Authentication
+  slug: blockchain.com-authentication
+  summary_line: apiKey/oauth2 · 5 schemes
+- kind: domain-security
+  name: Blockchain.Com Domain Security
+  slug: blockchain.com-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Blockchain.Com Vulnerability Disclosure
+  slug: blockchain.com-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+slug: blockchain.com
+tags:
+- cryptocurrency
+- bitcoin
+- blockchain
+- exchange
+- trading
+- market-data
+- payments
+- on-ramp
+- wallet
+- block-explorer
+- fintech
+- webhooks
+website: https://www.blockchain.com/
+---

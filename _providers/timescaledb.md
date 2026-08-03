@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -227,7 +227,7 @@ plans:
 - name: Timescaledb Plans Pricing
   plan_count: 6
   slug: timescaledb-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Timescaledb Rate Limits
@@ -243,16 +243,16 @@ rules:
   slug: timescaledb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.7
-  delta: -4.6
+  composite: 47.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 51.5
+    contract_quality: 55.7
     developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 51.3
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -260,8 +260,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/screenshots/timescaledb-2026-06-20T195406.png
 security:

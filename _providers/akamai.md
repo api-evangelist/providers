@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-07-28'
+  score: 49.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 243
   human_in_the_loop: 1
@@ -2626,7 +2626,7 @@ plans:
 - name: Akamai Plans Pricing
   plan_count: 3
   slug: akamai-plans-pricing
-random_paper: 38
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Akamai Rate Limits
@@ -2650,16 +2650,16 @@ rules:
   slug: akamai-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: -4.5
+  composite: 49.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.9
+    contract_quality: 63.1
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 52.2
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     contracts:
@@ -2667,8 +2667,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 139
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/screenshots/akamai-2026-06-20T171446.png
 security:

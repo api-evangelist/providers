@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -136,11 +136,11 @@ overview: 'Definity Financial is profiled on the [APIs.io](https://apis.io/) net
 
 
   Definity Financial''s developer surface includes engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 34
+random_paper: 33
 score:
   band: emerging
   composite: 24.8
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -148,7 +148,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 26.4
+  previous_composite: 24.8
   provenance:
     conformance: first-party
   regulatory:
@@ -157,8 +157,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/definity-financial/refs/heads/main/screenshots/definity-financial-2026-07-25T211640.png
 security:

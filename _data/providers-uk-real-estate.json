@@ -64,8 +64,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Reapit",
@@ -151,6 +151,44 @@
      "rank": 3
     },
     {
+     "name": "Street.co.uk",
+     "slug": "street-co",
+     "description": "Street.co.uk (Street Systems Limited, Manchester, England) is a UK estate agency CRM and property management platform for residential sales, lettings, property management and client accounting. In the United Kingdom there is no MLS and no RESO — residential listing distribution runs from agency CRM software out to the Rightmove and Zoopla portals — which places Street.co.uk at the agency system-of-record layer of the value chain, upstream of the portal duopoly and alongside Reapit, Alto and Apex27. Its API posture is unusually open for this sector: three OpenAPI 3.1 contracts (Street Open API, Property Feed, Spectre) are published unauthenticated on a public Scalar developer portal at developers.street.co.uk and can be downloaded as JSON or YAML by anyone. Access to the data behind them is not open — production bearer tokens are generated inside a paying agency's Street account under Settings > Account Administration > Applications, and a non-customer developer must email apis@street.co.uk to be issued a sandbox token on the staging environment. Nothing RESO, no OData $metadata, and no open government data is published by Street.co.uk itself; the open UK property data layer sits with HM Land Registry and Ordnance Survey, not with the CRM vendors.",
+     "score": 58.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 73.6,
+      "governance": 20.8,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 49.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Agency CRM & Transaction Technology",
+     "rank": 4
+    },
+    {
      "name": "Fixflo",
      "slug": "fixflo",
      "description": "Fixflo (a trading name of Tactile Limited, London, United Kingdom, acquired by Aareon in 2021) is a UK repairs, maintenance and compliance management platform for lettings agents, block managers and commercial property managers. Occupiers report issues through a guided fault tree, and Fixflo routes the work to contractors, tracks jobs, service programmes, warranties and invoices, and syncs the resulting records back into the agency CRM. It sits in the post-tenancy operations layer of the UK property value chain rather than the listings layer — the UK has no MLS and no RESO, so there is no industry-mandated machine-readable listing contract here and Fixflo makes no RESO claim. Its API posture is unusually open for the sector in one respect and closed in another. A genuinely public Stoplight developer portal at api-docs.fixflo.com publishes a complete OpenAPI 3.0 description of the v2 API (135 paths, 164 operations, 25 resource tags) that anyone can read and download without logging in, but actually calling it is licensed. Every use of the API is subject to the signed Fixflo Application Developer and API Licence Agreement, keys are issued by support after a review of the use case, and the runtime base URL is the customer's own per-tenant subdomain. Read the contract freely; sign an agreement to use it.",
@@ -186,7 +224,7 @@
       "dry_run_mode": false
      },
      "tier": "Property Management",
-     "rank": 4
+     "rank": 5
     }
    ],
    "open": true
@@ -196,8 +234,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 10,
-   "shown": 10,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "HM Land Registry",
@@ -242,44 +280,6 @@
       "dry_run_mode": false
      },
      "tier": "Land Registries & Government",
-     "rank": 5
-    },
-    {
-     "name": "Street.co.uk",
-     "slug": "street-co",
-     "description": "Street.co.uk (Street Systems Limited, Manchester, England) is a UK estate agency CRM and property management platform for residential sales, lettings, property management and client accounting. In the United Kingdom there is no MLS and no RESO — residential listing distribution runs from agency CRM software out to the Rightmove and Zoopla portals — which places Street.co.uk at the agency system-of-record layer of the value chain, upstream of the portal duopoly and alongside Reapit, Alto and Apex27. Its API posture is unusually open for this sector: three OpenAPI 3.1 contracts (Street Open API, Property Feed, Spectre) are published unauthenticated on a public Scalar developer portal at developers.street.co.uk and can be downloaded as JSON or YAML by anyone. Access to the data behind them is not open — production bearer tokens are generated inside a paying agency's Street account under Settings > Account Administration > Applications, and a non-customer developer must email apis@street.co.uk to be issued a sandbox token on the staging environment. Nothing RESO, no OData $metadata, and no open government data is published by Street.co.uk itself; the open UK property data layer sits with HM Land Registry and Ordnance Survey, not with the CRM vendors.",
-     "score": 54.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 73.6,
-      "governance": 20.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 49.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Agency CRM & Transaction Technology",
      "rank": 6
     },
     {

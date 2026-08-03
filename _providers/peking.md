@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: 'The Peking University Open Research Data Platform is built on Dataverse and exposes the standard Dataverse native REST API for searching, retrieving, and managing dataverses, datasets, and files. The '
@@ -107,7 +107,7 @@ plans:
 - name: Peking Plans Pricing
   plan_count: 2
   slug: peking-plans-pricing
-random_paper: 64
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Peking Rate Limits
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.0
-  delta: -3.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 12.9
@@ -123,15 +123,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 26.3
+  previous_composite: 23.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/screenshots/peking-2026-06-20T191532.png
 security:

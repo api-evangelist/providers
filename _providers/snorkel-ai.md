@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The Snorkel Flow Python SDK (snorkelflow) drives the platform programmatically, connecting to a customer's Snorkel Flow instance via SnorkelFlowContext and an API key. The snorkelflow.client module wr
@@ -118,7 +118,7 @@ plans:
 - name: Snorkel Ai Plans Pricing
   plan_count: 3
   slug: snorkel-ai-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Snorkel Ai Rate Limits
@@ -126,7 +126,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.2
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 32.3
@@ -134,9 +134,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 33.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

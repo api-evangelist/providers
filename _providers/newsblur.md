@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Login, logout and signup.
@@ -158,19 +158,19 @@ overview: 'NewsBlur publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   NewsBlur''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 62
+random_paper: 27
 score:
   band: developing
-  composite: 42.0
-  delta: 0.2
+  composite: 42.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.9
+    contract_quality: 57.8
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.8
+  previous_composite: 42.9
   provenance:
     conformance: derived
     contracts:
@@ -180,8 +180,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

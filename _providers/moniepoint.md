@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -516,7 +516,7 @@ plans:
 - name: Moniepoint Plans Pricing
   plan_count: 3
   slug: moniepoint-plans-pricing
-random_paper: 24
+random_paper: 45
 rate_limits:
 - limit_count: 9
   name: Moniepoint Rate Limits
@@ -540,16 +540,16 @@ rules:
   slug: moniepoint-rules
 score:
   band: strong
-  composite: 64.1
-  delta: -6.2
+  composite: 64.7
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 68.2
+    contract_quality: 70.9
     developer_ergonomics: 71.7
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 60.5
-  previous_composite: 70.3
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     contracts:
@@ -563,9 +563,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/screenshots/moniepoint-2026-06-20T185727.png
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 5
@@ -225,24 +225,24 @@ overview: 'Go1 publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Go1''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 28 more developer resources.'
-random_paper: 17
+random_paper: 73
 scopes:
 - name: Go1 Scopes
   scope_count: 8
   slug: go1-scopes
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 55.3
-  delta: -1.3
+  band: strong
+  composite: 57.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 66.4
+    contract_quality: 75.6
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 56.6
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,8 +253,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/screenshots/go1-2026-07-25T220000.png
 security:

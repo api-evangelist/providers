@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -205,23 +205,23 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 42
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: thin
-  composite: 39.8
-  delta: -4.9
+  composite: 40.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.2
+    contract_quality: 64.9
     developer_ergonomics: 37.0
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 44.7
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -235,8 +235,8 @@ score:
     regime: Health
     regime_id: health
     score: 33.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

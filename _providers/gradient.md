@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -153,19 +153,19 @@ overview: 'Gradient publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Gradient''s developer surface includes documentation, API reference, engineering blog, support, authentication, changelog, CLI, and 15 more developer resources.'
-random_paper: 26
+random_paper: 86
 score:
   band: thin
-  composite: 39.3
-  delta: -1.2
+  composite: 40.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 62.4
+    contract_quality: 65.6
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 40.5
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -176,8 +176,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradient/refs/heads/main/screenshots/gradient-2026-07-25T220159.png
 security:

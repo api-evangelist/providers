@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 0
@@ -4758,7 +4758,7 @@ plans:
 - name: Tm Forum Plans Pricing
   plan_count: 1
   slug: tm-forum-plans-pricing
-random_paper: 3
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Tm Forum Rate Limits
@@ -4782,16 +4782,16 @@ rules:
   slug: tm-forum-spectral-rules
 score:
   band: thin
-  composite: 37.2
-  delta: -9.3
+  composite: 38.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.2
+    contract_quality: 59.4
     developer_ergonomics: 19.6
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 46.5
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -4805,9 +4805,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/screenshots/tm-forum-2026-06-20T195425.png
 security:
 - kind: domain-security

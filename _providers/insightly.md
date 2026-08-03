@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -128,19 +128,19 @@ overview: 'Insightly publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Insightly''s developer surface includes authentication, documentation, support, signup flow, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 3
+random_paper: 37
 score:
   band: thin
-  composite: 28.8
-  delta: -2.0
+  composite: 29.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.8
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -148,8 +148,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insightly/refs/heads/main/screenshots/insightly-2026-06-20T183401.png
 security:

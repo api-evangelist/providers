@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: The comments API from Splitwise — 3 operation(s) for comments.
@@ -170,7 +170,7 @@ overview: 'Splitwise publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Splitwise''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 20 more developer resources.'
-random_paper: 12
+random_paper: 46
 scopes:
 - name: Splitwise Scopes
   scope_count: 0
@@ -178,16 +178,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.2
-  delta: -5.2
+  composite: 45.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.4
+    contract_quality: 53.2
     developer_ergonomics: 40.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 50.4
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -203,9 +203,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Splitwise Authentication

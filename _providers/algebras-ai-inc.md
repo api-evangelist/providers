@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -191,19 +191,19 @@ overview: 'Algebras AI Inc. publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
 
   Algebras AI Inc.''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 45
+random_paper: 14
 score:
   band: developing
-  composite: 46.5
-  delta: -1.9
+  composite: 47.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 52.6
+    contract_quality: 56.9
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 48.4
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,8 +220,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/screenshots/algebras-ai-inc-2026-07-25T195603.png
 security:

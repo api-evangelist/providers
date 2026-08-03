@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 11
 apis:
 - description: The Addresses API from Havenly — 1 operation(s) for addresses.
@@ -142,7 +142,7 @@ overview: 'Havenly publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Havenly''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 21
+random_paper: 94
 scopes:
 - name: Havenly Scopes
   scope_count: 0
@@ -150,16 +150,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 39.5
-  delta: -0.4
+  composite: 38.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.6
+    contract_quality: 59.8
     developer_ergonomics: 23.4
     discoverability: 92.6
     governance: 8.3
     operational_transparency: 0.0
-  previous_composite: 39.9
+  previous_composite: 38.8
   provenance:
     contracts:
       callable: 100.0
@@ -168,8 +168,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/screenshots/havenly-2026-07-25T220807.png
 security:

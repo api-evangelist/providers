@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: DataRobot's public REST API (v2) for projects, modeling, predictions, deployments, MLOps monitoring, governance, and agentic workflows. Personal API keys are sent as bearer tokens against regional bas
@@ -144,6 +144,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/datarobot-domain-security.yml
+- group: other
+  title: ''
+  type: AICatalog
+  url: ai-catalog/datarobot-ai-catalog.yml
 created: '2026-07-17'
 description: DataRobot is an enterprise AI platform for building, deploying, governing, and monitoring predictive and generative AI models and agentic workflows. It exposes a public REST API (v2), first-party Python and R clients, a `dr` command-line tool, and an MCP surface (Global MCP plus deployable standalone servers) that lets agentic coding environments call DataRobot tools and resources. Developers authenticate with personal API keys (bearer tokens) against regional endpoints (US/EU/JP), while OAuth 2.0 / OIDC via app.datarobot.com backs agent and integration auth. The platform covers AutoML, MLOps deployment and monitoring, model governance and compliance documentation, and code-first GenAI/agent development. Surfaced as a portfolio company of Norwest Venture Partners, Sapphire Ventures, and Techstars, and enriched by the API Evangelist pipeline.
 image: https://www.datarobot.com/wp-content/uploads/2021/09/DataRobot-Logo.png
@@ -159,8 +163,8 @@ network: true
 overview: 'DataRobot publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, MLOps, and Data Science.
 
 
-  DataRobot''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, CLI, and 20 more developer resources.'
-random_paper: 58
+  DataRobot''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, CLI, and 21 more developer resources.'
+random_paper: 10
 scopes:
 - name: Datarobot Scopes
   scope_count: 3
@@ -169,7 +173,7 @@ scopes:
 score:
   band: thin
   composite: 38.3
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -177,12 +181,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 37.3
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/screenshots/datarobot-2026-07-25T211352.png
 security:

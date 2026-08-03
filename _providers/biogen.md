@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ press:
 - date: '2026-05-25'
   title: FINANCIAL RESULTS AND BUSINESS UPDATE
   url: https://investors.biogen.com/static-files/0612f509-be22-438f-b817-3acba3917b0b
-random_paper: 54
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Biogen Rate Limits
@@ -232,16 +232,16 @@ rules:
   slug: biogen-spectral-rules
 score:
   band: thin
-  composite: 40.9
-  delta: -8.7
+  composite: 33.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.6
+    contract_quality: 22.9
     developer_ergonomics: 28.3
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 49.6
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -255,9 +255,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Biogen Authentication

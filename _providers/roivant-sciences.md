@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ plans:
 - name: Roivant Sciences Plans Pricing
   plan_count: 3
   slug: roivant-sciences-plans-pricing
-random_paper: 21
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Roivant Sciences Rate Limits
@@ -242,16 +242,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.0
-  delta: -6.3
+  composite: 48.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.9
+    contract_quality: 71.6
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 31.3
     operational_transparency: 5.3
-  previous_composite: 54.3
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -265,9 +265,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/screenshots/roivant-sciences-2026-06-20T193202.png
 security:
 - kind: authentication

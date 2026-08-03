@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-07-28'
+  score: 38.1
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The contacts API from Hatch — 1 operation(s) for contacts.
@@ -159,23 +159,23 @@ overview: 'Hatch publishes 1 API on the [APIs.io](https://apis.io/) network: con
 
 
   Hatch''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 28
+random_paper: 45
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Hatch Rate Limits
   slug: hatch-rate-limits
 score:
   band: developing
-  composite: 47.4
-  delta: -2.9
+  composite: 50.3
+  delta: 2.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.9
+    contract_quality: 69.8
     developer_ergonomics: 53.8
     discoverability: 87.0
     governance: 11.5
-    operational_transparency: 23.7
-  previous_composite: 50.3
+    operational_transparency: 44.7
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -191,8 +191,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/screenshots/hatch-2026-07-25T220750.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-07-28'
+  score: 36.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Advisor API connects advisor applications to Wealth.com, exposing client, asset, document, contact, quiz, AI-notes, client-group and top-account resources over JSON HTTPS, with OAuth2 (authorizati
@@ -163,9 +163,9 @@ overview: 'Wealth.com publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Wealth.com''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 62
+random_paper: 14
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Wealthcom Rate Limits
   slug: wealthcom-rate-limits
 scopes:
@@ -175,21 +175,21 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.7
-  delta: 8.2
+  composite: 51.5
+  delta: 2.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
     developer_ergonomics: 52.2
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 23.7
-  previous_composite: 40.5
+    operational_transparency: 44.7
+  previous_composite: 48.7
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Wealthcom Authentication

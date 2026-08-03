@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-07-28'
+  score: 50.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -306,7 +306,7 @@ plans:
 - name: Nomba Plans Pricing
   plan_count: 1
   slug: nomba-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Nomba Rate Limits
@@ -330,16 +330,16 @@ rules:
   slug: nomba-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.4
-  delta: -4.5
+  composite: 43.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 76.9
+    contract_quality: 78.9
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 21.1
-  previous_composite: 47.9
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -353,8 +353,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/screenshots/nomba-2026-06-20T190355.png
 security:

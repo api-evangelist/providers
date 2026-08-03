@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -385,6 +385,10 @@ collections:
   name: LinkedIn Recruiter System Connect API
   slug: open-linkedin-talent-recruiter-system-connect
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/linkedin/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2735,7 +2739,7 @@ overview: 'LinkedIn publishes 65 APIs on the [APIs.io](https://apis.io/) network
   The LinkedIn catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  LinkedIn''s developer surface includes changelog, authentication, documentation, code examples, developer portal, signup flow, tooling, and 77 more developer resources.'
+  LinkedIn''s developer surface includes changelog, authentication, documentation, code examples, developer portal, signup flow, tooling, and 78 more developer resources.'
 plans:
 - name: Linkedin Plans Pricing
   plan_count: 8
@@ -2756,7 +2760,7 @@ press:
 - date: '2026-05-25'
   title: AI's Impact on Local News Production
   url: https://www.linkedin.com/top-content/artificial-intelligence/ai-in-journalism/ai-s-impact-on-local-news-production/
-random_paper: 26
+random_paper: 86
 rate_limits:
 - limit_count: 3
   name: Linkedin Rate Limits
@@ -2785,16 +2789,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 68.9
-  delta: -1.0
+  composite: 70.2
+  delta: 0.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 76.2
-    developer_ergonomics: 58.7
+    contract_quality: 78.0
+    developer_ergonomics: 63.0
     discoverability: 87.0
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 69.9
+  previous_composite: 69.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2804,8 +2808,8 @@ score:
       marker_coverage: 0.0
       total: 64
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:

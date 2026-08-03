@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-07-28'
+  score: 52.0
+  scored_at: '2026-08-03'
 api_count: 13
 apis:
 - description: The Create API from Lilt — 2 operation(s) for create.
@@ -231,9 +231,9 @@ overview: 'Lilt publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 27
+random_paper: 57
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Lilt Rate Limits
   slug: lilt-rate-limits
 scopes:
@@ -243,16 +243,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: strong
-  composite: 59.2
-  delta: -0.5
+  composite: 63.5
+  delta: 4.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.5
+    contract_quality: 68.0
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 44.7
-  previous_composite: 59.7
+    operational_transparency: 76.3
+  previous_composite: 59.4
   provenance:
     conformance: derived
     contracts:
@@ -262,8 +262,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/screenshots/lilt-2026-07-25T225154.png
 security:

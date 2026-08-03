@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Sorry™ REST API provides programmatic access to manage status pages, components, incident notices, notice updates, and subscriber lists. Supports Bearer token authentication and rate limiting of 1
@@ -135,7 +135,7 @@ plans:
 - name: Sorry Plans Pricing
   plan_count: 3
   slug: sorry-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Sorry Rate Limits
@@ -159,24 +159,24 @@ rules:
   slug: sorry-rules
 score:
   band: developing
-  composite: 51.2
-  delta: -4.4
+  composite: 54.7
+  delta: 3.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.1
+    contract_quality: 72.1
     developer_ergonomics: 19.6
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 55.6
+  previous_composite: 51.2
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorry/refs/heads/main/screenshots/sorry-2026-06-20T194215.png
 security:

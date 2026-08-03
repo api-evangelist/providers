@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -166,19 +166,19 @@ overview: 'TruckSmarter publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   TruckSmarter''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 7
+random_paper: 84
 score:
   band: developing
-  composite: 42.9
-  delta: -1.0
+  composite: 43.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.6
+    contract_quality: 66.7
     developer_ergonomics: 36.4
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 43.9
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,8 +189,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

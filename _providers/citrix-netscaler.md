@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ plans:
 - name: Citrix Netscaler Plans Pricing
   plan_count: 4
   slug: citrix-netscaler-plans-pricing
-random_paper: 25
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Citrix Netscaler Rate Limits
@@ -330,17 +330,17 @@ rules:
     warn: 8
   slug: citrix-netscaler-spectral-rules
 score:
-  band: strong
-  composite: 65.2
-  delta: -3.6
+  band: exemplar
+  composite: 66.1
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 69.2
+    contract_quality: 72.9
     developer_ergonomics: 45.7
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 68.8
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     contracts:
@@ -348,8 +348,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/screenshots/citrix-netscaler-2026-06-20T174413.png
 security:

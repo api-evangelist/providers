@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -150,23 +150,23 @@ plans:
 - name: Puppet Plans Pricing
   plan_count: 3
   slug: puppet-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Puppet Rate Limits
   slug: puppet-rate-limits
 score:
   band: developing
-  composite: 42.9
-  delta: -3.0
+  composite: 43.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.6
+    contract_quality: 61.2
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 45.9
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -174,8 +174,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/screenshots/puppet-2026-06-20T192311.png
 security:

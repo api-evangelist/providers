@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-07-28'
+  score: 49.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -180,23 +180,23 @@ overview: 'Memories publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Memories'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, authentication, CLI, and 20 more developer resources.'
-random_paper: 45
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Memories Rate Limits
   slug: memories-rate-limits
 score:
   band: developing
-  composite: 53.2
-  delta: 0.4
+  composite: 54.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.1
+    contract_quality: 66.4
     developer_ergonomics: 60.9
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 52.8
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -207,8 +207,8 @@ score:
       total: 3
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

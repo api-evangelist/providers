@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-07-28'
+  score: 45.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -716,7 +716,7 @@ plans:
 - name: Webflow Api And Documentation Webflow Plans Pricing
   plan_count: 5
   slug: webflow-api-and-documentation-webflow-plans-pricing
-random_paper: 29
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Webflow Api And Documentation Webflow Rate Limits
@@ -752,17 +752,17 @@ scopes:
   slug: webflow-api-and-documentation-webflow-scopes
   summary_line: 29 scopes · authorizationCode
 score:
-  band: strong
-  composite: 64.7
-  delta: -4.0
+  band: exemplar
+  composite: 66.0
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 73.6
+    contract_quality: 78.9
     developer_ergonomics: 47.8
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 68.7
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     contracts:
@@ -770,8 +770,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/screenshots/webflow-api-and-documentation-webflow-2026-06-20T201331.png
 security:

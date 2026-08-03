@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 217
   human_in_the_loop: 1
@@ -1328,7 +1328,7 @@ plans:
 - name: Mews Systems Plans Pricing
   plan_count: 5
   slug: mews-systems-plans-pricing
-random_paper: 51
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Mews Systems Rate Limits
@@ -1351,17 +1351,17 @@ rules:
     warn: 17
   slug: mews-systems-spectral-rules
 score:
-  band: strong
-  composite: 60.8
-  delta: -7.7
+  band: developing
+  composite: 54.4
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 52.0
+    contract_quality: 21.9
     developer_ergonomics: 71.7
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 68.5
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1375,9 +1375,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/screenshots/mews-systems-2026-06-20T185318.png
 security:
 - kind: authentication

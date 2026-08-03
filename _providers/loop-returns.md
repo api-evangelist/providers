@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ plans:
 - name: Loop Returns Plans Pricing
   plan_count: 3
   slug: loop-returns-plans-pricing
-random_paper: 44
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Loop Returns Rate Limits
@@ -237,16 +237,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.1
-  delta: -4.1
+  composite: 58.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 69.0
+    contract_quality: 71.6
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 62.2
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -254,8 +254,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/screenshots/loop-returns-2026-06-20T184717.png
 security:

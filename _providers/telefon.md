@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ plans:
 - name: Telefon Plans Pricing
   plan_count: 1
   slug: telefon-plans-pricing
-random_paper: 11
+random_paper: 84
 rate_limits:
 - limit_count: 1
   name: Telefon Rate Limits
@@ -226,17 +226,17 @@ rules:
     warn: 4
   slug: telefon-rules
 score:
-  band: developing
-  composite: 55.5
-  delta: -6.1
+  band: strong
+  composite: 56.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.1
+    contract_quality: 69.0
     developer_ergonomics: 39.1
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 61.6
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -250,9 +250,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/screenshots/telefon-2026-06-20T195028.png
 security:
 - kind: authentication

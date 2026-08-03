@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: The Cap'n Proto schema language is used to define message types in .capnp files that are then compiled into native code for each supported language. The schema language defines structs, unions, enums,
@@ -104,7 +104,7 @@ plans:
 - name: Capn Proto Plans Pricing
   plan_count: 3
   slug: capn-proto-plans-pricing
-random_paper: 43
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Capn Proto Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.5
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -120,9 +120,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 25.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 23.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capn-proto/refs/heads/main/screenshots/capn-proto-2026-06-20T173939.png
 security:

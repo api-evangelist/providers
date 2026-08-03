@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-07-28'
+  score: 38.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ plans:
 - name: 1Forge Plans Pricing
   plan_count: 4
   slug: 1forge-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: 1Forge Rate Limits
@@ -230,16 +230,16 @@ rules:
   slug: 1forge-rules
 score:
   band: developing
-  composite: 49.3
-  delta: -5.2
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.0
+    contract_quality: 33.6
     developer_ergonomics: 19.6
     discoverability: 81.5
     governance: 52.1
     operational_transparency: 26.3
-  previous_composite: 54.5
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -253,9 +253,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/screenshots/1forge-2026-06-20T162445.png
 security:
 - kind: authentication

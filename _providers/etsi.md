@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-07-28'
+  score: 52.5
+  scored_at: '2026-08-03'
 api_count: 24
 apis:
 - description: The Mp1 reference point between MEC applications and the MEC platform, standardised in ETSI GS MEC 011. Covers MEC service registration, deregistration, discovery and event notification (MecServiceMgm
@@ -347,28 +347,28 @@ overview: 'ETSI publishes 23 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ETSI''s developer surface includes documentation, developer portal, sandbox, API reference, getting-started guide, support, engineering blog, and 50 more developer resources.'
-random_paper: 27
+random_paper: 57
 scopes:
 - name: Etsi Scopes
   scope_count: 13
   slug: etsi-scopes
   summary_line: 13 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 55.1
-  delta: 3.0
+  band: strong
+  composite: 57.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 50.2
+    contract_quality: 55.7
     developer_ergonomics: 75.5
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 52.1
+  previous_composite: 57.3
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 22.3
       derived: 0
       marker_coverage: 0.0
       total: 112
@@ -379,9 +379,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 75.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 81.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

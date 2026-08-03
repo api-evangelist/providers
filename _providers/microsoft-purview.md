@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -1009,7 +1009,7 @@ plans:
 - name: Microsoft Purview Plans Pricing
   plan_count: 4
   slug: microsoft-purview-plans-pricing
-random_paper: 9
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Microsoft Purview Rate Limits
@@ -1030,16 +1030,16 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 73.3
-  delta: 0.3
+  composite: 74.0
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 68.6
+    contract_quality: 71.3
     developer_ergonomics: 78.3
     discoverability: 85.2
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 73.0
+  previous_composite: 74.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1049,8 +1049,8 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/screenshots/microsoft-purview-2026-06-20T185528.png
 security:

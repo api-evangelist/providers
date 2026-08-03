@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -179,7 +179,7 @@ plans:
 - name: Ant Media Plans Pricing
   plan_count: 3
   slug: ant-media-plans-pricing
-random_paper: 60
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Ant Media Rate Limits
@@ -195,16 +195,16 @@ rules:
   slug: ant-media-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.7
-  delta: -5.2
+  composite: 53.9
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 44.2
+    contract_quality: 49.0
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 57.9
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -212,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/screenshots/ant-media-2026-06-20T172022.png
 security:
 - kind: domain-security

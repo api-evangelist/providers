@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ plans:
 - name: Google Drive Plans Pricing
   plan_count: 3
   slug: google-drive-plans-pricing
-random_paper: 72
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Google Drive Rate Limits
@@ -274,16 +274,16 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.0
-  delta: -0.6
+  composite: 58.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 64.4
+    contract_quality: 67.4
     developer_ergonomics: 39.1
     discoverability: 87.0
     governance: 69.8
     operational_transparency: 57.9
-  previous_composite: 58.6
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,8 +293,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-06-20T182159.png
 security:

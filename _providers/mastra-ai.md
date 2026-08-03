@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: The Mastra framework is a TypeScript-first agentic stack distributed as the @mastra/* family of npm packages. The core package wires agents, workflows, memory, RAG, tools, MCP, evals, voice, and obser
@@ -164,11 +164,11 @@ overview: 'Mastra publishes 12 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Mastra''s developer surface includes documentation, GitHub presence, engineering blog, changelog, pricing, code examples, YouTube channel, and 14 more developer resources.'
-random_paper: 75
+random_paper: 40
 score:
   band: emerging
   composite: 13.5
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -176,15 +176,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 16.6
+  previous_composite: 13.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastra-ai/refs/heads/main/screenshots/mastra-ai-2026-06-20T185028.png
 security:

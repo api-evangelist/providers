@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Ansible Plans Pricing
   plan_count: 3
   slug: ansible-plans-pricing
-random_paper: 78
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Ansible Rate Limits
@@ -297,16 +297,16 @@ rules:
   slug: ansible-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 59.6
-  delta: -4.5
+  composite: 60.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 55.9
+    contract_quality: 59.7
     developer_ergonomics: 65.2
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 64.1
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -314,8 +314,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/screenshots/ansible-2026-06-20T172015.png
 security:

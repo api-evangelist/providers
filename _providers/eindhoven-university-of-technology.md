@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -257,7 +257,7 @@ plans:
 - name: Eindhoven University Of Technology Plans Pricing
   plan_count: 2
   slug: eindhoven-university-of-technology-plans-pricing
-random_paper: 70
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Eindhoven University Of Technology Rate Limits
@@ -281,16 +281,16 @@ rules:
   slug: eindhoven-university-of-technology-rules
 score:
   band: thin
-  composite: 39.9
-  delta: -5.8
+  composite: 40.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.6
+    contract_quality: 61.6
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 45.7
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -304,9 +304,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/screenshots/eindhoven-university-of-technology-2026-06-20T180525.png
 security:
 - kind: authentication

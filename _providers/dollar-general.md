@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,11 +84,11 @@ press:
 - date: '2026-05-25'
   title: Dollar General expands retail media network with AI ...
   url: https://cspdailynews.com/technologyservices/dollar-general-expands-retail-media-network-ai-powered-audio-unified-ad
-random_paper: 23
+random_paper: 87
 score:
   band: minimal
   composite: 4.1
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -96,9 +96,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 4.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dollar-general/refs/heads/main/screenshots/dollar-general-2026-06-20T180149.png
 security:

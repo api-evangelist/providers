@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -289,7 +289,7 @@ plans:
 - name: Ariba Sourcing Plans Pricing
   plan_count: 3
   slug: ariba-sourcing-plans-pricing
-random_paper: 36
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Ariba Sourcing Rate Limits
@@ -317,17 +317,17 @@ scopes:
   slug: ariba-sourcing-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 59.3
-  delta: -6.8
+  band: developing
+  composite: 50.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.6
+    contract_quality: 32.2
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 66.1
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -335,9 +335,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/screenshots/ariba-sourcing-2026-06-20T172427.png
 security:
 - kind: authentication

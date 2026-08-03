@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -546,7 +546,7 @@ plans:
 - name: Sap Hana Plans Pricing
   plan_count: 1
   slug: sap-hana-plans-pricing
-random_paper: 39
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Sap Hana Rate Limits
@@ -575,16 +575,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.3
-  delta: -2.1
+  composite: 58.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 79.7
+    contract_quality: 79.0
     developer_ergonomics: 39.1
     discoverability: 66.7
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 60.4
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     contracts:
@@ -592,8 +592,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/screenshots/sap-hana-2026-06-20T193427.png
 security:

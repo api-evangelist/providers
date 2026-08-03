@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The JuliaHub cloud platform for scientific and technical computing - hosted Julia compute, batch/job execution, datasets, and the Julia package registry. Accessed programmatically through the first-pa
@@ -124,7 +124,7 @@ overview: 'Julia Computing publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Julia Computing''s developer surface includes documentation, getting-started guide, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 2
+random_paper: 40
 scopes:
 - name: Julia Computing Scopes
   scope_count: 5
@@ -133,7 +133,7 @@ scopes:
 score:
   band: thin
   composite: 36.5
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -141,7 +141,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 39.9
+  previous_composite: 36.5
   provenance:
     conformance: first-party
   regulatory:
@@ -150,8 +150,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/screenshots/julia-computing-2026-07-25T223305.png
 security:

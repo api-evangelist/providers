@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: Housing properties.
@@ -166,19 +166,19 @@ overview: 'One Degree publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Degree''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 3
+random_paper: 37
 score:
-  band: thin
-  composite: 41.9
-  delta: -3.5
+  band: developing
+  composite: 42.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 56.7
+    contract_quality: 58.0
     developer_ergonomics: 49.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 45.4
+  previous_composite: 42.2
   provenance:
     conformance: derived
     contracts:
@@ -194,8 +194,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

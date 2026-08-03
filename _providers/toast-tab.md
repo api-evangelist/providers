@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -1320,7 +1320,7 @@ plans:
 - name: Toast Tab Plans Pricing
   plan_count: 1
   slug: toast-tab-plans-pricing
-random_paper: 9
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Toast Tab Rate Limits
@@ -1350,7 +1350,7 @@ scopes:
 score:
   band: developing
   composite: 54.9
-  delta: -7.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.1
@@ -1358,7 +1358,7 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 50.0
-  previous_composite: 62.8
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1372,9 +1372,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/screenshots/toast-tab-2026-06-20T195430.png
 security:
 - kind: authentication

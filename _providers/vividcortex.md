@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -234,19 +234,19 @@ overview: 'VividCortex publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   VividCortex''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, authentication, and 28 more developer resources.'
-random_paper: 59
+random_paper: 67
 score:
   band: strong
-  composite: 59.6
-  delta: -0.8
+  composite: 60.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 60.4
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +257,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

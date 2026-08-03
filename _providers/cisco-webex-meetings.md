@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ plans:
 - name: Cisco Webex Meetings Plans Pricing
   plan_count: 3
   slug: cisco-webex-meetings-plans-pricing
-random_paper: 50
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Cisco Webex Meetings Rate Limits
@@ -211,16 +211,16 @@ rules:
   slug: cisco-webex-meetings-rules
 score:
   band: strong
-  composite: 56.5
-  delta: -2.5
+  composite: 57.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 52.2
     discoverability: 64.8
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 59.0
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     contracts:
@@ -228,8 +228,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/screenshots/cisco-webex-meetings-2026-06-20T174406.png
 security:

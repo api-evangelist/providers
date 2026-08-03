@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -849,7 +849,7 @@ plans:
 - name: Android Plans Pricing
   plan_count: 6
   slug: android-plans-pricing
-random_paper: 81
+random_paper: 72
 rate_limits:
 - limit_count: 10
   name: Android Rate Limits
@@ -878,16 +878,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 61.4
-  delta: -0.4
+  composite: 62.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 75.0
+    contract_quality: 78.7
     developer_ergonomics: 52.2
     discoverability: 90.7
     governance: 69.8
     operational_transparency: 52.6
-  previous_composite: 61.8
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -897,8 +897,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/screenshots/android-2026-06-20T171952.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -223,7 +223,7 @@ overview: 'CoinList publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   CoinList''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 24 more developer resources.'
-random_paper: 49
+random_paper: 14
 scopes:
 - name: Coinlist Scopes
   scope_count: 0
@@ -231,16 +231,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.7
-  delta: -3.0
+  composite: 47.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 52.3
+    contract_quality: 53.3
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 49.7
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +251,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

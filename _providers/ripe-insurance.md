@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-07-28'
+  score: 48.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'Ripe Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Ripe Insurance''s developer surface includes authentication, support, product news, engineering blog, and 27 more developer resources.'
-random_paper: 51
+random_paper: 20
 scopes:
 - name: Ripe Insurance Scopes
   scope_count: 2
@@ -185,16 +185,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: thin
-  composite: 35.0
-  delta: -4.2
+  composite: 37.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 42.6
     developer_ergonomics: 21.2
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 39.2
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +211,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

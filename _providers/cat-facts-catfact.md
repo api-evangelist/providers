@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ overview: 'Cat Facts (catfact.ninja) publishes 2 APIs on the [APIs.io](https://a
 
 
   Cat Facts (catfact.ninja)''s developer surface includes authentication, tooling, and 12 more developer resources.'
-random_paper: 17
+random_paper: 42
 rules:
 - name: Cat Facts (catfact.ninja) API Rules
   rule_count: 5
@@ -192,17 +192,17 @@ rules:
     warn: 25
   slug: cat-facts-catfact-rules
 score:
-  band: thin
-  composite: 31.2
-  delta: -6.6
+  band: emerging
+  composite: 23.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 52.5
+    contract_quality: 23.4
     developer_ergonomics: 10.9
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 0.0
-  previous_composite: 37.8
+  previous_composite: 23.9
   provenance:
     agentic_access: derived
     contracts:
@@ -210,9 +210,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cat-facts-catfact/refs/heads/main/screenshots/cat-facts-catfact-2026-06-20T174040.png
 security:
 - kind: domain-security

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Reachdesk REST API enables programmatic triggering of gift campaigns and sending of physical gifts, branded merchandise, and digital rewards. Authenticated via API tokens generated in the Reachdes
@@ -112,7 +112,7 @@ plans:
 - name: Reachdesk Plans Pricing
   plan_count: 3
   slug: reachdesk-plans-pricing
-random_paper: 36
+random_paper: 83
 rate_limits:
 - limit_count: 0
   name: Reachdesk Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.0
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 17.7
@@ -128,9 +128,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 28.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 25.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/screenshots/reachdesk-2026-06-20T192631.png
 security:

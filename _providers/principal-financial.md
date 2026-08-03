@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,11 +71,11 @@ press:
 - date: '2026-05-25'
   title: AI disruption and the implications for real estate
   url: https://brandassets.principal.com/m/55ca51235964976/original/Principal-Real-Estate-AI-and-Real-Estate-Series-Part-2.pdf
-random_paper: 54
+random_paper: 40
 score:
   band: minimal
   composite: 3.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -83,9 +83,9 @@ score:
     discoverability: 25.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 4.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 3.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/principal-financial/refs/heads/main/screenshots/principal-financial-2026-06-20T192107.png
 security:

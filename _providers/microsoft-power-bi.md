@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -176,23 +176,23 @@ plans:
 - name: Microsoft Power Bi Plans Pricing
   plan_count: 3
   slug: microsoft-power-bi-plans-pricing
-random_paper: 28
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Bi Rate Limits
   slug: microsoft-power-bi-rate-limits
 score:
   band: developing
-  composite: 49.2
-  delta: -2.1
+  composite: 50.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 51.3
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +200,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-bi/refs/heads/main/screenshots/microsoft-power-bi-2026-06-20T185523.png
 security:

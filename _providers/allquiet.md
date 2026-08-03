@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 3
@@ -128,23 +128,23 @@ plans:
 - name: Allquiet Plans Pricing
   plan_count: 4
   slug: allquiet-plans-pricing
-random_paper: 45
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Allquiet Rate Limits
   slug: allquiet-rate-limits
 score:
   band: thin
-  composite: 36.7
-  delta: -2.0
+  composite: 37.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 48.3
+    contract_quality: 52.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 38.7
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allquiet/refs/heads/main/screenshots/allquiet-2026-07-25T195712.png
 security:

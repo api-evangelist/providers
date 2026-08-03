@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -175,23 +175,23 @@ plans:
 - name: Matomo Plans Pricing
   plan_count: 3
   slug: matomo-plans-pricing
-random_paper: 79
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Matomo Rate Limits
   slug: matomo-rate-limits
 score:
   band: developing
-  composite: 54.9
-  delta: -3.1
+  composite: 55.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 52.5
+    contract_quality: 54.3
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 58.0
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/screenshots/matomo-2026-06-20T185037.png
 security:

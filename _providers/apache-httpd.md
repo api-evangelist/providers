@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ plans:
 - name: Apache Httpd Plans Pricing
   plan_count: 3
   slug: apache-httpd-plans-pricing
-random_paper: 55
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Apache Httpd Rate Limits
@@ -208,16 +208,16 @@ rules:
   slug: apache-httpd-spectral-rules
 score:
   band: developing
-  composite: 45.3
-  delta: -5.9
+  composite: 46.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 55.9
+    contract_quality: 59.7
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 51.2
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -225,9 +225,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/screenshots/apache-httpd-2026-06-20T172105.png
 security:
 - kind: domain-security

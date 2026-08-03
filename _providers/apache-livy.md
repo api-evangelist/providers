@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ plans:
 - name: Apache Livy Plans Pricing
   plan_count: 3
   slug: apache-livy-plans-pricing
-random_paper: 41
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Apache Livy Rate Limits
@@ -282,16 +282,16 @@ rules:
   slug: apache-livy-spectral-rules
 score:
   band: developing
-  composite: 49.7
-  delta: -5.0
+  composite: 50.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 54.7
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -299,9 +299,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/screenshots/apache-livy-2026-06-20T172116.png
 security:
 - kind: domain-security

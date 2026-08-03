@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: 'The Centene FHIR Patient Access API lets members of Centene health plans access their clinical, financial, and formulary data through third-party applications, as required by the CMS Interoperability '
@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Apixio Acquisition by Centene Corporation
   url: https://www.triple-tree.com/experience/apixio-centene-corporation/
-random_paper: 0
+random_paper: 73
 rate_limits:
 - limit_count: 3
   name: Centene Rate Limits
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.1
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -123,15 +123,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 19.8
+  previous_composite: 17.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centene/refs/heads/main/screenshots/centene-2026-06-20T174122.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 14
 common:
@@ -94,7 +94,7 @@ plans:
 - name: Accord Plans Pricing
   plan_count: 1
   slug: accord-plans-pricing
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Accord Rate Limits
@@ -102,7 +102,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.4
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -110,15 +110,15 @@ score:
     discoverability: 31.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.5
+  previous_composite: 18.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 slug: accord
 tags:

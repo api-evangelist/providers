@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -456,7 +456,7 @@ plans:
 - name: Amazon Devops Guru Plans Pricing
   plan_count: 3
   slug: amazon-devops-guru-plans-pricing
-random_paper: 40
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Amazon Devops Guru Rate Limits
@@ -479,17 +479,17 @@ rules:
     warn: 10
   slug: amazon-devops-guru-spectral-rules
 score:
-  band: strong
-  composite: 65.9
-  delta: -2.5
+  band: exemplar
+  composite: 66.6
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 72.4
+    contract_quality: 75.4
     developer_ergonomics: 45.7
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 68.4
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     contracts:
@@ -497,8 +497,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/screenshots/amazon-devops-guru-2026-06-20T171630.png
 security:

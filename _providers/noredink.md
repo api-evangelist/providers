@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: NoRedInk's OAuth 2.0 authorization server with OpenID Connect on top, used for single sign-on and partner/classroom-rostering integrations. Advertises the authorization-code + refresh-token grants, an
@@ -128,7 +128,7 @@ overview: 'NoRedInk publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   NoRedInk''s developer surface includes support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 38
+random_paper: 3
 scopes:
 - name: Noredink Scopes
   scope_count: 1
@@ -137,7 +137,7 @@ scopes:
 score:
   band: emerging
   composite: 25.1
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -145,11 +145,11 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 31.6
-  previous_composite: 25.3
+  previous_composite: 25.1
   provenance:
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

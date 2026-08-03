@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -164,23 +164,23 @@ plans:
 - name: Bunq Plans Pricing
   plan_count: 7
   slug: bunq-plans-pricing
-random_paper: 28
+random_paper: 58
 rate_limits:
 - limit_count: 6
   name: Bunq Rate Limits
   slug: bunq-rate-limits
 score:
   band: developing
-  composite: 45.6
-  delta: -4.9
+  composite: 46.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 50.5
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +194,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png
 security:

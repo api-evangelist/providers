@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol (MCP) server that lets AI assistants (Claude Code, Claude Desktop, Cursor, Windsurf, Gemini Enterprise) run natural-language analyses, list and execute metrics, trigger w
@@ -136,11 +136,11 @@ overview: 'Orion by Gravity publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Orion by Gravity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 76
+random_paper: 19
 score:
   band: thin
   composite: 34.9
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -148,12 +148,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 34.0
+  previous_composite: 34.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

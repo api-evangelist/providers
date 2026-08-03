@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ plans:
 - name: Oura Ring Plans Pricing
   plan_count: 6
   slug: oura-ring-plans-pricing
-random_paper: 14
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Oura Ring Rate Limits
@@ -405,16 +405,16 @@ rules:
   slug: oura-ring-rules
 score:
   band: developing
-  composite: 54.7
-  delta: -7.4
+  composite: 55.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 54.0
+    contract_quality: 57.4
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 62.1
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     contracts:
@@ -428,9 +428,9 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura-ring/refs/heads/main/screenshots/oura-ring-2026-06-20T191228.png
 security:
 - kind: domain-security

@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-07-28'
+  score: 51.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 6
@@ -159,7 +159,7 @@ plans:
 - name: Ory Plans Pricing
   plan_count: 4
   slug: ory-plans-pricing
-random_paper: 18
+random_paper: 61
 rate_limits:
 - limit_count: 8
   name: Ory Rate Limits
@@ -171,16 +171,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.0
-  delta: -3.6
+  composite: 39.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 44.6
+    contract_quality: 50.9
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 41.6
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -188,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/screenshots/ory-2026-06-20T191212.png
 security:

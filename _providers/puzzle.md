@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ overview: 'Puzzle publishes 22 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Puzzle''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 27 more developer resources.'
-random_paper: 26
+random_paper: 17
 scopes:
 - name: Puzzle Scopes
   scope_count: 21
@@ -266,16 +266,16 @@ scopes:
   summary_line: 21 scopes
 score:
   band: developing
-  composite: 50.6
-  delta: 0.3
+  composite: 51.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 46.5
+    contract_quality: 52.0
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 18.4
-  previous_composite: 50.3
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,8 +286,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

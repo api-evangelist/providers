@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-07-28'
+  score: 47.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -183,23 +183,23 @@ overview: 'Rho Protocol publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Rho Protocol''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 26
+random_paper: 21
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Rho Protocol Rate Limits
   slug: rho-protocol-rate-limits
 score:
   band: thin
-  composite: 37.4
-  delta: -4.4
+  composite: 39.7
+  delta: 2.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
     developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 11.5
-    operational_transparency: 21.1
-  previous_composite: 41.8
+    operational_transparency: 42.1
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,8 +216,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

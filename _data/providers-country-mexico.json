@@ -591,14 +591,14 @@
      "slug": "cobre",
      "description": "Cobre is a Latin American B2B payments and treasury platform that gives finance teams, fintechs, PSPs and banks a single API and portal to move money in and out of Colombia and Mexico (and via Fedwire in the United States) and across borders. Its modular products cover Local Payments (Bre-B, Fast Pay, ACH and PSE in Colombia; SPEI and CLABEs in Mexico), Cross Border Payments with FX quotes, Global Payouts in stablecoins, and Connect for centralizing and reconciling bank accounts. The developer API is a REST platform (v1) with bearer-JWT auth via a credential exchange, required idempotency on money movements, page-based pagination, a 30 TPS rate limit, HMAC-signed webhook notifications, and a full portal for maker-checker approvals, reconciliation and reporting. Cobre is a QED Investors portfolio company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cobre/refs/heads/main/screenshots/cobre-2026-07-25T205845.png",
-     "score": 39.0,
+     "score": 41.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
       "contract_quality": 50.6,
       "governance": 12.5,
-      "operational_transparency": 23.7,
+      "operational_transparency": 44.7,
       "developer_ergonomics": 67.4,
       "commercial_clarity": 7.9
      },

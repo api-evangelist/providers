@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-07-28'
+  score: 48.0
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: The APIs/Authentication API from BALAD CORP — 1 operation(s) for apis/authentication.
@@ -181,7 +181,7 @@ overview: 'BALAD CORP publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   BALAD CORP''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 79
+random_paper: 31
 scopes:
 - name: Balad Corp Scopes
   scope_count: 0
@@ -189,16 +189,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 39.4
-  delta: -4.4
+  composite: 40.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 60.3
+    contract_quality: 64.1
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 43.8
+  previous_composite: 40.2
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +214,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/screenshots/balad-corp-2026-07-25T202259.png
 security:

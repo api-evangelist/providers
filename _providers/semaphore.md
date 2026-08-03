@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    event_surface_described: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 45.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -166,23 +166,23 @@ plans:
 - name: Semaphore Plans Pricing
   plan_count: 4
   slug: semaphore-plans-pricing
-random_paper: 62
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Semaphore Rate Limits
   slug: semaphore-rate-limits
 score:
   band: developing
-  composite: 46.5
-  delta: -2.2
+  composite: 47.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 65.4
+    contract_quality: 70.5
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 48.7
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -190,8 +190,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/screenshots/semaphore-2026-06-20T193644.png
 security:

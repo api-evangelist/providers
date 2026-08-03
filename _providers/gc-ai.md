@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -211,23 +211,23 @@ overview: 'GC AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   GC AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 39
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Gc Ai Rate Limits
   slug: gc-ai-rate-limits
 score:
   band: strong
-  composite: 57.5
-  delta: 0.1
+  composite: 58.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.7
+    contract_quality: 66.7
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 57.4
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +238,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gc-ai/refs/heads/main/screenshots/gc-ai-2026-07-25T215510.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: true
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 7
@@ -247,7 +247,7 @@ plans:
 - name: Queens University At Kingston Plans Pricing
   plan_count: 2
   slug: queens-university-at-kingston-plans-pricing
-random_paper: 52
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Queens University At Kingston Rate Limits
@@ -271,16 +271,16 @@ rules:
   slug: queens-university-at-kingston-rules
 score:
   band: thin
-  composite: 33.2
-  delta: -3.8
+  composite: 34.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 45.6
+    contract_quality: 50.4
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 37.0
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -294,8 +294,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/queens-university-at-kingston/refs/heads/main/screenshots/queens-university-at-kingston-2026-06-20T192420.png
 security:

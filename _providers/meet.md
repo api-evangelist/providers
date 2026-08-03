@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ overview: 'Google Meet publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Google Meet''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 17
+random_paper: 47
 scopes:
 - name: Meet Scopes
   scope_count: 3
@@ -115,16 +115,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: emerging
-  composite: 25.9
-  delta: -2.1
+  composite: 27.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 28.0
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
@@ -132,8 +132,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/screenshots/meet-2026-06-20T185127.png
 security:

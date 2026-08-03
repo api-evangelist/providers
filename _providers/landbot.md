@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: REST API for managing Landbot resources including channels, customers, customer fields, message hooks, webhooks, and WhatsApp templates. Token-based authentication using an agent token from account se
@@ -119,7 +119,7 @@ plans:
 - name: Landbot Plans Pricing
   plan_count: 6
   slug: landbot-plans-pricing
-random_paper: 2
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Landbot Rate Limits
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.8
-  delta: -6.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 45.2
@@ -135,16 +135,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 36.7
+  previous_composite: 29.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/screenshots/landbot-2026-06-20T184258.png
 security:
 - kind: domain-security

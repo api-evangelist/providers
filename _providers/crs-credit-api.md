@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Single-contract API providing access to consumer and business credit reports across major bureaus (Equifax, Experian, TransUnion). Supports soft and hard credit pulls, FICO and Vantage scoring models,
@@ -86,7 +86,7 @@ plans:
 - name: Crs Credit Api Plans Pricing
   plan_count: 3
   slug: crs-credit-api-plans-pricing
-random_paper: 55
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Crs Credit Api Rate Limits
@@ -94,7 +94,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.0
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -102,9 +102,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 24.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 22.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crs-credit-api/refs/heads/main/screenshots/crs-credit-api-2026-06-20T175259.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -611,7 +611,7 @@ plans:
 - name: Canvas Lms Plans Pricing
   plan_count: 6
   slug: canvas-lms-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Canvas Lms Rate Limits
@@ -633,15 +633,15 @@ scopes:
 score:
   band: exemplar
   composite: 71.7
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 77.4
+    contract_quality: 77.2
     developer_ergonomics: 76.1
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 74.5
+  previous_composite: 71.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -651,8 +651,8 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/screenshots/canvas-lms-2026-06-20T173931.png
 security:

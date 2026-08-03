@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-07-28'
+  score: 34.0
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Single-endpoint GraphQL API (queries, mutations and websocket subscriptions) for building display, control and monitoring apps on top of Soundtrack — now-playing, playback control, device pairing, sch
@@ -167,11 +167,11 @@ overview: 'Soundtrack Your Brand publishes 1 API on the [APIs.io](https://apis.i
 
 
   Soundtrack Your Brand''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 20 more developer resources.'
-random_paper: 26
+random_paper: 68
 score:
   band: developing
   composite: 49.7
-  delta: 7.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 63.0
@@ -179,14 +179,14 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 36.8
-  previous_composite: 42.1
+  previous_composite: 49.7
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Soundtrack Your Brand Authentication

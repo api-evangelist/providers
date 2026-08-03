@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Search for company logos and embed them in your projects
@@ -67,11 +67,11 @@ overview: 'Clearbit Logo publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Clearbit Logo''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 4
+random_paper: 81
 score:
   band: minimal
   composite: 7.8
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -79,9 +79,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 7.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbit-logo/refs/heads/main/screenshots/clearbit-logo-2026-06-20T174457.png
 security:

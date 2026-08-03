@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-07-28'
+  score: 36.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ overview: 'Virtual Peaker publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Virtual Peaker''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, changelog, and 26 more developer resources.'
-random_paper: 58
+random_paper: 27
 scopes:
 - name: Virtual Peaker Scopes
   scope_count: 3
@@ -211,16 +211,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 50.1
-  delta: 4.5
+  composite: 50.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.6
+    contract_quality: 63.4
     developer_ergonomics: 56.0
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 45.6
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,8 +237,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 74.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

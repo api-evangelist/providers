@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -234,19 +234,19 @@ overview: 'Mithril publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Mithril''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 27 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: strong
-  composite: 56.3
-  delta: -2.1
+  composite: 57.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.1
+    contract_quality: 61.0
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 58.4
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +257,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -418,7 +418,7 @@ overview: 'VA Lighthouse publishes 30 APIs on the [APIs.io](https://apis.io/) ne
 
 
   VA Lighthouse''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, support, engineering blog, and 33 more developer resources.'
-random_paper: 18
+random_paper: 22
 scopes:
 - name: Va Gov Scopes
   scope_count: 35
@@ -426,16 +426,16 @@ scopes:
   summary_line: 35 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.7
-  delta: -3.7
+  composite: 46.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 64.6
+    contract_quality: 68.7
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 49.4
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -449,8 +449,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png
 security:

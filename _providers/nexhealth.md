@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 43.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -402,19 +402,19 @@ overview: 'NexHealth publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   NexHealth''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
-random_paper: 59
+random_paper: 11
 score:
-  band: developing
-  composite: 55.7
-  delta: -6.7
+  band: strong
+  composite: 56.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.3
+    contract_quality: 71.8
     developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 62.4
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -431,9 +431,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Nexhealth Authentication

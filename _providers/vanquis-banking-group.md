@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ overview: 'Vanquis Banking Group publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Vanquis Banking Group''s developer surface includes authentication, documentation, signup flow, support, and 24 more developer resources.'
-random_paper: 20
+random_paper: 62
 scopes:
 - name: Vanquis Banking Group Scopes
   scope_count: 3
@@ -190,16 +190,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 42.4
-  delta: -2.6
+  composite: 44.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 46.2
+    contract_quality: 54.0
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 45.0
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,8 +216,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

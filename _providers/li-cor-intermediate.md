@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,23 +146,23 @@ overview: 'LI-COR Intermediate publishes 2 APIs on the [APIs.io](https://apis.io
 
 
   LI-COR Intermediate''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 16
+random_paper: 2
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Li Cor Intermediate Rate Limits
   slug: li-cor-intermediate-rate-limits
 score:
   band: thin
-  composite: 33.9
-  delta: -4.2
+  composite: 37.1
+  delta: 2.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 48.3
+    contract_quality: 52.7
     developer_ergonomics: 36.4
     discoverability: 87.0
     governance: 11.5
-    operational_transparency: 5.3
-  previous_composite: 38.1
+    operational_transparency: 26.3
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -179,8 +179,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png
 security:

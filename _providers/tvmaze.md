@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -567,9 +567,9 @@ plans:
 - name: Tvmaze Plans Pricing
   plan_count: 5
   slug: tvmaze-plans-pricing
-random_paper: 7
+random_paper: 93
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Tvmaze Rate Limits
   slug: tvmaze-rate-limits
 rules:
@@ -590,17 +590,17 @@ rules:
     warn: 7
   slug: tvmaze-rules
 score:
-  band: strong
-  composite: 63.7
-  delta: -2.8
+  band: exemplar
+  composite: 67.0
+  delta: 2.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 72.9
+    contract_quality: 75.2
     developer_ergonomics: 50.0
     discoverability: 75.9
     governance: 68.8
-    operational_transparency: 21.1
-  previous_composite: 66.5
+    operational_transparency: 42.1
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     contracts:
@@ -608,8 +608,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/screenshots/tvmaze-2026-06-20T195842.png
 security:

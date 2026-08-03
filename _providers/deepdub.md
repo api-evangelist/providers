@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -201,23 +201,23 @@ overview: 'Deepdub publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Deepdub''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 24 more developer resources.'
-random_paper: 73
+random_paper: 64
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Deepdub Rate Limits
   slug: deepdub-rate-limits
 score:
   band: developing
-  composite: 47.6
-  delta: -3.6
+  composite: 50.6
+  delta: 2.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.4
+    contract_quality: 66.5
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 5.3
-  previous_composite: 51.2
+    operational_transparency: 26.3
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +234,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/screenshots/deepdub-2026-07-25T211547.png
 security:

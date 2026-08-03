@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    idempotency: false
+    event_surface_described: true
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 54.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -537,7 +537,7 @@ plans:
 - name: Vital Io Plans Pricing
   plan_count: 4
   slug: vital-io-plans-pricing
-random_paper: 67
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Vital Io Rate Limits
@@ -561,16 +561,16 @@ rules:
   slug: vital-rules
 score:
   band: strong
-  composite: 60.3
-  delta: -6.4
+  composite: 61.1
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 71.8
+    contract_quality: 75.5
     developer_ergonomics: 71.7
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 55.3
-  previous_composite: 66.7
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     contracts:
@@ -584,9 +584,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/screenshots/vital-io-2026-06-20T201103.png
 security:
 - kind: authentication

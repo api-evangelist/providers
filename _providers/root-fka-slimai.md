@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -243,11 +243,11 @@ overview: 'Root (fka Slim.ai) publishes 20 APIs on the [APIs.io](https://apis.io
 
 
   Root (fka Slim.ai)''s developer surface includes authentication, changelog, CLI, documentation, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 11
+random_paper: 62
 score:
   band: developing
   composite: 49.9
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -255,7 +255,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 53.7
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,8 +266,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

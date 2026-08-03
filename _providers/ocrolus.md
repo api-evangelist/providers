@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-07-28'
+  score: 49.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -340,23 +340,23 @@ overview: 'Ocrolus publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ocrolus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 38 more developer resources.'
-random_paper: 37
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Ocrolus Rate Limits
   slug: ocrolus-rate-limits
 score:
   band: strong
-  composite: 59.9
-  delta: -3.8
+  composite: 60.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.4
+    contract_quality: 69.8
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 76.3
-  previous_composite: 63.7
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,8 +373,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

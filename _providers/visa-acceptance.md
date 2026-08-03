@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ plans:
 - name: Visa Acceptance Plans Pricing
   plan_count: 1
   slug: visa-acceptance-plans-pricing
-random_paper: 35
+random_paper: 86
 rate_limits:
 - limit_count: 2
   name: Visa Acceptance Rate Limits
@@ -199,16 +199,16 @@ rules:
   slug: visa-acceptance-rules
 score:
   band: developing
-  composite: 45.1
-  delta: -4.1
+  composite: 45.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.9
+    contract_quality: 71.6
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 49.2
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -222,8 +222,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/screenshots/visa-acceptance-2026-06-20T201047.png
 security:

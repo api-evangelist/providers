@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 35.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -365,9 +365,9 @@ plans:
 - name: Regal Ai Plans Pricing
   plan_count: 1
   slug: regal-ai-plans-pricing
-random_paper: 32
+random_paper: 10
 rate_limits:
-- limit_count: 0
+- limit_count: 6
   name: Regal Ai Rate Limits
   slug: regal-ai-rate-limits
 rules:
@@ -397,16 +397,16 @@ rules:
   slug: regal-rules
 score:
   band: strong
-  composite: 58.5
-  delta: -6.0
+  composite: 62.3
+  delta: 3.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 81.9
+    contract_quality: 83.2
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 58.3
-    operational_transparency: 15.8
-  previous_composite: 64.5
+    operational_transparency: 47.4
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -420,9 +420,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/screenshots/regal-ai-2026-06-20T192753.png
 security:
 - kind: authentication

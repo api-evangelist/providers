@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -450,7 +450,7 @@ plans:
 - name: Amazon Secrets Manager Plans Pricing
   plan_count: 3
   slug: amazon-secrets-manager-plans-pricing
-random_paper: 14
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Amazon Secrets Manager Rate Limits
@@ -474,16 +474,16 @@ rules:
   slug: amazon-secrets-manager-spectral-rules
 score:
   band: exemplar
-  composite: 77.1
-  delta: -1.6
+  composite: 77.7
+  delta: 0.0
   facets:
     commercial_clarity: 86.8
-    contract_quality: 72.4
+    contract_quality: 74.7
     developer_ergonomics: 71.7
     discoverability: 94.4
     governance: 80.2
     operational_transparency: 63.2
-  previous_composite: 78.7
+  previous_composite: 77.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -493,8 +493,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:

@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-07-28'
+  score: 43.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 1 API on th
 
 
   RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 39 more developer resources.'
-random_paper: 23
+random_paper: 53
 scopes:
 - name: Rics Scopes
   scope_count: 1
@@ -242,16 +242,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 34.1
-  delta: -2.8
+  composite: 36.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 32.3
+    contract_quality: 41.9
     developer_ergonomics: 21.2
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 36.9
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -262,8 +262,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

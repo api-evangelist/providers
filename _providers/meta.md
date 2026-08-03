@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -560,7 +560,7 @@ plans:
 - name: Meta Plans Pricing
   plan_count: 3
   slug: meta-plans-pricing
-random_paper: 13
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Meta Rate Limits
@@ -581,16 +581,16 @@ scopes:
   summary_line: 15 scopes · implicit
 score:
   band: exemplar
-  composite: 71.2
-  delta: -0.2
+  composite: 71.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.0
+    contract_quality: 62.2
     developer_ergonomics: 93.5
     discoverability: 74.1
     governance: 69.8
     operational_transparency: 76.3
-  previous_composite: 71.4
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -606,8 +606,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png
 security:

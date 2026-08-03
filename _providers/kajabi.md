@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 3
@@ -278,7 +278,7 @@ plans:
 - name: Kajabi Plans Pricing
   plan_count: 4
   slug: kajabi-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Kajabi Rate Limits
@@ -294,16 +294,16 @@ rules:
   slug: kajabi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: -4.3
+  composite: 47.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 75.3
+    contract_quality: 77.5
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 51.1
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -317,8 +317,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kajabi/refs/heads/main/screenshots/kajabi-2026-06-20T183859.png
 security:

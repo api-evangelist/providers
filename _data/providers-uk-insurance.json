@@ -16,14 +16,14 @@
      "slug": "beazley",
      "description": "Beazley plc is a London-headquartered specialty insurer and one of the largest managing agents at Lloyd's of London, underwriting through Lloyd's syndicates alongside US admitted and surplus lines carriers and a European company platform. Its book is specialty property and casualty — cyber and technology risks (where it is a global market leader), professional indemnity, management liability and directors and officers, marine, political risk, contingency, environmental, healthcare and property. Its home market is the United Kingdom, where there is no open-insurance mandate; the only market-wide data and API modernization effort is the Lloyd's Blueprint Two programme, and Beazley sat on the closed beta group that tested Lloyd's ACORD-based Core Data Record. Unusually for a carrier, Beazley operates a real first-party developer portal at developer.beazley.com — an Azure API Management portal with self-serve account signup, a publicly browsable catalog of 14 published APIs across nine families, sandbox environments, and machine-readable OpenAPI 3.0.1 for every one of them. The APIs are partner-and-broker oriented rather than consumer facing — risk and quote data capture into Beazley's core Record of Risk systems, broker and insured marketing data, compliance validation, currency exchange, a cyber rater, and insurance-terms reference data. Every API is behind an Azure APIM subscription key and every product carries approvalRequired, so browsing and spec download are open but actually calling the gateway requires Beazley to approve the subscription. There is no ACORD, AL3 or IVANS reference anywhere in the portal or the specs, no webhook or event catalog, no GraphQL, and no bind, issue or FNOL endpoint — bind is done by brokers through the gated myBeazley quote-and-bind portal, not through the public API surface. Beazley is subject to a recommended all-cash offer from Zurich Insurance Group announced 2 March 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png",
-     "score": 49.4,
+     "score": 52.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
       "contract_quality": 50.0,
       "governance": 11.5,
-      "operational_transparency": 5.3,
+      "operational_transparency": 36.8,
       "developer_ergonomics": 49.5,
       "commercial_clarity": 81.6
      },
@@ -200,8 +200,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 11,
-   "shown": 11,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "Ki Insurance",
@@ -616,6 +616,52 @@
      "rank": 13
     },
     {
+     "name": "Financial Conduct Authority",
+     "slug": "fca-uk",
+     "description": "The Financial Conduct Authority (FCA) is the United Kingdom's conduct regulator for around 42,000 financial services firms and the prudential regulator for most non-bank firms, operating alongside the Prudential Regulation Authority under the dual-regulation model. In insurance the FCA owns conduct regulation of general insurance and protection markets through ICOBS and the Consumer Duty, authorises and supervises insurers, Lloyd's managing agents, MGAs, brokers and appointed representatives, and publishes market-wide insurance data such as the annual General Insurance Value Measures. Its API posture is that of a regulator, not a carrier: there is no open-insurance obligation in the UK and the FCA publishes no insurance product API of its own. It does operate two genuine public APIs. The Financial Services Register API at register.fca.org.uk/services/V0.1 exposes firm, individual and fund authorisation records including insurance permissions and appointed-representative relationships; access is free and self-serve but the developer portal and its reference documentation sit behind a Salesforce registration login, and authentication is by X-Auth-Email and X-Auth-Key headers. The data publication API at api.data.fca.org.uk is an anonymous OpenSearch-style query interface over FIRDS and FITRS file artefacts, documented in the FCA's own published technical specifications — markets reference data, not insurance data. Neither API has an OpenAPI definition. Everything else the FCA publishes for the insurance market is documents and spreadsheets: the Handbook, market bulletins, consultation papers, and XLSX data releases. The FCA's Open Finance roadmap of 14 April 2026 names insurance as an in-scope sector but remains a vision document, with a formal discussion paper on the first scheme not due until Q4 2026, so no insurance data-sharing API mandate exists. No ACORD reference appears anywhere on fca.org.uk.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/screenshots/fca-uk-2026-07-25T214305.png",
+     "score": 31.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Market Bodies, Standards & Regulators",
+     "rank": 14
+    },
+    {
      "name": "Lloyd's of London",
      "slug": "lloyds-of-london",
      "description": "Lloyd's of London is the world's specialist insurance and reinsurance market, operating as a regulated marketplace rather than as a carrier: the Corporation of Lloyd's oversees syndicates, managing agents, brokers and coverholders who underwrite property, casualty, marine, aviation, energy, cyber, political risk and reinsurance business on a subscription basis from its home market in the United Kingdom. Its API posture reflects that role. Lloyd's is a standards and market-infrastructure publisher first — the Core Data Record (CDR), the Market Reform Contract (MRC), coverholder and delegated claims reporting standards, and Blueprint Two digital processing requirements — and its technical surface is aimed at brokers, syndicates and market vendors, not at outside developers. Lloyd's ran a public API Development Portal at developer.lloyds.com (the \"API Factory\", BETA from June 2020) that published a Base API Standard and a catalogue of three market APIs: Placing — Submission and Quote, Placing — Firm Order, and RPAC for delegated authority risk, premium and claims. That portal now redirects to www.lloyds.com and no replacement self-serve developer portal is published. Production access to the underlying London Market API gateway (https://api.londonmarketgroup.co.uk) has always been partner-gated: an organisation must be onboarded to LIMOSS Common Services, registered in the Common Services Azure Active Directory tenant, and register an X.509 certificate before it can call anything. There is no public, self-serve Lloyd's API, no public sandbox and no public downloadable specification reachable today — the honest record for this market body is documentation-and-standards-first. What Lloyd's does still operate, verified by live probe, is a genuine gated API estate: three isolated gateway environments (Sandbox, PreProd, Production), an OpenID Connect discovery document and JWKS published on each, and a routed Catastrophe Codes v1 endpoint whose unauthenticated /health meta resource answers 200 while its data resources return 401 \"Client certificate is missing\". Its most reusable public artifact is the Lloyd's Base API Standard — a normative RFC 2119 document fixing the resource model, query grammar, collection and error envelopes, versioning compatibility rules and the dual mutual-TLS + JWT security model for every API published to the market.",
@@ -659,78 +705,21 @@
       "dry_run_mode": false
      },
      "tier": "Market Bodies, Standards & Regulators",
-     "rank": 14
-    },
-    {
-     "name": "Financial Conduct Authority",
-     "slug": "fca-uk",
-     "description": "The Financial Conduct Authority (FCA) is the United Kingdom's conduct regulator for around 42,000 financial services firms and the prudential regulator for most non-bank firms, operating alongside the Prudential Regulation Authority under the dual-regulation model. In insurance the FCA owns conduct regulation of general insurance and protection markets through ICOBS and the Consumer Duty, authorises and supervises insurers, Lloyd's managing agents, MGAs, brokers and appointed representatives, and publishes market-wide insurance data such as the annual General Insurance Value Measures. Its API posture is that of a regulator, not a carrier: there is no open-insurance obligation in the UK and the FCA publishes no insurance product API of its own. It does operate two genuine public APIs. The Financial Services Register API at register.fca.org.uk/services/V0.1 exposes firm, individual and fund authorisation records including insurance permissions and appointed-representative relationships; access is free and self-serve but the developer portal and its reference documentation sit behind a Salesforce registration login, and authentication is by X-Auth-Email and X-Auth-Key headers. The data publication API at api.data.fca.org.uk is an anonymous OpenSearch-style query interface over FIRDS and FITRS file artefacts, documented in the FCA's own published technical specifications — markets reference data, not insurance data. Neither API has an OpenAPI definition. Everything else the FCA publishes for the insurance market is documents and spreadsheets: the Handbook, market bulletins, consultation papers, and XLSX data releases. The FCA's Open Finance roadmap of 14 April 2026 names insurance as an in-scope sector but remains a vision document, with a formal discussion paper on the first scheme not due until Q4 2026, so no insurance data-sharing API mandate exists. No ACORD reference appears anywhere on fca.org.uk.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/screenshots/fca-uk-2026-07-25T214305.png",
-     "score": 29.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 41.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Market Bodies, Standards & Regulators",
      "rank": 15
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "15–29.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 17,
-   "shown": 17,
-   "providers": [
+    },
     {
      "name": "Aviva plc",
      "slug": "aviva-plc",
      "description": "Aviva plc is the United Kingdom's largest insurer and one of the ten biggest insurance groups in Europe, listed on the London Stock Exchange and serving roughly 20 million UK customers across the UK, Ireland and Canada following completion of its acquisition of Direct Line Insurance Group on 1 July 2025. Aviva is a composite carrier rather than a single-line one: UK and Ireland general insurance (personal and commercial motor, property and liability), the UK's largest life insurance book, a growing corporate and individual health business, workplace pensions and wealth, and Aviva Investors as the asset-management arm. Aviva Canada is that market's second-largest property and casualty insurer. Aviva's API posture is that of a carrier, not a platform. It operates a real, modern developer portal at developer.aviva.co.uk — a Kong Konnect portal fronted by Aviva's own EV certificate — but the portal reports is_public false with RBAC and OIDC authentication enabled, and every content path returns HTTP 403 to an unauthenticated request. It is explicitly a partner surface: the portal's own copy describes Partners discovering, accessing and consuming Aviva Health APIs, with sandbox access granted on application and production consumption granted on approval. There is no self-serve signup, no public API reference, no downloadable OpenAPI, no public Postman workspace, no GraphQL surface and no published event catalogue. The far larger integration channel is not the portal at all: in the UK, Aviva trades with brokers through Polaris UK's imarket and its PL EDI message and code-list standards, reaching broker systems such as Acturis, Applied Systems, Open GI, Bravo and SSP, and in December 2024 Aviva became the first insurer to launch a claims API integrated directly into Acturis, pushing new and updated motor, property and liability claim records into brokers' management systems. No ACORD reference was found on any Aviva surface; the UK's standards seam here is Polaris, not ACORD. This record is therefore an honest stub: a real but partner-gated API programme with no public self-serve surface to harvest.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviva-plc/refs/heads/main/screenshots/aviva-plc-2026-07-25T201951.png",
-     "score": 26.0,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 28.4,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 77.8,
       "contract_quality": 0.0,
       "governance": 12.5,
-      "operational_transparency": 0.0,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 52.2,
       "commercial_clarity": 21.1
      },
@@ -763,7 +752,18 @@
      },
      "tier": "P&C / General Insurers",
      "rank": 16
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 16,
+   "shown": 16,
+   "providers": [
     {
      "name": "Marshmallow",
      "slug": "marshmallow",

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-07-28'
+  score: 37.4
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -131,11 +131,11 @@ overview: 'Dapta is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dapta''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 12 more developer resources.'
-random_paper: 30
+random_paper: 47
 score:
   band: thin
   composite: 41.5
-  delta: 6.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -143,12 +143,12 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 35.3
+  previous_composite: 41.5
   provenance:
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapta/refs/heads/main/screenshots/dapta-2026-07-25T211214.png
 security:
 - kind: authentication

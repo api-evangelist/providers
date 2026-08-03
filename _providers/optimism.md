@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-07-28'
+  score: 29.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Optimism Plans Pricing
   plan_count: 1
   slug: optimism-plans-pricing
-random_paper: 62
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Optimism Rate Limits
@@ -173,16 +173,16 @@ rules:
   slug: optimism-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 41.9
-  delta: -3.8
+  composite: 41.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 69.5
+    contract_quality: 68.9
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 26.3
-  previous_composite: 45.7
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -190,8 +190,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimism/refs/heads/main/screenshots/optimism-2026-06-20T191109.png
 security:

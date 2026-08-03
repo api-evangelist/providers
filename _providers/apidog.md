@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -321,7 +321,7 @@ plans:
 - name: Apidog Plans Pricing
   plan_count: 4
   slug: apidog-plans-pricing
-random_paper: 54
+random_paper: 58
 rate_limits:
 - limit_count: 7
   name: Apidog Rate Limits
@@ -345,16 +345,16 @@ rules:
   slug: apidog-rules
 score:
   band: exemplar
-  composite: 70.6
-  delta: -4.0
+  composite: 71.0
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 78.0
+    contract_quality: 79.8
     developer_ergonomics: 63.0
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 84.2
-  previous_composite: 74.6
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
     contracts:
@@ -362,8 +362,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/screenshots/apidog-2026-06-20T172233.png
 security:

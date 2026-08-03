@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The Activities API from Active Network — 1 operation(s) for activities.
@@ -147,23 +147,23 @@ overview: 'Active Network publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Active Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 65
+random_paper: 34
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Active Network Rate Limits
   slug: active-network-rate-limits
 score:
   band: developing
-  composite: 43.6
-  delta: -1.0
+  composite: 46.6
+  delta: 2.8
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.9
+    contract_quality: 62.8
     developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 11.5
-    operational_transparency: 0.0
-  previous_composite: 44.6
+    operational_transparency: 21.1
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-network/refs/heads/main/screenshots/active-network-2026-07-25T181526.png
 security:

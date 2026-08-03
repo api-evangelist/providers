@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 17
 apis:
 - description: API to retrieve or manipulate ASN related information.
@@ -168,23 +168,23 @@ overview: 'Vinculum publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Vinculum''s developer surface includes documentation, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 63
+random_paper: 28
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Vinculum Rate Limits
   slug: vinculum-rate-limits
 score:
-  band: emerging
-  composite: 26.8
-  delta: -3.0
+  band: thin
+  composite: 30.9
+  delta: 4.1
   facets:
     commercial_clarity: 10.5
     contract_quality: 32.3
     developer_ergonomics: 29.9
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 0.0
-  previous_composite: 29.8
+    operational_transparency: 31.6
+  previous_composite: 26.8
   provenance:
     conformance: derived
     contracts:
@@ -194,8 +194,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

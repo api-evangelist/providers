@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -1687,7 +1687,7 @@ plans:
 - name: Amazon Eventbridge Pipes Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-pipes-plans-pricing
-random_paper: 70
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Pipes Rate Limits
@@ -1711,16 +1711,16 @@ rules:
   slug: amazon-eventbridge-pipes-spectral-rules
 score:
   band: exemplar
-  composite: 68.2
-  delta: -5.3
+  composite: 68.6
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
-    contract_quality: 81.4
+    contract_quality: 82.9
     developer_ergonomics: 45.7
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 73.5
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1734,9 +1734,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/screenshots/amazon-eventbridge-pipes-2026-06-20T171645.png
 security:
 - kind: authentication

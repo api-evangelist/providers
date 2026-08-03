@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -729,7 +729,7 @@ overview: 'Amazon Application Discovery Service publishes 6 APIs on the [APIs.io
 
 
   Amazon Application Discovery Service''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 0
+random_paper: 80
 rules:
 - name: Amazon Application Discovery Service API Rules
   rule_count: 5
@@ -748,17 +748,17 @@ rules:
     warn: 12
   slug: amazon-application-discovery-service-spectral-rules
 score:
-  band: thin
-  composite: 36.5
-  delta: -3.8
+  band: emerging
+  composite: 27.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 70.3
+    contract_quality: 33.3
     developer_ergonomics: 10.9
     discoverability: 83.3
     governance: 69.8
     operational_transparency: 0.0
-  previous_composite: 40.3
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -768,8 +768,8 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/screenshots/amazon-application-discovery-service-2026-07-25T195925.png
 security:

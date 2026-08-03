@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: LeoLabs catalog of tracked LEO objects, their measurements, states and propagations.
@@ -147,7 +147,7 @@ overview: 'LeoLabs publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   LeoLabs'' developer surface includes documentation, signup flow, engineering blog, support, authentication, CLI, and 17 more developer resources.'
-random_paper: 45
+random_paper: 23
 scopes:
 - name: Leo Labs Scopes
   scope_count: 0
@@ -155,16 +155,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 40.0
-  delta: -4.9
+  composite: 32.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 45.5
+    contract_quality: 15.4
     developer_ergonomics: 51.6
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 44.9
+  previous_composite: 32.5
   provenance:
     conformance: derived
     contracts:
@@ -174,8 +174,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/screenshots/leo-labs-2026-07-25T224917.png
 security:

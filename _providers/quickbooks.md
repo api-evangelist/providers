@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-07-28'
+  score: 28.4
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: 'REST API for the QuickBooks Online accounting platform, exposing accounting objects such as Invoice, Customer, Payment, Bill, Vendor, Account, Item, Estimate, JournalEntry, and TaxRate over JSON with '
@@ -104,7 +104,7 @@ overview: 'QuickBooks publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   QuickBooks'' developer surface includes documentation, API reference, signup flow, pricing, and 6 more developer resources.'
-random_paper: 17
+random_paper: 38
 rules:
 - name: QuickBooks API Rules
   rule_count: 3
@@ -117,7 +117,7 @@ rules:
 score:
   band: thin
   composite: 32.6
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 50.6
@@ -125,9 +125,9 @@ score:
     discoverability: 74.1
     governance: 27.1
     operational_transparency: 5.3
-  previous_composite: 30.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 32.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickbooks/refs/heads/main/screenshots/quickbooks-2026-06-20T192434.png
 security:

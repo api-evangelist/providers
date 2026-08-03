@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -321,7 +321,7 @@ plans:
 - name: Avaloq Plans Pricing
   plan_count: 2
   slug: avaloq-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Avaloq Rate Limits
@@ -345,16 +345,16 @@ rules:
   slug: avaloq-spectral-rules
 score:
   band: developing
-  composite: 45.3
-  delta: -6.2
+  composite: 45.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 70.6
+    contract_quality: 73.1
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 51.5
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -368,9 +368,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/screenshots/avaloq-2026-06-20T172720.png
 security:
 - kind: authentication

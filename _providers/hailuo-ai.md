@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Hailuo Ai Plans Pricing
   plan_count: 4
   slug: hailuo-ai-plans-pricing
-random_paper: 69
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Hailuo Ai Rate Limits
@@ -143,16 +143,16 @@ rules:
   slug: hailuo-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: -4.4
+  composite: 49.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 31.6
-  previous_composite: 53.4
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hailuo-ai/refs/heads/main/screenshots/hailuo-ai-2026-07-25T220530.png
 security:

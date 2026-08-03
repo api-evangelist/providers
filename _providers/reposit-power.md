@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -174,19 +174,19 @@ overview: 'Reposit Power publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Reposit Power''s developer surface includes authentication, engineering blog, pricing, FAQ, support, developer portal, API reference, and 23 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: developing
-  composite: 46.7
-  delta: 1.6
+  composite: 47.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 52.5
+    contract_quality: 58.1
     developer_ergonomics: 51.6
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 45.1
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,8 +203,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

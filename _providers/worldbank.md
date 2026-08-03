@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ overview: 'World Bank publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   World Bank''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 62
+random_paper: 14
 rate_limits:
 - limit_count: 9
   name: Worldbank Rate Limits
@@ -167,16 +167,16 @@ rules:
   slug: worldbank-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.1
-  delta: -4.7
+  composite: 37.9
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 41.8
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -190,8 +190,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/screenshots/worldbank-2026-06-20T201620.png
 security:

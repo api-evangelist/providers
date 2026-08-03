@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Authenticated backend API for Verse, served at api.verse.inc over the Connect RPC protocol (gRPC-compatible; advertises Connect-Protocol-Version and Authorization headers, and OPTIONS/GET/POST/PATCH/D
@@ -68,11 +68,11 @@ name: Verse
 nav: Providers
 network: true
 overview: Verse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API, Connect RPC, gRPC, and Bessemer Portfolio.
-random_paper: 57
+random_paper: 74
 score:
   band: minimal
   composite: 9.3
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -80,9 +80,9 @@ score:
     discoverability: 79.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 10.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 9.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

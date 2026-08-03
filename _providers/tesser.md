@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-07-28'
+  score: 55.4
+  scored_at: '2026-08-03'
 api_count: 14
 apis:
 - description: The Accounts API from Tesser — 5 operation(s) for accounts.
@@ -214,19 +214,19 @@ overview: 'Tesser publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tesser''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 6
+random_paper: 92
 score:
   band: developing
-  composite: 47.2
-  delta: -3.6
+  composite: 48.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.6
+    contract_quality: 64.7
     developer_ergonomics: 78.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 50.8
+  previous_composite: 48.1
   provenance:
     conformance: derived
     contracts:
@@ -242,8 +242,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

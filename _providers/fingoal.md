@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-07-28'
+  score: 41.2
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: The Insights API's transaction enrichment endpoints enable developers to clean and enhance their transaction data. This process includes standardizing merchant names, categorizing transactions, and ad
@@ -169,7 +169,7 @@ overview: 'FinGoal publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   FinGoal''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 80
+random_paper: 71
 scopes:
 - name: Fingoal Scopes
   scope_count: 3
@@ -177,16 +177,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.1
-  delta: -4.6
+  composite: 55.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.6
+    contract_quality: 73.1
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 58.7
+  previous_composite: 55.0
   provenance:
     conformance: first-party
     contracts:
@@ -202,8 +202,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/screenshots/fingoal-2026-07-25T214520.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -124,23 +124,23 @@ plans:
 - name: Microsoft Azure Queue Storage Plans Pricing
   plan_count: 3
   slug: microsoft-azure-queue-storage-plans-pricing
-random_paper: 22
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Queue Storage Rate Limits
   slug: microsoft-azure-queue-storage-rate-limits
 score:
   band: developing
-  composite: 48.5
-  delta: -5.5
+  composite: 48.8
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 55.1
+    contract_quality: 56.6
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 54.0
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -154,9 +154,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/screenshots/microsoft-azure-queue-storage-2026-06-20T185432.png
 security:
 - kind: authentication

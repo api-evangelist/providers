@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -103,23 +103,23 @@ plans:
 - name: The Index Fyi Plans Pricing
   plan_count: 1
   slug: the-index-fyi-plans-pricing
-random_paper: 45
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: The Index Fyi Rate Limits
   slug: the-index-fyi-rate-limits
 score:
   band: thin
-  composite: 28.8
-  delta: -2.0
+  composite: 29.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.3
+    contract_quality: 62.8
     developer_ergonomics: 8.7
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 30.8
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -133,8 +133,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-index-fyi/refs/heads/main/screenshots/the-index-fyi-2026-06-20T195220.png
 security:

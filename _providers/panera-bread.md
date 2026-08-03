@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,11 +90,11 @@ press:
 - date: '2026-05-25'
   title: Panera tests automated coffee brewing system
   url: https://www.facebook.com/groups/334753240947835/posts/653552035734619/
-random_paper: 38
+random_paper: 46
 score:
   band: minimal
   composite: 10.1
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -102,9 +102,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 10.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panera-bread/refs/heads/main/screenshots/panera-bread-2026-06-20T191337.png
 security:

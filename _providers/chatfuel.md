@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: 'HTTP API for sending any block or flow from a bot to a user via a POST request, including targeting users by attribute. Rate limited to 25 requests per second per bot. Requests are authenticated with '
@@ -143,7 +143,7 @@ overview: 'Chatfuel publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Chatfuel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 24
+random_paper: 84
 rate_limits:
 - limit_count: 1
   name: Chatfuel Rate Limits
@@ -151,7 +151,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.9
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -159,7 +159,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 35.0
+  previous_composite: 35.9
   provenance:
     conformance: first-party
   regulatory:
@@ -168,8 +168,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/screenshots/chatfuel-2026-07-25T205116.png
 security:

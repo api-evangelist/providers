@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 36.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 334
   human_in_the_loop: 18
@@ -156,7 +156,7 @@ plans:
 - name: Ovh Cloud Plans Pricing
   plan_count: 3
   slug: ovh-cloud-plans-pricing
-random_paper: 11
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Ovh Cloud Rate Limits
@@ -167,17 +167,17 @@ scopes:
   slug: ovh-cloud-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.1
-  delta: -1.4
+  band: developing
+  composite: 44.6
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 40.3
+    contract_quality: 54.3
     developer_ergonomics: 17.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 42.5
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/screenshots/ovh-cloud-2026-06-20T191242.png
 security:

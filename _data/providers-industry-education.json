@@ -254,8 +254,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 15,
-   "shown": 15,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Pluralsight",
@@ -523,6 +523,44 @@
      "rank": 13
     },
     {
+     "name": "GPTZero",
+     "slug": "gptzero",
+     "description": "GPTZero is an AI content detection company whose v2 API analyzes text and uploaded documents to determine whether content was written by a human, by AI, or is a mix of both. The API returns document-, paragraph-, and sentence-level probabilities along with supporting perplexity and burstiness signals, plus asynchronous batch analysis and aggregate reporting. Authentication is via an X-API-Key header, requests are rate limited to 30,000 per hour, and API access is bundled with the Professional plan. GPTZero was surfaced as a portfolio company of Uncork Capital and has been enriched into the API Evangelist network from its public developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/screenshots/gptzero-2026-07-25T220147.png",
+     "score": 58.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 57.4,
+      "governance": 11.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 34.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 14
+    },
+    {
      "name": "SafetyCulture",
      "slug": "safetyculture",
      "description": "SafetyCulture (formerly iAuditor) is a workplace operations and safety platform used by frontline teams to run inspections, capture and track issues, assign corrective actions, manage assets and sites, deliver training, and provision users. Its public REST API at https://api.safetyculture.io exposes more than 380 documented operations across inspections, templates, assets, actions, issues, users, groups, schedules, training, credentials, and webhooks, secured with bearer API tokens (service-user and personal). Near real-time webhooks stream a rich catalog of inspection, action, incident, media, and training events, and SCIM 2.0 supports user provisioning via Microsoft Entra ID and Okta.",
@@ -557,7 +595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Thought Industries",
@@ -595,7 +633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Figshare",
@@ -633,7 +671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "360Learning",
@@ -671,7 +709,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Go1",
@@ -709,7 +747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Web of Science APIs",
@@ -747,7 +785,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
+    },
+    {
+     "name": "Teachable",
+     "slug": "teachable",
+     "description": "Teachable is an online course and coaching platform that empowers creators to build and sell educational content without technical expertise. The Teachable REST API provides programmatic access to school management capabilities including course management, user enrollment, quiz responses, and sales transaction data. The API supports two authentication patterns: a server-side Admin API using API keys and an OAuth API for third-party application integrations. API access is available on Growth and Advanced plans, with webhook support for event-driven workflows covering enrollment, lecture completion, sales, and user lifecycle events.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/screenshots/teachable-2026-06-20T194953.png",
+     "score": 56.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 71.5,
+      "governance": 58.3,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 57.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 37.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 21
     },
     {
      "name": "iSpring Learn",
@@ -785,7 +861,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Prolific",
@@ -822,7 +898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 23
     }
    ],
    "open": true
@@ -832,8 +908,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 125,
-   "shown": 125,
+   "count": 123,
+   "shown": 123,
    "providers": [
     {
      "name": "Amazon Braket",
@@ -871,45 +947,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
-    },
-    {
-     "name": "GPTZero",
-     "slug": "gptzero",
-     "description": "GPTZero is an AI content detection company whose v2 API analyzes text and uploaded documents to determine whether content was written by a human, by AI, or is a mix of both. The API returns document-, paragraph-, and sentence-level probabilities along with supporting perplexity and burstiness signals, plus asynchronous batch analysis and aggregate reporting. Authentication is via an X-API-Key header, requests are rate limited to 30,000 per hour, and API access is bundled with the Professional plan. GPTZero was surfaced as a portfolio company of Uncork Capital and has been enriched into the API Evangelist network from its public developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/screenshots/gptzero-2026-07-25T220147.png",
-     "score": 55.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 57.4,
-      "governance": 11.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 34.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Ethena",
@@ -947,7 +985,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Padlet",
@@ -984,7 +1022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Yutori",
@@ -1021,7 +1059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "TalentLMS",
@@ -1051,44 +1089,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 27
-    },
-    {
-     "name": "Teachable",
-     "slug": "teachable",
-     "description": "Teachable is an online course and coaching platform that empowers creators to build and sell educational content without technical expertise. The Teachable REST API provides programmatic access to school management capabilities including course management, user enrollment, quiz responses, and sales transaction data. The API supports two authentication patterns: a server-side Admin API using API keys and an OAuth API for third-party application integrations. API access is available on Growth and Advanced plans, with webhook support for event-driven workflows covering enrollment, lecture completion, sales, and user lifecycle events.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/screenshots/teachable-2026-06-20T194953.png",
-     "score": 53.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 71.5,
-      "governance": 58.3,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 57.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 37.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -1326,6 +1326,44 @@
      "rank": 34
     },
     {
+     "name": "Klaus",
+     "slug": "klaus",
+     "description": "Klaus is an AI-powered conversation review and quality assurance (QA) platform for customer support teams, founded in Tallinn, Estonia in 2019 and acquired by Zendesk in 2023, where it now ships as Zendesk QA. The product samples support conversations from connected help desks, scores them against configurable scorecards and rating categories, runs AutoQA checks, tracks disputes and calibration sessions, measures CSAT, and delivers coaching, quizzes and agent-performance dashboards. Klaus exposes two public REST APIs — a Public Import API for pushing conversations and users into QA from a custom help desk, and a Public Export API for pulling reviews, AutoQA ratings, CSAT, disputes, calibration sessions, scorecards, quizzes and users back out for external analysis. Both are documented as Swagger 2.0 specifications at pub.klausapp.com and authenticated with a bearer API token issued from a Zendesk QA custom integration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/screenshots/klaus-2026-07-25T223939.png",
+     "score": 52.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 32.3,
+      "governance": 11.5,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 43.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 35
+    },
+    {
      "name": "WorldCat",
      "slug": "worldcat",
      "description": "OCLC WorldCat REST API for searching 500 million+ library holdings worldwide, accessing bibliographic records, finding library locations, and retrieving rich metadata for books, videos, music, and other media. Provides access to the WorldCat Search API, WorldCat Metadata API, WorldCat Knowledge Base API, and WorldCat Entities data API for libraries and developers building discovery and cataloging applications.",
@@ -1361,7 +1399,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Morningstar",
@@ -1406,7 +1444,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Semantic Scholar",
@@ -1444,7 +1482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "PowerSchool",
@@ -1482,7 +1520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Codesignal",
@@ -1520,7 +1558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Starbridge",
@@ -1564,7 +1602,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Epignosis (TalentLMS, eFront, TalentCards)",
@@ -1602,7 +1640,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Crossref",
@@ -1640,7 +1678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "JupyterHub",
@@ -1678,7 +1716,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Clever",
@@ -1716,7 +1754,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "JupyterHub",
@@ -1754,7 +1792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Gutendex",
@@ -1792,7 +1830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Onecli",
@@ -1829,7 +1867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Prosci",
@@ -1866,7 +1904,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Google Books",
@@ -1904,7 +1942,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Kombo",
@@ -1942,7 +1980,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Dryad",
@@ -1980,7 +2018,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "NASA APOD",
@@ -2025,7 +2063,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Instructure",
@@ -2063,7 +2101,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "Smithsonian Institution",
@@ -2101,7 +2139,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Zenodo",
@@ -2146,7 +2184,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Unpaywall",
@@ -2184,7 +2222,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "ISBNdb",
@@ -2218,44 +2256,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "Klaus",
-     "slug": "klaus",
-     "description": "Klaus is an AI-powered conversation review and quality assurance (QA) platform for customer support teams, founded in Tallinn, Estonia in 2019 and acquired by Zendesk in 2023, where it now ships as Zendesk QA. The product samples support conversations from connected help desks, scores them against configurable scorecards and rating categories, runs AutoQA checks, tracks disputes and calibration sessions, measures CSAT, and delivers coaching, quizzes and agent-performance dashboards. Klaus exposes two public REST APIs — a Public Import API for pushing conversations and users into QA from a custom help desk, and a Public Export API for pulling reviews, AutoQA ratings, CSAT, disputes, calibration sessions, scorecards, quizzes and users back out for external analysis. Both are documented as Swagger 2.0 specifications at pub.klausapp.com and authenticated with a bearer API token issued from a Zendesk QA custom integration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/screenshots/klaus-2026-07-25T223939.png",
-     "score": 48.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 32.3,
-      "governance": 11.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 43.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -2535,6 +2535,44 @@
      "rank": 65
     },
     {
+     "name": "Learnosity",
+     "slug": "learnosity",
+     "description": "Learnosity is an Irish-founded assessment infrastructure company whose APIs are embedded into other companies' learning products rather than sold as a finished platform. The surface is split in two: a family of versioned client-side JavaScript APIs - Items, Assess, Questions, Question Editor, Author, Author Aide, Annotations, Events, Reports, Grading, Rubric Editor and Feedback Aide - that render assessment, authoring, grading and reporting experiences inside a host application, and a server-side Data API for Item bank content, learner sessions, responses, scoring, jobs, reports and consumer administration. Learnosity is explicitly not a REST API: every Data API call is an HTTP POST whose operation is chosen by an `action` parameter, and every request across every API carries an HMAC-SHA256 signed `security` object generated server-side by one of six official SDKs. Versions ship on a dated Long Term Support train (vYYYY.X.LTS) pinned in the URL, with regional endpoints in Virginia, Dublin, Sydney, California and Oregon.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/screenshots/learnosity-2026-07-25T224755.png",
+     "score": 47.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 22.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 66
+    },
+    {
      "name": "ZotGPT (UC Irvine)",
      "slug": "zotgpt",
      "description": "ZotGPT is the University of California, Irvine's institutionally-operated generative AI platform, built and run in-house by the UCI Office of Information Technology AI Team rather than purchased as a vendor seat. Launched to faculty and staff in early 2024 and to students in April 2024, it now spans four end-user products (Chat, ClassChat, Creator, Prompt Library), a training arm (Academy), and two generations of developer API. The platform is deliberately multi-cloud and multi-model: the interactive applications run on UC Irvine's own AWS accounts in us-west-2 behind Shibboleth SSO, the first-generation developer API was fronted by Azure API Management, and models are sourced across OpenAI, Anthropic (via AWS Bedrock), Google, Azure, and open-source options such as Mistral and DeepSeek. The deprecated Azure-managed API at api.zotgpt.uci.edu is being retired in favor of the ZotGPT Gateway, a Portkey-specification unified AI gateway that gives the campus one endpoint, virtual API keys, per-key spend limits, and provider-agnostic model routing. Data is held under UC Irvine's P3 protection standard, retained 12 months, and contractually excluded from vendor model training.",
@@ -2569,7 +2607,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "University of Hong Kong",
@@ -2607,7 +2645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Children's Hospital of Philadelphia",
@@ -2652,7 +2690,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "ORCID",
@@ -2690,7 +2728,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Sana",
@@ -2727,7 +2765,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
+    },
+    {
+     "name": "Cloud Academy",
+     "slug": "cloud-academy",
+     "description": "Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines. Its public REST API lets enterprise administrators integrate the platform with internal business systems — browsing the content catalog, managing organization teams and members, and generating asynchronous reports on learner activity, progress, and skills. Authentication is OAuth2 client-credentials and the public API is rate-limited to 100 requests per minute. Cloud Academy was surfaced as a 500 Global portfolio company and enriched into the API Evangelist network from its live Swagger definition.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/screenshots/cloud-academy-2026-07-25T205650.png",
+     "score": 46.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 32.3,
+      "governance": 11.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 38.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 72
     },
     {
      "name": "Skilljar",
@@ -2764,7 +2840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 73
     },
     {
      "name": "University of the Witwatersrand",
@@ -2808,7 +2884,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 74
     },
     {
      "name": "Europeana",
@@ -2846,7 +2922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "San Francisco Compute Company",
@@ -2884,7 +2960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "University of Canterbury",
@@ -2929,7 +3005,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 77
     },
     {
      "name": "Incident IQ",
@@ -2967,7 +3043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 78
     },
     {
      "name": "UCL",
@@ -3012,7 +3088,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "Harbin Institute of Technology",
@@ -3050,7 +3126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 80
     },
     {
      "name": "Library of Congress",
@@ -3095,7 +3171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 81
     },
     {
      "name": "University of Adelaide",
@@ -3140,7 +3216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 82
     },
     {
      "name": "VidGrid",
@@ -3177,7 +3253,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 83
     },
     {
      "name": "Canvas",
@@ -3215,7 +3291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 84
     },
     {
      "name": "New York Public Library What's On The Menu",
@@ -3260,7 +3336,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 85
     },
     {
      "name": "Application Research",
@@ -3298,7 +3374,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 86
     },
     {
      "name": "IEEE Xplore",
@@ -3336,7 +3412,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 87
     },
     {
      "name": "King's College London",
@@ -3381,7 +3457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 88
     },
     {
      "name": "UCSC Genomic Data",
@@ -3419,7 +3495,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 89
     },
     {
      "name": "Loughborough University",
@@ -3457,7 +3533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 90
     },
     {
      "name": "CodeCombat",
@@ -3495,7 +3571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "Wageningen University & Research",
@@ -3540,7 +3616,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 92
     },
     {
      "name": "CareAcademy",
@@ -3584,7 +3660,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 93
     },
     {
      "name": "Carnegie Mellon University",
@@ -3629,7 +3705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 94
     },
     {
      "name": "Deakin University",
@@ -3674,7 +3750,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 95
     },
     {
      "name": "Tavily",
@@ -3712,7 +3788,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 96
     },
     {
      "name": "University of Rochester",
@@ -3757,7 +3833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 97
     },
     {
      "name": "University of Auckland",
@@ -3802,7 +3878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 98
     },
     {
      "name": "Sigma-Aldrich",
@@ -3840,7 +3916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 99
     },
     {
      "name": "DataCite",
@@ -3878,7 +3954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 100
     },
     {
      "name": "ETH Zurich – Swiss Federal Institute of Technology",
@@ -3923,7 +3999,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 101
     },
     {
      "name": "RMIT University",
@@ -3961,7 +4037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 102
     },
     {
      "name": "Clarivate",
@@ -4006,7 +4082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 103
     },
     {
      "name": "Elsevier",
@@ -4051,7 +4127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 104
     },
     {
      "name": "University of Sheffield",
@@ -4089,7 +4165,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 105
     },
     {
      "name": "Biodock",
@@ -4134,7 +4210,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 106
     },
     {
      "name": "Dog CEO",
@@ -4172,7 +4248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 107
     },
     {
      "name": "Hamad Bin Khalifa University",
@@ -4210,7 +4286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 108
     },
     {
      "name": "Macquarie University",
@@ -4248,7 +4324,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 109
     },
     {
      "name": "Taylor's University",
@@ -4293,7 +4369,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 110
     },
     {
      "name": "Johns Hopkins University",
@@ -4331,7 +4407,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 111
     },
     {
      "name": "Stockholm University",
@@ -4369,7 +4445,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 112
     },
     {
      "name": "University of Warsaw",
@@ -4414,7 +4490,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 113
     },
     {
      "name": "Smithsonian Institution",
@@ -4459,7 +4535,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 114
     },
     {
      "name": "University of Calgary",
@@ -4504,7 +4580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 115
     },
     {
      "name": "University of California, San Diego",
@@ -4542,7 +4618,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 116
     },
     {
      "name": "Erasmus University Rotterdam",
@@ -4580,7 +4656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 117
     },
     {
      "name": "University of Amsterdam",
@@ -4625,7 +4701,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 118
     },
     {
      "name": "University of Newcastle Australia",
@@ -4663,7 +4739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 119
     },
     {
      "name": "University of Western Australia",
@@ -4701,7 +4777,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 120
     },
     {
      "name": "Department of Education",
@@ -4746,45 +4822,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
-    },
-    {
-     "name": "Learnosity",
-     "slug": "learnosity",
-     "description": "Learnosity is an Irish-founded assessment infrastructure company whose APIs are embedded into other companies' learning products rather than sold as a finished platform. The surface is split in two: a family of versioned client-side JavaScript APIs - Items, Assess, Questions, Question Editor, Author, Author Aide, Annotations, Events, Reports, Grading, Rubric Editor and Feedback Aide - that render assessment, authoring, grading and reporting experiences inside a host application, and a server-side Data API for Item bank content, learner sessions, responses, scoring, jobs, reports and consumer administration. Learnosity is explicitly not a REST API: every Data API call is an HTTP POST whose operation is chosen by an `action` parameter, and every request across every API carries an HMAC-SHA256 signed `security` object generated server-side by one of six official SDKs. Versions ship on a dated Long Term Support train (vYYYY.X.LTS) pinned in the URL, with regional endpoints in Virginia, Dublin, Sydney, California and Oregon.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/screenshots/learnosity-2026-07-25T224755.png",
-     "score": 43.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "National Institutes of Health (NIH)",
@@ -4829,7 +4867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "University of Cambridge",
@@ -4867,7 +4905,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "University College Dublin",
@@ -4904,7 +4942,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Class (fka ClassEDU)",
@@ -4942,7 +4980,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Numbers API",
@@ -4980,7 +5018,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 126
     },
     {
      "name": "Pennsylvania State University",
@@ -5018,7 +5056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 127
     },
     {
      "name": "University of Bristol",
@@ -5063,7 +5101,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 128
     },
     {
      "name": "Conversica",
@@ -5107,7 +5145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 129
     },
     {
      "name": "Hacware",
@@ -5145,7 +5183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "Hong Kong Baptist University",
@@ -5183,7 +5221,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "Synthesia",
@@ -5221,7 +5259,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "University of Basel",
@@ -5259,7 +5297,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "University of Waterloo",
@@ -5304,7 +5342,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "City University of Hong Kong",
@@ -5342,7 +5380,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Emory University",
@@ -5380,7 +5418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "King Fahd University of Petroleum & Minerals",
@@ -5418,7 +5456,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Leo1",
@@ -5463,7 +5501,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "National University of Singapore",
@@ -5501,7 +5539,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Cardiff University",
@@ -5541,44 +5579,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 139
-    },
-    {
-     "name": "Cloud Academy",
-     "slug": "cloud-academy",
-     "description": "Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines. Its public REST API lets enterprise administrators integrate the platform with internal business systems — browsing the content catalog, managing organization teams and members, and generating asynchronous reports on learner activity, progress, and skills. Authentication is OAuth2 client-credentials and the public API is rate-limited to 100 requests per minute. Cloud Academy was surfaced as a 500 Global portfolio company and enriched into the API Evangelist network from its live Swagger definition.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/screenshots/cloud-academy-2026-07-25T205650.png",
-     "score": 42.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 32.3,
-      "governance": 11.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 38.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -5828,8 +5828,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 191,
-   "shown": 191,
+   "count": 190,
+   "shown": 190,
    "providers": [
     {
      "name": "Lens",
@@ -9032,6 +9032,44 @@
      "rank": 224
     },
     {
+     "name": "ClassLink",
+     "slug": "classlink",
+     "description": "ClassLink is an EdTech identity and access management platform purpose-built for K-12 school districts, providing single sign-on (SSO) to over 6,000 digital learning resources through its LaunchPad portal. The platform offers a OneRoster-compliant REST API for secure rostering and student data exchange, enabling automated provisioning and synchronization between student information systems and educational applications. ClassLink OneSync handles identity management and account provisioning integrations with any SIS, while Roster Server facilitates standards-based data sharing using OAuth 1.0 and OAuth 2.0. The Analytics and Analytics+ products expose usage telemetry APIs that help district administrators track edtech engagement and license utilization across all devices. ClassLink maintains open developer resources including multi-language request libraries (C#, Java, JavaScript, PHP, Ruby, Python, Go) on GitHub and a partner developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/classlink/refs/heads/main/screenshots/classlink-2026-06-20T174447.png",
+     "score": 37.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 45.2,
+      "governance": 0.0,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 57.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 225
+    },
+    {
      "name": "Imperial College London",
      "slug": "imperial-college-london",
      "description": "Imperial College London is a UK public research university (QS World 2025 #2) specializing in science, engineering, medicine, and business. Its public developer footprint is infrastructure-oriented rather than a published API program: the institution operates a large GitHub organization for staff and student code, the Spiral open-access research repository (DSpace-CRIS), an Ex Libris Primo/Alma library discovery system, and Shibboleth/SAML federated identity. Imperial does not publish a first-party, self-service developer portal with open REST endpoints; most machine-accessible interfaces are protocol-standard (OAI-PMH, SAML), vendor-hosted, or require institutional authentication.",
@@ -9067,7 +9105,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 226
     },
     {
      "name": "World Bank",
@@ -9112,7 +9150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 227
     },
     {
      "name": "Georgia Institute of Technology",
@@ -9157,7 +9195,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 228
     },
     {
      "name": "TU Dresden",
@@ -9202,7 +9240,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 229
+    },
+    {
+     "name": "Galxe",
+     "slug": "galxe",
+     "description": "Galxe is a decentralized super app and one of web3's largest onchain distribution platforms, serving 14M+ Galxe ID users across a product suite of Quest, Passport, Score, Compass, and the Galxe Identity Protocol. For developers, Galxe exposes a public Integration GraphQL API (https://graphigo-business.prd.galaxy.eco/query) to query credentials, quests, spaces, loyalty-points leaderboards, and Starboard social metrics, plus a Credential API for pushing eligibility data, \"Sign in with Galxe\" OAuth 2.0 for identity, and a TypeScript SDK for the zero-knowledge Galxe Identity Protocol. API access uses a dashboard-issued access-token header with per-second rate limits and monthly quotas. Originally surfaced as a portfolio company of Multicoin Capital and enriched from Galxe's public developer documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/galxe/refs/heads/main/screenshots/galxe-2026-07-25T215406.png",
+     "score": 37.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 55.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 23.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 230
     },
     {
      "name": "Maastricht University",
@@ -9247,7 +9323,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 229
+     "rank": 231
     },
     {
      "name": "Polar",
@@ -9292,7 +9368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 232
     },
     {
      "name": "Forithmus",
@@ -9330,7 +9406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 233
     },
     {
      "name": "LearnWorlds",
@@ -9368,7 +9444,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 234
     },
     {
      "name": "Docebo",
@@ -9406,7 +9482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 235
     },
     {
      "name": "National University of Colombia",
@@ -9450,7 +9526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 236
     },
     {
      "name": "Purdue University",
@@ -9495,7 +9571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 237
     },
     {
      "name": "University of York",
@@ -9533,7 +9609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 238
     },
     {
      "name": "Arist",
@@ -9577,7 +9653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 239
     },
     {
      "name": "University of California, Davis",
@@ -9622,7 +9698,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 240
     },
     {
      "name": "Nanyang Technological University",
@@ -9667,7 +9743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 241
     },
     {
      "name": "You.com",
@@ -9704,7 +9780,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 242
     },
     {
      "name": "La Trobe University",
@@ -9749,7 +9825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 243
     },
     {
      "name": "Retrofit",
@@ -9787,7 +9863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 244
     },
     {
      "name": "University of British Columbia",
@@ -9832,7 +9908,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 243
+     "rank": 245
     },
     {
      "name": "University of Birmingham",
@@ -9877,7 +9953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 246
     },
     {
      "name": "University of Washington",
@@ -9922,7 +9998,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 247
     },
     {
      "name": "itslearning",
@@ -9960,7 +10036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 248
     },
     {
      "name": "National Cancer Institute",
@@ -10005,7 +10081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 249
     },
     {
      "name": "TutorCruncher",
@@ -10049,7 +10125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 250
     },
     {
      "name": "Vector Solutions",
@@ -10086,7 +10162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 251
     },
     {
      "name": "Uplimit",
@@ -10123,7 +10199,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 252
     },
     {
      "name": "National Tsing Hua University",
@@ -10168,7 +10244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 253
     },
     {
      "name": "University of North Carolina at Chapel Hill",
@@ -10213,7 +10289,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 252
+     "rank": 254
     },
     {
      "name": "Digital Public Library of America",
@@ -10257,7 +10333,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 255
     },
     {
      "name": "Newcastle University",
@@ -10302,7 +10378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 256
     },
     {
      "name": "Badgr",
@@ -10340,7 +10416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 257
     },
     {
      "name": "Cancer.gov",
@@ -10385,7 +10461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 258
     },
     {
      "name": "University of Maryland College Park",
@@ -10430,7 +10506,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 259
     },
     {
      "name": "Uteach, Inc.",
@@ -10467,7 +10543,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 260
     },
     {
      "name": "KU Leuven",
@@ -10512,7 +10588,52 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 259
+     "rank": 261
+    },
+    {
+     "name": "STRING",
+     "slug": "string-db",
+     "description": "STRING is a protein-protein interaction network database providing scored associations between proteins across thousands of organisms. The REST API enables programmatic access to interaction scores, network visualizations, functional enrichment analysis, homology data, and protein annotations. STRING integrates data from genomic context, co-expression, text mining, biochemical and genetic experiments, and curated databases.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/screenshots/string-db-2026-06-20T194621.png",
+     "score": 36.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 53.2,
+      "governance": 58.3,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 18.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 262
     },
     {
      "name": "bioRxiv",
@@ -10557,7 +10678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 263
     },
     {
      "name": "KPMG",
@@ -10595,7 +10716,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 264
     },
     {
      "name": "University of Cape Town",
@@ -10640,7 +10761,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 265
     },
     {
      "name": "Xiaoe (小鹅通)",
@@ -10677,7 +10798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 266
     },
     {
      "name": "Yanyin Technology",
@@ -10721,7 +10842,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 267
     },
     {
      "name": "Sana",
@@ -10758,7 +10879,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 268
     },
     {
      "name": "Fatcat",
@@ -10795,7 +10916,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 269
     },
     {
      "name": "Indian Institute of Technology Kanpur",
@@ -10833,7 +10954,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 270
     },
     {
      "name": "Citation File Format",
@@ -10871,45 +10992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
-    },
-    {
-     "name": "ClassLink",
-     "slug": "classlink",
-     "description": "ClassLink is an EdTech identity and access management platform purpose-built for K-12 school districts, providing single sign-on (SSO) to over 6,000 digital learning resources through its LaunchPad portal. The platform offers a OneRoster-compliant REST API for secure rostering and student data exchange, enabling automated provisioning and synchronization between student information systems and educational applications. ClassLink OneSync handles identity management and account provisioning integrations with any SIS, while Roster Server facilitates standards-based data sharing using OAuth 1.0 and OAuth 2.0. The Analytics and Analytics+ products expose usage telemetry APIs that help district administrators track edtech engagement and license utilization across all devices. ClassLink maintains open developer resources including multi-language request libraries (C#, Java, JavaScript, PHP, Ruby, Python, Go) on GitHub and a partner developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/classlink/refs/heads/main/screenshots/classlink-2026-06-20T174447.png",
-     "score": 35.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 45.2,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 57.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 269
+     "rank": 271
     },
     {
      "name": "University of Pennsylvania",
@@ -10954,51 +11037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
-    },
-    {
-     "name": "Colossal Biosciences",
-     "slug": "colossal-biosciences",
-     "description": "Colossal Biosciences is a Dallas, Texas based de-extinction and species-preservation biotechnology company founded in 2021 by Ben Lamm and Harvard geneticist George Church. It applies ancient-DNA sequencing, comparative genomics, CRISPR multiplex genome editing, cloning and artificial-womb research to restoring extinct keystone species — the woolly mammoth, thylacine, dodo, moa, dire wolf and blue buck among them — and to conserving critically endangered living species. Colossal spun out the computational life-sciences platform Form Bio, runs the non-profit Colossal Foundation, and publishes its research code through the colossal-compsci GitHub organization. Colossal publishes no product or developer API; the machine-readable surface on colossal.com is the WordPress REST API (wp/v2) that serves the company newsroom, pages, media and site search as JSON, plus a WordPress MCP Adapter endpoint that is present but authentication-gated.",
-     "score": 35.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 56.6,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 38.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 271
+     "rank": 272
     },
     {
      "name": "Patlytics",
@@ -11035,7 +11074,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 273
     },
     {
      "name": "Acadia",
@@ -11068,44 +11107,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 273
-    },
-    {
-     "name": "Galxe",
-     "slug": "galxe",
-     "description": "Galxe is a decentralized super app and one of web3's largest onchain distribution platforms, serving 14M+ Galxe ID users across a product suite of Quest, Passport, Score, Compass, and the Galxe Identity Protocol. For developers, Galxe exposes a public Integration GraphQL API (https://graphigo-business.prd.galaxy.eco/query) to query credentials, quests, spaces, loyalty-points leaderboards, and Starboard social metrics, plus a Credential API for pushing eligibility data, \"Sign in with Galxe\" OAuth 2.0 for identity, and a TypeScript SDK for the zero-knowledge Galxe Identity Protocol. API access uses a dashboard-issued access-token header with per-second rate limits and monthly quotas. Originally surfaced as a portfolio company of Multicoin Capital and enriched from Galxe's public developer documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/galxe/refs/heads/main/screenshots/galxe-2026-07-25T215406.png",
-     "score": 35.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 60.3,
-      "commercial_clarity": 55.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 23.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -11604,51 +11605,6 @@
      "rank": 286
     },
     {
-     "name": "STRING",
-     "slug": "string-db",
-     "description": "STRING is a protein-protein interaction network database providing scored associations between proteins across thousands of organisms. The REST API enables programmatic access to interaction scores, network visualizations, functional enrichment analysis, homology data, and protein annotations. STRING integrates data from genomic context, co-expression, text mining, biochemical and genetic experiments, and curated databases.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/screenshots/string-db-2026-06-20T194621.png",
-     "score": 33.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 53.2,
-      "governance": 58.3,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 18.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 287
-    },
-    {
      "name": "UCLouvain",
      "slug": "uclouvain",
      "description": "UCLouvain (Universite catholique de Louvain) is Belgium's largest French-speaking university, based in Louvain-la-Neuve, and is ranked #203 in the QS World University Rankings 2025. Its public, machine-readable footprint is concentrated in open science and library infrastructure rather than a single unified developer portal: the institution operates an institutional Dataverse open-data repository and the DIAL (Digital Access to Libraries) institutional repository, both of which expose standards-based APIs (Dataverse Native/Search API and OAI-PMH metadata harvesting). UCLouvain also maintains a public GitHub organization and originated the open-source OSIS (Open Student Information System) project. No single gated, key-issuing developer portal was confirmed at the time of review.",
@@ -11691,7 +11647,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "Bigtincan",
@@ -11729,7 +11685,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "Handshake",
@@ -11767,7 +11723,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "Salesgraph",
@@ -11804,7 +11760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 291
+     "rank": 290
     },
     {
      "name": "Showpad",
@@ -11842,7 +11798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 292
+     "rank": 291
     },
     {
      "name": "Wyzant",
@@ -11879,7 +11835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 293
+     "rank": 292
     },
     {
      "name": "National Science Foundation",
@@ -11917,7 +11873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 294
+     "rank": 293
     },
     {
      "name": "Open Library",
@@ -11962,7 +11918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "National Institute of Standards and Technology (NIST)",
@@ -12007,7 +11963,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "PageUp People",
@@ -12044,7 +12000,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "Turnitin",
@@ -12081,7 +12037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "Desmos",
@@ -12119,7 +12075,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "University of Chile",
@@ -12164,7 +12120,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "Fluidstack",
@@ -12202,7 +12158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "Project Gutenberg",
@@ -12240,7 +12196,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Goodfire",
@@ -12278,7 +12234,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Université de Montréal",
@@ -12323,7 +12279,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Knight Frank",
@@ -12367,7 +12323,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "RCSB PDB",
@@ -12412,7 +12368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "SCORM",
@@ -12450,7 +12406,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 307
+     "rank": 306
     },
     {
      "name": "WorkRamp",
@@ -12488,7 +12444,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 308
+     "rank": 307
     },
     {
      "name": "Spare Payments",
@@ -12532,7 +12488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "Highspot",
@@ -12570,7 +12526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 310
+     "rank": 309
     },
     {
      "name": "National Renewable Energy Laboratory",
@@ -12614,7 +12570,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 311
+     "rank": 310
     },
     {
      "name": "Preply",
@@ -12651,7 +12607,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 312
+     "rank": 311
     },
     {
      "name": "ClinicalTrials.gov",
@@ -12696,7 +12652,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 313
+     "rank": 312
     },
     {
      "name": "Domestika",
@@ -12734,7 +12690,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 314
+     "rank": 313
     },
     {
      "name": "Revyze",
@@ -12771,7 +12727,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 315
+     "rank": 314
     },
     {
      "name": "National Institutes of Health",
@@ -12816,7 +12772,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 316
+     "rank": 315
     },
     {
      "name": "Schoology",
@@ -12853,7 +12809,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 317
+     "rank": 316
     },
     {
      "name": "Articulate",
@@ -12891,7 +12847,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 318
+     "rank": 317
     },
     {
      "name": "Boosted.ai",
@@ -12929,7 +12885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 319
+     "rank": 318
     },
     {
      "name": "National Library of Medicine",
@@ -12974,7 +12930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 320
+     "rank": 319
     },
     {
      "name": "Scott Foresman",
@@ -13012,7 +12968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 321
+     "rank": 320
     },
     {
      "name": "LearnPlatform",
@@ -13050,7 +13006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 322
+     "rank": 321
     },
     {
      "name": "AmazingTalker",
@@ -13088,7 +13044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 323
+     "rank": 322
     },
     {
      "name": "Edools",
@@ -13126,7 +13082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 324
+     "rank": 323
     },
     {
      "name": "Coursera",
@@ -13164,7 +13120,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 325
+     "rank": 324
     },
     {
      "name": "Openpath",
@@ -13201,7 +13157,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 326
+     "rank": 325
     },
     {
      "name": "Remnote",
@@ -13238,7 +13194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 327
+     "rank": 326
     },
     {
      "name": "Taylor & Francis",
@@ -13276,7 +13232,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 328
+     "rank": 327
     },
     {
      "name": "Udemy",
@@ -13314,7 +13270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 329
+     "rank": 328
     },
     {
      "name": "ACM Digital Library",
@@ -13352,7 +13308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 330
+     "rank": 329
     },
     {
      "name": "Mainstay",
@@ -13397,7 +13353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 331
+     "rank": 330
     },
     {
      "name": "Blackboard",
@@ -13435,7 +13391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 332
+     "rank": 331
     },
     {
      "name": "Knewton",
@@ -13473,7 +13429,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 333
+     "rank": 332
     },
     {
      "name": "OpenCitations",
@@ -13511,7 +13467,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 334
+     "rank": 333
     },
     {
      "name": "TIAA-CREF",
@@ -13556,7 +13512,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 335
+     "rank": 334
     },
     {
      "name": "Kyushu University",
@@ -13594,7 +13550,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 336
+     "rank": 335
     },
     {
      "name": "Packback",
@@ -13631,7 +13587,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 337
+     "rank": 336
     }
    ]
   },
@@ -13640,8 +13596,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 394,
-   "shown": 394,
+   "count": 395,
+   "shown": 395,
    "providers": [
     {
      "name": "Indian Institute of Technology Bombay",
@@ -13679,7 +13635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 338
+     "rank": 337
     },
     {
      "name": "Gradescope",
@@ -13717,7 +13673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 339
+     "rank": 338
     },
     {
      "name": "Labster",
@@ -13755,7 +13711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 340
+     "rank": 339
     },
     {
      "name": "Microsoft Viva",
@@ -13793,7 +13749,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 341
+     "rank": 340
     },
     {
      "name": "Class Technologies",
@@ -13831,7 +13787,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 342
+     "rank": 341
     },
     {
      "name": "CodePen",
@@ -13869,7 +13825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 343
+     "rank": 342
     },
     {
      "name": "Aalto University",
@@ -13914,7 +13870,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 344
+     "rank": 343
     },
     {
      "name": "Class",
@@ -13952,7 +13908,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 345
+     "rank": 344
     },
     {
      "name": "Envisagenow",
@@ -13997,7 +13953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 346
+     "rank": 345
     },
     {
      "name": "Oddcast",
@@ -14041,7 +13997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 347
+     "rank": 346
     },
     {
      "name": "Turnitin (iParadigms)",
@@ -14078,7 +14034,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 348
+     "rank": 347
     },
     {
      "name": "Khan Academy",
@@ -14116,7 +14072,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 349
+     "rank": 348
     },
     {
      "name": "Absorb LMS",
@@ -14154,7 +14110,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 350
+     "rank": 349
     },
     {
      "name": "OverDrive",
@@ -14191,7 +14147,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 351
+     "rank": 350
     },
     {
      "name": "University of Macau",
@@ -14236,7 +14192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 352
+     "rank": 351
     },
     {
      "name": "Unruly Studios",
@@ -14273,7 +14229,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 353
+     "rank": 352
     },
     {
      "name": "DistillerSR",
@@ -14318,7 +14274,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 354
+     "rank": 353
     },
     {
      "name": "Delft University of Technology",
@@ -14362,7 +14318,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 355
+     "rank": 354
     },
     {
      "name": "McKinsey & Company",
@@ -14399,7 +14355,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 356
+     "rank": 355
     },
     {
      "name": "Riiid",
@@ -14436,7 +14392,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 357
+     "rank": 356
     },
     {
      "name": "Apache Log4j",
@@ -14469,6 +14425,50 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 357
+    },
+    {
+     "name": "Colossal Biosciences",
+     "slug": "colossal-biosciences",
+     "description": "Colossal Biosciences is a Dallas, Texas based de-extinction and species-preservation biotechnology company founded in 2021 by Ben Lamm and Harvard geneticist George Church. It applies ancient-DNA sequencing, comparative genomics, CRISPR multiplex genome editing, cloning and artificial-womb research to restoring extinct keystone species — the woolly mammoth, thylacine, dodo, moa, dire wolf and blue buck among them — and to conserving critically endangered living species. Colossal spun out the computational life-sciences platform Form Bio, runs the non-profit Colossal Foundation, and publishes its research code through the colossal-compsci GitHub organization. Colossal publishes no product or developer API; the machine-readable surface on colossal.com is the WordPress REST API (wp/v2) that serves the company newsroom, pages, media and site search as JSON, plus a WordPress MCP Adapter endpoint that is present but authentication-gated.",
+     "score": 25.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 15.1,
+      "governance": 3.1,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -15839,6 +15839,43 @@
      "rank": 392
     },
     {
+     "name": "Lamina Labs",
+     "slug": "lamina-labs",
+     "description": "Lamina Labs is a San Francisco company (Y Combinator Spring 2026) building near-real-time video infrastructure for large language models. Its flagship product, Simi, turns prompts, documents, and AI-generated answers into whiteboard-style teaching videos in seconds, handling script writing, illustration, animation, and narration automatically, for durations from one minute to an hour and in over 80 languages. The company targets training, onboarding, product walkthroughs, sales, marketing, and educational use cases, with the stated goal of making video the default interface for AI communication. Lamina exposes Simi to agents through a public remote MCP server at https://api.laminalabs.ai/mcp, secured by an OAuth 2.1-style authorization server with PKCE, dynamic client registration, and job-scoped access tokens.",
+     "score": 22.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 33.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 393
+    },
+    {
      "name": "Technical University of Darmstadt",
      "slug": "technical-university-of-darmstadt",
      "description": "The Technical University of Darmstadt (Technische Universitat Darmstadt, TU Darmstadt) is a public research university in Darmstadt, Germany, ranked #241 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on the university and state library (ULB) scholarly infrastructure rather than a central developer portal. TUdatalib, the institutional research-data repository, runs DSpace 8.1 and exposes a live REST API and an OAI-PMH 2.0 metadata interface; the TUbiblio publication bibliography and the tuprints open-access repository run on EPrints with OAI-PMH harvesting. Authentication across university services is handled through a central SSO system operated by the Hochschulrechenzentrum (HRZ).",
@@ -15874,7 +15911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 393
+     "rank": 394
     },
     {
      "name": "University of Barcelona",
@@ -15918,7 +15955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 394
+     "rank": 395
     },
     {
      "name": "Lingokids",
@@ -15956,7 +15993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 395
+     "rank": 396
     },
     {
      "name": "Politecnico di Milano",
@@ -16001,7 +16038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 396
+     "rank": 397
     },
     {
      "name": "American University of Beirut",
@@ -16039,7 +16076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 397
+     "rank": 398
     },
     {
      "name": "ClassDojo",
@@ -16077,7 +16114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 398
+     "rank": 399
     },
     {
      "name": "London School of Economics and Political Science",
@@ -16115,7 +16152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 399
+     "rank": 400
     },
     {
      "name": "Nearpod",
@@ -16152,7 +16189,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 400
+     "rank": 401
     },
     {
      "name": "Technical University of Berlin",
@@ -16190,7 +16227,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 401
+     "rank": 402
     },
     {
      "name": "Expected Parrot",
@@ -16228,7 +16265,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 402
+     "rank": 403
     },
     {
      "name": "MIT",
@@ -16266,7 +16303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 403
+     "rank": 404
     },
     {
      "name": "Tonal",
@@ -16303,7 +16340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 404
+     "rank": 405
     },
     {
      "name": "University of Glasgow",
@@ -16341,7 +16378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 405
+     "rank": 406
     },
     {
      "name": "University of Science and Technology of China",
@@ -16379,7 +16416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 406
+     "rank": 407
     },
     {
      "name": "University of Southampton",
@@ -16424,7 +16461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 407
+     "rank": 408
     },
     {
      "name": "Almabase",
@@ -16462,7 +16499,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 408
+     "rank": 409
     },
     {
      "name": "jQuery",
@@ -16500,7 +16537,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 409
+     "rank": 410
     },
     {
      "name": "PLOS",
@@ -16538,7 +16575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 410
+     "rank": 411
     },
     {
      "name": "Valence (FKA Shift)",
@@ -16575,7 +16612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 411
+     "rank": 412
     },
     {
      "name": "Hanyang University",
@@ -16613,7 +16650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 412
+     "rank": 413
     },
     {
      "name": "Hebbia",
@@ -16651,7 +16688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 413
+     "rank": 414
     },
     {
      "name": "HTTPX",
@@ -16689,7 +16726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 414
+     "rank": 415
     },
     {
      "name": "King Abdulaziz University",
@@ -16727,7 +16764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 415
+     "rank": 416
     },
     {
      "name": "École Normale Supérieure de Lyon",
@@ -16765,7 +16802,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 416
+     "rank": 417
     },
     {
      "name": "Economic Research Service",
@@ -16803,7 +16840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 417
+     "rank": 418
     },
     {
      "name": "Nanjing University",
@@ -16841,7 +16878,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 418
+     "rank": 419
     },
     {
      "name": "SchoolAI",
@@ -16878,7 +16915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 419
+     "rank": 420
     },
     {
      "name": "Zhejiang University",
@@ -16916,7 +16953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 420
+     "rank": 421
     },
     {
      "name": "University of Texas at Austin",
@@ -16960,7 +16997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 421
+     "rank": 422
     },
     {
      "name": "Open Mainframe Project",
@@ -16998,7 +17035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 422
+     "rank": 423
     },
     {
      "name": "Corebridge Financial",
@@ -17043,7 +17080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 423
+     "rank": 424
     },
     {
      "name": "Keio University",
@@ -17081,7 +17118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 424
+     "rank": 425
     },
     {
      "name": "Nagoya University",
@@ -17119,7 +17156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 425
+     "rank": 426
     },
     {
      "name": "Outlier",
@@ -17156,7 +17193,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 426
+     "rank": 427
     },
     {
      "name": "US Capitol Visitor Center",
@@ -17194,7 +17231,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 427
+     "rank": 428
     },
     {
      "name": "Causaly",
@@ -17239,7 +17276,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 428
+     "rank": 429
     },
     {
      "name": "DeepHow",
@@ -17277,7 +17314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 429
+     "rank": 430
     },
     {
      "name": "Deloitte",
@@ -17315,7 +17352,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 430
+     "rank": 431
     },
     {
      "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
@@ -17353,7 +17390,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 431
+     "rank": 432
     },
     {
      "name": "Indian Institute of Technology Delhi",
@@ -17391,7 +17428,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 432
+     "rank": 433
     },
     {
      "name": "Ohio State University",
@@ -17429,7 +17466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 433
+     "rank": 434
     },
     {
      "name": "Rice University",
@@ -17467,7 +17504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 434
+     "rank": 435
     },
     {
      "name": "University of California, Santa Barbara",
@@ -17505,7 +17542,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 435
+     "rank": 436
     },
     {
      "name": "Waseda University",
@@ -17543,7 +17580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 436
+     "rank": 437
     },
     {
      "name": "Sorbonne University",
@@ -17581,7 +17618,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 437
+     "rank": 438
     },
     {
      "name": "Trinity College Dublin",
@@ -17619,7 +17656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 438
+     "rank": 439
     },
     {
      "name": "University of Freiburg",
@@ -17664,7 +17701,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 439
+     "rank": 440
     },
     {
      "name": "Blue J",
@@ -17702,7 +17739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 440
+     "rank": 441
     },
     {
      "name": "Branching Minds",
@@ -17740,7 +17777,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 441
+     "rank": 442
     },
     {
      "name": "University of Bologna",
@@ -17785,7 +17822,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 442
+     "rank": 443
     },
     {
      "name": "Autonomous University of Madrid",
@@ -17823,7 +17860,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 443
+     "rank": 444
     },
     {
      "name": "Bandung Institute of Technology",
@@ -17861,7 +17898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 444
+     "rank": 445
     },
     {
      "name": "Karlsruhe Institute of Technology",
@@ -17906,7 +17943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 445
+     "rank": 446
     },
     {
      "name": "Universiti Putra Malaysia",
@@ -17944,7 +17981,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 446
+     "rank": 447
     },
     {
      "name": "Universiti Teknologi PETRONAS",
@@ -17982,7 +18019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 447
+     "rank": 448
     },
     {
      "name": "University of Helsinki",
@@ -18027,7 +18064,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 448
+     "rank": 449
     },
     {
      "name": "Chulalongkorn University",
@@ -18065,7 +18102,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 449
+     "rank": 450
     },
     {
      "name": "Complutense University of Madrid",
@@ -18110,7 +18147,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 450
+     "rank": 451
     },
     {
      "name": "cURL",
@@ -18148,7 +18185,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 451
+     "rank": 452
     },
     {
      "name": "Harvard University",
@@ -18186,7 +18223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 452
+     "rank": 453
     },
     {
      "name": "National Cheng Kung University",
@@ -18231,7 +18268,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 453
+     "rank": 454
     },
     {
      "name": "Princeton University",
@@ -18276,7 +18313,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 454
+     "rank": 455
     },
     {
      "name": "University of California, Los Angeles",
@@ -18314,7 +18351,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 455
+     "rank": 456
     },
     {
      "name": "University of Minnesota",
@@ -18359,7 +18396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 456
+     "rank": 457
     },
     {
      "name": "University of New South Wales",
@@ -18397,7 +18434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 457
+     "rank": 458
     },
     {
      "name": "University of Warwick",
@@ -18435,7 +18472,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 458
+     "rank": 459
     },
     {
      "name": "DataCamp",
@@ -18473,7 +18510,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 459
+     "rank": 460
     },
     {
      "name": "Juno Journey",
@@ -18511,7 +18548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 460
+     "rank": 461
     },
     {
      "name": "McMaster University",
@@ -18549,7 +18586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 461
+     "rank": 462
     },
     {
      "name": "Tokyo Institute of Technology",
@@ -18587,7 +18624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 462
+     "rank": 463
     },
     {
      "name": "University of California, San Francisco",
@@ -18631,7 +18668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 463
+     "rank": 464
     },
     {
      "name": "University of Ottawa",
@@ -18669,7 +18706,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 464
+     "rank": 465
     },
     {
      "name": "University of Tübingen",
@@ -18714,7 +18751,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 465
+     "rank": 466
     },
     {
      "name": "Universität Hamburg",
@@ -18752,7 +18789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 466
+     "rank": 467
     },
     {
      "name": "Vanderbilt University",
@@ -18790,7 +18827,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 467
+     "rank": 468
     },
     {
      "name": "Drillster",
@@ -18828,7 +18865,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 468
+     "rank": 469
     },
     {
      "name": "Habitat Lab",
@@ -18866,7 +18903,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 469
+     "rank": 470
     },
     {
      "name": "Metricwire",
@@ -18903,7 +18940,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 470
+     "rank": 471
     },
     {
      "name": "Speak",
@@ -18940,7 +18977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 471
+     "rank": 472
     },
     {
      "name": "Fudan University",
@@ -18985,7 +19022,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 472
+     "rank": 473
     },
     {
      "name": "MagicSchool",
@@ -19023,7 +19060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 473
+     "rank": 474
     },
     {
      "name": "Tongji University",
@@ -19061,7 +19098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 474
+     "rank": 475
     },
     {
      "name": "University of Otago",
@@ -19099,7 +19136,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 475
+     "rank": 476
     },
     {
      "name": "Kodable",
@@ -19137,7 +19174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 476
+     "rank": 477
     },
     {
      "name": "Griffith University",
@@ -19182,7 +19219,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 477
+     "rank": 478
     },
     {
      "name": "Texas A&M University",
@@ -19220,7 +19257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 478
+     "rank": 479
     },
     {
      "name": "University of Nottingham",
@@ -19258,7 +19295,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 479
+     "rank": 480
     },
     {
      "name": "University of Queensland",
@@ -19303,7 +19340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 480
+     "rank": 481
     },
     {
      "name": "University of Tokyo",
@@ -19348,7 +19385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 481
+     "rank": 482
     },
     {
      "name": "Washington University in St. Louis",
@@ -19386,7 +19423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 482
+     "rank": 483
     },
     {
      "name": "Case Western Reserve University",
@@ -19424,7 +19461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 483
+     "rank": 484
     },
     {
      "name": "CEPS (Centre for European Policy Studies)",
@@ -19462,7 +19499,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 484
+     "rank": 485
     },
     {
      "name": "Hong Kong University of Science and Technology",
@@ -19507,7 +19544,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 485
+     "rank": 486
     },
     {
      "name": "Lecturio",
@@ -19551,7 +19588,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 486
+     "rank": 487
     },
     {
      "name": "California Institute of Technology",
@@ -19596,7 +19633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 487
+     "rank": 488
     },
     {
      "name": "King Saud University",
@@ -19634,7 +19671,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 488
+     "rank": 489
     },
     {
      "name": "LF Research",
@@ -19672,7 +19709,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 489
+     "rank": 490
     },
     {
      "name": "University of Indonesia",
@@ -19709,7 +19746,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 490
+     "rank": 491
     },
     {
      "name": "Western University",
@@ -19747,7 +19784,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 491
+     "rank": 492
     },
     {
      "name": "Wonder Workshop",
@@ -19784,7 +19821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 492
+     "rank": 493
     },
     {
      "name": "TU Wien",
@@ -19818,43 +19855,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 493
-    },
-    {
-     "name": "Lamina Labs",
-     "slug": "lamina-labs",
-     "description": "Lamina Labs is a San Francisco company (Y Combinator Spring 2026) building near-real-time video infrastructure for large language models. Its flagship product, Simi, turns prompts, documents, and AI-generated answers into whiteboard-style teaching videos in seconds, handling script writing, illustration, animation, and narration automatically, for durations from one minute to an hour and in over 80 languages. The company targets training, onboarding, product walkthroughs, sales, marketing, and educational use cases, with the stated goal of making video the default interface for AI communication. Lamina exposes Simi to agents through a public remote MCP server at https://api.laminalabs.ai/mcp, secured by an OAuth 2.1-style authorization server with PKCE, dynamic client registration, and job-scoped access tokens.",
-     "score": 19.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 34.2,
-      "commercial_clarity": 13.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 33.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-07-28'
+  score: 24.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 17
@@ -143,23 +143,23 @@ plans:
 - name: Hashicorp Plans Pricing
   plan_count: 6
   slug: hashicorp-plans-pricing
-random_paper: 59
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Hashicorp Rate Limits
   slug: hashicorp-rate-limits
 score:
   band: thin
-  composite: 38.6
-  delta: -2.4
+  composite: 39.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 35.6
+    contract_quality: 40.0
     developer_ergonomics: 26.1
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 41.0
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/screenshots/hashicorp-2026-06-20T182530.png
 security:

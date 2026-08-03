@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.5
-  scored_at: '2026-07-28'
+  score: 57.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -104,6 +104,10 @@ collections:
   name: Notion API
   slug: open-notion
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/notion/overview
 - group: build
   title: ''
   type: Packages
@@ -631,12 +635,12 @@ overview: 'Notion publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Notion catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Notion''s developer surface includes changelog, CLI, authentication, documentation, engineering blog, code examples, FAQ, and 101 more developer resources.'
+  Notion''s developer surface includes changelog, CLI, authentication, documentation, engineering blog, code examples, FAQ, and 102 more developer resources.'
 plans:
 - name: Notion Plans Pricing
   plan_count: 4
   slug: notion-plans-pricing
-random_paper: 7
+random_paper: 93
 rate_limits:
 - limit_count: 3
   name: Notion Rate Limits
@@ -660,16 +664,16 @@ rules:
   slug: notion-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 78.0
-  delta: -1.2
+  composite: 79.1
+  delta: 0.9
   facets:
     commercial_clarity: 78.9
-    contract_quality: 86.1
-    developer_ergonomics: 76.1
+    contract_quality: 87.2
+    developer_ergonomics: 80.4
     discoverability: 77.8
     governance: 53.1
     operational_transparency: 86.8
-  previous_composite: 79.2
+  previous_composite: 78.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -679,8 +683,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png
 security:

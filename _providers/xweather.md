@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -322,7 +322,7 @@ plans:
 - name: Xweather Plans Pricing
   plan_count: 3
   slug: xweather-plans-pricing
-random_paper: 52
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Xweather Rate Limits
@@ -347,7 +347,7 @@ rules:
 score:
   band: developing
   composite: 53.6
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 71.7
@@ -355,7 +355,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 58.1
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     contracts:
@@ -363,8 +363,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/screenshots/xweather-2026-06-20T201723.png
 security:

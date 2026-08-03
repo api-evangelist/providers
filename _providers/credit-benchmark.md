@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -183,19 +183,19 @@ overview: 'Credit Benchmark publishes 5 APIs on the [APIs.io](https://apis.io/) 
 
 
   Credit Benchmark''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 61
+random_paper: 4
 score:
   band: developing
-  composite: 48.9
-  delta: -2.3
+  composite: 49.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 65.3
+    contract_quality: 68.2
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 51.2
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +206,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credit-benchmark/refs/heads/main/screenshots/credit-benchmark-2026-07-25T210718.png
 security:

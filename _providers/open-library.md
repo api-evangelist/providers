@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,23 +157,23 @@ plans:
 - name: Open Library Plans Pricing
   plan_count: 3
   slug: open-library-plans-pricing
-random_paper: 6
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Open Library Rate Limits
   slug: open-library-rate-limits
 score:
   band: thin
-  composite: 32.2
-  delta: -1.9
+  composite: 33.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 44.7
+    contract_quality: 49.4
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.1
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/screenshots/open-library-2026-06-20T190844.png
 security:

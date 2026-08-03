@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-07-28'
+  score: 27.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -168,19 +168,19 @@ overview: 'Rentle publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rentle''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 12 more developer resources.'
-random_paper: 76
+random_paper: 80
 score:
   band: developing
-  composite: 45.4
-  delta: 0.1
+  composite: 46.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.0
+    contract_quality: 63.5
     developer_ergonomics: 30.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 45.3
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -191,8 +191,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Zions Treasury Internet Banking provides businesses with a secure online platform for managing treasury operations including ACH payments, domestic and international wire transfers, account transfers,
@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: Zions Bancorporation, National Association Reports Fourth ...
   url: https://zionsbancorp.com/news-events/press-releases/news-details/2024/Zions-Bancorporation-National-Association-Reports-Fourth-Quarter-Financial-Results/default.aspx
-random_paper: 37
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Zions Bancorp Rate Limits
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.9
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 0.0
@@ -143,15 +143,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 31.7
+  previous_composite: 27.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zions-bancorp/refs/heads/main/screenshots/zions-bancorp-2026-06-20T201911.png
 security:

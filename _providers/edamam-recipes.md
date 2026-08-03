@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -269,7 +269,7 @@ plans:
 - name: Edamam Recipes Plans Pricing
   plan_count: 0
   slug: edamam-recipes-plans-pricing
-random_paper: 11
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Edamam Recipes Rate Limits
@@ -293,16 +293,16 @@ rules:
   slug: edamam-recipes-rules
 score:
   band: developing
-  composite: 48.0
-  delta: -4.0
+  composite: 48.9
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 64.0
+    contract_quality: 67.5
     developer_ergonomics: 32.6
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 52.0
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -310,8 +310,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/screenshots/edamam-recipes-2026-06-20T180448.png
 security:

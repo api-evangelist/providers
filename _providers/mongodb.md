@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-07-28'
+  score: 59.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 240
   human_in_the_loop: 9
@@ -322,7 +322,7 @@ plans:
 - name: Mongodb Plans Pricing
   plan_count: 4
   slug: mongodb-plans-pricing
-random_paper: 4
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Mongodb Rate Limits
@@ -334,16 +334,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.0
-  delta: -1.3
+  composite: 49.8
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 54.4
+    contract_quality: 57.5
     developer_ergonomics: 45.7
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 50.3
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -351,8 +351,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 51
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/screenshots/mongodb-2026-06-20T185729.png
 security:

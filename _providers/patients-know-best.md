@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: HL7 FHIR STU3 (3.0.2) "Facade" server exposing Patients Know Best personal health record data — Patient, Appointment, Communication, Consent, DiagnosticReport, DocumentReference, Encounter, Observatio
@@ -164,11 +164,11 @@ overview: 'Patients Know Best publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Patients Know Best''s developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
-random_paper: 35
+random_paper: 34
 score:
   band: thin
   composite: 41.4
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 40.0
@@ -176,7 +176,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 38.5
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -187,8 +187,8 @@ score:
     regime: Health
     regime_id: health
     score: 40.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

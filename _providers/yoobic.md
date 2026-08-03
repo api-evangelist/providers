@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-07-28'
+  score: 36.5
+  scored_at: '2026-08-03'
 api_count: 41
 apis:
 - description: <a id="group-answers"></a> Answers are the users’ replies to the questions raised by their colleagues in the Questions menu. Other users can vote for answers they think are best, like them, and a user
@@ -239,19 +239,19 @@ overview: 'Yoobic publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 71
+random_paper: 75
 score:
   band: developing
-  composite: 42.7
-  delta: -1.4
+  composite: 45.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 51.6
+    contract_quality: 62.5
     developer_ergonomics: 34.8
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 44.1
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -261,8 +261,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

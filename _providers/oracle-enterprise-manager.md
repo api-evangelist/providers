@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -887,7 +887,7 @@ plans:
 - name: Oracle Enterprise Manager Plans Pricing
   plan_count: 6
   slug: oracle-enterprise-manager-plans-pricing
-random_paper: 80
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Oracle Enterprise Manager Rate Limits
@@ -911,16 +911,16 @@ rules:
   slug: oracle-enterprise-manager-spectral-rules
 score:
   band: exemplar
-  composite: 69.5
-  delta: -4.5
+  composite: 70.1
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 75.3
+    contract_quality: 77.4
     developer_ergonomics: 58.7
     discoverability: 81.5
     governance: 69.8
     operational_transparency: 63.2
-  previous_composite: 74.0
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -930,8 +930,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/screenshots/oracle-enterprise-manager-2026-06-20T191128.png
 security:

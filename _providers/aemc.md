@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -185,23 +185,23 @@ overview: 'Australian Energy Market Commission publishes 1 API on the [APIs.io](
 
 
   Australian Energy Market Commission''s developer surface includes support, documentation, engineering blog, authentication, code examples, changelog, and 22 more developer resources.'
-random_paper: 78
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Aemc Rate Limits
   slug: aemc-rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: -5.7
+  composite: 28.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 43.6
+    contract_quality: 15.0
     developer_ergonomics: 29.9
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 40.6
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,9 +218,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Aemc Authentication

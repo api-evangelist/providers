@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: OAuth 2.0-authorized REST API that lets registered third-party applications read a consenting iHealth user's connected-device data (blood pressure and user-profile resources confirmed live). Developer
@@ -108,7 +108,7 @@ overview: 'Andon Health publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Andon Health''s developer surface includes documentation, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 55
+random_paper: 63
 scopes:
 - name: Andon Health Scopes
   scope_count: 0
@@ -117,7 +117,7 @@ scopes:
 score:
   band: thin
   composite: 29.4
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -125,7 +125,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 32.1
+  previous_composite: 29.4
   provenance:
     conformance: first-party
     mcp: first-party
@@ -135,8 +135,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andon-health/refs/heads/main/screenshots/andon-health-2026-07-25T200224.png
 security:

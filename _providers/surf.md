@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 16
 apis:
 - description: OpenAI-style Chat/Research API. POST /responses with a surf-2.0 or surf-2.0-instant model and a natural-language crypto question; returns synthesized answers with inline citations drawn from live mark
@@ -181,19 +181,19 @@ overview: 'Surf publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Surf''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, CLI, and 14 more developer resources.'
-random_paper: 38
+random_paper: 68
 score:
-  band: thin
-  composite: 41.3
-  delta: -2.0
+  band: developing
+  composite: 42.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 50.8
+    contract_quality: 58.1
     developer_ergonomics: 73.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 43.3
+  previous_composite: 42.8
   provenance:
     conformance: derived
     contracts:
@@ -209,8 +209,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

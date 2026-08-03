@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -172,7 +172,7 @@ overview: 'Ki Insurance publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Ki Insurance''s developer surface includes engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 77
+random_paper: 85
 scopes:
 - name: Ki Insurance Scopes
   scope_count: 14
@@ -180,16 +180,16 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.9
-  delta: -2.6
+  composite: 41.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 40.3
+    contract_quality: 65.1
     developer_ergonomics: 16.8
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 38.5
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +206,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/screenshots/ki-insurance-2026-07-25T223715.png
 security:

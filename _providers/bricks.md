@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,11 +67,11 @@ overview: 'BRICKS is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   BRICKS''s developer surface includes support, changelog, pricing, signup flow, and 2 more developer resources.'
-random_paper: 64
+random_paper: 68
 score:
   band: minimal
   composite: 12.7
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -79,9 +79,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 14.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 12.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bricks/refs/heads/main/screenshots/bricks-2026-07-25T203820.png
 security:

@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-07-28'
+  score: 49.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -28,9 +28,6 @@ agentic_access:
   summary_line: 45 operations · 9 acting
 api_count: 14
 apis:
-- description: Airport delay summaries and per-airport status for 40+ major US national airports, sourced from fly.faa.gov and served as JSON or XML. Keyed on IATA three-letter airport codes. Answers unauthenticated
-  name: FAA Airport Status Web Service (ASWS)
-  slug: faa-airport-status-web-service
 - description: Chart publication metadata and download API from FAA Aeronautical Information Services. Thirty-four operations across VFR sectionals, terminal area charts, IFR enroute and oceanic charts, terminal pro
   name: FAA Aeronautic Product Release API (APRA)
   slug: faa-aeronautic-product-release-api
@@ -70,6 +67,9 @@ apis:
 - description: Unauthenticated JSON list of active Temporary Flight Restrictions, each carrying a NOTAM id, TFR type, ARTCC facility identifier, state and effective description. Verified live 2026-07-28 (HTTP 200, a
   name: FAA Temporary Flight Restriction (TFR) List API
   slug: faa-tfr-api
+- description: Federal Aviation Administration Airport Status Web Service from Federal Aviation Administration — 2 path(s) described in OpenAPI.
+  name: Federal Aviation Administration Airport Status Web Service
+  slug: faa-airport-status-web-service-openapi
 artifact_total: 22
 asyncapis:
 - description: ''
@@ -273,7 +273,7 @@ modified: '2026-07-28'
 name: Federal Aviation Administration
 nav: Providers
 network: true
-overview: 'Federal Aviation Administration publishes 4 APIs on the [APIs.io](https://apis.io/) network, including FAA Airport Status Web Service (ASWS), FAA Aeronautic Product Release API (APRA), FAA Air Carrier PRD API, and 1 more. Tagged areas include Travel, United States, Aviation, Airports, and Government.
+overview: 'Federal Aviation Administration publishes 4 APIs on the [APIs.io](https://apis.io/) network, including FAA Aeronautic Product Release API (APRA), FAA Air Carrier PRD API, FAA Safety Assurance System (SAS) API, and 1 more. Tagged areas include Travel, United States, Aviation, Airports, and Government.
 
 
   The Federal Aviation Administration catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -284,21 +284,23 @@ plans:
 - name: Faa Plans
   plan_count: 5
   slug: faa-plans
-random_paper: 50
+random_paper: 11
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Faa Rate Limits
   slug: faa-rate-limits
 score:
-  band: developing
-  composite: 53.9
+  band: strong
+  composite: 57.1
+  delta: 2.3
   facets:
     commercial_clarity: 65.8
-    contract_quality: 51.3
+    contract_quality: 55.4
     developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 11.5
-    operational_transparency: 39.5
+    operational_transparency: 60.5
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,8 +317,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Faa Authentication

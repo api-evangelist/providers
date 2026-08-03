@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: OAuth 2.0-secured Partner API for programmatic access to Thoropass audits, evidence requests, controls, monitoring alerts, devices, change requests, training records and vulnerability data, plus a hos
@@ -132,7 +132,7 @@ overview: 'Thoropass publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Thoropass'' developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 11
+random_paper: 45
 scopes:
 - name: Thoropass Scopes
   scope_count: 24
@@ -141,7 +141,7 @@ scopes:
 score:
   band: thin
   composite: 31.0
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -149,12 +149,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 30.1
+  previous_composite: 31.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

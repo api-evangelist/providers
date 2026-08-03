@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: Pitney Bowes to Deploy Ambi Robotics AI-Powered ...
   url: https://www.ambirobotics.com/media/pitney-bowes-deploys-ambisort/
-random_paper: 24
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Pitney Bowes Rate Limits
@@ -145,16 +145,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.5
-  delta: -1.8
+  composite: 31.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 53.0
+    contract_quality: 53.9
     developer_ergonomics: 13.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 33.3
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/screenshots/pitney-bowes-2026-06-20T191739.png
 security:

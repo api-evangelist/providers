@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The Open Access Same-time Information System (OASIS) Download API — CAISO's public wholesale market data interface. Two servlets, SingleZip and GroupZip, accept a queryname or groupid plus a UTC datet
@@ -150,7 +150,7 @@ overview: 'California ISO publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   California ISO''s developer surface includes documentation, signup flow, authentication, developer portal, support, engineering blog, getting-started guide, and 20 more developer resources.'
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Caiso Rate Limits
@@ -158,7 +158,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.3
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -166,7 +166,7 @@ score:
     discoverability: 87.0
     governance: 13.5
     operational_transparency: 52.6
-  previous_composite: 37.9
+  previous_composite: 34.3
   provenance:
     conformance: derived
   regulatory:
@@ -175,8 +175,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

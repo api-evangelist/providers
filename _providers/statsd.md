@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-07-28'
+  score: 23.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -355,7 +355,7 @@ overview: 'StatsD publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   StatsD''s developer surface includes GitHub presence, changelog, and 49 more developer resources.'
-random_paper: 3
+random_paper: 89
 rules:
 - name: StatsD API Rules
   rule_count: 7
@@ -383,16 +383,16 @@ rules:
   slug: statsd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.9
-  delta: -4.8
+  composite: 34.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 65.9
+    contract_quality: 68.5
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 47.9
     operational_transparency: 21.1
-  previous_composite: 38.7
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -400,8 +400,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/screenshots/statsd-2026-06-20T194527.png
 slug: statsd

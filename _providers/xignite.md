@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -228,19 +228,19 @@ overview: 'Xignite publishes 22 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Xignite''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, support, API reference, and 19 more developer resources.'
-random_paper: 22
+random_paper: 0
 score:
   band: thin
-  composite: 39.9
-  delta: -2.4
+  composite: 40.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 39.2
+    contract_quality: 42.6
     developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 42.3
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +257,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xignite/refs/heads/main/screenshots/xignite-2026-07-22T202705.png
 security:

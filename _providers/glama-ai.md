@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: OpenAI-compatible LLM gateway exposing 90+ models from OpenAI, Anthropic, Google, DeepSeek, Mistral, xAI, Moonshot, Alibaba (Qwen), Cohere, and Perplexity behind a single base URL (`https://gateway.gl
@@ -224,11 +224,11 @@ overview: 'Glama publishes 7 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Glama''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, support, and 27 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: emerging
   composite: 27.2
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -236,9 +236,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 29.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 27.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glama-ai/refs/heads/main/screenshots/glama-ai-2026-06-20T181858.png
 security:

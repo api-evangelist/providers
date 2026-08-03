@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -486,7 +486,7 @@ plans:
 - name: Agorapulse Plans Pricing
   plan_count: 4
   slug: agorapulse-plans-pricing
-random_paper: 9
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Agorapulse Rate Limits
@@ -502,16 +502,16 @@ rules:
   slug: agorapulse-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.4
-  delta: -5.4
+  composite: 51.3
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 58.3
+    contract_quality: 62.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 55.8
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -519,9 +519,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/screenshots/agorapulse-2026-06-20T170402.png
 security:
 - kind: authentication

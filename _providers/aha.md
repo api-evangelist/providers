@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -277,7 +277,7 @@ overview: 'Aha.io publishes 59 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Aha.io''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 52
+random_paper: 13
 scopes:
 - name: Aha Scopes
   scope_count: 0
@@ -285,16 +285,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.0
-  delta: -2.2
+  composite: 28.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 54.0
+    contract_quality: 55.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.2
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     contracts:
@@ -302,8 +302,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/screenshots/aha-2026-06-20T170530.png
 security:

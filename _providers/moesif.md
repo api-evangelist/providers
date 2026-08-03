@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ plans:
 - name: Moesif Plans Pricing
   plan_count: 3
   slug: moesif-plans-pricing
-random_paper: 69
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Moesif Rate Limits
@@ -285,16 +285,16 @@ scopes:
   summary_line: 71 scopes · password
 score:
   band: developing
-  composite: 45.7
-  delta: -2.9
+  composite: 46.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 49.4
+    contract_quality: 50.6
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 48.6
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -302,8 +302,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/screenshots/moesif-2026-06-20T185704.png
 security:

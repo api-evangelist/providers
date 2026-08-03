@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -374,7 +374,7 @@ plans:
 - name: Punchh Plans Pricing
   plan_count: 1
   slug: punchh-plans-pricing
-random_paper: 72
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Punchh Rate Limits
@@ -398,16 +398,16 @@ rules:
   slug: punchh-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: -7.6
+  composite: 44.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.0
+    contract_quality: 32.8
     developer_ergonomics: 45.7
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 44.7
-  previous_composite: 60.4
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -415,9 +415,9 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
 security:
 - kind: authentication

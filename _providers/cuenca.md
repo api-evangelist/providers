@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-07-28'
+  score: 41.7
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'REST API for Cuenca''s banking-as-a-service platform in Mexico: SPEI / internal transfers, deposits, CLABE accounts, debit card issuing and card transactions, bill payments, balances, statements, webho'
@@ -171,11 +171,11 @@ overview: 'Cuenca publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cuenca''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, sandbox, and 21 more developer resources.'
-random_paper: 49
+random_paper: 53
 score:
   band: thin
   composite: 41.9
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 51.6
@@ -183,7 +183,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 41.2
+  previous_composite: 41.9
   provenance:
     conformance: derived
     mcp: derived
@@ -194,8 +194,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuenca/refs/heads/main/screenshots/cuenca-2026-07-25T210910.png
 security:

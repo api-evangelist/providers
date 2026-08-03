@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Run SELECT-only ClickHouse SQL over a project's observability data via POST /v1/sql/query. Authenticates with a project API key as a bearer token, accepts a query plus typed {name:Type} parameters, an
@@ -180,11 +180,11 @@ plans:
 - name: Laminar Plans
   plan_count: 4
   slug: laminar-plans
-random_paper: 2
+random_paper: 75
 score:
   band: developing
   composite: 46.9
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -192,13 +192,13 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 46.1
+  previous_composite: 46.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laminar/refs/heads/main/screenshots/laminar-2026-07-25T224445.png
 security:

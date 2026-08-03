@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.3
-  scored_at: '2026-07-28'
+  score: 20.3
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Partner-facing REST API for distributing prepaid vehicle access. Documented resources include wallet creation and management, PSP-orchestrated top-ups, ledger / transaction history, and webhook regist
@@ -98,11 +98,11 @@ overview: 'Mobillis publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Mobillis'' developer surface includes signup flow and 9 more developer resources.'
-random_paper: 39
+random_paper: 4
 score:
   band: emerging
   composite: 27.9
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -110,7 +110,7 @@ score:
     discoverability: 77.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 24.3
+  previous_composite: 27.9
   provenance:
     mcp: derived
   regulatory:
@@ -119,8 +119,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

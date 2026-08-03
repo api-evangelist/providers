@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -848,7 +848,7 @@ plans:
 - name: Pendle Plans Pricing
   plan_count: 4
   slug: pendle-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 8
   name: Pendle Rate Limits
@@ -864,16 +864,16 @@ rules:
   slug: pendle-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.2
-  delta: -5.2
+  composite: 46.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 43.2
+    contract_quality: 48.0
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 50.4
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -881,9 +881,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendle/refs/heads/main/screenshots/pendle-2026-06-20T191632.png
 security:
 - kind: domain-security

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -1066,7 +1066,7 @@ plans:
 - name: Wikipedia Plans Pricing
   plan_count: 3
   slug: wikipedia-plans-pricing
-random_paper: 49
+random_paper: 1
 rate_limits:
 - limit_count: 9
   name: Wikipedia Rate Limits
@@ -1089,17 +1089,17 @@ rules:
     warn: 16
   slug: wikipedia-spectral-rules
 score:
-  band: developing
-  composite: 46.1
-  delta: -5.9
+  band: thin
+  composite: 40.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 51.0
+    contract_quality: 23.1
     developer_ergonomics: 21.7
     discoverability: 87.0
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 52.0
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1113,9 +1113,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/screenshots/wikipedia-2026-06-20T201453.png
 security:
 - kind: authentication

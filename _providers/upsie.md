@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -179,19 +179,19 @@ overview: 'Upsie publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Upsie''s developer surface includes documentation, API reference, support, signup flow, authentication, sandbox, and 16 more developer resources.'
-random_paper: 58
+random_paper: 75
 score:
   band: developing
-  composite: 43.8
-  delta: -3.3
+  composite: 44.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 66.5
+    contract_quality: 69.4
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 47.1
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,8 +208,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

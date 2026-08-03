@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-07-28'
+  score: 37.4
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The OpenCTI platform exposes a full GraphQL API on the /graphql endpoint for programmatic access to cyber threat intelligence knowledge modeled on STIX 2.1. Authentication uses a per-user bearer API t
@@ -166,11 +166,11 @@ overview: 'Filigran publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Filigran''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 19 more developer resources.'
-random_paper: 24
+random_paper: 84
 score:
   band: developing
   composite: 50.5
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.6
@@ -178,13 +178,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 42.3
+  previous_composite: 50.5
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filigran/refs/heads/main/screenshots/filigran-2026-07-25T214447.png
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Server-side CAPTCHA answer verification.
@@ -161,19 +161,19 @@ plans:
 - name: Capy Inc Plans
   plan_count: 2
   slug: capy-inc-plans
-random_paper: 50
+random_paper: 28
 score:
   band: developing
-  composite: 48.9
-  delta: -2.0
+  composite: 49.8
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
-    contract_quality: 55.9
+    contract_quality: 59.7
     developer_ergonomics: 60.3
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 50.9
+  previous_composite: 49.8
   provenance:
     conformance: derived
     contracts:
@@ -183,8 +183,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/screenshots/capy-inc-2026-07-25T204457.png
 security:

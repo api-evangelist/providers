@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: flavored
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
-    idempotency: false
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.7
-  scored_at: '2026-07-28'
+  score: 40.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -26,8 +26,87 @@ agentic_access:
   operation_count: 119
   slug: meow-agentic-access
   summary_line: 119 operations · 63 acting · 1 human-in-the-loop
-api_count: 0
-artifact_total: 5
+api_count: 26
+apis:
+- description: Access and manage accounts.
+  name: Meow Accounts API
+  slug: meow-accounts-api
+- description: Retrieve metadata about API keys and their accessible entities.
+  name: Meow API Keys API
+  slug: meow-api-keys-api
+- description: The Approvals API from Meow — 1 operation(s) for approvals.
+  name: Meow Approvals API
+  slug: meow-approvals-api
+- description: Retrieve account balances and available funds.
+  name: Meow Balances API
+  slug: meow-balances-api
+- description: View and manage bills for vendor payments.
+  name: Meow Bills API
+  slug: meow-bills-api
+- description: Manage virtual and physical cards, and view transactions and insights.
+  name: Meow Cards API
+  slug: meow-cards-api
+- description: Manage accounts for payment collection.
+  name: Meow Collection Accounts API
+  slug: meow-collection-accounts-api
+- description: Manage contacts for crypto and USDC transfers.
+  name: Meow Contacts API
+  slug: meow-contacts-api
+- description: Manage invoicing customers and their details.
+  name: Meow Customers API
+  slug: meow-customers-api
+- description: The Entities API from Meow — 12 operation(s) for entities.
+  name: Meow Entities API
+  slug: meow-entities-api
+- description: The Health API from Meow — 1 operation(s) for health.
+  name: Meow Health API
+  slug: meow-health-api
+- description: Create and manage invoices.
+  name: Meow Invoices API
+  slug: meow-invoices-api
+- description: The Limits API from Meow — 1 operation(s) for limits.
+  name: Meow Limits API
+  slug: meow-limits-api
+- description: Manage invoice line items.
+  name: Meow Line Items API
+  slug: meow-line-items-api
+- description: Onboard entities using your partner API key.
+  name: Meow Partner Onboarding API
+  slug: meow-partner-onboarding-api
+- description: The Partner Webhooks API from Meow — 6 operation(s) for partner webhooks.
+  name: Meow Partner Webhooks API
+  slug: meow-partner-webhooks-api
+- description: View available payment method types.
+  name: Meow Payment Methods API
+  slug: meow-payment-methods-api
+- description: Manage payment networks and routing information.
+  name: Meow Payment Networks API
+  slug: meow-payment-networks-api
+- description: Manage products and pricing for invoicing.
+  name: Meow Products API
+  slug: meow-products-api
+- description: Validate routing numbers and retrieve bank information.
+  name: Meow Routing Numbers API
+  slug: meow-routing-numbers-api
+- description: The Security Policies API from Meow — 1 operation(s) for security policies.
+  name: Meow Security Policies API
+  slug: meow-security-policies-api
+- description: 'Trigger simulated events — inbound transfers, card authorizations, application approval — to test integrations end-to-end without real money movement. **Not available in production**: these endpoints '
+  name: Meow Simulations API
+  slug: meow-simulations-api
+- description: Retrieve IRS tax forms (1099 family) issued for accounts.
+  name: Meow Tax Forms API
+  slug: meow-tax-forms-api
+- description: Retrieve account transaction history and details.
+  name: Meow Transactions API
+  slug: meow-transactions-api
+- description: Initiate ACH, wire, book, and crypto transfers, and retrieve transfer details.
+  name: Meow Transfers API
+  slug: meow-transfers-api
+- description: Manage webhook subscriptions and inspect delivery history.
+  name: Meow Webhooks API
+  slug: meow-webhooks-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Meow Webhooks
@@ -48,11 +127,11 @@ modified: '2026-07-17'
 name: Meow
 nav: Providers
 network: true
-overview: 'Meow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Banking.
+overview: 'Meow publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Keys API, Approvals API, and 23 more. Tagged areas include Company and Banking.
 
 
   The Meow catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 30
+random_paper: 60
 scopes:
 - name: Meow Scopes
   scope_count: 0
@@ -60,16 +139,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 23.3
-  delta: -35.3
+  composite: 26.8
+  delta: 0.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 59.7
+    contract_quality: 74.0
     developer_ergonomics: 0.0
-    discoverability: 55.6
+    discoverability: 61.1
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 58.6
+  previous_composite: 26.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -86,9 +165,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Meow Authentication

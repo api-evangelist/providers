@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,23 +161,23 @@ plans:
 - name: National Aeronautics And Space Administration Plans Pricing
   plan_count: 3
   slug: national-aeronautics-and-space-administration-plans-pricing
-random_paper: 47
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: National Aeronautics And Space Administration Rate Limits
   slug: national-aeronautics-and-space-administration-rate-limits
 score:
   band: thin
-  composite: 37.7
-  delta: -1.9
+  composite: 38.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.0
+    contract_quality: 51.9
     developer_ergonomics: 21.7
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.6
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +191,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/screenshots/national-aeronautics-and-space-administration-2026-06-20T185958.png
 security:

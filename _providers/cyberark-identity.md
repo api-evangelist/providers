@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -120,19 +120,19 @@ overview: 'CyberArk Identity publishes 7 APIs on the [APIs.io](https://apis.io/)
 
 
   CyberArk Identity''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 48
+random_paper: 60
 score:
   band: thin
-  composite: 28.0
-  delta: -2.5
+  composite: 29.1
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 50.4
+    contract_quality: 54.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 30.5
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -140,8 +140,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/screenshots/cyberark-identity-2026-06-20T175406.png
 security:

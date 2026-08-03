@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-07-28'
+  score: 54.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -439,7 +439,7 @@ plans:
 - name: Cryptocompare Plans Pricing
   plan_count: 4
   slug: cryptocompare-plans-pricing
-random_paper: 22
+random_paper: 86
 rate_limits:
 - limit_count: 11
   name: Cryptocompare Rate Limits
@@ -471,16 +471,16 @@ rules:
   slug: cryptocompare-rules
 score:
   band: exemplar
-  composite: 70.1
-  delta: -1.8
+  composite: 70.0
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 81.1
+    contract_quality: 80.4
     developer_ergonomics: 73.4
     discoverability: 87.0
     governance: 63.5
     operational_transparency: 60.5
-  previous_composite: 71.9
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -497,8 +497,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png
 security:

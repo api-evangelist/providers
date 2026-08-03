@@ -88,6 +88,44 @@
      "rank": 2
     },
     {
+     "name": "NVIDIA NIM",
+     "slug": "nvidia-nim",
+     "description": "NVIDIA NIM (NVIDIA Inference Microservices) is a catalog of GPU-accelerated, containerized AI inference microservices that package optimized model engines (TensorRT-LLM, vLLM, SGLang, Triton) behind industry-standard OpenAI-compatible REST APIs. NIM covers large language models, embeddings and reranking, vision-language models, speech (Riva), visual generative AI, and biology (BioNeMo) — exposed identically whether consumed from the hosted endpoint at integrate.api.nvidia.com or self-hosted via Docker containers and the Kubernetes-native NIM Operator. NIM ships with NVIDIA AI Enterprise for commercial deployment and is the inference layer underneath NVIDIA AI Blueprints, NeMo Retriever, NeMo Guardrails, and the broader NVIDIA developer stack.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png",
+     "score": 75.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 76.3,
+      "governance": 69.8,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 78.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 48.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 3
+    },
+    {
      "name": "fal",
      "slug": "fal-ai",
      "description": "fal (Features and Labels, Inc.) is a generative media platform providing the world's fastest API for running image, video, audio, and multimodal generative AI models. Through a unified queue-based REST API at https://queue.fal.run, plus realtime WebSocket and SSE streaming surfaces, fal serves 1,000+ production models — including FLUX, Veo 3, Kling, Wan, Seedream, Nano Banana, and Stable Diffusion — on autoscaling GPU infrastructure. fal Serverless lets developers ship custom models with `@fal.function` / `fal.App` / BYO containers, while fal Compute provides dedicated H100/H200/A100/B200 instances. Trusted by Canva, Perplexity, Poe, and 1.5M+ developers; Series D funded ($140M, Sequoia-led, December 2025); SOC 2 with 99.99% uptime.",
@@ -123,7 +161,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "IBM",
@@ -161,7 +199,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Databricks",
@@ -199,7 +237,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Amazon EC2",
@@ -237,7 +275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Amazon EC2 Auto Scaling",
@@ -271,44 +309,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 7
-    },
-    {
-     "name": "NVIDIA NIM",
-     "slug": "nvidia-nim",
-     "description": "NVIDIA NIM (NVIDIA Inference Microservices) is a catalog of GPU-accelerated, containerized AI inference microservices that package optimized model engines (TensorRT-LLM, vLLM, SGLang, Triton) behind industry-standard OpenAI-compatible REST APIs. NIM covers large language models, embeddings and reranking, vision-language models, speech (Riva), visual generative AI, and biology (BioNeMo) — exposed identically whether consumed from the hosted endpoint at integrate.api.nvidia.com or self-hosted via Docker containers and the Kubernetes-native NIM Operator. NIM ships with NVIDIA AI Enterprise for commercial deployment and is the inference layer underneath NVIDIA AI Blueprints, NeMo Retriever, NeMo Guardrails, and the broader NVIDIA developer stack.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png",
-     "score": 71.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 76.3,
-      "governance": 69.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 76.1,
-      "commercial_clarity": 78.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 48.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -934,6 +934,44 @@
      "rank": 24
     },
     {
+     "name": "D-Wave",
+     "slug": "d-wave",
+     "description": "D-Wave Quantum Inc. (NYSE: QBTS) is the leader in commercial quantum annealing computing and developer of the Advantage and Advantage2 quantum systems. D-Wave's Leap quantum cloud service provides real-time access to D-Wave QPUs and to the Leap hybrid solver family (BQM, CQM, DQM, NL) capable of solving industrial optimization problems with up to ~2 million variables and constraints. The open-source Ocean SDK — dimod, dwave-system, dwave-cloud-client, dwave-hybrid, dwave-samplers, dwave-optimization, minorminer, dwave-inspector, and 40+ companion packages — provides the canonical developer experience, with the underlying Solver API (SAPI) exposed as a versioned REST interface for solver discovery, problem submission, status polling, answer retrieval, and cancellation. Companion APIs include the Metadata API for region discovery and the Leap Account API for OAuth-based project and token management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/screenshots/d-wave-2026-06-20T175418.png",
+     "score": 65.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 74.4,
+      "governance": 68.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 25
+    },
+    {
      "name": "Amazon Storage Gateway",
      "slug": "amazon-storage-gateway",
      "description": "AWS Storage Gateway is a hybrid cloud storage service that provides on-premises access to virtually unlimited cloud storage. It seamlessly connects on-premises environments to AWS cloud storage, providing low-latency data access with local caching.",
@@ -969,7 +1007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Hyperbolic",
@@ -1007,7 +1045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Microsoft Azure Quantum",
@@ -1045,7 +1083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "AWS Fargate",
@@ -1083,7 +1121,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "AWS Braket",
@@ -1121,7 +1159,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Autodesk Construction Cloud",
@@ -1159,7 +1197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Google Workspace",
@@ -1197,7 +1235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Amazon HealthLake",
@@ -1242,7 +1280,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Amazon HealthOmics",
@@ -1287,7 +1325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Google Cloud Storage",
@@ -1325,7 +1363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Amazon Deadline Cloud",
@@ -1363,7 +1401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Google Cloud App Engine",
@@ -1401,7 +1439,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Google Cloud Compute Engine",
@@ -1439,7 +1477,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Google Cloud Kubernetes Engine",
@@ -1477,7 +1515,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Google Cloud Batch",
@@ -1515,7 +1553,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Google Cloud Storage",
@@ -1553,7 +1591,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "TensorDock",
@@ -1591,7 +1629,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Google Distributed Cloud",
@@ -1629,7 +1667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Microsoft Azure Functions",
@@ -1667,7 +1705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Backblaze",
@@ -1705,7 +1743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Paperspace",
@@ -1743,7 +1781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "IonQ",
@@ -1781,7 +1819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Lambda",
@@ -1798,44 +1836,6 @@
       "operational_transparency": 52.6,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 57.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 47
-    },
-    {
-     "name": "D-Wave",
-     "slug": "d-wave",
-     "description": "D-Wave Quantum Inc. (NYSE: QBTS) is the leader in commercial quantum annealing computing and developer of the Advantage and Advantage2 quantum systems. D-Wave's Leap quantum cloud service provides real-time access to D-Wave QPUs and to the Leap hybrid solver family (BQM, CQM, DQM, NL) capable of solving industrial optimization problems with up to ~2 million variables and constraints. The open-source Ocean SDK — dimod, dwave-system, dwave-cloud-client, dwave-hybrid, dwave-samplers, dwave-optimization, minorminer, dwave-inspector, and 40+ companion packages — provides the canonical developer experience, with the underlying Solver API (SAPI) exposed as a versioned REST interface for solver discovery, problem submission, status polling, answer retrieval, and cancellation. Companion APIs include the Metadata API for region discovery and the Leap Account API for OAuth-based project and token management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/screenshots/d-wave-2026-06-20T175418.png",
-     "score": 61.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 74.4,
-      "governance": 68.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 60.5
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
@@ -2742,8 +2742,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 109,
-   "shown": 109,
+   "count": 108,
+   "shown": 108,
    "providers": [
     {
      "name": "Amazon Braket",
@@ -3517,43 +3517,6 @@
      "rank": 91
     },
     {
-     "name": "Picarro",
-     "slug": "picarro",
-     "description": "Picarro, Inc. is a Santa Clara, California company that builds high-precision gas concentration and stable-isotope analyzers based on Cavity Ring-Down Spectroscopy (CRDS), together with the cloud software and mobile platforms that turn those measurements into operational decisions. Its instruments measure more than 700 compounds — methane, ethane, CO2, N2O, ammonia, ethylene oxide, hydrogen peroxide, water isotopes and cleanroom-level airborne molecular contamination — at parts-per- billion and parts-per-trillion sensitivity. Picarro serves natural gas utilities (mobile methane leak detection and the Picarro Surveyor programme), sterilization and EtO facilities, refinery and chemical-plant fenceline monitoring, semiconductor cleanrooms and FOUP contamination control, pharmaceutical manufacturing, and atmospheric and earth-science research. The company reports 25+ years of operation, 5,000+ instruments installed in about 100 countries, and 77 patents. Its software side is P-Cubed, a cloud data-processing and storage platform with a customer-facing API for custom data transformation routines, a companion mobile app for field leak investigations, and — for semiconductor deployments — a publicly published gRPC/ProtoBuf interface (picarro/sam-foup-public) for external control and monitoring of Picarro Edge systems.",
-     "score": 53.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 49.4,
-      "governance": 12.5,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 42.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 92
-    },
-    {
      "name": "Virtana (Virtual Instruments)",
      "slug": "virtual-instruments",
      "description": "Virtana (formerly Virtual Instruments) is an AI-powered hybrid infrastructure observability company whose platform monitors and optimizes performance, cost, and risk across on-premises, colocation, and cloud environments. The platform spans Infrastructure Observability, Container Observability, Application and Service Observability, AI Factory (GPU/AI workload) Observability, Storage Load Testing, and Cloud Cost Management. Virtana exposes public developer surfaces — the Global View APIs (alerts, external alert ingestion, on-prem storage dashboards), the Infrastructure Observability Public REST API (/api/sdk/p/2), and a Cloud Cost Management API — all secured with OAuth2 client-credentials bearer tokens, plus an official Model Context Protocol (MCP) server that gives AI agents live access to metric, alert, inventory, relationship, and schema data over streaming HTTP.",
@@ -3588,7 +3551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "Vast.ai",
@@ -3626,7 +3589,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Amazon Backup",
@@ -3664,7 +3627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Amazon Fargate",
@@ -3702,7 +3665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Brocade",
@@ -3740,7 +3703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Jupyter Server",
@@ -3778,44 +3741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
-    },
-    {
-     "name": "Afero",
-     "slug": "afero",
-     "description": "Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux Device SDK for firmware, a Bluetooth Low Energy and Wi-Fi onboarding path, the Afero Profile Editor low-code device-modeling tool, Java (Android) and Swift (iOS) mobile SDKs with a Softhub, and the Afero Cloud — a RESTful API at api.afero.io that lists accounts and devices, reports real-time device state, executes attribute read and write actions on connected devices, and drives the over-the-air firmware pipeline. Afero has raised $73.2M from investors including Samsung Catalyst Fund and Crosspoint Capital Partners and reports millions of deployed devices across 200+ product categories in consumer, enterprise and industrial markets.",
-     "score": 52.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 60.9,
-      "governance": 20.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 51.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 99
+     "rank": 97
     },
     {
      "name": "Azure Function Apps",
@@ -3853,7 +3779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 98
     },
     {
      "name": "Boltz",
@@ -3898,7 +3824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 99
     },
     {
      "name": "Google Cloud VMware Engine",
@@ -3936,7 +3862,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 100
     },
     {
      "name": "Rook",
@@ -3974,7 +3900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 101
     },
     {
      "name": "NetApp",
@@ -4012,7 +3938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 102
     },
     {
      "name": "Google Photos Library",
@@ -4050,7 +3976,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 103
     },
     {
      "name": "UCloud",
@@ -4087,7 +4013,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 104
     },
     {
      "name": "CubeFS",
@@ -4125,7 +4051,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 105
     },
     {
      "name": "Google Cloud Transfer Service",
@@ -4163,7 +4089,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 106
     },
     {
      "name": "Salad Transcription API",
@@ -4201,7 +4127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 107
     },
     {
      "name": "Cofactr",
@@ -4239,7 +4165,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 108
+    },
+    {
+     "name": "Afero",
+     "slug": "afero",
+     "description": "Afero, Inc. is a Los Altos, California IoT platform company founded in 2014 by Joe Britt and Shin Matsumura. Afero ships an end-to-end connected-product stack: ASR secure radio modules with a hardware root of trust and an embedded Hardware Security Module, the afLib MCU libraries and Secure Linux Device SDK for firmware, a Bluetooth Low Energy and Wi-Fi onboarding path, the Afero Profile Editor low-code device-modeling tool, Java (Android) and Swift (iOS) mobile SDKs with a Softhub, and the Afero Cloud — a RESTful API at api.afero.io that lists accounts and devices, reports real-time device state, executes attribute read and write actions on connected devices, and drives the over-the-air firmware pipeline. Afero has raised $73.2M from investors including Samsung Catalyst Fund and Crosspoint Capital Partners and reports millions of deployed devices across 200+ product categories in consumer, enterprise and industrial markets.",
+     "score": 51.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 64.7,
+      "governance": 11.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 41.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 109
     },
     {
      "name": "Signiant",
@@ -4276,7 +4239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 110
     },
     {
      "name": "AutoCAD",
@@ -4314,7 +4277,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 111
     },
     {
      "name": "Dassault Systèmes",
@@ -4348,6 +4311,43 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 112
+    },
+    {
+     "name": "Picarro",
+     "slug": "picarro",
+     "description": "Picarro, Inc. is a Santa Clara, California company that builds high-precision gas concentration and stable-isotope analyzers based on Cavity Ring-Down Spectroscopy (CRDS), together with the cloud software and mobile platforms that turn those measurements into operational decisions. Its instruments measure more than 700 compounds — methane, ethane, CO2, N2O, ammonia, ethylene oxide, hydrogen peroxide, water isotopes and cleanroom-level airborne molecular contamination — at parts-per- billion and parts-per-trillion sensitivity. Picarro serves natural gas utilities (mobile methane leak detection and the Picarro Surveyor programme), sterilization and EtO facilities, refinery and chemical-plant fenceline monitoring, semiconductor cleanrooms and FOUP contamination control, pharmaceutical manufacturing, and atmospheric and earth-science research. The company reports 25+ years of operation, 5,000+ instruments installed in about 100 countries, and 77 patents. Its software side is P-Cubed, a cloud data-processing and storage platform with a customer-facing API for custom data transformation routines, a companion mobile app for field leak investigations, and — for semiconductor deployments — a publicly published gRPC/ProtoBuf interface (picarro/sam-foup-public) for external control and monitoring of Picarro Edge systems.",
+     "score": 50.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 49.4,
+      "governance": 3.1,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 64.7,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 34.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -4658,43 +4658,6 @@
      "rank": 121
     },
     {
-     "name": "SandboxAQ",
-     "slug": "sandboxaq",
-     "description": "SandboxAQ (SB Technology, Inc.) builds Large Quantitative Models (LQMs) — AI systems that fuse physics, chemistry and proprietary scientific data — and ships them as commercial platforms with public developer surfaces. Three product lines carry callable APIs: AQtive Guard, a cryptography and non-human-identity posture-management platform (built on the Cryptosense analyzer) exposing a GraphQL API at /api/v2 plus a fleet of language and network sensors; Flint AI, an AI-agent security platform whose Platform API is a documented OpenAPI 3.0.3 contract over an inventory graph of agents, models, tools and MCP servers, paired with the flintai CLI and a Python guardrails SDK; and the SandboxAQ MCP Server, a per-tenant OAuth-protected Model Context Protocol endpoint that exposes the AQCat adsorption and AQPotency proteochemometric potency models as tools for LLM clients.",
-     "score": 49.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 48.1,
-      "governance": 20.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 58.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": "flavored",
-      "dry_run_mode": false
-     },
-     "rank": 122
-    },
-    {
      "name": "Arduino",
      "slug": "arduino",
      "description": "Arduino is an open-source electronics platform providing hardware, software, and cloud services for IoT development. The Arduino IoT Cloud REST API enables developers to programmatically manage devices, Things, dashboards, properties, and time-series data in the Arduino Cloud ecosystem. The API uses OAuth2 client credentials for authentication and returns JSON-encoded responses with standard HTTP status codes. SDKs are available in JavaScript, Python, and Go, generated automatically from an OpenAPI specification.",
@@ -4730,7 +4693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "Walrus Protocol",
@@ -4767,7 +4730,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "Rigetti & Co",
@@ -4804,7 +4767,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Zamzar",
@@ -4842,7 +4805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "Lunar Energy",
@@ -4887,7 +4850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "Azure Queue Storage",
@@ -4932,7 +4895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "HorizonIQ",
@@ -4970,7 +4933,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Xiaomi",
@@ -5008,7 +4971,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Digital Ocean",
@@ -5046,7 +5009,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "NVIDIA Run:ai",
@@ -5081,6 +5044,43 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 131
+    },
+    {
+     "name": "SandboxAQ",
+     "slug": "sandboxaq",
+     "description": "SandboxAQ (SB Technology, Inc.) builds Large Quantitative Models (LQMs) — AI systems that fuse physics, chemistry and proprietary scientific data — and ships them as commercial platforms with public developer surfaces. Three product lines carry callable APIs: AQtive Guard, a cryptography and non-human-identity posture-management platform (built on the Cryptosense analyzer) exposing a GraphQL API at /api/v2 plus a fleet of language and network sensors; Flint AI, an AI-agent security platform whose Platform API is a documented OpenAPI 3.0.3 contract over an inventory graph of agents, models, tools and MCP servers, paired with the flintai CLI and a Python guardrails SDK; and the SandboxAQ MCP Server, a per-tenant OAuth-protected Model Context Protocol endpoint that exposes the AQCat adsorption and AQPotency proteochemometric potency models as tools for LLM clients.",
+     "score": 48.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 48.1,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 51.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": "flavored",
       "dry_run_mode": false
      },
      "rank": 132
@@ -5619,6 +5619,44 @@
      "rank": 146
     },
     {
+     "name": "Cloud Academy",
+     "slug": "cloud-academy",
+     "description": "Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines. Its public REST API lets enterprise administrators integrate the platform with internal business systems — browsing the content catalog, managing organization teams and members, and generating asynchronous reports on learner activity, progress, and skills. Authentication is OAuth2 client-credentials and the public API is rate-limited to 100 requests per minute. Cloud Academy was surfaced as a 500 Global portfolio company and enriched into the API Evangelist network from its live Swagger definition.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/screenshots/cloud-academy-2026-07-25T205650.png",
+     "score": 46.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 32.3,
+      "governance": 11.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 38.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 147
+    },
+    {
      "name": "Dell Technologies",
      "slug": "dell-technologies",
      "description": "Dell Technologies is a global Fortune 500 technology company that designs, develops, manufactures, and supports a wide range of computing products, including PCs, servers, storage, networking equipment, and software services. Dell publishes a developer platform exposing APIs and SDKs for managing PowerEdge servers, PowerStore storage, PowerScale, OpenManage, APEX, and related infrastructure products, enabling automation of IT operations and integration into enterprise tooling.",
@@ -5654,7 +5692,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Samsung",
@@ -5692,7 +5730,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "San Francisco Compute Company",
@@ -5730,7 +5768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "Telemetron",
@@ -5767,7 +5805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "CentML",
@@ -5805,7 +5843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Infinidat",
@@ -5842,7 +5880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "Google Cloud Platform APIs",
@@ -5880,7 +5918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Scalable Infrastructure",
@@ -5918,7 +5956,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Together AI",
@@ -5956,44 +5994,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
-     "name": "Also",
-     "slug": "also",
-     "description": "ALSO (Also, Inc.) is a Palo Alto, California electric micromobility company spun out of Rivian in March 2025, building small electric vehicles for moving people and goods, both driven and autonomous. Its flagship product is the TM-B, a modular Class 3 electric bike with a swappable top frame and the in-house DreamRide software-defined drive system, alongside a delivery quad for logistics fleets and the Alpha Wave helmet. ALSO reached a $1B valuation in 2026 on a $200M round led by Greenoaks and announced an autonomous-delivery partnership with DoorDash. Its public digital surface is a Shopify-hosted commerce platform at ridealso.com that exposes an open Storefront GraphQL API (35 queries / 41 mutations), the Shopify JSON storefront endpoints, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven shopping and checkout, all advertised in the company's own published agents.md / llms.txt.",
+     "name": "Limitless",
+     "slug": "limitless",
+     "description": "Limitless builds the Pendant, a wearable AI device that continuously captures and transcribes the conversations its wearer has, paired with a desktop, web, and mobile app plus \"Ask AI\" for searching that personal history. The Limitless Developer API gives users programmatic access to their own data: lifelogs (Pendant recordings with markdown transcripts and a speaker-attributed structured contents tree), Ask AI chat history including the assistant's tool calls and the entries it retrieved, and raw Ogg Opus audio export. The API is authenticated with an X-API-Key header, is cursor paginated, and supports hybrid keyword plus semantic search across a user's lifelogs. Limitless also runs an official hosted MCP server at https://api.limitless.ai/mcp, backed by a complete OAuth 2.0 and OpenID Connect discovery surface with PKCE and dynamic client registration. Limitless was acquired by Meta; Pendant sales ended 2025-12-05 and existing customers are supported through 2026 on a free Unlimited Plan.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/screenshots/limitless-2026-07-25T225205.png",
      "score": 45.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 52.9,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 44.7
+      "contract_quality": 32.3,
+      "governance": 11.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 34.2
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 52.7,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 58.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
+      "agentic_access": "derived",
+      "mcp_server": true,
       "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": false,
-      "openapi_examples": "partial",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "Estimote Inc",
@@ -6031,7 +6077,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Beam",
@@ -6069,7 +6115,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
+    },
+    {
+     "name": "TensorWave",
+     "slug": "tensorwave",
+     "description": "TensorWave is a Las Vegas-headquartered AI cloud provider that builds and operates bare-metal GPU infrastructure exclusively on AMD Instinct accelerators (MI300X, MI325X, MI355X and MI455X) with AMD's open ROCm software stack. The company sells dedicated GPU nodes, high-speed network storage, and managed Slurm and Kubernetes clusters for AI model training, fine-tuning and inference, with observability, job scheduling, alerting and expert support layered on top. Access to the compute platform itself is delivered over SSH, Slurm and Kubernetes rather than a public REST control-plane API. TensorWave's public API surface is ScalarLM, the CC0-licensed unified training-and-inference stack it maintains and sponsors alongside RelationalAI, which exposes an OpenAI-compatible inference endpoint backed by vLLM together with a Megatron-LM training surface from a single deployment.",
+     "score": 45.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 52.7,
+      "governance": 20.8,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 27.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 160
     },
     {
      "name": "Liesheng Group",
@@ -6114,7 +6197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 161
     },
     {
      "name": "Vertiv",
@@ -6152,7 +6235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 162
     },
     {
      "name": "BitFury",
@@ -6189,7 +6272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 163
     },
     {
      "name": "Google Cloud Platform",
@@ -6227,7 +6310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 164
     },
     {
      "name": "Terrain Discovery Environment API",
@@ -6272,7 +6355,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 165
     },
     {
      "name": "Packet Host",
@@ -6309,7 +6392,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 166
     },
     {
      "name": "Vers",
@@ -6346,7 +6429,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 167
     },
     {
      "name": "Fluence",
@@ -6384,7 +6467,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 168
     },
     {
      "name": "OVH Cloud",
@@ -6422,7 +6505,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 169
+    },
+    {
+     "name": "Also",
+     "slug": "also",
+     "description": "ALSO (Also, Inc.) is a Palo Alto, California electric micromobility company spun out of Rivian in March 2025, building small electric vehicles for moving people and goods, both driven and autonomous. Its flagship product is the TM-B, a modular Class 3 electric bike with a swappable top frame and the in-house DreamRide software-defined drive system, alongside a delivery quad for logistics fleets and the Alpha Wave helmet. ALSO reached a $1B valuation in 2026 on a $200M round led by Greenoaks and announced an autonomous-delivery partnership with DoorDash. Its public digital surface is a Shopify-hosted commerce platform at ridealso.com that exposes an open Storefront GraphQL API (35 queries / 41 mutations), the Shopify JSON storefront endpoints, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven shopping and checkout, all advertised in the company's own published agents.md / llms.txt.",
+     "score": 44.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 56.3,
+      "governance": 11.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 42.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 170
     },
     {
      "name": "Impossible Cloud",
@@ -6460,44 +6580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
-    },
-    {
-     "name": "TensorWave",
-     "slug": "tensorwave",
-     "description": "TensorWave is a Las Vegas-headquartered AI cloud provider that builds and operates bare-metal GPU infrastructure exclusively on AMD Instinct accelerators (MI300X, MI325X, MI355X and MI455X) with AMD's open ROCm software stack. The company sells dedicated GPU nodes, high-speed network storage, and managed Slurm and Kubernetes clusters for AI model training, fine-tuning and inference, with observability, job scheduling, alerting and expert support layered on top. Access to the compute platform itself is delivered over SSH, Slurm and Kubernetes rather than a public REST control-plane API. TensorWave's public API surface is ScalarLM, the CC0-licensed unified training-and-inference stack it maintains and sponsors alongside RelationalAI, which exposes an OpenAI-compatible inference endpoint backed by vLLM together with a Megatron-LM training surface from a single deployment.",
-     "score": 44.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 48.8,
-      "governance": 20.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 36.8
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 27.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 169
+     "rank": 171
     },
     {
      "name": "Upsie",
@@ -6541,7 +6624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 172
     },
     {
      "name": "Hyperice",
@@ -6578,44 +6661,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
-    },
-    {
-     "name": "Taalas",
-     "slug": "taalas",
-     "description": "Taalas is a Toronto-based semiconductor company building \"Hardcore Models\" — AI models etched directly into custom silicon rather than executed as software on general-purpose GPUs, under the tagline \"The Model is The Computer.\" Its first product, the HC1 technology demonstrator, hard-wires Meta's Llama 3.1 8B into an 815mm2 / 53-billion-transistor die on TSMC's 6nm process and is publicly demonstrated through the ChatJimmy chatbot. Taalas exposes that silicon to developers through a hosted inference REST API at api.taalas.com, which publishes two OpenAPI 3.1.0 contracts: a root API with health, model-info and a Taalas-native /generate operation, and an OpenAI-compatible /v1 surface with /v1/completions and /v1/chat/completions. Access is by bearer API key issued through an application form; applications are currently closed due to demand.",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 50.0,
-      "governance": 20.8,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 60.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Digger",
@@ -6653,7 +6699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Autonomys",
@@ -6691,7 +6737,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Cerebras",
@@ -6729,7 +6775,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "HYPERLABS",
@@ -6760,44 +6806,6 @@
       "openapi_examples": "documented",
       "rate_limit_signal": false,
       "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 176
-    },
-    {
-     "name": "Cloud Academy",
-     "slug": "cloud-academy",
-     "description": "Cloud Academy is a hands-on technology skills training platform, now operating as the QA Learning Platform (cloudacademy.com redirects to platform.qa.com). It combines self-paced course content with hands-on labs, learning paths, quizzes, and exams across cloud, security, and software disciplines. Its public REST API lets enterprise administrators integrate the platform with internal business systems — browsing the content catalog, managing organization teams and members, and generating asynchronous reports on learner activity, progress, and skills. Authentication is OAuth2 client-credentials and the public API is rate-limited to 100 requests per minute. Cloud Academy was surfaced as a 500 Global portfolio company and enriched into the API Evangelist network from its live Swagger definition.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/screenshots/cloud-academy-2026-07-25T205650.png",
-     "score": 42.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 32.3,
-      "governance": 11.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 38.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -6845,51 +6853,6 @@
      "rank": 178
     },
     {
-     "name": "Limitless",
-     "slug": "limitless",
-     "description": "Limitless builds the Pendant, a wearable AI device that continuously captures and transcribes the conversations its wearer has, paired with a desktop, web, and mobile app plus \"Ask AI\" for searching that personal history. The Limitless Developer API gives users programmatic access to their own data: lifelogs (Pendant recordings with markdown transcripts and a speaker-attributed structured contents tree), Ask AI chat history including the assistant's tool calls and the entries it retrieved, and raw Ogg Opus audio export. The API is authenticated with an X-API-Key header, is cursor paginated, and supports hybrid keyword plus semantic search across a user's lifelogs. Limitless also runs an official hosted MCP server at https://api.limitless.ai/mcp, backed by a complete OAuth 2.0 and OpenID Connect discovery surface with PKCE and dynamic client registration. Limitless was acquired by Meta; Pendant sales ended 2025-12-05 and existing customers are supported through 2026 on a free Unlimited Plan.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/screenshots/limitless-2026-07-25T225205.png",
-     "score": 42.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 32.3,
-      "governance": 11.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 60.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 58.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 179
-    },
-    {
      "name": "Nine Fives",
      "slug": "nine-fives",
      "description": "Nine Fives builds modern, simple-to-use RF (radio frequency) test equipment for next-generation spacecraft, drones, and cellphones. Founded in 2025 by Andrew Kurtz and Noah Levy — RF hardware engineers who spent a decade at SpaceX designing radios and test systems for Falcon 9, Dragon, and Starship — the Y Combinator-backed company sells programmable, network-connected instruments: the POE-ATTEN-6G programmable attenuator and the POE-SWITCH-6G programmable SPDT switch, powered over USB-C or Power over Ethernet. Each instrument is automation-first: it serves a JSON REST API and a SCPI command interface (raw TCP and HiSLIP/IVI-6.1) directly on the device, plus a browser Web UI and touchscreen, with no drivers to install — control it with a plain curl command. The NineVue platform adds version-controlled test-rack configuration and an LLM skill that turns a rack drawing into functional test-automation code.",
@@ -6924,7 +6887,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 179
     }
    ]
   },
@@ -6933,8 +6896,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 94,
-   "shown": 94,
+   "count": 95,
+   "shown": 95,
    "providers": [
     {
      "name": "Apache BookKeeper",
@@ -6972,7 +6935,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "Materials Zone",
@@ -7017,7 +6980,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "ColdSnap",
@@ -7054,7 +7017,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Akash Network",
@@ -7092,7 +7055,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Applied Materials",
@@ -7129,7 +7092,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "UBTech",
@@ -7166,7 +7129,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 185
     },
     {
      "name": "SambaNova",
@@ -7204,7 +7167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 186
     },
     {
      "name": "Looking Glass",
@@ -7238,6 +7201,43 @@
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 187
+    },
+    {
+     "name": "Taalas",
+     "slug": "taalas",
+     "description": "Taalas is a Toronto-based semiconductor company building \"Hardcore Models\" — AI models etched directly into custom silicon rather than executed as software on general-purpose GPUs, under the tagline \"The Model is The Computer.\" Its first product, the HC1 technology demonstrator, hard-wires Meta's Llama 3.1 8B into an 815mm2 / 53-billion-transistor die on TSMC's 6nm process and is publicly demonstrated through the ChatJimmy chatbot. Taalas exposes that silicon to developers through a hosted inference REST API at api.taalas.com, which publishes two OpenAPI 3.1.0 contracts: a root API with health, model-info and a Taalas-native /generate operation, and an OpenAI-compatible /v1 surface with /v1/completions and /v1/chat/completions. Access is by bearer API key issued through an application form; applications are currently closed due to demand.",
+     "score": 40.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 50.0,
+      "governance": 11.5,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 45.1,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 42.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -7545,6 +7545,44 @@
      "rank": 196
     },
     {
+     "name": "Autodesk Fusion",
+     "slug": "autodesk-fusion",
+     "description": "Autodesk Fusion is a cloud-based CAD/CAM/CAE/PCB platform that provides REST and GraphQL APIs for design data access, manufacturing automation, simulation, and shop-floor operations within the Autodesk Platform Services (APS) ecosystem. Developers can build scripts, add-ins, and integrations that automate workflows, sync production data, and connect Fusion with ERP, PLM, and BI systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/screenshots/autodesk-fusion-2026-06-20T172708.png",
+     "score": 39.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 59.2,
+      "governance": 0.0,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 197
+    },
+    {
      "name": "Cubbit",
      "slug": "cubbit",
      "description": "Cubbit is a European cloud storage provider offering DS3, a sovereign, geo-distributed, S3-compatible object storage platform. DS3 encrypts (AES-256), fragments, and replicates data across multiple user-selected locations using Reed-Solomon erasure coding, delivering geo-resilience and data sovereignty within Europe. It ships in two forms: DS3 Cloud, a ready-to-use managed geo-redundant object store (TBs to PBs), and DS3 Composer, self-hosted software-defined storage you run on your own hardware (200 TB+). The storage plane exposes an AWS S3-compatible API at https://s3.cubbit.eu (region eu-west-1), authenticated with access key / secret key and AWS Signature Version 4, so existing S3 SDKs, the AWS CLI, rclone, Cyberduck, Veeam and other S3 tooling work unchanged. Cubbit is certified to ISO/IEC 27001, 27017, 27018, 9001, 20000-1 and 22301, and is GDPR- and NIS2-aligned with Italian ACN PA Cloud qualification.",
@@ -7580,7 +7618,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Polar Signals",
@@ -7617,7 +7655,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Bytescale",
@@ -7655,7 +7693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "CUDO Compute",
@@ -7693,7 +7731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "Akash Network",
@@ -7731,7 +7769,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "Portworx",
@@ -7765,43 +7803,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 202
-    },
-    {
-     "name": "Positron",
-     "slug": "positron",
-     "description": "Positron AI is a US-based generative-AI hardware company founded in 2023 and headquartered in Reno, Nevada, building purpose-built Transformer inference accelerators as an alternative to GPU-based inference infrastructure. Its shipping product, Atlas, is a rack inference appliance built on eight in-house Archer accelerators (256 GB HBM) and dual AMD EPYC Genoa processors, with the next-generation Asimov silicon and Titan system slated for 2027. Positron exposes its inference fleet through \"Olivaw\", a serving and administration layer that publishes two documented HTTP APIs: an OpenAI-compatible completions API (models, chat completions, text completions, with server-sent-event streaming) so existing OpenAI client code can be repointed at a Positron endpoint, and an administrative API for managing models, service nodes, users, and access tokens on an appliance or hosted cluster. The company raised a $230M Series B in February 2026 at a valuation above $1B from ARENA, Jump Trading, Unless, the Qatar Investment Authority, Arm, Helena, DFJ Growth, Atreides, Valor, Resilience Reserve, Flume Ventures and 1517 Fund.",
-     "score": 39.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 55.4,
-      "governance": 20.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 49.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -8522,24 +8523,23 @@
      "rank": 222
     },
     {
-     "name": "Autodesk Fusion",
-     "slug": "autodesk-fusion",
-     "description": "Autodesk Fusion is a cloud-based CAD/CAM/CAE/PCB platform that provides REST and GraphQL APIs for design data access, manufacturing automation, simulation, and shop-floor operations within the Autodesk Platform Services (APS) ecosystem. Developers can build scripts, add-ins, and integrations that automate workflows, sync production data, and connect Fusion with ERP, PLM, and BI systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/screenshots/autodesk-fusion-2026-06-20T172708.png",
-     "score": 36.9,
+     "name": "Positron",
+     "slug": "positron",
+     "description": "Positron AI is a US-based generative-AI hardware company founded in 2023 and headquartered in Reno, Nevada, building purpose-built Transformer inference accelerators as an alternative to GPU-based inference infrastructure. Its shipping product, Atlas, is a rack inference appliance built on eight in-house Archer accelerators (256 GB HBM) and dual AMD EPYC Genoa processors, with the next-generation Asimov silicon and Titan system slated for 2027. Positron exposes its inference fleet through \"Olivaw\", a serving and administration layer that publishes two documented HTTP APIs: an OpenAI-compatible completions API (models, chat completions, text completions, with server-sent-event streaming) so existing OpenAI client code can be repointed at a Positron endpoint, and an administrative API for managing models, service nodes, users, and access tokens on an appliance or hosted cluster. The company raised a $230M Series B in February 2026 at a valuation above $1B from ARENA, Jump Trading, Unless, the Qatar Investment Authority, Arm, Helena, DFJ Growth, Atreides, Valor, Resilience Reserve, Flume Ventures and 1517 Fund.",
+     "score": 37.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 59.2,
-      "governance": 0.0,
+      "discoverability": 87.0,
+      "contract_quality": 55.4,
+      "governance": 11.5,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
+      "developer_ergonomics": 51.6,
+      "commercial_clarity": 0.0
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 41.0,
+     "agent_score": 39.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -8548,11 +8548,11 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

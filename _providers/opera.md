@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Publisher app and placement (inventory) management.
@@ -162,19 +162,19 @@ overview: 'Opera publishes 3 APIs on the [APIs.io](https://apis.io/) network: In
 
 
   Opera''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, and 19 more developer resources.'
-random_paper: 43
+random_paper: 60
 score:
   band: developing
-  composite: 46.0
-  delta: -1.2
+  composite: 46.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.3
+    contract_quality: 62.8
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 47.2
+  previous_composite: 46.9
   provenance:
     conformance: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

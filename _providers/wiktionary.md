@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -613,7 +613,7 @@ overview: 'Wiktionary publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Wiktionary''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 32 more developer resources.'
-random_paper: 39
+random_paper: 60
 rules:
 - name: Wiktionary API Rules
   rule_count: 6
@@ -637,17 +637,17 @@ scopes:
   slug: wiktionary-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 59.6
-  delta: -7.3
+  band: developing
+  composite: 52.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 65.0
+    contract_quality: 32.1
     developer_ergonomics: 67.4
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 66.9
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -661,9 +661,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/screenshots/wiktionary-2026-06-20T201458.png
 security:
 - kind: authentication

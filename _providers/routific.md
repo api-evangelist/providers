@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -216,9 +216,9 @@ plans:
 - name: Routific Plans Pricing
   plan_count: 4
   slug: routific-plans-pricing
-random_paper: 49
+random_paper: 14
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Routific Rate Limits
   slug: routific-rate-limits
 rules:
@@ -239,17 +239,17 @@ rules:
     warn: 3
   slug: routific-rules
 score:
-  band: developing
-  composite: 55.6
-  delta: -4.4
+  band: strong
+  composite: 58.8
+  delta: 2.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 77.4
+    contract_quality: 79.3
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 21.1
-  previous_composite: 60.0
+    operational_transparency: 42.1
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -257,8 +257,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/screenshots/routific-2026-06-20T193228.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: npm-compatible package registry API implemented by vsr, vlt's serverless registry. Exposes package publish/install endpoints (packuments, tarballs, dist-tags), user and token management, granular acce
@@ -181,11 +181,11 @@ plans:
 - name: Vlt Plans
   plan_count: 4
   slug: vlt-plans
-random_paper: 14
+random_paper: 57
 score:
   band: developing
   composite: 43.9
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 0.0
@@ -193,11 +193,11 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 42.9
+  previous_composite: 43.9
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -20,7 +20,7 @@ modified: '2026-04-26'
 name: Code First
 nav: Providers
 network: true
-random_paper: 24
+random_paper: 58
 slug: code-first
 tags:
 - API Design

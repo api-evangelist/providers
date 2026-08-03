@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -452,7 +452,7 @@ overview: 'Soldo Software and Services publishes 46 APIs on the [APIs.io](https:
 
 
   Soldo Software and Services'' developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 24
+random_paper: 70
 scopes:
 - name: Soldo Software And Services Scopes
   scope_count: 59
@@ -460,16 +460,16 @@ scopes:
   summary_line: 59 scopes · clientCredentials
 score:
   band: strong
-  composite: 60.7
-  delta: -0.3
+  composite: 61.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 67.0
+    contract_quality: 70.2
     developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 61.0
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -486,8 +486,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 90.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

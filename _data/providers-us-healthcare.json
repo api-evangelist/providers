@@ -941,6 +941,52 @@
      "rank": 20
     },
     {
+     "name": "Benchling",
+     "slug": "benchling",
+     "description": "Benchling is a life sciences R&D cloud platform offering a comprehensive REST API for programmatically managing molecular biology entities, assay results and runs, electronic lab notebook entries, DNA/RNA/protein sequences, inventory, and experiment workflows. The API enables integrations with lab instruments, ERP systems, LIMS, and external databases, as well as bulk data ingest/export and event-driven automation via webhooks and AWS EventBridge. API access is available to Professional and Enterprise tenants and supports user API keys, OAuth 2.0 client credentials, and OIDC authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png",
+     "score": 48.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 57.1,
+      "governance": 58.3,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 36.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 46.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Life Sciences & Clinical Trials",
+     "rank": 21
+    },
+    {
      "name": "Availity",
      "slug": "availity",
      "description": "Availity is a healthcare information network and clearinghouse providing REST APIs for real-time HIPAA EDI transactions. The platform processes over 11 billion annual healthcare transactions connecting providers, health plans, and vendors nationwide. Create your application and subscribe to a plan to make use of Availity APIs for eligibility verification, claims management, prior authorization, and patient cost estimation.",
@@ -977,7 +1023,7 @@
       "dry_run_mode": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Color",
@@ -1023,7 +1069,7 @@
       "dry_run_mode": false
      },
      "tier": "Genomics & Diagnostics",
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Practice Fusion",
@@ -1068,7 +1114,7 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Hint Health",
@@ -1114,7 +1160,7 @@
       "dry_run_mode": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Luma Health",
@@ -1160,52 +1206,6 @@
       "dry_run_mode": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 25
-    },
-    {
-     "name": "Benchling",
-     "slug": "benchling",
-     "description": "Benchling is a life sciences R&D cloud platform offering a comprehensive REST API for programmatically managing molecular biology entities, assay results and runs, electronic lab notebook entries, DNA/RNA/protein sequences, inventory, and experiment workflows. The API enables integrations with lab instruments, ERP systems, LIMS, and external databases, as well as bulk data ingest/export and event-driven automation via webhooks and AWS EventBridge. API access is available to Professional and Enterprise tenants and supports user API keys, OAuth 2.0 client credentials, and OIDC authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png",
-     "score": 45.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 57.1,
-      "governance": 58.3,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 36.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 46.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Life Sciences & Clinical Trials",
      "rank": 26
     },
     {

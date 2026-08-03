@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-07-28'
+  score: 30.2
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Merchant-integration API for SHEIN sellers and logistics partners — OpenAPI and Webhook capabilities covering product publishing, order fulfillment, logistics/shipping, and stock-preparation order man
@@ -103,11 +103,11 @@ overview: 'SHEIN publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   SHEIN''s developer surface includes documentation, authentication, support, signup flow, and 8 more developer resources.'
-random_paper: 43
+random_paper: 60
 score:
   band: thin
   composite: 36.0
-  delta: 6.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -115,10 +115,10 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 36.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Shein Authentication

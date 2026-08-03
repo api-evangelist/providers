@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -120,7 +120,7 @@ overview: 'CAA Insurance is profiled on the [APIs.io](https://apis.io/) network.
 
 
   CAA Insurance''s developer surface includes authentication, engineering blog, FAQ, support, and 17 more developer resources.'
-random_paper: 76
+random_paper: 71
 scopes:
 - name: Caa Insurance Scopes
   scope_count: 4
@@ -129,7 +129,7 @@ scopes:
 score:
   band: emerging
   composite: 24.5
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -137,7 +137,7 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 25.9
+  previous_composite: 24.5
   provenance:
     conformance: derived
   regulatory:
@@ -146,8 +146,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caa-insurance/refs/heads/main/screenshots/caa-insurance-2026-07-25T204155.png
 security:

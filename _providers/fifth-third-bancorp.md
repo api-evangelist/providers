@@ -17,20 +17,20 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-07-28'
+  score: 57.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -256,19 +256,19 @@ press:
 - date: '2026-05-25'
   title: Fifth Third Bank Welcomes Back Art Weston
   url: https://ir.53.com/news/news-details/2022/Fifth-Third-Bank-Welcomes-Back-Art-Weston/default.aspx
-random_paper: 13
+random_paper: 94
 score:
   band: developing
-  composite: 45.5
-  delta: -4.7
+  composite: 47.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 51.6
+    contract_quality: 62.4
     developer_ergonomics: 71.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 50.2
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,8 +280,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-07-28'
+  score: 42.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ plans:
 - name: Plivo Plans Pricing
   plan_count: 3
   slug: plivo-plans-pricing
-random_paper: 62
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Plivo Rate Limits
@@ -310,16 +310,16 @@ rules:
   slug: plivo-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 58.1
-  delta: -8.3
+  composite: 58.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 65.0
+    contract_quality: 67.6
     developer_ergonomics: 67.4
     discoverability: 55.6
     governance: 47.9
     operational_transparency: 68.4
-  previous_composite: 66.4
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     contracts:
@@ -333,9 +333,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/screenshots/plivo-2026-06-20T191841.png
 security:
 - kind: authentication

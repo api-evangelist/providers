@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: JSON-over-REST API for managing Range Teams, Users, and Check-ins (Updates). API-key (HTTP Basic) or OAuth 2.0 bearer authentication; HTTPS/TLS 1.2+ required.
@@ -164,11 +164,11 @@ overview: 'Range publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Range''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 33
+random_paper: 50
 score:
   band: thin
   composite: 36.4
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -176,12 +176,12 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 31.6
-  previous_composite: 38.9
+  previous_composite: 36.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

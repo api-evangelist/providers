@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-07-28'
+  score: 46.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -384,7 +384,7 @@ plans:
 - name: Binance Plans Pricing
   plan_count: 4
   slug: binance-plans-pricing
-random_paper: 64
+random_paper: 55
 rate_limits:
 - limit_count: 4
   name: Binance Rate Limits
@@ -416,16 +416,16 @@ rules:
   slug: binance-spectral-rules
 score:
   band: developing
-  composite: 50.2
-  delta: -2.3
+  composite: 50.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 72.3
+    contract_quality: 72.7
     developer_ergonomics: 39.1
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 52.5
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -439,8 +439,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/screenshots/binance-2026-06-20T173243.png
 security:

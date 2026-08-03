@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -194,11 +194,11 @@ plans:
 - name: Evari Plans
   plan_count: 6
   slug: evari-plans
-random_paper: 43
+random_paper: 60
 score:
   band: developing
   composite: 50.9
-  delta: -5.4
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 41.9
@@ -206,7 +206,7 @@ score:
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 56.3
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -218,9 +218,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png
 security:
 - kind: authentication

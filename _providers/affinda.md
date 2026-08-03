@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -609,7 +609,7 @@ plans:
 - name: Affinda Plans Pricing
   plan_count: 3
   slug: affinda-plans-pricing
-random_paper: 57
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Affinda Rate Limits
@@ -633,16 +633,16 @@ rules:
   slug: affinda-rules
 score:
   band: exemplar
-  composite: 68.6
-  delta: -6.9
+  composite: 69.3
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 68.1
+    contract_quality: 71.4
     developer_ergonomics: 71.7
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 60.5
-  previous_composite: 75.5
+  previous_composite: 69.3
   provenance:
     agentic_access: derived
     contracts:
@@ -656,9 +656,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/screenshots/affinda-2026-06-20T165616.png
 security:
 - kind: authentication

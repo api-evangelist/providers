@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -282,7 +282,7 @@ plans:
 - name: Lunar Energy Plans Pricing
   plan_count: 4
   slug: lunar-energy-plans-pricing
-random_paper: 11
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Lunar Energy Rate Limits
@@ -311,16 +311,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.2
-  delta: -1.7
+  composite: 48.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 49.9
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -334,8 +334,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/screenshots/lunar-energy-2026-06-20T184758.png
 security:

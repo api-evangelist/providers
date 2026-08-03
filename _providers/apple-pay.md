@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ plans:
 - name: Apple Pay Plans Pricing
   plan_count: 2
   slug: apple-pay-plans-pricing
-random_paper: 3
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Apple Pay Rate Limits
@@ -234,16 +234,16 @@ rules:
   slug: apple-pay-spectral-rules
 score:
   band: developing
-  composite: 55.3
-  delta: -5.1
+  composite: 55.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 77.1
+    contract_quality: 79.1
     developer_ergonomics: 39.1
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 60.4
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     contracts:
@@ -257,9 +257,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/screenshots/apple-pay-2026-06-20T172320.png
 security:
 - kind: authentication

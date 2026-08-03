@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,19 +191,19 @@ overview: 'Golden Recursion publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Golden Recursion''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 24
+random_paper: 49
 score:
   band: developing
-  composite: 47.6
-  delta: -1.2
+  composite: 48.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 48.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,8 +214,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/screenshots/golden-recursion-2026-07-25T220029.png
 security:

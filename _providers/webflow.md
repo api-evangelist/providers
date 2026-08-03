@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -523,7 +523,7 @@ plans:
 - name: Webflow Plans Pricing
   plan_count: 14
   slug: webflow-plans-pricing
-random_paper: 20
+random_paper: 93
 rate_limits:
 - limit_count: 5
   name: Webflow Rate Limits
@@ -560,16 +560,16 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.8
-  delta: -3.3
+  composite: 71.9
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 75.7
+    contract_quality: 80.3
     developer_ergonomics: 65.2
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 76.3
-  previous_composite: 74.1
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     contracts:
@@ -577,8 +577,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png
 security:

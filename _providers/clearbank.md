@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-07-28'
+  score: 50.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -251,19 +251,19 @@ overview: 'ClearBank publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ClearBank''s developer surface includes authentication, sandbox, documentation, getting-started guide, API reference, engineering blog, and 36 more developer resources.'
-random_paper: 29
+random_paper: 76
 score:
   band: developing
-  composite: 45.0
-  delta: -6.4
+  composite: 46.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 51.6
+    contract_quality: 53.7
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 51.4
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,10 +279,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 39.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+    score: 44.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png
 security:
 - kind: authentication

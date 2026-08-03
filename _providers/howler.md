@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -211,7 +211,7 @@ overview: 'Howler publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Howler''s developer surface includes documentation, API reference, developer portal, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 1
+random_paper: 87
 scopes:
 - name: Howler Scopes
   scope_count: 3
@@ -219,16 +219,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.4
-  delta: -5.2
+  composite: 42.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 52.6
+    contract_quality: 54.3
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 47.6
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,9 +245,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/howler/refs/heads/main/screenshots/howler-2026-07-25T221539.png
 security:
 - kind: authentication

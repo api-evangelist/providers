@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -132,23 +132,23 @@ plans:
 - name: Intelerad Plans Pricing
   plan_count: 1
   slug: intelerad-plans-pricing
-random_paper: 50
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Intelerad Rate Limits
   slug: intelerad-rate-limits
 score:
   band: thin
-  composite: 33.2
-  delta: -4.1
+  composite: 33.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 48.3
+    contract_quality: 50.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.3
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/screenshots/intelerad-2026-07-25T222644.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -111,23 +111,23 @@ plans:
 - name: Bureau Of Justice Statistics Plans Pricing
   plan_count: 3
   slug: bureau-of-justice-statistics-plans-pricing
-random_paper: 62
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Bureau Of Justice Statistics Rate Limits
   slug: bureau-of-justice-statistics-rate-limits
 score:
   band: thin
-  composite: 32.4
-  delta: -1.3
+  composite: 33.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 44.1
+    contract_quality: 48.8
     developer_ergonomics: 8.7
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.7
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -135,8 +135,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/screenshots/bureau-of-justice-statistics-2026-06-20T173810.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -114,23 +114,23 @@ plans:
 - name: Cover Genius Plans Pricing
   plan_count: 1
   slug: cover-genius-plans-pricing
-random_paper: 9
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Cover Genius Rate Limits
   slug: cover-genius-rate-limits
 score:
   band: thin
-  composite: 33.9
-  delta: -3.4
+  composite: 34.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.3
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -144,8 +144,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/screenshots/cover-genius-2026-06-20T175139.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -631,7 +631,7 @@ plans:
 - name: Amazon Control Tower Plans Pricing
   plan_count: 3
   slug: amazon-control-tower-plans-pricing
-random_paper: 16
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Amazon Control Tower Rate Limits
@@ -654,17 +654,17 @@ rules:
     warn: 14
   slug: amazon-control-tower-spectral-rules
 score:
-  band: exemplar
-  composite: 67.4
-  delta: -7.8
+  band: strong
+  composite: 58.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 69.5
+    contract_quality: 33.1
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 75.2
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     contracts:
@@ -672,9 +672,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/screenshots/amazon-control-tower-2026-06-20T171608.png
 security:
 - kind: authentication

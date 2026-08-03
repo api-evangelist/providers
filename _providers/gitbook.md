@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Gitbook Plans Pricing
   plan_count: 3
   slug: gitbook-plans-pricing
-random_paper: 13
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Gitbook Rate Limits
@@ -216,16 +216,16 @@ rules:
   slug: gitbook-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.8
-  delta: -3.6
+  composite: 51.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 84.7
+    contract_quality: 86.0
     developer_ergonomics: 13.0
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 54.4
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -233,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/screenshots/gitbook-2026-06-20T181833.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -809,7 +809,7 @@ plans:
 - name: Bandwidth Plans Pricing
   plan_count: 2
   slug: bandwidth-plans-pricing
-random_paper: 47
+random_paper: 94
 rate_limits:
 - limit_count: 3
   name: Bandwidth Rate Limits
@@ -841,16 +841,16 @@ rules:
   slug: bandwidth-spectral-rules
 score:
   band: strong
-  composite: 59.5
-  delta: -4.6
+  composite: 59.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 83.9
+    contract_quality: 85.1
     developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 64.1
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     contracts:
@@ -864,8 +864,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/screenshots/bandwidth-2026-06-20T172942.png
 security:

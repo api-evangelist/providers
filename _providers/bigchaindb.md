@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Full-text search over asset payloads.
@@ -114,19 +114,19 @@ overview: 'Bigchaindb publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Bigchaindb''s developer surface includes documentation, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 35
+random_paper: 69
 score:
   band: thin
-  composite: 33.1
-  delta: -2.0
+  composite: 34.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 49.0
+    contract_quality: 53.4
     developer_ergonomics: 37.0
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 35.1
+  previous_composite: 34.2
   provenance:
     conformance: derived
     contracts:
@@ -135,8 +135,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/screenshots/bigchaindb-2026-07-25T202922.png
 security:

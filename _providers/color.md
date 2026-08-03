@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Eligibility API from Color — 1 operation(s) for eligibility.
@@ -140,19 +140,19 @@ overview: 'Color publishes 1 API on the [APIs.io](https://apis.io/) network: Eli
 
 
   Color''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, signup flow, support, and 16 more developer resources.'
-random_paper: 51
+random_paper: 68
 score:
   band: developing
-  composite: 46.8
-  delta: -3.5
+  composite: 47.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 60.3
     discoverability: 87.0
     governance: 8.3
     operational_transparency: 21.1
-  previous_composite: 50.3
+  previous_composite: 47.5
   provenance:
     contracts:
       callable: 100.0
@@ -166,8 +166,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/screenshots/color-2026-07-25T210056.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ plans:
 - name: Umami Plans Pricing
   plan_count: 3
   slug: umami-plans-pricing
-random_paper: 45
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Umami Rate Limits
@@ -405,16 +405,16 @@ rules:
   slug: umami-spectral-rules
 score:
   band: developing
-  composite: 54.4
-  delta: -6.8
+  composite: 46.1
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 61.0
+    contract_quality: 27.7
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 61.2
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     contracts:
@@ -422,9 +422,9 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/screenshots/umami-2026-06-20T200011.png
 security:
 - kind: authentication

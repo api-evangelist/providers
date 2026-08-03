@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 112
   slug: medadvisor-agentic-access
   summary_line: 112 operations · 67 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 8
 apis:
 - description: The publicly documented third-party integration surface of MedAdvisor's Pharmacy Unified API, enabling external widgets and eCommerce platforms to authenticate, look up pharmacy details, retrieve eScr
   name: Pharmacy Unified API - 3rd-Party Integration
@@ -60,7 +60,10 @@ apis:
 - description: Pharmacy account, settings, and administration operations within the Pharmacy Unified API - retrieving pharmacy details and module/feature settings, patient search, account registration and activation
   name: Pharmacy Unified API - Pharmacy
   slug: pharmacy-unified-pharmacy
-artifact_total: 12
+- description: MedAdvisor Pharmacy Unified API v2.0 from MedAdvisor — 44 path(s) described in OpenAPI.
+  name: MedAdvisor Pharmacy Unified API v2.0
+  slug: medadvisor-pharmacy-unified-v2-openapi
+artifact_total: 13
 common:
 - group: agent
   title: ''
@@ -183,15 +186,15 @@ modified: '2026-07-24'
 name: MedAdvisor
 nav: Providers
 network: true
-overview: 'MedAdvisor publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Pharmacy Unified API - 3rd-Party Integration, Pharmacy Unified API - Booking Service, Pharmacy Unified API - Refill Order, and 4 more. Tagged areas include Healthcare, Australia, Pharmacy, Medication Management, and Medication Adherence.
+overview: 'MedAdvisor publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Pharmacy Unified API - 3rd-Party Integration, Pharmacy Unified API - Booking Service, Pharmacy Unified API - Refill Order, and 5 more. Tagged areas include Healthcare, Australia, Pharmacy, Medication Management, and Medication Adherence.
 
 
   MedAdvisor''s developer surface includes authentication, API reference, documentation, support, and 23 more developer resources.'
-random_paper: 4
+random_paper: 25
 score:
   band: thin
   composite: 34.7
-  delta: -5.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 32.3
@@ -199,7 +202,7 @@ score:
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 40.3
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -216,9 +219,9 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Medadvisor Authentication

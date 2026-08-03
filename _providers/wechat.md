@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-07-28'
+  score: 23.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -284,7 +284,7 @@ overview: 'WeChat publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   WeChat''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, developer console, code examples, and 31 more developer resources.'
-random_paper: 62
+random_paper: 66
 rules:
 - name: WeChat API Rules
   rule_count: 9
@@ -296,16 +296,16 @@ rules:
   slug: wechat-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 44.7
-  delta: -4.6
+  composite: 45.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.7
+    contract_quality: 66.4
     developer_ergonomics: 67.4
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 5.3
-  previous_composite: 49.3
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -319,8 +319,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/screenshots/wechat-2026-06-20T201343.png
 security:

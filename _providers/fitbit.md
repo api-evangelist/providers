@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-07-28'
+  score: 37.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -347,7 +347,7 @@ plans:
 - name: Fitbit Plans Pricing
   plan_count: 6
   slug: fitbit-plans-pricing
-random_paper: 68
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Fitbit Rate Limits
@@ -376,16 +376,16 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.7
-  delta: -5.1
+  composite: 62.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 80.3
+    contract_quality: 84.7
     developer_ergonomics: 56.5
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 42.1
-  previous_composite: 66.8
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     contracts:
@@ -399,9 +399,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/screenshots/fitbit-2026-06-20T181253.png
 security:
 - kind: authentication

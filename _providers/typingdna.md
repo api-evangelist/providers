@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Advanced routes for customisation
@@ -198,24 +198,24 @@ overview: 'TypingDNA publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   TypingDNA''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
-random_paper: 72
+random_paper: 24
 scopes:
 - name: Typingdna Scopes
   scope_count: 3
   slug: typingdna-scopes
   summary_line: 3 scopes · authorizationCode/refreshToken/deviceCode/jwtBearer
 score:
-  band: developing
-  composite: 54.8
+  band: strong
+  composite: 56.0
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 54.0
+    contract_quality: 58.9
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 54.8
+  previous_composite: 56.0
   provenance:
     conformance: first-party
     contracts:
@@ -225,8 +225,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

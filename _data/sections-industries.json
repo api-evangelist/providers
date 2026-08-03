@@ -18,7 +18,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5009
+  "count": 5010
  },
  {
   "slug": "automotive",
@@ -137,7 +137,7 @@
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1628
+  "count": 1629
  },
  {
   "slug": "e-commerce-platform",

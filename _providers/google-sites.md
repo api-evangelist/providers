@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Google Sites API allows developers to programmatically access and manage Google Sites content, including pages, lists, and attachments.
@@ -96,7 +96,7 @@ plans:
 - name: Google Sites Plans Pricing
   plan_count: 3
   slug: google-sites-plans-pricing
-random_paper: 4
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Google Sites Rate Limits
@@ -104,7 +104,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.0
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 32.3
@@ -112,9 +112,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 41.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 39.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-sites/refs/heads/main/screenshots/google-sites-2026-06-20T182235.png
 security:

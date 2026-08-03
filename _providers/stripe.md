@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.5
-  scored_at: '2026-07-28'
+  score: 59.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -1557,7 +1557,7 @@ plans:
 - name: Stripe Plans Pricing
   plan_count: 9
   slug: stripe-plans-pricing
-random_paper: 7
+random_paper: 93
 rate_limits:
 - limit_count: 6
   name: Stripe Rate Limits
@@ -1594,16 +1594,16 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 84.2
-  delta: -0.3
+  composite: 84.7
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 95.1
     discoverability: 59.3
     governance: 63.5
     operational_transparency: 94.7
-  previous_composite: 84.5
+  previous_composite: 84.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1620,8 +1620,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 93.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png
 security:

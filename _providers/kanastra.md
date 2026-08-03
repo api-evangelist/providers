@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 26.6
+  scored_at: '2026-08-03'
 api_count: 20
 apis:
 - description: The Accounts API from Kanastra — 3 operation(s) for accounts.
@@ -144,7 +144,7 @@ overview: 'Kanastra publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kanastra''s developer surface includes documentation, API reference, authentication, and 4 more developer resources.'
-random_paper: 33
+random_paper: 93
 scopes:
 - name: Kanastra Scopes
   scope_count: 5
@@ -152,16 +152,16 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 37.3
-  delta: 2.1
+  composite: 37.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 65.7
+    contract_quality: 68.6
     developer_ergonomics: 34.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 35.2
+  previous_composite: 37.9
   provenance:
     conformance: first-party
     contracts:
@@ -177,8 +177,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 49.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/screenshots/kanastra-2026-07-25T223445.png
 security:

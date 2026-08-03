@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Market order creation and execution
@@ -134,19 +134,19 @@ overview: 'Rift publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ord
 
 
   Rift''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 27
+random_paper: 57
 score:
   band: thin
-  composite: 32.4
-  delta: -3.7
+  composite: 33.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 54.8
+    contract_quality: 58.7
     developer_ergonomics: 49.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 36.1
+  previous_composite: 33.2
   provenance:
     conformance: derived
     contracts:
@@ -162,8 +162,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

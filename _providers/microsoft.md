@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -644,7 +644,7 @@ press:
 - date: '2026-05-25'
   title: Microsoft announces $5.5 billion spend and new ...
   url: https://news.microsoft.com/source/asia/2026/04/01/microsoft-announces-5-5-billion-spend-and-new-microsoft-elevate-programs-to-support-every-tertiary-student-educator-and-nonprofit-to-power-singapores-ai-future/
-random_paper: 80
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Microsoft Rate Limits
@@ -665,16 +665,16 @@ scopes:
   summary_line: 42 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 59.5
-  delta: -1.7
+  composite: 60.0
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 77.2
+    contract_quality: 78.9
     developer_ergonomics: 39.1
     discoverability: 57.4
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 61.2
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     contracts:
@@ -682,8 +682,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 56
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png
 security:

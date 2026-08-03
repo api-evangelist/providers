@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 70.0
-  scored_at: '2026-07-28'
+  score: 66.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 1
@@ -245,6 +245,10 @@ asyncapis:
   name: Lean Technologies Webhooks
   slug: lean-technologies-webhooks
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/lean-technologies/overview
 - group: start
   title: ''
   type: DeveloperPortal
@@ -395,8 +399,8 @@ overview: 'Lean Technologies publishes 67 APIs on the [APIs.io](https://apis.io/
   The Lean Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lean Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 26 more developer resources.'
-random_paper: 23
+  Lean Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 27 more developer resources.'
+random_paper: 35
 scopes:
 - name: Lean Technologies Scopes
   scope_count: 2
@@ -404,16 +408,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 58.6
-  delta: -2.9
+  composite: 59.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.3
+    contract_quality: 72.0
     developer_ergonomics: 77.7
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 61.5
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -430,8 +434,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/screenshots/lean-technologies-2026-07-25T224735.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: DRiV, a Tenneco company, provides digital parts catalog and vehicle fitment lookup capabilities for its portfolio of more than 30 aftermarket brands including Monroe, Champion, Walker, and Fel-Pro.
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Winning at this level takes partners you trust. We' ...
   url: https://www.linkedin.com/posts/tenneco_winning-at-this-level-takes-partners-you-activity-7420103720606175232-MQsC
-random_paper: 10
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Tenneco Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.6
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 17.7
@@ -120,9 +120,9 @@ score:
     discoverability: 59.3
     governance: 10.4
     operational_transparency: 31.6
-  previous_composite: 26.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 23.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenneco/refs/heads/main/screenshots/tenneco-2026-06-20T195115.png
 security:

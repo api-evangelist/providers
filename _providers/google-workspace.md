@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -488,7 +488,7 @@ plans:
 - name: Google Workspace Plans Pricing
   plan_count: 4
   slug: google-workspace-plans-pricing
-random_paper: 17
+random_paper: 42
 rate_limits:
 - limit_count: 7
   name: Google Workspace Rate Limits
@@ -517,16 +517,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.1
-  delta: -4.7
+  composite: 63.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.2
+    contract_quality: 73.6
     developer_ergonomics: 54.3
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 67.8
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
@@ -534,8 +534,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/screenshots/google-workspace-2026-06-20T182248.png
 security:

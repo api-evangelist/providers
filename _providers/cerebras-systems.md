@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -252,23 +252,23 @@ plans:
 - name: Cerebras Systems Plans
   plan_count: 3
   slug: cerebras-systems-plans
-random_paper: 36
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Cerebras Systems Rate Limits
   slug: cerebras-systems-rate-limits
 score:
-  band: strong
-  composite: 64.9
-  delta: -0.8
+  band: exemplar
+  composite: 66.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 54.1
+    contract_quality: 58.6
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 65.7
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,8 +279,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/screenshots/cerebras-systems-2026-07-25T204949.png
 security:

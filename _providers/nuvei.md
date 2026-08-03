@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.0
-  scored_at: '2026-07-28'
+  score: 23.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -255,7 +255,7 @@ plans:
 - name: Nuvei Plans Pricing
   plan_count: 1
   slug: nuvei-plans-pricing
-random_paper: 59
+random_paper: 76
 rate_limits:
 - limit_count: 0
   name: Nuvei Rate Limits
@@ -287,16 +287,16 @@ rules:
   slug: nuvei-rules
 score:
   band: thin
-  composite: 36.8
-  delta: -4.1
+  composite: 37.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.9
+    contract_quality: 73.8
     developer_ergonomics: 15.2
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 40.9
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -310,8 +310,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png
 security:

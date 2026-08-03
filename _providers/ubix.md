@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The UBIX Insights API enables programmatic access to AI-generated analytics, insights, and model outputs from the UBIX platform. Supports integration with existing business intelligence tools, CRM sys
@@ -85,7 +85,7 @@ plans:
 - name: Ubix Plans Pricing
   plan_count: 3
   slug: ubix-plans-pricing
-random_paper: 30
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Ubix Rate Limits
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.1
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 17.7
@@ -101,9 +101,9 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 26.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 24.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubix/refs/heads/main/screenshots/ubix-2026-06-20T195933.png
 security:

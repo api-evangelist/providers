@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Cabela's offers an online storefront for hunting, fishing, camping, and outdoor gear, along with store locator, customer service, and loyalty program pages. No public developer API is currently docume
@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: B+E Brokers $324 million Cabela's Sale-leaseback ...
   url: https://www.24-7pressrelease.com/press-release/463191/be-brokers-324-million-cabelas-sale-leaseback-through-proprietary-digital-platform
-random_paper: 59
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Cabelas Rate Limits
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.0
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -116,9 +116,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 25.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 23.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabelas/refs/heads/main/screenshots/cabelas-2026-06-20T173836.png
 security:

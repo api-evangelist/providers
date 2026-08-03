@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -2936,9 +2936,9 @@ plans:
 - name: Benchling Plans Pricing
   plan_count: 3
   slug: benchling-plans-pricing
-random_paper: 36
+random_paper: 83
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Benchling Rate Limits
   slug: benchling-rate-limits
 rules:
@@ -2957,16 +2957,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.9
-  delta: -5.6
+  composite: 48.7
+  delta: 3.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 55.9
+    contract_quality: 57.1
     developer_ergonomics: 34.8
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 28.9
-  previous_composite: 50.5
+    operational_transparency: 60.5
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     contracts:
@@ -2980,9 +2980,9 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png
 security:
 - kind: authentication

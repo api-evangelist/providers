@@ -4,10 +4,10 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "band": "exemplar",
+   "label": "Exemplar",
+   "range": "70+",
+   "blurb": "Reference-quality API operations across every facet.",
    "count": 1,
    "shown": 1,
    "providers": [
@@ -16,14 +16,14 @@
      "slug": "amadeus",
      "description": "Amadeus for Developers is the self-service developer program from Amadeus IT Group, the leading technology provider for the global travel and tourism industry. The Self-Service catalog offers 40+ travel REST APIs across flights, hotels, destination experiences, cars and transfers, market insights, itinerary management, and AI-powered prediction services. APIs use OAuth2 client credentials authentication and are organized into Test (free, capped) and Production (paid, higher TPS) environments. Note: Amadeus has announced the Self-Service developer portal will be decommissioned on 17 July 2026; Enterprise customers retain access to the equivalent Enterprise APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png",
-     "score": 64.4,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 68.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 80.1,
       "governance": 68.8,
-      "operational_transparency": 5.3,
+      "operational_transparency": 36.8,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 71.1
      },

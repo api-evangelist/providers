@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -502,7 +502,7 @@ plans:
 - name: Openweathermap Plans Pricing
   plan_count: 7
   slug: openweathermap-plans-pricing
-random_paper: 28
+random_paper: 79
 rate_limits:
 - limit_count: 12
   name: Openweathermap Rate Limits
@@ -526,16 +526,16 @@ rules:
   slug: openweathermap-rules
 score:
   band: exemplar
-  composite: 72.5
-  delta: -1.0
+  composite: 72.3
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 82.1
+    contract_quality: 81.4
     developer_ergonomics: 56.5
     discoverability: 94.4
     governance: 80.2
     operational_transparency: 36.8
-  previous_composite: 73.5
+  previous_composite: 72.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -545,8 +545,8 @@ score:
       marker_coverage: 0.0
       total: 14
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png
 security:

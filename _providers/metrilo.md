@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The Categories API from Metrilo — 2 operation(s) for categories.
@@ -165,19 +165,19 @@ overview: 'Metrilo publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Metrilo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 26
+random_paper: 4
 score:
-  band: developing
-  composite: 45.4
-  delta: -4.3
+  band: thin
+  composite: 38.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 44.1
+    contract_quality: 15.1
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 49.7
+  previous_composite: 38.1
   provenance:
     conformance: first-party
     contracts:
@@ -187,8 +187,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

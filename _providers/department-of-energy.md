@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -207,23 +207,23 @@ plans:
 - name: Department Of Energy Plans Pricing
   plan_count: 3
   slug: department-of-energy-plans-pricing
-random_paper: 61
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Department Of Energy Rate Limits
   slug: department-of-energy-rate-limits
 score:
   band: thin
-  composite: 40.5
-  delta: -4.7
+  composite: 40.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.3
+    contract_quality: 60.5
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 10.4
     operational_transparency: 36.8
-  previous_composite: 45.2
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -237,8 +237,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/screenshots/department-of-energy-2026-06-20T175917.png
 security:

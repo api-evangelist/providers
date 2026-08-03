@@ -229,50 +229,6 @@
      "rank": 5
     },
     {
-     "name": "Aleph Alpha",
-     "slug": "aleph-alpha",
-     "description": "Aleph Alpha is a Heidelberg, Germany based sovereign AI company building PhariaAI, an end-to-end, customizable AI suite for enterprises and governments that can be deployed on-premise or hosted. The stack combines leading open-source and proprietary large language models with Aleph Alpha's own Pharia-1-LLM model family and its research into transparency, explainability and domain-specific performance. PhariaAI is exposed through six documented HTTP APIs — PhariaInference (completion, chat, embeddings, tokenization), PhariaData (repositories, datasets, transformations), PhariaSearch / Document Index (semantic search over a knowledge base), PhariaStudio (projects, traces, evaluation, benchmarks), PhariaOS (cluster, use case and model lifecycle management) and a stateful, OpenAI-compatible Responses API with MCP tool calling — each published as an OpenAPI or Swagger definition on the Aleph Alpha documentation site. First-party SDKs ship for Python and Rust, alongside a CLI for publishing WebAssembly skills to the Pharia Kernel.",
-     "score": 51.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 54.9,
-      "governance": 20.8,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 87.0,
-      "commercial_clarity": 26.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 48.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 63.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 6
-    },
-    {
      "name": "Ostrom",
      "slug": "ostrom",
      "description": "Ostrom is a fully digital green-energy provider based in Berlin, Germany, offering variable, fixed, and dynamic electricity tariffs managed entirely through a mobile app, with smart-meter integration, device control, EV-charging optimization, and a NeoGrid virtual power plant. Its developer API lets Ostrom customers and partners integrate with the smart energy-management platform: OAuth2-secured REST endpoints for user data, orders, contracts, smart-meter energy consumption, day-ahead EEX spot prices, product pricing, and partner webhooks.",
@@ -314,7 +270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Solaris",
@@ -358,7 +314,88 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 7
+    },
+    {
+     "name": "Remberg",
+     "slug": "remberg",
+     "description": "remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventive maintenance, with an AI Copilot and a lightweight execution layer alongside SAP. remberg exposes a public REST API (api.remberg.de) across Assets, Work Orders, Work Requests, Tickets, Parts, Organizations, Contacts, Users, Files, Forms, Procedures, and AI, with API-key auth, Svix-based webhooks, documented rate limits, and ISO 27001 certification.",
+     "score": 50.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 69.3,
+      "governance": 11.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 26.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 43.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 8
+    },
+    {
+     "name": "Aleph Alpha",
+     "slug": "aleph-alpha",
+     "description": "Aleph Alpha is a Heidelberg, Germany based sovereign AI company building PhariaAI, an end-to-end, customizable AI suite for enterprises and governments that can be deployed on-premise or hosted. The stack combines leading open-source and proprietary large language models with Aleph Alpha's own Pharia-1-LLM model family and its research into transparency, explainability and domain-specific performance. PhariaAI is exposed through six documented HTTP APIs — PhariaInference (completion, chat, embeddings, tokenization), PhariaData (repositories, datasets, transformations), PhariaSearch / Document Index (semantic search over a knowledge base), PhariaStudio (projects, traces, evaluation, benchmarks), PhariaOS (cluster, use case and model lifecycle management) and a stateful, OpenAI-compatible Responses API with MCP tool calling — each published as an OpenAPI or Swagger definition on the Aleph Alpha documentation site. First-party SDKs ship for Python and Rust, alongside a CLI for publishing WebAssembly skills to the Pharia Kernel.",
+     "score": 49.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 54.9,
+      "governance": 11.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 82.1,
+      "commercial_clarity": 26.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 48.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 53.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 9
     },
     {
      "name": "lemon.markets",
@@ -403,7 +440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Nfon",
@@ -447,7 +484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Nomos",
@@ -491,7 +528,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Lemon Markets",
@@ -529,43 +566,6 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 12
-    },
-    {
-     "name": "Remberg",
-     "slug": "remberg",
-     "description": "remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventive maintenance, with an AI Copilot and a lightweight execution layer alongside SAP. remberg exposes a public REST API (api.remberg.de) across Assets, Work Orders, Work Requests, Tickets, Parts, Organizations, Contacts, Users, Files, Forms, Procedures, and AI, with API-key auth, Svix-based webhooks, documented rate limits, and ISO 27001 certification.",
-     "score": 47.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 69.3,
-      "governance": 11.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 26.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 43.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
@@ -916,6 +916,51 @@
      "rank": 21
     },
     {
+     "name": "aWATTar",
+     "slug": "awattar",
+     "description": "aWATTar provides a free, public REST API delivering real-time and next-day hourly electricity spot prices sourced from the EPEX Spot market exchange for both Austria and Germany. The API enables developers, smart home integrators, and commercial operators to build dynamic energy pricing applications that respond to market conditions. Prices are updated daily at 14:00 CET covering the following day, and the API returns JSON data including start/end timestamps and market price per MWh. No authentication token is required, making integration straightforward for any developer. The service is offered free of charge under a fair-use policy of 100 requests per day per client, supporting use cases such as EV charging optimization, smart heating control, and automated energy management systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/awattar/refs/heads/main/screenshots/awattar-2026-06-20T172732.png",
+     "score": 39.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 67.4,
+      "governance": 58.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 14.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 22
+    },
+    {
      "name": "lexoffice",
      "slug": "lexoffice",
      "description": "lexoffice (rebranded to \"lexware Office\" in 2025) is a German cloud accounting, invoicing, and bookkeeping SaaS from Lexware (Haufe Group). Its public REST API lets developers push and pull business data - contacts, invoices, quotations, order confirmations, delivery notes, credit notes, dunnings, bookkeeping vouchers, files, payments, and profile metadata - and subscribe to webhooks via event subscriptions. Authentication is a self-serve Bearer API key. The API gateway moved from api.lexoffice.io to api.lexware.io on 26 May 2025 as part of the rebrand; the legacy host remained available through December 2025.",
@@ -951,7 +996,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "University of Göttingen",
@@ -989,7 +1034,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Technical University of Munich",
@@ -1034,7 +1079,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "University of Bonn",
@@ -1079,7 +1124,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "TU Dresden",
@@ -1124,96 +1169,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
-    },
-    {
-     "name": "aWATTar",
-     "slug": "awattar",
-     "description": "aWATTar provides a free, public REST API delivering real-time and next-day hourly electricity spot prices sourced from the EPEX Spot market exchange for both Austria and Germany. The API enables developers, smart home integrators, and commercial operators to build dynamic energy pricing applications that respond to market conditions. Prices are updated daily at 14:00 CET covering the following day, and the API returns JSON data including start/end timestamps and market price per MWh. No authentication token is required, making integration straightforward for any developer. The service is offered free of charge under a fair-use policy of 100 requests per day per client, supporting use cases such as EV charging optimization, smart heating control, and automated energy management systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/awattar/refs/heads/main/screenshots/awattar-2026-06-20T172732.png",
-     "score": 37.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 67.4,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 14.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 27
-    },
-    {
-     "name": "1KOMMA5°",
-     "slug": "1komma5",
-     "description": "1KOMMA5° (1Komma5 Grad) is a Hamburg, Germany headquartered smart-energy company that sells, installs and operates integrated residential energy systems — rooftop photovoltaics, battery storage, heat pumps and EV charging — and ties them together with Heartbeat AI, its energy-management platform. Heartbeat aggregates customer hardware into one of Europe's largest residential virtual power plants, optimising self-consumption and trading household flexibility against day-ahead and intraday electricity markets. The company operates across Germany, Australia, the Netherlands, Sweden, Finland, Denmark and Belgium. Its machine-readable surface is small and mostly internal: a live OpenAPI 3.0 for the Offer Tool API used by its sales and partner network, an Auth0-backed OIDC provider at auth.1komma5grad.com, and the undocumented Heartbeat customer API that its mobile apps and community-built Home Assistant integrations consume.",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 43.4,
-      "governance": 20.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 28
     },
     {
      "name": "konfetti",
@@ -1251,7 +1207,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Number26",
@@ -1295,7 +1251,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "weclapp",
@@ -1329,6 +1285,50 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 30
+    },
+    {
+     "name": "1KOMMA5°",
+     "slug": "1komma5",
+     "description": "1KOMMA5° (1Komma5 Grad) is a Hamburg, Germany headquartered smart-energy company that sells, installs and operates integrated residential energy systems — rooftop photovoltaics, battery storage, heat pumps and EV charging — and ties them together with Heartbeat AI, its energy-management platform. Heartbeat aggregates customer hardware into one of Europe's largest residential virtual power plants, optimising self-consumption and trading household flexibility against day-ahead and intraday electricity markets. The company operates across Germany, Australia, the Netherlands, Sweden, Finland, Denmark and Belgium. Its machine-readable surface is small and mostly internal: a live OpenAPI 3.0 for the Offer Tool API used by its sales and partner network, an Auth0-backed OIDC provider at auth.1komma5grad.com, and the undocumented Heartbeat customer API that its mobile apps and community-built Home Assistant integrations consume.",
+     "score": 35.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 43.4,
+      "governance": 11.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -1455,43 +1455,6 @@
      "rank": 34
     },
     {
-     "name": "Omaze",
-     "slug": "omaze",
-     "description": "Omaze is a for-profit social-impact entertainment company that runs online prize draws to raise money for charity. Founded in 2012 in Culver City, California by Matthew Pohlson and Ryan Cummins, it lets people enter draws for houses, supercars, cash and once-in-a-lifetime experiences, with a share of every entry going to a partner nonprofit; the company reports raising more than $250 million for over 600 charities and creating 50+ millionaires. Its live consumer operations today are the United Kingdom (omaze.co.uk) and Germany (omaze.de), both built on Shopify, while omaze.com serves as the corporate and brand site. Omaze publishes no developer program, no OpenAPI and no SDKs, but both storefronts do expose a genuine machine-readable agent surface: a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, a UCP Shopping MCP endpoint at /api/ucp/mcp, published agent instructions at /llms.txt and /agents.md, anonymous read-only storefront product JSON, and a standards-compliant OpenID Connect authorization server for customer accounts.",
-     "score": 30.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 60.9,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 34.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 35
-    },
-    {
      "name": "CrossEngage",
      "slug": "crossenagage",
      "description": "CrossEngage is a Berlin-based customer data and cross-channel marketing platform (a Customer Data Platform / CDP) founded in 2015 and backed by Earlybird Venture Capital. It unifies first-party customer data into 360-degree profiles, builds no-code predictive AI/ML models for customer lifetime value and behavior, manages audiences with drag-and-drop segmentation, and orchestrates real-time cross-channel customer journeys. Following its acquisition by Spotler, the product is offered as Spotler Activate Pro. CrossEngage exposes a REST API at api.crossengage.io documented at api.documentation.crossengage.io, covering User Management (v1.0 and v2.0), Product Feed, File Attachments, Export, and Statistics.",
@@ -1523,6 +1486,43 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 35
+    },
+    {
+     "name": "Omaze",
+     "slug": "omaze",
+     "description": "Omaze is a for-profit social-impact entertainment company that runs online prize draws to raise money for charity. Founded in 2012 in Culver City, California by Matthew Pohlson and Ryan Cummins, it lets people enter draws for houses, supercars, cash and once-in-a-lifetime experiences, with a share of every entry going to a partner nonprofit; the company reports raising more than $250 million for over 600 charities and creating 50+ millionaires. Its live consumer operations today are the United Kingdom (omaze.co.uk) and Germany (omaze.de), both built on Shopify, while omaze.com serves as the corporate and brand site. Omaze publishes no developer program, no OpenAPI and no SDKs, but both storefronts do expose a genuine machine-readable agent surface: a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, a UCP Shopping MCP endpoint at /api/ucp/mcp, published agent instructions at /llms.txt and /agents.md, anonymous read-only storefront product JSON, and a standards-compliant OpenID Connect authorization server for customer accounts.",
+     "score": 29.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 31.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

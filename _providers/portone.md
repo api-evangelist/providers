@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-07-28'
+  score: 58.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 34
@@ -342,23 +342,23 @@ plans:
 - name: Portone Plans Pricing
   plan_count: 3
   slug: portone-plans-pricing
-random_paper: 37
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Portone Rate Limits
   slug: portone-rate-limits
 score:
-  band: strong
-  composite: 65.2
-  delta: -2.2
+  band: exemplar
+  composite: 66.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.6
+    contract_quality: 69.4
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 84.2
-  previous_composite: 67.4
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,8 +375,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

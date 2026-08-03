@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 32.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The 合思开放平台 (Ekuaibao / HOSE Open Platform) REST API. 200+ documented operations across contacts, corporation, budgets, expense flows, forms, fee types, pay, payer info, checking bills, city and curren
@@ -155,11 +155,11 @@ overview: 'Ekuaibao publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Ekuaibao''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 17 more developer resources.'
-random_paper: 13
+random_paper: 73
 score:
   band: developing
   composite: 43.0
-  delta: 4.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -167,11 +167,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.7
+  previous_composite: 43.0
   provenance:
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ekuaibao/refs/heads/main/screenshots/ekuaibao-2026-07-25T213044.png
 security:

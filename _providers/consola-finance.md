@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-07-28'
+  score: 33.3
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for the Request Finance platform — accounts payable / receivable, invoices, payroll, organizations and clients — that Consola Finance's crypto accounting product is now part of. JSON over HTT
@@ -131,9 +131,9 @@ overview: 'Consola Finance publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Consola Finance''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 44
+random_paper: 0
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Consola Finance Rate Limits
   slug: consola-finance-rate-limits
 scopes:
@@ -142,20 +142,20 @@ scopes:
   slug: consola-finance-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 41.8
-  delta: 6.7
+  band: developing
+  composite: 45.9
+  delta: 4.1
   facets:
     commercial_clarity: 23.7
     contract_quality: 51.6
     developer_ergonomics: 58.7
     discoverability: 87.0
     governance: 0.0
-    operational_transparency: 28.9
-  previous_composite: 35.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+    operational_transparency: 60.5
+  previous_composite: 41.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consola-finance/refs/heads/main/screenshots/consola-finance-2026-07-25T210307.png
 security:
 - kind: authentication

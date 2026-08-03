@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Completedns Plans Pricing
   plan_count: 3
   slug: completedns-plans-pricing
-random_paper: 34
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Completedns Rate Limits
@@ -172,16 +172,16 @@ rules:
   slug: completedns-rules
 score:
   band: strong
-  composite: 57.8
-  delta: -3.9
+  composite: 58.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 66.1
+    contract_quality: 66.7
     developer_ergonomics: 32.6
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 61.7
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/screenshots/completedns-2026-06-20T174832.png
 security:

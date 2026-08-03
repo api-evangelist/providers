@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,11 +67,11 @@ press:
 - date: '2026-05-25'
   title: HollyFrontier Corporation Third Quarter 2021 Earnings ...
   url: http://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2021-10-4-hollyfrontier-corporation-third-quarter-2021-earnings-release-and-conference-webcast
-random_paper: 31
+random_paper: 0
 score:
   band: minimal
   composite: 2.6
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -79,9 +79,9 @@ score:
     discoverability: 25.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 3.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 2.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hollyfrontier/refs/heads/main/screenshots/hollyfrontier-2026-07-25T221320.png
 security:

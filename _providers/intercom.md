@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ plans:
 - name: Intercom Plans Pricing
   plan_count: 4
   slug: intercom-plans-pricing
-random_paper: 45
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Intercom Rate Limits
@@ -228,16 +228,16 @@ rules:
   slug: intercom-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.2
-  delta: -5.6
+  composite: 45.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.6
+    contract_quality: 72.7
     developer_ergonomics: 34.8
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 50.8
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -251,9 +251,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/screenshots/intercom-2026-06-20T183440.png
 security:
 - kind: authentication

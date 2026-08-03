@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-07-28'
+  score: 47.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 14
@@ -235,19 +235,19 @@ overview: 'Netography publishes 28 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Netography''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 17 more developer resources.'
-random_paper: 23
+random_paper: 44
 score:
   band: thin
-  composite: 38.7
-  delta: -1.0
+  composite: 39.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 60.0
+    contract_quality: 64.5
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 39.7
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,8 +258,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

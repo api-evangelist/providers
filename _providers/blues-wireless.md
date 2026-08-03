@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -269,7 +269,7 @@ plans:
 - name: Blues Wireless Plans Pricing
   plan_count: 2
   slug: blues-wireless-plans-pricing
-random_paper: 68
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Blues Wireless Rate Limits
@@ -285,16 +285,16 @@ rules:
   slug: blues-wireless-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.1
-  delta: -3.9
+  composite: 57.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.6
+    contract_quality: 67.5
     developer_ergonomics: 41.3
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 60.0
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
@@ -302,8 +302,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/screenshots/blues-wireless-2026-06-20T173533.png
 security:

@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-07-28'
+  score: 47.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -196,19 +196,19 @@ overview: 'Nitro Software publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Nitro Software''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 24 more developer resources.'
-random_paper: 0
+random_paper: 51
 score:
   band: strong
-  composite: 58.7
-  delta: -0.1
+  composite: 59.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.4
+    contract_quality: 68.9
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 58.8
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -219,8 +219,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

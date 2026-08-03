@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ overview: 'StockTwits publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   StockTwits'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 53
+random_paper: 74
 scopes:
 - name: Stocktwits Scopes
   scope_count: 6
@@ -207,16 +207,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.1
-  delta: -3.7
+  composite: 46.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.3
+    contract_quality: 59.5
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 49.8
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,8 +233,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

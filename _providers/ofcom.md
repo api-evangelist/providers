@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -172,23 +172,23 @@ plans:
 - name: Ofcom Plans
   plan_count: 4
   slug: ofcom-plans
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 8
   name: Ofcom Rate Limits
   slug: ofcom-rate-limits
 score:
   band: developing
-  composite: 47.2
-  delta: -1.0
+  composite: 47.5
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
-    contract_quality: 56.8
+    contract_quality: 58.1
     developer_ergonomics: 47.3
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 48.2
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +205,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 37.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

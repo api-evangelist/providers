@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Self-serve REST API to generate and edit sound effects from video or text. Bearer-token (API key) auth; JSON request/response returning generated audio asset URLs; synchronous and asynchronous (job-po
@@ -140,11 +140,11 @@ overview: 'Mirelo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Mirelo''s developer surface includes documentation, API reference, engineering blog, pricing, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 74
+random_paper: 78
 score:
   band: thin
   composite: 32.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -152,11 +152,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.5
+  previous_composite: 32.0
   provenance:
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

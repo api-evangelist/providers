@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -112,6 +112,10 @@ collections:
   name: Mistral AI OCR API
   slug: open-mistral-ocr
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mistral-ai/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -433,12 +437,12 @@ overview: 'Mistral AI publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
   The Mistral AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Mistral AI''s developer surface includes authentication, documentation, getting-started guide, pricing, GitHub presence, developer portal, engineering blog, and 22 more developer resources.'
+  Mistral AI''s developer surface includes authentication, documentation, getting-started guide, pricing, GitHub presence, developer portal, engineering blog, and 23 more developer resources.'
 plans:
 - name: Mistral Plans Pricing
   plan_count: 6
   slug: mistral-plans-pricing
-random_paper: 26
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Mistral Rate Limits
@@ -462,16 +466,16 @@ rules:
   slug: mistral-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.4
-  delta: -2.1
+  composite: 65.6
+  delta: 0.8
   facets:
     commercial_clarity: 71.1
-    contract_quality: 81.8
-    developer_ergonomics: 47.8
+    contract_quality: 83.1
+    developer_ergonomics: 52.2
     discoverability: 63.0
     governance: 41.7
     operational_transparency: 68.4
-  previous_composite: 66.5
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     contracts:
@@ -479,8 +483,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/screenshots/mistral-2026-06-20T185615.png
 security:

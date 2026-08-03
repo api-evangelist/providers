@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: documented
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-07-28'
+  score: 63.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -199,9 +199,9 @@ overview: 'Mem publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Mem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 73
+random_paper: 34
 rate_limits:
-- limit_count: 0
+- limit_count: 4
   name: Mem Rate Limits
   slug: mem-rate-limits
 scopes:
@@ -211,16 +211,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 54.8
+  delta: 4.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 47.5
+    contract_quality: 51.7
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 31.6
-  previous_composite: 49.6
+    operational_transparency: 63.2
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +231,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

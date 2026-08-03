@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -214,7 +214,7 @@ overview: 'Standard Metrics publishes 14 APIs on the [APIs.io](https://apis.io/)
 
 
   Standard Metrics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 22 more developer resources.'
-random_paper: 13
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Standard Metrics Rate Limits
@@ -226,16 +226,16 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 52.8
-  delta: 1.0
+  composite: 53.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.9
+    contract_quality: 55.3
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 51.8
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,8 +246,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

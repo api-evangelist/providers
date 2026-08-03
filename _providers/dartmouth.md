@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ plans:
 - name: Dartmouth Plans Pricing
   plan_count: 2
   slug: dartmouth-plans-pricing
-random_paper: 0
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Dartmouth Rate Limits
@@ -193,16 +193,16 @@ rules:
   slug: dartmouth-rules
 score:
   band: thin
-  composite: 39.2
-  delta: -4.2
+  composite: 40.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.4
+    contract_quality: 58.3
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 43.4
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +216,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dartmouth/refs/heads/main/screenshots/dartmouth-2026-07-25T211220.png
 security:

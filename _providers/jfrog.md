@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 3
@@ -1024,7 +1024,7 @@ plans:
 - name: Jfrog Plans Pricing
   plan_count: 8
   slug: jfrog-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Jfrog Rate Limits
@@ -1040,16 +1040,16 @@ rules:
   slug: jfrog-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.4
-  delta: -3.2
+  composite: 75.1
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 67.9
+    contract_quality: 70.6
     developer_ergonomics: 80.4
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 76.3
-  previous_composite: 77.6
+  previous_composite: 75.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1057,8 +1057,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/screenshots/jfrog-2026-06-20T183730.png
 security:

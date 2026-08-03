@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Google Safe Browsing Plans Pricing
   plan_count: 3
   slug: google-safe-browsing-plans-pricing
-random_paper: 49
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Google Safe Browsing Rate Limits
@@ -178,15 +178,15 @@ rules:
 score:
   band: strong
   composite: 60.5
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.3
+    contract_quality: 70.5
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 63.7
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +194,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/screenshots/google-safe-browsing-2026-06-20T182229.png
 security:

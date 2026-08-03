@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for programmatic trading on Public — manage brokerage accounts, pull portfolio and transaction history, retrieve market data (quotes, bars, option chains, greeks), and place, replace, and can
@@ -152,7 +152,7 @@ overview: 'Public publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Public''s developer surface includes documentation, getting-started guide, changelog, signup flow, pricing, support, engineering blog, and 18 more developer resources.'
-random_paper: 65
+random_paper: 69
 scopes:
 - name: Public Scopes
   scope_count: 4
@@ -161,7 +161,7 @@ scopes:
 score:
   band: thin
   composite: 39.5
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -169,7 +169,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 41.4
+  previous_composite: 39.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -179,8 +179,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

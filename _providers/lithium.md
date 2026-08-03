@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-07-28'
+  score: 47.1
+  scored_at: '2026-08-03'
 api_count: 100
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -533,9 +533,9 @@ overview: 'Lithium publishes 99 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lithium''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 37 more developer resources.'
-random_paper: 26
+random_paper: 4
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Lithium Rate Limits
   slug: lithium-rate-limits
 scopes:
@@ -545,16 +545,16 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 61.2
-  delta: 2.9
+  composite: 65.3
+  delta: 3.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.1
+    contract_quality: 69.1
     developer_ergonomics: 69.0
     discoverability: 68.5
     governance: 20.8
-    operational_transparency: 55.3
-  previous_composite: 58.3
+    operational_transparency: 86.8
+  previous_composite: 61.8
   provenance:
     conformance: first-party
     contracts:
@@ -570,8 +570,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:

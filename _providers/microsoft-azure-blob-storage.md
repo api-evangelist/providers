@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ plans:
 - name: Microsoft Azure Blob Storage Plans Pricing
   plan_count: 6
   slug: microsoft-azure-blob-storage-plans-pricing
-random_paper: 52
+random_paper: 85
 rate_limits:
 - limit_count: 6
   name: Microsoft Azure Blob Storage Rate Limits
@@ -278,16 +278,16 @@ rules:
   slug: microsoft-azure-blob-storage-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 66.0
-  delta: -2.1
+  composite: 66.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 58.8
+    contract_quality: 60.0
     developer_ergonomics: 63.0
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 78.9
-  previous_composite: 68.1
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     contracts:
@@ -295,8 +295,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/screenshots/microsoft-azure-blob-storage-2026-06-20T185402.png
 security:

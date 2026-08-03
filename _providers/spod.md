@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -130,23 +130,23 @@ plans:
 - name: Spod Plans Pricing
   plan_count: 1
   slug: spod-plans-pricing
-random_paper: 28
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Spod Rate Limits
   slug: spod-rate-limits
 score:
   band: thin
-  composite: 34.4
-  delta: -2.1
+  composite: 35.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.3
+    contract_quality: 59.1
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 36.5
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

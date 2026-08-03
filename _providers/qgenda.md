@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 27
 apis:
 - description: The Company API from QGenda — 1 operation(s) for company.
@@ -238,19 +238,19 @@ overview: 'QGenda publishes 27 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   QGenda''s developer surface includes documentation, API reference, authentication, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 50
+random_paper: 54
 score:
   band: developing
-  composite: 48.9
-  delta: -4.2
+  composite: 49.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 53.1
+  previous_composite: 49.6
   provenance:
     conformance: unknown
     contracts:
@@ -266,8 +266,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

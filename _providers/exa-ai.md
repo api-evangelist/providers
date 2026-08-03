@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -514,7 +514,7 @@ plans:
 - name: Exa Ai Plans Pricing
   plan_count: 8
   slug: exa-ai-plans-pricing
-random_paper: 73
+random_paper: 90
 rate_limits:
 - limit_count: 6
   name: Exa Ai Rate Limits
@@ -530,11 +530,11 @@ rules:
   slug: exa-ai-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.1
-  delta: -0.8
+  composite: 74.9
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 72.1
+    contract_quality: 75.3
     developer_ergonomics: 71.7
     discoverability: 87.0
     governance: 69.8
@@ -549,8 +549,8 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/screenshots/exa-ai-2026-06-20T180928.png
 security:

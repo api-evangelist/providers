@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 124
 apis:
 - description: AccessPathController Operations able access paths
@@ -505,11 +505,11 @@ overview: 'XSKY publishes 124 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   XSKY''s developer surface includes engineering blog, support, signup flow, authentication, CLI, and 16 more developer resources.'
-random_paper: 53
+random_paper: 83
 score:
   band: thin
   composite: 31.5
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 32.3
@@ -517,7 +517,7 @@ score:
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 34.3
+  previous_composite: 31.5
   provenance:
     conformance: derived
     contracts:
@@ -527,8 +527,8 @@ score:
       total: 124
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

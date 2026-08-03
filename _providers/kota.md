@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: verified
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -419,19 +419,19 @@ overview: 'Kota publishes 33 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kota''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 21
+random_paper: 51
 score:
   band: strong
-  composite: 58.8
-  delta: -3.0
+  composite: 59.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.4
+    contract_quality: 69.0
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 61.8
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -448,8 +448,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/screenshots/kota-2026-07-25T224240.png
 security:

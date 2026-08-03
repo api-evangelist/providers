@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ overview: 'Suncorp Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Suncorp Bank''s developer surface includes authentication, documentation, support, and 22 more developer resources.'
-random_paper: 5
+random_paper: 0
 scopes:
 - name: Suncorp Bank Scopes
   scope_count: 10
@@ -188,16 +188,16 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 46.5
-  delta: -3.1
+  composite: 47.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 49.6
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -214,8 +214,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/screenshots/suncorp-bank-2026-07-21T114752.png
 security:

@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -851,7 +851,7 @@ plans:
 - name: Cisco Voice Portal Plans Pricing
   plan_count: 1
   slug: cisco-voice-portal-plans-pricing
-random_paper: 7
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Cisco Voice Portal Rate Limits
@@ -883,16 +883,16 @@ rules:
   slug: cisco-voice-portal-spectral-rules
 score:
   band: strong
-  composite: 56.4
-  delta: -6.2
+  composite: 56.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.9
+    contract_quality: 70.3
     developer_ergonomics: 50.0
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 62.6
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     contracts:
@@ -906,9 +906,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/screenshots/cisco-voice-portal-2026-06-20T174408.png
 security:
 - kind: authentication

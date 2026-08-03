@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -697,7 +697,7 @@ plans:
 - name: Microsoft Planner Plans Pricing
   plan_count: 4
   slug: microsoft-planner-plans-pricing
-random_paper: 57
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Microsoft Planner Rate Limits
@@ -726,16 +726,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.5
-  delta: -4.3
+  composite: 70.1
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 74.3
+    contract_quality: 76.5
     developer_ergonomics: 63.0
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 73.8
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     contracts:
@@ -743,8 +743,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/screenshots/microsoft-planner-2026-06-20T185518.png
 security:

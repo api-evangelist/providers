@@ -112,6 +112,51 @@
      "rank": 2
     },
     {
+     "name": "Lifen",
+     "slug": "lifen",
+     "description": "Lifen (Honestica SAS, Paris) is a French digital-health company whose Lifen Platform exposes FHIR R4 APIs that let e-health applications exchange health data with French hospital information systems and with healthcare professionals over the national MSSanté secure-messaging network. The platform is organised as API Services: Hospital API Services (an Identity & Encounter service giving secure access to patient administrative, coverage, encounter and appointment data inside a given hospital, and a Send-documents-to-EHR service that pushes medical documents into hospital Electronic Health Records), and National API Services (the MSS service for sending medical documents to healthcare professionals via MSSanté). Access is machine-to-machine over OAuth 2.0 client credentials, scoped by functional scopes and bound to a healthcare organisation through a database_reference. Lifen also ships an SSO/OIDC API and a signed webhook surface for patient and encounter events. The company is ISO 27001 certified and an HDS (Hebergeur de Donnees de Sante) certified health-data host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png",
+     "score": 61.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 67.3,
+      "governance": 20.8,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 65.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 47.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 3
+    },
+    {
      "name": "Qobuz",
      "slug": "qobuz",
      "description": "Qobuz is a French hi-res audio streaming and download platform founded in 2007 and operated by Xandrie SA. It offers lossless FLAC streaming up to 24-bit/192 kHz and a hi-res download store covering over 100 million tracks across all genres. The Qobuz REST API (v0.2) is a partner-only interface that enables third-party applications — hi-fi hardware manufacturers, DAPs, music players, and streaming integrators — to search the catalog, retrieve album and artist metadata, generate authenticated streaming URLs, manage user playlists and favorites, and process purchases from the hi-res download store. API access requires contacting Qobuz directly at api@qobuz.com to obtain an app_id and app_secret. Consumer subscription plans (Studio Solo, Studio Duo, Studio Family, Sublime) provide the underlying access entitlement; partners and integrators are subject to the Qobuz API Terms of Use governed by French law. The service is deployed across France, Germany, and Canada infrastructure nodes monitored via a public status page.",
@@ -143,51 +188,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 3
-    },
-    {
-     "name": "Lifen",
-     "slug": "lifen",
-     "description": "Lifen (Honestica SAS, Paris) is a French digital-health company whose Lifen Platform exposes FHIR R4 APIs that let e-health applications exchange health data with French hospital information systems and with healthcare professionals over the national MSSanté secure-messaging network. The platform is organised as API Services: Hospital API Services (an Identity & Encounter service giving secure access to patient administrative, coverage, encounter and appointment data inside a given hospital, and a Send-documents-to-EHR service that pushes medical documents into hospital Electronic Health Records), and National API Services (the MSS service for sending medical documents to healthcare professionals via MSSanté). Access is machine-to-machine over OAuth 2.0 client credentials, scoped by functional scopes and bound to a healthcare organisation through a database_reference. Lifen also ships an SSO/OIDC API and a signed webhook surface for patient and encounter events. The company is ISO 27001 certified and an HDS (Hebergeur de Donnees de Sante) certified health-data host.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png",
-     "score": 57.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 67.3,
-      "governance": 20.8,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 65.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 47.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

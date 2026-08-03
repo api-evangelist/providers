@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Shopify-hosted Universal Commerce Protocol shopping service exposed over MCP for agent-driven catalog search, cart, and buyer-approved checkout on the Pair Eyewear storefront.
@@ -116,7 +116,7 @@ overview: 'Pair Eyewear publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Pair Eyewear''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 79
+random_paper: 87
 scopes:
 - name: Pair Eyewear Scopes
   scope_count: 4
@@ -125,7 +125,7 @@ scopes:
 score:
   band: emerging
   composite: 25.3
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -133,13 +133,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 24.3
+  previous_composite: 25.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,23 +146,23 @@ plans:
 - name: Chroniclingamerica Plans Pricing
   plan_count: 1
   slug: chroniclingamerica-plans-pricing
-random_paper: 4
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Chroniclingamerica Rate Limits
   slug: chroniclingamerica-rate-limits
 score:
   band: thin
-  composite: 40.1
-  delta: -3.1
+  composite: 40.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.2
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chroniclingamerica/refs/heads/main/screenshots/chroniclingamerica-2026-07-25T205316.png
 security:

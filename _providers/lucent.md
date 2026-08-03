@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.5
-  scored_at: '2026-07-28'
+  score: 61.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ overview: 'Lucent publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Lucent''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 77
+random_paper: 81
 scopes:
 - name: Lucent Scopes
   scope_count: 2
@@ -234,16 +234,16 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 54.9
-  delta: 0.5
+  composite: 55.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 69.5
+    contract_quality: 72.1
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 54.4
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,8 +254,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/screenshots/lucent-2026-07-25T225640.png
 security:

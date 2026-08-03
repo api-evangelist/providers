@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Materialize Plans Pricing
   plan_count: 3
   slug: materialize-plans-pricing
-random_paper: 27
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Materialize Rate Limits
@@ -152,16 +152,16 @@ rules:
   slug: materialize-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: -4.9
+  composite: 49.9
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 59.1
+    contract_quality: 62.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 52.1
     operational_transparency: 36.8
-  previous_composite: 54.0
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     contracts:
@@ -169,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/screenshots/materialize-2026-06-20T185034.png
 security:

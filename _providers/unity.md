@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 3
@@ -917,7 +917,7 @@ plans:
 - name: Unity Plans Pricing
   plan_count: 1
   slug: unity-plans-pricing
-random_paper: 77
+random_paper: 94
 rate_limits:
 - limit_count: 2
   name: Unity Rate Limits
@@ -941,16 +941,16 @@ rules:
   slug: unity-spectral-rules
 score:
   band: strong
-  composite: 64.7
-  delta: -1.9
+  composite: 65.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 72.0
+    contract_quality: 74.1
     developer_ergonomics: 56.5
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 66.6
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     contracts:
@@ -958,8 +958,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-06-20T200106.png
 security:

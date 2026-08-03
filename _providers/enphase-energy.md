@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -201,7 +201,7 @@ plans:
 - name: Enphase Energy Plans Pricing
   plan_count: 5
   slug: enphase-energy-plans-pricing
-random_paper: 41
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Enphase Energy Rate Limits
@@ -225,16 +225,16 @@ rules:
   slug: enphase-energy-rules
 score:
   band: developing
-  composite: 51.3
-  delta: -8.1
+  composite: 51.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.9
+    contract_quality: 68.9
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 59.4
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -248,9 +248,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase-energy/refs/heads/main/screenshots/enphase-energy-2026-06-20T180721.png
 security:
 - kind: authentication

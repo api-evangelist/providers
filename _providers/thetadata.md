@@ -17,11 +17,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
@@ -29,8 +29,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-07-28'
+  score: 48.4
+  scored_at: '2026-08-03'
 api_count: 14
 apis:
 - description: JSON WebSocket streaming of US stock trade/quote, options trade/quote, and index price streams, served locally by the Theta Terminal at ws://127.0.0.1:25520/v1/events. Requires a paid subscription wit
@@ -285,23 +285,23 @@ plans:
 - name: Thetadata Plans
   plan_count: 7
   slug: thetadata-plans
-random_paper: 42
+random_paper: 89
 rate_limits:
 - limit_count: 6
   name: Thetadata Rate Limits
   slug: thetadata-rate-limits
 score:
   band: strong
-  composite: 62.7
-  delta: -0.4
+  composite: 63.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 55.7
+    contract_quality: 59.2
     developer_ergonomics: 71.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 81.6
-  previous_composite: 63.1
+  previous_composite: 63.5
   provenance:
     conformance: derived
     contracts:
@@ -317,8 +317,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png
 security:

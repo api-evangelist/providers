@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    idempotency: false
+    event_surface_described: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-07-28'
+  score: 56.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 343
   human_in_the_loop: 6
@@ -401,7 +401,7 @@ plans:
 - name: Spree Plans Pricing
   plan_count: 2
   slug: spree-plans-pricing
-random_paper: 51
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Spree Rate Limits
@@ -417,16 +417,16 @@ rules:
   slug: spree-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.2
-  delta: -5.9
+  composite: 45.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.8
+    contract_quality: 66.6
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 50.1
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -440,9 +440,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spree/refs/heads/main/screenshots/spree-2026-06-20T194402.png
 security:
 - kind: authentication

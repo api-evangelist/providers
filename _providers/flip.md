@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-07-28'
+  score: 30.6
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: 'Disburse money programmatically to any Indonesian bank account or e-wallet. Create single and bulk disbursements, inquire bank accounts, list bank codes, and receive callbacks on disbursement status. '
@@ -161,11 +161,11 @@ overview: 'Flip publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Flip''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 18 more developer resources.'
-random_paper: 17
+random_paper: 47
 score:
   band: developing
   composite: 42.7
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -173,15 +173,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 40.6
+  previous_composite: 42.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flip/refs/heads/main/screenshots/flip-2026-07-25T214801.png
 security:

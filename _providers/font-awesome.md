@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Public GraphQL API for programmatically querying Font Awesome releases, searching icons and their metadata (family-styles, unicode, aliases, SVG path data), and — with an access token — reading accoun
@@ -160,7 +160,7 @@ overview: 'Font Awesome publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Font Awesome''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 20 more developer resources.'
-random_paper: 7
+random_paper: 2
 scopes:
 - name: Font Awesome Scopes
   scope_count: 8
@@ -169,7 +169,7 @@ scopes:
 score:
   band: developing
   composite: 47.6
-  delta: 10.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 48.1
@@ -177,14 +177,14 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 37.0
+  previous_composite: 47.6
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/screenshots/font-awesome-2026-07-25T214913.png
 security:
 - kind: authentication

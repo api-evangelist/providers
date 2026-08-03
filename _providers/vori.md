@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -151,19 +151,19 @@ overview: 'Vori publishes 1 API on the [APIs.io](https://apis.io/) network: Stor
 
 
   Vori''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 38
+random_paper: 68
 score:
   band: thin
-  composite: 39.1
-  delta: -3.8
+  composite: 40.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 48.3
+    contract_quality: 55.8
     developer_ergonomics: 47.3
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 42.9
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -180,8 +180,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

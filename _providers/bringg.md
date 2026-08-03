@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-07-28'
+  score: 35.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 0
@@ -474,7 +474,7 @@ plans:
 - name: Bringg Plans Pricing
   plan_count: 1
   slug: bringg-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Bringg Rate Limits
@@ -511,16 +511,16 @@ scopes:
   summary_line: 25 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.3
-  delta: -3.1
+  composite: 63.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 81.6
+    contract_quality: 83.0
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 52.1
     operational_transparency: 76.3
-  previous_composite: 66.4
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
@@ -528,8 +528,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 30
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/screenshots/bringg-2026-06-20T173708.png
 security:

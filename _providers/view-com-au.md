@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,30 +148,30 @@ overview: 'View.com.au publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   View.com.au''s developer surface includes authentication, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 0
+random_paper: 21
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: View Com Au Rate Limits
   slug: view-com-au-rate-limits
 score:
   band: emerging
-  composite: 20.4
-  delta: -1.2
+  composite: 23.1
+  delta: 2.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 87.0
     governance: 3.1
-    operational_transparency: 5.3
-  previous_composite: 21.6
+    operational_transparency: 26.3
+  previous_composite: 20.4
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

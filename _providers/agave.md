@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -622,7 +622,7 @@ plans:
 - name: Agave Plans Pricing
   plan_count: 1
   slug: agave-plans-pricing
-random_paper: 24
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Agave Rate Limits
@@ -646,16 +646,16 @@ rules:
   slug: agave-spectral-rules
 score:
   band: developing
-  composite: 52.5
-  delta: -6.7
+  composite: 44.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 62.8
+    contract_quality: 32.1
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 59.2
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -663,9 +663,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/screenshots/agave-2026-06-20T165757.png
 security:
 - kind: authentication

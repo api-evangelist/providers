@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 12
@@ -231,19 +231,19 @@ overview: 'Maia-analytics publishes 33 APIs on the [APIs.io](https://apis.io/) n
 
 
   Maia-analytics'' developer surface includes documentation, API reference, authentication, and 16 more developer resources.'
-random_paper: 27
+random_paper: 91
 score:
   band: thin
-  composite: 35.4
-  delta: -3.3
+  composite: 36.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 49.4
+    contract_quality: 54.4
     developer_ergonomics: 29.9
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 38.7
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/screenshots/maia-analytics-2026-07-25T225910.png
 security:

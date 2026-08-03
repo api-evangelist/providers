@@ -17,20 +17,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-07-28'
+  score: 43.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 36
@@ -38,7 +38,7 @@ agentic_access:
   operation_count: 171
   slug: amex-gbt-agentic-access
   summary_line: 171 operations · 97 acting · 36 human-in-the-loop
-api_count: 13
+api_count: 17
 apis:
 - description: SCIM-based user provisioning for an Egencia corporate travel programme. Egencia's own overview states the API "supports SCIM, or System for Cross-domain Identity Management, an open standard that allo
   name: Egencia User Sync API
@@ -79,7 +79,19 @@ apis:
 - description: Consolidated booking transaction data out of Egencia, and the closest thing in the estate to a documented exit path. POST /v1/transactions creates a filtered report over a date range and returns pagin
   name: Egencia Reporting API (BI Transactions)
   slug: egencia-reporting-api
-artifact_total: 19
+- description: American Express Global Business Travel BI API from American Express Global Business Travel — 14 path(s) described in OpenAPI.
+  name: American Express Global Business Travel BI API
+  slug: amex-gbt-service-bi-openapi
+- description: American Express Global Business Travel OpenAPI definition from American Express Global Business Travel — 10 path(s) described in OpenAPI.
+  name: American Express Global Business Travel OpenAPI definition (Amex Gbt Service Company)
+  slug: amex-gbt-service-company-openapi
+- description: American Express Global Business Travel Duty Of Care API from American Express Global Business Travel — 7 path(s) described in OpenAPI.
+  name: American Express Global Business Travel Duty Of Care API
+  slug: amex-gbt-service-dutyofcare-openapi
+- description: American Express Global Business Travel OpenAPI definition from American Express Global Business Travel — 36 path(s) described in OpenAPI.
+  name: American Express Global Business Travel OpenAPI definition (Amex Gbt Service Openconnect)
+  slug: amex-gbt-service-openconnect-openapi
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Amex Gbt Webhooks
@@ -270,14 +282,14 @@ modified: '2026-07-28'
 name: American Express Global Business Travel
 nav: Providers
 network: true
-overview: 'American Express Global Business Travel publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Egencia User Sync API, Egencia Context SSO API, Egencia Company Details API, and 10 more. Tagged areas include Travel, United States, Corporate Travel, Travel Management, and Business Travel.
+overview: 'American Express Global Business Travel publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Egencia User Sync API, Egencia Context SSO API, Egencia Company Details API, and 14 more. Tagged areas include Travel, United States, Corporate Travel, Travel Management, and Business Travel.
 
 
   The American Express Global Business Travel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   American Express Global Business Travel''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 37 more developer resources.'
-random_paper: 51
+random_paper: 29
 scopes:
 - name: Amex Gbt Scopes
   scope_count: 0
@@ -285,26 +297,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.2
+  composite: 49.2
+  delta: -0.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 51.6
+    contract_quality: 63.9
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Amex Gbt Authentication

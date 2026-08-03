@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Food Recognition API from Azumio — 2 operation(s) for food recognition.
@@ -136,19 +136,19 @@ overview: 'Azumio publishes 1 API on the [APIs.io](https://apis.io/) network: Fo
 
 
   Azumio''s developer surface includes documentation, API reference, signup flow, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 5
+random_paper: 91
 score:
   band: thin
-  composite: 39.5
-  delta: -5.1
+  composite: 39.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.2
+    contract_quality: 61.2
     developer_ergonomics: 45.1
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 44.6
+  previous_composite: 39.7
   provenance:
     conformance: derived
     contracts:
@@ -164,9 +164,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azumio/refs/heads/main/screenshots/azumio-2026-07-25T202122.png
 security:
 - kind: authentication

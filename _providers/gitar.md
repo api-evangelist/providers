@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -181,19 +181,19 @@ overview: 'Gitar publishes 3 APIs on the [APIs.io](https://apis.io/) network: Gi
 
 
   Gitar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 43
+random_paper: 60
 score:
   band: developing
-  composite: 51.3
-  delta: -1.2
+  composite: 52.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 52.5
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -204,8 +204,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/screenshots/gitar-2026-07-25T215835.png
 security:

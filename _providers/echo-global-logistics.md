@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: OAuth 2.0 authorization endpoint that issues bearer tokens consumed by the EchoSync Customer API and Carrier API. Existing partners request credentials via their Echo sales representative or info@echo
@@ -172,7 +172,7 @@ plans:
 - name: Echo Global Logistics Plans Pricing
   plan_count: 1
   slug: echo-global-logistics-plans-pricing
-random_paper: 57
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Echo Global Logistics Rate Limits
@@ -180,7 +180,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.9
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -188,9 +188,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 26.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 23.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo-global-logistics/refs/heads/main/screenshots/echo-global-logistics-2026-06-20T180420.png
 security:

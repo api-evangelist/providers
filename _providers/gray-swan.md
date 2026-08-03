@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: The Activity API from Gray Swan — 1 operation(s) for activity.
@@ -158,23 +158,23 @@ overview: 'Gray Swan publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Gray Swan''s developer surface includes documentation, API reference, quickstart, signup flow, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 19
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Gray Swan Rate Limits
   slug: gray-swan-rate-limits
 score:
   band: developing
-  composite: 46.0
-  delta: 0.2
+  composite: 47.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.5
+    contract_quality: 57.5
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 45.8
+  previous_composite: 47.0
   provenance:
     conformance: derived
     contracts:
@@ -184,8 +184,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gray-swan/refs/heads/main/screenshots/gray-swan-2026-07-25T220255.png
 security:

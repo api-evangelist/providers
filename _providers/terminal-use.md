@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 2
@@ -243,19 +243,19 @@ overview: 'Terminal Use publishes 28 APIs on the [APIs.io](https://apis.io/) net
 
 
   Terminal Use''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 8
+random_paper: 3
 score:
   band: thin
-  composite: 40.2
-  delta: -3.6
+  composite: 41.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 55.3
+    contract_quality: 59.1
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 43.8
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,8 +266,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

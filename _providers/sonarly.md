@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-07-28'
+  score: 37.2
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Read triaged, deduplicated bugs and their analysis runs.
@@ -150,23 +150,23 @@ plans:
 - name: Sonarly Plans
   plan_count: 4
   slug: sonarly-plans
-random_paper: 38
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Sonarly Rate Limits
   slug: sonarly-rate-limits
 score:
   band: developing
-  composite: 48.2
-  delta: -4.3
+  composite: 48.9
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
-    contract_quality: 65.8
+    contract_quality: 68.7
     developer_ergonomics: 38.6
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 34.2
-  previous_composite: 52.5
+  previous_composite: 48.9
   provenance:
     conformance: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

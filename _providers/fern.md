@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Fern transforms a single API source of truth (OpenAPI, AsyncAPI, Protobuf, OpenRPC, or the Fern Definition Language) into type-safe SDKs in nine languages, branded interactive documentation with API e
@@ -295,7 +295,7 @@ plans:
 - name: Fern Plans Pricing
   plan_count: 3
   slug: fern-plans-pricing
-random_paper: 17
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Fern Rate Limits
@@ -312,7 +312,7 @@ rules:
 score:
   band: developing
   composite: 53.8
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 12.9
@@ -320,9 +320,9 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 58.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 53.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fern/refs/heads/main/screenshots/fern-2026-06-20T181141.png
 security:

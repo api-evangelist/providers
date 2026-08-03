@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-07-28'
+  score: 17.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Programmatic access to the Tanaza Cloud dashboard data set across three documented API families — Network Management, Network Monitoring, and Application — plus Push Contact Notifications webhooks. Re
@@ -110,11 +110,11 @@ overview: 'Tanaza publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tanaza''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 65
+random_paper: 69
 score:
   band: thin
   composite: 33.8
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -122,15 +122,15 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 30.4
+  previous_composite: 33.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

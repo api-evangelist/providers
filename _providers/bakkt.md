@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-07-28'
+  score: 50.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -226,19 +226,19 @@ overview: 'Bakkt publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bakkt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 21 more developer resources.'
-random_paper: 33
+random_paper: 50
 score:
   band: developing
-  composite: 47.4
-  delta: -3.7
+  composite: 48.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 65.5
+    contract_quality: 68.4
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 51.1
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,8 +255,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/screenshots/bakkt-2026-07-25T202255.png
 security:

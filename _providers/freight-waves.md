@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ overview: 'Freight Waves publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Freight Waves'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 22 more developer resources.'
-random_paper: 28
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Freight Waves Rate Limits
@@ -193,16 +193,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 51.9
-  delta: -2.6
+  composite: 52.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 61.3
+    contract_quality: 64.6
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 54.5
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,8 +219,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/screenshots/freight-waves-2026-07-25T215152.png
 security:

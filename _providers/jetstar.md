@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Jetstar API is Jetstar's direct-connect distribution channel for Registered Travel Agents and partners. It is a Navitaire New Skies (NSK) SOAP / WCF web service, not a REST product and not IATA ND
@@ -178,10 +178,11 @@ overview: 'Jetstar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Jetstar''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, support, FAQ, and 25 more developer resources.'
-random_paper: 27
+random_paper: 5
 score:
   band: thin
   composite: 33.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -189,10 +190,12 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 47.4
+  previous_composite: 33.8
   provenance:
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Jetstar Authentication

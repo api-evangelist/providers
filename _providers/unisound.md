@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: 'Multi-modal MaaS API for Unisound U2 models: OpenAI-compatible chat completions and Anthropic-compatible messages for the U2 and U2-Med LLMs (streaming, function calling, structured output, context ca'
@@ -163,7 +163,7 @@ plans:
 - name: Unisound Plans
   plan_count: 3
   slug: unisound-plans
-random_paper: 65
+random_paper: 30
 rate_limits:
 - limit_count: 9
   name: Unisound Rate Limits
@@ -171,7 +171,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.8
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -179,7 +179,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 46.1
+  previous_composite: 43.8
   provenance:
     conformance: first-party
   regulatory:
@@ -188,8 +188,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

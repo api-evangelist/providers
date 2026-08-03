@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -179,7 +179,7 @@ plans:
 - name: Kalshi Plans Pricing
   plan_count: 1
   slug: kalshi-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Kalshi Rate Limits
@@ -195,16 +195,16 @@ rules:
   slug: kalshi-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 41.1
-  delta: -2.9
+  composite: 41.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 64.9
+    contract_quality: 68.8
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 44.0
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -218,8 +218,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalshi/refs/heads/main/screenshots/kalshi-2026-06-20T183909.png
 security:

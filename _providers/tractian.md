@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API behind the Tractian platform, used for ERP, BI, and business-system integrations alongside native SQL access and prebuilt connectors. The API host is live (public health endpoint reporting v1
@@ -127,11 +127,11 @@ overview: 'Tractian publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Tractian''s developer surface includes engineering blog, changelog, support, pricing, and 16 more developer resources.'
-random_paper: 34
+random_paper: 94
 score:
   band: thin
   composite: 28.4
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -139,11 +139,11 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 27.4
+  previous_composite: 28.4
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

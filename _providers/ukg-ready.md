@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -120,19 +120,19 @@ overview: 'UKG Ready publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   UKG Ready''s developer surface includes authentication, documentation, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 3
+random_paper: 50
 score:
   band: thin
-  composite: 31.1
-  delta: -3.3
+  composite: 32.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 57.6
+    contract_quality: 61.2
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 34.4
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -140,8 +140,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg-ready/refs/heads/main/screenshots/ukg-ready-2026-06-20T200009.png
 security:

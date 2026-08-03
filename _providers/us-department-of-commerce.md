@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ plans:
 - name: Us Department Of Commerce Plans Pricing
   plan_count: 1
   slug: us-department-of-commerce-plans-pricing
-random_paper: 39
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Us Department Of Commerce Rate Limits
@@ -148,16 +148,16 @@ rules:
   slug: us-department-of-commerce-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.4
-  delta: -3.4
+  composite: 36.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.0
+    contract_quality: 64.3
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 38.8
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +171,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/screenshots/us-department-of-commerce-2026-06-20T200620.png
 security:

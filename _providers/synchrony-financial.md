@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ plans:
 - name: Synchrony Financial Plans Pricing
   plan_count: 1
   slug: synchrony-financial-plans-pricing
-random_paper: 15
+random_paper: 83
 rate_limits:
 - limit_count: 1
   name: Synchrony Financial Rate Limits
@@ -193,16 +193,16 @@ rules:
   slug: synchrony-financial-rules
 score:
   band: developing
-  composite: 47.2
-  delta: -6.1
+  composite: 47.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.6
+    contract_quality: 71.3
     developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 53.3
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -216,9 +216,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/screenshots/synchrony-financial-2026-06-20T194826.png
 security:
 - kind: authentication

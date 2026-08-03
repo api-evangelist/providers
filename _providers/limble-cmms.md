@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 0
@@ -319,7 +319,7 @@ overview: 'Limble CMMS publishes 42 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Limble CMMS''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, signup flow, and 6 more developer resources.'
-random_paper: 40
+random_paper: 61
 rules:
 - name: Limble CMMS API Rules
   rule_count: 5
@@ -339,16 +339,16 @@ rules:
   slug: limble-cmms-rules
 score:
   band: thin
-  composite: 40.3
-  delta: -4.3
+  composite: 41.8
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 64.4
+    contract_quality: 70.5
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 44.6
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -356,8 +356,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/screenshots/limble-cmms-2026-06-20T184528.png
 security:

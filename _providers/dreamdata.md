@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-07-28'
+  score: 41.0
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Segment-compatible event tracking API for capturing B2B customer journey events. Server-side events are POSTed as a batch to the HTTP endpoint with HTTP Basic auth (source API key as username, empty p
@@ -179,7 +179,7 @@ overview: 'Dreamdata publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Dreamdata''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 29
+random_paper: 76
 scopes:
 - name: Dreamdata Scopes
   scope_count: 5
@@ -188,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 53.8
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -196,13 +196,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 45.6
+  previous_composite: 53.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamdata/refs/heads/main/screenshots/dreamdata-2026-07-25T212356.png
 security:
 - kind: authentication

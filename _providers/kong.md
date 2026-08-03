@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -5057,7 +5057,7 @@ plans:
 - name: Kong Plans Pricing
   plan_count: 6
   slug: kong-plans-pricing
-random_paper: 21
+random_paper: 51
 rate_limits:
 - limit_count: 10
   name: Kong Rate Limits
@@ -5081,16 +5081,16 @@ rules:
   slug: kong-spectral-rules
 score:
   band: strong
-  composite: 58.7
-  delta: -4.7
+  composite: 59.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.4
+    contract_quality: 68.8
     developer_ergonomics: 63.0
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 63.4
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
@@ -5098,8 +5098,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 132
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png
 security:

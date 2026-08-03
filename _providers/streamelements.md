@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -247,7 +247,7 @@ overview: 'StreamElements publishes 24 APIs on the [APIs.io](https://apis.io/) n
 
 
   StreamElements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 37
+random_paper: 88
 scopes:
 - name: Streamelements Scopes
   scope_count: 20
@@ -255,16 +255,16 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.2
-  delta: -1.5
+  composite: 53.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.7
+    contract_quality: 69.5
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 53.7
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,8 +275,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

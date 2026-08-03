@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Zoetis Vetscan Connectivity provides bidirectional communication between veterinary practice information management systems (PIMS) and Zoetis point-of-care analyzers and reference laboratory services.
@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: Zoetis announces first AI analyser update Bosses said ...
   url: https://www.facebook.com/vettimesuk/posts/zoetis-announces-first-ai-analyser-updatebosses-said-the-updates-to-the-analyser/1425086699632340/
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Zoetis Rate Limits
@@ -111,7 +111,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.0
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -119,15 +119,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 22.8
+  previous_composite: 20.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoetis/refs/heads/main/screenshots/zoetis-2026-06-20T201932.png
 security:

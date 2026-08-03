@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: The Findings API from Pixee — 2 operation(s) for findings.
@@ -151,19 +151,19 @@ overview: 'Pixee publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Pixee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 14 more developer resources.'
-random_paper: 48
+random_paper: 26
 score:
   band: developing
-  composite: 53.5
-  delta: 0.1
+  composite: 54.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.9
+    contract_quality: 69.8
     developer_ergonomics: 56.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 53.4
+  previous_composite: 54.2
   provenance:
     conformance: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       total: 5
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

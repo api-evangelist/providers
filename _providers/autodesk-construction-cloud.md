@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -308,7 +308,7 @@ plans:
 - name: Autodesk Construction Cloud Plans Pricing
   plan_count: 3
   slug: autodesk-construction-cloud-plans-pricing
-random_paper: 24
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Autodesk Construction Cloud Rate Limits
@@ -337,16 +337,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 63.5
-  delta: -2.1
+  composite: 63.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 82.2
+    contract_quality: 83.5
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 68.4
-  previous_composite: 65.6
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     contracts:
@@ -354,8 +354,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/screenshots/autodesk-construction-cloud-2026-06-20T172629.png
 security:

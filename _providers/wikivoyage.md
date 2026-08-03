@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -187,23 +187,23 @@ plans:
 - name: Wikivoyage Plans Pricing
   plan_count: 1
   slug: wikivoyage-plans-pricing
-random_paper: 21
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Wikivoyage Rate Limits
   slug: wikivoyage-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: -5.5
+  composite: 31.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.0
+    contract_quality: 24.5
     developer_ergonomics: 28.3
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 44.2
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -217,9 +217,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/screenshots/wikivoyage-2026-06-20T201502.png
 security:
 - kind: authentication

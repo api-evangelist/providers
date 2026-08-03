@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.5
-  scored_at: '2026-07-28'
+  score: 59.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -492,7 +492,7 @@ plans:
 - name: Microsoft Outlook Plans Pricing
   plan_count: 5
   slug: microsoft-outlook-plans-pricing
-random_paper: 4
+random_paper: 3
 rate_limits:
 - limit_count: 7
   name: Microsoft Outlook Rate Limits
@@ -529,16 +529,16 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 80.1
-  delta: -0.1
+  composite: 81.3
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 83.1
+    contract_quality: 87.9
     developer_ergonomics: 84.8
     discoverability: 100.0
     governance: 59.4
     operational_transparency: 68.4
-  previous_composite: 80.2
+  previous_composite: 81.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -548,8 +548,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/screenshots/microsoft-outlook-2026-06-20T185517.png
 security:

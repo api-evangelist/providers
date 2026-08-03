@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -261,7 +261,7 @@ overview: 'Polar publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Polar''s developer surface includes authentication, developer portal, documentation, signup flow, code examples, support, YouTube channel, and 23 more developer resources.'
-random_paper: 50
+random_paper: 67
 scopes:
 - name: Polar Scopes
   scope_count: 2
@@ -269,16 +269,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.0
-  delta: -5.1
+  composite: 37.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 57.4
+    contract_quality: 60.6
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 42.1
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -292,9 +292,9 @@ score:
     regime: Health
     regime_id: health
     score: 53.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polar/refs/heads/main/screenshots/polar-2026-06-20T191849.png
 security:
 - kind: authentication

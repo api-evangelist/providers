@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -130,9 +130,9 @@ plans:
 - name: Hhaexchange Plans Pricing
   plan_count: 2
   slug: hhaexchange-plans-pricing
-random_paper: 74
+random_paper: 0
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Hhaexchange Rate Limits
   slug: hhaexchange-rate-limits
 rules:
@@ -150,17 +150,17 @@ scopes:
   slug: hhaexchange-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: thin
-  composite: 40.3
-  delta: -6.2
+  band: developing
+  composite: 44.6
+  delta: 3.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 65.0
+    contract_quality: 69.0
     developer_ergonomics: 17.4
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 0.0
-  previous_composite: 46.5
+    operational_transparency: 31.6
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -174,9 +174,9 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/screenshots/hhaexchange-2026-06-20T182722.png
 security:
 - kind: authentication

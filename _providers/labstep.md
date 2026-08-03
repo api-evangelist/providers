@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Labstep REST API exposes the same generic entity surface the Labstep application uses — experiments, protocols, resources, resource items, locations, devices, device data, orders, metadata, files,
@@ -164,11 +164,11 @@ overview: 'Labstep publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Labstep''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 9
+random_paper: 82
 score:
   band: thin
   composite: 36.7
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -176,7 +176,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 40.1
+  previous_composite: 36.7
   provenance:
     conformance: first-party
   regulatory:
@@ -185,8 +185,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labstep/refs/heads/main/screenshots/labstep-2026-07-25T224425.png
 security:

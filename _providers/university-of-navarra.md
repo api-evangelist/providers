@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: DADUN (Deposito Academico Digital de la Universidad de Navarra) is the university's open-access institutional repository, built on DSpace (reported version 5.3). It exposes a standard OAI-PMH 2.0 inte
@@ -89,7 +89,7 @@ plans:
 - name: University Of Navarra Plans Pricing
   plan_count: 2
   slug: university-of-navarra-plans-pricing
-random_paper: 40
+random_paper: 82
 rate_limits:
 - limit_count: 1
   name: University Of Navarra Rate Limits
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.6
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 12.9
@@ -105,9 +105,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 18.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png
 security:

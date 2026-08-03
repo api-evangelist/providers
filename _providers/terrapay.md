@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-07-28'
+  score: 36.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: GSMA Mobile Money API profile for account validation, FX quotations, and multi-rail money movement (wallet/bank/card) across international corridors.
@@ -127,11 +127,11 @@ overview: 'TerraPay publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   TerraPay''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 12 more developer resources.'
-random_paper: 52
+random_paper: 17
 score:
   band: thin
   composite: 31.8
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -139,7 +139,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 7.9
-  previous_composite: 29.4
+  previous_composite: 31.8
   provenance:
     conformance: derived
     mcp: derived
@@ -149,8 +149,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

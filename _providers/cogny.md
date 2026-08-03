@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-07-28'
+  score: 51.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ overview: 'Cogny publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cogny''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 22 more developer resources.'
-random_paper: 52
+random_paper: 69
 scopes:
 - name: Cogny Scopes
   scope_count: 8
@@ -199,16 +199,16 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.5
-  delta: 0.9
+  composite: 55.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.9
+    contract_quality: 69.8
     developer_ergonomics: 82.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 53.6
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,8 +219,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/screenshots/cogny-2026-07-25T210014.png
 security:

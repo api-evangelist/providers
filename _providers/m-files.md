@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: JSON over HTTPS REST API for the M-Files information management platform. Served per M-Files Server / Cloud vault under a /REST/ base path; supports objects, files, vaults, views, value lists, and sea
@@ -148,11 +148,11 @@ overview: 'M-Files publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   M-Files'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 29
+random_paper: 20
 score:
   band: thin
   composite: 33.1
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -160,11 +160,11 @@ score:
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 31.8
+  previous_composite: 33.1
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/m-files/refs/heads/main/screenshots/m-files-2026-07-25T225802.png
 security:

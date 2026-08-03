@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ plans:
 - name: Microsoft Azure Firewall Plans Pricing
   plan_count: 3
   slug: microsoft-azure-firewall-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Firewall Rate Limits
@@ -127,16 +127,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 43.5
-  delta: -1.6
+  composite: 43.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 55.1
+    contract_quality: 55.8
     developer_ergonomics: 23.9
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 45.1
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -144,8 +144,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/screenshots/microsoft-azure-firewall-2026-06-20T185416.png
 security:

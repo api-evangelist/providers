@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -147,19 +147,19 @@ overview: 'Rainway publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Rainway''s developer surface includes documentation, getting-started guide, API reference, signup flow, authentication, and 17 more developer resources.'
-random_paper: 25
+random_paper: 3
 score:
   band: thin
-  composite: 38.5
-  delta: -4.2
+  composite: 30.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 47.5
+    contract_quality: 15.9
     developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 42.7
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -170,8 +170,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

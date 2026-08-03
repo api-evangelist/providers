@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ plans:
 - name: Microsoft 365 Copilot Plans Pricing
   plan_count: 3
   slug: microsoft-365-copilot-plans-pricing
-random_paper: 24
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Microsoft 365 Copilot Rate Limits
@@ -154,16 +154,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 44.8
-  delta: -1.3
+  composite: 45.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 26.1
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 46.1
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +171,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/screenshots/microsoft-365-copilot-2026-06-20T185342.png
 security:

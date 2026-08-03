@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 9
@@ -415,7 +415,7 @@ overview: 'Inductive Automation publishes 87 APIs on the [APIs.io](https://apis.
 
 
   Inductive Automation''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, support, and 9 more developer resources.'
-random_paper: 55
+random_paper: 15
 rules:
 - name: Inductive Automation API Rules
   rule_count: 5
@@ -435,16 +435,16 @@ rules:
   slug: inductive-automation-rules
 score:
   band: developing
-  composite: 42.9
-  delta: -5.0
+  composite: 43.7
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 65.9
+    contract_quality: 68.9
     developer_ergonomics: 45.7
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 47.9
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -452,9 +452,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 87
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/screenshots/inductive-automation-2026-06-20T183324.png
 security:
 - kind: authentication

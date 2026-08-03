@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Apiops Cycles Canvas Plans Pricing
   plan_count: 1
   slug: apiops-cycles-canvas-plans-pricing
-random_paper: 53
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Apiops Cycles Canvas Rate Limits
@@ -168,16 +168,16 @@ rules:
   slug: apiops-cycles-canvas-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.2
-  delta: -4.5
+  composite: 40.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.2
+    contract_quality: 70.0
     developer_ergonomics: 10.9
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 44.7
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/screenshots/apiops-cycles-canvas-2026-06-20T172250.png
 security:

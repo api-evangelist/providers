@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.7
-  scored_at: '2026-07-28'
+  score: 61.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 162
   human_in_the_loop: 2
@@ -26,14 +26,116 @@ agentic_access:
   operation_count: 299
   slug: activecampaign-agentic-access
   summary_line: 299 operations · 162 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 36
 apis:
-- description: 'The primary REST API for ActiveCampaign, organized around resources such as contacts, deals, accounts, automations, campaigns, messages, lists, tags, webhooks, custom objects, and ecommerce entities. '
-  name: ActiveCampaign API v3
-  slug: activecampaign-v3
-- description: API for managing SMS broadcasts, lists, metrics, and AI-powered content generation in ActiveCampaign. Supports creating, scheduling, and tracking SMS broadcast campaigns.
-  name: ActiveCampaign SMS Broadcast API
-  slug: activecampaign-sms
+- description: The Accounts API from ActiveCampaign — 13 operation(s) for accounts.
+  name: ActiveCampaign Accounts API
+  slug: activecampaign-accounts-api
+- description: The Addresses API from ActiveCampaign — 4 operation(s) for addresses.
+  name: ActiveCampaign Addresses API
+  slug: activecampaign-addresses-api
+- description: The AI API from ActiveCampaign — 2 operation(s) for ai.
+  name: ActiveCampaign AI API
+  slug: activecampaign-ai-api
+- description: The Automations API from ActiveCampaign — 3 operation(s) for automations.
+  name: ActiveCampaign Automations API
+  slug: activecampaign-automations-api
+- description: The Branding API from ActiveCampaign — 2 operation(s) for branding.
+  name: ActiveCampaign Branding API
+  slug: activecampaign-branding-api
+- description: The Broadcasts API from ActiveCampaign — 11 operation(s) for broadcasts.
+  name: ActiveCampaign Broadcasts API
+  slug: activecampaign-broadcasts-api
+- description: The Bulk Import API from ActiveCampaign — 2 operation(s) for bulk import.
+  name: ActiveCampaign Bulk Import API
+  slug: activecampaign-bulk-import-api
+- description: The Calendars API from ActiveCampaign — 2 operation(s) for calendars.
+  name: ActiveCampaign Calendars API
+  slug: activecampaign-calendars-api
+- description: The Campaigns API from ActiveCampaign — 6 operation(s) for campaigns.
+  name: ActiveCampaign Campaigns API
+  slug: activecampaign-campaigns-api
+- description: The Contacts API from ActiveCampaign — 28 operation(s) for contacts.
+  name: ActiveCampaign Contacts API
+  slug: activecampaign-contacts-api
+- description: The Credits API from ActiveCampaign — 1 operation(s) for credits.
+  name: ActiveCampaign Credits API
+  slug: activecampaign-credits-api
+- description: The Custom Objects API from ActiveCampaign — 9 operation(s) for custom objects.
+  name: ActiveCampaign Custom Objects API
+  slug: activecampaign-custom-objects-api
+- description: The Deals API from ActiveCampaign — 25 operation(s) for deals.
+  name: ActiveCampaign Deals API
+  slug: activecampaign-deals-api
+- description: The Ecommerce API from ActiveCampaign — 8 operation(s) for ecommerce.
+  name: ActiveCampaign Ecommerce API
+  slug: activecampaign-ecommerce-api
+- description: The Event Tracking API from ActiveCampaign — 3 operation(s) for event tracking.
+  name: ActiveCampaign Event Tracking API
+  slug: activecampaign-event-tracking-api
+- description: The Exports API from ActiveCampaign — 2 operation(s) for exports.
+  name: ActiveCampaign Exports API
+  slug: activecampaign-exports-api
+- description: The Failures API from ActiveCampaign — 1 operation(s) for failures.
+  name: ActiveCampaign Failures API
+  slug: activecampaign-failures-api
+- description: The Fields API from ActiveCampaign — 7 operation(s) for fields.
+  name: ActiveCampaign Fields API
+  slug: activecampaign-fields-api
+- description: The Forms API from ActiveCampaign — 3 operation(s) for forms.
+  name: ActiveCampaign Forms API
+  slug: activecampaign-forms-api
+- description: The Groups API from ActiveCampaign — 7 operation(s) for groups.
+  name: ActiveCampaign Groups API
+  slug: activecampaign-groups-api
+- description: The Lists API from ActiveCampaign — 5 operation(s) for lists.
+  name: ActiveCampaign Lists API
+  slug: activecampaign-lists-api
+- description: The Messages API from ActiveCampaign — 2 operation(s) for messages.
+  name: ActiveCampaign Messages API
+  slug: activecampaign-messages-api
+- description: The Metrics API from ActiveCampaign — 5 operation(s) for metrics.
+  name: ActiveCampaign Metrics API
+  slug: activecampaign-metrics-api
+- description: The Notes API from ActiveCampaign — 2 operation(s) for notes.
+  name: ActiveCampaign Notes API
+  slug: activecampaign-notes-api
+- description: The Other API from ActiveCampaign — 14 operation(s) for other.
+  name: ActiveCampaign Other API
+  slug: activecampaign-other-api
+- description: The Personalizations API from ActiveCampaign — 5 operation(s) for personalizations.
+  name: ActiveCampaign Personalizations API
+  slug: activecampaign-personalizations-api
+- description: The Recipients API from ActiveCampaign — 2 operation(s) for recipients.
+  name: ActiveCampaign Recipients API
+  slug: activecampaign-recipients-api
+- description: The Saved Responses API from ActiveCampaign — 2 operation(s) for saved responses.
+  name: ActiveCampaign Saved Responses API
+  slug: activecampaign-saved-responses-api
+- description: The Scores API from ActiveCampaign — 2 operation(s) for scores.
+  name: ActiveCampaign Scores API
+  slug: activecampaign-scores-api
+- description: The Site Tracking API from ActiveCampaign — 2 operation(s) for site tracking.
+  name: ActiveCampaign Site Tracking API
+  slug: activecampaign-site-tracking-api
+- description: The Snapshots API from ActiveCampaign — 1 operation(s) for snapshots.
+  name: ActiveCampaign Snapshots API
+  slug: activecampaign-snapshots-api
+- description: The Tags API from ActiveCampaign — 2 operation(s) for tags.
+  name: ActiveCampaign Tags API
+  slug: activecampaign-tags-api
+- description: The Tasks API from ActiveCampaign — 6 operation(s) for tasks.
+  name: ActiveCampaign Tasks API
+  slug: activecampaign-tasks-api
+- description: The Templates API from ActiveCampaign — 1 operation(s) for templates.
+  name: ActiveCampaign Templates API
+  slug: activecampaign-templates-api
+- description: The Users API from ActiveCampaign — 5 operation(s) for users.
+  name: ActiveCampaign Users API
+  slug: activecampaign-users-api
+- description: The Webhooks API from ActiveCampaign — 3 operation(s) for webhooks.
+  name: ActiveCampaign Webhooks API
+  slug: activecampaign-webhooks-api
 arazzos:
 - description: Create an account record then associate an existing contact with it.
   name: ActiveCampaign Create Account and Associate a Contact
@@ -98,7 +200,7 @@ arazzos:
 - description: Apply a tag to an existing contact then enroll it in an automation.
   name: ActiveCampaign Tag a Contact and Enroll in Automation
   slug: activecampaign-tag-contact-and-enroll-automation-workflow
-artifact_total: 131
+artifact_total: 165
 asyncapis:
 - description: AsyncAPI description of ActiveCampaign's outbound webhook surface. When a webhook is configured (via the dashboard or the REST API at POST /api/3/webhooks), ActiveCampaign delivers events as HTTP POST
   name: ActiveCampaign Webhooks
@@ -529,7 +631,7 @@ modified: '2026-05-30'
 name: ActiveCampaign
 nav: Providers
 network: true
-overview: 'ActiveCampaign publishes 2 APIs on the [APIs.io](https://apis.io/) network: API v3 and SMS Broadcast API. Tagged areas include Marketing Automation, Email Marketing, CRM, Sales Automation, and Customer Experience.
+overview: 'ActiveCampaign publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, AI API, and 33 more. Tagged areas include Marketing Automation, Email Marketing, CRM, Sales Automation, and Customer Experience.
 
 
   The ActiveCampaign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -540,7 +642,7 @@ plans:
 - name: Activecampaign Plans Pricing
   plan_count: 3
   slug: activecampaign-plans-pricing
-random_paper: 74
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Activecampaign Rate Limits
@@ -571,17 +673,17 @@ rules:
     warn: 12
   slug: activecampaign-spectral-rules
 score:
-  band: strong
-  composite: 58.3
-  delta: -7.3
+  band: developing
+  composite: 51.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.6
+    contract_quality: 45.8
     developer_ergonomics: 52.2
     discoverability: 68.5
     governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 65.6
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -589,9 +691,9 @@ score:
       derived: 36
       marker_coverage: 100.0
       total: 36
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/screenshots/activecampaign-2026-06-20T164212.png
 security:
 - kind: authentication

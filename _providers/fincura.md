@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -206,19 +206,19 @@ overview: 'Fincura publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fincura''s developer surface includes authentication and 18 more developer resources.'
-random_paper: 6
+random_paper: 79
 score:
   band: thin
-  composite: 32.5
-  delta: -3.9
+  composite: 33.3
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 58.0
+    contract_quality: 61.7
     developer_ergonomics: 21.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 36.4
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +235,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fincura/refs/heads/main/screenshots/fincura-2026-07-25T214509.png
 security:

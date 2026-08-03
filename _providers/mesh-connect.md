@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -219,19 +219,19 @@ overview: 'Mesh Connect publishes 12 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mesh Connect''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 23 more developer resources.'
-random_paper: 72
+random_paper: 80
 score:
   band: developing
-  composite: 54.3
-  delta: -3.9
+  composite: 55.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.0
+    contract_quality: 69.4
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 58.2
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

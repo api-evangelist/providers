@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -360,7 +360,7 @@ plans:
 - name: Sage Plans Pricing
   plan_count: 1
   slug: sage-plans-pricing
-random_paper: 6
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Sage Rate Limits
@@ -397,16 +397,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.1
-  delta: -3.8
+  composite: 49.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 75.8
+    contract_quality: 77.9
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 52.1
     operational_transparency: 26.3
-  previous_composite: 52.9
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -414,8 +414,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/screenshots/sage-2026-06-20T193330.png
 security:

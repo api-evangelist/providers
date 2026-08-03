@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -193,23 +193,23 @@ plans:
 - name: Octoparse Plans Pricing
   plan_count: 3
   slug: octoparse-plans-pricing
-random_paper: 74
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Octoparse Rate Limits
   slug: octoparse-rate-limits
 score:
   band: developing
-  composite: 44.7
-  delta: -1.8
+  composite: 45.7
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 52.5
+    contract_quality: 56.6
     developer_ergonomics: 17.4
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 46.5
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/screenshots/octoparse-2026-06-20T190615.png
 security:

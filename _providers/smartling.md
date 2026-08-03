@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 2
@@ -173,23 +173,23 @@ plans:
 - name: Smartling Plans Pricing
   plan_count: 1
   slug: smartling-plans-pricing
-random_paper: 75
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Smartling Rate Limits
   slug: smartling-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: -1.5
+  composite: 36.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 58.8
+    contract_quality: 62.2
     developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.4
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/screenshots/smartling-2026-06-20T194043.png
 security:

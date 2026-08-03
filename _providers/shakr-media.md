@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 32.9
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: 'REST API for programmatic, end-to-end video creation and automated delivery. OAuth 2.0 client-credentials + bearer auth. Resources: TemplateStyleVersion, Mapping, RenderSession.'
@@ -138,7 +138,7 @@ overview: 'Shakr Media publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Shakr Media''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 28
+random_paper: 49
 scopes:
 - name: Shakr Media Scopes
   scope_count: 6
@@ -147,7 +147,7 @@ scopes:
 score:
   band: thin
   composite: 34.2
-  delta: 5.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -155,12 +155,12 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 28.8
+  previous_composite: 34.2
   provenance:
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Shakr Media Authentication

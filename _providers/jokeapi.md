@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ plans:
 - name: Jokeapi Plans Pricing
   plan_count: 2
   slug: jokeapi-plans-pricing
-random_paper: 1
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Jokeapi Rate Limits
@@ -302,16 +302,16 @@ rules:
   slug: jokeapi-spectral-rules
 score:
   band: thin
-  composite: 40.1
-  delta: -7.5
+  composite: 32.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 52.0
+    contract_quality: 23.3
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 47.6
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -319,9 +319,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/screenshots/jokeapi-2026-06-20T183755.png
 security:
 - kind: domain-security

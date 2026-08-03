@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -141,23 +141,23 @@ plans:
 - name: Tally Plans Pricing
   plan_count: 3
   slug: tally-plans-pricing
-random_paper: 58
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Tally Rate Limits
   slug: tally-rate-limits
 score:
   band: thin
-  composite: 39.0
-  delta: -2.0
+  composite: 40.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 41.0
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/screenshots/tally-2026-06-20T194908.png
 security:

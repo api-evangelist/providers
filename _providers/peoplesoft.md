@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -676,7 +676,7 @@ plans:
 - name: Peoplesoft Plans Pricing
   plan_count: 1
   slug: peoplesoft-plans-pricing
-random_paper: 23
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Peoplesoft Rate Limits
@@ -705,16 +705,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.9
-  delta: -5.1
+  composite: 63.8
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 68.3
+    contract_quality: 67.9
     developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 69.0
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     contracts:
@@ -722,9 +722,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/screenshots/peoplesoft-2026-06-20T191552.png
 security:
 - kind: authentication

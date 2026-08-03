@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ plans:
 - name: Vibes Platform Plans Pricing
   plan_count: 3
   slug: vibes-platform-plans-pricing
-random_paper: 57
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Vibes Platform Rate Limits
@@ -196,16 +196,16 @@ rules:
   slug: vibes-platform-rules
 score:
   band: developing
-  composite: 47.5
-  delta: -7.1
+  composite: 48.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 67.3
+    contract_quality: 70.1
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 54.6
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -219,9 +219,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/screenshots/vibes-platform-2026-06-20T201014.png
 security:
 - kind: authentication

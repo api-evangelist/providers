@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -201,24 +201,24 @@ overview: 'Cashplus Bank publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 26 more developer resources.'
-random_paper: 47
+random_paper: 12
 scopes:
 - name: Cashplus Scopes
   scope_count: 3
   slug: cashplus-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 41.4
-  delta: -2.6
+  band: developing
+  composite: 43.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 46.2
+    contract_quality: 54.0
     developer_ergonomics: 38.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 44.0
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +235,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/screenshots/cashplus-2026-07-25T204726.png
 security:

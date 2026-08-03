@@ -178,8 +178,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 20,
-   "shown": 20,
+   "count": 21,
+   "shown": 21,
    "providers": [
     {
      "name": "Viam",
@@ -296,6 +296,50 @@
      "rank": 7
     },
     {
+     "name": "Enphase Energy",
+     "slug": "enphase",
+     "description": "Enphase Energy is a Petaluma, California home-energy technology manufacturer and the dominant supplier of solar microinverters in the United States, shipping IQ Microinverters, IQ Batteries, IQ EV Chargers and the Envoy/IQ Gateway that ties them together through the Enlighten cloud. It sits on the DER side of the energy value chain rather than the utility side: it does not own meters, sell electricity, or operate a grid, so no consumer energy data mandate reaches it — there is no Green Button, ESPI or NAESB implementation anywhere in its developer surface, and the United States has no compulsory retail energy data right to designate it under. Its API posture is nevertheless unusually open for this sector. The Enphase Developer Portal at developer-v4.enphase.com is a genuine self-serve 3scale portal where anyone can register, create an application and subscribe to a free Watt plan, and it publishes three complete, anonymously downloadable machine-readable contracts covering 124 paths and 148 operations. The split that defines Enphase is consumer-data-open, market-data-closed: a third-party developer can retrieve an individual homeowner's site production, consumption, battery and EV charger telemetry through documented OAuth 2.0 authorization-code flows with the system owner's explicit approval, but Enphase publishes no open grid, wholesale market or system-wide generation data of any kind. Access is tiered — self-serve for monitoring, application-approval for installer commissioning (10+ installations required), and partner-only for the Virtual Power Plant API, which is the one place a real standard appears: OCPP 1.6 for EV charger control against third-party CSMS platforms.",
+     "score": 63.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 63.6,
+      "governance": 20.8,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 8
+    },
+    {
      "name": "UVeye",
      "slug": "uveye",
      "description": "UVeye builds AI-powered automated vehicle inspection systems — \"the MRI for cars\" — that drive a vehicle through a scanning lane and produce a full condition report in seconds. Four scanning modules cover the vehicle: Artemis (tires and tread), Helios (undercarriage), Atlas (exterior body damage) and Apollo (interior). The systems are deployed across dealership service lanes, fleet and leasing depots, auctions and remarketing lots, rental returns, OEM manufacturing and logistics/PDI ports. UVeye exposes the resulting inspection data to third parties through the UVeye Public API v1 — inspection detail lookups by VIN, license plate, inspection id or barcode, latest-inspection discovery by site or site group, customer-facing public inspection links, appraisal/quote data, inspection imagery, and a Merchandise surface that ingests dealer inventory and pushes rendered multi-angle imagery back over a signed webhook. Headquartered in Teaneck, New Jersey with offices in Norcross GA, Tel Aviv and London.",
@@ -304,33 +348,33 @@
      "band_label": "Strong",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 74.8,
+      "contract_quality": 78.7,
       "governance": 20.8,
       "operational_transparency": 71.1,
-      "developer_ergonomics": 69.6,
+      "developer_ergonomics": 64.7,
       "commercial_clarity": 50.0
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 61.3,
+     "agent_score": 47.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": "documented",
       "error_semantics": false,
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Amazon IoT Device Management",
@@ -368,7 +412,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Sendle",
@@ -401,50 +445,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "Enphase Energy",
-     "slug": "enphase",
-     "description": "Enphase Energy is a Petaluma, California home-energy technology manufacturer and the dominant supplier of solar microinverters in the United States, shipping IQ Microinverters, IQ Batteries, IQ EV Chargers and the Envoy/IQ Gateway that ties them together through the Enlighten cloud. It sits on the DER side of the energy value chain rather than the utility side: it does not own meters, sell electricity, or operate a grid, so no consumer energy data mandate reaches it — there is no Green Button, ESPI or NAESB implementation anywhere in its developer surface, and the United States has no compulsory retail energy data right to designate it under. Its API posture is nevertheless unusually open for this sector. The Enphase Developer Portal at developer-v4.enphase.com is a genuine self-serve 3scale portal where anyone can register, create an application and subscribe to a free Watt plan, and it publishes three complete, anonymously downloadable machine-readable contracts covering 124 paths and 148 operations. The split that defines Enphase is consumer-data-open, market-data-closed: a third-party developer can retrieve an individual homeowner's site production, consumption, battery and EV charger telemetry through documented OAuth 2.0 authorization-code flows with the system owner's explicit approval, but Enphase publishes no open grid, wholesale market or system-wide generation data of any kind. Access is tiered — self-serve for monitoring, application-approval for installer commissioning (10+ installations required), and partner-only for the Virtual Power Plant API, which is the one place a real standard appears: OCPP 1.6 for EV charger control against third-party CSMS platforms.",
-     "score": 60.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 63.6,
-      "governance": 20.8,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -580,6 +580,44 @@
      "rank": 14
     },
     {
+     "name": "Routific",
+     "slug": "routific",
+     "description": "Routific is a Vancouver-based delivery management and route optimization software provider. Its platform combines smart route optimization, dispatch and live tracking, a driver mobile app, customer delivery notifications with real-time tracking, and proof of delivery. The standalone Route Optimization API exposes the same engine — solving Vehicle Routing Problems (VRP) and Pickup-and-Delivery Problems (PDP) — to SaaS integrators and channel partners. Routific has optimized over 191 million deliveries for more than 1,000 businesses since founding.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/screenshots/routific-2026-06-20T193228.png",
+     "score": 58.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 79.3,
+      "governance": 68.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 39.1,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 37.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 15
+    },
+    {
      "name": "Track-POD",
      "slug": "track-pod",
      "description": "Track-POD is a cloud-based delivery management platform that combines route planning and optimization with electronic proof of delivery (ePOD), driver tracking, and last-mile customer notifications. The platform serves 10,000+ companies globally with a freemium model — the mobile driver app is free on iOS and Android, while the web dispatcher dashboard is sold on per-driver (Advanced, Advanced Plus, Ultimate, Enterprise) and per-order (S, M, L, XL) plans. Track-POD exposes a documented REST API (Track-POD API 2.0) with an OpenAPI 3.0 specification, JSON and XML payloads, X-API-KEY authentication, a public sandbox environment, and webhooks for ten event types covering orders, routes, and statuses. Common use cases include automated order import from e-commerce platforms (WooCommerce, Magento, Shopify, BigCommerce) and accounting/CRM systems (QuickBooks, Xero, Zoho, Microsoft Dynamics, Salesforce), real-time route dispatch and tracking, geotagged and signed proof of delivery, and PDF/shipping-label generation. Track-POD also ships no-code integrations via Zapier and Integrately.",
@@ -615,7 +653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Shell",
@@ -660,7 +698,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Azure Maps",
@@ -698,7 +736,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "EDF Energy",
@@ -742,7 +780,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Blues",
@@ -780,7 +818,51 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 19
+     "rank": 20
+    },
+    {
+     "name": "UK Power Networks",
+     "slug": "uk-power-networks",
+     "description": "UK Power Networks is the distribution network operator for London, the South East and the East of England, running three electricity distribution licence areas — London Power Networks (LPN), South Eastern Power Networks (SPN) and Eastern Power Networks (EPN) — and the Distribution System Operator function that sits on top of them. It is a poles-and-wires business: it owns the substations, cables and overhead lines, holds the network capacity and connection queue, and handles more than 70,000 connection enquiries a year, but it does not sell electricity and has no retail customer relationship to expose. Its API posture is the exact inverse of the usual utility story. Britain never legislated a consumer energy data right — there is no CDR equivalent, no Green Button obligation, and the one thing the UK did mandate was infrastructure (the Smart DCC carrying smart-meter traffic under the Smart Energy Code), which produces no public API. What did produce an API was Ofgem's Data Best Practice and digitalisation obligation on network licensees, and UK Power Networks has actually implemented it: a live Opendatasoft-hosted Open Data Portal serving 136 datasets over a documented, versioned REST API with a real OpenAPI 3.0.3 contract published at its own domain, a DCAT-AP catalogue export, and an official open-source Python client (ukpyn) on PyPI. So the split is unusually sharp and unusually positive on one side: market and network data is genuinely open and genuinely queryable — live faults, carbon intensity, embedded capacity register, substation and feeder-level smart meter aggregates, LTDS tables, flexibility dispatches, curtailment events — while consumer data is not merely closed but absent, because as a DNO it holds no billable customer account to hand over. The gate is free and self-serve rather than open: the catalogue and 36 of 136 datasets answer anonymously, but the other 99 return HTTP 403 until you register a free account and mint an API key.",
+     "score": 56.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 58.9,
+      "governance": 31.3,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 48.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 54.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 21
     },
     {
      "name": "Veho",
@@ -817,7 +899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Nash",
@@ -854,7 +936,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "SpotHero",
@@ -892,7 +974,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "Australia Post",
@@ -930,45 +1012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
-    },
-    {
-     "name": "Routific",
-     "slug": "routific",
-     "description": "Routific is a Vancouver-based delivery management and route optimization software provider. Its platform combines smart route optimization, dispatch and live tracking, a driver mobile app, customer delivery notifications with real-time tracking, and proof of delivery. The standalone Route Optimization API exposes the same engine — solving Vehicle Routing Problems (VRP) and Pickup-and-Delivery Problems (PDP) — to SaaS integrators and channel partners. Routific has optimized over 191 million deliveries for more than 1,000 businesses since founding.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/screenshots/routific-2026-06-20T193228.png",
-     "score": 56.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 79.3,
-      "governance": 68.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 39.1,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 37.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 24
+     "rank": 25
     }
    ],
    "open": true
@@ -1017,7 +1061,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Cabify",
@@ -1055,7 +1099,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Toast",
@@ -1100,7 +1144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Veho Tech",
@@ -1137,7 +1181,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "OTO Global",
@@ -1174,7 +1218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Eaton",
@@ -1216,50 +1260,6 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 30
-    },
-    {
-     "name": "UK Power Networks",
-     "slug": "uk-power-networks",
-     "description": "UK Power Networks is the distribution network operator for London, the South East and the East of England, running three electricity distribution licence areas — London Power Networks (LPN), South Eastern Power Networks (SPN) and Eastern Power Networks (EPN) — and the Distribution System Operator function that sits on top of them. It is a poles-and-wires business: it owns the substations, cables and overhead lines, holds the network capacity and connection queue, and handles more than 70,000 connection enquiries a year, but it does not sell electricity and has no retail customer relationship to expose. Its API posture is the exact inverse of the usual utility story. Britain never legislated a consumer energy data right — there is no CDR equivalent, no Green Button obligation, and the one thing the UK did mandate was infrastructure (the Smart DCC carrying smart-meter traffic under the Smart Energy Code), which produces no public API. What did produce an API was Ofgem's Data Best Practice and digitalisation obligation on network licensees, and UK Power Networks has actually implemented it: a live Opendatasoft-hosted Open Data Portal serving 136 datasets over a documented, versioned REST API with a real OpenAPI 3.0.3 contract published at its own domain, a DCAT-AP catalogue export, and an official open-source Python client (ukpyn) on PyPI. So the split is unusually sharp and unusually positive on one side: market and network data is genuinely open and genuinely queryable — live faults, carbon intensity, embedded capacity register, substation and feeder-level smart meter aggregates, LTDS tables, flexibility dispatches, curtailment events — while consumer data is not merely closed but absent, because as a DNO it holds no billable customer account to hand over. The gate is free and self-serve rather than open: the catalogue and 36 of 136 datasets answer anonymously, but the other 99 return HTTP 403 until you register a free account and mint an API key.",
-     "score": 54.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 58.9,
-      "governance": 31.3,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 73.4,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 48.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 54.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -1746,6 +1746,51 @@
      "rank": 43
     },
     {
+     "name": "Flipturn",
+     "slug": "flipturn",
+     "description": "Flipturn is an EV charging management platform that gives businesses and fleet operators one system to monitor chargers, manage energy costs, run fleet charging operations, control access, and handle payments and billing. Its software layer sits on top of OCPP 1.6 and 2.0.1 chargers (with OCPI support for roaming partners) and serves delivery fleets, transit agencies, multifamily housing, dealerships, workplaces, hospitality, retail, parking, and valet. Flipturn also publishes a JSON REST API, secured with a bearer API key, that exposes sites, chargers and ports, charging sessions, charger health and uptime, access IDs (RFID cards and vehicles), vehicles, alerts, charger errors, raw OCPP messages, port reservations, site power limits, vehicle departure times, and maintenance windows — designed for integrating charging data with ticketing platforms, data warehouses, and transportation management systems. Flipturn is backed by Accel and CRV.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/screenshots/flipturn-2026-07-25T214806.png",
+     "score": 51.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 65.1,
+      "governance": 20.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 40.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 38.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 44
+    },
+    {
      "name": "Leap",
      "slug": "leap",
      "description": "Leap is a San Francisco-based energy software company that lets technology brands build and scale virtual power plants (VPPs). Its platform aggregates distributed energy resources — residential and commercial battery storage, smart thermostats and heat pumps, and EV charging — and gives them a single point of integration into wholesale electricity markets and utility grid-service programs across CAISO, NYISO and other regions. Leap exposes a universal REST API covering meter onboarding and bulk creation, utility data authorization (Leap Connect), enrollment and participation management, market nominations and bidding, real-time dispatch delivery over webhooks or polling, event performance and interval data, and revenue settlement reporting. Partners authenticate with environment-scoped bearer API keys against separate staging and production hosts, and Leap publishes OpenAPI definitions, a dated changelog, an llms.txt index and a public status page.",
@@ -1788,7 +1833,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "INRIX",
@@ -1825,7 +1870,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
+    },
+    {
+     "name": "LocoNav",
+     "slug": "loconav",
+     "description": "LocoNav is an AI- and IoT-powered GPS vehicle tracking and smart fleet management platform used across 50+ countries, integrating 2,200+ device and sensor types to track vehicles and assets in real time. Its LocoNav Integration API exposes REST endpoints and webhooks for fleet telematics: telematics data (sensor readings, GPS location, distance, timelines, video and live streams), CRUD management of drivers, vehicles, trips, geofence polygons and users, driver-vehicle assignment, vehicle scorecards, immobilization, live share links, and alert subscriptions. Real-time alert and live-location webhooks push events such as overspeed, harsh braking/acceleration, geofence, fatigue, crash, fuel-theft, anti-theft and device-offline. Authentication is a user-level token in the User-Authentication header; all listing endpoints are paginated and time parameters use epoch seconds.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png",
+     "score": 50.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 70.0,
+      "governance": 20.8,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 49.5,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 36.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 47
     },
     {
      "name": "Trimble",
@@ -1863,7 +1946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 48
     },
     {
      "name": "Virtual Peaker",
@@ -1907,7 +1990,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 49
     },
     {
      "name": "Balena",
@@ -1945,7 +2028,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 50
     },
     {
      "name": "Trimble Agriculture",
@@ -1983,7 +2066,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 51
     },
     {
      "name": "Avito",
@@ -2028,7 +2111,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 52
     },
     {
      "name": "UniUni",
@@ -2065,7 +2148,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 53
     },
     {
      "name": "Hivemapper",
@@ -2103,7 +2186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 54
     },
     {
      "name": "17TRACK",
@@ -2141,7 +2224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 55
     },
     {
      "name": "Metrobi",
@@ -2178,7 +2261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 56
     },
     {
      "name": "Chargefox",
@@ -2222,7 +2305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 57
     },
     {
      "name": "TravelCenters of America",
@@ -2260,7 +2343,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 58
     },
     {
      "name": "Optibus",
@@ -2297,52 +2380,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
-    },
-    {
-     "name": "Flipturn",
-     "slug": "flipturn",
-     "description": "Flipturn is an EV charging management platform that gives businesses and fleet operators one system to monitor chargers, manage energy costs, run fleet charging operations, control access, and handle payments and billing. Its software layer sits on top of OCPP 1.6 and 2.0.1 chargers (with OCPI support for roaming partners) and serves delivery fleets, transit agencies, multifamily housing, dealerships, workplaces, hospitality, retail, parking, and valet. Flipturn also publishes a JSON REST API, secured with a bearer API key, that exposes sites, chargers and ports, charging sessions, charger health and uptime, access IDs (RFID cards and vehicles), vehicles, alerts, charger errors, raw OCPP messages, port reservations, site power limits, vehicle departure times, and maintenance windows — designed for integrating charging data with ticketing platforms, data warehouses, and transportation management systems. Flipturn is backed by Accel and CRV.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/screenshots/flipturn-2026-07-25T214806.png",
-     "score": 48.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 65.1,
-      "governance": 20.8,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 40.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 38.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Particle",
@@ -2380,7 +2418,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Aloft",
@@ -2418,7 +2456,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 61
     },
     {
      "name": "May Mobility",
@@ -2452,44 +2490,6 @@
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 61
-    },
-    {
-     "name": "LocoNav",
-     "slug": "loconav",
-     "description": "LocoNav is an AI- and IoT-powered GPS vehicle tracking and smart fleet management platform used across 50+ countries, integrating 2,200+ device and sensor types to track vehicles and assets in real time. Its LocoNav Integration API exposes REST endpoints and webhooks for fleet telematics: telematics data (sensor readings, GPS location, distance, timelines, video and live streams), CRUD management of drivers, vehicles, trips, geofence polygons and users, driver-vehicle assignment, vehicle scorecards, immobilization, live share links, and alert subscriptions. Real-time alert and live-location webhooks push events such as overspeed, harsh braking/acceleration, geofence, fatigue, crash, fuel-theft, anti-theft and device-offline. Authentication is a user-level token in the User-Authentication header; all listing endpoints are paginated and time parameters use epoch seconds.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png",
-     "score": 48.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 70.0,
-      "governance": 20.8,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 49.5,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 36.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -2534,6 +2534,43 @@
      "rank": 63
     },
     {
+     "name": "CloudKitchens",
+     "slug": "cloudkitchens",
+     "description": "CloudKitchens, operated by City Storage Systems, builds and runs delivery-only \"ghost kitchen\" facilities and the restaurant technology stack that runs them, with sites across roughly 30 countries. For integration partners it publishes the CloudKitchens Public API — an OpenAPI 3.0.1 contract of 80 operations and 27 webhook events, secured with OAuth 2.0 across 29 scopes and two flows (client credentials and authorization code), backed by an OpenID Connect identity provider at iam.cloudkitchens.com. The API spans order injection and fulfillment, menu upsert and publishing, storefront pause/resume, delivery dispatch callbacks, finance and payout reporting, inventory, reviews, loyalty, and organization/brand/store pairing. Access is partner-gated rather than self-serve: applications, webhook endpoints, and stores are onboarded manually by a CloudKitchens Account Representative, who issues the Application ID and Client Secret for the production and staging environments and provisions the partner-specific API base URL.",
+     "score": 48.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 62.0,
+      "governance": 11.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 40.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 64
+    },
+    {
      "name": "Lalamove",
      "slug": "lalamove",
      "description": "Lalamove is a Hong Kong-founded on-demand logistics and same-day delivery platform operating across Asia and Latin America, matching businesses and consumers with a fleet of motorcycle, car, van and truck drivers. Its Delivery API (v3) lets partners programmatically request quotations, place and edit delivery orders, track assigned drivers in real time, add priority fees, and receive order lifecycle webhooks. The REST API is authenticated with HMAC SHA256 request signing, is segmented by market via a UN/LOCODE `Market` header, and is available in eleven markets including Hong Kong SAR, Singapore, Malaysia, Thailand, Philippines, Indonesia, Vietnam, Taiwan, Japan, Mexico and Brazil. Lalamove publishes a sandbox environment, a Node.js SDK, multi-language code examples, and a public status page.",
@@ -2569,7 +2606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "LEEO Insurance Services",
@@ -2614,7 +2651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "MileIQ",
@@ -2651,7 +2688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Chargetrip",
@@ -2689,7 +2726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Tesla Motors",
@@ -2726,7 +2763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Toyota",
@@ -2763,7 +2800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Deliverart",
@@ -2801,7 +2838,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Root Insurance",
@@ -2846,7 +2883,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "ClickPost",
@@ -2884,7 +2921,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Esper",
@@ -2922,7 +2959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Mercedes-Benz Mercedes me",
@@ -2955,43 +2992,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 74
-    },
-    {
-     "name": "Also",
-     "slug": "also",
-     "description": "ALSO (Also, Inc.) is a Palo Alto, California electric micromobility company spun out of Rivian in March 2025, building small electric vehicles for moving people and goods, both driven and autonomous. Its flagship product is the TM-B, a modular Class 3 electric bike with a swappable top frame and the in-house DreamRide software-defined drive system, alongside a delivery quad for logistics fleets and the Alpha Wave helmet. ALSO reached a $1B valuation in 2026 on a $200M round led by Greenoaks and announced an autonomous-delivery partnership with DoorDash. Its public digital surface is a Shopify-hosted commerce platform at ridealso.com that exposes an open Storefront GraphQL API (35 queries / 41 mutations), the Shopify JSON storefront endpoints, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven shopping and checkout, all advertised in the company's own published agents.md / llms.txt.",
-     "score": 45.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 52.9,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 52.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -3435,6 +3435,43 @@
      "rank": 86
     },
     {
+     "name": "Also",
+     "slug": "also",
+     "description": "ALSO (Also, Inc.) is a Palo Alto, California electric micromobility company spun out of Rivian in March 2025, building small electric vehicles for moving people and goods, both driven and autonomous. Its flagship product is the TM-B, a modular Class 3 electric bike with a swappable top frame and the in-house DreamRide software-defined drive system, alongside a delivery quad for logistics fleets and the Alpha Wave helmet. ALSO reached a $1B valuation in 2026 on a $200M round led by Greenoaks and announced an autonomous-delivery partnership with DoorDash. Its public digital surface is a Shopify-hosted commerce platform at ridealso.com that exposes an open Storefront GraphQL API (35 queries / 41 mutations), the Shopify JSON storefront endpoints, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven shopping and checkout, all advertised in the company's own published agents.md / llms.txt.",
+     "score": 44.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 56.3,
+      "governance": 11.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 42.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 87
+    },
+    {
      "name": "Kurly",
      "slug": "kurly",
      "description": "Kurly (컬리, operated by The Farmers Front) is a South Korean online grocery and lifestyle commerce company, known for Market Kurly and its overnight \"dawn delivery\" (샛별배송) model built on a cold-chain fulfillment network. Kurly Logistics Services (KLS) opens that network to contracted shipper clients (화주사) as a B2B Open API spanning three service families: fulfillment (물류대행), where Kurly holds and ships the shipper's stock, covering goods master, inbound receiving, inventory and ledgers, outbound orders and fulfillment plans; delivery agency (배송대행), where the shipper ships from their own warehouse over Kurly's Nextmile last-mile network; and shared delivery tracking. Access is contract-gated — clientId and secretKey are issued only after IP allowlist registration — and Kurly states as policy that KLS does not push data to external systems, so integrations poll rather than subscribe to webhooks.",
@@ -3470,7 +3507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "Cachet",
@@ -3511,43 +3548,6 @@
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 88
-    },
-    {
-     "name": "CloudKitchens",
-     "slug": "cloudkitchens",
-     "description": "CloudKitchens, operated by City Storage Systems, builds and runs delivery-only \"ghost kitchen\" facilities and the restaurant technology stack that runs them, with sites across roughly 30 countries. For integration partners it publishes the CloudKitchens Public API — an OpenAPI 3.0.1 contract of 80 operations and 27 webhook events, secured with OAuth 2.0 across 29 scopes and two flows (client credentials and authorization code), backed by an OpenID Connect identity provider at iam.cloudkitchens.com. The API spans order injection and fulfillment, menu upsert and publishing, storefront pause/resume, delivery dispatch callbacks, finance and payout reporting, inventory, reviews, loyalty, and organization/brand/store pairing. Access is partner-gated rather than self-serve: applications, webhook endpoints, and stores are onboarded manually by a CloudKitchens Account Representative, who issues the Application ID and Client Secret for the production and staging environments and provisions the partner-specific API base URL.",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 62.0,
-      "governance": 11.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 60.3,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 40.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -3593,6 +3593,43 @@
      "rank": 90
     },
     {
+     "name": "Shiftmove",
+     "slug": "shiftmove",
+     "description": "Shiftmove GmbH is a Berlin-based European fleet management software company backed by Battery Ventures, operating the Vimcar, Fleet, Avrios, Optimum and Océan brands and managing 730,000+ vehicles for 25,000+ fleet customers. Its developer surface is the Avrios Fleet-API, a Swagger 2.0 REST API (base URL https://api.avrios.com) that syncs fleet data — vehicles, drivers, driver/vehicle assignments, license plates, vehicle financing, usages, invoices, organizations and custom fields — with the Avrios/Shiftmove platform. The API uses HTTP Basic authentication, is rate limited to 300 requests per minute, exposes 40 operations across ten resource groups, follows semantic versioning, and returns page-number paginated responses.",
+     "score": 43.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 32.3,
+      "governance": 11.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 42.9,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 38.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 91
+    },
+    {
      "name": "AppyWay",
      "slug": "appyway",
      "description": "AppyWay leverages innovative technology to transform outdated parking systems and urban mobility infrastructure. By providing real-time data and insights, they enable cities and businesses to optimize traffic flow, reduce congestion, and improve access to parking. Through their smart parking solutions, AppyWay simplifies the parking experience for drivers while also helping to create more sustainable and efficient urban environments.",
@@ -3635,7 +3672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Con Edison",
@@ -3679,7 +3716,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "ParkWhiz",
@@ -3716,7 +3753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Tesla",
@@ -3760,7 +3797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "ItsaCheckmate",
@@ -3798,7 +3835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "Revvo",
@@ -3835,7 +3872,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "Otter",
@@ -3873,7 +3910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Automile",
@@ -3911,7 +3948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 99
     }
    ]
   },
@@ -3920,8 +3957,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 69,
-   "shown": 69,
+   "count": 67,
+   "shown": 67,
    "providers": [
     {
      "name": "Autopass",
@@ -3966,7 +4003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Simpliroute",
@@ -4003,7 +4040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "BlaBlaCar Bus API",
@@ -4041,7 +4078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Moxion Power Co",
@@ -4078,7 +4115,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "CAT",
@@ -4116,7 +4153,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Department of Energy",
@@ -4161,7 +4198,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Telenav",
@@ -4205,7 +4242,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Vehicle Databases",
@@ -4243,7 +4280,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Deliverect",
@@ -4281,7 +4318,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "TIER",
@@ -4326,7 +4363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "handy",
@@ -4361,43 +4398,6 @@
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 109
-    },
-    {
-     "name": "Shiftmove",
-     "slug": "shiftmove",
-     "description": "Shiftmove GmbH is a Berlin-based European fleet management software company backed by Battery Ventures, operating the Vimcar, Fleet, Avrios, Optimum and Océan brands and managing 730,000+ vehicles for 25,000+ fleet customers. Its developer surface is the Avrios Fleet-API, a Swagger 2.0 REST API (base URL https://api.avrios.com) that syncs fleet data — vehicles, drivers, driver/vehicle assignments, license plates, vehicle financing, usages, invoices, organizations and custom fields — with the Avrios/Shiftmove platform. The API uses HTTP Basic authentication, is rate limited to 300 requests per minute, exposes 40 operations across ten resource groups, follows semantic versioning, and returns page-number paginated responses.",
-     "score": 40.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 32.3,
-      "governance": 11.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 42.9,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 38.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -5086,50 +5086,6 @@
      "rank": 128
     },
     {
-     "name": "1KOMMA5°",
-     "slug": "1komma5",
-     "description": "1KOMMA5° (1Komma5 Grad) is a Hamburg, Germany headquartered smart-energy company that sells, installs and operates integrated residential energy systems — rooftop photovoltaics, battery storage, heat pumps and EV charging — and ties them together with Heartbeat AI, its energy-management platform. Heartbeat aggregates customer hardware into one of Europe's largest residential virtual power plants, optimising self-consumption and trading household flexibility against day-ahead and intraday electricity markets. The company operates across Germany, Australia, the Netherlands, Sweden, Finland, Denmark and Belgium. Its machine-readable surface is small and mostly internal: a live OpenAPI 3.0 for the Offer Tool API used by its sales and partner network, an Auth0-backed OIDC provider at auth.1komma5grad.com, and the undocumented Heartbeat customer API that its mobile apps and community-built Home Assistant integrations consume.",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 43.4,
-      "governance": 20.8,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 64.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 129
-    },
-    {
      "name": "BigChange",
      "slug": "bigchange",
      "description": "BigChange is an all-in-one field service and job management platform (CRM, job scheduling, live tracking, a mobile workforce app, job finance, and business intelligence) known as JobWatch. Its modern REST API - the BigChange DX API at https://api.bigchange.com - lets developers manage jobs, contacts and persons, quotes, invoices and purchase orders, stock, resources, users and vehicles, worksheets, and assets, plus subscribe to webhooks. Requests are authenticated with a Bearer JWT access token (obtained through BigChange's authentication proxy from a developer-portal API key) and scoped with a required Customer-Id header.",
@@ -5165,7 +5121,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "MoveInSync",
@@ -5202,7 +5158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Chowly",
@@ -5240,7 +5196,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "Markforged",
@@ -5278,7 +5234,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "Bolt",
@@ -5313,6 +5269,50 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 133
+    },
+    {
+     "name": "1KOMMA5°",
+     "slug": "1komma5",
+     "description": "1KOMMA5° (1Komma5 Grad) is a Hamburg, Germany headquartered smart-energy company that sells, installs and operates integrated residential energy systems — rooftop photovoltaics, battery storage, heat pumps and EV charging — and ties them together with Heartbeat AI, its energy-management platform. Heartbeat aggregates customer hardware into one of Europe's largest residential virtual power plants, optimising self-consumption and trading household flexibility against day-ahead and intraday electricity markets. The company operates across Germany, Australia, the Netherlands, Sweden, Finland, Denmark and Belgium. Its machine-readable surface is small and mostly internal: a live OpenAPI 3.0 for the Offer Tool API used by its sales and partner network, an Auth0-backed OIDC provider at auth.1komma5grad.com, and the undocumented Heartbeat customer API that its mobile apps and community-built Home Assistant integrations consume.",
+     "score": 35.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 43.4,
+      "governance": 11.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -5401,43 +5401,6 @@
      "rank": 136
     },
     {
-     "name": "Ascend Elements",
-     "slug": "ascend-elements",
-     "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
-     "score": 34.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 61.3,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 63.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 137
-    },
-    {
      "name": "WorkWave",
      "slug": "workwave",
      "description": "WorkWave builds field-service and last-mile delivery software for service professionals in pest control, lawn care, cleaning, security, and delivery. Its RouteManager product exposes the WorkWave Route Manager (WWRM) REST API for managing territories, depots, drivers, vehicles, orders, route optimization, time of arrival, and GPS tracking, with API-key authentication and webhook callbacks.",
@@ -5472,7 +5435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "Monta",
@@ -5516,7 +5479,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "ShellRecharge",
@@ -5560,7 +5523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "Goodyear Tire & Rubber",
@@ -5598,7 +5561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "GenLogs",
@@ -5643,7 +5606,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "Moovit",
@@ -5681,7 +5644,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "ChargePoint",
@@ -5726,7 +5689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "HERE Technologies",
@@ -5764,7 +5727,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "Locus",
@@ -5802,7 +5765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "Zego",
@@ -5846,7 +5809,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 146
     },
     {
      "name": "Transit",
@@ -5884,7 +5847,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
      "name": "Comma.ai",
@@ -5922,7 +5885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 148
     },
     {
      "name": "FLO",
@@ -5966,7 +5929,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "TaskRabbit",
@@ -6003,7 +5966,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "Fleetworthy",
@@ -6041,7 +6004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "Enapi",
@@ -6086,7 +6049,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 152
     },
     {
      "name": "BMW ConnectedDrive",
@@ -6124,7 +6087,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "Lugg",
@@ -6162,7 +6125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "Gaussian Robotics",
@@ -6200,7 +6163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "General Motors",
@@ -6238,7 +6201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "Proemion",
@@ -6275,7 +6238,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "Rush Enterprises",
@@ -6313,7 +6276,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 158
     },
     {
      "name": "E.ON Next",
@@ -6357,7 +6320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 159
     },
     {
      "name": "GLS Group",
@@ -6394,7 +6357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 160
     },
     {
      "name": "Blynk",
@@ -6439,7 +6402,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 161
     },
     {
      "name": "Good Energy",
@@ -6483,7 +6446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 162
     },
     {
      "name": "Volvo Cars",
@@ -6521,7 +6484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "Essential Energy",
@@ -6565,7 +6528,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 164
     },
     {
      "name": "Breathe Battery Technologies",
@@ -6603,7 +6566,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 165
     },
     {
      "name": "Southern California Edison",
@@ -6647,7 +6610,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 166
     }
    ]
   },
@@ -6656,8 +6619,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 157,
-   "shown": 157,
+   "count": 158,
+   "shown": 158,
    "providers": [
     {
      "name": "Mobillis",
@@ -6701,7 +6664,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 167
     },
     {
      "name": "Voi",
@@ -6738,7 +6701,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 168
     },
     {
      "name": "Trane Technologies",
@@ -6776,7 +6739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 169
     },
     {
      "name": "Carrier Global",
@@ -6814,7 +6777,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 170
     },
     {
      "name": "Everlance",
@@ -6852,7 +6815,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 171
     },
     {
      "name": "EVgo",
@@ -6896,7 +6859,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "Rohlik",
@@ -6933,7 +6896,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "Lime",
@@ -6971,7 +6934,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 174
     },
     {
      "name": "Mudflap",
@@ -7015,7 +6978,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "Auterion",
@@ -7053,7 +7016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "Replica",
@@ -7097,7 +7060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "EquipmentShare",
@@ -7135,44 +7098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
-    },
-    {
-     "name": "Aptera Motors",
-     "slug": "aptera-motors",
-     "description": "Aptera Motors Corp. (Nasdaq: SEV) is a Carlsbad, California solar electric vehicle manufacturer founded by Steve Fambro and Chris Anthony. The company builds a three-wheeled, two-seat enclosed autocycle covered in roughly 700 watts of integrated solar cells, designed to add up to 40 miles of range per day from sunlight alone and to travel up to 10,000 miles a year on free solar power, with a 400-mile battery range on the Launch Edition, over 320 MPGe efficiency, a ~2,200 lb curb weight and 0-60 mph in under six seconds. Aptera sells reservations direct to consumers through its own configurator, runs a branded Shopify merchandise storefront, and has committed to open-source driver assistance by integrating comma.ai openpilot into the vehicle. Aptera publishes no public developer program, API documentation, or machine-readable API contract as of this enrichment pass.",
-     "score": 25.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 180
+     "rank": 178
     },
     {
      "name": "Blink Charging",
@@ -7217,7 +7143,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 179
     },
     {
      "name": "ABM Industries",
@@ -7255,7 +7181,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 180
     },
     {
      "name": "Marshmallow",
@@ -7300,7 +7226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 181
     },
     {
      "name": "Caterpillar",
@@ -7338,7 +7264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 182
     },
     {
      "name": "Cambridge Mobile Telematics",
@@ -7383,7 +7309,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 183
     },
     {
      "name": "Terex",
@@ -7421,7 +7347,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 184
     },
     {
      "name": "Toit",
@@ -7458,7 +7384,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 185
     },
     {
      "name": "WABCO Holdings",
@@ -7496,7 +7422,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 186
     },
     {
      "name": "Chaldal",
@@ -7534,7 +7460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 187
     },
     {
      "name": "Postmates",
@@ -7572,7 +7498,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 188
+    },
+    {
+     "name": "Aptera Motors",
+     "slug": "aptera-motors",
+     "description": "Aptera Motors Corp. (Nasdaq: SEV) is a Carlsbad, California solar electric vehicle manufacturer founded by Steve Fambro and Chris Anthony. The company builds a three-wheeled, two-seat enclosed autocycle covered in roughly 700 watts of integrated solar cells, designed to add up to 40 miles of range per day from sunlight alone and to travel up to 10,000 miles a year on free solar power, with a 400-mile battery range on the Launch Edition, over 320 MPGe efficiency, a ~2,200 lb curb weight and 0-60 mph in under six seconds. Aptera sells reservations direct to consumers through its own configurator, runs a branded Shopify merchandise storefront, and has committed to open-source driver assistance by integrating comma.ai openpilot into the vehicle. Aptera publishes no public developer program, API documentation, or machine-readable API contract as of this enrichment pass.",
+     "score": 24.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 189
     },
     {
      "name": "CAA Insurance",
@@ -7617,7 +7580,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 190
     },
     {
      "name": "EV Connect",
@@ -7662,7 +7625,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 191
     },
     {
      "name": "Pod Point",
@@ -7706,7 +7669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 192
     },
     {
      "name": "Flexe",
@@ -7744,7 +7707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 193
     },
     {
      "name": "Waze",
@@ -7781,7 +7744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 194
     },
     {
      "name": "By Miles",
@@ -7826,7 +7789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 195
     },
     {
      "name": "Coast",
@@ -7871,7 +7834,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 196
     },
     {
      "name": "Parcel Monitor",
@@ -7909,7 +7872,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 197
     },
     {
      "name": "Boston Dynamics",
@@ -7947,7 +7910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 198
     },
     {
      "name": "FleetPanda",
@@ -7992,7 +7955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 199
     },
     {
      "name": "Ather Energy",
@@ -8036,7 +7999,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 200
     },
     {
      "name": "BC Hydro",
@@ -8080,7 +8043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 201
     },
     {
      "name": "Blink Charging",
@@ -8124,7 +8087,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 202
     },
     {
      "name": "Benchmark Minerals",
@@ -8162,7 +8125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 203
     },
     {
      "name": "Cropio",
@@ -8200,7 +8163,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 204
     },
     {
      "name": "Doorstep",
@@ -8238,7 +8201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 205
     },
     {
      "name": "Netradyne",
@@ -8275,7 +8238,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 206
     },
     {
      "name": "Nova Scotia Power",
@@ -8319,7 +8282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 207
     },
     {
      "name": "OVO Energy",
@@ -8363,7 +8326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 208
     },
     {
      "name": "EnergyHub",
@@ -8407,7 +8370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 209
     },
     {
      "name": "Fleet Complete",
@@ -8445,7 +8408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 210
     },
     {
      "name": "Enterprise Mobility",
@@ -8482,7 +8445,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 211
     },
     {
      "name": "HDVI (High Definition Vehicle Insurance)",
@@ -8527,7 +8490,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 212
     },
     {
      "name": "Ubitricity",
@@ -8571,7 +8534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 213
     },
     {
      "name": "FortisBC",
@@ -8615,7 +8578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 214
     },
     {
      "name": "Hive Power",
@@ -8660,7 +8623,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 215
     },
     {
      "name": "Zapmap",
@@ -8704,7 +8667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "Hyundai",
@@ -8742,7 +8705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "Double Robotics",
@@ -8780,7 +8743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "Kovi",
@@ -8818,7 +8781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "Distribusion",
@@ -8856,7 +8819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "Rhythmos",
@@ -8900,7 +8863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "ParkPow",
@@ -8938,7 +8901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "Kopperfield",
@@ -8976,7 +8939,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "Paua",
@@ -9020,7 +8983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "Verizon Connect",
@@ -9057,7 +9020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "Hitachi Construction Machinery",
@@ -9090,6 +9053,43 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 226
+    },
+    {
+     "name": "Ascend Elements",
+     "slug": "ascend-elements",
+     "description": "Ascend Elements is a Westborough, Massachusetts battery materials company that manufactures engineered lithium-ion battery materials from valuable elements reclaimed from spent lithium-ion batteries and gigafactory manufacturing scrap. Founded in 2015 as Battery Resourcers out of MIT-affiliated research by Eric Gratz and Professor Yan Wang, it recovers up to 98% of the critical battery metals in end-of-life cells and uses its patented Hydro-to-Cathode direct cathode precursor (pCAM) synthesis process to produce cathode precursor and battery-grade lithium carbonate, reducing the carbon footprint of new EV battery cathode material by up to 90%. Its Base 1 facility in Covington, Georgia is North America's largest electric-vehicle battery recycling plant, and Apex 1 in Hopkinsville, Kentucky is its commercial pCAM plant. Ascend Elements publishes no public developer API for its materials, recycling or logistics business; the only machine-readable surface observed on its own hosts is the WordPress REST API at ascendelements.com/wp-json, which serves the corporate website's content, media-coverage, jobs and supplier sourcing-event collections.",
+     "score": 19.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 16.3,
+      "governance": 11.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.8,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

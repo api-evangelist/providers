@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: verified
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.2
-  scored_at: '2026-07-28'
+  score: 60.1
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: File upload endpoints
@@ -209,23 +209,23 @@ plans:
 - name: Spaitial Ai Plans
   plan_count: 4
   slug: spaitial-ai-plans
-random_paper: 36
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Spaitial Ai Rate Limits
   slug: spaitial-ai-rate-limits
 score:
   band: strong
-  composite: 58.5
-  delta: -0.2
+  composite: 59.3
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 60.1
+    contract_quality: 63.5
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 58.7
+  previous_composite: 59.3
   provenance:
     conformance: derived
     contracts:
@@ -235,8 +235,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

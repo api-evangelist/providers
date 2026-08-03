@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -240,7 +240,7 @@ plans:
 - name: Archimate Plans Pricing
   plan_count: 3
   slug: archimate-plans-pricing
-random_paper: 40
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Archimate Rate Limits
@@ -264,16 +264,16 @@ rules:
   slug: archimate-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: -7.4
+  composite: 42.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 59.9
+    contract_quality: 25.1
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 58.9
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -281,9 +281,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/screenshots/archimate-2026-06-20T172408.png
 security:
 - kind: authentication

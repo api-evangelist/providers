@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The @envelop/core package exposes the envelop() function and a set of built-in plugins (useSchema, useEngine, useLogger, useMaskedErrors, useExtendContext) that wrap the GraphQL execution pipeline — p
@@ -87,11 +87,11 @@ overview: 'Envelop publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Envelop''s developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: emerging
   composite: 23.2
-  delta: 10.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 48.1
@@ -99,10 +99,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 23.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envelop/refs/heads/main/screenshots/envelop-2026-06-20T180735.png
 security:
 - kind: domain-security

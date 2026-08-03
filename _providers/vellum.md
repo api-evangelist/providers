@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -173,23 +173,23 @@ plans:
 - name: Vellum Plans Pricing
   plan_count: 1
   slug: vellum-plans-pricing
-random_paper: 5
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Vellum Rate Limits
   slug: vellum-rate-limits
 score:
   band: developing
-  composite: 42.9
-  delta: -2.0
+  composite: 44.0
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 51.9
+    contract_quality: 56.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 44.9
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/screenshots/vellum-2026-06-20T200908.png
 security:

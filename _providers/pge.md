@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-07-28'
+  score: 36.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ overview: 'Pacific Gas and Electric publishes 1 API on the [APIs.io](https://api
 
 
   Pacific Gas and Electric''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, signup flow, and 30 more developer resources.'
-random_paper: 70
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Pge Rate Limits
@@ -218,16 +218,16 @@ scopes:
   summary_line: 21 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.1
-  delta: -4.7
+  composite: 48.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 27.4
+    contract_quality: 21.5
     developer_ergonomics: 66.8
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 71.1
-  previous_composite: 54.8
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -243,8 +243,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

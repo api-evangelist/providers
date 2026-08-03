@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Control-plane REST API for Onehouse — a SQL Command API to create and manage lakehouse resources (lakes, databases, tables, flows, clusters, jobs, transformations) plus a Status API to poll the return
@@ -140,11 +140,11 @@ overview: 'Onehouse publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Onehouse''s developer surface includes documentation, API reference, engineering blog, signup flow, changelog, CLI, authentication, and 16 more developer resources.'
-random_paper: 50
+random_paper: 15
 score:
   band: thin
   composite: 33.4
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -152,11 +152,11 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 32.5
+  previous_composite: 33.4
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

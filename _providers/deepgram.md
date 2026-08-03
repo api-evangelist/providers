@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -448,7 +448,7 @@ plans:
 - name: Deepgram Plans Pricing
   plan_count: 6
   slug: deepgram-plans-pricing
-random_paper: 17
+random_paper: 77
 rate_limits:
 - limit_count: 4
   name: Deepgram Rate Limits
@@ -496,16 +496,16 @@ rules:
   slug: deepgram-text-to-speech-api-rules
 score:
   band: strong
-  composite: 60.0
-  delta: -3.4
+  composite: 60.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 79.5
+    contract_quality: 80.8
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 52.1
     operational_transparency: 47.4
-  previous_composite: 63.4
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     contracts:
@@ -513,8 +513,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/screenshots/deepgram-2026-06-20T175821.png
 security:

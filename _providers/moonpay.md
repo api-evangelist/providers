@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.9
-  scored_at: '2026-07-28'
+  score: 51.8
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Server and client API for on-ramp, off-ramp, swaps, quotes, sessions, customers (KYC), payment methods, transactions, and virtual accounts.
@@ -198,11 +198,11 @@ overview: 'MoonPay publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   MoonPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 27 more developer resources.'
-random_paper: 33
+random_paper: 11
 score:
   band: strong
   composite: 57.6
-  delta: 5.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -210,7 +210,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 52.1
+  previous_composite: 57.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -221,9 +221,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Moonpay Authentication

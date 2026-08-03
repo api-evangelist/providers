@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -303,7 +303,7 @@ plans:
 - name: Eaton Plans Pricing
   plan_count: 9
   slug: eaton-plans-pricing
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Eaton Rate Limits
@@ -332,16 +332,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 54.3
-  delta: -2.3
+  composite: 54.4
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 56.8
+    contract_quality: 57.4
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 56.6
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -355,8 +355,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/screenshots/eaton-2026-06-20T180408.png
 security:

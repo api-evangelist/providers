@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: CVS Health does not publish a unified public REST API or developer portal. Pharmacy, PBM, and Aetna integrations are conducted via contracted partner channels using industry-standard rails such as NCP
@@ -141,7 +141,7 @@ press:
 - date: '2026-05-25'
   title: Aetna Launches New AI and Digital Tools to Improve ...
   url: https://www.cvshealth.com/news/innovation/aetna-launches-new-ai-and-digital-tools-to-improve-access-and-care.html
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Cvs Health Rate Limits
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.1
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -157,15 +157,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 22.8
+  previous_composite: 19.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvs-health/refs/heads/main/screenshots/cvs-health-2026-06-20T175405.png
 security:

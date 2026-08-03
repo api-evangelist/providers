@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -240,7 +240,7 @@ plans:
 - name: Lunar Dev Plans Pricing
   plan_count: 3
   slug: lunar-dev-plans-pricing
-random_paper: 8
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Lunar Dev Rate Limits
@@ -256,16 +256,16 @@ rules:
   slug: lunar-dev-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.1
-  delta: -4.8
+  composite: 57.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 59.8
+    contract_quality: 63.3
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 60.9
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
@@ -273,8 +273,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunar-dev/refs/heads/main/screenshots/lunar-dev-2026-06-20T184803.png
 security:

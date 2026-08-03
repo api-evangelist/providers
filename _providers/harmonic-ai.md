@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: 'REST API for company search, enrichment, saved searches, list management, and bulk operations, plus a full GraphQL endpoint for flexible queries across companies, people, investors, lists, and custom '
@@ -155,7 +155,7 @@ overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Harmonic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 30
+random_paper: 51
 scopes:
 - name: Harmonic Ai Scopes
   scope_count: 2
@@ -163,16 +163,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.8
-  delta: -0.2
+  composite: 49.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 32.3
+    contract_quality: 45.8
     developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 46.0
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     contracts:
@@ -182,8 +182,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/screenshots/harmonic-ai-2026-07-25T220821.png
 security:

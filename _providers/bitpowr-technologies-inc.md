@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
-    idempotency: false
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-07-28'
+  score: 47.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -189,19 +189,19 @@ overview: 'BitPowr Technologies, Inc. publishes 10 APIs on the [APIs.io](https:/
 
 
   BitPowr Technologies, Inc.''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 17 more developer resources.'
-random_paper: 3
+random_paper: 88
 score:
   band: developing
-  composite: 48.2
-  delta: -3.4
+  composite: 49.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.4
+    contract_quality: 69.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 51.6
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,8 +218,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/screenshots/bitpowr-technologies-inc-2026-07-25T203206.png
 security:

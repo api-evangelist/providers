@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,11 +91,11 @@ overview: 'ProFrac Holding is profiled on the [APIs.io](https://apis.io/) networ
 
 
   ProFrac Holding''s developer surface includes product news, engineering blog, and 10 more developer resources.'
-random_paper: 59
+random_paper: 15
 score:
   band: minimal
   composite: 8.2
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -103,9 +103,9 @@ score:
     discoverability: 35.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 8.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/profrac-holding/refs/heads/main/screenshots/profrac-holding-2026-06-20T192143.png
 security:

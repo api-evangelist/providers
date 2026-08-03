@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ plans:
 - name: Bloomreach Plans Pricing
   plan_count: 5
   slug: bloomreach-plans-pricing
-random_paper: 68
+random_paper: 7
 rate_limits:
 - limit_count: 8
   name: Bloomreach Rate Limits
@@ -248,16 +248,16 @@ rules:
   slug: bloomreach-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.1
-  delta: -3.8
+  composite: 51.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.4
+    contract_quality: 73.1
     developer_ergonomics: 21.7
     discoverability: 40.7
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 54.9
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +265,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-06-20T173521.png
 security:

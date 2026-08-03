@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -181,19 +181,19 @@ overview: 'Atrato publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   Atrato''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 21 more developer resources.'
-random_paper: 77
+random_paper: 81
 score:
   band: developing
-  composite: 43.8
-  delta: -4.2
+  composite: 45.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.3
+    contract_quality: 67.2
     developer_ergonomics: 62.5
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 48.0
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,8 +210,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/screenshots/atrato-2026-07-25T201622.png
 security:

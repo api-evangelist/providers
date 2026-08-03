@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 43.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -236,19 +236,19 @@ overview: 'Ascend publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Ascend''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 19 more developer resources.'
-random_paper: 48
+random_paper: 52
 score:
   band: developing
-  composite: 51.1
-  delta: -4.7
+  composite: 51.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 59.5
+    contract_quality: 63.0
     developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 34.2
-  previous_composite: 55.8
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -265,8 +265,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/screenshots/ascend-2026-07-25T201401.png
 security:

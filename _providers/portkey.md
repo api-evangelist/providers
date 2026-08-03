@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 1
@@ -338,23 +338,23 @@ plans:
 - name: Portkey Plans Pricing
   plan_count: 4
   slug: portkey-plans-pricing
-random_paper: 44
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Portkey Rate Limits
   slug: portkey-rate-limits
 score:
   band: developing
-  composite: 53.6
-  delta: -1.4
+  composite: 54.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 53.0
+    contract_quality: 57.3
     developer_ergonomics: 45.7
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 78.9
-  previous_composite: 55.0
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     contracts:
@@ -362,8 +362,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 51
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/screenshots/portkey-2026-06-20T191938.png
 security:

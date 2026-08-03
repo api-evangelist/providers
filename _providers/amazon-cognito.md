@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 5
@@ -5095,7 +5095,7 @@ plans:
 - name: Amazon Cognito Plans Pricing
   plan_count: 1
   slug: amazon-cognito-plans-pricing
-random_paper: 52
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Amazon Cognito Rate Limits
@@ -5119,16 +5119,16 @@ rules:
   slug: amazon-cognito-spectral-rules
 score:
   band: strong
-  composite: 62.6
-  delta: -2.5
+  composite: 63.1
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.6
+    contract_quality: 75.7
     developer_ergonomics: 45.7
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 65.1
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     contracts:
@@ -5136,8 +5136,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 126
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/screenshots/amazon-cognito-2026-06-20T171607.png
 security:

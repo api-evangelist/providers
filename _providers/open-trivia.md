@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ overview: 'Open Trivia Database publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Open Trivia Database''s developer surface includes documentation, support, tooling, code examples, and 16 more developer resources.'
-random_paper: 68
+random_paper: 89
 rate_limits:
 - limit_count: 1
   name: Open Trivia Rate Limits
@@ -263,16 +263,16 @@ rules:
   slug: open-trivia-rules
 score:
   band: thin
-  composite: 38.8
-  delta: -6.3
+  composite: 32.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 60.2
+    contract_quality: 31.0
     developer_ergonomics: 28.3
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 45.1
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -286,9 +286,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/screenshots/open-trivia-2026-06-20T190855.png
 security:
 - kind: domain-security

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 2
@@ -229,19 +229,19 @@ overview: 'ASAPP publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ASAPP''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 23 more developer resources.'
-random_paper: 41
+random_paper: 58
 score:
-  band: developing
-  composite: 55.5
-  delta: -0.2
+  band: strong
+  composite: 56.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.7
+    contract_quality: 72.6
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 55.7
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,8 +252,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/screenshots/asapp-2026-07-25T201402.png
 security:

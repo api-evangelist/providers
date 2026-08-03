@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -210,19 +210,19 @@ overview: 'Feldera publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Feldera''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 27 more developer resources.'
-random_paper: 67
+random_paper: 58
 score:
   band: strong
-  composite: 59.0
-  delta: -0.4
+  composite: 60.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 53.2
+    contract_quality: 59.4
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 59.4
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,8 +233,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/screenshots/feldera-2026-07-25T214327.png
 security:

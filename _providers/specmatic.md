@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Specmatic provides contract testing, intelligent service virtualization, and API mocking by transforming API specifications into executable contracts. It supports backward compatibility checking, API '
@@ -144,7 +144,7 @@ plans:
 - name: Specmatic Plans Pricing
   plan_count: 3
   slug: specmatic-plans-pricing
-random_paper: 51
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Specmatic Rate Limits
@@ -161,7 +161,7 @@ rules:
 score:
   band: thin
   composite: 39.5
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 22.6
@@ -169,10 +169,10 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 44.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 39.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specmatic/refs/heads/main/screenshots/specmatic-2026-06-20T194301.png
 security:
 - kind: domain-security

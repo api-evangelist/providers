@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,11 +80,11 @@ press:
 - date: '2026-05-25'
   title: Buyout firm Apollo to buy Smart & Final Stores for $1.1 billion
   url: https://www.reuters.com/article/world/buyout-firm-apollo-to-buy-smart-final-stores-for-11-billion-idUSKCN1RS2C7/
-random_paper: 55
+random_paper: 2
 score:
   band: minimal
   composite: 7.1
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -92,9 +92,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 7.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smart-and-final-stores/refs/heads/main/screenshots/smart-and-final-stores-2026-06-20T194041.png
 security:

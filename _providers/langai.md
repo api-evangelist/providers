@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Analyze and save documents against a project.
@@ -171,19 +171,19 @@ overview: 'Lang.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Lang.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 46
+random_paper: 50
 score:
   band: developing
-  composite: 52.0
-  delta: -1.0
+  composite: 52.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.6
+    contract_quality: 66.7
     developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 53.0
+  previous_composite: 52.8
   provenance:
     conformance: derived
     contracts:
@@ -193,8 +193,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/screenshots/langai-2026-07-25T224513.png
 security:

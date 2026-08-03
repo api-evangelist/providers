@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Read-oriented JSON REST API exposing a Getro network's companies, jobs and contacts, plus shared reference collections (job functions, industry tags, locations). Bearer API-key auth, URI-path versioni
@@ -132,7 +132,7 @@ overview: 'Getro publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Getro''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
-random_paper: 53
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Getro Rate Limits
@@ -140,7 +140,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.8
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -148,11 +148,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 31.6
+  previous_composite: 29.8
   provenance:
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getro/refs/heads/main/screenshots/getro-2026-07-25T215739.png
 security:

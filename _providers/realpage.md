@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 11
 apis:
 - description: RealPage's integration marketplace and partner API surface offering standardised APIs across RealPage products for ATS-like data exchange, property data, residents, leases, and financials. Access is p
@@ -122,7 +122,7 @@ plans:
 - name: Realpage Plans Pricing
   plan_count: 1
   slug: realpage-plans-pricing
-random_paper: 13
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Realpage Rate Limits
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.0
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 43.2
@@ -138,10 +138,10 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 19.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 28.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realpage/refs/heads/main/screenshots/realpage-2026-06-20T192646.png
 security:
 - kind: domain-security

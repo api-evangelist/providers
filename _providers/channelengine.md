@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.9
-  scored_at: '2026-07-28'
+  score: 44.8
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: 'Integrate the system of your choice (ERP, PIM, WMS, or webstore) with ChannelEngine. Synchronize product content and offers; retrieve, acknowledge and update orders, shipments, returns, cancellations '
@@ -221,11 +221,11 @@ overview: 'ChannelEngine publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   ChannelEngine''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 47
+random_paper: 29
 score:
   band: developing
   composite: 55.7
-  delta: 5.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -233,14 +233,14 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 63.2
-  previous_composite: 49.9
+  previous_composite: 55.7
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/screenshots/channelengine-2026-07-25T205043.png
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -223,23 +223,23 @@ plans:
 - name: Browserstack Plans Pricing
   plan_count: 3
   slug: browserstack-plans-pricing
-random_paper: 76
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Browserstack Rate Limits
   slug: browserstack-rate-limits
 score:
-  band: developing
-  composite: 55.6
-  delta: -1.5
+  band: strong
+  composite: 56.6
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 55.9
+    contract_quality: 59.7
     developer_ergonomics: 37.0
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 78.9
-  previous_composite: 57.1
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     contracts:
@@ -247,8 +247,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/screenshots/browserstack-2026-06-20T173725.png
 security:

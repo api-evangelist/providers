@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: 'REST API for the CCO.IO Automated Direct platform at direct.cco.io. Supports search, retrieval and management of displays, networks, markets, products, orders, bookings, campaigns, creatives, photos, '
@@ -220,7 +220,7 @@ plans:
 - name: Clear Channel Outdoor Plans Pricing
   plan_count: 1
   slug: clear-channel-outdoor-plans-pricing
-random_paper: 68
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Clear Channel Outdoor Rate Limits
@@ -245,7 +245,7 @@ rules:
 score:
   band: developing
   composite: 43.6
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 74.2
@@ -253,15 +253,15 @@ score:
     discoverability: 64.8
     governance: 31.3
     operational_transparency: 26.3
-  previous_composite: 47.6
+  previous_composite: 43.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-channel-outdoor/refs/heads/main/screenshots/clear-channel-outdoor-2026-06-20T174453.png
 security:

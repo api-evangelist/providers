@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -126,23 +126,23 @@ press:
 - date: '2026-05-25'
   title: Morgan Stanley Dives Deeper Into Retail With E*Trade Deal
   url: https://www.wealthmanagement.com/equities/morgan-stanley-dives-deeper-into-retail-with-e-trade-deal
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Etrade Rate Limits
   slug: etrade-rate-limits
 score:
   band: developing
-  composite: 42.4
-  delta: -2.2
+  composite: 43.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.7
+    contract_quality: 55.8
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 44.6
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +156,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/screenshots/etrade-2026-06-20T180840.png
 security:

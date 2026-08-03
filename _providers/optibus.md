@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-07-28'
+  score: 40.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -229,19 +229,19 @@ overview: 'Optibus publishes 26 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Optibus'' developer surface includes documentation, API reference, engineering blog, support, changelog, authentication, and 17 more developer resources.'
-random_paper: 36
+random_paper: 14
 score:
   band: developing
-  composite: 47.9
-  delta: -1.5
+  composite: 48.8
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
-    contract_quality: 65.3
+    contract_quality: 68.9
     developer_ergonomics: 42.9
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 49.4
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +252,8 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

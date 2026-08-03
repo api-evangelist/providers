@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 3
@@ -184,7 +184,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -200,16 +200,16 @@ rules:
   slug: hex-pm-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.3
-  delta: -4.0
+  composite: 50.2
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 59.0
+    contract_quality: 62.5
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 53.3
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hex-pm/refs/heads/main/screenshots/hex-pm-2026-06-20T182659.png
 security:

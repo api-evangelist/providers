@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ plans:
 - name: Clarivate Plans Pricing
   plan_count: 3
   slug: clarivate-plans-pricing
-random_paper: 53
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Clarivate Rate Limits
@@ -163,16 +163,16 @@ rules:
   slug: clarivate-rules
 score:
   band: developing
-  composite: 43.9
-  delta: -5.6
+  composite: 44.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 49.5
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -186,9 +186,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png
 security:
 - kind: authentication

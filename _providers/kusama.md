@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-07-28'
+  score: 48.4
+  scored_at: '2026-08-03'
 api_count: 21
 apis:
 - description: 'The public Substrate JSON-RPC 2.0 interface to the Kusama relay chain. Probed live on 2026-07-19: 130 methods are advertised by rpc_methods, spanning chain (blocks/headers), state (storage, metadata, '
@@ -243,19 +243,19 @@ overview: 'Kusama publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kusama''s developer surface includes documentation, API reference, getting-started guide, support, CLI, authentication, changelog, and 22 more developer resources.'
-random_paper: 68
+random_paper: 72
 score:
   band: developing
-  composite: 49.9
-  delta: -1.6
+  composite: 50.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 56.8
+    contract_quality: 60.4
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 51.5
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -265,8 +265,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kusama/refs/heads/main/screenshots/kusama-2026-07-25T224336.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -306,19 +306,19 @@ overview: 'Loops publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Loops'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 8
+random_paper: 68
 score:
   band: developing
-  composite: 45.7
-  delta: -2.5
+  composite: 46.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 55.2
+    contract_quality: 59.0
     developer_ergonomics: 56.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 48.2
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -326,8 +326,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/screenshots/loops-so-2026-06-20T184721.png
 security:

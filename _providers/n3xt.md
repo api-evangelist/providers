@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 11
 apis:
 - description: The Approvals API from N3XT — 2 operation(s) for approvals.
@@ -244,7 +244,7 @@ overview: 'N3XT publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   N3XT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 69
+random_paper: 17
 scopes:
 - name: N3Xt Scopes
   scope_count: 8
@@ -252,16 +252,16 @@ scopes:
   summary_line: 8 scopes
 score:
   band: strong
-  composite: 56.7
-  delta: -3.3
+  composite: 57.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 60.0
+  previous_composite: 57.5
   provenance:
     conformance: first-party
     contracts:
@@ -277,8 +277,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ overview: 'Morningstar publishes 14 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Morningstar''s developer surface includes authentication, developer portal, documentation, support, sandbox, API reference, getting-started guide, and 31 more developer resources.'
-random_paper: 56
+random_paper: 64
 scopes:
 - name: Morningstar Scopes
   scope_count: 4
@@ -270,16 +270,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.2
-  delta: -2.3
+  composite: 52.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 52.9
+    contract_quality: 58.8
     developer_ergonomics: 84.8
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 53.5
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +296,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/screenshots/morningstar-2026-07-22T202515.png
 security:

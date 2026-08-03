@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 6
@@ -301,7 +301,7 @@ overview: 'CoreStory publishes 47 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CoreStory''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 18
+random_paper: 52
 scopes:
 - name: Corestory Scopes
   scope_count: 7
@@ -309,16 +309,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.5
-  delta: -1.5
+  composite: 44.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 50.0
+    contract_quality: 55.3
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 8.3
     operational_transparency: 10.5
-  previous_composite: 45.0
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -328,8 +328,8 @@ score:
       total: 47
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/screenshots/corestory-2026-07-25T210432.png
 security:

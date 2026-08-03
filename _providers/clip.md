@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: Hosted checkout flow that redirects shoppers to a Clip-hosted payment page to capture card data and complete the charge. Returns the authorized payment back to the merchant via redirect plus a postbac
@@ -207,11 +207,11 @@ overview: 'Clip publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Clip''s developer surface includes developer portal, getting-started guide, documentation, FAQ, support, engineering blog, YouTube channel, and 29 more developer resources.'
-random_paper: 14
+random_paper: 44
 score:
   band: emerging
   composite: 22.3
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -219,15 +219,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 25.9
+  previous_composite: 22.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clip/refs/heads/main/screenshots/clip-2026-06-20T174527.png
 security:

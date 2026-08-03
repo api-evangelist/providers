@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ plans:
 - name: Bitwarden Plans Pricing
   plan_count: 6
   slug: bitwarden-plans-pricing
-random_paper: 58
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Bitwarden Rate Limits
@@ -163,16 +163,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 39.6
-  delta: -2.6
+  composite: 40.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 52.8
+    contract_quality: 56.8
     developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.2
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -180,8 +180,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/screenshots/bitwarden-2026-06-20T173325.png
 security:

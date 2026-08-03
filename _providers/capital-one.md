@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 14
 apis:
 - description: The Capital One Account Lookup API is a DevExchange product that lets approved partners resolve and retrieve consumer account information such as balances, transaction history, and account status. Int
@@ -216,7 +216,7 @@ press:
 - date: '2026-05-25'
   title: Capital One reaps post-acquisition rewards
   url: https://www.bankingdive.com/news/capital-one-discover-integration-q3-earnings-auto-opportunity-profit-revenue-net-interest-income/803523/
-random_paper: 35
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Capital One Rate Limits
@@ -224,7 +224,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.2
-  delta: 7.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 43.2
@@ -232,7 +232,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 40.1
+  previous_composite: 47.2
   provenance:
     conformance: first-party
   regulatory:
@@ -241,9 +241,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 49.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png
 security:
 - kind: authentication

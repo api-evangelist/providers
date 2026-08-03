@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: SpecFlow is a BDD framework for .NET that bridges the communication gap between domain experts and developers by enabling natural language specifications (Gherkin) to be executed as automated tests. I
@@ -125,7 +125,7 @@ plans:
 - name: Specflow Plans Pricing
   plan_count: 3
   slug: specflow-plans-pricing
-random_paper: 47
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Specflow Rate Limits
@@ -142,7 +142,7 @@ rules:
 score:
   band: thin
   composite: 30.3
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 12.9
@@ -150,9 +150,9 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 34.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 30.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specflow/refs/heads/main/screenshots/specflow-2026-06-20T194251.png
 security:

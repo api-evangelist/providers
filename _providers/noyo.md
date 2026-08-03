@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-07-28'
+  score: 40.3
+  scored_at: '2026-08-03'
 api_count: 64
 apis:
 - description: The Carrier Mapped Field API from Noyo — 1 operation(s) for carrier mapped field.
@@ -336,19 +336,19 @@ overview: 'Noyo publishes 64 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Noyo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 43
+random_paper: 73
 score:
   band: developing
-  composite: 44.4
-  delta: -4.6
+  composite: 45.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.4
+    contract_quality: 57.6
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 49.0
+  previous_composite: 45.3
   provenance:
     conformance: derived
     contracts:
@@ -364,8 +364,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

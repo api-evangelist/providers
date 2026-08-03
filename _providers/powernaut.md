@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 39.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 5
@@ -186,19 +186,19 @@ overview: 'Powernaut publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Powernaut''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 15 more developer resources.'
-random_paper: 13
+random_paper: 47
 score:
   band: thin
-  composite: 40.9
-  delta: -5.4
+  composite: 41.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 69.6
+    contract_quality: 72.5
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 46.3
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,9 +215,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Powernaut Authentication

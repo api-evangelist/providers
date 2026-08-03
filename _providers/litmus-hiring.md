@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Candidate invitations
@@ -138,7 +138,7 @@ overview: 'Litmus Hiring publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Litmus Hiring''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 15 more developer resources.'
-random_paper: 44
+random_paper: 26
 scopes:
 - name: Litmus Hiring Scopes
   scope_count: 7
@@ -146,16 +146,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.4
-  delta: 0.1
+  composite: 43.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 42.3
+  previous_composite: 43.2
   provenance:
     conformance: derived
     contracts:
@@ -165,8 +165,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/screenshots/litmus-hiring-2026-07-25T225341.png
 security:

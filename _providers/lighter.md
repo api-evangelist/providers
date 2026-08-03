@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-07-28'
+  score: 48.4
+  scored_at: '2026-08-03'
 api_count: 13
 apis:
 - description: The account API from Lighter — 26 operation(s) for account.
@@ -225,23 +225,23 @@ plans:
 - name: Lighter Plans
   plan_count: 4
   slug: lighter-plans
-random_paper: 13
+random_paper: 86
 rate_limits:
-- limit_count: 0
+- limit_count: 4
   name: Lighter Rate Limits
   slug: lighter-rate-limits
 score:
   band: strong
-  composite: 56.9
-  delta: -2.4
+  composite: 61.1
+  delta: 3.4
   facets:
     commercial_clarity: 65.8
-    contract_quality: 64.1
+    contract_quality: 67.4
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 31.6
-  previous_composite: 59.3
+    operational_transparency: 63.2
+  previous_composite: 57.7
   provenance:
     conformance: derived
     contracts:
@@ -257,8 +257,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighter/refs/heads/main/screenshots/lighter-2026-07-25T225116.png
 security:

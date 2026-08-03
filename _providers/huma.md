@@ -1,15 +1,15 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-07-28'
+  score: 35.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 527
   human_in_the_loop: 6
@@ -141,19 +141,19 @@ overview: 'Huma publishes 1 API on the [APIs.io](https://apis.io/) network: Inte
 
 
   Huma''s developer surface includes authentication, documentation, getting-started guide, signup flow, API reference, and 17 more developer resources.'
-random_paper: 17
+random_paper: 47
 score:
   band: thin
-  composite: 40.3
-  delta: -3.8
+  composite: 41.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 39.0
+    contract_quality: 42.6
     developer_ergonomics: 53.8
     discoverability: 66.7
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 44.1
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -170,8 +170,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/screenshots/huma-2026-07-25T221642.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-07-28'
+  score: 36.0
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API for the ThunderCore mainnet (chain ID 108, TT gas token). Supports the standard eth_/net_/web3_ method surface over HTTPS, with WebSocket endpoints for subscriptio
@@ -168,7 +168,7 @@ overview: 'ThunderCore publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ThunderCore''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 39
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Thundercore Rate Limits
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: developing
   composite: 45.9
-  delta: 5.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -184,13 +184,13 @@ score:
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 36.8
-  previous_composite: 40.3
+  previous_composite: 45.9
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Thundercore Authentication

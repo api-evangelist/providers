@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-07-28'
+  score: 47.5
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: The Assets API from Mesh — 2 operation(s) for assets.
@@ -199,19 +199,19 @@ overview: 'Mesh publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Mesh''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 22 more developer resources.'
-random_paper: 19
+random_paper: 49
 score:
-  band: developing
-  composite: 55.2
-  delta: -2.9
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.8
+    contract_quality: 69.3
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 58.1
+  previous_composite: 56.2
   provenance:
     conformance: first-party
     contracts:
@@ -227,8 +227,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

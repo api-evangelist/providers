@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ plans:
 - name: Datocms Plans Pricing
   plan_count: 3
   slug: datocms-plans-pricing
-random_paper: 9
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Datocms Rate Limits
@@ -230,16 +230,16 @@ rules:
   slug: datocms-rules
 score:
   band: strong
-  composite: 56.9
-  delta: -3.5
+  composite: 57.7
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 62.7
+    contract_quality: 65.9
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 60.4
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     contracts:
@@ -247,8 +247,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/screenshots/datocms-2026-06-20T175706.png
 security:

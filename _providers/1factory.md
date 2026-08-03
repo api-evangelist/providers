@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -729,7 +729,7 @@ plans:
 - name: 1Factory Plans Pricing
   plan_count: 3
   slug: 1factory-plans-pricing
-random_paper: 71
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: 1Factory Rate Limits
@@ -753,16 +753,16 @@ rules:
   slug: 1factory-spectral-rules
 score:
   band: developing
-  composite: 54.3
-  delta: -4.5
+  composite: 55.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.7
+    contract_quality: 77.5
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 58.8
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -770,8 +770,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/screenshots/1factory-2026-06-20T162434.png
 security:

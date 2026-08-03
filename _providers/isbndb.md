@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Isbndb Plans Pricing
   plan_count: 5
   slug: isbndb-plans-pricing
-random_paper: 52
+random_paper: 56
 rate_limits:
 - limit_count: 10
   name: Isbndb Rate Limits
@@ -170,16 +170,16 @@ rules:
   slug: isbndb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.9
-  delta: -4.5
+  composite: 48.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 52.4
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isbndb/refs/heads/main/screenshots/isbndb-2026-06-20T183614.png
 security:

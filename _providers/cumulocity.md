@@ -11,16 +11,16 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-07-28'
+  score: 33.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -705,7 +705,7 @@ plans:
 - name: Cumulocity Plans Pricing
   plan_count: 6
   slug: cumulocity-plans-pricing
-random_paper: 36
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Cumulocity Rate Limits
@@ -737,16 +737,16 @@ rules:
   slug: cumulocity-rules
 score:
   band: exemplar
-  composite: 66.2
-  delta: -2.3
+  composite: 66.7
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 74.8
+    contract_quality: 76.6
     developer_ergonomics: 71.7
     discoverability: 50.0
     governance: 52.1
     operational_transparency: 47.4
-  previous_composite: 68.5
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     contracts:
@@ -754,8 +754,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumulocity/refs/heads/main/screenshots/cumulocity-2026-06-20T175331.png
 security:

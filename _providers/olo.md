@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-07-28'
+  score: 33.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -400,7 +400,7 @@ plans:
 - name: Olo Plans Pricing
   plan_count: 4
   slug: olo-plans-pricing
-random_paper: 2
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Olo Rate Limits
@@ -431,17 +431,17 @@ rules:
     warn: 18
   slug: olo-spectral-rules
 score:
-  band: strong
-  composite: 65.7
-  delta: -5.5
+  band: exemplar
+  composite: 66.0
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 80.8
+    contract_quality: 82.0
     developer_ergonomics: 54.3
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 71.2
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     contracts:
@@ -455,9 +455,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/screenshots/olo-2026-06-20T190700.png
 security:
 - kind: authentication

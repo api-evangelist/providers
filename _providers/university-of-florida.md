@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Public JSON endpoint serving the University of Florida Schedule of Courses. Accepts query parameters such as term, category, course-code, credits, instructor and day filters, and returns course listin
@@ -102,7 +102,7 @@ plans:
 - name: University Of Florida Plans Pricing
   plan_count: 2
   slug: university-of-florida-plans-pricing
-random_paper: 30
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: University Of Florida Rate Limits
@@ -110,7 +110,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.1
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 12.9
@@ -118,15 +118,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 22.1
+  previous_composite: 19.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-florida/refs/heads/main/screenshots/university-of-florida-2026-06-20T200148.png
 security:

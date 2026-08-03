@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-07-28'
+  score: 45.7
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Klutch Public API is a GraphQL API for the Klutch programmable credit card. It exposes enriched transaction history with filtering, cursor pagination and group-by aggregation; user-defined transac
@@ -192,7 +192,7 @@ overview: 'Klutch publishes 1 API on the [APIs.io](https://apis.io/) network: Pu
 
 
   Klutch''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 77
+random_paper: 81
 scopes:
 - name: Klutch Scopes
   scope_count: 4
@@ -201,7 +201,7 @@ scopes:
 score:
   band: developing
   composite: 50.6
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -209,7 +209,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 13.2
-  previous_composite: 48.7
+  previous_composite: 50.6
   provenance:
     conformance: derived
     mcp: first-party
@@ -220,8 +220,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/screenshots/klutch-2026-07-25T223951.png
 security:

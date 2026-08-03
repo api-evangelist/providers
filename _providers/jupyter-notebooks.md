@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -136,7 +136,7 @@ plans:
 - name: Jupyter Notebooks Plans Pricing
   plan_count: 3
   slug: jupyter-notebooks-plans-pricing
-random_paper: 8
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Jupyter Notebooks Rate Limits
@@ -152,16 +152,16 @@ rules:
   slug: jupyter-notebooks-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.0
-  delta: -4.4
+  composite: 45.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 54.2
+    contract_quality: 58.1
     developer_ergonomics: 26.1
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 48.4
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -169,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-notebooks/refs/heads/main/screenshots/jupyter-notebooks-2026-06-20T183840.png
 security:

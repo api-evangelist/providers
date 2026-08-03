@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: 商品マスタ / 商品対応表 — product master and mapping
@@ -184,7 +184,7 @@ overview: 'Logiless publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Logiless'' developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 20 more developer resources.'
-random_paper: 46
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Logiless Rate Limits
@@ -196,16 +196,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.5
-  delta: -1.2
+  composite: 48.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 51.7
+    contract_quality: 52.7
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 49.7
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -215,8 +215,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/screenshots/logiless-2026-07-25T225502.png
 security:

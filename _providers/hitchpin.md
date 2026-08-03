@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -164,19 +164,19 @@ overview: 'HitchPin publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   HitchPin''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 35
+random_paper: 0
 score:
-  band: thin
-  composite: 41.5
-  delta: -3.3
+  band: developing
+  composite: 42.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 50.7
+    contract_quality: 54.9
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 44.8
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/screenshots/hitchpin-2026-07-25T221300.png
 security:

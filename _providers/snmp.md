@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: The original Simple Network Management Protocol defined in RFC 1157 (May 1990). Establishes the five core PDUs (GetRequest, GetNextRequest, GetResponse, SetRequest, Trap), community-string authenticat
@@ -91,11 +91,11 @@ overview: 'SNMP publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   SNMP''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 36
+random_paper: 66
 score:
   band: minimal
   composite: 11.4
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 12.9
@@ -103,9 +103,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 11.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snmp/refs/heads/main/screenshots/snmp-2026-06-20T194107.png
 security:

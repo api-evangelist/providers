@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,9 +177,9 @@ overview: 'Bitfinder publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bitfinder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 49
+random_paper: 1
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Bitfinder Rate Limits
   slug: bitfinder-rate-limits
 scopes:
@@ -188,17 +188,17 @@ scopes:
   slug: bitfinder-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 45.0
-  delta: -7.3
+  band: thin
+  composite: 40.2
+  delta: 2.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 49.2
+    contract_quality: 15.5
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 21.1
-  previous_composite: 52.3
+    operational_transparency: 42.1
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,9 +215,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png
 security:
 - kind: authentication

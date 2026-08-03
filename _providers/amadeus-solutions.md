@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -2293,7 +2293,7 @@ overview: 'Amadeus Solutions publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Amadeus Solutions'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 20 more developer resources.'
-random_paper: 67
+random_paper: 79
 rules:
 - name: Amadeus Solutions API Rules
   rule_count: 5
@@ -2314,7 +2314,7 @@ rules:
 score:
   band: developing
   composite: 53.4
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 50.0
@@ -2322,7 +2322,7 @@ score:
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 58.2
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2332,8 +2332,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/screenshots/amadeus-solutions-2026-07-25T195907.png
 security:

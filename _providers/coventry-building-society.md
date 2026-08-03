@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ overview: 'Coventry Building Society publishes 4 APIs on the [APIs.io](https://a
 
 
   Coventry Building Society''s developer surface includes authentication, documentation, support, and 24 more developer resources.'
-random_paper: 52
+random_paper: 29
 scopes:
 - name: Coventry Building Society Scopes
   scope_count: 3
@@ -175,16 +175,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 42.5
-  delta: -3.6
+  composite: 44.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 50.6
+    contract_quality: 59.7
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 46.1
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,8 +201,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/screenshots/coventry-building-society-2026-07-25T210542.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 17
@@ -220,19 +220,19 @@ overview: 'Credilinq.ai publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Credilinq.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 23 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: developing
-  composite: 47.8
-  delta: -4.0
+  composite: 48.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.3
+    contract_quality: 68.7
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 51.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +249,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 45.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/screenshots/credilinqai-2026-07-25T210714.png
 security:

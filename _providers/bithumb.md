@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -143,9 +143,9 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 9
+random_paper: 82
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Rate Limits
   slug: rate-limits
 rules:
@@ -158,17 +158,17 @@ rules:
     warn: 3
   slug: bithumb-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 41.4
-  delta: -3.3
+  band: developing
+  composite: 44.0
+  delta: 2.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.9
+    contract_quality: 58.3
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 15.8
-  previous_composite: 44.7
+    operational_transparency: 36.8
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +182,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bithumb/refs/heads/main/screenshots/bithumb-2026-06-20T173314.png
 security:

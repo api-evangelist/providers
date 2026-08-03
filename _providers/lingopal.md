@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -168,19 +168,19 @@ overview: 'Lingopal publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lingopal''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 18 more developer resources.'
-random_paper: 34
+random_paper: 94
 score:
   band: developing
-  composite: 46.7
-  delta: -1.5
+  composite: 47.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.8
+    contract_quality: 64.1
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 48.2
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -191,8 +191,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/screenshots/lingopal-2026-07-25T225250.png
 security:

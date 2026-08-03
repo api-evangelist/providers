@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 39.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for the SafetyCulture platform — inspections, templates, assets, actions, issues, users, groups, schedules, training, credentials, and webhooks. Bearer-token auth over HTTPS.
@@ -187,7 +187,7 @@ overview: 'SafetyCulture publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   SafetyCulture''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
-random_paper: 30
+random_paper: 94
 rate_limits:
 - limit_count: 6
   name: Safetyculture Rate Limits
@@ -195,7 +195,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.2
-  delta: 5.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -203,14 +203,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 71.1
-  previous_composite: 52.3
+  previous_composite: 58.2
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Safetyculture Authentication

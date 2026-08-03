@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'The Qubole Data Service (QDS) REST API for submitting and managing data commands (Hive, Presto, Spark, Hadoop, Pig, shell, DB import/export, notebook), managing compute clusters, scheduling recurring '
@@ -160,11 +160,11 @@ overview: 'Qubole publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Qubole''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 74
+random_paper: 78
 score:
   band: thin
   composite: 37.4
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -172,12 +172,12 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 38.9
+  previous_composite: 37.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

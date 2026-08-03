@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Microsoft Azure Repo Plans Pricing
   plan_count: 5
   slug: microsoft-azure-repo-plans-pricing
-random_paper: 11
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Microsoft Azure Repo Rate Limits
@@ -204,16 +204,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.5
-  delta: -1.2
+  composite: 58.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 58.7
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 58.7
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/screenshots/microsoft-azure-repo-2026-06-20T185433.png
 security:

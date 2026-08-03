@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Retrieve individual and company wealth-intelligence dossiers.
@@ -130,19 +130,19 @@ overview: 'Wealth-X publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Wealth-X''s developer surface includes documentation, API reference, developer portal, support, authentication, and 13 more developer resources.'
-random_paper: 72
+random_paper: 50
 score:
   band: thin
-  composite: 36.2
-  delta: -4.4
+  composite: 28.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 47.5
+    contract_quality: 15.9
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 40.6
+  previous_composite: 28.3
   provenance:
     conformance: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

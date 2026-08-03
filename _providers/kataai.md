@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: Login and token issuance.
@@ -183,19 +183,19 @@ overview: 'Kata.ai publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kata.ai''s developer surface includes documentation, API reference, signup flow, support, authentication, CLI, and 19 more developer resources.'
-random_paper: 45
+random_paper: 49
 score:
   band: thin
-  composite: 34.4
-  delta: -6.3
+  composite: 28.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 41.6
+    contract_quality: 14.6
     developer_ergonomics: 49.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 40.7
+  previous_composite: 28.6
   provenance:
     conformance: derived
     contracts:
@@ -211,9 +211,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 29.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/screenshots/kataai-2026-07-25T223526.png
 security:
 - kind: authentication

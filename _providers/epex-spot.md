@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: 'Read-only API subscription (Day-Ahead and pan-EU Intraday API Read-only, EUR 1,040.00/month for internal usage) delivering day-ahead and intraday auction results - prices and volumes - for all market '
@@ -97,11 +97,11 @@ plans:
 - name: Epex Spot Plans Pricing
   plan_count: 10
   slug: epex-spot-plans-pricing
-random_paper: 31
+random_paper: 78
 score:
   band: emerging
   composite: 15.7
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -109,15 +109,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.4
+  previous_composite: 15.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Jasper API brings generative AI into your platform — generate on-brand content via commands and templates, run marketing Agent Tasks, manage documents, projects, tones, and audiences, augment gene
@@ -188,9 +188,9 @@ overview: 'Jasper publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jasper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 71
+random_paper: 75
 rate_limits:
-- limit_count: 0
+- limit_count: 4
   name: Jasper Rate Limits
   slug: jasper-rate-limits
 scopes:
@@ -200,22 +200,22 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 41.8
+  delta: 4.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 66.8
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 15.8
+    operational_transparency: 47.4
   previous_composite: 37.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/screenshots/jasper-2026-07-25T223101.png
 security:

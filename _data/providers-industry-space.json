@@ -95,8 +95,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 7,
-   "shown": 7,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Amazon Ground Station",
@@ -258,6 +258,50 @@
      "rank": 6
     },
     {
+     "name": "Starlink",
+     "slug": "starlink",
+     "description": "Starlink is the low-Earth-orbit satellite internet constellation operated by SpaceX from Hawthorne, California, delivering broadband and non-terrestrial connectivity to residential, business, maritime, aviation, and government customers in the United States and roughly a hundred other markets. In the telecom value chain Starlink is an access-network operator that sells connectivity directly to end customers and wholesales capacity to airlines, shipping lines, and mobile network operators, rather than a CPaaS aggregator or a GSMA-affiliated mobile network operator. Its API posture is unusually open for an access provider and unusually narrow in scope. The Starlink Public API V2 is fully documented in public at starlink.readme.io, its OpenAPI 3.0.4 description is downloadable anonymously from starlink.com with no login, and SpaceX publishes an official gRPC protobuf for the local device API on GitHub. But the API is operational rather than developer-product, covering account, service line, user terminal, router, billing, and telemetry management, and credentials are gated behind an enterprise or business Starlink account whose admin must mint a V2 service account. No CAMARA implementation, no GSMA Open Gateway participation, and no TM Forum Open API conformance was found anywhere in Starlink's published material.",
+     "score": 59.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 58.7,
+      "governance": 11.5,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 75.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 52.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 7
+    },
+    {
      "name": "Shell",
      "slug": "shell",
      "description": "Royal Dutch Shell plc is a global energy company operating across oil, gas, renewable energy, lubricants, aviation fuel, and mobility sectors. The Shell Developer Portal provides APIs for B2B mobility card management, loyalty programs, lubricants ordering, aviation fuel reselling, and fleet management. SDKs are available in Java, .NET, TypeScript, PHP, Python, and Ruby.",
@@ -300,7 +344,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
+    },
+    {
+     "name": "Federal Aviation Administration",
+     "slug": "faa",
+     "description": "The Federal Aviation Administration (FAA) is the United States civil aviation authority, an operating administration of the U.S. Department of Transportation. It regulates and certificates aircraft, airmen, airports and air carriers, operates the National Airspace System and its air traffic control, and issues the aeronautical information the entire U.S. travel and aviation chain runs on — NOTAMs, TFRs, charts, the 28-day NASR subscription, aircraft registration and airport data. It sits upstream of commercial travel distribution rather than inside it — the FAA sells no inventory and is not a GDS, NDC or channel participant, but every airline, GDS, OTA, flight-planning app and drone service supplier in the United States consumes FAA data as a source of truth. Its API posture is genuinely mixed and honest reporting requires saying so. The Airport Status Web Service and the Aeronautic Product Release API are published under a Creative Commons Zero licence, answer unauthenticated over HTTPS, and ship real OpenAPI 3.0.1 documents through a public Gravitee developer portal at api.faa.gov. Alongside them the FAA runs a CKAN 2.11.4 catalog and two ArcGIS Open Data hubs with DCAT-US 1.1 feeds and bulk CSV/GeoJSON/KML export. But the NOTAM API, the Air Carrier Pilot Records Database API and SWIM are gated — client_id/client_secret headers, operator eligibility restricted by regulation, or an executed SWIM agreement — and LAANC drone authorization is reachable only through FAA-approved UAS Service Suppliers, never directly.",
+     "score": 57.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 55.4,
+      "governance": 11.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 65.8
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 9
     },
     {
      "name": "Blues",
@@ -338,51 +426,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 8
-    },
-    {
-     "name": "Starlink",
-     "slug": "starlink",
-     "description": "Starlink is the low-Earth-orbit satellite internet constellation operated by SpaceX from Hawthorne, California, delivering broadband and non-terrestrial connectivity to residential, business, maritime, aviation, and government customers in the United States and roughly a hundred other markets. In the telecom value chain Starlink is an access-network operator that sells connectivity directly to end customers and wholesales capacity to airlines, shipping lines, and mobile network operators, rather than a CPaaS aggregator or a GSMA-affiliated mobile network operator. Its API posture is unusually open for an access provider and unusually narrow in scope. The Starlink Public API V2 is fully documented in public at starlink.readme.io, its OpenAPI 3.0.4 description is downloadable anonymously from starlink.com with no login, and SpaceX publishes an official gRPC protobuf for the local device API on GitHub. But the API is operational rather than developer-product, covering account, service line, user terminal, router, billing, and telemetry management, and credentials are gated behind an enterprise or business Starlink account whose admin must mint a V2 service account. No CAMARA implementation, no GSMA Open Gateway participation, and no TM Forum Open API conformance was found anywhere in Starlink's published material.",
-     "score": 56.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 58.7,
-      "governance": 11.5,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 75.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 52.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 9
+     "rank": 10
     }
    ],
    "open": true
@@ -392,8 +436,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 52,
-   "shown": 52,
+   "count": 51,
+   "shown": 51,
    "providers": [
     {
      "name": "Flightradar24",
@@ -431,7 +475,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "OpenTravel Alliance",
@@ -461,50 +505,6 @@
       "error_semantics": "documented",
       "openapi_examples": "documented",
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Federal Aviation Administration",
-     "slug": "faa",
-     "description": "The Federal Aviation Administration (FAA) is the United States civil aviation authority, an operating administration of the U.S. Department of Transportation. It regulates and certificates aircraft, airmen, airports and air carriers, operates the National Airspace System and its air traffic control, and issues the aeronautical information the entire U.S. travel and aviation chain runs on — NOTAMs, TFRs, charts, the 28-day NASR subscription, aircraft registration and airport data. It sits upstream of commercial travel distribution rather than inside it — the FAA sells no inventory and is not a GDS, NDC or channel participant, but every airline, GDS, OTA, flight-planning app and drone service supplier in the United States consumes FAA data as a source of truth. Its API posture is genuinely mixed and honest reporting requires saying so. The Airport Status Web Service and the Aeronautic Product Release API are published under a Creative Commons Zero licence, answer unauthenticated over HTTPS, and ship real OpenAPI 3.0.1 documents through a public Gravitee developer portal at api.faa.gov. Alongside them the FAA runs a CKAN 2.11.4 catalog and two ArcGIS Open Data hubs with DCAT-US 1.1 feeds and bulk CSV/GeoJSON/KML export. But the NOTAM API, the Air Carrier Pilot Records Database API and SWIM are gated — client_id/client_secret headers, operator eligibility restricted by regulation, or an executed SWIM agreement — and LAANC drone authorization is reachable only through FAA-approved UAS Service Suppliers, never directly.",
-     "score": 54.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 55.4,
-      "governance": 11.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 65.8
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
@@ -559,6 +559,43 @@
      "rank": 13
     },
     {
+     "name": "OpenSky Network",
+     "slug": "opensky",
+     "description": "Open-source flight tracking network with a REST API for accessing real-time and historical ADS-B aircraft state vectors, flight tracks, and airport arrivals and departures. The network is powered by a community of volunteer ADS-B receiver operators and is intended for non-commercial research and educational use.",
+     "score": 53.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 71.8,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 63.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 14
+    },
+    {
      "name": "Skymerse",
      "slug": "skymerse",
      "description": "Skymerse is a Y Combinator-backed aviation company building one AI system for airline flight operations — from planning and monitoring in the operations center to real-time support in the cockpit. Its first product, Notamify, interprets NOTAMs (Notices to Airmen) with specialized aeronautical models and ships the Notamify API V2: a REST API over global NOTAM data with AI-enhanced interpretation, active/nearby/raw/archive NOTAM endpoints, AI NOTAM prioritisation, synchronous and asynchronous flight briefings, and a Watcher API that pushes matching interpreted NOTAMs to signed webhooks. Notamify already serves airline customers and thousands of pilots and aviation professionals, with an official Python SDK and an MCP server for agents.",
@@ -593,7 +630,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "TUI Group",
@@ -630,7 +667,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Airbus OneAtlas",
@@ -668,7 +705,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "NASA NeoWs",
@@ -713,7 +750,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
+    },
+    {
+     "name": "Webjet",
+     "slug": "webjet",
+     "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
+     "score": 51.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 52.6,
+      "governance": 11.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 48.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 19
     },
     {
      "name": "AeroDataBox",
@@ -751,7 +825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "Rockwell Collins",
@@ -789,7 +863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "ADS-B Exchange",
@@ -827,7 +901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "NASA FIRMS",
@@ -872,7 +946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Space-Track",
@@ -910,7 +984,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "NASA",
@@ -955,7 +1029,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "Air Canada",
@@ -992,44 +1066,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
-    },
-    {
-     "name": "OpenSky Network",
-     "slug": "opensky",
-     "description": "Open-source flight tracking network with a REST API for accessing real-time and historical ADS-B aircraft state vectors, flight tracks, and airport arrivals and departures. The network is powered by a community of volunteer ADS-B receiver operators and is intended for non-commercial research and educational use.",
-     "score": 49.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 71.8,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 63.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 41.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "NASA APOD",
@@ -1074,7 +1111,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Agromonitoring",
@@ -1112,7 +1149,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "U.S. Department of Transportation",
@@ -1156,7 +1193,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "American Express Global Business Travel",
@@ -1193,7 +1230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Constellation Space",
@@ -1227,43 +1264,6 @@
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 30
-    },
-    {
-     "name": "Webjet",
-     "slug": "webjet",
-     "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
-     "score": 48.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 52.6,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 73.4,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 48.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -2981,6 +2981,43 @@
      "rank": 74
     },
     {
+     "name": "Qantas",
+     "slug": "qantas",
+     "description": "Qantas Airways Limited is Australia's flag carrier and, with its low-cost subsidiary Jetstar, one half of a domestic duopoly alongside Virgin Australia. In the distribution chain Qantas is the supplier of its own inventory — it sits upstream of the GDSs (Amadeus, Sabre, Travelport), the aggregators (Duffel, Travelfusion, Mystifly, Verteil, AirGateway, TPConnects, TravelSky) and the large Australian agency groups (Flight Centre, Corporate Travel Management, Webjet). Its API posture is distribution-only and fully gated. Qantas publishes no developer portal, no OpenAPI or Swagger definition, and no public consumer API; developer., developers., docs. and api.qantas.com.au do not resolve, and api.qantas.com returns 404 on every path probed. The one real API is the Qantas Distribution Platform (QDP) NDC XML API, built with Farelogix (now Accelya) and certified by IATA to NDC@Scale. It is documented in prose on Qantas Agency Connect but no endpoint, schema or specification is published; a technology partner must sign a Qantas Distribution Platform Access Agreement, subject to Qantas technical and commercial approval, before it is granted test-environment access, and an agency must hold IATA, ARC, TIDS or VTC accreditation. Public docs on how to get in, no public contract and no exit path.",
+     "score": 38.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 77.8,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 9.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 75
+    },
+    {
      "name": "SkyWatch",
      "slug": "skywatch",
      "description": "SkyWatch Space Applications is an Earth observation company whose EarthCache platform gives developers a single API to discover, price, order, and deliver commercial satellite imagery and geospatial data from many providers - Pleiades, SPOT, PlanetScope, SkySat, Sentinel-1, Sentinel-2, TripleSat, Kompsat, and more. The EarthCache API (base https://api.skywatch.co/earthcache, x-api-key auth) exposes Archive Search over historical imagery, Pipelines that monitor an area of interest and deliver imagery on a schedule, interval results with analytics and metadata download URLs, cost estimation, reusable output configurations (format, bands, mosaicking), saved locations, and callback-based subscriptions for platform events. Imagery is billed per square kilometre with resolution-based minimums.",
@@ -3015,7 +3052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Aviation Edge",
@@ -3053,7 +3090,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Alaska Airlines",
@@ -3091,7 +3128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "The National Aeronautics and Space Administration",
@@ -3136,7 +3173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Bureau of Transportation Statistics",
@@ -3181,7 +3218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "ITU",
@@ -3225,7 +3262,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "US Department of Transportation",
@@ -3270,7 +3307,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "SpaceX (Community API)",
@@ -3311,43 +3348,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 82
-    },
-    {
-     "name": "Starfish Space",
-     "slug": "starfish-space",
-     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
-     "score": 36.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 66.0,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 63.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -3475,43 +3475,6 @@
      "rank": 86
     },
     {
-     "name": "Qantas",
-     "slug": "qantas",
-     "description": "Qantas Airways Limited is Australia's flag carrier and, with its low-cost subsidiary Jetstar, one half of a domestic duopoly alongside Virgin Australia. In the distribution chain Qantas is the supplier of its own inventory — it sits upstream of the GDSs (Amadeus, Sabre, Travelport), the aggregators (Duffel, Travelfusion, Mystifly, Verteil, AirGateway, TPConnects, TravelSky) and the large Australian agency groups (Flight Centre, Corporate Travel Management, Webjet). Its API posture is distribution-only and fully gated. Qantas publishes no developer portal, no OpenAPI or Swagger definition, and no public consumer API; developer., developers., docs. and api.qantas.com.au do not resolve, and api.qantas.com returns 404 on every path probed. The one real API is the Qantas Distribution Platform (QDP) NDC XML API, built with Farelogix (now Accelya) and certified by IATA to NDC@Scale. It is documented in prose on Qantas Agency Connect but no endpoint, schema or specification is published; a technology partner must sign a Qantas Distribution Platform Access Agreement, subject to Qantas technical and commercial approval, before it is granted test-environment access, and an agency must hold IATA, ARC, TIDS or VTC accreditation. Public docs on how to get in, no public contract and no exit path.",
-     "score": 35.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 9.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 87
-    },
-    {
      "name": "Climate Engine",
      "slug": "climate-engine",
      "description": "Climate Engine is a geospatial climate and remote-sensing data platform that runs on Google Earth Engine. Its commercial REST API (api.climateengine.org) provides on-demand processing of satellite and gridded climate datasets - Landsat, Sentinel, MODIS, GRIDMET, ERA5, CHIRPS and more - returning timeseries, map tiles, zonal statistics, and pre-built reports over points, polygons, and feature collections.",
@@ -3547,7 +3510,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "European Space Agency (ESA)",
@@ -3581,6 +3544,43 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 88
+    },
+    {
+     "name": "Starfish Space",
+     "slug": "starfish-space",
+     "description": "Starfish Space is a satellite-servicing company founded in 2019 by Trevor Bennett and Austin Link and headquartered in the Seattle, Washington area (Tukwila). It builds Otter, a small, low-cost, electrically propelled servicing vehicle that performs autonomous rendezvous, proximity operations and docking (RPOD) with satellites that were never designed to be serviced — extending their life, relocating them, or disposing of them at end of mission. Its Otter Pup demonstration missions target the first-ever commercial satellite docking in low Earth orbit, and the company has been awarded a $54.5M U.S. Space Force contract for a dedicated Otter servicing vehicle. Starfish Space publishes no developer product API; the machine-readable surface catalogued here is the public WordPress REST API and the OAuth-protected Model Context Protocol (MCP) server served from starfishspace.com.",
+     "score": 35.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 69.8,
+      "governance": 11.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 27.7,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 53.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -3775,50 +3775,6 @@
      "rank": 94
     },
     {
-     "name": "Aalyria",
-     "slug": "aalyria",
-     "description": "Aalyria Technologies builds software and hardware for operating resilient, high-throughput networks in motion across space, air, land and sea. Its flagship platform, Spacetime, is a temporospatial software-defined networking (SDN) system that models the time-dynamic position and orientation of satellites, aircraft, ships and ground stations, then continuously plans, schedules and steers the links between them. Spacetime is programmable through three open, Apache-2.0 licensed gRPC/Protocol Buffers APIs published at github.com/aalyria/api: a Northbound Interface (NBI) for defining and orchestrating the network model and provisioning traffic-engineering policies, a Southbound Interface (SBI, also called CDPI) through which participating devices receive schedule updates and push telemetry, and a Federation (East-West) API through which peer network operators request and supply interconnections and capacity. Aalyria also produces Tightbeam, a free-space optical communications system. The company was spun out of Alphabet in 2022, carrying technology developed for Project Loon and Taara.",
-     "score": 33.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 78.3,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 34.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 95
-    },
-    {
      "name": "Aviationstack",
      "slug": "aviationstack",
      "description": "Aviationstack is a comprehensive aviation data platform that provides real-time, accurate, and reliable information about flights, airlines, airports, and aircraft. This powerful tool offers a wide range of data including flight schedules, arrival and departure times, route information, aircraft details, and more.",
@@ -3854,7 +3810,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Breeze Airways",
@@ -3886,6 +3842,44 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 96
+    },
+    {
+     "name": "VATSIM",
+     "slug": "vatsim",
+     "description": "VATSIM (Virtual Air Traffic Simulation Network) is a global online flight simulation network providing real-time data about pilots, controllers, flight plans, and ATC positions. The VATSIM REST APIs allow developers to access live network data, member statistics, aviation weather, upcoming events, and authentication services for the simulation community.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/screenshots/vatsim-2026-06-20T200846.png",
+     "score": 33.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 56.5,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -4089,6 +4083,50 @@
      "rank": 102
     },
     {
+     "name": "Aalyria",
+     "slug": "aalyria",
+     "description": "Aalyria Technologies builds software and hardware for operating resilient, high-throughput networks in motion across space, air, land and sea. Its flagship platform, Spacetime, is a temporospatial software-defined networking (SDN) system that models the time-dynamic position and orientation of satellites, aircraft, ships and ground stations, then continuously plans, schedules and steers the links between them. Spacetime is programmable through three open, Apache-2.0 licensed gRPC/Protocol Buffers APIs published at github.com/aalyria/api: a Northbound Interface (NBI) for defining and orchestrating the network model and provisioning traffic-engineering policies, a Southbound Interface (SBI, also called CDPI) through which participating devices receive schedule updates and push telemetry, and a Federation (East-West) API through which peer network operators request and supply interconnections and capacity. Aalyria also produces Tightbeam, a free-space optical communications system. The company was spun out of Alphabet in 2022, carrying technology developed for Project Loon and Taara.",
+     "score": 30.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 34.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 16.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 103
+    },
+    {
      "name": "Garmin",
      "slug": "garmin",
      "description": "Garmin is the global leader in GPS-enabled wearables, cycling computers, outdoor handhelds, marine electronics, aviation avionics, and automotive navigation. Garmin's developer surface spans the Connect IQ wearable app platform (Monkey C, watch faces, data fields, widgets, device apps), the Garmin Connect Developer Program cloud APIs (Health, Activity, Women's Health, Training, Courses), the Health SDK for direct BLE streaming from wearables, the FIT SDK that defines the industry's de-facto endurance data interchange format, Navionics marine cartography, inReach satellite messaging, the ANT/ANT+ wireless protocol, and specialized APIs for golf, aviation flight data, fleet telematics, and custom outdoor maps.",
@@ -4124,44 +4162,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 103
-    },
-    {
-     "name": "VATSIM",
-     "slug": "vatsim",
-     "description": "VATSIM (Virtual Air Traffic Simulation Network) is a global online flight simulation network providing real-time data about pilots, controllers, flight plans, and ATC positions. The VATSIM REST APIs allow developers to access live network data, member statistics, aviation weather, upcoming events, and authentication services for the simulation community.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/screenshots/vatsim-2026-06-20T200846.png",
-     "score": 30.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 56.5,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 41.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -4528,43 +4528,6 @@
      "rank": 113
     },
     {
-     "name": "Blue Origin",
-     "slug": "blue-origin",
-     "description": "Blue Origin is an American private aerospace manufacturer and spaceflight services company founded in 2000 by Jeff Bezos and headquartered in Kent, Washington. It builds and flies the reusable New Shepard suborbital vehicle, the heavy-lift New Glenn orbital launch vehicle, the BE-3 and BE-4 rocket engines, the Blue Moon lunar lander and the Blue Ring orbital transfer vehicle, and it owns Honeybee Robotics. Blue Origin publishes no public developer portal, no API documentation and no machine-readable API description for any of its space products; customer, payload and supplier relationships run through authenticated portals — payloads.blueorigin.com and bodp.blueorigin.com on Salesforce Experience Cloud, and supplierportal.blueorigin.com on AWS GovCloud. The only genuinely agent-addressable surface on a blueorigin.com host is the Blue Origin Shop, a Shopify storefront that publishes a real llms.txt and agents.md, a Universal Commerce Protocol (UCP) merchant profile, RFC 9728 protected-resource metadata, and an anonymous MCP server at /api/mcp exposing five tools. The corporate site itself sits behind a Vercel Security Checkpoint that answers HTTP 429 to every non-browser request, including /robots.txt.",
-     "score": 23.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 31.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 114
-    },
-    {
      "name": "Transport Canada",
      "slug": "transport-canada",
      "description": "Transport Canada (Transports Canada) is the federal department that regulates aviation, marine, rail and road transportation in Canada under the Aeronautics Act and the Canadian Aviation Regulations. In travel it is the safety-and-security regulator rather than a participant in distribution — it certifies air operators, registers aircraft on the Canadian Civil Aircraft Register, licenses pilots and drone operators, runs the Civil Aviation Daily Occurrence Reporting System (CADORS) and the Air Cargo Security program, and publishes the Canadian airports layer. It sits entirely outside the GDS/NDC distribution chain; airline economic licensing, all-in fare advertising and the Air Passenger Protection Regulations belong to the separate Canadian Transportation Agency. Its API posture is thin but genuinely open — no developer portal exists at tc.canada.ca, developer./developers./docs. subdomains do not resolve, and no OpenAPI is published anywhere. What does exist is real and ungated: a self-describing JSON/XML Vehicle Recalls Database API at data.tc.gc.ca, an ArcGIS REST and OGC WMS service for Canadian airports with air navigation services, and bulk CSV/XML extracts of CADORS, the Air Cargo Security members list and the vessel registers, all indexed through the Treasury-Board-operated open.canada.ca CKAN Action API under the Open Government Licence – Canada. No key, no account, no accreditation, no contract.",
@@ -4606,7 +4569,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 114
     },
     {
      "name": "API Layer",
@@ -4640,6 +4603,43 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 115
+    },
+    {
+     "name": "Blue Origin",
+     "slug": "blue-origin",
+     "description": "Blue Origin is an American private aerospace manufacturer and spaceflight services company founded in 2000 by Jeff Bezos and headquartered in Kent, Washington. It builds and flies the reusable New Shepard suborbital vehicle, the heavy-lift New Glenn orbital launch vehicle, the BE-3 and BE-4 rocket engines, the Blue Moon lunar lander and the Blue Ring orbital transfer vehicle, and it owns Honeybee Robotics. Blue Origin publishes no public developer portal, no API documentation and no machine-readable API description for any of its space products; customer, payload and supplier relationships run through authenticated portals — payloads.blueorigin.com and bodp.blueorigin.com on Salesforce Experience Cloud, and supplierportal.blueorigin.com on AWS GovCloud. The only genuinely agent-addressable surface on a blueorigin.com host is the Blue Origin Shop, a Shopify storefront that publishes a real llms.txt and agents.md, a Universal Commerce Protocol (UCP) merchant profile, RFC 9728 protected-resource metadata, and an anonymous MCP server at /api/mcp exposing five tools. The corporate site itself sits behind a Vercel Security Checkpoint that answers HTTP 429 to every non-browser request, including /robots.txt.",
+     "score": 23.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 23.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 28.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

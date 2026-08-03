@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -365,7 +365,7 @@ plans:
 - name: Coupa Plans Pricing
   plan_count: 1
   slug: coupa-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Coupa Rate Limits
@@ -394,16 +394,16 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: strong
-  composite: 56.0
-  delta: -3.6
+  composite: 56.4
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 77.4
+    contract_quality: 79.1
     developer_ergonomics: 37.0
     discoverability: 68.5
     governance: 27.1
     operational_transparency: 57.9
-  previous_composite: 59.6
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     contracts:
@@ -411,8 +411,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/screenshots/coupa-2026-06-20T175107.png
 security:

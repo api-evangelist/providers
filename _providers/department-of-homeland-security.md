@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -221,23 +221,23 @@ plans:
 - name: Department Of Homeland Security Plans Pricing
   plan_count: 3
   slug: department-of-homeland-security-plans-pricing
-random_paper: 36
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Department Of Homeland Security Rate Limits
   slug: department-of-homeland-security-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: -2.8
+  composite: 36.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 10.4
     operational_transparency: 36.8
-  previous_composite: 38.6
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -251,8 +251,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/screenshots/department-of-homeland-security-2026-06-20T175917.png
 security:

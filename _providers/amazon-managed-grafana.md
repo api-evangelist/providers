@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-07-28'
+  score: 49.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -1324,7 +1324,7 @@ plans:
 - name: Amazon Managed Grafana Plans Pricing
   plan_count: 3
   slug: amazon-managed-grafana-plans-pricing
-random_paper: 41
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Grafana Rate Limits
@@ -1347,17 +1347,17 @@ rules:
     warn: 11
   slug: amazon-managed-grafana-spectral-rules
 score:
-  band: strong
-  composite: 65.4
-  delta: -3.3
+  band: exemplar
+  composite: 66.2
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 73.4
+    contract_quality: 76.8
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 68.7
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1365,8 +1365,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/screenshots/amazon-managed-grafana-2026-06-20T171733.png
 security:

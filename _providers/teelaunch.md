@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -138,23 +138,23 @@ plans:
 - name: Teelaunch Plans Pricing
   plan_count: 2
   slug: teelaunch-plans-pricing
-random_paper: 51
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Teelaunch Rate Limits
   slug: teelaunch-rate-limits
 score:
   band: thin
-  composite: 35.7
-  delta: -2.3
+  composite: 36.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.4
+    contract_quality: 60.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.0
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

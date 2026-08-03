@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -187,7 +187,7 @@ plans:
 - name: Lemmy Plans Pricing
   plan_count: 3
   slug: lemmy-plans-pricing
-random_paper: 56
+random_paper: 73
 rate_limits:
 - limit_count: 6
   name: Lemmy Rate Limits
@@ -203,16 +203,16 @@ rules:
   slug: lemmy-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.7
-  delta: -4.1
+  composite: 53.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 76.3
+    contract_quality: 78.3
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 56.8
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/screenshots/lemmy-2026-06-20T184415.png
 security:

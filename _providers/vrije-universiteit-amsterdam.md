@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 1
@@ -228,7 +228,7 @@ plans:
 - name: Vrije Universiteit Amsterdam Plans Pricing
   plan_count: 2
   slug: vrije-universiteit-amsterdam-plans-pricing
-random_paper: 45
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Vrije Universiteit Amsterdam Rate Limits
@@ -252,16 +252,16 @@ rules:
   slug: vrije-universiteit-amsterdam-rules
 score:
   band: thin
-  composite: 38.8
-  delta: -4.7
+  composite: 40.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.0
+    contract_quality: 62.7
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 43.5
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -275,8 +275,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/screenshots/vrije-universiteit-amsterdam-2026-06-20T201145.png
 security:

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Create and update applicants, contacts, prospects, and opportunities in the EZLynx management system and CRM so external lead-capture, marketing, and onboarding tools stay in sync without rekeying dat
@@ -95,11 +95,11 @@ overview: 'EZLynx publishes 5 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   EZLynx''s developer surface includes documentation, API reference, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 26
+random_paper: 17
 score:
   band: emerging
   composite: 15.9
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -107,15 +107,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.5
+  previous_composite: 15.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezlynx/refs/heads/main/screenshots/ezlynx-2026-07-25T214056.png
 security:

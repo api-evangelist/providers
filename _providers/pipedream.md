@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -942,7 +942,7 @@ plans:
 - name: Pipedream Plans Pricing
   plan_count: 4
   slug: pipedream-plans-pricing
-random_paper: 49
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Pipedream Rate Limits
@@ -971,16 +971,16 @@ scopes:
   summary_line: 16 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 72.0
-  delta: -2.4
+  composite: 72.8
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 69.1
+    contract_quality: 72.3
     developer_ergonomics: 71.7
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 74.4
+  previous_composite: 72.8
   provenance:
     agentic_access: derived
     contracts:
@@ -988,8 +988,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/screenshots/pipedream-2026-06-20T191726.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-07-28'
+  score: 44.1
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Bob's Public API for HR data and workflows — employee data, time off, attendance, tasks, documents/eSign, goals, job catalog, hiring, learning, and workforce planning.
@@ -183,9 +183,9 @@ overview: 'Hi Bob publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hi Bob''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
-random_paper: 69
+random_paper: 86
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Hi Bob Rate Limits
   slug: hi-bob-rate-limits
 scopes:
@@ -194,23 +194,23 @@ scopes:
   slug: hi-bob-scopes
   summary_line: 27 scopes
 score:
-  band: developing
-  composite: 54.9
-  delta: 8.2
+  band: strong
+  composite: 57.6
+  delta: 2.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
     developer_ergonomics: 60.9
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 57.9
-  previous_composite: 46.7
+    operational_transparency: 78.9
+  previous_composite: 54.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hi-bob/refs/heads/main/screenshots/hi-bob-2026-07-25T221129.png
 security:
 - kind: authentication

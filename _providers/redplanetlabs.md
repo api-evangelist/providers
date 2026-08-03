@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: In-cluster HTTP+JSON RPC surface exposed by Rama Supervisors (default port 2000) for appending to depots, querying PStates by navigation path, and invoking query topologies. POST-only; no application-
@@ -140,11 +140,11 @@ overview: 'Redplanetlabs publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Redplanetlabs'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, CLI, authentication, and 15 more developer resources.'
-random_paper: 65
+random_paper: 47
 score:
   band: emerging
   composite: 25.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -152,13 +152,13 @@ score:
     discoverability: 77.8
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 26.3
+  previous_composite: 25.2
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

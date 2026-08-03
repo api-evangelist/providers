@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -364,7 +364,7 @@ plans:
 - name: Bigid Plans Pricing
   plan_count: 4
   slug: bigid-plans-pricing
-random_paper: 19
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Bigid Rate Limits
@@ -388,16 +388,16 @@ rules:
   slug: bigid-rules
 score:
   band: strong
-  composite: 59.9
-  delta: -3.3
+  composite: 60.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 69.8
+    contract_quality: 72.4
     developer_ergonomics: 58.7
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 63.2
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -405,8 +405,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/screenshots/bigid-2026-06-20T173239.png
 security:

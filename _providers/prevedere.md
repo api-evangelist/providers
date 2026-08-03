@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 19
 apis:
 - description: The Alert API from Prevedere — 1 operation(s) for alert.
@@ -182,19 +182,19 @@ overview: 'Prevedere publishes 19 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prevedere''s developer surface includes authentication, documentation, API reference, pricing, support, and 14 more developer resources.'
-random_paper: 60
+random_paper: 12
 score:
   band: thin
-  composite: 35.9
-  delta: -2.1
+  composite: 36.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 40.0
+    contract_quality: 43.1
     developer_ergonomics: 34.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 38.0
+  previous_composite: 36.6
   provenance:
     conformance: derived
     contracts:
@@ -204,8 +204,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

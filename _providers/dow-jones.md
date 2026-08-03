@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 52.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ overview: 'Dow Jones publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Dow Jones'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 27 more developer resources.'
-random_paper: 16
+random_paper: 63
 scopes:
 - name: Dow Jones Scopes
   scope_count: 7
@@ -261,21 +261,21 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/password/jwt-bearer/refresh_token
 score:
   band: developing
-  composite: 50.0
-  delta: -5.9
+  composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.6
+    contract_quality: 66.2
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 55.9
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 85.7
       derived: 0
       marker_coverage: 0.0
       total: 7
@@ -287,9 +287,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png
 security:
 - kind: authentication

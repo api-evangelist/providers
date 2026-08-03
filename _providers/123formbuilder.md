@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -368,7 +368,7 @@ plans:
 - name: 123Formbuilder Plans Pricing
   plan_count: 5
   slug: 123formbuilder-plans-pricing
-random_paper: 17
+random_paper: 94
 rate_limits:
 - limit_count: 7
   name: 123Formbuilder Rate Limits
@@ -393,7 +393,7 @@ rules:
 score:
   band: strong
   composite: 65.3
-  delta: -7.1
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 80.6
@@ -401,7 +401,7 @@ score:
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 72.4
+  previous_composite: 65.3
   provenance:
     agentic_access: derived
     contracts:
@@ -415,9 +415,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/screenshots/123formbuilder-2026-06-20T162300.png
 security:
 - kind: authentication

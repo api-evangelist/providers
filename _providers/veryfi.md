@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ plans:
 - name: Veryfi Plans Pricing
   plan_count: 3
   slug: veryfi-plans-pricing
-random_paper: 5
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Veryfi Rate Limits
@@ -286,16 +286,16 @@ rules:
   slug: veryfi-ocr-rules
 score:
   band: strong
-  composite: 58.5
-  delta: -2.9
+  composite: 59.1
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 71.7
+    contract_quality: 74.1
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 61.4
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     contracts:
@@ -303,8 +303,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/screenshots/veryfi-2026-06-20T201000.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ overview: 'xMatters publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   xMatters'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 68
+random_paper: 33
 scopes:
 - name: Xmatters Scopes
   scope_count: 0
@@ -161,16 +161,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.6
-  delta: -2.1
+  composite: 31.1
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 53.4
+    contract_quality: 51.2
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.7
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/screenshots/xmatters-2026-06-20T201707.png
 security:

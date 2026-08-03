@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -194,19 +194,19 @@ overview: 'Simplifi/Simplifipay publishes 9 APIs on the [APIs.io](https://apis.i
 
 
   Simplifi/Simplifipay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 47
+random_paper: 7
 score:
   band: developing
-  composite: 52.3
-  delta: -1.1
+  composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 71.3
+    contract_quality: 75.1
     developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 53.4
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,8 +223,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
-    openapi_examples: false
-    rate_limit_signal: documented
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-07-28'
+  score: 60.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -39,9 +39,6 @@ agentic_access:
   summary_line: 84 operations
 api_count: 11
 apis:
-- description: The full EODHD REST surface — 83 operations across end-of-day and intraday prices, fundamentals, calendars, news and sentiment, options, indices, screening, macro and credit-risk data, sanctions, ESG,
-  name: EODHD Financial Data API
-  slug: financial-data-api
 - description: Provides intraday historical OHLCV data at 1-minute, 5-minute, and 1-hour intervals for US stocks and other supported markets, with multi-year lookbacks depending on the resolution.
   name: EODHD Intraday Historical Data API
   slug: intraday-historical-data-api
@@ -72,6 +69,9 @@ apis:
 - description: The Eod API from EODHD — 1 operation(s) for eod.
   name: EODHD Eod API
   slug: eodhd-eod-api
+- description: EODHD Financial Data API from EODHD — 83 path(s) described in OpenAPI.
+  name: EODHD Financial Data API
+  slug: eodhd-financial-data-openapi
 artifact_total: 27
 asyncapis:
 - description: Real-time streaming of US equity trades and quotes, forex, and cryptocurrency prices over WebSockets with sub-50ms latency. Authenticates with the same api_token used by the REST API (validated during
@@ -295,7 +295,7 @@ modified: '2026-07-22'
 name: EODHD
 nav: Providers
 network: true
-overview: 'EODHD publishes 3 APIs on the [APIs.io](https://apis.io/) network: Financial Data API, WebSockets Real-Time API, and Eod API. Tagged areas include Financial, Market Data, Stock Options, Stocks, and ETFs.
+overview: 'EODHD publishes 3 APIs on the [APIs.io](https://apis.io/) network: WebSockets Real-Time API, Eod API, and Financial Data API. Tagged areas include Financial, Market Data, Stock Options, Stocks, and ETFs.
 
 
   The EODHD catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -306,7 +306,7 @@ plans:
 - name: Eodhd Plans Pricing
   plan_count: 6
   slug: eodhd-plans-pricing
-random_paper: 24
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Eodhd Rate Limits
@@ -327,16 +327,16 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.2
-  delta: -2.6
+  composite: 74.4
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 67.9
+    contract_quality: 68.8
     developer_ergonomics: 84.8
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 52.6
-  previous_composite: 76.8
+  previous_composite: 74.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -353,8 +353,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/screenshots/eodhd-2026-06-20T180745.png
 security:

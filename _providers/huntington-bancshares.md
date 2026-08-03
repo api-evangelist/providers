@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ press:
 - date: '2026-05-25'
   title: Huntington Launches Huntington Heads Up® with AI to ...
   url: https://www.prnewswire.com/news-releases/huntington-launches-huntington-heads-up-with-ai-to-improve-customers-digital-banking-experience-300794687.html
-random_paper: 65
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Huntington Bancshares Rate Limits
@@ -134,16 +134,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.8
-  delta: -4.1
+  composite: 38.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.7
+    contract_quality: 64.1
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 41.9
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +157,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/screenshots/huntington-bancshares-2026-06-20T182949.png
 security:

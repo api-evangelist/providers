@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-07-28'
+  score: 57.9
+  scored_at: '2026-08-03'
 api_count: 75
 apis:
 - description: The AI Embed API from AppDirect — 2 operation(s) for ai embed.
@@ -425,24 +425,24 @@ overview: 'AppDirect publishes 75 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AppDirect''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 29 more developer resources.'
-random_paper: 54
+random_paper: 6
 scopes:
 - name: Appdirect Scopes
   scope_count: 15
   slug: appdirect-scopes
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 55.4
-  delta: -0.7
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.6
+    contract_quality: 66.0
     developer_ergonomics: 69.0
     discoverability: 74.1
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 56.1
+  previous_composite: 56.2
   provenance:
     conformance: derived
     contracts:
@@ -452,8 +452,8 @@ score:
       total: 75
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/screenshots/appdirect-2026-07-25T200730.png
 security:

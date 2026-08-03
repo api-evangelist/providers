@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.1
-  scored_at: '2026-07-28'
+  score: 54.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -1134,7 +1134,7 @@ plans:
 - name: Twilio Plans Pricing
   plan_count: 2
   slug: twilio-plans-pricing
-random_paper: 8
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Twilio Rate Limits
@@ -1166,16 +1166,16 @@ rules:
   slug: twilio-rules
 score:
   band: exemplar
-  composite: 73.6
-  delta: -3.2
+  composite: 74.2
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 68.4
+    contract_quality: 71.1
     developer_ergonomics: 84.8
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 94.7
-  previous_composite: 76.8
+  previous_composite: 74.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1192,8 +1192,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:

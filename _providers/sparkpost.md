@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -221,9 +221,9 @@ plans:
 - name: Sparkpost Plans Pricing
   plan_count: 3
   slug: sparkpost-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Sparkpost Rate Limits
   slug: sparkpost-rate-limits
 rules:
@@ -237,16 +237,16 @@ rules:
   slug: sparkpost-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: -4.1
+  composite: 55.0
+  delta: 2.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.1
+    contract_quality: 70.8
     developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 55.7
+    operational_transparency: 42.1
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     contracts:
@@ -254,8 +254,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparkpost/refs/heads/main/screenshots/sparkpost-2026-06-20T194256.png
 security:

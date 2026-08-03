@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -356,7 +356,7 @@ plans:
 - name: Cisco Expressway Plans Pricing
   plan_count: 1
   slug: cisco-expressway-plans-pricing
-random_paper: 49
+random_paper: 74
 rate_limits:
 - limit_count: 2
   name: Cisco Expressway Rate Limits
@@ -380,16 +380,16 @@ rules:
   slug: cisco-expressway-rules
 score:
   band: strong
-  composite: 62.2
-  delta: -5.9
+  composite: 62.8
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 72.9
+    contract_quality: 75.2
     developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 68.1
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     contracts:
@@ -397,9 +397,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/screenshots/cisco-expressway-2026-06-20T174356.png
 security:
 - kind: authentication

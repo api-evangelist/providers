@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -185,7 +185,7 @@ plans:
 - name: Firstpromoter Plans Pricing
   plan_count: 3
   slug: firstpromoter-plans-pricing
-random_paper: 46
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Firstpromoter Rate Limits
@@ -201,16 +201,16 @@ rules:
   slug: firstpromoter-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.5
-  delta: -4.6
+  composite: 51.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.0
+    contract_quality: 74.9
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 55.1
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     contracts:
@@ -218,8 +218,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/screenshots/firstpromoter-2026-06-20T181244.png
 security:

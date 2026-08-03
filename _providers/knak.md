@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 21
 apis:
 - description: The Asset Custom Fieldsets API from Knak — 2 operation(s) for asset custom fieldsets.
@@ -259,24 +259,24 @@ overview: 'Knak publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Knak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 11
+random_paper: 41
 scopes:
 - name: Knak Scopes
   scope_count: 1
   slug: knak-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 55.4
+  band: strong
+  composite: 56.2
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.8
+    contract_quality: 66.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 55.4
+  previous_composite: 56.2
   provenance:
     conformance: derived
     contracts:
@@ -286,8 +286,8 @@ score:
       total: 21
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/screenshots/knak-2026-07-25T223953.png
 security:

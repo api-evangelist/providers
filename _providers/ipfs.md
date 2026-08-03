@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 1
@@ -250,7 +250,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 24
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -266,16 +266,16 @@ rules:
   slug: ipfs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.3
-  delta: -4.7
+  composite: 36.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 45.2
+    contract_quality: 49.8
     developer_ergonomics: 13.0
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 40.0
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -283,8 +283,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/screenshots/ipfs-2026-06-20T183549.png
 security:

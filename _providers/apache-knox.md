@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ plans:
 - name: Apache Knox Plans Pricing
   plan_count: 3
   slug: apache-knox-plans-pricing
-random_paper: 37
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Apache Knox Rate Limits
@@ -239,16 +239,16 @@ rules:
   slug: apache-knox-spectral-rules
 score:
   band: developing
-  composite: 51.9
-  delta: -5.2
+  composite: 52.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.1
+    contract_quality: 60.7
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 57.1
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -256,9 +256,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/screenshots/apache-knox-2026-06-20T172116.png
 security:
 - kind: authentication

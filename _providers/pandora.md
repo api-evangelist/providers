@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Pandora GraphQL API provides access to Pandora's music catalog and listener data, enabling developers to build applications with playback controls, search, user collection management, feedback (th
@@ -108,25 +108,25 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 3
+random_paper: 76
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Rate Limits
   slug: rate-limits
 score:
   band: thin
-  composite: 36.7
-  delta: -2.2
+  composite: 39.4
+  delta: 2.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 48.1
     developer_ergonomics: 39.1
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 38.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    operational_transparency: 21.1
+  previous_composite: 36.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandora/refs/heads/main/screenshots/pandora-2026-06-20T191335.png
 security:

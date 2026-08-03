@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 23.2
-  scored_at: '2026-07-28'
+  score: 26.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 14
@@ -163,19 +163,19 @@ overview: 'Perimeter 81 publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   Perimeter 81''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 57
+random_paper: 78
 score:
   band: thin
-  composite: 39.7
+  composite: 40.6
   delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 39.7
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -186,8 +186,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

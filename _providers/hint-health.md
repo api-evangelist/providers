@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -1277,7 +1277,7 @@ plans:
 - name: Hint Health Plans Pricing
   plan_count: 6
   slug: hint-health-plans-pricing
-random_paper: 44
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Hint Health Rate Limits
@@ -1293,16 +1293,16 @@ rules:
   slug: hint-health-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.3
-  delta: -6.5
+  composite: 46.0
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 61.6
+    contract_quality: 65.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 51.8
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1316,9 +1316,9 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/screenshots/hint-health-2026-06-20T182747.png
 security:
 - kind: authentication

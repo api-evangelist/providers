@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: REST payment gateway API to initiate transactions, verify transaction status, and process refunds across 150+ payment options (cards, UPI, net banking, wallets, EMI). Requests are authenticated with a
@@ -135,11 +135,11 @@ overview: 'Easebuzz publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Easebuzz''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 53
+random_paper: 18
 score:
   band: thin
   composite: 35.4
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -147,7 +147,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 36.4
+  previous_composite: 35.4
   provenance:
     conformance: first-party
   regulatory:
@@ -156,8 +156,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/screenshots/easebuzz-2026-07-25T212713.png
 security:

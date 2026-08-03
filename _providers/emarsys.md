@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ overview: 'SAP Emarsys publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   SAP Emarsys'' developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 16 more developer resources.'
-random_paper: 34
+random_paper: 12
 scopes:
 - name: Emarsys Scopes
   scope_count: 156
@@ -171,16 +171,16 @@ scopes:
   summary_line: 156 scopes · clientCredentials
 score:
   band: thin
-  composite: 40.4
-  delta: -1.2
+  composite: 40.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 56.9
+    contract_quality: 57.4
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 41.6
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -188,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/screenshots/emarsys-2026-06-20T180628.png
 security:

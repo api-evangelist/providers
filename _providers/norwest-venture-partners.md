@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Norwest Venture Partners
 nav: Providers
 network: true
-random_paper: 72
+random_paper: 62
 slug: norwest-venture-partners
 tags:
 - Venture Capital

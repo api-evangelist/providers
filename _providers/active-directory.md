@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -397,7 +397,7 @@ plans:
 - name: Active Directory Plans Pricing
   plan_count: 8
   slug: active-directory-plans-pricing
-random_paper: 22
+random_paper: 47
 rate_limits:
 - limit_count: 7
   name: Active Directory Rate Limits
@@ -426,16 +426,16 @@ scopes:
   summary_line: 11 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 71.5
-  delta: -4.8
+  composite: 72.0
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 75.3
+    contract_quality: 77.4
     developer_ergonomics: 69.6
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 76.3
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     contracts:
@@ -443,8 +443,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/screenshots/active-directory-2026-07-25T181526.png
 security:

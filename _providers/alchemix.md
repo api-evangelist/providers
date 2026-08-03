@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: The primary developer interface for Alchemix is its on-chain smart contracts deployed on Ethereum Mainnet, Optimism, and Arbitrum. Core contracts include the Alchemist (vault deposits, borrowing, repa
@@ -63,11 +63,11 @@ name: Alchemix
 nav: Providers
 network: true
 overview: Alchemix publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Self-Repaying Loans, Synthetic Assets, Yield, and Ethereum.
-random_paper: 23
+random_paper: 83
 score:
   band: emerging
   composite: 19.0
-  delta: 9.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 43.2
@@ -75,10 +75,10 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 19.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alchemix/refs/heads/main/screenshots/alchemix-2026-06-20T171509.png
 security:
 - kind: domain-security

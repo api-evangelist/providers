@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ plans:
 - name: Amnic Plans Pricing
   plan_count: 3
   slug: amnic-plans-pricing
-random_paper: 28
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Amnic Rate Limits
@@ -217,17 +217,17 @@ rules:
     warn: 18
   slug: amnic-spectral-rules
 score:
-  band: developing
-  composite: 49.2
-  delta: -7.1
+  band: thin
+  composite: 40.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.6
+    contract_quality: 28.3
     developer_ergonomics: 21.7
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 56.3
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -235,9 +235,9 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amnic/refs/heads/main/screenshots/amnic-2026-06-20T171936.png
 security:
 - kind: authentication

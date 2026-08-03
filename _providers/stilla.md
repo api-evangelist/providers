@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Programmatic access to Stilla's capabilities. The REST API and the remote MCP server are protected by OAuth 2.0 / OIDC (WorkOS AuthKit). The OpenAPI document is served at api.stilla.ai/openapi.json bu
@@ -164,7 +164,7 @@ overview: 'Stilla publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Stilla''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 75
+random_paper: 79
 scopes:
 - name: Stilla Scopes
   scope_count: 4
@@ -173,7 +173,7 @@ scopes:
 score:
   band: thin
   composite: 37.9
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -181,12 +181,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 37.0
+  previous_composite: 37.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

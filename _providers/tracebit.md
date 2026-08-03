@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The Alerts API from Tracebit — 2 operation(s) for alerts.
@@ -171,19 +171,19 @@ overview: 'Tracebit publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Tracebit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 26
+random_paper: 86
 score:
   band: developing
-  composite: 53.5
-  delta: -0.4
+  composite: 54.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 67.4
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 53.9
+  previous_composite: 54.4
   provenance:
     conformance: derived
     contracts:
@@ -193,8 +193,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

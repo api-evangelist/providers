@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ plans:
 - name: Relativityone Plans Pricing
   plan_count: 1
   slug: relativityone-plans-pricing
-random_paper: 29
+random_paper: 93
 rate_limits:
 - limit_count: 1
   name: Relativityone Rate Limits
@@ -263,16 +263,16 @@ rules:
   slug: relativityone-rules
 score:
   band: developing
-  composite: 52.7
-  delta: -4.5
+  composite: 53.3
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 74.3
+    contract_quality: 76.5
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 57.2
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     contracts:
@@ -280,8 +280,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/screenshots/relativityone-2026-06-20T192820.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.8
-  scored_at: '2026-07-28'
+  score: 61.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -396,7 +396,7 @@ plans:
 - name: Alpaca Plans Pricing
   plan_count: 3
   slug: alpaca-plans-pricing
-random_paper: 36
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Alpaca Rate Limits
@@ -417,16 +417,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 84.5
-  delta: -1.9
+  composite: 85.2
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 68.0
+    contract_quality: 71.3
     developer_ergonomics: 91.3
     discoverability: 92.6
     governance: 68.8
     operational_transparency: 86.8
-  previous_composite: 86.4
+  previous_composite: 85.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -443,8 +443,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 86.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/screenshots/alpaca-2026-06-20T171542.png
 security:

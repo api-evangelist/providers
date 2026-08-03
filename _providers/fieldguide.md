@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-07-28'
+  score: 49.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ overview: 'Fieldguide publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fieldguide''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 58
+random_paper: 92
 scopes:
 - name: Fieldguide Scopes
   scope_count: 21
@@ -232,16 +232,16 @@ scopes:
   summary_line: 21 scopes
 score:
   band: developing
-  composite: 51.6
-  delta: -2.8
+  composite: 52.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.2
+    contract_quality: 66.8
     developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 54.4
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +252,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/screenshots/fieldguide-2026-07-25T214434.png
 security:

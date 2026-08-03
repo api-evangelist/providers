@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for managing features, components, products, notes (customer feedback), users, companies, objectives, releases, and webhooks within Productboard. Supports both v1 and v2 endpoints. Authentica
@@ -103,11 +103,11 @@ overview: 'Productboard publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Productboard''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 59
+random_paper: 54
 score:
   band: thin
   composite: 29.9
-  delta: 11.2
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 54.3
@@ -115,16 +115,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 18.7
+  previous_composite: 29.9
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productboard/refs/heads/main/screenshots/productboard-2026-06-20T192139.png
 security:
 - kind: domain-security

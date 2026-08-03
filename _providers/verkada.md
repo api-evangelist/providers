@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-07-28'
+  score: 40.8
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for the Verkada Command platform - cameras and footage, access control, sensors, alarms, guest management, Helix video tagging, and audit logs. Scoped API key + short-lived token auth; region
@@ -199,7 +199,7 @@ overview: 'Verkada publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Verkada''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 78
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Verkada Rate Limits
@@ -207,7 +207,7 @@ rate_limits:
 score:
   band: strong
   composite: 58.2
-  delta: 5.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -215,14 +215,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 84.2
-  previous_composite: 52.3
+  previous_composite: 58.2
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Verkada Authentication

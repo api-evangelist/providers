@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 20
 apis:
 - description: Create, retrieve, update, list, and delete customers ("clientes"). The Customer object holds personal/business identifiers (CPF/CNPJ), contact details, address, default notification preferences, and S
@@ -225,11 +225,11 @@ overview: 'Asaas publishes 20 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Asaas'' developer surface includes signup flow, documentation, API reference, getting-started guide, authentication, sandbox, changelog, and 15 more developer resources.'
-random_paper: 29
+random_paper: 46
 score:
   band: emerging
   composite: 27.9
-  delta: -3.9
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -237,15 +237,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 31.8
+  previous_composite: 27.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asaas/refs/heads/main/screenshots/asaas-2026-06-20T172451.png
 security:

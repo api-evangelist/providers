@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -134,23 +134,23 @@ plans:
 - name: Vllm Plans Pricing
   plan_count: 1
   slug: vllm-plans-pricing
-random_paper: 33
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Vllm Rate Limits
   slug: vllm-rate-limits
 score:
   band: thin
-  composite: 31.6
-  delta: -2.8
+  composite: 32.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 49.2
+    contract_quality: 53.5
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.4
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -158,8 +158,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/screenshots/vllm-2026-06-20T201117.png
 security:

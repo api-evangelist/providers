@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-07-28'
+  score: 36.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Extend''s REST API for product and shipping protection: manage offers, contracts, orders and line items, refunds, claims, service orders, and leads. Header-based date versioning; OAuth2 client-credenti'
@@ -167,11 +167,11 @@ overview: 'Extend publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Extend''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 20 more developer resources.'
-random_paper: 74
+random_paper: 78
 score:
   band: developing
   composite: 47.5
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -179,7 +179,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 44.1
+  previous_composite: 47.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -189,8 +189,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/screenshots/extend-2026-07-25T213943.png
 security:

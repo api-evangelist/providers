@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: CRUD operations for collection records including list, view, create, update, delete, and batch operations. Supports filtering, sorting, pagination, relation expansion, field selection, and multipart f
@@ -128,26 +128,26 @@ plans:
 - name: Pocketbase Plans Pricing
   plan_count: 1
   slug: pocketbase-plans-pricing
-random_paper: 73
+random_paper: 12
 rate_limits:
-- limit_count: 0
+- limit_count: 4
   name: Pocketbase Rate Limits
   slug: pocketbase-rate-limits
 score:
   band: thin
-  composite: 32.1
-  delta: 6.1
+  composite: 36.2
+  delta: 4.1
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.6
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 26.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+    operational_transparency: 36.8
+  previous_composite: 32.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocketbase/refs/heads/main/screenshots/pocketbase-2026-06-20T191826.png
 security:
 - kind: domain-security

@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -206,19 +206,19 @@ overview: 'Overflow publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Overflow''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 19 more developer resources.'
-random_paper: 64
+random_paper: 29
 score:
   band: developing
-  composite: 47.9
-  delta: -4.0
+  composite: 48.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 66.1
+    contract_quality: 69.2
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 51.9
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +235,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

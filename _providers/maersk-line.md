@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ plans:
 - name: Maersk Line Plans Pricing
   plan_count: 5
   slug: maersk-line-plans-pricing
-random_paper: 46
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Maersk Line Rate Limits
@@ -363,16 +363,16 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.8
-  delta: -4.5
+  composite: 55.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.5
+    contract_quality: 74.9
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 59.3
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -380,8 +380,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/screenshots/maersk-line-2026-06-20T184832.png
 security:

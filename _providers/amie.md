@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-07-28'
+  score: 28.4
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -110,11 +110,11 @@ overview: 'Amie is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Amie''s developer surface includes signup flow, pricing, engineering blog, support, changelog, and 9 more developer resources.'
-random_paper: 2
+random_paper: 32
 score:
   band: thin
   composite: 33.7
-  delta: 6.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -122,12 +122,12 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 27.5
+  previous_composite: 33.7
   provenance:
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amie/refs/heads/main/screenshots/amie-2026-07-25T200056.png
 security:
 - kind: domain-security

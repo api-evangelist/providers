@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for the Loomly brand success platform, providing programmatic access to social media calendars, posts, approval workflows, publishing scheduling, and analytics. Authenticated via OAuth 2.0 Be
@@ -112,7 +112,7 @@ plans:
 - name: Loomly Plans Pricing
   plan_count: 3
   slug: loomly-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Loomly Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.1
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 0.0
@@ -128,9 +128,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 28.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 26.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loomly/refs/heads/main/screenshots/loomly-2026-06-20T184715.png
 security:

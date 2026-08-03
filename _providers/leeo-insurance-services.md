@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,19 +168,19 @@ overview: 'LEEO Insurance Services publishes 4 APIs on the [APIs.io](https://api
 
 
   LEEO Insurance Services'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 18 more developer resources.'
-random_paper: 51
+random_paper: 67
 score:
   band: developing
-  composite: 47.4
-  delta: -3.5
+  composite: 48.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.3
+    contract_quality: 68.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 50.9
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,8 +197,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/screenshots/leeo-insurance-services-2026-07-25T224822.png
 security:

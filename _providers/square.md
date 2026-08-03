@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: verified
     mcp_server: true
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-07-28'
+  score: 56.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 3
@@ -814,7 +814,7 @@ plans:
 - name: Square Plans Pricing
   plan_count: 4
   slug: square-plans-pricing
-random_paper: 1
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Square Rate Limits
@@ -851,16 +851,16 @@ scopes:
   summary_line: 58 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.7
-  delta: -6.0
+  composite: 72.7
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 71.4
+    contract_quality: 76.3
     developer_ergonomics: 87.0
     discoverability: 50.0
     governance: 52.1
     operational_transparency: 76.3
-  previous_composite: 76.7
+  previous_composite: 72.7
   provenance:
     agentic_access: derived
     contracts:
@@ -873,10 +873,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+    score: 68.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png
 security:
 - kind: authentication

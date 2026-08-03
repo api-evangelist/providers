@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 14
@@ -152,7 +152,7 @@ plans:
 - name: Tesla Plans Pricing
   plan_count: 3
   slug: tesla-plans-pricing
-random_paper: 45
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Tesla Rate Limits
@@ -175,17 +175,17 @@ rules:
     warn: 5
   slug: tesla-rules
 score:
-  band: thin
-  composite: 41.8
-  delta: -6.4
+  band: developing
+  composite: 42.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 56.1
+    contract_quality: 60.9
     developer_ergonomics: 19.6
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 48.2
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -199,9 +199,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Tesla Domain Security

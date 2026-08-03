@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for managing Jimdo website content, blog posts, online store products, orders, and customer data for small business websites built on the Jimdo platform.
@@ -108,7 +108,7 @@ plans:
 - name: Jimdo Plans Pricing
   plan_count: 12
   slug: jimdo-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Jimdo Rate Limits
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.8
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 32.3
@@ -124,9 +124,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 29.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/screenshots/jimdo-2026-06-20T183734.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for third-party sellers and integrators to connect to the KaBuM! marketplace (operated on the Mirakl platform). Covers category hierarchies, product attribute mapping, product and offer impor
@@ -96,11 +96,11 @@ overview: 'KaBum! publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   KaBum!''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 36
+random_paper: 53
 score:
   band: emerging
   composite: 21.8
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -108,9 +108,9 @@ score:
     discoverability: 79.6
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 23.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 21.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kabum/refs/heads/main/screenshots/kabum-2026-07-25T223359.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ plans:
 - name: Lattice Plans Pricing
   plan_count: 6
   slug: lattice-plans-pricing
-random_paper: 4
+random_paper: 77
 rate_limits:
 - limit_count: 3
   name: Lattice Rate Limits
@@ -230,16 +230,16 @@ rules:
   slug: lattice-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.2
-  delta: -3.3
+  composite: 56.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 73.7
+    contract_quality: 75.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 59.5
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     contracts:
@@ -247,8 +247,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/screenshots/lattice-2026-06-20T184350.png
 security:

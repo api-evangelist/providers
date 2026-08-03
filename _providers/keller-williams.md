@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-07-28'
+  score: 37.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ overview: 'Keller Williams publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 27 more developer resources.'
-random_paper: 74
+random_paper: 30
 scopes:
 - name: Keller Williams Scopes
   scope_count: 40
@@ -215,16 +215,16 @@ scopes:
   summary_line: 40 scopes · authorizationCode/implicit/clientCredentials/tokenExchange/jwtBearer
 score:
   band: developing
-  composite: 47.8
-  delta: -4.8
+  composite: 50.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.6
+    contract_quality: 63.6
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 52.6
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,8 +236,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

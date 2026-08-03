@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 248
   slug: yext-agentic-access
   summary_line: 248 operations · 121 acting
-api_count: 23
+api_count: 24
 apis:
 - description: The Account Settings API from Yext — 10 operation(s) for account settings.
   name: Yext Account Settings API
@@ -108,7 +108,10 @@ apis:
 - description: The Suggestions API from Yext — 2 operation(s) for suggestions.
   name: Yext Suggestions API
   slug: yext-suggestions-api
-artifact_total: 40
+- description: Yext Webhooks from Yext, described in OpenAPI.
+  name: Yext Webhooks
+  slug: yext-webhooks-openapi
+artifact_total: 41
 common:
 - group: agent
   title: ''
@@ -220,7 +223,7 @@ modified: '2026-06-13'
 name: Yext
 nav: Providers
 network: true
-overview: 'Yext publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Accounts API, Administrative API API, and 20 more. Tagged areas include Digital Presence, Business Listings, Location Data, Reviews, and AI Search.
+overview: 'Yext publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Accounts API, Administrative API API, and 21 more. Tagged areas include Digital Presence, Business Listings, Location Data, Reviews, and AI Search.
 
 
   The Yext catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -231,7 +234,7 @@ plans:
 - name: Yext Plans Pricing
   plan_count: 5
   slug: yext-plans-pricing
-random_paper: 48
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Yext Rate Limits
@@ -247,16 +250,16 @@ rules:
   slug: yext-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: -4.7
+  composite: 49.7
+  delta: -0.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.7
+    contract_quality: 62.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 54.1
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     contracts:
@@ -264,8 +267,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/screenshots/yext-2026-06-20T201740.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ press:
 - date: '2026-05-25'
   title: ScanSource Q3 Earnings Call Highlights
   url: https://www.theglobeandmail.com/investing/markets/stocks/SCSC/pressreleases/1832981/scansource-q3-earnings-call-highlights/
-random_paper: 12
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Scansource Rate Limits
@@ -214,16 +214,16 @@ rules:
   slug: scansource-rules
 score:
   band: developing
-  composite: 51.5
-  delta: -4.5
+  composite: 52.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 78.0
+    contract_quality: 79.8
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 56.0
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -231,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/screenshots/scansource-2026-06-20T193517.png
 security:

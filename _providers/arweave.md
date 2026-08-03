@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: GraphQL API for querying Arweave transaction and block metadata by tags, owner addresses, recipients, block height ranges, and transaction IDs. Supports cursor-based pagination and sorting. Primary en
@@ -200,7 +200,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 9
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -216,24 +216,24 @@ rules:
   slug: arweave-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.0
-  delta: -3.7
+  composite: 58.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.7
+    contract_quality: 74.7
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 61.7
+  previous_composite: 58.5
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/screenshots/arweave-2026-06-20T172449.png
 security:

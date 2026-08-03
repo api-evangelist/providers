@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -316,7 +316,7 @@ plans:
 - name: Apache Openwhisk Plans Pricing
   plan_count: 3
   slug: apache-openwhisk-plans-pricing
-random_paper: 81
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Apache Openwhisk Rate Limits
@@ -339,17 +339,17 @@ rules:
     warn: 8
   slug: apache-openwhisk-spectral-rules
 score:
-  band: developing
-  composite: 43.8
-  delta: -9.1
+  band: thin
+  composite: 37.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 50.0
+    contract_quality: 22.9
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 52.9
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -357,9 +357,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 3
@@ -309,19 +309,19 @@ overview: 'Mend publishes 47 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mend''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
-random_paper: 10
+random_paper: 40
 score:
   band: developing
-  composite: 50.0
-  delta: -1.7
+  composite: 51.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 51.6
+    contract_quality: 56.3
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 51.7
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -332,8 +332,8 @@ score:
       total: 47
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

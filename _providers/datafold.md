@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ plans:
 - name: Datafold Plans Pricing
   plan_count: 3
   slug: datafold-plans-pricing
-random_paper: 11
+random_paper: 71
 rate_limits:
 - limit_count: 0
   name: Datafold Rate Limits
@@ -192,16 +192,16 @@ rules:
   slug: datafold-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.6
-  delta: -4.1
+  composite: 50.6
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 66.1
+    contract_quality: 70.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 53.7
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/screenshots/datafold-2026-06-20T175639.png
 security:

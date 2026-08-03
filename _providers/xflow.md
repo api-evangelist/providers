@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-07-28'
+  score: 36.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -253,19 +253,19 @@ overview: 'Xflow publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Xflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 68
+random_paper: 85
 score:
   band: developing
-  composite: 52.7
-  delta: -2.8
+  composite: 53.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 60.3
+    contract_quality: 65.1
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 55.5
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -282,8 +282,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: The accounts API from PlateIQ — 3 operation(s) for accounts.
@@ -196,9 +196,9 @@ overview: 'PlateIQ publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PlateIQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 23 more developer resources.'
-random_paper: 14
+random_paper: 87
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Plateiq Rate Limits
   slug: plateiq-rate-limits
 scopes:
@@ -207,17 +207,17 @@ scopes:
   slug: plateiq-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.2
-  delta: -2.5
+  band: strong
+  composite: 57.8
+  delta: 3.5
   facets:
     commercial_clarity: 36.8
-    contract_quality: 53.9
+    contract_quality: 59.3
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 39.5
-  previous_composite: 55.7
+    operational_transparency: 71.1
+  previous_composite: 54.3
   provenance:
     conformance: first-party
     contracts:
@@ -233,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

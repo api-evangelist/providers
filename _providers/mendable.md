@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -125,23 +125,23 @@ plans:
 - name: Mendable Plans Pricing
   plan_count: 2
   slug: mendable-plans-pricing
-random_paper: 4
+random_paper: 64
 rate_limits:
 - limit_count: 4
   name: Mendable Rate Limits
   slug: mendable-rate-limits
 score:
   band: thin
-  composite: 39.1
-  delta: -2.2
+  composite: 39.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 61.0
+    contract_quality: 62.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 41.3
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mendable/refs/heads/main/screenshots/mendable-2026-06-20T185156.png
 security:

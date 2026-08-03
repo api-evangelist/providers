@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-07-28'
+  score: 38.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ plans:
 - name: Rudderstack Plans Pricing
   plan_count: 5
   slug: rudderstack-plans-pricing
-random_paper: 32
+random_paper: 40
 rate_limits:
 - limit_count: 6
   name: Rudderstack Rate Limits
@@ -273,16 +273,16 @@ rules:
   slug: rudderstack-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 62.7
-  delta: -2.3
+  composite: 63.2
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 72.4
+    contract_quality: 74.3
     developer_ergonomics: 58.7
     discoverability: 55.6
     governance: 47.9
     operational_transparency: 68.4
-  previous_composite: 65.0
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     contracts:
@@ -290,8 +290,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/screenshots/rudderstack-2026-06-20T193249.png
 security:

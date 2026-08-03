@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 316
   human_in_the_loop: 4
@@ -233,23 +233,23 @@ plans:
 - name: Pulumi Plans Pricing
   plan_count: 3
   slug: pulumi-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Pulumi Rate Limits
   slug: pulumi-rate-limits
 score:
   band: developing
-  composite: 44.3
-  delta: -4.9
+  composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 42.7
+    contract_quality: 48.1
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 49.2
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -263,8 +263,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/screenshots/pulumi-2026-06-20T192304.png
 security:

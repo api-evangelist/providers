@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 5
@@ -139,19 +139,19 @@ overview: 'Capchase publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Capchase''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 13 more developer resources.'
-random_paper: 4
+random_paper: 64
 score:
   band: developing
-  composite: 45.8
-  delta: -2.5
+  composite: 46.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 48.3
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -168,8 +168,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/screenshots/capchase-2026-07-25T204424.png
 security:

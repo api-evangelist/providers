@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ plans:
 - name: Twelvedata Plans Pricing
   plan_count: 5
   slug: twelvedata-plans-pricing
-random_paper: 7
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Twelvedata Rate Limits
@@ -288,21 +288,21 @@ rules:
   slug: twelvedata-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 75.6
-  delta: -1.7
+  composite: 75.8
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 63.3
+    contract_quality: 64.6
     developer_ergonomics: 86.4
     discoverability: 92.6
     governance: 53.1
     operational_transparency: 73.7
-  previous_composite: 77.3
+  previous_composite: 75.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 83.3
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
@@ -314,8 +314,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-07-22T202655.png
 security:

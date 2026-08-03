@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -165,7 +165,7 @@ plans:
 - name: Ssl Tls Plans Pricing
   plan_count: 1
   slug: ssl-tls-plans-pricing
-random_paper: 66
+random_paper: 57
 rate_limits:
 - limit_count: 7
   name: Ssl Tls Rate Limits
@@ -189,16 +189,16 @@ rules:
   slug: ssl-tls-rules
 score:
   band: developing
-  composite: 46.0
-  delta: -5.4
+  composite: 46.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.7
+    contract_quality: 65.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 51.4
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -206,9 +206,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/screenshots/ssl-tls-2026-06-20T194435.png
 security:
 - kind: authentication

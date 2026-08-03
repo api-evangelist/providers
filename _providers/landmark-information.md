@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 49.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -239,7 +239,7 @@ overview: 'Landmark Information Group publishes 5 APIs on the [APIs.io](https://
 
 
   Landmark Information Group''s developer surface includes API reference, getting-started guide, support, changelog, sandbox, authentication, documentation, and 27 more developer resources.'
-random_paper: 27
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Landmark Information Rate Limits
@@ -251,11 +251,11 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.8
-  delta: -1.7
+  composite: 53.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.8
+    contract_quality: 71.6
     developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 11.5
@@ -271,8 +271,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

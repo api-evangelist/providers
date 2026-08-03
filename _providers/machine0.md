@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The machine0 control plane for creating, managing, snapshotting and connecting to persistent cloud VMs. Exposed as a CLI (npm @machine0/cli) and a remote MCP server (Streamable HTTP, OAuth 2.0 + API k
@@ -116,7 +116,7 @@ overview: 'Machine0 publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Machine0''s developer surface includes documentation, quickstart, pricing, changelog, CLI, and 11 more developer resources.'
-random_paper: 35
+random_paper: 13
 scopes:
 - name: Machine0 Scopes
   scope_count: 0
@@ -125,7 +125,7 @@ scopes:
 score:
   band: thin
   composite: 31.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -133,13 +133,13 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 32.2
+  previous_composite: 31.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/machine0/refs/heads/main/screenshots/machine0-2026-07-25T225816.png
 security:

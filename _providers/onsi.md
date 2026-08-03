@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: verified
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -162,23 +162,23 @@ overview: 'Onsi publishes 2 APIs on the [APIs.io](https://apis.io/) network: mem
 
 
   Onsi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 18 more developer resources.'
-random_paper: 31
+random_paper: 61
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Onsi Rate Limits
   slug: onsi-rate-limits
 score:
-  band: thin
-  composite: 38.4
-  delta: -4.3
+  band: developing
+  composite: 42.8
+  delta: 2.3
   facets:
     commercial_clarity: 21.1
-    contract_quality: 43.1
+    contract_quality: 52.9
     developer_ergonomics: 62.5
     discoverability: 75.9
     governance: 11.5
-    operational_transparency: 15.8
-  previous_composite: 42.7
+    operational_transparency: 36.8
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,8 +195,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

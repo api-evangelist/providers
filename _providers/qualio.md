@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -197,19 +197,19 @@ overview: 'Qualio publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qualio''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 77
+random_paper: 81
 score:
   band: developing
-  composite: 48.2
-  delta: -4.8
+  composite: 49.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.7
+    contract_quality: 57.7
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 53.0
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,8 +226,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

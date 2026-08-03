@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: Performs detailed multilingual sentiment analysis of texts from different sources, returning polarity, agreement, subjectivity, irony, and confidence scores at document, sentence, and segment levels.
@@ -132,25 +132,25 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 40
+random_paper: 35
 rate_limits:
-- limit_count: 0
+- limit_count: 6
   name: Rate Limits
   slug: rate-limits
 score:
-  band: emerging
-  composite: 24.4
-  delta: -2.9
+  band: thin
+  composite: 28.5
+  delta: 4.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 8.1
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 27.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    operational_transparency: 52.6
+  previous_composite: 24.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 slug: meaningcloud
 tags:

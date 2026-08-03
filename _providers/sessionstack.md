@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The SessionStack REST API provides programmatic access to session recordings, user events, errors, and logs. Developers can retrieve and search sessions associated with their websites, get details abo
@@ -108,25 +108,25 @@ plans:
 - name: Sessionstack Plans Pricing
   plan_count: 4
   slug: sessionstack-plans-pricing
-random_paper: 76
+random_paper: 71
 rate_limits:
-- limit_count: 0
+- limit_count: 4
   name: Sessionstack Rate Limits
   slug: sessionstack-rate-limits
 score:
   band: thin
-  composite: 31.0
-  delta: -4.3
+  composite: 35.1
+  delta: 4.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 45.2
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 35.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    operational_transparency: 36.8
+  previous_composite: 31.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

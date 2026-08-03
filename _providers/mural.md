@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The Mural Public API supports OAuth 2.0 with scopes, image and file uploads to murals, and CRUD on workspaces, rooms, murals, widgets, and members. Includes published rate limits, pagination, and erro
@@ -107,7 +107,7 @@ plans:
 - name: Mural Plans Pricing
   plan_count: 1
   slug: mural-plans-pricing
-random_paper: 53
+random_paper: 70
 rate_limits:
 - limit_count: 1
   name: Mural Rate Limits
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.8
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 0.0
@@ -123,9 +123,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 25.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 22.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mural/refs/heads/main/screenshots/mural-2026-06-20T185858.png
 security:

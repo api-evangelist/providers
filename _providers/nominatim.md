@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ plans:
 - name: Nominatim Plans Pricing
   plan_count: 2
   slug: nominatim-plans-pricing
-random_paper: 70
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Nominatim Rate Limits
@@ -288,16 +288,16 @@ rules:
   slug: nominatim-rules
 score:
   band: developing
-  composite: 42.7
-  delta: -4.2
+  composite: 43.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 68.5
+    contract_quality: 71.2
     developer_ergonomics: 10.9
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 46.9
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -305,8 +305,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/screenshots/nominatim-2026-06-20T190357.png
 security:

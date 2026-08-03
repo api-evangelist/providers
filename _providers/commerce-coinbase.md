@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-07-28'
+  score: 47.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -189,16 +189,16 @@ rules:
   slug: commerce-coinbase-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.7
-  delta: -7.0
+  composite: 53.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.9
+    contract_quality: 74.3
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 15.8
-  previous_composite: 59.7
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     contracts:
@@ -212,9 +212,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-coinbase/refs/heads/main/screenshots/commerce-coinbase-2026-06-20T174814.png
 security:
 - kind: authentication

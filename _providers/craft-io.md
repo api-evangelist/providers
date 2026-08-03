@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-07-28'
+  score: 41.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -313,7 +313,7 @@ plans:
 - name: Craft Io Plans Pricing
   plan_count: 3
   slug: craft-io-plans-pricing
-random_paper: 51
+random_paper: 29
 rules:
 - name: Craft.io API Rules
   rule_count: 5
@@ -325,16 +325,16 @@ rules:
   slug: craft-io-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.3
-  delta: -5.4
+  composite: 47.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.3
+    contract_quality: 62.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 51.7
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -342,9 +342,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/screenshots/craft-io-2026-06-20T175212.png
 security:
 - kind: authentication

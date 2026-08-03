@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -413,7 +413,7 @@ plans:
 - name: Mobileapi Dev Plans Pricing
   plan_count: 3
   slug: mobileapi-dev-plans-pricing
-random_paper: 80
+random_paper: 75
 rate_limits:
 - limit_count: 6
   name: Mobileapi Dev Rate Limits
@@ -437,16 +437,16 @@ rules:
   slug: mobileapi-rules
 score:
   band: strong
-  composite: 63.5
-  delta: -4.2
+  composite: 64.0
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 67.4
+    contract_quality: 69.5
     developer_ergonomics: 39.1
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 67.7
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     contracts:
@@ -454,8 +454,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/screenshots/mobileapi-dev-2026-06-20T185631.png
 security:

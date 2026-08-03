@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 55
 apis:
 - description: Activity Log
@@ -306,19 +306,19 @@ overview: 'Validere publishes 55 APIs on the [APIs.io](https://apis.io/) network
 
 
   Validere''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 17 more developer resources.'
-random_paper: 24
+random_paper: 84
 score:
   band: developing
-  composite: 42.9
-  delta: -1.1
+  composite: 43.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 45.6
+    contract_quality: 50.1
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 44.0
+  previous_composite: 43.8
   provenance:
     conformance: first-party
     contracts:
@@ -334,8 +334,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

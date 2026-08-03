@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Bit is API-first: every aspect exposes a programmatic API that also composes into a GraphQL API used by the CLI, web UI, and Bit Cloud. The hosted GraphQL endpoint is served from api.v2.bit.cloud/grap'
@@ -152,11 +152,11 @@ overview: 'Bit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bit''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, changelog, and 18 more developer resources.'
-random_paper: 73
+random_paper: 34
 score:
   band: thin
   composite: 36.7
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -164,13 +164,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 36.9
+  previous_composite: 36.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bit/refs/heads/main/screenshots/bit-2026-07-25T203125.png
 security:

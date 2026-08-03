@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The UK Open Banking (OBIE) Open Data API standard for public, unauthenticated reference data - ATM locations, branch locations, personal and business current accounts, unsecured SME loans, and commerc
@@ -94,11 +94,11 @@ overview: 'Leeds Building Society publishes 1 API on the [APIs.io](https://apis.
 
 
   Leeds Building Society''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 15
+random_paper: 44
 score:
   band: emerging
   composite: 22.5
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 32.3
@@ -106,7 +106,7 @@ score:
     discoverability: 83.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 25.9
+  previous_composite: 22.5
   provenance:
     contracts:
       callable: 0.0
@@ -119,8 +119,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/screenshots/leeds-building-society-2026-07-25T224818.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -109,19 +109,19 @@ overview: 'JetBrains Marketplace publishes 2 APIs on the [APIs.io](https://apis.
 
 
   JetBrains Marketplace''s developer surface includes authentication, documentation, signup flow, pricing, and 7 more developer resources.'
-random_paper: 22
+random_paper: 47
 score:
   band: thin
-  composite: 29.9
-  delta: -2.1
+  composite: 30.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 58.9
+    contract_quality: 62.4
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 32.0
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -129,8 +129,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/screenshots/jetbrains-plugin-2026-06-20T183726.png
 security:

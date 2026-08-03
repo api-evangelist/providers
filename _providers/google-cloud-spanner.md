@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Google Cloud Spanner Plans Pricing
   plan_count: 3
   slug: google-cloud-spanner-plans-pricing
-random_paper: 53
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Google Cloud Spanner Rate Limits
@@ -188,16 +188,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.0
-  delta: -3.3
+  composite: 63.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 66.3
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
@@ -205,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/screenshots/google-cloud-spanner-2026-06-20T182136.png
 security:

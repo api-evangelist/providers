@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-07-28'
+  score: 49.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 400
   human_in_the_loop: 151
@@ -319,7 +319,7 @@ overview: 'Extole publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Extole''s developer surface includes documentation, API reference, engineering blog, authentication, CLI, changelog, and 25 more developer resources.'
-random_paper: 1
+random_paper: 87
 rules:
 - name: Extole API Rules
   rule_count: 8
@@ -331,16 +331,16 @@ rules:
   slug: extole-spectral
 score:
   band: developing
-  composite: 54.1
-  delta: -1.9
+  composite: 54.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 66.8
+    contract_quality: 69.7
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 32.3
     operational_transparency: 52.6
-  previous_composite: 56.0
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,8 +351,8 @@ score:
       total: 44
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/screenshots/extole-2026-07-25T213956.png
 security:

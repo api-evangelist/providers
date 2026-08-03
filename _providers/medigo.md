@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-07-28'
+  score: 36.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -149,11 +149,11 @@ overview: 'Medigo publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Medigo''s developer surface includes authentication, support, and 15 more developer resources.'
-random_paper: 55
+random_paper: 59
 score:
   band: thin
   composite: 33.0
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -161,7 +161,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 39.7
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -178,9 +178,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Medigo Authentication

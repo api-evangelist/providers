@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The CARTO Cloud-Native (v3) REST API surface — SQL API (query and async SQL jobs against a connected data warehouse), Maps API (vector/tile map instantiation), Import/Export API, Location Data Service
@@ -164,7 +164,7 @@ overview: 'CARTO publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   CARTO''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 21 more developer resources.'
-random_paper: 79
+random_paper: 70
 scopes:
 - name: Cartodb Scopes
   scope_count: 4
@@ -173,7 +173,7 @@ scopes:
 score:
   band: thin
   composite: 41.6
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -181,13 +181,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 40.6
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartodb/refs/heads/main/screenshots/cartodb-2026-07-25T204652.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -572,7 +572,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence press releases
   url: https://newsroom.ibm.com/press-releases-artificial-intelligence
-random_paper: 66
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Ibm Rate Limits
@@ -593,16 +593,16 @@ scopes:
   summary_line: 7 scopes
 score:
   band: exemplar
-  composite: 74.1
-  delta: 1.4
+  composite: 74.6
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 74.5
+    contract_quality: 76.4
     developer_ergonomics: 69.6
     discoverability: 85.2
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 72.7
+  previous_composite: 74.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -612,8 +612,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:

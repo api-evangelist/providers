@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 311
   human_in_the_loop: 5
@@ -420,23 +420,23 @@ plans:
 - name: Spree Commerce Plans Pricing
   plan_count: 2
   slug: spree-commerce-plans-pricing
-random_paper: 37
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Spree Commerce Rate Limits
   slug: spree-commerce-rate-limits
 score:
   band: thin
-  composite: 40.0
-  delta: -3.2
+  composite: 41.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 56.5
+    contract_quality: 60.9
     developer_ergonomics: 28.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 43.2
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -444,8 +444,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 78
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spree-commerce/refs/heads/main/screenshots/spree-commerce-2026-06-20T194400.png
 security:

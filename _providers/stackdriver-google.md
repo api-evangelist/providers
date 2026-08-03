@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Cloud Monitoring API (v3) collects metrics, events, and metadata from Google Cloud, AWS, and application instrumentation, and exposes them for dashboards, uptime checks, alerting policies, and time-se
@@ -141,11 +141,11 @@ overview: 'Stackdriver (Google) publishes 3 APIs on the [APIs.io](https://apis.i
 
 
   Stackdriver (Google)''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 64
+random_paper: 63
 score:
   band: thin
   composite: 32.2
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -153,9 +153,9 @@ score:
     discoverability: 85.2
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 33.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 32.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

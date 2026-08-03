@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ press:
 - date: '2026-05-25'
   title: Taylor Morrison Announces Date for First Quarter 2026 Earnings ...
   url: https://www.barchart.com/story/news/939225/taylor-morrison-announces-date-for-first-quarter-2026-earnings-release-and-webcast-conference-call
-random_paper: 21
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Taylor Morrison Home Rate Limits
@@ -212,16 +212,16 @@ rules:
   slug: taylor-morrison-spectral-rules
 score:
   band: developing
-  composite: 43.0
-  delta: -4.1
+  composite: 43.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.6
+    contract_quality: 71.3
     developer_ergonomics: 13.0
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 47.1
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -229,8 +229,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/screenshots/taylor-morrison-home-2026-06-20T194942.png
 security:

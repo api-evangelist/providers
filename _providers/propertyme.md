@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -254,7 +254,7 @@ overview: 'PropertyMe publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   PropertyMe''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
-random_paper: 45
+random_paper: 66
 scopes:
 - name: Propertyme Scopes
   scope_count: 20
@@ -263,7 +263,7 @@ scopes:
 score:
   band: thin
   composite: 41.4
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 32.3
@@ -271,7 +271,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 47.1
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,9 +283,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/screenshots/propertyme-2026-07-27T125353.png
 security:
 - kind: authentication

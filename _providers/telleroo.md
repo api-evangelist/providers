@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-07-28'
+  score: 36.9
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: 'RESTful API (v1) to automate outbound payments from your own Telleroo account: manage recipients, query accounts and transactions, and create bank transfers (to a saved recipient or adhoc). Token auth'
@@ -178,7 +178,7 @@ overview: 'Telleroo publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Telleroo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 50
+random_paper: 15
 scopes:
 - name: Telleroo Scopes
   scope_count: 1
@@ -187,7 +187,7 @@ scopes:
 score:
   band: developing
   composite: 49.1
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -195,7 +195,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 46.6
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -205,8 +205,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

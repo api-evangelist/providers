@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-07-28'
+  score: 34.0
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Ping++ REST payments API — create and query Charges, Refunds, Transfers (enterprise payouts), Red Envelopes, Orders, Users, Recharges, Withdrawals, Coupons and Royalties across WeChat Pay, Alipay, Uni
@@ -175,11 +175,11 @@ overview: 'Ping++ publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ping++''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 20
+random_paper: 50
 score:
   band: developing
   composite: 47.3
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -187,7 +187,7 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 45.4
+  previous_composite: 47.3
   provenance:
     mcp: derived
     skills: derived
@@ -197,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

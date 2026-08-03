@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -673,7 +673,7 @@ plans:
 - name: Claude Plans Pricing
   plan_count: 13
   slug: claude-plans-pricing
-random_paper: 48
+random_paper: 52
 rate_limits:
 - limit_count: 38
   name: Claude Rate Limits
@@ -697,16 +697,16 @@ rules:
   slug: claude-spectral-rules
 score:
   band: exemplar
-  composite: 69.5
-  delta: -4.1
+  composite: 70.2
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 76.6
+    contract_quality: 79.6
     developer_ergonomics: 58.7
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 73.6
+  previous_composite: 70.2
   provenance:
     agentic_access: derived
     contracts:
@@ -714,8 +714,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/screenshots/claude-2026-06-20T174448.png
 security:

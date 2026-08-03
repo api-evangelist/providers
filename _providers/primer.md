@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ plans:
 - name: Primer Plans Pricing
   plan_count: 2
   slug: primer-plans-pricing
-random_paper: 81
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Primer Rate Limits
@@ -294,16 +294,16 @@ rules:
   slug: primer-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: -6.7
+  composite: 53.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 63.9
+    contract_quality: 69.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 59.5
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -317,9 +317,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png
 security:
 - kind: authentication

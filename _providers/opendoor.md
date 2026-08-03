@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Opendoor for Agents is the partner program that lets licensed real-estate agents submit clients to Opendoor for a cash offer, list Opendoor-owned inventory, and earn referral commissions. Integration '
@@ -120,7 +120,7 @@ plans:
 - name: Opendoor Plans Pricing
   plan_count: 1
   slug: opendoor-plans-pricing
-random_paper: 50
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Opendoor Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -136,9 +136,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 22.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendoor/refs/heads/main/screenshots/opendoor-2026-06-20T190956.png
 security:

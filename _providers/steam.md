@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -260,23 +260,23 @@ plans:
 - name: Steam Plans Pricing
   plan_count: 3
   slug: steam-plans-pricing
-random_paper: 46
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Steam Rate Limits
   slug: steam-rate-limits
 score:
   band: developing
-  composite: 45.4
-  delta: -1.3
+  composite: 45.8
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 50.0
+    contract_quality: 51.9
     developer_ergonomics: 39.1
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 46.7
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -284,8 +284,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/screenshots/steam-2026-06-20T194532.png
 security:

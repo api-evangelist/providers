@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Google Cloud Datastream Plans Pricing
   plan_count: 3
   slug: google-cloud-datastream-plans-pricing
-random_paper: 28
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Google Cloud Datastream Rate Limits
@@ -196,16 +196,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.2
-  delta: -2.5
+  composite: 62.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 80.5
+    contract_quality: 82.2
     developer_ergonomics: 47.8
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 64.7
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +213,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/screenshots/google-cloud-datastream-2026-06-20T182105.png
 security:

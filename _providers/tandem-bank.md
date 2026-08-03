@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ overview: 'Tandem Bank publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tandem Bank''s developer surface includes authentication, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 24
+random_paper: 45
 scopes:
 - name: Tandem Bank Scopes
   scope_count: 3
@@ -160,16 +160,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 36.7
-  delta: -3.0
+  composite: 38.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 50.6
+    contract_quality: 59.7
     developer_ergonomics: 40.8
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 39.7
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -186,8 +186,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

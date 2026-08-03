@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -181,7 +181,7 @@ rules:
 score:
   band: developing
   composite: 45.6
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 50.0
@@ -189,7 +189,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 52.2
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -197,9 +197,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/screenshots/royal-mail-2026-06-20T193236.png
 security:
 - kind: authentication

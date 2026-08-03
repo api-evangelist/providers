@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 10
 apis:
 - description: The ATP Tennis API from Swish Analytics — 3 operation(s) for atp tennis.
@@ -159,19 +159,19 @@ overview: 'Swish Analytics publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Swish Analytics'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, and 14 more developer resources.'
-random_paper: 13
+random_paper: 51
 score:
   band: thin
-  composite: 40.4
-  delta: -1.6
+  composite: 41.8
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 57.6
+    contract_quality: 63.2
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 21.9
     operational_transparency: 5.3
-  previous_composite: 42.0
+  previous_composite: 41.8
   provenance:
     conformance: derived
     contracts:
@@ -181,8 +181,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

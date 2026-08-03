@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -276,7 +276,7 @@ overview: 'Quinyx publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 30
+random_paper: 21
 scopes:
 - name: Quinyx Scopes
   scope_count: 14
@@ -284,16 +284,16 @@ scopes:
   summary_line: 14 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.1
-  delta: -1.7
+  composite: 48.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.4
+    contract_quality: 54.4
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 49.8
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,8 +304,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

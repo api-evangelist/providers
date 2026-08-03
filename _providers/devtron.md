@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 43.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -231,19 +231,19 @@ overview: 'Devtron publishes 28 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Devtron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 14 more developer resources.'
-random_paper: 32
+random_paper: 10
 score:
   band: developing
-  composite: 43.9
-  delta: -3.8
+  composite: 45.0
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 52.5
+    contract_quality: 56.6
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 47.7
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/screenshots/devtron-2026-07-25T211825.png
 security:

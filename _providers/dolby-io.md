@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 2
@@ -447,7 +447,7 @@ plans:
 - name: Dolby Io Plans Pricing
   plan_count: 4
   slug: dolby-io-plans-pricing
-random_paper: 61
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Dolby Io Rate Limits
@@ -471,16 +471,16 @@ rules:
   slug: dolby-io-rules
 score:
   band: exemplar
-  composite: 72.5
-  delta: -1.8
+  composite: 73.4
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 64.6
+    contract_quality: 68.1
     developer_ergonomics: 69.6
     discoverability: 83.3
     governance: 69.8
     operational_transparency: 76.3
-  previous_composite: 74.3
+  previous_composite: 73.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -490,8 +490,8 @@ score:
       marker_coverage: 0.0
       total: 14
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png
 security:

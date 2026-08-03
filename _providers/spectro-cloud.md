@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 759
   human_in_the_loop: 29
@@ -318,7 +318,7 @@ overview: 'Spectro Cloud publishes 42 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Spectro Cloud''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 27 more developer resources.'
-random_paper: 36
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Spectro Cloud Rate Limits
@@ -326,7 +326,7 @@ rate_limits:
 score:
   band: developing
   composite: 47.4
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 32.3
@@ -334,7 +334,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 49.3
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -345,8 +345,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

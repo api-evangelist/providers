@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-07-28'
+  score: 42.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -428,7 +428,7 @@ plans:
 - name: Ably Plans Pricing
   plan_count: 5
   slug: ably-plans-pricing
-random_paper: 14
+random_paper: 44
 rate_limits:
 - limit_count: 8
   name: Ably Rate Limits
@@ -452,16 +452,16 @@ rules:
   slug: ably-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.5
-  delta: -6.9
+  composite: 51.1
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 64.6
+    contract_quality: 67.5
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 52.6
-  previous_composite: 57.4
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -475,9 +475,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/screenshots/ably-2026-06-20T163221.png
 security:
 - kind: authentication

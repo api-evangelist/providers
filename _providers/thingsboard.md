@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 226
@@ -701,7 +701,7 @@ plans:
 - name: Thingsboard Plans Pricing
   plan_count: 15
   slug: thingsboard-plans-pricing
-random_paper: 25
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Thingsboard Rate Limits
@@ -725,16 +725,16 @@ rules:
   slug: thingsboard-rules
 score:
   band: strong
-  composite: 58.7
-  delta: -3.8
+  composite: 59.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.7
+    contract_quality: 72.9
     developer_ergonomics: 71.7
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 62.5
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     contracts:
@@ -742,8 +742,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/screenshots/thingsboard-2026-06-20T195300.png
 security:

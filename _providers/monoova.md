@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -210,19 +210,19 @@ overview: 'Monoova publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Monoova''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 30 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
-  band: developing
-  composite: 55.5
-  delta: -2.2
+  band: strong
+  composite: 59.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.6
+    contract_quality: 73.7
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 57.7
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,9 +238,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 59.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 65.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

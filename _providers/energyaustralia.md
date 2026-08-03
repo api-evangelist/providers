@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ overview: 'EnergyAustralia publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   EnergyAustralia''s developer surface includes authentication, changelog, API reference, documentation, support, signup flow, pricing, and 23 more developer resources.'
-random_paper: 58
+random_paper: 1
 scopes:
 - name: Energyaustralia Scopes
   scope_count: 12
@@ -189,16 +189,16 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.4
-  delta: -3.5
+  composite: 46.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 45.8
+    contract_quality: 54.3
     developer_ergonomics: 32.1
     discoverability: 88.9
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 47.9
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,8 +215,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-07-28'
+  score: 48.4
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Pliant''s Pro API enables customers to access Pliant credit card data and features programmatically — issue and manage cards, apply card controls and limits, retrieve transactions and accounting data, '
@@ -187,11 +187,11 @@ overview: 'Pliant publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Pliant''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 25 more developer resources.'
-random_paper: 74
+random_paper: 78
 score:
   band: developing
   composite: 54.3
-  delta: 5.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -199,7 +199,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 57.9
-  previous_composite: 49.2
+  previous_composite: 54.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -210,9 +210,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Pliant Authentication

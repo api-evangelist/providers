@@ -15,14 +15,14 @@
      "name": "Sibill",
      "slug": "sibill",
      "description": "Sibill is an Italian fintech platform that centralizes financial and administrative management for small and medium-sized businesses (PMI). It unifies electronic invoicing (submitted to the Agenzia delle Entrate SDI), treasury and cash-flow monitoring, payments, business accounts and debit cards, and AI-assisted reconciliation of bank transactions against invoices and deadlines. The Sibill Integration API exposes companies, bank accounts, categories, counterparts, documents, payment flows, reconciliations, products and transactions over a REST interface secured with Bearer API keys, with cursor pagination, field expansion, and Document/Flow webhooks. Backed by Creandum.",
-     "score": 48.0,
+     "score": 50.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
       "contract_quality": 63.0,
       "governance": 11.5,
-      "operational_transparency": 23.7,
+      "operational_transparency": 44.7,
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
@@ -621,13 +621,13 @@
      "name": "Bending Spoons",
      "slug": "bending-spoons",
      "description": "Bending Spoons S.p.A. is a Milan, Italy technology company founded in 2013 that acquires established digital products and operates them for the long term rather than reselling them. Its portfolio spans more than 50 acquisitions and includes AOL, Brightcove, Eventbrite, Evernote, Harvest, Issuu, komoot, Loomly, Meetup, Remini, Splice, StreamYard, Tractive, Vimeo and WeTransfer, serving over 500 million monthly active users and more than 9 million monthly paying customers. The company listed its ordinary shares on the Nasdaq Global Select Market under the ticker BSP on 1 July 2026. Bending Spoons itself publishes no public developer API, API documentation, or developer portal at the holding-company level: every API surface in the group belongs to an individual acquired product, each profiled separately in the API Evangelist network. What the corporate entity does publish is a PGP-signed RFC 9116 security.txt, a compliance hub, a support center, an investor relations site, and a small set of first-party open-source Swift frameworks (Katana, Tempura).",
-     "score": 15.4,
+     "score": 14.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 12.5,
+      "governance": 3.1,
       "operational_transparency": 15.8,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 18.4

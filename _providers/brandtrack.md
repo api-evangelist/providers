@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ overview: 'Brandtrack publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brandtrack''s developer surface includes documentation, API reference, authentication, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 68
+random_paper: 7
 scopes:
 - name: Brandtrack Scopes
   scope_count: 1
@@ -191,16 +191,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.2
-  delta: -1.1
+  composite: 44.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.8
+    contract_quality: 59.0
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 44.3
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +211,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/screenshots/brandtrack-2026-07-25T203725.png
 security:

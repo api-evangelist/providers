@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.6
-  scored_at: '2026-07-28'
+  score: 49.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -884,7 +884,7 @@ plans:
 - name: Microsoft Azure Devops Plans Pricing
   plan_count: 6
   slug: microsoft-azure-devops-plans-pricing
-random_paper: 66
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Microsoft Azure Devops Rate Limits
@@ -908,16 +908,16 @@ rules:
   slug: microsoft-azure-devops-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 68.5
-  delta: -3.2
+  composite: 69.0
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 79.9
+    contract_quality: 81.6
     developer_ergonomics: 65.2
     discoverability: 66.7
     governance: 47.9
     operational_transparency: 68.4
-  previous_composite: 71.7
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     contracts:
@@ -925,8 +925,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/screenshots/microsoft-azure-devops-2026-06-20T185413.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Exchange API keys for a session token.
@@ -143,19 +143,19 @@ overview: 'Mesa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Mesa''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, and 16 more developer resources.'
-random_paper: 12
+random_paper: 42
 score:
   band: developing
-  composite: 45.7
-  delta: -3.8
+  composite: 46.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.6
+    contract_quality: 64.0
     developer_ergonomics: 53.8
     discoverability: 70.4
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 49.5
+  previous_composite: 46.4
   provenance:
     conformance: first-party
     contracts:
@@ -171,8 +171,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

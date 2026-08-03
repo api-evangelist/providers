@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -235,19 +235,19 @@ overview: 'LiquiDonate publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   LiquiDonate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 35
+random_paper: 43
 score:
-  band: developing
-  composite: 55.7
-  delta: -0.4
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 75.4
+    contract_quality: 77.5
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 21.9
     operational_transparency: 23.7
-  previous_composite: 56.1
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,8 +258,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/screenshots/liquidonate-2026-07-25T225320.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: Checkout Session management
@@ -249,23 +249,23 @@ overview: 'Super Payments publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Super Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Super Payments Rate Limits
   slug: super-payments-rate-limits
 score:
   band: strong
-  composite: 61.1
-  delta: 0.1
+  composite: 62.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 71.1
+    contract_quality: 75.6
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 73.7
-  previous_composite: 61.0
+  previous_composite: 62.0
   provenance:
     conformance: first-party
     contracts:
@@ -281,8 +281,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

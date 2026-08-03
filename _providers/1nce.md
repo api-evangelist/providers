@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -408,7 +408,7 @@ plans:
 - name: 1Nce Plans Pricing
   plan_count: 5
   slug: 1nce-plans-pricing
-random_paper: 31
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: 1Nce Rate Limits
@@ -424,16 +424,16 @@ rules:
   slug: 1nce-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.6
-  delta: -5.5
+  composite: 55.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.5
+    contract_quality: 76.7
     developer_ergonomics: 58.7
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 60.1
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     contracts:
@@ -447,9 +447,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/screenshots/1nce-2026-06-20T162509.png
 security:
 - kind: authentication

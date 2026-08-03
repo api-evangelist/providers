@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.5
-  scored_at: '2026-07-28'
+  score: 41.4
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Zenskar's REST API for billing, contracts, usage metering, invoicing, payments, credit notes, and accounting/revenue recognition (166+ documented operations).
@@ -139,11 +139,11 @@ overview: 'Zenskar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Zenskar''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 28
+random_paper: 6
 score:
   band: developing
   composite: 43.7
-  delta: 6.0
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
@@ -151,13 +151,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 7.9
-  previous_composite: 37.7
+  previous_composite: 43.7
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Zenskar Authentication

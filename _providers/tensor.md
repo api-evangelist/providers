@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-07-28'
+  score: 33.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -369,7 +369,7 @@ plans:
 - name: Tensor Plans Pricing
   plan_count: 2
   slug: tensor-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Tensor Rate Limits
@@ -401,16 +401,16 @@ rules:
   slug: tensor-rules
 score:
   band: developing
-  composite: 51.6
-  delta: -3.1
+  composite: 52.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 75.9
+    contract_quality: 77.7
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 54.7
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -424,8 +424,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/screenshots/tensor-2026-06-20T195119.png
 security:

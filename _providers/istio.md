@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ plans:
 - name: Istio Plans Pricing
   plan_count: 1
   slug: istio-plans-pricing
-random_paper: 60
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Istio Rate Limits
@@ -266,16 +266,16 @@ rules:
   slug: istio-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.1
-  delta: -4.9
+  composite: 51.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 56.0
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -283,8 +283,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/screenshots/istio-2026-06-20T183628.png
 security:

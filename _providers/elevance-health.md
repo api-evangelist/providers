@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Elevance Health Plans Pricing
   plan_count: 4
   slug: elevance-health-plans-pricing
-random_paper: 34
+random_paper: 85
 rate_limits:
 - limit_count: 4
   name: Elevance Health Rate Limits
@@ -140,16 +140,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.3
-  delta: -3.2
+  composite: 38.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 40.5
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +163,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/screenshots/elevance-health-2026-06-20T180559.png
 security:

@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-07-28'
+  score: 46.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -239,19 +239,19 @@ overview: 'APOLLO Insurance publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   APOLLO Insurance''s developer surface includes sandbox, code examples, authentication, documentation, engineering blog, API reference, getting-started guide, and 37 more developer resources.'
-random_paper: 20
+random_paper: 45
 score:
   band: developing
-  composite: 50.8
-  delta: -3.2
+  composite: 51.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 18.4
-  previous_composite: 54.0
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,8 +268,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/screenshots/apollo-insurance-2026-07-25T200828.png
 security:

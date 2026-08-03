@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-07-28'
+  score: 40.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ overview: 'BMO publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   BMO''s developer surface includes authentication, sandbox, documentation, API reference, signup flow, support, engineering blog, and 16 more developer resources.'
-random_paper: 72
+random_paper: 33
 scopes:
 - name: Bmo Scopes
   scope_count: 15
@@ -182,21 +182,21 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.3
-  delta: -3.3
+  composite: 47.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 51.6
+    contract_quality: 71.2
     developer_ergonomics: 49.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 45.6
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 81.8
       derived: 0
       marker_coverage: 0.0
       total: 11
@@ -206,9 +206,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 65.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 70.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png
 security:

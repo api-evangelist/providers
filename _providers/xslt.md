@@ -21,7 +21,7 @@ modified: '2026-05-03'
 name: XSLT
 nav: Providers
 network: true
-random_paper: 49
+random_paper: 79
 slug: xslt
 tags:
 - Data Transformation

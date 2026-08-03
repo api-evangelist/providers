@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -226,23 +226,23 @@ overview: 'S2 Dev publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   S2 Dev''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 37
+random_paper: 54
 rate_limits:
-- limit_count: 0
+- limit_count: 5
   name: S2 Dev Rate Limits
   slug: s2-dev-rate-limits
 score:
   band: strong
-  composite: 57.4
-  delta: -1.1
+  composite: 62.4
+  delta: 4.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 47.4
-  previous_composite: 58.5
+    operational_transparency: 78.9
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,8 +253,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

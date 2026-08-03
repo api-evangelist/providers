@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: 'Core Vue.js composition and options API for building reactive user interfaces. Provides reactivity primitives (ref, reactive, computed, watch), lifecycle hooks, component system, template directives, '
@@ -147,7 +147,7 @@ plans:
 - name: Vuejs Plans Pricing
   plan_count: 3
   slug: vuejs-plans-pricing
-random_paper: 65
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Vuejs Rate Limits
@@ -164,7 +164,7 @@ rules:
 score:
   band: thin
   composite: 38.0
-  delta: -3.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 12.9
@@ -172,9 +172,9 @@ score:
     discoverability: 63.0
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 41.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 38.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/screenshots/vuejs-2026-06-20T201149.png
 slug: vuejs

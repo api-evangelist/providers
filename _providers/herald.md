@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -131,23 +131,23 @@ plans:
 - name: Herald Plans Pricing
   plan_count: 1
   slug: herald-plans-pricing
-random_paper: 50
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Herald Rate Limits
   slug: herald-rate-limits
 score:
   band: thin
-  composite: 33.2
-  delta: -3.7
+  composite: 33.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 58.3
+    contract_quality: 61.9
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.9
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +161,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/screenshots/herald-2026-07-25T221009.png
 security:

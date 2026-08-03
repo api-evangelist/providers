@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Bukalapak's public REST API for marketplace resources such as products and the authenticated user profile, secured with OAuth2 (client_credentials and resource-owner password grants) issued by account
@@ -76,11 +76,11 @@ overview: 'Bukalapak publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Bukalapak''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 38
+random_paper: 85
 score:
   band: minimal
   composite: 12.8
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -88,15 +88,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.3
+  previous_composite: 12.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

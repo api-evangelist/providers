@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-07-28'
+  score: 59.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1290
   human_in_the_loop: 26
@@ -10264,7 +10264,7 @@ plans:
 - name: Atlassian Plans Pricing
   plan_count: 4
   slug: atlassian-plans-pricing
-random_paper: 58
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Atlassian Rate Limits
@@ -10293,16 +10293,16 @@ scopes:
   summary_line: 288 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.7
-  delta: -4.3
+  composite: 69.4
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 77.0
+    contract_quality: 79.8
     developer_ergonomics: 56.5
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 73.0
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
     contracts:
@@ -10310,8 +10310,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 320
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png
 security:

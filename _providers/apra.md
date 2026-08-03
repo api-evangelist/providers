@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -207,11 +207,11 @@ overview: 'APRA is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   APRA''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, engineering blog, and 36 more developer resources.'
-random_paper: 10
+random_paper: 40
 score:
   band: thin
   composite: 32.8
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -219,7 +219,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 34.2
-  previous_composite: 35.0
+  previous_composite: 32.8
   provenance:
     conformance: first-party
   regulatory:
@@ -228,8 +228,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/screenshots/apra-2026-07-25T200856.png
 security:

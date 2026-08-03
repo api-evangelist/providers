@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -831,7 +831,7 @@ press:
 - date: '2026-05-25'
   title: Oracle News and Press Releases
   url: https://www.oracle.com/news/
-random_paper: 56
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Oracle Rate Limits
@@ -855,16 +855,16 @@ rules:
   slug: oracle-spectral-rules
 score:
   band: exemplar
-  composite: 70.8
-  delta: -3.3
+  composite: 71.5
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 70.2
+    contract_quality: 72.9
     developer_ergonomics: 78.3
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 74.1
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     contracts:
@@ -872,8 +872,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png
 security:

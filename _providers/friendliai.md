@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -305,23 +305,23 @@ overview: 'FriendliAI publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   FriendliAI''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 28 more developer resources.'
-random_paper: 63
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Friendliai Rate Limits
   slug: friendliai-rate-limits
 score:
   band: strong
-  composite: 57.7
-  delta: -1.4
+  composite: 58.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 62.6
+    contract_quality: 67.1
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 59.1
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -332,8 +332,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendliai/refs/heads/main/screenshots/friendliai-2026-07-25T215224.png
 security:

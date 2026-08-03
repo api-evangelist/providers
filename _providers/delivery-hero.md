@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-07-28'
+  score: 34.0
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Once you followed above steps from [Getting started](#section/Getting-Started) and that you have your signed JWT token, you can request the access token.
@@ -165,7 +165,7 @@ overview: 'Delivery Hero publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Delivery Hero''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 31
+random_paper: 13
 scopes:
 - name: Delivery Hero Scopes
   scope_count: 1
@@ -174,7 +174,7 @@ scopes:
 score:
   band: thin
   composite: 38.7
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 59.7
@@ -182,7 +182,7 @@ score:
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 41.6
+  previous_composite: 38.7
   provenance:
     conformance: derived
     contracts:
@@ -192,8 +192,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/screenshots/delivery-hero-2026-07-25T211652.png
 security:

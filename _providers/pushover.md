@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -120,19 +120,19 @@ overview: 'Pushover publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Pushover''s developer surface includes documentation, pricing, signup flow, FAQ, support, engineering blog, and 5 more developer resources.'
-random_paper: 72
+random_paper: 37
 score:
   band: emerging
-  composite: 26.8
-  delta: -5.5
+  composite: 27.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 59.3
+    contract_quality: 60.8
     developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.3
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     contracts:
@@ -146,9 +146,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/screenshots/pushover-2026-06-20T192319.png
 security:
 - kind: domain-security

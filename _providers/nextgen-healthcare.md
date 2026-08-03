@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ overview: 'NextGen Healthcare publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   NextGen Healthcare''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
-random_paper: 43
+random_paper: 42
 scopes:
 - name: Nextgen Healthcare Scopes
   scope_count: 12
@@ -208,11 +208,11 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.3
-  delta: -0.6
+  composite: 51.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 59.2
+    contract_quality: 62.2
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
@@ -234,8 +234,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

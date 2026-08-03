@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-07-28'
+  score: 47.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ overview: 'Beeper publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Beeper''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 22 more developer resources.'
-random_paper: 53
+random_paper: 57
 scopes:
 - name: Beeper Scopes
   scope_count: 2
@@ -208,16 +208,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.1
-  delta: -1.5
+  composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.9
+    contract_quality: 68.3
     developer_ergonomics: 69.0
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 53.6
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +234,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/screenshots/beeper-2026-07-25T202639.png
 security:

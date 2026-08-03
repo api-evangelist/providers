@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Tum Plans Pricing
   plan_count: 2
   slug: tum-plans-pricing
-random_paper: 14
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Tum Rate Limits
@@ -203,16 +203,16 @@ rules:
   slug: tum-rules
 score:
   band: thin
-  composite: 37.3
-  delta: -4.1
+  composite: 38.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.5
+    contract_quality: 59.9
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 41.4
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +226,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/screenshots/tum-2026-06-20T195827.png
 security:

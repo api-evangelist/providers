@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ plans:
 - name: Culture Amp Plans Pricing
   plan_count: 4
   slug: culture-amp-plans-pricing
-random_paper: 69
+random_paper: 90
 rate_limits:
 - limit_count: 3
   name: Culture Amp Rate Limits
@@ -212,16 +212,16 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: strong
-  composite: 58.6
-  delta: -4.4
+  composite: 59.3
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 77.3
+    contract_quality: 79.9
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 63.0
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     contracts:
@@ -229,8 +229,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/screenshots/culture-amp-2026-06-20T175332.png
 security:

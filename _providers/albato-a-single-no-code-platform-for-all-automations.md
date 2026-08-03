@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -269,7 +269,7 @@ plans:
 - name: Albato A Single No Code Platform For All Automations Plans Pricing
   plan_count: 3
   slug: albato-a-single-no-code-platform-for-all-automations-plans-pricing
-random_paper: 69
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Albato A Single No Code Platform For All Automations Rate Limits
@@ -301,16 +301,16 @@ rules:
   slug: albato-spectral-rules
 score:
   band: strong
-  composite: 60.6
-  delta: -1.6
+  composite: 61.1
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 72.7
+    contract_quality: 75.0
     developer_ergonomics: 39.1
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 31.6
-  previous_composite: 62.2
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,8 +320,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/screenshots/albato-a-single-no-code-platform-for-all-automations-2026-07-25T195539.png
 security:

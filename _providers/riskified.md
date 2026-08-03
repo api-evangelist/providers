@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Submit orders to Riskified for fraud and chargeback risk evaluation, in either a pre-authorization (Decide / Decision) or post-authorization (Submit / Decide) flow. Returns an APPROVED, DECLINED, or S
@@ -285,11 +285,11 @@ overview: 'Riskified publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Riskified''s developer surface includes developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, pricing, and 41 more developer resources.'
-random_paper: 52
+random_paper: 4
 score:
   band: thin
   composite: 31.7
-  delta: -5.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -297,16 +297,16 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.1
+  previous_composite: 31.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/screenshots/riskified-2026-06-20T193133.png
 security:
 - kind: domain-security

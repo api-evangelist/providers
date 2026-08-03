@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Oasdiff is an open-source tool for detecting breaking changes and generating changelogs from OpenAPI specifications.
@@ -73,7 +73,7 @@ plans:
 - name: Oasdiff Plans Pricing
   plan_count: 3
   slug: oasdiff-plans-pricing
-random_paper: 76
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Oasdiff Rate Limits
@@ -81,7 +81,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -89,9 +89,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 18.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 16.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oasdiff/refs/heads/main/screenshots/oasdiff-2026-06-20T190549.png
 security:

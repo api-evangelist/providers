@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -365,7 +365,7 @@ overview: 'Langflow publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Langflow''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, tooling, code examples, and 43 more developer resources.'
-random_paper: 38
+random_paper: 3
 rules:
 - name: Langflow API Rules
   rule_count: 5
@@ -389,17 +389,17 @@ scopes:
   slug: langflow-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 42.6
-  delta: -5.0
+  band: thin
+  composite: 41.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 67.1
+    contract_quality: 61.3
     developer_ergonomics: 47.8
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 47.6
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -407,9 +407,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/screenshots/langflow-2026-06-20T184304.png
 security:
 - kind: authentication

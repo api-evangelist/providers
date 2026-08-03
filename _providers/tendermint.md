@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-07-28'
+  score: 40.8
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: ABCI APIs
@@ -175,19 +175,19 @@ overview: 'Tendermint publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Tendermint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 19 more developer resources.'
-random_paper: 16
+random_paper: 37
 score:
   band: developing
-  composite: 42.4
-  delta: -3.2
+  composite: 43.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 58.7
+    contract_quality: 62.2
     developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 45.6
+  previous_composite: 43.3
   provenance:
     conformance: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

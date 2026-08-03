@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -148,23 +148,23 @@ plans:
 - name: Cometchat Plans Pricing
   plan_count: 4
   slug: cometchat-plans-pricing
-random_paper: 50
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Cometchat Rate Limits
   slug: cometchat-rate-limits
 score:
   band: thin
-  composite: 36.4
-  delta: -5.7
+  composite: 37.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.1
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -178,9 +178,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/screenshots/cometchat-2026-06-20T174808.png
 security:
 - kind: authentication

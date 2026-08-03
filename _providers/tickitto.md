@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-07-28'
+  score: 49.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -186,19 +186,19 @@ overview: 'Tickitto publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tickitto''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, and 18 more developer resources.'
-random_paper: 55
+random_paper: 20
 score:
   band: thin
-  composite: 40.3
-  delta: -4.2
+  composite: 41.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.5
+    contract_quality: 64.8
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 44.5
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,8 +215,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

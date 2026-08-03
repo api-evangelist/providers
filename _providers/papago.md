@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -163,9 +163,9 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 58
+random_paper: 62
 rate_limits:
-- limit_count: 0
+- limit_count: 5
   name: Rate Limits
   slug: rate-limits
 rules:
@@ -179,16 +179,16 @@ rules:
   slug: papago-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.8
-  delta: -6.3
+  composite: 46.9
+  delta: 4.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 45.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 49.1
+    operational_transparency: 52.6
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -196,9 +196,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/papago/refs/heads/main/screenshots/papago-2026-06-20T191349.png
 security:
 - kind: authentication

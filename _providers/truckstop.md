@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: REST API for posting, updating, refreshing, and deleting loads on the Truckstop load board. Includes Load Boost for promoted visibility, pause/unpause for BIN loads, and tender management for booked l
@@ -125,7 +125,7 @@ plans:
 - name: Truckstop Plans Pricing
   plan_count: 13
   slug: truckstop-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Truckstop Rate Limits
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.8
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 32.3
@@ -141,15 +141,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.1
+  previous_composite: 28.8
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truckstop/refs/heads/main/screenshots/truckstop-2026-06-20T195750.png
 security:

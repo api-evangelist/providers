@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Access BVAL evaluated prices, yield curves, spread data, and pricing transparency metadata for fixed income securities via BLPAPI and Data License. Supports corporate bonds, municipal bonds, governmen
@@ -99,7 +99,7 @@ plans:
 - name: Bloomberg Valuation Service Bval Plans Pricing
   plan_count: 3
   slug: bloomberg-valuation-service-bval-plans-pricing
-random_paper: 43
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Bloomberg Valuation Service Bval Rate Limits
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.0
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -115,9 +115,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 29.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 27.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-valuation-service-bval/refs/heads/main/screenshots/bloomberg-valuation-service-bval-2026-07-25T203407.png
 security:

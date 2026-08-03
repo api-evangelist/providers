@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -126,19 +126,19 @@ overview: 'Olark publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Olark''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 45
+random_paper: 62
 score:
   band: thin
-  composite: 29.5
-  delta: -1.1
+  composite: 29.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 57.8
+    contract_quality: 58.9
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.6
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     contracts:
@@ -152,8 +152,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olark/refs/heads/main/screenshots/olark-2026-06-20T190655.png
 security:

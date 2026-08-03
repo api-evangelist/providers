@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: provides endpoints to access to commands sent to the submission API
@@ -165,19 +165,19 @@ overview: 'Interhyp publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Interhyp''s developer surface includes documentation, getting-started guide, changelog, signup flow, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 63
+random_paper: 28
 score:
   band: developing
-  composite: 44.7
-  delta: -5.0
+  composite: 45.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.2
+    contract_quality: 64.2
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 49.7
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -193,9 +193,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/screenshots/interhyp-2026-07-25T222702.png
 security:
 - kind: authentication

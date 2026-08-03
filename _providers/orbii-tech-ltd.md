@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -225,19 +225,19 @@ overview: 'Orbii Tech Ltd publishes 31 APIs on the [APIs.io](https://apis.io/) n
 
 
   Orbii Tech Ltd''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 55
+random_paper: 37
 score:
   band: thin
-  composite: 31.6
-  delta: -3.8
+  composite: 32.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 45.9
+    contract_quality: 50.5
     developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 35.4
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

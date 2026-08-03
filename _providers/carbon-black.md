@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST APIs for the Carbon Black Cloud platform — Endpoint Standard, Enterprise EDR, Audit and Remediation (live query), and Workload/Container protection. Authentication uses an API Id/Secret pair in a
@@ -104,11 +104,11 @@ overview: 'Carbon Black publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Carbon Black''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 9 more developer resources.'
-random_paper: 35
+random_paper: 43
 score:
   band: emerging
   composite: 21.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -116,9 +116,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 21.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carbon-black/refs/heads/main/screenshots/carbon-black-2026-07-25T204503.png
 security:

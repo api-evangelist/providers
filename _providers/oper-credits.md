@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-07-28'
+  score: 37.2
+  scored_at: '2026-08-03'
 api_count: 52
 apis:
 - description: The Agent Documents API from Oper Credits — 2 operation(s) for agent documents.
@@ -312,19 +312,19 @@ overview: 'Oper Credits publishes 52 APIs on the [APIs.io](https://apis.io/) net
 
 
   Oper Credits'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 3
+random_paper: 93
 score:
   band: developing
-  composite: 42.6
-  delta: -6.9
+  composite: 43.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 47.8
+    contract_quality: 52.8
     developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 49.5
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     contracts:
@@ -340,9 +340,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Oper Credits Authentication

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: 'The eAdaptor Inbound Service is a RESTful XML interface for pushing data into a CargoWise (CW1) instance and querying records. A single inbound endpoint accepts a Universal XML or Native XML payload; '
@@ -92,11 +92,11 @@ overview: 'CargoWise publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   CargoWise''s developer surface includes documentation, pricing, and 6 more developer resources.'
-random_paper: 62
+random_paper: 14
 score:
   band: minimal
   composite: 10.3
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -104,9 +104,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 10.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargowise/refs/heads/main/screenshots/cargowise-2026-07-25T204615.png
 security:

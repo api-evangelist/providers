@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ plans:
 - name: Omnisend Plans Pricing
   plan_count: 4
   slug: omnisend-plans-pricing
-random_paper: 41
+random_paper: 6
 rate_limits:
 - limit_count: 17
   name: Omnisend Rate Limits
@@ -402,16 +402,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.4
-  delta: -4.1
+  composite: 69.2
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 62.7
+    contract_quality: 65.9
     developer_ergonomics: 63.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 72.5
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     contracts:
@@ -419,8 +419,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/screenshots/omnisend-2026-06-20T190706.png
 security:

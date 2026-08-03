@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
-    idempotency: documented
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -221,24 +221,24 @@ overview: 'Dojo publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Dojo''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, engineering blog, and 31 more developer resources.'
-random_paper: 18
+random_paper: 48
 score:
   band: developing
-  composite: 51.8
-  delta: -5.8
+  composite: 54.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 51.6
+    contract_quality: 62.9
     developer_ergonomics: 73.4
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 57.6
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 60.0
       derived: 0
       marker_coverage: 0.0
       total: 5
@@ -250,9 +250,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png
 security:
 - kind: authentication

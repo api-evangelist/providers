@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The default API from Number26 — 9 operation(s) for default.
@@ -132,19 +132,19 @@ overview: 'Number26 publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Number26''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 15 more developer resources.'
-random_paper: 15
+random_paper: 88
 score:
   band: thin
-  composite: 35.9
-  delta: -3.5
+  composite: 36.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 51.4
+    contract_quality: 55.5
     developer_ergonomics: 39.1
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 39.4
+  previous_composite: 36.8
   provenance:
     conformance: first-party
     contracts:
@@ -159,8 +159,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

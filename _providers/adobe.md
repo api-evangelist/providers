@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: '0.2'
+  schema_version: 0.2
   score: 47.7
-  scored_at: '2026-07-29'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -71,70 +71,70 @@ apis:
   slug: adobe-user-management-api
 - description: Subscribe to and receive near real-time events from Adobe services for event-driven integrations.
   name: Adobe I/O Events API
-  slug: adobe-i-o-events-api
+  slug: adobe-io-events-api
 - description: Create, read, update, and delete content, assets, and forms in Adobe Experience Manager as a Cloud Service.
   name: Adobe Experience Manager API
   slug: adobe-experience-manager-api
 - description: Automatically add accessibility tags to PDF documents using AI.
   name: Adobe PDF Services Accessibility Auto-Tag API
-  slug: adobe-pdf-services-accessibility-auto-tag-api
+  slug: adobe-accessibility-auto-tag-api
 - description: Upload and manage assets (source files) for PDF operations.
   name: Adobe PDF Services Assets API
-  slug: adobe-pdf-services-assets-api
+  slug: adobe-assets-api
 - description: Combine multiple PDF documents into a single PDF.
   name: Adobe PDF Services Combine PDF API
-  slug: adobe-pdf-services-combine-pdf-api
+  slug: adobe-combine-pdf-api
 - description: Reduce the file size of PDF documents while maintaining quality.
   name: Adobe PDF Services Compress PDF API
-  slug: adobe-pdf-services-compress-pdf-api
+  slug: adobe-compress-pdf-api
 - description: Create PDF documents from supported file formats including Microsoft Office, images, and HTML.
   name: Adobe PDF Services Create PDF API
-  slug: adobe-pdf-services-create-pdf-api
+  slug: adobe-create-pdf-api
 - description: Delete specific pages from a PDF document.
   name: Adobe PDF Services Delete Pages API
-  slug: adobe-pdf-services-delete-pages-api
+  slug: adobe-delete-pages-api
 - description: Generate PDF and Word documents from templates with dynamic JSON data.
   name: Adobe PDF Services Document Generation API
-  slug: adobe-pdf-services-document-generation-api
+  slug: adobe-document-generation-api
 - description: Export (convert) PDF documents to other formats such as DOCX, PPTX, XLSX, images, and RTF.
   name: Adobe PDF Services Export PDF API
-  slug: adobe-pdf-services-export-pdf-api
+  slug: adobe-export-pdf-api
 - description: Extract text, tables, and figures from PDF documents into structured JSON output.
   name: Adobe PDF Services Extract PDF API
-  slug: adobe-pdf-services-extract-pdf-api
+  slug: adobe-extract-pdf-api
 - description: Insert pages from one PDF into another.
   name: Adobe PDF Services Insert Pages API
-  slug: adobe-pdf-services-insert-pages-api
+  slug: adobe-insert-pages-api
 - description: Poll for the status and results of asynchronous PDF operations.
   name: Adobe PDF Services Jobs API
-  slug: adobe-pdf-services-jobs-api
+  slug: adobe-jobs-api
 - description: Optimize PDFs for fast web viewing (linearization).
   name: Adobe PDF Services Linearize PDF API
-  slug: adobe-pdf-services-linearize-pdf-api
+  slug: adobe-linearize-pdf-api
 - description: Apply optical character recognition to scanned PDFs to make text searchable and selectable.
   name: Adobe PDF Services OCR API
-  slug: adobe-pdf-services-ocr-api
+  slug: adobe-ocr-api
 - description: Retrieve metadata and properties from PDF documents.
   name: Adobe PDF Services PDF Properties API
-  slug: adobe-pdf-services-pdf-properties-api
+  slug: adobe-pdf-properties-api
 - description: Add password protection and encryption to PDF documents.
   name: Adobe PDF Services Protect PDF API
-  slug: adobe-pdf-services-protect-pdf-api
+  slug: adobe-protect-pdf-api
 - description: Remove password protection from PDF documents.
   name: Adobe PDF Services Remove Protection API
-  slug: adobe-pdf-services-remove-protection-api
+  slug: adobe-remove-protection-api
 - description: Reorder pages within a PDF document.
   name: Adobe PDF Services Reorder Pages API
-  slug: adobe-pdf-services-reorder-pages-api
+  slug: adobe-reorder-pages-api
 - description: Replace pages in a PDF with pages from another PDF.
   name: Adobe PDF Services Replace Pages API
-  slug: adobe-pdf-services-replace-pages-api
+  slug: adobe-replace-pages-api
 - description: Rotate pages within a PDF document.
   name: Adobe PDF Services Rotate Pages API
-  slug: adobe-pdf-services-rotate-pages-api
+  slug: adobe-rotate-pages-api
 - description: Split a PDF document into multiple smaller PDFs.
   name: Adobe PDF Services Split PDF API
-  slug: adobe-pdf-services-split-pdf-api
+  slug: adobe-split-pdf-api
 arazzos:
 - description: Upload a PDF, auto-tag it for accessibility, poll the job, and fetch the tagged result.
   name: Adobe Auto-tag a PDF For Accessibility
@@ -190,184 +190,172 @@ collections:
   name: Adobe PDF Services API
   slug: open-adobe-pdf-services-api
 common:
-- group: other
+- group: agent
   title: ''
   type: AgenticAccess
   url: agentic-access/adobe-agentic-access.yml
-- group: other
+- group: auth
   title: ''
   type: VulnerabilityDisclosure
   url: security/adobe-vulnerability-disclosure.yml
-- group: other
+- group: auth
   title: ''
   type: DomainSecurity
   url: security/adobe-domain-security.yml
-- group: other
+- group: auth
   title: ''
   type: Authentication
   url: authentication/adobe-authentication.yml
-- group: other
+- group: build
   title: ''
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/adobe/overview
-- group: other
-  title: Adobe Auto-tag a PDF For Accessibility
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-auto-tag-pdf-workflow.yml
-- group: other
-  title: Adobe Combine Two PDFs Into One
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-combine-pdfs-workflow.yml
-- group: other
-  title: Adobe Compress a PDF
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-compress-pdf-workflow.yml
-- group: other
-  title: Adobe Create PDF From Source File
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-create-pdf-workflow.yml
-- group: other
-  title: Adobe Delete Pages From a PDF
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-delete-pages-workflow.yml
-- group: other
-  title: Adobe Download Then Clean Up an Asset
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-download-and-cleanup-asset-workflow.yml
-- group: other
-  title: Adobe Export PDF To Another Format
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-export-pdf-workflow.yml
-- group: other
-  title: Adobe Extract Content From a PDF
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-extract-pdf-workflow.yml
-- group: other
-  title: Adobe Generate a Document From a Template
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-generate-document-workflow.yml
-- group: other
-  title: Adobe Inspect PDF Properties
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-inspect-pdf-properties-workflow.yml
-- group: other
-  title: Adobe OCR a Scanned PDF
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-ocr-pdf-workflow.yml
-- group: other
-  title: Adobe Protect a PDF With a Password
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-protect-pdf-workflow.yml
-- group: other
-  title: Adobe Remove Protection From a PDF
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-remove-protection-workflow.yml
-- group: other
-  title: Adobe Rotate Pages In a PDF
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-rotate-pages-workflow.yml
-- group: other
-  title: Adobe Split a PDF
+- group: design
+  title: ''
   type: Arazzo
   url: arazzo/adobe-split-pdf-workflow.yml
-- group: other
+- group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/adobe
-- group: other
+- group: start
   title: ''
   type: Portal
   url: https://developer.adobe.com/
-- group: other
+- group: start
   title: ''
   type: Console
   url: https://developer.adobe.com/console/
-- group: other
+- group: auth
   title: ''
   type: Authentication
   url: https://developer.adobe.com/developer-console/docs/guides/authentication/
-- group: other
+- group: operate
   title: ''
   type: Support
   url: https://developer.adobe.com/developer-support/
-- group: other
+- group: operate
   title: ''
   type: StatusPage
   url: https://status.adobe.com/
-- group: other
+- group: company
   title: ''
   type: Blog
   url: https://blog.developer.adobe.com/
-- group: other
+- group: commercial
   title: ''
   type: TermsOfService
   url: https://www.adobe.com/legal/terms.html
-- group: other
+- group: commercial
   title: ''
   type: PrivacyPolicy
   url: https://www.adobe.com/privacy/policy.html
-- group: other
+- group: start
   title: ''
   type: GettingStarted
   url: https://developer.adobe.com/developer-console/docs/guides/getting-started
-- group: other
+- group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/AdobeDocs/
-- group: other
+- group: build
   title: ''
   type: SDKs
   url: https://developer.adobe.com/apis
-- group: other
+- group: start
   title: ''
   type: Signup
   url: https://developer.adobe.com/console/
-- group: other
+- group: start
   title: ''
   type: Login
   url: https://developer.adobe.com/console/
-- group: other
+- group: docs
   title: ''
   type: OpenAPI
   url: openapi/adobe-pdf-services-api-openapi.yml
-- group: other
+- group: docs
   title: ''
   type: JSONSchema
   url: json-schema/adobe-pdf-services-asset-upload-request-schema.json
-- group: other
+- group: design
   title: ''
   type: JSONLD
   url: json-ld/adobe-context.jsonld
-- group: other
+- group: design
   title: ''
   type: SpectralRules
   url: rules/adobe-spectral-rules.yml
-- group: other
+- group: design
   title: ''
   type: Vocabulary
   url: vocabulary/adobe-vocabulary.yaml
-- group: other
+- group: agent
   title: ''
-  type: Features
-  url: null
-- group: other
-  title: ''
-  type: UseCases
-  url: null
-- group: other
-  title: ''
-  type: Integrations
-  url: null
-- group: other
-  title: MCP Server
   type: MCPServer
   url: https://blog.developer.adobe.com/en/publish/2025/09/introducing-the-adobe-express-add-on-dev-mcp-server-beta
-- group: other
-  title: Adobe PDF Services licensing and usage limits
+- group: operate
+  title: ''
   type: RateLimits
   url: https://developer.adobe.com/document-services/docs/overview/limits/
-- group: other
-  title: Adobe Firefly API changelog
+- group: operate
+  title: ''
   type: ChangeLog
   url: https://developer.adobe.com/firefly-services/docs/firefly-api/
 created: '2024-01-01'
@@ -793,13 +781,13 @@ modified: '2026-05-19'
 name: Adobe
 nav: Providers
 network: true
-overview: 'Adobe publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Accessibility Auto-Tag API, Assets API, Combine PDF API, and 17 more. Tagged areas include Fortune 1000, Analytics, Creative Cloud, Digital Asset Management, and Document Services.
+overview: 'Adobe publishes 20 APIs on the [APIs.io](https://apis.io/) network, including PDF Services Accessibility Auto-Tag API, PDF Services Assets API, PDF Services Combine PDF API, and 17 more. Tagged areas include Fortune 1000, Analytics, Creative Cloud, Digital Asset Management, and Document Services.
 
 
   The Adobe catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Adobe''s developer surface includes authentication, developer portal, developer console, support, engineering blog, getting-started guide, signup flow, and 33 more developer resources.'
+  Adobe''s developer surface includes authentication, developer portal, developer console, support, engineering blog, getting-started guide, signup flow, and 35 more developer resources.'
 paper_is_own: true
 plans:
 - name: Adobe Plans Pricing
@@ -821,7 +809,7 @@ press:
 - date: '2026-05-25'
   title: Adobe (@Adobe) / Posts / X
   url: https://x.com/Adobe
-random_paper: 23
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Adobe Rate Limits
@@ -845,16 +833,16 @@ rules:
   slug: adobe-spectral-rules
 score:
   band: exemplar
-  composite: 69.5
-  delta: '+2.1'
+  composite: 69.4
+  delta: -0.5
   facets:
     commercial_clarity: 73.7
-    contract_quality: 79.6
+    contract_quality: 81.3
     developer_ergonomics: 63.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 67.4
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
     contracts:
@@ -862,8 +850,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: '0.6'
-  scored_at: '2026-07-29'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png
 security:

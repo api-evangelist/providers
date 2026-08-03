@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: Programmatic access to sales/fulfillment orders - create and manage orders that flow into Hopstack's omnichannel order management and picking, packing, and shipping workflows. Orders is one of the cor
@@ -107,7 +107,7 @@ plans:
 - name: Hopstack Plans Pricing
   plan_count: 1
   slug: hopstack-plans-pricing
-random_paper: 41
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Hopstack Rate Limits
@@ -115,7 +115,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.0
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -123,9 +123,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 20.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 18.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopstack/refs/heads/main/screenshots/hopstack-2026-07-25T221422.png
 security:

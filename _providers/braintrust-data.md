@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Braintrust Data Plans Pricing
   plan_count: 3
   slug: braintrust-data-plans-pricing
-random_paper: 81
+random_paper: 37
 rate_limits:
 - limit_count: 7
   name: Braintrust Data Rate Limits
@@ -168,16 +168,16 @@ rules:
   slug: braintrust-data-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.6
-  delta: -2.8
+  composite: 44.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 66.5
+    contract_quality: 69.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 46.4
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintrust-data/refs/heads/main/screenshots/braintrust-data-2026-06-20T173631.png
 security:

@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 49.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -207,29 +207,29 @@ overview: 'Goodlord publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Goodlord''s developer surface includes sandbox, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 29 more developer resources.'
-random_paper: 38
+random_paper: 3
 scopes:
 - name: Goodlord Scopes
   scope_count: 2
   slug: goodlord-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 54.2
-  delta: -5.7
+  band: strong
+  composite: 58.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.6
+    contract_quality: 73.6
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 59.9
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
@@ -241,9 +241,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Goodlord Authentication

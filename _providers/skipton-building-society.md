@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: UK Open Banking Open Data standard - public, unauthenticated reference data (branches, ATMs, personal and business current accounts, unsecured SME loans, commercial credit cards) as defined by the OBI
@@ -134,11 +134,11 @@ overview: 'Skipton Building Society publishes 1 API on the [APIs.io](https://api
 
 
   Skipton Building Society''s developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 20
+random_paper: 10
 score:
   band: emerging
   composite: 27.6
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 32.3
@@ -146,7 +146,7 @@ score:
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 31.3
+  previous_composite: 27.6
   provenance:
     conformance: derived
     contracts:
@@ -160,8 +160,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

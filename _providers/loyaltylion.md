@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -119,23 +119,23 @@ plans:
 - name: Loyaltylion Plans Pricing
   plan_count: 4
   slug: loyaltylion-plans-pricing
-random_paper: 68
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Loyaltylion Rate Limits
   slug: loyaltylion-rate-limits
 score:
   band: thin
-  composite: 37.0
-  delta: -2.2
+  composite: 37.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 39.2
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -143,8 +143,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/screenshots/loyaltylion-2026-07-25T225628.png
 security:

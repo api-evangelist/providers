@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -323,7 +323,7 @@ plans:
 - name: Nutritionix Plans Pricing
   plan_count: 2
   slug: nutritionix-plans-pricing
-random_paper: 81
+random_paper: 89
 rate_limits:
 - limit_count: 3
   name: Nutritionix Rate Limits
@@ -346,17 +346,17 @@ rules:
     warn: 18
   slug: nutritionix-rules
 score:
-  band: developing
-  composite: 48.4
-  delta: -8.3
+  band: thin
+  composite: 40.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.6
+    contract_quality: 32.9
     developer_ergonomics: 34.8
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 56.7
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -370,9 +370,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutritionix/refs/heads/main/screenshots/nutritionix-2026-06-20T190531.png
 security:
 - kind: authentication

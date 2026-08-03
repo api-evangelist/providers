@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 24
@@ -1146,7 +1146,7 @@ plans:
 - name: Grafana Plans Pricing
   plan_count: 3
   slug: grafana-plans-pricing
-random_paper: 64
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Grafana Rate Limits
@@ -1162,16 +1162,16 @@ rules:
   slug: grafana-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.9
-  delta: 1.6
+  composite: 72.7
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.2
+    contract_quality: 72.3
     developer_ergonomics: 65.2
     discoverability: 85.2
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 70.3
+  previous_composite: 72.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1181,8 +1181,8 @@ score:
       marker_coverage: 0.0
       total: 138
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png
 security:

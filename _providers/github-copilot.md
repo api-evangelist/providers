@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -749,7 +749,7 @@ plans:
 - name: Github Copilot Plans Pricing
   plan_count: 5
   slug: github-copilot-plans-pricing
-random_paper: 56
+random_paper: 25
 rate_limits:
 - limit_count: 11
   name: Github Copilot Rate Limits
@@ -778,16 +778,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.5
-  delta: -0.7
+  composite: 75.0
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 78.0
+    contract_quality: 79.8
     developer_ergonomics: 71.7
     discoverability: 83.3
     governance: 69.8
     operational_transparency: 63.2
-  previous_composite: 75.2
+  previous_composite: 75.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -797,8 +797,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/screenshots/github-copilot-2026-06-20T181939.png
 security:

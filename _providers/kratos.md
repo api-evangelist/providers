@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Kratos is a Go framework for building cloud-native microservices, originally created at Bilibili. It provides built-in support for HTTP and gRPC transports, service discovery, configuration management
@@ -99,7 +99,7 @@ plans:
 - name: Kratos Plans Pricing
   plan_count: 3
   slug: kratos-plans-pricing
-random_paper: 4
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Kratos Rate Limits
@@ -116,7 +116,7 @@ rules:
 score:
   band: thin
   composite: 32.4
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 9.7
@@ -124,9 +124,9 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 36.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 32.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kratos/refs/heads/main/screenshots/kratos-2026-06-20T184150.png
 security:

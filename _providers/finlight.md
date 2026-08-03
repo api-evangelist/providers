@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 33
+random_paper: 93
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -170,16 +170,16 @@ rules:
   slug: finlight-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.0
-  delta: -3.0
+  composite: 42.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.6
+    contract_quality: 66.7
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 45.0
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +193,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/screenshots/finlight-2026-06-20T181218.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -149,19 +149,19 @@ overview: '酷学院 (Cool College) publishes 3 APIs on the [APIs.io](https://ap
 
 
   酷学院 (Cool College)''s developer surface includes API reference, documentation, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 12
+random_paper: 20
 score:
   band: thin
-  composite: 39.7
-  delta: -1.4
+  composite: 40.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 44.6
+    contract_quality: 49.4
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 41.1
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -172,8 +172,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/screenshots/coolcollege-2026-07-25T210405.png
 security:

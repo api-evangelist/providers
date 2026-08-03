@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The 8base GraphQL API provides auto-generated queries, mutations, and subscriptions for every data table in a workspace, covering full CRUD operations out-of-the-box. Each workspace is assigned a uniq
@@ -91,11 +91,11 @@ overview: '8base publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   8base''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 57
+random_paper: 87
 score:
   band: emerging
   composite: 23.4
-  delta: 9.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 43.2
@@ -103,10 +103,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 23.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/8base/refs/heads/main/screenshots/8base-2026-06-20T162859.png
 security:
 - kind: domain-security

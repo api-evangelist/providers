@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -269,7 +269,7 @@ overview: 'crates.io publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   crates.io''s developer surface includes authentication, developer portal, documentation, getting-started guide, tooling, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 1
+random_paper: 48
 rules:
 - name: crates.io API Rules
   rule_count: 6
@@ -289,16 +289,16 @@ rules:
   slug: crates-io-rules
 score:
   band: developing
-  composite: 45.8
-  delta: -3.9
+  composite: 46.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 68.0
+    contract_quality: 70.7
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 49.7
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -306,8 +306,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/screenshots/crates-io-2026-06-20T175213.png
 security:

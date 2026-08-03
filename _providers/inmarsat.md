@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: The IsatData Pro (IDP) Messaging API is a web service for sending and receiving short binary messages over Inmarsat's global L-band satellite network to and from IDP remote modems. The API is organize
@@ -170,11 +170,11 @@ overview: 'Inmarsat publishes 7 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Inmarsat''s developer surface includes signup flow, GitHub presence, status page, YouTube channel, and 22 more developer resources.'
-random_paper: 43
+random_paper: 8
 score:
   band: minimal
   composite: 9.2
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -182,15 +182,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 11.5
+  previous_composite: 9.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inmarsat/refs/heads/main/screenshots/inmarsat-2026-06-20T183355.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 5
@@ -243,23 +243,23 @@ plans:
 - name: Hyperpay Plans Pricing
   plan_count: 2
   slug: hyperpay-plans-pricing
-random_paper: 62
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Hyperpay Rate Limits
   slug: hyperpay-rate-limits
 score:
   band: strong
-  composite: 60.7
-  delta: 0.2
+  composite: 61.3
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
-    contract_quality: 65.7
+    contract_quality: 68.6
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 60.5
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,8 +276,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperpay/refs/heads/main/screenshots/hyperpay-2026-07-25T221905.png
 security:

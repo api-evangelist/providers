@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Polychain Capital
 nav: Providers
 network: true
-random_paper: 65
+random_paper: 17
 slug: polychain
 tags:
 - Venture Capital

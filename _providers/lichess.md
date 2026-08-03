@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-07-28'
+  score: 45.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -441,7 +441,7 @@ plans:
 - name: Lichess Plans Pricing
   plan_count: 2
   slug: lichess-plans-pricing
-random_paper: 9
+random_paper: 82
 rate_limits:
 - limit_count: 16
   name: Lichess Rate Limits
@@ -478,16 +478,16 @@ scopes:
   summary_line: 23 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.9
-  delta: -3.3
+  composite: 61.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 84.8
+    contract_quality: 88.0
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 52.6
-  previous_composite: 64.2
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     contracts:
@@ -495,8 +495,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/screenshots/lichess-2026-06-20T184507.png
 security:

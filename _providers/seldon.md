@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -285,7 +285,7 @@ plans:
 - name: Seldon Plans Pricing
   plan_count: 4
   slug: seldon-plans-pricing
-random_paper: 71
+random_paper: 75
 rate_limits:
 - limit_count: 0
   name: Seldon Rate Limits
@@ -306,16 +306,16 @@ scopes:
   summary_line: 5 scopes · password
 score:
   band: developing
-  composite: 47.2
-  delta: -5.6
+  composite: 47.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.6
+    contract_quality: 53.9
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 52.8
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -323,9 +323,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/screenshots/seldon-2026-06-20T193641.png
 security:
 - kind: authentication

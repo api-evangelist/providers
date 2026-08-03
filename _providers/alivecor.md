@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 26.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: HIPAA-compliant REST API providing cloud access to patient ECG data via KardiaPro — account management, patient provisioning, and webhook notifications for new ECG availability. Access is gated behind
@@ -135,11 +135,11 @@ overview: 'Alivecor publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Alivecor''s developer surface includes support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 33
+random_paper: 93
 score:
   band: developing
   composite: 42.3
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -147,7 +147,7 @@ score:
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 23.7
-  previous_composite: 40.0
+  previous_composite: 42.3
   provenance:
     conformance: first-party
   regulatory:
@@ -156,8 +156,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/screenshots/alivecor-2026-07-25T195625.png
 security:

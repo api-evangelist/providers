@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-07-28'
+  score: 48.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ overview: 'Andel publishes 2 APIs on the [APIs.io](https://apis.io/) network: pu
 
 
   Andel''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 24
+random_paper: 41
 scopes:
 - name: Andel Scopes
   scope_count: 1
@@ -181,16 +181,16 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 49.6
-  delta: -3.3
+  composite: 50.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.0
+    contract_quality: 64.3
     developer_ergonomics: 69.0
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 52.9
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,8 +207,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/screenshots/andel-2026-07-25T200224.png
 security:

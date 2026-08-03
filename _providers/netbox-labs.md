@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 13
 apis:
 - description: The authentication-check API from NetBox Labs — 1 operation(s) for authentication-check.
@@ -192,19 +192,19 @@ overview: 'NetBox Labs publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   NetBox Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
-random_paper: 53
+random_paper: 74
 score:
   band: developing
-  composite: 51.4
-  delta: -0.8
+  composite: 53.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 39.5
+    contract_quality: 48.8
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 52.2
+  previous_composite: 53.8
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +214,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

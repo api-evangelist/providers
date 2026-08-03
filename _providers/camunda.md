@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -159,23 +159,23 @@ plans:
 - name: Camunda Plans Pricing
   plan_count: 3
   slug: camunda-plans-pricing
-random_paper: 73
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Camunda Rate Limits
   slug: camunda-rate-limits
 score:
   band: developing
-  composite: 46.7
-  delta: -2.6
+  composite: 47.7
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 54.2
+    contract_quality: 58.1
     developer_ergonomics: 45.7
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 49.3
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -183,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/screenshots/camunda-2026-06-20T173920.png
 security:

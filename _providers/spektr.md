@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-07-28'
+  score: 54.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -214,19 +214,19 @@ overview: 'Spektr publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spektr''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 24 more developer resources.'
-random_paper: 9
+random_paper: 0
 score:
   band: strong
-  composite: 56.0
-  delta: -0.6
+  composite: 57.0
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 67.7
+    contract_quality: 71.5
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 56.6
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -237,8 +237,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

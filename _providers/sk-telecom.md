@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-07-28'
+  score: 59.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -253,23 +253,23 @@ overview: 'SK Telecom publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SK Telecom''s developer surface includes authentication, signup flow, support, FAQ, engineering blog, documentation, changelog, and 33 more developer resources.'
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Sk Telecom Rate Limits
   slug: sk-telecom-rate-limits
 score:
-  band: thin
-  composite: 39.4
-  delta: -0.7
+  band: developing
+  composite: 44.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 56.1
     developer_ergonomics: 51.6
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 40.1
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,8 +281,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: PUBLIC, unauthenticated OBIE Open Data reference API for Bank of Scotland, exposing ATM locations, branch details, personal and business current account products, unsecured SME loans, and commercial c
@@ -124,7 +124,7 @@ overview: 'Bank of Scotland publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Bank of Scotland''s developer surface includes authentication, sandbox, documentation, and 15 more developer resources.'
-random_paper: 13
+random_paper: 51
 scopes:
 - name: Bank Of Scotland Scopes
   scope_count: 3
@@ -132,16 +132,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 37.0
-  delta: -3.9
+  composite: 38.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.6
+    contract_quality: 59.7
     developer_ergonomics: 36.4
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 40.9
+  previous_composite: 38.9
   provenance:
     conformance: derived
     contracts:
@@ -157,8 +157,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/screenshots/bank-of-scotland-2026-07-25T202339.png
 security:

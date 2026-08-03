@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Read-write REST API for programmatically managing your JWP media library, players, playlists, live streams, advertising configurations, DRM policies, transformations, and webhooks. Authenticated via B
@@ -134,7 +134,7 @@ plans:
 - name: Jwplayer Plans Pricing
   plan_count: 3
   slug: jwplayer-plans-pricing
-random_paper: 58
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Jwplayer Rate Limits
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.1
-  delta: -3.3
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 17.7
@@ -150,9 +150,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 34.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 31.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jwplayer/refs/heads/main/screenshots/jwplayer-2026-06-20T183847.png
 security:

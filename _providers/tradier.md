@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-07-28'
+  score: 53.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 28
   slug: tradier-agentic-access
   summary_line: 28 operations · 9 acting
-api_count: 3
+api_count: 4
 apis:
 - description: The Tradier Brokerage API provides REST endpoints for placing equity, option, and multileg orders, retrieving account balances, positions, orders, and history, and accessing market data including quot
   name: Tradier Brokerage API
@@ -47,12 +47,19 @@ apis:
 - description: Tradier's official hosted MCP server (launched July 2026) connects AI assistants like ChatGPT, Claude, Gemini CLI, and Cursor directly to a Tradier brokerage account over Streamable HTTP. It exposes 2
   name: Tradier MCP Server
   slug: mcp-server
-artifact_total: 14
+- description: Tradier Brokerage API from Tradier — 21 path(s) described in OpenAPI.
+  name: Tradier Brokerage API
+  slug: tradier-openapi
+artifact_total: 15
 asyncapis:
 - description: AsyncAPI 2.6 description of Tradier's WebSocket streaming for market events and account events. A streaming session must first be created via the brokerage REST endpoints (POST /v1/markets/events/sess
   name: Tradier Streaming WebSocket API
   slug: tradier-asyncapi
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/tradier/overview
 - group: agent
   title: ''
   type: AgenticAccess
@@ -229,18 +236,18 @@ modified: '2026-07-22'
 name: Tradier
 nav: Providers
 network: true
-overview: 'Tradier publishes 2 APIs on the [APIs.io](https://apis.io/) network: Brokerage API and Streaming API. Tagged areas include Fintech, Trading, Stocks, Options, and Brokerage.
+overview: 'Tradier publishes 2 APIs on the [APIs.io](https://apis.io/) network: Streaming API and Brokerage API. Tagged areas include Fintech, Trading, Stocks, Options, and Brokerage.
 
 
   The Tradier catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Tradier''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, API reference, getting-started guide, and 33 more developer resources.'
+  Tradier''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Tradier Plans Pricing
   plan_count: 3
   slug: tradier-plans-pricing
-random_paper: 9
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: Tradier Rate Limits
@@ -261,16 +268,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.0
-  delta: -3.0
+  composite: 75.3
+  delta: 0.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 56.8
-    developer_ergonomics: 75.5
+    contract_quality: 64.2
+    developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 53.1
     operational_transparency: 78.9
-  previous_composite: 76.0
+  previous_composite: 74.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,8 +294,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/screenshots/tradier-2026-06-20T195526.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -328,7 +328,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 81
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -344,16 +344,16 @@ rules:
   slug: openverse-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.9
-  delta: -5.1
+  composite: 39.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 51.7
+    contract_quality: 61.8
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 42.0
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -367,9 +367,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/screenshots/openverse-2026-06-20T191047.png
 security:
 - kind: authentication

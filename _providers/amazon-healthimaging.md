@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -1119,7 +1119,7 @@ plans:
 - name: Amazon Healthimaging Plans Pricing
   plan_count: 3
   slug: amazon-healthimaging-plans-pricing
-random_paper: 3
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Amazon Healthimaging Rate Limits
@@ -1143,16 +1143,16 @@ rules:
   slug: amazon-healthimaging-spectral-rules
 score:
   band: strong
-  composite: 63.6
-  delta: -8.0
+  composite: 64.0
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 75.9
+    contract_quality: 77.7
     developer_ergonomics: 58.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 71.6
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1166,9 +1166,9 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/screenshots/amazon-healthimaging-2026-07-25T200012.png
 security:
 - kind: authentication

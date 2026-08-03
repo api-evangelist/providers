@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 19
@@ -301,19 +301,19 @@ overview: 'tessl.io publishes 35 APIs on the [APIs.io](https://apis.io/) network
 
 
   tessl.io''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
-random_paper: 33
+random_paper: 11
 score:
   band: developing
-  composite: 50.9
-  delta: 0.2
+  composite: 52.0
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 46.5
+    contract_quality: 50.9
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 50.7
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,8 +324,8 @@ score:
       total: 35
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -356,7 +356,7 @@ plans:
 - name: Seismic Plans Pricing
   plan_count: 1
   slug: seismic-plans-pricing
-random_paper: 11
+random_paper: 84
 rate_limits:
 - limit_count: 4
   name: Seismic Rate Limits
@@ -380,16 +380,16 @@ rules:
   slug: seismic-rules
 score:
   band: exemplar
-  composite: 67.3
-  delta: -3.4
+  composite: 67.7
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 79.7
+    contract_quality: 81.4
     developer_ergonomics: 50.0
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 71.1
-  previous_composite: 70.7
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     contracts:
@@ -397,8 +397,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/screenshots/seismic-2026-06-20T193646.png
 security:

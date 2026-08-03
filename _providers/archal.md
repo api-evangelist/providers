@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -170,19 +170,19 @@ overview: 'Archal publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Archal''s developer surface includes authentication, documentation, API reference, getting-started guide, CLI, sandbox, and 17 more developer resources.'
-random_paper: 45
+random_paper: 49
 score:
   band: thin
-  composite: 39.8
-  delta: -0.3
+  composite: 40.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 40.1
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,8 +193,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/screenshots/archal-2026-07-25T201020.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ plans:
 - name: Elliptic Plans
   plan_count: 1
   slug: elliptic-plans
-random_paper: 34
+random_paper: 94
 rate_limits:
 - limit_count: 0
   name: Aml Api
@@ -197,16 +197,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 40.4
-  delta: -2.5
+  composite: 41.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.1
+    contract_quality: 63.8
     developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 42.9
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -214,8 +214,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/screenshots/elliptic-2026-06-20T180613.png
 security:

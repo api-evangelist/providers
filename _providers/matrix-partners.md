@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Matrix Partners
 nav: Providers
 network: true
-random_paper: 27
+random_paper: 65
 slug: matrix-partners
 tags:
 - Venture Capital

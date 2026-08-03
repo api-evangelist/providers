@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-07-28'
+  score: 38.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17655
   human_in_the_loop: 93
@@ -15508,7 +15508,7 @@ plans:
 - name: Microsoft Graph Plans Pricing
   plan_count: 3
   slug: microsoft-graph-plans-pricing
-random_paper: 81
+random_paper: 37
 rate_limits:
 - limit_count: 18
   name: Microsoft Graph Rate Limits
@@ -15532,16 +15532,16 @@ rules:
   slug: microsoft-graph-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.2
-  delta: -3.1
+  composite: 67.9
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 64.9
+    contract_quality: 67.6
     developer_ergonomics: 56.5
     discoverability: 68.5
     governance: 47.9
     operational_transparency: 78.9
-  previous_composite: 70.3
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     contracts:
@@ -15549,8 +15549,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 564
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/screenshots/microsoft-graph-2026-06-20T185504.png
 security:

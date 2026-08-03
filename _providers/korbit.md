@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 69.1
-  scored_at: '2026-07-28'
+  score: 65.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -207,23 +207,23 @@ overview: 'Korbit publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Korbit''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, and 23 more developer resources.'
-random_paper: 77
+random_paper: 81
 rate_limits:
-- limit_count: 0
+- limit_count: 5
   name: Korbit Rate Limits
   slug: korbit-rate-limits
 score:
   band: developing
-  composite: 45.5
-  delta: -1.4
+  composite: 49.6
+  delta: 3.5
   facets:
     commercial_clarity: 13.2
-    contract_quality: 72.1
+    contract_quality: 74.7
     developer_ergonomics: 77.7
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 13.2
-  previous_composite: 46.9
+    operational_transparency: 44.7
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,8 +240,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/korbit/refs/heads/main/screenshots/korbit-2026-07-25T224221.png
 security:

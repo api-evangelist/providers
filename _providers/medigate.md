@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Customer-facing REST API for the Medigate (now Claroty xDome for Healthcare) device-security platform. Documents two versions — V1 (HTTP basic auth) and V2 (API token) — used to pull the Device List, '
@@ -88,11 +88,11 @@ overview: 'Medigate publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Medigate''s developer surface includes API reference, authentication, and 8 more developer resources.'
-random_paper: 12
+random_paper: 72
 score:
   band: emerging
   composite: 20.4
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -100,15 +100,15 @@ score:
     discoverability: 79.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 25.3
+  previous_composite: 20.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 33.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

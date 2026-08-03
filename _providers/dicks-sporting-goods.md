@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,11 +72,11 @@ press:
 - date: '2026-05-25'
   title: How DICK'S Sporting Goods uses AI to elevate team skills
   url: https://eightfold.ai/blog/how-dicks-sporting-goods-uses-ai-to-elevate-team-skills-in-a-changing-workplace/
-random_paper: 74
+random_paper: 47
 score:
   band: minimal
   composite: 4.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -84,9 +84,9 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 6.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 4.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dicks-sporting-goods/refs/heads/main/screenshots/dicks-sporting-goods-2026-06-20T180011.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 0
@@ -319,9 +319,9 @@ plans:
 - name: Gleap Plans Pricing
   plan_count: 4
   slug: gleap-plans-pricing
-random_paper: 29
+random_paper: 46
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Gleap Rate Limits
   slug: gleap-rate-limits
 rules:
@@ -335,16 +335,16 @@ rules:
   slug: gleap-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.5
-  delta: -4.1
+  composite: 50.1
+  delta: 2.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.1
+    contract_quality: 63.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 50.6
+    operational_transparency: 42.1
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -352,8 +352,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gleap/refs/heads/main/screenshots/gleap-2026-06-20T181906.png
 security:

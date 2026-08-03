@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ plans:
 - name: Coredns Plans Pricing
   plan_count: 1
   slug: coredns-plans-pricing
-random_paper: 12
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Coredns Rate Limits
@@ -194,16 +194,16 @@ rules:
   slug: coredns-metrics-rules
 score:
   band: developing
-  composite: 42.2
-  delta: -3.1
+  composite: 43.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 31.3
     operational_transparency: 52.6
-  previous_composite: 45.3
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/screenshots/coredns-2026-06-20T175025.png
 security:

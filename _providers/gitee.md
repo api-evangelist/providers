@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -136,23 +136,23 @@ plans:
 - name: Gitee Plans Pricing
   plan_count: 4
   slug: gitee-plans-pricing
-random_paper: 34
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Gitee Rate Limits
   slug: gitee-rate-limits
 score:
   band: thin
-  composite: 38.2
-  delta: -2.1
+  composite: 38.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 54.3
+    contract_quality: 55.9
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 40.3
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/screenshots/gitee-2026-07-25T215849.png
 security:

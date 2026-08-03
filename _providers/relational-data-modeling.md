@@ -22,7 +22,7 @@ modified: '2026-05-02'
 name: Relational Data Modeling
 nav: Providers
 network: true
-random_paper: 36
+random_paper: 39
 slug: relational-data-modeling
 tags:
 - Data Architecture

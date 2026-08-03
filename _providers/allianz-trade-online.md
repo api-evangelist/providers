@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -391,7 +391,7 @@ overview: 'Allianz Trade publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Allianz Trade''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, support, and 13 more developer resources.'
-random_paper: 42
+random_paper: 15
 rules:
 - name: Allianz Trade API Rules
   rule_count: 5
@@ -415,17 +415,17 @@ scopes:
   slug: allianz-trade-online-scopes
   summary_line: 8 scopes · clientCredentials
 score:
-  band: developing
-  composite: 47.3
-  delta: -6.0
+  band: thin
+  composite: 39.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 66.1
+    contract_quality: 30.6
     developer_ergonomics: 45.7
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 15.8
-  previous_composite: 53.3
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -441,9 +441,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/screenshots/allianz-trade-online-2026-07-25T195702.png
 security:
 - kind: authentication

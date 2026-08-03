@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-07-28'
+  score: 45.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -216,23 +216,23 @@ overview: 'Qminder publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qminder''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 26 more developer resources.'
-random_paper: 14
+random_paper: 87
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Qminder Rate Limits
   slug: qminder-rate-limits
 score:
-  band: developing
-  composite: 55.2
-  delta: -1.3
+  band: strong
+  composite: 58.9
+  delta: 2.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.6
+    contract_quality: 68.6
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 20.8
-    operational_transparency: 28.9
-  previous_composite: 56.5
+    operational_transparency: 50.0
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -243,8 +243,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

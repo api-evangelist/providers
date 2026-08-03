@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 2
@@ -2727,7 +2727,7 @@ plans:
 - name: Axway Plans Pricing
   plan_count: 3
   slug: axway-plans-pricing
-random_paper: 62
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Axway Rate Limits
@@ -2756,16 +2756,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.6
-  delta: -2.9
+  composite: 65.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 71.9
+    contract_quality: 70.4
     developer_ergonomics: 63.0
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 68.5
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     contracts:
@@ -2773,8 +2773,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/screenshots/axway-2026-06-20T172828.png
 security:

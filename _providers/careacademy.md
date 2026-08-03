@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: The Compliance Report API from CareAcademy — 1 operation(s) for compliance report.
@@ -160,19 +160,19 @@ overview: 'CareAcademy publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CareAcademy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 69
+random_paper: 90
 score:
   band: developing
-  composite: 44.3
-  delta: -4.5
+  composite: 45.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 49.7
+    contract_quality: 54.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 48.8
+  previous_composite: 45.2
   provenance:
     conformance: derived
     contracts:
@@ -188,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -155,23 +155,23 @@ plans:
 - name: Moov Io Plans Pricing
   plan_count: 2
   slug: moov-io-plans-pricing
-random_paper: 54
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Moov Io Rate Limits
   slug: moov-io-rate-limits
 score:
   band: thin
-  composite: 35.4
-  delta: -3.3
+  composite: 36.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 52.1
+    contract_quality: 56.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.7
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

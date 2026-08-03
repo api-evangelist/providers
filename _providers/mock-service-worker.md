@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Mock Service Worker (MSW) is an open-source library for mocking REST, GraphQL, WebSocket, and Server-Sent Events APIs at the network level. It provides setupWorker for browser environments and setupSe
@@ -128,7 +128,7 @@ plans:
 - name: Mock Service Worker Plans Pricing
   plan_count: 3
   slug: mock-service-worker-plans-pricing
-random_paper: 49
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Mock Service Worker Rate Limits
@@ -145,7 +145,7 @@ rules:
 score:
   band: thin
   composite: 32.9
-  delta: -4.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 8.1
@@ -153,9 +153,9 @@ score:
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 37.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 32.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mock-service-worker/refs/heads/main/screenshots/mock-service-worker-2026-06-20T185631.png
 security:

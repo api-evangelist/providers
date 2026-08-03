@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -615,7 +615,7 @@ plans:
 - name: D Local Plans Pricing
   plan_count: 5
   slug: d-local-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: D Local Rate Limits
@@ -639,16 +639,16 @@ rules:
   slug: d-local-rules
 score:
   band: strong
-  composite: 63.5
-  delta: -6.4
+  composite: 64.1
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 65.8
+    contract_quality: 68.7
     developer_ergonomics: 71.7
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 69.9
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     contracts:
@@ -662,9 +662,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/screenshots/d-local-2026-06-20T175421.png
 security:
 - kind: authentication

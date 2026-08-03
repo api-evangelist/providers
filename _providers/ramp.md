@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -362,7 +362,7 @@ plans:
 - name: Ramp Plans Pricing
   plan_count: 3
   slug: ramp-plans-pricing
-random_paper: 22
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Ramp Rate Limits
@@ -399,16 +399,16 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.9
-  delta: -4.0
+  composite: 64.3
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 79.2
+    contract_quality: 80.8
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 52.1
     operational_transparency: 52.6
-  previous_composite: 67.9
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     contracts:
@@ -416,8 +416,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png
 security:

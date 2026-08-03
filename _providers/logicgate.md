@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -209,19 +209,19 @@ overview: 'LogicGate publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   LogicGate''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, changelog, and 23 more developer resources.'
-random_paper: 41
+random_paper: 88
 score:
   band: developing
-  composite: 49.6
-  delta: -1.3
+  composite: 50.4
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 63.6
+    contract_quality: 66.8
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 50.9
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +232,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logicgate/refs/heads/main/screenshots/logicgate-2026-07-25T225458.png
 security:

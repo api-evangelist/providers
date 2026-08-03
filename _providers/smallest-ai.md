@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Smallest Ai Plans Pricing
   plan_count: 4
   slug: smallest-ai-plans-pricing
-random_paper: 50
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Smallest Ai Rate Limits
@@ -148,16 +148,16 @@ rules:
   slug: smallest-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: -6.9
+  composite: 46.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 52.6
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -171,9 +171,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Smallest Ai Authentication

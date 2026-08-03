@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.7
-  scored_at: '2026-07-28'
+  score: 50.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ overview: 'Flint publishes 1 API on the [APIs.io](https://apis.io/) network: Age
 
 
   Flint''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 49
+random_paper: 66
 scopes:
 - name: Flint Scopes
   scope_count: 7
@@ -190,16 +190,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.6
-  delta: -0.7
+  composite: 53.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 72.0
+    contract_quality: 74.4
     developer_ergonomics: 58.2
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 18.4
-  previous_composite: 53.3
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,8 +210,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/screenshots/flint-2026-07-25T214758.png
 security:

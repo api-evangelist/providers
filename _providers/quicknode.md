@@ -1,15 +1,15 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: flavored
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-07-28'
+  score: 33.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -26,30 +26,45 @@ agentic_access:
   operation_count: 22
   slug: quicknode-agentic-access
   summary_line: 22 operations · 13 acting
-api_count: 7
+api_count: 12
 apis:
 - description: Multi-chain JSON-RPC, REST, and gRPC endpoints across 77+ blockchains (Ethereum, Solana, Polygon, Arbitrum, Optimism, Base, Bitcoin, Aptos, Avalanche, BNB, etc.).
   name: QuickNode Core RPC API
   slug: core-rpc
-- description: Real-time blockchain data streaming with custom filters and webhook delivery.
-  name: QuickNode Streams
-  slug: streams
 - description: Event-driven webhook subscriptions with custom filtering for blockchain events.
   name: QuickNode Webhooks
   slug: webhooks
-- description: REST API for uploading, pinning, and retrieving content on IPFS.
-  name: QuickNode IPFS API
-  slug: ipfs
-- description: REST API for large-scale dataset storage and retrieval keyed by string identifiers.
-  name: QuickNode Key-Value Store
-  slug: kv-store
 - description: Catalog of opt-in add-on APIs (NFT API, Token API, DeFi API, Functions, etc.) attached to a QuickNode endpoint.
   name: QuickNode Marketplace Add-ons
   slug: marketplace
 - description: Serverless on-chain logic runtime for executing custom code triggered by Streams or HTTP.
   name: QuickNode Functions
   slug: functions
-artifact_total: 26
+- description: Fetch account usage information including bandwidth and storage metrics.
+  name: QuickNode Account API
+  slug: quicknode-account-api
+- description: Bulk-load operations against a database.
+  name: QuickNode Batch API
+  slug: quicknode-batch-api
+- description: Manage key-value namespaces (databases).
+  name: QuickNode Database API
+  slug: quicknode-database-api
+- description: Create and manage gateways for retrieving content from the IPFS network.
+  name: QuickNode Gateway API
+  slug: quicknode-gateway-api
+- description: Read, write, and delete keys within a database.
+  name: QuickNode Keys API
+  slug: quicknode-keys-api
+- description: Inspect Stream execution logs.
+  name: QuickNode Logs API
+  slug: quicknode-logs-api
+- description: Pin, view, and manage pinned content to ensure its availability on the IPFS network.
+  name: QuickNode Pinning API
+  slug: quicknode-pinning-api
+- description: Manage Streams definitions and lifecycle.
+  name: QuickNode Streams API
+  slug: quicknode-streams-api
+artifact_total: 31
 asyncapis:
 - description: AsyncAPI definition for QuickNode WebSocket subscription endpoints across Ethereum (and EVM-compatible chains) and Solana. All subscriptions use the JSON-RPC 2.0 envelope. After a successful subscript
   name: QuickNode WebSocket Subscription API
@@ -144,7 +159,7 @@ modified: '2026-05-29'
 name: QuickNode
 nav: Providers
 network: true
-overview: 'QuickNode publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Core RPC API, Streams, IPFS API, and 1 more. Tagged areas include Web3, Blockchain, RPC, Streams, and IPFS.
+overview: 'QuickNode publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Core RPC API, Account API, Batch API, and 6 more. Tagged areas include Web3, Blockchain, RPC, Streams, and IPFS.
 
 
   The QuickNode catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -155,7 +170,7 @@ plans:
 - name: Quicknode Plans Pricing
   plan_count: 5
   slug: quicknode-plans-pricing
-random_paper: 61
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Quicknode Rate Limits
@@ -179,16 +194,16 @@ rules:
   slug: quicknode-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.0
-  delta: -3.2
+  composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 72.6
+    contract_quality: 66.7
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 50.2
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -196,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/screenshots/quicknode-2026-06-20T192434.png
 security:

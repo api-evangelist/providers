@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -155,23 +155,23 @@ plans:
 - name: Appcues Plans Pricing
   plan_count: 1
   slug: appcues-plans-pricing
-random_paper: 15
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: Appcues Rate Limits
   slug: appcues-rate-limits
 score:
   band: thin
-  composite: 34.2
+  composite: 35.0
   delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.9
+    contract_quality: 60.1
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.2
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/screenshots/appcues-2026-06-20T172312.png
 security:

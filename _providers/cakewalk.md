@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-07-28'
+  score: 45.3
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'The Cakewalk Open API is a REST API for building custom access-governance workflows and integrations. It exposes users, user groups, work apps, accesses, permission levels, requests, tasks, policies, '
@@ -167,9 +167,9 @@ overview: 'Cakewalk publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Cakewalk''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 15
+random_paper: 75
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Cakewalk Rate Limits
   slug: cakewalk-rate-limits
 scopes:
@@ -179,23 +179,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.2
-  delta: 6.1
+  composite: 46.0
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.6
     developer_ergonomics: 58.2
     discoverability: 75.9
     governance: 12.5
-    operational_transparency: 13.2
-  previous_composite: 37.1
+    operational_transparency: 34.2
+  previous_composite: 43.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/screenshots/cakewalk-2026-07-25T204223.png
 security:
 - kind: authentication

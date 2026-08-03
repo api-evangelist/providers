@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Debbie Collect Plans Pricing
   plan_count: 3
   slug: debbie-collect-plans-pricing
-random_paper: 78
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Debbie Collect Rate Limits
@@ -185,16 +185,16 @@ rules:
   slug: debbie-platform-api-rules
 score:
   band: developing
-  composite: 48.5
-  delta: -5.3
+  composite: 49.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 71.2
+    contract_quality: 73.6
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 53.8
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     contracts:
@@ -208,9 +208,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/screenshots/debbie-collect-2026-06-20T175744.png
 security:
 - kind: authentication

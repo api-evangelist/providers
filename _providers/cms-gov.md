@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -297,7 +297,7 @@ overview: 'CMS — Centers for Medicare & Medicaid Services publishes 25 APIs on
 
 
   CMS — Centers for Medicare & Medicaid Services'' developer surface includes authentication, developer portal, support, sandbox, engineering blog, privacy policy, documentation, and 20 more developer resources.'
-random_paper: 44
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Cms Gov Rate Limits
@@ -326,16 +326,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.9
-  delta: -4.8
+  composite: 43.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 64.5
+    contract_quality: 67.5
     developer_ergonomics: 41.3
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 47.7
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -349,8 +349,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/screenshots/cms-gov-2026-06-20T174633.png
 security:

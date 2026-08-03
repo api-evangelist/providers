@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 39.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -161,19 +161,19 @@ overview: 'Hour One publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Hour One''s developer surface includes documentation, API reference, getting-started guide, authentication, and 16 more developer resources.'
-random_paper: 75
+random_paper: 53
 score:
   band: thin
-  composite: 37.0
-  delta: -3.5
+  composite: 37.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 63.6
+    contract_quality: 66.7
     developer_ergonomics: 49.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 40.5
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,8 +184,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

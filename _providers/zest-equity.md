@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-07-28'
+  score: 51.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -217,14 +217,14 @@ overview: 'Zest Equity publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Zest Equity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 23 more developer resources.'
-random_paper: 24
+random_paper: 32
 score:
   band: developing
-  composite: 50.9
-  delta: -0.7
+  composite: 51.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 66.3
+    contract_quality: 69.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
@@ -240,8 +240,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

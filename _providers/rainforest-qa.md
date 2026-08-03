@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-07-28'
+  score: 43.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -237,19 +237,19 @@ overview: 'Rainforest QA publishes 18 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Rainforest QA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 23 more developer resources.'
-random_paper: 28
+random_paper: 10
 score:
   band: strong
-  composite: 58.6
-  delta: -1.3
+  composite: 59.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.8
+    contract_quality: 68.6
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 59.9
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,8 +260,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

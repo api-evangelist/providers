@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 43.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 3
@@ -254,23 +254,23 @@ plans:
 - name: Telr Plans Pricing
   plan_count: 7
   slug: telr-plans-pricing
-random_paper: 29
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Telr Rate Limits
   slug: telr-rate-limits
 score:
   band: exemplar
-  composite: 67.5
-  delta: -2.7
+  composite: 68.1
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 67.8
+    contract_quality: 70.5
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 70.2
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,8 +287,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

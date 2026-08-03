@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 19
 apis:
 - description: Player Authentication for Unity Gaming Services. Anonymous, social (Apple/Google/Facebook/Steam/Oculus/PlayStation/Xbox/Nintendo), username/password, and custom-ID sign-in flows that mint Unity player
@@ -323,7 +323,7 @@ plans:
 - name: Unity Plans Pricing
   plan_count: 8
   slug: unity-plans-pricing
-random_paper: 31
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Unity Rate Limits
@@ -331,7 +331,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.6
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 17.7
@@ -339,9 +339,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 40.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity-com/refs/heads/main/screenshots/unity-com-2026-06-20T200110.png
 security:

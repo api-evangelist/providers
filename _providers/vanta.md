@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -272,7 +272,7 @@ plans:
 - name: Vanta Plans Pricing
   plan_count: 3
   slug: vanta-plans-pricing
-random_paper: 46
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Vanta Rate Limits
@@ -301,16 +301,16 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: strong
-  composite: 57.4
-  delta: -4.1
+  composite: 58.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.1
+    contract_quality: 70.2
     developer_ergonomics: 60.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 61.5
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     contracts:
@@ -318,8 +318,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/screenshots/vanta-2026-06-20T200811.png
 security:

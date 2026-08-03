@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,19 +28,19 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-07-28'
+  score: 43.9
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: 'The MX Platform API aggregates and enhances financial data, connecting apps and websites to tens of thousands of financial institutions. Covers users, members, accounts, transactions, categorization, '
   name: MX Platform API
   slug: mx-platform-api
-- description: API for embedding the MX consent management dashboard into a customer-facing experience, letting consumers grant, modify, and revoke access to their financial data. OpenAPI 3.0, version 4.
-  name: MX Consent Management API
-  slug: mx-consent-management-api
 - description: Data Access is MX's open-finance API platform for sharing an institution's financial data and accessing other institutions' data using FDX and OAuth standards, with tokenized, consumer-permissioned ac
   name: MX Data Access
   slug: mx-data-access
+- description: MX Consent Management V4 API from MX — 4 path(s) described in OpenAPI.
+  name: MX Consent Management V4 API
+  slug: mx-consent-management-openapi
 artifact_total: 12
 asyncapis:
 - description: ''
@@ -207,25 +207,25 @@ modified: '2026-07-23'
 name: MX
 nav: Providers
 network: true
-overview: 'MX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Platform API and Consent Management API. Tagged areas include Financial Services, Banking, United States, Open Finance, and Data Aggregation.
+overview: 'MX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Platform API and Consent Management V4 API. Tagged areas include Financial Services, Banking, United States, Open Finance, and Data Aggregation.
 
 
   The MX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   MX''s developer surface includes authentication, documentation, engineering blog, support, changelog, sandbox, signup flow, and 28 more developer resources.'
-random_paper: 65
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Mx Rate Limits
   slug: mx-rate-limits
 score:
   band: strong
-  composite: 60.6
-  delta: -0.7
+  composite: 61.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.0
+    contract_quality: 67.1
     developer_ergonomics: 53.8
     discoverability: 83.3
     governance: 20.8
@@ -246,8 +246,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

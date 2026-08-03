@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 40
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -251,7 +251,7 @@ scopes:
 score:
   band: developing
   composite: 49.7
-  delta: -5.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.6
@@ -259,7 +259,7 @@ score:
     discoverability: 68.5
     governance: 52.1
     operational_transparency: 44.7
-  previous_composite: 55.6
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -273,9 +273,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/screenshots/mangopay-2026-06-20T184919.png
 security:
 - kind: authentication

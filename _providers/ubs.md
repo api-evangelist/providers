@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: 'UBS''s EU PSD2-compliant open banking API set covering Account Information Services (AIS), Payment Initiation Services (PIS), and Confirmation of Funds (CoF). Used by licensed third-party providers to '
@@ -121,11 +121,11 @@ overview: 'UBS publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   UBS''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, and 4 more developer resources.'
-random_paper: 2
+random_paper: 45
 score:
   band: minimal
   composite: 12.7
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -133,15 +133,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.3
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubs/refs/heads/main/screenshots/ubs-2026-06-20T195946.png
 security:

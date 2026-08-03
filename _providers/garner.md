@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The Facilities API from Garner — 1 operation(s) for facilities.
@@ -125,19 +125,19 @@ overview: 'Garner publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Garner''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 11 more developer resources.'
-random_paper: 65
+random_paper: 69
 score:
-  band: thin
-  composite: 41.4
-  delta: -3.5
+  band: developing
+  composite: 42.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.4
+    contract_quality: 60.1
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 44.9
+  previous_composite: 42.2
   provenance:
     conformance: first-party
     contracts:
@@ -153,8 +153,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/screenshots/garner-2026-07-25T215448.png
 security:

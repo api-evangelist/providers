@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for String's fiat-for-Web3-gaming platform — quotes and transactions (fiat on/off ramp, NFT purchase, cross-chain), plus management of API keys, contracts, platforms (games), members, organiz
@@ -136,11 +136,11 @@ overview: 'String Technology Inc publishes 1 API on the [APIs.io](https://apis.i
 
 
   String Technology Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, sandbox, authentication, and 15 more developer resources.'
-random_paper: 19
+random_paper: 61
 score:
   band: emerging
   composite: 25.2
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -148,7 +148,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 28.8
+  previous_composite: 25.2
   provenance:
     conformance: derived
     mcp: derived
@@ -159,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

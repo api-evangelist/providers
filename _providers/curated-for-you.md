@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The Chronicle API from Curated for You — 1 operation(s) for chronicle.
@@ -143,19 +143,19 @@ overview: 'Curated for You publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Curated for You''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 34
+random_paper: 85
 score:
   band: thin
-  composite: 37.0
-  delta: -2.3
+  composite: 38.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 45.5
+    contract_quality: 50.1
     developer_ergonomics: 40.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 39.3
+  previous_composite: 38.2
   provenance:
     conformance: derived
     contracts:
@@ -165,8 +165,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/screenshots/curated-for-you-2026-07-25T210930.png
 security:

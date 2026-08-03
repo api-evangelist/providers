@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-07-28'
+  score: 51.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -211,19 +211,19 @@ overview: 'Unify publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Unify''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 63
+random_paper: 80
 score:
-  band: developing
-  composite: 54.7
-  delta: 1.1
+  band: strong
+  composite: 56.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.3
+    contract_quality: 62.6
     developer_ergonomics: 69.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 53.6
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +234,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

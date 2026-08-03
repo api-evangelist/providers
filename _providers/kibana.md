@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
-    idempotency: false
+    event_surface_described: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-07-28'
+  score: 55.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 389
   human_in_the_loop: 15
@@ -301,23 +301,23 @@ plans:
 - name: Kibana Plans Pricing
   plan_count: 3
   slug: kibana-plans-pricing
-random_paper: 40
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Kibana Rate Limits
   slug: kibana-rate-limits
 score:
   band: developing
-  composite: 45.5
-  delta: -1.5
+  composite: 47.3
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 53.5
+    contract_quality: 61.0
     developer_ergonomics: 32.6
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 47.0
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -325,8 +325,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 60
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/screenshots/kibana-2026-06-20T184031.png
 security:

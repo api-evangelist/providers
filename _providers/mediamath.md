@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-07-28'
+  score: 41.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -1229,7 +1229,7 @@ plans:
 - name: Mediamath Plans
   plan_count: 2
   slug: mediamath-plans
-random_paper: 36
+random_paper: 83
 rate_limits:
 - limit_count: 7
   name: Mediamath Rate Limits
@@ -1250,16 +1250,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.3
-  delta: -3.9
+  composite: 48.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 62.8
+    contract_quality: 65.9
     developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 51.2
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1267,8 +1267,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/screenshots/mediamath-2026-06-20T185115.png
 security:

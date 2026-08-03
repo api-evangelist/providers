@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-07-28'
+  score: 50.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -483,6 +483,10 @@ common:
   title: ''
   type: AgentSkills
   url: https://github.com/Airtable/skills
+- group: other
+  title: ''
+  type: AICatalog
+  url: ai-catalog/airtable-ai-catalog.yml
 created: '2023-11-21T00:00:00.000Z'
 description: Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more.
 examples:
@@ -750,12 +754,12 @@ overview: 'Airtable publishes 12 APIs on the [APIs.io](https://apis.io/) network
   The Airtable catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Airtable''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, support, and 66 more developer resources.'
+  Airtable''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, support, and 67 more developer resources.'
 plans:
 - name: Airtable Plans Pricing
   plan_count: 4
   slug: airtable-plans-pricing
-random_paper: 16
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Airtable Rate Limits
@@ -787,16 +791,16 @@ rules:
   slug: airtable-spectral-rules
 score:
   band: exemplar
-  composite: 70.6
-  delta: -4.4
+  composite: 70.9
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 86.1
+    contract_quality: 87.2
     developer_ergonomics: 65.2
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 75.0
+  previous_composite: 70.9
   provenance:
     agentic_access: derived
     contracts:
@@ -804,8 +808,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png
 security:

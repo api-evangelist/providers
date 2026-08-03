@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-07-28'
+  score: 59.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -1414,7 +1414,7 @@ plans:
 - name: Kraken Plans Pricing
   plan_count: 8
   slug: kraken-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 16
   name: Kraken Rate Limits
@@ -1446,16 +1446,16 @@ rules:
   slug: kraken-rules
 score:
   band: exemplar
-  composite: 73.2
-  delta: -1.1
+  composite: 68.0
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 62.1
+    contract_quality: 37.4
     developer_ergonomics: 78.3
     discoverability: 100.0
     governance: 63.5
     operational_transparency: 52.6
-  previous_composite: 74.3
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1471,8 +1471,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 83.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png
 security:

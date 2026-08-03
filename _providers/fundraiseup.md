@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -100,6 +100,10 @@ common:
   title: ''
   type: Blog
   url: https://fundraiseup.com/blog/
+- group: other
+  title: ''
+  type: AICatalog
+  url: ai-catalog/fundraiseup-ai-catalog.yml
 created: '2026-07-05'
 description: Fundraise Up is an online donation and fundraising platform for nonprofits that optimizes the digital giving experience to increase conversion and recurring revenue. Its REST API gives programmatic access to fundraising data - donations, recurring plans, supporters (donors), and an events audit log - so organizations can process offline and non-digital donations through their Fundraise Up account, combine them with online giving, and sync everything to CRMs, BI tools, and data warehouses. The API is resource-oriented, uses JSON-encoded request bodies, and authenticates with an API key over HTTP Bearer. Base URL is https://api.fundraiseup.com/v1.
 finops:
@@ -115,28 +119,28 @@ network: true
 overview: 'Fundraise Up publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Donations API, Donor Portal API, Events API, and 2 more. Tagged areas include Fundraising, Donations, Nonprofit, Payments, and Recurring Giving.
 
 
-  Fundraise Up''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Fundraise Up''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Fundraiseup Plans Pricing
   plan_count: 2
   slug: fundraiseup-plans-pricing
-random_paper: 42
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Fundraiseup Rate Limits
   slug: fundraiseup-rate-limits
 score:
   band: thin
-  composite: 34.0
-  delta: -3.5
+  composite: 34.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.5
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/screenshots/fundraiseup-2026-07-25T215319.png
 security:

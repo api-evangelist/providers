@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: true
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 7
@@ -237,7 +237,7 @@ plans:
 - name: Uclouvain Plans Pricing
   plan_count: 2
   slug: uclouvain-plans-pricing
-random_paper: 80
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Uclouvain Rate Limits
@@ -261,16 +261,16 @@ rules:
   slug: uclouvain-rules
 score:
   band: thin
-  composite: 33.0
-  delta: -3.4
+  composite: 33.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 48.3
+    contract_quality: 52.7
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 36.4
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -284,8 +284,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/screenshots/uclouvain-2026-06-20T195945.png
 security:

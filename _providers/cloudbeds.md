@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -260,7 +260,7 @@ plans:
 - name: Cloudbeds Plans Pricing
   plan_count: 2
   slug: cloudbeds-plans-pricing
-random_paper: 47
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Cloudbeds Rate Limits
@@ -289,16 +289,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.1
-  delta: -5.7
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 64.4
+    contract_quality: 67.4
     developer_ergonomics: 13.0
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -312,9 +312,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Cloudbeds Authentication

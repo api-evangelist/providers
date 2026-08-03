@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 2
@@ -619,7 +619,7 @@ plans:
 - name: Google Cloud Healthcare Plans Pricing
   plan_count: 6
   slug: google-cloud-healthcare-plans-pricing
-random_paper: 7
+random_paper: 23
 rate_limits:
 - limit_count: 13
   name: Google Cloud Healthcare Rate Limits
@@ -639,17 +639,17 @@ scopes:
   slug: google-cloud-healthcare-scopes
   summary_line: 2 scopes · implicit/authorizationCode
 score:
-  band: developing
-  composite: 55.9
-  delta: -5.8
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 48.3
+    contract_quality: 49.6
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 61.7
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -663,9 +663,9 @@ score:
     regime: Health
     regime_id: health
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/screenshots/google-cloud-healthcare-2026-06-20T182114.png
 security:
 - kind: authentication

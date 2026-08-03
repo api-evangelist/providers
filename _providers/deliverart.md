@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 3
@@ -208,7 +208,7 @@ overview: 'Deliverart publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Deliverart''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, signup flow, and 19 more developer resources.'
-random_paper: 8
+random_paper: 29
 scopes:
 - name: Deliverart Scopes
   scope_count: 44
@@ -216,16 +216,16 @@ scopes:
   summary_line: 44 scopes · password
 score:
   band: developing
-  composite: 46.3
-  delta: -2.4
+  composite: 46.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.7
+    contract_quality: 62.0
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 48.7
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,8 +236,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/screenshots/deliverart-2026-07-25T211654.png
 security:

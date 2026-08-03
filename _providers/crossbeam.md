@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-07-28'
+  score: 41.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Read (and timeline-write) access to Crossbeam Ecosystem Intelligence — partners, populations, reports/overlaps, and real-time signals — via a versioned REST API secured with OAuth 2.0. Requires an Aut
@@ -179,7 +179,7 @@ overview: 'Crossbeam publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Crossbeam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 23 more developer resources.'
-random_paper: 57
+random_paper: 9
 scopes:
 - name: Crossbeam Scopes
   scope_count: 6
@@ -188,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 54.5
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -196,14 +196,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 46.3
+  previous_composite: 54.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossbeam/refs/heads/main/screenshots/crossbeam-2026-07-25T210753.png
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 49
+random_paper: 57
 rate_limits:
 - limit_count: 7
   name: Rate Limits
@@ -156,16 +156,16 @@ rules:
   slug: polygonscan-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.6
-  delta: -4.4
+  composite: 48.9
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 56.8
+    contract_quality: 58.1
     developer_ergonomics: 21.7
     discoverability: 63.0
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 53.0
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygonscan/refs/heads/main/screenshots/polygonscan-2026-06-20T191911.png
 security:

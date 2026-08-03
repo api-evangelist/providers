@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -139,19 +139,19 @@ overview: 'LiveChat publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LiveChat''s developer surface includes authentication, documentation, developer console, signup flow, pricing, engineering blog, and 5 more developer resources.'
-random_paper: 28
+random_paper: 88
 score:
   band: thin
-  composite: 29.5
-  delta: -4.4
+  composite: 30.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 63.6
+    contract_quality: 66.2
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.9
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +165,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/screenshots/livechat-2026-06-20T184613.png
 security:

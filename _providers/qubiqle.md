@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -217,9 +217,9 @@ overview: 'Qubiqle publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qubiqle''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 24 more developer resources.'
-random_paper: 17
+random_paper: 90
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Qubiqle Rate Limits
   slug: qubiqle-rate-limits
 scopes:
@@ -229,16 +229,16 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 51.2
-  delta: -3.0
+  composite: 55.8
+  delta: 3.5
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.9
+    contract_quality: 59.3
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 44.7
-  previous_composite: 54.2
+    operational_transparency: 76.3
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,8 +255,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

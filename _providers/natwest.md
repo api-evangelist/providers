@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ overview: 'NatWest Group publishes 21 APIs on the [APIs.io](https://apis.io/) ne
 
 
   NatWest Group''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, engineering blog, support, and 30 more developer resources.'
-random_paper: 36
+random_paper: 14
 scopes:
 - name: Natwest Scopes
   scope_count: 5
@@ -275,16 +275,16 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 54.5
-  delta: -4.7
+  composite: 55.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 49.7
+    contract_quality: 55.0
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 59.2
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,8 +301,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

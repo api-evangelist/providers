@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Omdb Plans Pricing
   plan_count: 2
   slug: omdb-plans-pricing
-random_paper: 8
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Omdb Rate Limits
@@ -170,16 +170,16 @@ rules:
   slug: omdb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.9
-  delta: -4.7
+  composite: 48.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 78.8
+    contract_quality: 78.3
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 53.6
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +193,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/screenshots/omdb-2026-06-20T190703.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-07-28'
+  score: 43.9
+  scored_at: '2026-08-03'
 api_count: 15
 apis:
 - description: Endpoints for creating and managing loan application contracts
@@ -193,7 +193,7 @@ overview: 'LendKey publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LendKey''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 10
+random_paper: 83
 scopes:
 - name: Lendkey Scopes
   scope_count: 0
@@ -201,16 +201,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.8
-  delta: -2.3
+  composite: 49.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 70.5
+    contract_quality: 69.9
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 52.1
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -226,8 +226,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/screenshots/lendkey-2026-07-25T224904.png
 security:

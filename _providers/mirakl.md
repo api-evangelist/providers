@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ overview: 'Mirakl publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mirakl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 66
+random_paper: 70
 scopes:
 - name: Mirakl Scopes
   scope_count: 0
@@ -256,16 +256,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.8
+  composite: 58.2
   delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.0
+    contract_quality: 71.8
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 56.8
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,8 +276,8 @@ score:
       total: 19
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

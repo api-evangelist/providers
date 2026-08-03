@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-07-28'
+  score: 43.9
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Brands report new orders, order updates (including partial returns), and cancellations to Button server-to-server, passing the Button Attribution Token (btn_ref) captured by the Merchant Library; docu
@@ -240,14 +240,14 @@ overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Button''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 29 more developer resources.'
-random_paper: 17
+random_paper: 51
 score:
   band: strong
-  composite: 59.8
-  delta: -0.7
+  composite: 60.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.2
+    contract_quality: 71.8
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
@@ -262,8 +262,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

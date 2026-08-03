@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Basware Plans Pricing
   plan_count: 4
   slug: basware-plans-pricing
-random_paper: 3
+random_paper: 76
 rate_limits:
 - limit_count: 0
   name: Basware Rate Limits
@@ -301,17 +301,17 @@ scopes:
   slug: basware-scopes
   summary_line: 86 scopes · clientCredentials
 score:
-  band: thin
-  composite: 41.3
-  delta: -4.7
+  band: developing
+  composite: 42.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 48.9
+    contract_quality: 54.0
     developer_ergonomics: 21.7
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 46.0
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -319,8 +319,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/screenshots/basware-2026-06-20T173043.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -185,19 +185,19 @@ overview: 'Cariqa publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cariqa''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, quickstart, and 20 more developer resources.'
-random_paper: 51
+random_paper: 55
 score:
   band: developing
-  composite: 44.8
-  delta: -2.6
+  composite: 45.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 47.4
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,8 +214,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/screenshots/cariqa-2026-07-25T204619.png
 security:

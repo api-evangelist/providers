@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 33.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -37,14 +37,11 @@ agentic_access:
   operation_count: 58
   slug: artifact-hub-agentic-access
   summary_line: 58 operations · 30 acting · 2 human-in-the-loop
-api_count: 9
+api_count: 10
 apis:
 - description: The Artifact Hub REST API provides endpoints for searching and retrieving cloud-native packages across all supported artifact types, managing repositories, handling user authentication and sessions, m
   name: Artifact Hub API
   slug: artifact-hub-api
-- description: API key management
-  name: Artifact Hub API Keys API
-  slug: artifact-hub-api-keys-api
 - description: Organizations and memberships
   name: Artifact Hub Organizations API
   slug: artifact-hub-organizations-api
@@ -66,7 +63,13 @@ apis:
 - description: Webhook configuration and delivery
   name: Artifact Hub Webhooks API
   slug: artifact-hub-webhooks-api
-artifact_total: 30
+- description: The Availability checks API from Artifact Hub — 1 operation(s) for availability checks.
+  name: Artifact Hub Availability checks API
+  slug: artifact-hub-availability-checks-api
+- description: The Integrations API from Artifact Hub — 3 operation(s) for integrations.
+  name: Artifact Hub Integrations API
+  slug: artifact-hub-integrations-api
+artifact_total: 31
 collections:
 - collection_type: open
   name: Artifact Hub API
@@ -146,7 +149,7 @@ modified: '2026-04-19'
 name: Artifact Hub
 nav: Providers
 network: true
-overview: 'Artifact Hub publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Organizations API, Packages API, and 5 more. Tagged areas include Cloud Native, CNCF, Helm Charts, Package Registry, and Discovery.
+overview: 'Artifact Hub publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Organizations API, Packages API, Repositories API, and 6 more. Tagged areas include Cloud Native, CNCF, Helm Charts, Package Registry, and Discovery.
 
 
   Artifact Hub''s developer surface includes authentication, documentation, developer portal, release notes, and 6 more developer resources.'
@@ -154,32 +157,32 @@ plans:
 - name: Artifact Hub Plans Pricing
   plan_count: 3
   slug: artifact-hub-plans-pricing
-random_paper: 62
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Artifact Hub Rate Limits
   slug: artifact-hub-rate-limits
 score:
-  band: thin
-  composite: 41.8
-  delta: -2.1
+  band: developing
+  composite: 44.5
+  delta: 1.6
   facets:
     commercial_clarity: 47.4
-    contract_quality: 49.7
+    contract_quality: 60.5
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 43.9
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+      total: 10
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png
 security:

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -79,11 +79,11 @@ overview: 'Hometree is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Hometree''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 37
+random_paper: 2
 score:
   band: emerging
   composite: 13.0
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -91,15 +91,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.3
+  previous_composite: 13.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 12.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hometree/refs/heads/main/screenshots/hometree-2026-07-25T221349.png
 slug: hometree

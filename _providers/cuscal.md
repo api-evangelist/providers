@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-07-28'
+  score: 17.6
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Part of Cuscal's CMS REST API family for card issuers. Enables instant digital card issuance and provisioning of cards into mobile and digital wallets (the 'Pays') for online and in-store transactions
@@ -116,11 +116,11 @@ overview: 'Cuscal publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Cuscal''s developer surface includes documentation, developer portal, engineering blog, support, and 12 more developer resources.'
-random_paper: 61
+random_paper: 65
 score:
   band: thin
   composite: 32.0
-  delta: 4.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -128,7 +128,7 @@ score:
     discoverability: 83.3
     governance: 12.5
     operational_transparency: 13.2
-  previous_composite: 27.5
+  previous_composite: 32.0
   provenance:
     conformance: first-party
   regulatory:
@@ -137,8 +137,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 24.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuscal/refs/heads/main/screenshots/cuscal-2026-07-25T211000.png
 security:

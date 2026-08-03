@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 67.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -331,6 +331,10 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.zapier.com/llms.txt
+- group: other
+  title: ''
+  type: AICatalog
+  url: ai-catalog/zapier-ai-catalog.yml
 created: '2025-06-06T00:00:00.000Z'
 description: Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.
 examples:
@@ -1346,12 +1350,12 @@ overview: 'Zapier publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Zapier catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Zapier''s developer surface includes authentication, changelog, CLI, sandbox, engineering blog, support, documentation, and 50 more developer resources.'
+  Zapier''s developer surface includes authentication, changelog, CLI, sandbox, engineering blog, support, documentation, and 51 more developer resources.'
 plans:
 - name: Zapier Plans Pricing
   plan_count: 4
   slug: zapier-plans-pricing
-random_paper: 77
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Zapier Rate Limits
@@ -1380,11 +1384,11 @@ scopes:
   summary_line: 10 scopes · authorizationCode/implicit
 score:
   band: exemplar
-  composite: 79.6
-  delta: 0.3
+  composite: 79.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 79.4
+    contract_quality: 78.5
     developer_ergonomics: 71.7
     discoverability: 74.1
     governance: 80.2
@@ -1399,8 +1403,8 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/screenshots/zapier-2026-06-20T201801.png
 security:

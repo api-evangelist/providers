@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: FHIR R4 API enabling patients and authorized applications to access clinical health records from Netsmart provider EHR systems including myAvatar, myEvolv, myUnity, GEHRIMED, and TheraOffice. Implemen
@@ -144,7 +144,7 @@ plans:
 - name: Netsmart Plans Pricing
   plan_count: 2
   slug: netsmart-plans-pricing
-random_paper: 58
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Netsmart Rate Limits
@@ -152,7 +152,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.3
-  delta: -5.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 17.7
@@ -160,16 +160,16 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.1
+  previous_composite: 32.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netsmart/refs/heads/main/screenshots/netsmart-2026-06-20T190207.png
 security:
 - kind: domain-security

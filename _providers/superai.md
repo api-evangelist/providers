@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-07-28'
+  score: 41.2
+  scored_at: '2026-08-03'
 api_count: 19
 apis:
 - description: Authentication operations for user authentication, authorization, and session management. Authentication endpoints handle user identity verification, token generation, and access control throughout th
@@ -237,19 +237,19 @@ overview: 'Super.ai publishes 19 APIs on the [APIs.io](https://apis.io/) network
 
 
   Super.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 24 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: developing
-  composite: 54.1
-  delta: -2.4
+  composite: 55.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.7
+    contract_quality: 67.0
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 56.5
+  previous_composite: 55.4
   provenance:
     conformance: derived
     contracts:
@@ -259,8 +259,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-07-28'
+  score: 21.2
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -122,11 +122,11 @@ overview: 'Alta5 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Alta5''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 11 more developer resources.'
-random_paper: 61
+random_paper: 91
 score:
   band: thin
   composite: 37.3
-  delta: 5.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -134,16 +134,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 32.1
+  previous_composite: 37.3
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alta5/refs/heads/main/screenshots/alta5-2026-07-25T195813.png
 security:
 - kind: domain-security

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-07-28'
+  score: 42.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -368,7 +368,7 @@ plans:
 - name: Hasura Plans Pricing
   plan_count: 3
   slug: hasura-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Hasura Rate Limits
@@ -384,16 +384,16 @@ rules:
   slug: hasura-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 66.5
-  delta: -2.7
+  composite: 68.0
+  delta: 0.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 62.3
+    contract_quality: 65.5
     developer_ergonomics: 63.0
-    discoverability: 46.3
+    discoverability: 53.7
     governance: 41.7
     operational_transparency: 78.9
-  previous_composite: 69.2
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     contracts:
@@ -401,8 +401,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/screenshots/hasura-2026-06-20T182534.png
 security:

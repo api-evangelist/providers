@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Logical capability for creating and managing restaurant reservations - availability, floor and table assignment, booking creation and status changes. Superb surfaces this to guests through a hosted bo
@@ -84,11 +84,11 @@ plans:
 - name: Superb Hq Plans Pricing
   plan_count: 3
   slug: superb-hq-plans-pricing
-random_paper: 17
+random_paper: 64
 score:
   band: emerging
   composite: 15.5
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -96,15 +96,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.8
+  previous_composite: 15.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

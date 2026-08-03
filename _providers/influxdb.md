@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 0
@@ -268,23 +268,23 @@ plans:
 - name: Influxdb Plans Pricing
   plan_count: 3
   slug: influxdb-plans-pricing
-random_paper: 40
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Influxdb Rate Limits
   slug: influxdb-rate-limits
 score:
-  band: thin
-  composite: 41.4
-  delta: -3.2
+  band: developing
+  composite: 42.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 48.5
+    contract_quality: 54.1
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 44.6
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -292,8 +292,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 41
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/influxdb/refs/heads/main/screenshots/influxdb-2026-06-20T183337.png
 security:

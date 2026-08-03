@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'RESTful API for managing B2B events including conferences, speakers, ticketing, attendee registration, contacts, sessions, and event analytics. Enables third-party developers and Bizzabo customers to '
@@ -100,7 +100,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 15
+random_paper: 88
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.3
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 8.1
@@ -116,9 +116,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 24.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizzabo/refs/heads/main/screenshots/bizzabo-2026-06-20T173329.png
 security:

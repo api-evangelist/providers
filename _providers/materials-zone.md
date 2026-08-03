@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -167,19 +167,19 @@ overview: 'Materials Zone publishes 9 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Materials Zone''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 16 more developer resources.'
-random_paper: 57
+random_paper: 26
 score:
   band: thin
-  composite: 40.7
-  delta: -3.5
+  composite: 41.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 56.6
+    contract_quality: 61.6
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 44.2
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,8 +196,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/screenshots/materials-zone-2026-07-25T230407.png
 security:

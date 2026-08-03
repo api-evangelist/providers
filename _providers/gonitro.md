@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-07-28'
+  score: 54.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -263,19 +263,19 @@ overview: 'GoNitro publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   GoNitro''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 32
+random_paper: 10
 score:
   band: strong
-  composite: 60.5
-  delta: 0.5
+  composite: 61.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.7
+    contract_quality: 68.9
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 60.0
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,8 +286,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gonitro/refs/heads/main/screenshots/gonitro-2026-07-25T220034.png
 security:

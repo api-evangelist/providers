@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 49.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -231,23 +231,23 @@ overview: 'Street.co.uk publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Street.co.uk''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, engineering blog, pricing, and 35 more developer resources.'
-random_paper: 16
+random_paper: 63
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Street Co Rate Limits
   slug: street-co-rate-limits
 score:
-  band: developing
-  composite: 51.8
-  delta: -0.7
+  band: strong
+  composite: 58.5
+  delta: 4.1
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.0
+    contract_quality: 73.6
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 31.6
-  previous_composite: 52.5
+    operational_transparency: 63.2
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -258,8 +258,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

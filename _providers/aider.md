@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -483,7 +483,7 @@ overview: 'Aider publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aider''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, tooling, and 28 more developer resources.'
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Aider Rate Limits
@@ -507,16 +507,16 @@ rules:
   slug: aider-rules
 score:
   band: thin
-  composite: 38.6
-  delta: -9.3
+  composite: 32.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 49.3
+    contract_quality: 22.7
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 47.9
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -524,9 +524,9 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/screenshots/aider-2026-06-20T170838.png
 security:
 - kind: authentication

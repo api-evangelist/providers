@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: 'Reservation data model and delivery surface published at api.exploretock.com. Reservation records (bookings, ticketed experiences, takeout/delivery orders, parties, pricing, payments, refunds, notes, '
@@ -597,7 +597,7 @@ plans:
 - name: Tock Plans Pricing
   plan_count: 2
   slug: tock-plans-pricing
-random_paper: 23
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Tock Rate Limits
@@ -614,7 +614,7 @@ rules:
 score:
   band: developing
   composite: 51.8
-  delta: -6.7
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 59.7
@@ -622,10 +622,10 @@ score:
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 58.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 51.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/screenshots/tock-2026-06-20T195428.png
 security:
 - kind: authentication

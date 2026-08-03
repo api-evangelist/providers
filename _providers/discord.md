@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-07-28'
+  score: 35.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 167
   human_in_the_loop: 2
@@ -1799,7 +1799,7 @@ plans:
 - name: Discord Plans Pricing
   plan_count: 3
   slug: discord-plans-pricing
-random_paper: 6
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Discord Rate Limits
@@ -1828,16 +1828,16 @@ scopes:
   summary_line: 33 scopes · implicit/clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 61.0
-  delta: -1.8
+  composite: 61.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.9
+    contract_quality: 76.1
     developer_ergonomics: 50.0
     discoverability: 55.6
     governance: 41.7
     operational_transparency: 68.4
-  previous_composite: 62.8
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1851,8 +1851,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/screenshots/discord-2026-06-20T180039.png
 security:

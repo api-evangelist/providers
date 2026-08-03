@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -150,7 +150,7 @@ plans:
 - name: Spring Boot Admin Console Plans Pricing
   plan_count: 1
   slug: spring-boot-admin-console-plans-pricing
-random_paper: 46
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Spring Boot Admin Console Rate Limits
@@ -174,16 +174,16 @@ rules:
   slug: spring-boot-admin-console-rules
 score:
   band: thin
-  composite: 37.6
-  delta: -5.7
+  composite: 38.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.3
+    contract_quality: 61.0
     developer_ergonomics: 6.5
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 43.3
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -191,9 +191,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 slug: spring-boot-admin-console
 tags:
 - Actuator

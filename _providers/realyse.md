@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Data API delivering a constant feed of UK residential property data across Planning & Policy, Demographics, Market, Land & Ownership, and Amenities endpoints. Onboarded via the REalyse sales team; no '
@@ -87,11 +87,11 @@ overview: 'REalyse publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   REalyse''s developer surface includes documentation, API reference, signup flow, and 7 more developer resources.'
-random_paper: 19
+random_paper: 92
 score:
   band: emerging
   composite: 17.6
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -99,9 +99,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 17.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

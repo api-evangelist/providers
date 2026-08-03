@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: Applied Materials Debuts New Gear For Making AI Chips
   url: https://www.investors.com/news/technology/amat-stock-applied-materials-new-gear-ai-chips/
-random_paper: 20
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Applied Materials Rate Limits
@@ -142,16 +142,16 @@ rules:
   slug: applied-materials-spectral-rules
 score:
   band: thin
-  composite: 41.0
-  delta: -3.1
+  composite: 41.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 75.4
+    contract_quality: 77.5
     developer_ergonomics: 10.9
     discoverability: 44.4
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 44.1
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +159,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

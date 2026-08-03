@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 16
 apis:
 - description: The Attribute Worksheets API from CaptivateIQ — 5 operation(s) for attribute worksheets.
@@ -201,23 +201,23 @@ overview: 'CaptivateIQ publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   CaptivateIQ''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, support, and 20 more developer resources.'
-random_paper: 31
+random_paper: 39
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Captivateiq Rate Limits
   slug: captivateiq-rate-limits
 score:
   band: developing
-  composite: 49.7
-  delta: -0.7
+  composite: 53.5
+  delta: 2.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 49.0
+    contract_quality: 53.3
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 47.4
-  previous_composite: 50.4
+    operational_transparency: 68.4
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -227,8 +227,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/screenshots/captivateiq-2026-07-25T204452.png
 security:

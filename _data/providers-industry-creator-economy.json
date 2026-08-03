@@ -328,9 +328,54 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 45,
-   "shown": 45,
+   "count": 46,
+   "shown": 46,
    "providers": [
+    {
+     "name": "Lithium",
+     "slug": "lithium",
+     "description": "Lithium Technologies is the enterprise online-community and social-customer-engagement platform that, after merging with Spredfast in 2018, rebranded as Khoros and is today operated by IgniteTech. The Lithium name is still load-bearing in the live platform: the Khoros Care APIs are served from *.response.lithium.com and api.app.lithium.com, the Community plugin SDK and CLI ship on npm as lithium-sdk (the `li` command), and the public GitHub organization is still github.com/lithiumtech. The platform exposes four public developer surfaces documented at developer.khoros.com — Khoros Care (agent, author, conversation, bot, work-queue, analytics and GDPR APIs on the Lithium hosts), Khoros Marketing (the Spredfast-lineage Conversations, CRM, Stream, label-set and notification APIs on api.spredfast.com), Khoros Flow (the flow.ai bot and messaging REST API), and Khoros Community (the LiQL-powered Community v2 API plus the legacy v1 REST API), with the newer Aurora community platform adding a GraphQL API behind a login.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png",
+     "score": 65.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 69.1,
+      "governance": 20.8,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 73.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 47.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 9
+    },
     {
      "name": "Amazon Interactive Video Service",
      "slug": "amazon-interactive-video-service",
@@ -367,7 +412,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "X (Twitter)",
@@ -405,7 +450,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Facebook Business Manager",
@@ -443,7 +488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Adobe Creative Cloud",
@@ -481,7 +526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Amazon Migration Hub",
@@ -519,7 +564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Amazon MQ",
@@ -557,7 +602,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Amazon MSK",
@@ -595,7 +640,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "StreamYard",
@@ -633,7 +678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Last.fm",
@@ -671,7 +716,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Livepeer",
@@ -709,7 +754,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Amazon MediaTailor",
@@ -747,7 +792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Amazon MediaConnect",
@@ -785,7 +830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Amazon MediaConvert",
@@ -823,7 +868,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Adobe Creative Suite",
@@ -861,7 +906,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Amazon MediaStore",
@@ -899,7 +944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Heidi Health",
@@ -944,7 +989,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Amazon MediaPackage",
@@ -982,7 +1027,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Google Cloud Text-To-Speech",
@@ -1016,51 +1061,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 26
-    },
-    {
-     "name": "Lithium",
-     "slug": "lithium",
-     "description": "Lithium Technologies is the enterprise online-community and social-customer-engagement platform that, after merging with Spredfast in 2018, rebranded as Khoros and is today operated by IgniteTech. The Lithium name is still load-bearing in the live platform: the Khoros Care APIs are served from *.response.lithium.com and api.app.lithium.com, the Community plugin SDK and CLI ship on npm as lithium-sdk (the `li` command), and the public GitHub organization is still github.com/lithiumtech. The platform exposes four public developer surfaces documented at developer.khoros.com — Khoros Care (agent, author, conversation, bot, work-queue, analytics and GDPR APIs on the Lithium hosts), Khoros Marketing (the Spredfast-lineage Conversations, CRM, Stream, label-set and notification APIs on api.spredfast.com), Khoros Flow (the flow.ai bot and messaging REST API), and Khoros Community (the LiQL-powered Community v2 API plus the legacy v1 REST API), with the newer Aurora community platform adding a GraphQL API behind a login.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png",
-     "score": 61.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 69.1,
-      "governance": 20.8,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 73.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 47.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -1371,6 +1371,43 @@
      "rank": 35
     },
     {
+     "name": "Picsart",
+     "slug": "picsart",
+     "description": "Picsart is a creative-technology company whose Picsart Enterprise / Creative APIs let developers add photo editing, video editing, and generative AI to their own products. The platform spans Programmable Image APIs (remove background, upscale, ultra enhance, face enhance, effects, adjust, blend, vectorize), Programmable Video APIs (FPS upscale, remove background, effects, trim, crop, concat, transcribe), GenAI APIs (text2image, text2sticker, logo, inpaint, outpaint, expand, text2video, image2video, text2speech, text2sound) via an AI Hub of 140+ models across 28 providers, and Variable Data Content APIs. All APIs are REST, authenticated with an X-Picsart-API-Key header, and are also reachable through first-party TypeScript/Python/Java SDKs, a gen-ai CLI, and an official hosted MCP server. Surfaced originally as a portfolio company of DCM Ventures and SoftBank Vision Fund and enriched into the API Evangelist network.",
+     "score": 59.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 60.7,
+      "governance": 11.5,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 82.1,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 52.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 36
+    },
+    {
      "name": "beehiiv",
      "slug": "beehiiv",
      "description": "beehiiv is a newsletter publishing platform offering email publishing, subscriber management, paid subscriptions, an ad network, referrals, polls, automations, segments, webhooks, and analytics for creators and media companies. Founded in 2021 by former Morning Brew operators and headquartered in New York City.",
@@ -1406,7 +1443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Giphy",
@@ -1451,7 +1488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Modulate",
@@ -1488,7 +1525,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Daily",
@@ -1526,7 +1563,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Instagram",
@@ -1564,7 +1601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Taddy API",
@@ -1602,7 +1639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Last.fm",
@@ -1640,7 +1677,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Riverside",
@@ -1678,7 +1715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Sorsa",
@@ -1716,7 +1753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Snapchat",
@@ -1761,7 +1798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Restream",
@@ -1795,43 +1832,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 46
-    },
-    {
-     "name": "Picsart",
-     "slug": "picsart",
-     "description": "Picsart is a creative-technology company whose Picsart Enterprise / Creative APIs let developers add photo editing, video editing, and generative AI to their own products. The platform spans Programmable Image APIs (remove background, upscale, ultra enhance, face enhance, effects, adjust, blend, vectorize), Programmable Video APIs (FPS upscale, remove background, effects, trim, crop, concat, transcribe), GenAI APIs (text2image, text2sticker, logo, inpaint, outpaint, expand, text2video, image2video, text2speech, text2sound) via an AI Hub of 140+ models across 28 providers, and Variable Data Content APIs. All APIs are REST, authenticated with an X-Picsart-API-Key header, and are also reachable through first-party TypeScript/Python/Java SDKs, a gen-ai CLI, and an official hosted MCP server. Surfaced originally as a portfolio company of DCM Ventures and SoftBank Vision Fund and enriched into the API Evangelist network.",
-     "score": 57.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 60.7,
-      "governance": 11.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 82.1,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 52.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -1877,6 +1877,44 @@
      "rank": 48
     },
     {
+     "name": "Imgur",
+     "slug": "imgur",
+     "description": "Imgur is a popular image and album hosting platform whose REST API (v3) exposes the full platform — upload, retrieve, vote, comment, gallery, account, tags, topics — over HTTP/JSON. Anonymous reads/writes are supported with a Client-ID; per-user actions use OAuth2 access tokens. Commercial use is routed through RapidAPI's metered tiers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png",
+     "score": 56.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 65.1,
+      "governance": 68.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 39.1,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 49
+    },
+    {
      "name": "Automattic",
      "slug": "automattic",
      "description": "Automattic is the company behind WordPress.com, Jetpack, WooCommerce, Tumblr, Gravatar, Akismet, WordPress VIP, Pocket Casts, Day One, Beeper and Simplenote. Its developer platform centres on the WordPress.com REST API at public-api.wordpress.com, which serves three parallel namespaces — the WordPress.com-native /rest/v1.x family, the WordPress-core-compatible /wp/v2 family, and the WordPress.com and Jetpack platform extensions in /wpcom/v2 — all behind a single OAuth 2.1 and OpenID Connect authorization server with PKCE, dynamic client registration and resource indicators. Every /rest/ version publishes a machine-readable help document and every /wp/ and /wpcom/ namespace publishes a route index, so the whole surface is self-describing even though Automattic does not ship OpenAPI for it. Automattic also runs a hosted Model Context Protocol server for WordPress.com, publishes OpenAPI for Akismet and for the Jetpack ai-plugin surface, and exposes a GraphQL Platform API for the enterprise WordPress VIP product.",
@@ -1911,7 +1949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "ACMA",
@@ -1955,7 +1993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Knak",
@@ -1993,7 +2031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Gradium",
@@ -2031,7 +2069,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "JamBase",
@@ -2069,7 +2107,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 54
     }
    ],
    "open": true
@@ -2079,8 +2117,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 111,
-   "shown": 111,
+   "count": 113,
+   "shown": 113,
    "providers": [
     {
      "name": "Threads",
@@ -2118,7 +2156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "KonbiniAPI",
@@ -2163,7 +2201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "ConvertAPI",
@@ -2201,7 +2239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Reddit",
@@ -2238,7 +2276,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Neuphonic",
@@ -2276,7 +2314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Beatoven.ai",
@@ -2313,7 +2351,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
+    },
+    {
+     "name": "Gamesight",
+     "slug": "gamesight",
+     "description": "Gamesight is a performance marketing platform for PC and console games, giving game publishers the data, technology, and expertise to reach players across a title's lifecycle. Its Marketing Measurement suite delivers attribution for PC, console, and web games, cost aggregation from ad networks, and incrementality testing, while its Creator Marketing products run influencer campaigns, creator programs, and creator-led playtests. Developers integrate via a REST Measurement (ingest) API that streams in-game events with device identifiers, a Reporting API that pulls marketing analytics into a data warehouse, and a web measurement JavaScript SDK. The platform processes over a billion gaming data points daily and is SOC 2, GDPR, and CCPA compliant.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png",
+     "score": 54.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 62.0,
+      "governance": 20.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 52.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 61
     },
     {
      "name": "Unsplash",
@@ -2350,7 +2426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 62
     },
     {
      "name": "Ant Media",
@@ -2388,7 +2464,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 63
     },
     {
      "name": "Novita AI",
@@ -2426,7 +2502,7 @@
       "agent_card": "near-conformant",
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Community",
@@ -2471,7 +2547,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 65
+    },
+    {
+     "name": "Let's Enhance",
+     "slug": "lets-enhance",
+     "description": "Let's Enhance is an AI image enhancement company whose consumer product at letsenhance.io upscales, sharpens, denoises and restores photographs up to 512MP, and whose developer platform is shipped as Claid.ai — a REST API for AI image editing, generation and image-to-video. The Claid API exposes synchronous and asynchronous image editing pipelines, batch processing, direct upload, natural-language AI edit, AI fashion models, AI background scene generation, image generation, image-to-video, and cloud storage connectors for AWS S3, Google Cloud Storage and web folders. It is used by ecommerce, marketplace, real-estate and print-on-demand teams to automate product and listing imagery at scale. Authentication is a bearer API key with per-key permission scopes; long-running jobs are polled or delivered by HMAC-signed webhooks. Let's Enhance is a Techstars-backed company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/screenshots/lets-enhance-2026-07-25T224934.png",
+     "score": 53.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 65.1,
+      "governance": 11.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 43.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 66
     },
     {
      "name": "Snappr",
@@ -2508,7 +2622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 67
     },
     {
      "name": "Sequel",
@@ -2545,7 +2659,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 68
     },
     {
      "name": "StreamElements",
@@ -2582,7 +2696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 69
     },
     {
      "name": "Artlist",
@@ -2593,19 +2707,19 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 45.0,
+      "contract_quality": 48.8,
       "governance": 20.8,
       "operational_transparency": 36.8,
-      "developer_ergonomics": 73.9,
+      "developer_ergonomics": 69.0,
       "commercial_clarity": 52.6
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 59.9,
+     "agent_score": 49.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": "derived",
       "mcp_server": true,
       "auth_clarity": true,
       "idempotency": false,
@@ -2613,13 +2727,13 @@
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 70
     },
     {
      "name": "Dow Jones",
@@ -2664,7 +2778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 71
     },
     {
      "name": "Refersion",
@@ -2702,7 +2816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 72
     },
     {
      "name": "Captions",
@@ -2740,7 +2854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 73
     },
     {
      "name": "CometAPI",
@@ -2778,45 +2892,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
-    },
-    {
-     "name": "Imgur",
-     "slug": "imgur",
-     "description": "Imgur is a popular image and album hosting platform whose REST API (v3) exposes the full platform — upload, retrieve, vote, comment, gallery, account, tags, topics — over HTTP/JSON. Anonymous reads/writes are supported with a Client-ID; per-user actions use OAuth2 access tokens. Commercial use is routed through RapidAPI's metered tiers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png",
-     "score": 52.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 65.1,
-      "governance": 68.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 39.1,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 72
+     "rank": 74
     },
     {
      "name": "WorldCat",
@@ -2854,7 +2930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "Paragraph",
@@ -2891,7 +2967,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "Opus",
@@ -2928,7 +3004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 77
     },
     {
      "name": "Warner Music Group",
@@ -2966,7 +3042,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 78
     },
     {
      "name": "Higgsfield",
@@ -3004,7 +3080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "Songstats",
@@ -3042,45 +3118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
-    },
-    {
-     "name": "Gamesight",
-     "slug": "gamesight",
-     "description": "Gamesight is a performance marketing platform for PC and console games, giving game publishers the data, technology, and expertise to reach players across a title's lifecycle. Its Marketing Measurement suite delivers attribution for PC, console, and web games, cost aggregation from ad networks, and incrementality testing, while its Creator Marketing products run influencer campaigns, creator programs, and creator-led playtests. Developers integrate via a REST Measurement (ingest) API that streams in-game events with device identifiers, a Reporting API that pulls marketing analytics into a data warehouse, and a web measurement JavaScript SDK. The platform processes over a billion gaming data points daily and is SOC 2, GDPR, and CCPA compliant.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png",
-     "score": 51.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 62.0,
-      "governance": 20.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 52.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Tivo",
@@ -3118,7 +3156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Kit",
@@ -3156,7 +3194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Agorapulse",
@@ -3194,7 +3232,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 83
+    },
+    {
+     "name": "Fama",
+     "slug": "fama",
+     "description": "Fama is an AI-powered social media and online screening platform for employment decisions. Its REST API lets HR platforms and background-screening providers submit candidate checks and retrieve behavioral findings — flagged posts, web content, and social profiles — mapped to workplace-misconduct categories across 30+ languages while filtering out protected-class information for EEOC/FCRA-aligned adjudication. Reports are delivered via completion callbacks or polling as JSON or a signed PDF, powering pre-employment screening (Fama Plus), comprehensive candidate assessment (Fama 360), and ongoing employee monitoring (Fama Pulse).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png",
+     "score": 51.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 37.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 84
     },
     {
      "name": "Lightstream",
@@ -3232,7 +3308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 85
     },
     {
      "name": "Pinterest",
@@ -3270,7 +3346,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 86
     },
     {
      "name": "StepFun",
@@ -3307,7 +3383,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 87
     },
     {
      "name": "Gutendex",
@@ -3345,7 +3421,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 88
     },
     {
      "name": "Impact Radius",
@@ -3383,45 +3459,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
-    },
-    {
-     "name": "Let's Enhance",
-     "slug": "lets-enhance",
-     "description": "Let's Enhance is an AI image enhancement company whose consumer product at letsenhance.io upscales, sharpens, denoises and restores photographs up to 512MP, and whose developer platform is shipped as Claid.ai — a REST API for AI image editing, generation and image-to-video. The Claid API exposes synchronous and asynchronous image editing pipelines, batch processing, direct upload, natural-language AI edit, AI fashion models, AI background scene generation, image generation, image-to-video, and cloud storage connectors for AWS S3, Google Cloud Storage and web folders. It is used by ecommerce, marketplace, real-estate and print-on-demand teams to automate product and listing imagery at scale. Authentication is a bearer API key with per-key permission scopes; long-running jobs are polled or delivered by HMAC-signed webhooks. Let's Enhance is a Techstars-backed company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/screenshots/lets-enhance-2026-07-25T224934.png",
-     "score": 50.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 65.1,
-      "governance": 11.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 43.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Flickr",
@@ -3459,7 +3497,89 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 90
+    },
+    {
+     "name": "Deepdub",
+     "slug": "deepdub",
+     "description": "Deepdub is an AI dubbing, voice-cloning, and text-to-speech company that turns content into natural, emotionally adaptive speech across 100+ languages. Its platform powers media dubbing for studios such as Paramount, Netflix, and Prime Video, real-time AI voice agents (~125ms latency), video localization, live broadcast, and voice cloning. Deepdub exposes a developer platform: a REST Text-to-Speech API (restapi.deepdub.ai) covering TTS generation, a voice bank, gender detection, usage, and issue tracking; a Managed Dubbing API (dubbing.deepdub.app) for end-to-end video dubbing jobs; and a WebSocket streaming API for real-time audio. Authentication is via an x-api-key header, with Python and Node.js SDKs, published OpenAPI specs, and agent files (AGENTS.md, Cursor skill). Deepdub is backed by Insight Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/screenshots/deepdub-2026-07-25T211547.png",
+     "score": 50.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 66.5,
+      "governance": 11.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 34.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 51.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 91
+    },
+    {
+     "name": "VBOUT",
+     "slug": "vbout",
+     "description": "VBOUT is an AI-enabled marketing automation platform used by agencies and small-to-mid-size businesses to run email marketing, social media scheduling, landing pages, popups, lead scoring, and an AI chatbot from one place. The VBOUT REST API (v1.0 at api.vbout.com/1) exposes the platform programmatically — contacts, lists, audiences, email campaigns and stats, social channels, calendar and posts, conversion goals, sub-users and groups, on-site engagement actions, automations, pipeline boards, and account settings — authenticated with an account API key, with responses in JSON or XML and a documented 15 requests/second rate limit. VBOUT is a 500 Global portfolio company.",
+     "score": 50.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 52.3,
+      "governance": 11.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 48.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 92
     },
     {
      "name": "Amazon MemoryDB",
@@ -3497,7 +3617,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 93
     },
     {
      "name": "Facebook",
@@ -3542,7 +3662,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 94
     },
     {
      "name": "Google Books",
@@ -3580,7 +3700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 95
     },
     {
      "name": "Amazon Monitron",
@@ -3618,7 +3738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 96
     },
     {
      "name": "Ghost",
@@ -3656,7 +3776,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 97
+    },
+    {
+     "name": "News Break",
+     "slug": "news-break",
+     "description": "NewsBreak is the leading local news and information platform in the United States, operated by Particle Media, Inc., a Delaware corporation founded in Silicon Valley in 2015 and launched as a mobile app in 2016. Its AI-powered platform serves more than 40 million Americans a month with local news, alerts, crime maps, weather, events and community content, connecting local users, local content creators and local businesses at scale. NewsBreak exposes two developer surfaces. The NewsBreak Advertising API (NewsBreak API for Business) lets technology companies, direct advertisers and agencies programmatically manage the NewsBreak Ads Manager: organizations and ad accounts, ad-account user roles, campaigns, ad sets with budget, bidding, inventory platforms and audience targeting, ads and creative asset upload, account spending caps, conversion tracking events, and multidimensional performance reporting. The NewsBreak MSP Monetization Reporting API serves the supply side, returning impressions, revenue, publisher net revenue and eCPM for publishers and monetization partners. NewsBreak also publishes an llms.txt that scopes AI access to its verified local-business content surface.",
+     "score": 50.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 65.5,
+      "governance": 11.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 45.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 98
     },
     {
      "name": "Tapfiliate",
@@ -3694,7 +3851,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 99
     },
     {
      "name": "Contently",
@@ -3732,7 +3889,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 100
     },
     {
      "name": "Shazam",
@@ -3770,7 +3927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 101
     },
     {
      "name": "Google Blogger",
@@ -3808,7 +3965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 102
     },
     {
      "name": "Epidemic Sound",
@@ -3846,7 +4003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 103
     },
     {
      "name": "Soundtrack Your Brand",
@@ -3883,7 +4040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 104
     },
     {
      "name": "ELBO AI, INC",
@@ -3928,7 +4085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 105
     },
     {
      "name": "Google Play Developer",
@@ -3966,7 +4123,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 106
     },
     {
      "name": "Posit",
@@ -4003,7 +4160,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 107
     },
     {
      "name": "The New York Times Company",
@@ -4041,7 +4198,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 108
     },
     {
      "name": "Shutterstock",
@@ -4079,7 +4236,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 109
     },
     {
      "name": "Zamzar",
@@ -4117,7 +4274,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 110
     },
     {
      "name": "ShortKit",
@@ -4154,7 +4311,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 111
     },
     {
      "name": "7digital",
@@ -4192,7 +4349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 112
     },
     {
      "name": "ISBNdb",
@@ -4230,45 +4387,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 113
     },
     {
-     "name": "Fama",
-     "slug": "fama",
-     "description": "Fama is an AI-powered social media and online screening platform for employment decisions. Its REST API lets HR platforms and background-screening providers submit candidate checks and retrieve behavioral findings — flagged posts, web content, and social profiles — mapped to workplace-misconduct categories across 30+ languages while filtering out protected-class information for EEOC/FCRA-aligned adjudication. Reports are delivered via completion callbacks or polling as JSON or a signed PDF, powering pre-employment screening (Fama Plus), comprehensive candidate assessment (Fama 360), and ongoing employee monitoring (Fama Pulse).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png",
-     "score": 48.6,
+     "name": "Songtradr",
+     "slug": "songtradr",
+     "description": "Songtradr is a Santa Monica, California B2B music company that builds licensing, rights and music-data infrastructure for brands, agencies, digital platforms, artists and rightsholders. Founded in 2014, it operates a global sync-licensing marketplace alongside acquired businesses including Bandcamp, 7digital, MassiveMusic, Big Sync Music and the AI music-metadata company Musicube. Its public developer surface is the Songtradr API — a JWT-authenticated REST API, documented with a live OpenAPI 3.1 description, that returns deep music metadata (musical features, genre predictions, tags, taggrams, tag strengths, contributors, similarity vectors) and drives auto-tagging: rightsholders upload audio through a presigned S3 link and Songtradr's models classify it against a taxonomy of 350+ descriptive tags across 30+ categories, then expose semantic search over the results. First-party API clients are published for Python, JavaScript/Node and Ruby.",
+     "score": 48.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 50.0
+      "discoverability": 87.0,
+      "contract_quality": 63.6,
+      "governance": 11.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 51.6,
+      "commercial_clarity": 44.7
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 37.2,
+     "agent_score": 45.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
+      "agentic_access": "derived",
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 114
     },
     {
      "name": "Kaltura",
@@ -4306,7 +4462,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 115
     },
     {
      "name": "Kit",
@@ -4344,7 +4500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 116
     },
     {
      "name": "VideoSDK",
@@ -4382,7 +4538,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 117
     },
     {
      "name": "Motion Elements",
@@ -4419,52 +4575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
-    },
-    {
-     "name": "Deepdub",
-     "slug": "deepdub",
-     "description": "Deepdub is an AI dubbing, voice-cloning, and text-to-speech company that turns content into natural, emotionally adaptive speech across 100+ languages. Its platform powers media dubbing for studios such as Paramount, Netflix, and Prime Video, real-time AI voice agents (~125ms latency), video localization, live broadcast, and voice cloning. Deepdub exposes a developer platform: a REST Text-to-Speech API (restapi.deepdub.ai) covering TTS generation, a voice bank, gender detection, usage, and issue tracking; a Managed Dubbing API (dubbing.deepdub.app) for end-to-end video dubbing jobs; and a WebSocket streaming API for real-time audio. Authentication is via an x-api-key header, with Python and Node.js SDKs, published OpenAPI specs, and agent files (AGENTS.md, Cursor skill). Deepdub is backed by Insight Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/screenshots/deepdub-2026-07-25T211547.png",
-     "score": 48.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 66.5,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 34.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 51.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 115
+     "rank": 118
     },
     {
      "name": "Planable",
@@ -4502,7 +4613,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 119
     },
     {
      "name": "Mirage",
@@ -4539,7 +4650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 120
     },
     {
      "name": "miso.ai",
@@ -4576,7 +4687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 121
     },
     {
      "name": "MusicBrainz",
@@ -4621,7 +4732,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 122
     },
     {
      "name": "Involve Asia",
@@ -4659,7 +4770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 123
     },
     {
      "name": "Permutive",
@@ -4696,7 +4807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 124
     },
     {
      "name": "KugelAudio",
@@ -4741,44 +4852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
-    },
-    {
-     "name": "VBOUT",
-     "slug": "vbout",
-     "description": "VBOUT is an AI-enabled marketing automation platform used by agencies and small-to-mid-size businesses to run email marketing, social media scheduling, landing pages, popups, lead scoring, and an AI chatbot from one place. The VBOUT REST API (v1.0 at api.vbout.com/1) exposes the platform programmatically — contacts, lists, audiences, email campaigns and stats, social channels, calendar and posts, conversion goals, sub-users and groups, on-site engagement actions, automations, pipeline boards, and account settings — authenticated with an account API key, with responses in JSON or XML and a documented 15 requests/second rate limit. VBOUT is a 500 Global portfolio company.",
-     "score": 47.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 52.3,
-      "governance": 11.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 48.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 123
+     "rank": 125
     },
     {
      "name": "Common Sense Media",
@@ -4816,7 +4890,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 126
     },
     {
      "name": "Tribune Media",
@@ -4854,7 +4928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 127
     },
     {
      "name": "Vox Media",
@@ -4891,7 +4965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 128
     },
     {
      "name": "Lingopal",
@@ -4929,7 +5003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 129
     },
     {
      "name": "Red5",
@@ -4967,7 +5041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 130
     },
     {
      "name": "Kajabi",
@@ -5012,7 +5086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 131
     },
     {
      "name": "dopost",
@@ -5050,7 +5124,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 132
     },
     {
      "name": "LiveLike",
@@ -5088,7 +5162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 133
     },
     {
      "name": "Rockbot",
@@ -5125,44 +5199,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
-    },
-    {
-     "name": "Songtradr",
-     "slug": "songtradr",
-     "description": "Songtradr is a Santa Monica, California B2B music company that builds licensing, rights and music-data infrastructure for brands, agencies, digital platforms, artists and rightsholders. Founded in 2014, it operates a global sync-licensing marketplace alongside acquired businesses including Bandcamp, 7digital, MassiveMusic, Big Sync Music and the AI music-metadata company Musicube. Its public developer surface is the Songtradr API — a JWT-authenticated REST API, documented with a live OpenAPI 3.1 description, that returns deep music metadata (musical features, genre predictions, tags, taggrams, tag strengths, contributors, similarity vectors) and drives auto-tagging: rightsholders upload audio through a presigned S3 link and Songtradr's models classify it against a taxonomy of 350+ descriptive tags across 30+ categories, then expose semantic search over the results. First-party API clients are published for Python, JavaScript/Node and Ruby.",
-     "score": 47.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 59.7,
-      "governance": 20.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 55.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Narrative Sports",
@@ -5199,7 +5236,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Wideo",
@@ -5236,7 +5273,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Arpeggi Labs",
@@ -5281,7 +5318,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Stream",
@@ -5326,7 +5363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Daily",
@@ -5364,7 +5401,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "ShopMy",
@@ -5401,7 +5438,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "WanAPIs",
@@ -5434,43 +5471,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 140
-    },
-    {
-     "name": "News Break",
-     "slug": "news-break",
-     "description": "NewsBreak is the leading local news and information platform in the United States, operated by Particle Media, Inc., a Delaware corporation founded in Silicon Valley in 2015 and launched as a mobile app in 2016. Its AI-powered platform serves more than 40 million Americans a month with local news, alerts, crime maps, weather, events and community content, connecting local users, local content creators and local businesses at scale. NewsBreak exposes two developer surfaces. The NewsBreak Advertising API (NewsBreak API for Business) lets technology companies, direct advertisers and agencies programmatically manage the NewsBreak Ads Manager: organizations and ad accounts, ad-account user roles, campaigns, ad sets with budget, bidding, inventory platforms and audience targeting, ads and creative asset upload, account spending caps, conversion tracking events, and multidimensional performance reporting. The NewsBreak MSP Monetization Reporting API serves the supply side, returning impressions, revenue, publisher net revenue and eCPM for publishers and monetization partners. NewsBreak also publishes an llms.txt that scopes AI access to its verified local-business content surface.",
-     "score": 46.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 65.5,
-      "governance": 11.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 53.8,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 45.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -5953,6 +5953,50 @@
      "rank": 153
     },
     {
+     "name": "MediaLab.AI",
+     "slug": "medialab-ai",
+     "description": "MediaLab.AI Inc. is a Santa Monica, California holding company for consumer internet brands. Rather than building products from scratch, MediaLab acquires and operates established community and media properties, and monetizes them through advertising across an owned-and-operated portfolio that reaches roughly one in three US internet users each month. The portfolio includes Genius (music knowledge, lyrics and annotations), Imgur (image sharing and community), Kik (messaging), WorldStarHipHop (hip hop media), Whisper (anonymous sharing), Amino (interest communities) and DatPiff (mixtapes). MediaLab also operates Assembly Exchange, its owned-and-operated programmatic ad exchange. The company itself publishes no corporate developer portal; its public API surface is carried by two portfolio brands - the Genius API (docs.genius.com, OAuth 2.0, annotations/songs/artists/search) and the Imgur API v3 (apidocs.imgur.com, OAuth 2.0, images/albums/galleries/comments/accounts), the latter documented as a public Postman collection.",
+     "score": 43.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 66.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 154
+    },
+    {
      "name": "Zora",
      "slug": "zora",
      "description": "Zora is an NFT protocol and marketplace that enables creators to mint, sell, and manage digital collectibles across Ethereum mainnet and Layer 2 networks including the Zora Network (an OP Stack L2), Base, and Optimism. The platform exposes a GraphQL NFT API for querying collections, token metadata, mint events, on-chain sales, and creator royalty data; a Coins SDK REST API for exploring and trading Zora Coins (creator monetization tokens); and a Protocol SDK for contract-level interactions covering ERC-721 and ERC-1155 minting workflows. API keys are available via Zora Developer Settings to unlock higher rate limits beyond the public unauthenticated threshold.",
@@ -5988,7 +6032,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "SoundStat",
@@ -6025,7 +6069,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "LiveKit",
@@ -6070,7 +6114,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "VSCO",
@@ -6107,7 +6151,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Indiegogo",
@@ -6152,7 +6196,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Radio Browser",
@@ -6197,7 +6241,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Wowza",
@@ -6235,7 +6279,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "Discogs",
@@ -6273,7 +6317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Podbean",
@@ -6310,7 +6354,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "Socialbakers",
@@ -6347,7 +6391,83 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 164
+    },
+    {
+     "name": "An API of Ice and Fire",
+     "slug": "game-of-thrones",
+     "description": "An API of Ice and Fire is a free, open REST API providing comprehensive Game of Thrones and A Song of Ice and Fire data including books, characters, and houses from George R.R. Martin's universe. No authentication is required. The API offers structured, quantified data about the HBO series and book series covering all named characters, their allegiances, relationships, book appearances, TV season appearances, and details on every noble house and published book in the series.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/screenshots/game-of-thrones-2026-06-20T181637.png",
+     "score": 42.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 67.4,
+      "governance": 58.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 165
+    },
+    {
+     "name": "Soundstripe",
+     "slug": "soundstripe",
+     "description": "Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sound effects, and 100,000+ stock video clips (HD through 8K) — all pre-cleared under a single digital license that covers YouTube, Instagram, TikTok, podcasting, and commercial use, with stems and cut-downs available for many songs. Soundstripe also publishes a server-to-server REST API at api.soundstripe.com (JSON:API, token auth, 25 req/sec, signed webhooks) that exposes songs, sound effects, playlists, private playlists, and \"Supe\" — an AI music supervisor that matches catalog tracks to natural-language briefs, scene context, and reference imagery via asynchronous search and asset upload endpoints. Native integrations exist for Adobe Premiere Pro, Adobe Express, and Twitch; partner programs cover API embedding, music resale, and custom licensing for tool makers and platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/screenshots/soundstripe-2026-06-20T194222.png",
+     "score": 42.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 60.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 63.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 166
     },
     {
      "name": "Whop",
@@ -6391,7 +6511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 167
     }
    ]
   },
@@ -6400,8 +6520,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 140,
-   "shown": 140,
+   "count": 137,
+   "shown": 137,
    "providers": [
     {
      "name": "Delphi",
@@ -6446,7 +6566,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 168
     },
     {
      "name": "Cloudflare Stream",
@@ -6484,7 +6604,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 169
     },
     {
      "name": "Musixmatch",
@@ -6522,7 +6642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 170
     },
     {
      "name": "Hourone",
@@ -6560,7 +6680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 171
     },
     {
      "name": "LISNR",
@@ -6598,7 +6718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 172
     },
     {
      "name": "DataForSEO",
@@ -6636,7 +6756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 173
     },
     {
      "name": "Dotdash Meredith / People Inc",
@@ -6673,7 +6793,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 174
     },
     {
      "name": "Transistor",
@@ -6710,7 +6830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 175
     },
     {
      "name": "Marvel",
@@ -6747,7 +6867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 176
     },
     {
      "name": "Storyclash",
@@ -6784,7 +6904,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 177
     },
     {
      "name": "Sieve",
@@ -6821,51 +6941,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
-    },
-    {
-     "name": "MediaLab.AI",
-     "slug": "medialab-ai",
-     "description": "MediaLab.AI Inc. is a Santa Monica, California holding company for consumer internet brands. Rather than building products from scratch, MediaLab acquires and operates established community and media properties, and monetizes them through advertising across an owned-and-operated portfolio that reaches roughly one in three US internet users each month. The portfolio includes Genius (music knowledge, lyrics and annotations), Imgur (image sharing and community), Kik (messaging), WorldStarHipHop (hip hop media), Whisper (anonymous sharing), Amino (interest communities) and DatPiff (mixtapes). MediaLab also operates Assembly Exchange, its owned-and-operated programmatic ad exchange. The company itself publishes no corporate developer portal; its public API surface is carried by two portfolio brands - the Genius API (docs.genius.com, OAuth 2.0, annotations/songs/artists/search) and the Imgur API v3 (apidocs.imgur.com, OAuth 2.0, images/albums/galleries/comments/accounts), the latter documented as a public Postman collection.",
-     "score": 40.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 3.1,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 66.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 176
+     "rank": 178
     },
     {
      "name": "AutoContent API",
@@ -6903,7 +6979,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 179
     },
     {
      "name": "FastPix",
@@ -6941,7 +7017,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 180
     },
     {
      "name": "API.Video",
@@ -6979,7 +7055,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 181
     },
     {
      "name": "Gamma.app",
@@ -7017,7 +7093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 182
     },
     {
      "name": "Podcastle",
@@ -7054,7 +7130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 183
     },
     {
      "name": "Postiz",
@@ -7091,7 +7167,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 184
     },
     {
      "name": "Sonos",
@@ -7135,7 +7211,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 185
     },
     {
      "name": "Blubrry API",
@@ -7173,7 +7249,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 186
     },
     {
      "name": "Brightcove",
@@ -7211,45 +7287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
-    },
-    {
-     "name": "An API of Ice and Fire",
-     "slug": "game-of-thrones",
-     "description": "An API of Ice and Fire is a free, open REST API providing comprehensive Game of Thrones and A Song of Ice and Fire data including books, characters, and houses from George R.R. Martin's universe. No authentication is required. The API offers structured, quantified data about the HBO series and book series covering all named characters, their allegiances, relationships, book appearances, TV season appearances, and details on every noble house and published book in the series.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/game-of-thrones/refs/heads/main/screenshots/game-of-thrones-2026-06-20T181637.png",
-     "score": 39.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 67.4,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Blink Ledger Systems",
@@ -7294,7 +7332,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Chartmetric",
@@ -7332,7 +7370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Gracenote",
@@ -7370,7 +7408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "Listen Notes",
@@ -7408,31 +7446,31 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
-     "name": "Soundstripe",
-     "slug": "soundstripe",
-     "description": "Soundstripe is a Nashville-based subscription platform that licenses royalty-free music, sound effects, and stock video to creators, agencies, podcasters, filmmakers, and enterprises. The catalog spans roughly 120,000 human-made tracks from Grammy-winning and independent artists, nearly 100,000 sound effects, and 100,000+ stock video clips (HD through 8K) — all pre-cleared under a single digital license that covers YouTube, Instagram, TikTok, podcasting, and commercial use, with stems and cut-downs available for many songs. Soundstripe also publishes a server-to-server REST API at api.soundstripe.com (JSON:API, token auth, 25 req/sec, signed webhooks) that exposes songs, sound effects, playlists, private playlists, and \"Supe\" — an AI music supervisor that matches catalog tracks to natural-language briefs, scene context, and reference imagery via asynchronous search and asset upload endpoints. Native integrations exist for Adobe Premiere Pro, Adobe Express, and Twitch; partner programs cover API embedding, music resale, and custom licensing for tool makers and platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/screenshots/soundstripe-2026-06-20T194222.png",
+     "name": "Pandora",
+     "slug": "pandora",
+     "description": "Pandora is an internet radio and music streaming service powered by the Music Genome Project, offering personalized radio stations and on-demand streaming with a catalog of over 30 million tracks including songs, comedy albums, podcasts, and more. The Pandora GraphQL API enables developers to build applications that access stations, tracks, artist information, user listening history, feedback, playlists, and personalized radio content across Free, Plus, and Premium subscription tiers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pandora/refs/heads/main/screenshots/pandora-2026-06-20T191335.png",
      "score": 39.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 60.0,
+      "discoverability": 68.5,
+      "contract_quality": 48.1,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 63.2
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 39.1,
+      "commercial_clarity": 50.0
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 30.6,
+     "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
+      "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
@@ -7446,7 +7484,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Soundcharts",
@@ -7483,7 +7521,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Acast",
@@ -7521,7 +7559,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 193
+     "rank": 194
     },
     {
      "name": "ByteArk",
@@ -7559,7 +7597,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 194
+     "rank": 195
     },
     {
      "name": "Ghost",
@@ -7597,7 +7635,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 195
+     "rank": 196
     },
     {
      "name": "setlist.fm",
@@ -7634,7 +7672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "ShootProof",
@@ -7671,7 +7709,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 197
+     "rank": 198
     },
     {
      "name": "Blotato",
@@ -7709,7 +7747,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 198
+     "rank": 199
     },
     {
      "name": "Openverse",
@@ -7754,7 +7792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 199
+     "rank": 200
     },
     {
      "name": "Publer",
@@ -7791,7 +7829,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 200
+     "rank": 201
     },
     {
      "name": "Linktree",
@@ -7829,7 +7867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 201
+     "rank": 202
     },
     {
      "name": "Listnr",
@@ -7874,7 +7912,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 202
+     "rank": 203
     },
     {
      "name": "Dacast",
@@ -7912,7 +7950,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 203
+     "rank": 204
     },
     {
      "name": "Buzzsprout",
@@ -7950,7 +7988,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 204
+     "rank": 205
     },
     {
      "name": "Software Engineering Daily",
@@ -7988,7 +8026,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 205
+     "rank": 206
     },
     {
      "name": "WellSaid Labs",
@@ -8032,7 +8070,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 206
+     "rank": 207
     },
     {
      "name": "ACRCloud",
@@ -8070,7 +8108,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 207
+     "rank": 208
     },
     {
      "name": "WellSaid Labs",
@@ -8114,7 +8152,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 208
+     "rank": 209
     },
     {
      "name": "Simplecast",
@@ -8151,7 +8189,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 209
+     "rank": 210
     },
     {
      "name": "Wondercraft",
@@ -8188,7 +8226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 210
+     "rank": 211
     },
     {
      "name": "AudD",
@@ -8226,7 +8264,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 211
+     "rank": 212
     },
     {
      "name": "Bitmovin",
@@ -8264,7 +8302,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 212
+     "rank": 213
     },
     {
      "name": "SoundCloud",
@@ -8302,7 +8340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 214
     },
     {
      "name": "Spreaker",
@@ -8339,7 +8377,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 215
     },
     {
      "name": "Hour One",
@@ -8376,7 +8414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 216
     },
     {
      "name": "Upload-Post",
@@ -8413,7 +8451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 217
     },
     {
      "name": "Coconut",
@@ -8451,7 +8489,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 218
     },
     {
      "name": "Podbean API",
@@ -8489,7 +8527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 219
     },
     {
      "name": "Pixelfed",
@@ -8527,7 +8565,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 220
     },
     {
      "name": "LearnWorlds",
@@ -8565,7 +8603,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 221
     },
     {
      "name": "JoySpace Technologies, Inc.",
@@ -8603,7 +8641,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 222
     },
     {
      "name": "Kalpa Labs",
@@ -8648,7 +8686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 223
     },
     {
      "name": "Disqus",
@@ -8686,7 +8724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 224
     },
     {
      "name": "Patreon",
@@ -8724,7 +8762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 225
     },
     {
      "name": "Sprout Social",
@@ -8757,44 +8795,6 @@
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 225
-    },
-    {
-     "name": "Pandora",
-     "slug": "pandora",
-     "description": "Pandora is an internet radio and music streaming service powered by the Music Genome Project, offering personalized radio stations and on-demand streaming with a catalog of over 30 million tracks including songs, comedy albums, podcasts, and more. The Pandora GraphQL API enables developers to build applications that access stations, tracks, artist information, user listening history, feedback, playlists, and personalized radio content across Free, Plus, and Premium subscription tiers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pandora/refs/heads/main/screenshots/pandora-2026-06-20T191335.png",
-     "score": 36.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 48.1,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 39.1,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 28.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -9182,6 +9182,44 @@
      "rank": 235
     },
     {
+     "name": "Chartbeat",
+     "slug": "chartbeat",
+     "description": "Chartbeat is a real-time content analytics and audience-engagement platform built for digital publishers, media brands, and editorial teams. It measures how audiences read, watch, and engage with content the moment it is published, reporting live traffic, engaged time, loyalty, video engagement, and headline performance. Beyond its dashboards, Chartbeat exposes public HTTP APIs: a Real-Time API for live traffic and video data updated every three seconds, a Historical (Advanced Queries) API for summary traffic reporting, and Headline Testing, Conversion, and Data Lab APIs, plus JavaScript, iOS, Android, and React Native tracking SDKs for data collection. Authentication is via an account API key sent in the X-CB-AK header.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chartbeat/refs/heads/main/screenshots/chartbeat-2026-07-25T205108.png",
+     "score": 35.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 15.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 236
+    },
+    {
      "name": "Revelator",
      "slug": "revelator",
      "description": "Revelator is a music distribution and rights, royalties, and payments infrastructure platform for labels, distributors, and music businesses. Its REST API exposes the digital supply chain - distribution, catalog, analytics and trends, royalty accounting, and payments - behind a single OAuth2 Bearer-token interface using a child-account model.",
@@ -9223,7 +9261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 237
     },
     {
      "name": "Envato",
@@ -9261,7 +9299,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 238
     },
     {
      "name": "PlayHT",
@@ -9306,7 +9344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 239
     },
     {
      "name": "Vonage Video API",
@@ -9351,7 +9389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 240
     },
     {
      "name": "Rad.",
@@ -9388,7 +9426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 241
     },
     {
      "name": "Sirius XM",
@@ -9426,7 +9464,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 242
     },
     {
      "name": "Audius",
@@ -9464,7 +9502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "DeepInfra",
@@ -9502,7 +9540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "Getty Images",
@@ -9540,7 +9578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 245
     },
     {
      "name": "Radio Mast",
@@ -9578,7 +9616,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "Genius",
@@ -9615,7 +9653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "ai-coustics",
@@ -9653,7 +9691,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "Deezer",
@@ -9691,7 +9729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "Resemble AI",
@@ -9736,7 +9774,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 250
     },
     {
      "name": "Buy Me a Coffee",
@@ -9781,7 +9819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 251
     },
     {
      "name": "Next Big Idea Club",
@@ -9818,7 +9856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 252
     },
     {
      "name": "Radio Cult",
@@ -9856,7 +9894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 253
     },
     {
      "name": "Apple Music",
@@ -9894,7 +9932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "Rakuten",
@@ -9939,7 +9977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
      "name": "Suno",
@@ -9977,7 +10015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 256
     },
     {
      "name": "ReccoBeats",
@@ -10014,7 +10052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 257
     },
     {
      "name": "Buffer",
@@ -10051,7 +10089,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 258
     },
     {
      "name": "SiliconFlow",
@@ -10089,7 +10127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 259
     },
     {
      "name": "Snap",
@@ -10126,7 +10164,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 260
+    },
+    {
+     "name": "Foundation",
+     "slug": "foundation",
+     "description": "Foundation is a creator-focused NFT marketplace built on Ethereum that enables digital artists to mint, showcase, and auction unique digital artworks. The platform provides a GraphQL API via The Graph protocol for querying artwork, auctions, bids, collector profiles, offers, buy-now listings, and edition drop data. Foundation smart contracts remain live on Ethereum mainnet, and the subgraph continues to index on-chain activity for programmatic access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/foundation/refs/heads/main/screenshots/foundation-2026-06-20T181453.png",
+     "score": 33.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 43.2,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 261
     },
     {
      "name": "Murf",
@@ -10171,7 +10247,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 262
     },
     {
      "name": "Qiniu Cloud",
@@ -10208,7 +10284,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 263
     },
     {
      "name": "TuneIn",
@@ -10246,7 +10322,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 264
     },
     {
      "name": "setlist.fm",
@@ -10284,7 +10360,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 265
     },
     {
      "name": "Bandcamp",
@@ -10322,7 +10398,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 266
     },
     {
      "name": "Legendary Entertainment",
@@ -10360,7 +10436,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 267
     },
     {
      "name": "Open Library",
@@ -10405,7 +10481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 268
     },
     {
      "name": "Archive Technologies",
@@ -10443,7 +10519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 269
     },
     {
      "name": "Synup",
@@ -10481,7 +10557,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 270
     },
     {
      "name": "Taddy",
@@ -10518,45 +10594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
-    },
-    {
-     "name": "Chartbeat",
-     "slug": "chartbeat",
-     "description": "Chartbeat is a real-time content analytics and audience-engagement platform built for digital publishers, media brands, and editorial teams. It measures how audiences read, watch, and engage with content the moment it is published, reporting live traffic, engaged time, loyalty, video engagement, and headline performance. Beyond its dashboards, Chartbeat exposes public HTTP APIs: a Real-Time API for live traffic and video data updated every three seconds, a Historical (Advanced Queries) API for summary traffic reporting, and Headline Testing, Conversion, and Data Lab APIs, plus JavaScript, iOS, Android, and React Native tracking SDKs for data collection. Authentication is via an account API key sent in the X-CB-AK header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chartbeat/refs/heads/main/screenshots/chartbeat-2026-07-25T205108.png",
-     "score": 32.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 15.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 270
+     "rank": 271
     },
     {
      "name": "Mighty Networks",
@@ -10593,7 +10631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 272
     },
     {
      "name": "Vimeo",
@@ -10631,7 +10669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 273
     },
     {
      "name": "Reverb",
@@ -10668,7 +10706,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 273
+     "rank": 274
     },
     {
      "name": "Turnitin",
@@ -10705,7 +10743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 274
+     "rank": 275
     },
     {
      "name": "CopThis",
@@ -10743,7 +10781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 275
+     "rank": 276
     },
     {
      "name": "Mirelo",
@@ -10780,7 +10818,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 276
+     "rank": 277
     },
     {
      "name": "Literal Club",
@@ -10818,7 +10856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 277
+     "rank": 278
     },
     {
      "name": "Pex",
@@ -10855,7 +10893,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 278
+     "rank": 279
     },
     {
      "name": "Project Gutenberg",
@@ -10893,7 +10931,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 279
+     "rank": 280
     },
     {
      "name": "VoyceMe",
@@ -10930,7 +10968,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 280
+     "rank": 281
     },
     {
      "name": "Impact",
@@ -10968,7 +11006,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 281
+     "rank": 282
     },
     {
      "name": "Pixieset",
@@ -11005,7 +11043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 282
+     "rank": 283
     },
     {
      "name": "MixerBox",
@@ -11042,7 +11080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 283
+     "rank": 284
     },
     {
      "name": "Rev AI",
@@ -11080,7 +11118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 284
+     "rank": 285
     },
     {
      "name": "JW Player",
@@ -11118,7 +11156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 285
+     "rank": 286
     },
     {
      "name": "LunarCrush",
@@ -11163,7 +11201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 286
+     "rank": 287
     },
     {
      "name": "Neighbortunes",
@@ -11201,7 +11239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 287
+     "rank": 288
     },
     {
      "name": "Radio.co",
@@ -11239,7 +11277,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 288
+     "rank": 289
     },
     {
      "name": "Domestika",
@@ -11256,44 +11294,6 @@
       "operational_transparency": 5.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 289
-    },
-    {
-     "name": "Foundation",
-     "slug": "foundation",
-     "description": "Foundation is a creator-focused NFT marketplace built on Ethereum that enables digital artists to mint, showcase, and auction unique digital artworks. The platform provides a GraphQL API via The Graph protocol for querying artwork, auctions, bids, collector profiles, offers, buy-now listings, and edition drop data. Foundation smart contracts remain live on Ethereum mainnet, and the subgraph continues to index on-chain activity for programmatic access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/foundation/refs/heads/main/screenshots/foundation-2026-06-20T181453.png",
-     "score": 30.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 43.2,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 60.5
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
@@ -11445,50 +11445,6 @@
      "rank": 293
     },
     {
-     "name": "VersusGame",
-     "slug": "versusgame",
-     "description": "VersusGame (branded \"Versus\") is an interactive gaming and audience-engagement company whose AI content-gamification engine turns publisher articles, live broadcasts and on-demand video into embeddable prediction games. Its flagship MiniGames product drops contextual, content-native games into partner sites via embed widgets, and its VersusLM AI system generates prediction games from arbitrary media. The platform layers real-time prediction, social competition, leaderboards, virtual wallets, coin/ticket economies, prize payouts and contextual \"seamless ads\" on top of partner content to drive longer sessions, repeat visits and incremental revenue. A single production REST API at api.versusgame.com exposes 239 operations across game creation, gameplays, gamesets, leaderboards, widgets, creators, playlists, wallets, ledger, payments/payouts and an autogame AI pipeline. Publicly named partners include ABC, Microsoft, Disney, BuzzFeed, Billboard, ESPN and UFC.",
-     "score": 30.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 38.0,
-      "governance": 20.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 39.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 53.6,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 294
-    },
-    {
      "name": "Limit Break",
      "slug": "limit-break",
      "description": "Limit Break Inc. is a gaming and onchain-economy company that builds the Apptoken protocol suite — a family of permissionlessly deployable EVM smart contract protocols for programmable digital economies. Its Creator Token Standards (ERC-20C, ERC-721C, ERC-1155C) route every transfer through an on-chain Transfer Validator so creators can bind modular rulesets, operator whitelists and blacklists without changing their token contract. Around that foundation Limit Break ships Payment Processor for royalty-enforced NFT trading, TokenMaster for backed fungible tokens with pool-based buy/sell/spend flows, the Limit Break AMM with a multi-tier hook system, PermitC for time-bound token approvals, Wrapped Native as a gas-efficient WETH9 replacement, and Trusted Forwarder for application attribution. Integration is documented at apptokens.com, distributed as Solidity via Foundry and npm, and supported by 25 first-party AI agent skills. Limit Break is backed by Paradigm.",
@@ -11524,7 +11480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "Mux",
@@ -11562,7 +11518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 296
+     "rank": 295
     },
     {
      "name": "Stream Labs",
@@ -11599,7 +11555,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "LIV",
@@ -11637,7 +11593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "Taylor & Francis",
@@ -11675,7 +11631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "Facebook Pages API",
@@ -11708,6 +11664,50 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 299
+    },
+    {
+     "name": "VersusGame",
+     "slug": "versusgame",
+     "description": "VersusGame (branded \"Versus\") is an interactive gaming and audience-engagement company whose AI content-gamification engine turns publisher articles, live broadcasts and on-demand video into embeddable prediction games. Its flagship MiniGames product drops contextual, content-native games into partner sites via embed widgets, and its VersusLM AI system generates prediction games from arbitrary media. The platform layers real-time prediction, social competition, leaderboards, virtual wallets, coin/ticket economies, prize payouts and contextual \"seamless ads\" on top of partner content to drive longer sessions, repeat visits and incremental revenue. A single production REST API at api.versusgame.com exposes 239 operations across game creation, gameplays, gamesets, leaderboards, widgets, creators, playlists, wallets, ledger, payments/payouts and an autogame AI pipeline. Publicly named partners include ABC, Microsoft, Disney, BuzzFeed, Billboard, ESPN and UFC.",
+     "score": 28.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 38.0,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 12.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -14044,43 +14044,6 @@
      "rank": 360
     },
     {
-     "name": "4DReplay",
-     "slug": "4dreplay",
-     "description": "4DReplay is a media technology company that builds multi-camera, time-slice (\"bullet-time\") video capture and replay systems for live sports, entertainment and events. Arrays of roughly 50 to 120 synchronized cameras — locked to within 1/10,000 of a second — are processed in real time to produce any-angle replay highlights within seconds of a play and deliver them to broadcast, mobile and OTT audiences. The product line spans 4DReplay (premium broadcast instant replay), 4DReplay+ / 4DLive (5G-based interactive multi-view live streaming with speed, angle and tracking overlays), and 4Dist, a browser-based interactive OTT platform that adds automated AI motion and swing analysis for academies, coaches and players. Founded in 2012 by Hongsu Jung and headquartered in San Mateo, California, with offices in Seoul and Tokyo, the company has worked with ESPN, NBC, CBS, FOX Sports, the NBA, MLB, NHL, the PGA Championship and the Olympics. As of August 2026 4DReplay publishes no public developer API, SDK, or machine-readable API contract; its surfaces are broadcast integrations and the consumer/operator 4Dist web and mobile apps.",
-     "score": 17.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 2.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 361
-    },
-    {
      "name": "Unlonely",
      "slug": "unlonely",
      "description": "Unlonely was a crypto/web3 livestreaming platform founded by Grace and Brian Guan and backed by Multicoin Capital — livestreams on Base with token-gated chat, creator and temp tokens, the $VIBES on-chain interaction economy, and stream clips minted as NFCs (non-fungible clips). The product is defunct: the unlonely.app domain registration has expired and the hosted GraphQL API is no longer live, but the platform was open source and this profile preserves its real GraphQL schema (225 types) harvested from the public monorepo.",
@@ -14115,7 +14078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 362
+     "rank": 361
     },
     {
      "name": "Wattpad",
@@ -14152,7 +14115,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 363
+     "rank": 362
     },
     {
      "name": "Replica Studios",
@@ -14196,7 +14159,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 364
+     "rank": 363
     },
     {
      "name": "Detail",
@@ -14234,7 +14197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 365
+     "rank": 364
     },
     {
      "name": "Ellipsus",
@@ -14272,7 +14235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 366
+     "rank": 365
     },
     {
      "name": "Universe",
@@ -14309,7 +14272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 367
+     "rank": 366
     },
     {
      "name": "Pico",
@@ -14353,7 +14316,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 368
+     "rank": 367
     },
     {
      "name": "PlayPlay",
@@ -14390,7 +14353,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 369
+     "rank": 368
     },
     {
      "name": "Rapchat",
@@ -14427,7 +14390,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 370
+     "rank": 369
     },
     {
      "name": "Bookbub",
@@ -14465,7 +14428,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 371
+     "rank": 370
     },
     {
      "name": "Rocksalt",
@@ -14502,7 +14465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 372
+     "rank": 371
     },
     {
      "name": "Scopio, Scopio LLC",
@@ -14539,7 +14502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 373
+     "rank": 372
     },
     {
      "name": "Streamloots",
@@ -14583,7 +14546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 374
+     "rank": 373
     },
     {
      "name": "Passionfroot",
@@ -14624,6 +14587,43 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 374
+    },
+    {
+     "name": "4DReplay",
+     "slug": "4dreplay",
+     "description": "4DReplay is a media technology company that builds multi-camera, time-slice (\"bullet-time\") video capture and replay systems for live sports, entertainment and events. Arrays of roughly 50 to 120 synchronized cameras — locked to within 1/10,000 of a second — are processed in real time to produce any-angle replay highlights within seconds of a play and deliver them to broadcast, mobile and OTT audiences. The product line spans 4DReplay (premium broadcast instant replay), 4DReplay+ / 4DLive (5G-based interactive multi-view live streaming with speed, angle and tracking overlays), and 4Dist, a browser-based interactive OTT platform that adds automated AI motion and swing analysis for academies, coaches and players. Founded in 2012 by Hongsu Jung and headquartered in San Mateo, California, with offices in Seoul and Tokyo, the company has worked with ESPN, NBC, CBS, FOX Sports, the NBA, MLB, NHL, the PGA Championship and the Olympics. As of August 2026 4DReplay publishes no public developer API, SDK, or machine-readable API contract; its surfaces are broadcast integrations and the consumer/operator 4Dist web and mobile apps.",
+     "score": 16.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 2.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },

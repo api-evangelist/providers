@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -166,19 +166,19 @@ overview: 'Hilos publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Hilos'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 51
+random_paper: 68
 score:
   band: developing
-  composite: 43.0
-  delta: -3.0
+  composite: 44.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.9
+    contract_quality: 59.3
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 46.0
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,8 +195,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/screenshots/hilos-2026-07-25T221229.png
 security:

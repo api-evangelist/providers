@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -163,19 +163,19 @@ overview: 'Sapien publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Sapien''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 66
+random_paper: 70
 score:
   band: thin
-  composite: 40.6
-  delta: -2.9
+  composite: 41.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 51.6
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 43.5
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -186,8 +186,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

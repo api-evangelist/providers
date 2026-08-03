@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -120,23 +120,23 @@ plans:
 - name: Bureau Of Transportation Statistics Plans Pricing
   plan_count: 3
   slug: bureau-of-transportation-statistics-plans-pricing
-random_paper: 27
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Bureau Of Transportation Statistics Rate Limits
   slug: bureau-of-transportation-statistics-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: -2.3
+  composite: 38.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.5
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +150,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/screenshots/bureau-of-transportation-statistics-2026-06-20T173820.png
 security:

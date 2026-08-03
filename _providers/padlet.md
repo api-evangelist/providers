@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -189,23 +189,23 @@ overview: 'Padlet publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Padlet''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Padlet Rate Limits
   slug: padlet-rate-limits
 score:
   band: developing
-  composite: 53.8
-  delta: 1.1
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 59.7
+    contract_quality: 63.1
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 52.7
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -216,8 +216,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ plans:
 - name: Navan Plans Pricing
   plan_count: 3
   slug: navan-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Navan Rate Limits
@@ -150,16 +150,16 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: thin
-  composite: 40.9
-  delta: -2.2
+  composite: 41.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 59.6
+    contract_quality: 63.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.1
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

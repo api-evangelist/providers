@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,23 +107,23 @@ press:
 - date: '2026-05-25'
   title: The Home Depot Introduces Magic Apron, a Suite of ...
   url: https://ir.homedepot.com/news-releases/2025/03-06-2025-130241718
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Home Depot Rate Limits
   slug: home-depot-rate-limits
 score:
   band: thin
-  composite: 33.5
-  delta: -0.2
+  composite: 34.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.2
+    contract_quality: 69.6
     developer_ergonomics: 10.9
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 33.7
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -131,8 +131,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/screenshots/home-depot-2026-06-20T182823.png
 security:

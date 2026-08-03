@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ plans:
 - name: Weave Net Plans Pricing
   plan_count: 3
   slug: weave-net-plans-pricing
-random_paper: 6
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Weave Net Rate Limits
@@ -231,17 +231,17 @@ rules:
     warn: 13
   slug: weave-net-spectral-rules
 score:
-  band: developing
-  composite: 46.1
-  delta: -8.3
+  band: thin
+  composite: 39.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 49.3
+    contract_quality: 22.7
     developer_ergonomics: 4.3
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 54.4
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -249,9 +249,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/screenshots/weave-net-2026-06-20T201316.png
 slug: weave-net
 tags:

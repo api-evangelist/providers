@@ -229,8 +229,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 13,
-   "shown": 13,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Reliance Jio",
@@ -709,6 +709,51 @@
      "rank": 16
     },
     {
+     "name": "CoinSwitch",
+     "slug": "coinswitch",
+     "description": "CoinSwitch is one of India's largest retail crypto investing platforms, based in Bengaluru and backed by a16z, Paradigm, and Ribbit Capital. Alongside its consumer buy/sell app it operates CoinSwitch PRO, a professional trading venue that exposes a public REST and WebSocket API for programmatic trading. The CoinSwitch PRO API (base https://coinswitch.co/trade/api/v2) covers Spot trading on INR and USDT pairs, USDT-margined Perpetual Futures with up to 100x leverage, low-latency High-Frequency Trading (HFT) endpoints, and Options (private beta). Developers can place, cancel, and track orders, read portfolios and trading fees, and subscribe to real-time order, balance, and candlestick streams over Socket.IO. Requests authenticate with an API key and an Ed25519 request signature (X-AUTH-APIKEY / X-AUTH-SIGNATURE / X-AUTH-EPOCH), with reference signing implementations published for Python, Java, Go, and Node.js.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinswitch/refs/heads/main/screenshots/coinswitch-2026-07-25T210036.png",
+     "score": 44.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 0.0,
+      "operational_transparency": 78.9,
+      "developer_ergonomics": 54.3,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 33.3,
+      "matched_via": "weak_tags"
+     },
+     "agent_score": 36.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 17
+    },
+    {
      "name": "Delhivery",
      "slug": "delhivery",
      "description": "Delhivery is India's largest integrated third-party logistics (3PL) service provider, offering express parcel delivery, part-truckload and full-truckload freight, warehousing, supply-chain services, cross-border logistics and shipment tracking. Its developer platform exposes REST APIs for pincode serviceability, waybill generation, order creation and manifestation, shipment tracking (pull and webhook push), shipping-cost invoicing, packing-slip and shipping-label generation, pickup requests, client-warehouse management and NDR (non-delivery report) actions. APIs are consumed with a client API token and are documented across the Delhivery One developer portal, the Express Last-Mile API reference (ReadMe) and the OS1 platform docs.",
@@ -744,7 +789,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Leo1",
@@ -789,7 +834,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     }
    ],
    "open": true
@@ -799,8 +844,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 25,
-   "shown": 25,
+   "count": 24,
+   "shown": 24,
    "providers": [
     {
      "name": "Exotel",
@@ -836,51 +881,6 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "CoinSwitch",
-     "slug": "coinswitch",
-     "description": "CoinSwitch is one of India's largest retail crypto investing platforms, based in Bengaluru and backed by a16z, Paradigm, and Ribbit Capital. Alongside its consumer buy/sell app it operates CoinSwitch PRO, a professional trading venue that exposes a public REST and WebSocket API for programmatic trading. The CoinSwitch PRO API (base https://coinswitch.co/trade/api/v2) covers Spot trading on INR and USDT pairs, USDT-margined Perpetual Futures with up to 100x leverage, low-latency High-Frequency Trading (HFT) endpoints, and Options (private beta). Developers can place, cancel, and track orders, read portfolios and trading fees, and subscribe to real-time order, balance, and candlestick streams over Socket.IO. Requests authenticate with an API key and an Ed25519 request signature (X-AUTH-APIKEY / X-AUTH-SIGNATURE / X-AUTH-EPOCH), with reference signing implementations published for Python, Java, Go, and Node.js.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinswitch/refs/heads/main/screenshots/coinswitch-2026-07-25T210036.png",
-     "score": 41.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 0.0,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 54.3,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 33.3,
-      "matched_via": "weak_tags"
-     },
-     "agent_score": 36.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",

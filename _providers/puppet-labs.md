@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The Module Operations API from Puppet — 2 operation(s) for module operations.
@@ -141,19 +141,19 @@ overview: 'Puppet publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Puppet''s developer surface includes documentation, API reference, engineering blog, support, pricing, CLI, and 15 more developer resources.'
-random_paper: 67
+random_paper: 88
 score:
   band: developing
-  composite: 43.0
-  delta: -1.2
+  composite: 44.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.8
+    contract_quality: 62.4
     developer_ergonomics: 45.1
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 44.2
+  previous_composite: 44.1
   provenance:
     conformance: derived
     contracts:
@@ -163,8 +163,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

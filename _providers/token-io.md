@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-07-28'
+  score: 44.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -325,7 +325,7 @@ plans:
 - name: Token Io Plans Pricing
   plan_count: 4
   slug: token-io-plans-pricing
-random_paper: 68
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Token Io Rate Limits
@@ -341,16 +341,16 @@ rules:
   slug: token-io-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.2
-  delta: -3.1
+  composite: 58.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.1
+    contract_quality: 73.7
     developer_ergonomics: 63.0
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 60.3
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     contracts:
@@ -358,8 +358,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/screenshots/token-io-2026-06-20T195438.png
 security:

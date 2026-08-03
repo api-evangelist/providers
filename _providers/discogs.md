@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -677,7 +677,7 @@ plans:
 - name: Discogs Plans Pricing
   plan_count: 2
   slug: discogs-plans-pricing
-random_paper: 10
+random_paper: 83
 rate_limits:
 - limit_count: 3
   name: Discogs Rate Limits
@@ -706,16 +706,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.1
-  delta: -5.9
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 64.4
+    contract_quality: 34.6
     developer_ergonomics: 32.6
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 56.0
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -723,9 +723,9 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/screenshots/discogs-2026-07-25T212056.png
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: EVM-compatible JSON-RPC interface for Kite Chain mainnet (chain ID 2366, native token KITE), available over HTTPS and WSS from a global endpoint plus Virginia, Tokyo, and Ireland regional endpoints.
@@ -170,11 +170,11 @@ overview: 'Kite publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Kite''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, changelog, authentication, and 21 more developer resources.'
-random_paper: 19
+random_paper: 49
 score:
   band: thin
   composite: 38.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -182,7 +182,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 36.8
-  previous_composite: 40.2
+  previous_composite: 38.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kite/refs/heads/main/screenshots/kite-2026-07-25T223907.png
 security:

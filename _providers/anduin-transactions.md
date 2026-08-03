@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -103,11 +103,11 @@ overview: 'Anduin Transactions is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Anduin Transactions'' developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 21
+random_paper: 89
 score:
   band: emerging
   composite: 19.5
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -115,9 +115,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 19.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 19.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anduin-transactions/refs/heads/main/screenshots/anduin-transactions-2026-07-25T200230.png
 security:

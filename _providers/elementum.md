@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -202,19 +202,19 @@ overview: 'Elementum publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Elementum''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 70
+random_paper: 22
 score:
   band: developing
-  composite: 45.5
-  delta: -2.6
+  composite: 45.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 47.3
+    contract_quality: 48.7
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 48.1
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +225,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/screenshots/elementum-2026-07-25T213131.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -172,7 +172,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 0
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -188,16 +188,16 @@ rules:
   slug: monero-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.0
-  delta: -5.1
+  composite: 36.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 41.1
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -211,9 +211,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/screenshots/monero-2026-06-20T185722.png
 security:
 - kind: domain-security

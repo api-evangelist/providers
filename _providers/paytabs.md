@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-07-28'
+  score: 43.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -253,23 +253,23 @@ plans:
 - name: Paytabs Plans Pricing
   plan_count: 2
   slug: paytabs-plans-pricing
-random_paper: 18
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Paytabs Rate Limits
   slug: paytabs-rate-limits
 score:
   band: exemplar
-  composite: 70.5
-  delta: -0.1
+  composite: 71.1
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 73.4
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 60.5
-  previous_composite: 70.6
+  previous_composite: 71.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,8 +286,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

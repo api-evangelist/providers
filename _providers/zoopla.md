@@ -17,20 +17,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: documented
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.2
-  scored_at: '2026-07-28'
+  score: 52.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -298,7 +298,7 @@ overview: 'Zoopla publishes 3 APIs on the [APIs.io](https://apis.io/) network: L
 
 
   Zoopla''s developer surface includes authentication, documentation, signup flow, support, getting-started guide, API reference, code examples, and 34 more developer resources.'
-random_paper: 5
+random_paper: 91
 scopes:
 - name: Zoopla Scopes
   scope_count: 3
@@ -306,28 +306,28 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 43.0
-  delta: -3.8
+  composite: 45.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 51.6
+    contract_quality: 62.9
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 46.8
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 66.7
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ plans:
 - name: Instamojo Plans Pricing
   plan_count: 8
   slug: instamojo-plans-pricing
-random_paper: 78
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Instamojo Rate Limits
@@ -169,16 +169,16 @@ rules:
   slug: instamojo-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.3
-  delta: -5.0
+  composite: 46.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 51.3
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -192,9 +192,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instamojo/refs/heads/main/screenshots/instamojo-2026-06-20T183413.png
 security:
 - kind: authentication

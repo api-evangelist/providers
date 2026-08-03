@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The LifeStyles US store implements the Universal Commerce Protocol for agent-driven commerce. Agents discover the merchant profile at /.well-known/ucp and then call the JSON-RPC MCP endpoint to search
@@ -123,7 +123,7 @@ overview: 'LifeStyles Healthcare publishes 2 APIs on the [APIs.io](https://apis.
 
 
   LifeStyles Healthcare''s developer surface includes documentation, authentication, engineering blog, support, and 13 more developer resources.'
-random_paper: 46
+random_paper: 88
 scopes:
 - name: Lifestyles Healthcare Scopes
   scope_count: 0
@@ -132,7 +132,7 @@ scopes:
 score:
   band: emerging
   composite: 27.2
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -140,7 +140,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 29.9
+  previous_composite: 27.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -151,8 +151,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

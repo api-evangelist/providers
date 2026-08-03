@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: Commodity Futures Trading Commission Plans Pricing
   plan_count: 3
   slug: commodity-futures-trading-commission-plans-pricing
-random_paper: 42
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Commodity Futures Trading Commission Rate Limits
@@ -169,16 +169,16 @@ rules:
   slug: commodity-futures-trading-commission-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 41.0
-  delta: -3.4
+  composite: 41.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 31.3
     operational_transparency: 31.6
-  previous_composite: 44.4
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -192,8 +192,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/screenshots/commodity-futures-trading-commission-2026-06-20T174817.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: flavored
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: verified
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.1
-  scored_at: '2026-07-28'
+  score: 61.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -225,6 +225,10 @@ collections:
   name: Razorpay Bills X Transactions API
   slug: postman-curlec-x-transactions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/curlec/overview
 - group: other
   title: ''
   type: AgentCard
@@ -399,8 +403,8 @@ overview: 'Curlec publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
   The Curlec catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 64
+  Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 33 more developer resources.'
+random_paper: 68
 scopes:
 - name: Curlec Scopes
   scope_count: 1
@@ -408,16 +412,16 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 64.6
-  delta: -1.5
+  composite: 65.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 70.5
+    contract_quality: 73.0
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 66.1
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -434,8 +438,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/screenshots/curlec-2026-07-25T210942.png
 security:

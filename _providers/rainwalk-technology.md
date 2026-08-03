@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Rainwalk's white-label / embedded pet insurance API, used by partners to embed quoting, enrollment, and policy management directly into their own websites and point-of-sale systems. The API is a priva
@@ -83,11 +83,11 @@ overview: 'Rainwalk Technology publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Rainwalk Technology''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 18
+random_paper: 86
 score:
   band: emerging
   composite: 17.4
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -95,15 +95,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.8
+  previous_composite: 17.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

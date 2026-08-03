@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -194,23 +194,23 @@ press:
 - date: '2026-05-25'
   title: National Housing Conference and ICE host industry ...
   url: https://nhc.org/press-release/national-housing-conference-and-ice-host-industry-leaders-and-experts-to-explore-technologys-transformative-impact-on-housing-finance/
-random_paper: 67
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Intercontinental Exchange Rate Limits
   slug: intercontinental-exchange-rate-limits
 score:
   band: developing
-  composite: 50.9
-  delta: -0.6
+  composite: 51.7
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
-    contract_quality: 52.5
+    contract_quality: 56.6
     developer_ergonomics: 34.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 51.5
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +227,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png
 security:

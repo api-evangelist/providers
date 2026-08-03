@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.2
-  scored_at: '2026-07-28'
+  score: 42.1
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: GraphQL API for programmatic access to core Strise functionality — search companies and persons, screen for PEP/sanctions/ownership, run reviews, manage a monitoring portfolio, and subscribe to webhoo
@@ -171,11 +171,11 @@ overview: 'Strise publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Strise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 10
+random_paper: 1
 score:
   band: developing
   composite: 52.0
-  delta: 7.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.6
@@ -183,14 +183,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 55.3
-  previous_composite: 44.8
+  previous_composite: 52.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Strise Authentication

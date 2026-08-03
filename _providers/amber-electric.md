@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
-    openapi_examples: documented
-    rate_limit_signal: documented
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 48.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -185,9 +185,9 @@ overview: 'Amber Electric publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Amber Electric''s developer surface includes authentication, code examples, documentation, API reference, engineering blog, support, pricing, and 26 more developer resources.'
-random_paper: 13
+random_paper: 77
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Amber Electric Rate Limits
   slug: amber-electric-rate-limits
 scopes:
@@ -196,22 +196,22 @@ scopes:
   slug: amber-electric-scopes
   summary_line: 16 scopes · authorizationCode/clientCredentials
 score:
-  band: thin
-  composite: 41.9
-  delta: -4.3
+  band: developing
+  composite: 51.4
+  delta: 2.3
   facets:
     commercial_clarity: 44.7
-    contract_quality: 32.3
+    contract_quality: 54.0
     developer_ergonomics: 51.6
     discoverability: 87.0
     governance: 20.8
-    operational_transparency: 5.3
-  previous_composite: 46.2
+    operational_transparency: 26.3
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -222,9 +222,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 56.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 74.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

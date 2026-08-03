@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: 'SilverStripe''s GraphQL API provides a content API layer for getting data in and out of the CMS. It supports schema generation from DataObject models, custom types and queries, and extensible schemas. '
@@ -119,7 +119,7 @@ plans:
 - name: Silverstripe Plans Pricing
   plan_count: 2
   slug: silverstripe-plans-pricing
-random_paper: 12
+random_paper: 89
 rate_limits:
 - limit_count: 3
   name: Silverstripe Rate Limits
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.1
-  delta: 9.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 48.1
@@ -135,10 +135,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 29.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 39.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverstripe/refs/heads/main/screenshots/silverstripe-2026-06-20T193925.png
 security:
 - kind: domain-security

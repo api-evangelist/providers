@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-07-28'
+  score: 34.0
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for retrieving, aggregating, and delivering structured patient medical records. Covers patient management, record-retrieval requests, previous-provider retrievals, record uploads, granular cl
@@ -171,11 +171,11 @@ overview: 'Predoc publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Predoc''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 21 more developer resources.'
-random_paper: 63
+random_paper: 67
 score:
   band: developing
   composite: 51.1
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.6
@@ -183,7 +183,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 48.7
+  previous_composite: 51.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -194,8 +194,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

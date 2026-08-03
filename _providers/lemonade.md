@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'A quick and easy way for partners to offer Lemonade homeowners, condo, and renters insurance to their users. Supports quoting, policy creation, and payment, either through the Maya bot drop-in or via '
@@ -112,7 +112,7 @@ plans:
 - name: Lemonade Plans Pricing
   plan_count: 3
   slug: lemonade-plans-pricing
-random_paper: 17
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Lemonade Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.7
-  delta: 6.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 48.1
@@ -128,16 +128,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 29.9
+  previous_composite: 36.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonade/refs/heads/main/screenshots/lemonade-2026-06-20T184421.png
 security:
 - kind: domain-security

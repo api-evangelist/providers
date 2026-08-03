@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: RESTful API for managing all aspects of the Docebo learning platform including courses, users, enrollments, certifications, learning plans, reports, gamification, and e-commerce.
@@ -120,7 +120,7 @@ plans:
 - name: Docebo Plans Pricing
   plan_count: 2
   slug: docebo-plans-pricing
-random_paper: 46
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Docebo Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 37.4
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 48.1
@@ -136,9 +136,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 37.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 37.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docebo/refs/heads/main/screenshots/docebo-2026-06-20T180103.png
 security:

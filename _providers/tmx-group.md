@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 11
 apis:
 - description: End-of-day equity analytics for Canadian and US markets - basic, daily, and advanced daily stats plus liquidity analytics and liquidity summaries - via POST endpoints such as /v1/ca/dailystats, /v1/us
@@ -183,7 +183,7 @@ plans:
 - name: Tmx Group Plans
   plan_count: 10
   slug: tmx-group-plans
-random_paper: 45
+random_paper: 92
 rate_limits:
 - limit_count: 11
   name: Tmx Group Rate Limits
@@ -191,7 +191,7 @@ rate_limits:
 score:
   band: developing
   composite: 44.7
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -199,7 +199,7 @@ score:
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 44.7
-  previous_composite: 43.4
+  previous_composite: 44.7
   provenance:
     conformance: derived
   regulatory:
@@ -208,8 +208,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmx-group/refs/heads/main/screenshots/tmx-group-2026-07-22T202645.png
 security:

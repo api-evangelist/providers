@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Create, list, retrieve, and continue investigation sessions.
@@ -156,19 +156,19 @@ overview: 'Traversal publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Traversal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
-random_paper: 78
+random_paper: 30
 score:
   band: developing
-  composite: 46.0
-  delta: -1.3
+  composite: 46.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 53.8
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 47.3
+  previous_composite: 46.9
   provenance:
     conformance: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

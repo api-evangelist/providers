@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 135
   human_in_the_loop: 1
@@ -1173,7 +1173,7 @@ plans:
 - name: Nuix Plans Pricing
   plan_count: 4
   slug: nuix-plans-pricing
-random_paper: 42
+random_paper: 72
 rate_limits:
 - limit_count: 4
   name: Nuix Rate Limits
@@ -1189,16 +1189,16 @@ rules:
   slug: nuix-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.2
-  delta: -4.3
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.4
+    contract_quality: 69.4
     developer_ergonomics: 34.8
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 58.5
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1206,8 +1206,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/screenshots/nuix-2026-06-20T190513.png
 security:

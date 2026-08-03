@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -309,7 +309,7 @@ plans:
 - name: Td Bank Plans Pricing
   plan_count: 3
   slug: td-bank-plans-pricing
-random_paper: 17
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Td Bank Rate Limits
@@ -338,16 +338,16 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.3
-  delta: -6.6
+  composite: 52.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.6
+    contract_quality: 61.2
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 57.9
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
@@ -361,9 +361,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Td Bank Authentication

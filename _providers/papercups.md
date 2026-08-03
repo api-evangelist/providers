@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ plans:
 - name: Papercups Plans Pricing
   plan_count: 2
   slug: papercups-plans-pricing
-random_paper: 77
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Papercups Rate Limits
@@ -148,17 +148,17 @@ rules:
     warn: 5
   slug: papercups-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 41.9
-  delta: -3.6
+  band: developing
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.2
+    contract_quality: 63.2
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 45.5
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -166,8 +166,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/screenshots/papercups-2026-06-20T191348.png
 security:

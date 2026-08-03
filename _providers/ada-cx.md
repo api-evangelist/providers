@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: The Ada REST API is the unified v2 interface to the Ada AI customer service platform. It covers knowledge sources and articles, end users, conversations, integrations (Actions), data export, data comp
@@ -141,7 +141,7 @@ plans:
 - name: Ada Cx Plans Pricing
   plan_count: 1
   slug: ada-cx-plans-pricing
-random_paper: 66
+random_paper: 83
 rate_limits:
 - limit_count: 2
   name: Ada Cx Rate Limits
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.7
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 43.2
@@ -157,15 +157,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 43.0
+  previous_composite: 40.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada-cx/refs/heads/main/screenshots/ada-cx-2026-06-20T164455.png
 security:

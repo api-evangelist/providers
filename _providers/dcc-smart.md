@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -198,19 +198,19 @@ overview: 'Smart DCC publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Smart DCC''s developer surface includes engineering blog, documentation, CLI, sandbox, changelog, support, pricing, and 30 more developer resources.'
-random_paper: 74
+random_paper: 39
 score:
   band: developing
-  composite: 43.4
-  delta: 1.8
+  composite: 44.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 47.5
+    contract_quality: 51.9
     developer_ergonomics: 34.8
     discoverability: 77.8
     governance: 31.3
     operational_transparency: 52.6
-  previous_composite: 41.6
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,8 +227,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

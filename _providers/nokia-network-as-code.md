@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-07-28'
+  score: 60.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ overview: 'Nokia Network as Code publishes 7 APIs on the [APIs.io](https://apis.
 
 
   Nokia Network as Code''s developer surface includes authentication, changelog, sandbox, API reference, developer portal, documentation, getting-started guide, and 38 more developer resources.'
-random_paper: 16
+random_paper: 71
 scopes:
 - name: Nokia Network As Code Scopes
   scope_count: 65
@@ -264,21 +264,21 @@ scopes:
   summary_line: 65 scopes
 score:
   band: strong
-  composite: 61.2
-  delta: 4.3
+  composite: 63.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.9
+    contract_quality: 71.4
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 56.9
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 50.0
       derived: 0
       marker_coverage: 0.0
       total: 2
@@ -290,8 +290,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 93.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

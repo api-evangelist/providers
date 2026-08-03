@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -173,24 +173,24 @@ overview: 'Beyond Bank Australia publishes 7 APIs on the [APIs.io](https://apis.
 
 
   Beyond Bank Australia''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, and 18 more developer resources.'
-random_paper: 32
+random_paper: 53
 scopes:
 - name: Beyond Bank Scopes
   scope_count: 5
   slug: beyond-bank-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.8
-  delta: -5.9
+  band: developing
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 47.7
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,9 +207,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/screenshots/beyond-bank-2026-07-21T114718.png
 security:
 - kind: authentication

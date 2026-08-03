@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -128,7 +128,7 @@ apis:
 - description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
   name: CAMARA Project Unconditional Call Forwarding information retrieval API
   slug: camara-project-unconditional-call-forwarding-information-retrieval-api
-artifact_total: 79
+artifact_total: 67
 collections:
 - collection_type: open
   name: Call Forwarding Signal
@@ -295,54 +295,130 @@ common:
   title: ''
   type: Partner
   url: https://www.gsma.com/solutions-and-impact/connectivity-for-good/external-affairs/wp-content/uploads/2024/02/Open-Gateway-Joint-Statement.pdf
+- group: company
+  title: ''
+  type: Website
+  url: https://camaraproject.org
+- group: docs
+  title: ''
+  type: Specification
+  url: https://github.com/camaraproject
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/camaraproject
+- group: other
+  title: ''
+  type: Charter
+  url: https://github.com/camaraproject/Governance/blob/main/ProjectCharter.md
+- group: other
+  title: ''
+  type: Governance
+  url: https://github.com/camaraproject/Governance/blob/main/ProjectStructureAndRoles.md
+- group: other
+  title: ''
+  type: Contributing
+  url: https://github.com/camaraproject/Governance/blob/main/CONTRIBUTING.md
+- group: other
+  title: ''
+  type: CLA
+  url: https://github.com/camaraproject/EasyCLA
+- group: other
+  title: ''
+  type: Participants
+  url: https://github.com/camaraproject/Governance/blob/main/PARTICIPANTS.MD
+- group: other
+  title: ''
+  type: Maintainers
+  url: https://github.com/camaraproject/Governance/blob/main/MAINTAINERS.MD
+- group: other
+  title: ''
+  type: MeetingMinutes
+  url: https://github.com/camaraproject/Governance/tree/main/documentation/MeetingMinutes
+- group: operate
+  title: ''
+  type: ReleaseProcess
+  url: https://camaraproject.org/release-management-process/
+- group: other
+  title: ''
+  type: Backlog
+  url: https://github.com/camaraproject/APIBacklog
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://github.com/camaraproject/APIBacklog
+- group: other
+  title: ''
+  type: WorkingGroups
+  url: https://camaraproject.org/working-groups/
+- group: other
+  title: ''
+  type: Membership
+  url: https://camaraproject.org/join/
+- group: other
+  title: ''
+  type: Wiki
+  url: https://lf-camaraproject.atlassian.net/wiki/
+- group: other
+  title: ''
+  type: Landscape
+  url: https://github.com/camaraproject/camara-landscape
+- group: other
+  title: ''
+  type: Calendar
+  url: https://camaraproject.org/all-hands-calls/
+- group: auth
+  title: ''
+  type: Scope
+  url: https://camaraproject.org/scope/
+- group: other
+  title: ''
+  type: History
+  url: https://camaraproject.org/history/
+- group: company
+  title: ''
+  type: News
+  url: https://camaraproject.org/camara-in-the-news/
+- group: docs
+  title: ''
+  type: ReferenceImplementation
+  url: https://github.com/camaraproject/camaraproject.github.io
 created: '2026-05-25T00:00:00.000Z'
 description: CAMARA is the Telco Global API Alliance — an open-source project hosted by the Linux Foundation that defines, builds, and tests a unified set of network APIs across the world's mobile operators. Working alongside the GSMA Open Gateway commercialization initiative, CAMARA produces operator-neutral OpenAPI 3.0 specifications for 60+ telco network capabilities including Number Verification, SIM Swap, Device Location, Quality on Demand, KYC, Carrier Billing, Edge Discovery, Device Status, SMS, and more — all published under Apache 2.0. The project is organized into Sandbox, Incubating, and Graduated sub-projects with cross-cutting Commonalities, Identity and Consent Management, and Release Management working groups. Major contributors include Deutsche Telekom, Orange, Telefonica, Vodafone, T-Mobile, Verizon, AT&T, KDDI, SK Telecom, China Mobile, and dozens of other operators and vendors.
 features:
-- 60+ telco network APIs designed as a unified, operator-neutral surface
-- Hosted by the Linux Foundation as the open governance home for telco network APIs
-- Joint initiative with GSMA Open Gateway — the carrier commercialization program
-- OpenAPI 3.0.3 specs for every API, published under Apache 2.0
-- CloudEvents-based webhook subscriptions for event-driven APIs (sim-swap, geofencing, device-status)
-- Three-tier repository maturity model — Sandbox, Incubating, Graduated
-- Centralized Commonalities working group defining cross-API design guidelines and shared models
-- Centralized Identity And Consent Management working group (OIDC CIBA + purpose-bound consent)
-- Quarterly coordinated releases via the Release Management working group
-- Provider Implementation repos (`*_PI*`) demonstrating real operator deployments
-- Anti-fraud bundle - Number Verification, SIM Swap, Device Swap, Call Forwarding Signal
-- Network capability bundle - Quality on Demand, QoS Profiles, Simple Edge Discovery, Connectivity Insights
-- Identity bundle - KYC Match, KYC Fill-In, KYC Age Verification, Tenure
-- Location bundle - Location Retrieval, Location Verification, Geofencing Subscriptions
-- Device bundle - Device Status, Device Location, Device Swap, Device Identifier, Device Authenticity
-- Messaging bundle - SMS, OTP via SMS, Voice Notification, Voice Verification Code, Call Forwarding
-- Commercial bundle - Carrier Billing Checkout, Sponsored Data
-- Analytics bundle - Population Density Data, Connectivity Insights, Network Insights, Customer Insights
-- Edge cloud bundle - Simple Edge Discovery, Optimal Edge Discovery, Application Endpoint Discovery, Application Endpoint Registration, Edge Application Management
-- IoT bundle - IoT Device Management, IoT SIM Fraud Prevention, IoT Network Optimization, eSIM Remote Management
-- Powered by major operators - Deutsche Telekom, Orange, Telefonica, Vodafone, T-Mobile, Verizon, AT&T, KDDI, SK Telecom, China Mobile, Telenor, TIM, BT, Singtel, and others
-- Cross-operator aggregator integrations through GSMA Open Gateway (Vonage, Infobip, Aduna, others)
+- 'Host: Linux Foundation (LF Directed Fund)'
+- 'Founded: 2021, launched at MWC 2022'
+- 'GitHub repositories: 93'
+- 'API lifecycle: Sandbox 57 / Incubating 15 / Graduated 0'
+- 'API categories published: 8 covering 64 APIs'
+- 'Working groups: API Backlog, Commonalities, Identity and Consent Management, Marketing, Release Management'
+- 'Named participants: 1369'
+- 'Participating organizations: 487'
+- 'Organizations already in the API Evangelist network: 130'
+- 'Governance bodies: Governing Board, Technical Steering Committee, End User Council'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/camara-project.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-07-30'
 name: CAMARA Project
 nav: Providers
 network: true
-overview: 'CAMARA Project publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Age Verification API, Call Forwarding information retrieval API, Check Device Swap API, and 27 more. Tagged areas include API Standards, CAMARA, GSMA, Linux Foundation, and Network APIs.
+overview: 'CAMARA Project publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Age Verification API, Call Forwarding information retrieval API, Check Device Swap API, and 27 more. Tagged areas include API Standards, CAMARA, GSMA, GSMA Open Gateway, and Linux Foundation.
 
 
-  CAMARA Project''s developer surface includes authentication, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 23
+  CAMARA Project''s developer surface includes authentication, developer portal, documentation, engineering blog, product news, and 40 more developer resources.'
+random_paper: 87
 score:
   band: emerging
-  composite: 24.0
-  delta: -3.9
+  composite: 25.6
+  delta: 0.6
   facets:
     commercial_clarity: 0.0
-    contract_quality: 54.2
+    contract_quality: 58.7
     developer_ergonomics: 30.4
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 27.9
+    operational_transparency: 10.5
+  previous_composite: 25.0
   provenance:
     agentic_access: derived
     contracts:
@@ -356,8 +432,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/screenshots/camara-project-2026-06-20T173902.png
 security:
@@ -374,12 +450,15 @@ tags:
 - API Standards
 - CAMARA
 - GSMA
+- GSMA Open Gateway
 - Linux Foundation
 - Network APIs
 - Open API
 - Open Gateway
 - Open Source
+- OpenAPI
 - Standards
+- Standards Body
 - Telco
 - Telco API Alliance
 - Telecom

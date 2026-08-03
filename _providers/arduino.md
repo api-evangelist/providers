@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Arduino Plans Pricing
   plan_count: 4
   slug: arduino-plans-pricing
-random_paper: 16
+random_paper: 89
 rate_limits:
 - limit_count: 7
   name: Arduino Rate Limits
@@ -297,16 +297,16 @@ rules:
   slug: arduino-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: -5.9
+  composite: 49.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.0
+    contract_quality: 60.6
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 54.3
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -314,9 +314,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arduino/refs/heads/main/screenshots/arduino-2026-06-20T172415.png
 security:
 - kind: domain-security

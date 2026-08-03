@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 39.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -193,19 +193,19 @@ overview: 'SendHub publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   SendHub''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 7
+random_paper: 80
 score:
   band: developing
-  composite: 46.9
-  delta: -4.4
+  composite: 47.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 69.8
+    contract_quality: 72.1
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 51.3
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +222,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

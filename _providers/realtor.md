@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Realtor Plans Pricing
   plan_count: 1
   slug: realtor-plans-pricing
-random_paper: 23
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Realtor Rate Limits
@@ -160,16 +160,16 @@ rules:
   slug: realtor-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.8
-  delta: -2.8
+  composite: 39.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 70.8
+    contract_quality: 73.0
     developer_ergonomics: 13.0
     discoverability: 50.0
     governance: 41.7
     operational_transparency: 21.1
-  previous_composite: 41.6
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/screenshots/realtor-2026-06-20T192649.png
 security:

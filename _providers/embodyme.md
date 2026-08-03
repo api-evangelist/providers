@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST + WebSocket API for driving real-time photorealistic AI avatars. Create meeting bots that join Google Meet or LiveKit rooms and stream a talking avatar rendered from an avatar_id, wiring audio in
@@ -116,11 +116,11 @@ overview: 'EmbodyMe publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   EmbodyMe''s developer surface includes developer portal, documentation, getting-started guide, signup flow, pricing, authentication, and 10 more developer resources.'
-random_paper: 30
+random_paper: 90
 score:
   band: emerging
   composite: 24.5
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -128,11 +128,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.3
+  previous_composite: 24.5
   provenance:
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embodyme/refs/heads/main/screenshots/embodyme-2026-07-25T213233.png
 security:

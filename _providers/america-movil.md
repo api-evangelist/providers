@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: documented
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ plans:
 - name: America Movil Plans
   plan_count: 2
   slug: america-movil-plans
-random_paper: 6
+random_paper: 83
 rate_limits:
 - limit_count: 4
   name: America Movil Rate Limits
@@ -282,22 +282,22 @@ scopes:
   slug: america-movil-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 55.5
-  delta: 1.2
+  band: strong
+  composite: 56.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 61.0
+    contract_quality: 65.4
     developer_ergonomics: 51.6
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 54.3
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 66.7
       derived: 0
       marker_coverage: 0.0
       total: 3
@@ -309,8 +309,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 72.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

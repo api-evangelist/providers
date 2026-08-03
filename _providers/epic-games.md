@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -207,7 +207,7 @@ plans:
 - name: Epic Games Plans Pricing
   plan_count: 1
   slug: epic-games-plans-pricing
-random_paper: 3
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Epic Games Rate Limits
@@ -219,16 +219,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 48.9
-  delta: 2.2
+  composite: 49.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.9
+    contract_quality: 62.8
     developer_ergonomics: 52.2
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 46.7
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +242,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/screenshots/epic-games-2026-06-20T180759.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -156,19 +156,19 @@ overview: 'Have I Been Pwned publishes 14 APIs on the [APIs.io](https://apis.io/
 
 
   Have I Been Pwned''s developer surface includes authentication, documentation, pricing, signup flow, FAQ, engineering blog, and 7 more developer resources.'
-random_paper: 54
+random_paper: 92
 score:
   band: thin
-  composite: 28.1
-  delta: -2.1
+  composite: 29.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 54.4
+    contract_quality: 58.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.2
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/screenshots/have-i-been-pwned-2026-06-20T182538.png
 security:

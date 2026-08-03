@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-07-28'
+  score: 42.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -367,7 +367,7 @@ plans:
 - name: Vercel Plans Pricing
   plan_count: 3
   slug: vercel-plans-pricing
-random_paper: 67
+random_paper: 71
 rate_limits:
 - limit_count: 6
   name: Vercel Rate Limits
@@ -399,16 +399,16 @@ rules:
   slug: vercel-rules
 score:
   band: exemplar
-  composite: 71.4
-  delta: -3.0
+  composite: 70.8
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 78.8
+    contract_quality: 76.4
     developer_ergonomics: 58.7
     discoverability: 55.6
     governance: 47.9
     operational_transparency: 78.9
-  previous_composite: 74.4
+  previous_composite: 70.8
   provenance:
     agentic_access: derived
     contracts:
@@ -416,8 +416,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png
 security:

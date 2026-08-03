@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 49.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ overview: 'Zai publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Zai''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 29 more developer resources.'
-random_paper: 78
+random_paper: 39
 scopes:
 - name: Zai Scopes
   scope_count: 0
@@ -231,16 +231,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.8
-  delta: -3.4
+  composite: 61.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 51.6
+    contract_quality: 67.6
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 60.2
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,9 +251,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 75.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 81.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

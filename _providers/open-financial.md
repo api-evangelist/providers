@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 10
 apis:
 - description: Programmatic creation and management of virtual accounts used as transfer wallets, collection wallets, and collection tools on top of partner-bank infrastructure. Virtual accounts give platforms a uni
@@ -147,11 +147,11 @@ overview: 'Open (open.money) publishes 10 APIs on the [APIs.io](https://apis.io/
 
 
   Open (open.money)''s developer surface includes documentation, getting-started guide, authentication, developer console, signup flow, GitHub presence, engineering blog, and 11 more developer resources.'
-random_paper: 18
+random_paper: 82
 score:
   band: emerging
   composite: 22.2
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -159,15 +159,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 27.0
+  previous_composite: 22.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/screenshots/open-financial-2026-06-20T190743.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -467,7 +467,7 @@ plans:
 - name: Amazon Eks Plans Pricing
   plan_count: 1
   slug: amazon-eks-plans-pricing
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Amazon Eks Rate Limits
@@ -491,16 +491,16 @@ rules:
   slug: amazon-eks-spectral-rules
 score:
   band: strong
-  composite: 56.8
-  delta: -2.5
+  composite: 57.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 68.6
+    contract_quality: 71.3
     developer_ergonomics: 30.4
     discoverability: 48.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 59.3
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     contracts:
@@ -508,8 +508,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/screenshots/amazon-eks-2026-06-20T171637.png
 security:

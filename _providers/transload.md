@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: verified
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 22
 apis:
 - description: The Admin API from Transload — 36 operation(s) for admin.
@@ -175,19 +175,19 @@ overview: 'Transload publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Transload''s developer surface includes authentication, support, documentation, API reference, and 11 more developer resources.'
-random_paper: 66
+random_paper: 18
 score:
   band: thin
-  composite: 28.3
-  delta: -3.1
+  composite: 29.8
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 33.1
+    contract_quality: 38.8
     developer_ergonomics: 34.2
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 31.4
+  previous_composite: 29.8
   provenance:
     conformance: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

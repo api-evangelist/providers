@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: REST API that enables deep integration between Carvana and authorized partners (car rental companies, wholesalers, and fleet operators) for posting, updating, and managing used-vehicle inventory. Requ
@@ -141,7 +141,7 @@ plans:
 - name: Carvana Plans Pricing
   plan_count: 3
   slug: carvana-plans-pricing
-random_paper: 76
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Carvana Rate Limits
@@ -149,7 +149,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 8.1
@@ -157,9 +157,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 31.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 28.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carvana/refs/heads/main/screenshots/carvana-2026-06-20T174028.png
 security:

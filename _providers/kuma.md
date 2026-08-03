@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ plans:
 - name: Kuma Plans Pricing
   plan_count: 2
   slug: kuma-plans-pricing
-random_paper: 20
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Kuma Rate Limits
@@ -279,16 +279,16 @@ rules:
   slug: kuma-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: -5.4
+  composite: 49.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.5
+    contract_quality: 63.0
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 53.8
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     contracts:
@@ -296,9 +296,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuma/refs/heads/main/screenshots/kuma-2026-06-20T184214.png
 security:
 - kind: authentication

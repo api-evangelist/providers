@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,11 +83,11 @@ overview: 'TransCrypts is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   TransCrypts'' developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 81
+random_paper: 89
 score:
   band: emerging
   composite: 19.5
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -95,9 +95,9 @@ score:
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 19.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

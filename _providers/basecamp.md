@@ -11,16 +11,16 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -640,7 +640,7 @@ plans:
 - name: Basecamp Plans Pricing
   plan_count: 4
   slug: basecamp-plans-pricing
-random_paper: 8
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Basecamp Rate Limits
@@ -672,16 +672,16 @@ rules:
   slug: basecamp-spectral-rules
 score:
   band: developing
-  composite: 52.7
-  delta: -3.3
+  composite: 53.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 79.3
+    contract_quality: 80.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 52.1
     operational_transparency: 21.1
-  previous_composite: 56.0
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -689,8 +689,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/screenshots/basecamp-2026-06-20T173011.png
 security:

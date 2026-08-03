@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: flavored
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -26,12 +26,18 @@ agentic_access:
   operation_count: 3
   slug: teamwork-agentic-access
   summary_line: 3 operations · 1 acting
-api_count: 1
+api_count: 3
 apis:
-- description: REST API for the Teamwork.com Projects product providing programmatic access to projects, tasks, milestones, time entries, people, companies, tags, and reporting. Authentication supports OAuth 2.0 Bea
-  name: Teamwork.com Projects API v3
-  slug: projects-api-v3
-artifact_total: 5
+- description: The Activity API from Teamwork.com — 1 operation(s) for activity.
+  name: Teamwork.com Activity API
+  slug: teamwork-activity-api
+- description: The Projects API from Teamwork.com — 1 operation(s) for projects.
+  name: Teamwork.com Projects API
+  slug: teamwork-projects-api
+- description: The Tasks API from Teamwork.com — 1 operation(s) for tasks.
+  name: Teamwork.com Tasks API
+  slug: teamwork-tasks-api
+artifact_total: 7
 collections:
 - collection_type: open
   name: Teamwork.com Projects API v3
@@ -97,23 +103,23 @@ modified: '2026-05-11'
 name: Teamwork.com
 nav: Providers
 network: true
-overview: 'Teamwork.com publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API v3. Tagged areas include Project Management, Client Services, Task Management, Time Tracking, and Collaboration.
+overview: 'Teamwork.com publishes 3 APIs on the [APIs.io](https://apis.io/) network: Activity API, Projects API, and Tasks API. Tagged areas include Project Management, Client Services, Task Management, Time Tracking, and Collaboration.
 
 
   Teamwork.com''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 54
+random_paper: 19
 score:
-  band: emerging
-  composite: 27.0
-  delta: -7.7
+  band: thin
+  composite: 33.4
+  delta: 0.6
   facets:
     commercial_clarity: 10.5
-    contract_quality: 40.3
+    contract_quality: 63.6
     developer_ergonomics: 26.1
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.7
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -121,9 +127,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/screenshots/teamwork-2026-06-20T195100.png
 security:
 - kind: authentication

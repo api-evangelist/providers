@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 39.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -176,19 +176,19 @@ overview: 'Credgenics publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Credgenics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 63
+random_paper: 2
 score:
-  band: developing
-  composite: 48.6
-  delta: -3.4
+  band: thin
+  composite: 40.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.3
+    contract_quality: 25.6
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 52.0
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -199,8 +199,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/screenshots/credgenics-2026-07-25T210716.png
 security:

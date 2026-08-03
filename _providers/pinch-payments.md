@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-07-28'
+  score: 54.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ overview: 'Pinch Payments publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   Pinch Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, and 31 more developer resources.'
-random_paper: 62
+random_paper: 31
 scopes:
 - name: Pinch Payments Scopes
   scope_count: 1
@@ -275,16 +275,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 56.7
-  delta: -4.1
+  composite: 56.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.1
+    contract_quality: 64.2
     developer_ergonomics: 79.9
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 60.8
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,8 +301,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

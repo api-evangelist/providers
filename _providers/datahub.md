@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -310,7 +310,7 @@ plans:
 - name: Datahub Plans Pricing
   plan_count: 2
   slug: datahub-plans-pricing
-random_paper: 73
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Datahub Rate Limits
@@ -342,16 +342,16 @@ rules:
   slug: datahub-rules
 score:
   band: strong
-  composite: 59.1
-  delta: -5.9
+  composite: 59.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 73.0
+    contract_quality: 75.0
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 65.0
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
@@ -359,9 +359,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datahub/refs/heads/main/screenshots/datahub-2026-06-20T175643.png
 security:
 - kind: authentication

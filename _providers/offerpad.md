@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-07-28'
+  score: 45.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -227,24 +227,24 @@ overview: 'Offerpad publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Offerpad''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 35 more developer resources.'
-random_paper: 19
+random_paper: 79
 scopes:
 - name: Offerpad Scopes
   scope_count: 9
   slug: offerpad-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: thin
-  composite: 39.8
-  delta: -0.9
+  band: developing
+  composite: 44.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 40.3
+    contract_quality: 60.5
     developer_ergonomics: 29.9
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 40.7
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -261,8 +261,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

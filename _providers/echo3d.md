@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-07-28'
+  score: 44.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: RESTful HTTP API for storing, querying, uploading, downloading, converting, compressing, organizing, versioning, and deleting 3D content entries (targets and holograms) in echo3D collections. Requests
@@ -175,7 +175,7 @@ overview: 'echo3D publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   echo3D''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 22 more developer resources.'
-random_paper: 74
+random_paper: 91
 scopes:
 - name: Echo3D Scopes
   scope_count: 14
@@ -184,7 +184,7 @@ scopes:
 score:
   band: developing
   composite: 46.1
-  delta: 7.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -192,13 +192,13 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 13.2
-  previous_composite: 39.0
+  previous_composite: 46.1
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo3d/refs/heads/main/screenshots/echo3d-2026-07-25T212938.png
 security:
 - kind: authentication

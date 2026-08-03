@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 73
+random_paper: 77
 rate_limits:
 - limit_count: 0
   name: Contract
@@ -206,16 +206,16 @@ rules:
   slug: phemex-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.8
-  delta: -3.4
+  composite: 44.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.6
+    contract_quality: 64.3
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 15.8
-  previous_composite: 47.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -229,8 +229,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/screenshots/phemex-2026-06-20T191642.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Mealdb Plans Pricing
   plan_count: 2
   slug: mealdb-plans-pricing
-random_paper: 39
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Mealdb Rate Limits
@@ -177,16 +177,16 @@ rules:
   slug: mealdb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.2
-  delta: -4.8
+  composite: 46.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.6
+    contract_quality: 62.1
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 50.0
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +200,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/screenshots/mealdb-2026-06-20T185110.png
 security:

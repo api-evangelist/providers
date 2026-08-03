@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 7
 common:
@@ -103,7 +103,7 @@ overview: 'Standardization is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Standardization''s developer surface includes documentation, developer portal, and 7 more developer resources.'
-random_paper: 57
+random_paper: 0
 rules:
 - name: Standardization API Rules
   rule_count: 5
@@ -116,7 +116,7 @@ rules:
 score:
   band: emerging
   composite: 20.1
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 17.7
@@ -124,9 +124,9 @@ score:
     discoverability: 51.9
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 23.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 20.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/standardization/refs/heads/main/screenshots/standardization-2026-06-20T194501.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Marketing Offers API
@@ -174,19 +174,19 @@ overview: 'Upgrade publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Upgrade''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 6
+random_paper: 79
 score:
   band: developing
-  composite: 51.9
-  delta: -5.2
+  composite: 52.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.9
+    contract_quality: 58.4
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 57.1
+  previous_composite: 52.0
   provenance:
     conformance: first-party
     contracts:
@@ -202,9 +202,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Upgrade Authentication

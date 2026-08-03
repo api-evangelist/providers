@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -128,23 +128,23 @@ plans:
 - name: Nookal Plans Pricing
   plan_count: 3
   slug: nookal-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 3
   name: Nookal Rate Limits
   slug: nookal-rate-limits
 score:
   band: thin
-  composite: 38.0
-  delta: -3.5
+  composite: 38.4
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 52.7
+    contract_quality: 54.4
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 41.5
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -158,8 +158,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

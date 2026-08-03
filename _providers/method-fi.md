@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -130,23 +130,23 @@ plans:
 - name: Method Fi Plans Pricing
   plan_count: 2
   slug: method-fi-plans-pricing
-random_paper: 73
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Method Fi Rate Limits
   slug: method-fi-rate-limits
 score:
   band: thin
-  composite: 35.1
-  delta: -3.4
+  composite: 35.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 52.4
+    contract_quality: 56.5
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.5
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-fi/refs/heads/main/screenshots/method-fi-2026-06-20T185302.png
 security:

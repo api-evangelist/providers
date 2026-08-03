@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: 'LSE Research Online is LSE''s institutional repository, built on EPrints 3, containing journal articles, working papers, theses, reports, datasets and other research outputs. It exposes an OAI-PMH 2.0 '
@@ -125,7 +125,7 @@ plans:
 - name: Lse Plans Pricing
   plan_count: 2
   slug: lse-plans-pricing
-random_paper: 78
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Lse Rate Limits
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.0
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 17.7
@@ -141,9 +141,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 25.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 22.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/screenshots/lse-2026-06-20T184742.png
 security:

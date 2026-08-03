@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -196,23 +196,23 @@ overview: 'Pigment publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Pigment''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 18
+random_paper: 91
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Pigment Rate Limits
   slug: pigment-rate-limits
 score:
   band: developing
-  composite: 47.7
-  delta: 1.1
+  composite: 51.6
+  delta: 2.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 41.5
+    contract_quality: 46.5
     developer_ergonomics: 67.4
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 15.8
-  previous_composite: 46.6
+    operational_transparency: 36.8
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,8 +223,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

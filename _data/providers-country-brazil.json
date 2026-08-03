@@ -108,8 +108,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 11,
-   "shown": 11,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "Koin",
@@ -603,6 +603,51 @@
       "dry_run_mode": false
      },
      "rank": 13
+    },
+    {
+     "name": "Conta Azul",
+     "slug": "dvpj",
+     "description": "Conta Azul is a Brazilian financial-management and ERP platform for small and medium-sized businesses, providing cash-flow control, bank reconciliation, electronic invoicing (NF-e/NFS-e/NFC-e), sales and customer management, automatic collections, inventory, supplier management and recurring contracts. Its developer platform exposes REST/JSON APIs (api-v2.contaazul.com) secured with OAuth 2.0 (AWS Cognito, Authorization Code flow) covering Financeiro, Cobranças, Baixas, Vendas, Pessoas/Fornecedores, Produtos e Serviços, Notas Fiscais and Contratos, so partner systems (BI, CRM, e-commerce) can integrate with the ERP. Surfaced to the API Evangelist network from a 500 Global portfolio stub (originally mislabeled \"DVPJ\") and enriched here.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dvpj/refs/heads/main/screenshots/dvpj-2026-07-25T212538.png",
+     "score": 43.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 62.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 15.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 14
     }
    ],
    "open": true
@@ -612,8 +657,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 23,
-   "shown": 23,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "Loggi",
@@ -651,7 +696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "MV sistemas",
@@ -690,51 +735,6 @@
       "rate_limit_signal": false,
       "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "Conta Azul",
-     "slug": "dvpj",
-     "description": "Conta Azul is a Brazilian financial-management and ERP platform for small and medium-sized businesses, providing cash-flow control, bank reconciliation, electronic invoicing (NF-e/NFS-e/NFC-e), sales and customer management, automatic collections, inventory, supplier management and recurring contracts. Its developer platform exposes REST/JSON APIs (api-v2.contaazul.com) secured with OAuth 2.0 (AWS Cognito, Authorization Code flow) covering Financeiro, Cobranças, Baixas, Vendas, Pessoas/Fornecedores, Produtos e Serviços, Notas Fiscais and Contratos, so partner systems (BI, CRM, e-commerce) can integrate with the ERP. Surfaced to the API Evangelist network from a 500 Global portfolio stub (originally mislabeled \"DVPJ\") and enriched here.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dvpj/refs/heads/main/screenshots/dvpj-2026-07-25T212538.png",
-     "score": 40.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 62.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 15.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -825,6 +825,43 @@
      "rank": 18
     },
     {
+     "name": "Nova Lima",
+     "slug": "nova-lima",
+     "description": "Runrun.it (headquartered in Nova Lima, Brazil, and backed by 500 Global) is process and project management software that automates work requests and organizes a team's tasks, projects, clients, time tracking, and documents in a single place. Its public REST API (v1.0) exposes tasks, projects, boards and board stages, clients, teams, users, comments, documents, evaluations, templates, and time-worked reporting, authenticated with App-Key and User-Token request headers on paid plans. The platform also publishes an OAuth 2.0/2.1 authorization server (authorization code + PKCE), a hosted OAuth-protected MCP server at /mcp, and a webhook event system covering roughly 35 task, project, client, team, and comment events.",
+     "score": 39.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 47.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 19
+    },
+    {
      "name": "PagSeguro / PagBank",
      "slug": "pagseguro",
      "description": "PagSeguro (operating consumer-facing under the PagBank brand) is one of Brazil's largest payment processors and digital-banking platforms. Originally spun out of UOL (Universo Online) and listed on the NYSE under PAGS, the company offers an end-to-end financial stack covering online payments, in-person card acceptance via the Moderninha and Minizinha terminal families, Pix instant payments, boleto, credit and debit cards, recurring subscriptions, marketplace split, payouts, account-as-a-service, and a digital bank with cards, credit, and investments. Its developer portal at developer.pagbank.com.br exposes a REST API surface (Orders, Charges, Public Keys, Checkout, Recurring, Connect/OAuth, Account Registration, EDI, Webhooks) backed by official SDKs in PHP, Java, Ruby, and .NET, plus WooCommerce, Magento/Adobe Commerce, and PrestaShop plugins.",
@@ -867,7 +904,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Iniciador",
@@ -912,7 +949,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Kanastra",
@@ -957,7 +994,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "IDwall",
@@ -988,43 +1025,6 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 22
-    },
-    {
-     "name": "Nova Lima",
-     "slug": "nova-lima",
-     "description": "Runrun.it (headquartered in Nova Lima, Brazil, and backed by 500 Global) is process and project management software that automates work requests and organizes a team's tasks, projects, clients, time tracking, and documents in a single place. Its public REST API (v1.0) exposes tasks, projects, boards and board stages, clients, teams, users, comments, documents, evaluations, templates, and time-worked reporting, authenticated with App-Key and User-Token request headers on paid plans. The platform also publishes an OAuth 2.0/2.1 authorization server (authorization code + PKCE), a hosted OAuth-protected MCP server at /mcp, and a webhook event system covering roughly 35 task, project, client, team, and comment events.",
-     "score": 36.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 47.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": true,

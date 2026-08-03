@@ -1,0 +1,184 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 33.6
+  scored_at: '2026-08-03'
+api_count: 1
+apis:
+- description: 'The anonymously readable WordPress REST API behind circlepharma.com. It exposes Circle Pharma press releases, publications and in-the-news items (posts), site pages, the media library, the leadership '
+  name: Circle Pharma Content API
+  slug: circle-pharma-content-api
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://circlepharma.com/
+- group: company
+  title: ''
+  type: About
+  url: https://circlepharma.com/about-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://circlepharma.com/whats-new
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://circlepharma.com/feed/
+- group: operate
+  title: ''
+  type: PressReleases
+  url: https://circlepharma.com/press-releases
+- group: other
+  title: ''
+  type: Publications
+  url: https://circlepharma.com/publications
+- group: other
+  title: ''
+  type: Events
+  url: https://circlepharma.com/upcoming-events
+- group: company
+  title: ''
+  type: Careers
+  url: https://circlepharma.com/work-with-us
+- group: operate
+  title: ''
+  type: Contact
+  url: https://circlepharma.com/contact-us
+- group: company
+  title: ''
+  type: Investors
+  url: https://circlepharma.com/investors
+- group: operate
+  title: ''
+  type: Support
+  url: https://circlepharma.com/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://circlepharma.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://circlepharma.com/privacy-policy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/circle-pharma-inc-/
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/circle-pharma_stock/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/circle-pharma-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/circle-pharma-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/circle-pharma-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/circle-pharma-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/circle-pharma-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/circle-pharma-data-model.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/circle-pharma-well-known.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/circle-pharma-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/circle-pharma-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-08-01'
+description: 'Circle Pharma is a clinical-stage biopharmaceutical company in South San Francisco, California, developing cell-permeable, orally bioavailable macrocycle therapies for cancer. Founded in 2013 by Matthew P. Jacobson and Scott Lokey out of work on predicting synthetic macrocycle cell permeability, the company applies its proprietary MXMO structure-based design platform to protein-protein interactions that conventional small molecules cannot reach. Its pipeline targets cyclins, the regulators of the cell cycle that drive many cancers: lead program CID-078, a first-in-class oral cyclin A/B RxL inhibitor, is in Phase 1 for advanced solid tumors, followed by a preclinical cyclin D1 RxL inhibitor and undisclosed cyclin programs partnered with Boehringer Ingelheim. Circle Pharma closed a $90M Series D led by The Column Group in 2024 and has an agreement with Eli Lilly to use Lilly TuneLab to strengthen the AI/ML side of the MXMO platform. Circle Pharma runs no developer program and
+  publishes no product API; the only machine-readable surface it exposes is the anonymously readable WordPress REST content API behind circlepharma.com.'
+image: https://circlepharma.com/wp-content/uploads/2024/01/Asset-2@2x.png
+layout: provider
+modified: '2026-08-01'
+name: Circle Pharma
+nav: Providers
+network: true
+overview: 'Circle Pharma publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and drug-discovery.
+
+
+  Circle Pharma''s developer surface includes engineering blog, support, authentication, and 22 more developer resources.'
+random_paper: 69
+score:
+  band: thin
+  composite: 33.2
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 60.5
+    developer_ergonomics: 19.0
+    discoverability: 87.0
+    governance: 11.5
+    operational_transparency: 0.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    skills: derived
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+security:
+- kind: authentication
+  name: Circle Pharma Authentication
+  slug: circle-pharma-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Circle Pharma Domain Security
+  slug: circle-pharma-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: circle-pharma
+tags:
+- Company
+- biotechnology
+- pharmaceuticals
+- oncology
+- drug-discovery
+- macrocycles
+- clinical-trials
+- life-sciences
+- content-api
+website: https://circlepharma.com/
+---

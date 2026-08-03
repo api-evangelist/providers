@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -134,23 +134,23 @@ plans:
 - name: Testrail Plans Pricing
   plan_count: 4
   slug: testrail-plans-pricing
-random_paper: 52
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Testrail Rate Limits
   slug: testrail-rate-limits
 score:
   band: thin
-  composite: 39.7
-  delta: -2.1
+  composite: 40.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.1
+    contract_quality: 60.7
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 41.8
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -158,8 +158,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

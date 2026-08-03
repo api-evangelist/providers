@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 38
 apis:
 - description: AI-powered query generation
@@ -295,19 +295,19 @@ overview: 'Omni publishes 38 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Omni''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 26 more developer resources.'
-random_paper: 25
+random_paper: 55
 score:
   band: strong
-  composite: 59.0
-  delta: -0.1
+  composite: 59.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.0
+    contract_quality: 66.7
     developer_ergonomics: 82.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 59.1
+  previous_composite: 59.9
   provenance:
     conformance: derived
     contracts:
@@ -317,8 +317,8 @@ score:
       total: 38
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

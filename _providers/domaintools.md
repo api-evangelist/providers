@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -204,19 +204,19 @@ overview: 'DomainTools publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 
 
   DomainTools'' developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 21 more developer resources.'
-random_paper: 45
+random_paper: 53
 score:
   band: developing
-  composite: 51.8
-  delta: -0.2
+  composite: 52.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.8
+    contract_quality: 58.1
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 52.0
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +227,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domaintools/refs/heads/main/screenshots/domaintools-2026-07-25T212242.png
 security:

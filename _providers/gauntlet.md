@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -187,23 +187,23 @@ overview: 'Gauntlet publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gauntlet''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 48
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Gauntlet Rate Limits
   slug: gauntlet-rate-limits
 score:
   band: developing
-  composite: 48.9
-  delta: -2.2
+  composite: 50.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 48.5
+    contract_quality: 52.9
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 51.1
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,8 +214,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/screenshots/gauntlet-2026-07-25T215504.png
 security:

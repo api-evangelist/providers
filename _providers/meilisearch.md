@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -178,23 +178,23 @@ plans:
 - name: Meilisearch Plans Pricing
   plan_count: 4
   slug: meilisearch-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Meilisearch Rate Limits
   slug: meilisearch-rate-limits
 score:
   band: developing
-  composite: 50.1
-  delta: 0.1
+  composite: 50.9
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 55.4
+    contract_quality: 58.7
     developer_ergonomics: 43.5
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 50.0
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/screenshots/meilisearch-2026-06-20T185134.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Publicly accessible OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) interface for Repository@Nottingham, the university's institutional research repository powered by Worktribe. Su
@@ -111,7 +111,7 @@ plans:
 - name: University Of Nottingham Plans Pricing
   plan_count: 2
   slug: university-of-nottingham-plans-pricing
-random_paper: 46
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: University Of Nottingham Rate Limits
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.1
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 12.9
@@ -127,9 +127,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 22.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 20.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-nottingham/refs/heads/main/screenshots/university-of-nottingham-2026-06-20T200211.png
 security:

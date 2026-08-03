@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 9
@@ -3679,7 +3679,7 @@ overview: 'Amazon Comprehend publishes 84 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon Comprehend''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
-random_paper: 30
+random_paper: 42
 rules:
 - name: Amazon Comprehend API Rules
   rule_count: 5
@@ -3699,16 +3699,16 @@ rules:
   slug: amazon-comprehend-spectral-rules
 score:
   band: strong
-  composite: 56.3
-  delta: -0.8
+  composite: 56.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 78.0
+    contract_quality: 79.8
     developer_ergonomics: 41.3
     discoverability: 77.8
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 57.1
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3718,8 +3718,8 @@ score:
       marker_coverage: 0.0
       total: 84
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/screenshots/amazon-comprehend-2026-07-25T200001.png
 security:

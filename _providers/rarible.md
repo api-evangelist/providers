@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -1071,7 +1071,7 @@ plans:
 - name: Rarible Plans Pricing
   plan_count: 2
   slug: rarible-plans-pricing
-random_paper: 81
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Rarible Rate Limits
@@ -1087,16 +1087,16 @@ rules:
   slug: rarible-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.9
-  delta: -3.7
+  composite: 50.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.4
+    contract_quality: 67.4
     developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 53.6
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1110,8 +1110,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/screenshots/rarible-2026-06-20T192606.png
 security:

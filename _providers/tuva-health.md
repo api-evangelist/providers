@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -113,11 +113,11 @@ overview: 'Tuva Health publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, pricing, support, and 11 more developer resources.'
-random_paper: 57
+random_paper: 78
 score:
   band: emerging
   composite: 20.6
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -125,7 +125,7 @@ score:
     discoverability: 72.2
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 22.2
+  previous_composite: 20.6
   provenance:
     conformance: first-party
   regulatory:
@@ -134,8 +134,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

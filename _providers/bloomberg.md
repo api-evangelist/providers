@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-07-28'
+  score: 45.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -351,7 +351,7 @@ plans:
 - name: Bloomberg Plans Pricing
   plan_count: 2
   slug: bloomberg-plans-pricing
-random_paper: 51
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Bloomberg Rate Limits
@@ -380,16 +380,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 72.9
-  delta: -3.6
+  composite: 73.3
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 74.6
+    contract_quality: 76.7
     developer_ergonomics: 66.8
     discoverability: 83.3
     governance: 89.6
     operational_transparency: 63.2
-  previous_composite: 76.5
+  previous_composite: 73.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -406,8 +406,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png
 security:

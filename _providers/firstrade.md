@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -131,23 +131,23 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 62
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: -5.3
+  composite: 35.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.3
+    contract_quality: 60.0
     developer_ergonomics: 15.2
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 40.2
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     contracts:
@@ -161,9 +161,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/screenshots/firstrade-2026-06-20T181243.png
 security:
 - kind: authentication

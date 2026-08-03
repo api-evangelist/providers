@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-07-28'
+  score: 50.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -510,7 +510,7 @@ plans:
 - name: Apache Kafka Plans Pricing
   plan_count: 3
   slug: apache-kafka-plans-pricing
-random_paper: 17
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Apache Kafka Rate Limits
@@ -542,16 +542,16 @@ rules:
   slug: apache-kafka-spectral-rules
 score:
   band: developing
-  composite: 53.3
-  delta: -6.0
+  composite: 53.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.3
+    contract_quality: 64.2
     developer_ergonomics: 37.0
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 52.6
-  previous_composite: 59.3
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -567,9 +567,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 29.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/screenshots/apache-kafka-2026-06-20T172115.png
 security:
 - kind: domain-security

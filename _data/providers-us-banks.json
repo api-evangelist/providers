@@ -355,6 +355,52 @@
    "shown": 28,
    "providers": [
     {
+     "name": "Financial Data Exchange (FDX)",
+     "slug": "fdx",
+     "description": "Financial Data Exchange (FDX) is a non-profit industry standards body operating in the US and Canada that produces the FDX API, a royalty-free REST standard for consumer-permissioned financial data sharing. The FDX API defines interoperable endpoints covering deposit accounts, loan accounts, investment accounts, insurance policies, tax data, payroll data, reward programs, and consent management, enabling data providers (financial institutions), data access platforms (aggregators), and data recipients (fintechs) to exchange consumer financial data without exposing user credentials. As of early 2026 over 130 million consumer accounts are connected via the FDX API across 200+ member organizations including Bank of America, Chase, Citi, Wells Fargo, Plaid, and MX. FDX API v6.5 is the current stable release.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png",
+     "score": 54.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 68.9,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 53.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Industry Bodies & Standards",
+     "rank": 8
+    },
+    {
      "name": "State Street",
      "slug": "state-street",
      "description": "State Street Corporation is one of the world's largest financial services companies, headquartered in Boston, Massachusetts. Founded in 1792, State Street provides investment servicing, investment management, investment research, and trading services to institutional investors including mutual funds, collective investment funds, corporate and public retirement plans, insurance companies, foundations, and endowments. State Street manages approximately $4.7 trillion in assets under management through State Street Global Advisors and services nearly $40 trillion in assets under custody. The company operates the State Street Alpha front-to-back investment management platform, Fund Connect for ETF creation and redemption, and Charles River Development for investment management technology. State Street's developer portal at developer.statestreet.com provides OAuth 2.0-secured APIs enabling institutional clients to programmatically access portfolio data, transaction history, NAV calculations, analytics, and ETF order management. APIs follow REST conventions with OpenAPI 3.0 specifications, JSON data format, and JSON Schema documentation.",
@@ -391,7 +437,7 @@
       "dry_run_mode": false
      },
      "tier": "Money-Center & Custody",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Charles Schwab",
@@ -437,7 +483,7 @@
       "dry_run_mode": false
      },
      "tier": "Super-Regional",
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Bank of America",
@@ -483,7 +529,7 @@
       "dry_run_mode": false
      },
      "tier": "Money-Center & Custody",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "TD Bank",
@@ -528,7 +574,7 @@
       "dry_run_mode": false
      },
      "tier": "Super-Regional",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Moov",
@@ -574,52 +620,6 @@
       "dry_run_mode": false
      },
      "tier": "Banking-as-a-Service",
-     "rank": 12
-    },
-    {
-     "name": "Financial Data Exchange (FDX)",
-     "slug": "fdx",
-     "description": "Financial Data Exchange (FDX) is a non-profit industry standards body operating in the US and Canada that produces the FDX API, a royalty-free REST standard for consumer-permissioned financial data sharing. The FDX API defines interoperable endpoints covering deposit accounts, loan accounts, investment accounts, insurance policies, tax data, payroll data, reward programs, and consent management, enabling data providers (financial institutions), data access platforms (aggregators), and data recipients (fintechs) to exchange consumer financial data without exposing user credentials. As of early 2026 over 130 million consumer accounts are connected via the FDX API across 200+ member organizations including Bank of America, Chase, Citi, Wells Fargo, Plaid, and MX. FDX API v6.5 is the current stable release.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png",
-     "score": 50.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 68.9,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 53.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Industry Bodies & Standards",
      "rank": 13
     },
     {

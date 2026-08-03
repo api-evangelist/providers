@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -200,19 +200,19 @@ overview: 'Pie Insurance publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Pie Insurance''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 22 more developer resources.'
-random_paper: 19
+random_paper: 1
 score:
   band: thin
-  composite: 31.5
-  delta: -3.7
+  composite: 32.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 45.3
+    contract_quality: 50.2
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 35.2
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +226,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 30.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/screenshots/pie-insurance-2026-06-20T191702.png
 security:

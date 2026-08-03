@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ plans:
 - name: Jotform Plans Pricing
   plan_count: 5
   slug: jotform-plans-pricing
-random_paper: 31
+random_paper: 9
 rate_limits:
 - limit_count: 9
   name: Jotform Rate Limits
@@ -174,16 +174,16 @@ rules:
   slug: jotform-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: -3.1
+  composite: 47.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.6
+    contract_quality: 64.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 27.1
     operational_transparency: 52.6
-  previous_composite: 50.8
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +191,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/screenshots/jotform-2026-06-20T183806.png
 security:

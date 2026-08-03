@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-07-28'
+  score: 41.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -495,7 +495,7 @@ plans:
 - name: Microsoft Teams Plans Pricing
   plan_count: 3
   slug: microsoft-teams-plans-pricing
-random_paper: 7
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Microsoft Teams Rate Limits
@@ -531,17 +531,17 @@ scopes:
   slug: microsoft-teams-scopes
   summary_line: 10 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 70.2
-  delta: -3.2
+  band: strong
+  composite: 63.3
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 76.6
+    contract_quality: 49.2
     developer_ergonomics: 60.9
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 57.9
-  previous_composite: 73.4
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -551,8 +551,8 @@ score:
       marker_coverage: 100.0
       total: 8
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -259,7 +259,7 @@ plans:
 - name: Truora Plans Pricing
   plan_count: 3
   slug: truora-plans-pricing
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Truora Rate Limits
@@ -271,16 +271,16 @@ scopes:
   summary_line: 14 scopes · authorizationCode/ciba/refreshToken
 score:
   band: exemplar
-  composite: 67.2
-  delta: -1.3
+  composite: 67.9
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 69.7
+    contract_quality: 72.2
     developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 68.5
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -291,8 +291,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

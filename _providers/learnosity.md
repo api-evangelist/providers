@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: Server-side JSON API for the Learnosity platform. Endpoint families cover Item bank content (Items, Questions, Features, Activities, Tags, Pools, Templates, Workflows), learner sessions and responses,
@@ -250,28 +250,28 @@ overview: 'Learnosity publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Learnosity''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 32
+random_paper: 53
 rate_limits:
-- limit_count: 0
+- limit_count: 15
   name: Learnosity Rate Limits
   slug: learnosity-rate-limits
 score:
   band: developing
-  composite: 43.5
-  delta: -0.6
+  composite: 47.6
+  delta: 4.1
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 67.4
     discoverability: 92.6
     governance: 12.5
-    operational_transparency: 55.3
-  previous_composite: 44.1
+    operational_transparency: 86.8
+  previous_composite: 43.5
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/screenshots/learnosity-2026-07-25T224755.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -263,19 +263,19 @@ overview: 'Humaans publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Humaans'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 28 more developer resources.'
-random_paper: 26
+random_paper: 60
 score:
   band: developing
-  composite: 45.5
-  delta: -2.1
+  composite: 46.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 60.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 47.6
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -283,8 +283,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/screenshots/humaans-io-2026-06-20T182927.png
 security:

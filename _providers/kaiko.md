@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -245,23 +245,23 @@ plans:
 - name: Kaiko Plans Pricing
   plan_count: 2
   slug: kaiko-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Kaiko Rate Limits
   slug: kaiko-rate-limits
 score:
   band: strong
-  composite: 61.4
-  delta: -0.5
+  composite: 62.1
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 66.8
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 61.9
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -278,8 +278,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/screenshots/kaiko-2026-06-20T183855.png
 security:

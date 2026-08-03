@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -235,7 +235,7 @@ plans:
 - name: Supaglue Plans Pricing
   plan_count: 1
   slug: supaglue-plans-pricing
-random_paper: 50
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Supaglue Rate Limits
@@ -259,16 +259,16 @@ rules:
   slug: supaglue-rules
 score:
   band: developing
-  composite: 44.7
-  delta: -4.4
+  composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 63.8
+    contract_quality: 66.9
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -276,8 +276,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-06-20T194702.png
 security:

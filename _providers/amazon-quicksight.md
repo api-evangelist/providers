@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -340,7 +340,7 @@ plans:
 - name: Amazon Quicksight Plans Pricing
   plan_count: 3
   slug: amazon-quicksight-plans-pricing
-random_paper: 53
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Amazon Quicksight Rate Limits
@@ -364,16 +364,16 @@ rules:
   slug: amazon-quicksight-spectral-rules
 score:
   band: exemplar
-  composite: 66.4
-  delta: -3.8
+  composite: 67.0
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 67.8
+    contract_quality: 70.5
     developer_ergonomics: 63.0
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 70.2
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     contracts:
@@ -381,8 +381,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/screenshots/amazon-quicksight-2026-06-20T171805.png
 security:

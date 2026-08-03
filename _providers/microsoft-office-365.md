@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -958,7 +958,7 @@ plans:
 - name: Microsoft Office 365 Plans Pricing
   plan_count: 5
   slug: microsoft-office-365-plans-pricing
-random_paper: 46
+random_paper: 45
 rate_limits:
 - limit_count: 8
   name: Microsoft Office 365 Rate Limits
@@ -987,16 +987,16 @@ scopes:
   summary_line: 18 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 68.9
-  delta: -3.0
+  composite: 69.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 76.6
+    contract_quality: 78.7
     developer_ergonomics: 69.6
     discoverability: 63.0
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 71.9
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1004,8 +1004,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/screenshots/microsoft-office-365-2026-06-20T185511.png
 security:

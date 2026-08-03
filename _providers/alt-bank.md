@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 32.9
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Real-time consumer credit underwriting / risk-assessment API. Partners POST an underwriting request for a credit-card applicant and receive a Guard Score, risk band and credit-limit decision. The call
@@ -125,11 +125,11 @@ overview: 'Alt Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Alt Bank''s developer surface includes documentation, getting-started guide, API reference, support, authentication, sandbox, and 9 more developer resources.'
-random_paper: 40
+random_paper: 18
 score:
   band: thin
   composite: 31.6
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -137,7 +137,7 @@ score:
     discoverability: 83.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.1
+  previous_composite: 31.6
   provenance:
     mcp: derived
   regulatory:
@@ -146,8 +146,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/screenshots/alt-bank-2026-07-25T195808.png
 security:

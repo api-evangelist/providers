@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-07-28'
+  score: 36.9
+  scored_at: '2026-08-03'
 api_count: 10
 apis:
 - description: Create, retrieve, update, renew, replace, and convert physical and virtual cards; manage card status, cardholder details, card images, encrypted card data, and bulk card creation. The core issuing sur
@@ -169,7 +169,7 @@ overview: 'Thredd publishes 10 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Thredd''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 16 more developer resources.'
-random_paper: 61
+random_paper: 65
 scopes:
 - name: Thredd Scopes
   scope_count: 6
@@ -178,7 +178,7 @@ scopes:
 score:
   band: developing
   composite: 46.7
-  delta: 4.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 51.6
@@ -186,7 +186,7 @@ score:
     discoverability: 81.5
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 42.2
+  previous_composite: 46.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -196,8 +196,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

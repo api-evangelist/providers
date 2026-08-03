@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -104,23 +104,23 @@ plans:
 - name: Veeva Systems Plans Pricing
   plan_count: 1
   slug: veeva-systems-plans-pricing
-random_paper: 60
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Veeva Systems Rate Limits
   slug: veeva-systems-rate-limits
 score:
   band: emerging
-  composite: 26.4
-  delta: -4.0
+  composite: 27.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 42.4
+    contract_quality: 47.3
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 30.4
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     contracts:
@@ -134,8 +134,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/screenshots/veeva-systems-2026-06-20T200853.png
 security:

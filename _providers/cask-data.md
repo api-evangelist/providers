@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -156,11 +156,11 @@ overview: 'Cask Data is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cask Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 20 more developer resources.'
-random_paper: 53
+random_paper: 18
 score:
   band: emerging
   composite: 24.4
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -168,12 +168,12 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 31.6
-  previous_composite: 25.2
+  previous_composite: 24.4
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/screenshots/cask-data-2026-07-25T204727.png
 security:

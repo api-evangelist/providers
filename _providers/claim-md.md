@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -120,23 +120,23 @@ plans:
 - name: Claim Md Plans Pricing
   plan_count: 2
   slug: claim-md-plans-pricing
-random_paper: 34
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Claim Md Rate Limits
   slug: claim-md-rate-limits
 score:
   band: thin
-  composite: 32.7
-  delta: -3.5
+  composite: 33.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.8
+    contract_quality: 58.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.2
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +150,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/screenshots/claim-md-2026-07-25T205451.png
 security:

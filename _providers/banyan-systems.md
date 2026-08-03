@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-07-28'
+  score: 36.5
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Banyan's OAuth2 REST API for submitting receipt and transaction data, retrieving enriched (item-level) transactions, managing card-linked-offer campaigns/offers/activations, receipt search, consumer c
@@ -135,11 +135,11 @@ overview: 'Banyan Systems publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Banyan Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 12 more developer resources.'
-random_paper: 76
+random_paper: 45
 score:
   band: thin
   composite: 38.2
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.6
@@ -147,7 +147,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 23.7
-  previous_composite: 34.3
+  previous_composite: 38.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -157,8 +157,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/screenshots/banyan-systems-2026-07-25T202351.png
 security:

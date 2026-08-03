@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ overview: 'BambooHR publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BambooHR''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, and 10 more developer resources.'
-random_paper: 22
+random_paper: 82
 scopes:
 - name: Bamboohr Scopes
   scope_count: 1
@@ -159,16 +159,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.0
-  delta: -1.4
+  composite: 34.3
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 65.2
+    contract_quality: 62.4
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 36.4
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/screenshots/bamboohr-2026-06-20T172934.png
 security:

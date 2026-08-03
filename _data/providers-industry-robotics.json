@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 14,
-   "shown": 14,
+   "count": 15,
+   "shown": 15,
    "providers": [
     {
      "name": "Xquik",
@@ -429,6 +429,44 @@
      "rank": 11
     },
     {
+     "name": "Coasty",
+     "slug": "coasty",
+     "description": "Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work across sandboxed virtual machines. It exposes a public REST API at coasty.ai/v1 with a published OpenAPI 3.1 spec (72 operations), a first-party MCP server (npx @coasty/mcp, 26 tools), free sandbox keys, HMAC-SHA256 webhook triggers, an Idempotency-Key contract, per-credit metered billing, and 1,000+ OAuth app integrations via Composio. Core API surfaces are Predict, Sessions, Ground, Parse, Machines, Schedules, Runs, and Workflows. Founded 2025-2026 by Prateek Jannu and Nitish Kovuru; #1 on the OSWorld benchmark among production computer-use agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/screenshots/coasty-2026-07-25T205838.png",
+     "score": 67.4,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 71.8,
+      "governance": 11.5,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 67.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 12
+    },
+    {
      "name": "Amazon Data Pipeline",
      "slug": "amazon-data-pipeline",
      "description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it is stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR. It supports data-driven workflows with retry, failure handling, and scheduling capabilities.",
@@ -464,7 +502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Amazon Data Lifecycle Manager",
@@ -502,7 +540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Amazon DataSync",
@@ -540,7 +578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     }
    ],
    "open": true
@@ -589,7 +627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Kubernetes",
@@ -627,7 +665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Tray.ai",
@@ -665,7 +703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Amazon Incident Manager",
@@ -703,7 +741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Amazon IoT Events",
@@ -741,7 +779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Celonis",
@@ -779,7 +817,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Adobe Premiere Pro",
@@ -814,44 +852,6 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "Coasty",
-     "slug": "coasty",
-     "description": "Coasty is a computer-use AI agent platform (Y Combinator S26) that operates a full desktop, browser, and terminal like a human — reading the screen with vision, clicking, typing, filling forms, running commands, and verifying its own work across sandboxed virtual machines. It exposes a public REST API at coasty.ai/v1 with a published OpenAPI 3.1 spec (72 operations), a first-party MCP server (npx @coasty/mcp, 26 tools), free sandbox keys, HMAC-SHA256 webhook triggers, an Idempotency-Key contract, per-credit metered billing, and 1,000+ OAuth app integrations via Composio. Core API surfaces are Predict, Sessions, Ground, Parse, Machines, Schedules, Runs, and Workflows. Founded 2025-2026 by Prateek Jannu and Nitish Kovuru; #1 on the OSWorld benchmark among production computer-use agents.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coasty/refs/heads/main/screenshots/coasty-2026-07-25T205838.png",
-     "score": 64.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 71.8,
-      "governance": 11.5,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 73.4,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 67.8,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -2080,6 +2080,50 @@
      "rank": 54
     },
     {
+     "name": "Federal Aviation Administration",
+     "slug": "faa",
+     "description": "The Federal Aviation Administration (FAA) is the United States civil aviation authority, an operating administration of the U.S. Department of Transportation. It regulates and certificates aircraft, airmen, airports and air carriers, operates the National Airspace System and its air traffic control, and issues the aeronautical information the entire U.S. travel and aviation chain runs on — NOTAMs, TFRs, charts, the 28-day NASR subscription, aircraft registration and airport data. It sits upstream of commercial travel distribution rather than inside it — the FAA sells no inventory and is not a GDS, NDC or channel participant, but every airline, GDS, OTA, flight-planning app and drone service supplier in the United States consumes FAA data as a source of truth. Its API posture is genuinely mixed and honest reporting requires saying so. The Airport Status Web Service and the Aeronautic Product Release API are published under a Creative Commons Zero licence, answer unauthenticated over HTTPS, and ship real OpenAPI 3.0.1 documents through a public Gravitee developer portal at api.faa.gov. Alongside them the FAA runs a CKAN 2.11.4 catalog and two ArcGIS Open Data hubs with DCAT-US 1.1 feeds and bulk CSV/GeoJSON/KML export. But the NOTAM API, the Air Carrier Pilot Records Database API and SWIM are gated — client_id/client_secret headers, operator eligibility restricted by regulation, or an executed SWIM agreement — and LAANC drone authorization is reachable only through FAA-approved UAS Service Suppliers, never directly.",
+     "score": 57.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 55.4,
+      "governance": 11.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 65.8
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 55
+    },
+    {
      "name": "Lunar.dev",
      "slug": "lunar-dev",
      "description": "Lunar.dev is an enterprise-grade gateway platform for AI governance and third-party API consumption control. It unifies an MCP Gateway, AI Gateway, and API Consumption Gateway into a single control point that gives organizations observability, access control, policy enforcement, quota management, rate limiting, and real-time monitoring over how applications and AI agents authenticate, discover tools, and consume third-party APIs.",
@@ -2115,7 +2159,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "BrowserStack",
@@ -2153,7 +2197,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "SimScale",
@@ -2191,7 +2235,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Replicas",
@@ -2228,7 +2272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Instabase",
@@ -2273,7 +2317,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
     }
    ],
    "open": true
@@ -2283,8 +2327,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 107,
-   "shown": 107,
+   "count": 106,
+   "shown": 106,
    "providers": [
     {
      "name": "Calendly",
@@ -2322,7 +2366,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 61
+    },
+    {
+     "name": "Qubiqle",
+     "slug": "qubiqle",
+     "description": "Qubiqle is an early 500 Startups (500 Global) portfolio company that became Plate IQ and today operates as Ottimate (qubiqle.com redirects to ottimate.com). Ottimate is an AI-powered accounts payable (AP) automation platform for invoice capture, GL coding and matching, approval workflows, and vendor payments, processing 40M+ invoices and $30B+ in payables annually across 30,000+ US locations. It exposes a REST/JSON V1 API (api.ottimate.com/v1, sandbox at sandbox-api.ottimate.com/v1) covering accounts, vendors, dimensions, purchase orders, receipts, invoices, catalog, and async batch processing — secured with an X-Api-Key header plus an OAuth2 client_credentials bearer token, with documented idempotency, pagination, rate limits, and a hosted docs MCP server.",
+     "score": 55.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 59.3,
+      "governance": 11.5,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 61.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 62
     },
     {
      "name": "Red Hat Enterprise Linux",
@@ -2360,7 +2448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 63
     },
     {
      "name": "Baserow",
@@ -2398,7 +2486,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Scorecard",
@@ -2435,7 +2523,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 65
     },
     {
      "name": "Celigo",
@@ -2473,7 +2561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "DreamFactory",
@@ -2511,7 +2599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 67
     },
     {
      "name": "Super.ai",
@@ -2548,7 +2636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 68
     },
     {
      "name": "Juniper Networks",
@@ -2586,7 +2674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 69
     },
     {
      "name": "Jinba",
@@ -2624,7 +2712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 70
     },
     {
      "name": "Devrev",
@@ -2662,7 +2750,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 71
     },
     {
      "name": "Tray.io",
@@ -2700,33 +2788,27 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 72
     },
     {
-     "name": "Federal Aviation Administration",
-     "slug": "faa",
-     "description": "The Federal Aviation Administration (FAA) is the United States civil aviation authority, an operating administration of the U.S. Department of Transportation. It regulates and certificates aircraft, airmen, airports and air carriers, operates the National Airspace System and its air traffic control, and issues the aeronautical information the entire U.S. travel and aviation chain runs on — NOTAMs, TFRs, charts, the 28-day NASR subscription, aircraft registration and airport data. It sits upstream of commercial travel distribution rather than inside it — the FAA sells no inventory and is not a GDS, NDC or channel participant, but every airline, GDS, OTA, flight-planning app and drone service supplier in the United States consumes FAA data as a source of truth. Its API posture is genuinely mixed and honest reporting requires saying so. The Airport Status Web Service and the Aeronautic Product Release API are published under a Creative Commons Zero licence, answer unauthenticated over HTTPS, and ship real OpenAPI 3.0.1 documents through a public Gravitee developer portal at api.faa.gov. Alongside them the FAA runs a CKAN 2.11.4 catalog and two ArcGIS Open Data hubs with DCAT-US 1.1 feeds and bulk CSV/GeoJSON/KML export. But the NOTAM API, the Air Carrier Pilot Records Database API and SWIM are gated — client_id/client_secret headers, operator eligibility restricted by regulation, or an executed SWIM agreement — and LAANC drone authorization is reachable only through FAA-approved UAS Service Suppliers, never directly.",
-     "score": 54.8,
+     "name": "Augment",
+     "slug": "augment",
+     "description": "Augment (Augie) is an AI productivity platform for the freight and logistics industry, automating complex supply-chain workflows for brokerages, carriers, and distributors — quoting, booking, load building, capacity sourcing, track & trace, carrier support, and order-to-cash — while integrating with existing TMS, ERP, email, and messaging systems. Its public REST API (api.prod.goaugment.com) lets partner systems manage loads and route stops, upsert and archive carriers, post tracking events, report carrier issues, and configure webhook endpoints and event subscriptions across nine event types. Authentication is HTTP Basic with an API key; the company is SOC 2 Type II certified. Augment is backed by 8VC, Lightspeed Venture Partners, and Redpoint Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/screenshots/augment-2026-07-25T201709.png",
+     "score": 54.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 55.4,
-      "governance": 11.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 65.8
+      "discoverability": 81.5,
+      "contract_quality": 72.1,
+      "governance": 20.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 51.6,
+      "commercial_clarity": 50.0
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.3,
+     "agent_score": 46.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -2734,17 +2816,17 @@
       "mcp_server": "derived",
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 73
     },
     {
      "name": "Aito Technologies",
@@ -2782,7 +2864,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 74
     },
     {
      "name": "Google Apps Script",
@@ -2820,7 +2902,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "Tuya",
@@ -2858,7 +2940,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "Duvo Ai",
@@ -2896,7 +2978,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 75
+     "rank": 77
     },
     {
      "name": "LambdaTest",
@@ -2934,7 +3016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 78
     },
     {
      "name": "AWS Step Functions",
@@ -2972,7 +3054,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "Jenkins",
@@ -3010,7 +3092,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 80
     },
     {
      "name": "Prefect",
@@ -3048,7 +3130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 81
     },
     {
      "name": "Boltic",
@@ -3086,7 +3168,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 82
     },
     {
      "name": "Kestra",
@@ -3124,7 +3206,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 83
     },
     {
      "name": "Uthana",
@@ -3161,7 +3243,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 84
     },
     {
      "name": "Silna",
@@ -3205,7 +3287,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 85
     },
     {
      "name": "Capy",
@@ -3243,7 +3325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 86
     },
     {
      "name": "Ansible Roles",
@@ -3281,7 +3363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 87
     },
     {
      "name": "Ansible Playbooks",
@@ -3319,51 +3401,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 88
     },
     {
-     "name": "Qubiqle",
-     "slug": "qubiqle",
-     "description": "Qubiqle is an early 500 Startups (500 Global) portfolio company that became Plate IQ and today operates as Ottimate (qubiqle.com redirects to ottimate.com). Ottimate is an AI-powered accounts payable (AP) automation platform for invoice capture, GL coding and matching, approval workflows, and vendor payments, processing 40M+ invoices and $30B+ in payables annually across 30,000+ US locations. It exposes a REST/JSON V1 API (api.ottimate.com/v1, sandbox at sandbox-api.ottimate.com/v1) covering accounts, vendors, dimensions, purchase orders, receipts, invoices, catalog, and async batch processing — secured with an X-Api-Key header plus an OAuth2 client_credentials bearer token, with documented idempotency, pagination, rate limits, and a hosted docs MCP server.",
-     "score": 52.3,
+     "name": "Benchmark Email",
+     "slug": "benchmark-email",
+     "description": "Benchmark Email is an email marketing platform with a REST API for managing contacts, lists, email campaigns, automations, reports, and transactional email delivery. The API supports contact synchronization, campaign management, reporting analytics, domain verification, and webhook notifications for real-time event handling.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png",
+     "score": 52.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 59.3,
-      "governance": 11.5,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 34.2
+      "discoverability": 74.1,
+      "contract_quality": 72.1,
+      "governance": 58.3,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 50.0
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 61.5,
-     "agent_band": "agent-native",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": "verified",
+      "idempotency": false,
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 89
     },
     {
      "name": "Gitar",
@@ -3401,7 +3477,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 90
+    },
+    {
+     "name": "Rewst",
+     "slug": "rewst",
+     "description": "Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages called Crates, and RoboRewsty, an AI assistant, so MSP teams can automate repetitive operational tasks. Rewst's primary programmatic surface is inbound custom webhook triggers that start workflows, authenticated with an optional x-rewst-secret header and rate limited per trigger; it also offers a Generic GraphQL request action for calling external APIs from within workflows. Rewst is SOC 2 Type 2 compliant, publishes a live status page, and runs a Bugcrowd vulnerability-disclosure program. Backed by Sapphire Ventures.",
+     "score": 52.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 45.7,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 91
     },
     {
      "name": "Relay App",
@@ -3439,45 +3552,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
-    },
-    {
-     "name": "Augment",
-     "slug": "augment",
-     "description": "Augment (Augie) is an AI productivity platform for the freight and logistics industry, automating complex supply-chain workflows for brokerages, carriers, and distributors — quoting, booking, load building, capacity sourcing, track & trace, carrier support, and order-to-cash — while integrating with existing TMS, ERP, email, and messaging systems. Its public REST API (api.prod.goaugment.com) lets partner systems manage loads and route stops, upsert and archive carriers, post tracking events, report carrier issues, and configure webhook endpoints and event subscriptions across nine event types. Authentication is HTTP Basic with an API key; the company is SOC 2 Type II certified. Augment is backed by 8VC, Lightspeed Venture Partners, and Redpoint Ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/screenshots/augment-2026-07-25T201709.png",
-     "score": 51.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 72.1,
-      "governance": 20.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 51.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 46.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 90
+     "rank": 92
     },
     {
      "name": "Velaris",
@@ -3514,7 +3589,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 93
     },
     {
      "name": "Kit",
@@ -3552,7 +3627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 94
     },
     {
      "name": "Juniper Networks",
@@ -3590,7 +3665,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 95
     },
     {
      "name": "Bluejay",
@@ -3628,7 +3703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 96
     },
     {
      "name": "Workist",
@@ -3665,7 +3740,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 97
+    },
+    {
+     "name": "IncidentFox (Brownie)",
+     "slug": "brownie",
+     "description": "IncidentFox (the company was surfaced in the API Evangelist network under its Y Combinator portfolio codename \"Brownie\") is an open-source, AI-powered SRE platform that automates production incident investigation and response. Its multi-agent system triages alerts, queries logs, metrics, traces and deployment history across 300+ integrations (Kubernetes, AWS, Datadog, Grafana, Prometheus, Sentry, Coralogix, and more), correlates signals, finds root causes, and proposes remediation - operating primarily from Slack, Microsoft Teams, or Google Chat with human approval gates on all write actions. IncidentFox exposes a REST API (base https://api.incidentfox.ai/api/v1) for triggering investigations, polling status, and managing hierarchical team configuration, authenticated with team/admin bearer tokens or OIDC/SSO. It ships as Apache-2.0 open source (with a Business Source License security layer) or as managed SaaS with self-hosted and on-premises options.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/screenshots/brownie-2026-07-25T203958.png",
+     "score": 51.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 37.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 98
     },
     {
      "name": "Make",
@@ -3703,7 +3816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 99
     },
     {
      "name": "duvo.ai",
@@ -3741,7 +3854,7 @@
       "agent_card": "flavored",
       "dry_run_mode": true
      },
-     "rank": 97
+     "rank": 100
     },
     {
      "name": "Budibase",
@@ -3779,7 +3892,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 101
     },
     {
      "name": "Graphiant",
@@ -3816,7 +3929,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 102
     },
     {
      "name": "NinjaOne",
@@ -3853,7 +3966,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 103
     },
     {
      "name": "Runautomat",
@@ -3890,7 +4003,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 104
     },
     {
      "name": "Test Cases",
@@ -3928,7 +4041,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 105
     },
     {
      "name": "Squillo",
@@ -3966,7 +4079,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 106
     },
     {
      "name": "Activepieces",
@@ -4004,7 +4117,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 107
     },
     {
      "name": "Ada",
@@ -4042,7 +4155,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 108
     },
     {
      "name": "Azure Logic Apps",
@@ -4080,82 +4193,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
-    },
-    {
-     "name": "Benchmark Email",
-     "slug": "benchmark-email",
-     "description": "Benchmark Email is an email marketing platform with a REST API for managing contacts, lists, email campaigns, automations, reports, and transactional email delivery. The API supports contact synchronization, campaign management, reporting analytics, domain verification, and webhook notifications for real-time event handling.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png",
-     "score": 49.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 72.1,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 107
-    },
-    {
-     "name": "Rewst",
-     "slug": "rewst",
-     "description": "Rewst is a workflow automation and integration (iPaaS/RPA) platform built specifically for managed service providers (MSPs). It combines a visual workflow builder, a form builder, an app builder, 90+ managed MSP integrations (PSA, RMM, Microsoft 365, security tools), reusable automation packages called Crates, and RoboRewsty, an AI assistant, so MSP teams can automate repetitive operational tasks. Rewst's primary programmatic surface is inbound custom webhook triggers that start workflows, authenticated with an optional x-rewst-secret header and rate limited per trigger; it also offers a Generic GraphQL request action for calling external APIs from within workflows. Rewst is SOC 2 Type 2 compliant, publishes a live status page, and runs a Bugcrowd vulnerability-disclosure program. Backed by Sapphire Ventures.",
-     "score": 49.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 45.7,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "Nexthink",
@@ -4192,7 +4230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Rockwell Automation",
@@ -4228,43 +4266,6 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 110
-    },
-    {
-     "name": "SandboxAQ",
-     "slug": "sandboxaq",
-     "description": "SandboxAQ (SB Technology, Inc.) builds Large Quantitative Models (LQMs) — AI systems that fuse physics, chemistry and proprietary scientific data — and ships them as commercial platforms with public developer surfaces. Three product lines carry callable APIs: AQtive Guard, a cryptography and non-human-identity posture-management platform (built on the Cryptosense analyzer) exposing a GraphQL API at /api/v2 plus a fleet of language and network sensors; Flint AI, an AI-agent security platform whose Platform API is a documented OpenAPI 3.0.3 contract over an inventory graph of agents, models, tools and MCP servers, paired with the flintai CLI and a Python guardrails SDK; and the SandboxAQ MCP Server, a per-tenant OAuth-protected Model Context Protocol endpoint that exposes the AQCat adsorption and AQPotency proteochemometric potency models as tools for LLM clients.",
-     "score": 49.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 48.1,
-      "governance": 20.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 58.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": "flavored",
       "dry_run_mode": false
      },
      "rank": 111
@@ -4502,6 +4503,43 @@
      "rank": 117
     },
     {
+     "name": "SandboxAQ",
+     "slug": "sandboxaq",
+     "description": "SandboxAQ (SB Technology, Inc.) builds Large Quantitative Models (LQMs) — AI systems that fuse physics, chemistry and proprietary scientific data — and ships them as commercial platforms with public developer surfaces. Three product lines carry callable APIs: AQtive Guard, a cryptography and non-human-identity posture-management platform (built on the Cryptosense analyzer) exposing a GraphQL API at /api/v2 plus a fleet of language and network sensors; Flint AI, an AI-agent security platform whose Platform API is a documented OpenAPI 3.0.3 contract over an inventory graph of agents, models, tools and MCP servers, paired with the flintai CLI and a Python guardrails SDK; and the SandboxAQ MCP Server, a per-tenant OAuth-protected Model Context Protocol endpoint that exposes the AQCat adsorption and AQPotency proteochemometric potency models as tools for LLM clients.",
+     "score": 48.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 48.1,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 51.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": "flavored",
+      "dry_run_mode": false
+     },
+     "rank": 118
+    },
+    {
      "name": "Conductor",
      "slug": "conductor",
      "description": "Conductor allows you to build a complex application using simple and granular tasks that do not need to be aware of or keep track of the state of your application's execution flow. Conductor keeps track of the state, calls tasks in the right order (sequentially or in parallel, as defined by you), retry calls if needed, handle failure scenarios gracefully, and outputs the final result.",
@@ -4537,7 +4575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "Marketo",
@@ -4575,7 +4613,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Shuffle",
@@ -4613,7 +4651,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Test Scripts",
@@ -4651,7 +4689,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "Pinkfish",
@@ -4688,7 +4726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "Stacks Ai",
@@ -4725,7 +4763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 124
     },
     {
      "name": "Archastro",
@@ -4763,7 +4801,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 125
     },
     {
      "name": "Smartlead",
@@ -4801,7 +4839,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 126
+    },
+    {
+     "name": "Swimlane",
+     "slug": "swimlane",
+     "description": "Swimlane is a security orchestration, automation, and response (SOAR) platform that provides a REST API for managing playbooks, cases, alerts, workflows, and integrating with security tools. The Swimlane Turbine platform offers agentic AI automation for security operations, enabling enterprise security teams and MSSPs to automate threat detection, incident response, and compliance workflows at scale. The REST API supports bearer token and personal access token (PAT) authentication and exposes endpoints for users, roles, records, applications, playbooks, and more.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/screenshots/swimlane-2026-06-20T194822.png",
+     "score": 47.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 70.5,
+      "governance": 58.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 127
     },
     {
      "name": "Rundeck",
@@ -4839,7 +4915,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 128
     },
     {
      "name": "BetterCloud",
@@ -4877,7 +4953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 129
     },
     {
      "name": "Wegalvanize",
@@ -4914,7 +4990,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 130
     },
     {
      "name": "MailerLite",
@@ -4952,7 +5028,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 131
     },
     {
      "name": "PowerShell",
@@ -4990,45 +5066,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 132
     },
     {
-     "name": "IncidentFox (Brownie)",
-     "slug": "brownie",
-     "description": "IncidentFox (the company was surfaced in the API Evangelist network under its Y Combinator portfolio codename \"Brownie\") is an open-source, AI-powered SRE platform that automates production incident investigation and response. Its multi-agent system triages alerts, queries logs, metrics, traces and deployment history across 300+ integrations (Kubernetes, AWS, Datadog, Grafana, Prometheus, Sentry, Coralogix, and more), correlates signals, finds root causes, and proposes remediation - operating primarily from Slack, Microsoft Teams, or Google Chat with human approval gates on all write actions. IncidentFox exposes a REST API (base https://api.incidentfox.ai/api/v1) for triggering investigations, polling status, and managing hierarchical team configuration, authenticated with team/admin bearer tokens or OIDC/SSO. It ships as Apache-2.0 open source (with a Business Source License security layer) or as managed SaaS with self-hosted and on-premises options.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/screenshots/brownie-2026-07-25T203958.png",
-     "score": 46.9,
+     "name": "Saildrone",
+     "slug": "saildrone",
+     "description": "Saildrone is an Alameda, California maritime autonomy company that designs, manufactures, and operates a global fleet of wind/solar-powered autonomous surface vehicles (USVs) for ocean science, maritime domain awareness, and defense applications. Founded in 2012 by Richard Jenkins, the company runs four USV classes — Explorer (23ft, environmental sensing), Voyager (33ft, MDA and counter-narcotics), Surveyor (65ft, deep-ocean bathymetric mapping), and the newer Spectre (ISR / anti-submarine warfare / kinetic payloads). Saildrone has logged over 2.5M nautical miles and 65,000 days at sea across customers including NOAA PMEL, NOAA SWFSC, the US Navy (Task Force 59), NASA, EUMETSAT, BOEM, and Lockheed Martin (which invested $50M in October 2025). Saildrone delivers data through two product surfaces — the Saildrone Mission Portal (secure web app for tasking and live multi-INT visualization) and the Saildrone Public Mission API (BETA) at developer-mission.saildrone.com, which exposes key/secret authenticated endpoints for health, drone access discovery, and time-series retrieval across vehicle, atmospheric, oceanographic, and biogeochemical datasets. Open ocean data from past missions is published via NOAA PMEL ERDDAP and NCEI under open-data terms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png",
+     "score": 47.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 53.8,
-      "commercial_clarity": 50.0
+      "discoverability": 59.3,
+      "contract_quality": 79.1,
+      "governance": 68.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 39.5
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 37.2,
-     "agent_band": "agent-ready",
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
+      "mcp_server": false,
+      "auth_clarity": false,
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
+      "event_surface_described": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 133
     },
     {
      "name": "TabTabTab",
@@ -5065,7 +5141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 134
     },
     {
      "name": "Zoho Writer",
@@ -5103,7 +5179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 135
     },
     {
      "name": "Dell Technologies",
@@ -5141,7 +5217,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 136
     },
     {
      "name": "RunWhen",
@@ -5178,7 +5254,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 137
     },
     {
      "name": "Salesflare",
@@ -5216,7 +5292,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 138
     },
     {
      "name": "Teammates",
@@ -5253,7 +5329,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 139
     },
     {
      "name": "Google Cloud Scheduler",
@@ -5291,7 +5367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 140
     },
     {
      "name": "Ava Protocol",
@@ -5329,7 +5405,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 141
+    },
+    {
+     "name": "Missive",
+     "slug": "missive",
+     "description": "Missive is a team inbox and collaboration platform that brings email, SMS, WhatsApp, Instagram, Facebook Messenger, and live chat into one unified workspace. It provides a REST API for managing conversations, messages, contacts, labels, drafts, analytics, and automation rules, enabling teams to integrate Missive into business workflows. The API supports webhooks for real-time event notifications, custom channels for integrating external communication sources, and UI/iFrame integrations via JavaScript. Developers can automate drafts, sync contacts, generate analytics reports, and build custom integrations with the platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/screenshots/missive-2026-06-20T185610.png",
+     "score": 46.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 68.4,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 57.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 38.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 142
     },
     {
      "name": "Monday.com",
@@ -5367,7 +5488,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 143
     },
     {
      "name": "Siemens",
@@ -5404,7 +5525,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 144
     },
     {
      "name": "Elementum",
@@ -5442,7 +5563,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 145
     },
     {
      "name": "Amika",
@@ -5480,7 +5601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 146
     },
     {
      "name": "Pulumi",
@@ -5525,7 +5646,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 147
     },
     {
      "name": "Skydio",
@@ -5563,7 +5684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 148
     },
     {
      "name": "Dexterity",
@@ -5601,45 +5722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
-    },
-    {
-     "name": "Swimlane",
-     "slug": "swimlane",
-     "description": "Swimlane is a security orchestration, automation, and response (SOAR) platform that provides a REST API for managing playbooks, cases, alerts, workflows, and integrating with security tools. The Swimlane Turbine platform offers agentic AI automation for security operations, enabling enterprise security teams and MSSPs to automate threat detection, incident response, and compliance workflows at scale. The REST API supports bearer token and personal access token (PAT) authentication and exposes endpoints for users, roles, records, applications, playbooks, and more.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/screenshots/swimlane-2026-06-20T194822.png",
-     "score": 45.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 70.5,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 147
+     "rank": 149
     },
     {
      "name": "Grapes Knowledge Base",
@@ -5677,7 +5760,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 150
     },
     {
      "name": "Cosmo Tech",
@@ -5715,7 +5798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 151
     },
     {
      "name": "Microsoft Excel (Advanced)",
@@ -5753,7 +5836,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 152
     },
     {
      "name": "Hilos",
@@ -5798,7 +5881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 153
     },
     {
      "name": "Automat",
@@ -5836,7 +5919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 154
     },
     {
      "name": "Instock",
@@ -5874,7 +5957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 155
     },
     {
      "name": "Lua Global Inc",
@@ -5912,7 +5995,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 156
     },
     {
      "name": "Puppet",
@@ -5950,7 +6033,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 157
     },
     {
      "name": "Beeceptor",
@@ -5988,7 +6071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 158
     },
     {
      "name": "Inductive Automation",
@@ -6026,7 +6109,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 159
     },
     {
      "name": "Azure Automation",
@@ -6064,7 +6147,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 160
     },
     {
      "name": "FACTORY I/O",
@@ -6102,45 +6185,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
-    },
-    {
-     "name": "Saildrone",
-     "slug": "saildrone",
-     "description": "Saildrone is an Alameda, California maritime autonomy company that designs, manufactures, and operates a global fleet of wind/solar-powered autonomous surface vehicles (USVs) for ocean science, maritime domain awareness, and defense applications. Founded in 2012 by Richard Jenkins, the company runs four USV classes — Explorer (23ft, environmental sensing), Voyager (33ft, MDA and counter-narcotics), Surveyor (65ft, deep-ocean bathymetric mapping), and the newer Spectre (ISR / anti-submarine warfare / kinetic payloads). Saildrone has logged over 2.5M nautical miles and 65,000 days at sea across customers including NOAA PMEL, NOAA SWFSC, the US Navy (Task Force 59), NASA, EUMETSAT, BOEM, and Lockheed Martin (which invested $50M in October 2025). Saildrone delivers data through two product surfaces — the Saildrone Mission Portal (secure web app for tasking and live multi-INT visualization) and the Saildrone Public Mission API (BETA) at developer-mission.saildrone.com, which exposes key/secret authenticated endpoints for health, drone access discovery, and time-series retrieval across vehicle, atmospheric, oceanographic, and biogeochemical datasets. Open ocean data from past missions is published via NOAA PMEL ERDDAP and NCEI under open-data terms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png",
-     "score": 43.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 79.1,
-      "governance": 68.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "Ansible Automation Platform",
@@ -6170,51 +6215,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 161
-    },
-    {
-     "name": "Missive",
-     "slug": "missive",
-     "description": "Missive is a team inbox and collaboration platform that brings email, SMS, WhatsApp, Instagram, Facebook Messenger, and live chat into one unified workspace. It provides a REST API for managing conversations, messages, contacts, labels, drafts, analytics, and automation rules, enabling teams to integrate Missive into business workflows. The API supports webhooks for real-time event notifications, custom channels for integrating external communication sources, and UI/iFrame integrations via JavaScript. Developers can automate drafts, sync contacts, generate analytics reports, and build custom integrations with the platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/screenshots/missive-2026-06-20T185610.png",
-     "score": 42.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 68.4,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 57.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 38.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -6394,6 +6394,43 @@
    "shown": 80,
    "providers": [
     {
+     "name": "OpenMind",
+     "slug": "openmind",
+     "description": "OpenMind builds open-source software that makes robots useful. Its flagship product, OM1, is a modular AI Hardware Abstraction Layer (HAL) and agent runtime for robots that unifies perception, LLM reasoning, and action across hardware platforms such as the Unitree Go2 quadruped, Unitree G1 humanoid, TurtleBot4, Raspberry Pi, and Tesla. OpenMind operates a cloud API at api.openmind.com that provides a unified multi-provider LLM endpoint (OpenAI, Anthropic via OpenRouter, Google Gemini, X.AI, DeepSeek, NEAR.AI), speech services (Google/ElevenLabs ASR, ElevenLabs/Riva TTS), a ViLA vision-language model, and account/API-key management. Usage is metered in OMCU (OpenMind Computational Units) across free, standard, builder, pro, and enterprise plans. Premium REST APIs (Orchestrator and Nav2) provide remote SLAM, navigation, patrol, docking, and map management for the OM1 ROS2 SDK. OpenMind is backed by Pantera Capital and also develops the FABRIC decentralized robot coordination layer and Asimov blockchain-based governance for robots.",
+     "score": 41.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 3.1,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 55.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 19.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 167
+    },
+    {
      "name": "Dapta",
      "slug": "dapta",
      "description": "Dapta is a no-code AI voice and text agent platform for small and medium businesses, letting teams build AI phone agents, SMS and WhatsApp bots, meeting notetakers, and workflow automations in minutes without writing code. Voice agents answer inbound and place outbound calls in 20+ languages, qualify leads, book appointments, and handle support 24/7; text agents automate SMS and WhatsApp conversations; Flow Studio wires no-code automations across 1000+ tools with CRM connectors for HubSpot, Salesforce, and GoHighLevel. Dapta exposes a hosted, workspace-scoped Model Context Protocol (MCP) server at mcp.dapta.ai so AI clients such as Claude and Codex can drive a workspace, plus an outbound webhook surface for call, meeting, flow, and campaign events. The company is backed by 500 Global and says it serves 50,000+ businesses.",
@@ -6429,7 +6466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Polymath Robotics",
@@ -6466,7 +6503,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "UBTech",
@@ -6503,7 +6540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "Unisson",
@@ -6540,7 +6577,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "steute Technologies GmbH & Co. KG",
@@ -6577,7 +6614,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "The Interaction Company Of California",
@@ -6621,7 +6658,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "Dotdash Meredith / People Inc",
@@ -6658,7 +6695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "Ada",
@@ -6703,7 +6740,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Parseur",
@@ -6741,7 +6778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "Plunk",
@@ -6779,7 +6816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "AutoContent API",
@@ -6817,7 +6854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "Templated",
@@ -6854,7 +6891,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "Popp",
@@ -6891,7 +6928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Tenderly",
@@ -6929,7 +6966,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Creatomate",
@@ -6967,7 +7004,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Sentera",
@@ -7005,7 +7042,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 183
     },
     {
      "name": "Hospitable",
@@ -7043,7 +7080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 184
     },
     {
      "name": "Blotato",
@@ -7081,7 +7118,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 185
     },
     {
      "name": "Alloy Automation",
@@ -7119,7 +7156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 186
     },
     {
      "name": "Bannerbear",
@@ -7157,7 +7194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "HostBill",
@@ -7195,7 +7232,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Valgo",
@@ -7239,7 +7276,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Einride",
@@ -7277,7 +7314,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 189
+     "rank": 190
     },
     {
      "name": "REST Assured",
@@ -7315,7 +7352,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 190
+     "rank": 191
     },
     {
      "name": "Stilla",
@@ -7352,7 +7389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 191
+     "rank": 192
     },
     {
      "name": "Kubeark",
@@ -7390,7 +7427,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 192
+     "rank": 193
     },
     {
      "name": "Hyperscience",
@@ -7423,43 +7460,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 193
-    },
-    {
-     "name": "OpenMind",
-     "slug": "openmind",
-     "description": "OpenMind builds open-source software that makes robots useful. Its flagship product, OM1, is a modular AI Hardware Abstraction Layer (HAL) and agent runtime for robots that unifies perception, LLM reasoning, and action across hardware platforms such as the Unitree Go2 quadruped, Unitree G1 humanoid, TurtleBot4, Raspberry Pi, and Tesla. OpenMind operates a cloud API at api.openmind.com that provides a unified multi-provider LLM endpoint (OpenAI, Anthropic via OpenRouter, Google Gemini, X.AI, DeepSeek, NEAR.AI), speech services (Google/ElevenLabs ASR, ElevenLabs/Riva TTS), a ViLA vision-language model, and account/API-key management. Usage is metered in OMCU (OpenMind Computational Units) across free, standard, builder, pro, and enterprise plans. Premium REST APIs (Orchestrator and Nav2) provide remote SLAM, navigation, patrol, docking, and map management for the OM1 ROS2 SDK. OpenMind is backed by Pantera Capital and also develops the FABRIC decentralized robot coordination layer and Asimov blockchain-based governance for robots.",
-     "score": 37.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 3.1,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 73.4,
-      "commercial_clarity": 55.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 19.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,

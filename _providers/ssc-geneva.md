@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ plans:
 - name: Ssc Geneva Plans Pricing
   plan_count: 3
   slug: ssc-geneva-plans-pricing
-random_paper: 20
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Ssc Geneva Rate Limits
@@ -209,17 +209,17 @@ rules:
     warn: 5
   slug: ssc-geneva-rules
 score:
-  band: developing
-  composite: 55.7
-  delta: -5.1
+  band: strong
+  composite: 56.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.4
+    contract_quality: 74.7
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 60.8
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -227,9 +227,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/screenshots/ssc-geneva-2026-06-20T194436.png
 security:
 - kind: authentication

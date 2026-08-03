@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 15
 apis:
 - description: Companies that create or distribute various forms of flowers, extracts, edibles, or products.
@@ -138,31 +138,31 @@ plans:
 - name: Otreeba Plans Pricing
   plan_count: 3
   slug: otreeba-plans-pricing
-random_paper: 0
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Otreeba Rate Limits
   slug: otreeba-rate-limits
 score:
-  band: thin
-  composite: 41.9
-  delta: -2.7
+  band: developing
+  composite: 42.8
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 4.3
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 44.6
+  previous_composite: 42.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

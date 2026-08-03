@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ plans:
 - name: Stockdata Plans Pricing
   plan_count: 5
   slug: stockdata-plans-pricing
-random_paper: 56
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Stockdata Rate Limits
@@ -277,16 +277,16 @@ rules:
   slug: stockdata-rules
 score:
   band: strong
-  composite: 65.7
-  delta: -3.4
+  composite: 65.8
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 66.9
+    contract_quality: 67.4
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 31.6
-  previous_composite: 69.1
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,8 +303,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png
 security:

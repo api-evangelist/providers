@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -242,7 +242,7 @@ overview: '360Learning publishes 17 APIs on the [APIs.io](https://apis.io/) netw
 
 
   360Learning''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 25 more developer resources.'
-random_paper: 17
+random_paper: 51
 scopes:
 - name: 360Learning Scopes
   scope_count: 45
@@ -250,16 +250,16 @@ scopes:
   summary_line: 45 scopes
 score:
   band: strong
-  composite: 57.5
-  delta: -1.4
+  composite: 57.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.6
+    contract_quality: 70.5
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 58.9
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -270,8 +270,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/screenshots/360learning-2026-07-25T181148.png
 security:

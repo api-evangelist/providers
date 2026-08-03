@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 4
@@ -216,19 +216,19 @@ overview: 'BlindInsight publishes 19 APIs on the [APIs.io](https://apis.io/) net
 
 
   BlindInsight''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, signup flow, and 17 more developer resources.'
-random_paper: 49
+random_paper: 44
 score:
-  band: thin
-  composite: 41.1
-  delta: -3.6
+  band: developing
+  composite: 42.0
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 57.9
+    contract_quality: 61.4
     developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 44.7
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +239,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/screenshots/blindinsight-2026-07-25T203316.png
 security:

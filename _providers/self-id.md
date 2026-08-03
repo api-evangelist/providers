@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 20
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -139,16 +139,16 @@ rules:
   slug: self-id-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.2
-  delta: -3.7
+  composite: 37.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.5
+    contract_quality: 62.9
     developer_ergonomics: 2.2
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 39.9
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +156,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/self-id/refs/heads/main/screenshots/self-id-2026-06-20T193640.png
 security:

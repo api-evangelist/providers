@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 43.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -161,19 +161,19 @@ overview: 'Aqueduct publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   Aqueduct''s developer surface includes documentation, API reference, getting-started guide, authentication, and 13 more developer resources.'
-random_paper: 40
+random_paper: 5
 score:
   band: thin
-  composite: 35.0
-  delta: -2.6
+  composite: 35.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 59.7
+    contract_quality: 63.2
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 37.6
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,8 +190,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/screenshots/aqueduct-2026-07-25T200954.png
 security:

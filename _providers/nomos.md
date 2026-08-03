@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-07-28'
+  score: 50.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -199,7 +199,7 @@ overview: 'Nomos publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nomos'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, changelog, and 19 more developer resources.'
-random_paper: 64
+random_paper: 81
 scopes:
 - name: Nomos Scopes
   scope_count: 2
@@ -207,16 +207,16 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 47.5
-  delta: 1.0
+  composite: 48.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 61.6
+    contract_quality: 67.3
     developer_ergonomics: 54.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 46.5
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,8 +233,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

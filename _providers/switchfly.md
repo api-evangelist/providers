@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-07-28'
+  score: 32.7
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Describes authentication required (`client_credentials` OAuth 2) and refund requests performed by Switchfly application to 3rd party service to cancel redemption components.
@@ -122,19 +122,19 @@ overview: 'Switchfly publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Switchfly''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: thin
-  composite: 33.4
-  delta: -1.6
+  composite: 39.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 32.3
+    contract_quality: 55.6
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 35.0
+  previous_composite: 39.2
   provenance:
     conformance: derived
     contracts:
@@ -144,8 +144,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

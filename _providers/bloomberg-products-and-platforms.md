@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Cross-platform API providing access to the full Bloomberg data ecosystem including real-time, reference, and historical data with SDKs for Python, Java, C++, and other languages.
@@ -105,7 +105,7 @@ plans:
 - name: Bloomberg Products And Platforms Plans Pricing
   plan_count: 3
   slug: bloomberg-products-and-platforms-plans-pricing
-random_paper: 65
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Bloomberg Products And Platforms Rate Limits
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.7
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -121,9 +121,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 30.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 27.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-products-and-platforms/refs/heads/main/screenshots/bloomberg-products-and-platforms-2026-06-20T173513.png
 security:

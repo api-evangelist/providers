@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: 'Converts a license plate number and state into a VIN with full vehicle decode (year, make, model, trim). Each QuickVIN lookup includes access to a CARFAX Vehicle History Report. Available to lenders, '
@@ -116,7 +116,7 @@ plans:
 - name: Carfax Plans Pricing
   plan_count: 6
   slug: carfax-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Carfax Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: thin
   composite: 29.5
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 32.3
@@ -132,15 +132,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 33.5
+  previous_composite: 29.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carfax/refs/heads/main/screenshots/carfax-2026-06-20T173958.png
 security:

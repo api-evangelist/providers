@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 32.9
+  scored_at: '2026-08-03'
 api_count: 10
 apis:
 - description: The Authorization API issues OAuth2 access tokens for the SVB commercial banking platform (now part of First Citizens). Partners exchange client credentials at /v1/security/oauth/token for a bearer to
@@ -167,11 +167,11 @@ overview: 'First Citizens BancShares publishes 10 APIs on the [APIs.io](https://
 
 
   First Citizens BancShares'' developer surface includes authentication, sandbox, documentation, support, and 17 more developer resources.'
-random_paper: 23
+random_paper: 0
 score:
   band: thin
   composite: 38.8
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -179,7 +179,7 @@ score:
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 31.6
-  previous_composite: 37.1
+  previous_composite: 38.8
   provenance:
     conformance: derived
   regulatory:
@@ -188,8 +188,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/screenshots/first-citizens-bancshares-2026-06-20T181238.png
 security:

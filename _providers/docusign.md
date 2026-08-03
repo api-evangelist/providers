@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: documented
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.6
-  scored_at: '2026-07-28'
+  score: 51.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 7
@@ -1213,7 +1213,7 @@ plans:
 - name: Docusign Plans Pricing
   plan_count: 4
   slug: docusign-plans-pricing
-random_paper: 40
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Docusign Rate Limits
@@ -1250,16 +1250,16 @@ scopes:
   summary_line: 13 scopes · authorizationCode/implicit
 score:
   band: exemplar
-  composite: 68.1
-  delta: -3.4
+  composite: 68.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 77.4
+    contract_quality: 79.5
     developer_ergonomics: 63.0
     discoverability: 59.3
     governance: 47.9
     operational_transparency: 78.9
-  previous_composite: 71.5
+  previous_composite: 68.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1267,8 +1267,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 128
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png
 security:

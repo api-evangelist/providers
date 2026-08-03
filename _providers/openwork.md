@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-07-28'
+  score: 49.3
+  scored_at: '2026-08-03'
 api_count: 37
 apis:
 - description: Administrative reporting routes.
@@ -287,7 +287,7 @@ overview: 'Openwork publishes 37 APIs on the [APIs.io](https://apis.io/) network
 
 
   Openwork''s developer surface includes authentication, documentation, API reference, signup flow, pricing, changelog, and 24 more developer resources.'
-random_paper: 65
+random_paper: 30
 scopes:
 - name: Openwork Scopes
   scope_count: 0
@@ -295,16 +295,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.9
-  delta: 0.1
+  composite: 51.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.1
+    contract_quality: 67.0
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 50.8
+  previous_composite: 51.8
   provenance:
     conformance: derived
     contracts:
@@ -314,8 +314,8 @@ score:
       total: 37
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

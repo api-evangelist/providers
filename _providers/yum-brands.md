@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Byte by Yum! is Yum! Brands' proprietary AI-driven restaurant technology platform delivering digital ordering, point-of-sale, kitchen operations, menu management, inventory, and labor management acros
@@ -164,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: Introducing Byte by Yum!™, an AI-Driven Restaurant ...
   url: https://investors.yum.com/news-events/financial-releases/news-details/2025/Introducing-Byte-by-Yum-an-AI-Driven-Restaurant-Technology-Platform-Powering-Customer-and-Team-Member-Experiences-Worldwide/default.aspx
-random_paper: 42
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Yum Brands Rate Limits
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: thin
   composite: 34.2
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.7
@@ -180,10 +180,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 26.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 34.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yum-brands/refs/heads/main/screenshots/yum-brands-2026-06-20T201756.png
 security:
 - kind: domain-security

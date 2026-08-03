@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-07-28'
+  score: 17.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: AsyncAPI 2.6 description of Talkdesk's publicly documented outbound webhook surface, covering the Events API (partner-app lifecycle), the Webhook Trigger API (Talkdesk Connections triggers for call/ag
@@ -90,7 +90,7 @@ overview: 'Talkdesk publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Talkdesk''s developer surface includes documentation, support, engineering blog, and 6 more developer resources.'
-random_paper: 31
+random_paper: 91
 rules:
 - name: Talkdesk API Rules
   rule_count: 8
@@ -103,7 +103,7 @@ rules:
 score:
   band: thin
   composite: 33.3
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 54.3
@@ -111,15 +111,15 @@ score:
     discoverability: 59.3
     governance: 47.9
     operational_transparency: 0.0
-  previous_composite: 32.6
+  previous_composite: 33.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkdesk/refs/heads/main/screenshots/talkdesk-2026-06-20T194911.png
 security:

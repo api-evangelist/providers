@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.6
-  scored_at: '2026-07-28'
+  score: 60.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -250,7 +250,7 @@ overview: 'Didit publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Didit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 34
+random_paper: 51
 scopes:
 - name: Didit Scopes
   scope_count: 5
@@ -258,16 +258,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.3
-  delta: 0.9
+  composite: 60.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 64.6
+    contract_quality: 70.7
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 58.4
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -278,8 +278,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/screenshots/didit-2026-07-25T211951.png
 security:

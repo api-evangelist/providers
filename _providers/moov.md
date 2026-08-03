@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -387,7 +387,7 @@ plans:
 - name: Moov Plans Pricing
   plan_count: 7
   slug: moov-plans-pricing
-random_paper: 39
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Moov Rate Limits
@@ -411,16 +411,16 @@ rules:
   slug: moov-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.8
-  delta: -6.0
+  composite: 51.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 87.3
+    contract_quality: 88.4
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 56.8
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -434,9 +434,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-06-20T185802.png
 security:
 - kind: authentication

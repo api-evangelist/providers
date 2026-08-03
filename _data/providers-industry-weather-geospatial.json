@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "OpenWeatherMap",
@@ -284,6 +284,44 @@
      "rank": 7
     },
     {
+     "name": "positionstack",
+     "slug": "positionstack",
+     "description": "Forward and Reverse Batch Geocoding REST API by positionstack (an apilayer product, owned by Idera, Inc.). Convert addresses to coordinates and coordinates to addresses across 2+ billion global places, with optional data modules for country, timezone, sun, and bounding-box enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/screenshots/positionstack-2026-06-20T191943.png",
+     "score": 67.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 78.3,
+      "governance": 68.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 71.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 8
+    },
+    {
      "name": "Google Maps Platform",
      "slug": "google-maps",
      "description": "Google Maps Platform offers APIs and SDKs for maps, routes, and places functionality.",
@@ -319,7 +357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 9
     }
    ],
    "open": true
@@ -329,8 +367,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 17,
-   "shown": 17,
+   "count": 16,
+   "shown": 16,
    "providers": [
     {
      "name": "OpenUV",
@@ -360,44 +398,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "positionstack",
-     "slug": "positionstack",
-     "description": "Forward and Reverse Batch Geocoding REST API by positionstack (an apilayer product, owned by Idera, Inc.). Convert addresses to coordinates and coordinates to addresses across 2+ billion global places, with optional data modules for country, timezone, sun, and bounding-box enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/screenshots/positionstack-2026-06-20T191943.png",
-     "score": 62.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 78.3,
-      "governance": 68.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 71.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -1006,8 +1006,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 93,
-   "shown": 93,
+   "count": 92,
+   "shown": 92,
    "providers": [
     {
      "name": "Carto",
@@ -1439,6 +1439,44 @@
      "rank": 36
     },
     {
+     "name": "Zenserp",
+     "slug": "zenserp",
+     "description": "Zenserp is a Google SERP API that enables developers to fetch live, structured search engine results in real time without interruption. The API supports web, image, video, news, shopping, maps, YouTube, Bing, Yandex, DuckDuckGo, reverse image, and trends search types across 200+ countries, returning clean JSON responses. It offers geolocation-based queries, batch endpoints, keyword search volume and CPC data, and a bulk index checker tool, with a 99.9% uptime SLA.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/screenshots/zenserp-2026-06-20T201820.png",
+     "score": 53.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 71.1,
+      "governance": 58.3,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 37
+    },
+    {
      "name": "Skymerse",
      "slug": "skymerse",
      "description": "Skymerse is a Y Combinator-backed aviation company building one AI system for airline flight operations — from planning and monitoring in the operations center to real-time support in the cockpit. Its first product, Notamify, interprets NOTAMs (Notices to Airmen) with specialized aeronautical models and ships the Notamify API V2: a REST API over global NOTAM data with AI-enhanced interpretation, active/nearby/raw/archive NOTAM endpoints, AI NOTAM prioritisation, synchronous and asynchronous flight briefings, and a Watcher API that pushes matching interpreted NOTAMs to signed webhooks. Notamify already serves airline customers and thousands of pilots and aviation professionals, with an official Python SDK and an MCP server for agents.",
@@ -1473,7 +1511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Sofar Ocean",
@@ -1510,7 +1548,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
+    },
+    {
+     "name": "Regrid",
+     "slug": "regrid",
+     "description": "Regrid is a national land parcel data platform providing REST APIs for querying parcel boundaries, ownership, zoning, assessed values, and deed records across all US counties and Canadian provinces. The platform offers a Parcel API for retrieving structured GeoJSON parcel records by location, address, APN, owner, or polygon area, alongside a Tile API delivering raster and vector map layers. Additional APIs cover matched secondary addresses, building footprints, standardized zoning, and daily ownership updates. Authentication uses API token parameters, billing is metered by parcel records returned, and self-serve monthly subscriptions are available in Standard and Premium schema tiers with enterprise custom packages also offered.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/screenshots/regrid-2026-06-20T192759.png",
+     "score": 53.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 67.4,
+      "governance": 68.8,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 32.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 40
     },
     {
      "name": "MapTiler",
@@ -1548,7 +1624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 41
     },
     {
      "name": "Ocient",
@@ -1585,7 +1661,7 @@
       "agent_card": "conformant",
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 42
     },
     {
      "name": "Google Places",
@@ -1623,7 +1699,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 43
     },
     {
      "name": "Fulcrum",
@@ -1661,7 +1737,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 44
+    },
+    {
+     "name": "Placer",
+     "slug": "placer",
+     "description": "Placer.ai is a location analytics and foot-traffic intelligence platform that measures visits, trade areas, demographics, and consumer behavior for physical points of interest across retail, CPG, commercial real estate, hospitality, and the public sector. Its public developer surface, the Placer API (PAPI, base https://papi.placer.ai), lets developers and data analysts extract Placer's location analytics programmatically to enrich, filter, or combine it with other data sources for custom dashboards, internal reporting, and competitive analysis. The v1 REST API covers entity/POI search, custom POI and tag management, and a suite of report endpoints spanning visit metrics and trends, trade area (true trade area, drive-time, demographics), ranking, loyalty, and retail sales. Authentication is a static API key sent in the x-api-key header.",
+     "score": 52.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 57.6,
+      "governance": 11.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 41.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 45
     },
     {
      "name": "Meteomatics",
@@ -1699,7 +1812,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 46
+    },
+    {
+     "name": "Serper",
+     "slug": "serper",
+     "description": "Serper is the world's fastest and most affordable Google Search API, delivering real-time SERP data in 1-2 seconds via a simple REST interface. It supports web search, images, news, maps, places, videos, shopping, scholar, patents, and autocomplete — all returned as structured JSON. Widely used in AI agents, LLM pipelines, and SEO tooling, Serper uses a credit-based model with 2,500 free queries and volume pricing down to $0.30 per 1,000 requests.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/screenshots/serper-2026-06-20T193723.png",
+     "score": 51.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 75.2,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 47
     },
     {
      "name": "Precisely APIs",
@@ -1737,7 +1888,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 48
     },
     {
      "name": "OpenRouteService",
@@ -1775,7 +1926,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 49
     },
     {
      "name": "ATTOM",
@@ -1819,7 +1970,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 50
     },
     {
      "name": "NASA FIRMS",
@@ -1864,7 +2015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 51
     },
     {
      "name": "OpenMercantil",
@@ -1909,7 +2060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 52
     },
     {
      "name": "INRIX",
@@ -1946,7 +2097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 53
     },
     {
      "name": "Trimble",
@@ -1984,7 +2135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 54
     },
     {
      "name": "Walk Score",
@@ -2022,7 +2173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 55
     },
     {
      "name": "Dark Sky",
@@ -2060,7 +2211,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 56
     },
     {
      "name": "Mireye",
@@ -2104,7 +2255,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 57
     },
     {
      "name": "Land Insight",
@@ -2142,7 +2293,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 58
     },
     {
      "name": "Hivemapper",
@@ -2180,7 +2331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 59
     },
     {
      "name": "Mapbox",
@@ -2218,7 +2369,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 60
     },
     {
      "name": "AgStack Foundation",
@@ -2256,7 +2407,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 61
     },
     {
      "name": "TimezoneDB",
@@ -2294,7 +2445,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 62
     },
     {
      "name": "RealEstateAPI",
@@ -2332,7 +2483,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 63
     },
     {
      "name": "Agromonitoring",
@@ -2370,45 +2521,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
-    },
-    {
-     "name": "Zenserp",
-     "slug": "zenserp",
-     "description": "Zenserp is a Google SERP API that enables developers to fetch live, structured search engine results in real time without interruption. The API supports web, image, video, news, shopping, maps, YouTube, Bing, Yandex, DuckDuckGo, reverse image, and trends search types across 200+ countries, returning clean JSON responses. It offers geolocation-based queries, batch endpoints, keyword search volume and CPC data, and a bulk index checker tool, with a 99.9% uptime SLA.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/screenshots/zenserp-2026-06-20T201820.png",
-     "score": 49.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 71.1,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 61
+     "rank": 64
     },
     {
      "name": "Weather Underground",
@@ -2446,7 +2559,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 65
     },
     {
      "name": "Landgate",
@@ -2491,45 +2604,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
-    },
-    {
-     "name": "Regrid",
-     "slug": "regrid",
-     "description": "Regrid is a national land parcel data platform providing REST APIs for querying parcel boundaries, ownership, zoning, assessed values, and deed records across all US counties and Canadian provinces. The platform offers a Parcel API for retrieving structured GeoJSON parcel records by location, address, APN, owner, or polygon area, alongside a Tile API delivering raster and vector map layers. Additional APIs cover matched secondary addresses, building footprints, standardized zoning, and daily ownership updates. Authentication uses API token parameters, billing is metered by parcel records returned, and self-serve monthly subscriptions are available in Standard and Premium schema tiers with enterprise custom packages also offered.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/screenshots/regrid-2026-06-20T192759.png",
-     "score": 48.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 67.4,
-      "governance": 68.8,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 32.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "Estated",
@@ -2567,7 +2642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 67
     },
     {
      "name": "Weather.gov",
@@ -2612,7 +2687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 68
     },
     {
      "name": "Aloft",
@@ -2650,44 +2725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
-    },
-    {
-     "name": "Placer",
-     "slug": "placer",
-     "description": "Placer.ai is a location analytics and foot-traffic intelligence platform that measures visits, trade areas, demographics, and consumer behavior for physical points of interest across retail, CPG, commercial real estate, hospitality, and the public sector. Its public developer surface, the Placer API (PAPI, base https://papi.placer.ai), lets developers and data analysts extract Placer's location analytics programmatically to enrich, filter, or combine it with other data sources for custom dashboards, internal reporting, and competitive analysis. The v1 REST API covers entity/POI search, custom POI and tag management, and a suite of report endpoints spanning visit metrics and trends, trade area (true trade area, drive-time, demographics), ranking, loyalty, and retail sales. Authentication is a static API key sent in the x-api-key header.",
-     "score": 48.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 57.6,
-      "governance": 11.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 41.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Air Quality Programmatic APIs",
@@ -2732,7 +2770,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Redfin",
@@ -2769,7 +2807,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "USDA",
@@ -2807,7 +2845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Open-Meteo",
@@ -2837,44 +2875,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 72
-    },
-    {
-     "name": "Serper",
-     "slug": "serper",
-     "description": "Serper is the world's fastest and most affordable Google Search API, delivering real-time SERP data in 1-2 seconds via a simple REST interface. It supports web search, images, news, maps, places, videos, shopping, scholar, patents, and autocomplete — all returned as structured JSON. Widely used in AI agents, LLM pipelines, and SEO tooling, Serper uses a credit-based model with 2,500 free queries and volume pricing down to $0.30 per 1,000 requests.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/screenshots/serper-2026-06-20T193723.png",
-     "score": 47.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 75.2,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -3316,6 +3316,51 @@
      "rank": 84
     },
     {
+     "name": "HOVER",
+     "slug": "hover",
+     "description": "HOVER turns smartphone photos of a property into an accurate, interactive 3D model with complete exterior and interior measurements for the construction, roofing, insurance, and home-services industries. The HOVER API lets partners programmatically create and manage jobs, send capture requests that invite a homeowner or field technician to photograph a structure, receive real-time status updates via webhooks, and retrieve 3D models and measurement deliverables in JSON, PDF, XLSX, SKP, ESX, FML, and XML formats. Additional endpoints cover inspections, estimates and material lists, instant-design images and leads, blueprint reconstruction, job sharing, notes, users, wallets and payments. Authentication is OAuth 2.0 (authorization code + refresh), and a hosted MCP server exposes the same surface to AI agents. HOVER is backed by GV and Menlo Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/screenshots/hover-2026-07-25T221536.png",
+     "score": 46.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 28.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 85
+    },
+    {
      "name": "Library of Congress",
      "slug": "loc",
      "description": "The Library of Congress is the largest library in the world and the research arm of the US Congress. It provides REST APIs for accessing digitized collections, Congress.gov legislative data, bibliographic records, historic newspapers via Chronicling America, maps, photographs, manuscripts, and historical government documents. The loc.gov JSON API requires no authentication, while the Congress.gov API requires a free API key.",
@@ -3358,7 +3403,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "NSW Land Registry Services",
@@ -3403,7 +3448,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "Agricultural Statistics Service",
@@ -3448,7 +3493,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 88
     },
     {
      "name": "IQAir AirVisual",
@@ -3486,7 +3531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 89
     },
     {
      "name": "Orange",
@@ -3531,7 +3576,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 90
     },
     {
      "name": "Arlula",
@@ -3569,7 +3614,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
+     "rank": 91
     },
     {
      "name": "Capella Space",
@@ -3607,7 +3652,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "ESRI ArcGIS",
@@ -3645,7 +3690,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Department of the Interior",
@@ -3683,7 +3728,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 94
     },
     {
      "name": "Tomorrow.io",
@@ -3721,7 +3766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 95
     },
     {
      "name": "DLR",
@@ -3766,7 +3811,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 96
     },
     {
      "name": "World Air Quality Index (WAQI)",
@@ -3811,7 +3856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 97
     },
     {
      "name": "US Census Bureau",
@@ -3856,7 +3901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "MapQuest",
@@ -3894,7 +3939,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 99
     },
     {
      "name": "Moody's RMS",
@@ -3938,7 +3983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "SK Telecom",
@@ -3982,7 +4027,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "Department of Interior",
@@ -4020,7 +4065,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "REST Countries",
@@ -4058,7 +4103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Geofabrik",
@@ -4096,7 +4141,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "The Climate Corporation",
@@ -4129,51 +4174,6 @@
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 104
-    },
-    {
-     "name": "HOVER",
-     "slug": "hover",
-     "description": "HOVER turns smartphone photos of a property into an accurate, interactive 3D model with complete exterior and interior measurements for the construction, roofing, insurance, and home-services industries. The HOVER API lets partners programmatically create and manage jobs, send capture requests that invite a homeowner or field technician to photograph a structure, receive real-time status updates via webhooks, and retrieve 3D models and measurement deliverables in JSON, PDF, XLSX, SKP, ESX, FML, and XML formats. Additional endpoints cover inspections, estimates and material lists, instant-design images and leads, blueprint reconstruction, job sharing, notes, users, wallets and payments. Authentication is OAuth 2.0 (authorization code + refresh), and a hosted MCP server exposes the same surface to AI agents. HOVER is backed by GV and Menlo Ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/screenshots/hover-2026-07-25T221536.png",
-     "score": 43.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 28.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -4585,50 +4585,6 @@
      "rank": 115
     },
     {
-     "name": "Rentberry",
-     "slug": "rentberry",
-     "description": "Rentberry, Inc. is an international long-term home rental marketplace founded in 2015 and headquartered in San Francisco, California. The platform runs the whole rental lifecycle in one closed loop for both tenants and landlords: property listing and syndication, search across residential rental cities worldwide, virtual tours and open-house scheduling, custom rent offers and negotiation, rental applications with proof-of-income attachments, US credit and background screening, e-signed rental contracts and contract templates, online rent collection and rental subscriptions via Stripe, in-platform messaging, maintenance and complaint handling, and a flexible-living concept aimed at digital nomads. Rentberry operates a versioned REST API at api.rentberry.com whose Swagger UI at /docs publishes an OpenAPI 3.0.0 description covering applications, auth and social OAuth login, listings, search, contracts, screening, payments, rentals, messaging, user verification and localization.",
-     "score": 43.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 47.9,
-      "governance": 20.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 54.3,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 39.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 40.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 116
-    },
-    {
      "name": "Picogrid",
      "slug": "picogrid",
      "description": "Picogrid is an El Segundo, California defense and public-safety technology company whose Legion platform is an API-first systems-integration layer that unifies fragmented sensors, unmanned systems, and mission assets across land, sea, air, and space into a single decision-ready picture. The Legion Platform API (v3, OpenAPI 3.1, OAuth 2.0 via Keycloak) lets operators and AI agents not only observe but command physical systems: registering entities, streaming and searching feed data, dispatching tasking commands over MQTT, managing tracks, video streams and WebRTC, fine-grained authorization, event subscriptions and notifications, and cross-Legion federation. Applications include base security, satellite operations, air defense, SIGINT interoperability, wildfire detection, and human-machine teaming. Backed by Bessemer Venture Partners and Initialized Capital.",
@@ -4663,7 +4619,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 116
     },
     {
      "name": "Airbus",
@@ -4701,7 +4657,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 117
     }
    ]
   },
@@ -4710,8 +4666,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 82,
-   "shown": 82,
+   "count": 83,
+   "shown": 83,
    "providers": [
     {
      "name": "Propeller Aero",
@@ -4748,7 +4704,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "Sinay",
@@ -4785,7 +4741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "CARTO",
@@ -4823,7 +4779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 120
     },
     {
      "name": "Planet",
@@ -4855,6 +4811,50 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 121
+    },
+    {
+     "name": "Rentberry",
+     "slug": "rentberry",
+     "description": "Rentberry, Inc. is an international long-term home rental marketplace founded in 2015 and headquartered in San Francisco, California. The platform runs the whole rental lifecycle in one closed loop for both tenants and landlords: property listing and syndication, search across residential rental cities worldwide, virtual tours and open-house scheduling, custom rent offers and negotiation, rental applications with proof-of-income attachments, US credit and background screening, e-signed rental contracts and contract templates, online rent collection and rental subscriptions via Stripe, in-platform messaging, maintenance and complaint handling, and a flexible-living concept aimed at digital nomads. Rentberry operates a versioned REST API at api.rentberry.com whose Swagger UI at /docs publishes an OpenAPI 3.0.0 description covering applications, auth and social OAuth login, listings, search, contracts, screening, payments, rentals, messaging, user verification and localization.",
+     "score": 41.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 47.9,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 49.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
@@ -5210,6 +5210,51 @@
      "rank": 131
     },
     {
+     "name": "Bitfinder",
+     "slug": "bitfinder",
+     "description": "Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC), and fine dust (PM2.5). The Awair Home & OAuth Developer API lets developers, partners, and hobbyists read a user's registered devices and their air-data time series (latest, raw per-second, 5-minute-average, and 15-minute-average) on behalf of Awair users, authorized with an OAuth 2.0 or Developer Console Bearer token. Bitfinder was a Techstars portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png",
+     "score": 40.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 15.5,
+      "governance": 11.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 132
+    },
+    {
      "name": "Reelables",
      "slug": "got-its",
      "description": "Reelables provides Track Anywhere smart labels and a RESTful platform API for global supply-chain and logistics visibility. The paper-thin Bluetooth and cellular smart labels are printed on off-the-shelf barcode printers, activated, attached to assets, and tracked in real time across a network of devices and gateways. The Reelables API lets developers manage Workspaces, Assets, Labels, Spaces, Gateways, Consignments, Facilities, Printers and Print Jobs, and read location, temperature and facility history for tracked assets. A separate Gateway API lets partner devices push label-data and snapshots into the platform. Reelables is a 500 Global portfolio company (surfaced in this network under the stub slug \"got-its\").",
@@ -5245,7 +5290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Aviation Weather Center",
@@ -5290,7 +5335,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "EPCOR",
@@ -5334,7 +5379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Geoapify",
@@ -5372,7 +5417,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Pelias",
@@ -5410,7 +5455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Placekey",
@@ -5447,7 +5492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "OpenTopography API",
@@ -5485,7 +5530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Urban Sky",
@@ -5522,7 +5567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "AISStream",
@@ -5560,7 +5605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Jawg Maps",
@@ -5598,7 +5643,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "UP42",
@@ -5635,7 +5680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "NOAA CO-OPS",
@@ -5680,7 +5725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Searoutes",
@@ -5717,7 +5762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "Western Power",
@@ -5761,7 +5806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "MyShipTracking",
@@ -5798,7 +5843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "Windy",
@@ -5835,7 +5880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Planet Labs",
@@ -5873,7 +5918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "Maxar",
@@ -5911,7 +5956,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "SkyWatch",
@@ -5948,7 +5993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Cintoo",
@@ -5986,7 +6031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "The National Aeronautics and Space Administration",
@@ -6027,51 +6072,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 152
-    },
-    {
-     "name": "Bitfinder",
-     "slug": "bitfinder",
-     "description": "Bitfinder, Inc., doing business as Awair, builds indoor air quality (IAQ) monitors and a cloud platform used across homes, offices, schools, and commercial spaces. Its devices (Awair Element, Awair Omni, and 2nd Edition) measure the Awair Score along with temperature, humidity, CO2, chemicals (VOC), and fine dust (PM2.5). The Awair Home & OAuth Developer API lets developers, partners, and hobbyists read a user's registered devices and their air-data time series (latest, raw per-second, 5-minute-average, and 15-minute-average) on behalf of Awair users, authorized with an OAuth 2.0 or Developer Console Bearer token. Bitfinder was a Techstars portfolio company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png",
-     "score": 37.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 15.5,
-      "governance": 11.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -8349,7 +8349,7 @@
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 30.6,
+     "agent_score": 26.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -8360,7 +8360,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": true,
+      "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -8452,6 +8452,50 @@
      "rank": 212
     },
     {
+     "name": "ENMAX",
+     "slug": "enmax",
+     "description": "ENMAX Corporation is the Calgary-based energy company owned outright by The City of Calgary, describing itself on its own about page as \"a regulated wires company, a competitive power generator and an energy retailer\" operating \"across Alberta and Maine.\" It spans three tiers of the value chain at once: ENMAX Power owns and operates the regulated electricity distribution and transmission system inside Calgary, ENMAX Energy generates power and sells electricity and natural gas into Alberta's deregulated retail market under the Easymax brand, and Versant Power — acquired from Emera in 2020 — is the transmission and distribution utility for northern and eastern Maine. Its API posture is the exact inverse of the Ontario utilities it is usually compared to, and the inversion is the finding. No consumer energy data mandate binds ENMAX anywhere it operates: Alberta has no Green Button regulation, Ontario's O. Reg. 633/21 does not reach across the provincial border, Canada has no national equivalent, and Maine imposes no Green Button obligation on Versant Power. Unmandated, ENMAX built nothing — its own support documentation states plainly that the Energy Insights usage view inside a customer's Easymax account \"is view-only within your online account and can't be exported at this time,\" which is a harder closure than most: not merely no API, but no CSV, no XML, and no Green Button either. There is no developer portal, no developer, api, docs or data subdomain, no OpenAPI, and no published third-party data path. What ENMAX does publish openly is grid data. Its Hosting Capacity, Load Capacity and Service Area maps, linked from enmax.com/system-resources, are ArcGIS Online web applications backed by ArcGIS REST feature services that answer anonymous machine-readable queries with no key, no signup and no terms — distribution-feeder DER hosting headroom and remaining load capacity for the Calgary service territory, the data a solar or storage developer actually needs. ENMAX never calls this an API and documents none of it, but it is real, it is open, and it is queryable. Wide open on grid data, completely shut on customer data.",
+     "score": 25.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 33.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 213
+    },
+    {
      "name": "FarmLogs",
      "slug": "farmlogs",
      "description": "FarmLogs was a farm management platform founded in 2011 (by Jesse Vollmar and Brad Koch, operating as AgriSight Inc.) offering field mapping, in-season satellite imagery, weather/rainfall tracking, yield estimation, and profitability tools for row-crop farmers. FarmLogs was acquired by Bushel in June 2021, and in March 2023 Bushel retired the FarmLogs brand in favor of \"Bushel Farm,\" the next generation of its farm management software. As of this review, farmlogs.com 301-redirects to bushelfarm.com, which itself redirects to bushelpowered.com - the standalone FarmLogs product and website no longer exist. Bushel does publish a public API, but it is for a separate product line (Bushel Fulfillment and Bushel Production, covering grain contracts and scale-ticket data for grain merchandising) rather than for the FarmLogs-lineage farm-management capabilities (fields, imagery, weather, yield). No self-serve, openly documented public API exists for the farm-management product as of the review date.",
@@ -8487,7 +8531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 213
+     "rank": 214
     },
     {
      "name": "Hammerhead",
@@ -8524,7 +8568,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 214
+     "rank": 215
     },
     {
      "name": "USDA SNAP Retailer Locator",
@@ -8568,7 +8612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 215
+     "rank": 216
     },
     {
      "name": "Climacell",
@@ -8606,7 +8650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 216
+     "rank": 217
     },
     {
      "name": "HEAVY.AI",
@@ -8644,7 +8688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 218
     },
     {
      "name": "Waze",
@@ -8681,7 +8725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 219
     },
     {
      "name": "Local Logic",
@@ -8719,7 +8763,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 220
     },
     {
      "name": "FloodMapp",
@@ -8757,7 +8801,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 221
     },
     {
      "name": "Carbyne",
@@ -8801,7 +8845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 222
     },
     {
      "name": "RapidSOS",
@@ -8838,7 +8882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 223
     },
     {
      "name": "API Layer",
@@ -8868,50 +8912,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 223
-    },
-    {
-     "name": "ENMAX",
-     "slug": "enmax",
-     "description": "ENMAX Corporation is the Calgary-based energy company owned outright by The City of Calgary, describing itself on its own about page as \"a regulated wires company, a competitive power generator and an energy retailer\" operating \"across Alberta and Maine.\" It spans three tiers of the value chain at once: ENMAX Power owns and operates the regulated electricity distribution and transmission system inside Calgary, ENMAX Energy generates power and sells electricity and natural gas into Alberta's deregulated retail market under the Easymax brand, and Versant Power — acquired from Emera in 2020 — is the transmission and distribution utility for northern and eastern Maine. Its API posture is the exact inverse of the Ontario utilities it is usually compared to, and the inversion is the finding. No consumer energy data mandate binds ENMAX anywhere it operates: Alberta has no Green Button regulation, Ontario's O. Reg. 633/21 does not reach across the provincial border, Canada has no national equivalent, and Maine imposes no Green Button obligation on Versant Power. Unmandated, ENMAX built nothing — its own support documentation states plainly that the Energy Insights usage view inside a customer's Easymax account \"is view-only within your online account and can't be exported at this time,\" which is a harder closure than most: not merely no API, but no CSV, no XML, and no Green Button either. There is no developer portal, no developer, api, docs or data subdomain, no OpenAPI, and no published third-party data path. What ENMAX does publish openly is grid data. Its Hosting Capacity, Load Capacity and Service Area maps, linked from enmax.com/system-resources, are ArcGIS Online web applications backed by ArcGIS REST feature services that answer anonymous machine-readable queries with no key, no signup and no terms — distribution-feeder DER hosting headroom and remaining load capacity for the Calgary service territory, the data a solar or storage developer actually needs. ENMAX never calls this an API and documents none of it, but it is real, it is open, and it is queryable. Wide open on grid data, completely shut on customer data.",
-     "score": 23.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 33.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -9050,6 +9050,51 @@
      "rank": 227
     },
     {
+     "name": "Overpass API",
+     "slug": "overpass-api",
+     "description": "Overpass API is a read-only OpenStreetMap data API that enables querying geographic features including nodes, ways, relations, and tags using the Overpass Query Language (QL). It supports complex spatial queries with filters for bounding boxes, tags, proximity, area containment, and element relationships, making it the primary tool for extracting custom subsets of OSM data programmatically.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/overpass-api/refs/heads/main/screenshots/overpass-api-2026-06-20T191236.png",
+     "score": 22.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 8.1,
+      "governance": 0.0,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 20.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 228
+    },
+    {
      "name": "dClimate",
      "slug": "dclimate",
      "description": "dClimate is a chain-agnostic, decentralized climate information ecosystem that makes it easy for businesses, governments, and builders to find, access, and utilize essential data about the planet. Rather than a conventional REST API, dClimate exposes its weather and climate data SDK-first over content-addressed (IPFS/IPLD) storage: official Python and JavaScript clients resolve datasets from a STAC catalog and stream sharded Zarr stores, requiring no API key or OAuth for public data. Offerings span weather/climate reanalysis and forecast sources such as ECMWF ERA5 and AIFS, a Data Marketplace featuring datasets from providers like NASA and ESA, plus the Aegis and CYCLOPS climate-intelligence platforms. Backed by Multicoin Capital.",
@@ -9085,7 +9130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 229
     },
     {
      "name": "Life360",
@@ -9123,7 +9168,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 230
     },
     {
      "name": "AerisWeather",
@@ -9161,7 +9206,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 231
     },
     {
      "name": "Cropio",
@@ -9199,7 +9244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 232
     },
     {
      "name": "CeresAI",
@@ -9244,7 +9289,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 233
     },
     {
      "name": "EarthOptics",
@@ -9281,7 +9326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 234
     },
     {
      "name": "Irth Solutions",
@@ -9326,7 +9371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 235
     },
     {
      "name": "Satellogic",
@@ -9371,7 +9416,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 236
     },
     {
      "name": "UrbanFootprint",
@@ -9408,7 +9453,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 237
     },
     {
      "name": "Bureau of Indian Affairs",
@@ -9446,7 +9491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 238
     },
     {
      "name": "Baidu",
@@ -9484,7 +9529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 239
     },
     {
      "name": "University of Minnesota",
@@ -9529,7 +9574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 240
     },
     {
      "name": "Attentive.ai",
@@ -9567,7 +9612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 241
     },
     {
      "name": "BreezoMeter",
@@ -9605,7 +9650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 242
     },
     {
      "name": "OurAirports",
@@ -9650,7 +9695,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "Wikimapia",
@@ -9688,7 +9733,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "Texas A&M University",
@@ -9726,7 +9771,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 245
     },
     {
      "name": "Molekule",
@@ -9763,7 +9808,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "WindBorne Systems",
@@ -9800,7 +9845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "Parkopedia",
@@ -9838,7 +9883,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "Urban SDK",
@@ -9882,7 +9927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "Beeline",
@@ -9915,51 +9960,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 249
-    },
-    {
-     "name": "Overpass API",
-     "slug": "overpass-api",
-     "description": "Overpass API is a read-only OpenStreetMap data API that enables querying geographic features including nodes, ways, relations, and tags using the Overpass Query Language (QL). It supports complex spatial queries with filters for bounding boxes, tags, proximity, area containment, and element relationships, making it the primary tool for extracting custom subsets of OSM data programmatically.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/overpass-api/refs/heads/main/screenshots/overpass-api-2026-06-20T191236.png",
-     "score": 18.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 8.1,
-      "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 20.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

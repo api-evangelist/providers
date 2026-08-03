@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -930,7 +930,7 @@ plans:
 - name: Flickr Plans Pricing
   plan_count: 2
   slug: flickr-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Flickr Rate Limits
@@ -958,17 +958,17 @@ scopes:
   slug: flickr-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.8
-  delta: -5.6
+  band: developing
+  composite: 50.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.2
+    contract_quality: 23.8
     developer_ergonomics: 41.3
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 64.4
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -976,9 +976,9 @@ score:
       derived: 32
       marker_coverage: 100.0
       total: 32
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flickr/refs/heads/main/screenshots/flickr-2026-06-20T181308.png
 security:
 - kind: authentication

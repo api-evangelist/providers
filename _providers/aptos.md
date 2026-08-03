@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -884,7 +884,7 @@ plans:
 - name: Aptos Plans Pricing
   plan_count: 3
   slug: aptos-plans-pricing
-random_paper: 59
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Aptos Rate Limits
@@ -900,16 +900,16 @@ rules:
   slug: aptos-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 59.4
-  delta: -3.7
+  composite: 60.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 58.9
+    contract_quality: 63.9
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 63.1
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     contracts:
@@ -917,8 +917,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptos/refs/heads/main/screenshots/aptos-2026-06-20T172345.png
 security:

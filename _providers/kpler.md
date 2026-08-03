@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -123,23 +123,23 @@ plans:
 - name: Kpler Plans Pricing
   plan_count: 3
   slug: kpler-plans-pricing
-random_paper: 50
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: Kpler Rate Limits
   slug: kpler-rate-limits
 score:
   band: thin
-  composite: 36.2
-  delta: -5.6
+  composite: 36.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 41.8
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -153,9 +153,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/screenshots/kpler-2026-07-25T224256.png
 security:
 - kind: authentication

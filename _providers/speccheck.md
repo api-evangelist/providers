@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -178,19 +178,19 @@ overview: 'SpecCheck publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   SpecCheck''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 20 more developer resources.'
-random_paper: 35
+random_paper: 82
 score:
   band: thin
-  composite: 39.5
-  delta: -3.5
+  composite: 40.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 64.8
+    contract_quality: 67.8
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 43.0
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,8 +207,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

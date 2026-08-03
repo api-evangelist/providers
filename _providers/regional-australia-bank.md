@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -162,7 +162,7 @@ overview: 'Regional Australia Bank publishes 7 APIs on the [APIs.io](https://api
 
 
   Regional Australia Bank''s developer surface includes documentation, support, API reference, getting-started guide, developer portal, authentication, engineering blog, and 16 more developer resources.'
-random_paper: 21
+random_paper: 37
 scopes:
 - name: Regional Australia Bank Scopes
   scope_count: 5
@@ -170,16 +170,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.6
-  delta: -3.9
+  composite: 46.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 49.5
+  previous_composite: 46.5
   provenance:
     conformance: derived
     contracts:
@@ -195,8 +195,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/screenshots/regional-australia-bank-2026-07-21T114749.png
 security:

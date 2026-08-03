@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 3
@@ -141,19 +141,19 @@ overview: 'Hacware publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Hacware''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 75
+random_paper: 66
 score:
   band: developing
-  composite: 42.0
-  delta: -1.1
+  composite: 43.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 55.3
+    contract_quality: 59.4
     developer_ergonomics: 42.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 43.1
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -164,8 +164,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/screenshots/hacware-2026-07-25T220524.png
 security:

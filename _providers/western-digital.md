@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ press:
 - date: '2026-05-25'
   title: Western Digital forecasts quarterly revenue above ...
   url: https://www.reuters.com/business/western-digital-forecasts-quarterly-revenue-above-estimates-ai-storage-demand-2026-04-30/
-random_paper: 79
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Western Digital Rate Limits
@@ -199,16 +199,16 @@ rules:
   slug: western-digital-rules
 score:
   band: developing
-  composite: 54.0
-  delta: -3.6
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.3
+    contract_quality: 70.1
     developer_ergonomics: 37.0
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 57.6
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +216,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-digital/refs/heads/main/screenshots/western-digital-2026-06-20T201446.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ overview: 'Kroo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Acc
 
 
   Kroo''s developer surface includes authentication, documentation, engineering blog, support, and 22 more developer resources.'
-random_paper: 33
+random_paper: 63
 scopes:
 - name: Kroo Scopes
   scope_count: 3
@@ -178,16 +178,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 43.1
-  delta: -5.2
+  composite: 45.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.6
+    contract_quality: 59.7
     developer_ergonomics: 38.6
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 48.3
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,9 +204,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroo/refs/heads/main/screenshots/kroo-2026-07-25T224303.png
 security:
 - kind: authentication

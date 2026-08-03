@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -599,9 +599,9 @@ plans:
 - name: Convoy Plans Pricing
   plan_count: 3
   slug: convoy-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Convoy Rate Limits
   slug: convoy-rate-limits
 rules:
@@ -622,17 +622,17 @@ rules:
     warn: 5
   slug: convoy-rules
 score:
-  band: strong
-  composite: 63.4
-  delta: -10.2
+  band: exemplar
+  composite: 66.3
+  delta: 2.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 77.2
+    contract_quality: 80.0
     developer_ergonomics: 78.3
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 47.4
-  previous_composite: 73.6
+    operational_transparency: 68.4
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     contracts:
@@ -646,9 +646,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/screenshots/convoy-2026-06-20T175006.png
 security:
 - kind: authentication

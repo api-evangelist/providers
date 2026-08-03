@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: The API keys API from Amika — 2 operation(s) for api keys.
@@ -193,19 +193,19 @@ overview: 'Amika publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Amika''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, pricing, signup flow, and 20 more developer resources.'
-random_paper: 23
+random_paper: 40
 score:
   band: developing
-  composite: 44.3
-  delta: -2.1
+  composite: 45.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 39.8
+    contract_quality: 45.0
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 10.5
-  previous_composite: 46.4
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -215,8 +215,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/screenshots/amika-2026-07-25T200103.png
 security:

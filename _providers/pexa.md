@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-07-28'
+  score: 56.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -31,18 +31,18 @@ apis:
 - description: The PEXA Exchange API covers key facets of PEXA Exchange e-conveyancing functionality — creating and updating workspaces, invitations, participants, land title references, documents, conversations, fi
   name: PEXA Exchange API
   slug: pexa-exchange-api
-- description: The PEXA Projects API (v4) supports multi-lot development settlements — creating and managing projects, project lots, project statuses and related participants for property developers settling many lo
-  name: PEXA Projects API
-  slug: pexa-projects-api
-- description: The PEXA Push Notifications Service delivers event notifications to subscribers via webhook and manages registration for specific events, including creating, updating and deleting notification registr
-  name: PEXA Notification Service API
-  slug: pexa-notification-service-api
 - description: An OpenAPI 3.1.0 experience API supporting consolidated standalone mortgage discharge, used by financial institutions discharging a mortgage outside of a full transfer workspace. Declares production a
   name: PEXA Standalone Discharge Experience API
   slug: pexa-standalone-discharge-experience-api
 - description: The PEXA Plus Marketplace B2B API exposes marketplace services to business partners — health check, title search ordering and billing — under the PEXA Plus product. Published as an OpenAPI 3.0.3 contr
   name: PEXA Plus Marketplace B2B API
   slug: pexa-plus-marketplace-b2b-api
+- description: PEXA Notification Service [$] from PEXA — 6 path(s) described in OpenAPI.
+  name: PEXA Notification Service [$]
+  slug: pexa-notification-service-openapi
+- description: PEXA Projects API from PEXA — 10 path(s) described in OpenAPI.
+  name: PEXA Projects API
+  slug: pexa-projects-api-v4-openapi
 artifact_total: 17
 asyncapis:
 - description: ''
@@ -286,14 +286,14 @@ modified: '2026-07-26'
 name: PEXA
 nav: Providers
 network: true
-overview: 'PEXA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Exchange API, Projects API, Notification Service API, and 2 more. Tagged areas include Real Estate, Australia, Conveyancing, Property Settlement, and Land Registry.
+overview: 'PEXA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Exchange API, Standalone Discharge Experience API, Plus Marketplace B2B API, and 2 more. Tagged areas include Real Estate, Australia, Conveyancing, Property Settlement, and Land Registry.
 
 
   The PEXA catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   PEXA''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 45 more developer resources.'
-random_paper: 20
+random_paper: 50
 scopes:
 - name: Pexa Scopes
   scope_count: 11
@@ -301,16 +301,16 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.3
-  delta: 0.2
+  composite: 61.0
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 69.7
+    contract_quality: 72.8
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 60.1
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -321,8 +321,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/screenshots/pexa-2026-07-27T125357.png
 security:

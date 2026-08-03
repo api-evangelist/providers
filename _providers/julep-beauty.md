@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Julep's agent-commerce surface. The storefront advertises a Universal Commerce Protocol merchant profile and a live JSON-RPC Model Context Protocol endpoint covering catalog search and lookup, cart, d
@@ -160,7 +160,7 @@ overview: 'Julep Beauty publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Julep Beauty''s developer surface includes authentication, documentation, support, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 9
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Julep Beauty Rate Limits
@@ -171,17 +171,17 @@ scopes:
   slug: julep-beauty-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 41.3
-  delta: 1.6
+  band: developing
+  composite: 42.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 55.1
+    contract_quality: 58.9
     developer_ergonomics: 41.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 39.7
+  previous_composite: 42.3
   provenance:
     conformance: first-party
     contracts:
@@ -191,8 +191,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

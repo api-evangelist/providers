@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 4
@@ -343,23 +343,23 @@ press:
 - date: '2026-05-25'
   title: Press Releases | Equinix
   url: https://newsroom.equinix.com/press-releases-canada-en
-random_paper: 33
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Equinix Rate Limits
   slug: equinix-rate-limits
 score:
   band: thin
-  composite: 34.2
-  delta: -2.4
+  composite: 35.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.3
+    contract_quality: 59.2
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 36.6
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -367,8 +367,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 74
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png
 security:

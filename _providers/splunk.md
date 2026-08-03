@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-07-28'
+  score: 55.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -721,7 +721,7 @@ plans:
 - name: Splunk Plans Pricing
   plan_count: 3
   slug: splunk-plans-pricing
-random_paper: 27
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Splunk Rate Limits
@@ -745,16 +745,16 @@ rules:
   slug: splunk-spectral-rules
 score:
   band: exemplar
-  composite: 71.1
-  delta: -4.6
+  composite: 71.5
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 76.2
+    contract_quality: 78.1
     developer_ergonomics: 73.9
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 75.7
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     contracts:
@@ -762,8 +762,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png
 security:

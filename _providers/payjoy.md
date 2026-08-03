@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-07-28'
+  score: 41.7
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: 'REST API for online checkout and credit-application flows: retrieve supported devices, begin a sale, and receive completion webhooks. Bearer-token authenticated plus a symmetric E-commerce key for enc'
@@ -175,19 +175,19 @@ overview: 'PayJoy publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   PayJoy''s developer surface includes documentation, getting-started guide, support, signup flow, engineering blog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 12
+random_paper: 3
 score:
   band: developing
-  composite: 45.5
-  delta: -4.3
+  composite: 46.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 69.3
+    contract_quality: 71.9
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 49.8
+  previous_composite: 46.0
   provenance:
     conformance: derived
     contracts:
@@ -203,8 +203,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

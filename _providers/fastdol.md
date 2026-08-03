@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -464,7 +464,7 @@ plans:
 - name: Fastdol Plans Pricing
   plan_count: 2
   slug: fastdol-plans-pricing
-random_paper: 11
+random_paper: 84
 rate_limits:
 - limit_count: 10
   name: Fastdol Rate Limits
@@ -488,16 +488,16 @@ rules:
   slug: fastdol-rules
 score:
   band: strong
-  composite: 60.8
-  delta: -3.6
+  composite: 61.5
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 70.4
+    contract_quality: 73.3
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 64.4
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -505,8 +505,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/screenshots/fastdol-2026-06-20T181047.png
 security:

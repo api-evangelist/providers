@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -448,7 +448,7 @@ plans:
 - name: Reducto Plans Pricing
   plan_count: 3
   slug: reducto-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Reducto Rate Limits
@@ -464,16 +464,16 @@ rules:
   slug: reducto-ai-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 66.4
-  delta: -2.4
+  composite: 67.1
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 71.3
+    contract_quality: 74.1
     developer_ergonomics: 63.0
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 68.8
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     contracts:
@@ -481,8 +481,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/screenshots/reducto-ai-2026-06-20T192741.png
 security:

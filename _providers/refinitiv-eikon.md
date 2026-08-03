@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -537,7 +537,7 @@ plans:
 - name: Refinitiv Eikon Plans Pricing
   plan_count: 1
   slug: refinitiv-eikon-plans-pricing
-random_paper: 79
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Refinitiv Eikon Rate Limits
@@ -569,16 +569,16 @@ rules:
   slug: refinitiv-eikon-rules
 score:
   band: strong
-  composite: 62.5
-  delta: -3.1
+  composite: 62.9
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 76.4
+    contract_quality: 78.2
     developer_ergonomics: 56.5
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 65.6
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     contracts:
@@ -592,8 +592,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/screenshots/refinitiv-eikon-2026-06-20T192745.png
 security:

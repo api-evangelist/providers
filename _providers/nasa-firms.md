@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Nasa Firms Plans Pricing
   plan_count: 2
   slug: nasa-firms-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Nasa Firms Rate Limits
@@ -177,16 +177,16 @@ rules:
   slug: nasa-firms-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.8
-  delta: -5.0
+  composite: 51.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.1
+    contract_quality: 71.7
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 55.8
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -200,9 +200,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/screenshots/nasa-firms-2026-06-20T185947.png
 security:
 - kind: domain-security

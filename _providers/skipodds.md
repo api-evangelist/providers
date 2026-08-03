@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: API-key-authenticated REST API returning de-vigged consensus sports probabilities, fixtures, outrights, line movement, and webhook alerts. Public OpenAPI 3.0.3 contract.
@@ -33,11 +33,11 @@ name: SkipOdds
 nav: Providers
 network: true
 overview: 'SkipOdds publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include sports, odds, probabilities, betting-data, and de-vig.'
-random_paper: 45
+random_paper: 10
 score:
   band: emerging
   composite: 14.0
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 32.3
@@ -45,9 +45,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 14.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 slug: skipodds
 tags:

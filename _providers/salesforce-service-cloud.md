@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -299,7 +299,7 @@ plans:
 - name: Salesforce Service Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-service-cloud-plans-pricing
-random_paper: 63
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Salesforce Service Cloud Rate Limits
@@ -336,16 +336,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.4
-  delta: -2.1
+  composite: 59.8
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 72.8
+    contract_quality: 74.6
     developer_ergonomics: 47.8
     discoverability: 72.2
     governance: 52.1
     operational_transparency: 26.3
-  previous_composite: 61.5
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     contracts:
@@ -353,8 +353,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/screenshots/salesforce-service-cloud-2026-06-20T193350.png
 security:

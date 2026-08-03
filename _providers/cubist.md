@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 13
@@ -262,7 +262,7 @@ overview: 'Cubist publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cubist''s developer surface includes documentation, engineering blog, support, authentication, sandbox, CLI, and 23 more developer resources.'
-random_paper: 76
+random_paper: 80
 scopes:
 - name: Cubist Scopes
   scope_count: 135
@@ -270,16 +270,16 @@ scopes:
   summary_line: 135 scopes
 score:
   band: developing
-  composite: 44.3
+  composite: 46.0
   delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 52.8
+    contract_quality: 59.9
     developer_ergonomics: 49.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 44.3
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,8 +290,8 @@ score:
       total: 30
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubist/refs/heads/main/screenshots/cubist-2026-07-25T210859.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Unpaywall Plans Pricing
   plan_count: 3
   slug: unpaywall-plans-pricing
-random_paper: 5
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Unpaywall Rate Limits
@@ -161,16 +161,16 @@ rules:
   slug: unpaywall-rules
 score:
   band: developing
-  composite: 48.4
-  delta: -4.3
+  composite: 49.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 72.0
+    contract_quality: 74.4
     developer_ergonomics: 13.0
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 52.7
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/screenshots/unpaywall-2026-06-20T200345.png
 security:

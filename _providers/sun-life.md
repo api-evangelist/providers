@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: FHIR R4 (4.0.1) read-only Patient Access API from DentaQuest, the Sun Life U.S. dental company, published under the CMS Interoperability and Patient Access Final Rule (CMS-9115-F). Third-party applica
@@ -201,7 +201,7 @@ overview: 'Sun Life publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Sun Life''s developer surface includes product news, documentation, API reference, getting-started guide, signup flow, support, authentication, and 31 more developer resources.'
-random_paper: 65
+random_paper: 43
 scopes:
 - name: Sun Life Scopes
   scope_count: 5
@@ -209,20 +209,20 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 43.8
-  delta: -4.0
+  composite: 47.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 32.3
+    contract_quality: 49.9
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
@@ -234,8 +234,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

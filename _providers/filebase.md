@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ plans:
 - name: Filebase Plans Pricing
   plan_count: 3
   slug: filebase-plans-pricing
-random_paper: 7
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Filebase Rate Limits
@@ -209,16 +209,16 @@ rules:
   slug: filebase-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.8
-  delta: -4.2
+  composite: 49.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.2
+    contract_quality: 71.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 53.0
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +226,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/screenshots/filebase-2026-06-20T181207.png
 security:

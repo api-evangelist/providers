@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -1119,7 +1119,7 @@ plans:
 - name: Shopify Plans Pricing
   plan_count: 4
   slug: shopify-plans-pricing
-random_paper: 32
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Shopify Rate Limits
@@ -1151,16 +1151,16 @@ rules:
   slug: shopify-spectral-rules
 score:
   band: strong
-  composite: 63.8
-  delta: -4.9
+  composite: 64.8
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 67.1
+    contract_quality: 71.7
     developer_ergonomics: 71.7
     discoverability: 40.7
     governance: 58.3
     operational_transparency: 86.8
-  previous_composite: 68.7
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1174,8 +1174,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png
 security:

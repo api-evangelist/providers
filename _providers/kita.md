@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 65.5
-  scored_at: '2026-07-28'
+  score: 61.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -314,23 +314,23 @@ plans:
 - name: Kita Plans
   plan_count: 3
   slug: kita-plans
-random_paper: 15
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Kita Rate Limits
   slug: kita-rate-limits
 score:
   band: strong
-  composite: 64.0
-  delta: -3.1
+  composite: 64.5
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 70.3
+    contract_quality: 72.8
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 67.1
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,8 +347,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/screenshots/kita-2026-07-25T223855.png
 security:

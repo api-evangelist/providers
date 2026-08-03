@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: true
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 7
@@ -269,7 +269,7 @@ plans:
 - name: Ku Leuven Plans Pricing
   plan_count: 2
   slug: ku-leuven-plans-pricing
-random_paper: 22
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Ku Leuven Rate Limits
@@ -293,16 +293,16 @@ rules:
   slug: ku-leuven-rules
 score:
   band: thin
-  composite: 35.2
-  delta: -3.8
+  composite: 36.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 45.8
+    contract_quality: 50.4
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 39.0
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -316,8 +316,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/screenshots/ku-leuven-2026-06-20T184201.png
 security:

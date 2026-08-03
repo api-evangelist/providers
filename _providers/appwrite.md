@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-07-28'
+  score: 53.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ plans:
 - name: Appwrite Plans Pricing
   plan_count: 3
   slug: appwrite-plans-pricing
-random_paper: 56
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Appwrite Rate Limits
@@ -218,16 +218,16 @@ rules:
   slug: appwrite-spectral-rules
 score:
   band: strong
-  composite: 59.8
-  delta: -2.6
+  composite: 60.1
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 84.7
+    contract_quality: 85.8
     developer_ergonomics: 39.1
     discoverability: 55.6
     governance: 47.9
     operational_transparency: 52.6
-  previous_composite: 62.4
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -235,8 +235,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/screenshots/appwrite-2026-06-20T172338.png
 security:

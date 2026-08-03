@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ plans:
 - name: Climatiq Plans Pricing
   plan_count: 3
   slug: climatiq-plans-pricing
-random_paper: 32
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Climatiq Rate Limits
@@ -263,16 +263,16 @@ rules:
   slug: climatiq-rules
 score:
   band: strong
-  composite: 58.1
-  delta: -8.2
+  composite: 58.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 65.3
+    contract_quality: 68.2
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 66.3
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
@@ -286,9 +286,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 29.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/screenshots/climatiq-2026-06-20T174523.png
 security:
 - kind: authentication

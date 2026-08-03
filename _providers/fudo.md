@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 19
 apis:
 - description: The Customers API from Fudo — 2 operation(s) for customers.
@@ -190,19 +190,19 @@ overview: 'Fudo publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Fudo''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 20
+random_paper: 50
 score:
-  band: thin
-  composite: 40.5
-  delta: -2.4
+  band: developing
+  composite: 42.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 49.9
+    contract_quality: 57.2
     developer_ergonomics: 43.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 42.9
+  previous_composite: 42.1
   provenance:
     conformance: derived
     contracts:
@@ -217,8 +217,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fudo/refs/heads/main/screenshots/fudo-2026-07-25T215250.png
 security:

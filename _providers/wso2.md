@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 6
@@ -3419,7 +3419,7 @@ plans:
 - name: Wso2 Plans Pricing
   plan_count: 14
   slug: wso2-plans-pricing
-random_paper: 67
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Wso2 Rate Limits
@@ -3440,16 +3440,16 @@ scopes:
   summary_line: 51 scopes · password
 score:
   band: strong
-  composite: 62.4
-  delta: -4.0
+  composite: 62.6
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 57.4
+    contract_quality: 58.1
     developer_ergonomics: 41.3
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 66.4
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     contracts:
@@ -3457,8 +3457,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 91
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png
 security:

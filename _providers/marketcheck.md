@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ plans:
 - name: Marketcheck Plans Pricing
   plan_count: 4
   slug: marketcheck-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Marketcheck Rate Limits
@@ -191,16 +191,16 @@ rules:
   slug: marketcheck-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.3
-  delta: -2.7
+  composite: 41.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.6
+    contract_quality: 64.0
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 43.0
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -214,8 +214,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketcheck/refs/heads/main/screenshots/marketcheck-2026-06-20T184954.png
 security:

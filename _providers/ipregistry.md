@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: A REST API that resolves IPv4/IPv6 addresses and Autonomous System Numbers to rich intelligence including geolocation, ISP/carrier details, company data, currency and time zone, and threat classificat
@@ -128,7 +128,7 @@ plans:
 - name: Ipregistry Plans Pricing
   plan_count: 6
   slug: ipregistry-plans-pricing
-random_paper: 40
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Ipregistry Rate Limits
@@ -136,7 +136,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.9
-  delta: -6.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 45.2
@@ -144,16 +144,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 43.5
+  previous_composite: 36.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipregistry/refs/heads/main/screenshots/ipregistry-2026-06-20T183556.png
 security:
 - kind: domain-security

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Member-facing data export of glucose/CGM, activity, zones, and nutrition logs as CSV downloads from the Levels member portal. This is a UI download only; no programmatic/public API endpoint is documen
@@ -98,7 +98,7 @@ plans:
 - name: Levels Health Plans Pricing
   plan_count: 4
   slug: levels-health-plans-pricing
-random_paper: 14
+random_paper: 91
 rate_limits:
 - limit_count: 2
   name: Levels Health Rate Limits
@@ -106,7 +106,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.2
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 32.3
@@ -114,15 +114,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.4
+  previous_composite: 25.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levels-health/refs/heads/main/screenshots/levels-health-2026-06-20T184436.png
 security:

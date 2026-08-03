@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-07-28'
+  score: 43.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -28,9 +28,6 @@ agentic_access:
   summary_line: 53 operations · 15 acting
 api_count: 12
 apis:
-- description: Real-time National Airspace System delay and airport status service operated by the Federal Aviation Administration, a DOT operating administration. Two GET operations return current ground delays, gr
-  name: FAA Airport Status Web Service (ASWS)
-  slug: faa-airport-status-web-service
 - description: FAA aeronautical chart and data publication download API. Thirty-four GET operations expose edition metadata and ZIP product downloads for the digital Terminal Procedures Publication (dTPP), IFR enrou
   name: FAA Aeronautic Product Release API (APRA)
   slug: faa-aeronautic-product-release-api
@@ -64,6 +61,9 @@ apis:
 - description: The reference connected-vehicle data platform authored by the USDOT Intelligent Transportation Systems Joint Program Office. Eight operations over SAE J2735 messaging — Traveler Information Message qu
   name: USDOT ITS JPO Operational Data Environment (ODE) REST API
   slug: its-jpo-ode-rest-api
+- description: U.S. Department of Transportation Airport Status Web Service from U.S. Department of Transportation — 2 path(s) described in OpenAPI.
+  name: U.S. Department of Transportation Airport Status Web Service
+  slug: us-dot-faa-airport-status-web-service-openapi
 artifact_total: 26
 asyncapis:
 - description: ''
@@ -288,24 +288,26 @@ modified: '2026-07-28'
 name: U.S. Department of Transportation
 nav: Providers
 network: true
-overview: 'U.S. Department of Transportation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including FAA Airport Status Web Service (ASWS), FAA Aeronautic Product Release API (APRA), FAA Air Carrier Pilot Records Database (PRD) API, and 2 more. Tagged areas include Travel, United States, Aviation, Airlines, and Airports.
+overview: 'U.S. Department of Transportation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including FAA Aeronautic Product Release API (APRA), FAA Air Carrier Pilot Records Database (PRD) API, FAA Safety Assurance System (SAS) API, and 2 more. Tagged areas include Travel, United States, Aviation, Airlines, and Airports.
 
 
   The U.S. Department of Transportation catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
   U.S. Department of Transportation''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 38 more developer resources.'
-random_paper: 30
+random_paper: 34
 score:
   band: developing
-  composite: 48.4
+  composite: 49.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 49.8
+    contract_quality: 54.1
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,8 +324,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Us Dot Authentication

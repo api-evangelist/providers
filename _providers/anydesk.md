@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'The my.anydesk I REST API automates retrieval and management of AnyDesk account data from the my.anydesk management console: license and account details, registered clients and their aliases/online st'
@@ -132,11 +132,11 @@ overview: 'AnyDesk publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   AnyDesk''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 13 more developer resources.'
-random_paper: 13
+random_paper: 86
 score:
   band: thin
   composite: 31.0
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -144,12 +144,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 31.4
+  previous_composite: 31.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anydesk/refs/heads/main/screenshots/anydesk-2026-07-25T200502.png
 security:

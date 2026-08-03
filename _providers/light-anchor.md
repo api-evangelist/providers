@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: flavored
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -34,11 +34,11 @@ name: Light Anchor
 nav: Providers
 network: true
 overview: Light Anchor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 68
+random_paper: 76
 score:
   band: minimal
   composite: 4.6
-  delta: -6.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -46,10 +46,10 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 4.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/light-anchor/refs/heads/main/screenshots/light-anchor-2026-07-25T225103.png
 security:
 - kind: domain-security

@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-07-28'
+  score: 45.0
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: gigstack API v2 — REST API for CFDI 4.0 invoicing, payments, collections, clients, services, receipts, retentions, webhooks and SAT catalogs in Mexico. Bearer JWT authentication; cursor pagination; st
@@ -171,11 +171,11 @@ overview: 'Gigstack publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Gigstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 25
+random_paper: 85
 score:
   band: developing
   composite: 44.3
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -183,7 +183,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 41.5
+  previous_composite: 44.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -193,8 +193,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigstack/refs/heads/main/screenshots/gigstack-2026-07-25T215817.png
 security:

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.7
-  scored_at: '2026-07-28'
+  score: 23.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -194,19 +194,19 @@ overview: 'Meter publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Meter''s developer surface includes changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 49
+random_paper: 66
 score:
   band: thin
-  composite: 40.2
-  delta: -4.0
+  composite: 41.3
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 46.4
+    contract_quality: 51.0
     developer_ergonomics: 58.2
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 44.2
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +217,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

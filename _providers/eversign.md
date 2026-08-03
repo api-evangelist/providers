@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: RESTful JSON API for creating and sending documents for electronic signature, managing templates, uploading files, tracking audit trails, bulk sending via CSV, and receiving webhook event notification
@@ -116,7 +116,7 @@ plans:
 - name: Eversign Plans Pricing
   plan_count: 6
   slug: eversign-plans-pricing
-random_paper: 47
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Eversign Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.4
-  delta: 8.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.0
@@ -132,10 +132,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 32.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 40.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eversign/refs/heads/main/screenshots/eversign-2026-06-20T180911.png
 security:
 - kind: domain-security

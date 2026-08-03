@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ plans:
 - name: Tsinghua Plans Pricing
   plan_count: 2
   slug: tsinghua-plans-pricing
-random_paper: 47
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Tsinghua Rate Limits
@@ -143,16 +143,16 @@ rules:
   slug: tsinghua-rules
 score:
   band: thin
-  composite: 38.7
-  delta: -4.7
+  composite: 39.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 62.7
+    contract_quality: 65.9
     developer_ergonomics: 0.0
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 43.4
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/screenshots/tsinghua-2026-06-20T195921.png
 security:

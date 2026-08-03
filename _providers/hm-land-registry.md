@@ -17,20 +17,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
-    idempotency: documented
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: derived
     openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.0
-  scored_at: '2026-07-28'
+  score: 60.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -38,7 +38,7 @@ agentic_access:
   operation_count: 29
   slug: hm-land-registry-agentic-access
   summary_line: 29 operations · 11 acting
-api_count: 10
+api_count: 14
 apis:
 - description: Live SPARQL 1.1 query endpoint over HM Land Registry's open linked data — Price Paid Data transaction records for every property sale in England and Wales lodged for registration, and the UK House Pri
   name: HM Land Registry Open Data SPARQL API
@@ -49,28 +49,40 @@ apis:
 - description: W3C Linked Data API over the UK House Price Index, the official house price statistic calculated by the Office for National Statistics from HM Land Registry, Registers of Scotland and Land and Propert
   name: UK House Price Index Linked Data API
   slug: uk-house-price-index-linked-data-api
-- description: RESTful JSON API for the Use land and property data service, used to list the HM Land Registry bulk datasets available in the service, read dataset metadata and resources, and mint a signed S3 downloa
-  name: Use Land and Property Data API
-  slug: use-land-and-property-data-api
-- description: The Business Gateway REST API through which conveyancers and their case management systems lodge applications to change the land register, upload and download supporting documents, add attachments and
-  name: Business Gateway Submit an Application to Change the Land Register API
-  slug: business-gateway-submit-an-application-to-change-the-register-api
-- description: RESTful expansion of the long-standing Official Search of Whole SOAP service. An official search with priority by a purchaser against the whole of a registered title or a pending first registration ap
-  name: Business Gateway Official Search of Whole (with Priority) with Data API
-  slug: business-gateway-official-search-of-whole-with-data-api
-- description: Returns OC1 document availability (title register and title plan) and a collection of OC2 document availability (documents referred to in the register) for a given title number, so a case management s
-  name: Business Gateway Official Copy Document Availability Service
-  slug: business-gateway-official-copy-document-availability-api
-- description: Returns the registered proprietor names recorded against a supplied title number — the authoritative answer to "who owns this". Single GET operation on /titles/{title_number}/registered-proprietor-nam
-  name: Business Gateway Registered Proprietor Names Service
-  slug: business-gateway-registered-proprietor-names-api
-- description: Returns HM Land Registry's estimated completion date for a lodged application, given its application reference, so a conveyancer's system can set client expectations on how long a registration will ta
-  name: Business Gateway Estimate Completion Date API
-  slug: business-gateway-estimate-completion-date-api
 - description: An OpenAPI 3.0.1 contract, version 6.0.0, titled "Land Register API" and published in the public Business Gateway developer pack. It describes two GET operations — /title/{titleNumber} and /draft-titl
   name: Land Register API
   slug: land-register-api
-artifact_total: 33
+- description: HM Land Registry Estimate Completion Date API from HM Land Registry — 1 path(s) described in OpenAPI.
+  name: HM Land Registry Estimate Completion Date API
+  slug: hm-land-registry-estimate-completion-date-openapi
+- description: HM Land Registry HMLR Business Gateway from HM Land Registry — 1 path(s) described in OpenAPI.
+  name: HM Land Registry HMLR Business Gateway (Hm Land Registry Official Copy Document Availability V1 Customer Test)
+  slug: hm-land-registry-official-copy-document-availability-v1-customer-test-openapi
+- description: HM Land Registry Official Copy Document Availability Service from HM Land Registry — 1 path(s) described in OpenAPI.
+  name: HM Land Registry Official Copy Document Availability Service (Hm Land Registry Official Copy Document Availability V1)
+  slug: hm-land-registry-official-copy-document-availability-v1-openapi
+- description: HM Land Registry HMLR Business Gateway from HM Land Registry — 1 path(s) described in OpenAPI.
+  name: HM Land Registry HMLR Business Gateway (Hm Land Registry Official Copy Document Availability V2 Customer Test)
+  slug: hm-land-registry-official-copy-document-availability-v2-customer-test-openapi
+- description: HM Land Registry Official Copy Document Availability Service from HM Land Registry — 1 path(s) described in OpenAPI.
+  name: HM Land Registry Official Copy Document Availability Service (Hm Land Registry Official Copy Document Availability V2)
+  slug: hm-land-registry-official-copy-document-availability-v2-openapi
+- description: HM Land Registry Official Search of Whole with Data from HM Land Registry — 1 path(s) described in OpenAPI.
+  name: HM Land Registry Official Search of Whole with Data
+  slug: hm-land-registry-official-search-of-whole-with-data-openapi
+- description: HM Land Registry Registered Proprietor Names Service from HM Land Registry — 1 path(s) described in OpenAPI.
+  name: HM Land Registry Registered Proprietor Names Service
+  slug: hm-land-registry-registered-proprietor-names-openapi
+- description: HM Land Registry V0.3 'Submit an application to change the Land Register API' Schema from HM Land Registry — 6 path(s) described in OpenAPI.
+  name: HM Land Registry V0.3 'Submit an application to change the Land Register API' Schema
+  slug: hm-land-registry-submit-application-to-change-the-register-v0-3-openapi
+- description: HM Land Registry V1.0 'Submit an application to change the Land Register API' Schema from HM Land Registry — 10 path(s) described in OpenAPI.
+  name: HM Land Registry V1.0 'Submit an application to change the Land Register API' Schema
+  slug: hm-land-registry-submit-application-to-change-the-register-v1-0-openapi
+- description: HM Land Registry Use Land and Property Data API from HM Land Registry — 4 path(s) described in OpenAPI.
+  name: HM Land Registry Use Land and Property Data API
+  slug: hm-land-registry-use-land-property-data-openapi
+artifact_total: 37
 asyncapis:
 - description: Event surface of the HM Land Registry Business Gateway. As an application to change the Land Register moves through HMLR processing, HMLR raises notifications about it. Business units retrieve their n
   name: HM Land Registry Business Gateway Notifications
@@ -383,31 +395,31 @@ modified: '2026-07-26'
 name: HM Land Registry
 nav: Providers
 network: true
-overview: 'HM Land Registry publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Use Land and Property Data API, Business Gateway Submit an Application to Change the Land Register API, Business Gateway Official Search of Whole (with Priority) with Data API, and 4 more. Tagged areas include Real Estate, United Kingdom, Land Registry, Open Data, and Title.
+overview: 'HM Land Registry publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Land Register API, Estimate Completion Date API, HMLR Business Gateway (Hm Land Registry Official Copy Document Availability V1 Customer Test), and 8 more. Tagged areas include Real Estate, United Kingdom, Land Registry, Open Data, and Title.
 
 
   The HM Land Registry catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   HM Land Registry''s developer surface includes authentication, documentation, API reference, signup flow, support, sandbox, changelog, and 53 more developer resources.'
-random_paper: 49
+random_paper: 87
 score:
-  band: strong
-  composite: 56.2
-  delta: -3.3
+  band: developing
+  composite: 54.7
+  delta: -1.8
   facets:
     commercial_clarity: 44.7
-    contract_quality: 77.8
+    contract_quality: 70.8
     developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 21.9
     operational_transparency: 31.6
-  previous_composite: 59.5
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 36.4
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 11
@@ -419,8 +431,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

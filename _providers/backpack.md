@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -370,7 +370,7 @@ plans:
 - name: Backpack Plans Pricing
   plan_count: 5
   slug: backpack-plans-pricing
-random_paper: 78
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Backpack Rate Limits
@@ -402,16 +402,16 @@ rules:
   slug: backpack-rules
 score:
   band: strong
-  composite: 58.6
-  delta: -5.7
+  composite: 59.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 78.9
+    contract_quality: 82.1
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 64.3
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     contracts:
@@ -425,9 +425,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/screenshots/backpack-2026-06-20T172915.png
 security:
 - kind: domain-security

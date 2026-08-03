@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-07-28'
+  score: 64.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 36
@@ -219,19 +219,19 @@ overview: 'Netcracker publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Netcracker''s developer surface includes authentication, changelog, CLI, sandbox, documentation, getting-started guide, support, and 33 more developer resources.'
-random_paper: 74
+random_paper: 13
 score:
   band: developing
-  composite: 51.9
-  delta: 2.3
+  composite: 52.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 57.0
+    contract_quality: 60.7
     developer_ergonomics: 71.2
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 49.6
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -248,8 +248,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

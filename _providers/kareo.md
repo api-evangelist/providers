@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Kareo Plans Pricing
   plan_count: 5
   slug: kareo-plans-pricing
-random_paper: 38
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Kareo Rate Limits
@@ -184,16 +184,16 @@ rules:
   slug: kareo-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.1
-  delta: -6.4
+  composite: 45.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 63.6
+    contract_quality: 66.7
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 51.5
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -207,9 +207,9 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/screenshots/kareo-2026-06-20T183920.png
 security:
 - kind: domain-security

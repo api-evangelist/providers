@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: The G2 API V2 provides programmatic access to G2's software reviews, buyer intent signals, competitive intelligence, and product data. Uses OAuth 2.0 for authentication. Enables integration of G2 buye
@@ -90,7 +90,7 @@ plans:
 - name: Business Software And Services Reviews G2 Plans Pricing
   plan_count: 3
   slug: business-software-and-services-reviews-g2-plans-pricing
-random_paper: 59
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Business Software And Services Reviews G2 Rate Limits
@@ -98,7 +98,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.7
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 40.3
@@ -106,15 +106,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.3
+  previous_composite: 35.7
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/screenshots/business-software-and-services-reviews-g2-2026-06-20T173819.png
 security:

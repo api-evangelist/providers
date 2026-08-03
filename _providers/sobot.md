@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The Agent API from Sobot — 1 operation(s) for agent.
@@ -180,19 +180,19 @@ overview: 'Sobot publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Sobot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 59
+random_paper: 76
 score:
   band: developing
-  composite: 46.1
-  delta: -3.3
+  composite: 47.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.3
+    contract_quality: 66.3
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 49.4
+  previous_composite: 47.4
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +208,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

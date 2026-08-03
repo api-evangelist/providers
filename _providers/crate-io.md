@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The CrateDB Cloud REST API manages CrateDB Cloud resources — organizations, regions, projects, clusters, products, users, roles, subscriptions, and audit logs. Authentication uses HTTP Basic auth with
@@ -171,11 +171,11 @@ overview: 'Crate Io publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Crate Io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 50
+random_paper: 28
 score:
   band: developing
   composite: 42.1
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -183,12 +183,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 42.3
+  previous_composite: 42.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/screenshots/crate-io-2026-07-25T210645.png
 security:

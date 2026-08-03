@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -250,7 +250,7 @@ plans:
 - name: Amazon Lake Formation Plans Pricing
   plan_count: 3
   slug: amazon-lake-formation-plans-pricing
-random_paper: 74
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Amazon Lake Formation Rate Limits
@@ -274,16 +274,16 @@ rules:
   slug: amazon-lake-formation-spectral-rules
 score:
   band: exemplar
-  composite: 72.6
-  delta: -3.6
+  composite: 73.1
+  delta: 0.0
   facets:
     commercial_clarity: 86.8
-    contract_quality: 74.6
+    contract_quality: 76.7
     developer_ergonomics: 69.6
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 76.2
+  previous_composite: 73.1
   provenance:
     agentic_access: derived
     contracts:
@@ -291,8 +291,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/screenshots/amazon-lake-formation-2026-06-20T171721.png
 security:

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: 'The Cozen O''Connor public website at cozen.com is the firm''s primary external knowledge surface, organizing attorney biographies, practice and industry pages, office locations, news and publications, '
@@ -115,11 +115,11 @@ name: Cozen O'Connor
 nav: Providers
 network: true
 overview: Cozen O'Connor publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Am Law 100, Corporate Law, Government Affairs, Insurance Law, and Intellectual Property.
-random_paper: 42
+random_paper: 24
 score:
   band: minimal
   composite: 6.5
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -127,9 +127,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 6.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cozen-oconnor/refs/heads/main/screenshots/cozen-oconnor-2026-06-20T175152.png
 security:

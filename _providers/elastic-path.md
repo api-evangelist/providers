@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 3
@@ -476,7 +476,7 @@ plans:
 - name: Elastic Path Plans Pricing
   plan_count: 0
   slug: elastic-path-plans-pricing
-random_paper: 67
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Elastic Path Rate Limits
@@ -492,16 +492,16 @@ rules:
   slug: elastic-path-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.0
-  delta: -3.2
+  composite: 43.7
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 63.5
+    contract_quality: 67.0
     developer_ergonomics: 30.4
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 46.2
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -515,8 +515,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/screenshots/elastic-path-2026-06-20T180529.png
 security:

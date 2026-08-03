@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-07-28'
+  score: 38.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ plans:
 - name: Keda Plans Pricing
   plan_count: 1
   slug: keda-plans-pricing
-random_paper: 77
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Keda Rate Limits
@@ -195,16 +195,16 @@ rules:
   slug: keda-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: -4.3
+  composite: 52.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 81.0
+    contract_quality: 82.4
     developer_ergonomics: 37.0
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 56.1
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keda/refs/heads/main/screenshots/keda-2026-06-20T183939.png
 security:

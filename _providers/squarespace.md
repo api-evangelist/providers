@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ plans:
 - name: Squarespace Plans Pricing
   plan_count: 1
   slug: squarespace-plans-pricing
-random_paper: 33
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Squarespace Rate Limits
@@ -228,16 +228,16 @@ rules:
   slug: squarespace-rules
 score:
   band: developing
-  composite: 52.6
-  delta: -4.6
+  composite: 53.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 78.8
+    contract_quality: 80.6
     developer_ergonomics: 30.4
     discoverability: 57.4
     governance: 41.7
     operational_transparency: 52.6
-  previous_composite: 57.2
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -251,8 +251,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/screenshots/squarespace-2026-06-20T194430.png
 security:

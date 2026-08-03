@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-07-28'
+  score: 45.7
+  scored_at: '2026-08-03'
 api_count: 17
 apis:
 - description: The accounts API from Upward Financial — 2 operation(s) for accounts.
@@ -215,7 +215,7 @@ overview: 'Upward Financial publishes 17 APIs on the [APIs.io](https://apis.io/)
 
 
   Upward Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 79
+random_paper: 22
 scopes:
 - name: Upward Financial Scopes
   scope_count: 9
@@ -223,16 +223,16 @@ scopes:
   summary_line: 9 scopes · clientCredentials/token-exchange (urn:ietf:params:oauth:grant-type:token-exchange)
 score:
   band: developing
-  composite: 49.2
-  delta: -2.2
+  composite: 49.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 60.6
+    contract_quality: 64.0
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 51.4
+  previous_composite: 49.9
   provenance:
     conformance: first-party
     contracts:
@@ -248,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

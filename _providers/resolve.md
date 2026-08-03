@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-07-28'
+  score: 52.5
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: OAuth access keys are created in Merchant Dashboard and can be exchanged for bearer tokens. Use the `/access-keys/token` endpoint to mint a bearer token from a valid `client_id` and `client_secret`.
@@ -261,7 +261,7 @@ overview: 'Resolve publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Resolve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 30
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Resolve Rate Limits
@@ -273,16 +273,16 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 57.7
-  delta: -4.0
+  composite: 58.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 65.7
+    contract_quality: 69.0
     developer_ergonomics: 73.4
     discoverability: 63.0
     governance: 11.5
     operational_transparency: 57.9
-  previous_composite: 61.7
+  previous_composite: 58.4
   provenance:
     conformance: derived
     contracts:
@@ -298,8 +298,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

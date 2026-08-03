@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Skype URIs provide a mechanism for launching Skype actions from web pages and applications. Developers can create links that initiate calls, video calls, and chat conversations with specified Skype us
@@ -99,7 +99,7 @@ plans:
 - name: Microsoft Skype Plans Pricing
   plan_count: 3
   slug: microsoft-skype-plans-pricing
-random_paper: 25
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Microsoft Skype Rate Limits
@@ -107,7 +107,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.6
-  delta: -3.5
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 0.0
@@ -115,15 +115,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 31.1
+  previous_composite: 27.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-skype/refs/heads/main/screenshots/microsoft-skype-2026-06-20T185532.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ overview: 'Employment Hero publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Employment Hero''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 15
+random_paper: 53
 scopes:
 - name: Employment Hero Scopes
   scope_count: 0
@@ -156,16 +156,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.9
-  delta: -2.1
+  composite: 31.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 53.4
+    contract_quality: 54.3
     developer_ergonomics: 37.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.0
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/screenshots/employment-hero-2026-06-20T180642.png
 security:

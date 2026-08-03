@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ overview: 'Blackbird publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Blackbird''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 24
+random_paper: 71
 scopes:
 - name: Blackbird Scopes
   scope_count: 9
@@ -198,16 +198,16 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 44.5
-  delta: -2.8
+  composite: 45.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 58.4
+    contract_quality: 61.9
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 47.3
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,8 +224,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/screenshots/blackbird-2026-07-25T203240.png
 security:

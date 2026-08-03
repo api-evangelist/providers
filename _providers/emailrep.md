@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -323,7 +323,7 @@ plans:
 - name: Emailrep Plans Pricing
   plan_count: 3
   slug: emailrep-plans-pricing
-random_paper: 27
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Emailrep Rate Limits
@@ -346,17 +346,17 @@ rules:
     warn: 27
   slug: emailrep-spectral-rules
 score:
-  band: strong
-  composite: 58.1
-  delta: -7.4
+  band: developing
+  composite: 49.4
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 57.6
+    contract_quality: 22.9
     developer_ergonomics: 47.8
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 65.5
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -364,9 +364,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/screenshots/emailrep-2026-06-20T180624.png
 security:
 - kind: authentication

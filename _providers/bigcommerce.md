@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-07-28'
+  score: 45.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 341
   human_in_the_loop: 2
@@ -3581,7 +3581,7 @@ plans:
 - name: Bigcommerce Plans Pricing
   plan_count: 4
   slug: bigcommerce-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Bigcommerce Rate Limits
@@ -3613,16 +3613,16 @@ rules:
   slug: bigcommerce-spectral-rules
 score:
   band: developing
-  composite: 51.1
-  delta: -5.5
+  composite: 51.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 69.6
+    contract_quality: 73.0
     developer_ergonomics: 41.3
     discoverability: 68.5
     governance: 52.1
     operational_transparency: 44.7
-  previous_composite: 56.6
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -3636,9 +3636,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/screenshots/bigcommerce-2026-06-20T173231.png
 security:
 - kind: authentication

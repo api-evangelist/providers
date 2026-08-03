@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,11 +107,11 @@ overview: 'Tandem Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Tandem Health''s developer surface includes pricing, signup flow, support, engineering blog, changelog, and 11 more developer resources.'
-random_paper: 78
+random_paper: 73
 score:
   band: emerging
   composite: 23.7
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -119,7 +119,7 @@ score:
     discoverability: 50.0
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 27.3
+  previous_composite: 23.7
   provenance:
     conformance: first-party
   regulatory:
@@ -128,8 +128,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

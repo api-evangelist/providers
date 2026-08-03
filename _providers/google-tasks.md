@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Google Tasks Plans Pricing
   plan_count: 3
   slug: google-tasks-plans-pricing
-random_paper: 2
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Google Tasks Rate Limits
@@ -178,16 +178,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.4
-  delta: -3.0
+  composite: 61.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 63.4
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/screenshots/google-tasks-2026-06-20T182240.png
 security:

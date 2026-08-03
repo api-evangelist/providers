@@ -1322,6 +1322,44 @@
      "rank": 33
     },
     {
+     "name": "Zoho",
+     "slug": "zoho",
+     "description": "Zoho is a comprehensive cloud software suite offering 55+ integrated business applications for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by over 130 million users worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/screenshots/zoho-2026-06-20T201931.png",
+     "score": 49.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 55.3,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 71.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 49.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 34
+    },
+    {
      "name": "Dropbox",
      "slug": "dropbox",
      "description": "Dropbox is a file hosting service operated by the American company Dropbox, Inc., headquartered in San Francisco, California, U.S. that offers cloud storage, file synchronization, personal cloud, and client software.",
@@ -1357,7 +1395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Synopsys",
@@ -1395,7 +1433,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "TD SYNNEX",
@@ -1433,7 +1471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Dell Technologies",
@@ -1471,7 +1509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Broadcom",
@@ -1509,7 +1547,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Toast",
@@ -1535,44 +1573,6 @@
       "spec_presence": true,
       "agentic_access": "derived",
       "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 39
-    },
-    {
-     "name": "Zoho",
-     "slug": "zoho",
-     "description": "Zoho is a comprehensive cloud software suite offering 55+ integrated business applications for sales, marketing, customer service, finance, HR, collaboration, and custom solutions, trusted by over 130 million users worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/screenshots/zoho-2026-06-20T201931.png",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 32.4,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 71.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 39.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -240,7 +240,7 @@ plans:
 - name: Samsung Plans Pricing
   plan_count: 1
   slug: samsung-plans-pricing
-random_paper: 28
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Samsung Rate Limits
@@ -264,16 +264,16 @@ rules:
   slug: samsung-rules
 score:
   band: developing
-  composite: 45.8
-  delta: -3.6
+  composite: 46.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.3
+    contract_quality: 70.1
     developer_ergonomics: 21.7
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 49.4
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -281,8 +281,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/screenshots/samsung-2026-06-20T193400.png
 security:

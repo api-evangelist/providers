@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-07-28'
+  score: 51.6
+  scored_at: '2026-08-03'
 api_count: 14
 apis:
 - description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
@@ -222,7 +222,7 @@ overview: 'Bendigo and Adelaide Bank publishes 14 APIs on the [APIs.io](https://
 
 
   Bendigo and Adelaide Bank''s developer surface includes developer portal, documentation, support, engineering blog, authentication, and 26 more developer resources.'
-random_paper: 13
+random_paper: 16
 scopes:
 - name: Bendigo And Adelaide Bank Scopes
   scope_count: 10
@@ -230,16 +230,16 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.5
-  delta: -4.2
+  composite: 46.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 58.5
+    contract_quality: 62.3
     developer_ergonomics: 38.6
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 49.7
+  previous_composite: 46.3
   provenance:
     conformance: first-party
     contracts:
@@ -255,8 +255,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png
 security:

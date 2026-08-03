@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -393,7 +393,7 @@ plans:
 - name: Tibber Plans Pricing
   plan_count: 4
   slug: tibber-plans-pricing
-random_paper: 58
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Tibber Rate Limits
@@ -422,16 +422,16 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.4
-  delta: -6.0
+  composite: 65.8
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 76.3
+    contract_quality: 78.3
     developer_ergonomics: 52.2
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 71.4
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     contracts:
@@ -445,9 +445,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:
 - kind: authentication

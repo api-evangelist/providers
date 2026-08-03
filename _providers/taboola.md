@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -411,7 +411,7 @@ plans:
 - name: Taboola Plans Pricing
   plan_count: 2
   slug: taboola-plans-pricing
-random_paper: 0
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Taboola Rate Limits
@@ -427,16 +427,16 @@ rules:
   slug: taboola-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 59.6
-  delta: -2.7
+  composite: 60.1
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 72.5
+    contract_quality: 74.8
     developer_ergonomics: 54.3
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 62.3
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -444,8 +444,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/screenshots/taboola-2026-06-20T194849.png
 security:

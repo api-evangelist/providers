@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: A microservice API providing search access to SBA.gov content including lenders, articles, documents, and personnel. The lenders endpoint constructs queries to the AWS CloudSearch domain for lenders.
@@ -120,7 +120,7 @@ plans:
 - name: Sba Plans Pricing
   plan_count: 3
   slug: sba-plans-pricing
-random_paper: 64
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Sba Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.8
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 17.7
@@ -136,15 +136,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.2
+  previous_composite: 25.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sba/refs/heads/main/screenshots/sba-2026-06-20T193446.png
 security:

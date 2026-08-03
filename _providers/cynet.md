@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: REST API for the Cynet 360 SaaS platform (V3). Provides programmatic access to alerts, hosts and host groups, remediation actions, scans, and account/token operations. Authenticated with a tenant-scop
@@ -155,11 +155,11 @@ overview: 'Cynet publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cynet''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 55
+random_paper: 72
 score:
   band: thin
   composite: 37.1
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -167,11 +167,11 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 42.1
-  previous_composite: 37.3
+  previous_composite: 37.1
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cynet/refs/heads/main/screenshots/cynet-2026-07-25T211051.png
 security:

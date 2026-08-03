@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -546,7 +546,7 @@ plans:
 - name: Gerencianet Plans Pricing
   plan_count: 5
   slug: gerencianet-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Gerencianet Rate Limits
@@ -575,16 +575,16 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: strong
-  composite: 60.7
-  delta: -5.0
+  composite: 60.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.5
+    contract_quality: 69.0
     developer_ergonomics: 63.0
     discoverability: 55.6
     governance: 37.5
     operational_transparency: 52.6
-  previous_composite: 65.7
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     contracts:
@@ -598,9 +598,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/screenshots/gerencianet-2026-06-20T181803.png
 security:
 - kind: authentication

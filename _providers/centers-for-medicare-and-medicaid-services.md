@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: Centers For Medicare And Medicaid Services Plans Pricing
   plan_count: 3
   slug: centers-for-medicare-and-medicaid-services-plans-pricing
-random_paper: 25
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Centers For Medicare And Medicaid Services Rate Limits
@@ -177,16 +177,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.1
-  delta: -3.8
+  composite: 39.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.0
+    contract_quality: 64.3
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.9
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +200,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centers-for-medicare-and-medicaid-services/refs/heads/main/screenshots/centers-for-medicare-and-medicaid-services-2026-06-20T174129.png
 security:

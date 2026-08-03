@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: The CDAP HTTP RESTful API, documented as "Microservices". All endpoints sit under a /v3 path prefix on a self-hosted CDAP router (default port 11015, or 10443 when SSL is enabled), and are scoped by n
@@ -174,11 +174,11 @@ overview: 'Cask publishes 12 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cask''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 16 more developer resources.'
-random_paper: 8
+random_paper: 38
 score:
   band: thin
   composite: 30.0
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -186,11 +186,11 @@ score:
     discoverability: 83.3
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 30.1
+  previous_composite: 30.0
   provenance:
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cask/refs/heads/main/screenshots/cask-2026-07-25T204726.png
 security:

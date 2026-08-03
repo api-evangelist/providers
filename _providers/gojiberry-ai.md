@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-07-28'
+  score: 48.4
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: The AppExternal API from Gojiberry AI — 2 operation(s) for appexternal.
@@ -192,23 +192,23 @@ overview: 'Gojiberry AI publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Gojiberry AI''s developer surface includes developer portal, documentation, API reference, authentication, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 72
+random_paper: 80
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Gojiberry Ai Rate Limits
   slug: gojiberry-ai-rate-limits
 score:
   band: developing
-  composite: 47.3
-  delta: -1.4
+  composite: 51.1
+  delta: 2.7
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.7
+    contract_quality: 59.0
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 28.9
-  previous_composite: 48.7
+    operational_transparency: 50.0
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
@@ -218,8 +218,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/screenshots/gojiberry-ai-2026-07-25T220016.png
 security:

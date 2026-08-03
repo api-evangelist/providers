@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-07-28'
+  score: 44.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 203
   slug: databento-agentic-access
   summary_line: 203 operations · 88 acting · 2 human-in-the-loop
-api_count: 6
+api_count: 7
 apis:
 - description: Streams historical market data over HTTP for a requested date/time range. A single request selects a dataset, one or more symbols, a schema (MBO full order book, MBP-1/MBP-10, trades, OHLCV bars, stat
   name: Databento Historical Timeseries API
@@ -57,7 +57,10 @@ apis:
 - description: Reference and non-price data that complements the market data feeds - a security master (instrument definitions and identifiers), corporate actions (splits, dividends, symbol changes, and other events
   name: Databento Reference API
   slug: databento-reference-api
-artifact_total: 20
+- description: Databento OpenAPI specification from Databento — 158 path(s) described in OpenAPI.
+  name: Databento OpenAPI specification
+  slug: databento-platform-openapi-official
+artifact_total: 21
 collections:
 - collection_type: postman
   name: Databento Historical and Reference Batch API
@@ -250,7 +253,7 @@ modified: '2026-07-22'
 name: Databento
 nav: Providers
 network: true
-overview: 'Databento publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Historical Timeseries API, Metadata API, Symbology API, and 2 more. Tagged areas include Market Data, Financial Data, Reference Data, Historical Market Data, and Trading.
+overview: 'Databento publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Historical Timeseries API, Metadata API, Symbology API, and 3 more. Tagged areas include Market Data, Financial Data, Reference Data, Historical Market Data, and Trading.
 
 
   Databento''s developer surface includes changelog, CLI, pricing, support, signup flow, getting-started guide, API reference, and 32 more developer resources.'
@@ -258,7 +261,7 @@ plans:
 - name: Databento Plans Pricing
   plan_count: 5
   slug: databento-plans-pricing
-random_paper: 44
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Databento Rate Limits
@@ -270,16 +273,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 66.5
-  delta: -2.2
+  composite: 66.7
+  delta: -0.5
   facets:
     commercial_clarity: 84.2
-    contract_quality: 60.5
+    contract_quality: 61.4
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 81.6
-  previous_composite: 68.7
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +299,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png
 security:

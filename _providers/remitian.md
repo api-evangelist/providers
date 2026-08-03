@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Remitian Plans Pricing
   plan_count: 3
   slug: remitian-plans-pricing
-random_paper: 37
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Remitian Rate Limits
@@ -182,16 +182,16 @@ rules:
   slug: remitian-rules
 score:
   band: developing
-  composite: 45.0
-  delta: -5.1
+  composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 76.3
+    contract_quality: 78.3
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 31.6
-  previous_composite: 50.1
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -205,9 +205,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/screenshots/remitian-2026-06-20T192840.png
 security:
 - kind: authentication

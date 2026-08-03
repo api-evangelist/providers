@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 36.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 521
   human_in_the_loop: 15
@@ -867,19 +867,19 @@ overview: 'Juniper Mist AI publishes 209 APIs on the [APIs.io](https://apis.io/)
 
 
   Juniper Mist AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, training material, tooling, and 31 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: developing
-  composite: 42.6
-  delta: -2.4
+  composite: 43.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 61.9
+    contract_quality: 65.8
     developer_ergonomics: 60.9
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 45.0
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -887,8 +887,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 209
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist-ai/refs/heads/main/screenshots/mist-ai-2026-06-20T185612.png
 security:

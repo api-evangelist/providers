@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-07-28'
+  score: 48.2
+  scored_at: '2026-08-03'
 api_count: 22
 apis:
 - description: Operations related to access rules
@@ -234,19 +234,19 @@ overview: 'Opal Security publishes 22 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Opal Security''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 21 more developer resources.'
-random_paper: 49
+random_paper: 31
 score:
   band: strong
-  composite: 59.6
-  delta: -0.3
+  composite: 60.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.4
+    contract_quality: 69.9
     developer_ergonomics: 76.1
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 59.9
+  previous_composite: 60.5
   provenance:
     conformance: derived
     contracts:
@@ -256,8 +256,8 @@ score:
       total: 22
     mcp: first-party
     skills: unknown
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

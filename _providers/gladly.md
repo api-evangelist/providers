@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-07-28'
+  score: 49.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -497,7 +497,7 @@ plans:
 - name: Gladly Plans Pricing
   plan_count: 7
   slug: gladly-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Gladly Rate Limits
@@ -521,16 +521,16 @@ rules:
   slug: gladly-rules
 score:
   band: strong
-  composite: 56.8
-  delta: -7.1
+  composite: 57.4
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 70.5
+    contract_quality: 73.1
     developer_ergonomics: 56.5
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 63.9
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -544,9 +544,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/screenshots/gladly-2026-06-20T181857.png
 security:
 - kind: authentication

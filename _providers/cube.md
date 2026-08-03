@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: GraphQL API that enables Cube to deliver data over HTTP to GraphQL-enabled data applications. Exposes measures, dimensions, segments, and filters defined in the Cube semantic layer for use in front-en
@@ -95,11 +95,11 @@ overview: 'Cube publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cube''s developer surface includes documentation, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 5
+random_paper: 35
 score:
   band: emerging
   composite: 23.7
-  delta: 9.2
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 42.0
@@ -107,10 +107,10 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 23.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cube/refs/heads/main/screenshots/cube-2026-06-20T175326.png
 security:
 - kind: domain-security

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -312,7 +312,7 @@ overview: 'US Census Bureau publishes 19 APIs on the [APIs.io](https://apis.io/)
 
 
   US Census Bureau''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, changelog, tooling, and 24 more developer resources.'
-random_paper: 65
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Us Census Bureau Rate Limits
@@ -336,16 +336,16 @@ rules:
   slug: us-census-bureau-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.6
-  delta: -2.4
+  composite: 44.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 65.3
+    contract_quality: 65.9
     developer_ergonomics: 41.3
     discoverability: 61.1
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 47.0
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -359,8 +359,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/screenshots/us-census-bureau-2026-06-20T200557.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Roadmunk (Strategic Roadmaps) GraphQL API provides programmatic access to roadmaps, items, milestones, key dates, portfolios, feedback, ideas, customers, contacts, accounts, and user management. T
@@ -120,7 +120,7 @@ plans:
 - name: Roadmunk Plans Pricing
   plan_count: 4
   slug: roadmunk-plans-pricing
-random_paper: 45
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Roadmunk Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.3
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 56.8
@@ -136,9 +136,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 43.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 40.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roadmunk/refs/heads/main/screenshots/roadmunk-2026-06-20T193137.png
 security:

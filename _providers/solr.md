@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -120,19 +120,19 @@ overview: 'Apache Solr publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Apache Solr''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 6 more developer resources.'
-random_paper: 38
+random_paper: 68
 score:
   band: emerging
-  composite: 24.0
-  delta: -2.8
+  composite: 25.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 46.6
+    contract_quality: 51.2
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.8
+  previous_composite: 25.2
   provenance:
     agentic_access: derived
     contracts:
@@ -140,8 +140,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/screenshots/solr-2026-06-20T194151.png
 security:

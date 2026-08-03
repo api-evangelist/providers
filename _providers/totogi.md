@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-07-28'
+  score: 35.4
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Totogi Charging-as-a-Service is a serverless, multi-tenant 5G Standalone and 5G Advanced converged charging system delivered as SaaS on AWS, with built-in policy control. Its account-management surfac
@@ -185,7 +185,7 @@ overview: 'Totogi publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Totogi''s developer surface includes FAQ, engineering blog, support, YouTube channel, authentication, changelog, and 28 more developer resources.'
-random_paper: 6
+random_paper: 92
 scopes:
 - name: Totogi Scopes
   scope_count: 0
@@ -194,7 +194,7 @@ scopes:
 score:
   band: developing
   composite: 45.5
-  delta: 15.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.0
@@ -202,7 +202,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 30.5
+  previous_composite: 45.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -213,9 +213,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Totogi Authentication

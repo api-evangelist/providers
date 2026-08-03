@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
@@ -96,32 +96,32 @@ plans:
 - name: Siliconflow Plans Pricing
   plan_count: 1
   slug: siliconflow-plans-pricing
-random_paper: 45
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Siliconflow Rate Limits
   slug: siliconflow-rate-limits
 score:
   band: thin
-  composite: 28.3
-  delta: -1.8
+  composite: 33.7
+  delta: 5.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 40.3
+    contract_quality: 62.0
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 30.1
+  previous_composite: 28.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: flat
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/screenshots/siliconflow-2026-06-20T193920.png
 security:
 - kind: domain-security

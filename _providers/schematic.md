@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 3
@@ -224,7 +224,7 @@ plans:
 - name: Schematic Plans Pricing
   plan_count: 3
   slug: schematic-plans-pricing
-random_paper: 43
+random_paper: 90
 rate_limits:
 - limit_count: 5
   name: Schematic Rate Limits
@@ -247,17 +247,17 @@ rules:
     warn: 8
   slug: schematic-rules
 score:
-  band: developing
-  composite: 54.9
-  delta: -4.2
+  band: strong
+  composite: 56.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.8
+    contract_quality: 70.6
     developer_ergonomics: 37.0
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 59.1
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +265,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/screenshots/schematic-2026-06-20T193553.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: GraphQL surface for quotes - the pre-invoice document in Printavo. Query a single quote or a paginated quotes connection, and create, update, delete, or duplicate quotes via the quoteCreate, quoteUpda
@@ -116,7 +116,7 @@ plans:
 - name: Printavo Plans Pricing
   plan_count: 5
   slug: printavo-plans-pricing
-random_paper: 63
+random_paper: 28
 rate_limits:
 - limit_count: 4
   name: Printavo Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 43.2
@@ -132,10 +132,10 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 24.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 32.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Printavo Domain Security

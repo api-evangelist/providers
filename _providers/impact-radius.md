@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-07-28'
+  score: 43.7
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: REST API for brands/advertisers to manage campaigns, partner recruitment and contracts, catalogs, reporting, and payouts across affiliate and partnership programs. Current version v13.
@@ -177,11 +177,11 @@ overview: 'Impact Radius publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Impact Radius'' developer surface includes documentation, getting-started guide, authentication, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 19
+random_paper: 1
 score:
   band: developing
   composite: 50.8
-  delta: 6.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -189,12 +189,12 @@ score:
     discoverability: 92.6
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 44.3
+  previous_composite: 50.8
   provenance:
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/screenshots/impact-radius-2026-07-25T222140.png
 security:
 - kind: authentication

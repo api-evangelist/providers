@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -215,9 +215,9 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 9
+random_paper: 52
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Rate Limits
   slug: rate-limits
 rules:
@@ -231,16 +231,16 @@ rules:
   slug: sui-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.3
-  delta: -3.2
+  composite: 47.9
+  delta: 2.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.7
+    contract_quality: 58.1
     developer_ergonomics: 17.4
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 47.5
+    operational_transparency: 42.1
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     contracts:
@@ -248,8 +248,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/screenshots/sui-2026-06-20T194741.png
 security:

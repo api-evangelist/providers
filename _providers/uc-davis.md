@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -180,7 +180,7 @@ plans:
 - name: Uc Davis Plans Pricing
   plan_count: 2
   slug: uc-davis-plans-pricing
-random_paper: 58
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Uc Davis Rate Limits
@@ -204,16 +204,16 @@ rules:
   slug: uc-davis-rules
 score:
   band: thin
-  composite: 36.0
-  delta: -5.4
+  composite: 37.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 48.1
+    contract_quality: 54.3
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 41.4
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -227,9 +227,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/screenshots/uc-davis-2026-06-20T195938.png
 security:
 - kind: authentication

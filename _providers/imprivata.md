@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -97,11 +97,11 @@ overview: 'Imprivata is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Imprivata''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 71
+random_paper: 23
 score:
   band: emerging
   composite: 23.8
-  delta: -3.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -109,15 +109,15 @@ score:
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 27.7
+  previous_composite: 23.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imprivata/refs/heads/main/screenshots/imprivata-2026-07-25T222159.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The EVgo Inside partner integration API allows third-party apps — including automaker head units, fleet management platforms, and mobile apps — to embed EVgo's full charging workflow. Capabilities inc
@@ -123,7 +123,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 23
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.9
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 8.1
@@ -139,15 +139,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.9
+  previous_composite: 26.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

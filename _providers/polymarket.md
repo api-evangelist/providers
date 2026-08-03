@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ plans:
 - name: Polymarket Plans Pricing
   plan_count: 1
   slug: polymarket-plans-pricing
-random_paper: 30
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Polymarket Rate Limits
@@ -169,16 +169,16 @@ rules:
   slug: polymarket-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.3
-  delta: -3.5
+  composite: 43.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.6
+    contract_quality: 67.4
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 46.8
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -186,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/screenshots/polymarket-2026-06-20T191927.png
 security:

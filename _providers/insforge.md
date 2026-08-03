@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 68.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 11
 apis:
 - description: The Admin API from Insforge — 54 operation(s) for admin.
@@ -214,7 +214,7 @@ overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 41
+random_paper: 6
 scopes:
 - name: Insforge Scopes
   scope_count: 11
@@ -222,16 +222,16 @@ scopes:
   summary_line: 11 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 53.3
-  delta: -3.9
+  composite: 54.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 46.7
+    contract_quality: 52.3
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 57.2
+  previous_composite: 54.5
   provenance:
     conformance: derived
     contracts:
@@ -247,8 +247,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
 security:

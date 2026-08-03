@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: The authorizations API from OpenLattice — 1 operation(s) for authorizations.
@@ -118,19 +118,19 @@ overview: 'OpenLattice publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OpenLattice''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 28
+random_paper: 36
 score:
   band: emerging
-  composite: 26.0
-  delta: -1.9
+  composite: 26.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 45.8
+    contract_quality: 50.4
     developer_ergonomics: 21.2
     discoverability: 92.6
     governance: 8.3
     operational_transparency: 5.3
-  previous_composite: 27.9
+  previous_composite: 26.9
   provenance:
     contracts:
       callable: 100.0
@@ -145,8 +145,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

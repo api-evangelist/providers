@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -493,7 +493,7 @@ plans:
 - name: Workday Extend Plans Pricing
   plan_count: 1
   slug: workday-extend-plans-pricing
-random_paper: 68
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Workday Extend Rate Limits
@@ -522,16 +522,16 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.2
-  delta: -4.7
+  composite: 68.9
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.4
+    contract_quality: 67.4
     developer_ergonomics: 69.6
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 72.9
+  previous_composite: 68.9
   provenance:
     agentic_access: derived
     contracts:
@@ -539,8 +539,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/screenshots/workday-extend-2026-06-20T201559.png
 security:

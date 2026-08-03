@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,19 +129,19 @@ overview: 'Nutshell publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nutshell''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 59
+random_paper: 24
 score:
   band: thin
-  composite: 29.5
-  delta: -2.0
+  composite: 30.6
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 31.5
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/screenshots/nutshell-2026-06-20T190536.png
 security:

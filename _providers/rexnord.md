@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Regal Rexnord Q1 2026 results, EPS guidance held
   url: https://www.stocktitan.net/sec-filings/RRX/8-k-regal-rexnord-corp-reports-material-event-31cbc937a3d0.html
-random_paper: 32
+random_paper: 10
 rules:
 - name: Rexnord API Rules
   rule_count: 5
@@ -97,7 +97,7 @@ rules:
 score:
   band: emerging
   composite: 15.2
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 12.9
@@ -105,9 +105,9 @@ score:
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 19.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 15.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rexnord/refs/heads/main/screenshots/rexnord-2026-06-20T193129.png
 security:

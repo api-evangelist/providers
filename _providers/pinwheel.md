@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -623,7 +623,7 @@ plans:
 - name: Pinwheel Plans Pricing
   plan_count: 3
   slug: pinwheel-plans-pricing
-random_paper: 40
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Pinwheel Rate Limits
@@ -639,16 +639,16 @@ rules:
   slug: pinwheel-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.8
-  delta: -6.5
+  composite: 51.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 70.9
+    contract_quality: 74.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 57.3
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -662,9 +662,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/screenshots/pinwheel-2026-06-20T191723.png
 security:
 - kind: authentication

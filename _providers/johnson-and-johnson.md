@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,23 +110,23 @@ press:
 - date: '2026-05-25'
   title: JNJ Innovation - News & Events
   url: https://jnjinnovation.com/news
-random_paper: 45
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Johnson And Johnson Rate Limits
   slug: johnson-and-johnson-rate-limits
 score:
   band: thin
-  composite: 30.3
-  delta: -3.4
+  composite: 31.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 52.5
+    contract_quality: 56.6
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.7
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -140,8 +140,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png
 security:

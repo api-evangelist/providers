@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-07-28'
+  score: 30.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ overview: 'Hustle publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Hustle''s developer surface includes documentation, API reference, signup flow, pricing, and 12 more developer resources.'
-random_paper: 5
+random_paper: 91
 scopes:
 - name: Hustle Scopes
   scope_count: 0
@@ -158,16 +158,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.1
-  delta: 0.9
+  composite: 45.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 54.9
+    contract_quality: 58.7
     developer_ergonomics: 28.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 44.2
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,8 +184,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/screenshots/hustle-2026-07-25T221742.png
 security:

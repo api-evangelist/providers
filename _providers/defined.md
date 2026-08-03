@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-07-28'
+  score: 41.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Codex is Defined''s unified GraphQL API for real-time blockchain data: token prices, OHLCV bars, trades, liquidity pools, holders, wallet analytics, prediction markets and launchpad data across 100+ EV'
@@ -163,11 +163,11 @@ overview: 'Defined publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Defined''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
-random_paper: 63
+random_paper: 54
 score:
   band: developing
   composite: 50.9
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -175,7 +175,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 46.8
+  previous_composite: 50.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -186,8 +186,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/screenshots/defined-2026-07-25T211823.png
 security:

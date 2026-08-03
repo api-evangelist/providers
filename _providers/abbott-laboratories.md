@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 14
 common:
@@ -107,11 +107,11 @@ press:
 - date: '2026-05-25'
   title: Abbott Reports First-Quarter 2026 Results; Updates ...
   url: https://www.prnewswire.com/news-releases/abbott-reports-first-quarter-2026-results-updates-guidance-to-reflect-acquisition-of-exact-sciences-302744652.html
-random_paper: 0
+random_paper: 68
 score:
   band: minimal
   composite: 11.9
-  delta: -3.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -119,15 +119,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.4
+  previous_composite: 11.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/screenshots/abbott-laboratories-2026-06-20T163122.png
 security:

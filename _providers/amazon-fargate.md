@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -407,7 +407,7 @@ plans:
 - name: Amazon Fargate Plans Pricing
   plan_count: 3
   slug: amazon-fargate-plans-pricing
-random_paper: 27
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Amazon Fargate Rate Limits
@@ -430,17 +430,17 @@ rules:
     warn: 18
   slug: amazon-fargate-spectral-rules
 score:
-  band: strong
-  composite: 62.1
-  delta: -7.0
+  band: developing
+  composite: 52.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.3
+    contract_quality: 33.3
     developer_ergonomics: 45.7
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 69.1
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -448,9 +448,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/screenshots/amazon-fargate-2026-06-20T171646.png
 security:
 - kind: authentication

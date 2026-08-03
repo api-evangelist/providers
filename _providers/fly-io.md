@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 35.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -251,7 +251,7 @@ plans:
 - name: Fly Io Plans Pricing
   plan_count: 8
   slug: fly-io-plans-pricing
-random_paper: 18
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Fly Io Rate Limits
@@ -275,16 +275,16 @@ rules:
   slug: fly-io-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.4
-  delta: -3.3
+  composite: 46.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 78.2
+    contract_quality: 80.1
     developer_ergonomics: 13.0
     discoverability: 50.0
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 49.7
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -292,8 +292,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/screenshots/fly-io-2026-06-20T181357.png
 security:

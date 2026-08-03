@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: Shutterstock Plans Pricing
   plan_count: 3
   slug: shutterstock-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Shutterstock Rate Limits
@@ -174,16 +174,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.7
-  delta: -4.2
+  composite: 49.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 76.3
+    contract_quality: 81.5
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 51.9
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +191,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/screenshots/shutterstock-2026-06-20T193851.png
 security:

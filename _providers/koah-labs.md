@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Beta REST API for Koah publisher team accounts. Resource-oriented URLs, JSON responses, standard HTTP verbs and status codes, Bearer token authentication. Covers publisher CRUD and daily reporting for
@@ -164,11 +164,11 @@ overview: 'Koah Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Koah Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 22 more developer resources.'
-random_paper: 62
+random_paper: 27
 score:
   band: thin
   composite: 35.1
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -176,13 +176,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 34.2
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koah-labs/refs/heads/main/screenshots/koah-labs-2026-07-25T224018.png
 security:

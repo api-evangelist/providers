@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: 'A model by Leonard Richardson that breaks down the maturity of a RESTful API into four levels: Level 0 (The Swamp of POX), Level 1 (Resources), Level 2 (HTTP Verbs), and Level 3 (Hypermedia Controls /'
@@ -101,7 +101,7 @@ plans:
 - name: Restful Plans Pricing
   plan_count: 3
   slug: restful-plans-pricing
-random_paper: 35
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Restful Rate Limits
@@ -118,7 +118,7 @@ rules:
 score:
   band: emerging
   composite: 27.8
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 12.9
@@ -126,9 +126,9 @@ score:
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 32.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 27.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restful/refs/heads/main/screenshots/restful-2026-06-20T193020.png
 security:

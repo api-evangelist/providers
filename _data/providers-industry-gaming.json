@@ -708,8 +708,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 46,
-   "shown": 46,
+   "count": 48,
+   "shown": 48,
    "providers": [
     {
      "name": "Neon Commerce",
@@ -869,6 +869,44 @@
      "rank": 21
     },
     {
+     "name": "Gamesight",
+     "slug": "gamesight",
+     "description": "Gamesight is a performance marketing platform for PC and console games, giving game publishers the data, technology, and expertise to reach players across a title's lifecycle. Its Marketing Measurement suite delivers attribution for PC, console, and web games, cost aggregation from ad networks, and incrementality testing, while its Creator Marketing products run influencer campaigns, creator programs, and creator-led playtests. Developers integrate via a REST Measurement (ingest) API that streams in-game events with device identifiers, a Reporting API that pulls marketing analytics into a data warehouse, and a web measurement JavaScript SDK. The platform processes over a billion gaming data points daily and is SOC 2, GDPR, and CCPA compliant.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png",
+     "score": 54.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 62.0,
+      "governance": 20.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 52.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 22
+    },
+    {
      "name": "Blockade Games",
      "slug": "blockade-games",
      "description": "Blockade Games (operating as Blockade Labs) is the maker of Skybox AI, an AI-powered platform that generates production-ready 360 equirectangular panoramas and skyboxes from text prompts, along with depth maps for 3D scenes. It offers a public REST API for asynchronous skybox generation, style selection, remixing, history, and multi-format exports, with delivery via webhooks and Pusher realtime events. First-party SDKs ship for JavaScript/TypeScript (npm), PHP/Laravel (Packagist), and Unity (C#), plus engine and tool integrations for Blender, Unreal, Godot, Roblox, SketchUp, and Figma. The product serves game, VR/AR, film, e-commerce, and education teams.",
@@ -904,7 +942,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Ludo.ai",
@@ -942,7 +980,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Riot Games",
@@ -980,7 +1018,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Heroic Labs",
@@ -1018,7 +1056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Chess.com",
@@ -1055,7 +1093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Gameye",
@@ -1093,7 +1131,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "SpAItial",
@@ -1130,7 +1168,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Uthana",
@@ -1167,7 +1205,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Blizzard Entertainment",
@@ -1200,44 +1238,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 30
-    },
-    {
-     "name": "Gamesight",
-     "slug": "gamesight",
-     "description": "Gamesight is a performance marketing platform for PC and console games, giving game publishers the data, technology, and expertise to reach players across a title's lifecycle. Its Marketing Measurement suite delivers attribution for PC, console, and web games, cost aggregation from ad networks, and incrementality testing, while its Creator Marketing products run influencer campaigns, creator programs, and creator-led playtests. Developers integrate via a REST Measurement (ingest) API that streams in-game events with device identifiers, a Reporting API that pulls marketing analytics into a data warehouse, and a web measurement JavaScript SDK. The platform processes over a billion gaming data points daily and is SOC 2, GDPR, and CCPA compliant.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png",
-     "score": 51.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 62.0,
-      "governance": 20.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 52.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -2225,6 +2225,43 @@
      "rank": 56
     },
     {
+     "name": "Parsec",
+     "slug": "parsec",
+     "description": "Parsec is a high-performance, low-latency remote desktop and interactive video streaming product, now a Unity company, used to access graphics-intensive and latency-sensitive applications from anywhere across any device. Its peer-to-peer architecture streams in silky-smooth high definition and is used by game studios (EA, Ubisoft, Blizzard, Square Enix), film/TV, animation, broadcast and architecture teams. Parsec for Teams adds organization-wide administration, and the Parsec for Teams API exposes that admin surface — managing members, groups, team machines (computers), time-limited guest access, application rules, relays, and the team audit log — authenticated with an API key presented as an HTTP Bearer token and governed by a granular team permission model.",
+     "score": 45.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 15.5,
+      "governance": 20.8,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 45.1,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 38.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 57
+    },
+    {
      "name": "Sequence",
      "slug": "sequence",
      "description": "Sequence is a web3 developer platform (0xsequence, now part of Polygon Labs) for building blockchain applications: smart-contract wallets, a universal crypto payments and swap layer, a real-time multi-chain Indexer with balances, token prices, contract events and webhooks, plus Metadata, Marketplace, Transactions (Relayer) and Analytics APIs. Its backend APIs are webrpc-generated (POST /rpc/{Service}/{Method}) authenticated with a project access key and secret JWT, and it ships first-party SDKs for TypeScript, Go, Unity, Unreal, Kotlin and Swift plus a CLI. Backed by a16z and Polychain.",
@@ -2266,7 +2303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Curse",
@@ -2304,7 +2341,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Battle.net",
@@ -2342,7 +2379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "DMarket",
@@ -2387,7 +2424,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 61
+    },
+    {
+     "name": "Sorare",
+     "slug": "sorare",
+     "description": "Sorare is a global fantasy sports platform for football (soccer), NBA basketball and MLB baseball built on blockchain-based digital collectible player cards stored on Ethereum and a StarkWare rollup. Its public developer surface is a single GraphQL API at https://api.sorare.com/graphql covering cards, users, auctions, offers and real-time subscriptions. The API supports JWT authentication (via the signIn mutation, with TOTP 2FA), OAuth 2.0 (Authorization Code and Client Credentials), and optional API keys for elevated rate limits, plus StarkWare payload signing for on-chain trading actions.",
+     "score": 44.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 3.1,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 40.8,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 39.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 62
     },
     {
      "name": "PokéAPI",
@@ -2432,44 +2506,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 63
     },
     {
-     "name": "Parsec",
-     "slug": "parsec",
-     "description": "Parsec is a high-performance, low-latency remote desktop and interactive video streaming product, now a Unity company, used to access graphics-intensive and latency-sensitive applications from anywhere across any device. Its peer-to-peer architecture streams in silky-smooth high definition and is used by game studios (EA, Ubisoft, Blizzard, Square Enix), film/TV, animation, broadcast and architecture teams. Parsec for Teams adds organization-wide administration, and the Parsec for Teams API exposes that admin surface — managing members, groups, team machines (computers), time-limited guest access, application rules, relays, and the team audit log — authenticated with an API key presented as an HTTP Bearer token and governed by a granular team permission model.",
-     "score": 42.8,
+     "name": "Gameflip",
+     "slug": "gameflip",
+     "description": "Gameflip is a digital marketplace where gamers buy and sell games, in-game items, gift cards, game accounts, boosting/coaching gigs, and other digital goods, backed by an escrow-style buyer guarantee and a built-in wallet. For developers and power sellers, Gameflip publishes the GFAPI — a JSON REST API (base path /api/v1) for creating and managing listings, searching the marketplace, running exchanges (sell/buy records), reading account profiles and wallet history, and handling Steam item escrow and bulk trade-offer listings. Requests are authenticated with an API key plus a rotating TOTP one-time password sent in the Authorization header (`GFAPI <apikey>:<totp>`). Access is Beta and gated: API keys and TOTP secrets are issued to selected developers through Gameflip support / account settings. An official Node.js client library (gfapi) with sample code is published by Gameflip.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/screenshots/gameflip-2026-07-25T215417.png",
+     "score": 42.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 15.5,
-      "governance": 20.8,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 45.1,
-      "commercial_clarity": 60.5
+      "contract_quality": 60.5,
+      "governance": 11.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 34.2
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 38.1,
-     "agent_band": "agent-ready",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
+      "agentic_access": false,
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Photon Engine",
@@ -2506,7 +2588,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 65
     }
    ]
   },
@@ -2515,8 +2597,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 73,
-   "shown": 73,
+   "count": 71,
+   "shown": 71,
    "providers": [
     {
      "name": "Curie",
@@ -2554,7 +2636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "Pokémon TCG API",
@@ -2591,7 +2673,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 67
     },
     {
      "name": "Blender",
@@ -2629,7 +2711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 68
     },
     {
      "name": "GameAnalytics",
@@ -2667,7 +2749,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 69
     },
     {
      "name": "Amiibo API",
@@ -2705,7 +2787,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 70
     },
     {
      "name": "Luma AI",
@@ -2743,7 +2825,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 71
     },
     {
      "name": "Helika",
@@ -2781,7 +2863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 72
     },
     {
      "name": "Highrise",
@@ -2819,52 +2901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
-    },
-    {
-     "name": "Gameflip",
-     "slug": "gameflip",
-     "description": "Gameflip is a digital marketplace where gamers buy and sell games, in-game items, gift cards, game accounts, boosting/coaching gigs, and other digital goods, backed by an escrow-style buyer guarantee and a built-in wallet. For developers and power sellers, Gameflip publishes the GFAPI — a JSON REST API (base path /api/v1) for creating and managing listings, searching the marketplace, running exchanges (sell/buy records), reading account profiles and wallet history, and handling Steam item escrow and bulk trade-offer listings. Requests are authenticated with an API key plus a rotating TOTP one-time password sent in the Authorization header (`GFAPI <apikey>:<totp>`). Access is Beta and gated: API keys and TOTP secrets are issued to selected developers through Gameflip support / account settings. An official Node.js client library (gfapi) with sample code is published by Gameflip.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/screenshots/gameflip-2026-07-25T215417.png",
-     "score": 40.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 60.5,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "PandaScore",
@@ -2902,7 +2939,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "Unity",
@@ -2940,7 +2977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "IGDB",
@@ -2978,7 +3015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Looking Glass",
@@ -3016,7 +3053,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "LootLocker",
@@ -3051,43 +3088,6 @@
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 77
-    },
-    {
-     "name": "Sorare",
-     "slug": "sorare",
-     "description": "Sorare is a global fantasy sports platform for football (soccer), NBA basketball and MLB baseball built on blockchain-based digital collectible player cards stored on Ethereum and a StarkWare rollup. Its public developer surface is a single GraphQL API at https://api.sorare.com/graphql covering cards, users, auctions, offers and real-time subscriptions. The API supports JWT authentication (via the signIn mutation, with TOTP 2FA), OAuth 2.0 (Authorization Code and Client Credentials), and optional API keys for elevated rate limits, plus StarkWare payload signing for on-chain trading actions.",
-     "score": 40.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 3.1,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 40.8,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 39.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -3879,6 +3879,51 @@
      "rank": 98
     },
     {
+     "name": "LootRush",
+     "slug": "lootrush",
+     "description": "LootRush is a gaming and crypto platform (backed by Paradigm) that publishes a Partner API for marketplace integrations: initiating and tracking on-chain cryptocurrency withdrawals, querying a user's transaction and activity history, and OAuth-style consented access to user data via a Connect API. LootRush also runs a published, read-only Model Context Protocol (MCP) server at mcp.lootrush.com that lets an AI assistant read the key-holder's own balance, cards, card transactions, and account history — every call scoped to the API key's user. Authentication is per-user bearer tokens (Withdraw, History, MCP) and integration API keys (Connect).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/screenshots/lootrush-2026-07-25T225545.png",
+     "score": 36.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 64.0,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 51.6,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 26.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 56.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 99
+    },
+    {
      "name": "Fortnite Tracker",
      "slug": "fortnite",
      "description": "Fortnite Tracker, by Tracker Network, exposes a small REST API surface (api.fortnitetracker.com/v1) covering player profile lifetime stats, regional leaderboards, competitive power rankings, the rotating in-game store, and the weekly challenges feed for Fortnite. Authentication is a single TRN-Api-Key header obtained from the Fortnite Tracker site. The service has reached a silent end-of-life in recent years (some endpoints are intermittently unavailable) but remains the canonical community profile of how Tracker Network packages Epic Games' Fortnite telemetry as a developer API.",
@@ -3913,7 +3958,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 100
     },
     {
      "name": "Sky Mavis",
@@ -3957,7 +4002,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "BetSolutions",
@@ -3995,7 +4040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Meshy",
@@ -4033,7 +4078,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "Voidpet",
@@ -4070,7 +4115,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "Banuba",
@@ -4108,7 +4153,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "Vectary",
@@ -4145,7 +4190,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Freeverse",
@@ -4176,51 +4221,6 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 106
-    },
-    {
-     "name": "LootRush",
-     "slug": "lootrush",
-     "description": "LootRush is a gaming and crypto platform (backed by Paradigm) that publishes a Partner API for marketplace integrations: initiating and tracking on-chain cryptocurrency withdrawals, querying a user's transaction and activity history, and OAuth-style consented access to user data via a Connect API. LootRush also runs a published, read-only Model Context Protocol (MCP) server at mcp.lootrush.com that lets an AI assistant read the key-holder's own balance, cards, card transactions, and account history — every call scoped to the API key's user. Authentication is per-user bearer tokens (Withdraw, History, MCP) and integration API keys (Connect).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/screenshots/lootrush-2026-07-25T225545.png",
-     "score": 34.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 64.0,
-      "governance": 11.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 51.6,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 26.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 56.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -4615,6 +4615,43 @@
      "rank": 117
     },
     {
+     "name": "Smashgg",
+     "slug": "smashgg",
+     "description": "Smashgg (now start.gg, following its acquisition by Microsoft) is a competitive-gaming and esports platform for running tournaments, brackets, and leagues across fighting games and other titles. Its public developer API is a single GraphQL endpoint (https://api.start.gg/gql/alpha) exposing tournaments, events, entrants, sets, phases, standings, players, and users, plus mutations for reporting set results and managing seeding and brackets. Authentication is via personal access tokens (Bearer, 1-year expiry) or OAuth 2.0 authorization-code tokens scoped to a user. The original smash.gg domain now redirects to start.gg.",
+     "score": 31.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 19.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 118
+    },
+    {
      "name": "jService",
      "slug": "jservice",
      "description": "jService is an open source Ruby on Rails trivia API that serves approximately 200,000 Jeopardy! questions, answers, and categories scraped from the J! Archive fan site. The original public deployment at jservice.io is no longer operational, but the project (sottenad/jService, MIT licensed) remains available for self-hosting against PostgreSQL. The API exposes random clues, final Jeopardy clues, filtered clue queries, category listings, single-category lookup, and invalid-clue reporting under /api/*.",
@@ -4650,7 +4687,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 119
     },
     {
      "name": "The Promenade",
@@ -4687,7 +4724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 120
     },
     {
      "name": "Mojang",
@@ -4725,7 +4762,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 121
     },
     {
      "name": "Nanome",
@@ -4769,7 +4806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 122
     },
     {
      "name": "WAX",
@@ -4813,7 +4850,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 123
     },
     {
      "name": "SideQuest",
@@ -4845,50 +4882,6 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 123
-    },
-    {
-     "name": "VersusGame",
-     "slug": "versusgame",
-     "description": "VersusGame (branded \"Versus\") is an interactive gaming and audience-engagement company whose AI content-gamification engine turns publisher articles, live broadcasts and on-demand video into embeddable prediction games. Its flagship MiniGames product drops contextual, content-native games into partner sites via embed widgets, and its VersusLM AI system generates prediction games from arbitrary media. The platform layers real-time prediction, social competition, leaderboards, virtual wallets, coin/ticket economies, prize payouts and contextual \"seamless ads\" on top of partner content to drive longer sessions, repeat visits and incremental revenue. A single production REST API at api.versusgame.com exposes 239 operations across game creation, gameplays, gamesets, leaderboards, widgets, creators, playlists, wallets, ledger, payments/payouts and an autogame AI pipeline. Publicly named partners include ABC, Microsoft, Disney, BuzzFeed, Billboard, ESPN and UFC.",
-     "score": 30.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 38.0,
-      "governance": 20.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 39.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 53.6,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "verified",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -5123,33 +5116,40 @@
      "rank": 130
     },
     {
-     "name": "Smashgg",
-     "slug": "smashgg",
-     "description": "Smashgg (now start.gg, following its acquisition by Microsoft) is a competitive-gaming and esports platform for running tournaments, brackets, and leagues across fighting games and other titles. Its public developer API is a single GraphQL endpoint (https://api.start.gg/gql/alpha) exposing tournaments, events, entrants, sets, phases, standings, players, and users, plus mutations for reporting set results and managing seeding and brackets. Authentication is via personal access tokens (Bearer, 1-year expiry) or OAuth 2.0 authorization-code tokens scoped to a user. The original smash.gg domain now redirects to start.gg.",
-     "score": 28.9,
+     "name": "VersusGame",
+     "slug": "versusgame",
+     "description": "VersusGame (branded \"Versus\") is an interactive gaming and audience-engagement company whose AI content-gamification engine turns publisher articles, live broadcasts and on-demand video into embeddable prediction games. Its flagship MiniGames product drops contextual, content-native games into partner sites via embed widgets, and its VersusLM AI system generates prediction games from arbitrary media. The platform layers real-time prediction, social competition, leaderboards, virtual wallets, coin/ticket economies, prize payouts and contextual \"seamless ads\" on top of partner content to drive longer sessions, repeat visits and incremental revenue. A single production REST API at api.versusgame.com exposes 239 operations across game creation, gameplays, gamesets, leaderboards, widgets, creators, playlists, wallets, ledger, payments/payouts and an autogame AI pipeline. Publicly named partners include ABC, Microsoft, Disney, BuzzFeed, Billboard, ESPN and UFC.",
+     "score": 28.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 12.5,
+      "contract_quality": 38.0,
+      "governance": 11.5,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 34.2
+      "developer_ergonomics": 12.5,
+      "commercial_clarity": 21.1
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 19.6,
-     "agent_band": "agent-aware",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 39.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.5,
+     "agent_band": "agent-ready",
      "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": "derived",
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
       "auth_clarity": true,
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -319,7 +319,7 @@ plans:
 - name: Bigpanda Plans Pricing
   plan_count: 3
   slug: bigpanda-plans-pricing
-random_paper: 2
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Bigpanda Rate Limits
@@ -342,17 +342,17 @@ rules:
     warn: 21
   slug: bigpanda-spectral-rules
 score:
-  band: strong
-  composite: 56.2
-  delta: -7.0
+  band: developing
+  composite: 47.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 59.6
+    contract_quality: 25.1
     developer_ergonomics: 45.7
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 63.2
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -360,9 +360,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/screenshots/bigpanda-2026-06-20T173234.png
 security:
 - kind: authentication

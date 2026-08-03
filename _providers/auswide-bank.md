@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -146,7 +146,7 @@ overview: 'Auswide Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Auswide Bank''s developer surface includes authentication, documentation, support, and 16 more developer resources.'
-random_paper: 63
+random_paper: 71
 scopes:
 - name: Auswide Bank Scopes
   scope_count: 5
@@ -154,16 +154,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.0
-  delta: -4.3
+  composite: 38.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 27.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 42.3
+  previous_composite: 38.9
   provenance:
     conformance: derived
     contracts:
@@ -179,8 +179,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/screenshots/auswide-bank-2026-07-21T114702.png
 security:

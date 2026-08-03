@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Decentralized JSON-RPC + WebSocket API for the Angstrom DEX. Every Angstrom node runs its own JSON-RPC server (there is no single central API); a load-balanced HTTPS/WebSocket endpoint is recommended '
@@ -124,11 +124,11 @@ overview: 'Sorella Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Sorella Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 69
+random_paper: 77
 score:
   band: emerging
   composite: 23.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -136,7 +136,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 24.0
+  previous_composite: 23.5
   provenance:
     conformance: first-party
   regulatory:
@@ -145,8 +145,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

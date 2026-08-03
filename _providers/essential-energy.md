@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 4
@@ -188,11 +188,11 @@ overview: 'Essential Energy publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Essential Energy''s developer surface includes developer portal, documentation, authentication, code examples, support, engineering blog, and 24 more developer resources.'
-random_paper: 23
+random_paper: 48
 score:
   band: thin
   composite: 28.5
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -200,7 +200,7 @@ score:
     discoverability: 92.6
     governance: 22.9
     operational_transparency: 10.5
-  previous_composite: 32.8
+  previous_composite: 28.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -211,8 +211,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

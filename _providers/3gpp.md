@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 53.4
-  scored_at: '2026-07-28'
+  score: 49.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 1
@@ -545,7 +545,7 @@ overview: '3GPP publishes 116 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   3GPP''s developer surface includes authentication, documentation, developer portal, tooling, engineering blog, changelog, support, and 28 more developer resources.'
-random_paper: 50
+random_paper: 93
 scopes:
 - name: 3Gpp Scopes
   scope_count: 6
@@ -553,16 +553,16 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.8
-  delta: 3.1
+  composite: 48.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 48.9
+    contract_quality: 51.8
     developer_ergonomics: 56.0
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 44.7
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -579,8 +579,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 75.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

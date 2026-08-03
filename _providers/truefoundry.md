@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -26,11 +26,8 @@ agentic_access:
   operation_count: 14
   slug: truefoundry-agentic-access
   summary_line: 14 operations · 10 acting
-api_count: 5
+api_count: 13
 apis:
-- description: The TrueFoundry AI Gateway API is a proxy layer that sits between applications and LLM providers, enabling unified access to 1000+ language models through a single OpenAI-compatible endpoint. It suppo
-  name: TrueFoundry AI Gateway API
-  slug: truefoundry-ai-gateway-api
 - description: The TrueFoundry MCP (Model Context Protocol) Gateway provides a centralized registry and proxy for managing MCP servers accessible to AI agents. It handles authentication, access control, schema valid
   name: TrueFoundry MCP Gateway API
   slug: truefoundry-mcp-gateway-api
@@ -43,7 +40,34 @@ apis:
 - description: 'The TrueFoundry Model Registry provides a versioned repository for storing and managing machine learning models backed by cloud storage such as S3, GCS, Azure Blob, or Minio. It supports programmatic '
   name: TrueFoundry Model Registry API
   slug: truefoundry-model-registry-api
-artifact_total: 49
+- description: Speech and audio processing
+  name: TrueFoundry Audio API
+  slug: truefoundry-audio-api
+- description: Batch request processing
+  name: TrueFoundry Batches API
+  slug: truefoundry-batches-api
+- description: Chat completion operations for LLM conversation
+  name: TrueFoundry Chat API
+  slug: truefoundry-chat-api
+- description: Text embedding operations
+  name: TrueFoundry Embeddings API
+  slug: truefoundry-embeddings-api
+- description: File upload and management
+  name: TrueFoundry Files API
+  slug: truefoundry-files-api
+- description: Image generation and manipulation
+  name: TrueFoundry Images API
+  slug: truefoundry-images-api
+- description: Available model listing
+  name: TrueFoundry Models API
+  slug: truefoundry-models-api
+- description: Content moderation
+  name: TrueFoundry Moderations API
+  slug: truefoundry-moderations-api
+- description: Reranking for search relevance
+  name: TrueFoundry Rerank API
+  slug: truefoundry-rerank-api
+artifact_total: 57
 collections:
 - collection_type: postman
   name: TrueFoundry AI Gateway Audio API
@@ -76,6 +100,10 @@ collections:
   name: TrueFoundry AI Gateway API
   slug: open-truefoundry-ai-gateway
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/truefoundry/overview
 - group: other
   title: ''
   type: AgentCard
@@ -218,18 +246,18 @@ modified: '2026-05-19'
 name: TrueFoundry
 nav: Providers
 network: true
-overview: 'TrueFoundry publishes 1 API on the [APIs.io](https://apis.io/) network: AI Gateway API. Tagged areas include AI Platform, Enterprise AI, Kubernetes, LLM Gateway, and MLOps.
+overview: 'TrueFoundry publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Batches API, Chat API, and 6 more. Tagged areas include AI Platform, Enterprise AI, Kubernetes, LLM Gateway, and MLOps.
 
 
   The TrueFoundry catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TrueFoundry''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, changelog, signup flow, and 12 more developer resources.'
+  TrueFoundry''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, changelog, signup flow, and 13 more developer resources.'
 plans:
 - name: Truefoundry Plans Pricing
   plan_count: 4
   slug: truefoundry-plans-pricing
-random_paper: 75
+random_paper: 83
 rate_limits:
 - limit_count: 6
   name: Truefoundry Rate Limits
@@ -253,16 +281,16 @@ rules:
   slug: truefoundry-rules
 score:
   band: strong
-  composite: 58.1
-  delta: -6.2
+  composite: 61.7
+  delta: 0.9
   facets:
     commercial_clarity: 57.9
-    contract_quality: 62.9
-    developer_ergonomics: 47.8
+    contract_quality: 73.7
+    developer_ergonomics: 52.2
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 64.3
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     contracts:
@@ -270,9 +298,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/screenshots/truefoundry-2026-06-20T195805.png
 security:
 - kind: authentication

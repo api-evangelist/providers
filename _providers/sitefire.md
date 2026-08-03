@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Book Demo API from Sitefire — 2 operation(s) for book demo.
@@ -115,19 +115,19 @@ overview: 'Sitefire publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Sitefire''s developer surface includes changelog, documentation, quickstart, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 39
+random_paper: 4
 score:
   band: developing
-  composite: 42.2
-  delta: -0.5
+  composite: 43.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 54.2
+    contract_quality: 58.1
     developer_ergonomics: 41.3
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 42.7
+  previous_composite: 43.2
   provenance:
     contracts:
       callable: 100.0
@@ -136,8 +136,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

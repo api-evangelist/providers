@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-07-28'
+  score: 50.7
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: RESTful access to ERCOT Market Information List (EMIL) public data products — 106 documented endpoints spanning real-time and day-ahead locational marginal prices, settlement point prices, SCED system
@@ -217,7 +217,7 @@ overview: 'ERCOT publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   ERCOT''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, signup flow, support, and 29 more developer resources.'
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Ercot Rate Limits
@@ -229,20 +229,20 @@ scopes:
   summary_line: 3 scopes · password
 score:
   band: developing
-  composite: 49.1
-  delta: -5.9
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.6
+    contract_quality: 70.5
     developer_ergonomics: 53.8
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 57.9
-  previous_composite: 55.0
+  previous_composite: 54.7
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -253,10 +253,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 56.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+    score: 67.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Ercot Authentication

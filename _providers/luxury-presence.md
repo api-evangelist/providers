@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-07-28'
+  score: 47.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 24
@@ -178,19 +178,19 @@ overview: 'Luxury Presence publishes 5 APIs on the [APIs.io](https://apis.io/) n
 
 
   Luxury Presence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 37
+random_paper: 75
 score:
   band: developing
-  composite: 48.9
-  delta: -1.6
+  composite: 49.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.4
+    contract_quality: 66.2
     developer_ergonomics: 69.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 50.5
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,8 +201,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/screenshots/luxury-presence-2026-07-25T225740.png
 security:

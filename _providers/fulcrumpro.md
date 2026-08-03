@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 340
   human_in_the_loop: 5
@@ -483,19 +483,19 @@ overview: 'Fulcrumpro publishes 109 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Fulcrumpro''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 18 more developer resources.'
-random_paper: 37
+random_paper: 58
 score:
   band: developing
-  composite: 46.7
-  delta: 0.4
+  composite: 47.9
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 48.1
+    contract_quality: 52.7
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 46.3
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -506,8 +506,8 @@ score:
       total: 109
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/screenshots/fulcrumpro-2026-07-25T215252.png
 security:

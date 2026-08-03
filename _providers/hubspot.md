@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.4
-  scored_at: '2026-07-28'
+  score: 56.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 3
@@ -7916,7 +7916,7 @@ plans:
 - name: Hubspot Plans Pricing
   plan_count: 4
   slug: hubspot-plans-pricing
-random_paper: 35
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Hubspot Rate Limits
@@ -7953,16 +7953,16 @@ scopes:
   summary_line: 16 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 77.3
-  delta: -3.1
+  composite: 77.6
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 85.7
+    contract_quality: 86.9
     developer_ergonomics: 87.0
     discoverability: 40.7
     governance: 47.9
     operational_transparency: 78.9
-  previous_composite: 80.4
+  previous_composite: 77.6
   provenance:
     agentic_access: derived
     contracts:
@@ -7970,8 +7970,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 56
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png
 security:

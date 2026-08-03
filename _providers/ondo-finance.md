@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -262,23 +262,23 @@ overview: 'Ondo Finance publishes 26 APIs on the [APIs.io](https://apis.io/) net
 
 
   Ondo Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 25 more developer resources.'
-random_paper: 53
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Ondo Finance Rate Limits
   slug: ondo-finance-rate-limits
 score:
   band: developing
-  composite: 51.3
-  delta: -4.3
+  composite: 52.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 57.9
+    contract_quality: 62.1
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 60.5
-  previous_composite: 55.6
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,8 +295,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

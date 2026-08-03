@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Ibisworld Plans Pricing
   plan_count: 3
   slug: ibisworld-plans-pricing
-random_paper: 73
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Ibisworld Rate Limits
@@ -148,16 +148,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.6
-  delta: -2.3
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.4
+    contract_quality: 60.7
     developer_ergonomics: 28.3
     discoverability: 64.8
     governance: 10.4
     operational_transparency: 31.6
-  previous_composite: 44.9
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

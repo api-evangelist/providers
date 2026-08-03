@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Volkswagen Plans Pricing
   plan_count: 3
   slug: volkswagen-plans-pricing
-random_paper: 23
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Volkswagen Rate Limits
@@ -202,17 +202,17 @@ rules:
     warn: 5
   slug: volkswagen-rules
 score:
-  band: developing
-  composite: 55.8
-  delta: -3.6
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 77.4
+    contract_quality: 79.1
     developer_ergonomics: 26.1
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 59.4
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/screenshots/volkswagen-2026-06-20T201131.png
 security:

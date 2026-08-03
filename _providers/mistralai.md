@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 11
 apis:
 - description: Chat completion API for conversational AI using Mistral's language models, with function calling, streaming, and JSON / structured output.
@@ -66,6 +66,10 @@ apis:
   slug: mistral-ai-audio-transcription-api
 artifact_total: 13
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mistral-ai/overview
 - group: auth
   title: ''
   type: DomainSecurity
@@ -193,24 +197,24 @@ network: true
 overview: 'Mistral AI publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Large Language Models, Generative AI, and Machine Learning.
 
 
-  Mistral AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 64
+  Mistral AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+random_paper: 16
 score:
   band: thin
-  composite: 36.1
-  delta: -0.4
+  composite: 37.0
+  delta: 0.9
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
-    developer_ergonomics: 58.7
+    developer_ergonomics: 63.0
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 44.7
-  previous_composite: 36.5
+  previous_composite: 36.1
   provenance:
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

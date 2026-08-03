@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -236,24 +236,24 @@ overview: 'Typeface publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Typeface''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 26 more developer resources.'
-random_paper: 29
+random_paper: 89
 scopes:
 - name: Typeface Scopes
   scope_count: 4
   slug: typeface-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 55.9
-  delta: 1.1
+  band: strong
+  composite: 56.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.6
+    contract_quality: 66.5
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 34.2
-  previous_composite: 54.8
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -264,8 +264,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

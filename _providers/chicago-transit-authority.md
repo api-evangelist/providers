@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -184,23 +184,23 @@ plans:
 - name: Chicago Transit Authority Plans Pricing
   plan_count: 3
   slug: chicago-transit-authority-plans-pricing
-random_paper: 40
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Chicago Transit Authority Rate Limits
   slug: chicago-transit-authority-rate-limits
 score:
   band: developing
-  composite: 43.7
-  delta: -3.0
+  composite: 43.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.7
+    contract_quality: 63.6
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 46.7
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -214,8 +214,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/screenshots/chicago-transit-authority-2026-06-20T174303.png
 security:

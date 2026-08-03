@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ plans:
 - name: University Of Warsaw Plans Pricing
   plan_count: 2
   slug: university-of-warsaw-plans-pricing
-random_paper: 36
+random_paper: 91
 rate_limits:
 - limit_count: 1
   name: University Of Warsaw Rate Limits
@@ -194,7 +194,7 @@ rules:
 score:
   band: developing
   composite: 44.0
-  delta: -5.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 73.2
@@ -202,7 +202,7 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -216,9 +216,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png
 security:
 - kind: authentication

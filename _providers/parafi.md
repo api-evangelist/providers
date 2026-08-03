@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,19 +148,19 @@ overview: 'Parafi publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Parafi''s developer surface includes documentation, API reference, getting-started guide, support, authentication, engineering blog, and 14 more developer resources.'
-random_paper: 53
+random_paper: 57
 score:
   band: thin
-  composite: 37.8
-  delta: -3.1
+  composite: 38.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 44.8
+    contract_quality: 49.5
     developer_ergonomics: 60.9
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 40.9
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -177,8 +177,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

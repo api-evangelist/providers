@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.5
-  scored_at: '2026-07-28'
+  score: 59.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1203
   human_in_the_loop: 31
@@ -4119,7 +4119,7 @@ plans:
 - name: Github Plans Pricing
   plan_count: 3
   slug: github-plans-pricing
-random_paper: 69
+random_paper: 73
 rate_limits:
 - limit_count: 8
   name: Github Rate Limits
@@ -4151,16 +4151,16 @@ rules:
   slug: github-spectral-rules
 score:
   band: exemplar
-  composite: 71.6
-  delta: -3.4
+  composite: 72.4
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 78.5
+    contract_quality: 81.7
     developer_ergonomics: 71.7
     discoverability: 59.3
     governance: 41.7
     operational_transparency: 92.1
-  previous_composite: 75.0
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
     contracts:
@@ -4168,8 +4168,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 356
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/screenshots/github-2026-06-20T181834.png
 security:

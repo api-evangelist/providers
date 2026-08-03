@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ overview: 'Pushbullet publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Pushbullet''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 30
+random_paper: 51
 scopes:
 - name: Pushbullet Scopes
   scope_count: 1
@@ -152,16 +152,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 31.9
-  delta: -0.7
+  composite: 31.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 63.6
+    contract_quality: 62.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.6
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +175,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 40.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/screenshots/pushbullet-2026-06-20T192316.png
 security:

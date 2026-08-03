@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ overview: 'Bank of Ireland (UK) publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Bank of Ireland (UK)''s developer surface includes authentication, getting-started guide, developer portal, documentation, support, and 25 more developer resources.'
-random_paper: 79
+random_paper: 9
 scopes:
 - name: Bank Of Ireland Uk Scopes
   scope_count: 4
@@ -190,16 +190,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.4
-  delta: -2.0
+  composite: 47.3
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 50.6
+    contract_quality: 59.7
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 47.4
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -216,8 +216,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/screenshots/bank-of-ireland-uk-2026-07-25T202335.png
 security:

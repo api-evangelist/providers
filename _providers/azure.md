@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ plans:
 - name: Azure Plans Pricing
   plan_count: 5
   slug: azure-plans-pricing
-random_paper: 59
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Azure Rate Limits
@@ -257,17 +257,17 @@ scopes:
   slug: azure-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 57.5
-  delta: -6.7
+  band: developing
+  composite: 49.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 53.4
+    contract_quality: 22.9
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 64.2
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     contracts:
@@ -275,9 +275,9 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/screenshots/azure-2026-06-20T172833.png
 security:
 - kind: authentication

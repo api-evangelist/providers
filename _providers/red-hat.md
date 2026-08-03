@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.1
-  scored_at: '2026-07-28'
+  score: 59.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -1201,7 +1201,7 @@ plans:
 - name: Red Hat Plans Pricing
   plan_count: 1
   slug: red-hat-plans-pricing
-random_paper: 21
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Red Hat Rate Limits
@@ -1233,16 +1233,16 @@ rules:
   slug: red-hat-spectral-rules
 score:
   band: exemplar
-  composite: 69.9
-  delta: -0.3
+  composite: 70.4
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 75.5
+    contract_quality: 77.4
     developer_ergonomics: 78.3
     discoverability: 59.3
     governance: 53.1
     operational_transparency: 68.4
-  previous_composite: 70.2
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1252,8 +1252,8 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192716.png
 security:

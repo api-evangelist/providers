@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ plans:
 - name: Stooq Plans Pricing
   plan_count: 1
   slug: stooq-plans-pricing
-random_paper: 74
+random_paper: 91
 rate_limits:
 - limit_count: 1
   name: Stooq Rate Limits
@@ -131,16 +131,16 @@ rules:
   slug: stooq-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.0
-  delta: -2.3
+  composite: 39.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 66.1
+    contract_quality: 69.0
     developer_ergonomics: 17.4
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 41.3
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stooq/refs/heads/main/screenshots/stooq-2026-06-20T194600.png
 security:

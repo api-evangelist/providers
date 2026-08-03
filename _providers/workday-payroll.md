@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1007,7 +1007,7 @@ plans:
 - name: Workday Payroll Plans Pricing
   plan_count: 1
   slug: workday-payroll-plans-pricing
-random_paper: 27
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Workday Payroll Rate Limits
@@ -1031,16 +1031,16 @@ rules:
   slug: workday-payroll-spectral-rules
 score:
   band: strong
-  composite: 60.0
-  delta: -3.2
+  composite: 60.4
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 82.7
+    contract_quality: 84.1
     developer_ergonomics: 37.0
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 63.2
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1048,8 +1048,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png
 security:

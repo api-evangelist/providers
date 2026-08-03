@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -55,11 +55,11 @@ overview: 'firsthand is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   firsthand''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 61
+random_paper: 13
 score:
   band: minimal
   composite: 7.2
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -67,15 +67,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.2
+  previous_composite: 7.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 5.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firsthand/refs/heads/main/screenshots/firsthand-2026-07-25T214618.png
 slug: firsthand

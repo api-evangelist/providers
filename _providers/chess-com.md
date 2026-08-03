@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -249,7 +249,7 @@ plans:
 - name: Chess Com Plans Pricing
   plan_count: 5
   slug: chess-com-plans-pricing
-random_paper: 78
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Chess Com Rate Limits
@@ -273,16 +273,16 @@ rules:
   slug: chess-com-rules
 score:
   band: developing
-  composite: 52.5
-  delta: -4.0
+  composite: 53.4
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 56.5
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -290,8 +290,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/screenshots/chess-com-2026-06-20T174300.png
 security:

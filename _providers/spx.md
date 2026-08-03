@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ press:
 - date: '2026-05-25'
   title: SPX FLOW and Siemens collaborate on revolutionary ...
   url: https://www.prnewswire.com/news-releases/spx-flow-and-siemens-collaborate-on-revolutionary-digital-twin-and-ai-product-design-302363262.html
-random_paper: 19
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Spx Rate Limits
@@ -174,16 +174,16 @@ rules:
   slug: spx-rules
 score:
   band: developing
-  composite: 42.2
-  delta: -4.2
+  composite: 43.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 10.9
     discoverability: 57.4
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 46.4
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +191,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/screenshots/spx-2026-06-20T194423.png
 security:

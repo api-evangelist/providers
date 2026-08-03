@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -1403,7 +1403,7 @@ plans:
 - name: Google Analytics Plans Pricing
   plan_count: 2
   slug: google-analytics-plans-pricing
-random_paper: 10
+random_paper: 35
 rate_limits:
 - limit_count: 10
   name: Google Analytics Rate Limits
@@ -1433,15 +1433,15 @@ scopes:
 score:
   band: strong
   composite: 64.6
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.5
+    contract_quality: 68.8
     developer_ergonomics: 63.0
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 67.5
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1449,8 +1449,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/screenshots/google-analytics-2026-07-25T220105.png
 security:

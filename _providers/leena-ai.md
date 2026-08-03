@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: AI Colleague run metrics.
@@ -193,7 +193,7 @@ overview: 'Leena AI publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Leena AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 26
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Leena Ai Rate Limits
@@ -205,16 +205,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.3
-  delta: 0.9
+  composite: 52.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 61.0
+    contract_quality: 58.1
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 52.4
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     contracts:
@@ -224,8 +224,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/screenshots/leena-ai-2026-07-25T224821.png
 security:

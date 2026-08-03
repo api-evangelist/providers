@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -318,7 +318,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases Archive
   url: https://www.sabre.com/releases/
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Sabre Rate Limits
@@ -342,16 +342,16 @@ rules:
   slug: sabre-rules
 score:
   band: developing
-  composite: 53.3
-  delta: -3.9
+  composite: 53.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 75.5
+    contract_quality: 77.4
     developer_ergonomics: 52.2
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 57.2
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -359,8 +359,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/screenshots/sabre-2026-06-20T193316.png
 security:

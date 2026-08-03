@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The Traceloop SDK is the developer-facing entry point for OpenLLMetry. A single Traceloop.init() call configures OpenTelemetry, registers all available LLM/vector-DB/framework instrumentations, and st
@@ -106,11 +106,11 @@ overview: 'OpenLLMetry publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   OpenLLMetry''s developer surface includes documentation, engineering blog, getting-started guide, and 8 more developer resources.'
-random_paper: 63
+random_paper: 71
 score:
   band: minimal
   composite: 10.8
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -118,9 +118,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 10.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openllmetry/refs/heads/main/screenshots/openllmetry-2026-06-20T191014.png
 security:

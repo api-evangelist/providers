@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -71,11 +71,11 @@ press:
 - date: '2026-05-25'
   title: Philippine Economic Zone Authority
   url: https://www.facebook.com/PEZAPH/posts/-%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A8%F0%9D%90%A7-%F0%9D%90%80%F0%9D%90%A0%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%9E%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%91%F0%9D%90%80-%F0%9D%90%92%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%A7%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-on-26-may-2025-be-aerospace-collins-aerospace/1022466243333653/
-random_paper: 6
+random_paper: 1
 score:
   band: minimal
   composite: 7.4
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -83,9 +83,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 9.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 7.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b-e-aerospace/refs/heads/main/screenshots/b-e-aerospace-2026-06-20T172917.png
 slug: b-e-aerospace

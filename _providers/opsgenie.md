@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 6
@@ -595,7 +595,7 @@ plans:
 - name: Opsgenie Plans Pricing
   plan_count: 5
   slug: opsgenie-plans-pricing
-random_paper: 38
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Opsgenie Rate Limits
@@ -619,16 +619,16 @@ rules:
   slug: opsgenie-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.8
-  delta: -2.6
+  composite: 63.0
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 89.1
+    contract_quality: 89.9
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 65.4
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     contracts:
@@ -636,8 +636,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/screenshots/opsgenie-2026-06-20T191103.png
 security:

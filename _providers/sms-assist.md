@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-07-28'
+  score: 37.6
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: GraphQL API for clients (property owners and managers) to create and track reactive and recurrent work orders, residents, locations, service requests, invoices, proposals, Turn/Reno projects, ratings,
@@ -170,11 +170,11 @@ overview: 'SMS Assist publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SMS Assist''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, changelog, and 20 more developer resources.'
-random_paper: 63
+random_paper: 2
 score:
   band: developing
   composite: 47.7
-  delta: 5.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -182,14 +182,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 47.4
-  previous_composite: 41.8
+  previous_composite: 47.7
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Sms Assist Authentication

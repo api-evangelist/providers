@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.3
-  scored_at: '2026-07-28'
+  score: 63.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 242
   human_in_the_loop: 8
@@ -279,9 +279,9 @@ overview: 'Zoom Phone publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zoom Phone''s developer surface includes authentication, documentation, pricing, SDKs, engineering blog, API reference, getting-started guide, and 47 more developer resources.'
-random_paper: 52
+random_paper: 86
 rate_limits:
-- limit_count: 0
+- limit_count: 8
   name: Zoom Phone Rate Limits
   slug: zoom-phone-rate-limits
 scopes:
@@ -290,17 +290,17 @@ scopes:
   slug: zoom-phone-scopes
   summary_line: 435 scopes · authorizationCode
 score:
-  band: strong
-  composite: 63.0
-  delta: 3.2
+  band: exemplar
+  composite: 68.2
+  delta: 3.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.6
+    contract_quality: 59.4
     developer_ergonomics: 78.3
     discoverability: 83.3
     governance: 20.8
-    operational_transparency: 63.2
-  previous_composite: 59.8
+    operational_transparency: 94.7
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -312,8 +312,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

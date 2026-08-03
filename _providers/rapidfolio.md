@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-07-28'
+  score: 36.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Runner API and Dashboard API for programmatically running procedures, managing runs, submitting human-review decisions, managing API keys, and subscribing to run events via webhooks.
@@ -155,11 +155,11 @@ overview: 'Rapidfolio publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Rapidfolio''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 18 more developer resources.'
-random_paper: 81
+random_paper: 20
 score:
   band: developing
   composite: 46.3
-  delta: 8.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -167,12 +167,12 @@ score:
     discoverability: 77.8
     governance: 12.5
     operational_transparency: 23.7
-  previous_composite: 37.8
+  previous_composite: 46.3
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Rapidfolio Authentication

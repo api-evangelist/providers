@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.4
-  scored_at: '2026-07-28'
+  score: 56.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -1295,7 +1295,7 @@ plans:
 - name: Servicenow Plans Pricing
   plan_count: 1
   slug: servicenow-plans-pricing
-random_paper: 27
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Servicenow Rate Limits
@@ -1332,16 +1332,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 74.6
-  delta: -1.4
+  composite: 75.0
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 77.9
+    contract_quality: 79.7
     developer_ergonomics: 84.8
     discoverability: 66.7
     governance: 63.5
     operational_transparency: 57.9
-  previous_composite: 76.0
+  previous_composite: 75.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1351,8 +1351,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png
 security:

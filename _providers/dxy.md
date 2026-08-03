@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Standardized medical data services from DXY's Open Platform (开放平台) — newly-approved drugs, drug SKU data, drug search, disease search, and hospital/institution search — delivered as REST/JSON endpoint
@@ -79,11 +79,11 @@ overview: 'DXY publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   DXY''s developer surface includes documentation, API reference, support, and 5 more developer resources.'
-random_paper: 13
+random_paper: 56
 score:
   band: emerging
   composite: 16.8
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -91,15 +91,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.8
+  previous_composite: 16.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxy/refs/heads/main/screenshots/dxy-2026-07-25T212552.png
 security:

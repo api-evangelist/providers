@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ plans:
 - name: Bugsnag Plans Pricing
   plan_count: 4
   slug: bugsnag-plans-pricing
-random_paper: 5
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Bugsnag Rate Limits
@@ -357,16 +357,16 @@ rules:
   slug: bugsnag-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.4
-  delta: -3.0
+  composite: 43.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.3
+    contract_quality: 72.9
     developer_ergonomics: 10.9
     discoverability: 50.0
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 45.4
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -374,8 +374,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/screenshots/bugsnag-2026-06-20T173757.png
 security:

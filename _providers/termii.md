@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -119,23 +119,23 @@ plans:
 - name: Termii Plans Pricing
   plan_count: 2
   slug: termii-plans-pricing
-random_paper: 76
+random_paper: 80
 rate_limits:
 - limit_count: 4
   name: Termii Rate Limits
   slug: termii-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: -5.5
+  composite: 33.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.3
+    contract_quality: 60.5
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.6
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -149,9 +149,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/screenshots/termii-2026-06-20T195127.png
 security:
 - kind: authentication

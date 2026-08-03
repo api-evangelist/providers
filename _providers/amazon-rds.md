@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -564,7 +564,7 @@ plans:
 - name: Amazon Rds Plans Pricing
   plan_count: 3
   slug: amazon-rds-plans-pricing
-random_paper: 36
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Amazon Rds Rate Limits
@@ -588,16 +588,16 @@ rules:
   slug: amazon-rds-spectral-rules
 score:
   band: exemplar
-  composite: 68.7
-  delta: -4.5
+  composite: 69.2
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
-    contract_quality: 76.3
+    contract_quality: 78.3
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 73.2
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     contracts:
@@ -605,8 +605,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/screenshots/amazon-rds-2026-06-20T171805.png
 security:

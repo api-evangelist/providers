@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,23 +126,23 @@ press:
 - date: '2026-05-25'
   title: Lowe's deploys First at-scale AI assistant for Retail ...
   url: https://corporate.lowes.com/newsroom/press-releases/lowes-deploys-first-scale-ai-assistant-retail-associates-05-05-25
-random_paper: 62
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Lowes Rate Limits
   slug: lowes-rate-limits
 score:
   band: thin
-  composite: 36.3
-  delta: -2.1
+  composite: 37.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 52.5
+    contract_quality: 56.6
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 38.4
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +150,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/screenshots/lowes-2026-06-20T184736.png
 security:

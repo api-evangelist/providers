@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 30
 apis:
 - description: RSS 2.0 feeds for People.com, the flagship celebrity-and-human-interest brand of People Inc. People.com is the largest property in the portfolio (~187M monthly visits per 2025 estimates). Section feed
@@ -256,7 +256,7 @@ plans:
 - name: Meredith Plans Pricing
   plan_count: 8
   slug: meredith-plans-pricing
-random_paper: 30
+random_paper: 90
 rate_limits:
 - limit_count: 0
   name: Meredith Rate Limits
@@ -281,7 +281,7 @@ rules:
 score:
   band: thin
   composite: 40.8
-  delta: -5.3
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 22.6
@@ -289,10 +289,10 @@ score:
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 46.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 40.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Meredith Domain Security

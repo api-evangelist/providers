@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -158,19 +158,19 @@ overview: 'Indiegogo publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Indiegogo''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 47
+random_paper: 94
 score:
   band: developing
-  composite: 42.5
-  delta: -3.5
+  composite: 43.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.6
+    contract_quality: 61.2
     developer_ergonomics: 45.1
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 46.0
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -187,8 +187,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indiegogo/refs/heads/main/screenshots/indiegogo-2026-07-25T222320.png
 security:

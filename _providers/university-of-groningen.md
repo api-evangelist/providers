@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 542
   human_in_the_loop: 8
@@ -376,7 +376,7 @@ plans:
 - name: University Of Groningen Plans Pricing
   plan_count: 2
   slug: university-of-groningen-plans-pricing
-random_paper: 14
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: University Of Groningen Rate Limits
@@ -400,16 +400,16 @@ rules:
   slug: university-of-groningen-rules
 score:
   band: thin
-  composite: 37.9
-  delta: -4.3
+  composite: 38.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 49.5
+    contract_quality: 53.7
     developer_ergonomics: 13.0
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 42.2
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -423,8 +423,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png
 security:

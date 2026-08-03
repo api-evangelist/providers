@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-07-28'
+  score: 45.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -327,23 +327,23 @@ plans:
 - name: Arthur Online Plans
   plan_count: 3
   slug: arthur-online-plans
-random_paper: 40
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Arthur Online Rate Limits
   slug: arthur-online-rate-limits
 score:
-  band: strong
-  composite: 58.4
-  delta: -5.2
+  band: developing
+  composite: 50.0
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 58.9
+    contract_quality: 25.2
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 21.9
     operational_transparency: 34.2
-  previous_composite: 63.6
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -354,9 +354,9 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Arthur Online Authentication

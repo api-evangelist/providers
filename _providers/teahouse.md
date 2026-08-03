@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Share transaction logs
@@ -134,19 +134,19 @@ overview: 'Teahouse Finance publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Teahouse Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 12 more developer resources.'
-random_paper: 42
+random_paper: 7
 score:
   band: thin
-  composite: 40.0
-  delta: -1.2
+  composite: 40.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 59.3
+    contract_quality: 62.8
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 41.2
+  previous_composite: 40.9
   provenance:
     conformance: derived
     contracts:
@@ -156,8 +156,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -116,23 +116,23 @@ plans:
 - name: Opkit Plans Pricing
   plan_count: 1
   slug: opkit-plans-pricing
-random_paper: 59
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Opkit Rate Limits
   slug: opkit-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: -4.2
+  composite: 32.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 58.1
+    contract_quality: 61.7
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.7
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -146,8 +146,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

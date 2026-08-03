@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ overview: 'chucknorris.io publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   chucknorris.io''s developer surface includes tooling and 10 more developer resources.'
-random_paper: 62
+random_paper: 31
 rules:
 - name: chucknorris.io API Rules
   rule_count: 5
@@ -215,16 +215,16 @@ rules:
   slug: chucknorris-io-rules
 score:
   band: thin
-  composite: 36.7
-  delta: -3.8
+  composite: 37.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 73.4
+    contract_quality: 75.7
     developer_ergonomics: 6.5
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 40.5
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -232,8 +232,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/screenshots/chucknorris-io-2026-06-20T174333.png
 security:

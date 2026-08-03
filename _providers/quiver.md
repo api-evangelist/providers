@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -115,23 +115,23 @@ plans:
 - name: Quiver Plans Pricing
   plan_count: 3
   slug: quiver-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Quiver Rate Limits
   slug: quiver-rate-limits
 score:
   band: developing
-  composite: 42.2
-  delta: -1.6
+  composite: 43.1
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 43.8
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -145,8 +145,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/screenshots/quiver-2026-06-20T192443.png
 security:

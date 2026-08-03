@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-07-28'
+  score: 35.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -156,19 +156,19 @@ overview: 'Lightning Social Ventures publishes 3 APIs on the [APIs.io](https://a
 
 
   Lightning Social Ventures'' developer surface includes API reference, support, signup flow, and 18 more developer resources.'
-random_paper: 39
+random_paper: 16
 score:
   band: thin
-  composite: 34.7
-  delta: -1.9
+  composite: 35.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 47.5
+    contract_quality: 51.9
     developer_ergonomics: 21.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 36.6
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -185,8 +185,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/screenshots/lightning-social-ventures-2026-07-25T225125.png
 security:

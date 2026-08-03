@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-07-28'
+  score: 45.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 11
@@ -8328,7 +8328,7 @@ plans:
 - name: Auth0 Plans Pricing
   plan_count: 4
   slug: auth0-plans-pricing
-random_paper: 72
+random_paper: 7
 rate_limits:
 - limit_count: 9
   name: Auth0 Rate Limits
@@ -8381,16 +8381,16 @@ scopes:
   summary_line: 221 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 67.2
-  delta: -4.5
+  composite: 68.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 64.4
+    contract_quality: 67.7
     developer_ergonomics: 56.5
     discoverability: 50.0
     governance: 62.5
     operational_transparency: 68.4
-  previous_composite: 71.7
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     contracts:
@@ -8398,8 +8398,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/screenshots/auth0-2026-06-20T172604.png
 security:

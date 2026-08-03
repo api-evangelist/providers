@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -351,7 +351,7 @@ plans:
 - name: Spacex Plans Pricing
   plan_count: 2
   slug: spacex-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Spacex Rate Limits
@@ -374,17 +374,17 @@ rules:
     warn: 15
   slug: spacex-rules
 score:
-  band: developing
-  composite: 43.5
-  delta: -7.5
+  band: thin
+  composite: 37.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 57.0
+    contract_quality: 28.5
     developer_ergonomics: 30.4
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 51.0
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -398,9 +398,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png
 security:
 - kind: authentication

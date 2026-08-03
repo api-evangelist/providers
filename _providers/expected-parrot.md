@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -96,11 +96,11 @@ overview: 'Expected Parrot is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Expected Parrot''s developer surface includes documentation, getting-started guide, pricing, authentication, changelog, and 8 more developer resources.'
-random_paper: 1
+random_paper: 39
 score:
   band: emerging
   composite: 21.9
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -108,11 +108,11 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 22.9
+  previous_composite: 21.9
   provenance:
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expected-parrot/refs/heads/main/screenshots/expected-parrot-2026-07-25T213916.png
 security:

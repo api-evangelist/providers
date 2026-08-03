@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-07-28'
+  score: 54.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 1
@@ -302,7 +302,7 @@ overview: 'Lone Wolf Technologies publishes 7 APIs on the [APIs.io](https://apis
 
 
   Lone Wolf Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, and 49 more developer resources.'
-random_paper: 13
+random_paper: 60
 scopes:
 - name: Lone Wolf Scopes
   scope_count: 14
@@ -310,16 +310,16 @@ scopes:
   summary_line: 14 scopes
 score:
   band: developing
-  composite: 48.5
-  delta: -0.7
+  composite: 50.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 56.7
+    contract_quality: 64.6
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 49.2
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -330,8 +330,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

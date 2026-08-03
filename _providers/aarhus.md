@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -260,7 +260,7 @@ plans:
 - name: Aarhus Plans Pricing
   plan_count: 2
   slug: aarhus-plans-pricing
-random_paper: 70
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Aarhus Rate Limits
@@ -284,16 +284,16 @@ rules:
   slug: aarhus-rules
 score:
   band: thin
-  composite: 40.5
-  delta: -4.8
+  composite: 41.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.0
+    contract_quality: 65.5
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 45.3
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -307,8 +307,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aarhus/refs/heads/main/screenshots/aarhus-2026-06-20T163007.png
 security:

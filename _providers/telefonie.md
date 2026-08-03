@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ plans:
 - name: Telefonie Plans Pricing
   plan_count: 1
   slug: telefonie-plans-pricing
-random_paper: 53
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Telefonie Rate Limits
@@ -223,17 +223,17 @@ rules:
     warn: 4
   slug: telefonie-rules
 score:
-  band: developing
-  composite: 55.7
-  delta: -7.6
+  band: strong
+  composite: 56.3
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 66.1
+    contract_quality: 69.0
     developer_ergonomics: 34.8
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 63.3
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -247,9 +247,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 26.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/screenshots/telefonie-2026-06-20T195029.png
 security:
 - kind: authentication

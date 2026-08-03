@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -358,7 +358,7 @@ plans:
 - name: Amazon Data Lifecycle Manager Plans Pricing
   plan_count: 3
   slug: amazon-data-lifecycle-manager-plans-pricing
-random_paper: 78
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Amazon Data Lifecycle Manager Rate Limits
@@ -382,16 +382,16 @@ rules:
   slug: amazon-data-lifecycle-manager-spectral-rules
 score:
   band: exemplar
-  composite: 66.7
-  delta: -4.3
+  composite: 67.1
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 78.8
+    contract_quality: 80.6
     developer_ergonomics: 43.5
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 71.0
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     contracts:
@@ -399,8 +399,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/screenshots/amazon-data-lifecycle-manager-2026-06-20T171613.png
 security:

@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-07-28'
+  score: 24.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -188,9 +188,9 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 36
+random_paper: 66
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Rate Limits
   slug: rate-limits
 rules:
@@ -204,16 +204,16 @@ rules:
   slug: pokt-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: -3.9
+  composite: 50.3
+  delta: 2.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 54.2
+    contract_quality: 56.1
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 51.0
+    operational_transparency: 42.1
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/screenshots/pokt-2026-06-20T191847.png
 security:

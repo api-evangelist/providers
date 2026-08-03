@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
-    openapi_examples: documented
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-07-28'
+  score: 52.5
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The live, anonymous REST API behind the SP Energy Networks Open Data Portal — ScottishPower's regulated distribution and transmission arm publishing its network data under Ofgem's Data Best Practice "
@@ -209,27 +209,27 @@ overview: 'ScottishPower publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   ScottishPower''s developer surface includes authentication, changelog, code examples, API reference, getting-started guide, signup flow, documentation, and 31 more developer resources.'
-random_paper: 44
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Scottishpower Rate Limits
   slug: scottishpower-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: -11.4
+  composite: 40.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 8.1
+    contract_quality: 15.7
     developer_ergonomics: 53.8
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 49.0
+  previous_composite: 40.9
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 1
       marker_coverage: 100.0
       total: 1
@@ -240,10 +240,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 41.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+    score: 52.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Scottishpower Authentication

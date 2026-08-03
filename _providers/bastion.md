@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Bastion''s REST API for regulated stablecoin infrastructure: create and manage custodial wallets, issue and convert stablecoins, run on/off-ramps, and move digital assets, with built-in KYC/AML complia'
@@ -119,11 +119,11 @@ overview: 'Bastion publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Bastion''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 14 more developer resources.'
-random_paper: 14
+random_paper: 87
 score:
   band: thin
   composite: 32.4
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -131,7 +131,7 @@ score:
     discoverability: 79.6
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 35.0
+  previous_composite: 32.4
   provenance:
     conformance: first-party
   regulatory:
@@ -140,8 +140,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bastion/refs/heads/main/screenshots/bastion-2026-07-25T202432.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.7
-  scored_at: '2026-07-28'
+  score: 41.7
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: JWT-authenticated REST API for collecting payments (bank payment initiation, cards, MobilePay, BLIK, BNPL / Hire-Purchase), creating and validating Orders, issuing Refunds, generating Payment Links, o
@@ -194,11 +194,11 @@ overview: 'Montonio publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Montonio''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 63
+random_paper: 28
 score:
   band: developing
   composite: 45.9
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.6
@@ -206,7 +206,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 28.9
-  previous_composite: 45.3
+  previous_composite: 45.9
   provenance:
     conformance: derived
     mcp: derived
@@ -217,8 +217,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

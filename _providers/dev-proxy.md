@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -101,23 +101,23 @@ plans:
 - name: Dev Proxy Plans Pricing
   plan_count: 3
   slug: dev-proxy-plans-pricing
-random_paper: 40
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Dev Proxy Rate Limits
   slug: dev-proxy-rate-limits
 score:
   band: thin
-  composite: 29.2
-  delta: -2.1
+  composite: 30.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 40.7
+    contract_quality: 45.7
     developer_ergonomics: 8.7
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 31.3
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -125,8 +125,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/screenshots/dev-proxy-2026-06-20T175945.png
 security:

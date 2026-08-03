@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 43.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -205,19 +205,19 @@ overview: 'Thriva publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Thriva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 20 more developer resources.'
-random_paper: 80
+random_paper: 84
 score:
   band: developing
-  composite: 45.9
-  delta: -3.1
+  composite: 46.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.0
+    contract_quality: 64.4
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 49.0
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -234,8 +234,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

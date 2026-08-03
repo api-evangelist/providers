@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -1159,7 +1159,7 @@ plans:
 - name: Amazon Connect Plans Pricing
   plan_count: 1
   slug: amazon-connect-plans-pricing
-random_paper: 43
+random_paper: 12
 rate_limits:
 - limit_count: 22
   name: Amazon Connect Rate Limits
@@ -1183,16 +1183,16 @@ rules:
   slug: amazon-connect-spectral-rules
 score:
   band: strong
-  composite: 65.4
-  delta: -9.9
+  composite: 58.6
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
-    contract_quality: 70.8
+    contract_quality: 39.0
     developer_ergonomics: 45.7
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 75.3
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1206,9 +1206,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png
 security:
 - kind: authentication

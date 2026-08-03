@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.7
-  scored_at: '2026-07-28'
+  score: 62.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -703,7 +703,7 @@ plans:
 - name: Aws Lambda Plans Pricing
   plan_count: 7
   slug: aws-lambda-plans-pricing
-random_paper: 1
+random_paper: 35
 rate_limits:
 - limit_count: 13
   name: Aws Lambda Rate Limits
@@ -734,17 +734,17 @@ rules:
     warn: 9
   slug: aws-lambda-spectral-rules
 score:
-  band: strong
-  composite: 65.7
-  delta: 0.1
+  band: exemplar
+  composite: 66.1
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 84.3
+    contract_quality: 86.0
     developer_ergonomics: 32.6
     discoverability: 83.3
     governance: 69.8
     operational_transparency: 47.4
-  previous_composite: 65.6
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -754,8 +754,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/screenshots/aws-lambda-2026-06-20T172758.png
 security:

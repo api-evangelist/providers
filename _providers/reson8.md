@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Exchange an API key for a short-lived access token.
@@ -170,19 +170,19 @@ overview: 'Reson8 publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Reson8''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, authentication, and 21 more developer resources.'
-random_paper: 33
+random_paper: 37
 score:
   band: developing
-  composite: 51.2
-  delta: -1.5
+  composite: 52.0
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 62.7
+    contract_quality: 65.9
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 52.7
+  previous_composite: 52.0
   provenance:
     conformance: derived
     contracts:
@@ -192,8 +192,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

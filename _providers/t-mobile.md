@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: T-Mobile operates a developer portal that provides programmatic access to T-Mobile services for partners, enterprises, and IoT customers. Specific API documentation requires partner registration.
@@ -103,11 +103,11 @@ overview: 'T-Mobile publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   T-Mobile''s developer surface includes product news and 12 more developer resources.'
-random_paper: 55
+random_paper: 33
 score:
   band: emerging
   composite: 19.9
-  delta: 7.9
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 43.2
@@ -115,16 +115,16 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.0
+  previous_composite: 19.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: T Mobile Domain Security

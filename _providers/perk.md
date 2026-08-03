@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.5
-  scored_at: '2026-07-28'
+  score: 48.4
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: 'REST API for Perk travel, expense, invoice, trip, cost-center, event, and card data. Authenticate with an account API key (customers) or OAuth 2.0 (partners); send Api-Version: 1.'
@@ -178,7 +178,7 @@ overview: 'Perk publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Perk''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 24
+random_paper: 54
 scopes:
 - name: Perk Scopes
   scope_count: 0
@@ -187,7 +187,7 @@ scopes:
 score:
   band: developing
   composite: 51.7
-  delta: 7.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 51.6
@@ -195,14 +195,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 57.9
-  previous_composite: 44.5
+  previous_composite: 51.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Perk Authentication

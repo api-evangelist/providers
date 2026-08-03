@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 27
 apis:
 - description: AP bill payment management operations. Bill payments record payments made to carriers and vendors.
@@ -252,7 +252,7 @@ overview: 'MVMNT publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   MVMNT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 70
+random_paper: 87
 scopes:
 - name: Mvmnt Scopes
   scope_count: 1
@@ -260,16 +260,16 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 53.8
-  delta: -4.9
+  composite: 54.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 71.1
+    contract_quality: 75.5
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 58.7
+  previous_composite: 54.8
   provenance:
     conformance: derived
     contracts:
@@ -285,8 +285,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

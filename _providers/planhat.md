@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.8
-  scored_at: '2026-07-28'
+  score: 47.7
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Planhat's REST API for reading and writing every core Customer Platform object — companies, end users, licenses, conversations, notes, tasks, opportunities, deals, sales, invoices, assets, issues, tic
@@ -182,7 +182,7 @@ overview: 'Planhat publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Planhat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 23 more developer resources.'
-random_paper: 6
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Planhat Rate Limits
@@ -190,7 +190,7 @@ rate_limits:
 score:
   band: strong
   composite: 56.0
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.6
@@ -198,13 +198,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 76.3
-  previous_composite: 47.8
+  previous_composite: 56.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Planhat Authentication

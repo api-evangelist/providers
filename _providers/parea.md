@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -167,9 +167,9 @@ plans:
 - name: Parea Plans Pricing
   plan_count: 4
   slug: parea-plans-pricing
-random_paper: 29
+random_paper: 46
 rate_limits:
-- limit_count: 0
+- limit_count: 5
   name: Parea Rate Limits
   slug: parea-rate-limits
 rules:
@@ -188,16 +188,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.7
-  delta: -5.0
+  composite: 50.7
+  delta: 4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.1
+    contract_quality: 65.9
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 5.3
-  previous_composite: 51.7
+    operational_transparency: 36.8
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -205,9 +205,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/screenshots/parea-2026-06-20T191406.png
 security:
 - kind: authentication

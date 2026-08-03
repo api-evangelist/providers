@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ overview: 'Athelas publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Athelas'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 21 more developer resources.'
-random_paper: 0
+random_paper: 73
 scopes:
 - name: Athelas Scopes
   scope_count: 31
@@ -201,16 +201,16 @@ scopes:
   summary_line: 31 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.9
-  delta: 0.7
+  composite: 59.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.2
+    contract_quality: 73.6
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 58.2
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,8 +227,8 @@ score:
     regime: Health
     regime_id: health
     score: 92.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/screenshots/athelas-2026-07-25T201527.png
 security:

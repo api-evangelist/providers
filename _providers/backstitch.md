@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: RESTful JSON API to build and manage backstitch topics — content feeds assembled from social, RSS, video, deals, subreddit, and custom sources with include/exclude/NSFW filters — and to retrieve norma
@@ -120,11 +120,11 @@ overview: 'backstitch publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   backstitch''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 72
+random_paper: 11
 score:
   band: emerging
   composite: 20.0
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
@@ -132,11 +132,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.9
+  previous_composite: 20.0
   provenance:
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstitch/refs/heads/main/screenshots/backstitch-2026-07-25T202231.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -219,9 +219,9 @@ overview: 'USPTO publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   USPTO''s developer surface includes authentication, developer portal, documentation, support, GitHub presence, engineering blog, and 17 more developer resources.'
-random_paper: 46
+random_paper: 93
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Uspto Gov Rate Limits
   slug: uspto-gov-rate-limits
 rules:
@@ -235,16 +235,16 @@ rules:
   slug: uspto-gov-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.3
-  delta: -3.9
+  composite: 40.2
+  delta: 2.3
   facets:
     commercial_clarity: 0.0
-    contract_quality: 69.7
+    contract_quality: 72.3
     developer_ergonomics: 34.8
     discoverability: 50.0
     governance: 68.8
-    operational_transparency: 5.3
-  previous_composite: 41.2
+    operational_transparency: 26.3
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -258,8 +258,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/screenshots/uspto-gov-2026-06-20T200720.png
 security:

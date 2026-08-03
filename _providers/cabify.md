@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -222,19 +222,19 @@ overview: 'Cabify publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cabify''s developer surface includes documentation, getting-started guide, API reference, authentication, sandbox, changelog, support, and 23 more developer resources.'
-random_paper: 48
+random_paper: 52
 score:
   band: developing
-  composite: 54.2
-  delta: -1.8
+  composite: 55.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 69.9
+    contract_quality: 72.9
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 56.0
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,8 +245,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/screenshots/cabify-2026-07-25T204159.png
 security:

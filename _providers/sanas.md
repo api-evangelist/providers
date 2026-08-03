@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-07-28'
+  score: 30.2
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: 'Real-time speech-to-speech translation over a single persistent WebSocket connection, supporting consecutive and simultaneous modes. Authenticated with a JWT bearer token or API key passed as a query '
@@ -162,11 +162,11 @@ overview: 'Sanas publishes 1 API on the [APIs.io](https://apis.io/) network: Str
 
 
   Sanas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 42
+random_paper: 59
 score:
   band: developing
   composite: 50.4
-  delta: 6.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 53.1
@@ -174,12 +174,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 23.7
-  previous_composite: 44.1
+  previous_composite: 50.4
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Sanas Authentication

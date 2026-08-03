@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The Insights API from ClearSlide — 1 operation(s) for insights.
@@ -167,7 +167,7 @@ overview: 'ClearSlide publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ClearSlide''s developer surface includes documentation, API reference, getting-started guide, changelog, support, authentication, and 19 more developer resources.'
-random_paper: 64
+random_paper: 3
 scopes:
 - name: Clearslide Scopes
   scope_count: 2
@@ -175,16 +175,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode/password
 score:
   band: developing
-  composite: 49.0
+  composite: 49.1
   delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 58.5
+    contract_quality: 58.9
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 49.0
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     contracts:
@@ -194,8 +194,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/screenshots/clearslide-2026-07-25T205547.png
 security:

@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
-    idempotency: documented
+    error_semantics: verified
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: derived
-    openapi_examples: false
-    rate_limit_signal: false
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.4
-  scored_at: '2026-07-28'
+  score: 60.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ overview: 'Danske Bank (UK) publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   Danske Bank (UK)''s developer surface includes authentication, sandbox, documentation, getting-started guide, engineering blog, support, and 22 more developer resources.'
-random_paper: 44
+random_paper: 26
 scopes:
 - name: Danske Bank Uk Scopes
   scope_count: 4
@@ -218,16 +218,16 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 45.4
-  delta: -6.2
+  composite: 48.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 51.6
+    contract_quality: 63.7
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 51.6
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,10 +238,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+    score: 72.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/screenshots/danske-bank-uk-2026-07-25T211205.png
 security:
 - kind: authentication

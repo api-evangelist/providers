@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Baxter's DeviceBridge is a cloud-based platform that enables secure data transfer from Baxter medical devices to hospital IT systems including electronic medical records (EMRs). It supports clinical d
@@ -148,7 +148,7 @@ press:
 - date: '2026-05-25'
   title: Baxter CIO Rusty Patel on Resilience and AI in Healthcare
   url: https://www.linkedin.com/posts/peter-high-07a94a1_baxter-cio-rusty-patel-on-connected-care-activity-7370850642262728704-1ZlC
-random_paper: 41
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Baxter International Rate Limits
@@ -165,7 +165,7 @@ rules:
 score:
   band: thin
   composite: 28.4
-  delta: -5.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 12.9
@@ -173,16 +173,16 @@ score:
     discoverability: 59.3
     governance: 31.3
     operational_transparency: 31.6
-  previous_composite: 34.1
+  previous_composite: 28.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/screenshots/baxter-international-2026-06-20T173048.png
 security:
 - kind: domain-security

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -169,23 +169,23 @@ plans:
 - name: Fivetran Plans Pricing
   plan_count: 4
   slug: fivetran-plans-pricing
-random_paper: 43
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Fivetran Rate Limits
   slug: fivetran-rate-limits
 score:
   band: developing
-  composite: 42.7
-  delta: -0.5
+  composite: 43.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 59.9
+    contract_quality: 62.8
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.2
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/screenshots/fivetran-2026-06-20T181255.png
 security:

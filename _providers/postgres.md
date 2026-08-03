@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The PostgreSQL frontend/backend protocol is the low-level message-based protocol used by all client drivers (libpq, JDBC, ODBC, psycopg, pgx, node-postgres, etc.) to communicate with the PostgreSQL se
@@ -100,11 +100,11 @@ overview: 'PostgreSQL publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   PostgreSQL''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 67
+random_paper: 32
 score:
   band: minimal
   composite: 10.5
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -112,9 +112,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 10.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postgres/refs/heads/main/screenshots/postgres-2026-06-20T191955.png
 security:

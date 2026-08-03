@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -194,7 +194,7 @@ overview: 'Archera publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Archera''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 20 more developer resources.'
-random_paper: 70
+random_paper: 61
 scopes:
 - name: Archera Scopes
   scope_count: 4
@@ -202,16 +202,16 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.6
-  delta: -0.1
+  composite: 47.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 40.8
+    contract_quality: 45.9
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 46.7
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,8 +222,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/screenshots/archera-2026-07-25T201044.png
 security:

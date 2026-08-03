@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-07-28'
+  score: 49.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -545,7 +545,7 @@ overview: 'EVE Online publishes 46 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   EVE Online''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, tooling, and 42 more developer resources.'
-random_paper: 26
+random_paper: 60
 rules:
 - name: EVE Online API Rules
   rule_count: 5
@@ -570,16 +570,16 @@ scopes:
   summary_line: 63 scopes · implicit
 score:
   band: developing
-  composite: 48.8
-  delta: -3.6
+  composite: 49.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 58.7
+    contract_quality: 61.7
     developer_ergonomics: 60.9
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 52.4
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -587,8 +587,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/screenshots/eve-online-2026-06-20T180855.png
 security:

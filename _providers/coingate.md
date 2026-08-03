@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -164,23 +164,23 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 22
+random_paper: 82
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: developing
-  composite: 49.9
-  delta: -4.2
+  composite: 50.6
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 61.2
+    contract_quality: 64.5
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 54.1
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +194,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/screenshots/coingate-2026-06-20T174732.png
 security:

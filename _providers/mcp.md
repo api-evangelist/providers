@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 17
 apis:
 - description: The authoritative protocol definition for the Model Context Protocol, maintained at modelcontextprotocol.io and in the modelcontextprotocol/ specification GitHub repository. The TypeScript schema (sch
@@ -228,7 +228,7 @@ overview: 'Model Context Protocol (MCP) publishes 17 APIs on the [APIs.io](https
 
 
   Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 7 more developer resources.'
-random_paper: 74
+random_paper: 35
 rules:
 - name: Model Context Protocol (MCP) API Rules
   rule_count: 6
@@ -241,7 +241,7 @@ rules:
 score:
   band: emerging
   composite: 25.8
-  delta: -6.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 27.4
@@ -249,10 +249,10 @@ score:
     discoverability: 61.1
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 31.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 25.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/screenshots/mcp-2026-06-20T185104.png
 security:
 - kind: domain-security

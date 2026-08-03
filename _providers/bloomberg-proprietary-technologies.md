@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Bloomberg's proprietary socket-based API protocol for accessing Bloomberg data, providing a high-performance connectivity layer between client applications and Bloomberg's data infrastructure.
@@ -103,7 +103,7 @@ plans:
 - name: Bloomberg Proprietary Technologies Plans Pricing
   plan_count: 3
   slug: bloomberg-proprietary-technologies-plans-pricing
-random_paper: 18
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Bloomberg Proprietary Technologies Rate Limits
@@ -111,7 +111,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.8
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 32.3
@@ -119,9 +119,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 35.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-proprietary-technologies/refs/heads/main/screenshots/bloomberg-proprietary-technologies-2026-06-20T173458.png
 security:

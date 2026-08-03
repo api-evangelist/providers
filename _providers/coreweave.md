@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -187,23 +187,23 @@ plans:
 - name: Coreweave Plans Pricing
   plan_count: 1
   slug: coreweave-plans-pricing
-random_paper: 59
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Coreweave Rate Limits
   slug: coreweave-rate-limits
 score:
   band: developing
-  composite: 47.2
-  delta: -1.8
+  composite: 48.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 49.0
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coreweave/refs/heads/main/screenshots/coreweave-2026-06-20T175029.png
 security:

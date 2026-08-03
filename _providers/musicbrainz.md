@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -367,7 +367,7 @@ plans:
 - name: Musicbrainz Plans Pricing
   plan_count: 3
   slug: musicbrainz-plans-pricing
-random_paper: 43
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Musicbrainz Rate Limits
@@ -396,16 +396,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.1
-  delta: -6.6
+  composite: 48.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 66.1
+    contract_quality: 38.4
     developer_ergonomics: 32.6
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 60.7
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:
@@ -419,9 +419,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 64.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png
 security:
 - kind: authentication

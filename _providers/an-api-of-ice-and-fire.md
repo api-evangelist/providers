@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ overview: 'An API of Ice And Fire publishes 4 APIs on the [APIs.io](https://apis
 
 
   An API of Ice And Fire''s developer surface includes documentation and 12 more developer resources.'
-random_paper: 25
+random_paper: 93
 rules:
 - name: An API of Ice And Fire API Rules
   rule_count: 53
@@ -138,16 +138,16 @@ rules:
   slug: an-api-of-ice-and-fire-spectral-rules
 score:
   band: emerging
-  composite: 26.3
-  delta: -5.7
+  composite: 20.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 44.1
+    contract_quality: 15.1
     developer_ergonomics: 8.7
     discoverability: 81.5
     governance: 47.9
     operational_transparency: 5.3
-  previous_composite: 32.0
+  previous_composite: 20.1
   provenance:
     agentic_access: derived
     contracts:
@@ -161,9 +161,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/an-api-of-ice-and-fire/refs/heads/main/screenshots/an-api-of-ice-and-fire-2026-06-20T171942.png
 security:
 - kind: domain-security

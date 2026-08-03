@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: verified
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ overview: 'Rightmove publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Rightmove''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 26 more developer resources.'
-random_paper: 79
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Rightmove Rate Limits
@@ -193,16 +193,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 46.3
-  delta: -0.2
+  composite: 45.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 58.5
+    contract_quality: 55.8
     developer_ergonomics: 60.3
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 46.5
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,8 +213,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

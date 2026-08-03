@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: true
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 7
@@ -242,7 +242,7 @@ plans:
 - name: Universite De Montreal Plans Pricing
   plan_count: 2
   slug: universite-de-montreal-plans-pricing
-random_paper: 45
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Universite De Montreal Rate Limits
@@ -266,16 +266,16 @@ rules:
   slug: universite-de-montreal-rules
 score:
   band: thin
-  composite: 30.6
-  delta: -4.4
+  composite: 31.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 38.7
+    contract_quality: 44.2
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 35.0
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -289,8 +289,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/screenshots/universite-de-montreal-2026-06-20T200115.png
 security:

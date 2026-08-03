@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -280,7 +280,7 @@ plans:
 - name: Amazon Opensearch Service Plans Pricing
   plan_count: 3
   slug: amazon-opensearch-service-plans-pricing
-random_paper: 11
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Amazon Opensearch Service Rate Limits
@@ -303,17 +303,17 @@ rules:
     warn: 13
   slug: amazon-opensearch-service-spectral-rules
 score:
-  band: strong
-  composite: 65.9
-  delta: -3.7
+  band: exemplar
+  composite: 66.5
+  delta: 0.0
   facets:
     commercial_clarity: 86.8
-    contract_quality: 71.7
+    contract_quality: 74.1
     developer_ergonomics: 54.3
     discoverability: 66.7
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 69.6
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     contracts:
@@ -321,8 +321,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/screenshots/amazon-opensearch-service-2026-06-20T171751.png
 security:

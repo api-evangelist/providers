@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
-    openapi_examples: documented
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-07-28'
+  score: 54.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -247,9 +247,9 @@ overview: 'Northern Powergrid publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Northern Powergrid''s developer surface includes authentication, changelog, code examples, sandbox, API reference, getting-started guide, support, and 38 more developer resources.'
-random_paper: 18
+random_paper: 4
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Northern Powergrid Rate Limits
   slug: northern-powergrid-rate-limits
 scopes:
@@ -259,16 +259,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.8
-  delta: -6.1
+  composite: 55.7
+  delta: 2.3
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 58.9
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 44.7
-  previous_composite: 53.9
+    operational_transparency: 65.8
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,9 +280,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Northern Powergrid Authentication

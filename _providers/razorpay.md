@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: flavored
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-07-28'
+  score: 34.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -26,7 +26,7 @@ agentic_access:
   operation_count: 15
   slug: razorpay-agentic-access
   summary_line: 15 operations · 6 acting
-api_count: 3
+api_count: 6
 apis:
 - description: RESTful API covering orders, payments, refunds, customers, tokens, invoices, payment links, virtual accounts, settlements, transfers, subscriptions, and webhooks. Authentication is HTTP Basic using th
   name: Razorpay Core REST API
@@ -37,7 +37,16 @@ apis:
 - description: Event-driven webhook surface that POSTs JSON payloads to a merchant-configured HTTPS endpoint when subscribed events occur across payments, orders, refunds, subscriptions, invoices, settlements, Smart
   name: Razorpay Webhooks
   slug: webhooks
-artifact_total: 12
+- description: The Orders API from Razorpay — 3 operation(s) for orders.
+  name: Razorpay Orders API
+  slug: razorpay-orders-api
+- description: The Payments API from Razorpay — 6 operation(s) for payments.
+  name: Razorpay Payments API
+  slug: razorpay-payments-api
+- description: The Refunds API from Razorpay — 2 operation(s) for refunds.
+  name: Razorpay Refunds API
+  slug: razorpay-refunds-api
+artifact_total: 15
 asyncapis:
 - description: AsyncAPI description of Razorpay's webhook surface. Razorpay POSTs JSON event payloads to a merchant-configured webhook URL whenever a subscribed event occurs (payments, orders, refunds, subscriptions
   name: Razorpay Webhooks
@@ -151,14 +160,14 @@ modified: '2026-05-30'
 name: Razorpay
 nav: Providers
 network: true
-overview: 'Razorpay publishes 2 APIs on the [APIs.io](https://apis.io/) network: Core REST API and Webhooks. Tagged areas include Payments, Payment Gateway, Fintech, India, and UPI.
+overview: 'Razorpay publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core REST API, Webhooks, Orders API, and 2 more. Tagged areas include Payments, Payment Gateway, Fintech, India, and UPI.
 
 
   The Razorpay catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   Razorpay''s developer surface includes sandbox, changelog, authentication, documentation, API reference, pricing, signup flow, and 17 more developer resources.'
-random_paper: 68
+random_paper: 33
 rules:
 - name: Razorpay API Rules
   rule_count: 7
@@ -175,16 +184,16 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 44.0
-  delta: -6.6
+  composite: 45.4
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 59.7
+    contract_quality: 66.2
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 50.6
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -198,9 +207,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/screenshots/razorpay-2026-06-20T192629.png
 security:
 - kind: authentication

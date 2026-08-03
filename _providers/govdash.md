@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -26,8 +26,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-07-28'
+  score: 21.2
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -133,11 +133,11 @@ overview: 'Govdash is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Govdash''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 10
+random_paper: 83
 score:
   band: thin
   composite: 41.3
-  delta: 6.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -145,7 +145,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 18.4
-  previous_composite: 35.2
+  previous_composite: 41.3
   provenance:
     conformance: first-party
   regulatory:
@@ -154,9 +154,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govdash/refs/heads/main/screenshots/govdash-2026-07-25T220126.png
 security:
 - kind: domain-security

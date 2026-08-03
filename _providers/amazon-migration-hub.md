@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -964,7 +964,7 @@ plans:
 - name: Amazon Migration Hub Plans Pricing
   plan_count: 3
   slug: amazon-migration-hub-plans-pricing
-random_paper: 57
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Amazon Migration Hub Rate Limits
@@ -988,16 +988,16 @@ rules:
   slug: amazon-migration-hub-spectral-rules
 score:
   band: strong
-  composite: 62.6
-  delta: -3.3
+  composite: 63.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 72.9
+    contract_quality: 75.2
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 65.9
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1005,8 +1005,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/screenshots/amazon-migration-hub-2026-06-20T171744.png
 security:

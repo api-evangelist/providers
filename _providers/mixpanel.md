@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.4
-  scored_at: '2026-07-28'
+  score: 47.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -574,7 +574,7 @@ plans:
 - name: Mixpanel Plans Pricing
   plan_count: 3
   slug: mixpanel-plans-pricing
-random_paper: 42
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Mixpanel Rate Limits
@@ -598,16 +598,16 @@ rules:
   slug: mixpanel-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 66.0
-  delta: -1.1
+  composite: 66.4
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 79.5
+    contract_quality: 80.8
     developer_ergonomics: 56.5
     discoverability: 48.1
     governance: 41.7
     operational_transparency: 63.2
-  previous_composite: 67.1
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     contracts:
@@ -615,8 +615,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/screenshots/mixpanel-2026-06-20T185622.png
 security:

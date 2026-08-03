@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -221,7 +221,7 @@ press:
 - date: '2026-05-25'
   title: AI Power, LNG Growth Sparking Natural Gas Compression ...
   url: https://naturalgasintel.com/news/ai-power-lng-growth-sparking-natural-gas-compression-boom-for-archrock/
-random_paper: 25
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Archrock Rate Limits
@@ -245,16 +245,16 @@ rules:
   slug: archrock-spectral-rules
 score:
   band: developing
-  composite: 44.0
-  delta: -7.6
+  composite: 44.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 59.3
+    contract_quality: 62.8
     developer_ergonomics: 30.4
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 51.6
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -268,9 +268,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/screenshots/archrock-2026-06-20T172409.png
 security:
 - kind: authentication

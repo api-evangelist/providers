@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,11 +83,11 @@ press:
 - date: '2026-05-25'
   title: 'Hail to the Chief: Nationstar COO Tony Ebers ...'
   url: https://www.facebook.com/TitleQuestInvestments/posts/hail-to-the-chief-nationstar-coo-tony-ebersnationstar-mortgage-holdings-has-notc/1801684699890902/
-random_paper: 21
+random_paper: 41
 score:
   band: minimal
   composite: 4.3
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -95,9 +95,9 @@ score:
     discoverability: 31.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 5.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 4.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationstar-mortgage-holdings/refs/heads/main/screenshots/nationstar-mortgage-holdings-2026-06-20T190050.png
 security:

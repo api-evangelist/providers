@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-07-28'
+  score: 41.9
+  scored_at: '2026-08-03'
 api_count: 14
 apis:
 - description: The 11labs API from KugelAudio — 6 operation(s) for 11labs.
@@ -199,19 +199,19 @@ overview: 'KugelAudio publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   KugelAudio''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 0
+random_paper: 21
 score:
   band: developing
-  composite: 47.2
-  delta: -2.2
+  composite: 48.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 53.9
+    contract_quality: 57.8
     developer_ergonomics: 63.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 49.4
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -227,8 +227,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kugelaudio/refs/heads/main/screenshots/kugelaudio-2026-07-25T224326.png
 security:

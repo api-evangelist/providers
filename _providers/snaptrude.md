@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Client-side JavaScript/TypeScript Plugin API (the `snaptrude` global namespace) for extending the Snaptrude platform. Organized by namespace — Core, Design, Entity, Program, Presentation, Analysis — p
@@ -132,11 +132,11 @@ overview: 'Snaptrude publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Snaptrude''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 14 more developer resources.'
-random_paper: 80
+random_paper: 32
 score:
   band: thin
   composite: 28.0
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -144,9 +144,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 28.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

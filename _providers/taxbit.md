@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'REST API for tax compliance and information reporting: account owners, accounts, transactions, inventory, realized gains, tax documentation (W-8/W-9), filers, form items, disposition methods, transfer'
@@ -167,11 +167,11 @@ overview: 'TaxBit publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   TaxBit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 78
+random_paper: 82
 score:
   band: developing
   composite: 46.2
-  delta: 6.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 51.6
@@ -179,14 +179,14 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 23.7
-  previous_composite: 40.1
+  previous_composite: 46.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Taxbit Authentication

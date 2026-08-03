@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 708
   human_in_the_loop: 4
@@ -421,7 +421,7 @@ overview: 'Cognite publishes 89 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Cognite''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, and 10 more developer resources.'
-random_paper: 7
+random_paper: 80
 rules:
 - name: Cognite API Rules
   rule_count: 5
@@ -445,17 +445,17 @@ scopes:
   slug: cognite-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 41.2
-  delta: -4.1
+  band: developing
+  composite: 42.1
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 69.8
+    contract_quality: 73.3
     developer_ergonomics: 37.0
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 45.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -463,8 +463,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 89
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/screenshots/cognite-2026-06-20T174714.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -228,19 +228,19 @@ overview: 'OPay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cas
 
 
   OPay''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, sandbox, signup flow, and 22 more developer resources.'
-random_paper: 31
+random_paper: 61
 score:
   band: thin
-  composite: 38.8
-  delta: -4.4
+  composite: 39.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 63.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 43.2
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -254,8 +254,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opay/refs/heads/main/screenshots/opay-2026-06-20T190727.png
 security:

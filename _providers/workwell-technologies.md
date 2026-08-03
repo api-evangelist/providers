@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Raw punch records across a date range
@@ -81,19 +81,19 @@ overview: 'Workwell Technologies publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Workwell Technologies'' developer surface includes documentation, API reference, support, engineering blog, and 3 more developer resources.'
-random_paper: 2
+random_paper: 31
 score:
   band: thin
-  composite: 35.2
-  delta: 0.6
+  composite: 36.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 63.6
+    contract_quality: 66.7
     developer_ergonomics: 21.7
     discoverability: 92.6
     governance: 8.3
     operational_transparency: 0.0
-  previous_composite: 34.6
+  previous_composite: 36.0
   provenance:
     contracts:
       callable: 100.0
@@ -101,8 +101,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 slug: workwell-technologies
 tags:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: verified
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: Wallet and bank account registration Every wallet address that interacts with Iron must be registered (linked) to a customer **before** it can be used in any flow — onramp, offramp, or swap. This is a
@@ -239,19 +239,19 @@ overview: 'Unstoppable Finance (Iron) publishes 9 APIs on the [APIs.io](https://
 
 
   Unstoppable Finance (Iron)''s developer surface includes documentation, getting-started guide, authentication, sandbox, CLI, support, pricing, and 25 more developer resources.'
-random_paper: 80
+random_paper: 66
 score:
   band: strong
-  composite: 56.1
-  delta: -4.7
+  composite: 57.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.8
+    contract_quality: 70.9
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 34.2
-  previous_composite: 60.8
+  previous_composite: 57.0
   provenance:
     conformance: first-party
     contracts:
@@ -267,8 +267,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

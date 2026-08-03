@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 16
@@ -181,7 +181,7 @@ overview: 'Cosmo Tech publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Cosmo Tech''s developer surface includes documentation, API reference, support, CLI, authentication, changelog, and 20 more developer resources.'
-random_paper: 26
+random_paper: 60
 scopes:
 - name: Cosmo Tech Scopes
   scope_count: 0
@@ -189,16 +189,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.4
-  delta: -3.5
+  composite: 44.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 46.2
+    contract_quality: 49.5
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 46.9
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,8 +209,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/screenshots/cosmo-tech-2026-07-25T210455.png
 security:

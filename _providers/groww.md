@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ plans:
 - name: Groww Plans
   plan_count: 1
   slug: groww-plans
-random_paper: 74
+random_paper: 91
 rate_limits:
 - limit_count: 7
   name: Groww Rate Limits
@@ -238,16 +238,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.6
-  delta: -1.5
+  composite: 58.7
+  delta: 0.0
   facets:
     commercial_clarity: 65.8
-    contract_quality: 58.5
+    contract_quality: 58.9
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 60.1
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,8 +264,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/screenshots/groww-2026-07-25T220530.png
 security:

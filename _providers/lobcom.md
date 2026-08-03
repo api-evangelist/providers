@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-07-28'
+  score: 53.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -285,19 +285,19 @@ overview: 'Lob.com publishes 30 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lob.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 62
+random_paper: 66
 score:
   band: strong
-  composite: 57.0
-  delta: -1.8
+  composite: 58.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.1
+    contract_quality: 71.4
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 58.8
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,8 +308,8 @@ score:
       total: 30
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/screenshots/lobcom-2026-07-25T225441.png
 security:

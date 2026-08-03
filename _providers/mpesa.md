@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-07-28'
+  score: 43.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 4
@@ -287,23 +287,23 @@ plans:
 - name: Mpesa Plans Pricing
   plan_count: 3
   slug: mpesa-plans-pricing
-random_paper: 42
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Mpesa Rate Limits
   slug: mpesa-rate-limits
 score:
   band: strong
-  composite: 64.9
-  delta: -2.6
+  composite: 65.6
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
-    contract_quality: 62.3
+    contract_quality: 65.5
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 67.5
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,8 +320,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

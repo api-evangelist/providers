@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ plans:
 - name: Trimble Plans Pricing
   plan_count: 1
   slug: trimble-plans-pricing
-random_paper: 13
+random_paper: 86
 rate_limits:
 - limit_count: 1
   name: Trimble Rate Limits
@@ -291,16 +291,16 @@ rules:
   slug: trimble-rules
 score:
   band: developing
-  composite: 50.4
-  delta: -4.3
+  composite: 50.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 76.2
+    contract_quality: 78.2
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 54.7
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -308,8 +308,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/screenshots/trimble-2026-06-20T195713.png
 security:

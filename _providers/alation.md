@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -324,7 +324,7 @@ plans:
 - name: Alation Plans Pricing
   plan_count: 1
   slug: alation-plans-pricing
-random_paper: 6
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Alation Rate Limits
@@ -348,16 +348,16 @@ rules:
   slug: alation-spectral-rules
 score:
   band: developing
-  composite: 49.9
-  delta: -4.9
+  composite: 50.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 70.0
+    contract_quality: 72.2
     developer_ergonomics: 32.6
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 54.8
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     contracts:
@@ -365,8 +365,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/screenshots/alation-2026-06-20T171502.png
 security:

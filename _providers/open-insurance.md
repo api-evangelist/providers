@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-07-28'
+  score: 52.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -201,19 +201,19 @@ overview: 'Open publishes 1 API on the [APIs.io](https://apis.io/) network: Cert
 
 
   Open''s developer surface includes documentation, API reference, authentication, status page, developer portal, getting-started guide, support, and 30 more developer resources.'
-random_paper: 53
+random_paper: 22
 score:
   band: developing
-  composite: 44.9
-  delta: -3.3
+  composite: 48.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 32.3
+    contract_quality: 48.8
     developer_ergonomics: 75.5
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 48.2
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -225,8 +225,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.2
-  scored_at: '2026-07-28'
+  score: 62.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -222,23 +222,23 @@ overview: 'AgentPhone publishes 13 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AgentPhone''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 81
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Agentphone Rate Limits
   slug: agentphone-rate-limits
 score:
   band: developing
-  composite: 49.3
-  delta: -1.6
+  composite: 50.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 65.1
+    contract_quality: 68.3
     developer_ergonomics: 71.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 50.9
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,8 +255,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/screenshots/agentphone-2026-07-25T195242.png
 security:

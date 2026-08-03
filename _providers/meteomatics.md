@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ plans:
 - name: Meteomatics Plans Pricing
   plan_count: 4
   slug: meteomatics-plans-pricing
-random_paper: 31
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Meteomatics Rate Limits
@@ -174,16 +174,16 @@ rules:
   slug: meteomatics-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: -5.2
+  composite: 52.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 74.9
+    contract_quality: 77.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 56.7
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -191,9 +191,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/screenshots/meteomatics-2026-06-20T185254.png
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ overview: 'Keyboardio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Keyboardio''s developer surface includes support, engineering blog, signup flow, pricing, authentication, and 8 more developer resources.'
-random_paper: 81
+random_paper: 20
 scopes:
 - name: Keyboardio Scopes
   scope_count: 4
@@ -105,7 +105,7 @@ scopes:
 score:
   band: emerging
   composite: 19.2
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -113,9 +113,9 @@ score:
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 19.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 19.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

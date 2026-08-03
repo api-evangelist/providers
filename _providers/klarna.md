@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-07-28'
+  score: 50.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -379,7 +379,7 @@ plans:
 - name: Klarna Plans Pricing
   plan_count: 1
   slug: klarna-plans-pricing
-random_paper: 59
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Klarna Rate Limits
@@ -403,16 +403,16 @@ rules:
   slug: klarna-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.3
-  delta: -4.5
+  composite: 37.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 64.1
+    contract_quality: 66.3
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 41.8
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -426,8 +426,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

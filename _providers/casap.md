@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -162,19 +162,19 @@ overview: 'Casap publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Casap''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 28
+random_paper: 45
 score:
   band: developing
-  composite: 43.3
-  delta: -4.9
+  composite: 44.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 48.2
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -191,8 +191,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/screenshots/casap-2026-07-25T204712.png
 security:

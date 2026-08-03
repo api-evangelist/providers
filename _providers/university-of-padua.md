@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-07-28'
+  score: 41.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ plans:
 - name: University Of Padua Plans Pricing
   plan_count: 2
   slug: university-of-padua-plans-pricing
-random_paper: 62
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: University Of Padua Rate Limits
@@ -215,16 +215,16 @@ rules:
   slug: university-of-padua-rules
 score:
   band: thin
-  composite: 37.8
-  delta: -4.3
+  composite: 38.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.0
+    contract_quality: 63.1
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 42.1
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +238,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/screenshots/university-of-padua-2026-06-20T200320.png
 security:

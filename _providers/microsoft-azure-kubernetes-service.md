@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 3
@@ -935,7 +935,7 @@ plans:
 - name: Microsoft Azure Kubernetes Service Plans Pricing
   plan_count: 3
   slug: microsoft-azure-kubernetes-service-plans-pricing
-random_paper: 57
+random_paper: 81
 rate_limits:
 - limit_count: 16
   name: Azure Kubernetes Service Rate Limits
@@ -975,16 +975,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 66.9
-  delta: -2.2
+  composite: 67.6
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 67.8
+    contract_quality: 70.5
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 73.7
-  previous_composite: 69.1
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     contracts:
@@ -992,8 +992,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/screenshots/microsoft-azure-kubernetes-service-2026-06-20T185419.png
 security:

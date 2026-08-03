@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 32.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API to embed IRS-authorized income-tax preparation and e-filing. Create a Column Tax user, obtain a short-lived authenticated URL to launch the embedded filing UI, list a user's tax returns and j
@@ -171,11 +171,11 @@ overview: 'Column Tax publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Column Tax''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, support, engineering blog, and 21 more developer resources.'
-random_paper: 48
+random_paper: 82
 score:
   band: developing
   composite: 45.3
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.6
@@ -183,7 +183,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 28.9
-  previous_composite: 43.1
+  previous_composite: 45.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -193,8 +193,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 46.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/column-tax/refs/heads/main/screenshots/column-tax-2026-07-25T210102.png
 security:

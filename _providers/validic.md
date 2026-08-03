@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -131,23 +131,23 @@ plans:
 - name: Validic Plans Pricing
   plan_count: 3
   slug: validic-plans-pricing
-random_paper: 76
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Validic Rate Limits
   slug: validic-rate-limits
 score:
   band: thin
-  composite: 37.8
-  delta: -4.2
+  composite: 38.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 59.0
+    contract_quality: 60.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.0
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +161,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

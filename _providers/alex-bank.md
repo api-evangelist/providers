@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -180,24 +180,24 @@ overview: 'Alex Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Alex Bank''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 63
+random_paper: 28
 scopes:
 - name: Alex Bank Scopes
   scope_count: 12
   slug: alex-bank-scopes
   summary_line: 12 scopes · authorizationCode
 score:
-  band: thin
-  composite: 41.9
-  delta: -2.5
+  band: developing
+  composite: 42.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 44.4
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -214,8 +214,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/screenshots/alex-bank-2026-07-21T114701.png
 security:

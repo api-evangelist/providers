@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-07-28'
+  score: 37.4
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: HTTP RPC-style API for age gates, age verification, verifiable parental consent, k-ID sessions, and permission management. Methods take the form https://game-api.k-id.com/api/v1/{method} with bearer A
@@ -167,11 +167,11 @@ overview: 'k-ID publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   k-ID''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
-random_paper: 29
+random_paper: 72
 score:
   band: developing
   composite: 49.6
-  delta: 4.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -179,13 +179,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 52.6
-  previous_composite: 44.9
+  previous_composite: 49.6
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/screenshots/k-id-2026-07-25T223350.png
 security:

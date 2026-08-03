@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -755,9 +755,9 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 43
+random_paper: 47
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Rate Limits
   slug: rate-limits
 rules:
@@ -771,16 +771,16 @@ rules:
   slug: hedera-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.8
-  delta: -5.9
+  composite: 49.6
+  delta: 2.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 51.9
+    contract_quality: 56.0
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 5.3
-  previous_composite: 51.7
+    operational_transparency: 26.3
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -788,9 +788,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/screenshots/hedera-2026-06-20T182613.png
 security:
 - kind: domain-security

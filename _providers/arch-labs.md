@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 15
 apis:
 - description: The Accounts API from Arch Labs — 2 operation(s) for accounts.
@@ -170,19 +170,19 @@ overview: 'Arch Labs publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Arch Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 14 more developer resources.'
-random_paper: 57
+random_paper: 22
 score:
   band: developing
-  composite: 47.4
-  delta: 0.7
+  composite: 48.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 48.7
+    contract_quality: 53.9
     developer_ergonomics: 50.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 46.7
+  previous_composite: 48.7
   provenance:
     conformance: first-party
     contracts:
@@ -192,8 +192,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arch-labs/refs/heads/main/screenshots/arch-labs-2026-07-25T201015.png
 security:

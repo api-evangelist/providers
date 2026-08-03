@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ press:
 - date: '2026-05-25'
   title: United Rentals Expands Digital Customer Experience with ...
   url: https://www.businesswire.com/news/home/20260519107330/en/United-Rentals-Expands-Digital-Customer-Experience-with-Equipment-Agent-Launch-in-ChatGPT
-random_paper: 61
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: United Rentals Rate Limits
@@ -213,16 +213,16 @@ rules:
   slug: united-rentals-rules
 score:
   band: developing
-  composite: 47.0
-  delta: -4.4
+  composite: 47.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.6
+    contract_quality: 71.3
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 51.4
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/screenshots/united-rentals-2026-06-20T200042.png
 security:

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for creating and managing autonomous research projects — create a project, manage experts and expert actions, schedule calls with experts, and post call-completion details. Documented on Apid
@@ -75,11 +75,11 @@ overview: 'Bridgetown Research publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Bridgetown Research''s developer surface includes documentation, API reference, and 5 more developer resources.'
-random_paper: 81
+random_paper: 67
 score:
   band: emerging
   composite: 16.2
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
@@ -87,11 +87,11 @@ score:
     discoverability: 79.6
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 16.0
+  previous_composite: 16.2
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridgetown-research/refs/heads/main/screenshots/bridgetown-research-2026-07-25T203816.png
 security:

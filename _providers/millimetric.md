@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -219,23 +219,23 @@ plans:
 - name: Millimetric Plans
   plan_count: 3
   slug: millimetric-plans
-random_paper: 31
+random_paper: 39
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Millimetric Rate Limits
   slug: millimetric-rate-limits
 score:
   band: strong
-  composite: 59.1
-  delta: -0.1
+  composite: 62.6
+  delta: 2.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 64.9
+    contract_quality: 67.9
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 15.8
-  previous_composite: 59.2
+    operational_transparency: 36.8
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,8 +246,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

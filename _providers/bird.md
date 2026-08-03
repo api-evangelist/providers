@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 33.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Bird Plans Pricing
   plan_count: 3
   slug: bird-plans-pricing
-random_paper: 7
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Bird Rate Limits
@@ -196,16 +196,16 @@ rules:
   slug: bird-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: -6.6
+  composite: 48.6
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 66.9
+    contract_quality: 68.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 54.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -219,9 +219,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 38.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/screenshots/bird-2026-06-20T173301.png
 security:
 - kind: authentication

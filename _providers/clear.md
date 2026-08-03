@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ overview: 'CLEAR publishes 1 API on the [APIs.io](https://apis.io/) network: Ver
 
 
   CLEAR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 27
+random_paper: 44
 scopes:
 - name: Clear Scopes
   scope_count: 3
@@ -201,16 +201,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.4
-  delta: -4.3
+  composite: 53.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 60.2
+    contract_quality: 66.7
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 42.1
-  previous_composite: 56.7
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,8 +227,8 @@ score:
     regime: Health
     regime_id: health
     score: 60.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/screenshots/clear-2026-07-25T205532.png
 security:

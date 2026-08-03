@@ -1,0 +1,218 @@
+---
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: true
+    openapi_examples: partial
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 55.0
+  scored_at: '2026-08-03'
+api_count: 2
+apis:
+- description: Live Universal Commerce Protocol (UCP) endpoint exposed over MCP JSON-RPC at https://www.brooklinen.com/api/ucp/mcp, advertised by the store's own /agents.md, /robots.txt and /.well-known/ucp discover
+  name: Brooklinen UCP / MCP Agentic Commerce API
+  slug: brooklinen-ucp-mcp-agentic-commerce-api
+- description: 'Read-only, unauthenticated JSON endpoints over the Brooklinen Shopify storefront, documented by the store itself in /agents.md for agents that only need to read store data without transacting. Covers '
+  name: Brooklinen Shopify Storefront JSON API
+  slug: brooklinen-shopify-storefront-json-api
+artifact_total: 6
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/brooklinen-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.brooklinen.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.brooklinen.com/agents.md
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.brooklinen.com/agents.md
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.brooklinen.com/agents.md
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.brooklinen.com/pages/contact
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.brooklinen.com/pages/faq
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.brooklinen.com/blogs/brookliving
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Brooklinen
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.brooklinen.com/pages/sign-up
+- group: start
+  title: ''
+  type: Login
+  url: https://www.brooklinen.com/account/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.brooklinen.com/policies/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.brooklinen.com/policies/privacy-policy
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/brooklinen-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/brooklinen-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/brooklinen-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/brooklinen-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/brooklinen-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/brooklinen-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/brooklinen-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/brooklinen-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/brooklinen-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/brooklinen-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/brooklinen-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/brooklinen-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brooklinen-storefront-overlay.yaml
+- group: other
+  title: ''
+  type: SecondaryMarketListing
+  url: https://forgeglobal.com/brooklinen_stock/
+created: '2026-08-02'
+description: 'Brooklinen is a direct-to-consumer home essentials brand founded in Brooklyn, New York in 2014 by Rich and Vicki Fulop, selling sheets, duvet covers, comforters, pillows, towels, robes and loungewear direct from the mill to the customer. Brooklinen publishes no traditional developer API program, but its storefront runs on Shopify and exposes a substantial machine-readable agent surface: an agent instruction document at /agents.md (mirrored at /llms.txt), a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp declaring protocol versions 2026-04-08 and 2026-01-23, a live UCP/MCP JSON-RPC endpoint at /api/ucp/mcp for agent-driven catalog search, cart, checkout and order operations, OAuth 2.0 / OIDC customer-account authorization metadata at /.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource, and the read-only Shopify storefront JSON endpoints for products, collections, search suggestions and cart. Checkout explicitly requires contemporaneous
+  human buyer approval.'
+image: https://cdn.shopify.com/s/files/1/0951/7126/files/0126_Shopify_Social_Image.jpg?v=1765839763
+layout: provider
+mcp_servers:
+- description: ''
+  name: brooklinen-mcp.yml
+  slug: brooklinen-mcpyml
+modified: '2026-08-02'
+name: Brooklinen
+nav: Providers
+network: true
+overview: 'Brooklinen publishes 1 API on the [APIs.io](https://apis.io/) network: Shopify Storefront JSON API. Tagged areas include ecommerce, retail, direct-to-consumer, home-goods, and bedding.
+
+
+  Brooklinen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
+random_paper: 30
+scopes:
+- name: Brooklinen Scopes
+  scope_count: 4
+  slug: brooklinen-scopes
+  summary_line: 4 scopes · authorizationCode
+score:
+  band: developing
+  composite: 46.9
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 60.1
+    developer_ergonomics: 58.7
+    discoverability: 87.0
+    governance: 20.8
+    operational_transparency: 5.3
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: first-party
+    skills: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 54.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+security:
+- kind: authentication
+  name: Brooklinen Authentication
+  slug: brooklinen-authentication
+  summary_line: oauth2/openIdConnect/none · 4 schemes
+- kind: domain-security
+  name: Brooklinen Domain Security
+  slug: brooklinen-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: brooklinen
+tags:
+- ecommerce
+- retail
+- direct-to-consumer
+- home-goods
+- bedding
+- shopify
+- agentic-commerce
+- universal-commerce-protocol
+- mcp
+- agent-native
+- catalog
+- checkout
+website: https://www.brooklinen.com/
+---

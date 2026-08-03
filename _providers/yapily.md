@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    idempotency: false
+    event_surface_described: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-07-28'
+  score: 52.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -269,7 +269,7 @@ plans:
 - name: Yapily Plans Pricing
   plan_count: 6
   slug: yapily-plans-pricing
-random_paper: 8
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Yapily Rate Limits
@@ -293,16 +293,16 @@ rules:
   slug: yapily-rules
 score:
   band: developing
-  composite: 54.1
-  delta: -5.3
+  composite: 54.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 75.6
+    contract_quality: 79.2
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 59.4
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     contracts:
@@ -316,9 +316,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/screenshots/yapily-2026-06-20T201736.png
 security:
 - kind: authentication

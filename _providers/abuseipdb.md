@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ plans:
 - name: Abuseipdb Plans Pricing
   plan_count: 4
   slug: abuseipdb-plans-pricing
-random_paper: 41
+random_paper: 88
 rate_limits:
 - limit_count: 25
   name: Abuseipdb Rate Limits
@@ -357,16 +357,16 @@ rules:
   slug: abuseipdb-rules
 score:
   band: exemplar
-  composite: 69.1
-  delta: -3.7
+  composite: 69.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 75.4
+    contract_quality: 77.5
     developer_ergonomics: 60.9
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 72.8
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     contracts:
@@ -374,8 +374,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/screenshots/abuseipdb-2026-06-20T163451.png
 security:

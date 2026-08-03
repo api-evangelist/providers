@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-07-28'
+  score: 28.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ overview: 'Matrix publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Matrix''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 5
+random_paper: 91
 rules:
 - name: Matrix API Rules
   rule_count: 5
@@ -183,16 +183,16 @@ rules:
   slug: matrix-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 31.9
-  delta: -5.8
+  composite: 32.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 59.3
+    contract_quality: 62.8
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 5.3
-  previous_composite: 37.7
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -206,9 +206,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matrix/refs/heads/main/screenshots/matrix-2026-06-20T185038.png
 security:
 - kind: authentication

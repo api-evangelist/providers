@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-07-28'
+  score: 45.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -193,7 +193,7 @@ overview: 'Marriott International publishes 6 APIs on the [APIs.io](https://apis
 
 
   Marriott International''s developer surface includes authentication, support, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 62
+random_paper: 27
 scopes:
 - name: Marriott Scopes
   scope_count: 2
@@ -201,21 +201,24 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 31.5
+  composite: 36.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 50.1
     developer_ergonomics: 27.7
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 10.5
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Marriott Authentication

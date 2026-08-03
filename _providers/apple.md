@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -607,7 +607,7 @@ press:
 - date: '2026-05-25'
   title: Joint statement from Google and Apple
   url: https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/
-random_paper: 38
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Apple Rate Limits
@@ -631,16 +631,16 @@ rules:
   slug: apple-spectral-rules
 score:
   band: strong
-  composite: 63.7
-  delta: -1.9
+  composite: 64.1
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 78.1
+    contract_quality: 79.6
     developer_ergonomics: 45.7
     discoverability: 63.0
     governance: 58.3
     operational_transparency: 57.9
-  previous_composite: 65.6
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     contracts:
@@ -648,8 +648,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'The Boosted.ai (Alfa) API delivers personalized, autonomous market insights and conversational investment research to platforms via API, SDK, or embedded UI. Documented endpoints let a client execute '
@@ -132,11 +132,11 @@ overview: 'Boosted.ai publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Boosted.ai''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 14
+random_paper: 87
 score:
   band: thin
   composite: 30.7
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -144,12 +144,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 10.5
-  previous_composite: 31.1
+  previous_composite: 30.7
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boosted/refs/heads/main/screenshots/boosted-2026-07-25T203622.png
 security:

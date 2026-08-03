@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-07-28'
+  score: 47.1
+  scored_at: '2026-08-03'
 api_count: 11
 apis:
 - description: The Velma 2 Accent Batch API from Modulate — 1 operation(s) for velma 2 accent batch.
@@ -219,23 +219,23 @@ overview: 'Modulate publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Modulate''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 39
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Modulate Rate Limits
   slug: modulate-rate-limits
 score:
   band: strong
-  composite: 58.9
-  delta: -0.2
+  composite: 59.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.1
+    contract_quality: 73.6
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 59.1
+  previous_composite: 59.5
   provenance:
     conformance: first-party
     contracts:
@@ -245,8 +245,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

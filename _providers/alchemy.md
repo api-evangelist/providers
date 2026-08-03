@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-07-28'
+  score: 45.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -321,7 +321,7 @@ plans:
 - name: Alchemy Plans Pricing
   plan_count: 4
   slug: alchemy-plans-pricing
-random_paper: 1
+random_paper: 74
 rate_limits:
 - limit_count: 4
   name: Alchemy Rate Limits
@@ -352,17 +352,17 @@ rules:
     warn: 19
   slug: alchemy-spectral-rules
 score:
-  band: developing
-  composite: 48.2
-  delta: -5.6
+  band: thin
+  composite: 41.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 72.6
+    contract_quality: 45.1
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 53.8
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -370,9 +370,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/screenshots/alchemy-2026-06-20T171514.png
 security:
 - kind: authentication

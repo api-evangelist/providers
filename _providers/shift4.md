@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.1
-  scored_at: '2026-07-28'
+  score: 58.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -223,19 +223,19 @@ overview: 'Shift4 publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Shift4''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, sandbox, and 27 more developer resources.'
-random_paper: 20
+random_paper: 24
 score:
   band: developing
-  composite: 47.6
-  delta: 1.7
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
-    contract_quality: 41.5
+    contract_quality: 74.8
     developer_ergonomics: 77.7
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 45.9
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,8 +252,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

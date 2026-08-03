@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.8
-  scored_at: '2026-07-28'
+  score: 52.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -267,9 +267,9 @@ overview: 'Starlink publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Starlink''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, developer portal, and 41 more developer resources.'
-random_paper: 52
+random_paper: 17
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Starlink Rate Limits
   slug: starlink-rate-limits
 scopes:
@@ -278,17 +278,17 @@ scopes:
   slug: starlink-scopes
   summary_line: 5 scopes · clientCredentials
 score:
-  band: developing
-  composite: 55.1
-  delta: 0.5
+  band: strong
+  composite: 59.8
+  delta: 3.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 53.1
+    contract_quality: 58.7
     developer_ergonomics: 62.5
     discoverability: 83.3
     governance: 11.5
-    operational_transparency: 55.3
-  previous_composite: 54.6
+    operational_transparency: 86.8
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,8 +305,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 75.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

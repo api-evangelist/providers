@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ plans:
 - name: Guidewire Plans Pricing
   plan_count: 1
   slug: guidewire-plans-pricing
-random_paper: 63
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Guidewire Rate Limits
@@ -167,16 +167,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.8
-  delta: -4.1
+  composite: 44.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 76.6
+    contract_quality: 78.1
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 47.9
     operational_transparency: 21.1
-  previous_composite: 47.9
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -190,8 +190,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/screenshots/guidewire-2026-06-20T182433.png
 security:

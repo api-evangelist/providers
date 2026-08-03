@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ plans:
 - name: Oracle Primavera Plans Pricing
   plan_count: 3
   slug: oracle-primavera-plans-pricing
-random_paper: 2
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Oracle Primavera Rate Limits
@@ -226,16 +226,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.4
-  delta: -4.9
+  composite: 62.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.4
+    contract_quality: 67.4
     developer_ergonomics: 54.3
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 66.3
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +243,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/screenshots/oracle-primavera-2026-06-20T191153.png
 security:

@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-07-28'
+  score: 37.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -285,19 +285,19 @@ overview: 'Purplebricks publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Purplebricks'' developer surface includes pricing, engineering blog, YouTube channel, authentication, API reference, signup flow, support, and 42 more developer resources.'
-random_paper: 72
+random_paper: 67
 score:
   band: thin
-  composite: 38.2
+  composite: 39.4
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 51.2
+    contract_quality: 56.0
     developer_ergonomics: 25.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 38.2
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,8 +308,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

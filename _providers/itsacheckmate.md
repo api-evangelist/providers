@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ plans:
 - name: Itsacheckmate Plans Pricing
   plan_count: 3
   slug: itsacheckmate-plans-pricing
-random_paper: 54
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Itsacheckmate Rate Limits
@@ -306,16 +306,16 @@ rules:
   slug: itsacheckmate-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: -7.6
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.9
+    contract_quality: 25.6
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 59.4
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -323,9 +323,9 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/screenshots/itsacheckmate-2026-06-20T183633.png
 security:
 - kind: authentication

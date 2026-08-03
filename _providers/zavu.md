@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.4
-  scored_at: '2026-07-28'
+  score: 58.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 3
@@ -254,23 +254,23 @@ overview: 'Zavu publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Zavu''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 44
+random_paper: 74
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Zavu Rate Limits
   slug: zavu-rate-limits
 score:
-  band: developing
-  composite: 51.9
-  delta: -3.6
+  band: strong
+  composite: 56.1
+  delta: 3.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.1
+    contract_quality: 69.5
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 28.9
-  previous_composite: 55.5
+    operational_transparency: 60.5
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,8 +287,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

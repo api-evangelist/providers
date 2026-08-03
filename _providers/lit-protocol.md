@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ plans:
 - name: Lit Protocol Plans Pricing
   plan_count: 2
   slug: lit-protocol-plans-pricing
-random_paper: 26
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Lit Protocol Rate Limits
@@ -263,16 +263,16 @@ rules:
   slug: lit-protocol-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.6
-  delta: -4.7
+  composite: 33.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 30.1
+    contract_quality: 36.0
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 36.3
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -280,8 +280,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/screenshots/lit-protocol-2026-06-20T184559.png
 security:

@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-07-28'
+  score: 45.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -224,23 +224,23 @@ overview: 'FERC publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ope
 
 
   FERC''s developer surface includes authentication, code examples, changelog, sandbox, developer console, developer portal, documentation, and 35 more developer resources.'
-random_paper: 6
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Ferc Rate Limits
   slug: ferc-rate-limits
 score:
   band: developing
-  composite: 48.8
-  delta: -3.3
+  composite: 46.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 45.2
+    contract_quality: 35.2
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 52.1
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +257,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

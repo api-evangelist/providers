@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.9
-  scored_at: '2026-07-28'
+  score: 60.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 60
@@ -380,19 +380,19 @@ overview: 'DevCycle publishes 25 APIs on the [APIs.io](https://apis.io/) network
 
 
   DevCycle''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 32 more developer resources.'
-random_paper: 27
+random_paper: 87
 score:
   band: strong
-  composite: 64.0
-  delta: 1.3
+  composite: 64.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.2
+    contract_quality: 67.4
     developer_ergonomics: 84.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 62.7
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -403,8 +403,8 @@ score:
       total: 25
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/screenshots/devcycle-2026-07-25T211810.png
 security:

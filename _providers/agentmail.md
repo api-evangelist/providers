@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -283,19 +283,19 @@ overview: 'AgentMail publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AgentMail''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
-random_paper: 44
+random_paper: 91
 score:
   band: developing
-  composite: 51.1
-  delta: -2.6
+  composite: 51.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.5
+    contract_quality: 68.8
     developer_ergonomics: 80.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 53.7
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -312,8 +312,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/screenshots/agentmail-2026-07-25T195240.png
 security:

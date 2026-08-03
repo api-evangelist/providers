@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.6
-  scored_at: '2026-07-28'
+  score: 44.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for security ratings, portfolios, scorecards, factor and issue data, historical scores, industry benchmarks, reporting, and webhook Rules.
@@ -171,11 +171,11 @@ overview: 'SecurityScorecard publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   SecurityScorecard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 79
+random_paper: 78
 score:
   band: developing
   composite: 52.4
-  delta: 6.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -183,12 +183,12 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 45.7
+  previous_composite: 52.4
   provenance:
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Security Scorecard Authentication

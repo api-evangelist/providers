@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 23
 apis:
 - description: The Billing Terms API from Tabs — 1 operation(s) for billing terms.
@@ -250,23 +250,23 @@ overview: 'Tabs publishes 23 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Tabs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 26 more developer resources.'
-random_paper: 16
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Tabs Rate Limits
   slug: tabs-rate-limits
 score:
   band: developing
-  composite: 53.4
-  delta: -0.6
+  composite: 54.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.7
+    contract_quality: 55.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 54.0
+  previous_composite: 54.5
   provenance:
     conformance: derived
     contracts:
@@ -276,8 +276,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

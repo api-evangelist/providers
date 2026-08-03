@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ plans:
 - name: Checkiday Plans Pricing
   plan_count: 5
   slug: checkiday-plans-pricing
-random_paper: 30
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Checkiday Rate Limits
@@ -240,16 +240,16 @@ rules:
   slug: checkiday-rules
 score:
   band: strong
-  composite: 63.2
-  delta: -3.3
+  composite: 63.7
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 75.4
+    contract_quality: 77.5
     developer_ergonomics: 30.4
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 66.5
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
@@ -257,8 +257,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkiday-national-holiday-api/refs/heads/main/screenshots/checkiday-national-holiday-api-2026-06-20T174241.png
 security:

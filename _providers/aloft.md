@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 0
@@ -264,19 +264,19 @@ overview: 'Aloft publishes 36 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aloft''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 20 more developer resources.'
-random_paper: 42
+random_paper: 59
 score:
   band: developing
-  composite: 47.3
-  delta: -1.3
+  composite: 48.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 49.8
+    contract_quality: 54.1
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 48.6
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,8 +287,8 @@ score:
       total: 36
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aloft/refs/heads/main/screenshots/aloft-2026-07-25T195743.png
 security:

@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-07-28'
+  score: 39.9
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: SCE's Customer Data Access (CDA) platform, through which a customer can authorize a registered third party to receive their electric usage and billing data. SCE states on its public third-party page t
@@ -138,19 +138,19 @@ overview: 'Southern California Edison publishes 1 API on the [APIs.io](https://a
 
 
   Southern California Edison''s developer surface includes developer portal, signup flow, documentation, support, authentication, and 18 more developer resources.'
-random_paper: 44
+random_paper: 8
 score:
   band: thin
-  composite: 28.3
-  delta: -1.2
+  composite: 28.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 16.1
+    contract_quality: 14.9
     developer_ergonomics: 34.2
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 29.5
+  previous_composite: 28.1
   provenance:
     conformance: derived
     contracts:
@@ -165,8 +165,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

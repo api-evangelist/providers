@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -34,12 +34,12 @@ apis:
 - description: Bundled by Xoserve as the Supply Point Enquiry service, part of the Gas Enquiry Service (GES). Exposes detailed supply meter point information, filtered by MPRN, address_id or postcode combined with o
   name: Xoserve Supplier API
   slug: xoserve-supplier-api
-- description: Bundled by Xoserve as the Meter Asset Enquiry service. Exposes detailed meter asset information for GB gas meter points, filtered by MPRN and/or MSN (meter serial number). Intended for organisations i
-  name: Xoserve Meter Asset API v1
-  slug: xoserve-meter-asset-api-v1
-- description: Version 2 of the Meter Asset Enquiry API, described by Xoserve as containing additional output fields compared with v1. Same MPRN and MSN filters, same segment-versioned gateway path. This is the vers
-  name: Xoserve Meter Asset API v2
-  slug: xoserve-meter-asset-api-v2
+- description: Xoserve Meter Asset from Xoserve, described in OpenAPI.
+  name: Xoserve Meter Asset (Xoserve Meter Asset Api V1)
+  slug: xoserve-meter-asset-api-v1-openapi
+- description: Xoserve Meter Asset from Xoserve, described in OpenAPI.
+  name: Xoserve Meter Asset (Xoserve Meter Asset Api V2)
+  slug: xoserve-meter-asset-api-v2-openapi
 artifact_total: 18
 common:
 - group: auth
@@ -218,7 +218,7 @@ modified: '2026-07-27'
 name: Xoserve
 nav: Providers
 network: true
-overview: 'Xoserve publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shipper API, Supplier API, Meter Asset API v1, and 1 more. Tagged areas include Energy, United Kingdom, Gas, Utilities, and Energy Markets.
+overview: 'Xoserve publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shipper API, Supplier API, Meter Asset (Xoserve Meter Asset Api V1), and 1 more. Tagged areas include Energy, United Kingdom, Gas, Utilities, and Energy Markets.
 
 
   Xoserve''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, getting-started guide, and 27 more developer resources.'
@@ -226,23 +226,23 @@ plans:
 - name: Xoserve Plans
   plan_count: 4
   slug: xoserve-plans
-random_paper: 42
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Xoserve Rate Limits
   slug: xoserve-rate-limits
 score:
   band: strong
-  composite: 60.0
-  delta: 1.5
+  composite: 60.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 37.3
+    contract_quality: 40.3
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 63.2
-  previous_composite: 58.5
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,8 +259,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 67.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -196,9 +196,9 @@ overview: 'Alinta Energy publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Alinta Energy''s developer surface includes authentication, changelog, documentation, API reference, support, status page, and 29 more developer resources.'
-random_paper: 16
+random_paper: 93
 rate_limits:
-- limit_count: 0
+- limit_count: 7
   name: Alinta Energy Rate Limits
   slug: alinta-energy-rate-limits
 scopes:
@@ -207,17 +207,17 @@ scopes:
   slug: alinta-energy-scopes
   summary_line: 11 scopes · authorizationCode
 score:
-  band: thin
-  composite: 40.8
-  delta: -4.5
+  band: developing
+  composite: 46.1
+  delta: 3.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 45.8
+    contract_quality: 54.3
     developer_ergonomics: 34.2
     discoverability: 83.3
     governance: 11.5
-    operational_transparency: 44.7
-  previous_composite: 45.3
+    operational_transparency: 76.3
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +234,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

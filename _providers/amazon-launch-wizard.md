@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ plans:
 - name: Amazon Launch Wizard Plans Pricing
   plan_count: 3
   slug: amazon-launch-wizard-plans-pricing
-random_paper: 60
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Amazon Launch Wizard Rate Limits
@@ -219,16 +219,16 @@ rules:
   slug: amazon-launch-wizard-spectral-rules
 score:
   band: strong
-  composite: 64.3
-  delta: -3.0
+  composite: 64.9
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 71.2
+    contract_quality: 73.6
     developer_ergonomics: 45.7
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 67.3
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     contracts:
@@ -236,8 +236,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-launch-wizard/refs/heads/main/screenshots/amazon-launch-wizard-2026-06-20T171723.png
 security:

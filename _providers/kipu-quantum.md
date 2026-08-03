@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API and Python SDK for the Kipu Quantum Hub — submit quantum-classical workflows, run pre-built quantum services against 20+ backends, and manage jobs. Authenticated with API keys and OAuth2/OIDC
@@ -113,7 +113,7 @@ overview: 'Kipu Quantum publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Kipu Quantum''s developer surface includes documentation, pricing, signup flow, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 35
+random_paper: 30
 scopes:
 - name: Kipu Quantum Scopes
   scope_count: 12
@@ -122,7 +122,7 @@ scopes:
 score:
   band: emerging
   composite: 21.2
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -130,11 +130,11 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 21.4
+  previous_composite: 21.2
   provenance:
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kipu-quantum/refs/heads/main/screenshots/kipu-quantum-2026-07-25T223849.png
 security:

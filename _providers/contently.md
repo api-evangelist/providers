@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.4
-  scored_at: '2026-07-28'
+  score: 37.4
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST-first JSON API to Contently's vetted creative network and project workflow. Search creators, open NDA-scoped projects, brief and message contributors, submit draft reviews, approve and pay out wo
@@ -155,11 +155,11 @@ overview: 'Contently publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Contently''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 8
+random_paper: 42
 score:
   band: developing
   composite: 50.1
-  delta: 7.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -167,13 +167,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 43.0
+  previous_composite: 50.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contently/refs/heads/main/screenshots/contently-2026-07-25T210335.png
 security:
 - kind: authentication

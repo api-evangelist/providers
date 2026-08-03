@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-07-28'
+  score: 39.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ overview: 'Mattermost publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Mattermost''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 38
+random_paper: 59
 rules:
 - name: Mattermost API Rules
   rule_count: 8
@@ -158,15 +158,15 @@ rules:
 score:
   band: thin
   composite: 38.3
-  delta: -4.8
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 59.1
+    contract_quality: 59.3
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 5.3
-  previous_composite: 43.1
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -180,8 +180,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/screenshots/mattermost-2026-06-20T185042.png
 security:

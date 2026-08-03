@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ press:
 - date: '2025-11-14'
   title: RUCKUS Networks Unveils AI and Wi-Fi 7 Innovations to Elevate Resident Experience and help Optimize Costs for MDU Stakeholders
   url: https://www.commscope.com/press-release-archive/2025/ruckus-networks-unveils-ai-and-wi-fi-7-innovations-to-elevate-resident-experience-and-help-optimize-costs-for-mdu-stakeholders/
-random_paper: 30
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Commscope Holding Rate Limits
@@ -223,16 +223,16 @@ rules:
   slug: commscope-holding-rules
 score:
   band: developing
-  composite: 42.1
-  delta: -3.8
+  composite: 43.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.9
+    contract_quality: 62.4
     developer_ergonomics: 13.0
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 45.9
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -240,8 +240,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/screenshots/commscope-holding-2026-06-20T174823.png
 security:

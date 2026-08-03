@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 17
   slug: moodys-agentic-access
   summary_line: 17 operations · 6 acting
-api_count: 11
+api_count: 14
 apis:
 - description: Moody's Analytics Data Buffet application program interface enables you to retrieve economic, demographic and financial time series directly from the Data Buffet repository, including international an
   name: Moody's Data Buffet API
@@ -72,7 +72,16 @@ apis:
 - description: Bring together real-time news sources, and the best of the business web and social media to empower decision makers. The NewsEdge API provides access to Moody's 24,000+ news sources for integration in
   name: Moody's NewsEdge API
   slug: newsedge-api
-artifact_total: 89
+- description: Moody's Analytics AutoCycle API from Moody's — 3 path(s) described in OpenAPI.
+  name: Moody's Analytics AutoCycle API
+  slug: moodys-autocycle-api-swagger
+- description: Moody's Analytics Muni Loss Forecast API from Moody's — 2 path(s) described in OpenAPI.
+  name: Moody's Analytics Muni Loss Forecast API
+  slug: moodys-municipal-api-swagger
+- description: Moody's Scenario Studio Api from Moody's — 57 path(s) described in OpenAPI.
+  name: Moody's Scenario Studio Api
+  slug: moodys-scenario-studio-api-swagger
+artifact_total: 92
 collections:
 - collection_type: postman
   name: Moody's Data Buffet Baskets API
@@ -436,7 +445,7 @@ modified: '2026-07-25'
 name: Moody's
 nav: Providers
 network: true
-overview: 'Moody''s publishes 1 API on the [APIs.io](https://apis.io/) network: Data Buffet API. Tagged areas include Climate Risk, Compliance, Credit Risk, Economic Data, and Entity Verification.
+overview: 'Moody''s publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data Buffet API, Analytics AutoCycle API, Analytics Muni Loss Forecast API, and 1 more. Tagged areas include Climate Risk, Compliance, Credit Risk, Economic Data, and Entity Verification.
 
 
   The Moody''s catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -463,7 +472,7 @@ press:
 - date: '2026-05-25'
   title: Moody's Advances Decision-Grade Credit Intelligence ...
   url: https://www.businesswire.com/news/home/20260421137955/en/Moodys-Advances-Decision-Grade-Credit-Intelligence-Across-Enterprise-AI-Workflows-Powered-by-Microsoft-365-Copilot
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Moodys Rate Limits
@@ -492,16 +501,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 66.6
-  delta: -3.4
+  composite: 66.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.2
+    contract_quality: 70.5
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 50.0
-  previous_composite: 70.0
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -518,8 +527,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:

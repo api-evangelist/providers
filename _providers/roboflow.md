@@ -1,0 +1,247 @@
+---
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_card: false
+    agent_skills: true
+    agentic_access: derived
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: documented
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 45.9
+  scored_at: '2026-08-03'
+agentic_access:
+- acting_count: 30
+  human_in_the_loop: 0
+  name: Roboflow Agentic Access
+  operation_count: 39
+  slug: roboflow-agentic-access
+  summary_line: 39 operations · 30 acting
+api_count: 3
+apis:
+- description: 'The OpenAPI-described inference surface of the Roboflow platform. Runs trained Roboflow models plus a catalog of foundation models — CLIP and Perception Encoder embeddings, Grounding DINO, YOLO-World '
+  name: Roboflow Inference Server API
+  slug: inference
+- description: The authoritative management interface to the Roboflow platform — workspaces, projects, dataset versions, image upload and annotation, training jobs, model evaluations, Workflows, folders, vision even
+  name: Roboflow REST API
+  slug: rest
+- description: Roboflow's hosted, remote Model Context Protocol server. Exposes 67 tools across agent chat, projects, images, annotation, batches, dataset versions, model training, model evaluations, Workflows, edge
+  name: Roboflow MCP Server
+  slug: mcp
+artifact_total: 10
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/roboflow-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://roboflow.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.roboflow.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.roboflow.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.roboflow.com/reference/platform/rest-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.roboflow.com/guides/model-training
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.roboflow.com/platform/support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.roboflow.com/
+- group: operate
+  title: ''
+  type: Community
+  url: https://discuss.roboflow.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.roboflow.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/roboflow
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://roboflow.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.roboflow.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://roboflow.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://roboflow.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.roboflow.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/roboflow-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/roboflow-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/roboflow-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/roboflow-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/roboflow-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/roboflow-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/roboflow-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/roboflow-cli.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/roboflow-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/roboflow-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/roboflow-error-codes.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/roboflow-rate-limits.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/roboflow-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://roboflow.com/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/roboflow-trust-center.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/roboflow-data-model.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/roboflow-agentic-access.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-08-02'
+description: Roboflow is a computer vision platform used by over one million engineers to annotate images, train custom models, and deploy them to production from the cloud to the edge. The platform spans dataset management and AI-assisted labeling, model training (RF-DETR, YOLO and NAS architectures), evaluation with mAP and confusion-matrix analysis, and low-code Workflows that compose models with logic and visualization into deployable pipelines. Deployment options include a serverless hosted inference API, dedicated deployments, batch processing, self-hosted Docker inference servers, in-browser inference, and managed edge devices. Roboflow Universe publishes a large open library of community datasets and models. Developers reach the platform through a REST API, a Python SDK and CLI, an OpenAPI-described inference server, and a hosted OAuth-protected MCP server paired with first-party Agent Skills.
+image: https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/670954c541fe7e67c3d2cb01_og-logo.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: roboflow-mcp.yml
+  slug: roboflow-mcpyml
+modified: '2026-08-02'
+name: Roboflow
+nav: Providers
+network: true
+overview: 'Roboflow publishes 1 API on the [APIs.io](https://apis.io/) network: Inference Server API. Tagged areas include Computer Vision, Machine Learning, Artificial Intelligence, Object Detection, and Image Annotation.
+
+
+  Roboflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+random_paper: 19
+rate_limits:
+- limit_count: 3
+  name: Roboflow Rate Limits
+  slug: roboflow-rate-limits
+scopes:
+- name: Roboflow Scopes
+  scope_count: 67
+  slug: roboflow-scopes
+  summary_line: 67 scopes · authorizationCode
+score:
+  band: strong
+  composite: 58.9
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 47.3
+    developer_ergonomics: 71.7
+    discoverability: 92.6
+    governance: 20.8
+    operational_transparency: 68.4
+  provenance:
+    agentic_access: derived
+    conformance: first-party
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+security:
+- kind: authentication
+  name: Roboflow Authentication
+  slug: roboflow-authentication
+  summary_line: apiKey/http/oauth2/openIdConnect · 5 schemes
+- kind: domain-security
+  name: Roboflow Domain Security
+  slug: roboflow-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Roboflow Trust Center
+  slug: roboflow-trust-center
+  summary_line: SOC 2, HIPAA
+slug: roboflow
+tags:
+- Computer Vision
+- Machine Learning
+- Artificial Intelligence
+- Object Detection
+- Image Annotation
+- Model Training
+- Inference
+- MLOps
+- Edge AI
+- Datasets
+website: https://roboflow.com
+---

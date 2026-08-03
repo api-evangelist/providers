@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.8
-  scored_at: '2026-07-28'
+  score: 56.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -2467,7 +2467,7 @@ plans:
 - name: Avalara Plans Pricing
   plan_count: 5
   slug: avalara-plans-pricing
-random_paper: 72
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Avalara Rate Limits
@@ -2504,16 +2504,16 @@ scopes:
   summary_line: 24 scopes
 score:
   band: exemplar
-  composite: 75.2
-  delta: 1.1
+  composite: 75.7
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
-    contract_quality: 74.2
+    contract_quality: 76.3
     developer_ergonomics: 71.7
     discoverability: 68.5
     governance: 83.3
     operational_transparency: 57.9
-  previous_composite: 74.1
+  previous_composite: 75.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -2523,8 +2523,8 @@ score:
       marker_coverage: 0.0
       total: 66
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png
 security:

@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -220,7 +220,7 @@ overview: 'Reliance Jio publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Reliance Jio''s developer surface includes authentication, code examples, documentation, signup flow, support, getting-started guide, API reference, and 33 more developer resources.'
-random_paper: 54
+random_paper: 62
 scopes:
 - name: Reliance Jio Scopes
   scope_count: 6
@@ -228,16 +228,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.4
-  delta: 8.3
+  composite: 55.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 52.1
+    contract_quality: 56.8
     developer_ergonomics: 60.3
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 46.1
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,9 +254,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 100.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Reliance Jio Authentication

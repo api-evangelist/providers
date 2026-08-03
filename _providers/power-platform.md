@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -450,7 +450,7 @@ plans:
 - name: Power Platform Plans Pricing
   plan_count: 9
   slug: power-platform-plans-pricing
-random_paper: 77
+random_paper: 46
 rate_limits:
 - limit_count: 10
   name: Power Platform Rate Limits
@@ -479,16 +479,16 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.5
-  delta: -3.1
+  composite: 61.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.1
+    contract_quality: 69.0
     developer_ergonomics: 54.3
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 63.6
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     contracts:
@@ -496,8 +496,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/screenshots/power-platform-2026-06-20T192023.png
 security:

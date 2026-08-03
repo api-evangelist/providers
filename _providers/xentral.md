@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.2
-  scored_at: '2026-07-28'
+  score: 62.2
+  scored_at: '2026-08-03'
 api_count: 90
 apis:
 - description: Account configurations
@@ -443,7 +443,7 @@ overview: 'Xentral publishes 90 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Xentral''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 28
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Xentral Rate Limits
@@ -455,16 +455,16 @@ scopes:
   summary_line: 100 scopes
 score:
   band: developing
-  composite: 53.6
-  delta: 1.2
+  composite: 55.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.5
+    contract_quality: 63.6
     developer_ergonomics: 73.9
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 52.4
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -474,8 +474,8 @@ score:
       total: 90
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

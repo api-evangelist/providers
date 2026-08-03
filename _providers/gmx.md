@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -507,7 +507,7 @@ plans:
 - name: Gmx Plans Pricing
   plan_count: 1
   slug: gmx-plans-pricing
-random_paper: 4
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Gmx Rate Limits
@@ -523,16 +523,16 @@ rules:
   slug: gmx-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.2
-  delta: -2.4
+  composite: 40.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 47.5
+    contract_quality: 51.4
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 41.6
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -546,8 +546,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/screenshots/gmx-2026-06-20T181934.png
 security:

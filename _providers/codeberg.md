@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -133,23 +133,23 @@ plans:
 - name: Codeberg Plans Pricing
   plan_count: 2
   slug: codeberg-plans-pricing
-random_paper: 7
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Codeberg Rate Limits
   slug: codeberg-rate-limits
 score:
   band: thin
-  composite: 35.2
-  delta: -2.1
+  composite: 36.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 51.7
+    contract_quality: 55.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.3
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +157,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeberg/refs/heads/main/screenshots/codeberg-2026-07-25T205910.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 69.6
-  scored_at: '2026-07-28'
+  score: 65.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -262,19 +262,19 @@ overview: 'Dedalus Labs publishes 16 APIs on the [APIs.io](https://apis.io/) net
 
 
   Dedalus Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 8
+random_paper: 16
 score:
   band: strong
-  composite: 58.7
-  delta: -0.1
+  composite: 59.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.4
+    contract_quality: 67.4
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 58.8
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,8 +285,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/screenshots/dedaluslabs-2026-07-25T211533.png
 security:

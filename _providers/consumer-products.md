@@ -20,7 +20,7 @@ modified: '2026-05-23'
 name: Consumer Products
 nav: Providers
 network: true
-random_paper: 1
+random_paper: 0
 slug: consumer-products
 tags:
 - Consumer Products

@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-07-28'
+  score: 45.0
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Check's REST API for embedding full-service payroll — companies, employees, contractors, pay schedules, payrolls, payments, tax filings, documents, bank accounts, and webhooks — into a platform produc
@@ -175,11 +175,11 @@ overview: 'Check Technologies publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Check Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 35
+random_paper: 34
 score:
   band: developing
   composite: 53.8
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 51.6
@@ -187,7 +187,7 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 63.2
-  previous_composite: 51.1
+  previous_composite: 53.8
   provenance:
     conformance: first-party
     mcp: first-party
@@ -197,8 +197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/check-technologies/refs/heads/main/screenshots/check-technologies-2026-07-25T205128.png
 security:

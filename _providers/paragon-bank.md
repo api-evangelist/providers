@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ overview: 'Paragon Bank publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Paragon Bank''s developer surface includes authentication, support, pricing, and 21 more developer resources.'
-random_paper: 53
+random_paper: 61
 scopes:
 - name: Paragon Bank Scopes
   scope_count: 3
@@ -163,16 +163,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 33.2
-  delta: -4.6
+  composite: 35.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.6
+    contract_quality: 59.7
     developer_ergonomics: 19.0
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 37.8
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,8 +189,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

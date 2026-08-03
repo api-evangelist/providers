@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Practice client data-health metrics and activity statistics
@@ -168,23 +168,23 @@ overview: 'Dext publishes 1 API on the [APIs.io](https://apis.io/) network: Clie
 
 
   Dext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 27
+random_paper: 57
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Dext Rate Limits
   slug: dext-rate-limits
 score:
   band: developing
-  composite: 50.8
-  delta: -1.0
+  composite: 54.4
+  delta: 2.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 47.3
     discoverability: 87.0
     governance: 11.5
-    operational_transparency: 31.6
-  previous_composite: 51.8
+    operational_transparency: 52.6
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -194,8 +194,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/screenshots/dext-2026-07-25T211838.png
 security:

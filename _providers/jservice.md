@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ overview: 'jService publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   The jService catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 39
+random_paper: 4
 rules:
 - name: jService API Rules
   rule_count: 5
@@ -150,16 +150,16 @@ rules:
   slug: jservice-rules
 score:
   band: thin
-  composite: 30.9
-  delta: -4.0
+  composite: 31.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 65.8
+    contract_quality: 68.7
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 0.0
-  previous_composite: 34.9
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/screenshots/jservice-2026-06-20T183813.png
 security:

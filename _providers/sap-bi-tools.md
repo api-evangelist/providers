@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -482,7 +482,7 @@ plans:
 - name: Sap Bi Tools Plans Pricing
   plan_count: 1
   slug: sap-bi-tools-plans-pricing
-random_paper: 30
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Sap Bi Tools Rate Limits
@@ -511,16 +511,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.0
-  delta: -2.8
+  composite: 59.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.6
+    contract_quality: 68.2
     developer_ergonomics: 56.5
     discoverability: 57.4
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 62.8
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     contracts:
@@ -528,8 +528,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/screenshots/sap-bi-tools-2026-06-20T193416.png
 security:

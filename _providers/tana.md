@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -182,18 +182,18 @@ overview: 'Tana publishes 2 APIs on the [APIs.io](https://apis.io/) network: Doc
 
 
   Tana''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 24 more developer resources.'
-random_paper: 10
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Tana Rate Limits
   slug: tana-rate-limits
 score:
   band: developing
-  composite: 46.3
-  delta: -1.0
+  composite: 47.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 55.9
+    contract_quality: 59.7
     developer_ergonomics: 58.2
     discoverability: 87.0
     governance: 11.5
@@ -209,8 +209,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

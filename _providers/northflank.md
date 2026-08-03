@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -125,23 +125,23 @@ plans:
 - name: Northflank Plans Pricing
   plan_count: 3
   slug: northflank-plans-pricing
-random_paper: 13
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Northflank Rate Limits
   slug: northflank-rate-limits
 score:
   band: thin
-  composite: 38.0
-  delta: -1.4
+  composite: 39.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 28.3
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.4
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/screenshots/northflank-2026-06-20T190419.png
 security:

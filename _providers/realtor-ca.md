@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-07-28'
+  score: 48.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ overview: 'REALTOR.ca publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   REALTOR.ca''s developer surface includes documentation, API reference, getting-started guide, legal docs, support, engineering blog, changelog, and 30 more developer resources.'
-random_paper: 18
+random_paper: 52
 scopes:
 - name: Realtor Ca Scopes
   scope_count: 5
@@ -215,16 +215,16 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 35.8
-  delta: -3.0
+  composite: 38.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 32.3
+    contract_quality: 41.3
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 26.3
-  previous_composite: 38.8
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +235,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

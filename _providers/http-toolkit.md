@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -168,7 +168,7 @@ plans:
 - name: Http Toolkit Plans Pricing
   plan_count: 3
   slug: http-toolkit-plans-pricing
-random_paper: 37
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Http Toolkit Rate Limits
@@ -184,16 +184,16 @@ rules:
   slug: http-toolkit-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.6
-  delta: -4.8
+  composite: 45.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.2
+    contract_quality: 66.9
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 49.4
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/screenshots/http-toolkit-2026-06-20T182918.png
 security:

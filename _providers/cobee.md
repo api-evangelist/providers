@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -158,19 +158,19 @@ overview: 'Cobee by Pluxee publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Cobee by Pluxee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 17 more developer resources.'
-random_paper: 18
+random_paper: 35
 score:
   band: developing
-  composite: 45.0
-  delta: -0.8
+  composite: 46.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 47.5
+    contract_quality: 53.5
     developer_ergonomics: 62.5
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 45.8
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -181,8 +181,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/screenshots/cobee-2026-07-25T205844.png
 security:

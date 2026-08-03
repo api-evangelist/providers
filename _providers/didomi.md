@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -520,9 +520,9 @@ plans:
 - name: Didomi Plans Pricing
   plan_count: 5
   slug: didomi-plans-pricing
-random_paper: 56
+random_paper: 60
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Didomi Rate Limits
   slug: didomi-rate-limits
 rules:
@@ -543,17 +543,17 @@ rules:
     warn: 5
   slug: didomi-rules
 score:
-  band: strong
-  composite: 63.1
-  delta: -3.6
+  band: exemplar
+  composite: 66.6
+  delta: 2.8
   facets:
     commercial_clarity: 78.9
-    contract_quality: 67.8
+    contract_quality: 70.9
     developer_ergonomics: 71.7
     discoverability: 50.0
     governance: 68.8
-    operational_transparency: 21.1
-  previous_composite: 66.7
+    operational_transparency: 42.1
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     contracts:
@@ -561,8 +561,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/screenshots/didomi-2026-06-20T180026.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for the KACE Systems Management Appliance. Authenticated KACE SMA users can manage appliance data across the Asset, Inventory, Managed Install, Scripting, User, and Service Desk modules. Requ
@@ -92,11 +92,11 @@ overview: 'Kace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Kace''s developer surface includes documentation, API reference, support, authentication, and 7 more developer resources.'
-random_paper: 76
+random_paper: 24
 score:
   band: emerging
   composite: 15.9
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -104,11 +104,11 @@ score:
     discoverability: 66.7
     governance: 3.1
     operational_transparency: 7.9
-  previous_composite: 16.8
+  previous_composite: 15.9
   provenance:
     conformance: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

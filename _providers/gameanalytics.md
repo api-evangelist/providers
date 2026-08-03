@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -129,23 +129,23 @@ plans:
 - name: Gameanalytics Plans Pricing
   plan_count: 3
   slug: gameanalytics-plans-pricing
-random_paper: 66
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Gameanalytics Rate Limits
   slug: gameanalytics-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: -2.8
+  composite: 41.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 57.3
+    contract_quality: 61.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.1
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/screenshots/gameanalytics-2026-07-25T215409.png
 security:

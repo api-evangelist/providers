@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Apollo Federation enables declarative composition of multiple subgraph APIs into a single federated supergraph. The Apollo Router orchestrates requests across subgraphs, combining GraphQL APIs and RES
@@ -149,7 +149,7 @@ plans:
 - name: Apollo Federation Plans Pricing
   plan_count: 3
   slug: apollo-federation-plans-pricing
-random_paper: 27
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Apollo Federation Rate Limits
@@ -166,7 +166,7 @@ rules:
 score:
   band: thin
   composite: 39.1
-  delta: -4.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 16.1
@@ -174,9 +174,9 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 43.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 39.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-federation/refs/heads/main/screenshots/apollo-federation-2026-06-20T172310.png
 security:

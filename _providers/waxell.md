@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -307,7 +307,7 @@ plans:
 - name: Waxell Plans Pricing
   plan_count: 2
   slug: waxell-plans-pricing
-random_paper: 79
+random_paper: 83
 rate_limits:
 - limit_count: 3
   name: Waxell Rate Limits
@@ -331,16 +331,16 @@ rules:
   slug: waxell-rules
 score:
   band: strong
-  composite: 62.8
-  delta: -3.6
+  composite: 63.3
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
-    contract_quality: 74.1
+    contract_quality: 76.3
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 66.4
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     contracts:
@@ -348,8 +348,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/screenshots/waxell-2026-06-20T201300.png
 security:

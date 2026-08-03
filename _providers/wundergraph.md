@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -296,7 +296,7 @@ plans:
 - name: Wundergraph Plans Pricing
   plan_count: 3
   slug: wundergraph-plans-pricing
-random_paper: 43
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Wundergraph Rate Limits
@@ -311,27 +311,28 @@ rules:
     warn: 3
   slug: wundergraph-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 62.4
-  delta: -2.7
+  band: developing
+  composite: 52.1
+  delta: -10.9
   facets:
     commercial_clarity: 89.5
-    contract_quality: 73.7
+    contract_quality: 29.5
     developer_ergonomics: 37.0
-    discoverability: 55.6
+    discoverability: 63.0
     governance: 58.3
     operational_transparency: 47.4
-  previous_composite: 65.1
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 10
+      marker_coverage: 100.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: flat
+    mcp: first-party
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -1564,7 +1564,7 @@ overview: 'Amazon CodeArtifact publishes 13 APIs on the [APIs.io](https://apis.i
 
 
   Amazon CodeArtifact''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 62
+random_paper: 48
 rules:
 - name: Amazon CodeArtifact API Rules
   rule_count: 5
@@ -1584,16 +1584,16 @@ rules:
   slug: amazon-codeartifact-spectral-rules
 score:
   band: strong
-  composite: 62.1
-  delta: -0.5
+  composite: 63.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 78.1
+    contract_quality: 82.9
     developer_ergonomics: 52.2
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 62.6
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1603,8 +1603,8 @@ score:
       marker_coverage: 0.0
       total: 13
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/screenshots/amazon-codeartifact-2026-07-25T195952.png
 security:

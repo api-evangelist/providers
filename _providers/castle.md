@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-07-28'
+  score: 34.0
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Castle's REST API for real-time fraud and abuse detection. The Risk API scores authenticated user events (login, transaction, profile update), the Filter API scores anonymous/pre-authentication events
@@ -187,11 +187,11 @@ overview: 'Castle publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Castle''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 62
+random_paper: 66
 score:
   band: developing
   composite: 54.8
-  delta: 5.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -199,14 +199,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 44.7
-  previous_composite: 48.9
+  previous_composite: 54.8
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/screenshots/castle-2026-07-25T204740.png
 security:
 - kind: authentication

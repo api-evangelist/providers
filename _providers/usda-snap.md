@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,23 +86,23 @@ overview: 'USDA SNAP Retailer Locator publishes 2 APIs on the [APIs.io](https://
 
 
   USDA SNAP Retailer Locator''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 6
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Usda Snap Rate Limits
   slug: usda-snap-rate-limits
 score:
   band: emerging
-  composite: 23.3
-  delta: -2.6
+  composite: 24.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 50.8
+    contract_quality: 55.0
     developer_ergonomics: 8.7
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 25.9
+  previous_composite: 24.1
   provenance:
     agentic_access: derived
     contracts:
@@ -116,8 +116,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

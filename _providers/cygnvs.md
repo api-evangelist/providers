@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -116,11 +116,11 @@ overview: 'CYGNVS is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   CYGNVS''s developer surface includes pricing, support, engineering blog, signup flow, and 14 more developer resources.'
-random_paper: 10
+random_paper: 1
 score:
   band: emerging
   composite: 23.7
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -128,9 +128,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 23.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 23.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cygnvs/refs/heads/main/screenshots/cygnvs-2026-07-25T211043.png
 security:

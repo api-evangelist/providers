@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ plans:
 - name: 4Chan Plans Pricing
   plan_count: 2
   slug: 4chan-plans-pricing
-random_paper: 52
+random_paper: 82
 rate_limits:
 - limit_count: 4
   name: 4Chan Rate Limits
@@ -308,17 +308,17 @@ rules:
     warn: 23
   slug: 4chan-rules
 score:
-  band: developing
-  composite: 43.0
-  delta: -7.6
+  band: thin
+  composite: 35.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 54.2
+    contract_quality: 23.8
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 50.6
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -326,9 +326,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/screenshots/4chan-2026-06-20T162723.png
 security:
 - kind: domain-security

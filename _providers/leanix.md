@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -120,7 +120,7 @@ plans:
 - name: Leanix Plans Pricing
   plan_count: 3
   slug: leanix-plans-pricing
-random_paper: 67
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Leanix Rate Limits
@@ -133,7 +133,7 @@ scopes:
 score:
   band: thin
   composite: 32.5
-  delta: -3.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 32.3
@@ -141,7 +141,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.4
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/screenshots/leanix-2026-06-20T184359.png
 security:

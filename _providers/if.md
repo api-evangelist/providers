@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-07-28'
+  score: 36.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Single REST API for the Integrated Finance platform — clients, users, real / virtual / shared-pool accounts, bank transfers, currency exchanges, card issuing and processing, beneficiary verification, '
@@ -163,7 +163,7 @@ overview: 'IF publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged
 
 
   IF''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 19 more developer resources.'
-random_paper: 43
+random_paper: 17
 scopes:
 - name: If Scopes
   scope_count: 11
@@ -172,7 +172,7 @@ scopes:
 score:
   band: developing
   composite: 52.0
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.6
@@ -180,7 +180,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 47.9
+  previous_composite: 52.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -190,8 +190,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/screenshots/if-2026-07-25T222048.png
 security:

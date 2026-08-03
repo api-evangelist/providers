@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -459,7 +459,7 @@ plans:
 - name: Paperspace Plans Pricing
   plan_count: 6
   slug: paperspace-plans-pricing
-random_paper: 76
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Paperspace Rate Limits
@@ -483,16 +483,16 @@ rules:
   slug: paperspace-rules
 score:
   band: strong
-  composite: 61.6
-  delta: -2.6
+  composite: 62.3
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 65.3
+    contract_quality: 68.2
     developer_ergonomics: 67.4
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 64.2
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     contracts:
@@ -500,8 +500,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/screenshots/paperspace-2026-06-20T191351.png
 security:

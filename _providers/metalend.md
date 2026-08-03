@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -194,19 +194,19 @@ overview: 'MetaLend publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   MetaLend''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, pricing, support, and 20 more developer resources.'
-random_paper: 22
+random_paper: 82
 score:
   band: developing
-  composite: 51.1
-  delta: -2.1
+  composite: 52.0
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 61.7
+    contract_quality: 65.7
     developer_ergonomics: 67.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 53.2
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,8 +223,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

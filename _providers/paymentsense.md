@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -194,24 +194,24 @@ overview: 'Paymentsense publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Paymentsense''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 24 more developer resources.'
-random_paper: 78
+random_paper: 73
 score:
-  band: developing
-  composite: 54.0
-  delta: -2.7
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 51.6
+    contract_quality: 62.3
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 56.7
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 50.0
       derived: 0
       marker_coverage: 0.0
       total: 4
@@ -223,8 +223,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

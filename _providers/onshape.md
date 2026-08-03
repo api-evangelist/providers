@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 2
@@ -325,7 +325,7 @@ overview: 'Onshape publishes 42 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Onshape''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
-random_paper: 12
+random_paper: 85
 rate_limits:
 - limit_count: 0
   name: Onshape Rate Limits
@@ -336,17 +336,17 @@ scopes:
   slug: onshape-scopes
   summary_line: 24 scopes · authorizationCode
 score:
-  band: developing
-  composite: 55.1
-  delta: -2.4
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.5
+    contract_quality: 63.9
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 57.5
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,8 +357,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-07-28'
+  score: 37.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The FabricAPI API from QuanTemplate — 2 operation(s) for fabricapi.
@@ -163,19 +163,19 @@ overview: 'QuanTemplate publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   QuanTemplate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 67
+random_paper: 62
 score:
   band: developing
-  composite: 49.9
-  delta: -2.3
+  composite: 50.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.9
+    contract_quality: 69.8
     developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 52.2
+  previous_composite: 50.5
   provenance:
     conformance: derived
     contracts:
@@ -191,8 +191,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 6
@@ -222,23 +222,23 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 69
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: thin
-  composite: 36.6
-  delta: -4.7
+  composite: 37.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 55.8
+    contract_quality: 59.7
     developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 41.3
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -252,8 +252,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/screenshots/btcpay-2026-06-20T173732.png
 security:

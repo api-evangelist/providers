@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.4
-  scored_at: '2026-07-28'
+  score: 36.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -26,21 +26,24 @@ agentic_access:
   operation_count: 10
   slug: requesty-agentic-access
   summary_line: 10 operations · 5 acting
-api_count: 4
+api_count: 5
 apis:
-- description: OpenAI-compatible chat completions routed across 300+ models from OpenAI, Anthropic, DeepSeek, Together AI, and more, with streaming, tool use, web search, automatic fallbacks, and response caching.
-  name: Requesty Chat Completions API
-  slug: requesty-chat-completions-api
-- description: Lists the 300+ models routable through the Requesty gateway with their identifiers, provider, context length, and per-token pricing.
-  name: Requesty Models API
-  slug: requesty-models-api
-- description: Retrieves per-key and organization-level usage statistics, request cost, and spend reporting for observability and FinOps across the gateway.
-  name: Requesty Usage & Analytics API
-  slug: requesty-usage-analytics-api
-- description: Programmatically create, list, inspect, and delete API keys and manage their spending limits, labels, and expiration for governing gateway access.
+- description: Programmatic management of Requesty API keys.
   name: Requesty API Keys API
   slug: requesty-api-keys-api
-artifact_total: 15
+- description: OpenAI-compatible chat completions routed across providers.
+  name: Requesty Chat API
+  slug: requesty-chat-api
+- description: Vector embedding generation.
+  name: Requesty Embeddings API
+  slug: requesty-embeddings-api
+- description: Catalog of routable models.
+  name: Requesty Models API
+  slug: requesty-models-api
+- description: Usage statistics and spend reporting.
+  name: Requesty Usage API
+  slug: requesty-usage-api
+artifact_total: 16
 asyncapis:
 - description: AsyncAPI 2.6 description of Requesty's **chat completion streaming** surface. Requesty does not publish a WebSocket API. The only asynchronous / event-style transport documented at https://docs.reques
   name: Requesty Chat Completions Streaming (HTTP + SSE)
@@ -118,7 +121,7 @@ modified: '2026-06-20'
 name: Requesty
 nav: Providers
 network: true
-overview: 'Requesty publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat Completions API, Models API, Usage & Analytics API, and 1 more. Tagged areas include AI, LLM, Routing, Gateway, and Observability.
+overview: 'Requesty publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Chat API, Embeddings API, and 2 more. Tagged areas include AI, LLM, Routing, Gateway, and Observability.
 
 
   The Requesty catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -129,7 +132,7 @@ plans:
 - name: Requesty Plans Pricing
   plan_count: 3
   slug: requesty-plans-pricing
-random_paper: 78
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Requesty Rate Limits
@@ -145,16 +148,16 @@ rules:
   slug: requesty-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.9
-  delta: -5.8
+  composite: 48.4
+  delta: -0.3
   facets:
     commercial_clarity: 47.4
-    contract_quality: 59.7
+    contract_quality: 69.5
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 51.7
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -162,9 +165,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/screenshots/requesty-2026-06-20T192926.png
 security:
 - kind: authentication

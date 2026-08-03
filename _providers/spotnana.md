@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 2
@@ -274,19 +274,19 @@ overview: 'Spotnana publishes 33 APIs on the [APIs.io](https://apis.io/) network
 
 
   Spotnana''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 48
+random_paper: 13
 score:
   band: developing
-  composite: 46.6
-  delta: -1.9
+  composite: 47.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 67.8
+    contract_quality: 71.0
     developer_ergonomics: 62.5
     discoverability: 68.5
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 48.5
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,8 +303,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

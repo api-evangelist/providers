@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-07-28'
+  score: 54.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -384,19 +384,19 @@ overview: 'Skedulo publishes 67 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Skedulo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 23 more developer resources.'
-random_paper: 21
+random_paper: 94
 score:
   band: developing
-  composite: 54.2
-  delta: -0.2
+  composite: 55.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 63.1
+    contract_quality: 66.5
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 54.4
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -407,8 +407,8 @@ score:
       total: 67
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

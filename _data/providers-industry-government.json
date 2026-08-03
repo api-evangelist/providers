@@ -108,8 +108,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 7,
-   "shown": 7,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "USPTO Trademark Search API",
@@ -194,6 +194,50 @@
      "rank": 4
     },
     {
+     "name": "Consumer Data Right (Energy)",
+     "slug": "cdr-energy",
+     "description": "The Consumer Data Right (CDR) is Australia's statutory consumer data-sharing regime, created under Part IVD of the Competition and Consumer Act 2010 and extended from banking into electricity by the Consumer Data Right (Energy Sector) Designation 2020. It is run by three bodies: the ACCC as lead regulator and operator of the CDR Register, the OAIC as privacy regulator, and the Treasury Data Standards Body, which writes the binding Consumer Data Standards. In energy the regime obliges electricity retailers to expose plans, accounts, billing, invoices, payment schedules, concessions, service points, interval usage and DER data through one identical, versioned API contract, with AEMO acting as the Secondary Data Holder gateway for NMI standing data, metering data and the DER register. Unlike almost every other energy-sector data mandate, this one is verifiably implemented rather than merely announced: the public CDR Register listed 84 energy data holder brands with live public base URIs when probed on 2026-07-27, and 53 of those base URIs returned standards-conformant product data anonymously on the first request. Its API posture is a clean two-speed split — genuinely open, unauthenticated market data (retail plan and tariff reference data, plus the participant register itself) sitting alongside consumer data that is closed behind ACCC accreditation, mutual TLS, FAPI-grade OAuth 2.0 / OpenID Connect and explicit, revocable consumer consent. Home market Australia.",
+     "score": 58.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 64.2,
+      "governance": 20.8,
+      "operational_transparency": 100.0,
+      "developer_ergonomics": 79.9,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 63.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
+    },
+    {
      "name": "HMRC UK Tax Authority",
      "slug": "hmrc",
      "description": "HM Revenue and Customs (HMRC) provides over 115 APIs through the HMRC Developer Hub for UK tax compliance including Making Tax Digital for VAT and Income Tax, PAYE, customs declarations, corporation tax, and construction industry scheme. APIs use OAuth 2.0 and support both REST and XML protocols with a sandbox testing environment.",
@@ -236,7 +280,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "EPA — U.S. Environmental Protection Agency",
@@ -281,7 +325,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Polyteia",
@@ -325,7 +369,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
+    },
+    {
+     "name": "Federal Aviation Administration",
+     "slug": "faa",
+     "description": "The Federal Aviation Administration (FAA) is the United States civil aviation authority, an operating administration of the U.S. Department of Transportation. It regulates and certificates aircraft, airmen, airports and air carriers, operates the National Airspace System and its air traffic control, and issues the aeronautical information the entire U.S. travel and aviation chain runs on — NOTAMs, TFRs, charts, the 28-day NASR subscription, aircraft registration and airport data. It sits upstream of commercial travel distribution rather than inside it — the FAA sells no inventory and is not a GDS, NDC or channel participant, but every airline, GDS, OTA, flight-planning app and drone service supplier in the United States consumes FAA data as a source of truth. Its API posture is genuinely mixed and honest reporting requires saying so. The Airport Status Web Service and the Aeronautic Product Release API are published under a Creative Commons Zero licence, answer unauthenticated over HTTPS, and ship real OpenAPI 3.0.1 documents through a public Gravitee developer portal at api.faa.gov. Alongside them the FAA runs a CKAN 2.11.4 catalog and two ArcGIS Open Data hubs with DCAT-US 1.1 feeds and bulk CSV/GeoJSON/KML export. But the NOTAM API, the Air Carrier Pilot Records Database API and SWIM are gated — client_id/client_secret headers, operator eligibility restricted by regulation, or an executed SWIM agreement — and LAANC drone authorization is reachable only through FAA-approved UAS Service Suppliers, never directly.",
+     "score": 57.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 55.4,
+      "governance": 11.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 65.8
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 9
     },
     {
      "name": "FormAssembly",
@@ -370,7 +458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 10
     },
     {
      "name": "ACMA",
@@ -414,7 +502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 11
     }
    ],
    "open": true
@@ -424,8 +512,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 82,
-   "shown": 82,
+   "count": 80,
+   "shown": 80,
    "providers": [
     {
      "name": "Method Security",
@@ -462,94 +550,6 @@
       "error_semantics": "verified",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "Consumer Data Right (Energy)",
-     "slug": "cdr-energy",
-     "description": "The Consumer Data Right (CDR) is Australia's statutory consumer data-sharing regime, created under Part IVD of the Competition and Consumer Act 2010 and extended from banking into electricity by the Consumer Data Right (Energy Sector) Designation 2020. It is run by three bodies: the ACCC as lead regulator and operator of the CDR Register, the OAIC as privacy regulator, and the Treasury Data Standards Body, which writes the binding Consumer Data Standards. In energy the regime obliges electricity retailers to expose plans, accounts, billing, invoices, payment schedules, concessions, service points, interval usage and DER data through one identical, versioned API contract, with AEMO acting as the Secondary Data Holder gateway for NMI standing data, metering data and the DER register. Unlike almost every other energy-sector data mandate, this one is verifiably implemented rather than merely announced: the public CDR Register listed 84 energy data holder brands with live public base URIs when probed on 2026-07-27, and 53 of those base URIs returned standards-conformant product data anonymously on the first request. Its API posture is a clean two-speed split — genuinely open, unauthenticated market data (retail plan and tariff reference data, plus the participant register itself) sitting alongside consumer data that is closed behind ACCC accreditation, mutual TLS, FAPI-grade OAuth 2.0 / OpenID Connect and explicit, revocable consumer consent. Home market Australia.",
-     "score": 54.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 64.2,
-      "governance": 20.8,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 79.9,
-      "commercial_clarity": 7.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 63.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Federal Aviation Administration",
-     "slug": "faa",
-     "description": "The Federal Aviation Administration (FAA) is the United States civil aviation authority, an operating administration of the U.S. Department of Transportation. It regulates and certificates aircraft, airmen, airports and air carriers, operates the National Airspace System and its air traffic control, and issues the aeronautical information the entire U.S. travel and aviation chain runs on — NOTAMs, TFRs, charts, the 28-day NASR subscription, aircraft registration and airport data. It sits upstream of commercial travel distribution rather than inside it — the FAA sells no inventory and is not a GDS, NDC or channel participant, but every airline, GDS, OTA, flight-planning app and drone service supplier in the United States consumes FAA data as a source of truth. Its API posture is genuinely mixed and honest reporting requires saying so. The Airport Status Web Service and the Aeronautic Product Release API are published under a Creative Commons Zero licence, answer unauthenticated over HTTPS, and ship real OpenAPI 3.0.1 documents through a public Gravitee developer portal at api.faa.gov. Alongside them the FAA runs a CKAN 2.11.4 catalog and two ArcGIS Open Data hubs with DCAT-US 1.1 feeds and bulk CSV/GeoJSON/KML export. But the NOTAM API, the Air Carrier Pilot Records Database API and SWIM are gated — client_id/client_secret headers, operator eligibility restricted by regulation, or an executed SWIM agreement — and LAANC drone authorization is reachable only through FAA-approved UAS Service Suppliers, never directly.",
-     "score": 54.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 55.4,
-      "governance": 11.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 65.8
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
@@ -911,50 +911,6 @@
      "rank": 20
     },
     {
-     "name": "Aleph Alpha",
-     "slug": "aleph-alpha",
-     "description": "Aleph Alpha is a Heidelberg, Germany based sovereign AI company building PhariaAI, an end-to-end, customizable AI suite for enterprises and governments that can be deployed on-premise or hosted. The stack combines leading open-source and proprietary large language models with Aleph Alpha's own Pharia-1-LLM model family and its research into transparency, explainability and domain-specific performance. PhariaAI is exposed through six documented HTTP APIs — PhariaInference (completion, chat, embeddings, tokenization), PhariaData (repositories, datasets, transformations), PhariaSearch / Document Index (semantic search over a knowledge base), PhariaStudio (projects, traces, evaluation, benchmarks), PhariaOS (cluster, use case and model lifecycle management) and a stateful, OpenAI-compatible Responses API with MCP tool calling — each published as an OpenAPI or Swagger definition on the Aleph Alpha documentation site. First-party SDKs ship for Python and Rust, alongside a CLI for publishing WebAssembly skills to the Pharia Kernel.",
-     "score": 51.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 54.9,
-      "governance": 20.8,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 87.0,
-      "commercial_clarity": 26.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 48.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 63.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 21
-    },
-    {
      "name": "USPTO",
      "slug": "uspto",
      "description": "The United States Patent and Trademark Office (USPTO) is the federal agency responsible for granting U.S. patents and registering trademarks. USPTO provides a suite of developer APIs through the Open Data Portal (developer.uspto.gov) and data.uspto.gov for programmatic access to patent applications, granted patents, PTAB trial proceedings, trademark status, patent assignments, office actions, and citation data. All USPTO APIs are open government data and return JSON and XML responses. An ODP API key is required for most endpoints.",
@@ -997,7 +953,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Ask Sage",
@@ -1039,6 +995,50 @@
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 22
+    },
+    {
+     "name": "Australian Energy Regulator",
+     "slug": "aer",
+     "description": "The Australian Energy Regulator (AER) is the independent national economic regulator of Australia's energy markets, established under the Competition and Consumer Act 2010 and operating alongside the ACCC. It sets network revenues and prices, enforces the National Electricity, Gas and Energy Retail Rules, monitors wholesale and retail market conduct, sets the Default Market Offer, keeps the public registers of authorised retailers and exemptions, and operates Energy Made Easy, the government price-comparison service. Its API posture is the strongest found among Australian energy regulators and it is genuinely implemented rather than merely mandated. The AER is a designated data holder under the Competition and Consumer (Consumer Data Right) Rules 2020 and it serves the Consumer Data Standards energy Product Reference Data endpoints — Get Generic Plans and Get Generic Plan Detail — anonymously, with no accreditation, no API key and no signup, returning live retail plan, tariff, fee, discount and eligibility data for the six jurisdictions that adopted the National Energy Customer Framework. Verified on 2026-07-27, 79 of the 84 energy data-holder brands in the ACCC CDR Register point their productBaseUri at the AER's own host, cdr.energymadeeasy.gov.au, which makes the regulator the actual operator of the product-data API layer for nearly the whole Australian retail energy industry. The split matters: the AER's open surface is product and tariff data only. It holds and exposes no individual consumer usage or billing data — the CDR consumer endpoints 404 on its host — because those flow from retailers as primary data holders and AEMO as the secondary data holder gateway, behind ACCC accreditation, OAuth2/OIDC and mTLS. The AER's own market statistics, wholesale performance reporting and public registers are published as web pages, charts and document downloads, not as an API, and no developer., developers., api., docs. or data. subdomain resolves.",
+     "score": 50.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 54.3,
+      "governance": 20.8,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 47.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 48.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
@@ -1216,6 +1216,51 @@
      "rank": 27
     },
     {
+     "name": "Bureau of Labor Statistics",
+     "slug": "bls",
+     "description": "The Bureau of Labor Statistics (BLS) Public Data API provides developers programmatic access to the full catalog of official federal labor and economic statistics published by the U.S. Department of Labor. The API delivers historical time-series data spanning employment, unemployment rates, Consumer Price Index (CPI), Producer Price Index (PPI), wages and earnings, and productivity metrics drawn from major BLS surveys. Two versions are available: an unauthenticated Version 1.0 suitable for lightweight exploration and an enhanced Version 2.0 that requires free registration and returns richer results including catalog metadata, statistical calculations, and annual averages. Responses are served in JSON format, and the API is freely available to the public with no cost for access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bls/refs/heads/main/screenshots/bls-2026-06-20T173523.png",
+     "score": 49.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 74.9,
+      "governance": 68.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 28
+    },
+    {
      "name": "openFDA",
      "slug": "openfda",
      "description": "openFDA is the U.S. Food and Drug Administration's public data platform, providing Elasticsearch-backed REST APIs serving FDA-administered data on drugs, medical devices, foods, animal and veterinary products, and tobacco. Twenty-two endpoints under a single api.fda.gov base URL expose adverse event reports (FAERS, MAUDE, CAERS), recall enforcement reports, Structured Product Labeling, the National Drug Code Directory, Drugs@FDA approvals, drug shortages, device classification, 510(k) and PMA submissions, Unique Device Identifier records, registration and listing, NSDE drug data, FDA substance harmonization, and historical FDA documents. All endpoints share a Lucene-style search, sort, count, limit, and skip parameter surface, are released under CC0 Public Domain, and operate under a free api.data.gov key that lifts daily quotas to 120,000 requests.",
@@ -1258,7 +1303,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
+    },
+    {
+     "name": "Aleph Alpha",
+     "slug": "aleph-alpha",
+     "description": "Aleph Alpha is a Heidelberg, Germany based sovereign AI company building PhariaAI, an end-to-end, customizable AI suite for enterprises and governments that can be deployed on-premise or hosted. The stack combines leading open-source and proprietary large language models with Aleph Alpha's own Pharia-1-LLM model family and its research into transparency, explainability and domain-specific performance. PhariaAI is exposed through six documented HTTP APIs — PhariaInference (completion, chat, embeddings, tokenization), PhariaData (repositories, datasets, transformations), PhariaSearch / Document Index (semantic search over a knowledge base), PhariaStudio (projects, traces, evaluation, benchmarks), PhariaOS (cluster, use case and model lifecycle management) and a stateful, OpenAI-compatible Responses API with MCP tool calling — each published as an OpenAPI or Swagger definition on the Aleph Alpha documentation site. First-party SDKs ship for Python and Rust, alongside a CLI for publishing WebAssembly skills to the Pharia Kernel.",
+     "score": 49.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 54.9,
+      "governance": 11.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 82.1,
+      "commercial_clarity": 26.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 48.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 53.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 30
     },
     {
      "name": "U.S. Department of Transportation",
@@ -1302,7 +1391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "Bureau of Labor Statistics",
@@ -1347,7 +1436,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "Landgate",
@@ -1392,7 +1481,96 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 33
+    },
+    {
+     "name": "EIA",
+     "slug": "eia",
+     "description": "The U.S. Energy Information Administration (EIA) is the independent statistical and analytical agency within the U.S. Department of Energy, created by the Department of Energy Organization Act of 1977, that collects, analyzes, and disseminates energy information for the United States. EIA sits at the measurement layer of the American energy value chain rather than the operating layer - it does not generate, transmit, distribute, or retail energy, and it does not regulate anyone. Instead it compels the industry to report through mandatory survey forms (EIA-860, EIA-861, EIA-923, EIA-176, EIA-914, EIA-930 and dozens more) and then publishes the result as the reference statistics for electricity, natural gas, petroleum, coal, nuclear, renewables, emissions, and international energy. EIA's API posture is the strongest of any organization in this sector and a genuine benchmark for government data anywhere. The Open Data APIv2 at api.eia.gov/v2 is a fully RESTful, self-documenting, hierarchically routed API covering more than two million time series, described by a real downloadable OpenAPI 3.0.0 contract carrying 225 paths and 278 operations, opened by a free API key that is emailed automatically from a public registration form with no review, no accreditation, and no licence to sign. A companion bulk download facility at api.eia.gov/bulk serves the same data as manifest-indexed zip archives and requires no key at all. The split that defines this sector is absolute here. EIA's market, system, and grid data is wide open - hourly balancing-authority demand and interchange, wholesale and spot prices, generator-level capacity and operations - while EIA publishes no consumer energy data API of any kind. There is no Green Button, no ESPI, no Download My Data, no Connect My Data, no consent flow, and no customer usage or billing endpoint, because individual customer data is never collected by EIA in the first place; its surveys arrive already aggregated from utilities and are further protected by statutory confidentiality. EIA is therefore the clearest instance of the recurring finding in this series - a federal data agency that publishes a far better documented, far more accessible API than the regulated utilities whose numbers it reports.",
+     "score": 48.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 45.7,
+      "governance": 11.5,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 41.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 51.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 34
+    },
+    {
+     "name": "SEC EDGAR",
+     "slug": "sec",
+     "description": "The U.S. Securities and Exchange Commission (SEC) EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system provides free public access to corporate financial filings submitted to the SEC. The EDGAR REST API at data.sec.gov delivers JSON-formatted data without requiring authentication or API keys, covering company submissions, XBRL financial facts, and company concept data. Endpoints support CIK lookups, full filing history, structured XBRL financial disclosures across reporting periods, and cross-company comparative frames for US-GAAP and IFRS taxonomies.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/screenshots/sec-2026-06-20T193619.png",
+     "score": 48.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 76.8,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 38.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 35
     },
     {
      "name": "Weather.gov",
@@ -1437,7 +1615,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 36
     },
     {
      "name": "Aloft",
@@ -1475,7 +1653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 37
     },
     {
      "name": "Air Quality Programmatic APIs",
@@ -1520,7 +1698,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 38
     },
     {
      "name": "USDA",
@@ -1558,7 +1736,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 39
     },
     {
      "name": "The Bureau of Economic Analysis",
@@ -1603,7 +1781,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 40
+    },
+    {
+     "name": "GOV.UK Notify",
+     "slug": "gov-uk-notify",
+     "description": "GOV.UK Notify is a UK government notification service operated by the Government Digital Service (GDS) that enables central government, local authorities, NHS organisations, and other eligible public bodies to send emails, text messages, and letters to citizens on behalf of government services. The platform provides a REST API, a web-based sending interface, and official client libraries for Python, Java, .NET, Node.js, PHP, and Ruby. Emails are free and unlimited; SMS messages include an annual free allowance by organisation type with per-message overage at 2.4p; physical letters are priced by postage class and page count with print and postage included. The API uses JWT-based authentication, supports template-driven personalisation, and enforces a throughput limit of 3,000 messages per minute per API key type.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/screenshots/gov-uk-notify-2026-06-20T182256.png",
+     "score": 47.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 65.9,
+      "governance": 58.3,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 33.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 41
     },
     {
      "name": "International Trade Administration",
@@ -1641,7 +1864,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 42
     },
     {
      "name": "USGS Water Services",
@@ -1686,51 +1909,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 43
     },
     {
-     "name": "Australian Energy Regulator",
-     "slug": "aer",
-     "description": "The Australian Energy Regulator (AER) is the independent national economic regulator of Australia's energy markets, established under the Competition and Consumer Act 2010 and operating alongside the ACCC. It sets network revenues and prices, enforces the National Electricity, Gas and Energy Retail Rules, monitors wholesale and retail market conduct, sets the Default Market Offer, keeps the public registers of authorised retailers and exemptions, and operates Energy Made Easy, the government price-comparison service. Its API posture is the strongest found among Australian energy regulators and it is genuinely implemented rather than merely mandated. The AER is a designated data holder under the Competition and Consumer (Consumer Data Right) Rules 2020 and it serves the Consumer Data Standards energy Product Reference Data endpoints — Get Generic Plans and Get Generic Plan Detail — anonymously, with no accreditation, no API key and no signup, returning live retail plan, tariff, fee, discount and eligibility data for the six jurisdictions that adopted the National Energy Customer Framework. Verified on 2026-07-27, 79 of the 84 energy data-holder brands in the ACCC CDR Register point their productBaseUri at the AER's own host, cdr.energymadeeasy.gov.au, which makes the regulator the actual operator of the product-data API layer for nearly the whole Australian retail energy industry. The split matters: the AER's open surface is product and tariff data only. It holds and exposes no individual consumer usage or billing data — the CDR consumer endpoints 404 on its host — because those flow from retailers as primary data holders and AEMO as the secondary data holder gateway, behind ACCC accreditation, OAuth2/OIDC and mTLS. The AER's own market statistics, wholesale performance reporting and public registers are published as web pages, charts and document downloads, not as an API, and no developer., developers., api., docs. or data. subdomain resolves.",
-     "score": 47.3,
+     "name": "HUD - US Department of Housing and Urban Development",
+     "slug": "hud",
+     "description": "The U.S. Department of Housing and Urban Development (HUD) provides public REST APIs for fair housing data, Fair Market Rents, Income Limits, USPS ZIP code crosswalk files, Comprehensive Housing Affordability Strategy (CHAS) data, and housing counseling agency search. All HUD User dataset APIs require a free bearer token obtained from the HUD User portal; the Housing Counselor search API is publicly accessible without authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/screenshots/hud-2026-06-20T182921.png",
+     "score": 46.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 54.3,
-      "governance": 20.8,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 47.3,
-      "commercial_clarity": 28.9
+      "discoverability": 74.1,
+      "contract_quality": 70.1,
+      "governance": 58.3,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 48.6,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 31.5,
       "matched_via": "tags"
      },
-     "agent_score": 42.1,
+     "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
+      "agentic_access": "derived",
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 44
     },
     {
      "name": "Department of Veterans Affairs (VA)",
@@ -1775,7 +1999,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 45
     },
     {
      "name": "FERC",
@@ -1819,7 +2043,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 46
     },
     {
      "name": "US Citizenship and Immigration Services",
@@ -1857,7 +2081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 47
     },
     {
      "name": "VA Lighthouse",
@@ -1902,141 +2126,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
-    },
-    {
-     "name": "EIA",
-     "slug": "eia",
-     "description": "The U.S. Energy Information Administration (EIA) is the independent statistical and analytical agency within the U.S. Department of Energy, created by the Department of Energy Organization Act of 1977, that collects, analyzes, and disseminates energy information for the United States. EIA sits at the measurement layer of the American energy value chain rather than the operating layer - it does not generate, transmit, distribute, or retail energy, and it does not regulate anyone. Instead it compels the industry to report through mandatory survey forms (EIA-860, EIA-861, EIA-923, EIA-176, EIA-914, EIA-930 and dozens more) and then publishes the result as the reference statistics for electricity, natural gas, petroleum, coal, nuclear, renewables, emissions, and international energy. EIA's API posture is the strongest of any organization in this sector and a genuine benchmark for government data anywhere. The Open Data APIv2 at api.eia.gov/v2 is a fully RESTful, self-documenting, hierarchically routed API covering more than two million time series, described by a real downloadable OpenAPI 3.0.0 contract carrying 225 paths and 278 operations, opened by a free API key that is emailed automatically from a public registration form with no review, no accreditation, and no licence to sign. A companion bulk download facility at api.eia.gov/bulk serves the same data as manifest-indexed zip archives and requires no key at all. The split that defines this sector is absolute here. EIA's market, system, and grid data is wide open - hourly balancing-authority demand and interchange, wholesale and spot prices, generator-level capacity and operations - while EIA publishes no consumer energy data API of any kind. There is no Green Button, no ESPI, no Download My Data, no Connect My Data, no consent flow, and no customer usage or billing endpoint, because individual customer data is never collected by EIA in the first place; its surveys arrive already aggregated from utilities and are further protected by statutory confidentiality. EIA is therefore the clearest instance of the recurring finding in this series - a federal data agency that publishes a far better documented, far more accessible API than the regulated utilities whose numbers it reports.",
-     "score": 46.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 45.7,
-      "governance": 11.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 69.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 41.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 51.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 44
-    },
-    {
-     "name": "SEC EDGAR",
-     "slug": "sec",
-     "description": "The U.S. Securities and Exchange Commission (SEC) EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system provides free public access to corporate financial filings submitted to the SEC. The EDGAR REST API at data.sec.gov delivers JSON-formatted data without requiring authentication or API keys, covering company submissions, XBRL financial facts, and company concept data. Endpoints support CIK lookups, full filing history, structured XBRL financial disclosures across reporting periods, and cross-company comparative frames for US-GAAP and IFRS taxonomies.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/screenshots/sec-2026-06-20T193619.png",
-     "score": 46.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 76.8,
-      "governance": 68.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 38.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 45
-    },
-    {
-     "name": "Bureau of Labor Statistics",
-     "slug": "bls",
-     "description": "The Bureau of Labor Statistics (BLS) Public Data API provides developers programmatic access to the full catalog of official federal labor and economic statistics published by the U.S. Department of Labor. The API delivers historical time-series data spanning employment, unemployment rates, Consumer Price Index (CPI), Producer Price Index (PPI), wages and earnings, and productivity metrics drawn from major BLS surveys. Two versions are available: an unauthenticated Version 1.0 suitable for lightweight exploration and an enhanced Version 2.0 that requires free registration and returns richer results including catalog metadata, statistical calculations, and annual averages. Responses are served in JSON format, and the API is freely available to the public with no cost for access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bls/refs/heads/main/screenshots/bls-2026-06-20T173523.png",
-     "score": 46.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 74.9,
-      "governance": 68.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 46
+     "rank": 48
     },
     {
      "name": "Congress.gov API",
@@ -2081,7 +2171,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 49
     },
     {
      "name": "Library of Congress",
@@ -2126,7 +2216,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 50
     },
     {
      "name": "NSW Land Registry Services",
@@ -2171,7 +2261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 51
     },
     {
      "name": "Substance Abuse and Mental Health Services Administration",
@@ -2216,7 +2306,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 52
     },
     {
      "name": "Agricultural Statistics Service",
@@ -2261,7 +2351,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
+     "rank": 53
+    },
+    {
+     "name": "FoodData Central",
+     "slug": "fooddata",
+     "description": "USDA FoodData Central is a comprehensive food composition database and REST API providing nutritional data for over 600,000 foods. The service covers multiple distinct data types including Foundation Foods, SR Legacy, Survey Foods (FNDDS), Branded Foods, and Experimental Foods. All data is released under CC0 1.0 Universal (public domain) and the API is free to use with a data.gov API key. FoodData Central is operated by the USDA Agricultural Research Service (ARS) and receives twice-annual updates for Foundation Foods and monthly updates for Branded Foods.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fooddata/refs/heads/main/screenshots/fooddata-2026-06-20T181400.png",
+     "score": 45.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 66.6,
+      "governance": 58.3,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 21.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 54
     },
     {
      "name": "Agricultural Marketing Service",
@@ -2299,7 +2434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 52
+     "rank": 55
     },
     {
      "name": "United States Department of Agriculture",
@@ -2337,7 +2472,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 56
     },
     {
      "name": "Department of the Interior",
@@ -2375,7 +2510,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 57
     },
     {
      "name": "Skydio",
@@ -2413,7 +2548,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 58
     },
     {
      "name": "OpenLaws",
@@ -2451,7 +2586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 59
     },
     {
      "name": "Department of Transportation",
@@ -2489,7 +2624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 60
     },
     {
      "name": "Sound Transit",
@@ -2534,7 +2669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 61
     },
     {
      "name": "The Administration for Children and Families",
@@ -2572,7 +2707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "United States Army Corps of Engineers",
@@ -2610,7 +2745,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 60
+     "rank": 63
     },
     {
      "name": "US Census Bureau",
@@ -2655,52 +2790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
-    },
-    {
-     "name": "HUD - US Department of Housing and Urban Development",
-     "slug": "hud",
-     "description": "The U.S. Department of Housing and Urban Development (HUD) provides public REST APIs for fair housing data, Fair Market Rents, Income Limits, USPS ZIP code crosswalk files, Comprehensive Housing Affordability Strategy (CHAS) data, and housing counseling agency search. All HUD User dataset APIs require a free bearer token obtained from the HUD User portal; the Housing Counselor search API is publicly accessible without authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/screenshots/hud-2026-06-20T182921.png",
-     "score": 44.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 70.1,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Palantir",
@@ -2745,7 +2835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 65
     },
     {
      "name": "Department of the Treasury",
@@ -2783,7 +2873,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "Department of Interior",
@@ -2821,52 +2911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
-    },
-    {
-     "name": "GOV.UK Notify",
-     "slug": "gov-uk-notify",
-     "description": "GOV.UK Notify is a UK government notification service operated by the Government Digital Service (GDS) that enables central government, local authorities, NHS organisations, and other eligible public bodies to send emails, text messages, and letters to citizens on behalf of government services. The platform provides a REST API, a web-based sending interface, and official client libraries for Python, Java, .NET, Node.js, PHP, and Ruby. Emails are free and unlimited; SMS messages include an annual free allowance by organisation type with per-message overage at 2.4p; physical letters are priced by postage class and page count with print and postage included. The API uses JWT-based authentication, supports template-driven personalisation, and enforces a throughput limit of 3,000 messages per minute per API key type.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/screenshots/gov-uk-notify-2026-06-20T182256.png",
-     "score": 44.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 65.9,
-      "governance": 58.3,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 33.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Consumer Product Safety Commission",
@@ -2911,7 +2956,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Department of Education",
@@ -2956,7 +3001,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "CMS — Centers for Medicare & Medicaid Services",
@@ -3001,7 +3046,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "FRED",
@@ -3046,7 +3091,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "National Institutes of Health (NIH)",
@@ -3091,7 +3136,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Regulations.gov",
@@ -3136,7 +3181,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "United States Postal Service",
@@ -3181,7 +3226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "NOAA — National Oceanic and Atmospheric Administration",
@@ -3225,7 +3270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Quiver Quantitative",
@@ -3270,7 +3315,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "US Space Command",
@@ -3315,7 +3360,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "NOAA",
@@ -3360,7 +3405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Veterans Affairs",
@@ -3405,7 +3450,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Picogrid",
@@ -3442,7 +3487,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "US Senate",
@@ -3487,7 +3532,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Consumer Financial Protection Bureau",
@@ -3532,7 +3577,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Consumer Financial Protection Bureau (CFPB)",
@@ -3577,7 +3622,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "UK Civil Aviation Authority",
@@ -3621,7 +3666,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "US Patent and Trademark Office",
@@ -3666,7 +3711,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "NationGraph",
@@ -3710,7 +3755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "NASA Open APIs",
@@ -3755,7 +3800,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 87
     },
     {
      "name": "US House of Representatives",
@@ -3785,51 +3830,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 87
-    },
-    {
-     "name": "FoodData Central",
-     "slug": "fooddata",
-     "description": "USDA FoodData Central is a comprehensive food composition database and REST API providing nutritional data for over 600,000 foods. The service covers multiple distinct data types including Foundation Foods, SR Legacy, Survey Foods (FNDDS), Branded Foods, and Experimental Foods. All data is released under CC0 1.0 Universal (public domain) and the API is free to use with a data.gov API key. FoodData Central is operated by the USDA Agricultural Research Service (ARS) and receives twice-annual updates for Foundation Foods and monthly updates for Branded Foods.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fooddata/refs/heads/main/screenshots/fooddata-2026-06-20T181400.png",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 66.6,
-      "governance": 58.3,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -4332,6 +4332,51 @@
      "rank": 99
     },
     {
+     "name": "HHS (US Department of Health and Human Services)",
+     "slug": "hhs",
+     "description": "The US Department of Health and Human Services provides data APIs for health programs, public health datasets, grants data, and interoperability standards for health information. HHS operates a broad ecosystem of APIs spanning FDA drug and device data, grants opportunity search, health IT open data, HRSA health center locators, and public health content syndication through its agencies including FDA, HRSA, ONC, and ODPHP.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png",
+     "score": 41.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 62.3,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 100
+    },
+    {
      "name": "Geocodio",
      "slug": "geocodio",
      "description": "Geocodio is a US and Canada geocoding API that converts addresses to coordinates (forward), coordinates to addresses (reverse), processes batches and spreadsheet lists, and enriches results with appended data such as congressional and state legislative districts, census geographies, ACS demographics, school districts, and timezones. Authentication is via an api_key query parameter and the first 2,500 lookups per day are free.",
@@ -4367,7 +4412,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 101
     },
     {
      "name": "GOV.UK Pay",
@@ -4412,7 +4457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "Social Security Administration",
@@ -4457,7 +4502,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 103
     },
     {
      "name": "U.S. Bureau of Labor Statistics",
@@ -4495,7 +4540,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 104
     },
     {
      "name": "US Court of Appeals for the Federal Circuit",
@@ -4533,7 +4578,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 105
     },
     {
      "name": "US Geological Survey",
@@ -4571,7 +4616,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 106
     },
     {
      "name": "Chronicling America",
@@ -4616,7 +4661,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 107
     },
     {
      "name": "Department of Energy",
@@ -4661,7 +4706,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 108
     },
     {
      "name": "Architect of the Capitol",
@@ -4699,7 +4744,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 109
     },
     {
      "name": "NHS Digital",
@@ -4743,7 +4788,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 110
     },
     {
      "name": "Artemis",
@@ -4788,7 +4833,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 111
+    },
+    {
+     "name": "USPTO",
+     "slug": "uspto-gov",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/screenshots/uspto-gov-2026-06-20T200720.png",
+     "score": 40.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 72.3,
+      "governance": 68.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 112
     },
     {
      "name": "Aviation Weather Center",
@@ -4833,7 +4922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 113
     },
     {
      "name": "RTX",
@@ -4878,7 +4967,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 114
     },
     {
      "name": "Bureau of Justice Statistics Data Analysis Tools",
@@ -4923,7 +5012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
+     "rank": 115
     },
     {
      "name": "Centers for Medicare and Medicaid Services",
@@ -4968,7 +5057,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 114
+     "rank": 116
     },
     {
      "name": "CMS Blue Button 2.0",
@@ -5013,7 +5102,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 117
+    },
+    {
+     "name": "FDIC",
+     "slug": "fdic",
+     "description": "The Federal Deposit Insurance Corporation (FDIC) provides the BankFind Suite REST API, offering developers programmatic access to publicly available data on FDIC-insured financial institutions. The API enables searching, filtering, and downloading information about bank institutions, branch locations, financial reports, structure change history, failed banks, and summary deposit data. All data is provided free of charge under the U.S. public domain license.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/screenshots/fdic-2026-06-20T181105.png",
+     "score": 39.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 65.1,
+      "governance": 58.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 13.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 118
     },
     {
      "name": "Food and Drug Administration",
@@ -5058,7 +5192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 119
     },
     {
      "name": "EU Open Data Portal",
@@ -5103,7 +5237,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 120
     },
     {
      "name": "Library of Congress",
@@ -5141,7 +5275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 121
     },
     {
      "name": "NOAA CO-OPS",
@@ -5186,7 +5320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 122
     },
     {
      "name": "SAM.gov",
@@ -5224,7 +5358,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
+     "rank": 123
     },
     {
      "name": "Dott",
@@ -5262,7 +5396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 121
+     "rank": 124
     },
     {
      "name": "US AbilityOne Commission",
@@ -5300,7 +5434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 125
     },
     {
      "name": "Bureau of Industry and Security",
@@ -5338,7 +5472,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 126
     },
     {
      "name": "Bureau of Industry Security",
@@ -5376,7 +5510,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 127
     },
     {
      "name": "US Army",
@@ -5421,7 +5555,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 128
     },
     {
      "name": "US Army Corps of Engineers",
@@ -5466,7 +5600,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 129
     },
     {
      "name": "United States National Library of Medicine",
@@ -5511,7 +5645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 130
     },
     {
      "name": "US Copyright Office",
@@ -5556,7 +5690,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 131
     },
     {
      "name": "United States Coast Guard",
@@ -5594,7 +5728,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 132
     },
     {
      "name": "Bureau of Consular Affairs",
@@ -5632,7 +5766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 133
     },
     {
      "name": "United States Census Bureau",
@@ -5677,7 +5811,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 134
     },
     {
      "name": "National Credit Union Administration (NCUA)",
@@ -5722,7 +5856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 135
     },
     {
      "name": "Open States",
@@ -5767,7 +5901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 136
     },
     {
      "name": "The National Aeronautics and Space Administration",
@@ -5812,7 +5946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 137
     },
     {
      "name": "Bureau of Transportation Statistics",
@@ -5857,7 +5991,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 138
     },
     {
      "name": "National Agricultural Library",
@@ -5895,7 +6029,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 139
     },
     {
      "name": "US African Development Foundation",
@@ -5933,7 +6067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 140
     },
     {
      "name": "US Department of Defense",
@@ -5978,51 +6112,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
-    },
-    {
-     "name": "USPTO",
-     "slug": "uspto-gov",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/screenshots/uspto-gov-2026-06-20T200720.png",
-     "score": 37.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 72.3,
-      "governance": 68.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 139
+     "rank": 141
     },
     {
      "name": "Bureau of Economic Analysis",
@@ -6060,7 +6150,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 142
     },
     {
      "name": "National Institute of Standards and Technology",
@@ -6098,7 +6188,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 143
     },
     {
      "name": "DVIDS API",
@@ -6143,52 +6233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
-    },
-    {
-     "name": "HHS (US Department of Health and Human Services)",
-     "slug": "hhs",
-     "description": "The US Department of Health and Human Services provides data APIs for health programs, public health datasets, grants data, and interoperability standards for health information. HHS operates a broad ecosystem of APIs spanning FDA drug and device data, grants opportunity search, health IT open data, HRSA health center locators, and public health content syndication through its agencies including FDA, HRSA, ONC, and ODPHP.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png",
-     "score": 37.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 62.3,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "US Department of Transportation",
@@ -6233,7 +6278,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 145
+    },
+    {
+     "name": "HealthData.gov",
+     "slug": "healthdata",
+     "description": "HealthData.gov is the U.S. Department of Health and Human Services open data platform providing public access to federal health datasets including Medicare claims, hospital quality ratings, drug utilization data, public health indicators, and data from agencies such as CMS, CDC, FDA, and NIH. The platform is powered by the Socrata Open Data API (SODA) and exposes every dataset through a consistent REST API using SoQL query language, enabling developers to build applications, conduct research, and create data visualizations from authoritative government health data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/healthdata/refs/heads/main/screenshots/healthdata-2026-06-20T182600.png",
+     "score": 37.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 40.3,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 146
     },
     {
      "name": "U.S. Treasury Fiscal Data",
@@ -6271,7 +6361,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 147
     },
     {
      "name": "United States Fire Administration",
@@ -6309,7 +6399,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 148
     },
     {
      "name": "Centers for Disease Control and Prevention",
@@ -6354,52 +6444,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
-    },
-    {
-     "name": "FDIC",
-     "slug": "fdic",
-     "description": "The Federal Deposit Insurance Corporation (FDIC) provides the BankFind Suite REST API, offering developers programmatic access to publicly available data on FDIC-insured financial institutions. The API enables searching, filtering, and downloading information about bank institutions, branch locations, financial reports, structure change history, failed banks, and summary deposit data. All data is provided free of charge under the U.S. public domain license.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fdic/refs/heads/main/screenshots/fdic-2026-06-20T181105.png",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 65.1,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 13.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "US Cyber Command",
@@ -6437,7 +6482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 150
     },
     {
      "name": "Offenders.io",
@@ -6475,7 +6520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 151
     },
     {
      "name": "Freedom of Information Act",
@@ -6513,7 +6558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "FVAP.gov",
@@ -6558,7 +6603,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "Federal Emergency Management Agency",
@@ -6595,7 +6640,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Australian Digital Health Agency",
@@ -6639,7 +6684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Centers for Medicare and Medicaid Services",
@@ -6684,7 +6729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Department of Homeland Security",
@@ -6729,7 +6774,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "National Cancer Institute",
@@ -6774,7 +6819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Vector Solutions",
@@ -6811,7 +6856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "National Park Service",
@@ -6849,7 +6894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "National Weather Service",
@@ -6887,7 +6932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "Federal Communications Commission",
@@ -6932,7 +6977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "Food Safety and Inspection Service",
@@ -6970,7 +7015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "US Commission on Civil Rights",
@@ -7008,7 +7053,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "US Commission on International Religious Freedom",
@@ -7046,7 +7091,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "Cancer.gov",
@@ -7091,7 +7136,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "Federal Reserve",
@@ -7129,7 +7174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 167
     },
     {
      "name": "Natural Resources Conservation Service",
@@ -7167,7 +7212,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 168
     },
     {
      "name": "Motorola Solutions",
@@ -7205,7 +7250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 169
     },
     {
      "name": "U.S. Geological Survey",
@@ -7243,7 +7288,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 170
     },
     {
      "name": "US Department of Commerce",
@@ -7288,7 +7333,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 171
     },
     {
      "name": "FuelEconomy.gov",
@@ -7333,7 +7378,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 172
     },
     {
      "name": "Civil Aviation Safety Authority (CASA)",
@@ -7377,7 +7422,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 172
+     "rank": 173
     },
     {
      "name": "CMS Open Payments",
@@ -7421,7 +7466,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 174
     },
     {
      "name": "eCFR",
@@ -7466,7 +7511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 175
     },
     {
      "name": "Lightning Social Ventures",
@@ -7511,7 +7556,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 176
     },
     {
      "name": "National Geospatial-Intelligence Agency",
@@ -7549,7 +7594,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 177
     },
     {
      "name": "OpenFEC",
@@ -7594,7 +7639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 178
     },
     {
      "name": "CivicPlus",
@@ -7639,7 +7684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 179
     },
     {
      "name": "National Oceanic and Atmospheric Administration",
@@ -7677,7 +7722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 179
+     "rank": 180
     },
     {
      "name": "Abound",
@@ -7721,7 +7766,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Federal Motor Carrier Safety Administration",
@@ -7759,7 +7804,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 182
     },
     {
      "name": "Energy Information Administration",
@@ -7791,51 +7836,6 @@
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 182
-    },
-    {
-     "name": "HealthData.gov",
-     "slug": "healthdata",
-     "description": "HealthData.gov is the U.S. Department of Health and Human Services open data platform providing public access to federal health datasets including Medicare claims, hospital quality ratings, drug utilization data, public health indicators, and data from agencies such as CMS, CDC, FDA, and NIH. The platform is powered by the Socrata Open Data API (SODA) and exposes every dataset through a consistent REST API using SoQL query language, enabling developers to build applications, conduct research, and create data visualizations from authoritative government health data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/healthdata/refs/heads/main/screenshots/healthdata-2026-06-20T182600.png",
-     "score": 35.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 40.3,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
@@ -10336,6 +10336,44 @@
      "rank": 241
     },
     {
+     "name": "IRS",
+     "slug": "irs",
+     "description": "The US Internal Revenue Service (IRS) provides REST APIs and Application-to-Application (A2A) interfaces for tax information access, identity verification, income verification, information return filing, and taxpayer account data. Authorized applications can integrate with IRS e-Services for TIN matching, the Transcript Delivery System (TDS), the Income Verification Express Service (IVES), the Information Return Intake System (IRIS) for 1099 series filings, and the Modernized e-File (MeF) system for electronic tax return submission. Access requires enrollment in IRS e-Services and obtaining an API client ID.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/irs/refs/heads/main/screenshots/irs-2026-06-20T183613.png",
+     "score": 26.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 3.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 242
+    },
+    {
      "name": "Replica",
      "slug": "replica",
      "description": "Replica is a San Francisco-based data platform for the built environment, spun out of Alphabet's Sidewalk Labs in 2019, that operates a nationwide activity-based travel model. Its analytical engine combines public data (US Census/ACS, GTFS transit feeds, OpenStreetMap road networks, land-use records, state traffic counts) with licensed private data (de-identified aggregate mobile location, credit transaction and driving-behavior data) to synthesize a privacy-preserving simulated population and a complete trip table for the United States. Products include Places (seasonal, high-fidelity activity-based travel model), Trends (weekly near-real-time mobility and land-use data), Safety Hub, Safe Streets Planner, and a suite of workflow applications used by state DOTs, MPOs, transit agencies, cities and counties. Data is consumed through the Replica Studio web platform, CSV export and direct database access; Replica publishes documented dataset schemas at documentation.replicahq.com but no public developer REST API, SDK or developer portal.",
@@ -10377,7 +10415,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 243
     },
     {
      "name": "Department of Labor",
@@ -10422,7 +10460,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 244
     },
     {
      "name": "Department of Labor",
@@ -10467,7 +10505,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 245
     },
     {
      "name": "GovTrack",
@@ -10512,7 +10550,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "Small Business Administration (SBA)",
@@ -10557,7 +10595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "USAspending.gov",
@@ -10601,7 +10639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "Department of State",
@@ -10638,7 +10676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "OpenFEMA",
@@ -10682,7 +10720,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 250
     },
     {
      "name": "Federal Housing Finance Agency (FHFA)",
@@ -10727,7 +10765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 251
     },
     {
      "name": "Alcohol and Tobacco Tax and Trade Bureau",
@@ -10765,7 +10803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 252
     },
     {
      "name": "NERC",
@@ -10809,7 +10847,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 253
     },
     {
      "name": "U.S. Agency for Global Media",
@@ -10847,7 +10885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 254
     },
     {
      "name": "Congressional Budget Office",
@@ -10892,7 +10930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 255
     },
     {
      "name": "PayIt",
@@ -10936,7 +10974,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 256
     },
     {
      "name": "USDA SNAP Retailer Locator",
@@ -10980,7 +11018,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 257
     },
     {
      "name": "Accrete",
@@ -11024,7 +11062,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 258
     },
     {
      "name": "SpruceID",
@@ -11068,7 +11106,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 259
     },
     {
      "name": "Customs and Border Protection",
@@ -11085,44 +11123,6 @@
       "operational_transparency": 36.8,
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 259
-    },
-    {
-     "name": "IRS",
-     "slug": "irs",
-     "description": "The US Internal Revenue Service (IRS) provides REST APIs and Application-to-Application (A2A) interfaces for tax information access, identity verification, income verification, information return filing, and taxpayer account data. Authorized applications can integrate with IRS e-Services for TIN matching, the Transcript Delivery System (TDS), the Income Verification Express Service (IVES), the Information Return Intake System (IRIS) for 1099 series filings, and the Modernized e-File (MeF) system for electronic tax return submission. Access requires enrollment in IRS e-Services and obtaining an API client ID.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/irs/refs/heads/main/screenshots/irs-2026-06-20T183613.png",
-     "score": 23.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 39.5
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,

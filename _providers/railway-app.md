@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-07-28'
+  score: 20.7
+  scored_at: '2026-08-03'
 api_count: 13
 apis:
 - description: GraphQL operations for creating, reading, updating, and deleting Railway projects - the top-level container for services and environments. Queries include project and projects; mutations include proje
@@ -147,7 +147,7 @@ plans:
 - name: Railway App Plans Pricing
   plan_count: 5
   slug: railway-app-plans-pricing
-random_paper: 61
+random_paper: 82
 rate_limits:
 - limit_count: 6
   name: Railway App Rate Limits
@@ -164,7 +164,7 @@ rules:
 score:
   band: developing
   composite: 43.6
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 59.0
@@ -172,9 +172,9 @@ score:
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 41.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 43.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

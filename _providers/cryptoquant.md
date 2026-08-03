@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Cryptoquant Plans Pricing
   plan_count: 3
   slug: cryptoquant-plans-pricing
-random_paper: 78
+random_paper: 86
 rate_limits:
 - limit_count: 5
   name: Cryptoquant Rate Limits
@@ -164,16 +164,16 @@ rules:
   slug: cryptoquant-rules
 score:
   band: developing
-  composite: 48.1
-  delta: -3.7
+  composite: 48.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.6
+    contract_quality: 67.6
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 51.8
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/screenshots/cryptoquant-2026-06-20T175316.png
 security:

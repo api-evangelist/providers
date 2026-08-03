@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -176,7 +176,7 @@ plans:
 - name: University Of Auckland Plans Pricing
   plan_count: 2
   slug: university-of-auckland-plans-pricing
-random_paper: 46
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: University Of Auckland Rate Limits
@@ -205,16 +205,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.9
-  delta: -5.1
+  composite: 45.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 66.6
+    contract_quality: 72.1
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 49.0
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -228,9 +228,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/screenshots/university-of-auckland-2026-06-20T200126.png
 security:
 - kind: authentication

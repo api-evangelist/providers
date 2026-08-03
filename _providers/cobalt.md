@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -1327,7 +1327,7 @@ plans:
 - name: Cobalt Plans Pricing
   plan_count: 3
   slug: cobalt-plans-pricing
-random_paper: 55
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Cobalt Rate Limits
@@ -1351,16 +1351,16 @@ rules:
   slug: cobalt-rules
 score:
   band: strong
-  composite: 62.9
-  delta: -6.8
+  composite: 63.7
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 66.1
+    contract_quality: 69.0
     developer_ergonomics: 43.5
     discoverability: 40.7
     governance: 58.3
     operational_transparency: 63.2
-  previous_composite: 69.7
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1368,9 +1368,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/screenshots/cobalt-2026-06-20T174643.png
 security:
 - kind: authentication

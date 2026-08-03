@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -224,19 +224,19 @@ overview: 'Spot publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Spot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 44
+random_paper: 74
 score:
-  band: developing
-  composite: 55.4
-  delta: -0.2
+  band: strong
+  composite: 56.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.9
+    contract_quality: 71.5
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 55.6
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -247,8 +247,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

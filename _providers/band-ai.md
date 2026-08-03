@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-07-28'
+  score: 48.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -240,19 +240,19 @@ overview: 'Band AI publishes 19 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Band AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 23 more developer resources.'
-random_paper: 78
+random_paper: 82
 score:
-  band: developing
-  composite: 55.9
-  delta: -1.1
+  band: strong
+  composite: 56.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 66.1
+    contract_quality: 69.0
     developer_ergonomics: 75.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 57.0
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,8 +263,8 @@ score:
       total: 19
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/band-ai/refs/heads/main/screenshots/band-ai-2026-07-25T202331.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-07-28'
+  score: 34.0
+  scored_at: '2026-08-03'
 api_count: 12
 apis:
 - description: The Business Details API from Mamo — 2 operation(s) for business details.
@@ -237,19 +237,19 @@ overview: 'Mamo publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 16
+random_paper: 46
 score:
   band: strong
-  composite: 60.8
-  delta: 0.8
+  composite: 61.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.1
+    contract_quality: 75.5
     developer_ergonomics: 64.7
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 60.0
+  previous_composite: 61.7
   provenance:
     conformance: first-party
     contracts:
@@ -265,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 67.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/screenshots/mamo-2026-07-25T230010.png
 security:

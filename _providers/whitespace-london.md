@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -197,19 +197,19 @@ overview: 'Whitespace publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Whitespace''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 28 more developer resources.'
-random_paper: 42
+random_paper: 54
 score:
   band: developing
-  composite: 46.9
-  delta: -4.6
+  composite: 47.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 51.6
+    contract_quality: 54.1
     developer_ergonomics: 69.0
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 51.5
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,8 +226,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-07-28'
+  score: 20.7
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Normalized cryptocurrency market data covering more than 350 exchanges and 28,000+ assets. Provides trades, quotes, order books, OHLCV time series, exchange rates, and derivatives metrics (funding rat
@@ -117,7 +117,7 @@ plans:
 - name: Coinapi Plans Pricing
   plan_count: 3
   slug: coinapi-plans-pricing
-random_paper: 1
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Coinapi Rate Limits
@@ -133,24 +133,24 @@ rules:
   slug: coinapi-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 3.5
+  composite: 47.0
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 51.6
+    contract_quality: 50.6
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 68.4
-  previous_composite: 43.7
+  previous_composite: 47.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinapi/refs/heads/main/screenshots/coinapi-2026-06-20T174721.png
 security:

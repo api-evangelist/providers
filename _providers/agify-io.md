@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Agify Io Plans Pricing
   plan_count: 3
   slug: agify-io-plans-pricing
-random_paper: 51
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Agify Io Rate Limits
@@ -145,17 +145,17 @@ rules:
     warn: 3
   slug: agify-io-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.0
-  delta: -6.6
+  band: thin
+  composite: 35.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 45.8
+    contract_quality: 18.4
     developer_ergonomics: 17.4
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 48.6
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -163,9 +163,9 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/screenshots/agify-io-2026-06-20T170134.png
 security:
 - kind: domain-security

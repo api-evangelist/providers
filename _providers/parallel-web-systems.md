@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-07-28'
+  score: 48.2
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The Chat API provides a programmatic chat-style text generation interface. It accepts a sequence of messages and returns model responses. Intended for assistant-like interactions and evaluation. Strea
@@ -170,19 +170,19 @@ overview: 'Parallel Web Systems publishes 6 APIs on the [APIs.io](https://apis.i
 
 
   Parallel Web Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 18 more developer resources.'
-random_paper: 77
+random_paper: 50
 score:
   band: strong
-  composite: 57.4
-  delta: 0.8
+  composite: 58.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.8
+    contract_quality: 73.7
     developer_ergonomics: 67.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 56.6
+  previous_composite: 58.4
   provenance:
     conformance: derived
     contracts:
@@ -192,8 +192,8 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

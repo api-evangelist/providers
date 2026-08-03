@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -275,7 +275,7 @@ plans:
 - name: Whoop Co Plans Pricing
   plan_count: 3
   slug: whoop-co-plans-pricing
-random_paper: 74
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Whoop Co Rate Limits
@@ -304,16 +304,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.5
-  delta: -7.1
+  composite: 61.0
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.0
+    contract_quality: 75.3
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 28.9
-  previous_composite: 67.6
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     contracts:
@@ -327,9 +327,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/screenshots/whoop-co-2026-06-20T201452.png
 security:
 - kind: authentication

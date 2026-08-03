@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -451,7 +451,7 @@ plans:
 - name: Bolt Plans Pricing
   plan_count: 1
   slug: bolt-plans-pricing
-random_paper: 23
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Bolt Rate Limits
@@ -472,16 +472,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.1
-  delta: -6.6
+  composite: 50.9
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 64.8
+    contract_quality: 68.5
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 56.7
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -495,9 +495,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt/refs/heads/main/screenshots/bolt-2026-06-20T173600.png
 security:
 - kind: authentication

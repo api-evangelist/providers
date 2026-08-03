@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ plans:
 - name: Google Cloud Certificate Manager Plans Pricing
   plan_count: 3
   slug: google-cloud-certificate-manager-plans-pricing
-random_paper: 77
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Google Cloud Certificate Manager Rate Limits
@@ -184,16 +184,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.0
-  delta: -3.2
+  composite: 62.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 67.8
+    contract_quality: 70.5
     developer_ergonomics: 47.8
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 65.2
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/screenshots/google-cloud-certificate-manager-2026-06-20T182052.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ overview: 'Bluecore publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bluecore''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 26 more developer resources.'
-random_paper: 29
+random_paper: 89
 rate_limits:
 - limit_count: 0
   name: Bluecore Rate Limits
@@ -225,16 +225,16 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 55.2
-  delta: 2.1
+  composite: 55.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 53.1
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +251,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/screenshots/bluecore-2026-07-25T203448.png
 security:

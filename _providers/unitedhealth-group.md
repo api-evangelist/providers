@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,11 +83,11 @@ press:
 - date: '2026-05-25'
   title: Making Health Care Work Smarter, For Everyone
   url: https://www.unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html
-random_paper: 77
+random_paper: 76
 score:
   band: minimal
   composite: 7.5
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -95,15 +95,15 @@ score:
     discoverability: 44.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 10.0
+  previous_composite: 7.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealth-group/refs/heads/main/screenshots/unitedhealth-group-2026-06-20T200102.png
 security:

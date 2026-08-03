@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -174,9 +174,9 @@ plans:
 - name: Saviynt Plans Pricing
   plan_count: 3
   slug: saviynt-plans-pricing
-random_paper: 44
+random_paper: 22
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Saviynt Rate Limits
   slug: saviynt-rate-limits
 rules:
@@ -190,16 +190,16 @@ rules:
   slug: saviynt-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.1
-  delta: -4.6
+  composite: 47.8
+  delta: 2.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 55.1
+    contract_quality: 58.9
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 48.7
+    operational_transparency: 42.1
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +207,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/screenshots/saviynt-2026-06-20T193458.png
 security:

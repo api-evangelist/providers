@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ plans:
 - name: Trustwell Plans Pricing
   plan_count: 1
   slug: trustwell-plans-pricing
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Trustwell Rate Limits
@@ -215,16 +215,16 @@ rules:
   slug: trustwell-rules
 score:
   band: developing
-  composite: 50.8
-  delta: -4.1
+  composite: 51.6
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 64.1
+    contract_quality: 67.2
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 54.9
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -232,8 +232,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/screenshots/trustwell-2026-06-20T195809.png
 security:

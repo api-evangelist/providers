@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'REST/JSON API for the Conta Azul ERP, organized by functional area (Financeiro, Cobranças, Baixas, Vendas, Pessoas, Produtos, Serviços, Notas Fiscais, Contratos), secured with OAuth 2.0 Authorization '
@@ -160,9 +160,9 @@ overview: 'Conta Azul publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Conta Azul''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 26
+random_paper: 56
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Dvpj Rate Limits
   slug: dvpj-rate-limits
 scopes:
@@ -171,17 +171,17 @@ scopes:
   slug: dvpj-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: thin
-  composite: 40.8
-  delta: -2.9
+  band: developing
+  composite: 43.1
+  delta: 2.3
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 52.2
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 44.7
-  previous_composite: 43.7
+    operational_transparency: 65.8
+  previous_composite: 40.8
   provenance:
     conformance: first-party
   regulatory:
@@ -190,8 +190,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dvpj/refs/heads/main/screenshots/dvpj-2026-07-25T212538.png
 security:

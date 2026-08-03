@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-07-28'
+  score: 47.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -284,7 +284,7 @@ overview: 'Spiko publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spiko''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 58
+random_paper: 75
 scopes:
 - name: Spiko Scopes
   scope_count: 3
@@ -292,16 +292,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.6
-  delta: -3.8
+  composite: 55.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 62.7
+    contract_quality: 67.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 21.1
-  previous_composite: 58.4
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -318,8 +318,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

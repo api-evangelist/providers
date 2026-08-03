@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ overview: 'Aviation Weather Center publishes 2 APIs on the [APIs.io](https://api
 
 
   Aviation Weather Center''s developer surface includes documentation, code examples, and 16 more developer resources.'
-random_paper: 53
+random_paper: 91
 rate_limits:
 - limit_count: 4
   name: Aviationweather Rate Limits
@@ -288,16 +288,16 @@ rules:
   slug: aviationweather-rules
 score:
   band: thin
-  composite: 39.6
-  delta: -4.2
+  composite: 40.1
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 71.5
+    contract_quality: 74.0
     developer_ergonomics: 8.7
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 43.8
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -311,8 +311,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviationweather/refs/heads/main/screenshots/aviationweather-2026-06-20T172725.png
 security:

@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The Rental business line of the EHI API Marketplace, covering Enterprise Rent-A-Car's network of neighborhood and airport branches. The public overview page describes the capabilities as vehicle renta
@@ -133,7 +133,7 @@ overview: 'Enterprise Mobility publishes 4 APIs on the [APIs.io](https://apis.io
 
 
   Enterprise Mobility''s developer surface includes developer portal, documentation, authentication, support, engineering blog, and 16 more developer resources.'
-random_paper: 39
+random_paper: 12
 scopes:
 - name: Enterprise Mobility Scopes
   scope_count: 14
@@ -142,6 +142,7 @@ scopes:
 score:
   band: emerging
   composite: 21.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -149,10 +150,12 @@ score:
     discoverability: 83.3
     governance: 12.5
     operational_transparency: 0.0
+  previous_composite: 21.0
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Enterprise Mobility Authentication

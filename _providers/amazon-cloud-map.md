@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -319,7 +319,7 @@ overview: 'Amazon Cloud Map publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Amazon Cloud Map''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 20 more developer resources.'
-random_paper: 31
+random_paper: 69
 rules:
 - name: Amazon Cloud Map API Rules
   rule_count: 5
@@ -339,16 +339,16 @@ rules:
   slug: amazon-cloud-map-spectral-rules
 score:
   band: developing
-  composite: 55.0
-  delta: -4.2
+  composite: 45.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 70.3
+    contract_quality: 33.3
     developer_ergonomics: 41.3
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 59.2
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -358,8 +358,8 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/screenshots/amazon-cloud-map-2026-07-25T195942.png
 security:

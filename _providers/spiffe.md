@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-07-28'
+  score: 30.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Spiffe Plans Pricing
   plan_count: 3
   slug: spiffe-plans-pricing
-random_paper: 63
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Spiffe Rate Limits
@@ -200,16 +200,16 @@ rules:
   slug: spiffe-rules
 score:
   band: developing
-  composite: 49.9
-  delta: -4.1
+  composite: 50.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.5
+    contract_quality: 66.2
     developer_ergonomics: 26.1
     discoverability: 72.2
     governance: 62.5
     operational_transparency: 47.4
-  previous_composite: 54.0
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/screenshots/spiffe-2026-06-20T194311.png
 security:

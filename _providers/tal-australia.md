@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: TAL's partner-facing OpenID Connect identity tenant (Okta org talpartner-au.okta.com), and the only machine-readable API contract TAL serves anonymously. Full OIDC discovery and RFC 8414 authorization
@@ -153,7 +153,7 @@ overview: 'TAL publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TAL''s developer surface includes authentication, support, FAQ, engineering blog, and 23 more developer resources.'
-random_paper: 20
+random_paper: 2
 scopes:
 - name: Tal Australia Scopes
   scope_count: 7
@@ -162,7 +162,7 @@ scopes:
 score:
   band: emerging
   composite: 25.0
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -170,7 +170,7 @@ score:
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 10.5
-  previous_composite: 26.8
+  previous_composite: 25.0
   provenance:
     conformance: derived
   regulatory:
@@ -179,8 +179,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 57.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 195
   human_in_the_loop: 8
@@ -313,19 +313,19 @@ overview: 'Quadrillion publishes 51 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quadrillion''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, support, authentication, and 19 more developer resources.'
-random_paper: 40
+random_paper: 48
 score:
   band: developing
-  composite: 47.2
-  delta: -2.2
+  composite: 48.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 43.7
+    contract_quality: 48.5
     developer_ergonomics: 47.3
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 49.4
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -336,8 +336,8 @@ score:
       total: 51
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

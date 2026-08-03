@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: The Roblox Open Cloud API is the official external REST surface for Roblox creators, studios, and partners. It exposes universes, places, place publishing, ordered and standard data stores, memory sto
@@ -182,7 +182,7 @@ plans:
 - name: Roblox Plans Pricing
   plan_count: 1
   slug: roblox-plans-pricing
-random_paper: 6
+random_paper: 92
 rate_limits:
 - limit_count: 2
   name: Roblox Rate Limits
@@ -190,7 +190,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.9
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 43.2
@@ -198,16 +198,16 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 31.7
+  previous_composite: 39.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roblox/refs/heads/main/screenshots/roblox-2026-06-20T193141.png
 security:
 - kind: domain-security

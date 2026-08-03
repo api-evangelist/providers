@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -418,7 +418,7 @@ plans:
 - name: Microsoft Excel Plans Pricing
   plan_count: 5
   slug: microsoft-excel-plans-pricing
-random_paper: 80
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Microsoft Excel Rate Limits
@@ -446,17 +446,17 @@ scopes:
   slug: microsoft-excel-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 66.7
-  delta: -4.8
+  band: strong
+  composite: 57.9
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 68.1
+    contract_quality: 32.8
     developer_ergonomics: 45.7
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 52.6
-  previous_composite: 71.5
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -466,8 +466,8 @@ score:
       marker_coverage: 100.0
       total: 9
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/screenshots/microsoft-excel-2026-06-20T185500.png
 security:

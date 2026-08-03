@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for accepting Bancontact payments online and via QR code. Enables merchants to create payment transactions, generate QR codes, handle callbacks, and process refunds. The API is organized arou
@@ -111,7 +111,7 @@ plans:
 - name: Bancontact Plans Pricing
   plan_count: 3
   slug: bancontact-plans-pricing
-random_paper: 69
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Bancontact Rate Limits
@@ -128,7 +128,7 @@ rules:
 score:
   band: emerging
   composite: 25.4
-  delta: -4.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 12.9
@@ -136,15 +136,15 @@ score:
     discoverability: 59.3
     governance: 37.5
     operational_transparency: 31.6
-  previous_composite: 30.1
+  previous_composite: 25.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bancontact/refs/heads/main/screenshots/bancontact-2026-06-20T172938.png
 security:

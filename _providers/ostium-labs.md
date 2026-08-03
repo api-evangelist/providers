@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-07-28'
+  score: 37.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Public Builder API and TypeScript/Python SDK surface for reading Ostium market data (pairs, prices, OHLC candles), streaming live prices and account/position updates over WebSocket, and building/submi
@@ -195,11 +195,11 @@ overview: 'Ostium Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Ostium Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 27 more developer resources.'
-random_paper: 70
+random_paper: 91
 score:
   band: developing
   composite: 51.4
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 49.4
@@ -207,7 +207,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 31.6
-  previous_composite: 51.6
+  previous_composite: 51.4
   provenance:
     conformance: derived
     mcp: derived
@@ -218,8 +218,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

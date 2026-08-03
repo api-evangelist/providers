@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-07-28'
+  score: 34.0
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Public GraphQL API for Parabol. Authenticated with scoped Personal Access Tokens passed as a Bearer token. A single root `viewer` query returns the authenticated user and their teams, meetings, tasks,
@@ -183,7 +183,7 @@ overview: 'Parabol publishes 1 API on the [APIs.io](https://apis.io/) network: G
 
 
   Parabol''s developer surface includes API reference, documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 81
+random_paper: 72
 scopes:
 - name: Parabol Scopes
   scope_count: 16
@@ -192,7 +192,7 @@ scopes:
 score:
   band: developing
   composite: 52.2
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.0
@@ -200,13 +200,13 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 55.3
-  previous_composite: 48.3
+  previous_composite: 52.2
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

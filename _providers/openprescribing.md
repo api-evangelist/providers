@@ -10,25 +10,25 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
     rate_limit_signal: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-07-28'
+  score: 38.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 19
   slug: openprescribing-agentic-access
   summary_line: 19 operations
-api_count: 3
+api_count: 4
 apis:
 - description: Retrieve total prescribing spending, quantity and items across the last five years of the English Prescribing Dataset — by BNF code (section, chemical or presentation) and by NHS organisation (practic
   name: OpenPrescribing Spending API
@@ -47,7 +47,10 @@ apis:
 - description: Reference-data lookups for the prescribing dataset — search BNF sections, chemicals and presentations by name or code; look up NHS organisations (Sub-ICB Location or practice) by code or name; retriev
   name: OpenPrescribing Information API
   slug: openprescribing-information-api
-artifact_total: 7
+- description: OpenPrescribing API from OpenPrescribing — 19 path(s) described in OpenAPI.
+  name: OpenPrescribing API
+  slug: openprescribing-openapi
+artifact_total: 8
 common:
 - group: agent
   title: ''
@@ -157,23 +160,23 @@ modified: '2026-07-24'
 name: OpenPrescribing
 nav: Providers
 network: true
-overview: 'OpenPrescribing publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United Kingdom, NHS, Prescribing, and Pharmacy.
+overview: 'OpenPrescribing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United Kingdom, NHS, Prescribing, and Pharmacy.
 
 
   OpenPrescribing''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, authentication, and 18 more developer resources.'
-random_paper: 52
+random_paper: 90
 score:
-  band: emerging
-  composite: 24.1
-  delta: -2.0
+  band: thin
+  composite: 34.0
+  delta: 9.9
   facets:
     commercial_clarity: 0.0
-    contract_quality: 8.1
+    contract_quality: 55.0
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 26.1
+  previous_composite: 24.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,9 +193,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: flat
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: rising
 security:
 - kind: authentication
   name: Openprescribing Authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'REST API for the Class virtual classroom platform. Manage classes, enrollments, schedules, templates, and non-learner users; generate per-user launch URLs; and pull attendance and activity reporting. '
@@ -128,7 +128,7 @@ overview: 'Class Technologies publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Class Technologies'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 59
+random_paper: 58
 scopes:
 - name: Class Technologies Scopes
   scope_count: 12
@@ -137,7 +137,7 @@ scopes:
 score:
   band: emerging
   composite: 27.6
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -145,11 +145,11 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 31.3
+  previous_composite: 27.6
   provenance:
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class-technologies/refs/heads/main/screenshots/class-technologies-2026-07-25T205514.png
 security:

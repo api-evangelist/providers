@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -166,23 +166,23 @@ plans:
 - name: Orange Plans Pricing
   plan_count: 3
   slug: orange-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Orange Rate Limits
   slug: orange-rate-limits
 score:
   band: developing
-  composite: 45.1
-  delta: -5.0
+  composite: 45.9
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 50.1
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -196,9 +196,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/screenshots/orange-2026-06-20T191151.png
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ press:
 - date: '2026-05-25'
   title: Healthcare's Quiet AI Boom Is Creating a New Class of ...
   url: https://www.prnewswire.com/news-releases/healthcares-quiet-ai-boom-is-creating-a-new-class-of-breakout-contenders-302465869.html
-random_paper: 27
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Aptargroup Rate Limits
@@ -145,17 +145,17 @@ rules:
     warn: 13
   slug: aptargroup-spectral-rules
 score:
-  band: thin
-  composite: 41.9
-  delta: -3.5
+  band: developing
+  composite: 42.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 75.4
+    contract_quality: 77.5
     developer_ergonomics: 10.9
     discoverability: 53.7
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 45.4
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

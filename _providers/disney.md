@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ overview: 'Disney API publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Disney API''s developer surface includes documentation, signup flow, code examples, and 23 more developer resources.'
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 3
   name: Disney Rate Limits
@@ -240,16 +240,16 @@ rules:
   slug: disney-rules
 score:
   band: thin
-  composite: 37.0
-  delta: -6.8
+  composite: 30.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 50.8
+    contract_quality: 23.1
     developer_ergonomics: 8.7
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 43.8
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -257,9 +257,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png
 security:
 - kind: domain-security

@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -164,19 +164,19 @@ overview: 'The Co-operators publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   The Co-operators'' developer surface includes authentication, support, product news, engineering blog, sandbox, and 21 more developer resources.'
-random_paper: 53
+random_paper: 61
 score:
-  band: thin
-  composite: 33.2
-  delta: -4.0
+  band: emerging
+  composite: 26.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 48.3
+    contract_quality: 15.3
     developer_ergonomics: 25.5
     discoverability: 77.8
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 37.2
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,8 +193,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/screenshots/cooperators-2026-07-25T210405.png
 security:

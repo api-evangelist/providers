@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.0
-  scored_at: '2026-07-28'
+  score: 46.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -264,23 +264,23 @@ plans:
 - name: Global System For Mobile Communications Plans Pricing
   plan_count: 3
   slug: global-system-for-mobile-communications-plans-pricing
-random_paper: 18
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Global System For Mobile Communications Rate Limits
   slug: global-system-for-mobile-communications-rate-limits
 score:
   band: thin
-  composite: 38.4
-  delta: -3.3
+  composite: 39.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.4
+    contract_quality: 60.6
     developer_ergonomics: 17.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 41.7
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -294,8 +294,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/screenshots/global-system-for-mobile-communications-2026-06-20T181919.png
 security:

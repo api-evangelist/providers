@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Query the risk states of enrolled devices and override device risk classifications. JWT bearer auth (15-minute tokens) obtained from Application ID/Secret via HTTP Basic. Base host https://api.wandera
@@ -163,23 +163,23 @@ overview: 'Wandera publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Wandera''s developer surface includes documentation, API reference, support, authentication, and 22 more developer resources.'
-random_paper: 0
+random_paper: 73
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Wandera Rate Limits
   slug: wandera-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: -4.5
+  composite: 31.8
+  delta: 2.7
   facets:
     commercial_clarity: 15.8
-    contract_quality: 48.3
+    contract_quality: 16.1
     developer_ergonomics: 38.6
     discoverability: 87.0
     governance: 11.5
-    operational_transparency: 31.6
-  previous_composite: 41.6
+    operational_transparency: 52.6
+  previous_composite: 29.1
   provenance:
     conformance: derived
     contracts:
@@ -189,8 +189,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

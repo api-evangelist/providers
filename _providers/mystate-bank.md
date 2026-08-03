@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: Banking Account Balance endpoints
@@ -157,19 +157,19 @@ overview: 'MyState Bank publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   MyState Bank''s developer surface includes support, documentation, authentication, and 18 more developer resources.'
-random_paper: 2
+random_paper: 92
 score:
   band: thin
-  composite: 33.6
-  delta: -6.0
+  composite: 34.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.0
+    contract_quality: 53.9
     developer_ergonomics: 27.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 39.6
+  previous_composite: 34.4
   provenance:
     conformance: derived
     contracts:
@@ -185,9 +185,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/screenshots/mystate-bank-2026-07-21T130910.png
 security:
 - kind: authentication

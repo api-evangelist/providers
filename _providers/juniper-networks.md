@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -425,7 +425,7 @@ press:
 - date: '2026-05-25'
   title: Hewlett Packard Enterprise
   url: https://www.facebook.com/HewlettPackardEnterprise/posts/you-showed-up-in-the-comments-the-quotes-and-the-threads-since-hpes-juniper-acqu/1191246859707387/
-random_paper: 63
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: Juniper Networks Rate Limits
@@ -449,16 +449,16 @@ rules:
   slug: juniper-networks-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.9
-  delta: -3.7
+  composite: 55.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 78.1
+    contract_quality: 79.7
     developer_ergonomics: 34.8
     discoverability: 66.7
     governance: 52.1
     operational_transparency: 42.1
-  previous_composite: 58.6
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -466,8 +466,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/screenshots/juniper-networks-2026-06-20T183831.png
 security:

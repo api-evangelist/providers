@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-07-28'
+  score: 46.2
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Public GraphQL API for the Glue workspace — send messages (sendMessage), read workspaces, threads, and groups, with Relay cursor-connection pagination and OAuth2 bearer auth.
@@ -167,7 +167,7 @@ overview: 'Glue publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Glue''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 19
+random_paper: 49
 scopes:
 - name: Glue Scopes
   scope_count: 6
@@ -176,7 +176,7 @@ scopes:
 score:
   band: developing
   composite: 51.6
-  delta: 9.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.6
@@ -184,7 +184,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 23.7
-  previous_composite: 42.0
+  previous_composite: 51.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -195,9 +195,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glue/refs/heads/main/screenshots/glue-2026-07-25T215936.png
 security:
 - kind: authentication

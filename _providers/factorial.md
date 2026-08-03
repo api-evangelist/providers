@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -207,7 +207,7 @@ overview: 'Factorial publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Factorial''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 21 more developer resources.'
-random_paper: 47
+random_paper: 94
 scopes:
 - name: Factorial Scopes
   scope_count: 2
@@ -215,16 +215,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.8
-  delta: -1.9
+  composite: 30.8
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 26.1
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 31.7
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -232,8 +232,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factorial/refs/heads/main/screenshots/factorial-2026-06-20T181037.png
 security:

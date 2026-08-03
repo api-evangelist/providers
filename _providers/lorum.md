@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 56.5
-  scored_at: '2026-07-28'
+  score: 52.5
+  scored_at: '2026-08-03'
 api_count: 10
 apis:
 - description: The Accounts API from Lorum — 5 operation(s) for accounts.
@@ -186,19 +186,19 @@ overview: 'Lorum publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Lorum''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 18 more developer resources.'
-random_paper: 67
+random_paper: 84
 score:
   band: developing
-  composite: 45.3
-  delta: -4.1
+  composite: 45.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 70.4
+    contract_quality: 73.5
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 23.7
-  previous_composite: 49.4
+  previous_composite: 45.9
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +214,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/screenshots/lorum-2026-07-25T225554.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -196,19 +196,19 @@ overview: 'Capy publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Capy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 19
+random_paper: 49
 score:
   band: developing
-  composite: 51.5
-  delta: -0.1
+  composite: 52.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.2
+    contract_quality: 64.2
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 10.5
-  previous_composite: 51.6
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -219,8 +219,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy/refs/heads/main/screenshots/capy-2026-07-25T204458.png
 security:

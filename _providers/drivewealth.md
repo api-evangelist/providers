@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -274,9 +274,9 @@ plans:
 - name: Drivewealth Plans Pricing
   plan_count: 2
   slug: drivewealth-plans-pricing
-random_paper: 35
+random_paper: 43
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Drivewealth Rate Limits
   slug: drivewealth-rate-limits
 rules:
@@ -290,16 +290,16 @@ rules:
   slug: drivewealth-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.8
-  delta: -3.8
+  composite: 47.9
+  delta: 2.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.1
+    contract_quality: 65.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
-    operational_transparency: 21.1
-  previous_composite: 48.6
+    operational_transparency: 42.1
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -313,8 +313,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/screenshots/drivewealth-2026-06-20T180237.png
 security:

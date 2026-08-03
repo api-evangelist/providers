@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.3
-  scored_at: '2026-07-28'
+  score: 38.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Monday Com Plans Pricing
   plan_count: 5
   slug: monday-com-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Monday Com Rate Limits
@@ -156,16 +156,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.5
-  delta: -2.9
+  composite: 46.0
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 75.4
+    contract_quality: 73.6
     developer_ergonomics: 13.0
     discoverability: 50.0
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 49.4
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/screenshots/monday-com-2026-06-20T185722.png
 security:

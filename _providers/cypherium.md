@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Ethereum-compatible JSON-RPC node API for the Cypherium Layer-1 mainnet — eth, web3, net, personal, miner, txpool and admin namespaces over HTTP, WebSocket and IPC. EVM chain ID 16166, native currency
@@ -86,11 +86,11 @@ overview: 'Cypherium publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Cypherium''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 80
+random_paper: 32
 score:
   band: emerging
   composite: 14.4
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -98,11 +98,11 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 13.4
+  previous_composite: 14.4
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cypherium/refs/heads/main/screenshots/cypherium-2026-07-25T211054.png
 security:

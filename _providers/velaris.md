@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 14
 apis:
 - description: The Activity API from Velaris — 4 operation(s) for activity.
@@ -199,19 +199,19 @@ overview: 'Velaris publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Velaris'' developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, authentication, and 20 more developer resources.'
-random_paper: 20
+random_paper: 93
 score:
   band: developing
-  composite: 50.5
-  delta: -0.1
+  composite: 51.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.8
+    contract_quality: 61.1
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 26.3
-  previous_composite: 50.6
+  previous_composite: 51.6
   provenance:
     conformance: first-party
     contracts:
@@ -221,8 +221,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

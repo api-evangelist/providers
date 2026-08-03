@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Create and manage data migration (import) jobs.
@@ -155,23 +155,23 @@ overview: 'Import2 publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Import2''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 61
+random_paper: 52
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Import2 Rate Limits
   slug: import2-rate-limits
 score:
   band: developing
-  composite: 48.9
-  delta: -3.0
+  composite: 52.4
+  delta: 2.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 60.3
     discoverability: 75.9
     governance: 11.5
-    operational_transparency: 5.3
-  previous_composite: 51.9
+    operational_transparency: 26.3
+  previous_composite: 49.7
   provenance:
     conformance: derived
     contracts:
@@ -181,8 +181,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/screenshots/import2-2026-07-25T222154.png
 security:

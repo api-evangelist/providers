@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ overview: 'Amazon App Studio publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Amazon App Studio''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 18 more developer resources.'
-random_paper: 81
+random_paper: 11
 rules:
 - name: Amazon App Studio API Rules
   rule_count: 5
@@ -237,16 +237,16 @@ rules:
   slug: amazon-app-studio-spectral-rules
 score:
   band: developing
-  composite: 53.4
-  delta: -2.1
+  composite: 54.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 72.9
+    contract_quality: 75.2
     developer_ergonomics: 43.5
     discoverability: 77.8
     governance: 80.2
     operational_transparency: 5.3
-  previous_composite: 55.5
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,8 +256,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/screenshots/amazon-app-studio-2026-07-25T195916.png
 security:

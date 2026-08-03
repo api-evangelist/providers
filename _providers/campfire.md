@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-07-28'
+  score: 55.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 2
@@ -211,7 +211,7 @@ overview: 'Campfire publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Campfire''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
-random_paper: 19
+random_paper: 79
 scopes:
 - name: Campfire Scopes
   scope_count: 3
@@ -219,16 +219,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.1
-  delta: 1.0
+  composite: 51.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 57.5
+    contract_quality: 64.3
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 49.1
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -239,8 +239,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/screenshots/campfire-2026-07-25T204311.png
 security:

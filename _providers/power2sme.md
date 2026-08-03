@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 17
 apis:
 - description: ''
@@ -140,11 +140,11 @@ overview: 'Power2SME publishes 17 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Power2SME''s developer surface includes documentation, API reference, authentication, and 7 more developer resources.'
-random_paper: 30
+random_paper: 77
 score:
   band: thin
   composite: 28.9
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 32.3
@@ -152,7 +152,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 31.9
+  previous_composite: 28.9
   provenance:
     conformance: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

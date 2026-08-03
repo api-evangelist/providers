@@ -26,7 +26,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -66,7 +66,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -116,7 +116,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 20.7,
      "agent_band": "agent-aware",
@@ -156,7 +156,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -196,7 +196,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -236,7 +236,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -276,7 +276,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -316,7 +316,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -356,7 +356,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -396,7 +396,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -436,7 +436,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -476,7 +476,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -516,7 +516,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -556,7 +556,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -579,6 +579,46 @@
      "rank": 14
     },
     {
+     "name": "Artifact Hub",
+     "slug": "artifact-hub",
+     "url": "https://providers.apis.io/providers/artifact-hub/",
+     "type": "API Provider",
+     "description": "Artifact Hub is a CNCF incubating web-based application that enables finding, installing, and publishing cloud-native packages. Built primarily in TypeScript and Go, it addresses fragmentation in the cloud-native ecosystem by providing a single discovery experience for consumers. It supports 27+ artifact types including Helm charts, OPA policies, Falco rules, OLM operators, Tinkerbell actions, kubectl plugins, Tekton tasks, KEDA scalers, CoreDNS plugins, and more. Artifact Hub provides a searchable catalog with versioning, security reports via Trivy and Snyk, changelog tracking, and webhook notification support. Licensed under Apache 2.0 and governed by the CNCF.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png",
+     "score": 44.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 60.5,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 15
+    },
+    {
      "name": "OpenCost",
      "slug": "opencost",
      "url": "https://providers.apis.io/providers/opencost/",
@@ -596,7 +636,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -616,7 +656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Vitess",
@@ -636,7 +676,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -656,7 +696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "CoreDNS",
@@ -676,7 +716,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -696,7 +736,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Prometheus",
@@ -716,7 +756,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 18.5,
      "agent_band": "agent-aware",
@@ -729,46 +769,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "Artifact Hub",
-     "slug": "artifact-hub",
-     "url": "https://providers.apis.io/providers/artifact-hub/",
-     "type": "API Provider",
-     "description": "Artifact Hub is a CNCF incubating web-based application that enables finding, installing, and publishing cloud-native packages. Built primarily in TypeScript and Go, it addresses fragmentation in the cloud-native ecosystem by providing a single discovery experience for consumers. It supports 27+ artifact types including Helm charts, OPA policies, Falco rules, OLM operators, Tinkerbell actions, kubectl plugins, Tekton tasks, KEDA scalers, CoreDNS plugins, and more. Artifact Hub provides a searchable catalog with versioning, security reports via Trivy and Snyk, changelog tracking, and webhook notification support. Licensed under Apache 2.0 and governed by the CNCF.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png",
-     "score": 42.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 54.0,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.9,
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -806,7 +806,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -846,7 +846,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -886,7 +886,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -925,7 +925,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -965,7 +965,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1005,7 +1005,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -1045,7 +1045,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -1085,7 +1085,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 18.5,
      "agent_band": "agent-aware",
@@ -1125,7 +1125,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 32.4,
      "agent_band": "agent-aware",
@@ -1165,7 +1165,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1205,7 +1205,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -1245,7 +1245,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1285,7 +1285,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1325,7 +1325,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1365,7 +1365,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1405,7 +1405,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -1454,7 +1454,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1493,7 +1493,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -1533,7 +1533,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 1.6,
      "agent_band": "human-only",
@@ -1573,7 +1573,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1613,7 +1613,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1653,7 +1653,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1693,7 +1693,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1733,7 +1733,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1773,7 +1773,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1813,7 +1813,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1862,7 +1862,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1902,7 +1902,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1942,7 +1942,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",

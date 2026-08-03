@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
-    openapi_examples: documented
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-07-28'
+  score: 52.5
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The current Opendatasoft Explore REST API v2.1 scoped to the SP Electricity North West open data domain. Read-only (GET only, JSON), 16 documented paths covering catalogue search over the 146 publishe
@@ -242,7 +242,7 @@ overview: 'Electricity North West publishes 2 APIs on the [APIs.io](https://apis
 
 
   Electricity North West''s developer surface includes developer portal, documentation, API reference, getting-started guide, sandbox, developer console, signup flow, and 37 more developer resources.'
-random_paper: 67
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Electricity North West Rate Limits
@@ -253,17 +253,17 @@ scopes:
   slug: electricity-north-west-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 52.3
-  delta: -6.0
+  band: strong
+  composite: 58.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 58.9
     developer_ergonomics: 69.0
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 86.8
-  previous_composite: 58.3
+  previous_composite: 58.0
   provenance:
     conformance: derived
     mcp: derived
@@ -274,9 +274,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Electricity North West Authentication

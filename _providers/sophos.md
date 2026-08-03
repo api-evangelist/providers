@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Sophos Plans Pricing
   plan_count: 3
   slug: sophos-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Sophos Rate Limits
@@ -178,16 +178,16 @@ rules:
   slug: sophos-rules
 score:
   band: developing
-  composite: 53.2
-  delta: -3.9
+  composite: 53.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.9
+    contract_quality: 69.8
     developer_ergonomics: 39.1
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 57.1
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -195,8 +195,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sophos/refs/heads/main/screenshots/sophos-2026-06-20T194213.png
 security:

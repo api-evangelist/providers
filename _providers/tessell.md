@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-07-28'
+  score: 40.8
+  scored_at: '2026-08-03'
 api_count: 82
 apis:
 - description: The activity-center API from Tessell — 2 operation(s) for activity-center.
@@ -442,19 +442,19 @@ overview: 'Tessell publishes 82 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tessell''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
-random_paper: 26
+random_paper: 4
 score:
   band: developing
-  composite: 45.5
-  delta: -2.0
+  composite: 46.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 52.4
+    contract_quality: 56.9
     developer_ergonomics: 62.5
     discoverability: 68.5
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 47.5
+  previous_composite: 46.7
   provenance:
     conformance: derived
     contracts:
@@ -464,8 +464,8 @@ score:
       total: 82
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

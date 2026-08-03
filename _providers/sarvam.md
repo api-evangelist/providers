@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-07-28'
+  score: 48.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -195,19 +195,19 @@ overview: 'Sarvam publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Sarvam''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 20 more developer resources.'
-random_paper: 76
+random_paper: 80
 score:
   band: developing
-  composite: 52.1
-  delta: -3.1
+  composite: 52.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 65.5
+    contract_quality: 68.4
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 55.2
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,8 +224,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

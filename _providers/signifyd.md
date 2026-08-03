@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 8
 apis:
 - description: Submit checkout and sale events to Signifyd's Commerce Protection Platform for real-time fraud and chargeback risk evaluation. The Checkout flow supports pre-authorization screening, while the Sale fl
@@ -185,11 +185,11 @@ overview: 'Signifyd publishes 8 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Signifyd''s developer surface includes developer portal, documentation, getting-started guide, authentication, pricing, engineering blog, support, and 18 more developer resources.'
-random_paper: 41
+random_paper: 6
 score:
   band: emerging
   composite: 26.4
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -197,15 +197,15 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.7
+  previous_composite: 26.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signifyd/refs/heads/main/screenshots/signifyd-2026-06-20T193910.png
 security:

@@ -50,6 +50,44 @@
      "rank": 1
     },
     {
+     "name": "Placer",
+     "slug": "placer",
+     "description": "Placer.ai is a location analytics and foot-traffic intelligence platform that measures visits, trade areas, demographics, and consumer behavior for physical points of interest across retail, CPG, commercial real estate, hospitality, and the public sector. Its public developer surface, the Placer API (PAPI, base https://papi.placer.ai), lets developers and data analysts extract Placer's location analytics programmatically to enrich, filter, or combine it with other data sources for custom dashboards, internal reporting, and competitive analysis. The v1 REST API covers entity/POI search, custom POI and tag management, and a suite of report endpoints spanning visit metrics and trends, trade area (true trade area, drive-time, demographics), ranking, loyalty, and retail sales. Authentication is a static API key sent in the x-api-key header.",
+     "score": 52.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 57.6,
+      "governance": 11.5,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 41.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Property Data & Analytics",
+     "rank": 2
+    },
+    {
      "name": "Lone Wolf Technologies",
      "slug": "lone-wolf",
      "description": "Lone Wolf Technologies is the dominant back-office, transaction-management and forms vendor in North American residential real estate, headquartered in Dallas, Texas and backed by Stone Point Capital. Its software runs the paperwork and money side of the deal rather than the listing feed: brokerage accounting and commission processing (Back Office, the brokerWOLF lineage), transaction management in two editions (zipForm Edition and TransactionDesk Edition), Authentisign and Inkless e-signature, Cloud CMA comparative market analysis, Boost digital advertising (HomeSpotter), Spacio open-house lead capture, and Propertybase/Relationships CRM. Its forms suites are distributed to agents as association member benefits through state REALTOR associations and MLSs, which places it between the MLS layer and the brokerage. On API posture it is one of the strongest surfaces in this sector and an instructive counter-example to the MLS data providers: on 2026-02-02 it launched a public API Portal for the Lone Wolf Foundation platform, and its documentation hub at apidocs.lwolf.com publishes seven complete, anonymously downloadable OpenAPI 3.0 definitions (Transact, Deals, Back Office, Authentisign, TransactionDesk, zipForm and WolfConnect) plus an MCP server endpoint. Documentation is genuinely open; credentials are not. Keys are issued only after an access-request form is reviewed by the integrations team, and the zipForm API is explicitly licensed to third-party application partners. Lone Wolf is not a RESO-certified data distributor and publishes no RESO Web API, Data Dictionary endpoint, OData $metadata document or Universal Property Identifier — RESO certification governs MLS listing feeds, which is not the layer Lone Wolf occupies; it consumes MLS data under MLS agreements (Cloud CMA documents RETS live queries) rather than redistributing it.",
@@ -85,7 +123,7 @@
       "dry_run_mode": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "Keller Williams",
@@ -130,7 +168,7 @@
       "dry_run_mode": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "VTS",
@@ -168,7 +206,7 @@
       "dry_run_mode": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Yardi",
@@ -207,7 +245,7 @@
       "dry_run_mode": false
      },
      "tier": "Property Management",
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "RESO (Real Estate Standards Organization)",
@@ -245,7 +283,7 @@
       "dry_run_mode": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Estated",
@@ -278,44 +316,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Property Data & Analytics",
-     "rank": 7
-    },
-    {
-     "name": "Placer",
-     "slug": "placer",
-     "description": "Placer.ai is a location analytics and foot-traffic intelligence platform that measures visits, trade areas, demographics, and consumer behavior for physical points of interest across retail, CPG, commercial real estate, hospitality, and the public sector. Its public developer surface, the Placer API (PAPI, base https://papi.placer.ai), lets developers and data analysts extract Placer's location analytics programmatically to enrich, filter, or combine it with other data sources for custom dashboards, internal reporting, and competitive analysis. The v1 REST API covers entity/POI search, custom POI and tag management, and a suite of report endpoints spanning visit metrics and trends, trade area (true trade area, drive-time, demographics), ranking, loyalty, and retail sales. Authentication is a static API key sent in the x-api-key header.",
-     "score": 48.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 57.6,
-      "governance": 11.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 41.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -897,6 +897,44 @@
      "rank": 22
     },
     {
+     "name": "MLS Grid",
+     "slug": "mls-grid",
+     "description": "The MLS Grid is a United States MLS data-distribution cooperative created by a network of Multiple Listing Services to give brokers, MLSs and technology vendors ONE normalized data feed, ONE license agreement and ONE compliance process instead of dozens of per-MLS RETS and Web API feeds. It ingests listing data from participating MLSs, converts it to the RESO Data Dictionary, and republishes it as a single RESO Web API (OData v4) replication surface at https://api.mlsgrid.com/v2/. It sits in the middle of the residential real estate value chain, between the MLSs that own the data and the IDX/VOW sites, portals and proptech applications that display it. Its API posture is the sector archetype: the documentation is genuinely public and complete, and MLS Grid is RESO-certified for Data Dictionary 2.0 and Web API Server Core 2.0.0 in the RESO certification directory (UOI T00000045) — but nothing is reachable without credentials. Every anonymous call to the service root, to /Property and to the OData $metadata document returns HTTP 401. Access requires the MLS Grid Master Data License Agreement plus approval by each originating MLS before a long-lived OAuth 2.0 bearer token is issued in the MLS Grid web application. Certified, documented, and closed.",
+     "score": 33.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 0.0,
+      "governance": 22.9,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Listing Data Infrastructure",
+     "rank": 23
+    },
+    {
      "name": "Jones Lang LaSalle",
      "slug": "jones-lang-lasalle",
      "description": "Jones Lang LaSalle Incorporated (JLL) is a global commercial real estate services company offering investment management, property management, and facility services. Through JLL Technologies (JLLT), the company delivers technology solutions including the Corrigo Enterprise platform for facility management with a REST API enabling integration with work order management, asset tracking, procurement, billing, and vendor management systems.",
@@ -932,7 +970,7 @@
       "dry_run_mode": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "National Association of REALTORS",
@@ -970,7 +1008,7 @@
       "dry_run_mode": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Follow Up Boss",
@@ -1009,7 +1047,7 @@
       "dry_run_mode": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Clear Capital",
@@ -1048,7 +1086,7 @@
       "dry_run_mode": false
      },
      "tier": "Valuation & AVM",
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Entrata",
@@ -1094,44 +1132,6 @@
       "dry_run_mode": false
      },
      "tier": "Property Management",
-     "rank": 27
-    },
-    {
-     "name": "MLS Grid",
-     "slug": "mls-grid",
-     "description": "The MLS Grid is a United States MLS data-distribution cooperative created by a network of Multiple Listing Services to give brokers, MLSs and technology vendors ONE normalized data feed, ONE license agreement and ONE compliance process instead of dozens of per-MLS RETS and Web API feeds. It ingests listing data from participating MLSs, converts it to the RESO Data Dictionary, and republishes it as a single RESO Web API (OData v4) replication surface at https://api.mlsgrid.com/v2/. It sits in the middle of the residential real estate value chain, between the MLSs that own the data and the IDX/VOW sites, portals and proptech applications that display it. Its API posture is the sector archetype: the documentation is genuinely public and complete, and MLS Grid is RESO-certified for Data Dictionary 2.0 and Web API Server Core 2.0.0 in the RESO certification directory (UOI T00000045) — but nothing is reachable without credentials. Every anonymous call to the service root, to /Property and to the OData $metadata document returns HTTP 401. Access requires the MLS Grid Master Data License Agreement plus approval by each originating MLS before a long-lived OAuth 2.0 bearer token is issued in the MLS Grid web application. Certified, documented, and closed.",
-     "score": 29.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 22.9,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Listing Data Infrastructure",
      "rank": 28
     },
     {

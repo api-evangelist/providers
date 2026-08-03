@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-07-28'
+  score: 41.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -195,19 +195,19 @@ overview: 'Luma Health publishes 12 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Luma Health''s developer surface includes authentication, documentation, API reference, engineering blog, and 24 more developer resources.'
-random_paper: 40
+random_paper: 61
 score:
-  band: thin
-  composite: 40.9
-  delta: -3.9
+  band: developing
+  composite: 45.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 29.7
+    contract_quality: 52.7
     developer_ergonomics: 40.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 44.8
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -224,8 +224,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png
 security:

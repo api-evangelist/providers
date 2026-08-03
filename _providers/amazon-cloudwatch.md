@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -311,7 +311,7 @@ overview: 'Amazon CloudWatch publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CloudWatch''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 21 more developer resources.'
-random_paper: 39
+random_paper: 51
 rules:
 - name: Amazon CloudWatch API Rules
   rule_count: 5
@@ -331,11 +331,11 @@ rules:
   slug: amazon-cloudwatch-spectral-rules
 score:
   band: strong
-  composite: 60.7
-  delta: -0.4
+  composite: 61.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 79.7
+    contract_quality: 81.4
     developer_ergonomics: 45.7
     discoverability: 92.6
     governance: 80.2
@@ -350,8 +350,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/screenshots/amazon-cloudwatch-2026-07-25T195951.png
 security:

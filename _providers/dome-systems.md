@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 4
 common:
@@ -160,11 +160,11 @@ overview: 'Dome Systems is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Dome Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 28
+random_paper: 23
 score:
   band: thin
   composite: 35.4
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -172,12 +172,12 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 33.8
+  previous_composite: 35.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dome-systems/refs/heads/main/screenshots/dome-systems-2026-07-25T212250.png
 security:

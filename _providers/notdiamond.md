@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -121,23 +121,23 @@ plans:
 - name: Notdiamond Plans Pricing
   plan_count: 2
   slug: notdiamond-plans-pricing
-random_paper: 3
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Notdiamond Rate Limits
   slug: notdiamond-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: -2.9
+  composite: 38.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 59.3
+    contract_quality: 62.8
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 40.0
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -145,8 +145,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/screenshots/notdiamond-2026-06-20T190525.png
 security:

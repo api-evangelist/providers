@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: verified
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ overview: 'Subspace publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Subspace''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 34
+random_paper: 94
 scopes:
 - name: Subspace Scopes
   scope_count: 9
@@ -169,16 +169,16 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: thin
-  composite: 39.0
-  delta: -1.9
+  composite: 40.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 15.8
-  previous_composite: 40.9
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -189,8 +189,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

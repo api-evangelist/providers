@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -292,7 +292,7 @@ press:
 - date: '2026-05-25'
   title: 'Q2: Alliance Data Systems Bets On Conversant''s Pipeline'
   url: https://www.adexchanger.com/online-advertising/q2-alliance-data-systems-bets-on-coversants-pipeline/
-random_paper: 67
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Alliance Data Systems Rate Limits
@@ -329,16 +329,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.9
-  delta: -6.6
+  composite: 48.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.8
+    contract_quality: 72.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 54.5
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -352,9 +352,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/screenshots/alliance-data-systems-2026-07-25T195654.png
 security:
 - kind: authentication

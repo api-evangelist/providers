@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: verified
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 66.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -228,19 +228,19 @@ overview: 'PayWithMyBank (Trustly) publishes 11 APIs on the [APIs.io](https://ap
 
 
   PayWithMyBank (Trustly)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 22
+random_paper: 86
 score:
   band: developing
-  composite: 47.5
-  delta: -3.2
+  composite: 48.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.0
+    contract_quality: 68.5
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 50.7
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +257,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

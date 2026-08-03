@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-07-28'
+  score: 46.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -340,23 +340,23 @@ overview: 'Finix Payments publishes 19 APIs on the [APIs.io](https://apis.io/) n
 
 
   Finix Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 74
+random_paper: 43
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Finix Payments Rate Limits
   slug: finix-payments-rate-limits
 score:
   band: strong
-  composite: 61.4
-  delta: 0.5
+  composite: 64.7
+  delta: 2.3
   facets:
     commercial_clarity: 52.6
-    contract_quality: 65.0
+    contract_quality: 69.8
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
-    operational_transparency: 52.6
-  previous_composite: 60.9
+    operational_transparency: 73.7
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,8 +373,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/screenshots/finix-payments-2026-07-25T214524.png
 security:

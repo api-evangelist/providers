@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 55
 apis:
 - description: The Asset API from Rapidata — 3 operation(s) for asset.
@@ -326,7 +326,7 @@ overview: 'Rapidata publishes 55 APIs on the [APIs.io](https://apis.io/) network
 
 
   Rapidata''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 18
+random_paper: 78
 scopes:
 - name: Rapidata Scopes
   scope_count: 9
@@ -334,16 +334,16 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 45.3
-  delta: 0.8
+  composite: 46.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 47.6
+    contract_quality: 52.9
     developer_ergonomics: 67.4
     discoverability: 68.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 44.5
+  previous_composite: 46.6
   provenance:
     conformance: derived
     contracts:
@@ -353,8 +353,8 @@ score:
       total: 55
     mcp: derived
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

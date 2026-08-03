@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -213,19 +213,19 @@ overview: 'Major League Baseball publishes 31 APIs on the [APIs.io](https://apis
 
 
   Major League Baseball''s developer surface includes product news, engineering blog, and 12 more developer resources.'
-random_paper: 26
+random_paper: 81
 score:
   band: emerging
-  composite: 17.5
-  delta: -1.6
+  composite: 18.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 42.3
+    contract_quality: 47.1
     developer_ergonomics: 2.2
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.1
+  previous_composite: 18.7
   provenance:
     agentic_access: derived
     contracts:
@@ -233,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ plans:
 - name: Toornament Plans Pricing
   plan_count: 3
   slug: toornament-plans-pricing
-random_paper: 29
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Toornament Rate Limits
@@ -231,17 +231,17 @@ scopes:
   slug: toornament-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 55.5
-  delta: -4.3
+  band: strong
+  composite: 56.2
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 66.1
+    contract_quality: 69.0
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 59.8
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -249,8 +249,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/screenshots/toornament-2026-06-20T195451.png
 security:

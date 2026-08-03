@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ plans:
 - name: Us Geological Survey Plans Pricing
   plan_count: 1
   slug: us-geological-survey-plans-pricing
-random_paper: 4
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Us Geological Survey Rate Limits
@@ -168,16 +168,16 @@ rules:
   slug: usgs-earthquake-api-rules
 score:
   band: thin
-  composite: 40.0
-  delta: -3.7
+  composite: 40.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.6
+    contract_quality: 64.0
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 43.7
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/screenshots/us-geological-survey-2026-06-20T200630.png
 security:

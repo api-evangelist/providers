@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -128,11 +128,11 @@ overview: 'Douglas Elliman is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Douglas Elliman''s developer surface includes engineering blog and 20 more developer resources.'
-random_paper: 58
+random_paper: 14
 score:
   band: emerging
   composite: 16.4
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -140,7 +140,7 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 16.5
+  previous_composite: 16.4
   provenance:
     conformance: first-party
   regulatory:
@@ -149,8 +149,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 31.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

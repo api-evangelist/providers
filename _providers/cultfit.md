@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,11 +79,11 @@ overview: 'Cult.fit is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cult.fit''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 25
+random_paper: 3
 score:
   band: emerging
   composite: 14.4
-  delta: -4.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -91,15 +91,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 18.7
+  previous_composite: 14.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cultfit/refs/heads/main/screenshots/cultfit-2026-07-25T210923.png
 security:

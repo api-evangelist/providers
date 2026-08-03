@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The fetch API from Zipline Ai — 4 operation(s) for fetch.
@@ -69,19 +69,19 @@ overview: 'Zipline Ai publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zipline Ai''s developer surface includes authentication and 2 more developer resources.'
-random_paper: 26
+random_paper: 60
 score:
   band: emerging
-  composite: 20.8
-  delta: 2.1
+  composite: 22.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 38.6
+    contract_quality: 43.8
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 18.7
+  previous_composite: 22.1
   provenance:
     conformance: first-party
     contracts:
@@ -91,8 +91,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

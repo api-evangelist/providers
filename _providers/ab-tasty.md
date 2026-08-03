@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -347,7 +347,7 @@ plans:
 - name: Ab Tasty Plans Pricing
   plan_count: 4
   slug: ab-tasty-plans-pricing
-random_paper: 67
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Ab Tasty Rate Limits
@@ -371,16 +371,16 @@ rules:
   slug: ab-tasty-spectral-rules
 score:
   band: strong
-  composite: 60.2
-  delta: -3.3
+  composite: 60.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 83.1
+    contract_quality: 84.5
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 63.5
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -388,8 +388,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/screenshots/ab-tasty-2026-06-20T163043.png
 security:

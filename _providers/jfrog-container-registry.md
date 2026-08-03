@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: JFrog Container Registry is a free, hybrid, and multi-cloud Docker registry and Helm chart repository for managing and distributing container images with advanced access control and vulnerability scan
@@ -104,7 +104,7 @@ plans:
 - name: Jfrog Container Registry Plans Pricing
   plan_count: 3
   slug: jfrog-container-registry-plans-pricing
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Jfrog Container Registry Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.1
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -120,9 +120,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 29.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 27.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jfrog-container-registry/refs/heads/main/screenshots/jfrog-container-registry-2026-06-20T183727.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.1
-  scored_at: '2026-07-28'
+  score: 43.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 0
@@ -384,19 +384,19 @@ overview: 'Cenevo publishes 75 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cenevo''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 17 more developer resources.'
-random_paper: 66
+random_paper: 70
 score:
-  band: thin
-  composite: 41.8
-  delta: -5.9
+  band: developing
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 47.8
+    contract_quality: 52.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 47.7
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -413,9 +413,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cenevo/refs/heads/main/screenshots/cenevo-2026-07-25T204916.png
 security:
 - kind: authentication

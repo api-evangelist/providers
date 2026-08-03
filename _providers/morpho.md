@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: GraphQL queries for Morpho Blue lending markets — retrieve market parameters (loan asset, collateral asset, LLTV, oracle, IRM), real-time state metrics (supply, borrow, collateral assets and USD value
@@ -126,26 +126,26 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 5
+random_paper: 91
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Rate Limits
   slug: rate-limits
 score:
   band: thin
-  composite: 32.0
-  delta: 9.5
+  composite: 36.1
+  delta: 4.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 48.1
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 22.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+    operational_transparency: 36.8
+  previous_composite: 32.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morpho/refs/heads/main/screenshots/morpho-2026-06-20T185812.png
 security:
 - kind: domain-security

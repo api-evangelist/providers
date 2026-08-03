@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -259,23 +259,23 @@ overview: 'Frontline publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Frontline''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, signup flow, and 19 more developer resources.'
-random_paper: 75
+random_paper: 27
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Frontline Rate Limits
   slug: frontline-rate-limits
 score:
   band: developing
-  composite: 47.5
-  delta: -1.5
+  composite: 51.3
+  delta: 2.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.6
+    contract_quality: 62.0
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 0.0
-  previous_composite: 49.0
+    operational_transparency: 21.1
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,8 +286,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/screenshots/frontline-2026-07-25T215237.png
 security:

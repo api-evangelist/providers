@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: PSD2-compliant Account Information Service. Returns account lists, balances, and transaction history for Rabobank payment accounts after the account-holder grants explicit consent. Aligned with the Be
@@ -84,11 +84,11 @@ name: Rabobank
 nav: Providers
 network: true
 overview: Rabobank publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Banks, Banking, Open Banking, and PSD2.
-random_paper: 12
+random_paper: 72
 score:
   band: minimal
   composite: 9.5
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -96,15 +96,15 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.5
+  previous_composite: 9.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabobank/refs/heads/main/screenshots/rabobank-2026-06-20T192506.png
 security:

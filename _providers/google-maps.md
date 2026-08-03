@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -1104,7 +1104,7 @@ plans:
 - name: Google Maps Plans Pricing
   plan_count: 3
   slug: google-maps-plans-pricing
-random_paper: 49
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Google Maps Rate Limits
@@ -1128,16 +1128,16 @@ rules:
   slug: google-maps-spectral-rules
 score:
   band: exemplar
-  composite: 66.8
-  delta: 1.0
+  composite: 66.6
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 85.4
+    contract_quality: 84.5
     developer_ergonomics: 56.5
     discoverability: 66.7
     governance: 69.8
     operational_transparency: 42.1
-  previous_composite: 65.8
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1147,8 +1147,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png
 security:

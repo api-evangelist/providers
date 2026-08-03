@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -258,7 +258,7 @@ plans:
 - name: Cashfree Plans Pricing
   plan_count: 3
   slug: cashfree-plans-pricing
-random_paper: 13
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Cashfree Rate Limits
@@ -274,16 +274,16 @@ rules:
   slug: cashfree-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: -5.8
+  composite: 47.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.8
+    contract_quality: 70.3
     developer_ergonomics: 26.1
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 52.6
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -297,9 +297,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashfree/refs/heads/main/screenshots/cashfree-2026-06-20T174035.png
 security:
 - kind: authentication

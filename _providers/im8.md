@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'The agent-native commerce surface of the IM8 Health Shopify storefront: a Universal Commerce Protocol (UCP) merchant profile with a hosted MCP shopping endpoint (catalog search, cart, checkout, fulfil'
@@ -104,7 +104,7 @@ overview: 'IM8 Health publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   IM8 Health''s developer surface includes documentation, authentication, engineering blog, and 10 more developer resources.'
-random_paper: 24
+random_paper: 80
 scopes:
 - name: Im8 Scopes
   scope_count: 0
@@ -113,7 +113,7 @@ scopes:
 score:
   band: emerging
   composite: 27.5
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -121,7 +121,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 30.3
+  previous_composite: 27.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -131,8 +131,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

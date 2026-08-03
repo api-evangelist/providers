@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 2
@@ -350,19 +350,19 @@ overview: 'CrunchDAO publishes 70 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CrunchDAO''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 14 more developer resources.'
-random_paper: 49
+random_paper: 1
 score:
   band: developing
-  composite: 43.5
-  delta: -0.4
+  composite: 44.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 47.5
+    contract_quality: 49.8
     developer_ergonomics: 69.0
     discoverability: 68.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 43.9
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -373,8 +373,8 @@ score:
       total: 70
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchdao/refs/heads/main/screenshots/crunchdao-2026-07-25T210819.png
 security:

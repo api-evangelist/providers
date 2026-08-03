@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -541,7 +541,7 @@ plans:
 - name: F5 Networks Plans Pricing
   plan_count: 5
   slug: f5-networks-plans-pricing
-random_paper: 27
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: F5 Networks Rate Limits
@@ -565,16 +565,16 @@ rules:
   slug: f5-networks-spectral-rules
 score:
   band: strong
-  composite: 62.5
-  delta: -3.4
+  composite: 63.3
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 69.1
+    contract_quality: 72.5
     developer_ergonomics: 39.1
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 65.9
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     contracts:
@@ -582,8 +582,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/screenshots/f5-networks-2026-06-20T180959.png
 security:

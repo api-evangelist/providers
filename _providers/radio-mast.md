@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -104,23 +104,23 @@ plans:
 - name: Radio Mast Plans Pricing
   plan_count: 3
   slug: radio-mast-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Radio Mast Rate Limits
   slug: radio-mast-rate-limits
 score:
   band: thin
-  composite: 33.8
-  delta: -1.7
+  composite: 34.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 48.3
+    contract_quality: 52.7
     developer_ergonomics: 13.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 35.5
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -128,8 +128,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/screenshots/radio-mast-2026-06-20T192524.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ plans:
 - name: Zeplin Plans Pricing
   plan_count: 4
   slug: zeplin-plans-pricing
-random_paper: 2
+random_paper: 88
 rate_limits:
 - limit_count: 1
   name: Zeplin Rate Limits
@@ -207,15 +207,15 @@ scopes:
 score:
   band: developing
   composite: 51.7
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.8
+    contract_quality: 70.0
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 54.7
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -223,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/screenshots/zeplin-2026-06-20T201824.png
 security:

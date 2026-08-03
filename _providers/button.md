@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -219,19 +219,19 @@ overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Button''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 12
+random_paper: 3
 score:
   band: developing
-  composite: 51.4
-  delta: -1.2
+  composite: 52.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 69.2
+    contract_quality: 71.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 52.6
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,8 +242,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/button/refs/heads/main/screenshots/button-2026-07-25T204122.png
 security:

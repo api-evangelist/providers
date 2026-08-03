@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,11 +60,11 @@ name: Beme
 nav: Providers
 network: true
 overview: Beme is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social Media, Mobile Applications, and Media.
-random_paper: 81
+random_paper: 29
 score:
   band: minimal
   composite: 6.4
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -72,9 +72,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 7.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 6.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beme/refs/heads/main/screenshots/beme-2026-07-25T202726.png
 slug: beme

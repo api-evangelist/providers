@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -314,23 +314,23 @@ overview: 'Scout RFP (Workday Strategic Sourcing) publishes 46 APIs on the [APIs
 
 
   Scout RFP (Workday Strategic Sourcing)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 25 more developer resources.'
-random_paper: 66
+random_paper: 31
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Scoutrfp Rate Limits
   slug: scoutrfp-rate-limits
 score:
-  band: thin
-  composite: 38.8
-  delta: -1.6
+  band: developing
+  composite: 42.4
+  delta: 2.7
   facets:
     commercial_clarity: 15.8
-    contract_quality: 59.9
+    contract_quality: 63.5
     developer_ergonomics: 49.5
     discoverability: 63.0
     governance: 11.5
-    operational_transparency: 23.7
-  previous_composite: 40.4
+    operational_transparency: 44.7
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,8 +341,8 @@ score:
       total: 46
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

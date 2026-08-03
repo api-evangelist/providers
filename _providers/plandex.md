@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -429,7 +429,7 @@ plans:
 - name: Plandex Plans Pricing
   plan_count: 3
   slug: plandex-plans-pricing
-random_paper: 10
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Plandex Rate Limits
@@ -453,16 +453,16 @@ rules:
   slug: plandex-rules
 score:
   band: strong
-  composite: 64.0
-  delta: -3.1
+  composite: 64.7
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 71.4
+    contract_quality: 73.9
     developer_ergonomics: 47.8
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 67.1
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     contracts:
@@ -470,8 +470,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

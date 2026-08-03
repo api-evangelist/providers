@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -209,23 +209,23 @@ plans:
 - name: Acma Plans
   plan_count: 9
   slug: acma-plans
-random_paper: 74
+random_paper: 22
 rate_limits:
 - limit_count: 6
   name: Acma Rate Limits
   slug: acma-rate-limits
 score:
-  band: developing
-  composite: 55.8
-  delta: -0.5
+  band: strong
+  composite: 56.6
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 58.9
+    contract_quality: 62.8
     developer_ergonomics: 50.0
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 42.1
-  previous_composite: 56.3
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,8 +242,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

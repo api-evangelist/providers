@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: flavored
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.2
-  scored_at: '2026-07-28'
+  score: 35.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -26,7 +26,7 @@ agentic_access:
   operation_count: 19
   slug: inworld-agentic-access
   summary_line: 19 operations · 13 acting
-api_count: 4
+api_count: 10
 apis:
 - description: TTS-2 and TTS-1.5 (Max/Mini) models for character voice synthesis. Priced per 1M characters with plan-tier discounts.
   name: Inworld Text-to-Speech API
@@ -40,7 +40,25 @@ apis:
 - description: Routing layer over 220+ LLM models, billed at provider cost via Inworld's unified API.
   name: Inworld LLM Router API
   slug: llm-router
-artifact_total: 12
+- description: Available models
+  name: Inworld AI Models API
+  slug: inworld-models-api
+- description: Realtime speech-to-speech
+  name: Inworld AI Realtime API
+  slug: inworld-realtime-api
+- description: LLM Router configurations
+  name: Inworld AI Router API
+  slug: inworld-router-api
+- description: Speech-to-Text transcription
+  name: Inworld AI STT API
+  slug: inworld-stt-api
+- description: Text-to-Speech synthesis
+  name: Inworld AI TTS API
+  slug: inworld-tts-api
+- description: Voice catalog and custom voice management
+  name: Inworld AI Voices API
+  slug: inworld-voices-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: Inworld AI API
@@ -110,7 +128,7 @@ modified: '2026-05-08'
 name: Inworld AI
 nav: Providers
 network: true
-overview: 'Inworld AI publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Voice, Characters, Games, and Conversational.
+overview: 'Inworld AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Models API, Realtime API, Router API, and 3 more. Tagged areas include AI, Voice, Characters, Games, and Conversational.
 
 
   Inworld AI''s developer surface includes authentication, documentation, and 11 more developer resources.'
@@ -118,23 +136,23 @@ plans:
 - name: Inworld Plans Pricing
   plan_count: 5
   slug: inworld-plans-pricing
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Inworld Rate Limits
   slug: inworld-rate-limits
 score:
-  band: emerging
-  composite: 27.0
-  delta: -14.8
+  band: thin
+  composite: 37.9
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
-    contract_quality: 8.1
+    contract_quality: 59.4
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 41.8
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -148,9 +166,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/screenshots/inworld-2026-06-20T183534.png
 security:
 - kind: authentication

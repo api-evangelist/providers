@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.7
-  scored_at: '2026-07-28'
+  score: 53.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -627,7 +627,7 @@ plans:
 - name: Sap Plans Pricing
   plan_count: 1
   slug: sap-plans-pricing
-random_paper: 78
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Sap Rate Limits
@@ -664,16 +664,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 60.7
-  delta: -1.0
+  composite: 60.5
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 75.4
+    contract_quality: 74.7
     developer_ergonomics: 56.5
     discoverability: 53.7
     governance: 41.7
     operational_transparency: 57.9
-  previous_composite: 61.7
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -681,8 +681,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png
 security:

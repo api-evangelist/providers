@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ plans:
 - name: Apify Plans Pricing
   plan_count: 3
   slug: apify-plans-pricing
-random_paper: 45
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Apify Rate Limits
@@ -269,17 +269,17 @@ rules:
     warn: 14
   slug: apify-spectral-rules
 score:
-  band: strong
-  composite: 59.7
-  delta: -6.5
+  band: developing
+  composite: 50.8
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 66.1
+    contract_quality: 30.6
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 66.2
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -287,9 +287,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/screenshots/apify-2026-06-20T172249.png
 security:
 - kind: authentication

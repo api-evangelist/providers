@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The Cboe LiveVol All Access API is a REST API suite offering quote and trade details for equities and options via live, delayed, and historical endpoints. Endpoint groups cover Market at a Glance (opt
@@ -168,7 +168,7 @@ plans:
 - name: Cboe Plans Pricing
   plan_count: 3
   slug: cboe-plans-pricing
-random_paper: 81
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Cboe Rate Limits
@@ -181,7 +181,7 @@ scopes:
 score:
   band: developing
   composite: 49.2
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 0.0
@@ -189,7 +189,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 63.2
-  previous_composite: 50.7
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -199,8 +199,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cboe/refs/heads/main/screenshots/cboe-2026-06-20T174055.png
 security:

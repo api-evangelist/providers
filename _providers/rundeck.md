@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-07-28'
+  score: 26.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Rundeck REST API provides programmatic access to job execution, project management, node management, execution history, user management, ACL policies, system administration, cluster operations, an
@@ -123,7 +123,7 @@ plans:
 - name: Rundeck Plans Pricing
   plan_count: 3
   slug: rundeck-plans-pricing
-random_paper: 10
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Rundeck Rate Limits
@@ -147,25 +147,25 @@ rules:
   slug: rundeck-rules
 score:
   band: developing
-  composite: 43.3
-  delta: -6.0
+  composite: 47.6
+  delta: 4.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 50.0
+    contract_quality: 67.4
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 49.3
+  previous_composite: 43.3
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rundeck/refs/heads/main/screenshots/rundeck-2026-06-20T193250.png
 security:
 - kind: domain-security

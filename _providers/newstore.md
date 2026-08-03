@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-07-28'
+  score: 43.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -309,7 +309,7 @@ overview: 'Newstore publishes 42 APIs on the [APIs.io](https://apis.io/) network
 
 
   Newstore''s developer surface includes authentication, documentation, API reference, changelog, pricing, support, sandbox, and 23 more developer resources.'
-random_paper: 67
+random_paper: 32
 scopes:
 - name: Newstore Scopes
   scope_count: 29
@@ -318,7 +318,7 @@ scopes:
 score:
   band: developing
   composite: 47.3
-  delta: -3.8
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 51.6
@@ -326,7 +326,7 @@ score:
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 57.9
-  previous_composite: 51.1
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,8 +337,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

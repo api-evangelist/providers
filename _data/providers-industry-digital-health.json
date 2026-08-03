@@ -1,5 +1,5 @@
 {
- "total": 1628,
+ "total": 1629,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -16,14 +16,14 @@
      "slug": "svix",
      "description": "Svix is an enterprise webhooks-as-a-service platform on the sending side of the webhook market. It provides a single API for delivering reliable, secure, low-latency webhooks at scale, with hosted UIs (Consumer App Portal), a polyglot SDK pipeline, an open source server, and adjacent products for streaming (Stream) and webhook ingestion (Ingest). Hosted offering is multi-region (US, EU, CA, AU, IN) with SOC 2 Type II, HIPAA, PCI-DSS attestations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png",
-     "score": 71.2,
+     "score": 74.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 68.1,
       "governance": 68.8,
-      "operational_transparency": 47.4,
+      "operational_transparency": 78.9,
       "developer_ergonomics": 84.8,
       "commercial_clarity": 100.0
      },
@@ -459,6 +459,51 @@
      "rank": 10
     },
     {
+     "name": "Lifen",
+     "slug": "lifen",
+     "description": "Lifen (Honestica SAS, Paris) is a French digital-health company whose Lifen Platform exposes FHIR R4 APIs that let e-health applications exchange health data with French hospital information systems and with healthcare professionals over the national MSSanté secure-messaging network. The platform is organised as API Services: Hospital API Services (an Identity & Encounter service giving secure access to patient administrative, coverage, encounter and appointment data inside a given hospital, and a Send-documents-to-EHR service that pushes medical documents into hospital Electronic Health Records), and National API Services (the MSS service for sending medical documents to healthcare professionals via MSSanté). Access is machine-to-machine over OAuth 2.0 client credentials, scoped by functional scopes and bound to a healthcare organisation through a database_reference. Lifen also ships an SSO/OIDC API and a signed webhook surface for patient and encounter events. The company is ISO 27001 certified and an HDS (Hebergeur de Donnees de Sante) certified health-data host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png",
+     "score": 61.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 67.3,
+      "governance": 20.8,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 65.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 47.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 11
+    },
+    {
      "name": "WHOOP",
      "slug": "whoop-co",
      "description": "WHOOP is a wearable health and performance company whose wrist-worn strap (WHOOP 5.0 and medical-grade WHOOP MG) measures heart rate, HRV, respiratory rate, skin temperature, and SpO2 24/7 to compute daily Recovery, Strain, and Sleep Performance scores. The WHOOP Developer Platform exposes member fitness data through an OAuth-protected REST API (v2) covering physiological cycles, sleep, workouts, recovery, and body measurements, plus webhooks for resource updates and a Trusted Partner API for lab/diagnostics integrations.",
@@ -501,7 +546,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Orion Health",
@@ -546,7 +591,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "PointClickCare",
@@ -591,7 +636,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Elation Health",
@@ -636,7 +681,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
+    },
+    {
+     "name": "AWS HealthLake",
+     "slug": "aws-healthlake",
+     "description": "Amazon HealthLake is a HIPAA-eligible, FHIR R4-compliant managed service for importing, transforming, storing, and querying health data from patients and clinical systems. It provides a transactional FHIR server with bulk import/export, medical NLP for unstructured data extraction, SMART on FHIR authorization, and integration with AWS analytics services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/screenshots/aws-healthlake-2026-06-20T172758.png",
+     "score": 59.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 70.9,
+      "governance": 58.3,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 55.3
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 35.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 16
     },
     {
      "name": "Spoonacular",
@@ -674,7 +764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 17
     },
     {
      "name": "Athelas",
@@ -719,7 +809,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 18
     },
     {
      "name": "Jane",
@@ -764,7 +854,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 19
     },
     {
      "name": "Aidbox",
@@ -809,7 +899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 20
     },
     {
      "name": "1upHealth",
@@ -854,7 +944,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "Independence Blue Cross",
@@ -899,7 +989,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Inkit",
@@ -937,52 +1027,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
-    },
-    {
-     "name": "Lifen",
-     "slug": "lifen",
-     "description": "Lifen (Honestica SAS, Paris) is a French digital-health company whose Lifen Platform exposes FHIR R4 APIs that let e-health applications exchange health data with French hospital information systems and with healthcare professionals over the national MSSanté secure-messaging network. The platform is organised as API Services: Hospital API Services (an Identity & Encounter service giving secure access to patient administrative, coverage, encounter and appointment data inside a given hospital, and a Send-documents-to-EHR service that pushes medical documents into hospital Electronic Health Records), and National API Services (the MSS service for sending medical documents to healthcare professionals via MSSanté). Access is machine-to-machine over OAuth 2.0 client credentials, scoped by functional scopes and bound to a healthcare organisation through a database_reference. Lifen also ships an SSO/OIDC API and a signed webhook surface for patient and encounter events. The company is ISO 27001 certified and an HDS (Hebergeur de Donnees de Sante) certified health-data host.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png",
-     "score": 57.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 67.3,
-      "governance": 20.8,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 65.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 47.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Halo Connect",
@@ -1027,7 +1072,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "FormAssembly",
@@ -1072,7 +1117,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Band AI",
@@ -1110,7 +1155,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "SignWell",
@@ -1148,7 +1193,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "AdvancedMD",
@@ -1192,7 +1237,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Cigna",
@@ -1237,7 +1282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "NexHealth",
@@ -1276,51 +1321,6 @@
       "rate_limit_signal": false,
       "event_surface_described": "derived",
       "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 29
-    },
-    {
-     "name": "AWS HealthLake",
-     "slug": "aws-healthlake",
-     "description": "Amazon HealthLake is a HIPAA-eligible, FHIR R4-compliant managed service for importing, transforming, storing, and querying health data from patients and clinical systems. It provides a transactional FHIR server with bulk import/export, medical NLP for unstructured data extraction, SMART on FHIR authorization, and integration with AWS analytics services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/screenshots/aws-healthlake-2026-06-20T172758.png",
-     "score": 56.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 70.9,
-      "governance": 58.3,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 55.3
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 35.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -1475,6 +1475,44 @@
      "rank": 33
     },
     {
+     "name": "Acuity Scheduling",
+     "slug": "acuity",
+     "description": "Acuity Scheduling is an online appointment scheduling platform that enables businesses and independent professionals to automate their booking workflows. The platform provides a REST API for managing appointment types, client availability, bookings, and client records. Developers can integrate scheduling functionality into applications using HTTP Basic Auth or OAuth2, with support for webhooks to receive real-time event notifications. Acuity is a subsidiary of Squarespace and offers SDKs for Node.js and PHP alongside its embeddable client scheduler widget.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/acuity/refs/heads/main/screenshots/acuity-2026-06-20T164353.png",
+     "score": 54.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 76.0,
+      "governance": 58.3,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 41.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 34
+    },
+    {
      "name": "Particle Health",
      "slug": "particle-health",
      "description": "Particle Health is a healthcare data interoperability platform that aggregates patient medical records from across the US healthcare system into a single RESTful API. Particle is connected to all three nationwide health information exchange networks (Carequality, CommonWell, eHealth Exchange), TEFCA / QHIN partners, state HIEs (Healthix in New York, Manifest MedEx in California), and Surescripts for pharmacy data. The platform exposes patient demographics, clinical resources, and document retrieval via FHIR R4, C-CDA, Flat, and Deltas formats, layered with deduplication, normalization, AI summarization (Particle Snapshot), real-time encounter and transition alerts (Particle Signal), and longitudinal patient journey tracking (Particle Navigator). Customer segments include value-based care organizations, payers, health systems, primary and specialty providers, and digital health developers.",
@@ -1517,7 +1555,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Coviu",
@@ -1562,7 +1600,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 36
+    },
+    {
+     "name": "Doximity",
+     "slug": "doximity",
+     "description": "Doximity is the leading digital platform for U.S. medical professionals, used by the majority of physicians and a large share of nurse practitioners and physician assistants. Its public developer surface is an OAuth 2.0 and OpenID Connect identity API hosted at auth.doximity.com that lets third-party applications verify and identify Doximity members against the Doximity medical database, request a curated set of profile claims (name, credentials, specialty, email, office, and more), and reduce registration friction. Doximity also ships the Doximity Dialer SDKs for iOS and Android so partner apps can place HIPAA-secure calls that mask the caller's personal number, plus a Share Button and Registration integration. Authentication uses the Authorization Code grant with mandatory PKCE, refresh tokens, and device_code, and the platform is SOC 2 Type 2 and HIPAA/HITECH certified. This profile was enriched by the API Evangelist pipeline from Doximity's public developer documentation and OpenID Connect discovery metadata.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png",
+     "score": 53.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 53.5,
+      "governance": 20.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 72.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 48.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 37
     },
     {
      "name": "HL7 FHIR",
@@ -1607,7 +1690,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 38
     },
     {
      "name": "Penn Medicine",
@@ -1652,7 +1735,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 39
     },
     {
      "name": "Moxe Health",
@@ -1696,7 +1779,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 40
     },
     {
      "name": "Oura Ring",
@@ -1741,7 +1824,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 41
     },
     {
      "name": "Semble",
@@ -1785,7 +1868,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 42
     },
     {
      "name": "NextGen Healthcare",
@@ -1829,7 +1912,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 43
     },
     {
      "name": "Microsoft Azure Health Data Services",
@@ -1874,7 +1957,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 44
     },
     {
      "name": "Trustwell",
@@ -1912,7 +1995,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 45
     },
     {
      "name": "Canvas Medical",
@@ -1957,52 +2040,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
-    },
-    {
-     "name": "Doximity",
-     "slug": "doximity",
-     "description": "Doximity is the leading digital platform for U.S. medical professionals, used by the majority of physicians and a large share of nurse practitioners and physician assistants. Its public developer surface is an OAuth 2.0 and OpenID Connect identity API hosted at auth.doximity.com that lets third-party applications verify and identify Doximity members against the Doximity medical database, request a curated set of profile claims (name, credentials, specialty, email, office, and more), and reduce registration friction. Doximity also ships the Doximity Dialer SDKs for iOS and Android so partner apps can place HIPAA-secure calls that mask the caller's personal number, plus a Share Button and Registration integration. Authentication uses the Authorization Code grant with mandatory PKCE, refresh tokens, and device_code, and the platform is SOC 2 Type 2 and HIPAA/HITECH certified. This profile was enriched by the API Evangelist pipeline from Doximity's public developer documentation and OpenID Connect discovery metadata.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png",
-     "score": 51.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 53.5,
-      "governance": 20.8,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 53.8,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 72.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 48.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Suki AI",
@@ -2047,7 +2085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Best Practice Software",
@@ -2092,7 +2130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Predoc",
@@ -2136,7 +2174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Smokeball",
@@ -2153,44 +2191,6 @@
       "operational_transparency": 42.1,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 41.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 49
-    },
-    {
-     "name": "Acuity Scheduling",
-     "slug": "acuity",
-     "description": "Acuity Scheduling is an online appointment scheduling platform that enables businesses and independent professionals to automate their booking workflows. The platform provides a REST API for managing appointment types, client availability, bookings, and client records. Developers can integrate scheduling functionality into applications using HTTP Basic Auth or OAuth2, with support for webhooks to receive real-time event notifications. Acuity is a subsidiary of Squarespace and offers SDKs for Node.js and PHP alongside its embeddable client scheduler widget.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/acuity/refs/heads/main/screenshots/acuity-2026-06-20T164353.png",
-     "score": 50.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 76.0,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
@@ -2968,6 +2968,51 @@
      "rank": 67
     },
     {
+     "name": "August Health",
+     "slug": "august-health",
+     "description": "August Health is an AI-enabled electronic health record (EHR) platform purpose-built for senior living and eldercare communities, spanning Move-Ins, EHR, eMAR, Care Track, Billing & Payments, and Insights. It publishes a RESTful v1 API and a developer portal (developer.augusthealth.com) that lets integration partners read and write resident, clinical, medication, billing, and census data, plus a webhook event surface for resident-lifecycle and billing events. Auth is bearer-JWT with named permissions; the platform is SOC 2 (AICPA) and HIPAA certified. August Health is backed by General Catalyst and Matrix Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/screenshots/august-health-2026-07-25T201720.png",
+     "score": 48.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 12.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 68
+    },
+    {
      "name": "OpenMenu",
      "slug": "openmenu",
      "description": "OpenMenu provides structured menu data and menu publishing for restaurants, built on the open OpenMenu Format specification. Its public REST API helps developers locate restaurants, menus, and menu items, returning structured data including names, descriptions, prices, locations, and dietary attributes such as vegan, vegetarian, halal, kosher, and gluten-free. The standard API covers search, restaurant, location, deals, and ingredients endpoints, while an Enhanced enterprise tier adds DishDNA machine-learning analysis, trends, heatmaps, and gap analysis. The API offers a sandbox mode (s=sample / id=sample), API key authentication via the key query parameter, and tiered pricing from a free plan up to enterprise on a daily/monthly credit model.",
@@ -3003,7 +3048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "CalorieNinjas",
@@ -3041,7 +3086,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Sunbit",
@@ -3085,7 +3130,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Roivant Sciences",
@@ -3130,7 +3175,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Clio",
@@ -3168,7 +3213,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 73
     },
     {
      "name": "Dexcom",
@@ -3213,7 +3258,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
+     "rank": 74
     },
     {
      "name": "USDA",
@@ -3251,7 +3296,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "WHOOP",
@@ -3296,7 +3341,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Jotform",
@@ -3334,7 +3379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Temple Health",
@@ -3379,7 +3424,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 78
     },
     {
      "name": "Develop Health",
@@ -3424,7 +3469,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 79
     },
     {
      "name": "Sun Life",
@@ -3468,7 +3513,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 79
+     "rank": 80
     },
     {
      "name": "Aquant",
@@ -3505,7 +3550,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 80
+     "rank": 81
     },
     {
      "name": "Color",
@@ -3550,7 +3595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "Practice Fusion",
@@ -3594,7 +3639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 82
+     "rank": 83
     },
     {
      "name": "Wahoo Fitness",
@@ -3632,7 +3677,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 83
+     "rank": 84
     },
     {
      "name": "Elation Health",
@@ -3677,7 +3722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 84
+     "rank": 85
     },
     {
      "name": "Garner Health",
@@ -3722,7 +3767,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 85
+     "rank": 86
     },
     {
      "name": "Children's Hospital of Philadelphia",
@@ -3767,7 +3812,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 86
+     "rank": 87
+    },
+    {
+     "name": "Rhizome Ai",
+     "slug": "rhizome-ai",
+     "description": "Rhizome AI is an AI-powered regulatory research platform for pharmaceutical and medical device companies. It lets regulatory affairs teams ask questions and receive cited answers grounded in primary-source documents from health authorities worldwide (FDA, EMA, Health Canada, Swissmedic, MHRA, TGA and others across 10+ agencies), retrieving from up to a thousand documents without hallucinating. Beyond the web application, Rhizome AI publishes an enterprise HTTP API that exposes BM25 keyword search across the regulatory document corpus and full-text, page-by-page document retrieval, authenticated with an x-api-key header. A YC-backed company, Rhizome AI was surfaced as a portfolio-company lead and enriched from its public developer documentation.",
+     "score": 46.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 68.2,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 53.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 45.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 88
     },
     {
      "name": "MyCase",
@@ -3812,7 +3901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 87
+     "rank": 89
     },
     {
      "name": "Thriva",
@@ -3856,7 +3945,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 88
+     "rank": 90
     },
     {
      "name": "VA Lighthouse",
@@ -3901,7 +3990,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "AmeriHealth Caritas",
@@ -3946,52 +4035,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 90
-    },
-    {
-     "name": "August Health",
-     "slug": "august-health",
-     "description": "August Health is an AI-enabled electronic health record (EHR) platform purpose-built for senior living and eldercare communities, spanning Move-Ins, EHR, eMAR, Care Track, Billing & Payments, and Insights. It publishes a RESTful v1 API and a developer portal (developer.augusthealth.com) that lets integration partners read and write resident, clinical, medication, billing, and census data, plus a webhook event surface for resident-lifecycle and billing events. Auth is bearer-JWT with named permissions; the platform is SOC 2 (AICPA) and HIPAA certified. August Health is backed by General Catalyst and Matrix Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/screenshots/august-health-2026-07-25T201720.png",
-     "score": 46.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 51.6,
-      "governance": 12.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 37.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "Samsung",
@@ -4029,7 +4073,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 92
+     "rank": 93
+    },
+    {
+     "name": "Withings",
+     "slug": "withings",
+     "description": "Withings is a connected health device platform providing a REST API for accessing data from smart scales, blood pressure monitors, sleep trackers, thermometers, and fitness watches. The API uses OAuth2 for authentication and provides access to a wide range of health biomarkers including body composition, cardiovascular data, sleep metrics, activity tracking, and clinical-grade measurements. Partners and developers can integrate Withings health data into their applications for remote patient monitoring, wellness platforms, and research applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png",
+     "score": 46.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 69.8,
+      "governance": 68.8,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 21.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true
+     },
+     "rank": 94
     },
     {
      "name": "Laurel",
@@ -4067,7 +4156,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 93
+     "rank": 95
     },
     {
      "name": "Walgreens",
@@ -4112,7 +4201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 94
+     "rank": 96
     },
     {
      "name": "Clever Care",
@@ -4157,7 +4246,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 95
+     "rank": 97
     },
     {
      "name": "Koko",
@@ -4202,7 +4291,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 96
+     "rank": 98
     },
     {
      "name": "Calm",
@@ -4239,7 +4328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 97
+     "rank": 99
     },
     {
      "name": "NHS England",
@@ -4283,7 +4372,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 98
+     "rank": 100
     },
     {
      "name": "Substance Abuse and Mental Health Services Administration",
@@ -4328,7 +4417,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 99
+     "rank": 101
+    },
+    {
+     "name": "FoodData Central",
+     "slug": "fooddata",
+     "description": "USDA FoodData Central is a comprehensive food composition database and REST API providing nutritional data for over 600,000 foods. The service covers multiple distinct data types including Foundation Foods, SR Legacy, Survey Foods (FNDDS), Branded Foods, and Experimental Foods. All data is released under CC0 1.0 Universal (public domain) and the API is free to use with a data.gov API key. FoodData Central is operated by the USDA Agricultural Research Service (ARS) and receives twice-annual updates for Foundation Foods and monthly updates for Branded Foods.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fooddata/refs/heads/main/screenshots/fooddata-2026-06-20T181400.png",
+     "score": 45.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 66.6,
+      "governance": 58.3,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 21.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 102
     },
     {
      "name": "Kareo",
@@ -4373,7 +4507,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 100
+     "rank": 103
     },
     {
      "name": "FatSecret",
@@ -4418,7 +4552,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 101
+     "rank": 104
+    },
+    {
+     "name": "Limitless",
+     "slug": "limitless",
+     "description": "Limitless builds the Pendant, a wearable AI device that continuously captures and transcribes the conversations its wearer has, paired with a desktop, web, and mobile app plus \"Ask AI\" for searching that personal history. The Limitless Developer API gives users programmatic access to their own data: lifelogs (Pendant recordings with markdown transcripts and a speaker-attributed structured contents tree), Ask AI chat history including the assistant's tool calls and the entries it retrieved, and raw Ogg Opus audio export. The API is authenticated with an X-API-Key header, is cursor paginated, and supports hybrid keyword plus semantic search across a user's lifelogs. Limitless also runs an official hosted MCP server at https://api.limitless.ai/mcp, backed by a complete OAuth 2.0 and OpenID Connect discovery surface with PKCE and dynamic client registration. Limitless was acquired by Meta; Pendant sales ended 2025-12-05 and existing customers are supported through 2026 on a free Unlimited Plan.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/screenshots/limitless-2026-07-25T225205.png",
+     "score": 45.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 32.3,
+      "governance": 11.5,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 58.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 49.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 105
     },
     {
      "name": "Luma Health",
@@ -4463,7 +4642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 102
+     "rank": 106
     },
     {
      "name": "Prosper AI",
@@ -4507,7 +4686,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 103
+     "rank": 107
     },
     {
      "name": "United States Department of Agriculture",
@@ -4545,7 +4724,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 104
+     "rank": 108
     },
     {
      "name": "Brellium",
@@ -4590,7 +4769,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 105
+     "rank": 109
     },
     {
      "name": "Varian Medical Systems",
@@ -4635,7 +4814,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 106
+     "rank": 110
     },
     {
      "name": "Liesheng Group",
@@ -4680,7 +4859,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 107
+     "rank": 111
     },
     {
      "name": "Suggestic",
@@ -4724,7 +4903,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 108
+     "rank": 112
     },
     {
      "name": "HumanAPI",
@@ -4769,7 +4948,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 109
+     "rank": 113
     },
     {
      "name": "Candid Health",
@@ -4814,7 +4993,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 110
+     "rank": 114
     },
     {
      "name": "Devoted Health",
@@ -4859,7 +5038,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 111
+     "rank": 115
     },
     {
      "name": "Epic Systems",
@@ -4904,7 +5083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 112
+     "rank": 116
     },
     {
      "name": "Element5",
@@ -4949,51 +5128,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 113
-    },
-    {
-     "name": "Rhizome Ai",
-     "slug": "rhizome-ai",
-     "description": "Rhizome AI is an AI-powered regulatory research platform for pharmaceutical and medical device companies. It lets regulatory affairs teams ask questions and receive cited answers grounded in primary-source documents from health authorities worldwide (FDA, EMA, Health Canada, Swissmedic, MHRA, TGA and others across 10+ agencies), retrieving from up to a thousand documents without hallucinating. Beyond the web application, Rhizome AI publishes an enterprise HTTP API that exposes BM25 keyword search across the regulatory document corpus and full-text, page-by-page document retrieval, authenticated with an x-api-key header. A YC-backed company, Rhizome AI was surfaced as a portfolio-company lead and enriched from its public developer documentation.",
-     "score": 44.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 68.2,
-      "governance": 11.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 53.8,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 114
+     "rank": 117
     },
     {
      "name": "Community Health Systems",
@@ -5038,7 +5173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 115
+     "rank": 118
     },
     {
      "name": "Tenet Healthcare",
@@ -5083,7 +5218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 116
+     "rank": 119
     },
     {
      "name": "UnitedHealthcare",
@@ -5128,7 +5263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 117
+     "rank": 120
     },
     {
      "name": "Jefferson Health",
@@ -5173,7 +5308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 118
+     "rank": 121
     },
     {
      "name": "Orderly Health",
@@ -5217,7 +5352,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 119
+     "rank": 122
     },
     {
      "name": "Devoted Health",
@@ -5262,52 +5397,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 120
-    },
-    {
-     "name": "Withings",
-     "slug": "withings",
-     "description": "Withings is a connected health device platform providing a REST API for accessing data from smart scales, blood pressure monitors, sleep trackers, thermometers, and fitness watches. The API uses OAuth2 for authentication and provides access to a wide range of health biomarkers including body composition, cardiovascular data, sleep metrics, activity tracking, and clinical-grade measurements. Partners and developers can integrate Withings health data into their applications for remote patient monitoring, wellness platforms, and research applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png",
-     "score": 43.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 69.8,
-      "governance": 68.8,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 42.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true
-     },
-     "rank": 121
+     "rank": 123
     },
     {
      "name": "CMS — Centers for Medicare & Medicaid Services",
@@ -5352,7 +5442,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 122
+     "rank": 124
     },
     {
      "name": "WeFitter",
@@ -5396,7 +5486,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 125
     },
     {
      "name": "Clover Health",
@@ -5441,7 +5531,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 126
     },
     {
      "name": "Mon Ami",
@@ -5485,7 +5575,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 127
     },
     {
      "name": "Cerner (Oracle Health)",
@@ -5530,7 +5620,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 128
     },
     {
      "name": "Weave",
@@ -5574,7 +5664,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 129
     },
     {
      "name": "CloudEvents",
@@ -5619,7 +5709,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 130
     },
     {
      "name": "Veterans Affairs",
@@ -5664,7 +5754,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 131
     },
     {
      "name": "BigOven",
@@ -5702,7 +5792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 132
     },
     {
      "name": "Manage BGL",
@@ -5747,7 +5837,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 133
     },
     {
      "name": "UnitedHealth Group",
@@ -5792,52 +5882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
-    },
-    {
-     "name": "FoodData Central",
-     "slug": "fooddata",
-     "description": "USDA FoodData Central is a comprehensive food composition database and REST API providing nutritional data for over 600,000 foods. The service covers multiple distinct data types including Foundation Foods, SR Legacy, Survey Foods (FNDDS), Branded Foods, and Experimental Foods. All data is released under CC0 1.0 Universal (public domain) and the API is free to use with a data.gov API key. FoodData Central is operated by the USDA Agricultural Research Service (ARS) and receives twice-annual updates for Foundation Foods and monthly updates for Branded Foods.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fooddata/refs/heads/main/screenshots/fooddata-2026-06-20T181400.png",
-     "score": 42.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 66.6,
-      "governance": 58.3,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Alivecor",
@@ -5882,7 +5927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Zocdoc",
@@ -5927,7 +5972,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Garner",
@@ -5972,7 +6017,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Haekka",
@@ -6010,51 +6055,6 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
-    },
-    {
-     "name": "Limitless",
-     "slug": "limitless",
-     "description": "Limitless builds the Pendant, a wearable AI device that continuously captures and transcribes the conversations its wearer has, paired with a desktop, web, and mobile app plus \"Ask AI\" for searching that personal history. The Limitless Developer API gives users programmatic access to their own data: lifelogs (Pendant recordings with markdown transcripts and a speaker-attributed structured contents tree), Ask AI chat history including the assistant's tool calls and the entries it retrieved, and raw Ogg Opus audio export. The API is authenticated with an X-API-Key header, is cursor paginated, and supports hybrid keyword plus semantic search across a user's lifelogs. Limitless also runs an official hosted MCP server at https://api.limitless.ai/mcp, backed by a complete OAuth 2.0 and OpenID Connect discovery surface with PKCE and dynamic client registration. Limitless was acquired by Meta; Pendant sales ended 2025-12-05 and existing customers are supported through 2026 on a free Unlimited Plan.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/screenshots/limitless-2026-07-25T225205.png",
-     "score": 42.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 32.3,
-      "governance": 11.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 60.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 58.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 49.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 138
     }
    ]
@@ -6064,8 +6064,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 158,
-   "shown": 158,
+   "count": 157,
+   "shown": 157,
    "providers": [
     {
      "name": "VivaLNK",
@@ -6651,6 +6651,51 @@
      "rank": 152
     },
     {
+     "name": "HHS (US Department of Health and Human Services)",
+     "slug": "hhs",
+     "description": "The US Department of Health and Human Services provides data APIs for health programs, public health datasets, grants data, and interoperability standards for health information. HHS operates a broad ecosystem of APIs spanning FDA drug and device data, grants opportunity search, health IT open data, HRSA health center locators, and public health content syndication through its agencies including FDA, HRSA, ONC, and ODPHP.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png",
+     "score": 41.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 62.3,
+      "governance": 58.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 153
+    },
+    {
      "name": "Daytona",
      "slug": "daytona",
      "description": "Daytona provides secure, elastic sandbox infrastructure for running AI-generated code, with sub-90ms sandbox creation, multi-language runtimes, and full filesystem, process, Git, and Language Server Protocol APIs. Sandboxes are stateful, snapshot-able, and deployable across US, EU, and Asia regions, and the platform supports HIPAA, SOC 2, and GDPR. Target customers are AI agent companies, coding-agent builders, data teams, RL labs, and enterprises that need to execute untrusted or LLM-authored code in isolation. Daytona ships Python and TypeScript SDKs (with Ruby, Go, and Java available) backed by a documented REST API and OpenAPI specs. Pricing is pay-as-you-go and per-second across vCPU, memory, GPU, and storage with a $200 free credit.",
@@ -6686,7 +6731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 154
     },
     {
      "name": "Ketryx",
@@ -6731,7 +6776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 155
     },
     {
      "name": "Nutritionix",
@@ -6776,7 +6821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Ultrahuman",
@@ -6820,7 +6865,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "Albertsons",
@@ -6857,7 +6902,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Canada Health Infoway",
@@ -6902,7 +6947,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "NHS Digital",
@@ -6946,7 +6991,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 160
     },
     {
      "name": "Suki AI",
@@ -6991,7 +7036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 161
     },
     {
      "name": "PlayerData",
@@ -7028,7 +7073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 162
     },
     {
      "name": "NHS API",
@@ -7072,7 +7117,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 163
     },
     {
      "name": "Pulsoid",
@@ -7117,7 +7162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 164
     },
     {
      "name": "Aerin Medical",
@@ -7161,7 +7206,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 165
     },
     {
      "name": "FitBark",
@@ -7206,7 +7251,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 166
     },
     {
      "name": "Centers for Medicare and Medicaid Services",
@@ -7247,50 +7292,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 166
-    },
-    {
-     "name": "AG1",
-     "slug": "athletic-greens",
-     "description": "AG1 (formerly Athletic Greens) is a direct-to-consumer health and nutrition company founded in December 2010 by Chris Ashenden and headquartered in Carson City, Nevada. It sells a single flagship product - AG1, a daily foundational nutrition powder - on a subscription model through drinkag1.com, and the brand was renamed from Athletic Greens to AG1 in December 2021. Revenue grew from roughly $160M in 2021 to approximately $600M in 2024, with a valuation near $1.2B reported in January 2025, built largely on podcast and creator affiliate marketing. AG1 is a consumer commerce business rather than a developer-facing API provider - it publishes no developer portal, no API reference and no OpenAPI - but its Shopify storefront at shop.drinkag1.com does expose a real, anonymously reachable agentic commerce surface: a Universal Commerce Protocol (UCP 2026-04-08) merchant profile at /.well-known/ucp, a Storefront MCP server at /api/mcp, a UCP/MCP commerce endpoint at /api/ucp/mcp, a Customer Account MCP server at account.drinkag1.com, an introspectable Shopify Storefront GraphQL API, and published agents.md / llms.txt / robots.txt agent instructions. Authentication for customer-scoped surfaces is Shopify customer accounts OAuth 2.0 + OpenID Connect with PKCE.",
-     "score": 39.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 48.1,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 39.1,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 47.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -7828,6 +7829,50 @@
      "rank": 179
     },
     {
+     "name": "AG1",
+     "slug": "athletic-greens",
+     "description": "AG1 (formerly Athletic Greens) is a direct-to-consumer health and nutrition company founded in December 2010 by Chris Ashenden and headquartered in Carson City, Nevada. It sells a single flagship product - AG1, a daily foundational nutrition powder - on a subscription model through drinkag1.com, and the brand was renamed from Athletic Greens to AG1 in December 2021. Revenue grew from roughly $160M in 2021 to approximately $600M in 2024, with a valuation near $1.2B reported in January 2025, built largely on podcast and creator affiliate marketing. AG1 is a consumer commerce business rather than a developer-facing API provider - it publishes no developer portal, no API reference and no OpenAPI - but its Shopify storefront at shop.drinkag1.com does expose a real, anonymously reachable agentic commerce surface: a Universal Commerce Protocol (UCP 2026-04-08) merchant profile at /.well-known/ucp, a Storefront MCP server at /api/mcp, a UCP/MCP commerce endpoint at /api/ucp/mcp, a Customer Account MCP server at account.drinkag1.com, an introspectable Shopify Storefront GraphQL API, and published agents.md / llms.txt / robots.txt agent instructions. Authentication for customer-scoped surfaces is Shopify customer accounts OAuth 2.0 + OpenID Connect with PKCE.",
+     "score": 38.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 48.1,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 180
+    },
+    {
      "name": "Quenza",
      "slug": "quenza",
      "description": "Quenza is a digital care and client-engagement platform for coaches, therapists, and other helping professionals. Practitioners build activities - worksheets, exercises, psycho-education, intake forms, reflection prompts, and surveys - bundle them into timed pathways (care programs), and share them with clients through a branded client portal and mobile apps, then track responses, results, notes, tasks, and chat. Quenza exposes a documented public REST API (v1) for programmatically managing clients, team members, groups, and tasks, authenticated with a workspace Bearer token. API access is available on the Collective and Beyond plans; webhooks are available from the Growth plan up.",
@@ -7862,7 +7907,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 181
     },
     {
      "name": "Synthflow",
@@ -7903,50 +7948,6 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 181
-    },
-    {
-     "name": "Bobbie",
-     "slug": "bobbie",
-     "description": "Bobbie is an American organic infant formula company founded in 2018 by Laura Modi and Sarah Hardy — the only mom-founded, women-led infant formula manufacturer in the United States, selling direct to parents at hibobbie.com and through Bobbie Medical for healthcare professionals. Bobbie has no developer program, but its Shopify-hosted storefront exposes a substantial machine-readable surface from its own domain: an anonymously introspectable Storefront GraphQL API, a live Model Context Protocol server with five catalog and cart tools, a Universal Commerce Protocol merchant profile at /.well-known/ucp with UCP MCP commerce endpoints, OpenID Connect and RFC 8414 discovery for customer accounts, and a provider-authored /agents.md (mirrored at /llms.txt) that tells AI agents which surface to use and requires explicit buyer approval before any agent completes a payment.",
-     "score": 38.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 48.1,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 45.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -8520,6 +8521,50 @@
      "rank": 195
     },
     {
+     "name": "Bobbie",
+     "slug": "bobbie",
+     "description": "Bobbie is an American organic infant formula company founded in 2018 by Laura Modi and Sarah Hardy — the only mom-founded, women-led infant formula manufacturer in the United States, selling direct to parents at hibobbie.com and through Bobbie Medical for healthcare professionals. Bobbie has no developer program, but its Shopify-hosted storefront exposes a substantial machine-readable surface from its own domain: an anonymously introspectable Storefront GraphQL API, a live Model Context Protocol server with five catalog and cart tools, a Universal Commerce Protocol merchant profile at /.well-known/ucp with UCP MCP commerce endpoints, OpenID Connect and RFC 8414 discovery for customer accounts, and a provider-authored /agents.md (mirrored at /llms.txt) that tells AI agents which surface to use and requires explicit buyer approval before any agent completes a payment.",
+     "score": 37.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 48.1,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 27.7,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 196
+    },
+    {
      "name": "MyFitnessPal",
      "slug": "myfitnesspal",
      "description": "MyFitnessPal is a nutrition and fitness tracking platform built around a food diary, calorie counting, a large branded-food and barcode database, exercise logging, weight and body measurements, and goal setting. Its partner-facing REST API (v2, hosted at api.myfitnesspal.com) lets approved applications read and write a consenting user's diary (food and exercise), body measurements, and profile, and subscribe to webhook notifications when that data changes. Access uses OAuth 2.0 authorization-code grants with the diary, measurements, private-exercises, and subscriptions scopes. The developer program is currently closed to new applicants. This profile was surfaced as a portfolio lead and enriched by the API Evangelist pipeline.",
@@ -8554,7 +8599,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 196
+     "rank": 197
     },
     {
      "name": "Engrail Therapeutics",
@@ -8594,51 +8639,6 @@
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 197
-    },
-    {
-     "name": "HHS (US Department of Health and Human Services)",
-     "slug": "hhs",
-     "description": "The US Department of Health and Human Services provides data APIs for health programs, public health datasets, grants data, and interoperability standards for health information. HHS operates a broad ecosystem of APIs spanning FDA drug and device data, grants opportunity search, health IT open data, HRSA health center locators, and public health content syndication through its agencies including FDA, HRSA, ONC, and ODPHP.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png",
-     "score": 37.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 62.3,
-      "governance": 58.3,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -9392,50 +9392,6 @@
      "rank": 215
     },
     {
-     "name": "Strata Oncology",
-     "slug": "strata-oncology",
-     "description": "Strata Oncology is a precision oncology company founded in 2015 by Dan Rhodes and Scott Tomlins and headquartered in Ann Arbor, Michigan. It develops and runs predictive biomarker tests out of its own high-throughput CLIA laboratory, including StrataNGS tumor genomic profiling, the Immunotherapy Response Score for anti-PD-1/PD-L1 monotherapy benefit, PD-L1 IHC testing, and Antibody-Drug Conjugate Treatment Response Scores. Testing is delivered to health systems through the Strata Precision Oncology Network, with ordering and results handled through the login-gated Strata Request Portal and the Strata Assistant app distributed in the Epic App Orchard. Strata Oncology publishes no public developer program or API documentation; the only anonymous machine-readable surface API Evangelist could verify is the WordPress REST content API behind strataoncology.com.",
-     "score": 36.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 55.8,
-      "governance": 20.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 37.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 20.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 216
-    },
-    {
      "name": "CentralReach",
      "slug": "centralreach",
      "description": "CentralReach is a healthcare software and services platform for organizations that serve children and adults diagnosed with autism and related intellectual and developmental disabilities (IDD). Its integrated practice-management and electronic-medical-record (EMR) system covers clinical data collection, scheduling, note drafting and auditing, claims management and billing, staff training and certification, and caregiver engagement across ABA therapy, multidisciplinary therapy, and special-education providers. CentralReach publishes a gated Enhanced API (OAuth 2.0 client-credentials, JWT) at partners-api.centralreach.com for securely connecting the platform to critical third-party applications, with access provisioned through a dedicated CentralReach representative. Surfaced as a portfolio company of Insight Partners and enriched by the API Evangelist pipeline.",
@@ -9478,7 +9434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 217
+     "rank": 216
     },
     {
      "name": "Eight Sleep",
@@ -9523,7 +9479,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 218
+     "rank": 217
     },
     {
      "name": "ezyVet",
@@ -9568,7 +9524,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 219
+     "rank": 218
     },
     {
      "name": "Healthdirect Australia",
@@ -9613,7 +9569,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 220
+     "rank": 219
     },
     {
      "name": "Curai",
@@ -9658,7 +9614,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 221
+     "rank": 220
     },
     {
      "name": "Metriport",
@@ -9702,7 +9658,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 222
+     "rank": 221
     },
     {
      "name": "Open Dental",
@@ -9746,7 +9702,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 223
+     "rank": 222
     },
     {
      "name": "Voidpet",
@@ -9783,7 +9739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 224
+     "rank": 223
     },
     {
      "name": "TrueVault",
@@ -9820,7 +9776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 225
+     "rank": 224
     },
     {
      "name": "Aetna",
@@ -9864,7 +9820,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 226
+     "rank": 225
     },
     {
      "name": "athenahealth",
@@ -9909,7 +9865,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 227
+     "rank": 226
     },
     {
      "name": "Flexpa",
@@ -9954,7 +9910,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 228
+     "rank": 227
     },
     {
      "name": "Health Gorilla",
@@ -9999,7 +9955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 229
+     "rank": 228
     },
     {
      "name": "SMART Health IT",
@@ -10043,7 +9999,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 230
+     "rank": 229
     },
     {
      "name": "Wormhole",
@@ -10088,7 +10044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 231
+     "rank": 230
     },
     {
      "name": "Archer Daniels Midland",
@@ -10126,7 +10082,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 232
+     "rank": 231
     },
     {
      "name": "Flywheel",
@@ -10171,7 +10127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 233
+     "rank": 232
     },
     {
      "name": "Calm",
@@ -10216,7 +10172,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 234
+     "rank": 233
     },
     {
      "name": "Elysium Health",
@@ -10261,7 +10217,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 235
+     "rank": 234
     },
     {
      "name": "MedAdvisor",
@@ -10305,7 +10261,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 236
+     "rank": 235
     },
     {
      "name": "IntakeQ",
@@ -10350,7 +10306,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 237
+     "rank": 236
     },
     {
      "name": "Ambra Health",
@@ -10395,7 +10351,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 238
+     "rank": 237
     },
     {
      "name": "Kno2",
@@ -10440,7 +10396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 239
+     "rank": 238
     },
     {
      "name": "Allscripts",
@@ -10485,7 +10441,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 240
+     "rank": 239
     },
     {
      "name": "Nutrical Solution Ltd",
@@ -10529,7 +10485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 241
+     "rank": 240
     },
     {
      "name": "Photon Health",
@@ -10573,7 +10529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 242
+     "rank": 241
     },
     {
      "name": "OpenPrescribing",
@@ -10617,7 +10573,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 243
+     "rank": 242
     },
     {
      "name": "Rimsys",
@@ -10661,7 +10617,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 244
+     "rank": 243
     },
     {
      "name": "Akute Health",
@@ -10706,7 +10662,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 245
+     "rank": 244
     },
     {
      "name": "Health Universe",
@@ -10751,7 +10707,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 246
+     "rank": 245
     },
     {
      "name": "Ambience Healthcare",
@@ -10795,7 +10751,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 247
+     "rank": 246
     },
     {
      "name": "Intelerad",
@@ -10840,7 +10796,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 248
+     "rank": 247
     },
     {
      "name": "Brightseed",
@@ -10884,7 +10840,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 249
+     "rank": 248
     },
     {
      "name": "Miri",
@@ -10928,7 +10884,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 250
+     "rank": 249
     },
     {
      "name": "Zus Health",
@@ -10972,7 +10928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 251
+     "rank": 250
     },
     {
      "name": "FLO",
@@ -11016,7 +10972,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 252
+     "rank": 251
     },
     {
      "name": "DispatchHealth",
@@ -11060,7 +11016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 253
+     "rank": 252
     },
     {
      "name": "Updox",
@@ -11104,7 +11060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 254
+     "rank": 253
     },
     {
      "name": "Synthego",
@@ -11148,7 +11104,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 255
+     "rank": 254
     },
     {
      "name": "Solventum",
@@ -11193,7 +11149,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 256
+     "rank": 255
     },
     {
      "name": "Enapi",
@@ -11238,7 +11194,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 257
+     "rank": 256
     },
     {
      "name": "LayerZero",
@@ -11283,7 +11239,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 258
+     "rank": 257
     },
     {
      "name": "Agentic AI Foundation",
@@ -11321,7 +11277,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 259
+     "rank": 258
     },
     {
      "name": "DoseSpot",
@@ -11366,7 +11322,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 260
+     "rank": 259
     },
     {
      "name": "Netsmart",
@@ -11411,7 +11367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 261
+     "rank": 260
     },
     {
      "name": "Truepill",
@@ -11455,7 +11411,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 262
+     "rank": 261
     },
     {
      "name": "DexCare",
@@ -11500,7 +11456,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 263
+     "rank": 262
     },
     {
      "name": "Opkit",
@@ -11544,7 +11500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 264
+     "rank": 263
     },
     {
      "name": "Cohere Health",
@@ -11589,7 +11545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 265
+     "rank": 264
     },
     {
      "name": "Nirvana Health",
@@ -11633,7 +11589,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 266
+     "rank": 265
     },
     {
      "name": "Optum",
@@ -11677,7 +11633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 267
+     "rank": 266
     },
     {
      "name": "Teladoc",
@@ -11721,7 +11677,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 268
+     "rank": 267
     },
     {
      "name": "SCORM",
@@ -11759,7 +11715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 269
+     "rank": 268
     },
     {
      "name": "Tortus",
@@ -11803,7 +11759,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 270
+     "rank": 269
     },
     {
      "name": "VOA Health",
@@ -11847,7 +11803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 271
+     "rank": 270
     },
     {
      "name": "Johnson & Johnson",
@@ -11892,7 +11848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 272
+     "rank": 271
     },
     {
      "name": "openFDA",
@@ -11937,7 +11893,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 273
+     "rank": 272
     },
     {
      "name": "Chewy",
@@ -11982,7 +11938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 274
+     "rank": 273
     },
     {
      "name": "NHS England Digital",
@@ -12026,7 +11982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 275
+     "rank": 274
     },
     {
      "name": "ELLKAY",
@@ -12071,7 +12027,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 276
+     "rank": 275
     },
     {
      "name": "Garmin",
@@ -12116,7 +12072,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 277
+     "rank": 276
     },
     {
      "name": "Genentech",
@@ -12161,7 +12117,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 278
+     "rank": 277
     },
     {
      "name": "Glooko",
@@ -12206,7 +12162,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 279
+     "rank": 278
     },
     {
      "name": "Rite Aid",
@@ -12251,7 +12207,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 280
+     "rank": 279
     },
     {
      "name": "Andon Health",
@@ -12296,7 +12252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 281
+     "rank": 280
     },
     {
      "name": "Life Sciences",
@@ -12341,7 +12297,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 282
+     "rank": 281
     },
     {
      "name": "samedi",
@@ -12385,7 +12341,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 283
+     "rank": 282
     },
     {
      "name": "TELUS Health",
@@ -12429,7 +12385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 284
+     "rank": 283
     },
     {
      "name": "RXNT",
@@ -12473,7 +12429,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 285
+     "rank": 284
     },
     {
      "name": "St. Jude Medical",
@@ -12518,7 +12474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 286
+     "rank": 285
     },
     {
      "name": "Caris Life Sciences",
@@ -12563,7 +12519,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 287
+     "rank": 286
     },
     {
      "name": "Baxter International",
@@ -12608,7 +12564,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 288
+     "rank": 287
     },
     {
      "name": "Vetspire",
@@ -12652,7 +12608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 289
+     "rank": 288
     },
     {
      "name": "Adonis",
@@ -12697,7 +12653,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 290
+     "rank": 289
     },
     {
      "name": "Artisight",
@@ -12741,7 +12697,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 291
+     "rank": 290
     },
     {
      "name": "MindMaze",
@@ -12785,7 +12741,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 292
+     "rank": 291
     },
     {
      "name": "Amwell",
@@ -12830,7 +12786,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 293
+     "rank": 292
     },
     {
      "name": "BioIntelliSense",
@@ -12874,7 +12830,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 294
+     "rank": 293
     },
     {
      "name": "BostonGene",
@@ -12918,7 +12874,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 295
+     "rank": 294
     },
     {
      "name": "HVMN",
@@ -12962,7 +12918,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 296
+     "rank": 295
     }
    ]
   },
@@ -12971,8 +12927,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 561,
-   "shown": 561,
+   "count": 562,
+   "shown": 562,
    "providers": [
     {
      "name": "Rhapsody",
@@ -13016,7 +12972,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 297
+     "rank": 296
     },
     {
      "name": "Proscia",
@@ -13060,7 +13016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 298
+     "rank": 297
     },
     {
      "name": "IM8 Health",
@@ -13104,7 +13060,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 299
+     "rank": 298
     },
     {
      "name": "Nutritics",
@@ -13149,7 +13105,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 300
+     "rank": 299
     },
     {
      "name": "Patients Know Best",
@@ -13193,7 +13149,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 301
+     "rank": 300
     },
     {
      "name": "CarMD",
@@ -13231,7 +13187,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 302
+     "rank": 301
     },
     {
      "name": "Innovaccer",
@@ -13276,7 +13232,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 303
+     "rank": 302
     },
     {
      "name": "Unite Us",
@@ -13320,7 +13276,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 304
+     "rank": 303
     },
     {
      "name": "Us2.ai",
@@ -13364,7 +13320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 305
+     "rank": 304
     },
     {
      "name": "Centaur Labs",
@@ -13409,7 +13365,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 306
+     "rank": 305
     },
     {
      "name": "Natera",
@@ -13454,7 +13410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 307
+     "rank": 306
     },
     {
      "name": "Redox",
@@ -13499,7 +13455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 308
+     "rank": 307
     },
     {
      "name": "Fast Healthcare Interoperability Resources",
@@ -13544,7 +13500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 309
+     "rank": 308
     },
     {
      "name": "Firely",
@@ -13589,7 +13545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 310
+     "rank": 309
     },
     {
      "name": "Across",
@@ -13634,7 +13590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 311
+     "rank": 310
     },
     {
      "name": "TPP (SystmOne)",
@@ -13678,7 +13634,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 312
+     "rank": 311
     },
     {
      "name": "Carrum Health",
@@ -13722,7 +13678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 313
+     "rank": 312
     },
     {
      "name": "Rightway",
@@ -13766,7 +13722,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 314
+     "rank": 313
     },
     {
      "name": "Karaz Platform",
@@ -13811,7 +13767,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 315
+     "rank": 314
     },
     {
      "name": "OSCAR EMR",
@@ -13855,7 +13811,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 316
+     "rank": 315
     },
     {
      "name": "Gradient Health",
@@ -13889,6 +13845,50 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 316
+    },
+    {
+     "name": "Strata Oncology",
+     "slug": "strata-oncology",
+     "description": "Strata Oncology is a precision oncology company founded in 2015 by Dan Rhodes and Scott Tomlins and headquartered in Ann Arbor, Michigan. It develops and runs predictive biomarker tests out of its own high-throughput CLIA laboratory, including StrataNGS tumor genomic profiling, the Immunotherapy Response Score for anti-PD-1/PD-L1 monotherapy benefit, PD-L1 IHC testing, and Antibody-Drug Conjugate Treatment Response Scores. Testing is delivered to health systems through the Strata Precision Oncology Network, with ordering and results handled through the login-gated Strata Request Portal and the Strata Assistant app distributed in the Epic App Orchard. Strata Oncology publishes no public developer program or API documentation; the only anonymous machine-readable surface API Evangelist could verify is the WordPress REST content API behind strataoncology.com.",
+     "score": 25.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 14.9,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 3.8,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -43720,7 +43720,7 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 15,
+   "count": 16,
    "shown": 0,
    "providers": []
   }

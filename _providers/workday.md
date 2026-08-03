@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -2399,7 +2399,7 @@ plans:
 - name: Workday Plans Pricing
   plan_count: 1
   slug: workday-plans-pricing
-random_paper: 31
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Workday Rate Limits
@@ -2428,16 +2428,16 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.9
-  delta: -1.4
+  composite: 70.2
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 83.2
+    contract_quality: 84.4
     developer_ergonomics: 63.0
     discoverability: 77.8
     governance: 80.2
     operational_transparency: 57.9
-  previous_composite: 71.3
+  previous_composite: 70.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2447,8 +2447,8 @@ score:
       marker_coverage: 0.0
       total: 46
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png
 security:

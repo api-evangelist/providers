@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 318
   human_in_the_loop: 10
@@ -2934,7 +2934,7 @@ plans:
 - name: Small Improvements Plans Pricing
   plan_count: 3
   slug: small-improvements-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Small Improvements Rate Limits
@@ -2950,16 +2950,16 @@ rules:
   slug: small-improvements-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: -4.3
+  composite: 54.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.4
+    contract_quality: 72.1
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 57.9
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -2967,8 +2967,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 115
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/small-improvements/refs/heads/main/screenshots/small-improvements-2026-06-20T194033.png
 security:

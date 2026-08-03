@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -134,23 +134,23 @@ plans:
 - name: Asyncapi Plans Pricing
   plan_count: 3
   slug: asyncapi-plans-pricing
-random_paper: 36
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Asyncapi Rate Limits
   slug: asyncapi-rate-limits
 score:
   band: thin
-  composite: 31.6
-  delta: -6.9
+  composite: 32.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 50.4
+    contract_quality: 54.6
     developer_ergonomics: 19.6
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.5
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -164,9 +164,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/screenshots/asyncapi-2026-06-20T172514.png
 security:
 - kind: domain-security

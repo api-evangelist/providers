@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -129,7 +129,7 @@ plans:
 - name: Level2 Plans Pricing
   plan_count: 3
   slug: level2-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Level2 Rate Limits
@@ -145,16 +145,16 @@ rules:
   slug: level2-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.7
-  delta: -3.8
+  composite: 42.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 66.1
+    contract_quality: 66.7
     developer_ergonomics: 10.9
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 46.5
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -162,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/screenshots/level2-2026-06-20T184439.png
 security:

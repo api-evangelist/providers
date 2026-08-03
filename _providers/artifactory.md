@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -447,7 +447,7 @@ plans:
 - name: Artifactory Plans Pricing
   plan_count: 6
   slug: artifactory-plans-pricing
-random_paper: 44
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Artifactory Rate Limits
@@ -463,16 +463,16 @@ rules:
   slug: artifactory-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.6
-  delta: -2.7
+  composite: 75.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 66.6
+    contract_quality: 69.4
     developer_ergonomics: 65.2
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 77.3
+  previous_composite: 75.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -482,8 +482,8 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/screenshots/artifactory-2026-06-20T172451.png
 security:

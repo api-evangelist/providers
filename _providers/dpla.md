@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 7
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -152,15 +152,15 @@ rate_limits:
 score:
   band: thin
   composite: 36.4
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 69.1
+    contract_quality: 69.4
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 39.4
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -174,8 +174,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

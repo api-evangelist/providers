@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 45.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 227
   human_in_the_loop: 2
@@ -166,7 +166,7 @@ plans:
 - name: Fireworks Ai Plans Pricing
   plan_count: 5
   slug: fireworks-ai-plans-pricing
-random_paper: 5
+random_paper: 0
 rate_limits:
 - limit_count: 6
   name: Fireworks Ai Rate Limits
@@ -182,16 +182,16 @@ rules:
   slug: fireworks-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 46.0
-  delta: -3.3
+  composite: 47.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 66.1
+    contract_quality: 70.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 49.3
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/screenshots/fireworks-ai-2026-06-20T181235.png
 security:

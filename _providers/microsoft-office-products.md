@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Microsoft Office Products Plans Pricing
   plan_count: 3
   slug: microsoft-office-products-plans-pricing
-random_paper: 34
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Microsoft Office Products Rate Limits
@@ -148,11 +148,11 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.7
-  delta: -1.1
+  composite: 40.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 21.7
     discoverability: 46.3
     governance: 0.0
@@ -165,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-products/refs/heads/main/screenshots/microsoft-office-products-2026-06-20T185514.png
 security:

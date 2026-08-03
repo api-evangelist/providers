@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Initialized Capital
 nav: Providers
 network: true
-random_paper: 67
+random_paper: 53
 slug: initialized-capital
 tags:
 - Venture Capital

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.3
-  scored_at: '2026-07-28'
+  score: 54.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -240,7 +240,7 @@ overview: 'Usersnap publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Usersnap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 61
+random_paper: 26
 scopes:
 - name: Usersnap Scopes
   scope_count: 2
@@ -248,16 +248,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.0
-  delta: 0.7
+  composite: 62.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.7
+    contract_quality: 72.3
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 61.3
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +268,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

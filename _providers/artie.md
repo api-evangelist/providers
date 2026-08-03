@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -191,6 +191,10 @@ common:
   title: ''
   type: AgenticAccess
   url: agentic-access/artie-agentic-access.yml
+- group: other
+  title: ''
+  type: AICatalog
+  url: ai-catalog/artie-ai-catalog.yml
 created: '2026-07-17'
 description: Artie is a real-time data replication platform that streams database changes to cloud data warehouses and lakehouses with sub-minute latency and exactly-once delivery. It captures change data (CDC) from sources such as PostgreSQL, MySQL, MongoDB, Oracle, and DynamoDB and continuously merges them into destinations including Snowflake, BigQuery, Databricks, Redshift, and Apache Iceberg, eliminating the need to build and operate Kafka or Debezium infrastructure. Artie handles advanced backfills, schema evolution, column-level encryption and hashing, data catalog search, PrivateLink/SSH connectivity, and observability, and exposes a REST API plus a webhook event stream so teams can programmatically manage pipelines, connectors, and source readers. Artie is venture-backed by Canaan Partners and General Catalyst.
 image: https://avatars.githubusercontent.com/artie-labs
@@ -209,20 +213,20 @@ overview: 'Artie publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
   The Artie catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 41
+  Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
+random_paper: 58
 score:
   band: developing
-  composite: 53.6
-  delta: -1.3
+  composite: 54.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 64.8
+    contract_quality: 67.9
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 54.9
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,8 +237,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artie/refs/heads/main/screenshots/artie-2026-07-25T201330.png
 security:

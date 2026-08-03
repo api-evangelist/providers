@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-07-28'
+  score: 56.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 4
@@ -213,19 +213,19 @@ overview: 'H Company publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   H Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 6
+random_paper: 53
 score:
   band: strong
-  composite: 56.4
+  composite: 57.3
   delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 67.9
+    contract_quality: 71.3
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 56.4
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,8 +236,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/screenshots/h-company-2026-07-25T220500.png
 security:

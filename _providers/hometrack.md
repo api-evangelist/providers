@@ -17,11 +17,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -30,7 +30,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -40,24 +40,24 @@ agentic_access:
   summary_line: 59 operations · 18 acting
 api_count: 6
 apis:
-- description: 'Described in Hometrack''s own Azure API Management catalogue as the "Generally available version of the Valuation API". Three operations: POST /authentication/{apiKey} exchanges an API key for a tempor'
-  name: Hometrack Valuation API
-  slug: hometrack-valuation-api
 - description: 'Hometrack''s own catalogue description is "This API provides access to the Broker AVM service." Twelve operations across two revisions (v1 and v2 paths served side by side): POST /broker/order creates '
   name: Hometrack Broker AVM API
   slug: hometrack-broker-avm-api
-- description: Catalogued by Hometrack as "(PRH) - Core External Client API v2.0 — Our PRH 'Core' API offering to all customers who want it." PRH is Hometrack's Property Risk Hub, the case-management and surveyor-in
-  name: Hometrack PRH Core External Client API v2.0
-  slug: hometrack-prh-core-external-client-api
-- description: 'Five GET operations returning climate and energy risk data for a single property, keyed on UPRN — the Unique Property Reference Number, the UK''s government-issued national property identifier: /epc-ho'
-  name: Hometrack Climate API (v2)
-  slug: hometrack-climate-api
 - description: A GraphQL API registered in Hometrack's API Management catalogue with type "graphql" and path /climate/graphql, fronting the same climate data backend (web-uks-prod-data-api.azurewebsites.net/graphql)
   name: Hometrack Climate GraphQL API
   slug: hometrack-climate-graphql-api
-- description: 'Catalogued by Hometrack as "Hometrack API for public consumption" and mounted at the gateway root. Twenty operations that are mostly account, licensing, branding and report-generation plumbing rather '
+- description: Hometrack API Public from Hometrack — 19 path(s) described in OpenAPI.
   name: Hometrack API Public
-  slug: hometrack-api-public
+  slug: hometrack-api-public-openapi
+- description: Hometrack Climate API (v2) from Hometrack — 5 path(s) described in OpenAPI.
+  name: Hometrack Climate API (v2)
+  slug: hometrack-climate-api-v2-openapi
+- description: Hometrack (PRH) - Core External Client API v2.0 from Hometrack — 16 path(s) described in OpenAPI.
+  name: Hometrack (PRH) - Core External Client API v2.0
+  slug: hometrack-prh-core-external-client-api-v2-openapi
+- description: Hometrack Valuation API from Hometrack — 3 path(s) described in OpenAPI.
+  name: Hometrack Valuation API
+  slug: hometrack-valuation-api-v1-openapi
 artifact_total: 11
 common:
 - group: docs
@@ -234,11 +234,11 @@ modified: '2026-07-26'
 name: Hometrack
 nav: Providers
 network: true
-overview: 'Hometrack publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Valuation API, Broker AVM API, PRH Core External Client API v2.0, and 3 more. Tagged areas include Real Estate, United Kingdom, PropTech, Valuation, and AVM.
+overview: 'Hometrack publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Broker AVM API, Climate GraphQL API, API Public, and 3 more. Tagged areas include Real Estate, United Kingdom, PropTech, Valuation, and AVM.
 
 
   Hometrack''s developer surface includes API reference, changelog, developer console, sandbox, authentication, documentation, signup flow, and 33 more developer resources.'
-random_paper: 56
+random_paper: 8
 scopes:
 - name: Hometrack Scopes
   scope_count: 2
@@ -246,16 +246,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.4
+  composite: 46.8
   delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 48.0
+    contract_quality: 53.7
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 45.4
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,8 +266,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

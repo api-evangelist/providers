@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.0
-  scored_at: '2026-07-28'
+  score: 43.9
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: Operations related to calls
@@ -199,19 +199,19 @@ overview: 'OpenPhone publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   OpenPhone''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, support, signup flow, and 22 more developer resources.'
-random_paper: 70
+random_paper: 22
 score:
   band: developing
-  composite: 51.9
-  delta: -3.1
+  composite: 53.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.1
+    contract_quality: 74.1
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 39.5
-  previous_composite: 55.0
+  previous_composite: 53.2
   provenance:
     conformance: first-party
     contracts:
@@ -227,8 +227,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

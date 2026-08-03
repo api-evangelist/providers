@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -137,23 +137,23 @@ plans:
 - name: Elastic Stack Plans Pricing
   plan_count: 3
   slug: elastic-stack-plans-pricing
-random_paper: 8
+random_paper: 85
 rate_limits:
 - limit_count: 5
   name: Elastic Stack Rate Limits
   slug: elastic-stack-rate-limits
 score:
   band: developing
-  composite: 44.4
-  delta: 0.3
+  composite: 45.4
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 46.0
+    contract_quality: 50.0
     developer_ergonomics: 15.2
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 44.1
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +161,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-stack/refs/heads/main/screenshots/elastic-stack-2026-06-20T180536.png
 security:

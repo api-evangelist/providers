@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-07-28'
+  score: 48.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -166,24 +166,24 @@ overview: 'TSB Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   TSB Bank''s developer surface includes authentication, documentation, support, and 23 more developer resources.'
-random_paper: 48
+random_paper: 26
 scopes:
 - name: Tsb Bank Scopes
   scope_count: 9
   slug: tsb-bank-scopes
   summary_line: 9 scopes · implicit
 score:
-  band: thin
-  composite: 39.6
-  delta: -3.1
+  band: developing
+  composite: 42.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 32.3
+    contract_quality: 47.7
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 10.5
-  previous_composite: 42.7
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -200,8 +200,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

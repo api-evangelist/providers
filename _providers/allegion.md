@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -317,7 +317,7 @@ plans:
 - name: Allegion Plans Pricing
   plan_count: 3
   slug: allegion-plans-pricing
-random_paper: 23
+random_paper: 83
 rate_limits:
 - limit_count: 7
   name: Allegion Rate Limits
@@ -354,16 +354,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 66.0
-  delta: -3.8
+  composite: 66.6
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 72.2
+    contract_quality: 74.6
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 69.8
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     contracts:
@@ -371,8 +371,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/screenshots/allegion-2026-06-20T171528.png
 security:

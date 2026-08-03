@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 376
   human_in_the_loop: 13
@@ -1560,7 +1560,7 @@ plans:
 - name: Keboola Plans Pricing
   plan_count: 2
   slug: keboola-plans-pricing
-random_paper: 77
+random_paper: 68
 rate_limits:
 - limit_count: 0
   name: Keboola Rate Limits
@@ -1576,16 +1576,16 @@ rules:
   slug: keboola-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.1
-  delta: -5.1
+  composite: 46.2
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 53.5
+    contract_quality: 57.9
     developer_ergonomics: 28.3
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 50.2
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1593,9 +1593,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 79
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/screenshots/keboola-2026-06-20T183937.png
 security:
 - kind: authentication

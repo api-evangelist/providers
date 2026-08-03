@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.0
-  scored_at: '2026-07-28'
+  score: 41.9
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: The Agents API from Beyond Presence — 2 operation(s) for agents.
@@ -80,6 +80,10 @@ collections:
   name: Fast Agents Sessions API
   slug: postman-beyond-presence-sessions-api
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/beyond-presence/overview
 - group: other
   title: ''
   type: AgentCard
@@ -226,20 +230,20 @@ overview: 'Beyond Presence publishes 7 APIs on the [APIs.io](https://apis.io/) n
   The Beyond Presence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
-random_paper: 63
+  Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
+random_paper: 19
 score:
   band: strong
-  composite: 58.9
-  delta: -2.1
+  composite: 60.4
+  delta: 0.8
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.6
-    developer_ergonomics: 62.5
+    contract_quality: 71.3
+    developer_ergonomics: 66.8
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 50.0
-  previous_composite: 61.0
+  previous_composite: 59.6
   provenance:
     conformance: first-party
     contracts:
@@ -249,8 +253,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-presence/refs/heads/main/screenshots/beyond-presence-2026-07-25T202842.png
 security:

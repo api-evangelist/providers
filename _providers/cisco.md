@@ -15,29 +15,22 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
-    asyncapi_events: false
+    agentic_access: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
-    openapi_examples: verified
+    openapi_examples: false
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-07-28'
-agentic_access:
-- acting_count: 1
-  human_in_the_loop: 0
-  name: Cisco Agentic Access
-  operation_count: 5
-  slug: cisco-agentic-access
-  summary_line: 5 operations · 1 acting
-api_count: 12
+  score: 54.5
+  scored_at: '2026-08-03'
+api_count: 8
 apis:
 - description: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless access points, switches, security appliances, and cameras. Supports network configuration, monitoring, and aut
   name: Cisco Meraki Dashboard API
@@ -63,18 +56,6 @@ apis:
 - description: REST API for Cisco ThousandEyes digital experience monitoring platform, providing access to network, application, and internet visibility data for monitoring end-to-end digital experiences.
   name: Cisco ThousandEyes API
   slug: thousandeyes-api
-- description: View client information
-  name: Cisco Clients API
-  slug: cisco-clients-api
-- description: Manage network devices
-  name: Cisco Devices API
-  slug: cisco-devices-api
-- description: Manage networks within an organization
-  name: Cisco Networks API
-  slug: cisco-networks-api
-- description: Manage Meraki organizations
-  name: Cisco Organizations API
-  slug: cisco-organizations-api
 arazzos:
 - description: Drill from organization to network to devices to connected clients in a single audited pass.
   name: Cisco Meraki Network Inventory Snapshot
@@ -82,7 +63,7 @@ arazzos:
 - description: Verify organization access, guard against a duplicate network name, create the network, and read it back.
   name: Cisco Meraki Provision an Organization Network
   slug: cisco-provision-meraki-network-workflow
-artifact_total: 58
+artifact_total: 53
 collections:
 - collection_type: postman
   name: Cisco Meraki Dashboard Clients API
@@ -290,11 +271,11 @@ mcp_servers:
 - description: ''
   name: cisco-mcp.yml
   slug: cisco-mcpyml
-modified: '2026-06-20'
+modified: '2026-07-31'
 name: Cisco
 nav: Providers
 network: true
-overview: 'Cisco publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Devices API, Networks API, and 1 more. Tagged areas include Fortune 100, Collaboration, Enterprise, Networking, and Security.
+overview: 'Cisco publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 100, Collaboration, Enterprise, Networking, and Security.
 
 
   The Cisco catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -305,7 +286,7 @@ plans:
 - name: Cisco Plans Pricing
   plan_count: 3
   slug: cisco-plans-pricing
-random_paper: 37
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Cisco Rate Limits
@@ -329,27 +310,21 @@ rules:
   slug: cisco-spectral-rules
 score:
   band: strong
-  composite: 62.7
-  delta: -2.5
+  composite: 61.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.0
+    contract_quality: 53.1
     developer_ergonomics: 65.2
     discoverability: 92.6
     governance: 69.8
     operational_transparency: 42.1
-  previous_composite: 65.2
+  previous_composite: 61.5
   provenance:
-    agentic_access: derived
     conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 4
-      marker_coverage: 100.0
-      total: 4
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png
 security:

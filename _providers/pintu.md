@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-07-28'
+  score: 40.5
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Pintu Pro's institutional/partner trading API. A unified message format is used over both an HTTP endpoint and a WebSocket transport, authenticated with an HMAC-SHA256 signature computed from an API k
@@ -155,11 +155,11 @@ overview: 'Pintu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pintu''s developer surface includes documentation, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 68
+random_paper: 85
 score:
   band: developing
   composite: 44.5
-  delta: 4.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 51.6
@@ -167,7 +167,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 23.7
-  previous_composite: 40.3
+  previous_composite: 44.5
   provenance:
     conformance: first-party
   regulatory:
@@ -176,8 +176,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -402,7 +402,7 @@ plans:
 - name: Bettercloud Plans Pricing
   plan_count: 3
   slug: bettercloud-plans-pricing
-random_paper: 33
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Bettercloud Rate Limits
@@ -426,16 +426,16 @@ rules:
   slug: bettercloud-spectral-rules
 score:
   band: developing
-  composite: 55.6
-  delta: -6.7
+  composite: 47.4
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 56.8
+    contract_quality: 24.4
     developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 62.3
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -443,9 +443,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/screenshots/bettercloud-2026-06-20T173204.png
 security:
 - kind: authentication

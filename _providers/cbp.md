@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: A web service that allows certified third-party applications to query Electronic Export Information (EEI) filings previously submitted to AESDirect via HTTP POST. Returns shipment status and filing da
@@ -125,7 +125,7 @@ plans:
 - name: Cbp Plans Pricing
   plan_count: 4
   slug: cbp-plans-pricing
-random_paper: 63
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Cbp Rate Limits
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.6
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 12.9
@@ -141,9 +141,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 28.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 25.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cbp/refs/heads/main/screenshots/cbp-2026-06-20T174055.png
 security:

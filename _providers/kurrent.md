@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.2
-  scored_at: '2026-07-28'
+  score: 53.2
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: 'The primary protocol for KurrentDB. The published protocol buffer definitions cover the v2 streams service (multi-stream appends, reads), the schema registry service, the secondary index service, and '
@@ -297,7 +297,7 @@ overview: 'Kurrent publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kurrent''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
-random_paper: 41
+random_paper: 19
 scopes:
 - name: Kurrent Scopes
   scope_count: 14
@@ -305,16 +305,16 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: strong
-  composite: 61.9
-  delta: 0.8
+  composite: 62.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 62.7
+    contract_quality: 65.9
     developer_ergonomics: 91.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 61.1
+  previous_composite: 62.7
   provenance:
     conformance: derived
     contracts:
@@ -324,8 +324,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/screenshots/kurrent-2026-07-25T224337.png
 security:

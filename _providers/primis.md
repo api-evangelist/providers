@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -140,19 +140,19 @@ overview: 'PRIMIS publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PRIMIS''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 4
+random_paper: 90
 score:
   band: thin
-  composite: 34.8
-  delta: 0.1
+  composite: 36.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 42.6
+    contract_quality: 47.5
     developer_ergonomics: 39.1
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 34.7
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -162,8 +162,8 @@ score:
       marker_coverage: 0.0
       total: 12
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

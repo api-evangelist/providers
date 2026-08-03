@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ overview: 'Coutts publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Coutts'' developer surface includes authentication, documentation, sandbox, engineering blog, support, getting-started guide, and 24 more developer resources.'
-random_paper: 18
+random_paper: 9
 scopes:
 - name: Coutts Scopes
   scope_count: 3
@@ -187,16 +187,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 47.5
-  delta: -5.2
+  composite: 49.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.6
+    contract_quality: 59.7
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 52.7
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,9 +213,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coutts/refs/heads/main/screenshots/coutts-2026-07-25T210525.png
 security:
 - kind: authentication

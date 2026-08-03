@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: flavored
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities'
@@ -49,11 +49,11 @@ overview: 'Suprsonic publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Suprsonic''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 14
+random_paper: 48
 score:
   band: minimal
   composite: 5.8
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -61,9 +61,9 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 5.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suprsonic/refs/heads/main/screenshots/suprsonic-2026-06-20T194732.png
 security:

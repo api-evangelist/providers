@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -154,9 +154,9 @@ plans:
 - name: Testmail App Plans Pricing
   plan_count: 4
   slug: testmail-app-plans-pricing
-random_paper: 3
+random_paper: 93
 rate_limits:
-- limit_count: 0
+- limit_count: 5
   name: Testmail App Rate Limits
   slug: testmail-app-rate-limits
 rules:
@@ -170,16 +170,16 @@ rules:
   slug: testmail-app-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.2
-  delta: -3.9
+  composite: 53.8
+  delta: 4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.0
+    contract_quality: 75.0
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 53.1
+    operational_transparency: 52.6
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testmail-app/refs/heads/main/screenshots/testmail-app-2026-06-20T195154.png
 security:

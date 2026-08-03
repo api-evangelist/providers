@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-07-28'
+  score: 46.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 8
@@ -240,23 +240,23 @@ plans:
 - name: Paga Plans Pricing
   plan_count: 2
   slug: paga-plans-pricing
-random_paper: 81
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Paga Rate Limits
   slug: paga-rate-limits
 score:
   band: strong
-  composite: 58.2
-  delta: -2.0
+  composite: 58.9
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
-    contract_quality: 63.6
+    contract_quality: 66.7
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 60.2
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,8 +273,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ plans:
 - name: Todoist Plans Pricing
   plan_count: 3
   slug: todoist-plans-pricing
-random_paper: 36
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Todoist Rate Limits
@@ -277,16 +277,16 @@ rules:
   slug: todoist-rules
 score:
   band: strong
-  composite: 65.4
-  delta: -2.3
+  composite: 65.9
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 74.1
+    contract_quality: 76.0
     developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 44.7
-  previous_composite: 67.7
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     contracts:
@@ -294,8 +294,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/screenshots/todoist-2026-06-20T195429.png
 security:

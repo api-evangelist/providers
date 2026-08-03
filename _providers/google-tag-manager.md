@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -716,7 +716,7 @@ plans:
 - name: Google Tag Manager Plans Pricing
   plan_count: 3
   slug: google-tag-manager-plans-pricing
-random_paper: 52
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Google Tag Manager Rate Limits
@@ -745,16 +745,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.5
-  delta: -1.1
+  composite: 71.3
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 73.3
+    contract_quality: 76.7
     developer_ergonomics: 58.7
     discoverability: 90.7
     governance: 69.8
     operational_transparency: 63.2
-  previous_composite: 71.6
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -764,8 +764,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/screenshots/google-tag-manager-2026-06-20T182239.png
 security:

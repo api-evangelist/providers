@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 7
@@ -204,23 +204,23 @@ plans:
 - name: Openobserve Plans Pricing
   plan_count: 3
   slug: openobserve-plans-pricing
-random_paper: 44
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Openobserve Rate Limits
   slug: openobserve-rate-limits
 score:
   band: thin
-  composite: 39.4
-  delta: -3.3
+  composite: 40.6
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 53.6
+    contract_quality: 58.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.7
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -228,8 +228,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/screenshots/openobserve-2026-06-20T191019.png
 security:

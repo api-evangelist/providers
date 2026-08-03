@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Iniciador's regulated Open Finance Brasil API surface for payment initiation and financial data sharing (accounts, credit cards, loans, financings, investments, exchanges, and more), authorized via FA
@@ -136,7 +136,7 @@ overview: 'Iniciador publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Iniciador''s developer surface includes documentation, API reference, authentication, YouTube channel, and 18 more developer resources.'
-random_paper: 44
+random_paper: 91
 scopes:
 - name: Iniciador Scopes
   scope_count: 16
@@ -145,7 +145,7 @@ scopes:
 score:
   band: thin
   composite: 38.7
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -153,7 +153,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 26.3
-  previous_composite: 40.2
+  previous_composite: 38.7
   provenance:
     conformance: first-party
   regulatory:
@@ -162,8 +162,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/screenshots/iniciador-2026-07-25T222443.png
 security:

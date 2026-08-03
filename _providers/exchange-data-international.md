@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 24
 apis:
 - description: Worldwide end-of-day equity pricing (open, high, low, close, bid, ask, last trade, volume) queried by MIC, LocalCode, or ISIN via the GetLatestEODPrices endpoint, returned as JSON or pipe-separated va
@@ -190,11 +190,11 @@ overview: 'Exchange Data International publishes 24 APIs on the [APIs.io](https:
 
 
   Exchange Data International''s developer surface includes authentication, sandbox, API reference, developer portal, documentation, signup flow, engineering blog, and 11 more developer resources.'
-random_paper: 29
+random_paper: 75
 score:
   band: thin
   composite: 28.4
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -202,7 +202,7 @@ score:
     discoverability: 92.6
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 30.6
+  previous_composite: 28.4
   provenance:
     conformance: derived
   regulatory:
@@ -211,8 +211,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchange-data-international/refs/heads/main/screenshots/exchange-data-international-2026-07-22T202401.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Air Force Reserve Command (AFRC) provides information on reserve programs, career opportunities, unit locations, benefits, and recruiting resources for prospective and current reservists.
@@ -139,7 +139,7 @@ plans:
 - name: Air Force Reserve Plans Pricing
   plan_count: 3
   slug: air-force-reserve-plans-pricing
-random_paper: 57
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Air Force Reserve Rate Limits
@@ -156,7 +156,7 @@ rules:
 score:
   band: thin
   composite: 30.8
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 8.1
@@ -164,9 +164,9 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 35.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 30.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/air-force-reserve/refs/heads/main/screenshots/air-force-reserve-2026-06-20T171412.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ plans:
 - name: Microsoft Defender Plans Pricing
   plan_count: 17
   slug: microsoft-defender-plans-pricing
-random_paper: 52
+random_paper: 51
 rate_limits:
 - limit_count: 6
   name: Microsoft Defender Rate Limits
@@ -217,16 +217,16 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 52.2
-  delta: -2.9
+  composite: 52.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.6
+    contract_quality: 76.7
     developer_ergonomics: 19.6
     discoverability: 37.0
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 55.1
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/screenshots/microsoft-defender-2026-06-20T185449.png
 security:

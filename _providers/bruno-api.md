@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: The core open-source, git-native desktop API client (a lightweight Postman/Insomnia alternative). Compose and send HTTP, REST, GraphQL, and gRPC requests, organize them into collections, manage enviro
@@ -101,7 +101,7 @@ plans:
 - name: Bruno Api Plans Pricing
   plan_count: 4
   slug: bruno-api-plans-pricing
-random_paper: 7
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Bruno Api Rate Limits
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.3
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -117,9 +117,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 23.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 21.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bruno-api/refs/heads/main/screenshots/bruno-api-2026-07-25T204007.png
 slug: bruno-api

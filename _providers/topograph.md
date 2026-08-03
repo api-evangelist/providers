@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-07-28'
+  score: 55.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -234,7 +234,7 @@ overview: 'Topograph publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Topograph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
-random_paper: 78
+random_paper: 30
 scopes:
 - name: Topograph Scopes
   scope_count: 7
@@ -242,16 +242,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 57.2
-  delta: 0.4
+  composite: 58.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.3
+    contract_quality: 66.0
     developer_ergonomics: 58.2
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 56.8
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -262,8 +262,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

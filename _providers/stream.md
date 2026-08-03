@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Czech internet television, films, series and online videos for free
@@ -60,11 +60,11 @@ name: Stream
 nav: Providers
 network: true
 overview: Stream publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 78
+random_paper: 82
 score:
   band: minimal
   composite: 5.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -72,9 +72,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 5.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stream/refs/heads/main/screenshots/stream-2026-06-20T194616.png
 security:

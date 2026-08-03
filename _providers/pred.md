@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 39.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -207,19 +207,19 @@ overview: 'Pred publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Pred''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 22 more developer resources.'
-random_paper: 17
+random_paper: 47
 score:
   band: developing
-  composite: 46.0
-  delta: -2.9
+  composite: 46.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 65.6
+    contract_quality: 68.5
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 48.9
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,8 +236,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

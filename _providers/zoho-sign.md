@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -159,9 +159,9 @@ plans:
 - name: Zoho Sign Plans Pricing
   plan_count: 5
   slug: zoho-sign-plans-pricing
-random_paper: 24
+random_paper: 71
 rate_limits:
-- limit_count: 0
+- limit_count: 5
   name: Zoho Sign Rate Limits
   slug: zoho-sign-rate-limits
 rules:
@@ -180,16 +180,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.6
-  delta: -4.0
+  composite: 52.4
+  delta: 4.1
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.4
+    contract_quality: 67.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 51.6
+    operational_transparency: 52.6
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +197,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/screenshots/zoho-sign-2026-06-20T201947.png
 security:

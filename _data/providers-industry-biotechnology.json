@@ -335,38 +335,46 @@
      "rank": 7
     },
     {
-     "name": "SandboxAQ",
-     "slug": "sandboxaq",
-     "description": "SandboxAQ (SB Technology, Inc.) builds Large Quantitative Models (LQMs) — AI systems that fuse physics, chemistry and proprietary scientific data — and ships them as commercial platforms with public developer surfaces. Three product lines carry callable APIs: AQtive Guard, a cryptography and non-human-identity posture-management platform (built on the Cryptosense analyzer) exposing a GraphQL API at /api/v2 plus a fleet of language and network sensors; Flint AI, an AI-agent security platform whose Platform API is a documented OpenAPI 3.0.3 contract over an inventory graph of agents, models, tools and MCP servers, paired with the flintai CLI and a Python guardrails SDK; and the SandboxAQ MCP Server, a per-tenant OAuth-protected Model Context Protocol endpoint that exposes the AQCat adsorption and AQPotency proteochemometric potency models as tools for LLM clients.",
-     "score": 49.4,
+     "name": "Benchling",
+     "slug": "benchling",
+     "description": "Benchling is a life sciences R&D cloud platform offering a comprehensive REST API for programmatically managing molecular biology entities, assay results and runs, electronic lab notebook entries, DNA/RNA/protein sequences, inventory, and experiment workflows. The API enables integrations with lab instruments, ERP systems, LIMS, and external databases, as well as bulk data ingest/export and event-driven automation via webhooks and AWS EventBridge. API access is available to Professional and Enterprise tenants and supports user API keys, OAuth 2.0 client credentials, and OIDC authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png",
+     "score": 48.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 48.1,
-      "governance": 20.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 34.2
+      "discoverability": 68.5,
+      "contract_quality": 57.1,
+      "governance": 58.3,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 39.5
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 58.6,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 36.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 46.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
       "consent_identity": false,
-      "agent_card": "flavored",
+      "agent_card": false,
       "dry_run_mode": false
      },
      "rank": 8
@@ -417,6 +425,43 @@
      "rank": 9
     },
     {
+     "name": "SandboxAQ",
+     "slug": "sandboxaq",
+     "description": "SandboxAQ (SB Technology, Inc.) builds Large Quantitative Models (LQMs) — AI systems that fuse physics, chemistry and proprietary scientific data — and ships them as commercial platforms with public developer surfaces. Three product lines carry callable APIs: AQtive Guard, a cryptography and non-human-identity posture-management platform (built on the Cryptosense analyzer) exposing a GraphQL API at /api/v2 plus a fleet of language and network sensors; Flint AI, an AI-agent security platform whose Platform API is a documented OpenAPI 3.0.3 contract over an inventory graph of agents, models, tools and MCP servers, paired with the flintai CLI and a Python guardrails SDK; and the SandboxAQ MCP Server, a per-tenant OAuth-protected Model Context Protocol endpoint that exposes the AQCat adsorption and AQPotency proteochemometric potency models as tools for LLM clients.",
+     "score": 48.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 48.1,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 51.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": "flavored",
+      "dry_run_mode": false
+     },
+     "rank": 10
+    },
+    {
      "name": "Color",
      "slug": "color",
      "description": "Color Health is an oncologist-led virtual cancer care company that provides screening, early detection, diagnosis, treatment guidance, and survivorship support to employers, health plans, unions, consultants, and public-sector organizations. Originally founded as a genomics testing company (Color Genomics), Color now operates a virtual clinical platform combining at-home testing kits, preventive health programs, and AI-assisted cancer care. For integration partners Color publishes a developer documentation surface at docs.color.com covering an Eligibility List API, Self-Reported Results and Vaccination Status APIs, SAML-based SSO, and SFTP/PGP file transfer for eligibility, claims, and member-event data.",
@@ -459,7 +504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Scispot",
@@ -504,7 +549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Science Exchange",
@@ -548,7 +593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "UCSC Genomic Data",
@@ -586,7 +631,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Varian Medical Systems",
@@ -631,7 +676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "PubChem",
@@ -670,51 +715,6 @@
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "Benchling",
-     "slug": "benchling",
-     "description": "Benchling is a life sciences R&D cloud platform offering a comprehensive REST API for programmatically managing molecular biology entities, assay results and runs, electronic lab notebook entries, DNA/RNA/protein sequences, inventory, and experiment workflows. The API enables integrations with lab instruments, ERP systems, LIMS, and external databases, as well as bulk data ingest/export and event-driven automation via webhooks and AWS EventBridge. API access is available to Professional and Enterprise tenants and supports user API keys, OAuth 2.0 client credentials, and OIDC authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png",
-     "score": 45.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 57.1,
-      "governance": 58.3,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 36.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 46.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -956,8 +956,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 51,
-   "shown": 51,
+   "count": 49,
+   "shown": 49,
    "providers": [
     {
      "name": "VivaLNK",
@@ -1131,43 +1131,6 @@
      "rank": 25
     },
     {
-     "name": "Perfect Day",
-     "slug": "perfect-day",
-     "description": "Perfect Day is a Berkeley, California food-technology company, founded in 2014, that makes animal-free dairy proteins with precision fermentation. Rather than farming cows, Perfect Day ferments microflora carrying milk's protein-coding genes to produce ProFerm, a non-animal whey protein with no lactose, cholesterol, hormones or antibiotics, which it sells business-to-business to consumer brands making ice cream, cream cheese, milk, yogurt, protein powders and bakery products. The company is a member of the Precision Fermentation Alliance. Perfect Day publishes no product or developer API; the single machine-readable surface it operates is the WordPress REST API (wp/v2) behind perfectday.com, which exposes anonymous read access to its blog posts, newsroom items, success stories, pages, media, taxonomies and site search, plus authenticated write operations via WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
-     "score": 40.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 60.7,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 51.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 26
-    },
-    {
      "name": "Labguru",
      "slug": "labguru",
      "description": "Labguru is an electronic laboratory notebook (ELN) and biotech data management platform that provides a unified REST and GraphQL API for managing experiments, protocols, milestones, inventory, equipment, and research project data. The platform serves biotech, pharma, CRO, food tech, and academic organizations with cloud-based lab operations, LIMS, workflow automation, and data analytics capabilities.",
@@ -1210,7 +1173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "medRxiv",
@@ -1248,33 +1211,26 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
-     "name": "A2 Biotherapeutics",
-     "slug": "a2-biotherapeutics",
-     "description": "A2 Biotherapeutics (A2 Bio) is a clinical-stage biotechnology company headquartered in Agoura Hills, California, founded in 2018 by Alexander Kamb, Michael Gallo and Paul Kang. It develops logic-gated cell therapies for solid tumors on its proprietary Tmod platform, a two-receptor activator/blocker design that lets an engineered T cell attack tumor cells which have lost an HLA allele while sparing normal cells that retain it. A2 Bio operates no developer API programme and publishes no product, clinical or research API. It is catalogued here because its corporate website runs a live WordPress REST API with 298 discoverable routes, and because that same install exposes two Model Context Protocol servers guarded by an OAuth 2.1 authorization server the host advertises through RFC 8414 and RFC 9728 metadata.",
-     "score": 39.9,
+     "name": "Perfect Day",
+     "slug": "perfect-day",
+     "description": "Perfect Day is a Berkeley, California food-technology company, founded in 2014, that makes animal-free dairy proteins with precision fermentation. Rather than farming cows, Perfect Day ferments microflora carrying milk's protein-coding genes to produce ProFerm, a non-animal whey protein with no lactose, cholesterol, hormones or antibiotics, which it sells business-to-business to consumer brands making ice cream, cream cheese, milk, yogurt, protein powders and bakery products. The company is a member of the Precision Fermentation Alliance. Perfect Day publishes no product or developer API; the single machine-readable surface it operates is the WordPress REST API (wp/v2) behind perfectday.com, which exposes anonymous read access to its blog posts, newsroom items, success stories, pages, media, taxonomies and site search, plus authenticated write operations via WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
+     "score": 39.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 55.9,
-      "governance": 20.8,
+      "discoverability": 92.6,
+      "contract_quality": 64.5,
+      "governance": 11.5,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
+      "developer_ergonomics": 42.9,
+      "commercial_clarity": 21.1
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 58.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 57.2,
+     "agent_score": 48.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1283,16 +1239,16 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "partial",
+      "openapi_examples": false,
       "rate_limit_signal": false,
       "event_surface_described": false,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": true,
-      "consent_identity": true,
+      "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Benchling",
@@ -1337,7 +1293,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
      "name": "Castor",
@@ -1382,22 +1338,22 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 30
     },
     {
-     "name": "Abcuro",
-     "slug": "abcuro",
-     "description": "Abcuro is a clinical-stage biotechnology company headquartered in Newton, Massachusetts, developing first-in-class immunotherapies that precisely modulate highly cytotoxic T cells for autoimmune disease and cancer. Its lead candidate, ulviprubart (ABC008), is a monoclonal antibody targeting KLRG1 that selectively depletes highly cytotoxic T cells, evaluated in the registrational Phase 2/3 MUSCLE study in inclusion body myositis (IBM) and in T cell large granular lymphocytic leukemia (T-LGLL) and mature T and NK cell lymphomas. Abcuro publishes no commercial developer platform or product API; its only machine-readable surface is the public WordPress REST API behind abcuro.com, which anonymously serves the corporate content graph — press releases, pipeline and science pages, scientific publications, leadership and board people records, investor records, and media assets — and is catalogued here as a read-only content API rather than a product API.",
-     "score": 38.9,
+     "name": "A2 Biotherapeutics",
+     "slug": "a2-biotherapeutics",
+     "description": "A2 Biotherapeutics (A2 Bio) is a clinical-stage biotechnology company headquartered in Agoura Hills, California, founded in 2018 by Alexander Kamb, Michael Gallo and Paul Kang. It develops logic-gated cell therapies for solid tumors on its proprietary Tmod platform, a two-receptor activator/blocker design that lets an engineered T cell attack tumor cells which have lost an HLA allele while sparing normal cells that retain it. A2 Bio operates no developer API programme and publishes no product, clinical or research API. It is catalogued here because its corporate website runs a live WordPress REST API with 298 discoverable routes, and because that same install exposes two Model Context Protocol servers guarded by an OAuth 2.1 authorization server the host advertises through RFC 8414 and RFC 9728 metadata.",
+     "score": 39.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 61.2,
-      "governance": 20.8,
+      "contract_quality": 59.7,
+      "governance": 11.5,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 21.1
+      "developer_ergonomics": 23.4,
+      "commercial_clarity": 28.9
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
@@ -1405,28 +1361,28 @@
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 31.3,
+      "score": 58.8,
       "matched_via": "tags"
      },
-     "agent_score": 60.4,
+     "agent_score": 53.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": true,
+      "agentic_access": false,
       "mcp_server": true,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": false,
+      "openapi_examples": "partial",
       "rate_limit_signal": false,
       "event_surface_described": false,
-      "agent_skills": true,
+      "agent_skills": "derived",
       "well_known_catalog": true,
-      "consent_identity": false,
+      "consent_identity": true,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "PubMed",
@@ -1464,7 +1420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "United States National Library of Medicine",
@@ -1509,7 +1465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 33
     },
     {
      "name": "DP Technology (Bohrium)",
@@ -1547,7 +1503,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 35
+     "rank": 34
     },
     {
      "name": "Dimensions",
@@ -1585,7 +1541,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 35
     },
     {
      "name": "Guardant Health",
@@ -1630,7 +1586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 36
     },
     {
      "name": "Engrail Therapeutics",
@@ -1674,7 +1630,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 37
     },
     {
      "name": "OpenClinica",
@@ -1718,7 +1674,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 38
     },
     {
      "name": "Labstep",
@@ -1763,7 +1719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 40
+     "rank": 39
     },
     {
      "name": "Cancer.gov",
@@ -1808,7 +1764,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
      "name": "ChEMBL",
@@ -1853,22 +1809,23 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 42
+     "rank": 41
     },
     {
-     "name": "Strata Oncology",
-     "slug": "strata-oncology",
-     "description": "Strata Oncology is a precision oncology company founded in 2015 by Dan Rhodes and Scott Tomlins and headquartered in Ann Arbor, Michigan. It develops and runs predictive biomarker tests out of its own high-throughput CLIA laboratory, including StrataNGS tumor genomic profiling, the Immunotherapy Response Score for anti-PD-1/PD-L1 monotherapy benefit, PD-L1 IHC testing, and Antibody-Drug Conjugate Treatment Response Scores. Testing is delivered to health systems through the Strata Precision Oncology Network, with ordering and results handled through the login-gated Strata Request Portal and the Strata Assistant app distributed in the Epic App Orchard. Strata Oncology publishes no public developer program or API documentation; the only anonymous machine-readable surface API Evangelist could verify is the WordPress REST content API behind strataoncology.com.",
+     "name": "STRING",
+     "slug": "string-db",
+     "description": "STRING is a protein-protein interaction network database providing scored associations between proteins across thousands of organisms. The REST API enables programmatic access to interaction scores, network visualizations, functional enrichment analysis, homology data, and protein annotations. STRING integrates data from genomic context, co-expression, text mining, biochemical and genetic experiments, and curated databases.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/screenshots/string-db-2026-06-20T194621.png",
      "score": 36.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 55.8,
-      "governance": 20.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 42.1
+      "discoverability": 70.4,
+      "contract_quality": 53.2,
+      "governance": 58.3,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 39.5
      },
      "scored_at": "2026-08-03",
      "schema_version": 0.9,
@@ -1876,10 +1833,10 @@
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 37.5,
+      "score": 18.8,
       "matched_via": "tags"
      },
-     "agent_score": 20.7,
+     "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1889,15 +1846,15 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": true,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 43
+     "rank": 42
     },
     {
      "name": "myTomorrows",
@@ -1941,7 +1898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 44
+     "rank": 43
     },
     {
      "name": "Yanyin Technology",
@@ -1985,7 +1942,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 45
+     "rank": 44
     },
     {
      "name": "Lifebit Biotech",
@@ -2030,51 +1987,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
-    },
-    {
-     "name": "Colossal Biosciences",
-     "slug": "colossal-biosciences",
-     "description": "Colossal Biosciences is a Dallas, Texas based de-extinction and species-preservation biotechnology company founded in 2021 by Ben Lamm and Harvard geneticist George Church. It applies ancient-DNA sequencing, comparative genomics, CRISPR multiplex genome editing, cloning and artificial-womb research to restoring extinct keystone species — the woolly mammoth, thylacine, dodo, moa, dire wolf and blue buck among them — and to conserving critically endangered living species. Colossal spun out the computational life-sciences platform Form Bio, runs the non-profit Colossal Foundation, and publishes its research code through the colossal-compsci GitHub organization. Colossal publishes no product or developer API; the machine-readable surface on colossal.com is the WordPress REST API (wp/v2) that serves the company newsroom, pages, media and site search as JSON, plus a WordPress MCP Adapter endpoint that is present but authentication-gated.",
-     "score": 35.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 56.6,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 38.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 47
+     "rank": 45
     },
     {
      "name": "Medable",
@@ -2118,7 +2031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 48
+     "rank": 46
     },
     {
      "name": "LanzaTech",
@@ -2163,7 +2076,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 49
+     "rank": 47
     },
     {
      "name": "Orakl",
@@ -2207,7 +2120,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 50
+     "rank": 48
     },
     {
      "name": "Leapcure",
@@ -2252,52 +2165,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 51
-    },
-    {
-     "name": "STRING",
-     "slug": "string-db",
-     "description": "STRING is a protein-protein interaction network database providing scored associations between proteins across thousands of organisms. The REST API enables programmatic access to interaction scores, network visualizations, functional enrichment analysis, homology data, and protein annotations. STRING integrates data from genomic context, co-expression, text mining, biochemical and genetic experiments, and curated databases.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/screenshots/string-db-2026-06-20T194621.png",
-     "score": 33.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 53.2,
-      "governance": 58.3,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 18.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 52
+     "rank": 49
     },
     {
      "name": "Biogen",
@@ -2341,7 +2209,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 53
+     "rank": 50
     },
     {
      "name": "Brightseed",
@@ -2385,7 +2253,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 54
+     "rank": 51
     },
     {
      "name": "Circle Pharma",
@@ -2422,7 +2290,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 55
+     "rank": 52
     },
     {
      "name": "piscesCSM",
@@ -2460,7 +2328,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 56
+     "rank": 53
     },
     {
      "name": "Synthego",
@@ -2504,7 +2372,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 57
+     "rank": 54
     },
     {
      "name": "Predictive Oncology Model and Data Clearinghouse",
@@ -2542,7 +2410,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 58
+     "rank": 55
     },
     {
      "name": "RCSB PDB",
@@ -2587,51 +2455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 59
-    },
-    {
-     "name": "Atsena Therapeutics",
-     "slug": "atsena-therapeutics",
-     "description": "Atsena Therapeutics is a clinical-stage gene therapy company based in Durham, North Carolina, in the Research Triangle, developing first- and best-in-class genetic medicines for inherited retinal diseases with the goal of reversing or preventing blindness. Founded by ocular gene therapy pioneers Shannon Boye and Sanford Boye, the company builds on two proprietary AAV delivery platforms: a laterally spreading AAV.SPR capsid engineered to reach retinal cells without the surgical trauma of a subretinal bleb, and a dual-vector technology that splits genes too large for a single AAV across two vectors. Its clinical pipeline includes ATSN-201 for X-linked retinoschisis (XLRS) in a pivotal Phase 3 trial, ATSN-101 for LCA1 (Leber congenital amaurosis 1) advancing to a pivotal trial with partner Nippon Shinyaku, and IND-enabling programs ATSN-301 for Usher syndrome 1B and ATSN-401 for Stargardt disease. Atsena runs no developer program and publishes no product API, no developer documentation and no specification of its own. The only machine-readable surface it exposes is the anonymously readable WordPress REST content API behind atsenatx.com, which serves the company's press releases, program and platform pages, and media library as JSON; the OpenAPI in this repo is derived by API Evangelist from that surface's own live route index.",
-     "score": 31.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 56.6,
-      "governance": 20.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 26.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 60
+     "rank": 56
     },
     {
      "name": "ClinicalTrials.gov",
@@ -2676,7 +2500,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 61
+     "rank": 57
     },
     {
      "name": "Nanome",
@@ -2720,7 +2544,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 62
+     "rank": 58
     },
     {
      "name": "Medidata Solutions",
@@ -2764,7 +2588,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 59
+    },
+    {
+     "name": "Atsena Therapeutics",
+     "slug": "atsena-therapeutics",
+     "description": "Atsena Therapeutics is a clinical-stage gene therapy company based in Durham, North Carolina, in the Research Triangle, developing first- and best-in-class genetic medicines for inherited retinal diseases with the goal of reversing or preventing blindness. Founded by ocular gene therapy pioneers Shannon Boye and Sanford Boye, the company builds on two proprietary AAV delivery platforms: a laterally spreading AAV.SPR capsid engineered to reach retinal cells without the surgical trauma of a subretinal bleb, and a dual-vector technology that splits genes too large for a single AAV across two vectors. Its clinical pipeline includes ATSN-201 for X-linked retinoschisis (XLRS) in a pivotal Phase 3 trial, ATSN-101 for LCA1 (Leber congenital amaurosis 1) advancing to a pivotal trial with partner Nippon Shinyaku, and IND-enabling programs ATSN-301 for Usher syndrome 1B and ATSN-401 for Stargardt disease. Atsena runs no developer program and publishes no product API, no developer documentation and no specification of its own. The only machine-readable surface it exposes is the anonymously readable WordPress REST content API behind atsenatx.com, which serves the company's press releases, program and platform pages, and media library as JSON; the OpenAPI in this repo is derived by API Evangelist from that surface's own live route index.",
+     "score": 30.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 60.5,
+      "governance": 11.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 26.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 60
     },
     {
      "name": "Reactome",
@@ -2809,7 +2677,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 61
     },
     {
      "name": "Genentech",
@@ -2854,7 +2722,52 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 62
+    },
+    {
+     "name": "Kyoto Encyclopedia of Genes and Genomes (KEGG)",
+     "slug": "kegg",
+     "description": "The Kyoto Encyclopedia of Genes and Genomes (KEGG) is an integrated database resource for understanding high-level functions and utilities of biological systems from molecular-level information derived from genome sequencing and other high-throughput experiments. The KEGG REST API at rest.kegg.jp provides programmatic access to KEGG databases covering biological pathways, metabolic networks, molecular interactions, drug targets, disease associations, chemical compounds, genomic sequences, and functional orthologs across thousands of organisms. The API exposes seven core operations — info, list, find, get, conv, link, and ddi — enabling identifier conversion, cross-database linking, keyword and structure searches, and full entry retrieval in text, KGML, and JSON formats. Academic use is free via the REST API; FTP and commercial access require subscriptions managed through NPO Bioinformatics Japan and Pathway Solutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/screenshots/kegg-2026-06-20T183941.png",
+     "score": 30.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 61.2,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 63
     },
     {
      "name": "AWAKENS",
@@ -2899,7 +2812,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 64
     },
     {
      "name": "Dotmatics",
@@ -2944,7 +2857,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 65
     },
     {
      "name": "Life Sciences",
@@ -2989,7 +2902,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 66
     },
     {
      "name": "Ascend Advanced Therapies",
@@ -3034,7 +2947,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 67
     },
     {
      "name": "Caris Life Sciences",
@@ -3079,7 +2992,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 68
     },
     {
      "name": "BenchSci",
@@ -3124,7 +3037,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 69
     },
     {
      "name": "BostonGene",
@@ -3168,7 +3081,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 70
     }
    ]
   },
@@ -3177,8 +3090,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 127,
-   "shown": 127,
+   "count": 129,
+   "shown": 129,
    "providers": [
     {
      "name": "ChromaCode",
@@ -3222,52 +3135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 73
-    },
-    {
-     "name": "Kyoto Encyclopedia of Genes and Genomes (KEGG)",
-     "slug": "kegg",
-     "description": "The Kyoto Encyclopedia of Genes and Genomes (KEGG) is an integrated database resource for understanding high-level functions and utilities of biological systems from molecular-level information derived from genome sequencing and other high-throughput experiments. The KEGG REST API at rest.kegg.jp provides programmatic access to KEGG databases covering biological pathways, metabolic networks, molecular interactions, drug targets, disease associations, chemical compounds, genomic sequences, and functional orthologs across thousands of organisms. The API exposes seven core operations — info, list, find, get, conv, link, and ddi — enabling identifier conversion, cross-database linking, keyword and structure searches, and full entry retrieval in text, KGML, and JSON formats. Academic use is free via the REST API; FTP and commercial access require subscriptions managed through NPO Bioinformatics Japan and Pathway Solutions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/screenshots/kegg-2026-06-20T183941.png",
-     "score": 27.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 61.2,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 74
+     "rank": 71
     },
     {
      "name": "Proscia",
@@ -3311,7 +3179,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 75
+     "rank": 72
     },
     {
      "name": "Medrio",
@@ -3355,7 +3223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 76
+     "rank": 73
     },
     {
      "name": "Mission Bio",
@@ -3399,7 +3267,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 77
+     "rank": 74
+    },
+    {
+     "name": "Abcuro",
+     "slug": "abcuro",
+     "description": "Abcuro is a clinical-stage biotechnology company headquartered in Newton, Massachusetts, developing first-in-class immunotherapies that precisely modulate highly cytotoxic T cells for autoimmune disease and cancer. Its lead candidate, ulviprubart (ABC008), is a monoclonal antibody targeting KLRG1 that selectively depletes highly cytotoxic T cells, evaluated in the registrational Phase 2/3 MUSCLE study in inclusion body myositis (IBM) and in T cell large granular lymphocytic leukemia (T-LGLL) and mature T and NK cell lymphomas. Abcuro publishes no commercial developer platform or product API; its only machine-readable surface is the public WordPress REST API behind abcuro.com, which anonymously serves the corporate content graph — press releases, pipeline and science pages, scientific publications, leadership and board people records, investor records, and media assets — and is catalogued here as a read-only content API rather than a product API.",
+     "score": 26.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 16.3,
+      "governance": 11.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 36.4,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 75
     },
     {
      "name": "Alzheon",
@@ -3443,7 +3355,51 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 78
+     "rank": 76
+    },
+    {
+     "name": "Strata Oncology",
+     "slug": "strata-oncology",
+     "description": "Strata Oncology is a precision oncology company founded in 2015 by Dan Rhodes and Scott Tomlins and headquartered in Ann Arbor, Michigan. It develops and runs predictive biomarker tests out of its own high-throughput CLIA laboratory, including StrataNGS tumor genomic profiling, the Immunotherapy Response Score for anti-PD-1/PD-L1 monotherapy benefit, PD-L1 IHC testing, and Antibody-Drug Conjugate Treatment Response Scores. Testing is delivered to health systems through the Strata Precision Oncology Network, with ordering and results handled through the login-gated Strata Request Portal and the Strata Assistant app distributed in the Epic App Orchard. Strata Oncology publishes no public developer program or API documentation; the only anonymous machine-readable surface API Evangelist could verify is the WordPress REST content API behind strataoncology.com.",
+     "score": 25.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 14.9,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 3.8,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 77
     },
     {
      "name": "Earable",
@@ -3484,6 +3440,50 @@
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 78
+    },
+    {
+     "name": "Colossal Biosciences",
+     "slug": "colossal-biosciences",
+     "description": "Colossal Biosciences is a Dallas, Texas based de-extinction and species-preservation biotechnology company founded in 2021 by Ben Lamm and Harvard geneticist George Church. It applies ancient-DNA sequencing, comparative genomics, CRISPR multiplex genome editing, cloning and artificial-womb research to restoring extinct keystone species — the woolly mammoth, thylacine, dodo, moa, dire wolf and blue buck among them — and to conserving critically endangered living species. Colossal spun out the computational life-sciences platform Form Bio, runs the non-profit Colossal Foundation, and publishes its research code through the colossal-compsci GitHub organization. Colossal publishes no product or developer API; the machine-readable surface on colossal.com is the WordPress REST API (wp/v2) that serves the company newsroom, pages, media and site search as JSON, plus a WordPress MCP Adapter endpoint that is present but authentication-gated.",
+     "score": 25.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 15.1,
+      "governance": 3.1,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 31.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 32.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

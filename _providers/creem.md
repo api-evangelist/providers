@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -130,23 +130,23 @@ plans:
 - name: Creem Plans Pricing
   plan_count: 1
   slug: creem-plans-pricing
-random_paper: 32
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Creem Rate Limits
   slug: creem-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: -4.2
+  composite: 34.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.9
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creem/refs/heads/main/screenshots/creem-2026-07-25T210726.png
 security:

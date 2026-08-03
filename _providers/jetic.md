@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Jetic Plans Pricing
   plan_count: 3
   slug: jetic-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Jetic Rate Limits
@@ -195,16 +195,16 @@ rules:
   slug: jetic-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.5
-  delta: -3.5
+  composite: 55.0
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
-    contract_quality: 74.6
+    contract_quality: 76.7
     developer_ergonomics: 32.6
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 58.0
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/screenshots/jetic-2026-06-20T183725.png
 security:

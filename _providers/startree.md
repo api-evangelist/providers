@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -171,19 +171,19 @@ overview: 'StarTree publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   StarTree''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 54
+random_paper: 19
 score:
   band: developing
-  composite: 54.8
-  delta: 0.4
+  composite: 55.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 69.0
     discoverability: 75.9
     governance: 20.8
     operational_transparency: 47.4
-  previous_composite: 54.4
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -194,8 +194,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

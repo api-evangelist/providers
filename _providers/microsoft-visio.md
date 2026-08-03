@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -228,7 +228,7 @@ plans:
 - name: Microsoft Visio Plans Pricing
   plan_count: 3
   slug: microsoft-visio-plans-pricing
-random_paper: 23
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Microsoft Visio Rate Limits
@@ -256,17 +256,17 @@ scopes:
   slug: microsoft-visio-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 58.2
-  delta: -6.9
+  band: developing
+  composite: 49.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 68.4
+    contract_quality: 32.9
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 65.1
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -274,9 +274,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/screenshots/microsoft-visio-2026-06-20T185541.png
 security:
 - kind: authentication

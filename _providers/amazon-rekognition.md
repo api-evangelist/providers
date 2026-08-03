@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -1148,7 +1148,7 @@ plans:
 - name: Amazon Rekognition Plans Pricing
   plan_count: 3
   slug: amazon-rekognition-plans-pricing
-random_paper: 80
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Amazon Rekognition Rate Limits
@@ -1172,16 +1172,16 @@ rules:
   slug: amazon-rekognition-spectral-rules
 score:
   band: exemplar
-  composite: 74.5
-  delta: -2.9
+  composite: 66.8
+  delta: 0.0
   facets:
     commercial_clarity: 86.8
-    contract_quality: 65.7
+    contract_quality: 34.8
     developer_ergonomics: 60.9
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 78.9
-  previous_composite: 77.4
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1191,8 +1191,8 @@ score:
       marker_coverage: 100.0
       total: 10
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/screenshots/amazon-rekognition-2026-06-20T171807.png
 security:

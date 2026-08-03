@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -317,7 +317,7 @@ plans:
 - name: Teamcity Plans Pricing
   plan_count: 3
   slug: teamcity-plans-pricing
-random_paper: 44
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Teamcity Rate Limits
@@ -333,16 +333,16 @@ rules:
   slug: teamcity-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 59.7
-  delta: -4.3
+  composite: 60.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.3
+    contract_quality: 65.5
     developer_ergonomics: 54.3
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 64.0
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -350,8 +350,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/screenshots/teamcity-2026-06-20T194957.png
 security:

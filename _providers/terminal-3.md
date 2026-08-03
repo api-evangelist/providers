@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -198,19 +198,19 @@ overview: 'Terminal 3 publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Terminal 3''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 54
+random_paper: 6
 score:
   band: developing
-  composite: 49.1
-  delta: -4.2
+  composite: 42.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 39.0
+    contract_quality: 14.0
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 53.3
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,8 +221,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

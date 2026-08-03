@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -153,23 +153,23 @@ press:
 - date: '2026-05-25'
   title: World's first successful AI-assisted automated network ...
   url: https://www.kddi-research.jp/english/newsrelease/2016/022201.html
-random_paper: 81
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Brocade Communications Systems Rate Limits
   slug: brocade-communications-systems-rate-limits
 score:
   band: developing
-  composite: 43.1
-  delta: -3.1
+  composite: 44.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 49.2
+    contract_quality: 53.5
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 46.2
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brocade-communications-systems/refs/heads/main/screenshots/brocade-communications-systems-2026-06-20T173715.png
 security:

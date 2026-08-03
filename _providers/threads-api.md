@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -171,7 +171,7 @@ plans:
 - name: Threads Api Plans Pricing
   plan_count: 3
   slug: threads-api-plans-pricing
-random_paper: 40
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Threads Api Rate Limits
@@ -195,16 +195,16 @@ rules:
   slug: threads-api-rules
 score:
   band: developing
-  composite: 54.9
-  delta: -5.0
+  composite: 55.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 34.8
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 55.3
-  previous_composite: 59.9
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     contracts:
@@ -212,9 +212,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/screenshots/threads-api-2026-06-20T195314.png
 security:
 - kind: authentication

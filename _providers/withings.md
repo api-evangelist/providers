@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 42.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -232,9 +232,9 @@ plans:
 - name: Withings Plans Pricing
   plan_count: 2
   slug: withings-plans-pricing
-random_paper: 57
+random_paper: 22
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Withings Rate Limits
   slug: withings-rate-limits
 rules:
@@ -248,16 +248,16 @@ rules:
   slug: withings-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.3
-  delta: -5.2
+  composite: 46.3
+  delta: 2.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 66.7
+    contract_quality: 69.8
     developer_ergonomics: 32.6
     discoverability: 68.5
     governance: 68.8
-    operational_transparency: 23.7
-  previous_composite: 48.5
+    operational_transparency: 44.7
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -271,9 +271,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/screenshots/withings-2026-06-20T201529.png
 security:
 - kind: domain-security

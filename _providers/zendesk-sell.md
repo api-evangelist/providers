@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ overview: 'Zendesk Sell publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Zendesk Sell''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 3
+random_paper: 93
 scopes:
 - name: Zendesk Sell Scopes
   scope_count: 2
@@ -132,16 +132,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.9
-  delta: -0.4
+  composite: 34.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 59.9
+    contract_quality: 62.8
     developer_ergonomics: 30.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 34.3
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/screenshots/zendesk-sell-2026-06-20T201812.png
 security:

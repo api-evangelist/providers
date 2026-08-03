@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -781,7 +781,7 @@ overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
-random_paper: 58
+random_paper: 27
 rules:
 - name: Amazon AppFlow API Rules
   rule_count: 6
@@ -800,17 +800,17 @@ rules:
     warn: 21
   slug: amazon-appflow-spectral-rules
 score:
-  band: strong
-  composite: 57.6
-  delta: -4.7
+  band: developing
+  composite: 48.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 68.6
+    contract_quality: 33.3
     developer_ergonomics: 47.8
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 31.6
-  previous_composite: 62.3
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -820,8 +820,8 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
 security:

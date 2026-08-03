@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -344,7 +344,7 @@ plans:
 - name: Lean Tech Plans Pricing
   plan_count: 5
   slug: lean-tech-plans-pricing
-random_paper: 61
+random_paper: 26
 rate_limits:
 - limit_count: 6
   name: Lean Tech Rate Limits
@@ -368,16 +368,16 @@ rules:
   slug: lean-tech-rules
 score:
   band: developing
-  composite: 54.0
-  delta: -7.1
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 61.2
+    contract_quality: 64.5
     developer_ergonomics: 60.9
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 47.4
-  previous_composite: 61.1
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -391,9 +391,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/screenshots/lean-tech-2026-06-20T184402.png
 security:
 - kind: authentication

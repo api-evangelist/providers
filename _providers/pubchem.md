@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 2
+random_paper: 75
 rate_limits:
 - limit_count: 4
   name: Rate Limits
@@ -182,16 +182,16 @@ rules:
   slug: pubchem-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.6
-  delta: -5.4
+  composite: 45.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.0
+    contract_quality: 64.3
     developer_ergonomics: 15.2
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 50.0
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -205,9 +205,9 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/screenshots/pubchem-2026-06-20T192236.png
 security:
 - kind: domain-security

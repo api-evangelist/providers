@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -323,7 +323,7 @@ plans:
 - name: Vectara Plans Pricing
   plan_count: 1
   slug: vectara-plans-pricing
-random_paper: 4
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Vectara Rate Limits
@@ -352,16 +352,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.3
-  delta: -3.5
+  composite: 63.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 69.1
+    contract_quality: 68.7
     developer_ergonomics: 45.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 57.9
-  previous_composite: 66.8
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     contracts:
@@ -369,8 +369,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/screenshots/vectara-2026-06-20T200838.png
 security:

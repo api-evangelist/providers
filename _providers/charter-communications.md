@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ press:
 - date: '2026-05-25'
   title: 'AI Inside: Artificial Intelligence for Network and Customer ...'
   url: https://techexpo.scte.org/session/ai-inside-artificial-intelligence-for-network-and-customer-experience-innovation/
-random_paper: 7
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Charter Communications Rate Limits
@@ -186,16 +186,16 @@ rules:
   slug: charter-communications-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.8
-  delta: -6.4
+  composite: 40.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.8
+    contract_quality: 60.5
     developer_ergonomics: 4.3
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 46.2
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -209,9 +209,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 26.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/screenshots/charter-communications-2026-06-20T174233.png
 security:
 - kind: domain-security

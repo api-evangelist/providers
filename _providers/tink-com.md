@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -450,7 +450,7 @@ plans:
 - name: Tink Com Plans Pricing
   plan_count: 2
   slug: tink-com-plans-pricing
-random_paper: 64
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Tink Com Rate Limits
@@ -474,16 +474,16 @@ rules:
   slug: tink-rules
 score:
   band: strong
-  composite: 64.4
-  delta: -7.4
+  composite: 64.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 74.4
+    contract_quality: 76.6
     developer_ergonomics: 56.5
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 71.8
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     contracts:
@@ -497,9 +497,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/screenshots/tink-com-2026-06-20T195409.png
 security:
 - kind: authentication

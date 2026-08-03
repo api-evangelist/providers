@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 0
@@ -855,7 +855,7 @@ plans:
 - name: Bentley Systems Plans Pricing
   plan_count: 4
   slug: bentley-systems-plans-pricing
-random_paper: 34
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Bentley Systems Rate Limits
@@ -884,16 +884,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 69.1
-  delta: -3.0
+  composite: 69.8
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 59.5
+    contract_quality: 62.5
     developer_ergonomics: 78.3
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 72.1
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     contracts:
@@ -901,8 +901,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 86
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png
 security:

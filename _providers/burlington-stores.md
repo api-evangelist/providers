@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Burlington Stores offers off-price retail with brand-name clothing, footwear, accessories, baby products, and home decor. No public API is currently documented, but the website provides online shoppin
@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: AI Data Scientist
   url: https://burlingtonstores.jobs/edgewater-park-nj/ai-data-scientist/082546BFFE0B470D9805F15D5CE0AE3C/job/
-random_paper: 5
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Burlington Stores Rate Limits
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: minimal
   composite: 9.6
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
@@ -101,9 +101,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 9.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burlington-stores/refs/heads/main/screenshots/burlington-stores-2026-06-20T173818.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -4510,7 +4510,7 @@ plans:
 - name: Unified To Plans Pricing
   plan_count: 4
   slug: unified-to-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Unified To Rate Limits
@@ -4534,16 +4534,16 @@ rules:
   slug: unified-to-spectral-rules
 score:
   band: exemplar
-  composite: 70.3
-  delta: -3.5
+  composite: 71.2
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 63.0
+    contract_quality: 66.7
     developer_ergonomics: 63.0
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 78.9
-  previous_composite: 73.8
+  previous_composite: 71.2
   provenance:
     agentic_access: derived
     contracts:
@@ -4551,8 +4551,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 138
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:

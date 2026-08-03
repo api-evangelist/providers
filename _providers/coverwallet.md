@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for quoting and binding small business commercial insurance policies across multiple carriers including Liberty Mutual, CNA, Chubb, Travelers, Hiscox, and others. Supports real-time estimates
@@ -104,7 +104,7 @@ plans:
 - name: Coverwallet Plans Pricing
   plan_count: 1
   slug: coverwallet-plans-pricing
-random_paper: 44
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Coverwallet Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.0
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 32.3
@@ -120,15 +120,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 28.7
+  previous_composite: 25.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coverwallet/refs/heads/main/screenshots/coverwallet-2026-06-20T175118.png
 security:

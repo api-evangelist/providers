@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-07-28'
+  score: 55.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -275,7 +275,7 @@ overview: 'Rillet publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rillet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
-random_paper: 78
+random_paper: 82
 scopes:
 - name: Rillet Scopes
   scope_count: 2
@@ -283,16 +283,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.3
-  delta: 0.3
+  composite: 55.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 64.9
+    contract_quality: 68.0
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 54.0
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,8 +303,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

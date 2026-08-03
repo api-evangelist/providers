@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 65.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -734,7 +734,7 @@ plans:
 - name: Sp Global Plans Pricing
   plan_count: 7
   slug: sp-global-plans-pricing
-random_paper: 77
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Sp Global Rate Limits
@@ -771,16 +771,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode/refresh_token
 score:
   band: exemplar
-  composite: 68.5
-  delta: 0.4
+  composite: 69.0
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 72.0
+    contract_quality: 74.1
     developer_ergonomics: 69.6
     discoverability: 83.3
     governance: 72.9
     operational_transparency: 36.8
-  previous_composite: 68.1
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -791,8 +791,8 @@ score:
       total: 34
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png
 security:

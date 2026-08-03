@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: RESTful API for storing, searching, updating, and deleting regulated records inside a selected country's borders, authenticated with OAuth2 client-credentials and encrypted with AES-GCM. Supports sing
@@ -156,11 +156,11 @@ overview: 'InCountry publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   InCountry''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 19
+random_paper: 53
 score:
   band: thin
   composite: 39.6
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -168,12 +168,12 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 31.6
-  previous_composite: 39.8
+  previous_composite: 39.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/screenshots/incountry-2026-07-25T222340.png
 security:

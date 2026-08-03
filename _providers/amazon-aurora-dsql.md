@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -286,7 +286,7 @@ overview: 'Amazon Aurora DSQL publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon Aurora DSQL''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 18
+random_paper: 17
 rules:
 - name: Amazon Aurora DSQL API Rules
   rule_count: 4
@@ -306,16 +306,16 @@ rules:
   slug: amazon-aurora-dsql-spectral-rules
 score:
   band: thin
-  composite: 37.0
-  delta: -0.4
+  composite: 37.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 74.6
+    contract_quality: 76.7
     developer_ergonomics: 10.9
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 0.0
-  previous_composite: 37.4
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,8 +325,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/screenshots/amazon-aurora-dsql-2026-07-25T195931.png
 security:

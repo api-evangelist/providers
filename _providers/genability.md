@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-07-28'
+  score: 45.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -241,24 +241,24 @@ overview: 'Genability publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Genability''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 32 more developer resources.'
-random_paper: 80
+random_paper: 19
 score:
   band: developing
-  composite: 46.1
-  delta: -2.4
+  composite: 53.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 32.3
+    contract_quality: 58.0
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 48.5
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
@@ -269,9 +269,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 41.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+    score: 52.7
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

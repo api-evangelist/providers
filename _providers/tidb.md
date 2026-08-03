@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -207,7 +207,7 @@ plans:
 - name: Tidb Plans Pricing
   plan_count: 6
   slug: tidb-plans-pricing
-random_paper: 9
+random_paper: 39
 rate_limits:
 - limit_count: 4
   name: Tidb Rate Limits
@@ -223,16 +223,16 @@ rules:
   slug: tidb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.6
-  delta: -3.7
+  composite: 47.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 76.7
+    contract_quality: 78.7
     developer_ergonomics: 10.9
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 50.3
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -240,8 +240,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/screenshots/tidb-2026-06-20T195336.png
 security:

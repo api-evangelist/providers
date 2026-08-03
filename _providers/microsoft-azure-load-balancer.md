@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ plans:
 - name: Microsoft Azure Load Balancer Plans Pricing
   plan_count: 3
   slug: microsoft-azure-load-balancer-plans-pricing
-random_paper: 38
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Load Balancer Rate Limits
@@ -159,16 +159,16 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 49.4
-  delta: -1.1
+  composite: 49.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 55.1
+    contract_quality: 55.8
     developer_ergonomics: 34.8
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 50.5
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/screenshots/microsoft-azure-load-balancer-2026-06-20T185420.png
 security:

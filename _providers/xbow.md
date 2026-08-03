@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -214,19 +214,19 @@ overview: 'Xbow publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Xbow''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 38
+random_paper: 68
 score:
   band: strong
-  composite: 57.6
-  delta: -1.4
+  composite: 59.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.9
+    contract_quality: 70.5
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 63.2
-  previous_composite: 59.0
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,8 +237,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

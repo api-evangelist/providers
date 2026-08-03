@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Spring Data Plans Pricing
   plan_count: 1
   slug: spring-data-plans-pricing
-random_paper: 48
+random_paper: 69
 rate_limits:
 - limit_count: 1
   name: Spring Data Rate Limits
@@ -192,16 +192,16 @@ rules:
   slug: spring-data-rules
 score:
   band: thin
-  composite: 41.1
-  delta: -4.0
+  composite: 41.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.7
+    contract_quality: 64.1
     developer_ergonomics: 2.2
     discoverability: 72.2
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 45.1
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/screenshots/spring-data-2026-06-20T194412.png
 security:

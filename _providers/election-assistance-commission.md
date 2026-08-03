@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Public-facing presence of the U.S. Election Assistance Commission. The EAC publishes Election Administration and Voting Survey (EAVS) datasets, codebooks, voluntary voting system guidelines, voter lis
@@ -85,7 +85,7 @@ plans:
 - name: Election Assistance Commission Plans Pricing
   plan_count: 3
   slug: election-assistance-commission-plans-pricing
-random_paper: 66
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Election Assistance Commission Rate Limits
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.1
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -101,15 +101,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 17.9
+  previous_composite: 16.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/screenshots/election-assistance-commission-2026-06-20T180552.png
 security:

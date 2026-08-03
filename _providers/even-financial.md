@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -196,19 +196,19 @@ overview: 'Even Financial publishes 6 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Even Financial''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 20 more developer resources.'
-random_paper: 14
+random_paper: 78
 score:
   band: developing
-  composite: 50.9
-  delta: -1.5
+  composite: 52.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 70.9
+    contract_quality: 75.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 52.4
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,8 +219,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/screenshots/even-financial-2026-07-25T213723.png
 security:

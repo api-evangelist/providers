@@ -15,12 +15,12 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
-    idempotency: documented
+    event_surface_described: derived
+    idempotency: verified
     mcp_server: true
     openapi_examples: false
     rate_limit_signal: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ overview: 'NALA publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   NALA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
-random_paper: 2
+random_paper: 32
 scopes:
 - name: Nala Scopes
   scope_count: 9
@@ -218,16 +218,16 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 51.3
-  delta: -4.8
+  composite: 52.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 61.9
+    contract_quality: 65.4
     developer_ergonomics: 75.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 56.1
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,8 +244,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

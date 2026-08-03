@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: JULES.md
 nav: Providers
 network: true
-random_paper: 63
+random_paper: 41
 slug: jules-md
 tags:
 - AI Agents

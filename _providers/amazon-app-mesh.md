@@ -10,25 +10,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
-    error_semantics: false
-    idempotency: false
+    error_semantics: verified
+    event_surface_described: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-07-28'
+  score: 49.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -3094,7 +3094,7 @@ overview: 'Amazon App Mesh publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 16 more developer resources.'
-random_paper: 10
+random_paper: 61
 rules:
 - name: Amazon App Mesh API Rules
   rule_count: 5
@@ -3114,16 +3114,16 @@ rules:
   slug: amazon-app-mesh-spectral-rules
 score:
   band: developing
-  composite: 50.9
-  delta: -0.5
+  composite: 51.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 67.8
+    contract_quality: 70.5
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 80.2
     operational_transparency: 5.3
-  previous_composite: 51.4
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3133,8 +3133,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/screenshots/amazon-app-mesh-2026-07-25T195916.png
 security:

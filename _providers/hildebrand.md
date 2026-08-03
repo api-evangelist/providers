@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.3
-  scored_at: '2026-07-28'
+  score: 36.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 4
@@ -196,11 +196,11 @@ plans:
 - name: Hildebrand Plans
   plan_count: 3
   slug: hildebrand-plans
-random_paper: 53
+random_paper: 87
 score:
   band: developing
   composite: 48.3
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 51.6
@@ -208,7 +208,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 13.2
-  previous_composite: 53.3
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -225,9 +225,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 35.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Hildebrand Authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -229,19 +229,19 @@ overview: 'Oxen publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Oxen''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
-random_paper: 32
+random_paper: 62
 score:
   band: developing
-  composite: 52.4
-  delta: -1.3
+  composite: 53.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 57.1
+    contract_quality: 60.5
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 53.7
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +252,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

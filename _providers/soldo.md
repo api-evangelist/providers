@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -313,7 +313,7 @@ overview: 'Soldo publishes 46 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Soldo''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, engineering blog, and 21 more developer resources.'
-random_paper: 53
+random_paper: 70
 scopes:
 - name: Soldo Scopes
   scope_count: 59
@@ -321,16 +321,16 @@ scopes:
   summary_line: 59 scopes · clientCredentials
 score:
   band: developing
-  composite: 52.3
-  delta: -4.2
+  composite: 52.9
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 68.8
+    contract_quality: 71.7
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 56.5
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,8 +347,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,23 +108,23 @@ plans:
 - name: Dbnomics Plans Pricing
   plan_count: 2
   slug: dbnomics-plans-pricing
-random_paper: 27
+random_paper: 87
 rate_limits:
 - limit_count: 3
   name: Dbnomics Rate Limits
   slug: dbnomics-rate-limits
 score:
   band: thin
-  composite: 29.8
-  delta: -2.8
+  composite: 30.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.6
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     contracts:
@@ -138,8 +138,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/screenshots/dbnomics-2026-07-25T211453.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.3
-  scored_at: '2026-07-28'
+  score: 59.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 571
   human_in_the_loop: 33
@@ -959,7 +959,7 @@ plans:
 - name: Yugabytedb Plans Pricing
   plan_count: 3
   slug: yugabytedb-plans-pricing
-random_paper: 6
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Yugabytedb Rate Limits
@@ -982,17 +982,17 @@ rules:
     warn: 35
   slug: yugabytedb-spectral-rules
 score:
-  band: exemplar
-  composite: 72.6
-  delta: -6.2
+  band: strong
+  composite: 65.2
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 51.7
+    contract_quality: 22.0
     developer_ergonomics: 84.8
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 78.8
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1000,9 +1000,9 @@ score:
       derived: 73
       marker_coverage: 100.0
       total: 73
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/screenshots/yugabytedb-2026-06-20T201754.png
 security:
 - kind: authentication

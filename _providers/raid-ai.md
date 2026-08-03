@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: One REST API to detect AI-generated and manipulated images, audio, and documents — and fact-check media against the public record. Bearer API-token auth with per-key detection scopes (image, audio, fa
@@ -156,7 +156,7 @@ overview: 'Raid AI publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Raid AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 7
+random_paper: 93
 scopes:
 - name: Raid Ai Scopes
   scope_count: 0
@@ -165,7 +165,7 @@ scopes:
 score:
   band: thin
   composite: 31.4
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -173,13 +173,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 7.9
-  previous_composite: 32.7
+  previous_composite: 31.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

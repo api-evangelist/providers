@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.9
-  scored_at: '2026-07-28'
+  score: 48.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Unique IDs that retain all the essential information about the data without compromising its security.
@@ -215,7 +215,7 @@ overview: 'Very Good Security publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Very Good Security''s developer surface includes CLI, sandbox, changelog, authentication, documentation, API reference, getting-started guide, and 31 more developer resources.'
-random_paper: 53
+random_paper: 52
 scopes:
 - name: Very Good Security Scopes
   scope_count: 3
@@ -223,16 +223,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 64.2
-  delta: -1.4
+  composite: 64.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.3
+    contract_quality: 71.0
     developer_ergonomics: 86.4
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 65.6
+  previous_composite: 64.8
   provenance:
     conformance: derived
     contracts:
@@ -248,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

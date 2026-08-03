@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ overview: 'Hampden & Co publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Hampden & Co''s developer surface includes authentication, documentation, signup flow, engineering blog, support, API reference, and 19 more developer resources.'
-random_paper: 28
+random_paper: 10
 scopes:
 - name: Hampden And Co Scopes
   scope_count: 3
@@ -178,16 +178,16 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 46.2
-  delta: -3.6
+  composite: 48.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 50.6
+    contract_quality: 59.7
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 49.8
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,8 +204,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/screenshots/hampden-and-co-2026-07-25T220602.png
 security:

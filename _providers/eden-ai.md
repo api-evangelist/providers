@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -131,23 +131,23 @@ plans:
 - name: Eden Ai Plans Pricing
   plan_count: 3
   slug: eden-ai-plans-pricing
-random_paper: 3
+random_paper: 89
 rate_limits:
 - limit_count: 5
   name: Eden Ai Rate Limits
   slug: eden-ai-rate-limits
 score:
   band: developing
-  composite: 44.1
-  delta: -1.4
+  composite: 45.0
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 54.4
+    contract_quality: 58.3
     developer_ergonomics: 21.7
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 45.5
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -155,8 +155,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/screenshots/eden-ai-2026-06-20T180450.png
 security:

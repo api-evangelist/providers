@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: E-commerce integration API for the Tempur-Pedic brand enabling retailers, affiliates, and platform partners to access product catalogs, check inventory, manage orders, and track shipments for Tempur-P
@@ -139,7 +139,7 @@ press:
 - date: '2026-05-25'
   title: Tempur Sealy integrates A.I. in newest ActiveBreeze smart ...
   url: https://www.furnituretoday.com/bedding-manufacturers/tempur-sealy-integrates-a-i-in-newest-activebreeze-smart-bed/
-random_paper: 77
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Tempur Sealy International Rate Limits
@@ -156,7 +156,7 @@ rules:
 score:
   band: thin
   composite: 32.0
-  delta: -5.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 17.7
@@ -164,10 +164,10 @@ score:
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 37.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  previous_composite: 32.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/screenshots/tempur-sealy-international-2026-06-20T195104.png
 security:
 - kind: domain-security

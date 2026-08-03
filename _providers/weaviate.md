@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 3
@@ -1554,7 +1554,7 @@ plans:
 - name: Weaviate Plans Pricing
   plan_count: 3
   slug: weaviate-plans-pricing
-random_paper: 34
+random_paper: 94
 rate_limits:
 - limit_count: 4
   name: Weaviate Rate Limits
@@ -1578,16 +1578,16 @@ rules:
   slug: weaviate-spectral-rules
 score:
   band: strong
-  composite: 60.4
-  delta: -4.3
+  composite: 61.5
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 54.9
+    contract_quality: 59.4
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 63.2
-  previous_composite: 64.7
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1595,8 +1595,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/screenshots/weaviate-2026-06-20T201320.png
 security:

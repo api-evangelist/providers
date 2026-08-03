@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Core open-source Python library for building agentic AI applications. Provides ConversableAgent, AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager, tool/function registration, code execution
@@ -106,7 +106,7 @@ plans:
 - name: Ag2 Plans Pricing
   plan_count: 1
   slug: ag2-plans-pricing
-random_paper: 4
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Ag2 Rate Limits
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.6
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -122,9 +122,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 28.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 25.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ag2/refs/heads/main/screenshots/ag2-2026-06-20T165746.png
 security:

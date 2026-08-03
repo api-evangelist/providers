@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -185,19 +185,19 @@ overview: 'Pixlee publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Pixlee''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 73
+random_paper: 77
 score:
   band: developing
-  composite: 49.7
-  delta: -1.2
+  composite: 50.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 59.6
+    contract_quality: 60.7
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 50.9
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,8 +208,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

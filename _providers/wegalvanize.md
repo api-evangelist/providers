@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 69
 apis:
 - description: An action is a specific follow-up measure that is associated with an identified issue. You can add actions and assign action owners. You can also set up reminders for yourself to retest issues or trac
@@ -352,7 +352,7 @@ overview: 'Wegalvanize publishes 69 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Wegalvanize''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 19 more developer resources.'
-random_paper: 33
+random_paper: 41
 scopes:
 - name: Wegalvanize Scopes
   scope_count: 7
@@ -360,16 +360,16 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials/implicit/refreshToken/tokenExchange
 score:
   band: developing
-  composite: 45.8
-  delta: -3.3
+  composite: 47.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 51.9
+    contract_quality: 58.0
     developer_ergonomics: 53.8
     discoverability: 79.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 49.1
+  previous_composite: 47.3
   provenance:
     conformance: derived
     contracts:
@@ -379,8 +379,8 @@ score:
       total: 69
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -504,7 +504,7 @@ plans:
 - name: Buildkite Com Plans Pricing
   plan_count: 4
   slug: buildkite-com-plans-pricing
-random_paper: 9
+random_paper: 86
 rate_limits:
 - limit_count: 0
   name: Buildkite Com Rate Limits
@@ -533,16 +533,16 @@ scopes:
   summary_line: 42 scopes
 score:
   band: exemplar
-  composite: 71.1
-  delta: -0.8
+  composite: 71.8
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 67.5
+    contract_quality: 70.3
     developer_ergonomics: 71.7
     discoverability: 83.3
     governance: 80.2
     operational_transparency: 47.4
-  previous_composite: 71.9
+  previous_composite: 71.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -552,8 +552,8 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/screenshots/buildkite-com-2026-06-20T173752.png
 security:

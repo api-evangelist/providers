@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-07-28'
+  score: 40.8
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Heron's REST API for document intake, parsing, enrichment, cashflow underwriting, webhooks, and broker/funder submission flows.
@@ -179,7 +179,7 @@ overview: 'Heron publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Heron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 48
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Heron Rate Limits
@@ -187,7 +187,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.9
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 50.6
@@ -195,7 +195,7 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 55.3
-  previous_composite: 53.0
+  previous_composite: 51.9
   provenance:
     conformance: derived
     mcp: derived
@@ -206,8 +206,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/screenshots/heron-2026-07-25T221032.png
 security:

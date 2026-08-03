@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -206,19 +206,19 @@ overview: 'Anything publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Anything''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 46
+random_paper: 11
 score:
   band: developing
-  composite: 44.6
-  delta: -2.2
+  composite: 45.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 50.0
+    contract_quality: 54.8
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 46.8
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +229,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anything/refs/heads/main/screenshots/anything-2026-07-25T200512.png
 security:

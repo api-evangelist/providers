@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Nanjing University operates a unified identity authentication platform providing single sign-on across university systems. The login service is a CAS (Central Authentication Service) deployment suppor
@@ -104,7 +104,7 @@ plans:
 - name: Nanjing Plans Pricing
   plan_count: 2
   slug: nanjing-plans-pricing
-random_paper: 3
+random_paper: 76
 rate_limits:
 - limit_count: 1
   name: Nanjing Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.5
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 12.9
@@ -120,9 +120,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 21.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanjing/refs/heads/main/screenshots/nanjing-2026-06-20T190003.png
 security:

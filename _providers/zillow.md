@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Zillow Web Services were the legacy public XML-based APIs from Zillow including GetSearchResults, GetZestimate, GetDeepSearchResults, GetUpdatedPropertyDetails, GetComps, GetRegionChildren, and the Ne
@@ -152,7 +152,7 @@ plans:
 - name: Zillow Plans Pricing
   plan_count: 1
   slug: zillow-plans-pricing
-random_paper: 17
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Zillow Rate Limits
@@ -160,7 +160,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.4
-  delta: 10.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 48.1
@@ -168,10 +168,10 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 28.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 38.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zillow/refs/heads/main/screenshots/zillow-2026-06-20T201903.png
 security:
 - kind: domain-security

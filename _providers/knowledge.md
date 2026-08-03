@@ -20,7 +20,7 @@ modified: '2026-05-22'
 name: API Knowledge
 nav: Providers
 network: true
-random_paper: 58
+random_paper: 10
 slug: knowledge
 tags:
 - API Knowledge

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.9
-  scored_at: '2026-07-28'
+  score: 55.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -1951,7 +1951,7 @@ plans:
 - name: Figma Plans Pricing
   plan_count: 4
   slug: figma-plans-pricing
-random_paper: 24
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Figma Rate Limits
@@ -1988,16 +1988,16 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.5
-  delta: -1.2
+  composite: 76.8
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 84.3
+    contract_quality: 85.7
     developer_ergonomics: 56.5
     discoverability: 77.8
     governance: 63.5
     operational_transparency: 78.9
-  previous_composite: 77.7
+  previous_composite: 76.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2007,8 +2007,8 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png
 security:

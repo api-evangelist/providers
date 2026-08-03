@@ -11,25 +11,25 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: documented
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 40.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ plans:
 - name: Affinity Plans Pricing
   plan_count: 4
   slug: affinity-plans-pricing
-random_paper: 38
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Affinity Rate Limits
@@ -232,17 +232,17 @@ rules:
     warn: 3
   slug: affinity-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 50.9
-  delta: -6.9
+  band: strong
+  composite: 56.1
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 50.0
+    contract_quality: 70.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 57.8
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -250,9 +250,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/screenshots/affinity-2026-06-20T165626.png
 security:
 - kind: authentication

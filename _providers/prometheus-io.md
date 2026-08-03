@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -318,7 +318,7 @@ overview: 'Prometheus publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Prometheus'' developer surface includes developer portal, documentation, changelog, engineering blog, tooling, and 37 more developer resources.'
-random_paper: 49
+random_paper: 31
 rules:
 - name: Prometheus API Rules
   rule_count: 6
@@ -339,7 +339,7 @@ rules:
 score:
   band: developing
   composite: 43.0
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 70.4
@@ -347,7 +347,7 @@ score:
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 47.2
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -355,8 +355,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus-io/refs/heads/main/screenshots/prometheus-io-2026-06-20T192153.png
 security:

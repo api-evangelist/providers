@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-07-28'
+  score: 57.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -429,9 +429,9 @@ overview: 'Coda Project publishes 32 APIs on the [APIs.io](https://apis.io/) net
 
 
   Coda Project''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 33 more developer resources.'
-random_paper: 63
+random_paper: 71
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Coda Project Rate Limits
   slug: coda-project-rate-limits
 scopes:
@@ -440,17 +440,17 @@ scopes:
   slug: coda-project-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 60.8
-  delta: -0.6
+  band: exemplar
+  composite: 66.2
+  delta: 4.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.6
+    contract_quality: 72.9
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 39.5
-  previous_composite: 61.4
+    operational_transparency: 71.1
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -461,8 +461,8 @@ score:
       total: 32
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/screenshots/coda-project-2026-07-25T205859.png
 security:

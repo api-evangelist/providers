@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ overview: 'Investec publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Investec''s developer surface includes authentication, documentation, API reference, engineering blog, support, sandbox, getting-started guide, and 23 more developer resources.'
-random_paper: 45
+random_paper: 10
 scopes:
 - name: Investec Scopes
   scope_count: 4
@@ -198,16 +198,16 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 42.7
-  delta: -0.7
+  composite: 44.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 50.6
+    contract_quality: 59.7
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 43.4
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +223,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/screenshots/investec-2026-07-25T222744.png
 security:

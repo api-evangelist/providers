@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-07-28'
+  score: 45.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ plans:
 - name: Uploadcare Plans Pricing
   plan_count: 4
   slug: uploadcare-plans-pricing
-random_paper: 72
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Uploadcare Rate Limits
@@ -242,16 +242,16 @@ rules:
   slug: uploadcare-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.3
-  delta: -4.4
+  composite: 50.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.2
+    contract_quality: 69.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 53.7
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -259,8 +259,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/screenshots/uploadcare-2026-06-20T200444.png
 security:

@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-07-28'
+  score: 33.3
+  scored_at: '2026-08-03'
 api_count: 11
 apis:
 - description: FDX-aligned REST endpoints returning the list of a consumer's permissioned accounts and detailed account information (account identifiers, type, status, nickname, and product details) for the accounts
@@ -218,7 +218,7 @@ plans:
 - name: Akoya Plans Pricing
   plan_count: 2
   slug: akoya-plans-pricing
-random_paper: 41
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Akoya Rate Limits
@@ -226,7 +226,7 @@ rate_limits:
 score:
   band: strong
   composite: 57.7
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 51.6
@@ -234,7 +234,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 60.5
-  previous_composite: 55.0
+  previous_composite: 57.7
   provenance:
     conformance: first-party
   regulatory:
@@ -243,8 +243,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akoya/refs/heads/main/screenshots/akoya-2026-06-20T171457.png
 security:

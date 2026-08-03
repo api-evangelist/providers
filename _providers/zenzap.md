@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-07-28'
+  score: 50.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ overview: 'ZenZap publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ZenZap''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 8
+random_paper: 94
 scopes:
 - name: Zenzap Scopes
   scope_count: 12
@@ -215,16 +215,16 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.1
-  delta: -0.5
+  composite: 54.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.3
+    contract_quality: 76.0
     developer_ergonomics: 56.0
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 7.9
-  previous_composite: 54.6
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +241,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

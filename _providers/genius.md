@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ plans:
 - name: Genius Plans Pricing
   plan_count: 1
   slug: genius-plans-pricing
-random_paper: 77
+random_paper: 81
 rate_limits:
 - limit_count: 0
   name: Genius Rate Limits
@@ -243,17 +243,17 @@ scopes:
   slug: genius-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 42.7
-  delta: -7.8
+  band: thin
+  composite: 34.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 61.6
+    contract_quality: 29.6
     developer_ergonomics: 19.6
     discoverability: 81.5
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 50.5
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -261,9 +261,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Genius Authentication

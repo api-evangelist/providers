@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Unified B2B API giving platforms, travel agencies, airlines, and GDSs access to TourRadar's network of 2,500+ organized adventure operators and 50,000+ experiences. Offered in three tiers - a Search &
@@ -132,7 +132,7 @@ overview: 'TourRadar publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   TourRadar''s developer surface includes documentation, support, engineering blog, authentication, and 17 more developer resources.'
-random_paper: 78
+random_paper: 30
 scopes:
 - name: Tourradar Scopes
   scope_count: 24
@@ -141,7 +141,7 @@ scopes:
 score:
   band: emerging
   composite: 26.1
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -149,11 +149,11 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 25.1
+  previous_composite: 26.1
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

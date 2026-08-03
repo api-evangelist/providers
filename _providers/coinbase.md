@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: verified
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.1
-  scored_at: '2026-07-28'
+  score: 40.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -482,7 +482,7 @@ plans:
 - name: Coinbase Plans Pricing
   plan_count: 11
   slug: coinbase-plans-pricing
-random_paper: 16
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Coinbase Rate Limits
@@ -514,16 +514,16 @@ rules:
   slug: coinbase-rules
 score:
   band: strong
-  composite: 57.2
-  delta: -3.1
+  composite: 57.6
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 77.5
+    contract_quality: 79.2
     developer_ergonomics: 39.1
     discoverability: 59.3
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 60.3
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -537,8 +537,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png
 security:

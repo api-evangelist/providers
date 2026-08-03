@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
-    rate_limit_signal: false
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-07-28'
+  score: 45.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ overview: 'C. Hoare & Co. publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   C. Hoare & Co.''s developer surface includes authentication, documentation, support, legal docs, and 22 more developer resources.'
-random_paper: 48
+random_paper: 43
 scopes:
 - name: C Hoare And Co Scopes
   scope_count: 2
@@ -178,16 +178,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 39.0
-  delta: -4.8
+  composite: 40.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 41.5
+    contract_quality: 48.6
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 43.8
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -204,8 +204,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/screenshots/c-hoare-and-co-2026-07-25T204150.png
 security:

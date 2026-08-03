@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 95
   slug: barchart-agentic-access
   summary_line: 95 operations
-api_count: 11
+api_count: 12
 apis:
 - description: Grain bids, commodity statistics, fuel, and crop data.
   name: Barchart Commodities & Agriculture API
@@ -72,7 +72,10 @@ apis:
 - description: Current conditions and forecasts.
   name: Barchart Weather API
   slug: barchart-weather-api
-artifact_total: 30
+- description: Barchart OnDemand APIs from Barchart — 71 path(s) described in OpenAPI.
+  name: Barchart OnDemand APIs
+  slug: barchart-ondemand-official-openapi
+artifact_total: 31
 collections:
 - collection_type: postman
   name: Barchart OnDemand Commodities & Agriculture API
@@ -267,7 +270,7 @@ modified: '2026-07-22'
 name: Barchart
 nav: Providers
 network: true
-overview: 'Barchart publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Commodities & Agriculture API, Corporate Actions & Earnings API, Cryptocurrency API, and 8 more. Tagged areas include Market Data, Financial Data, Commodities, Futures, and Options.
+overview: 'Barchart publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Commodities & Agriculture API, Corporate Actions & Earnings API, Cryptocurrency API, and 9 more. Tagged areas include Market Data, Financial Data, Commodities, Futures, and Options.
 
 
   Barchart''s developer surface includes authentication, documentation, signup flow, getting-started guide, support, pricing, engineering blog, and 28 more developer resources.'
@@ -275,23 +278,23 @@ plans:
 - name: Barchart Plans Pricing
   plan_count: 3
   slug: barchart-plans-pricing
-random_paper: 19
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Barchart Rate Limits
   slug: barchart-rate-limits
 score:
   band: strong
-  composite: 60.2
-  delta: -1.2
+  composite: 60.4
+  delta: -0.1
   facets:
     commercial_clarity: 84.2
-    contract_quality: 61.5
+    contract_quality: 62.4
     developer_ergonomics: 60.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 61.4
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,8 +311,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

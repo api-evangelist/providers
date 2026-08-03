@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -224,7 +224,7 @@ plans:
 - name: University Of Washington Plans Pricing
   plan_count: 2
   slug: university-of-washington-plans-pricing
-random_paper: 55
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: University Of Washington Rate Limits
@@ -248,16 +248,16 @@ rules:
   slug: university-of-washington-rules
 score:
   band: thin
-  composite: 35.9
-  delta: -4.9
+  composite: 36.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 55.2
+    contract_quality: 59.2
     developer_ergonomics: 10.9
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 40.8
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -271,8 +271,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png
 security:

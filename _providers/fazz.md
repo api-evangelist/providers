@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-07-28'
+  score: 47.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -237,23 +237,23 @@ plans:
 - name: Fazz Plans Pricing
   plan_count: 2
   slug: fazz-plans-pricing
-random_paper: 33
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Fazz Rate Limits
   slug: fazz-rate-limits
 score:
   band: strong
-  composite: 57.0
-  delta: -4.3
+  composite: 57.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 50.0
-  previous_composite: 61.3
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,8 +270,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/screenshots/fazz-2026-07-25T214301.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -130,23 +130,23 @@ plans:
 - name: Openexchangerates Plans Pricing
   plan_count: 5
   slug: openexchangerates-plans-pricing
-random_paper: 8
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Openexchangerates Rate Limits
   slug: openexchangerates-rate-limits
 score:
   band: thin
-  composite: 41.6
-  delta: -2.5
+  composite: 41.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.1
+    contract_quality: 63.0
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 44.1
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

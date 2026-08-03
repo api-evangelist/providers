@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-07-28'
+  score: 42.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -393,7 +393,7 @@ plans:
 - name: Covalent Plans Pricing
   plan_count: 4
   slug: covalent-plans-pricing
-random_paper: 40
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Covalent Rate Limits
@@ -417,16 +417,16 @@ rules:
   slug: covalent-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.2
-  delta: -2.6
+  composite: 67.6
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 78.9
+    contract_quality: 80.7
     developer_ergonomics: 60.9
     discoverability: 59.3
     governance: 52.1
     operational_transparency: 68.4
-  previous_composite: 69.8
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     contracts:
@@ -434,8 +434,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/screenshots/covalent-2026-06-20T175115.png
 security:

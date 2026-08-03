@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -115,7 +115,7 @@ plans:
 - name: Shellrecharge Plans Pricing
   plan_count: 1
   slug: shellrecharge-plans-pricing
-random_paper: 57
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Shellrecharge Rate Limits
@@ -127,16 +127,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 33.6
-  delta: -0.9
+  composite: 33.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 51.7
+    contract_quality: 52.7
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.5
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +150,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

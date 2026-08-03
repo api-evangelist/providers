@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: REST API for managing email campaigns, mailing lists, subscribers, templates, and analytics in Zoho Campaigns. Supports campaign creation, scheduling, sending, cloning, and reporting as well as contac
@@ -120,7 +120,7 @@ plans:
 - name: Zoho Campaigns Plans Pricing
   plan_count: 5
   slug: zoho-campaigns-plans-pricing
-random_paper: 46
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Zoho Campaigns Rate Limits
@@ -128,7 +128,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.6
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 32.3
@@ -136,9 +136,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 36.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 32.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-campaigns/refs/heads/main/screenshots/zoho-campaigns-2026-06-20T201934.png
 security:

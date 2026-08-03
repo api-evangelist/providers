@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -278,7 +278,7 @@ plans:
 - name: Appium Plans Pricing
   plan_count: 1
   slug: appium-plans-pricing
-random_paper: 78
+random_paper: 82
 rate_limits:
 - limit_count: 2
   name: Appium Rate Limits
@@ -302,16 +302,16 @@ rules:
   slug: appium-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: -7.6
+  composite: 43.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 52.5
+    contract_quality: 29.3
     developer_ergonomics: 47.8
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 57.0
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -319,9 +319,9 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/screenshots/appium-2026-06-20T172316.png
 security:
 - kind: domain-security

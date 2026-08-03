@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ plans:
 - name: Google Cloud Transfer Service Plans Pricing
   plan_count: 3
   slug: google-cloud-transfer-service-plans-pricing
-random_paper: 59
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Google Cloud Transfer Service Rate Limits
@@ -147,16 +147,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 50.9
-  delta: -4.1
+  composite: 51.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.8
+    contract_quality: 70.5
     developer_ergonomics: 23.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 55.0
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -164,8 +164,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/screenshots/google-cloud-transfer-service-2026-06-20T182144.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -197,19 +197,19 @@ overview: 'Breeze publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Breeze''s developer surface includes signup flow, documentation, API reference, getting-started guide, support, authentication, and 18 more developer resources.'
-random_paper: 63
+random_paper: 67
 score:
   band: thin
-  composite: 37.6
-  delta: -1.4
+  composite: 38.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 49.0
+    contract_quality: 53.5
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 39.0
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,8 +226,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/screenshots/breeze-2026-07-25T203743.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -310,7 +310,7 @@ plans:
 - name: Attomdata Plans Pricing
   plan_count: 4
   slug: attomdata-plans-pricing
-random_paper: 57
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Attomdata Rate Limits
@@ -334,16 +334,16 @@ rules:
   slug: attomdata-rules
 score:
   band: developing
-  composite: 51.0
-  delta: -5.6
+  composite: 51.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 74.4
+    contract_quality: 76.3
     developer_ergonomics: 54.3
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 5.3
-  previous_composite: 56.6
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -357,9 +357,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/screenshots/attomdata-2026-06-20T172541.png
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -181,7 +181,7 @@ press:
 - date: '2026-05-25'
   title: Windstream Enterprise and Amazon Web Services ...
   url: https://news.windstream.com/news/news-details/2023/Windstream-Enterprise-and-Amazon-Web-Services-Advance-the-Virtual-Meeting-Experience-for-Businesses/default.aspx
-random_paper: 19
+random_paper: 87
 rate_limits:
 - limit_count: 5
   name: Windstream Holdings Rate Limits
@@ -205,16 +205,16 @@ rules:
   slug: windstream-holdings-rules
 score:
   band: developing
-  composite: 44.6
-  delta: -9.2
+  composite: 45.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.1
+    contract_quality: 63.5
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 53.8
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -228,9 +228,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/screenshots/windstream-holdings-2026-06-20T201507.png
 security:
 - kind: authentication

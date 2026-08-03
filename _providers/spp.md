@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
-    rate_limit_signal: documented
+    openapi_examples: verified
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-07-28'
+  score: 49.8
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: 'SPP''s officially documented programmatic interface to its public data. The SPP Public Data Access guide (v3.0, July 2023) names FTP as the programmatic access path for Integrated Marketplace, Western '
@@ -187,7 +187,7 @@ overview: 'Southwest Power Pool publishes 1 API on the [APIs.io](https://apis.io
 
 
   Southwest Power Pool''s developer surface includes authentication, sandbox, code examples, developer portal, documentation, getting-started guide, signup flow, and 21 more developer resources.'
-random_paper: 11
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Spp Rate Limits
@@ -198,17 +198,17 @@ scopes:
   slug: spp-scopes
   summary_line: 15 scopes · clientCredentials
 score:
-  band: thin
-  composite: 41.5
-  delta: -4.7
+  band: developing
+  composite: 48.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
-    contract_quality: 32.3
+    contract_quality: 62.7
     developer_ergonomics: 53.8
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 46.2
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -223,8 +223,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

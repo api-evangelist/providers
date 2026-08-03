@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-07-28'
+  score: 38.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ overview: 'AGL Energy publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AGL Energy''s developer surface includes authentication, changelog, API reference, documentation, support, and 22 more developer resources.'
-random_paper: 19
+random_paper: 53
 scopes:
 - name: Agl Energy Scopes
   scope_count: 11
@@ -173,16 +173,16 @@ scopes:
   summary_line: 11 scopes
 score:
   band: thin
-  composite: 36.2
-  delta: -10.1
+  composite: 37.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 8.1
+    contract_quality: 13.6
     developer_ergonomics: 34.2
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 55.3
-  previous_composite: 46.3
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -199,9 +199,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Agl Energy Authentication

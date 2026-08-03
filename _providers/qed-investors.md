@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: QED Investors
 nav: Providers
 network: true
-random_paper: 52
+random_paper: 34
 slug: qed-investors
 tags:
 - Venture Capital

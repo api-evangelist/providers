@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: East West Bank's first-party commercial banking API program, delivered through the "Bridge Open Banking" developer portal for Global Transaction Services (GTS) clients. Documented capabilities let app
@@ -107,11 +107,11 @@ overview: 'East West Bank publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   East West Bank''s developer surface includes documentation, support, authentication, sandbox, getting-started guide, signup flow, and 11 more developer resources.'
-random_paper: 70
+random_paper: 52
 score:
   band: emerging
   composite: 26.6
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -119,7 +119,7 @@ score:
     discoverability: 66.7
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 29.8
+  previous_composite: 26.6
   provenance:
     conformance: first-party
   regulatory:
@@ -128,8 +128,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/east-west-bank/refs/heads/main/screenshots/east-west-bank-2026-07-25T212711.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -319,7 +319,7 @@ overview: 'AI Gateway publishes 23 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AI Gateway''s developer surface includes authentication, code examples, developer portal, engineering blog, and 10 more developer resources.'
-random_paper: 17
+random_paper: 51
 rules:
 - name: AI Gateway API Rules
   rule_count: 5
@@ -331,16 +331,16 @@ rules:
   slug: ai-gateway-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.9
-  delta: -4.0
+  composite: 34.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 59.3
+    contract_quality: 62.8
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 0.0
-  previous_composite: 37.9
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -348,8 +348,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/screenshots/ai-gateway-2026-06-20T170650.png
 security:

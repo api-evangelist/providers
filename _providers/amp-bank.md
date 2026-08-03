@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Banking Account Balance endpoints
@@ -170,7 +170,7 @@ overview: 'AMP Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   AMP Bank''s developer surface includes documentation, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 37
+random_paper: 15
 scopes:
 - name: Amp Bank Scopes
   scope_count: 5
@@ -178,16 +178,16 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 42.5
-  delta: -6.8
+  composite: 43.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 18.4
-  previous_composite: 49.3
+  previous_composite: 43.4
   provenance:
     conformance: derived
     contracts:
@@ -203,9 +203,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png
 security:
 - kind: authentication

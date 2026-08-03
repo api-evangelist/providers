@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 35.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 7
@@ -1056,7 +1056,7 @@ plans:
 - name: Fastly Plans Pricing
   plan_count: 12
   slug: fastly-plans-pricing
-random_paper: 3
+random_paper: 89
 rate_limits:
 - limit_count: 13
   name: Fastly Rate Limits
@@ -1088,16 +1088,16 @@ rules:
   slug: fastly-rules
 score:
   band: exemplar
-  composite: 72.9
-  delta: -3.3
+  composite: 73.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 79.2
+    contract_quality: 80.7
     developer_ergonomics: 67.4
     discoverability: 68.5
     governance: 62.5
     operational_transparency: 52.6
-  previous_composite: 76.2
+  previous_composite: 73.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1105,8 +1105,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 81
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/screenshots/fastly-2026-06-20T181052.png
 security:

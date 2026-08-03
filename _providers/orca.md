@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -172,19 +172,19 @@ overview: 'Orca publishes 3 APIs on the [APIs.io](https://apis.io/) network: pro
 
 
   Orca''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 18 more developer resources.'
-random_paper: 11
+random_paper: 41
 score:
   band: thin
-  composite: 40.7
-  delta: -1.8
+  composite: 41.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 49.7
+    contract_quality: 54.0
     developer_ergonomics: 79.9
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 42.5
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,8 +195,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

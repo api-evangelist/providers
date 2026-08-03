@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: RESTful API for viewing and managing Opower customer, utility-account, usage, billing, disaggregation, neighbor-comparison, tips, threshold and notification data. HTTP/REST with JSON, OAuth 2.0 client
@@ -127,11 +127,11 @@ overview: 'OPOWER publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   OPOWER''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 11 more developer resources.'
-random_paper: 12
+random_paper: 3
 score:
   band: emerging
   composite: 23.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -139,7 +139,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 24.3
+  previous_composite: 23.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -149,8 +149,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

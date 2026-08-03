@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Crow agent platform surface — the widget/agent runtime served from api.usecrow.org, configured via the dashboard and consumed through the embed script and the @usecrow/client / @usecrow/ui SDKs. C
@@ -115,11 +115,11 @@ overview: 'Crow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Crow''s developer surface includes documentation, getting-started guide, signup flow, CLI, sandbox, and 11 more developer resources.'
-random_paper: 33
+random_paper: 63
 score:
   band: emerging
   composite: 27.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -127,11 +127,11 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 28.1
+  previous_composite: 27.5
   provenance:
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crow/refs/heads/main/screenshots/crow-2026-07-25T210812.png
 security:

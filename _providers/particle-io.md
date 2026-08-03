@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -192,23 +192,23 @@ plans:
 - name: Particle Io Plans Pricing
   plan_count: 1
   slug: particle-io-plans-pricing
-random_paper: 47
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Particle Io Rate Limits
   slug: particle-io-rate-limits
 score:
   band: developing
-  composite: 47.5
-  delta: -2.0
+  composite: 48.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 50.4
+    contract_quality: 54.6
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 49.5
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +216,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle-io/refs/heads/main/screenshots/particle-io-2026-06-20T191427.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Rules, capabilities, vocabulary, and linked-data description covering classic Gang of Four patterns and key API design patterns.
@@ -73,7 +73,7 @@ plans:
 - name: Design Patterns Plans Pricing
   plan_count: 3
   slug: design-patterns-plans-pricing
-random_paper: 2
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Design Patterns Rate Limits
@@ -90,7 +90,7 @@ rules:
 score:
   band: emerging
   composite: 22.3
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 8.1
@@ -98,9 +98,9 @@ score:
     discoverability: 50.0
     governance: 10.4
     operational_transparency: 36.8
-  previous_composite: 24.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 22.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/design-patterns/refs/heads/main/screenshots/design-patterns-2026-06-20T175933.png
 slug: design-patterns

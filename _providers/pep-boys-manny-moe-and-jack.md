@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -68,11 +68,11 @@ press:
 - date: '2026-05-25'
   title: Pep Boys agrees to be bought by Icahn for $1 billion
   url: https://www.chicagotribune.com/2015/12/30/pep-boys-agrees-to-be-bought-by-icahn-for-1-billion/
-random_paper: 37
+random_paper: 14
 score:
   band: minimal
   composite: 3.2
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -80,9 +80,9 @@ score:
     discoverability: 31.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 4.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 3.2
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pep-boys-manny-moe-and-jack/refs/heads/main/screenshots/pep-boys-manny-moe-and-jack-2026-06-20T191558.png
 security:

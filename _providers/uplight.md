@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Uplight markets a Developer Platform that exposes customer, program, eligibility, enrollment, device, and energy-flexibility data to utilities and ecosystem partners through APIs. The reference is pub
@@ -127,11 +127,11 @@ overview: 'Uplight publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Uplight''s developer surface includes documentation, API reference, engineering blog, privacy policy, and 18 more developer resources.'
-random_paper: 27
+random_paper: 5
 score:
   band: emerging
   composite: 22.0
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -139,7 +139,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 19.2
+  previous_composite: 22.0
   provenance:
     conformance: first-party
   regulatory:
@@ -148,8 +148,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

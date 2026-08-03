@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: TJX Companies requires EDI compliance for all resale vendors, supporting purchase orders (850), purchase order acknowledgements (855), advanced shipping notices (856), invoices (810), motor carrier lo
@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Retailers Embracing AI
   url: https://logisticsti.com/insights/f/retailers-embracing-ai
-random_paper: 14
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Tjx Rate Limits
@@ -139,7 +139,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.6
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -147,9 +147,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 18.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tjx/refs/heads/main/screenshots/tjx-2026-06-20T195419.png
 security:

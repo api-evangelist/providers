@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.0
-  scored_at: '2026-07-28'
+  score: 41.0
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Cutover Core API is a RESTful, JSON:API-style interface for programmatically managing workspaces, runbooks, tasks, teams, and users in the Cutover collaborative automation platform. It uses predic
@@ -167,11 +167,11 @@ overview: 'Cutover publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Cutover''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 20 more developer resources.'
-random_paper: 38
+random_paper: 16
 score:
   band: developing
   composite: 48.8
-  delta: 7.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.6
@@ -179,13 +179,13 @@ score:
     discoverability: 75.9
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 41.7
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cutover/refs/heads/main/screenshots/cutover-2026-07-25T211011.png
 security:
 - kind: authentication

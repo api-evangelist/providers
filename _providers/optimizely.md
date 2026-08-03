@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -626,7 +626,7 @@ plans:
 - name: Optimizely Plans Pricing
   plan_count: 3
   slug: optimizely-plans-pricing
-random_paper: 44
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Optimizely Rate Limits
@@ -655,16 +655,16 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: strong
-  composite: 57.8
-  delta: -2.3
+  composite: 58.2
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 78.6
+    contract_quality: 80.4
     developer_ergonomics: 30.4
     discoverability: 59.3
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 60.1
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     contracts:
@@ -672,8 +672,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

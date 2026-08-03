@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ overview: 'Calm publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aut
 
 
   Calm''s developer surface includes authentication, developer portal, signup flow, pricing, documentation, support, engineering blog, and 21 more developer resources.'
-random_paper: 39
+random_paper: 17
 rules:
 - name: Calm API Rules
   rule_count: 5
@@ -229,16 +229,16 @@ rules:
   slug: calm-com-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.4
-  delta: -3.7
+  composite: 46.0
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
-    contract_quality: 74.2
+    contract_quality: 76.4
     developer_ergonomics: 34.8
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 49.1
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +246,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

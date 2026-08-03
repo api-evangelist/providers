@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 6
 apis:
 - description: The FastMCP Server is the Python entry point for exposing tools, resources, prompts, and apps to any Model Context Protocol client. Developers instantiate a `FastMCP` server object and register compon
@@ -222,11 +222,11 @@ overview: 'FastMCP publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 20 more developer resources.'
-random_paper: 12
+random_paper: 85
 score:
   band: emerging
   composite: 17.1
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -234,9 +234,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 19.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 17.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastmcp/refs/heads/main/screenshots/fastmcp-2026-06-20T181055.png
 security:

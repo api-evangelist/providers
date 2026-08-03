@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -260,7 +260,7 @@ plans:
 - name: Nomad Plans Pricing
   plan_count: 3
   slug: nomad-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 4
   name: Nomad Rate Limits
@@ -284,16 +284,16 @@ rules:
   slug: nomad-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.3
-  delta: -3.6
+  composite: 57.8
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 76.6
+    contract_quality: 78.7
     developer_ergonomics: 39.1
     discoverability: 64.8
     governance: 41.7
     operational_transparency: 31.6
-  previous_composite: 60.9
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     contracts:
@@ -301,8 +301,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/screenshots/nomad-2026-06-20T190354.png
 security:

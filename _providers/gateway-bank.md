@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ overview: 'Gateway Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Gateway Bank''s developer surface includes authentication, documentation, and 18 more developer resources.'
-random_paper: 63
+random_paper: 71
 scopes:
 - name: Gateway Bank Scopes
   scope_count: 5
@@ -166,16 +166,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.4
-  delta: -2.2
+  composite: 40.3
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 23.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 7.9
-  previous_composite: 41.6
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -192,8 +192,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/screenshots/gateway-bank-2026-07-21T114722.png
 security:

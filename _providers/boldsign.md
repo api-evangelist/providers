@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -179,9 +179,9 @@ plans:
 - name: Boldsign Plans Pricing
   plan_count: 6
   slug: boldsign-plans-pricing
-random_paper: 30
+random_paper: 90
 rate_limits:
-- limit_count: 0
+- limit_count: 2
   name: Boldsign Rate Limits
   slug: boldsign-rate-limits
 rules:
@@ -195,16 +195,16 @@ rules:
   slug: boldsign-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.6
-  delta: -4.1
+  composite: 53.6
+  delta: 2.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.2
+    contract_quality: 72.1
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 58.3
-    operational_transparency: 21.1
-  previous_composite: 53.7
+    operational_transparency: 42.1
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/screenshots/boldsign-2026-06-20T173555.png
 security:

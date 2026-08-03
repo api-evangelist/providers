@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 35.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -358,7 +358,7 @@ plans:
 - name: Retell Ai Plans Pricing
   plan_count: 3
   slug: retell-ai-plans-pricing
-random_paper: 75
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Retell Ai Rate Limits
@@ -374,16 +374,16 @@ rules:
   slug: retell-ai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.6
-  delta: -7.2
+  composite: 39.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.6
+    contract_quality: 65.8
     developer_ergonomics: 21.7
     discoverability: 50.0
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 45.8
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -397,9 +397,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/screenshots/retell-ai-2026-06-20T193039.png
 security:
 - kind: authentication

@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 0
 common:
@@ -91,11 +91,11 @@ press:
 - date: '2026-05-25'
   title: Martin Marietta reaffirms 2026 adjusted EBITDA guidance ...
   url: https://seekingalpha.com/news/4583528-martin-marietta-reaffirms-2026-adjusted-ebitda-guidance-of-2_43b-midpoint-as-quikrete
-random_paper: 16
+random_paper: 88
 score:
   band: minimal
   composite: 5.4
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -103,9 +103,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 5.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 slug: martin-marietta-materials
 tags:

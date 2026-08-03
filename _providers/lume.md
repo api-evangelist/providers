@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-07-28'
+  score: 29.3
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'REST API for automating data mappings and transformations with AI. Create and run Flows, manage target schemas, poll job/run status, and retrieve mapping results. Authenticated with a per-account API '
@@ -131,11 +131,11 @@ overview: 'Lume publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lume''s developer surface includes documentation, getting-started guide, authentication, signup flow, support, and 13 more developer resources.'
-random_paper: 25
+random_paper: 55
 score:
   band: thin
   composite: 39.5
-  delta: 6.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -143,13 +143,13 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 13.2
-  previous_composite: 32.6
+  previous_composite: 39.5
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lume/refs/heads/main/screenshots/lume-2026-07-25T225704.png
 security:
 - kind: authentication

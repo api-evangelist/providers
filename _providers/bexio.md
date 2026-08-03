@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -284,7 +284,7 @@ plans:
 - name: Bexio Plans Pricing
   plan_count: 5
   slug: bexio-plans-pricing
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Bexio Rate Limits
@@ -296,16 +296,16 @@ scopes:
   summary_line: 71 scopes
 score:
   band: exemplar
-  composite: 66.8
-  delta: 0.1
+  composite: 67.9
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 51.7
+    contract_quality: 55.8
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 76.3
-  previous_composite: 66.7
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,8 +316,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png
 security:

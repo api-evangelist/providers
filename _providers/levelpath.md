@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,11 +100,11 @@ overview: 'Levelpath is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Levelpath''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 63
+random_paper: 15
 score:
   band: emerging
   composite: 22.4
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -112,11 +112,11 @@ score:
     discoverability: 68.5
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 20.8
+  previous_composite: 22.4
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelpath/refs/heads/main/screenshots/levelpath-2026-07-25T224947.png
 security:

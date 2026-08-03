@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 50
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -213,16 +213,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.8
-  delta: -4.2
+  composite: 55.3
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 72.9
+    contract_quality: 75.2
     developer_ergonomics: 39.1
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 59.0
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/screenshots/hopin-2026-06-20T182829.png
 security:

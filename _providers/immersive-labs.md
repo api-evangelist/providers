@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'The Immersive platform V1 API — a single GraphQL endpoint exposing organizational data (achievements, assignable content, labs, collections, cyber roles, viewer account, workforce scenarios, and OIDC '
@@ -156,11 +156,11 @@ overview: 'Immersive Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Immersive Labs'' developer surface includes API reference, documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 46
+random_paper: 15
 score:
   band: thin
   composite: 36.2
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -168,12 +168,12 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 39.5
-  previous_composite: 36.6
+  previous_composite: 36.2
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/immersive-labs/refs/heads/main/screenshots/immersive-labs-2026-07-25T222128.png
 security:

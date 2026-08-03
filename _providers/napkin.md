@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ overview: 'Napkin publishes 1 API on the [APIs.io](https://apis.io/) network: Vi
 
 
   Napkin''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 67
+random_paper: 71
 scopes:
 - name: Napkin Scopes
   scope_count: 2
@@ -183,16 +183,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.7
-  delta: -1.0
+  composite: 50.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 56.0
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 50.7
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,8 +203,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

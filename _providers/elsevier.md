@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -142,23 +142,23 @@ plans:
 - name: Elsevier Plans Pricing
   plan_count: 3
   slug: elsevier-plans-pricing
-random_paper: 43
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Elsevier Rate Limits
   slug: elsevier-rate-limits
 score:
   band: developing
-  composite: 43.8
-  delta: -4.3
+  composite: 44.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 55.9
+    contract_quality: 59.7
     developer_ergonomics: 52.2
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 48.1
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +172,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png
 security:

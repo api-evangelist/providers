@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ plans:
 - name: Amazon Vpn Plans Pricing
   plan_count: 3
   slug: amazon-vpn-plans-pricing
-random_paper: 47
+random_paper: 81
 rate_limits:
 - limit_count: 5
   name: Amazon Vpn Rate Limits
@@ -176,16 +176,16 @@ rules:
   slug: amazon-vpn-spectral-rules
 score:
   band: strong
-  composite: 57.2
-  delta: -2.7
+  composite: 57.9
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 66.1
+    contract_quality: 69.0
     developer_ergonomics: 39.1
     discoverability: 59.3
     governance: 31.3
     operational_transparency: 52.6
-  previous_composite: 59.9
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/screenshots/amazon-vpn-2026-06-20T171844.png
 security:

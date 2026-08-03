@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Version One Ventures
 nav: Providers
 network: true
-random_paper: 28
+random_paper: 83
 slug: version-one-ventures
 tags:
 - Venture Capital

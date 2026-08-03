@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.5
-  scored_at: '2026-07-28'
+  score: 39.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -236,7 +236,7 @@ overview: 'Volteras publishes 19 APIs on the [APIs.io](https://apis.io/) network
 
 
   Volteras'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 60
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Volteras Rate Limits
@@ -249,7 +249,7 @@ scopes:
 score:
   band: developing
   composite: 54.3
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 65.1
@@ -257,7 +257,7 @@ score:
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 52.8
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -274,8 +274,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

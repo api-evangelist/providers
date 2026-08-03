@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -208,19 +208,19 @@ overview: 'Conxai publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Conxai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 68
+random_paper: 72
 score:
   band: developing
-  composite: 45.8
-  delta: -1.3
+  composite: 46.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.0
+    contract_quality: 60.0
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 47.1
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +231,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/screenshots/conxai-2026-07-25T210354.png
 security:

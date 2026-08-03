@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,11 +67,11 @@ overview: 'Stagwell is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Stagwell''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 47
+random_paper: 12
 score:
   band: minimal
   composite: 4.6
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -79,9 +79,9 @@ score:
     discoverability: 35.2
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 5.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 4.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stagwell/refs/heads/main/screenshots/stagwell-2026-06-20T194452.png
 security:

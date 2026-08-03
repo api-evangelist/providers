@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Slice Plans Pricing
   plan_count: 3
   slug: slice-plans-pricing
-random_paper: 36
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Slice Rate Limits
@@ -162,16 +162,16 @@ rules:
   slug: slice-rules
 score:
   band: developing
-  composite: 44.9
-  delta: -3.7
+  composite: 45.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 57.6
+    contract_quality: 61.2
     developer_ergonomics: 37.0
     discoverability: 59.3
     governance: 31.3
     operational_transparency: 26.3
-  previous_composite: 48.6
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/screenshots/slice-2026-06-20T194029.png
 security:

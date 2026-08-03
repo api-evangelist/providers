@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,11 +115,11 @@ overview: 'Wisk Aero is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wisk Aero''s developer surface includes engineering blog, developer portal, YouTube channel, and 15 more developer resources.'
-random_paper: 12
+random_paper: 59
 score:
   band: minimal
   composite: 12.1
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -127,9 +127,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 12.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wisk-aero/refs/heads/main/screenshots/wisk-aero-2026-06-20T201536.png
 security:

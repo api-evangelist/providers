@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
-    openapi_examples: verified
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.6
-  scored_at: '2026-07-28'
+  score: 48.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ overview: 'StockX publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   StockX''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Stockx Rate Limits
@@ -188,16 +188,16 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.5
-  delta: -0.4
+  composite: 50.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 56.8
+    contract_quality: 61.6
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 42.1
-  previous_composite: 49.9
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -208,8 +208,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

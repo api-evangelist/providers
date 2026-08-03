@@ -22,7 +22,7 @@ modified: '2026-05-25'
 name: Factorial
 nav: Providers
 network: true
-random_paper: 64
+random_paper: 72
 slug: factorial-hr
 tags:
 - HR

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-07-28'
+  score: 23.9
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Partner REST API for reading and writing a consenting user's food and exercise diary, body measurements, and profile, plus webhook subscriptions for data-change notifications. OAuth 2.0 authorization-
@@ -127,7 +127,7 @@ overview: 'MyFitnessPal publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   MyFitnessPal''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 81
+random_paper: 76
 scopes:
 - name: Myfitnesspal Scopes
   scope_count: 4
@@ -136,7 +136,7 @@ scopes:
 score:
   band: thin
   composite: 37.8
-  delta: 5.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 49.4
@@ -144,14 +144,14 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 10.5
-  previous_composite: 32.6
+  previous_composite: 37.8
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Myfitnesspal Authentication

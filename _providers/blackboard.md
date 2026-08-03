@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: REST API for Blackboard Learn, the flagship LMS. Covers users, courses, content, grades, assignments, announcements, terms, system roles, and SIS data integration. SOAP APIs are also available for leg
@@ -106,7 +106,7 @@ plans:
 - name: Blackboard Plans Pricing
   plan_count: 1
   slug: blackboard-plans-pricing
-random_paper: 45
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Blackboard Rate Limits
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: thin
   composite: 28.4
-  delta: 10.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 48.1
@@ -122,10 +122,10 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 18.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 28.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackboard/refs/heads/main/screenshots/blackboard-2026-06-20T173333.png
 security:
 - kind: domain-security

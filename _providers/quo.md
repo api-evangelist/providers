@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-07-28'
+  score: 36.7
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: Operations related to calls
@@ -159,19 +159,19 @@ overview: 'Quo publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Quo''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 12 more developer resources.'
-random_paper: 13
+random_paper: 56
 score:
   band: developing
-  composite: 48.1
-  delta: -3.5
+  composite: 49.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 69.3
+    contract_quality: 74.1
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 51.6
+  previous_composite: 49.1
   provenance:
     conformance: derived
     contracts:
@@ -187,8 +187,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

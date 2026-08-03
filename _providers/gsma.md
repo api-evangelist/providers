@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.6
-  scored_at: '2026-07-28'
+  score: 56.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -31,57 +31,57 @@ apis:
 - description: 'The GSMA Mobile Money API is a harmonised REST/JSON specification for mobile money platforms, developed by the GSMA with the mobile money industry and published openly at developer.mobilemoneyapi.io. '
   name: GSMA Mobile Money API
   slug: gsma-mobile-money-api
-- description: CAMARA Call Forwarding Signal API as published on the GSMA Open Gateway developer portal. Lets an application check whether unconditional or conditional call forwarding is active on a subscriber's lin
-  name: GSMA Open Gateway Call Forwarding Signal API
-  slug: gsma-open-gateway-call-forwarding-signal
-- description: CAMARA Carrier Billing API as published on the GSMA Open Gateway developer portal. Allows a service provider to charge a purchase to the end user's mobile account through the operator, with payment cr
-  name: GSMA Open Gateway Carrier Billing API
-  slug: gsma-open-gateway-carrier-billing
-- description: CAMARA Carrier Billing Refund API as published on the GSMA Open Gateway developer portal. Companion to Carrier Billing, allowing full or partial refunds of a carrier-billed payment to be requested and
-  name: GSMA Open Gateway Carrier Billing Refund API
-  slug: gsma-open-gateway-carrier-billing-refund
-- description: CAMARA Mobile Device Identifier API as published on the GSMA Open Gateway developer portal. Returns identifying details for the device a subscriber is currently using, such as manufacturer, model, and
-  name: GSMA Open Gateway Mobile Device Identifier API
-  slug: gsma-open-gateway-device-identifier
-- description: 'CAMARA Device Location Retrieval API as published on the GSMA Open Gateway developer portal. Retrieves the network-derived location of a device as a circle or polygon with an accuracy radius, without '
-  name: GSMA Open Gateway Device Location Retrieval API
-  slug: gsma-open-gateway-device-location-retrieval
-- description: CAMARA Device Location Verification API as published on the GSMA Open Gateway developer portal. Answers whether a device is within a requested area rather than returning coordinates, a privacy-preserv
-  name: GSMA Open Gateway Device Location Verification API
-  slug: gsma-open-gateway-device-location-verification
-- description: CAMARA Device Reachability Status API as published on the GSMA Open Gateway developer portal. Reports whether a device is currently reachable on the network and by which connectivity type, used for Io
-  name: GSMA Open Gateway Device Reachability Status API
-  slug: gsma-open-gateway-device-reachability-status
-- description: 'CAMARA Device Roaming Status API as published on the GSMA Open Gateway developer portal. Reports whether a subscriber''s device is currently roaming and, where available, the visited country, used for '
-  name: GSMA Open Gateway Device Roaming Status API
-  slug: gsma-open-gateway-device-roaming-status
-- description: CAMARA Device Swap API as published on the GSMA Open Gateway developer portal. Checks whether the device associated with a mobile number has changed within a recent window, a signal used alongside SIM
-  name: GSMA Open Gateway Device Swap API
-  slug: gsma-open-gateway-device-swap
-- description: CAMARA Home Devices Quality on Demand API as published on the GSMA Open Gateway developer portal. Requests a prioritised quality-of-service profile for a device on a fixed or home broadband connection
-  name: GSMA Open Gateway Home Devices QoD API
-  slug: gsma-open-gateway-home-devices-quality-on-demand
-- description: CAMARA Know Your Customer Match API as published on the GSMA Open Gateway developer portal. Submits customer-supplied identity attributes such as name, address, and date of birth and returns per-attri
-  name: GSMA Open Gateway Know Your Customer Match API
-  slug: gsma-open-gateway-know-your-customer
-- description: 'CAMARA Number Verification API as published on the GSMA Open Gateway developer portal. Silently verifies or retrieves the mobile number of the device making a request using network-based or SIM-based '
-  name: GSMA Open Gateway Number Verification API
-  slug: gsma-open-gateway-number-verification
-- description: CAMARA One Time Password SMS API as published on the GSMA Open Gateway developer portal. Sends a one-time password by SMS through the operator and validates the code the user returns, offered as a fal
-  name: GSMA Open Gateway One Time Password SMS API
-  slug: gsma-open-gateway-otp-validation
-- description: CAMARA Population Density Data API as published on the GSMA Open Gateway developer portal. Returns aggregated, anonymised estimates of device density across a requested geographic area and time window
-  name: GSMA Open Gateway Population Density Data API
-  slug: gsma-open-gateway-population-density-data
-- description: CAMARA Quality on Demand API as published on the GSMA Open Gateway developer portal. Requests, extends, and releases a prioritised network quality profile for a device session, with event notification
-  name: GSMA Open Gateway Quality On Demand API
-  slug: gsma-open-gateway-quality-on-demand
-- description: CAMARA SIM Swap API as published on the GSMA Open Gateway developer portal. Checks whether the SIM associated with a mobile number has been swapped within a recent window and returns the last swap dat
-  name: GSMA Open Gateway SIM Swap API
-  slug: gsma-open-gateway-sim-swap
-- description: CAMARA Simple Edge Discovery API as published on the GSMA Open Gateway developer portal. Returns the closest edge cloud zone to a given device so an application can route traffic to the lowest-latency
-  name: GSMA Open Gateway Simple Edge Discovery API
-  slug: gsma-open-gateway-simple-edge-discovery
+- description: GSMA Call Forwarding Signal from GSMA — 2 path(s) described in OpenAPI.
+  name: GSMA Call Forwarding Signal
+  slug: gsma-open-gateway-call-forwarding-signal-openapi
+- description: GSMA Carrier Billing from GSMA — 6 path(s) described in OpenAPI.
+  name: GSMA Carrier Billing
+  slug: gsma-open-gateway-carrier-billing-openapi
+- description: GSMA Carrier Billing Refund from GSMA — 3 path(s) described in OpenAPI.
+  name: GSMA Carrier Billing Refund
+  slug: gsma-open-gateway-carrier-billing-refund-openapi
+- description: GSMA CAMARA Mobile Device Identifier from GSMA — 2 path(s) described in OpenAPI.
+  name: GSMA CAMARA Mobile Device Identifier
+  slug: gsma-open-gateway-device-identifier-openapi
+- description: GSMA Device Location Retrieval from GSMA — 1 path(s) described in OpenAPI.
+  name: GSMA Device Location Retrieval
+  slug: gsma-open-gateway-device-location-retrieval-openapi
+- description: GSMA Device Location Verification from GSMA — 1 path(s) described in OpenAPI.
+  name: GSMA Device Location Verification
+  slug: gsma-open-gateway-device-location-verification-openapi
+- description: GSMA Device Reachability Status from GSMA — 1 path(s) described in OpenAPI.
+  name: GSMA Device Reachability Status
+  slug: gsma-open-gateway-device-reachability-status-openapi
+- description: GSMA Device Roaming Status from GSMA — 1 path(s) described in OpenAPI.
+  name: GSMA Device Roaming Status
+  slug: gsma-open-gateway-device-roaming-status-openapi
+- description: GSMA Device Swap from GSMA — 2 path(s) described in OpenAPI.
+  name: GSMA Device Swap
+  slug: gsma-open-gateway-device-swap-openapi
+- description: GSMA Home Devices QoD from GSMA — 1 path(s) described in OpenAPI.
+  name: GSMA Home Devices QoD
+  slug: gsma-open-gateway-home-devices-quality-on-demand-openapi
+- description: GSMA Know Your Customer Match from GSMA — 1 path(s) described in OpenAPI.
+  name: GSMA Know Your Customer Match
+  slug: gsma-open-gateway-know-your-customer-openapi
+- description: GSMA Number Verification from GSMA — 2 path(s) described in OpenAPI.
+  name: GSMA Number Verification
+  slug: gsma-open-gateway-number-verification-openapi
+- description: GSMA One Time Password SMS from GSMA — 2 path(s) described in OpenAPI.
+  name: GSMA One Time Password SMS
+  slug: gsma-open-gateway-otp-validation-openapi
+- description: GSMA Population Density Data from GSMA — 1 path(s) described in OpenAPI.
+  name: GSMA Population Density Data
+  slug: gsma-open-gateway-population-density-data-openapi
+- description: GSMA Quality-On-Demand from GSMA — 4 path(s) described in OpenAPI.
+  name: GSMA Quality-On-Demand
+  slug: gsma-open-gateway-quality-on-demand-openapi
+- description: GSMA SIM Swap from GSMA — 2 path(s) described in OpenAPI.
+  name: GSMA SIM Swap
+  slug: gsma-open-gateway-sim-swap-openapi
+- description: GSMA Simple Edge Discovery from GSMA — 1 path(s) described in OpenAPI.
+  name: GSMA Simple Edge Discovery
+  slug: gsma-open-gateway-simple-edge-discovery-openapi
 artifact_total: 25
 asyncapis:
 - description: ''
@@ -317,14 +317,14 @@ modified: '2026-07-25'
 name: GSMA
 nav: Providers
 network: true
-overview: 'GSMA publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Mobile Money API, Open Gateway Call Forwarding Signal API, Open Gateway Carrier Billing API, and 15 more. Tagged areas include Telecommunications, United Kingdom, Standards, Trade Association, and Network APIs.
+overview: 'GSMA publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Mobile Money API, Call Forwarding Signal, Carrier Billing, and 15 more. Tagged areas include Telecommunications, United Kingdom, Standards, Trade Association, and Network APIs.
 
 
   The GSMA catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   GSMA''s developer surface includes authentication, documentation, sandbox, YouTube channel, changelog, API reference, getting-started guide, and 47 more developer resources.'
-random_paper: 14
+random_paper: 44
 scopes:
 - name: Gsma Scopes
   scope_count: 30
@@ -332,16 +332,16 @@ scopes:
   summary_line: 30 scopes
 score:
   band: strong
-  composite: 58.7
-  delta: 3.9
+  composite: 60.2
+  delta: 0.7
   facets:
     commercial_clarity: 34.2
-    contract_quality: 64.6
+    contract_quality: 68.0
     developer_ergonomics: 69.0
-    discoverability: 83.3
+    discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 54.8
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -358,8 +358,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 93.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

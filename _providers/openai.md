@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.7
-  scored_at: '2026-07-28'
+  score: 50.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 6
@@ -996,7 +996,7 @@ plans:
 - name: Openai Plans Pricing
   plan_count: 6
   slug: openai-plans-pricing
-random_paper: 62
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Openai Rate Limits
@@ -1028,16 +1028,16 @@ rules:
   slug: openai-spectral-rules
 score:
   band: exemplar
-  composite: 68.3
-  delta: -3.9
+  composite: 69.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 76.3
+    contract_quality: 79.3
     developer_ergonomics: 56.5
     discoverability: 50.0
     governance: 52.1
     operational_transparency: 63.2
-  previous_composite: 72.2
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1045,8 +1045,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-06-20T190903.png
 security:

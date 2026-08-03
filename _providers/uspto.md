@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ plans:
 - name: Uspto Plans Pricing
   plan_count: 1
   slug: uspto-plans-pricing
-random_paper: 79
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Uspto Rate Limits
@@ -249,16 +249,16 @@ rules:
   slug: uspto-rules
 score:
   band: developing
-  composite: 50.7
-  delta: -4.7
+  composite: 51.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 74.0
+    contract_quality: 76.2
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 55.4
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     contracts:
@@ -272,8 +272,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto/refs/heads/main/screenshots/uspto-2026-06-20T200719.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 122
@@ -367,23 +367,23 @@ plans:
 - name: Loadsmart Plans Pricing
   plan_count: 6
   slug: loadsmart-plans-pricing
-random_paper: 65
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Loadsmart Rate Limits
   slug: loadsmart-rate-limits
 score:
   band: thin
-  composite: 37.3
-  delta: -1.9
+  composite: 38.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 47.0
+    contract_quality: 52.8
     developer_ergonomics: 41.3
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.2
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -391,8 +391,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loadsmart/refs/heads/main/screenshots/loadsmart-2026-06-20T184627.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: The Chat API from Shapes — 1 operation(s) for chat.
@@ -150,19 +150,19 @@ overview: 'Shapes publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Shapes'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 70
+random_paper: 74
 score:
   band: developing
-  composite: 44.8
-  delta: -3.3
+  composite: 45.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 58.2
+    contract_quality: 61.8
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 13.2
-  previous_composite: 48.1
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -178,8 +178,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

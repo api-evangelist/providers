@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Duck.ai is DuckDuckGo's anonymizing proxy in front of third-party LLMs. Free tier currently includes Anthropic Claude 4.5 Haiku, Meta Llama 4 Scout, Mistral Small 3 24B, OpenAI GPT-4o mini / GPT-5 min
@@ -176,7 +176,7 @@ plans:
 - name: Duckduckgo Plans Pricing
   plan_count: 6
   slug: duckduckgo-plans-pricing
-random_paper: 76
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Duckduckgo Rate Limits
@@ -200,24 +200,24 @@ rules:
   slug: instant-answer-rules
 score:
   band: developing
-  composite: 49.2
-  delta: -4.3
+  composite: 49.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.1
+    contract_quality: 69.0
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 53.5
+  previous_composite: 49.9
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duckduckgo/refs/heads/main/screenshots/duckduckgo-2026-06-20T180307.png
 security:

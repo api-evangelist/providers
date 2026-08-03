@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -305,7 +305,7 @@ plans:
 - name: Alpha Vantage Plans Pricing
   plan_count: 7
   slug: alpha-vantage-plans-pricing
-random_paper: 75
+random_paper: 70
 rate_limits:
 - limit_count: 7
   name: Alpha Vantage Rate Limits
@@ -334,21 +334,21 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 70.6
-  delta: -4.6
+  composite: 67.3
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 61.9
+    contract_quality: 46.4
     developer_ergonomics: 77.7
     discoverability: 87.0
     governance: 80.2
     operational_transparency: 36.8
-  previous_composite: 75.2
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 50.0
+      callable: 100.0
       derived: 1
       marker_coverage: 50.0
       total: 2
@@ -360,8 +360,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png
 security:

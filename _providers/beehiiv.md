@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.1
-  scored_at: '2026-07-28'
+  score: 50.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -324,7 +324,7 @@ plans:
 - name: Beehiiv Plans Pricing
   plan_count: 4
   slug: beehiiv-plans-pricing
-random_paper: 76
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Beehiiv Rate Limits
@@ -348,16 +348,16 @@ rules:
   slug: beehiiv-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 59.1
-  delta: -2.6
+  composite: 59.6
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 78.4
+    contract_quality: 80.6
     developer_ergonomics: 63.0
     discoverability: 68.5
     governance: 41.7
     operational_transparency: 26.3
-  previous_composite: 61.7
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
@@ -365,8 +365,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png
 security:

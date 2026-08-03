@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -706,7 +706,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 57
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -723,7 +723,7 @@ rules:
 score:
   band: thin
   composite: 34.9
-  delta: -7.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 32.3
@@ -731,7 +731,7 @@ score:
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 10.5
-  previous_composite: 42.7
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -745,9 +745,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 19.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/screenshots/wormhole-2026-06-20T201625.png
 security:
 - kind: domain-security

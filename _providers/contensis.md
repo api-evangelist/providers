@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,23 +129,23 @@ plans:
 - name: Contensis Plans Pricing
   plan_count: 3
   slug: contensis-plans-pricing
-random_paper: 80
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Contensis Rate Limits
   slug: contensis-rate-limits
 score:
   band: thin
-  composite: 34.1
-  delta: -1.3
+  composite: 35.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 44.9
+    contract_quality: 49.6
     developer_ergonomics: 15.2
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 35.4
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/screenshots/contensis-2026-06-20T174925.png
 security:

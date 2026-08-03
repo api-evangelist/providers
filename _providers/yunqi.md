@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -144,11 +144,11 @@ overview: 'Yunqi (ClickZetta / Singdata Lakehouse) is profiled on the [APIs.io](
 
 
   Yunqi (ClickZetta / Singdata Lakehouse)''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, changelog, and 17 more developer resources.'
-random_paper: 74
+random_paper: 91
 score:
   band: thin
   composite: 34.1
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -156,13 +156,13 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 21.1
-  previous_composite: 33.7
+  previous_composite: 34.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

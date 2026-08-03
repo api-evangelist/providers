@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -1133,7 +1133,7 @@ plans:
 - name: Google Sheets Plans Pricing
   plan_count: 3
   slug: google-sheets-plans-pricing
-random_paper: 22
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Google Sheets Rate Limits
@@ -1162,16 +1162,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.4
-  delta: -0.5
+  composite: 71.7
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 73.4
+    contract_quality: 74.4
     developer_ergonomics: 58.7
     discoverability: 72.2
     governance: 69.8
     operational_transparency: 68.4
-  previous_composite: 71.9
+  previous_composite: 71.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1181,8 +1181,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/screenshots/google-sheets-2026-06-20T182233.png
 security:

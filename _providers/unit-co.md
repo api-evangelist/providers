@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -168,23 +168,23 @@ plans:
 - name: Unit Co Plans Pricing
   plan_count: 2
   slug: unit-co-plans-pricing
-random_paper: 47
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: Unit Co Rate Limits
   slug: unit-co-rate-limits
 score:
   band: thin
-  composite: 35.2
-  delta: -4.7
+  composite: 36.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 51.7
+    contract_quality: 55.8
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.9
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +198,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

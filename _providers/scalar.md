@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 3
@@ -269,7 +269,7 @@ plans:
 - name: Scalar Plans Pricing
   plan_count: 3
   slug: scalar-plans-pricing
-random_paper: 56
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Scalar Rate Limits
@@ -293,16 +293,16 @@ rules:
   slug: scalar-rules
 score:
   band: developing
-  composite: 51.6
-  delta: -5.1
+  composite: 52.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 53.1
+    contract_quality: 57.4
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 56.7
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -310,9 +310,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalar/refs/heads/main/screenshots/scalar-2026-06-20T193504.png
 security:
 - kind: authentication

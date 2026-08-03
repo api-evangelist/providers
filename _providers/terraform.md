@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -329,7 +329,7 @@ plans:
 - name: Terraform Plans Pricing
   plan_count: 3
   slug: terraform-plans-pricing
-random_paper: 76
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Terraform Rate Limits
@@ -353,16 +353,16 @@ rules:
   slug: terraform-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.9
-  delta: -0.5
+  composite: 57.7
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 64.8
+    contract_quality: 67.8
     developer_ergonomics: 43.5
     discoverability: 92.6
     governance: 59.4
     operational_transparency: 47.4
-  previous_composite: 57.4
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -372,8 +372,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
 security:

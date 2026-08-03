@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -1689,7 +1689,7 @@ plans:
 - name: Scaleway Plans Pricing
   plan_count: 2
   slug: scaleway-plans-pricing
-random_paper: 37
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Scaleway Rate Limits
@@ -1713,16 +1713,16 @@ rules:
   slug: scaleway-rules
 score:
   band: strong
-  composite: 56.5
-  delta: -4.5
+  composite: 57.8
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 58.9
+    contract_quality: 64.1
     developer_ergonomics: 63.0
     discoverability: 59.3
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 61.0
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1730,8 +1730,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

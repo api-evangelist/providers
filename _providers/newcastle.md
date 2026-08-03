@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Newcastle Plans Pricing
   plan_count: 2
   slug: newcastle-plans-pricing
-random_paper: 64
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Newcastle Rate Limits
@@ -192,16 +192,16 @@ rules:
   slug: newcastle-rules
 score:
   band: thin
-  composite: 35.7
-  delta: -4.4
+  composite: 36.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 63.1
+    contract_quality: 66.3
     developer_ergonomics: 0.0
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 40.1
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +215,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/screenshots/newcastle-2026-06-20T190237.png
 security:

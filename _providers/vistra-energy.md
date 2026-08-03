@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -156,11 +156,11 @@ overview: 'Vistra Corp is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Vistra Corp''s developer surface includes engineering blog, documentation, and 28 more developer resources.'
-random_paper: 48
+random_paper: 30
 score:
   band: emerging
   composite: 16.2
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -168,7 +168,7 @@ score:
     discoverability: 68.5
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 14.0
+  previous_composite: 16.2
   provenance:
     conformance: derived
   regulatory:
@@ -177,8 +177,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

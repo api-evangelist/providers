@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Free public JSON-RPC 2.0 API for reading the Aleo zero-knowledge blockchain — latest blocks and heights, transactions and transitions, records, deployed programs, mapping values, public NFTs and token
@@ -132,11 +132,11 @@ overview: 'Demox Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Demox Labs'' developer surface includes documentation, getting-started guide, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 20
+random_paper: 54
 score:
   band: thin
   composite: 29.4
-  delta: -4.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -144,7 +144,7 @@ score:
     discoverability: 75.9
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 33.9
+  previous_composite: 29.4
   provenance:
     conformance: derived
     mcp: derived
@@ -154,8 +154,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demox-labs/refs/heads/main/screenshots/demox-labs-2026-07-25T211716.png
 security:

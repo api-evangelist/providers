@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -189,23 +189,23 @@ overview: 'SkimBit publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   SkimBit''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 17
+random_paper: 90
 rate_limits:
-- limit_count: 0
+- limit_count: 6
   name: Skimbit Rate Limits
   slug: skimbit-rate-limits
 score:
   band: developing
-  composite: 42.5
-  delta: -1.3
+  composite: 46.9
+  delta: 4.1
   facets:
     commercial_clarity: 34.2
-    contract_quality: 59.7
+    contract_quality: 60.9
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 7.9
-  previous_composite: 43.8
+    operational_transparency: 39.5
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,8 +216,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

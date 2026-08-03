@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ plans:
 - name: When I Work Plans Pricing
   plan_count: 3
   slug: when-i-work-plans-pricing
-random_paper: 14
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: When I Work Rate Limits
@@ -240,16 +240,16 @@ rules:
   slug: when-i-work-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: -4.5
+  composite: 52.5
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 65.5
+    contract_quality: 69.0
     developer_ergonomics: 21.7
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 56.1
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     contracts:
@@ -257,8 +257,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/when-i-work/refs/heads/main/screenshots/when-i-work-2026-06-20T201428.png
 security:

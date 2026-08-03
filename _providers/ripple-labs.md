@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 62.8
-  scored_at: '2026-07-28'
+  score: 58.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -319,7 +319,7 @@ overview: 'Ripple Labs publishes 36 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Ripple Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 30 more developer resources.'
-random_paper: 49
+random_paper: 70
 scopes:
 - name: Ripple Labs Scopes
   scope_count: 2
@@ -327,16 +327,16 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 56.7
-  delta: -3.1
+  composite: 57.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 66.9
+    contract_quality: 71.2
     developer_ergonomics: 75.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 36.8
-  previous_composite: 59.8
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,8 +353,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

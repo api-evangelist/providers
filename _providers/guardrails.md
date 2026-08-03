@@ -20,7 +20,7 @@ modified: '2026-05-22'
 name: AI Guardrails
 nav: Providers
 network: true
-random_paper: 4
+random_paper: 25
 slug: guardrails
 tags:
 - AI Safety

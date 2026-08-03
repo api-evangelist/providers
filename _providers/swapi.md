@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ plans:
 - name: Swapi Plans Pricing
   plan_count: 1
   slug: swapi-plans-pricing
-random_paper: 56
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Swapi Rate Limits
@@ -260,16 +260,16 @@ rules:
   slug: swapi-spectral-rules
 score:
   band: thin
-  composite: 38.5
-  delta: -7.4
+  composite: 31.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 50.8
+    contract_quality: 23.1
     developer_ergonomics: 15.2
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 45.9
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -277,9 +277,9 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/screenshots/swapi-2026-06-20T194754.png
 security:
 - kind: domain-security

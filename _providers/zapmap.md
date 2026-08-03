@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Commercial charge point search API returning Zapmap's aggregated charging location data for over 50,000 public charging locations across the UK and Ireland — location, availability status (in use / ou
@@ -128,11 +128,11 @@ overview: 'Zapmap publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Zapmap''s developer surface includes authentication, documentation, support, engineering blog, and 14 more developer resources.'
-random_paper: 75
+random_paper: 79
 score:
   band: emerging
   composite: 20.5
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -140,7 +140,7 @@ score:
     discoverability: 83.3
     governance: 3.1
     operational_transparency: 0.0
-  previous_composite: 23.6
+  previous_composite: 20.5
   provenance:
     conformance: derived
   regulatory:
@@ -149,8 +149,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

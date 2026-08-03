@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -318,7 +318,7 @@ plans:
 - name: Microsoft Azure Web Pubsub Plans Pricing
   plan_count: 3
   slug: microsoft-azure-web-pubsub-plans-pricing
-random_paper: 19
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Web Pubsub Rate Limits
@@ -334,16 +334,16 @@ rules:
   slug: microsoft-azure-web-pubsub-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 61.0
-  delta: -7.9
+  composite: 61.5
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 63.6
+    contract_quality: 66.2
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 47.9
     operational_transparency: 68.4
-  previous_composite: 68.9
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -357,9 +357,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 27.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/screenshots/microsoft-azure-web-pubsub-2026-06-20T185444.png
 security:
 - kind: authentication

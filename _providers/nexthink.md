@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ overview: 'Nexthink publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nexthink''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 23 more developer resources.'
-random_paper: 53
+random_paper: 18
 scopes:
 - name: Nexthink Scopes
   scope_count: 1
@@ -208,16 +208,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 48.5
+  composite: 49.4
   delta: 0.0
   facets:
     commercial_clarity: 36.8
-    contract_quality: 56.4
+    contract_quality: 60.1
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 48.5
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -228,8 +228,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

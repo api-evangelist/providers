@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: The Catalog API from Hydrosat — 2 operation(s) for catalog.
@@ -128,19 +128,19 @@ overview: 'Hydrosat publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Hydrosat''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 10 more developer resources.'
-random_paper: 58
+random_paper: 23
 score:
   band: developing
-  composite: 42.4
-  delta: -1.0
+  composite: 43.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 45.8
+    contract_quality: 50.4
     developer_ergonomics: 53.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 36.8
-  previous_composite: 43.4
+  previous_composite: 43.5
   provenance:
     conformance: derived
     contracts:
@@ -150,8 +150,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/screenshots/hydrosat-2026-07-25T221835.png
 security:

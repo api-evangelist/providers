@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 3
 common:
@@ -120,11 +120,11 @@ overview: 'ALICE Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   ALICE Technologies'' developer surface includes support, engineering blog, product news, YouTube channel, and 15 more developer resources.'
-random_paper: 73
+random_paper: 25
 score:
   band: minimal
   composite: 8.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -132,9 +132,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 10.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 8.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alice-tech/refs/heads/main/screenshots/alice-tech-2026-06-20T171521.png
 security:

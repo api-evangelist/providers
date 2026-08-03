@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ plans:
 - name: Zayo Group Plans Pricing
   plan_count: 1
   slug: zayo-group-plans-pricing
-random_paper: 69
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Zayo Group Rate Limits
@@ -115,16 +115,16 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 32.5
-  delta: -1.7
+  composite: 32.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.9
+    contract_quality: 62.0
     developer_ergonomics: 13.0
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.2
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -132,8 +132,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/screenshots/zayo-group-2026-06-20T201802.png
 security:

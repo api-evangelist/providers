@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.9
-  scored_at: '2026-07-28'
+  score: 41.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 2
@@ -777,7 +777,7 @@ plans:
 - name: Zoom Plans Pricing
   plan_count: 4
   slug: zoom-plans-pricing
-random_paper: 43
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Zoom Rate Limits
@@ -814,16 +814,16 @@ scopes:
   summary_line: 19 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.7
-  delta: -3.4
+  composite: 63.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 76.9
+    contract_quality: 78.9
     developer_ergonomics: 56.5
     discoverability: 68.5
     governance: 41.7
     operational_transparency: 63.2
-  previous_composite: 66.1
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     contracts:
@@ -831,8 +831,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png
 security:

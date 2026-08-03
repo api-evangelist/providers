@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ plans:
 - name: Harbor Compliance Plans Pricing
   plan_count: 3
   slug: harbor-compliance-plans-pricing
-random_paper: 12
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Harbor Compliance Rate Limits
@@ -197,16 +197,16 @@ rules:
   slug: harbor-compliance-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.6
-  delta: -2.6
+  composite: 61.2
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 71.2
+    contract_quality: 73.6
     developer_ergonomics: 50.0
     discoverability: 55.6
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 63.2
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     contracts:
@@ -214,8 +214,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/screenshots/harbor-compliance-2026-06-20T182514.png
 security:

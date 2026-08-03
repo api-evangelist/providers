@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.7
-  scored_at: '2026-07-28'
+  score: 46.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -252,23 +252,23 @@ overview: 'Slope publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Slope''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, changelog, and 28 more developer resources.'
-random_paper: 55
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Slope Rate Limits
   slug: slope-rate-limits
 score:
   band: developing
-  composite: 50.1
-  delta: -4.6
+  composite: 50.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 68.2
+    contract_quality: 71.5
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 54.7
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,8 +285,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

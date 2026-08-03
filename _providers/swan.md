@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-07-28'
+  score: 36.5
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Swan''s Partner API is a GraphQL API for embedding banking: accounts and account holders, memberships, cards, SEPA credit transfers and direct debits, standing orders, merchant payments, onboarding, an'
@@ -191,7 +191,7 @@ overview: 'Swan publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Swan''s developer surface includes documentation, API reference, getting-started guide, developer console, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 31
+random_paper: 61
 scopes:
 - name: Swan Scopes
   scope_count: 5
@@ -200,7 +200,7 @@ scopes:
 score:
   band: strong
   composite: 56.6
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -208,7 +208,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 52.6
-  previous_composite: 54.4
+  previous_composite: 56.6
   provenance:
     conformance: first-party
     mcp: derived
@@ -218,8 +218,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

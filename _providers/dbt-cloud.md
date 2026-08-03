@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -130,23 +130,23 @@ plans:
 - name: Dbt Cloud Plans Pricing
   plan_count: 4
   slug: dbt-cloud-plans-pricing
-random_paper: 74
+random_paper: 39
 rate_limits:
 - limit_count: 6
   name: Dbt Cloud Rate Limits
   slug: dbt-cloud-rate-limits
 score:
   band: thin
-  composite: 38.5
-  delta: -2.1
+  composite: 39.5
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 51.7
+    contract_quality: 55.8
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 40.6
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +154,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbt-cloud/refs/heads/main/screenshots/dbt-cloud-2026-07-25T211455.png
 security:

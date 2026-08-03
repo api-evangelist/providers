@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: The Southwest Airlines internal flight booking API powers the southwest.com website for searching and booking flights. It provides flight availability, pricing, schedules, and air booking shopping cap
@@ -145,7 +145,7 @@ press:
 - date: '2026-05-25'
   title: Southwest uses AI to modernize management software
   url: https://www.pwc.com/us/en/library/case-studies/southwest-ai-software-update.html
-random_paper: 28
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Southwest Airlines Rate Limits
@@ -162,7 +162,7 @@ rules:
 score:
   band: thin
   composite: 41.5
-  delta: 4.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 74.1
@@ -170,9 +170,9 @@ score:
     discoverability: 55.6
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 37.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 41.5
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/southwest-airlines/refs/heads/main/screenshots/southwest-airlines-2026-06-20T194230.png
 security:

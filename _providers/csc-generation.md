@@ -1,0 +1,151 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_card: false
+    agent_skills: derived
+    agentic_access: false
+    auth_clarity: true
+    consent_identity: false
+    dry_run_mode: false
+    error_semantics: documented
+    event_surface_described: false
+    idempotency: documented
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.2
+  score: 32.2
+  scored_at: '2026-08-03'
+api_count: 2
+apis:
+- description: Backcountry, a CSC Generation brand, publishes a Universal Commerce Protocol merchant profile at its own /.well-known/ucp declaring UCP 2026-01-23 with both REST and MCP transports for the shopping se
+  name: Backcountry Agent Commerce (UCP)
+  slug: backcountry-agent-commerce-ucp
+- description: Seattle Coffee Gear, a CSC Generation brand, publishes a Universal Commerce Protocol merchant profile at /.well-known/ucp declaring UCP 2026-04-08 (Shopify-native) with MCP and embedded transports, pl
+  name: Seattle Coffee Gear Agent Commerce (UCP)
+  slug: seattle-coffee-gear-agent-commerce-ucp
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/csc-generation-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cscgeneration.com/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/csc-generation/
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.cscgeneration.com/careers
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://forgeglobal.com/csc-generation_stock/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/csc-generation-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/csc-generation-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/csc-generation-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/csc-generation-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/csc-generation-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/csc-generation-conventions.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/csc-generation-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/csc-generation-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/csc-generation-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/csc-generation-lifecycle.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-08-01'
+description: CSC Generation is an AI-native retail holding company that acquires overlooked store- and catalogue-based retailers and rebuilds them on Genesis, its agent-orchestrated operating platform. Genesis combines a Data Fabric — a Data Management Platform that ingests and normalizes data across every brand without replatforming, and a Data Intelligence Platform that turns it into decision-ready signals for operators and AI agents — with an automation engine, proprietary retail AI tools, and centralized shared services covering customer experience, supply chain, technology and compliance. The company powers 13 brands and more than $1B in revenue, including Backcountry, Competitive Cyclist, Steep & Cheap, MotoSport, BikeTiresDirect, Level Nine Sports, Sur La Table, One Kings Lane, Seattle Coffee Gear and Home Consignment Center, and operates from Chicago, Austin, Los Angeles, Toronto, Seattle and Salt Lake City. CSC Generation publishes no corporate developer API; its machine-readable
+  surface is per-brand — portfolio storefronts advertise Universal Commerce Protocol (UCP) merchant profiles at /.well-known/ucp that point agents at MCP endpoints for catalog search, cart and checkout.
+image: https://www.cscgeneration.com/lovable-uploads/eccc3cb7-1376-4c88-a582-2a4ca479b43e.png
+layout: provider
+mcp_servers:
+- description: ''
+  name: csc-generation-mcp.yml
+  slug: csc-generation-mcpyml
+modified: '2026-08-01'
+name: CSC Generation
+nav: Providers
+network: true
+overview: 'CSC Generation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Agent Commerce, and Artificial Intelligence.
+
+
+  CSC Generation''s developer surface includes authentication and 15 more developer resources.'
+random_paper: 1
+score:
+  band: emerging
+  composite: 14.4
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 21.2
+    discoverability: 87.0
+    governance: 12.5
+    operational_transparency: 0.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+security:
+- kind: authentication
+  name: Csc Generation Authentication
+  slug: csc-generation-authentication
+  summary_line: apiKey/agent-profile-handshake · 2 schemes
+- kind: domain-security
+  name: Csc Generation Domain Security
+  slug: csc-generation-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: csc-generation
+tags:
+- Company
+- Retail
+- E-Commerce
+- Agent Commerce
+- Artificial Intelligence
+- Universal Commerce Protocol
+- Model Context Protocol
+- Holding Company
+- Shopping
+website: https://www.cscgeneration.com/
+---

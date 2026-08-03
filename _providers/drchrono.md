@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-07-28'
+  score: 41.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 163
   human_in_the_loop: 0
@@ -619,7 +619,7 @@ plans:
 - name: Drchrono Plans Pricing
   plan_count: 5
   slug: drchrono-plans-pricing
-random_paper: 43
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Drchrono Rate Limits
@@ -640,16 +640,16 @@ scopes:
   summary_line: 23 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.2
-  delta: -6.4
+  composite: 50.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 52.7
+    contract_quality: 58.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 42.1
-  previous_composite: 55.6
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -663,9 +663,9 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/screenshots/drchrono-2026-06-20T180219.png
 security:
 - kind: authentication

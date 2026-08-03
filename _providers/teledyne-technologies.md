@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ press:
 - date: '2026-05-25'
   title: Teledyne to Hold Investor Meetings
   url: https://www.teledyne.com/en-us/news/Pages/teledyne-to-hold-investor-meetings-20250902.aspx
-random_paper: 55
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Teledyne Technologies Rate Limits
@@ -191,16 +191,16 @@ rules:
   slug: teledyne-technologies-rules
 score:
   band: thin
-  composite: 41.1
-  delta: -5.1
+  composite: 41.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 63.0
+    contract_quality: 66.1
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 46.2
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -208,9 +208,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/screenshots/teledyne-technologies-2026-06-20T195024.png
 security:
 - kind: domain-security

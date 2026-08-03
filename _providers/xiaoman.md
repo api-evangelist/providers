@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.0
-  scored_at: '2026-07-28'
+  score: 45.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ plans:
 - name: Xiaoman Plans
   plan_count: 4
   slug: xiaoman-plans
-random_paper: 11
+random_paper: 84
 rate_limits:
 - limit_count: 3
   name: Xiaoman Rate Limits
@@ -251,16 +251,16 @@ scopes:
   summary_line: 12 scopes · password/clientCredentials
 score:
   band: strong
-  composite: 61.9
-  delta: 0.7
+  composite: 62.9
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
-    contract_quality: 60.8
+    contract_quality: 64.9
     developer_ergonomics: 78.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 61.2
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,8 +271,8 @@ score:
       total: 7
     mcp: derived
     skills: unknown
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

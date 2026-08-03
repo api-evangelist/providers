@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -414,7 +414,7 @@ plans:
 - name: Parcellab Plans Pricing
   plan_count: 4
   slug: parcellab-plans-pricing
-random_paper: 32
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Parcellab Rate Limits
@@ -438,16 +438,16 @@ rules:
   slug: parcellab-rules
 score:
   band: exemplar
-  composite: 66.9
-  delta: -5.2
+  composite: 67.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 72.2
+    contract_quality: 74.5
     developer_ergonomics: 78.3
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 72.1
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     contracts:
@@ -455,9 +455,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png
 security:
 - kind: authentication

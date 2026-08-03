@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Anthemis Group
 nav: Providers
 network: true
-random_paper: 37
+random_paper: 2
 slug: anthemis
 tags:
 - Venture Capital

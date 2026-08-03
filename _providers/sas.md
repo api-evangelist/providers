@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ plans:
 - name: Sas Plans Pricing
   plan_count: 3
   slug: sas-plans-pricing
-random_paper: 81
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Sas Rate Limits
@@ -254,15 +254,15 @@ scopes:
 score:
   band: developing
   composite: 52.4
-  delta: -4.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.7
+    contract_quality: 62.8
     developer_ergonomics: 47.8
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 56.4
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
@@ -270,8 +270,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/screenshots/sas-2026-06-20T193436.png
 security:

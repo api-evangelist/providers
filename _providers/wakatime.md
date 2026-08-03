@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -658,7 +658,7 @@ plans:
 - name: Wakatime Plans Pricing
   plan_count: 5
   slug: wakatime-plans-pricing
-random_paper: 31
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Wakatime Rate Limits
@@ -687,16 +687,16 @@ scopes:
   summary_line: 8 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 64.4
-  delta: -7.5
+  composite: 56.3
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 61.4
+    contract_quality: 28.8
     developer_ergonomics: 43.5
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 71.9
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -704,9 +704,9 @@ score:
       derived: 20
       marker_coverage: 100.0
       total: 20
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/screenshots/wakatime-2026-06-20T201207.png
 security:
 - kind: authentication

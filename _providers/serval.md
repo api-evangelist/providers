@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Auth API API from Serval — 1 operation(s) for auth api.
@@ -143,7 +143,7 @@ overview: 'Serval publishes 1 API on the [APIs.io](https://apis.io/) network: Au
 
 
   Serval''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 14 more developer resources.'
-random_paper: 79
+random_paper: 83
 scopes:
 - name: Serval Scopes
   scope_count: 1
@@ -151,11 +151,11 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 52.0
-  delta: -0.7
+  composite: 52.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 65.3
+    contract_quality: 68.2
     developer_ergonomics: 56.5
     discoverability: 87.0
     governance: 3.1
@@ -169,8 +169,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

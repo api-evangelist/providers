@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 2
@@ -278,7 +278,7 @@ plans:
 - name: Hugging Face Transformers Plans Pricing
   plan_count: 3
   slug: hugging-face-transformers-plans-pricing
-random_paper: 10
+random_paper: 82
 rate_limits:
 - limit_count: 5
   name: Hugging Face Transformers Rate Limits
@@ -290,16 +290,16 @@ scopes:
   summary_line: 15 scopes · authorizationCode/deviceCode
 score:
   band: developing
-  composite: 47.5
-  delta: 1.4
+  composite: 48.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 45.8
+    contract_quality: 51.3
     developer_ergonomics: 37.0
     discoverability: 83.3
     governance: 11.5
     operational_transparency: 52.6
-  previous_composite: 46.1
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,8 +309,8 @@ score:
       marker_coverage: 0.0
       total: 23
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/screenshots/hugging-face-transformers-2026-06-20T182926.png
 security:

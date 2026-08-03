@@ -10,16 +10,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.6
-  scored_at: '2026-07-28'
+  score: 33.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Trendyol Marketplace / Partner API for sellers and integrators — product, order/shipment, returns, invoice, settlement, and webhook operations.
@@ -123,7 +123,7 @@ overview: 'Trendyol publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Trendyol''s developer surface includes documentation, API reference, getting-started guide, support, changelog, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 61
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Trendyol Rate Limits
@@ -131,7 +131,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.1
-  delta: 4.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.6
@@ -139,13 +139,13 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 76.3
-  previous_composite: 38.3
+  previous_composite: 43.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

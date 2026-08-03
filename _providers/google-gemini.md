@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.7
-  scored_at: '2026-07-28'
+  score: 43.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -274,7 +274,7 @@ plans:
 - name: Google Gemini Plans Pricing
   plan_count: 7
   slug: google-gemini-plans-pricing
-random_paper: 3
+random_paper: 80
 rate_limits:
 - limit_count: 7
   name: Google Gemini Rate Limits
@@ -297,17 +297,17 @@ rules:
     warn: 4
   slug: google-gemini-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 56.0
-  delta: -2.9
+  band: developing
+  composite: 55.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 86.1
+    contract_quality: 85.1
     developer_ergonomics: 17.4
     discoverability: 63.0
     governance: 47.9
     operational_transparency: 52.6
-  previous_composite: 58.9
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     contracts:
@@ -315,8 +315,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/screenshots/google-gemini-2026-06-20T182205.png
 security:

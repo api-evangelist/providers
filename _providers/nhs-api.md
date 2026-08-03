@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ overview: 'NHS API publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   NHS API''s developer surface includes authentication, developer portal, documentation, getting-started guide, status page, and 13 more developer resources.'
-random_paper: 32
+random_paper: 23
 rules:
 - name: NHS API API Rules
   rule_count: 5
@@ -200,16 +200,16 @@ rules:
   slug: nhs-api-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.7
-  delta: -7.1
+  composite: 40.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 54.9
+    contract_quality: 61.8
     developer_ergonomics: 43.5
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 45.8
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -223,9 +223,9 @@ score:
     regime: Health
     regime_id: health
     score: 33.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Nhs Api Authentication

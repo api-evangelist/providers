@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Engagespot REST API enables sending multi-channel notifications to users, listing and deleting notification records, managing user accounts and preferences, triggering and canceling notification w
@@ -112,7 +112,7 @@ plans:
 - name: Engagespot Plans Pricing
   plan_count: 3
   slug: engagespot-plans-pricing
-random_paper: 3
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Engagespot Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.9
-  delta: -7.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 45.2
@@ -128,16 +128,16 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 41.5
+  previous_composite: 33.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagespot/refs/heads/main/screenshots/engagespot-2026-06-20T180716.png
 security:
 - kind: domain-security

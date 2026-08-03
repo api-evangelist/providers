@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 98
@@ -1205,7 +1205,7 @@ plans:
 - name: Workos Plans Pricing
   plan_count: 7
   slug: workos-plans-pricing
-random_paper: 21
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Workos Rate Limits
@@ -1228,17 +1228,17 @@ rules:
     warn: 6
   slug: workos-rules
 score:
-  band: strong
-  composite: 65.5
-  delta: -3.0
+  band: exemplar
+  composite: 66.3
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
-    contract_quality: 69.4
+    contract_quality: 72.3
     developer_ergonomics: 63.0
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 68.4
-  previous_composite: 68.5
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1246,8 +1246,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 41
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/screenshots/workos-2026-06-20T201614.png
 security:

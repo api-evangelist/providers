@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,19 +162,19 @@ overview: 'CertiK publishes 2 APIs on the [APIs.io](https://apis.io/) network: S
 
 
   CertiK''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, support, and 19 more developer resources.'
-random_paper: 68
+random_paper: 72
 score:
   band: developing
-  composite: 44.6
-  delta: 0.1
+  composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 45.1
     discoverability: 87.0
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 44.5
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -185,8 +185,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/screenshots/certik-2026-07-25T205001.png
 security:

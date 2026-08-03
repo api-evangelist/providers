@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: documented
     mcp_server: derived
-    openapi_examples: false
+    openapi_examples: verified
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-07-28'
+  score: 54.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ overview: 'Endeavour Energy publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Endeavour Energy''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
-random_paper: 24
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Endeavour Energy Rate Limits
@@ -218,16 +218,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.1
-  delta: -5.5
+  composite: 50.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 32.3
+    contract_quality: 58.9
     developer_ergonomics: 62.5
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 55.3
-  previous_composite: 50.6
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,9 +239,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Endeavour Energy Authentication

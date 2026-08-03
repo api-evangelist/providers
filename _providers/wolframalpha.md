@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -398,7 +398,7 @@ plans:
 - name: Wolframalpha Plans Pricing
   plan_count: 3
   slug: wolframalpha-plans-pricing
-random_paper: 48
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Wolframalpha Rate Limits
@@ -421,17 +421,17 @@ rules:
     warn: 11
   slug: wolframalpha-rules
 score:
-  band: strong
-  composite: 57.2
-  delta: -6.8
+  band: developing
+  composite: 47.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.3
+    contract_quality: 32.8
     developer_ergonomics: 41.3
     discoverability: 75.9
     governance: 68.8
     operational_transparency: 26.3
-  previous_composite: 64.0
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -439,9 +439,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wolframalpha/refs/heads/main/screenshots/wolframalpha-2026-06-20T201538.png
 security:
 - kind: authentication

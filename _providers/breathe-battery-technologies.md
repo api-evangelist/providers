@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: API-delivered battery simulation service for predicting performance and degradation with validated physics-based cell models, and for retrieving and designing battery cell formats. Accessed through th
@@ -120,11 +120,11 @@ overview: 'Breathe Battery Technologies publishes 1 API on the [APIs.io](https:/
 
 
   Breathe Battery Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 80
+random_paper: 18
 score:
   band: thin
   composite: 28.4
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -132,9 +132,9 @@ score:
     discoverability: 77.8
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 28.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 28.4
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breathe-battery-technologies/refs/heads/main/screenshots/breathe-battery-technologies-2026-07-25T203734.png
 security:

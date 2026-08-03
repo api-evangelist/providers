@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-07-28'
+  score: 36.5
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API for the ZKsync Era ZK rollup. Standard eth_* methods plus the ZKsync-specific zks_* namespace (batches, bridging, fee estimation, proofs) over HTTPS POST, with a W
@@ -143,11 +143,11 @@ overview: 'Matter Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Matter Labs'' developer surface includes documentation, API reference, quickstart, CLI, authentication, and 16 more developer resources.'
-random_paper: 50
+random_paper: 71
 score:
   band: thin
   composite: 39.1
-  delta: 5.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.6
@@ -155,13 +155,13 @@ score:
     discoverability: 87.0
     governance: 3.1
     operational_transparency: 5.3
-  previous_composite: 33.3
+  previous_composite: 39.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matter-labs/refs/heads/main/screenshots/matter-labs-2026-07-25T230425.png
 security:
 - kind: authentication

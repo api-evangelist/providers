@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ plans:
 - name: Deepl Plans Pricing
   plan_count: 3
   slug: deepl-plans-pricing
-random_paper: 30
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Deepl Rate Limits
@@ -241,16 +241,16 @@ rules:
   slug: deepl-translation-api-rules
 score:
   band: strong
-  composite: 60.9
-  delta: -3.1
+  composite: 61.4
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 76.3
+    contract_quality: 78.3
     developer_ergonomics: 41.3
     discoverability: 74.1
     governance: 52.1
     operational_transparency: 31.6
-  previous_composite: 64.0
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     contracts:
@@ -258,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/screenshots/deepl-2026-06-20T175808.png
 security:

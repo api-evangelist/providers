@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ plans:
 - name: Labvantage Plans Pricing
   plan_count: 1
   slug: labvantage-plans-pricing
-random_paper: 61
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Labvantage Rate Limits
@@ -129,16 +129,16 @@ rules:
   slug: labvantage-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.0
-  delta: -6.6
+  composite: 38.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 65.6
+    contract_quality: 68.5
     developer_ergonomics: 10.9
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 21.1
-  previous_composite: 44.6
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -152,9 +152,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/screenshots/labvantage-2026-06-20T184240.png
 security:
 - kind: authentication

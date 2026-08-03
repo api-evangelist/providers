@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'BankSA publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   BankSA''s developer surface includes authentication, API reference, support, documentation, and 21 more developer resources.'
-random_paper: 50
+random_paper: 54
 scopes:
 - name: Banksa Scopes
   scope_count: 9
@@ -185,16 +185,16 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: thin
-  composite: 40.3
-  delta: -3.7
+  composite: 41.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 34.2
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 18.4
-  previous_composite: 44.0
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +211,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 73.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/screenshots/banksa-2026-07-21T114709.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Provides access to the organizations a John Deere Operations Center user belongs to. Organizations are the top-level container for users, fields, equipment, and partner relationships in Operations Cen
@@ -122,7 +122,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at John Deere
   url: https://emerj.com/artificial-intelligence-at-john-deere/
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 3
   name: Deere Rate Limits
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.8
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -138,9 +138,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 27.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 24.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deere/refs/heads/main/screenshots/deere-2026-06-20T175814.png
 security:

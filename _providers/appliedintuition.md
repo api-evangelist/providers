@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,11 +87,11 @@ overview: 'Applied Intuition is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Applied Intuition''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
   band: emerging
   composite: 13.3
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -99,9 +99,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 14.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 13.3
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appliedintuition/refs/heads/main/screenshots/appliedintuition-2026-07-25T200800.png
 security:

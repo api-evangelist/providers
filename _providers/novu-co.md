@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Novu Co Plans Pricing
   plan_count: 5
   slug: novu-co-plans-pricing
-random_paper: 55
+random_paper: 46
 rate_limits:
 - limit_count: 13
   name: Novu Co Rate Limits
@@ -171,16 +171,16 @@ rules:
   slug: novu-co-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.2
-  delta: -8.8
+  composite: 43.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.7
+    contract_quality: 68.2
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 52.0
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -194,9 +194,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Novu Co Authentication

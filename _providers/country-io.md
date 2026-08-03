@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -114,7 +114,7 @@ plans:
 - name: Country Io Plans Pricing
   plan_count: 3
   slug: country-io-plans-pricing
-random_paper: 65
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Country Io Rate Limits
@@ -130,16 +130,16 @@ rules:
   slug: country-io-data-rules
 score:
   band: thin
-  composite: 33.6
-  delta: -3.1
+  composite: 34.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 50.8
+    contract_quality: 55.0
     developer_ergonomics: 0.0
     discoverability: 74.1
     governance: 31.3
     operational_transparency: 31.6
-  previous_composite: 36.7
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/screenshots/country-io-2026-06-20T175104.png
 security:

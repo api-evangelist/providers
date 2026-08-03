@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ overview: 'Shapeways publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Shapeways'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 79
+random_paper: 31
 scopes:
 - name: Shapeways Scopes
   scope_count: 0
@@ -180,16 +180,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 40.5
-  delta: -5.4
+  composite: 33.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 43.6
+    contract_quality: 14.2
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 45.9
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -200,9 +200,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Shapeways Authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 18
@@ -3655,7 +3655,7 @@ plans:
 - name: Stytch Plans Pricing
   plan_count: 2
   slug: stytch-plans-pricing
-random_paper: 15
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Stytch Rate Limits
@@ -3679,16 +3679,16 @@ rules:
   slug: stytch-rules
 score:
   band: exemplar
-  composite: 66.8
-  delta: -3.9
+  composite: 67.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.7
+    contract_quality: 73.4
     developer_ergonomics: 71.7
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 60.5
-  previous_composite: 70.7
+  previous_composite: 67.8
   provenance:
     agentic_access: derived
     contracts:
@@ -3696,8 +3696,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/screenshots/stytch-2026-06-20T194631.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -187,19 +187,19 @@ overview: 'Rigetti Computing publishes 9 APIs on the [APIs.io](https://apis.io/)
 
 
   Rigetti Computing''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 65
+random_paper: 77
 score:
   band: developing
-  composite: 46.3
-  delta: -1.7
+  composite: 47.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 57.5
+    contract_quality: 60.9
     developer_ergonomics: 69.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 48.0
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,8 +210,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

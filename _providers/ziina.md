@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.3
-  scored_at: '2026-07-28'
+  score: 50.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -289,7 +289,7 @@ plans:
 - name: Ziina Plans Pricing
   plan_count: 3
   slug: ziina-plans-pricing
-random_paper: 47
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Ziina Rate Limits
@@ -300,17 +300,17 @@ scopes:
   slug: ziina-scopes
   summary_line: 7 scopes
 score:
-  band: strong
-  composite: 65.7
-  delta: -2.6
+  band: exemplar
+  composite: 66.5
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
-    contract_quality: 55.7
+    contract_quality: 59.5
     developer_ergonomics: 66.8
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 68.3
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,8 +327,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

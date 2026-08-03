@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: GraphQL API for scheduling and publishing posts, managing social media channels, handling content ideas, and accessing post metrics across 11 major social media platforms.
@@ -108,7 +108,7 @@ plans:
 - name: Buffer Plans Pricing
   plan_count: 3
   slug: buffer-plans-pricing
-random_paper: 60
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Buffer Rate Limits
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.8
-  delta: 9.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 48.1
@@ -124,10 +124,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 24.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 33.8
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: domain-security
   name: Buffer Domain Security

@@ -1,15 +1,15 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-07-28'
+  score: 30.2
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: The core RESTful payment API of the ACI Open Payment Platform (PAY.ON gateway). Server-to-Server integration lets merchants and PSPs run end-to-end payment workflows — preauthorization, debit, capture
@@ -158,11 +158,11 @@ overview: 'ACI Worldwide publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   ACI Worldwide''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 18 more developer resources.'
-random_paper: 11
+random_paper: 88
 score:
   band: developing
   composite: 49.0
-  delta: 7.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.6
@@ -170,7 +170,7 @@ score:
     discoverability: 92.6
     governance: 12.5
     operational_transparency: 23.7
-  previous_composite: 41.7
+  previous_composite: 49.0
   provenance:
     conformance: first-party
   regulatory:
@@ -179,9 +179,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aci-worldwide/refs/heads/main/screenshots/aci-worldwide-2026-07-25T181458.png
 security:
 - kind: authentication

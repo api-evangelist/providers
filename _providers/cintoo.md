@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-07-28'
+  score: 41.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ overview: 'Cintoo publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cintoo''s developer surface includes documentation, support, engineering blog, authentication, sandbox, CLI, and 15 more developer resources.'
-random_paper: 78
+random_paper: 82
 scopes:
 - name: Cintoo Scopes
   scope_count: 0
@@ -211,16 +211,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.3
-  delta: -3.9
+  composite: 38.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 48.9
+    contract_quality: 56.7
     developer_ergonomics: 51.6
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 0.0
-  previous_composite: 40.2
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +231,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cintoo/refs/heads/main/screenshots/cintoo-2026-07-25T205406.png
 security:

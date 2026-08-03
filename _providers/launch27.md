@@ -11,16 +11,16 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Launch27 Plans Pricing
   plan_count: 4
   slug: launch27-plans-pricing
-random_paper: 2
+random_paper: 75
 rate_limits:
 - limit_count: 3
   name: Launch27 Rate Limits
@@ -155,16 +155,16 @@ rules:
   slug: launch27-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.9
-  delta: -3.0
+  composite: 44.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.3
+    contract_quality: 68.2
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 31.6
-  previous_composite: 46.9
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +172,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/screenshots/launch27-2026-07-25T224614.png
 security:

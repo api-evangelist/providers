@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Infraspeak's public REST API (v3) for programmatic access to facilities and maintenance management resources — assets, work orders, failures, preventive maintenance, stock, suppliers, and more. Docume
@@ -127,11 +127,11 @@ overview: 'Infraspeak publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Infraspeak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 76
+random_paper: 15
 score:
   band: thin
   composite: 31.2
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -139,11 +139,11 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 5.3
-  previous_composite: 30.3
+  previous_composite: 31.2
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infraspeak/refs/heads/main/screenshots/infraspeak-2026-07-25T222426.png
 security:

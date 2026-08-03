@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The OpenID Connect / OAuth 2.0 authorization server that authenticates E.ON Next customers into the online account and mobile app. It is an Auth0-hosted E.ON group CIAM tenant (certificate CN eon-next
@@ -115,7 +115,7 @@ overview: 'E.ON Next publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   E.ON Next''s developer surface includes authentication, engineering blog, support, pricing, and 15 more developer resources.'
-random_paper: 76
+random_paper: 54
 scopes:
 - name: Eon Next Scopes
   scope_count: 14
@@ -124,7 +124,7 @@ scopes:
 score:
   band: thin
   composite: 30.1
-  delta: 7.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -132,7 +132,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 10.5
-  previous_composite: 23.0
+  previous_composite: 30.1
   provenance:
     conformance: first-party
   regulatory:
@@ -141,9 +141,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Eon Next Authentication

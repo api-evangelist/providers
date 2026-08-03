@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: verified
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -174,14 +174,14 @@ overview: 'Narrative Sports publishes 6 APIs on the [APIs.io](https://apis.io/) 
 
 
   Narrative Sports'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 75
+random_paper: 70
 score:
   band: developing
-  composite: 45.8
-  delta: -1.1
+  composite: 46.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 49.0
+    contract_quality: 53.4
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
@@ -197,8 +197,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

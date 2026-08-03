@@ -15,14 +15,14 @@
      "name": "Hydro-Québec",
      "slug": "hydro-quebec",
      "description": "Hydro-Québec is the government-owned Crown corporation that generates, transmits and distributes almost all of the electricity consumed in Québec, Canada — a vertically integrated, near-monopoly utility running one of the largest hydroelectric fleets in the world and serving roughly 4.6 million customer accounts across the province. It sits at every point of the value chain at once, as generator, transmission owner, distributor and retailer, plus a cross-border exporter into the New England and New York markets. Its API posture is a clean split. Market and grid data is genuinely open — a public Opendatasoft-powered portal at donnees.hydroquebec.com serves 26 datasets (electricity demand and generation, imports and exports, outages, GHG emission factors, hydrometric and weather data, winter peak demand events, vegetation control) through a documented, anonymously callable REST API with a machine-readable OpenAPI 3.0.3 description and a DCAT catalog export, licensed CC BY-NC 4.0. Consumer data is closed — there is no documented customer-facing API, no Green Button Download My Data or Connect My Data service, and no third-party consent flow; a customer's own usage is reachable only by logging into the Espace client web portal. Québec has no consumer energy data right. Ontario's Green Button regulation (O. Reg. 633/21 under the Electricity Act, 1998) is province-specific and does not bind Hydro-Québec, and Canada has no national equivalent to Australia's Consumer Data Right energy regime. Open market data, closed consumer data, no mandate.",
-     "score": 52.1,
+     "score": 54.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
       "contract_quality": 58.9,
       "governance": 11.5,
-      "operational_transparency": 50.0,
+      "operational_transparency": 71.1,
       "developer_ergonomics": 69.0,
       "commercial_clarity": 21.1
      },
@@ -667,14 +667,14 @@
      "name": "ENMAX",
      "slug": "enmax",
      "description": "ENMAX Corporation is the Calgary-based energy company owned outright by The City of Calgary, describing itself on its own about page as \"a regulated wires company, a competitive power generator and an energy retailer\" operating \"across Alberta and Maine.\" It spans three tiers of the value chain at once: ENMAX Power owns and operates the regulated electricity distribution and transmission system inside Calgary, ENMAX Energy generates power and sells electricity and natural gas into Alberta's deregulated retail market under the Easymax brand, and Versant Power — acquired from Emera in 2020 — is the transmission and distribution utility for northern and eastern Maine. Its API posture is the exact inverse of the Ontario utilities it is usually compared to, and the inversion is the finding. No consumer energy data mandate binds ENMAX anywhere it operates: Alberta has no Green Button regulation, Ontario's O. Reg. 633/21 does not reach across the provincial border, Canada has no national equivalent, and Maine imposes no Green Button obligation on Versant Power. Unmandated, ENMAX built nothing — its own support documentation states plainly that the Energy Insights usage view inside a customer's Easymax account \"is view-only within your online account and can't be exported at this time,\" which is a harder closure than most: not merely no API, but no CSV, no XML, and no Green Button either. There is no developer portal, no developer, api, docs or data subdomain, no OpenAPI, and no published third-party data path. What ENMAX does publish openly is grid data. Its Hosting Capacity, Load Capacity and Service Area maps, linked from enmax.com/system-resources, are ArcGIS Online web applications backed by ArcGIS REST feature services that answer anonymous machine-readable queries with no key, no signup and no terms — distribution-feeder DER hosting headroom and remaining load capacity for the Calgary service territory, the data a solar or storage developer actually needs. ENMAX never calls this an API and documents none of it, but it is real, it is open, and it is queryable. Wide open on grid data, completely shut on customer data.",
-     "score": 23.0,
+     "score": 25.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 0.0,
       "governance": 12.5,
-      "operational_transparency": 0.0,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -143,23 +143,23 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: thin
-  composite: 35.6
-  delta: -1.8
+  composite: 35.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.9
+    contract_quality: 59.9
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 37.4
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +173,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 36.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/screenshots/hegic-2026-06-20T182611.png
 security:

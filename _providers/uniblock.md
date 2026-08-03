@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-07-28'
+  score: 42.3
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ plans:
 - name: Uniblock Plans Pricing
   plan_count: 5
   slug: uniblock-plans-pricing
-random_paper: 35
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Uniblock Rate Limits
@@ -237,16 +237,16 @@ rules:
   slug: uniblock-rules
 score:
   band: developing
-  composite: 54.8
-  delta: -4.4
+  composite: 55.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 76.8
+    contract_quality: 78.7
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 52.1
     operational_transparency: 31.6
-  previous_composite: 59.2
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -254,8 +254,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/screenshots/uniblock-2026-06-20T200030.png
 security:

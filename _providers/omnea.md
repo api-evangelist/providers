@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: 'Omnea''s documented public REST API for programmatic access to the procurement platform. The reference is served as a client-rendered docs app; the OpenAPI definition is not published at a static path '
@@ -112,11 +112,11 @@ overview: 'Omnea publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Omnea''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 9 more developer resources.'
-random_paper: 36
+random_paper: 53
 score:
   band: emerging
   composite: 26.9
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -124,11 +124,11 @@ score:
     discoverability: 79.6
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 28.1
+  previous_composite: 26.9
   provenance:
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

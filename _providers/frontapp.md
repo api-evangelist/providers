@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.9
-  scored_at: '2026-07-28'
+  score: 46.8
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: The Front Core API is a REST API over Front's shared-inbox platform. It exposes conversations, messages, drafts, comments, contacts, accounts, inboxes, channels, tags, teammates, teams, knowledge base
@@ -195,7 +195,7 @@ overview: 'FrontApp publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   FrontApp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
-random_paper: 54
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Frontapp Rate Limits
@@ -208,7 +208,7 @@ scopes:
 score:
   band: strong
   composite: 59.3
-  delta: 10.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.6
@@ -216,7 +216,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 55.3
-  previous_composite: 48.5
+  previous_composite: 59.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -226,9 +226,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/screenshots/frontapp-2026-07-25T215228.png
 security:
 - kind: authentication

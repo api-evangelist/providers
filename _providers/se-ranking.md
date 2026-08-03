@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ plans:
 - name: Se Ranking Plans Pricing
   plan_count: 6
   slug: se-ranking-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 6
   name: Se Ranking Rate Limits
@@ -197,16 +197,16 @@ rules:
   slug: se-ranking-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.3
-  delta: -4.1
+  composite: 52.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.9
+    contract_quality: 67.4
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 56.4
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
@@ -214,8 +214,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/screenshots/se-ranking-2026-06-20T193611.png
 security:

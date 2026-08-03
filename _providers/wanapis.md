@@ -15,20 +15,20 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.4
-  scored_at: '2026-07-28'
+  score: 22.5
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: OpenAI-compatible REST API gateway aggregating GPT, Claude, Gemini, DeepSeek, plus image, video, and audio model providers behind a single key and routing/failover layer. Model marketplace, usage logs
@@ -114,7 +114,7 @@ plans:
 - name: Wanapis Plans Pricing
   plan_count: 2
   slug: wanapis-plans-pricing
-random_paper: 17
+random_paper: 90
 rate_limits:
 - limit_count: 4
   name: Wanapis Rate Limits
@@ -137,25 +137,25 @@ rules:
     warn: 4
   slug: wanapis-rules
 score:
-  band: thin
-  composite: 41.6
-  delta: -3.4
+  band: developing
+  composite: 46.3
+  delta: 4.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 53.2
+    contract_quality: 71.8
     developer_ergonomics: 8.7
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 45.0
+  previous_composite: 41.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/screenshots/wanapis-2026-06-20T201218.png
 security:

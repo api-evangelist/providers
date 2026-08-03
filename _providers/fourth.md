@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 7
 apis:
 - description: Platform notifications API secured with OAuth 2.0 (scope NotificationService).
@@ -170,7 +170,7 @@ overview: 'Fourth publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Fourth''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 19 more developer resources.'
-random_paper: 8
+random_paper: 94
 scopes:
 - name: Fourth Scopes
   scope_count: 1
@@ -179,7 +179,7 @@ scopes:
 score:
   band: thin
   composite: 37.8
-  delta: 1.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -187,11 +187,11 @@ score:
     discoverability: 83.3
     governance: 12.5
     operational_transparency: 57.9
-  previous_composite: 36.7
+  previous_composite: 37.8
   provenance:
     conformance: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/screenshots/fourth-2026-07-25T215048.png
 security:

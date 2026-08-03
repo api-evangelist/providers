@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 60.1
-  scored_at: '2026-07-28'
+  score: 56.1
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Submit and manage batches of requests.
@@ -187,19 +187,19 @@ overview: 'Sail Research publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Sail Research''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 3
+random_paper: 80
 score:
   band: developing
-  composite: 55.2
-  delta: -1.3
+  composite: 55.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 68.5
+    contract_quality: 71.2
     developer_ergonomics: 71.2
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 56.5
+  previous_composite: 55.8
   provenance:
     conformance: derived
     contracts:
@@ -209,8 +209,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

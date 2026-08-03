@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -171,19 +171,19 @@ overview: 'Rows publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Rows'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, authentication, and 20 more developer resources.'
-random_paper: 49
+random_paper: 79
 score:
   band: developing
-  composite: 48.3
-  delta: 0.1
+  composite: 49.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 60.2
+    contract_quality: 63.6
     developer_ergonomics: 45.1
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 48.2
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -194,8 +194,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

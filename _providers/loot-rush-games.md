@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The Connect API from Loot Rush Games — 1 operation(s) for connect.
@@ -133,19 +133,19 @@ overview: 'Loot Rush Games publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Loot Rush Games'' developer surface includes documentation, API reference, getting-started guide, authentication, support, and 13 more developer resources.'
-random_paper: 35
+random_paper: 86
 score:
   band: thin
-  composite: 37.6
-  delta: -2.5
+  composite: 38.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 60.6
+    contract_quality: 64.0
     developer_ergonomics: 60.3
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 40.1
+  previous_composite: 38.3
   provenance:
     conformance: derived
     contracts:
@@ -161,8 +161,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loot-rush-games/refs/heads/main/screenshots/loot-rush-games-2026-07-25T225531.png
 security:

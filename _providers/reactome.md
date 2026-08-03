@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -390,7 +390,7 @@ overview: 'Reactome publishes 23 APIs on the [APIs.io](https://apis.io/) network
 
 
   Reactome''s developer surface includes documentation, FAQ, GitHub presence, engineering blog, and 8 more developer resources.'
-random_paper: 28
+random_paper: 88
 rules:
 - name: Reactome API Rules
   rule_count: 5
@@ -402,16 +402,16 @@ rules:
   slug: reactome-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.6
-  delta: -5.9
+  composite: 30.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 53.4
+    contract_quality: 57.4
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 35.5
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -425,9 +425,9 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/screenshots/reactome-2026-06-20T192632.png
 security:
 - kind: domain-security

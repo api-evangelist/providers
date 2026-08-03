@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -361,7 +361,7 @@ plans:
 - name: Jack Henry Plans Pricing
   plan_count: 2
   slug: jack-henry-plans-pricing
-random_paper: 20
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Jack Henry Rate Limits
@@ -416,17 +416,17 @@ rules:
     warn: 1
   slug: jxchange-rest-rules
 score:
-  band: thin
-  composite: 41.7
-  delta: -5.8
+  band: developing
+  composite: 42.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.1
+    contract_quality: 68.6
     developer_ergonomics: 34.8
     discoverability: 68.5
     governance: 20.8
     operational_transparency: 5.3
-  previous_composite: 47.5
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -440,9 +440,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/screenshots/jack-henry-2026-06-20T183648.png
 security:
 - kind: authentication

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ press:
 - date: '2026-05-25'
   title: What to Know About Artificial Intelligence (AI)
   url: https://www.schwab.com/learn/story/what-to-know-about-artificial-intelligence-ai
-random_paper: 21
+random_paper: 85
 rate_limits:
 - limit_count: 3
   name: Charles Schwab Rate Limits
@@ -237,16 +237,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 52.4
-  delta: -6.4
+  composite: 53.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.5
+    contract_quality: 66.2
     developer_ergonomics: 32.6
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 58.8
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     contracts:
@@ -260,9 +260,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png
 security:
 - kind: authentication

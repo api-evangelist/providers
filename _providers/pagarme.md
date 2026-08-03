@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -135,23 +135,23 @@ plans:
 - name: Pagarme Plans Pricing
   plan_count: 3
   slug: pagarme-plans-pricing
-random_paper: 77
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Pagarme Rate Limits
   slug: pagarme-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: -2.8
+  composite: 33.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 51.7
+    contract_quality: 55.8
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 35.9
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +165,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

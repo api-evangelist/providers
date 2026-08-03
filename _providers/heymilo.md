@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-07-28'
+  score: 54.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -246,23 +246,23 @@ overview: 'HeyMilo publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   HeyMilo''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, authentication, and 25 more developer resources.'
-random_paper: 21
+random_paper: 94
 rate_limits:
 - limit_count: 1
   name: Heymilo Rate Limits
   slug: heymilo-rate-limits
 score:
   band: strong
-  composite: 57.7
-  delta: 0.4
+  composite: 58.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.7
+    contract_quality: 70.9
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 50.0
-  previous_composite: 57.3
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -273,8 +273,8 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/screenshots/heymilo-2026-07-25T221122.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 52
 apis:
 - description: The Affiliates API from Getty Images — 2 operation(s) for affiliates.
@@ -233,31 +233,31 @@ plans:
 - name: Getty Images Plans Pricing
   plan_count: 3
   slug: getty-images-plans-pricing
-random_paper: 2
+random_paper: 92
 rate_limits:
 - limit_count: 5
   name: Getty Images Rate Limits
   slug: getty-images-rate-limits
 score:
   band: thin
-  composite: 31.9
-  delta: -2.7
+  composite: 31.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 44.0
+    contract_quality: 43.2
     developer_ergonomics: 8.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.6
+  previous_composite: 31.7
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 52
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/screenshots/getty-images-2026-06-20T181816.png
 security:

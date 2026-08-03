@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-07-28'
+  score: 41.2
+  scored_at: '2026-08-03'
 api_count: 30
 apis:
 - description: The Agents V1 API from Arthur AI — 12 operation(s) for agents v1.
@@ -262,7 +262,7 @@ overview: 'Arthur AI publishes 30 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Arthur AI''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, authentication, changelog, and 22 more developer resources.'
-random_paper: 7
+random_paper: 54
 scopes:
 - name: Arthur Ai Scopes
   scope_count: 191
@@ -270,16 +270,16 @@ scopes:
   summary_line: 191 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.5
-  delta: -2.4
+  composite: 49.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 60.0
+    contract_quality: 61.3
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 51.9
+  previous_composite: 49.9
   provenance:
     conformance: derived
     contracts:
@@ -289,8 +289,8 @@ score:
       total: 30
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs/heads/main/screenshots/arthur-ai-2026-07-25T201324.png
 security:

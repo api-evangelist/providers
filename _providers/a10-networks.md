@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: 'The ACOS aXAPI v3 is the RESTful HTTPS configuration and operational control plane for every A10 Thunder device — physical, virtual (vThunder), or containerized. It covers the full ACOS object model: '
@@ -252,7 +252,7 @@ plans:
 - name: A10 Networks Plans Pricing
   plan_count: 6
   slug: a10-networks-plans-pricing
-random_paper: 66
+random_paper: 87
 rate_limits:
 - limit_count: 0
   name: A10 Networks Rate Limits
@@ -276,25 +276,25 @@ rules:
   slug: a10-networks-rules
 score:
   band: thin
-  composite: 38.7
-  delta: -6.3
+  composite: 40.8
+  delta: 2.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 56.5
+    contract_quality: 65.1
     developer_ergonomics: 15.2
     discoverability: 59.3
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 45.0
+  previous_composite: 38.7
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/screenshots/a10-networks-2026-06-20T162934.png
 security:
 - kind: domain-security

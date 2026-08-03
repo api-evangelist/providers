@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Airline reports API (Selfie) serving rates, chargeable weight, load factor, and capacity reports as CSV files in ZIP archives. Airlines use a branded host (https://{airline}.useselfie.com/api/selfie/v
@@ -166,19 +166,19 @@ overview: 'Xeneta publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Xeneta''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 20 more developer resources.'
-random_paper: 71
+random_paper: 75
 score:
   band: developing
-  composite: 51.1
-  delta: -2.4
+  composite: 51.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 53.5
+  previous_composite: 51.9
   provenance:
     conformance: first-party
     contracts:
@@ -194,8 +194,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

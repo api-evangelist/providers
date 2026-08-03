@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Every Condé Nast brand site serves a top-level RSS 2.0 feed at `/feed/rss` covering the brand's most recent published articles, with Dublin Core (`dc:creator`, `dc:publisher`, `dc:subject`), Media RSS
@@ -154,7 +154,7 @@ overview: 'Condé Nast publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Condé Nast''s developer surface includes engineering blog and 13 more developer resources.'
-random_paper: 20
+random_paper: 54
 rules:
 - name: Condé Nast API Rules
   rule_count: 5
@@ -167,7 +167,7 @@ rules:
 score:
   band: emerging
   composite: 22.1
-  delta: -4.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 12.9
@@ -175,9 +175,9 @@ score:
     discoverability: 64.8
     governance: 58.3
     operational_transparency: 5.3
-  previous_composite: 26.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 22.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

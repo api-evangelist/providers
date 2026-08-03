@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,11 +87,11 @@ overview: 'Plooto is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Plooto''s developer surface includes engineering blog, pricing, getting-started guide, and 10 more developer resources.'
-random_paper: 13
+random_paper: 4
 score:
   band: emerging
   composite: 23.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -99,15 +99,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 25.0
+  previous_composite: 23.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

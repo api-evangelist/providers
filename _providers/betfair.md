@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ plans:
 - name: Betfair Plans Pricing
   plan_count: 4
   slug: betfair-plans-pricing
-random_paper: 77
+random_paper: 68
 rate_limits:
 - limit_count: 7
   name: Betfair Rate Limits
@@ -145,16 +145,16 @@ rules:
   slug: betfair-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.9
-  delta: -2.9
+  composite: 44.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 64.2
+    contract_quality: 66.9
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 31.6
-  previous_composite: 46.8
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -168,8 +168,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

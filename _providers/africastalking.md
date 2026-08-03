@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -123,23 +123,23 @@ plans:
 - name: Africastalking Plans Pricing
   plan_count: 2
   slug: africastalking-plans-pricing
-random_paper: 81
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Africastalking Rate Limits
   slug: africastalking-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: -4.0
+  composite: 33.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.6
+    contract_quality: 60.3
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.1
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/screenshots/africastalking-2026-06-20T165713.png
 security:

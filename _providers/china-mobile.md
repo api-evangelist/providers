@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-07-28'
+  score: 39.9
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -195,19 +195,19 @@ overview: 'China Mobile publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   China Mobile''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 44
+random_paper: 52
 score:
   band: developing
-  composite: 48.8
-  delta: -0.5
+  composite: 42.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 53.0
+    contract_quality: 25.0
     developer_ergonomics: 64.7
     discoverability: 83.3
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 49.3
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,8 +224,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 55.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -132,19 +132,19 @@ overview: 'AWS Security Hub publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   AWS Security Hub''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 70
+random_paper: 13
 score:
-  band: emerging
-  composite: 27.9
-  delta: -2.1
+  band: thin
+  composite: 29.0
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 30.0
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -152,8 +152,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/screenshots/aws-security-hub-2026-06-20T172802.png
 security:

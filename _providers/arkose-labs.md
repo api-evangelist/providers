@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 3
 apis:
 - description: Edge risk assessment
@@ -161,19 +161,19 @@ overview: 'Arkose Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Arkose Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 42
+random_paper: 63
 score:
   band: developing
-  composite: 43.0
-  delta: -0.4
+  composite: 44.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
-    contract_quality: 51.4
+    contract_quality: 55.6
     developer_ergonomics: 54.3
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 34.2
-  previous_composite: 43.4
+  previous_composite: 44.1
   provenance:
     conformance: derived
     contracts:
@@ -182,8 +182,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/screenshots/arkose-labs-2026-07-25T201203.png
 security:

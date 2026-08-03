@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -172,19 +172,19 @@ overview: 'Oden Technologies publishes 12 APIs on the [APIs.io](https://apis.io/
 
 
   Oden Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 29
+random_paper: 41
 score:
-  band: thin
-  composite: 41.3
-  delta: -1.3
+  band: developing
+  composite: 42.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 62.8
+    contract_quality: 66.0
     developer_ergonomics: 42.9
     discoverability: 81.5
     governance: 11.5
     operational_transparency: 5.3
-  previous_composite: 42.6
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,8 +195,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.2
-  scored_at: '2026-07-28'
+  score: 51.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -282,19 +282,19 @@ overview: 'Verifiable publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Verifiable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 65
+random_paper: 4
 score:
   band: developing
-  composite: 51.4
-  delta: -3.7
+  composite: 52.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 62.0
+    contract_quality: 67.6
     developer_ergonomics: 69.0
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 57.9
-  previous_composite: 55.1
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -311,8 +311,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

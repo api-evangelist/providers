@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,11 +100,11 @@ overview: 'Swypex is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Swypex''s developer surface includes support, signup flow, and 12 more developer resources.'
-random_paper: 32
+random_paper: 23
 score:
   band: emerging
   composite: 25.0
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -112,7 +112,7 @@ score:
     discoverability: 61.1
     governance: 12.5
     operational_transparency: 15.8
-  previous_composite: 25.2
+  previous_composite: 25.0
   provenance:
     conformance: first-party
   regulatory:
@@ -121,8 +121,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

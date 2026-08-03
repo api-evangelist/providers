@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.2
-  scored_at: '2026-07-28'
+  score: 35.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ plans:
 - name: Sendle Plans Pricing
   plan_count: 3
   slug: sendle-plans-pricing
-random_paper: 61
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Sendle Rate Limits
@@ -250,16 +250,16 @@ rules:
   slug: sendle-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.3
-  delta: -3.0
+  composite: 62.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 85.4
+    contract_quality: 86.6
     developer_ergonomics: 54.3
     discoverability: 74.1
     governance: 31.3
     operational_transparency: 68.4
-  previous_composite: 65.3
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     contracts:
@@ -267,8 +267,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png
 security:

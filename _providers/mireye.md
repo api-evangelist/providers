@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -220,7 +220,7 @@ overview: 'Mireye publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mireye''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 21 more developer resources.'
-random_paper: 77
+random_paper: 81
 scopes:
 - name: Mireye Scopes
   scope_count: 1
@@ -228,16 +228,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 49.5
-  delta: -1.7
+  composite: 50.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 39.6
+    contract_quality: 44.7
     developer_ergonomics: 73.9
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 21.1
-  previous_composite: 51.2
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +254,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,19 +137,19 @@ overview: 'Puma publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Puma''s developer surface includes authentication, documentation, and 10 more developer resources.'
-random_paper: 25
+random_paper: 55
 score:
   band: emerging
-  composite: 26.4
-  delta: -3.3
+  composite: 26.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 57.6
+    contract_quality: 58.9
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.7
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +157,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/screenshots/puma-2026-06-20T192302.png
 security:

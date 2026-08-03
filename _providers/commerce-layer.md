@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 371
   human_in_the_loop: 3
@@ -1001,7 +1001,7 @@ plans:
 - name: Commerce Layer Plans Pricing
   plan_count: 3
   slug: commerce-layer-plans-pricing
-random_paper: 35
+random_paper: 4
 rate_limits:
 - limit_count: 13
   name: Commerce Layer Rate Limits
@@ -1017,16 +1017,16 @@ rules:
   slug: commerce-layer-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 68.9
-  delta: -5.3
+  composite: 69.5
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 71.7
+    contract_quality: 74.4
     developer_ergonomics: 76.1
     discoverability: 50.0
     governance: 58.3
     operational_transparency: 71.1
-  previous_composite: 74.2
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1040,9 +1040,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/screenshots/commerce-layer-2026-06-20T174813.png
 security:
 - kind: authentication

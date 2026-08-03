@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Onfleet",
@@ -49,31 +49,20 @@
      },
      "tier": "Last-Mile Delivery",
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
-   "providers": [
+    },
     {
      "name": "Convoy",
      "slug": "convoy",
      "description": "Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as \"the complete solution for secure, scalable, and reliable webhook delivery,\" covering both outbound (sending) and inbound (receiving) webhooks with retries, payload signing, fan-out, rate limiting, message broker ingestion, and customer-facing portals. Convoy is offered as a self-hosted open-source project (Elastic License v2.0, with the OpenAPI spec under MPL 2.0) and a fully managed cloud service in US and EU regions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/screenshots/convoy-2026-06-20T175006.png",
-     "score": 64.0,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 66.3,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 80.0,
       "governance": 58.3,
-      "operational_transparency": 47.4,
+      "operational_transparency": 68.4,
       "developer_ergonomics": 78.3,
       "commercial_clarity": 71.1
      },
@@ -106,7 +95,18 @@
      },
      "tier": "Digital Freight Marketplaces",
      "rank": 2
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
     {
      "name": "Bringg",
      "slug": "bringg",

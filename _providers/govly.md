@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-07-28'
+  score: 44.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -204,19 +204,19 @@ overview: 'Govly publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Govly''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 20 more developer resources.'
-random_paper: 69
+random_paper: 86
 score:
   band: developing
-  composite: 52.5
-  delta: -1.4
+  composite: 53.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 64.9
+    contract_quality: 67.9
     developer_ergonomics: 62.5
     discoverability: 81.5
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 53.9
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -233,8 +233,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/screenshots/govly-2026-07-25T220138.png
 security:

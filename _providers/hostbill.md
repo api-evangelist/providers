@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -129,23 +129,23 @@ plans:
 - name: Hostbill Plans Pricing
   plan_count: 3
   slug: hostbill-plans-pricing
-random_paper: 45
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Hostbill Rate Limits
   slug: hostbill-rate-limits
 score:
   band: thin
-  composite: 37.9
-  delta: -1.8
+  composite: 38.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 54.0
+    contract_quality: 55.6
     developer_ergonomics: 26.1
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.7
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -153,8 +153,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/screenshots/hostbill-2026-06-20T182839.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -283,7 +283,7 @@ plans:
 - name: Us African Development Foundation Plans Pricing
   plan_count: 3
   slug: us-african-development-foundation-plans-pricing
-random_paper: 77
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Us African Development Foundation Rate Limits
@@ -306,17 +306,17 @@ rules:
     warn: 15
   slug: us-african-development-foundation-spectral-rules
 score:
-  band: developing
-  composite: 45.8
-  delta: -7.6
+  band: thin
+  composite: 38.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.7
+    contract_quality: 31.6
     developer_ergonomics: 8.7
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 53.4
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -324,9 +324,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-african-development-foundation/refs/heads/main/screenshots/us-african-development-foundation-2026-06-20T200541.png
 security:
 - kind: domain-security

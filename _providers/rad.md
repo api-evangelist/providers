@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Strongly-typed GraphQL API to query and mutate the Rad TV platform — catalog (features, series, seasons, episodes, streams, miniseries), content management, uploads (TUS resumable), transcoding with A
@@ -108,7 +108,7 @@ overview: 'Rad. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rad.''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, and 8 more developer resources.'
-random_paper: 65
+random_paper: 26
 scopes:
 - name: Rad Scopes
   scope_count: 1
@@ -117,7 +117,7 @@ scopes:
 score:
   band: thin
   composite: 35.1
-  delta: 10.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 43.2
@@ -125,14 +125,14 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 0.0
-  previous_composite: 24.3
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Rad Authentication

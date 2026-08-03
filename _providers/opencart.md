@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ plans:
 - name: Opencart Plans Pricing
   plan_count: 2
   slug: opencart-plans-pricing
-random_paper: 40
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Opencart Rate Limits
@@ -204,16 +204,16 @@ rules:
   slug: opencart-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: -4.4
+  composite: 47.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.0
+    contract_quality: 65.7
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 36.8
-  previous_composite: 52.1
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/screenshots/opencart-2026-06-20T190918.png
 security:

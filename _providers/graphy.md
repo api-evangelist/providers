@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -171,19 +171,19 @@ overview: 'Graphy publishes 1 API on the [APIs.io](https://apis.io/) network: Ag
 
 
   Graphy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, sandbox, and 21 more developer resources.'
-random_paper: 77
+random_paper: 81
 score:
   band: developing
-  composite: 52.6
-  delta: -1.0
+  composite: 53.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 64.7
     discoverability: 87.0
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 53.6
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -194,8 +194,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphy/refs/heads/main/screenshots/graphy-2026-07-25T220250.png
 security:

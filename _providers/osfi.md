@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: documented
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 9
 apis:
 - description: 'Public register of the federally regulated financial institutions OSFI supervises, including every federally regulated insurer with its Authorized Insurance Classes, FI industry group, trade name and '
@@ -359,7 +359,7 @@ plans:
 - name: Osfi Plans Pricing
   plan_count: 1
   slug: osfi-plans-pricing
-random_paper: 23
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Osfi Rate Limits
@@ -367,7 +367,7 @@ rate_limits:
 score:
   band: developing
   composite: 43.1
-  delta: -5.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 24.2
@@ -375,7 +375,7 @@ score:
     discoverability: 92.6
     governance: 22.9
     operational_transparency: 52.6
-  previous_composite: 48.1
+  previous_composite: 43.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -386,9 +386,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Osfi Authentication

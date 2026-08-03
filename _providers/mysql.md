@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -125,23 +125,23 @@ plans:
 - name: Mysql Plans Pricing
   plan_count: 3
   slug: mysql-plans-pricing
-random_paper: 74
+random_paper: 91
 rate_limits:
 - limit_count: 5
   name: Mysql Rate Limits
   slug: mysql-rate-limits
 score:
-  band: thin
-  composite: 41.7
-  delta: -2.0
+  band: developing
+  composite: 42.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 40.7
+    contract_quality: 45.7
     developer_ergonomics: 37.0
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.7
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mysql/refs/heads/main/screenshots/mysql-2026-06-20T185918.png
 security:

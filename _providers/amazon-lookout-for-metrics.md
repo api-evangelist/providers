@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -2397,7 +2397,7 @@ plans:
 - name: Amazon Lookout For Metrics Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-metrics-plans-pricing
-random_paper: 24
+random_paper: 83
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Metrics Rate Limits
@@ -2421,16 +2421,16 @@ rules:
   slug: amazon-lookout-for-metrics-spectral-rules
 score:
   band: strong
-  composite: 64.2
-  delta: -2.8
+  composite: 64.7
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 74.6
+    contract_quality: 76.7
     developer_ergonomics: 45.7
     discoverability: 50.0
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 67.0
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     contracts:
@@ -2438,8 +2438,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/screenshots/amazon-lookout-for-metrics-2026-06-20T171728.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -169,23 +169,23 @@ overview: 'TRM Labs publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   TRM Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 64
+random_paper: 42
 rate_limits:
-- limit_count: 0
+- limit_count: 3
   name: Trm Labs Rate Limits
   slug: trm-labs-rate-limits
 score:
   band: developing
-  composite: 47.6
-  delta: -1.2
+  composite: 52.5
+  delta: 4.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.9
+    contract_quality: 65.1
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 11.5
-    operational_transparency: 31.6
-  previous_composite: 48.8
+    operational_transparency: 63.2
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,8 +196,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: JOOR's production identity service, a Keycloak realm exposing standard OpenID Connect / OAuth 2.0 endpoints (authorize, token, userinfo, introspection, JWKS) used to authenticate access to the JOOR pl
@@ -88,7 +88,7 @@ overview: 'Joor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Joor''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 32
+random_paper: 62
 scopes:
 - name: Joor Scopes
   scope_count: 9
@@ -97,7 +97,7 @@ scopes:
 score:
   band: emerging
   composite: 19.2
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -105,7 +105,7 @@ score:
     discoverability: 87.0
     governance: 12.5
     operational_transparency: 21.1
-  previous_composite: 20.9
+  previous_composite: 19.2
   provenance:
     conformance: first-party
   regulatory:
@@ -114,8 +114,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joor/refs/heads/main/screenshots/joor-2026-07-25T223239.png
 security:

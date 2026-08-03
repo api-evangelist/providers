@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 43.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -152,7 +152,7 @@ plans:
 - name: Hume Ai Plans Pricing
   plan_count: 8
   slug: hume-ai-plans-pricing
-random_paper: 22
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Hume Ai Rate Limits
@@ -168,16 +168,16 @@ rules:
   slug: hume-ai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 40.9
-  delta: -7.7
+  composite: 41.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 62.7
+    contract_quality: 66.1
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 41.7
     operational_transparency: 36.8
-  previous_composite: 48.6
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -191,9 +191,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/screenshots/hume-ai-2026-06-20T183040.png
 security:
 - kind: authentication

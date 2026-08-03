@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: Query a partner's events through the DICE Ticket Holders GraphQL API - event name, state, start/end datetimes, currency, URL, artists, genres, ticket types, price tiers, and total ticket allocation. E
@@ -112,7 +112,7 @@ plans:
 - name: Dice Fm Plans Pricing
   plan_count: 2
   slug: dice-fm-plans-pricing
-random_paper: 5
+random_paper: 91
 rate_limits:
 - limit_count: 3
   name: Dice Fm Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.1
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -128,9 +128,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 26.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 24.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dice-fm/refs/heads/main/screenshots/dice-fm-2026-07-25T211936.png
 security:

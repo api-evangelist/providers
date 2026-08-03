@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -1076,7 +1076,7 @@ press:
 - date: '2026-05-25'
   title: AT&T Tests New AI Digital Receptionist
   url: https://about.att.com/blogs/2025/ai-digital-receptionist.html
-random_paper: 1
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Att Rate Limits
@@ -1104,17 +1104,17 @@ scopes:
   slug: att-scopes
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 57.0
-  delta: -4.9
+  band: developing
+  composite: 50.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.8
+    contract_quality: 34.4
     developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 61.9
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1128,8 +1128,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

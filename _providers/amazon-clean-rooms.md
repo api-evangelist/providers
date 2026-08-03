@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ overview: 'Amazon Clean Rooms publishes 4 APIs on the [APIs.io](https://apis.io/
 
 
   Amazon Clean Rooms'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 21 more developer resources.'
-random_paper: 7
+random_paper: 6
 rules:
 - name: Amazon Clean Rooms API Rules
   rule_count: 5
@@ -400,17 +400,17 @@ rules:
     warn: 17
   slug: amazon-clean-rooms-spectral-rules
 score:
-  band: strong
-  composite: 58.3
-  delta: -3.7
+  band: developing
+  composite: 49.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.1
+    contract_quality: 33.3
     developer_ergonomics: 45.7
     discoverability: 92.6
     governance: 80.2
     operational_transparency: 21.1
-  previous_composite: 62.0
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -420,8 +420,8 @@ score:
       marker_coverage: 100.0
       total: 4
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/screenshots/amazon-clean-rooms-2026-07-25T195939.png
 security:

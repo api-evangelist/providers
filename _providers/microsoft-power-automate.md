@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -379,7 +379,7 @@ plans:
 - name: Microsoft Power Automate Plans Pricing
   plan_count: 3
   slug: microsoft-power-automate-plans-pricing
-random_paper: 33
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Automate Rate Limits
@@ -407,17 +407,17 @@ scopes:
   slug: microsoft-power-automate-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 67.8
-  delta: -5.0
+  band: strong
+  composite: 59.5
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 65.3
+    contract_quality: 32.2
     developer_ergonomics: 39.1
     discoverability: 100.0
     governance: 80.2
     operational_transparency: 63.2
-  previous_composite: 72.8
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -427,9 +427,9 @@ score:
       marker_coverage: 100.0
       total: 6
     mcp: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/screenshots/microsoft-power-automate-2026-06-20T185521.png
 security:
 - kind: authentication

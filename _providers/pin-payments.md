@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -125,23 +125,23 @@ plans:
 - name: Pin Payments Plans Pricing
   plan_count: 3
   slug: pin-payments-plans-pricing
-random_paper: 23
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Pin Payments Rate Limits
   slug: pin-payments-rate-limits
 score:
   band: developing
-  composite: 42.5
-  delta: -3.3
+  composite: 43.5
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 48.3
+    contract_quality: 52.7
     developer_ergonomics: 21.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 45.8
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -155,8 +155,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/screenshots/pin-payments-2026-06-20T191711.png
 security:

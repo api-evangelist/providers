@@ -11,16 +11,16 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.0
-  scored_at: '2026-07-28'
+  score: 32.0
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Capital Com Public Api Plans Pricing
   plan_count: 3
   slug: capital-com-public-api-plans-pricing
-random_paper: 9
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Capital Com Public Api Rate Limits
@@ -164,16 +164,16 @@ rules:
   slug: capital-com-public-api-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: -3.5
+  composite: 52.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.7
+    contract_quality: 68.2
     developer_ergonomics: 32.6
     discoverability: 64.8
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 55.7
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +187,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 53.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/screenshots/capital-com-public-api-2026-06-20T173937.png
 security:

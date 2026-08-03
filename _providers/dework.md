@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Dework runs a public GraphQL API (Apollo Server) at api.dework.xyz/graphql that powers the Dework web app, plus a NestJS health endpoint at api.dework.xyz/health. The endpoint is live but undocumented
@@ -91,11 +91,11 @@ overview: 'Dework publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Dework''s developer surface includes documentation, getting-started guide, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 78
+random_paper: 82
 score:
   band: emerging
   composite: 16.1
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -103,9 +103,9 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 17.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 16.1
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dework/refs/heads/main/screenshots/dework-2026-07-25T211828.png
 security:

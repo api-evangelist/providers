@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Cybersecurity And Infrastructure Security Agency Plans Pricing
   plan_count: 3
   slug: cybersecurity-and-infrastructure-security-agency-plans-pricing
-random_paper: 44
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Cybersecurity And Infrastructure Security Agency Rate Limits
@@ -192,16 +192,16 @@ rules:
   slug: cybersecurity-and-infrastructure-security-agency-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.8
-  delta: -3.8
+  composite: 41.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.7
+    contract_quality: 65.9
     developer_ergonomics: 2.2
     discoverability: 64.8
     governance: 31.3
     operational_transparency: 36.8
-  previous_composite: 44.6
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +215,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/screenshots/cybersecurity-and-infrastructure-security-agency-2026-06-20T175408.png
 security:

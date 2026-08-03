@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -176,7 +176,7 @@ plans:
 - name: Loughborough Plans Pricing
   plan_count: 2
   slug: loughborough-plans-pricing
-random_paper: 71
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Loughborough Rate Limits
@@ -205,16 +205,16 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 44.6
-  delta: -4.6
+  composite: 45.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 73.4
+    contract_quality: 76.7
     developer_ergonomics: 13.0
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 49.2
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -222,8 +222,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/screenshots/loughborough-2026-06-20T184729.png
 security:

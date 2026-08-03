@@ -16,20 +16,20 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: documented
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 52.0
-  scored_at: '2026-07-28'
+  score: 54.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 455
   human_in_the_loop: 0
@@ -37,7 +37,7 @@ agentic_access:
   operation_count: 846
   slug: elation-health-agentic-access
   summary_line: 846 operations · 455 acting
-api_count: 16
+api_count: 17
 apis:
 - description: OAuth2 token endpoint for the Elation API v2.0. Partners exchange client credentials (and legacy password grant) for a bearer access token, optionally scoped with apiv2, act_as_user, or system/{resour
   name: Elation OAuth API
@@ -87,7 +87,10 @@ apis:
 - description: Interact with data imports into a practice - submitting and managing bulk clinical and administrative data imports - via the Elation Import API.
   name: Elation Import API
   slug: import-api
-artifact_total: 38
+- description: Elation Health API Settings from Elation Health — 218 path(s) described in OpenAPI.
+  name: Elation Health API Settings
+  slug: elation-api-settings
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Elation Health Events Webhooks
@@ -299,14 +302,14 @@ modified: '2026-07-24'
 name: Elation Health
 nav: Providers
 network: true
-overview: 'Elation Health publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Elation OAuth API, Elation Patient Profile API, Elation Visit Notes API, and 13 more. Tagged areas include Healthcare, United States, EHR, EMR, and FHIR.
+overview: 'Elation Health publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Elation OAuth API, Elation Patient Profile API, Elation Visit Notes API, and 14 more. Tagged areas include Healthcare, United States, EHR, EMR, and FHIR.
 
 
   The Elation Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Elation Health''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
-random_paper: 29
+random_paper: 93
 scopes:
 - name: Elation Health Scopes
   scope_count: 5
@@ -314,16 +317,16 @@ scopes:
   summary_line: 5 scopes · clientCredentials/password
 score:
   band: strong
-  composite: 58.8
-  delta: -2.0
+  composite: 59.9
+  delta: -0.1
   facets:
     commercial_clarity: 52.6
-    contract_quality: 51.6
+    contract_quality: 57.1
     developer_ergonomics: 73.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 44.7
-  previous_composite: 60.8
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,8 +338,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/screenshots/elation-health-2026-07-25T213054.png
 security:

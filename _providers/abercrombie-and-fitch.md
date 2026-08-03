@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 0
 artifact_total: 14
 common:
@@ -111,11 +111,11 @@ press:
 - date: '2026-05-25'
   title: Inside the digital transformation of Abercrombie & Fitch
   url: https://nrf.com/blog/inside-digital-transformation-abercrombie-fitch
-random_paper: 20
+random_paper: 75
 score:
   band: minimal
   composite: 12.0
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -123,9 +123,9 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 13.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 12.0
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abercrombie-and-fitch/refs/heads/main/screenshots/abercrombie-and-fitch-2026-06-20T163159.png
 security:

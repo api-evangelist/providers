@@ -72,14 +72,14 @@
      "slug": "komerce",
      "description": "Komerce is an Indonesian end-to-end e-commerce enabler serving more than 50,000 online sellers and SMEs with an integrated suite covering fulfilment, logistics, marketplace operations, CRM, advertising and payments — Komship, Kompack, Komplace, Komchat, Komcards, Komtim, Komads and Komclass. Its developer surface is published under the RajaOngkir brand and exposes four APIs: Shipping Cost (Cek Ongkir) for domestic and international rate lookup and airway-bill tracking across 17 Indonesian couriers, Shipping Delivery (Komship) for creating orders, requesting pickup, printing labels and tracking shipments, Payment Service for Virtual Account and QRIS transactions with signed callbacks, and QRISLY for turning a static QRIS into dynamic per-transaction QRIS codes. All four authenticate with a per-product header API key issued from the Collaborator dashboard, and the delivery, payment and QRIS products run a full isolated sandbox.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png",
-     "score": 57.6,
+     "score": 61.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 92.6,
       "contract_quality": 69.2,
       "governance": 21.9,
-      "operational_transparency": 23.7,
+      "operational_transparency": 55.3,
       "developer_ergonomics": 66.8,
       "commercial_clarity": 76.3
      },

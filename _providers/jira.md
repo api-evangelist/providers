@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.7
-  scored_at: '2026-07-28'
+  score: 62.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -801,7 +801,7 @@ plans:
 - name: Jira Plans Pricing
   plan_count: 4
   slug: jira-plans-pricing
-random_paper: 12
+random_paper: 42
 rate_limits:
 - limit_count: 4
   name: Jira Rate Limits
@@ -838,16 +838,16 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 72.5
-  delta: 1.3
+  composite: 73.0
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 81.7
+    contract_quality: 83.7
     developer_ergonomics: 63.0
     discoverability: 90.7
     governance: 59.4
     operational_transparency: 73.7
-  previous_composite: 71.2
+  previous_composite: 73.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -857,8 +857,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/screenshots/jira-2026-06-20T183734.png
 security:

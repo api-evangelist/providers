@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 21
 apis:
 - description: Native database engine APIs for connecting and executing queries against SQL Server.
@@ -266,7 +266,7 @@ plans:
 - name: Sql Server Plans Pricing
   plan_count: 3
   slug: sql-server-plans-pricing
-random_paper: 60
+random_paper: 94
 rate_limits:
 - limit_count: 5
   name: Sql Server Rate Limits
@@ -274,7 +274,7 @@ rate_limits:
 score:
   band: developing
   composite: 51.0
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 32.3
@@ -282,12 +282,12 @@ score:
     discoverability: 81.5
     governance: 3.1
     operational_transparency: 63.2
-  previous_composite: 51.4
+  previous_composite: 51.0
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sql-server/refs/heads/main/screenshots/sql-server-2026-06-20T194427.png
 security:

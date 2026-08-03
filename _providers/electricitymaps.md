@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,23 +126,23 @@ plans:
 - name: Electricitymaps Plans Pricing
   plan_count: 4
   slug: electricitymaps-plans-pricing
-random_paper: 60
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Electricitymaps Rate Limits
   slug: electricitymaps-rate-limits
 score:
   band: thin
-  composite: 35.4
-  delta: -5.9
+  composite: 36.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 59.2
+    contract_quality: 62.7
     developer_ergonomics: 19.6
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 41.3
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -156,9 +156,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/screenshots/electricitymaps-2026-07-25T213108.png
 security:
 - kind: authentication

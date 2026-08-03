@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at Tenet Healthcare
   url: https://emerj.com/artificial-intelligence-at-tenet-healthcare/
-random_paper: 72
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Tenet Healthcare Rate Limits
@@ -232,16 +232,16 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.9
-  delta: -6.2
+  composite: 44.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.2
+    contract_quality: 73.6
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 50.1
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -255,9 +255,9 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/screenshots/tenet-healthcare-2026-06-20T195114.png
 security:
 - kind: authentication

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -203,7 +203,7 @@ overview: 'SEDNA publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   SEDNA''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 31
+random_paper: 48
 scopes:
 - name: Sedna Scopes
   scope_count: 53
@@ -211,16 +211,16 @@ scopes:
   summary_line: 53 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.4
-  delta: 4.7
+  composite: 46.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 43.9
+    contract_quality: 49.0
     developer_ergonomics: 51.6
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 23.7
-  previous_composite: 40.7
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -237,8 +237,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

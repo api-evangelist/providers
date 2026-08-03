@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.2
-  scored_at: '2026-07-28'
+  score: 39.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -360,7 +360,7 @@ plans:
 - name: Orion Plans Pricing
   plan_count: 1
   slug: orion-plans-pricing
-random_paper: 59
+random_paper: 76
 rate_limits:
 - limit_count: 4
   name: Orion Rate Limits
@@ -389,16 +389,16 @@ scopes:
   summary_line: 24 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.7
-  delta: -5.7
+  composite: 60.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 89.7
+    contract_quality: 90.6
     developer_ergonomics: 41.3
     discoverability: 75.9
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 66.4
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     contracts:
@@ -412,9 +412,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orion/refs/heads/main/screenshots/orion-2026-06-20T191207.png
 security:
 - kind: authentication

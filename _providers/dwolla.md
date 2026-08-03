@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: verified
     mcp_server: true
     openapi_examples: verified
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 73.2
-  scored_at: '2026-07-28'
+  score: 69.1
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -36,7 +36,7 @@ agentic_access:
   operation_count: 164
   slug: dwolla-agentic-access
   summary_line: 164 operations · 68 acting
-api_count: 18
+api_count: 19
 apis:
 - description: Retrieve details about your master Dwolla Account and manage account-level resources including creating and listing the account's own funding sources, and listing the account's transfers and mass paym
   name: Dwolla Accounts API
@@ -92,7 +92,10 @@ apis:
 - description: Sandbox-only endpoint that advances the state of test transfers and other resources so developers can simulate ACH processing, clearing, and failure scenarios on demand rather than waiting for real ba
   name: Dwolla Sandbox Simulations API
   slug: dwolla-sandbox-simulations-api
-artifact_total: 43
+- description: Dwolla API from Dwolla — 59 path(s) described in OpenAPI.
+  name: Dwolla API
+  slug: dwolla-openapi
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Dwolla Webhooks
@@ -349,30 +352,30 @@ modified: '2026-07-23'
 name: Dwolla
 nav: Providers
 network: true
-overview: 'Dwolla publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Customers API, Beneficial Owners API, and 15 more. Tagged areas include Payments, ACH, Bank Transfers, Fintech, and Account-to-Account Payments.
+overview: 'Dwolla publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Customers API, Beneficial Owners API, and 16 more. Tagged areas include Payments, ACH, Bank Transfers, Fintech, and Account-to-Account Payments.
 
 
   The Dwolla catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Dwolla''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 39 more developer resources.'
-random_paper: 69
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Dwolla Rate Limits
   slug: dwolla-rate-limits
 score:
   band: strong
-  composite: 59.9
-  delta: -2.6
+  composite: 60.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.4
+    contract_quality: 70.4
     developer_ergonomics: 79.9
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 52.6
-  previous_composite: 62.5
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -389,8 +392,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png
 security:

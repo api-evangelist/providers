@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Semantic Scholar Plans Pricing
   plan_count: 3
   slug: semantic-scholar-plans-pricing
-random_paper: 5
+random_paper: 30
 rate_limits:
 - limit_count: 3
   name: Semantic Scholar Rate Limits
@@ -193,16 +193,16 @@ rules:
   slug: semantic-scholar-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: -4.6
+  composite: 52.5
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
-    contract_quality: 55.8
+    contract_quality: 59.6
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 56.2
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     contracts:
@@ -210,8 +210,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/screenshots/semantic-scholar-2026-06-20T193645.png
 security:

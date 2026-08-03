@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -189,19 +189,19 @@ overview: 'Arctic Wolf publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Arctic Wolf''s developer surface includes authentication, documentation, API reference, getting-started guide, developer portal, support, engineering blog, and 24 more developer resources.'
-random_paper: 49
+random_paper: 70
 score:
   band: developing
-  composite: 52.7
-  delta: -2.0
+  composite: 53.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.5
+    contract_quality: 62.0
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 31.6
-  previous_composite: 54.7
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,8 +212,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/screenshots/arctic-wolf-2026-07-25T201101.png
 security:

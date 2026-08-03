@@ -1,24 +1,24 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: flavored
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
-    rate_limit_signal: documented
+    openapi_examples: partial
+    rate_limit_signal: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-07-28'
+  score: 38.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -26,12 +26,18 @@ agentic_access:
   operation_count: 8
   slug: buywhere-agentic-access
   summary_line: 8 operations · 1 acting
-api_count: 1
+api_count: 3
 apis:
-- description: Agent-native REST and MCP product catalog covering 1.5M+ products across Southeast Asian and US e-commerce platforms. Operations include keyword search, side-by-side comparison, deals discovery, price
-  name: BuyWhere Product Catalog API
-  slug: product-catalog-api
-artifact_total: 26
+- description: Agent registration and API key issuance.
+  name: BuyWhere Authentication API
+  slug: buywhere-authentication-api
+- description: Product taxonomy and category browsing.
+  name: BuyWhere Categories API
+  slug: buywhere-categories-api
+- description: Product search, lookup, comparison, deals, and price history.
+  name: BuyWhere Products API
+  slug: buywhere-products-api
+artifact_total: 28
 collections:
 - collection_type: open
   name: BuyWhere Product Catalog API
@@ -178,7 +184,7 @@ modified: '2026-05-19'
 name: BuyWhere
 nav: Providers
 network: true
-overview: 'BuyWhere publishes 1 API on the [APIs.io](https://apis.io/) network: Product Catalog API. Tagged areas include E-commerce, Shopping, Price Comparison, SEA, and Southeast Asia.
+overview: 'BuyWhere publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Categories API, and Products API. Tagged areas include E-commerce, Shopping, Price Comparison, SEA, and Southeast Asia.
 
 
   The BuyWhere catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -189,7 +195,7 @@ plans:
 - name: Buywhere Plans Pricing
   plan_count: 3
   slug: buywhere-plans-pricing
-random_paper: 55
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Buywhere Rate Limits
@@ -213,16 +219,16 @@ rules:
   slug: buywhere-rules
 score:
   band: developing
-  composite: 49.1
-  delta: -7.2
+  composite: 51.8
+  delta: 0.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.4
+    contract_quality: 78.2
     developer_ergonomics: 19.6
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 68.8
     operational_transparency: 36.8
-  previous_composite: 56.3
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -230,9 +236,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/screenshots/buywhere-2026-06-20T173822.png
 security:
 - kind: authentication

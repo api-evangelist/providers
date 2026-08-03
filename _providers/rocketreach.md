@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -210,19 +210,19 @@ overview: 'RocketReach publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   RocketReach''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, pricing, signup flow, and 23 more developer resources.'
-random_paper: 15
+random_paper: 23
 score:
   band: developing
-  composite: 42.1
-  delta: -2.4
+  composite: 43.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
-    contract_quality: 59.6
+    contract_quality: 65.1
     developer_ergonomics: 45.7
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 44.5
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/screenshots/rocketreach-2026-06-20T193159.png
 security:

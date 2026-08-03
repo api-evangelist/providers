@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -341,7 +341,7 @@ plans:
 - name: Microsoft Azure Virtual Machines Plans Pricing
   plan_count: 10
   slug: microsoft-azure-virtual-machines-plans-pricing
-random_paper: 3
+random_paper: 53
 rate_limits:
 - limit_count: 16
   name: Microsoft Azure Virtual Machines Rate Limits
@@ -361,17 +361,17 @@ scopes:
   slug: microsoft-azure-virtual-machines-scopes
   summary_line: 1 scope · implicit
 score:
-  band: strong
-  composite: 62.3
-  delta: -2.1
+  band: exemplar
+  composite: 66.9
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
-    contract_quality: 40.3
+    contract_quality: 58.9
     developer_ergonomics: 56.5
     discoverability: 81.5
     governance: 58.3
     operational_transparency: 68.4
-  previous_composite: 64.4
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     contracts:
@@ -379,8 +379,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/screenshots/microsoft-azure-virtual-machines-2026-06-20T185443.png
 security:

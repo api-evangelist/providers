@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.2
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 4
 apis:
 - description: The fbn.com member application - account, farm, and field management plus access to agronomy insights, pricing transparency, and marketplace ordering. Member-only product, not a public API.
@@ -89,7 +89,7 @@ plans:
 - name: Fbn Plans Pricing
   plan_count: 1
   slug: fbn-plans-pricing
-random_paper: 64
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Fbn Rate Limits
@@ -97,7 +97,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.9
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -105,9 +105,9 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 18.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  previous_composite: 15.9
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: domain-security

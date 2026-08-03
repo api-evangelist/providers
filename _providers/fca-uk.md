@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -18,7 +18,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: Read-only REST API over the Financial Services Register, the FCA's public record of authorised firms, individuals, funds and appointed representatives. Resources are addressed by Firm Reference Number
@@ -142,23 +142,23 @@ overview: 'Financial Conduct Authority publishes 2 APIs on the [APIs.io](https:/
 
 
   Financial Conduct Authority''s developer surface includes documentation, engineering blog, API reference, signup flow, support, pricing, authentication, and 18 more developer resources.'
-random_paper: 75
+random_paper: 92
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Fca Uk Rate Limits
   slug: fca-uk-rate-limits
 score:
   band: thin
-  composite: 29.5
-  delta: -1.1
+  composite: 31.9
+  delta: 2.4
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
     developer_ergonomics: 41.3
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 0.0
-  previous_composite: 30.6
+    operational_transparency: 21.1
+  previous_composite: 29.5
   provenance:
     conformance: first-party
   regulatory:
@@ -167,8 +167,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fca-uk/refs/heads/main/screenshots/fca-uk-2026-07-25T214305.png
 security:

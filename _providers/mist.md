@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.6
-  scored_at: '2026-07-28'
+  score: 42.6
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 525
   human_in_the_loop: 15
@@ -812,23 +812,23 @@ overview: 'Mist publishes 211 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Mist''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 23 more developer resources.'
-random_paper: 35
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Mist Rate Limits
   slug: mist-rate-limits
 score:
   band: developing
-  composite: 54.2
-  delta: -3.0
+  composite: 55.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 72.0
+    contract_quality: 75.1
     developer_ergonomics: 64.7
     discoverability: 75.9
     governance: 11.5
     operational_transparency: 73.7
-  previous_composite: 57.2
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -839,8 +839,8 @@ score:
       total: 211
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

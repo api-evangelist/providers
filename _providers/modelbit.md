@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-07-28'
+  score: 26.6
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Every Modelbit deployment is exposed as a versioned REST inference endpoint. POST an inference request (single or batch) to the deployment URL and receive predictions; access can be gated with API key
@@ -115,11 +115,11 @@ overview: 'Modelbit publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Modelbit''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, changelog, and 9 more developer resources.'
-random_paper: 28
+random_paper: 88
 score:
   band: thin
   composite: 35.6
-  delta: 5.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 51.6
@@ -127,10 +127,10 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 30.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: rising
+  previous_composite: 35.6
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 security:
 - kind: authentication
   name: Modelbit Authentication

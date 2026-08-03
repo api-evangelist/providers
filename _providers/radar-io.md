@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -136,23 +136,23 @@ plans:
 - name: Radar Io Plans Pricing
   plan_count: 2
   slug: radar-io-plans-pricing
-random_paper: 45
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Radar Io Rate Limits
   slug: radar-io-rate-limits
 score:
   band: thin
-  composite: 36.8
-  delta: -2.6
+  composite: 37.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 58.1
+    contract_quality: 61.6
     developer_ergonomics: 21.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.4
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

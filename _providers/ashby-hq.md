@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: true
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 55.0
-  scored_at: '2026-07-28'
+  score: 60.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -754,7 +754,7 @@ plans:
 - name: Ashby Hq Plans Pricing
   plan_count: 6
   slug: ashby-hq-plans-pricing
-random_paper: 59
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Ashby Hq Rate Limits
@@ -770,16 +770,16 @@ rules:
   slug: ashby-hq-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.8
-  delta: 0.3
+  composite: 75.3
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 76.1
+    contract_quality: 78.2
     developer_ergonomics: 65.2
     discoverability: 77.8
     governance: 69.8
     operational_transparency: 78.9
-  previous_composite: 74.5
+  previous_composite: 75.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -789,8 +789,8 @@ score:
       marker_coverage: 0.0
       total: 51
     mcp: first-party
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/screenshots/ashby-hq-2026-06-20T172500.png
 security:

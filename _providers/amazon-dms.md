@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 2
@@ -830,7 +830,7 @@ plans:
 - name: Amazon Dms Plans Pricing
   plan_count: 3
   slug: amazon-dms-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Amazon Dms Rate Limits
@@ -854,16 +854,16 @@ rules:
   slug: amazon-dms-spectral-rules
 score:
   band: strong
-  composite: 60.6
-  delta: -2.8
+  composite: 61.5
+  delta: 0.0
   facets:
     commercial_clarity: 81.6
-    contract_quality: 64.1
+    contract_quality: 67.4
     developer_ergonomics: 45.7
     discoverability: 40.7
     governance: 68.8
     operational_transparency: 52.6
-  previous_composite: 63.4
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -871,8 +871,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 72
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/screenshots/amazon-dms-2026-06-20T171625.png
 security:

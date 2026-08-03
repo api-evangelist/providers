@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 44.8
-  scored_at: '2026-07-28'
+  score: 40.8
+  scored_at: '2026-08-03'
 api_count: 5
 apis:
 - description: The Analytics API from Sequence — 177 operation(s) for analytics.
@@ -187,19 +187,19 @@ overview: 'Sequence publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Sequence''s developer surface includes documentation, API reference, signup flow, support, engineering blog, pricing, changelog, and 22 more developer resources.'
-random_paper: 37
+random_paper: 2
 score:
   band: developing
-  composite: 44.9
-  delta: -3.1
+  composite: 45.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
-    contract_quality: 56.2
+    contract_quality: 58.7
     developer_ergonomics: 64.7
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 44.7
-  previous_composite: 48.0
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
@@ -215,8 +215,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

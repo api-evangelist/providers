@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Akur8 Deploy auto-generates a real-time REST rating endpoint from a finalized pricing model built in Akur8 Rate. A customer's policy admin system or quoting engine calls the generated endpoint to scor
@@ -84,11 +84,11 @@ plans:
 - name: Akur8 Plans Pricing
   plan_count: 2
   slug: akur8-plans-pricing
-random_paper: 81
+random_paper: 16
 score:
   band: emerging
   composite: 14.2
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -96,15 +96,15 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.0
+  previous_composite: 14.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akur8/refs/heads/main/screenshots/akur8-2026-07-25T195528.png
 security:

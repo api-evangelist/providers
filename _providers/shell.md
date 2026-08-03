@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ plans:
 - name: Shell Plans Pricing
   plan_count: 1
   slug: shell-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Shell Rate Limits
@@ -362,16 +362,16 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: strong
-  composite: 57.4
-  delta: -3.4
+  composite: 57.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 76.0
+    contract_quality: 78.0
     developer_ergonomics: 41.3
     discoverability: 64.8
     governance: 68.8
     operational_transparency: 42.1
-  previous_composite: 60.8
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     contracts:
@@ -385,8 +385,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/screenshots/shell-2026-06-20T193753.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -235,7 +235,7 @@ press:
 - date: '2026-05-25'
   title: U. S. Steel Aims to Improve Operational Efficiencies and ...
   url: https://www.ussteel.com/prereleases/-/blogs/u-s-steel-aims-to-improve-operational-efficiencies-and-employee-experiences-with-google-cloud-s-generative-ai
-random_paper: 54
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: United States Steel Rate Limits
@@ -258,17 +258,17 @@ rules:
     warn: 13
   slug: united-states-steel-spectral-rules
 score:
-  band: developing
-  composite: 46.7
-  delta: -12.0
+  band: thin
+  composite: 38.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.3
+    contract_quality: 33.3
     developer_ergonomics: 28.3
     discoverability: 74.1
     governance: 68.8
     operational_transparency: 31.6
-  previous_composite: 58.7
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -282,9 +282,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/screenshots/united-states-steel-2026-06-20T200102.png
 security:
 - kind: authentication

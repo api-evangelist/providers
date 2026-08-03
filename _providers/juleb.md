@@ -14,11 +14,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 1
 apis:
 - description: Juleb's REST API for the health/retail/distribution platform, documented at docs.juleb.com. Documented resource surface spans inventory (batch, picking, product, product-template), point of sale (conf
@@ -75,11 +75,11 @@ overview: 'Juleb publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Juleb''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 38
+random_paper: 55
 score:
   band: minimal
   composite: 11.2
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -87,15 +87,15 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 13.4
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juleb/refs/heads/main/screenshots/juleb-2026-07-25T223303.png
 security:

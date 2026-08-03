@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: false
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 api_count: 14
 apis:
 - description: The Aspects API from Diaspora — 2 operation(s) for aspects.
@@ -219,7 +219,7 @@ overview: 'Diaspora publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Diaspora''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
-random_paper: 31
+random_paper: 91
 scopes:
 - name: Diaspora Scopes
   scope_count: 0
@@ -227,16 +227,16 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.8
-  delta: -1.4
+  composite: 46.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
-    contract_quality: 57.6
+    contract_quality: 61.2
     developer_ergonomics: 56.0
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 39.5
-  previous_composite: 47.2
+  previous_composite: 46.5
   provenance:
     conformance: derived
     contracts:
@@ -252,8 +252,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 55.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/screenshots/diaspora-2026-07-25T211929.png
 security:

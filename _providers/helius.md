@@ -5,20 +5,20 @@ agent_readiness:
     agent_card: near-conformant
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
-    error_semantics: false
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     rate_limit_signal: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.4
-  scored_at: '2026-07-28'
+  score: 46.7
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -26,7 +26,7 @@ agentic_access:
   operation_count: 31
   slug: helius-agentic-access
   summary_line: 31 operations · 16 acting
-api_count: 7
+api_count: 20
 apis:
 - description: Solana JSON-RPC and WebSocket endpoints with enhanced WebSockets, archival data, and staked connections.
   name: Helius Solana RPC
@@ -49,7 +49,46 @@ apis:
 - description: Indexed RPC for Solana ZK compression (compressed accounts).
   name: Helius Photon RPC (ZK Compression)
   slug: photon
-artifact_total: 17
+- description: Enhanced on-chain identity data with complete wallet activity and ownership information.
+  name: Helius Addresses API
+  slug: helius-addresses-api
+- description: The Admin API from Helius — 1 operation(s) for admin.
+  name: Helius Admin API
+  slug: helius-admin-api
+- description: Query token and NFT balances
+  name: Helius Balances API
+  slug: helius-balances-api
+- description: Wallet funding information
+  name: Helius Funding API
+  slug: helius-funding-api
+- description: The Helius API Catalog API from Helius — 1 operation(s) for helius api catalog.
+  name: Helius Helius API Catalog API
+  slug: helius-helius-api-catalog-api
+- description: Transaction history and balance changes
+  name: Helius History API
+  slug: helius-history-api
+- description: Lookup wallet identities and known addresses
+  name: Helius Identity API
+  slug: helius-identity-api
+- description: Access comprehensive NFT data including events, collection aggregations, real-time stats, and complete historical activity on Solana.
+  name: Helius NFTs API
+  slug: helius-nfts-api
+- description: The Sender API from Helius — 2 operation(s) for sender.
+  name: Helius Sender API
+  slug: helius-sender-api
+- description: Complete token account data, on-chain and off-chain metadata, and detailed information for both fungible and non-fungible Solana tokens.
+  name: Helius Tokens API
+  slug: helius-tokens-api
+- description: Enhanced and human-readable transaction histories with decoded instruction data and detailed context.
+  name: Helius Transactions API
+  slug: helius-transactions-api
+- description: Token transfer activity
+  name: Helius Transfers API
+  slug: helius-transfers-api
+- description: Configure real-time blockchain notifications for any Solana address, transaction type, or on-chain event with customizable delivery options.
+  name: Helius Webhooks API
+  slug: helius-webhooks-api
+artifact_total: 30
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Helius''s real-time WebSocket interfaces for Solana. Coverage: * Standard Solana JSON-RPC PubSub subscriptions exposed by Helius RPC. * Helius enhanced subscriptions (transa'
   name: Helius WebSocket APIs
@@ -115,7 +154,7 @@ modified: '2026-05-29'
 name: Helius
 nav: Providers
 network: true
-overview: 'Helius publishes 1 API on the [APIs.io](https://apis.io/) network: Solana RPC. Tagged areas include Web3, Blockchain, Solana, RPC, and DAS.
+overview: 'Helius publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Solana RPC, Addresses API, Admin API, and 11 more. Tagged areas include Web3, Blockchain, Solana, RPC, and DAS.
 
 
   The Helius catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -126,7 +165,7 @@ plans:
 - name: Helius Plans Pricing
   plan_count: 5
   slug: helius-plans-pricing
-random_paper: 76
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Helius Rate Limits
@@ -142,16 +181,16 @@ rules:
   slug: helius-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.1
-  delta: -6.2
+  composite: 45.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.5
+    contract_quality: 69.0
     developer_ergonomics: 10.9
     discoverability: 74.1
     governance: 47.9
     operational_transparency: 36.8
-  previous_composite: 49.3
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -159,9 +198,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/screenshots/helius-2026-06-20T182630.png
 security:
 - kind: authentication

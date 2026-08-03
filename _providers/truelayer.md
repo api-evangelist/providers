@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: verified
     mcp_server: true
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -205,7 +205,7 @@ plans:
 - name: Truelayer Plans Pricing
   plan_count: 3
   slug: truelayer-plans-pricing
-random_paper: 5
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Truelayer Rate Limits
@@ -229,16 +229,16 @@ rules:
   slug: truelayer-rules
 score:
   band: strong
-  composite: 56.9
-  delta: -5.7
+  composite: 57.4
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
-    contract_quality: 73.0
+    contract_quality: 75.0
     developer_ergonomics: 54.3
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 52.6
-  previous_composite: 62.6
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -252,9 +252,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 40.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/screenshots/truelayer-2026-06-20T195753.png
 security:
 - kind: authentication

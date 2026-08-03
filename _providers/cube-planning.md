@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: partial
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -278,7 +278,7 @@ overview: 'Cube Planning publishes 42 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Cube Planning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 3
+random_paper: 80
 scopes:
 - name: Cube Planning Scopes
   scope_count: 3
@@ -286,16 +286,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.3
-  delta: -0.2
+  composite: 46.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 52.5
+    contract_quality: 54.5
     developer_ergonomics: 36.4
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 15.8
-  previous_composite: 46.5
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,8 +306,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/screenshots/cube-planning-2026-07-25T210914.png
 security:

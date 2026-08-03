@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: true
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 63.3
-  scored_at: '2026-07-28'
+  score: 59.2
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 8
@@ -636,7 +636,7 @@ overview: 'Amigo publishes 72 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Amigo''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 28 more developer resources.'
-random_paper: 33
+random_paper: 50
 scopes:
 - name: Amigo Scopes
   scope_count: 53
@@ -644,16 +644,16 @@ scopes:
   summary_line: 53 scopes
 score:
   band: strong
-  composite: 60.9
-  delta: -0.5
+  composite: 61.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.0
+    contract_quality: 70.1
     developer_ergonomics: 86.4
     discoverability: 74.1
     governance: 20.8
     operational_transparency: 28.9
-  previous_composite: 61.4
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -670,8 +670,8 @@ score:
     regime: Health
     regime_id: health
     score: 68.8
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/screenshots/amigo-2026-07-25T200104.png
 security:

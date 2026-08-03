@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ press:
 - date: '2026-05-25'
   title: WM Announces New, Modernized High-Tech Recycling and ...
   url: https://investors.wm.com/news-releases/news-release-details/wm-announces-new-modernized-high-tech-recycling-and-renewable
-random_paper: 6
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Waste Management Rate Limits
@@ -211,16 +211,16 @@ rules:
   slug: waste-management-rules
 score:
   band: developing
-  composite: 45.7
-  delta: -3.4
+  composite: 46.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.2
+    contract_quality: 73.6
     developer_ergonomics: 19.6
     discoverability: 72.2
     governance: 68.8
     operational_transparency: 21.1
-  previous_composite: 49.1
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -228,8 +228,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/screenshots/waste-management-2026-06-20T201242.png
 security:

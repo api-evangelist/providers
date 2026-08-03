@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: false
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: true
     dry_run_mode: false
     error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 54.5
-  scored_at: '2026-07-28'
+  score: 50.5
+  scored_at: '2026-08-03'
 api_count: 2
 apis:
 - description: The embedded credit-card API that powers hi.health. Partners issue and manage cards, cardholders, transactions, receipts, payments, statements and external transfers, with OAuth2 client-credentials au
@@ -166,9 +166,9 @@ overview: 'hi.health publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   hi.health''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 19 more developer resources.'
-random_paper: 19
+random_paper: 79
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Hihealth Rate Limits
   slug: hihealth-rate-limits
 scopes:
@@ -178,16 +178,16 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 48.7
-  delta: 4.8
+  composite: 51.0
+  delta: 2.3
   facets:
     commercial_clarity: 7.9
     contract_quality: 51.6
     developer_ergonomics: 65.2
     discoverability: 87.0
     governance: 12.5
-    operational_transparency: 57.9
-  previous_composite: 43.9
+    operational_transparency: 78.9
+  previous_composite: 48.7
   provenance:
     conformance: first-party
     mcp: first-party
@@ -197,8 +197,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 68.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/screenshots/hihealth-2026-07-25T221215.png
 security:

@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -27,8 +27,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-07-28'
+  score: 28.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -313,7 +313,7 @@ overview: 'Flowdock (Discontinued) publishes 15 APIs on the [APIs.io](https://ap
 
 
   Flowdock (Discontinued)''s developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 30 more developer resources.'
-random_paper: 37
+random_paper: 2
 rules:
 - name: Flowdock (Discontinued) API Rules
   rule_count: 5
@@ -346,16 +346,16 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.8
-  delta: -3.7
+  composite: 40.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
-    contract_quality: 67.3
+    contract_quality: 69.7
     developer_ergonomics: 45.7
     discoverability: 68.5
     governance: 52.1
     operational_transparency: 5.3
-  previous_composite: 43.5
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -363,8 +363,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/screenshots/flowdock-2026-06-20T181333.png
 security:

@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: documented
     mcp_server: derived
     openapi_examples: verified
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.4
-  scored_at: '2026-07-28'
+  score: 53.4
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -210,23 +210,23 @@ press:
 - date: '2026-05-25'
   title: Yesterday, we announced KeyCorp's First Quarter 2026 ...
   url: https://www.facebook.com/keybank/posts/yesterday-we-announced-keycorps-first-quarter-2026-earnings-learn-more-at/1351056593721210/
-random_paper: 27
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Keycorp Rate Limits
   slug: keycorp-rate-limits
 score:
-  band: thin
-  composite: 41.8
-  delta: -3.1
+  band: developing
+  composite: 42.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 69.1
+    contract_quality: 73.6
     developer_ergonomics: 42.9
     discoverability: 72.2
     governance: 11.5
     operational_transparency: 28.9
-  previous_composite: 44.9
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,8 +243,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png
 security:

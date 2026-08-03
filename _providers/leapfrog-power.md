@@ -5,11 +5,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: derived
     openapi_examples: verified
@@ -17,8 +17,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 53.8
-  scored_at: '2026-07-28'
+  score: 49.8
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 9
@@ -246,19 +246,19 @@ overview: 'Leap publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Leap''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, support, and 35 more developer resources.'
-random_paper: 56
+random_paper: 25
 score:
   band: developing
-  composite: 51.3
-  delta: -2.7
+  composite: 52.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
-    contract_quality: 65.5
+    contract_quality: 72.2
     developer_ergonomics: 62.5
     discoverability: 92.6
     governance: 11.5
     operational_transparency: 47.4
-  previous_composite: 54.0
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,8 +275,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 security:
 - kind: authentication

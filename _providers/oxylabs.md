@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: true
     openapi_examples: documented
@@ -29,7 +29,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -457,23 +457,23 @@ plans:
 - name: Oxylabs Plans Pricing
   plan_count: 3
   slug: oxylabs-plans-pricing
-random_paper: 32
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Oxylabs Rate Limits
   slug: oxylabs-rate-limits
 score:
   band: strong
-  composite: 60.6
-  delta: -2.1
+  composite: 61.6
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
-    contract_quality: 55.1
+    contract_quality: 58.9
     developer_ergonomics: 73.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 62.7
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     contracts:
@@ -481,8 +481,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/screenshots/oxylabs-2026-06-20T191301.png
 security:

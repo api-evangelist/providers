@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: University Of Bonn Plans Pricing
   plan_count: 2
   slug: university-of-bonn-plans-pricing
-random_paper: 50
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: University Of Bonn Rate Limits
@@ -172,16 +172,16 @@ rules:
   slug: university-of-bonn-rules
 score:
   band: thin
-  composite: 37.4
-  delta: -5.0
+  composite: 38.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.6
+    contract_quality: 61.2
     developer_ergonomics: 2.2
     discoverability: 74.1
     governance: 58.3
     operational_transparency: 26.3
-  previous_composite: 42.4
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -195,9 +195,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
-  trend: falling
+  schema_version: 0.9
+  scored_at: '2026-08-03'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/screenshots/university-of-bonn-2026-06-20T200139.png
 security:
 - kind: domain-security

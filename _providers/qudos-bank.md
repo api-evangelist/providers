@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: false
     idempotency: false
     mcp_server: derived
     openapi_examples: false
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ overview: 'Qudos Bank publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Qudos Bank''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, and 18 more developer resources.'
-random_paper: 29
+random_paper: 63
 scopes:
 - name: Qudos Bank Scopes
   scope_count: 5
@@ -181,16 +181,16 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 45.2
-  delta: -2.7
+  composite: 46.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 50.0
+    contract_quality: 54.3
     developer_ergonomics: 47.3
     discoverability: 92.6
     governance: 20.8
     operational_transparency: 0.0
-  previous_composite: 47.9
+  previous_composite: 46.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -207,8 +207,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/screenshots/qudos-bank-2026-07-21T114742.png
 security:

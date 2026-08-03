@@ -15,11 +15,11 @@ agent_readiness:
     agent_card: false
     agent_skills: false
     agentic_access: derived
-    asyncapi_events: false
     auth_clarity: false
     consent_identity: false
     dry_run_mode: false
     error_semantics: false
+    event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: verified
@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-07-28'
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,23 +89,23 @@ plans:
 - name: Kegg Rest Api
   plan_count: 4
   slug: kegg-rest-api
-random_paper: 4
+random_paper: 34
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Kegg Rest Api
   slug: kegg-rest-api
 score:
-  band: emerging
-  composite: 27.0
-  delta: -2.4
+  band: thin
+  composite: 30.1
+  delta: 2.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.6
+    contract_quality: 61.2
     developer_ergonomics: 0.0
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 0.0
-  previous_composite: 29.4
+    operational_transparency: 21.1
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -119,8 +119,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/screenshots/kegg-2026-06-20T183941.png
 security:

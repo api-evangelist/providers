@@ -16,11 +16,11 @@ agent_readiness:
     agent_card: false
     agent_skills: true
     agentic_access: derived
-    asyncapi_events: true
     auth_clarity: true
     consent_identity: false
     dry_run_mode: false
     error_semantics: verified
+    event_surface_described: derived
     idempotency: false
     mcp_server: true
     openapi_examples: false
@@ -28,8 +28,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.6
-  scored_at: '2026-07-28'
+  score: 54.5
+  scored_at: '2026-08-03'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -292,7 +292,7 @@ plans:
 - name: Runway Plans Pricing
   plan_count: 5
   slug: runway-plans-pricing
-random_paper: 22
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Runway Rate Limits
@@ -324,16 +324,16 @@ rules:
   slug: runway-rules
 score:
   band: strong
-  composite: 60.7
-  delta: -2.8
+  composite: 61.2
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
-    contract_quality: 76.3
+    contract_quality: 78.3
     developer_ergonomics: 43.5
     discoverability: 64.8
     governance: 52.1
     operational_transparency: 42.1
-  previous_composite: 63.5
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     contracts:
@@ -341,8 +341,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.6
-  scored_at: '2026-07-28'
+  schema_version: 0.9
+  scored_at: '2026-08-03'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
 security:
