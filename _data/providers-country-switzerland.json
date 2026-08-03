@@ -1,6 +1,6 @@
 {
- "total": 18,
- "shown": 18,
+ "total": 20,
+ "shown": 20,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 52.5,
      "agent_band": "agent-ready",
@@ -75,7 +75,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -131,7 +131,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 36.3,
      "agent_band": "agent-ready",
@@ -169,7 +169,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -214,7 +214,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 41.2,
      "agent_band": "agent-ready",
@@ -252,7 +252,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -297,7 +297,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -345,7 +345,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -390,7 +390,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -428,7 +428,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 28.8,
      "agent_band": "agent-aware",
@@ -466,7 +466,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -521,7 +521,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -559,7 +559,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -604,7 +604,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -652,7 +652,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -696,7 +696,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -733,7 +733,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -769,14 +769,26 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "Climeworks",
+     "slug": "climeworks",
+     "description": "Climeworks AG is a Swiss carbon dioxide removal company founded in 2009 as an ETH Zurich spin-off by Christoph Gebald and Jan Wurzbacher. It designs, builds and operates direct air capture (DAC) plants that filter CO2 out of ambient air through an adsorption-desorption cycle and then permanently mineralize it underground with storage partners such as Carbfix in Iceland - the Orca and Mammoth facilities. Through Climeworks Solutions it also sells risk-mitigated carbon removal portfolios that blend its own DAC removals with certified third-party suppliers, delivered within seven years of purchase and tracked by corporate buyers in an online customer platform. Climeworks is a supplier of carbon removal rather than a software vendor: it publishes no public developer portal, no API documentation and no machine-readable API contract, and its removals reach programmatic buyers through third-party carbon marketplaces instead.",
+     "rank": 18
+    },
     {
      "name": "Kuehne+Nagel",
      "slug": "kuehne-nagel",
      "description": "Kuehne+Nagel International AG is a Swiss freight forwarder and contract logistics provider headquartered in Schindellegi, Switzerland, and one of the largest forwarders in the world across sea logistics, air logistics, road logistics and contract logistics. As a forwarder it sits in the intermediation layer of the supply chain — between shippers on one side and ocean carriers, airlines, hauliers, terminals and customs authorities on the other — and most of the data it exposes is carrier and terminal data it aggregates rather than originates. Its API posture is honest but conditional: a real WSO2-based developer portal at portal.api.kuehne-nagel.com lists 17 published APIs and serves every OpenAPI definition anonymously, but every subscription is customer-contract gated — a myKN account, a Kuehne+Nagel customer ID (CID) and an account manager who completes the \"customer setup\" are stated pre-requisites, so nobody outside a commercial relationship can call the gateway. Underneath the REST veneer the company's own connectivity page still advertises EDIFACT, ANSI X.12, Tradacoms, RosettaNet, iDOC, GS1 and CargoImp over AS2, OFTP-2, (S)FTP and VAN as the primary integration path, and its one customs \"EDI\" API is an unschematized pass-through. One surface — OceanEventInbox v1 — is explicitly built to the DCSA equipment-event standard, which makes Kuehne+Nagel a non-member implementer of a carrier standards body; the other sixteen APIs are proprietary Kuehne+Nagel contracts.",
-     "rank": 18
+     "rank": 19
+    },
+    {
+     "name": "MindMaze",
+     "slug": "mindmaze",
+     "description": "MindMaze Therapeutics Holding SA (SIX: MMTX) is a Swiss precision-neurotherapeutics company headquartered in Lausanne, with a Geneva holding entity and a US base in Charlotte, North Carolina. Founded in 2012 by Tej Tadi as an EPFL spin-off, MindMaze became Switzerland's first unicorn and in December 2025 its successor entity NeuroX completed a business combination with Relief Therapeutics to form the SIX-listed MindMaze Therapeutics. The company builds digital neurotherapeutics that pair gamified therapy software with proprietary sensors and AI-driven analytics across the continuum of care - in-hospital, outpatient and at home - for stroke, Parkinson's disease and at-risk aging. Its FDA-listed and CE-marked portfolio includes Companion, MindMotion GO, MindPod, the Izar smart hand peripheral, the Physilog 3D motion-analytics platform and TOAP Run, deployed in more than 250 clinics and rehabilitation centers globally. MindMaze is a regulated medical-device and digital-therapeutics vendor rather than a software platform business: as of 2026-08-01 it publishes no developer portal, no API documentation, no SDKs, no CLI and no product API contract, and no API, docs or developer subdomain resolves on its domains. The one machine-readable surface it does serve is the anonymous WordPress REST API behind its corporate site, which carries 450 posts - 309 of them EQS regulatory and investor-relations disclosure for the SIX-listed issuer - 49 pages and 1,070 media records.",
+     "rank": 20
     }
    ]
   }

@@ -188,6 +188,35 @@ aliases:
 # `python3 signals/build_provenance.py` before every scoring pass.
 # ---------------------------------------------------------------------------
 provenance:
+  # FUTURE (captured 2026-08-01, not scheduled) — two things scoring a
+  # self-optimizing provider exposed about this block. Neither is a bug today;
+  # both are the dials that turn when certification tightens. See the
+  # discovery-now / certify-later note above `planned_dimensions`.
+  #
+  # (1) THE VOCABULARY IS OURS, NOT THEIRS. build_provenance.py recognizes
+  #     method: derived|generated|modeled|reconstructed|inferred -> derived, and
+  #     searched|probed|harvested|fetched|researched -> first-party. A PROVIDER
+  #     writing their own artifact reaches for none of those — Xquik wrote
+  #     `method: declared` across their set and every file resolved `unknown`
+  #     except the one that also carried `status: published`. The vocabulary was
+  #     designed for our pipeline describing how IT found something, and now
+  #     providers are authoring artifacts directly. Options: accept `declared`
+  #     (and `authored`, `published`, `self-reported`) as first-party when paired
+  #     with a `publisher:` and a resolvable `source:`, or stop inferring from
+  #     `method:` for provider-authored files and read only `x-provenance`.
+  #     Publishing the accepted vocabulary on /rating/ matters either way — right
+  #     now a provider cannot know the token exists.
+  #
+  # (2) `unknown: 1.00` IS THE LOOSEST DIAL HERE, ON PURPOSE. Crediting an
+  #     unmarked artifact in full is correct while marker coverage is 2.6% —
+  #     the alternative punishes providers for a gap in OUR metadata. But it
+  #     also means a provider-authored artifact carrying no recognized marker is
+  #     worth exactly as much as a verified first-party one, so nothing in the
+  #     score currently rewards a provider for making their authorship legible.
+  #     That inverts once (1) is fixed and coverage rises: the moment `unknown`
+  #     reliably means "nobody said," it should cost something. Do not lower it
+  #     before then, and re-cut bands when it moves — this multiplies awards
+  #     across seven checks.
   credit:
     first-party: 1.00
     conformance: 0.75
@@ -2143,8 +2172,65 @@ agent_readiness:
   # credit instead of dropping to zero. `dry_run_mode` landed as a new dimension,
   # since no provider-level proxy for it exists.
   #
+  # ---------------------------------------------------------------------------
+  # POSTURE: DISCOVERY NOW, CERTIFICATION LATER. A deliberate choice, recorded
+  # here so it is not mistaken for an oversight.
+  #
+  # Today this rubric reads what a provider DECLARES and, from 0.6, verifies a
+  # growing slice of it against the contract they serve. It does not certify.
+  # Certifying every field asked for in apis.json — attesting that a declared
+  # artifact is served, is current, and says what the declaration says it says —
+  # was scoped and started via API onboarding, and the work and ongoing overhead
+  # are large enough that pursuing it now would stall the thing the score is
+  # actually for.
+  #
+  # What the score is for RIGHT NOW is discovery, plus the competitive pull that
+  # makes a provider want to move their number. That pull is the mechanism: a
+  # provider who publishes real artifacts to climb has published real artifacts,
+  # and the catalog is better whether or not they were chasing a rank. The
+  # rubric is expected to be optimized against. Hardening is the answer to that,
+  # not gatekeeping, and it is a moving target by design.
+  #
+  # The direction of travel is therefore: declared -> verified-in-contract ->
+  # attested/certified, one artifact class at a time, cheapest verification
+  # first. 0.6 took the first step for four dimensions. The two entries below
+  # take the next one, and both came out of scoring a provider who optimized
+  # hard against 0.6 with entirely truthful artifacts (Xquik, 2026-08-01) —
+  # which is exactly the pressure test that shows where declaration and reality
+  # are still allowed to diverge.
+  # ---------------------------------------------------------------------------
+  #
   # What is queued next, and why each is waiting:
   planned_dimensions:
+    - id: extensions_in_served_contract
+      label: Agentic Extensions in the Served Contract
+      signal: 'x-agentic-access (and peers) present in the spec the provider serves, not only the catalog artifact'
+      supersedes: agentic_access
+      blocked_on: probe
+      description: >
+        `agentic_access` credits a provider-authored agentic-access artifact in
+        the catalog. It cannot see whether those classifications reach the
+        contract an agent actually fetches. A provider can hold the full award
+        with an operation-by-operation contract in this catalog and zero
+        `x-agentic-access` extensions in their served OpenAPI — observed, with
+        honestly-labelled artifacts, at the top of the 0.6 distribution. That is
+        the widest remaining gap between declaration and the thing an agent
+        reads at runtime, and closing it needs a fetch of the live spec plus a
+        diff against the catalog copy, not new rubric math.
+    - id: artifact_liveness
+      label: Declared Artifact Liveness
+      signal: 'declared common[] URLs resolve, and their content matches the declared type'
+      blocked_on: probe
+      description: >
+        Most operational and commercial checks are presence-only — they credit
+        `common[].type` and never fetch the URL. A StatusPage entry pointing at
+        an auth-gated health endpoint returning 403 scores identically to a real
+        status page; so does a dead link, or a Plans URL serving a marketing
+        page. This is the cheapest certification step available and the natural
+        first one: a periodic HEAD/GET across declared artifacts, grading
+        resolves / wrong-content / dead, feeding a multiplier rather than a new
+        dimension. It is also the step that makes every downstream attestation
+        claim defensible.
     - id: agentic_commerce
       label: Agentic Commerce Protocols
       signal: 'UCP / ACP / AP2 / x402 support declared or implemented'

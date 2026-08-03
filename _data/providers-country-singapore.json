@@ -1,6 +1,6 @@
 {
- "total": 49,
- "shown": 49,
+ "total": 50,
+ "shown": 50,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 32.7,
      "agent_band": "agent-aware",
@@ -65,7 +65,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -103,7 +103,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -159,7 +159,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -204,7 +204,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -248,7 +248,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -292,7 +292,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -347,7 +347,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -391,7 +391,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -436,7 +436,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -481,7 +481,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -519,7 +519,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -564,7 +564,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -608,7 +608,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -652,7 +652,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -689,7 +689,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -734,7 +734,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -772,7 +772,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -827,7 +827,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -865,7 +865,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -903,7 +903,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -947,7 +947,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 14.4,
      "agent_band": "agent-aware",
@@ -984,7 +984,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1028,7 +1028,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1065,7 +1065,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1110,7 +1110,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1148,7 +1148,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1185,7 +1185,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1229,7 +1229,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1267,7 +1267,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1304,7 +1304,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1349,7 +1349,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1386,7 +1386,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1430,7 +1430,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -1468,7 +1468,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1505,7 +1505,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1542,7 +1542,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1586,7 +1586,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1631,7 +1631,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1675,7 +1675,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1713,7 +1713,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1750,7 +1750,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1787,7 +1787,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1824,7 +1824,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1861,7 +1861,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1899,7 +1899,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1943,7 +1943,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1972,8 +1972,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "CargoAi",
@@ -1987,6 +1987,12 @@
      "description": "Hillhouse Investment (formerly Hillhouse Capital) is a global investment firm founded in 2005 by Lei Zhang with seed capital from the Yale University endowment, and is one of Asia's largest private-market investors, managing an estimated US$100 billion in assets as of 2026. Headquartered in Singapore with offices in Hong Kong, Beijing, Shanghai, New York, London, and Abu Dhabi, the firm invests globally across all stages of a company's life cycle, spanning public equities, growth equity, private equity buyouts, venture capital (through its early-stage arm GL Ventures, launched in 2020), and real assets. Hillhouse describes itself as disciplined and pragmatic investors who prioritize business fundamentals and deep, bottom-up industry research, with sector focus on healthcare, industrials, energy transition, business services, and consumer. Its portfolio spans companies headquartered in more than 25 countries and has included category-defining businesses such as Tencent, JD.com, Baidu, Zoom, BeiGene, Miniso, Airbnb, Uber, and Didi. Backers have historically included major university endowments (Yale, Stanford, Princeton, MIT, University of Pennsylvania, University of Texas) and CPPIB.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hillhouse/refs/heads/main/screenshots/hillhouse-2026-07-25T221225.png",
      "rank": 49
+    },
+    {
+     "name": "ShopBack",
+     "slug": "shopback",
+     "description": "ShopBack is a Singapore-headquartered shopping, rewards and payments platform founded in 2014, operating across 13 markets in Asia-Pacific, Europe and the United States with more than 20 million members and 20,000 merchant partners. Alongside its consumer cashback and discovery app, ShopBack runs a merchant-facing payments business — ShopBack Pay and ShopBack PayLater — and publishes a public developer hub at docs.shopback.com covering two REST APIs. The Online Payments API (v2.0, also called the Online Bespoke API) handles merchant login, order initiation, order status, refunds, and a tokenized-payments surface for account linking, pre-authorization hold/capture/void, immediate charge and cashback-balance lookup. The In-Store Payments API (v1.4) covers merchant-presented and customer-presented QR ordering, order status, refunds, cancellations, and a payment-notification webhook for point-of-sale and customer-facing app checkout. Both are HMAC- or JWT-authenticated over HTTPS/TLS 1.2+, support an X-ShopBack-Idempotent-Id idempotency header, and ship e-commerce plugins for Shopify, WooCommerce, Magento, PrestaShop, EasyStore and Salesforce Commerce Cloud.",
+     "rank": 50
     }
    ]
   }

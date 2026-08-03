@@ -1,6 +1,6 @@
 {
- "total": 289,
- "shown": 289,
+ "total": 297,
+ "shown": 297,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -72,7 +72,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -116,7 +116,7 @@
       "developer_ergonomics": 71.2,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -171,7 +171,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -215,7 +215,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -260,7 +260,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -305,7 +305,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -342,7 +342,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -387,7 +387,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -431,7 +431,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -476,7 +476,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -520,7 +520,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -564,7 +564,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -609,7 +609,7 @@
       "developer_ergonomics": 75.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -654,7 +654,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -699,7 +699,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -744,7 +744,7 @@
       "developer_ergonomics": 71.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -788,7 +788,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -832,7 +832,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -887,7 +887,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 34.5,
      "agent_band": "agent-ready",
@@ -924,7 +924,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -968,7 +968,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
@@ -1005,7 +1005,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1049,7 +1049,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1093,7 +1093,7 @@
       "developer_ergonomics": 77.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1137,7 +1137,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1181,7 +1181,7 @@
       "developer_ergonomics": 75.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1225,7 +1225,7 @@
       "developer_ergonomics": 86.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1269,7 +1269,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1313,7 +1313,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 56.5,
      "agent_band": "agent-native",
@@ -1350,7 +1350,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1394,7 +1394,7 @@
       "developer_ergonomics": 71.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1438,7 +1438,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 38.5,
      "agent_band": "agent-ready",
@@ -1475,7 +1475,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1519,7 +1519,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1563,7 +1563,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1607,7 +1607,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1651,7 +1651,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1695,7 +1695,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 54.7,
      "agent_band": "agent-ready",
@@ -1732,7 +1732,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1777,7 +1777,7 @@
       "developer_ergonomics": 71.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1821,7 +1821,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1865,7 +1865,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 43.9,
      "agent_band": "agent-ready",
@@ -1903,7 +1903,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1947,7 +1947,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1992,7 +1992,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2036,7 +2036,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 31.3,
      "agent_band": "agent-aware",
@@ -2074,7 +2074,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2119,7 +2119,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2163,7 +2163,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2207,7 +2207,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2252,7 +2252,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2297,7 +2297,7 @@
       "developer_ergonomics": 49.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2342,7 +2342,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2386,7 +2386,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2431,7 +2431,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2476,7 +2476,7 @@
       "developer_ergonomics": 49.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2521,7 +2521,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2565,7 +2565,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2609,7 +2609,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2653,7 +2653,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2697,7 +2697,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2742,7 +2742,7 @@
       "developer_ergonomics": 40.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2787,7 +2787,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2831,7 +2831,7 @@
       "developer_ergonomics": 25.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2876,7 +2876,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2921,7 +2921,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2966,7 +2966,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3010,7 +3010,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3054,7 +3054,7 @@
       "developer_ergonomics": 29.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3099,7 +3099,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -3137,7 +3137,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -3174,7 +3174,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3219,7 +3219,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3264,7 +3264,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -3302,7 +3302,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3346,7 +3346,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3391,7 +3391,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -3429,7 +3429,7 @@
       "developer_ergonomics": 42.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3474,7 +3474,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3529,7 +3529,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -3567,7 +3567,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -3604,7 +3604,7 @@
       "developer_ergonomics": 21.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3648,7 +3648,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 22.1,
      "agent_band": "agent-aware",
@@ -3686,7 +3686,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3731,7 +3731,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3775,7 +3775,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3820,7 +3820,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3865,7 +3865,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3910,7 +3910,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3955,7 +3955,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4000,7 +4000,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4045,7 +4045,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4090,7 +4090,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4135,7 +4135,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4180,7 +4180,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4225,7 +4225,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4270,7 +4270,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4315,7 +4315,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4360,7 +4360,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4405,7 +4405,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4450,7 +4450,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4494,7 +4494,7 @@
       "developer_ergonomics": 27.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 45.3,
      "agent_band": "agent-ready",
@@ -4532,7 +4532,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4577,7 +4577,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4622,7 +4622,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4667,7 +4667,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4711,7 +4711,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4755,7 +4755,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4800,7 +4800,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4844,7 +4844,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4889,7 +4889,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4933,7 +4933,7 @@
       "developer_ergonomics": 29.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 38.1,
      "agent_band": "agent-ready",
@@ -4970,7 +4970,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5014,7 +5014,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5058,7 +5058,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -5096,7 +5096,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5140,7 +5140,7 @@
       "developer_ergonomics": 42.9,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5185,7 +5185,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5229,7 +5229,7 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5283,7 +5283,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5327,7 +5327,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5372,7 +5372,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5416,7 +5416,7 @@
       "developer_ergonomics": 38.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5461,7 +5461,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5506,7 +5506,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5550,7 +5550,7 @@
       "developer_ergonomics": 25.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5594,7 +5594,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5624,6 +5624,51 @@
      "rank": 128
     },
     {
+     "name": "Commure",
+     "slug": "commure",
+     "description": "Commure is a San Francisco-based AI-native healthcare technology company that operates an integrated clinical and operational platform for United States health systems following its 2023 combination with Athelas. Its products span Ambient AI clinical documentation (Scribe/Dictation), end-to-end Revenue Cycle Management (RCM), Call Center Agents, referral Orchestrator, patient Engage coordination, Commure Pro clinical intelligence, Strongline staff-safety alerting, and Athelas Home point-of-care diagnostics, integrating with 60+ EHRs across 130+ health systems processing over $25B in annual claims. Commure launched a FHIR-native open developer platform in 2020; that public developer portal (developer.commure.com) and its tenant API hosts (api-{tenant-id}.developer.commure.com) no longer resolve, and today the API surface is a gated, partner-only offering governed by a Developer User Agreement (Sandbox Environment + Developer Services). The one surviving first-party machine-readable contract is Commure's public Postman workspace, which publishes a 59-request \"Commure FHIR API\" collection covering the HL7 FHIR RESTful, terminology and Bulk Data operations plus the OpenID Connect / SMART App Launch authentication endpoints, alongside five clinical-scenario collections. Home market is the United States.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png",
+     "score": 25.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 8.1,
+      "governance": 11.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-08-01",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 47.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 129
+    },
+    {
      "name": "RE/MAX",
      "slug": "re-max",
      "description": "RE/MAX Holdings, Inc. (NYSE: RMAX, SIC 6531, Denver, Colorado) is one of the world's largest real estate brokerage franchisors, licensing the RE/MAX brand to independently owned and operated brokerages across more than 110 countries and territories, and franchising mortgage brokerages in the United States under the Motto Mortgage brand with loan processing through wemlo. Its home market is the United States, where it sits in the value chain as a franchisor and consumer portal operator rather than as a data owner: the listing content behind remax.com is licensed from roughly 500 local Multiple Listing Services under IDX and syndication agreements, so RE/MAX is a consumer of MLS data, not a publisher of it. Its API posture reflects that position honestly. RE/MAX is a RESO Class D member (Brokers, Agents and Appraisers) and holds a seat on the RESO Board of Directors, but it does not appear in the RESO certification directory of certified data providers and publishes no RESO Web API, no OData $metadata document and no Universal Property Identifier surface. In the United States there is no developer portal, no published API program and no machine-readable contract of any kind; developer.remax.com, developers.remax.com and docs.remax.com are only wildcard DNS entries pointing at the kvCORE agent website platform, and api.remax.com is a dangling CNAME to a decommissioned booj host that no longer resolves. The only real, publicly documented RE/MAX API surface belongs to RE/MAX Europe, whose Datahub franchise-operations API and Listings API are published as public Postman documentation with OAuth 2.0 authentication, but whose credentials are issued only to RE/MAX regional master franchisees, offices and their vendors — documented, but not self-serve. The only anonymously callable, self-describing RE/MAX endpoint family found anywhere in the estate is the WordPress REST API on the RE/MAX Europe marketing site (remax.eu/wp-json, 42 namespaces and 791 routes), which also exposes an auth-gated Model Context Protocol endpoint via the WordPress MCP Adapter — a CMS surface rather than an API product, but the closest thing to agent-accessible RE/MAX infrastructure that exists today.",
@@ -5638,7 +5683,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5665,7 +5710,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 130
     },
     {
      "name": "NERC",
@@ -5682,7 +5727,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5709,7 +5754,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 131
     },
     {
      "name": "University of Michigan-Ann Arbor",
@@ -5726,7 +5771,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5753,7 +5798,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 132
     },
     {
      "name": "Arizona State University",
@@ -5771,7 +5816,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5798,7 +5843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 133
     },
     {
      "name": "Columbia University",
@@ -5816,52 +5861,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 12.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 133
-    },
-    {
-     "name": "University of California, Berkeley",
-     "slug": "ucb",
-     "description": "The University of California, Berkeley (UC Berkeley) is a public land-grant research university and the flagship campus of the University of California system, ranked #12 in the QS World University Rankings 2025. Berkeley operates a formal, centrally governed API program through its Integration Services / Enterprise Information Services team, exposing campus data via the API Central developer portal and a shared API Gateway. Access is gated behind CalNet identity and Data Owner approval, with interactive OpenAPI-based documentation and gateway-level authentication, authorization, and rate limiting. Public, uncredentialed footprint also includes the UC-wide eScholarship repository APIs/OAI-PMH and library Alma/Primo metadata services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucb/refs/heads/main/screenshots/ucb-2026-06-20T195937.png",
-     "score": 24.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 12.9,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5891,6 +5891,51 @@
      "rank": 134
     },
     {
+     "name": "University of California, Berkeley",
+     "slug": "ucb",
+     "description": "The University of California, Berkeley (UC Berkeley) is a public land-grant research university and the flagship campus of the University of California system, ranked #12 in the QS World University Rankings 2025. Berkeley operates a formal, centrally governed API program through its Integration Services / Enterprise Information Services team, exposing campus data via the API Central developer portal and a shared API Gateway. Access is gated behind CalNet identity and Data Owner approval, with interactive OpenAPI-based documentation and gateway-level authentication, authorization, and rate limiting. Public, uncredentialed footprint also includes the UC-wide eScholarship repository APIs/OAI-PMH and library Alma/Primo metadata services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucb/refs/heads/main/screenshots/ucb-2026-06-20T195937.png",
+     "score": 24.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 12.9,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-01",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 12.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 135
+    },
+    {
      "name": "Yes Energy",
      "slug": "yes-energy",
      "description": "Yes Energy is a Boulder, Colorado power market data company serving the North American wholesale electricity markets — the seven ISOs and RTOs (ERCOT, PJM, MISO, CAISO, SPP, ISO-NE, NYISO) plus Canadian and Western markets. It aggregates, cleans, and enriches nodal locational marginal prices, FTR auction results, transmission and generation outages, real-time generation and flow telemetry, constraints, load, weather, and fuels data, and sells it through DataSignals (a REST API), DataSignals Cloud (Snowflake Secure Data Sharing), DataSignals Lake (bulk load into a customer warehouse), the PowerSignals and QuickSignals analyst front ends, EnCompass modeling, Live Power telemetry, Infrastructure Insights, Position Management, and bid-to-bill Submission Services. It sits in the private, commercial layer of the energy value chain: it does not generate, distribute, or retail electricity and it holds no consumer relationship — it resells and enriches public ISO/RTO market data to traders, IPPs, utilities, and asset developers. Its API posture is honestly closed: the DataSignals REST API is real and confirmed live at https://services.yesenergy.com/PS/rest/, but it answers every anonymous request with HTTP 401 and WWW-Authenticate Basic, and even the product documentation (help.yesenergy.com) redirects through services.yesenergy.com/PS/KnowledgeOwlAuthentication to a customer login. No public developer portal, no self-serve signup, no machine-readable specification, and no free tier are published. Home market is the United States. There is no consumer energy data mandate that applies to Yes Energy — it is not a utility, retailer, or metering agent, so Green Button, ESPI, and the Consumer Data Right are all out of scope — and while the underlying ISO/RTO market data is publicly available at the source, Yes Energy itself publishes none of it openly.",
@@ -5905,7 +5950,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5932,7 +5977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 136
     },
     {
      "name": "Brown University",
@@ -5950,7 +5995,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -5970,7 +6015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 137
     },
     {
      "name": "Wyndham Hotels & Resorts",
@@ -5987,7 +6032,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 27.0,
      "agent_band": "agent-aware",
@@ -6007,7 +6052,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 138
     },
     {
      "name": "Amtrak",
@@ -6024,7 +6069,7 @@
       "developer_ergonomics": 12.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6051,7 +6096,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 139
     },
     {
      "name": "Truist",
@@ -6068,7 +6113,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6095,7 +6140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 140
     },
     {
      "name": "University of Wisconsin-Madison",
@@ -6113,7 +6158,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -6133,7 +6178,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 141
     },
     {
      "name": "Homes.com",
@@ -6150,52 +6195,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 141
-    },
-    {
-     "name": "Sana Benefits",
-     "slug": "sana-benefits",
-     "description": "Sana Benefits is an Austin, Texas health benefits company founded in 2017 that sells level-funded and self-funded small-group health plans to small and midsize employers in the United States, bundling medical, dental and vision coverage with Sana Care, its in-house virtual-first primary care and care navigation service. Sana distributes almost entirely through licensed benefits brokers, underwrites and administers the plan itself with stop-loss insurance included, and prices provider claims off a reference-based percentage of the Medicare fee schedule. State landing pages confirm sales in Texas, Arizona, Illinois, Indiana, Kentucky, Ohio, Oklahoma, Virginia, Wisconsin and Alabama. Its API posture is closed: as of July 2026 Sana publishes no public developer portal, no API reference, no OpenAPI or Postman artifacts, no GraphQL surface and no webhook or event catalog. The developer.*, developers.*, docs.* and api.* subdomains do not resolve, and every /developers, /api, /developer, /partners and /integrations path on sanabenefits.com returns 404. The only machine surface is secure.sanabenefits.com, a login-walled JSON application serving the member, employer and broker dashboards; its /openapi.json and /swagger.json paths answer 401 login_required, confirming an internal-only API. No ACORD, AL3, IVANS, NGDS or X12 834 reference appears anywhere in public marketing or FAQ content. Quoting is a human broker workflow — \"rates in 48 hours\" from a web form — not an API. This is a partner-gated, broker-mediated benefits carrier with zero public self-serve API surface, which is the typical posture for the US benefits-admin tier in a market with no open-insurance mandate.",
-     "score": 22.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-07-31",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 47.0,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6217,28 +6218,27 @@
      "rank": 142
     },
     {
-     "name": "Commure",
-     "slug": "commure",
-     "description": "Commure is a San Francisco-based AI-native healthcare technology company that operates an integrated clinical and operational platform for United States health systems following its 2023 combination with Athelas. Its products span Ambient AI clinical documentation (Scribe/Dictation), end-to-end Revenue Cycle Management (RCM), Call Center Agents, referral Orchestrator, patient Engage coordination, Commure Pro clinical intelligence, Strongline staff-safety alerting, and Athelas Home point-of-care diagnostics, integrating with 60+ EHRs across 130+ health systems processing over $25B in annual claims. Commure launched a FHIR-native open developer platform in 2020; that public developer portal (developer.commure.com) and its tenant API hosts (api-{tenant-id}.developer.commure.com) no longer resolve, and today the API surface is a gated, partner-only offering governed by a Developer User Agreement (Sandbox Environment + Developer Services). The one surviving first-party machine-readable contract is Commure's public Postman workspace, which publishes a 59-request \"Commure FHIR API\" collection covering the HL7 FHIR RESTful, terminology and Bulk Data operations plus the OpenID Connect / SMART App Launch authentication endpoints, alongside five clinical-scenario collections. Home market is the United States.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png",
-     "score": 22.3,
+     "name": "Sana Benefits",
+     "slug": "sana-benefits",
+     "description": "Sana Benefits is an Austin, Texas health benefits company founded in 2017 that sells level-funded and self-funded small-group health plans to small and midsize employers in the United States, bundling medical, dental and vision coverage with Sana Care, its in-house virtual-first primary care and care navigation service. Sana distributes almost entirely through licensed benefits brokers, underwrites and administers the plan itself with stop-loss insurance included, and prices provider claims off a reference-based percentage of the Medicare fee schedule. State landing pages confirm sales in Texas, Arizona, Illinois, Indiana, Kentucky, Ohio, Oklahoma, Virginia, Wisconsin and Alabama. Its API posture is closed: as of July 2026 Sana publishes no public developer portal, no API reference, no OpenAPI or Postman artifacts, no GraphQL surface and no webhook or event catalog. The developer.*, developers.*, docs.* and api.* subdomains do not resolve, and every /developers, /api, /developer, /partners and /integrations path on sanabenefits.com returns 404. The only machine surface is secure.sanabenefits.com, a login-walled JSON application serving the member, employer and broker dashboards; its /openapi.json and /swagger.json paths answer 401 login_required, confirming an internal-only API. No ACORD, AL3, IVANS, NGDS or X12 834 reference appears anywhere in public marketing or FAQ content. Quoting is a human broker workflow — \"rates in 48 hours\" from a web form — not an API. This is a partner-gated, broker-mediated benefits carrier with zero public self-serve API surface, which is the typical posture for the US benefits-admin tier in a market with no open-insurance mandate.",
+     "score": 22.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 20.8,
-      "operational_transparency": 21.1,
+      "governance": 12.5,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 6.5,
-      "commercial_clarity": 36.8
+      "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 31.3,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 47.0,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -6277,7 +6277,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6321,7 +6321,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6365,7 +6365,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6410,7 +6410,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6455,7 +6455,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6499,7 +6499,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6543,7 +6543,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6587,7 +6587,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6632,7 +6632,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -6670,7 +6670,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -6708,7 +6708,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -6745,7 +6745,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 16.2,
      "agent_band": "agent-aware",
@@ -6783,7 +6783,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6828,7 +6828,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6872,7 +6872,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6917,7 +6917,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -6955,7 +6955,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6999,7 +6999,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7044,7 +7044,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -7082,7 +7082,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7127,7 +7127,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -7165,7 +7165,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -7203,7 +7203,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -7241,7 +7241,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7286,7 +7286,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7330,7 +7330,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7375,7 +7375,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7420,7 +7420,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7465,7 +7465,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7510,7 +7510,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7555,7 +7555,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -7593,7 +7593,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7637,7 +7637,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 12.6,
      "agent_band": "agent-aware",
@@ -7674,7 +7674,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7712,7 +7712,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7757,7 +7757,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7802,7 +7802,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7847,7 +7847,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7891,7 +7891,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7936,7 +7936,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7981,7 +7981,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8025,7 +8025,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8070,7 +8070,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8115,7 +8115,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8160,7 +8160,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8204,7 +8204,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8249,7 +8249,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8294,7 +8294,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8339,7 +8339,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8383,7 +8383,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8420,7 +8420,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8465,7 +8465,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8510,7 +8510,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8555,7 +8555,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8600,7 +8600,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8645,7 +8645,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8690,7 +8690,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8735,7 +8735,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8780,7 +8780,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8825,7 +8825,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8870,7 +8870,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8915,7 +8915,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8960,7 +8960,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9005,7 +9005,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9050,7 +9050,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9094,7 +9094,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9139,7 +9139,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9183,7 +9183,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9228,7 +9228,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9273,7 +9273,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9317,7 +9317,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9362,7 +9362,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9407,7 +9407,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9451,7 +9451,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9489,7 +9489,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9534,7 +9534,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9579,7 +9579,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9624,7 +9624,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9669,7 +9669,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9714,7 +9714,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9759,7 +9759,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9804,7 +9804,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9848,7 +9848,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9892,7 +9892,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9937,7 +9937,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9992,7 +9992,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10036,7 +10036,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10080,7 +10080,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10124,7 +10124,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10169,7 +10169,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10214,7 +10214,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10259,7 +10259,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10303,7 +10303,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10347,7 +10347,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10391,7 +10391,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10435,7 +10435,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10479,7 +10479,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10523,7 +10523,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10567,7 +10567,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10611,7 +10611,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10656,7 +10656,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10701,7 +10701,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10745,7 +10745,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10789,7 +10789,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10833,7 +10833,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10878,7 +10878,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10923,7 +10923,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10967,7 +10967,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11011,7 +11011,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11055,7 +11055,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11100,7 +11100,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11145,7 +11145,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11190,7 +11190,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11234,7 +11234,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11279,7 +11279,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11323,7 +11323,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11367,7 +11367,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11411,7 +11411,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11455,7 +11455,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11499,7 +11499,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11544,7 +11544,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11589,7 +11589,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11633,7 +11633,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11677,7 +11677,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-31",
+     "scored_at": "2026-08-01",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11713,8 +11713,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 22,
-   "shown": 22,
+   "count": 30,
+   "shown": 30,
    "providers": [
     {
      "name": "Accel",
@@ -11724,140 +11724,188 @@
      "rank": 268
     },
     {
+     "name": "Aqtual",
+     "slug": "aqtual",
+     "description": "Aqtual, Inc. is a Hayward, California precision-medicine company founded in 2019 by Diana Abdueva (Founder and CEO) and co-founder Rich Rava, developing blood-based diagnostics on a proprietary \"active chromatin\" cell-free DNA (cfDNA) platform. Rather than reading cfDNA for mutations alone, Aqtual captures the previously unexplored cfDNA fragments bound to active chromatin, so a single routine blood draw reports on DNA, epigenetic regulation and protein-DNA binding together — surveying on the order of 200,000 gene promoters, 400,000 enhancers, 50,000 insulators, 20,000 silencers and a million transcription-factor binding sites. Its lead product is a therapy-response prediction test for rheumatoid arthritis, evaluated in the prospective PRIMA-102 observational trial (NCT05936970), with oncology programs in leiomyosarcoma immunotherapy response and early colorectal cancer detection, and stated expansion into immunology, cardiovascular, metabolic and neurological disease. The company raised a USD 16 million Series A in October 2023 and over USD 31 million in Series B funding announced July 2025 from Bold Capital, the Bold Longevity Growth Fund, Genoa Ventures, Manta Ray Ventures and Yu Galaxy. Aqtual is a clinical-diagnostics and life-sciences business, not a software vendor: as of August 2026 it publishes no developer portal, no API documentation and no machine-readable API contract of any kind, and every /.well-known/ and contract-discovery path on aqtual.com returns 404.",
+     "rank": 269
+    },
+    {
      "name": "Battery Ventures",
      "slug": "battery-ventures",
      "description": "Battery Ventures is a global, technology-focused investment firm founded in 1983 and headquartered in Boston, Massachusetts, with additional offices in San Francisco, Menlo Park, New York, London, and Tel Aviv. Battery invests across every stage of a company's life, from seed and early-stage venture through growth equity and private-equity buyouts, giving the firm a distinctive multi-stage perspective on technology markets. Its core areas of focus are application software, infrastructure software, consumer technology, and industrial tech plus life-science tools. As of 2025 the firm reports having invested in more than 530 companies over its 40-plus-year history, of which roughly 70 have gone public and another 185 have been merged or acquired. Battery is currently investing out of its 15th flagship fund, Battery Ventures XV, capitalized at $3.25 billion, and has raised more than $16 billion across all of its funds since inception. The firm describes itself as decisive, hard-working, and thesis-driven, backing category-defining companies including Affirm, Amplitude, AppDynamics, Avalara, Akamai, Coupa, Wonolo, and many others. This profile tracks Battery Ventures' identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/battery-ventures/refs/heads/main/screenshots/battery-ventures-2026-07-25T202436.png",
-     "rank": 269
+     "rank": 270
     },
     {
      "name": "Benchmark",
      "slug": "benchmark",
      "description": "Benchmark is an American early-stage venture capital firm founded in 1995 by Bob Kagle, Bruce Dunlevie, Andy Rachleff, Kevin Harvey, and Val Vaden, and headquartered at 140 New Montgomery Street in San Francisco, California (with a second office in Woodside). Benchmark is known for its distinctive equal partnership structure, where a small number of general partners share ownership and carry equally with no junior/senior hierarchy and no managing partner. The firm concentrates on leading first institutional rounds — typically Series A — and historically kept fund sizes small (around $425M) with a focus on consumer, marketplaces, social, open source, developer tools, infrastructure, enterprise software, fintech, crypto, and artificial intelligence. Benchmark has backed transformational companies including eBay, Uber, Twitter, Instagram, Snap, Dropbox, Discord, Docker, Zendesk, Confluent, Elastic, New Relic, Asana, Amplitude, Nextdoor, Stitch Fix, Yelp, OpenTable, Zillow, Red Hat, Airtable, Benchling, Cockroach Labs, Chainalysis, HackerOne, Contentful, Modern Treasury, Stytch, and, more recently, AI-native companies such as LangChain, Cerebras, MindsDB, Lovable, Legora, Gumloop, and Starcloud. In 2026 Benchmark broke with tradition to raise roughly $2B across two new vehicles, including its first-ever dedicated later-stage growth fund. This profile tracks Benchmark's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchmark/refs/heads/main/screenshots/benchmark-2026-07-25T202736.png",
-     "rank": 270
+     "rank": 271
     },
     {
      "name": "Bessemer Venture Partners",
      "slug": "bessemer-venture-partners",
      "description": "Bessemer Venture Partners (BVP) is one of the oldest and largest venture capital firms in the world, founded in 1911 out of the fortune of steel magnate Henry Phipps and headquartered in San Francisco, California. With more than $20 billion in assets under management and investment teams in San Francisco, Silicon Valley, New York, Boston, London, Bangalore, and Tel Aviv, Bessemer invests globally across seed, early, and growth stages, and runs a dedicated private equity buyout arm, BVP Forge. The firm invests across artificial intelligence and machine learning, cloud and infrastructure, developer tools, cybersecurity, fintech, healthcare and biotech, consumer, marketplaces, vertical software, data, deep tech and defense, and crypto/web3. Bessemer has backed transformative companies including Shopify, Twilio, Pinterest, LinkedIn, Yelp, DocuSign, Wix, Fiverr, Toast, ServiceTitan, PagerDuty, Auth0, Box, and Canva, and is known for publishing its \"Anti- Portfolio\" of missed opportunities, its Atlas research roadmaps, and its cloud/state-of-the-industry benchmark reports. Investing out of its 12th early-stage fund (a $3.85B vehicle), Bessemer was ranked among the largest venture firms by five-year fundraising. This profile tracks Bessemer's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bessemer-venture-partners/refs/heads/main/screenshots/bessemer-venture-partners-2026-07-25T202751.png",
-     "rank": 271
+     "rank": 272
+    },
+    {
+     "name": "Callisto Media",
+     "slug": "callisto-media",
+     "description": "Callisto Media Inc. was a data-driven nonfiction book publisher founded in 2011 by chief executive Benjamin Wayne, operating from 1955 Broadway in Oakland, California (earlier Emeryville) and 220 West 19th Street in New York. It built a publishing model around demand signals rather than editorial instinct — mining point-of-sale data, search volume and category gaps to decide which instructional titles to commission, then matching each topic to a subject-matter author. Its primary imprint was Rockridge Press, best known for diet-, appliance- and condition-specific cookbooks and health titles, alongside the Callisto Kids line of pre-K through grade 12 workbooks, STEM, history and biography titles; the company said it had reached more than 50 million customers and ranked among the top fifteen US publishers by unit sales. It raised venture funding from 137 Ventures in 2017, then contracted sharply — cutting 35 percent of staff in July 2022 and a further 200 roles that October — and on 9 May 2023 its publishing assets were acquired by the independent publisher Sourcebooks in a deal funded by Penguin Random House, with Simon & Schuster Distribution Services continuing to distribute the titles. The brand now trades as Callisto Publishing, a Sourcebooks imprint: callistomedia.com 301-redirects to callistopublishing.com, which 301-redirects again to sourcebooks.com/callisto (chain verified 2026-08-02). Callisto Media is a consumer publishing business, not a software vendor, and has no public API surface. Probes on 2026-08-02 against callistomedia.com, www.callistopublishing.com and www.sourcebooks.com returned no machine-readable contract: /openapi.json, /swagger.json and /.well-known/ai-plugin.json all 404, /.well-known/agent-card.json and /.well-known/agent.json both 404 (no A2A agent card), and every other probed path answered with the Sourcebooks single-page Magento storefront shell rather than a document. There is no developer portal, no GitHub organization (callistomedia, callisto-media and rockridgepress all 404 on the GitHub API), no published SDK on npm or PyPI, and no llms.txt.",
+     "rank": 273
+    },
+    {
+     "name": "Checkerspot",
+     "slug": "checkerspot",
+     "description": "Checkerspot is an Alameda, California biotechnology company, founded in 2016 and incorporated as a Public Benefit Corporation, that designs and produces functional fats and oils through precision fermentation of microalgae. Its biology-driven molecule licensing platform pairs algal strain development, an advanced analytical platform, bioinformatics, high-throughput screening, fermentation scale-up and downstream oil refining, built around the proprietary microbe Prototheca moriformis, which the company reports reaches over 80% oil content by dry cell weight. The commercial molecule portfolio includes a high sn-2 palmitate algal oil that mimics the triglyceride structure of human milk fat for infant nutrition, an Omega-7 (palmitoleic acid) algal oil, a designer high-oleic tropical-fat alternative to palm oil, and Algolein tG C18/80 for cosmetic formulation; earlier work commercialized algae-derived urethane composites through the WNDR Alpine outdoor brand. Checkerspot works through ingredient and manufacturing partners including AAK, Huvepharma and La Fabrique Vegetale, and closed a USD 55 million Series C led by ArrowMark Partners with participation from Cox Enterprises. It is a business-to-business ingredient and molecule licensing company rather than a software vendor: it operates a WordPress marketing site, publishes no developer portal, no API documentation, no SDK and no machine-readable API contract, and has no GitHub organization.",
+     "rank": 274
+    },
+    {
+     "name": "Chowbus",
+     "slug": "chowbus",
+     "description": "Chowbus is a Chicago-headquartered restaurant technology company founded in 2016 by Linxin Wen and Suyu Zhang. It began as an online food ordering, payment and delivery marketplace for Asian restaurants and has since pivoted to a cloud-based, AI-assisted restaurant operating platform: point of sale, self-ordering kiosks, handheld and tablet ordering, kitchen display systems, waitlist and reservations, online ordering, branded restaurant websites and mobile apps, loyalty, gift cards, SMS marketing, a promotions engine, multi-location management, and an AI suite covering digital ads, social media, creative assets and review insights. Chowbus states it serves 9,000+ restaurants across all 50 U.S. states and Canada with 24/7 bilingual (EN/ZH/ES) support, and raised an $81M growth round in March 2026 led by Prysm Capital and Left Lane Capital. Its POS advertises two-way third-party delivery integration with 45+ marketplaces (DoorDash, Uber Eats, Grubhub and others), and partner-side aggregators such as Deliverect publish Chowbus POS connectors — but as of August 2026 Chowbus publishes no public developer portal, API reference, OpenAPI/AsyncAPI contract, SDK, or sandbox. Its only machine-readable public agent surface is a hand-authored bilingual llms.txt at chowbus.com/llms.txt; a JSON API host (pos-api.chowbus.com) is live and returns a structured error envelope but is undocumented and gated.",
+     "rank": 275
+    },
+    {
+     "name": "Cowboy Space Corporation (formerly Aetherflux)",
+     "slug": "aetherflux",
+     "description": "Cowboy Space Corporation is an American orbital-infrastructure company founded in 2024 by Baiju Bhatt, co-founder and former co-CEO of Robinhood, headquartered in San Carlos, California with a second site in Seattle, Washington. It operated as Aetherflux Inc. from founding until May 2026, when it renamed to Cowboy Space Corporation and broadened its mission from space-based solar power alone to vertically integrated orbital infrastructure for the AI era, spanning launch vehicles, space-based power generation and in-orbit compute. Its flagship program is Stampede, a Low Earth Orbit constellation of satellites that harvest solar power to run on-orbit GPU data centers, with the first Galactic Brain data-center node targeted for early 2027 using NVIDIA Space-1 Vera Rubin modules and a small infrared power-beaming demonstrator satellite planned for 2026. The company concluded that launch supply was the binding constraint on orbital compute and is therefore also developing its own rocket, sized between Falcon 9 and Starship at roughly 20,000-25,000 kg of payload, whose upper stage is itself the payload - each one intended to become a one-megawatt orbital data center - with a first launch targeted for the end of 2028. It has raised roughly USD 365 million to date, including a USD 50 million Series A in April 2025 and a USD 275 million Series B in May 2026 at a USD 2 billion valuation, led by Index Ventures with IVP, Blossom Capital, SAIC, Breakthrough Energy Ventures, Construct Capital, Andreessen Horowitz, NEA and Interlagos participating. Cowboy Space is a space hardware and energy infrastructure company, not a software vendor: as of August 2026 it publishes no developer portal, no API documentation, no SDK, no public GitHub organization and no machine-readable API contract of any kind. Its entire public web presence is a four-page Framer-hosted marketing site (home, terms, privacy, media terms of use) plus an Ashby-hosted careers board.",
+     "rank": 276
     },
     {
      "name": "Cowboy Ventures",
      "slug": "cowboy-ventures",
      "description": "Cowboy Ventures is a seed-stage venture capital firm founded in 2012 by Aileen Lee (who coined the term \"unicorn\" for billion-dollar startups) and headquartered in Palo Alto, California. The firm backs pre-seed and seed-stage founders building \"life-changing\" products for large and growing markets, with roughly 70% of investments made pre-product and a strong seed-to-Series A graduation rate. Typical first checks run from about $100K up to $1M, with a sweet spot near $500K–$800K. Cowboy invests across enterprise software, fintech, software infrastructure and security, healthcare, consumer, future of work, and vertical software, primarily in the United States. The firm has made 100+ early-stage investments and cultivates a curated community of founders, operators, and tech leaders. Notable portfolio companies include Chime, Guild, Drata, Dollar Shave Club, Ironclad, Aura, Kiavi, Crunchbase, and Product Hunt.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cowboy-ventures/refs/heads/main/screenshots/cowboy-ventures-2026-07-25T210618.png",
-     "rank": 272
+     "rank": 277
     },
     {
      "name": "Craft Ventures",
      "slug": "craft-ventures",
      "description": "Craft Ventures is a San Francisco-based venture capital firm founded in late 2017 by repeat entrepreneurs David Sacks and Bill Lee, built \"by founders for founders\" and rooted in the operator playbook of the PayPal Mafia. The firm invests across early and growth stages, writing checks that range from micro-seed positions through double-digit millions, and specializes in B2B SaaS, marketplaces, and enterprise software prized for high-growth, high-margin, recurring-revenue economics. Craft is known for its rigorous, metrics-driven SaaS operating framework and hands-on support spanning talent, go-to-market, community, and finance. Beyond core SaaS, the portfolio spans artificial intelligence, developer tools, fintech and crypto, cybersecurity, digital health, defense, and frontier technology. The firm manages roughly $3.3 billion in assets across four early-stage funds and two growth funds, including Craft Ventures IV ($712M) and Craft Ventures Growth II ($608M). Notable investments include Airbnb, Affirm, Reddit, Uber, Lyft, Palantir, Slack, ElevenLabs, Supabase, Anduril, and Neuralink. Headquartered in San Francisco, with offices in New York City and Austin, Texas, and a primarily United States geographic focus.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/craft-ventures/refs/heads/main/screenshots/craft-ventures-2026-07-25T210634.png",
-     "rank": 273
+     "rank": 278
     },
     {
      "name": "DCM Ventures",
      "slug": "dcm-ventures",
      "description": "DCM Ventures (formerly Doll Capital Management, and commonly known as DCM) is an early-stage venture capital firm founded in 1996 by Dixon Doll, a former Accel partner, and David Chao, and headquartered at 2420 Sand Hill Road in Menlo Park, California with additional offices in Beijing and Tokyo. DCM was among the first Silicon Valley firms to build a cross-border, US-Asia investing practice, and typically leads early-stage rounds with checks in the roughly $1M-$5M range, deploying capital into a small group of category-defining companies each year rather than investing broadly. The firm's thesis has evolved from its original focus on communications and semiconductors toward consumer internet and SaaS, and today centers on vertical SaaS, fintech, cross-border innovation, and AI-native applications across the United States, China, Japan, and Southeast Asia. As of 2025 DCM manages approximately $4.5 billion in assets and reports 400+ portfolio companies, 35+ unicorns, and over $150 billion in aggregate market value, with notable investments including SoFi, Bill.com, Kuaishou, Matterport, 51job, Careem, and Sansan.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dcm-ventures/refs/heads/main/screenshots/dcm-ventures-2026-07-25T211459.png",
-     "rank": 274
+     "rank": 279
+    },
+    {
+     "name": "Finless Foods",
+     "slug": "finless-foods",
+     "description": "Finless Foods is an Emeryville, California cellular-agriculture company founded in 2017 by Michael Selden and Brian Wyrwas to grow real seafood from fish cells instead of harvesting it from the ocean. Its scientists established proprietary marine cell lines and a culture-media and bioreactor process that cultivates bluefin tuna and other high-value species into three-dimensional tissue with comparable taste, texture and nutrition to wild-caught fish, and the company has also shipped a plant-based tuna alternative into foodservice while the cell-cultivated line moves toward regulatory clearance and commercial launch. Backed by SOSV/IndieBio and a USD 34 million Series B closed in March 2022, and now led by co-founder and CEO Brandon Chen with co-founder Brian Wyrwas as CSO, Finless Foods is a food-biotechnology and consumer-products business rather than a software vendor: it operates a single-page Squarespace marketing site with a Squarespace Commerce cart, publishes no developer portal, no API documentation and no machine-readable API contract, and its 2017-era GitHub organization holds one dormant static-HTML repository.",
+     "rank": 280
     },
     {
      "name": "Founders Fund",
      "slug": "founders-fund",
      "description": "Founders Fund is a San Francisco-based venture capital firm founded in 2005 by Peter Thiel, Ken Howery, and Luke Nosek, best known for the credo \"we wanted flying cars, instead we got 140 characters\" and a contrarian appetite for hard science and frontier technology over incremental consumer apps. The firm backs category-defining, often monopoly-scale companies across aerospace and defense, artificial intelligence, biotech, fintech and crypto, energy, semiconductors, robotics, and deep tech, investing from seed through late-stage growth with an increasingly concentrated, high-conviction style (its recent growth funds put hundreds of millions of dollars into a small number of companies). Founders Fund manages roughly $17 billion in assets as of 2025 and is headquartered at the Letterman Digital Arts Center in San Francisco's Presidio. Its portfolio includes many of the defining technology companies of the era, among them SpaceX, Palantir, Anduril, Stripe, Airbnb, Facebook, Neuralink, OpenAI, DeepMind, Ramp, Nubank, Spotify, and Figma.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/founders-fund/refs/heads/main/screenshots/founders-fund-2026-07-25T215039.png",
-     "rank": 275
+     "rank": 281
     },
     {
      "name": "GGV Capital",
      "slug": "ggv-capital",
      "description": "GGV Capital (Granite Global Ventures) was a global, multi-stage venture capital firm founded in 2000 and headquartered in Menlo Park, California, with offices in San Francisco, Shanghai, Beijing, and Singapore. GGV invested from seed through growth stage across Social/Internet and consumer, Enterprise Tech and SaaS, and Smart Tech (fintech, infrastructure, developer tools, cybersecurity, AI, and cross-border commerce), with a distinctive US–Asia bridge thesis. At its peak the firm managed roughly $9.2B in assets under management and backed more than 400 companies, including 44 unicorns and dozens of IPOs — among them Airbnb, Slack, Square, Affirm, HashiCorp, Coinbase, Peloton, Opendoor, Poshmark, StockX, BigCommerce, Grab, Alibaba, ByteDance, Zendesk, and Xpeng. On March 29, 2024 GGV Capital ceased using the GGV brand and split into two independent successor firms amid US–China tensions: Notable Capital (US/international, led by Hans Tung and Glenn Solomon, ~$4.2B AUM) and Granite Asia (Asia, led by Jenny Lee and Jixun Foo, ~$5B AUM). The former ggvc.com companies surface now redirects to Notable Capital, which carries the US/international portfolio graph. This profile tracks GGV Capital's identity and portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ggv-capital/refs/heads/main/screenshots/ggv-capital-2026-07-25T215753.png",
-     "rank": 276
+     "rank": 282
     },
     {
      "name": "Khosla Ventures",
      "slug": "khosla-ventures",
      "description": "Khosla Ventures is a Menlo Park, California venture capital firm founded in 2004 by Sun Microsystems co-founder Vinod Khosla. The firm backs bold, early, and impactful ventures, favoring contrarian deep-tech bets with world-class teams and a conviction-driven approach that deliberately accepts a high failure rate to capture transformative outcomes. Khosla invests across seed, early (Series A/B), and growth stages through its Seed Fund, Main Fund, and Opportunity (growth) Fund, writing checks that range from small seed positions to large growth rounds. Focus sectors span artificial intelligence, enterprise and consumer software, financial services and fintech, robotics and frontier/deep tech, aerospace and defense, climate and sustainability (clean energy, fusion, materials, agriculture), and digital health, medtech, diagnostics, and therapeutics. The firm manages roughly $16 billion in assets as of 2025 and is known for early investments in OpenAI, Stripe, Square/Block, DoorDash, Instacart, Affirm, Impossible Foods, GitLab, Okta, Rocket Lab, and QuantumScape. Headquarters are at 2128 Sand Hill Road, Menlo Park, CA, with a primarily United States geographic focus and select global investments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/khosla-ventures/refs/heads/main/screenshots/khosla-ventures-2026-07-25T223709.png",
-     "rank": 277
+     "rank": 283
     },
     {
      "name": "Multicoin Capital",
      "slug": "multicoin-capital",
      "description": "Multicoin Capital is a thesis-driven crypto investment firm founded in 2017 by Kyle Samani and Tushar Jain, investing in cryptocurrencies, tokens, and blockchain companies and protocols believed to be reshaping trillion-dollar markets. The firm runs a hybrid structure of a hedge fund (its multi-billion dollar Master Fund, investing in public markets, direct positions, and strategic sales) alongside several venture funds that back early-stage companies, with venture checks ranging from roughly $1M to $50M. Its Venture Fund III closed at $422 million in January 2022. Multicoin invests across open and decentralized finance (DeFi), blockchain infrastructure and Layer 1/Layer 2 protocols, decentralized physical infrastructure networks (DePIN), stablecoins and payments, real-world asset tokenization, wallets, identity, gaming, and crypto-native consumer applications, with a well-known concentration around the Solana ecosystem. The firm's phoenix logo symbolizes a new financial system rising from the ashes of the old one, reflecting its long-term, high-conviction approach to absolute returns across market cycles. Headquartered in Austin, Texas, Multicoin manages capital on behalf of family offices, foundations, endowments, and institutional investors. In February 2026 co-founder Kyle Samani stepped back from day-to-day management, with operations continuing under co-founder Tushar Jain and partner Brian Smith.",
-     "rank": 278
+     "rank": 284
     },
     {
      "name": "New Enterprise Associates",
      "slug": "nea",
      "description": "New Enterprise Associates (NEA) is one of the world's largest and longest-running venture capital firms, founded in 1977 by Dick Kramlich, Chuck Newhall, and Frank Bonsal. Headquartered in Menlo Park, California, with offices in Timonium (Maryland), New York, and London, NEA invests across the full company lifecycle — \"from idea to IPO\" — spanning seed, Series A, and later growth rounds. The firm has raised over $27 billion in committed capital (as of December 31, 2024) and organizes into specialized practice groups across two core sectors: technology (enterprise software, consumer, fintech, AI, infrastructure) and healthcare (biopharma, life sciences, digital health, and medical devices). NEA is known for an active, hands-on partnership model and long-term support of category-defining companies, with a portfolio that has produced many notable IPOs and acquisitions including Cloudflare, MongoDB, Robinhood, Coursera, Databricks, Plaid, and Tempus.",
-     "rank": 279
+     "rank": 285
+    },
+    {
+     "name": "Radia",
+     "slug": "radia",
+     "description": "Radia is a dual-use aerospace company founded in 2016 by MIT-trained aerospace engineer Mark Lundstrom, headquartered in Boulder, Colorado with a second operating base in Italy led by Giuseppe Giordo. After roughly seven years in stealth the company emerged in March 2024 with WindRunner, an aircraft it describes as the largest ever built: roughly ten times the cargo volume of a Boeing 777, sized to carry onshore wind turbine blades of up to about 105 metres, and designed to land on semi-prepared packed-dirt or gravel strips so that oversized cargo can be flown directly to a wind farm, a forward operating site or a disaster zone rather than trucked over highways it cannot fit on. Radia frames WindRunner as a deliberately low-novelty airframe assembled from existing certified technologies to shorten the certification path, targeting entry into service in the early 2030s across three markets: energy (delivering the very large blades that make low-wind onshore sites economic), defense (outsized-volume strategic airlift), and commercial supply-chain logistics. It has assembled an industrial ecosystem of more than twenty suppliers and technology partners including Aernnova, Leonardo, AFuzion, Atitech, Latecoere, Stirling Dynamics, Collier Aerospace and Maximus Air, and has raised roughly USD 128 million from investors including ConocoPhillips, Lauder Partners, LS Power Development and HCVC. Radia is an aircraft manufacturer and logistics operator rather than a software vendor: as of August 2026 it publishes no developer portal, no API documentation, no SDK and no machine-readable API contract of any kind. Its only machine-readable public surface is the Strapi headless-CMS backend at radia.com/strapi that renders its own marketing site, whose content API is permission-locked and undocumented.",
+     "rank": 286
     },
     {
      "name": "Redpoint Ventures",
      "slug": "redpoint-ventures",
      "description": "Redpoint Ventures is a Silicon Valley venture capital firm founded in 1999 and headquartered in Menlo Park, California, with additional offices in San Francisco and Los Angeles and a history of China-focused funds in Beijing and Shanghai. Redpoint is a multi-stage investor that backs founders from seed and early stage through growth, running dedicated early-stage and growth teams. The firm invests across enterprise software and SaaS, AI and AI infrastructure, cloud and data infrastructure, developer tools, cybersecurity, fintech, consumer internet, healthcare, crypto/web3, and marketplaces. Typical checks range from roughly $0.5M-$2M at seed and $2M-$8M at Series A up to $10M+ at growth stage. As of 2025 Redpoint managed about $4.5 billion in assets, and its partners have participated in 130+ IPOs and acquisitions including Netflix, Snowflake, Twilio, Pure Storage, Zendesk, Stripe, HashiCorp, and HomeAway. The firm launched its tenth flagship fund, a $650M vehicle, in 2025, and publishes the annual InfraRed report on the leading private cloud and infrastructure companies. This profile tracks Redpoint's identity and its portfolio graph across the API Evangelist network.",
-     "rank": 280
+     "rank": 287
     },
     {
      "name": "Sequoia Capital",
      "slug": "sequoia-capital",
      "description": "Sequoia Capital is one of the world's leading venture capital firms, founded by Don Valentine in 1972 and headquartered at 2800 Sand Hill Road in Menlo Park, California. Sequoia partners with founders from idea to IPO and beyond, investing across seed, early, and growth stages, and has backed transformative companies including Apple, Google, Oracle, Cisco, NVIDIA, PayPal, YouTube, Airbnb, Stripe, WhatsApp, Instagram, DoorDash, Snowflake, and Reddit. Its stated mission is to \"help the daring build legendary companies,\" with a current focus on artificial intelligence and AI agents, autonomous systems, fintech, developer tools and infrastructure, healthcare, and consumer technology. Following its 2024 restructuring, Sequoia operates primarily across the US and Europe, while its former India/SEA and China arms became the independent firms Peak XV Partners and HongShan. This profile tracks Sequoia's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sequoia-capital/refs/heads/main/screenshots/sequoia-capital-2026-06-20T193717.png",
-     "rank": 281
+     "rank": 288
     },
     {
      "name": "Shasta Ventures",
      "slug": "shasta-ventures",
      "description": "Shasta Ventures is an early-stage venture capital firm founded in 2004 and based in Silicon Valley (Portola Valley / Menlo Park, on and around Sand Hill Road, California). Founded by Rob Coneybeer and Ravi Mohan (with Tod Francis and Jason Pressman among its long-tenured Managing Directors), the firm invests primarily at the Series A stage in United States technology startups, typically leading rounds and taking board seats. Shasta has roughly $1.3B under management across multiple funds (Fund II $250M, Fund III $265M, Fund IV $300M) and a 20-year track record. Its thesis centers on enterprise software / SaaS, cybersecurity, developer tools and infrastructure, data intelligence, camera / computer vision, and consumer subscription products, pairing capital with operational support (Shasta Elevate) for technical founders. Notable investments include Anaplan, Zuora, Nest, Nextdoor, Apptio, Eero, Sendbird, Tonal, Lattice, Highspot, SentinelOne and Turo, with 12 unicorns, multiple IPOs and dozens of acquisitions across its history.",
-     "rank": 282
+     "rank": 289
     },
     {
      "name": "Sierra Ventures",
      "slug": "sierra-ventures",
      "description": "Sierra Ventures is an early-stage venture capital firm founded by Peter Wendell in 1982 and headquartered in San Mateo, California, in the heart of Silicon Valley. The firm invests from inception through Series A in first-principles founders under the tagline \"Conviction Before Consensus,\" writing checks of up to $5M at seed and up to $10M at Series A. Sierra's current investment thesis centers on the next wave of enterprise technology: Vertical AI (purpose-built AI for specific industries), Infrastructure AI, Frontier and Deep Tech, and Physical AI and Robotics, alongside a longstanding history in enterprise applications, digital health, SaaS, and security. Over its 40-plus-year history the firm has invested more than $2 billion across 13 early-stage funds, with its 13th fund closing in 2023 at $265 million, following Fund 12 at $215 million and Fund 11 at $170 million. Sierra reports 35 IPOs and hundreds of successful exits, having backed companies such as Elastic, Astronomer, Chronosphere, CourseHero, Q-CTRL, Spectro Cloud, Endor Labs, and Reflection AI. The firm is notable for its CXO Advisory Board of Fortune 1000 enterprise leaders who help portfolio companies land early customers. This profile tracks Sierra Ventures' identity and its portfolio graph across the API Evangelist network.",
-     "rank": 283
+     "rank": 290
     },
     {
      "name": "SV Angel",
      "slug": "sv-angel",
      "description": "SV Angel is a San Francisco-based venture capital firm founded in 2009 by Ron Conway, one of Silicon Valley's most prolific angel investors. The firm runs two vehicles: an early-stage Seed Fund that writes roughly $200k checks into pre-seed and seed rounds, and a later-stage Growth Fund that invests at Series B and beyond. SV Angel is a founder-first, high-conviction investor that deliberately does not lead rounds, takes no board seats, and writes smaller checks as part of a larger syndicate so it can act as a neutral \"routing layer\" and advocate for founders. It is famous for its \"Inflection Point Approach\" — showing up at critical moments around fundraising, M&A, and business development. The firm invests almost entirely in US-based, software-driven companies across consumer and enterprise, and its portfolio has produced dozens of unicorns and landmark outcomes including Google, Airbnb, Coinbase, Stripe, Slack, Instacart, DoorDash, Reddit, Pinterest, GitHub, Databricks, Anthropic, and OpenAI.",
-     "rank": 284
+     "rank": 291
     },
     {
      "name": "Threshold Ventures",
      "slug": "threshold-ventures",
      "description": "Threshold Ventures is an early-stage venture capital firm based in Menlo Park, California that backs founder-led technology companies at the threshold of breakout growth. Threshold is the 2019 rebrand of Draper Fisher Jurvetson (DFJ), the storied Sand Hill Road firm founded in 1985; managing partners Emily Melton and Josh Stein spun the venture practice into an independent, focused fund. Threshold pursues a high-conviction strategy, concentrating on a small number of Series A and Series B investments and partnering hands-on with founders for the long term, frequently holding board seats through IPO and beyond. The firm invests across enterprise software and SaaS, developer tools and infrastructure, fintech, digital health and healthcare, and AI. Its portfolio has produced 10 unicorns, 3 IPOs, and 17 acquisitions, and includes Box, Twilio, Redfin, Remitly, Doximity, Rippling, LaunchDarkly, Livongo, and Talkdesk. Threshold has invested in roughly 87 companies and raised a ~$250M fund following the rebrand.",
-     "rank": 285
+     "rank": 292
     },
     {
      "name": "Trinity Ventures",
      "slug": "trinity-ventures",
      "description": "Trinity Ventures is an early-stage venture capital firm founded in 1986 and headquartered in Menlo Park, California, with more than three decades of history backing mission-driven entrepreneurs across technology and consumer markets. The firm takes a deliberately personal, low-capital-to-partner approach to early-stage investing, positioning itself as \"the call you want to make, not the call you have to make\" and emphasizing intellectual candor and lasting founder relationships. Trinity invests primarily at seed, Series A and Series B, with checks generally ranging from roughly $1 million to $15 million and averaging around $5 million. Its focus spans enterprise software and cloud infrastructure, developer tools, fintech, digital media and marketing technology, consumer products and services, healthcare, and artificial intelligence. Over nine funds the firm has managed on the order of $1.3 billion in assets and produced a track record that includes multiple unicorns, IPOs and roughly 130 acquisitions. Notable investments include Starbucks, New Relic, Auth0, Turo, Care.com, Zulily, Blue Nile, Aruba Networks, Infoblox, Cohesity, Outreach, InfluxData, Contentful and Docker. Trinity invests primarily in the United States.",
-     "rank": 286
+     "rank": 293
     },
     {
      "name": "Uncork Capital",
      "slug": "uncork-capital",
      "description": "Uncork Capital is a San Francisco-based seed-stage venture capital firm founded in 2004 by Jeff Clavier, who formalized his angel portfolio into one of Silicon Valley's earliest dedicated seed funds; it operated as SoftTech VC until rebranding to Uncork Capital in 2017. Led by managing partners Jeff Clavier and Andy McLoughlin, the firm invests at the seed stage with a \"first to believe\" conviction style, typically targeting 10-15% ownership and writing seed checks broadly in the $1.5M-$4M range across B2B applications and SaaS, developer tooling, infrastructure and security, consumer and marketplaces, frontier tech/hardware, and AI/ML. In May 2025 the firm closed $300M in fresh capital across Uncork VIII (a $225M seed fund) and Uncork Plus IV (a $75M growth fund), bringing it to roughly $1.2B in assets under management. Across 275+ investments and 100+ outcomes, its portfolio and exits include SendGrid, Fitbit, Poshmark, Postmates, Eventbrite, LaunchDarkly, Tailscale, Front, Shippo, ClassDojo, Groq, Human Interest, Carrot Fertility, and GPTZero.",
-     "rank": 287
+     "rank": 294
+    },
+    {
+     "name": "Vedanta Biosciences",
+     "slug": "vedanta-biosciences",
+     "description": "Vedanta Biosciences is a late clinical-stage biopharmaceutical company headquartered at 19 Blackstone Street in Cambridge, Massachusetts, founded by PureTech Health together with a group of scientific co-founders who pioneered the modern understanding of cross-talk between the human microbiome and the immune system. The company develops a potential new category of oral Live Biotherapeutic Products built from rationally defined consortia of human commensal bacteria grown from pure clonal cell banks rather than donor-derived stool, and it maintains technical expertise in the manufacture of live organisms. Its lead program, VE303, is an eight-strain defined bacterial consortium in the global Phase 3 RESTORATiVE303 registrational study for the prevention of recurrent Clostridioides difficile infection, following Phase 2 results showing a greater than 80% reduction in the odds of CDI recurrence versus placebo; VE202 is in development for inflammatory bowel disease and VE707 for prevention of multidrug-resistant organism infections. Vedanta has raised a $68 million Series D and a $106.5 million financing, and its programs are supported by non-dilutive awards from BARDA and CARB-X. Vedanta is a therapeutics developer, not a software vendor: it runs a WordPress marketing and corporate site, publishes no developer portal, no SDKs, no GitHub organization and no machine-readable API contract, and an August 2026 probe of vedantabio.com found no OpenAPI, no /llms.txt, no MCP endpoint, no A2A agent card and an empty /.well-known/ discovery surface.",
+     "rank": 295
     },
     {
      "name": "Zonos",
      "slug": "zonos",
      "description": "Zonos is a cross-border trade technology company headquartered in St. George, Utah, United States, that sells customs and trade compliance as an API. Its products calculate landed cost (duty, tax, brokerage and carrier fees), classify goods to HS codes with AI, screen parties and items against restricted and denied lists, rate and label international parcels, generate customs documents, submit postal PDDP declarations to destination posts, and file CBP entries for consolidated air consignments. It sits in the middle of the chain — between merchants, carriers, postal operators and freight consolidators on one side and customs authorities on the other — and is one of the few organizations in this tier whose integration surface is genuinely public rather than a customer-contract portal. A single unified GraphQL endpoint at https://api.zonos.com/graphql answers unauthenticated introspection (1,396 types, 170 queries, 153 mutations, harvested 2026-07-30), the reference is browsable without login at https://zonos.com/developer, and a legacy REST v1 layer remains documented but is declared end-of-life. Calling anything real still requires a credential token from the Zonos Dashboard, which is self-serve only for Shopify merchants; every other platform is routed through sales and an account agreement.",
-     "rank": 288
+     "rank": 296
     },
     {
      "name": "ZotGPT (UC Irvine)",
      "slug": "zotgpt",
      "description": "ZotGPT is the University of California, Irvine's institutionally-operated generative AI platform, built and run in-house by the UCI Office of Information Technology AI Team rather than purchased as a vendor seat. Launched to faculty and staff in early 2024 and to students in April 2024, it now spans four end-user products (Chat, ClassChat, Creator, Prompt Library), a training arm (Academy), and two generations of developer API. The platform is deliberately multi-cloud and multi-model: the interactive applications run on UC Irvine's own AWS accounts in us-west-2 behind Shibboleth SSO, the first-generation developer API was fronted by Azure API Management, and models are sourced across OpenAI, Anthropic (via AWS Bedrock), Google, Azure, and open-source options such as Mistral and DeepSeek. The deprecated Azure-managed API at api.zotgpt.uci.edu is being retired in favor of the ZotGPT Gateway, a Portkey-specification unified AI gateway that gives the campus one endpoint, virtual API keys, per-key spend limits, and provider-agnostic model routing. Data is held under UC Irvine's P3 protection standard, retained 12 months, and contractually excluded from vendor model training.",
-     "rank": 289
+     "rank": 297
     }
    ]
   }

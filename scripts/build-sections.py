@@ -24,6 +24,7 @@ Output:
 Listings deliberately carry no per-provider links yet — provider detail
 pages and apis.io links come later.
 """
+import glob
 import json
 import os
 import re
@@ -608,6 +609,44 @@ def read_apis_yml(slug):
     return name, description, tags
 
 
+def _kin_score_file(slug):
+    """Newest all/<slug>/kin/score-*.yml — the authoritative Kin Score source.
+
+    The provider frontmatter under PROVIDERS is a MIRROR of this, and the
+    mirror goes stale: a provider can be freshly scored in all/* and still
+    carry no `score:` block on its page, which sends it to "Not Yet Rated" on
+    every listing even though we hold a real score for it. Used only to fill
+    that gap — the mirror still wins wherever it has a value.
+    """
+    files = sorted(glob.glob(os.path.join(ALL, slug, "kin", "score-*.yml")))
+    return files[-1] if files else None
+
+
+def _kin_score_blocks(slug):
+    """{'score': {...}, 'agent': {...}} straight from all/<slug>/kin, or None."""
+    path = _kin_score_file(slug)
+    if not path:
+        return None
+    try:
+        with open(path, "r", encoding="utf-8", errors="ignore") as fh:
+            doc = yaml.safe_load(fh) or {}
+    except (OSError, yaml.YAMLError):
+        return None
+    ks = doc.get("kin_score")
+    if not isinstance(ks, dict) or ks.get("composite") is None:
+        return None
+    score = {
+        "composite": ks.get("composite"),
+        "band": ks.get("band"),
+        "facets": ks.get("facets") or {},
+        "scored_at": ks.get("scored_at"),
+        "schema_version": ks.get("schema_version"),
+    }
+    if ks.get("regulatory"):
+        score["regulatory"] = ks["regulatory"]
+    return {"score": score, "agent": ks.get("agent_readiness")}
+
+
 def read_scores():
     """Read {slug: {composite, band}} from enriched provider frontmatter."""
     scores = {}
@@ -632,6 +671,17 @@ def read_scores():
         if composite is None or not band:
             continue
         scores[fname[:-3]] = {"composite": float(composite), "band": str(band)}
+    # Gap-fill from the authoritative score files for any provider the mirror
+    # has not caught up with yet. Never overwrites a value the mirror holds.
+    for path in glob.glob(os.path.join(ALL, "*", "kin")):
+        slug = os.path.basename(os.path.dirname(path))
+        if slug in scores:
+            continue
+        blocks = _kin_score_blocks(slug)
+        if not blocks or not blocks["score"].get("band"):
+            continue
+        scores[slug] = {"composite": float(blocks["score"]["composite"]),
+                        "band": str(blocks["score"]["band"])}
     return scores
 
 
@@ -660,17 +710,30 @@ def read_score_details(slug):
         return _SCORE_DETAILS[slug]
     _SCORE_DETAILS[slug] = None
     path = os.path.join(PROVIDERS, slug + ".md")
-    if not os.path.isfile(path):
-        return None
-    try:
-        with open(path, "r", encoding="utf-8", errors="ignore") as fh:
-            content = fh.read()
-    except OSError:
-        return None
-    _SCORE_DETAILS[slug] = {
-        "score": _fm_block(content, "score"),
-        "agent": _fm_block(content, "agent_readiness"),
+    content = ""
+    if os.path.isfile(path):
+        try:
+            with open(path, "r", encoding="utf-8", errors="ignore") as fh:
+                content = fh.read()
+        except OSError:
+            content = ""
+    details = {
+        "score": _fm_block(content, "score") if content else None,
+        "agent": _fm_block(content, "agent_readiness") if content else None,
     }
+    # Same gap-fill as read_scores: the facets and the twelve agent dimensions
+    # are what every report's tables are built from, so a stale mirror would
+    # silently drop a scored provider out of the analysis rather than the
+    # listing. Each block falls back independently.
+    if not isinstance(details["score"], dict) or not isinstance(details["agent"], dict):
+        blocks = _kin_score_blocks(slug)
+        if blocks:
+            if not isinstance(details["score"], dict):
+                details["score"] = blocks["score"]
+            if not isinstance(details["agent"], dict) and blocks["agent"]:
+                details["agent"] = blocks["agent"]
+    if details["score"] or details["agent"]:
+        _SCORE_DETAILS[slug] = details
     return _SCORE_DETAILS[slug]
 
 
@@ -1729,6 +1792,41 @@ def main():
     headless_counts = {}
     build_roster_sections(HEADLESS_SECTIONS, HEADLESS_TIER_LABELS, headless_counts)
 
+    # --- Management (single GLOBAL cohort, the first AREA cut) ------------
+    # The first section anchored to an API Evangelist AREA rather than an
+    # industry or a country: management.apievangelist.com, read as a market.
+    # An industry says who a company sells to; an area says what the API does.
+    #
+    # API management was one product in 2012 and is six markets now, so the
+    # tiers ARE the argument: the full-stack suites, the gateway data plane
+    # they were built around, the portal and documentation surface, metering
+    # and billing, analytics and observability, and the security layer that
+    # left management altogether. They are scored together because buyers
+    # cross-shop them and vendors increasingly sell against each other.
+    #
+    # COHORT IS CURATED, NOT TAG-MATCHED — tag matching returns 6 providers
+    # for this area and 14 for gateway, because Kong and Apigee carry the
+    # category in API-level tags the provider roll-up never reads. The roster
+    # in all/0-working/management-roster.json is built from the curated
+    # network: lists the area subsites have maintained for years, pruned to
+    # this market, duplicates resolved (see retired_duplicates).
+    MANAGEMENT_TIER_LABELS = {
+        "platform":      "Full-Stack API Management Platforms",
+        "gateway":       "Gateways, Ingress and Service Mesh",
+        "portal":        "Developer Portals, Documentation and SDKs",
+        "monetization":  "Metering, Plans and Billing",
+        "observability": "API Analytics, Observability and Traffic Intelligence",
+        "security":      "API Security and Runtime Protection",
+    }
+    MANAGEMENT_SECTIONS = [
+        ("management", "management-roster.json", "API Management",
+         "The API management market ranked by Kin Score — the full-stack platforms that sell the whole lifecycle as one product (Apigee, Kong, MuleSoft, IBM API Connect, Axway, Azure API Management, WSO2, Tyk, Gravitee, Zuplo, Postman), the gateway, ingress and service mesh data plane they were built around (NGINX, HAProxy, Traefik, Envoy, APISIX, Istio, Linkerd, Gloo), the developer portal, documentation and SDK surface that unbundled the consumer experience (ReadMe, Redocly, SwaggerHub, Mintlify, Scalar, Speakeasy, Stainless, Backstage), the metering and billing layer that unbundled monetization (Stripe, Amberflo, m3ter, Metronome, Orb, Lago, Zuora), the analytics and traffic intelligence that unbundled the runtime read (Datadog, New Relic, Dynatrace, Grafana, Moesif, Treblle), and the API security vendors who left management entirely (Salt, Noname, Traceable, Cequence, Wallarm, 42Crunch). One product in 2012, six markets now — and the vendors selling you API readiness are not the ones who score best at it.",
+         {"slug": "state-of-management-apis", "title": "The State of API Management",
+          "blurb": "129 API management providers scored across six tiers — the market that sells other people their API practice, finally measured on its own rubric. The full-stack platforms average 58.3, the highest of any cohort in the catalog, against 34.5 on agent readiness. Apigee scores 74.0 on the composite and 30.6 on agents. And the highest score in the market belongs to Stripe, which does not sell API management at all.", "price": "500"}),
+    ]
+    management_counts = {}
+    build_roster_sections(MANAGEMENT_SECTIONS, MANAGEMENT_TIER_LABELS, management_counts)
+
     # --- Logistics & Supply Chain (four cohorts, split by MODE) -----------
     # The first sector in the series NOT split by country. A container, a
     # parcel and an air waybill cross borders by definition, so an HQ model
@@ -1830,6 +1928,9 @@ def main():
         print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
     for spec in HEADLESS_SECTIONS:
         n, sc = headless_counts.get(spec[0], (0, 0))
+        print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
+    for spec in MANAGEMENT_SECTIONS:
+        n, sc = management_counts.get(spec[0], (0, 0))
         print("%-19s %d (scored: %d)" % (spec[0] + ":", n, sc))
     for spec in LOGISTICS_SECTIONS:
         n, sc = logistics_counts.get(spec[0], (0, 0))
