@@ -254,6 +254,30 @@
       href: /headless/
       cta: Browse Headless
 
+# Areas are the third cut of the catalog, alongside industries (who a company
+# sells to) and countries (which regulator it answers to). An area is what the
+# API actually DOES. They mirror the canonical API Evangelist areas, each of
+# which is published as its own <slug>.apievangelist.com research site, and
+# each cohort here is a CURATED roster rather than a tag match — tag matching
+# returns 6 providers for Management. More land here as they are built.
+- id: areas
+  title: Areas
+  intro: The catalog cut by what an API does rather than who it sells to — the API Evangelist areas, each read as a market and ranked by Kin Score.
+  columns: col-md-6
+  cards:
+
+    - name: API Management
+      icon: settings_input_component
+      unit: providers
+      count: { from: total, key: providers-management }
+      description: >-
+        One product in 2012, six markets now — the full-stack platforms, the gateway, ingress
+        and service mesh data plane, developer portals and SDKs, metering and billing, API
+        analytics and observability, and the API security vendors who left management
+        entirely, ranked by Kin Score.
+      href: /management/
+      cta: Browse API Management
+
 - id: collections
   title: Collections
   intro: Standing rosters of providers drawn from public indexes, government registries, universities, private-market venues, venture portfolios, and open-source foundations.
