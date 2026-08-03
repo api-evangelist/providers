@@ -182,6 +182,9 @@
         - name: Kin Lane
           href: https://apievangelist.com/about/kin-lane
 
+        - name: Use of AI
+          href: https://apievangelist.com/about/artificial-intelligence
+
     - name: Search Terms
       symbol: query_stats
       href: https://apievangelist.com/search-terms/

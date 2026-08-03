@@ -1,6 +1,6 @@
 {
- "total": 659,
- "shown": 659,
+ "total": 660,
+ "shown": 660,
  "limit": 1000,
  "bands": [
   {
@@ -25153,15 +25153,21 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "Betr",
+     "slug": "betr",
+     "description": "Betr (Betr Holdings, Inc.) is a Miami-based real-money gaming and sports media company founded in 2022 by Joey Levy and Jake Paul on a $50M Series A. Betr operates a consumer \"real money gaming super app\" spanning Betr Picks (real-money pick'em daily fantasy sports across NFL, NBA, MLB, NHL, UFC and golf), a micro-betting sportsbook launched in Ohio in January 2023, a social sportsbook and social casino, Betr Arcade, and Betr Media (podcasts, creator content and digital sports programming). Betr is a business-to-consumer operator: it publishes mobile apps, a Webflow marketing site, an Intercom-hosted help center and an llms.txt discovery file, but as of this profiling round it publishes no public developer API program, no OpenAPI/AsyncAPI/GraphQL contract, and no SDKs. Its API hosts (api.betr.app, and a staging back-office API documentation host) are private and return 500/403 to anonymous callers.",
+     "rank": 659
+    },
     {
      "name": "Bullpen Capital",
      "slug": "bullpen-capital",
      "description": "Bullpen Capital is a San Francisco-based venture capital firm founded in 2010 by Paul Martino, Duncan Davidson, and Richard Melmon that pioneered the \"post-seed\" investment category. The firm provides early-stage financing to companies that have found initial product-market fit but are overlooked by traditional investors \"for no good reason\" — deliberately backing unconventional founders and sectors that other firms dismiss. Bullpen typically writes checks in the range of roughly $1M-$5M, often stepping in between the seed and Series A rounds to help capital-efficient companies push toward a strong institutional raise. The firm invests across gaming, commerce, apps and services, health, consumer and lifestyle, fintech, and marketplaces, primarily in North America with select exposure in Latin America (notably Brazil and Mexico). With a portfolio of 90+ companies, Bullpen's notable investments include FanDuel, Namely, Classy, Braze, HomeLight, ipsy, SpotHero, Splitwise, and Wag.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bullpen-capital/refs/heads/main/screenshots/bullpen-capital-2026-07-25T204059.png",
-     "rank": 659
+     "rank": 660
     }
    ]
   }

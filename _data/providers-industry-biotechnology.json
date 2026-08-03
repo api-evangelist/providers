@@ -1,6 +1,6 @@
 {
- "total": 896,
- "shown": 896,
+ "total": 897,
+ "shown": 897,
  "limit": 1000,
  "bands": [
   {
@@ -38397,8 +38397,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "Alzheon",
@@ -38419,43 +38419,49 @@
      "rank": 890
     },
     {
+     "name": "BlueNalu",
+     "slug": "bluenalu",
+     "description": "BlueNalu, Inc. is a San Diego, California cellular aquaculture company founded in 2017 by Lou Cooperhouse, Chris Somogyi and Chris Dammann that produces cell-cultivated seafood — real seafood grown directly from fish cells rather than harvested from the ocean. Its lead product is cell-cultivated bluefin tuna toro, marketed as \"Seafood Without Compromise\", targeted first at premium foodservice operators in the United States and then internationally. The company has raised approximately $84 million to date, including a Series B and a December 2025 insider-led convertible note and preferred stock financing led by Agronomics, Siddhi Capital and Lewis & Clark AgriFood, and was the first cell-cultivated seafood company admitted to the National Fisheries Institute. BlueNalu is a food and biotechnology producer; it publishes a marketing website and no public developer or API surface.",
+     "rank": 891
+    },
+    {
      "name": "Brightseed",
      "slug": "brightseed",
      "description": "Brightseed is a bioactives and AI company founded in 2017 (San Francisco, CA, with operations in Durham, NC) that uses its Forager AI platform to map the compounds in plants to human biological pathways and health benefits. Forager draws on a proprietary dataset the company describes as the world's largest — 21 million bioactive compounds and hundreds of biological receptors spanning 23 health areas — combining high-resolution omics, high-throughput robotics and machine learning to predict which natural compounds confer a benefit and where to source them at commercial scale. Hummingbird, launched in 2026, layers an agentic AI system on top of Forager to carry partners from discovery through development. Brightseed sells discovery services (Bioactive Profiler, Bioactive Ingredient Finder) and market-ready ingredients (Bio Gut Fiber, Bio Meta Control, Bio Gut Core) to food, supplement and health-science companies. Brightseed publishes no product or developer API for Forager or Hummingbird — those are sold as enterprise engagements through a contact form. The single machine-readable surface the company operates is the WordPress REST API (wp/v2) behind its corporate site at www.brightseedbio.com, which exposes anonymous read access to posts, pages, categories, tags, users, media, comments, search, taxonomies, types and statuses, plus authenticated write operations via WordPress application passwords. This profile was enriched by the API Evangelist pipeline from that live surface.",
-     "rank": 891
+     "rank": 892
     },
     {
      "name": "Canaan Partners",
      "slug": "canaan-partners",
      "description": "Canaan Partners is an early-stage venture capital firm founded in 1987 as a management buyout spin-out from General Electric's venture unit. The firm invests in \"visionaries with transformative ideas,\" backing companies from seed through Series A across a roughly 60/40 split between technology and healthcare. On the technology side Canaan funds developer tools, security, infrastructure, fintech, consumer, AI, and frontier/deep-tech companies; on the healthcare side it specializes in de novo biotech creation, therapeutics, and medical devices. Headquartered in Stamford, Connecticut with offices in San Francisco, Menlo Park, and New York City, Canaan has raised roughly $7 billion across 13 funds and is actively deploying Fund XIII. Over its 37-year history the firm reports a track record of 73 IPOs and 152 M&A exits, with notable investments including Instacart, LendingClub, The RealReal, DexCom, Match.com, Snyk, Turo, Cardlytics, and Day One Biopharmaceuticals.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canaan-partners/refs/heads/main/screenshots/canaan-partners-2026-07-25T204319.png",
-     "rank": 892
+     "rank": 893
     },
     {
      "name": "CRV",
      "slug": "crv",
      "description": "CRV (formerly Charles River Ventures) is one of the oldest venture capital firms in the United States, founded in 1970 to commercialize research coming out of MIT. The firm invests early — primarily at the Seed and Series A stages, with occasional Series B — leading rounds in enterprise, consumer, developer tools, security, data infrastructure, AI, and bioengineering companies. CRV has backed more than 750 companies since inception across 18 funds, raising over $4.3 billion (including a recent $600M early-stage fund), and has seen 80-plus of its portfolio companies reach public-company status. Notable investments include DoorDash, Airtable, HubSpot, Datadog, Zendesk, Patreon, Mercury, Vercel, Cursor, Postman, Kong, Tailscale, Ring, and PillPack. The firm is headquartered in San Francisco (52 Zoe Street) with a long-standing Bay Area presence and offices in Menlo Park, CA and Cambridge, MA.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crv/refs/heads/main/screenshots/crv-2026-07-25T210826.png",
-     "rank": 893
+     "rank": 894
     },
     {
      "name": "Formation Bio",
      "slug": "trialspark",
      "description": "Formation Bio (formerly TrialSpark, rebranded in December 2023) is a New York-based, tech-driven, AI-native pharmaceutical company co-founded by Ben Liu and Linhao Zhang. Rather than discovering molecules, Formation Bio in-licenses and acquires clinical-stage drug assets and runs them through a proprietary, software- and AI-driven development engine that compresses clinical planning, trial execution and regulatory work. That engine is a suite of internal platforms — Delphi (probability-of-technical-success and value modeling), Atlas (clinical-stage asset screening), Forge (autonomous trial design and scenario evaluation), Apollo (trial execution, study startup, enrollment and closeout), ARK (an AI orchestration layer connecting 80+ internal systems behind one governed interface) and a unified Data Platform spanning trial data, real-world patient data, literature and standardized ontologies. The company raised a $372M Series D led by Andreessen Horowitz with participation from Sanofi, and built Muse, an AI patient-recruitment system, with Sanofi and OpenAI. Formation Bio's technology is internal-facing: as of this profile the company publishes no public developer portal, API documentation, machine-readable API contract, or client SDKs.",
-     "rank": 894
+     "rank": 895
     },
     {
      "name": "Lux Capital",
      "slug": "lux-capital",
      "description": "Lux Capital is a New York City-based venture capital firm founded in 2000 by Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building companies at the frontier of science and technology, turning \"sci-fi into sci-fact.\" The firm systematically mines academia and government research labs for breakthrough technologies that have matured beyond proof-of-concept but have not yet attracted mainstream venture attention, then makes long-term bets on contrarians and outsiders challenging the status quo. Lux invests primarily at early stage across three focus areas: AI and technology, defense/space/ manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics, and emerging science. The firm manages roughly $7 billion in assets under management across nine core funds, closing Lux Ventures IX at $1.5 billion in January 2026, and has invested in over 200 companies. Through Lux Labs, launched in 2024, the firm has also helped create more than 20 new companies. Notable portfolio companies include Anduril, Applied Intuition, Databricks, Cognition, Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is headquartered in New York City with an additional office in Silicon Valley.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lux-capital/refs/heads/main/screenshots/lux-capital-2026-07-25T225735.png",
-     "rank": 895
+     "rank": 896
     },
     {
      "name": "Qiming Venture Partners",
      "slug": "qiming",
      "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 896
+     "rank": 897
     }
    ]
   }

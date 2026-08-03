@@ -1,6 +1,6 @@
 {
- "total": 790,
- "shown": 790,
+ "total": 792,
+ "shown": 792,
  "limit": 1000,
  "bands": [
   {
@@ -31321,28 +31321,40 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
+   "count": 5,
+   "shown": 5,
    "providers": [
+    {
+     "name": "Ather Energy",
+     "slug": "ather-energy",
+     "description": "Ather Energy Limited is a Bengaluru-based Indian electric two-wheeler manufacturer founded in 2013 by Tarun Mehta and Swapnil Jain. It designs and builds connected electric scooters — the Ather 450 series (450S, 450X, 450 Apex) and the family-oriented Rizta — around AtherStack, its proprietary in-house vehicle software architecture delivered to vehicles over the air. Ather also operates Ather Grid, India's largest two-wheeler fast-charging network, alongside a retail, service, accessories and smart-helmet ecosystem. Ather publishes no public developer API, OpenAPI, GraphQL or MCP surface: its machine-readable public footprint is a curated llms.txt for AI agents, a named-crawler robots.txt allowlist, and an open-source GitHub organisation of embedded and infrastructure libraries (ACAN, ASDK, rumqtt).",
+     "rank": 788
+    },
+    {
+     "name": "Axiado Corporation",
+     "slug": "axiado-corporation",
+     "description": "Axiado Corporation is a San Jose, California semiconductor company building hardware-anchored, AI-driven platform security for AI data centers, cloud infrastructure, 5G networks and disaggregated compute. Its flagship Trusted Control/Compute Unit (TCU) — the AX3000 family and the second-generation AX3080 — collapses the baseboard management controller (BMC), hardware root of trust, trusted platform module (TPM), hardware security module, firewall and LAN-on-motherboard into a single system-on-chip with on-die AI/ML engines for dynamic threat management. Axiado ships OCP DC-SCM secure control modules (Smart-SCM3002, SCM3003, SCM3080-MT) alongside the SecureStack ADK, a Zephyr RTOS software development kit whose public API reference documents crypto, key management, X.509 certificate, BMC control, flash, SPI, DMA and OS-abstraction engines, plus OpenBMC-based out-of-band management running on the TCU. Developer documentation is published at devhub.axiado.com. The API surface is an embedded C/C++ SDK and on-device management interface — Axiado publishes no hosted public web API and no OpenAPI definition.",
+     "rank": 789
+    },
     {
      "name": "Axiom Space",
      "slug": "axiom-space",
      "description": "Axiom Space, Inc. is a privately funded American space infrastructure developer headquartered in Houston, Texas, founded in 2016 by Kam Ghaffarian and former NASA International Space Station Program Manager Michael Suffredini. The company is building Axiom Station, the world's first commercial space station and planned successor to the ISS, and has flown private astronaut missions to the ISS (Ax-1 through Ax-4). Axiom Space also develops the Axiom Extravehicular Mobility Unit (AxEMU) spacesuit for NASA's return to the lunar surface, and sells human spaceflight, microgravity research, in-space manufacturing, and Orbital Data Center services (in-orbit cloud compute, with the ODC T1 node built alongside Kepler Communications and Skyloom Global). As of this enrichment pass Axiom Space publishes no public developer API, SDK, developer portal, or machine-readable API contract — every offering is transacted through direct enterprise, agency, and government engagement, and its only public code presence is a two-repository GitHub organization holding forks of NASA simulation software (Trick and GUNNS).",
-     "rank": 788
+     "rank": 790
     },
     {
      "name": "High Tech",
      "slug": "high-tech",
      "description": "High Tech indexes the APIs, data services, and reference artifacts that power the electronics, semiconductor, hardware, and IoT industries. The landscape covers electronic component data and distribution (Octopart / Nexar, Digi-Key, Mouser, Arrow Electronics, Avnet, Newark / element14), ECAD and PCB design data (SnapEDA, Ultra Librarian, Altium 365 via Nexar Design), hardware lifecycle and IoT device management (AWS IoT, Azure IoT Hub, Particle, Golioth), bill-of-materials and component-search workflows used across hardware product engineering, and the authoritative manufacturer data that anchors a component record (manufacturer part number, manufacturer, datasheet, lifecycle status, RoHS / REACH compliance, real-time inventory and pricing across distributors). This index captures the canonical providers, the shape of a component record as JSON Schema, a JSON-LD context aligning with schema.org Product / Offer / Organization, and the domain vocabulary used across the high-tech component supply chain.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/high-tech/refs/heads/main/screenshots/high-tech-2026-06-20T182732.png",
-     "rank": 789
+     "rank": 791
     },
     {
      "name": "RFID",
      "slug": "rfid",
      "description": "Radio-Frequency Identification (RFID) is an automatic identification technology that uses radio waves to read and capture information stored on a tag attached to an object. RFID powers supply chain visibility, inventory management, asset tracking, access control, and contactless payments. The RFID ecosystem includes hardware vendors (Zebra, Impinj, Alien Technology), software platforms (ClearStream, TagMatiks, Jetstream), and open standards (GS1 EPCIS, EPC Tag Data Standard, ISO 18000 series).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rfid/refs/heads/main/screenshots/rfid-2026-06-20T193103.png",
-     "rank": 790
+     "rank": 792
     }
    ]
   }
