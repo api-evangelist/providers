@@ -8,8 +8,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "KolayIK",
@@ -27,7 +27,7 @@
       "developer_ergonomics": 49.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 44.8,
      "agent_band": "agent-ready",
@@ -65,7 +65,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -95,6 +95,43 @@
      "rank": 2
     },
     {
+     "name": "Getir",
+     "slug": "getir",
+     "description": "Getir is an Istanbul-based on-demand delivery company, founded in 2015, that pioneered the ultrafast \"groceries in minutes\" model and grew into a super-app spanning rapid grocery (Getir), large-basket grocery (GetirBüyük), water (GetirSu), restaurant food delivery (GetirYemek / GetirFood) and local-merchant commerce (GetirÇarşı / GetirLocals). Its developer-facing surface is a partner-integration platform rather than a public product API: Getir publishes the GetirFood API — a Swagger 2.0 contract at food-external-api-gateway.getirapi.com covering restaurant onboarding, menu and product status, working hours, delivery zones, payment methods and the full food-order lifecycle (verify, prepare, handover, deliver, cancel, transfer) — for POS and integrator companies that connect restaurant point-of-sale systems to GetirFood. Orders are pushed to partners over webhooks, with a documented rate limiter, a 99-entry service error registry, published test cards and a dedicated test environment. In February 2026 Uber agreed to acquire Getir's Türkiye delivery business, cleared by the Turkish Competition Authority in June 2026.",
+     "score": 46.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 51.6,
+      "governance": 11.5,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 58.2,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 36.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 3
+    },
+    {
      "name": "Trendyol",
      "slug": "trendyol",
      "description": "Trendyol is Turkey's largest e-commerce marketplace and a leading fashion and retail platform operating across Türkiye, the Gulf, Azerbaijan, and Central & Eastern Europe. Its Marketplace (Partner) API lets sellers and integrators manage the full commerce lifecycle: product catalog with category/brand/ attribute data, price and stock updates, order and shipment-package fulfillment, returns and claims, invoicing, settlements and financial reconciliation, the Export Center, customer questions, and order webhooks. Authentication is HTTP Basic (API key/secret) with a mandatory User-Agent header, plus an OAuth 2.0 authorization-code flow for multi-supplier integrators. Bulk writes are asynchronous and confirmed via a batchRequestId.",
@@ -109,7 +146,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 33.6,
      "agent_band": "agent-aware",
@@ -129,7 +166,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -157,7 +194,7 @@
       "developer_ergonomics": 56.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 34.9,
      "agent_band": "agent-ready",
@@ -177,7 +214,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     }
    ],
    "open": true
@@ -206,45 +243,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 5
-    },
-    {
-     "name": "KAMI",
-     "slug": "kami",
-     "description": "KAMI (Çizgi Studio) is a next-generation transmedia entertainment platform out of Turkey that lets a community read, write, and live inside stories. The mobile app and web platform offer thousands of original webtoons, comics (çizgi roman), novels, and AI-character chat across genres like romance, thriller, fantasy, and horror, plus vertical drama viewing. Community-validated narratives are measured through read rates, micro-transactions, and engagement, then graduate into vertical-drama production and licensable intellectual property — a \"story IP engine.\" KAMI is a consumer product (2.5M+ users) with no public developer API; it is part of the wearekami.com ecosystem and a 500 Global Creators Ventures portfolio company, added to the API Evangelist network for enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kami/refs/heads/main/screenshots/kami-2026-07-25T223440.png",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 23.7
-     },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -267,10 +266,11 @@
      "rank": 6
     },
     {
-     "name": "Peoplise",
-     "slug": "peoplise",
-     "description": "Peoplise (now Logo Peoplise) is a Turkish human-resources technology SaaS that digitalizes recruitment and hiring workflows for enterprises. The platform covers the full talent-acquisition funnel: candidate sourcing and application tracking, automated pre-screening and assessments, one-way and live video interviews, reference checking, and digital onboarding. Originally a 500 Global (500 Startups) portfolio company, Peoplise was acquired by Logo (Logo Yazilim), one of Turkey's largest enterprise-software vendors, and is marketed as \"Logo Peoplise\" at logo.com.tr. Public probing found a marketing/product site only; no developer portal, OpenAPI/Swagger specification, /.well-known/ discovery surface, or documented public API was found at this time.",
-     "score": 8.4,
+     "name": "KAMI",
+     "slug": "kami",
+     "description": "KAMI (Çizgi Studio) is a next-generation transmedia entertainment platform out of Turkey that lets a community read, write, and live inside stories. The mobile app and web platform offer thousands of original webtoons, comics (çizgi roman), novels, and AI-character chat across genres like romance, thriller, fantasy, and horror, plus vertical drama viewing. Community-validated narratives are measured through read rates, micro-transactions, and engagement, then graduate into vertical-drama production and licensable intellectual property — a \"story IP engine.\" KAMI is a consumer product (2.5M+ users) with no public developer API; it is part of the wearekami.com ecosystem and a 500 Global Creators Ventures portfolio company, added to the API Evangelist network for enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kami/refs/heads/main/screenshots/kami-2026-07-25T223440.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -278,10 +278,10 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 10.5
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -304,11 +304,10 @@
      "rank": 7
     },
     {
-     "name": "MNT-Halan",
-     "slug": "mnt-halan",
-     "description": "MNT-Halan is a Cairo, Egypt-headquartered fintech holding company and Egypt's first private fintech unicorn, founded in 2017 by Mounir Nakhla (CEO) and Ahmed Mohsen (CTO). MNT-Halan operates a financial super app (\"Halan\") and a vertically integrated digital ecosystem covering micro-finance and SME lending, consumer credit, e-payments and money transfers, an e-wallet, prepaid and installment cards, payroll advances, investment and gold-installment products, and e-commerce (electronics, appliances, FMCG, e-grocer). Lending products span nano loans up to EGP 2,000, microloans, consumer loans up to EGP 500,000 over 36 installments, SME loans from EGP 200,000 up to EGP 15 million, education and home financing up to EGP 4 million, light-vehicle financing, and buy-now-pay-later. The Halan app and its supporting agent network reportedly serve 5–7 million customers, have disbursed in excess of USD 4 billion in loans across 3 million borrowers, and process 100+ million USD in monthly payments and 50+ million USD in monthly e-commerce sales. After raising USD 400 million in 2023 to cross unicorn status and an additional USD 157.5 million in 2024 (including an IFC investment), MNT-Halan expanded beyond Egypt into Turkey (via the August 2024 acquisition of Tam Finans), the UAE (December 2024 launch), and Pakistan. MNT-Halan's revenue model is interest and fees on lending, merchant and payment fees, e-commerce gross margin, and card interchange; the company markets directly to consumers and SMEs through its Halan app and physical outlets, and does not publish a public developer API, SDK, partner sandbox, or open-source code repository.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mnt-halan/refs/heads/main/screenshots/mnt-halan-2026-06-20T185648.png",
-     "score": 5.4,
+     "name": "Peoplise",
+     "slug": "peoplise",
+     "description": "Peoplise (now Logo Peoplise) is a Turkish human-resources technology SaaS that digitalizes recruitment and hiring workflows for enterprises. The platform covers the full talent-acquisition funnel: candidate sourcing and application tracking, automated pre-screening and assessments, one-way and live video interviews, reference checking, and digital onboarding. Originally a 500 Global (500 Startups) portfolio company, Peoplise was acquired by Logo (Logo Yazilim), one of Turkey's largest enterprise-software vendors, and is marketed as \"Logo Peoplise\" at logo.com.tr. Public probing found a marketing/product site only; no developer portal, OpenAPI/Swagger specification, /.well-known/ discovery surface, or documented public API was found at this time.",
+     "score": 8.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -316,10 +315,10 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 0.0
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -342,11 +341,11 @@
      "rank": 8
     },
     {
-     "name": "Rasyonet",
-     "slug": "rasyonet",
-     "description": "Rasyonet is a Turkish fintech company providing integrated financial software solutions and capital markets data platforms for institutional clients, asset managers, and financial analysts. Founded in 2000 and headquartered at ITU ARI Teknopark in Istanbul, Rasyonet offers tools for analyzing global equity markets, economic indicators, mutual and pension funds, fixed-income securities, portfolio analytics, and automated financial reporting. Their flagship EquityRT platform delivers equity research, company valuation, and peer benchmarking capabilities via desktop and Excel integration. No public developer API or machine-readable specification has been documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/screenshots/rasyonet-2026-06-20T192606.png",
-     "score": 5.0,
+     "name": "MNT-Halan",
+     "slug": "mnt-halan",
+     "description": "MNT-Halan is a Cairo, Egypt-headquartered fintech holding company and Egypt's first private fintech unicorn, founded in 2017 by Mounir Nakhla (CEO) and Ahmed Mohsen (CTO). MNT-Halan operates a financial super app (\"Halan\") and a vertically integrated digital ecosystem covering micro-finance and SME lending, consumer credit, e-payments and money transfers, an e-wallet, prepaid and installment cards, payroll advances, investment and gold-installment products, and e-commerce (electronics, appliances, FMCG, e-grocer). Lending products span nano loans up to EGP 2,000, microloans, consumer loans up to EGP 500,000 over 36 installments, SME loans from EGP 200,000 up to EGP 15 million, education and home financing up to EGP 4 million, light-vehicle financing, and buy-now-pay-later. The Halan app and its supporting agent network reportedly serve 5–7 million customers, have disbursed in excess of USD 4 billion in loans across 3 million borrowers, and process 100+ million USD in monthly payments and 50+ million USD in monthly e-commerce sales. After raising USD 400 million in 2023 to cross unicorn status and an additional USD 157.5 million in 2024 (including an IFC investment), MNT-Halan expanded beyond Egypt into Turkey (via the August 2024 acquisition of Tam Finans), the UAE (December 2024 launch), and Pakistan. MNT-Halan's revenue model is interest and fees on lending, merchant and payment fees, e-commerce gross margin, and card interchange; the company markets directly to consumers and SMEs through its Halan app and physical outlets, and does not publish a public developer API, SDK, partner sandbox, or open-source code repository.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mnt-halan/refs/heads/main/screenshots/mnt-halan-2026-06-20T185648.png",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -354,10 +353,10 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -378,21 +377,43 @@
       "dry_run_mode": false
      },
      "rank": 9
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
+    },
     {
-     "name": "Getir",
-     "slug": "getir",
-     "description": "Getir is an Istanbul-based on-demand delivery company, founded in 2015, that pioneered the ultrafast \"groceries in minutes\" model and grew into a super-app spanning rapid grocery (Getir), large-basket grocery (GetirBüyük), water (GetirSu), restaurant food delivery (GetirYemek / GetirFood) and local-merchant commerce (GetirÇarşı / GetirLocals). Its developer-facing surface is a partner-integration platform rather than a public product API: Getir publishes the GetirFood API — a Swagger 2.0 contract at food-external-api-gateway.getirapi.com covering restaurant onboarding, menu and product status, working hours, delivery zones, payment methods and the full food-order lifecycle (verify, prepare, handover, deliver, cancel, transfer) — for POS and integrator companies that connect restaurant point-of-sale systems to GetirFood. Orders are pushed to partners over webhooks, with a documented rate limiter, a 99-entry service error registry, published test cards and a dedicated test environment. In February 2026 Uber agreed to acquire Getir's Türkiye delivery business, cleared by the Turkish Competition Authority in June 2026.",
+     "name": "Rasyonet",
+     "slug": "rasyonet",
+     "description": "Rasyonet is a Turkish fintech company providing integrated financial software solutions and capital markets data platforms for institutional clients, asset managers, and financial analysts. Founded in 2000 and headquartered at ITU ARI Teknopark in Istanbul, Rasyonet offers tools for analyzing global equity markets, economic indicators, mutual and pension funds, fixed-income securities, portfolio analytics, and automated financial reporting. Their flagship EquityRT platform delivers equity research, company valuation, and peer benchmarking capabilities via desktop and Excel integration. No public developer API or machine-readable specification has been documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/screenshots/rasyonet-2026-06-20T192606.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
      "rank": 10
     }
    ]

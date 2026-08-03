@@ -27,7 +27,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -82,7 +82,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -119,7 +119,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 6.3,
      "agent_band": "agent-aware",
@@ -168,7 +168,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",

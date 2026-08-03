@@ -27,7 +27,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -76,7 +76,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -122,7 +122,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -160,8 +160,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Versapay",
@@ -178,7 +178,7 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -223,7 +223,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -268,7 +268,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -299,6 +299,51 @@
      "rank": 6
     },
     {
+     "name": "Rotessa",
+     "slug": "rotessa",
+     "description": "Rotessa is a Winnipeg, Manitoba-based fintech that helps small and mid-sized North American businesses collect recurring payments directly from their customers' bank accounts. In Canada it moves money over the pre-authorized debit (PAD) rails and in the United States over ACH, positioning itself as a low-cost, bank-account-native alternative to card processing for invoices, memberships, subscriptions, tuition, and rent. Rotessa exposes a genuine public REST API (https://api.rotessa.com/v1) that lets platforms and businesses programmatically create customers, verify bank details (including via the Flinks aggregator), and schedule one-time or recurring transactions, backed by a free sandbox (sandbox.rotessa.com) and API-key authentication. As an API-native SMB money-movement fintech, it sits in the thin-but-real account-to-account layer of Canada's payments market, alongside peers like VoPay, Plooto, and Helcim, operating through bank rails and aggregators rather than any live open-banking payment mandate.",
+     "score": 45.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 60.5,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 31.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 34.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Open Banking & A2A Payments",
+     "rank": 7
+    },
+    {
      "name": "Payments Canada",
      "slug": "payments-canada",
      "description": "Payments Canada (formerly the Canadian Payments Association) is the public-purpose organization created by federal statute (the Canadian Payments Act) that owns and operates Canada's core national payment clearing and settlement infrastructure, under the oversight of the Bank of Canada and the Minister of Finance. Its members are Canada's financial institutions. It operates Lynx (the high-value, ISO 20022 real-time gross settlement system that replaced LVTS), the Automated Clearing Settlement System (ACSS, Canada's retail batch/ACH rail), and is building the Real-Time Rail (RTR) — a 24/7/365 irrevocable faster-payments system fully based on the ISO 20022 messaging standard. Payments Canada is payments infrastructure, distinct from Canada's Consumer-Driven Banking (open banking) framework, which is legislated but not yet operational and overseen by the FCAC. It runs a real, publicly registerable API developer portal (developer.payments.ca, launched February 19, 2020) exposing member/registered-user sandbox and data-extract APIs — including downloadable RTR sandbox OpenAPI specifications — secured with OAuth2 client-credentials (Consumer Key/Secret via Apigee); production access is license/agreement gated.",
@@ -313,7 +358,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -341,7 +386,7 @@
       "dry_run_mode": false
      },
      "tier": "Domestic Rails & Schemes",
-     "rank": 7
+     "rank": 8
     }
    ]
   },
@@ -350,8 +395,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Nuvei",
@@ -369,7 +414,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -397,7 +442,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Flinks",
@@ -415,7 +460,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -443,51 +488,6 @@
       "dry_run_mode": false
      },
      "tier": "Financial Data & Aggregation",
-     "rank": 9
-    },
-    {
-     "name": "Rotessa",
-     "slug": "rotessa",
-     "description": "Rotessa is a Winnipeg, Manitoba-based fintech that helps small and mid-sized North American businesses collect recurring payments directly from their customers' bank accounts. In Canada it moves money over the pre-authorized debit (PAD) rails and in the United States over ACH, positioning itself as a low-cost, bank-account-native alternative to card processing for invoices, memberships, subscriptions, tuition, and rent. Rotessa exposes a genuine public REST API (https://api.rotessa.com/v1) that lets platforms and businesses programmatically create customers, verify bank details (including via the Flinks aggregator), and schedule one-time or recurring transactions, backed by a free sandbox (sandbox.rotessa.com) and API-key authentication. As an API-native SMB money-movement fintech, it sits in the thin-but-real account-to-account layer of Canada's payments market, alongside peers like VoPay, Plooto, and Helcim, operating through bank rails and aggregators rather than any live open-banking payment mandate.",
-     "score": 34.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 8.1,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 31.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 18.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Open Banking & A2A Payments",
      "rank": 10
     },
     {
@@ -506,7 +506,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -562,7 +562,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -607,7 +607,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -652,7 +652,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,

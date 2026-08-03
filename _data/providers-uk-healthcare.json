@@ -26,7 +26,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -71,7 +71,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -109,8 +109,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Patients Know Best",
@@ -127,7 +127,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -173,7 +173,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -218,7 +218,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -264,7 +264,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -293,6 +293,51 @@
      },
      "tier": "EHR / EMR Systems",
      "rank": 6
+    },
+    {
+     "name": "OpenPrescribing",
+     "slug": "openprescribing",
+     "description": "OpenPrescribing.net is an open-data service built and operated by the Bennett Institute for Applied Data Science at the University of Oxford. It turns the English Prescribing Dataset published monthly by the NHS Business Services Authority into public dashboards, prescribing-safety measures, and a free RESTful API covering primary-care GP prescribing across England. The API exposes spending, quantity and item counts by BNF code and by NHS organisation (practice, PCN, Sub-ICB Location, ICB, Regional Team), standardised prescribing measures, drug-tariff and price-per-unit data, and organisation reference/boundary lookups, all returned as JSON, CSV or GeoJSON. Home market is the United Kingdom (England prescribing data). It is an independent academic analytics platform layered on NHS open data, not an NHS FHIR clinical system; there is no OAuth, no SMART-on-FHIR, and currently no registration or API key is required.",
+     "score": 34.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 55.0,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 21.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "National Health System",
+     "rank": 7
     }
    ],
    "open": true
@@ -302,8 +347,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "TPP (SystmOne)",
@@ -320,7 +365,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -348,51 +393,6 @@
       "dry_run_mode": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 7
-    },
-    {
-     "name": "OpenPrescribing",
-     "slug": "openprescribing",
-     "description": "OpenPrescribing.net is an open-data service built and operated by the Bennett Institute for Applied Data Science at the University of Oxford. It turns the English Prescribing Dataset published monthly by the NHS Business Services Authority into public dashboards, prescribing-safety measures, and a free RESTful API covering primary-care GP prescribing across England. The API exposes spending, quantity and item counts by BNF code and by NHS organisation (practice, PCN, Sub-ICB Location, ICB, Regional Team), standardised prescribing measures, drug-tariff and price-per-unit data, and organisation reference/boundary lookups, all returned as JSON, CSV or GeoJSON. Home market is the United Kingdom (England prescribing data). It is an independent academic analytics platform layered on NHS open data, not an NHS FHIR clinical system; there is no OAuth, no SMART-on-FHIR, and currently no registration or API key is required.",
-     "score": 24.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 8.1,
-      "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 21.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "National Health System",
      "rank": 8
     },
     {
@@ -411,7 +411,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -457,7 +457,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -513,7 +513,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -558,7 +558,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -604,7 +604,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,

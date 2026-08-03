@@ -27,7 +27,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -64,7 +64,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -109,7 +109,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -143,18 +143,18 @@
      "slug": "jane-app",
      "description": "Jane is a cloud-based practice management platform for health and wellness clinics, headquartered in North Vancouver, Canada, with regional data residency across Canada, the USA, the United Kingdom, and Australia. Jane combines online booking, scheduling, charting and clinical documentation (including AI-assisted notes), insurance billing, payments, patient intake, a patient mobile app, and telehealth in a single system used by interdisciplinary clinics — physiotherapy, massage therapy, chiropractic, counselling, midwifery, and more. The Jane Developer Platform (developers.jane.app) exposes a documented REST API that lets approved Technology Partners build \"Jane Extensions\" — practitioner-authorized integrations that read and write clinic data. Authentication is OAuth 2.0 with PKCE over OpenID Connect (Keycloak realms), using RS256 JWT bearer access tokens and granular scopes (e.g. observations:read). The API is date-versioned in the URL path and is per-clinic (https://<clinic>/api/YYYY-MM-DD/), covering patients, appointments, locations, staff, disciplines, treatments, medical records (observations, care plans, medications), document uploads, webhooks, and extension management. Jane is not FHIR/HL7-based: it is a proprietary REST practice-management API rather than a SMART-on-FHIR EHR interoperability surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png",
-     "score": 56.0,
+     "score": 58.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 83.3,
-      "contract_quality": 59.7,
+      "contract_quality": 72.4,
       "governance": 20.8,
       "operational_transparency": 39.5,
       "developer_ergonomics": 60.3,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -163,7 +163,7 @@
       "score": 76.3,
       "matched_via": "tags"
      },
-     "agent_score": 37.2,
+     "agent_score": 50.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -171,9 +171,9 @@
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
       "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": true,
@@ -191,8 +191,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 21,
-   "shown": 21,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "TELUS",
@@ -209,7 +209,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -253,7 +253,7 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -297,7 +297,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -341,7 +341,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -386,7 +386,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -430,7 +430,7 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -474,7 +474,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -511,7 +511,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -555,7 +555,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -599,7 +599,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -629,6 +629,50 @@
      "rank": 14
     },
     {
+     "name": "Rotessa",
+     "slug": "rotessa",
+     "description": "Rotessa is a Winnipeg, Manitoba-based fintech that helps small and mid-sized North American businesses collect recurring payments directly from their customers' bank accounts. In Canada it moves money over the pre-authorized debit (PAD) rails and in the United States over ACH, positioning itself as a low-cost, bank-account-native alternative to card processing for invoices, memberships, subscriptions, tuition, and rent. Rotessa exposes a genuine public REST API (https://api.rotessa.com/v1) that lets platforms and businesses programmatically create customers, verify bank details (including via the Flinks aggregator), and schedule one-time or recurring transactions, backed by a free sandbox (sandbox.rotessa.com) and API-key authentication. As an API-native SMB money-movement fintech, it sits in the thin-but-real account-to-account layer of Canada's payments market, alongside peers like VoPay, Plooto, and Helcim, operating through bank rails and aggregators rather than any live open-banking payment mandate.",
+     "score": 45.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 60.5,
+      "governance": 11.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 62.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 31.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 34.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 15
+    },
+    {
      "name": "Bell Canada",
      "slug": "bell-canada",
      "description": "Bell Canada is Canada's largest communications company and the principal operating subsidiary of BCE Inc., providing wireless, wireline, internet, television and enterprise network services across Canada, and operating Bell Media as the country's largest broadcaster. As a facilities-based mobile network operator and broadband carrier it sits at the connectivity layer of the telecom value chain, and its public API posture reflects that: Bell runs a real developer portal at developer.bell.ca whose only published API suite is a set of four TM Forum Open API aligned B2B service management interfaces — Trouble Ticket (TMF621), Service Order (TMF641), Resource Inventory (TMF639) and Change Management (TMF655) — for enterprise and wholesale partners integrating their ITSM systems with Bell. The Swagger 2.0 definitions and PDF specifications are downloadable without a login, but access to the sandbox and to any live endpoint requires a business registration form and manual approval; no base URL, no credential scheme and no self-serve key issuance is published, and the documented request examples redact the credential as a literal SECURITY_CREDENTIALS placeholder. Bell publishes no first-party CAMARA network APIs and runs no Open Gateway portal of its own. Its network APIs reach developers indirectly, through EnStream LP — the identity and fraud-signal joint venture Bell Mobility owns with Rogers and TELUS — which announced a partnership with Aduna, the Ericsson-and-carrier joint venture, on 27 February 2025 to distribute Canadian Number Verification and SIM Swap signals through Aduna's CAMARA-aligned global channel. Bell is therefore an aggregator-mediated carrier: partner-gated on its own surface, reachable by developers only through a third party.",
@@ -643,7 +687,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -670,7 +714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "TMX Group",
@@ -688,7 +732,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -715,7 +759,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Payments Canada",
@@ -732,7 +776,7 @@
       "developer_ergonomics": 58.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -759,7 +803,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Scotiabank",
@@ -777,7 +821,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -804,7 +848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "University of Calgary",
@@ -822,7 +866,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -849,7 +893,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "CREA (REALTOR.ca)",
@@ -866,7 +910,7 @@
       "developer_ergonomics": 49.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 48.0,
      "agent_band": "agent-ready",
@@ -886,7 +930,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "OSFI",
@@ -903,7 +947,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -930,7 +974,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "University of Waterloo",
@@ -948,7 +992,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -975,7 +1019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Landcor Data",
@@ -992,7 +1036,7 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 44.8,
      "agent_band": "agent-ready",
@@ -1012,7 +1056,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Rogers Communications",
@@ -1029,7 +1073,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1056,7 +1100,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Great-West Lifeco",
@@ -1074,7 +1118,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1101,7 +1145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 26
     }
    ],
    "open": true
@@ -1111,8 +1155,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 29,
-   "shown": 29,
+   "count": 28,
+   "shown": 28,
    "providers": [
     {
      "name": "University of Alberta",
@@ -1129,7 +1173,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1156,7 +1200,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "WestJet",
@@ -1173,7 +1217,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -1193,7 +1237,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Canada Health Infoway",
@@ -1211,7 +1255,7 @@
       "developer_ergonomics": 40.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1238,7 +1282,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "AESO",
@@ -1255,7 +1299,7 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 55.3
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1282,7 +1326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "EPCOR",
@@ -1299,7 +1343,7 @@
       "developer_ergonomics": 27.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1326,7 +1370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Ontario Energy Board",
@@ -1343,7 +1387,7 @@
       "developer_ergonomics": 42.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1370,7 +1414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Loon Finance",
@@ -1388,7 +1432,7 @@
       "developer_ergonomics": 19.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1415,7 +1459,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "McGill University",
@@ -1433,7 +1477,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1460,7 +1504,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "REALTOR.ca",
@@ -1477,7 +1521,7 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 48.0,
      "agent_band": "agent-ready",
@@ -1497,7 +1541,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "University of British Columbia",
@@ -1515,7 +1559,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1542,7 +1586,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "ATCO",
@@ -1559,7 +1603,7 @@
       "developer_ergonomics": 19.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1586,7 +1630,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Flinks",
@@ -1604,7 +1648,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1631,7 +1675,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "HouseSigma",
@@ -1648,7 +1692,7 @@
       "developer_ergonomics": 19.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 37.4,
      "agent_band": "agent-ready",
@@ -1668,7 +1712,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Hydro Ottawa",
@@ -1685,51 +1729,7 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 56.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 39
-    },
-    {
-     "name": "Toronto Hydro",
-     "slug": "toronto-hydro",
-     "description": "Toronto Hydro is the municipally owned local electricity distribution company (LDC) for the City of Toronto, delivering power to roughly 800,000 residential and business customers across Canada's largest city. It sits in the wires-and-meters layer of Ontario's electricity value chain — it does not generate power and it does not run the wholesale market (that is IESO) — so the only customer-facing data it owns is smart-meter consumption, billing and account data. Its API posture is a clean example of a mandate that produced an implementation but not a developer product — Ontario's O. Reg. 633/21 under the Electricity Act, 1998 compelled rate-regulated electricity and gas utilities to offer Green Button Download My Data and Connect My Data conforming to NAESB REQ.21 ESPI v3.3 by 1 November 2023, and Toronto Hydro runs both — customer-facing Download My Data and Connect My Data pages behind its account login, a published third-party terms-and-conditions document, and a live third-party onboarding portal operated by its platform vendor Savage Data Systems. But there is no developer.torontohydro.com, no docs. or api. subdomain, no published base URI, no OpenAPI, and no self-serve keys. Consumer data is available only to companies that apply, pass a connectivity test and sign the third-party terms; market and grid data are not published openly at all. Mandated, implemented, and completely gated.",
-     "score": 34.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 12.2,
-      "governance": 11.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 47.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1759,35 +1759,35 @@
      "rank": 40
     },
     {
-     "name": "Rotessa",
-     "slug": "rotessa",
-     "description": "Rotessa is a Winnipeg, Manitoba-based fintech that helps small and mid-sized North American businesses collect recurring payments directly from their customers' bank accounts. In Canada it moves money over the pre-authorized debit (PAD) rails and in the United States over ACH, positioning itself as a low-cost, bank-account-native alternative to card processing for invoices, memberships, subscriptions, tuition, and rent. Rotessa exposes a genuine public REST API (https://api.rotessa.com/v1) that lets platforms and businesses programmatically create customers, verify bank details (including via the Flinks aggregator), and schedule one-time or recurring transactions, backed by a free sandbox (sandbox.rotessa.com) and API-key authentication. As an API-native SMB money-movement fintech, it sits in the thin-but-real account-to-account layer of Canada's payments market, alongside peers like VoPay, Plooto, and Helcim, operating through bank rails and aggregators rather than any live open-banking payment mandate.",
-     "score": 34.3,
+     "name": "Toronto Hydro",
+     "slug": "toronto-hydro",
+     "description": "Toronto Hydro is the municipally owned local electricity distribution company (LDC) for the City of Toronto, delivering power to roughly 800,000 residential and business customers across Canada's largest city. It sits in the wires-and-meters layer of Ontario's electricity value chain — it does not generate power and it does not run the wholesale market (that is IESO) — so the only customer-facing data it owns is smart-meter consumption, billing and account data. Its API posture is a clean example of a mandate that produced an implementation but not a developer product — Ontario's O. Reg. 633/21 under the Electricity Act, 1998 compelled rate-regulated electricity and gas utilities to offer Green Button Download My Data and Connect My Data conforming to NAESB REQ.21 ESPI v3.3 by 1 November 2023, and Toronto Hydro runs both — customer-facing Download My Data and Connect My Data pages behind its account login, a published third-party terms-and-conditions document, and a live third-party onboarding portal operated by its platform vendor Savage Data Systems. But there is no developer.torontohydro.com, no docs. or api. subdomain, no published base URI, no OpenAPI, and no self-serve keys. Consumer data is available only to companies that apply, pass a connectivity test and sign the third-party terms; market and grid data are not published openly at all. Mandated, implemented, and completely gated.",
+     "score": 34.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 8.1,
+      "discoverability": 77.8,
+      "contract_quality": 12.2,
       "governance": 11.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 62.5,
-      "commercial_clarity": 44.7
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 47.3,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 31.6,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 56.8,
       "matched_via": "tags"
      },
-     "agent_score": 18.7,
+     "agent_score": 33.6,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": "documented",
@@ -1795,7 +1795,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false
@@ -1818,7 +1818,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1862,7 +1862,7 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1906,7 +1906,7 @@
       "developer_ergonomics": 19.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1950,7 +1950,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1995,7 +1995,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2040,7 +2040,7 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2085,7 +2085,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2129,7 +2129,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2174,7 +2174,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -2211,7 +2211,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2255,7 +2255,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2299,7 +2299,7 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2343,7 +2343,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2397,7 +2397,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2442,7 +2442,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2486,7 +2486,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2530,7 +2530,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2574,7 +2574,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2619,7 +2619,7 @@
       "developer_ergonomics": 25.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2663,7 +2663,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2707,7 +2707,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2751,7 +2751,7 @@
       "developer_ergonomics": 25.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2795,7 +2795,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2839,7 +2839,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2883,7 +2883,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2928,7 +2928,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2972,7 +2972,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3017,7 +3017,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3055,7 +3055,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3100,7 +3100,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3144,7 +3144,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3188,7 +3188,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3232,7 +3232,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3276,7 +3276,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3320,7 +3320,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3364,7 +3364,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3408,7 +3408,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3452,7 +3452,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3496,7 +3496,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3540,7 +3540,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3584,7 +3584,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 9.0,
      "agent_band": "agent-aware",
@@ -3621,7 +3621,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3666,7 +3666,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3703,7 +3703,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3748,7 +3748,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -3785,7 +3785,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3830,7 +3830,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 12.2,
      "agent_band": "agent-aware",
@@ -3867,7 +3867,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3912,7 +3912,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3957,7 +3957,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4001,7 +4001,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 15.3,
      "agent_band": "agent-aware",
@@ -4039,7 +4039,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4084,7 +4084,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4129,7 +4129,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4174,7 +4174,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4218,7 +4218,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4263,7 +4263,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4308,7 +4308,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4352,7 +4352,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4397,7 +4397,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4442,7 +4442,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4487,7 +4487,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4532,7 +4532,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4577,7 +4577,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4622,7 +4622,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4667,7 +4667,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4712,7 +4712,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4757,7 +4757,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4802,7 +4802,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4846,7 +4846,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4890,7 +4890,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4934,7 +4934,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4979,7 +4979,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5024,7 +5024,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5068,7 +5068,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5113,7 +5113,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5157,7 +5157,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5194,7 +5194,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5232,7 +5232,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5277,7 +5277,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5322,7 +5322,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5367,7 +5367,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5404,7 +5404,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5448,7 +5448,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5493,7 +5493,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5538,7 +5538,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5582,7 +5582,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5627,7 +5627,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5671,7 +5671,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5708,7 +5708,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5746,7 +5746,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5782,8 +5782,8 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 29,
-   "shown": 29,
+   "count": 31,
+   "shown": 31,
    "providers": [
     {
      "name": "Citibank Canada",
@@ -5801,7 +5801,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5846,7 +5846,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5891,7 +5891,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5935,7 +5935,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5980,7 +5980,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6018,7 +6018,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6062,7 +6062,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6106,7 +6106,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6136,29 +6136,22 @@
      "rank": 140
     },
     {
-     "name": "Neo Financial",
-     "slug": "neo-financial",
-     "description": "Neo Financial is a Calgary- and Winnipeg-based Canadian fintech (neobank) founded in 2019 by the founders of SkipTheDishes, offering credit cards, savings, money, investing, and mortgage products to consumers. Neo is not a chartered bank and holds no Canadian banking licence; it delivers CDIC-eligible deposits and card issuance through regulated partner institutions — Peoples Bank of Canada for everyday accounts, ATB Financial as Mastercard credit-card issuer, and formerly Concentra Bank (now part of Equitable Bank) for savings. Neo operates a consumer mobile and web platform only and publishes no first-party public developer API or developer portal; third-party access to Neo accounts today is available solely through data aggregators such as Flinks (a National Bank-owned Canadian aggregator) and Plaid via credential/screen-scraping access, not a documented first-party API. Canada's federal Consumer-Driven Banking (open banking) framework, legislated in Budget 2024 and overseen by the Financial Consumer Agency of Canada, is not yet operational, so no first-party FDX or CDB data API exists. Neo maintains a public GitHub organization of internal engineering tooling and an engineering blog, but ships no public API products.",
+     "name": "1QBit",
+     "slug": "1qbit",
+     "description": "1QB Information Technologies Inc. (1QBit) is a quantum computing software company founded in 2012 and headquartered in Vancouver, British Columbia, Canada. It builds hardware-agnostic algorithms and software for optimization, simulation, and machine learning that run across quantum, quantum-inspired, and classical high-performance computing hardware, with work spanning computational finance, life sciences and quantum chemistry, materials, and telecommunications. 1QBit has hardware and platform partnerships with D-Wave, Fujitsu, IBM, and Microsoft Azure Quantum, and participates in DARPA's Quantum Benchmarking Initiative (QBI) on automated design tools for utility-scale quantum computation. The company markets a 1Qloud optimization platform whose own marketing page cites Python SDK, gRPC, and REST API interfaces, but as of August 2026 1QBit publishes no public developer portal, API reference, or machine-readable API contract — the former portal.1qbit.com host no longer resolves and access is arranged through industry partnerships. Its only public developer surface is a small GitHub organization of research code plus two first-party Python libraries on PyPI.",
      "score": 12.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 6.5,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6180,21 +6173,21 @@
      "rank": 141
     },
     {
-     "name": "Meridian Credit Union",
-     "slug": "meridian-credit-union",
-     "description": "Meridian Credit Union is Ontario's largest credit union and one of the largest in Canada — a member-owned financial cooperative headquartered in St. Catharines and Toronto, serving more than 365,000 members with roughly CAD $31 billion in assets under management, over 2,200 employees, and more than 75 years of history. Formed in 2005 through the merger of Niagara Credit Union and HEPCOE Credit Union, Meridian offers personal, business, and wealth banking and owns Meridian OneCap Credit Corp. (commercial equipment leasing and financing); it previously operated the federally chartered digital bank motusbank, which was wound down in 2023. As a provincially regulated Ontario credit union — overseen by the Financial Services Regulatory Authority of Ontario (FSRA), with member deposits insured under Ontario's credit-union deposit-insurance scheme — Meridian is a cooperative, not a Schedule I or Schedule II bank. It publishes no first-party public developer API and no downloadable OpenAPI specification. Consumer-permissioned account-data access today is aggregator-mediated rather than first-party: Plaid maintains a Meridian institution connector, and the Central 1 / Flinks Outbound seam provides API-based data sharing for member credit unions. Canada's federal Consumer-Driven Banking framework (legislated in 2024 with the Financial Consumer Agency of Canada / FCAC as overseer) is not yet operational, so Meridian's open-finance participation remains voluntary and aggregator-based.",
-     "score": 11.9,
+     "name": "Neo Financial",
+     "slug": "neo-financial",
+     "description": "Neo Financial is a Calgary- and Winnipeg-based Canadian fintech (neobank) founded in 2019 by the founders of SkipTheDishes, offering credit cards, savings, money, investing, and mortgage products to consumers. Neo is not a chartered bank and holds no Canadian banking licence; it delivers CDIC-eligible deposits and card issuance through regulated partner institutions — Peoples Bank of Canada for everyday accounts, ATB Financial as Mastercard credit-card issuer, and formerly Concentra Bank (now part of Equitable Bank) for savings. Neo operates a consumer mobile and web platform only and publishes no first-party public developer API or developer portal; third-party access to Neo accounts today is available solely through data aggregators such as Flinks (a National Bank-owned Canadian aggregator) and Plaid via credential/screen-scraping access, not a documented first-party API. Canada's federal Consumer-Driven Banking (open banking) framework, legislated in Budget 2024 and overseen by the Financial Consumer Agency of Canada, is not yet operational, so no first-party FDX or CDB data API exists. Neo maintains a public GitHub organization of internal engineering tooling and an engineering blog, but ships no public API products.",
+     "score": 12.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6224,21 +6217,21 @@
      "rank": 142
     },
     {
-     "name": "National Bank of Canada",
-     "slug": "national-bank-of-canada",
-     "description": "National Bank of Canada (Banque Nationale du Canada, TSX: NA) is a Schedule I chartered bank headquartered in Montreal, Quebec, founded in 1859. It is the sixth-largest of Canada's Big Six banks and the leading bank in Quebec, serving personal, commercial, wealth-management, and financial-markets clients. On open finance, National Bank is a notable first-mover: it was the first major Canadian bank to launch a secure, consent-based data-sharing API for retail customers, but it does NOT operate a public self-serve first-party developer portal. Programmatic access to customer financial data is delivered through aggregators rather than a downloadable public API — principally Flinks, the Montreal aggregator in which National Bank holds an ~80% stake, via its Open Banking Environment (OBE), and also through Plaid. National Bank and Flinks are founding participants of the FDX Canada working group, aligning their data-sharing on the FDX technical standard, and the bank is positioning ahead of Canada's forthcoming, legislated-but-not-yet-operational Consumer-Driven Banking framework (Budget 2024 / FCAC oversight). Today access is voluntary and aggregator-mediated; there is no operational open-banking mandate and no public first-party API surface.",
+     "name": "Meridian Credit Union",
+     "slug": "meridian-credit-union",
+     "description": "Meridian Credit Union is Ontario's largest credit union and one of the largest in Canada — a member-owned financial cooperative headquartered in St. Catharines and Toronto, serving more than 365,000 members with roughly CAD $31 billion in assets under management, over 2,200 employees, and more than 75 years of history. Formed in 2005 through the merger of Niagara Credit Union and HEPCOE Credit Union, Meridian offers personal, business, and wealth banking and owns Meridian OneCap Credit Corp. (commercial equipment leasing and financing); it previously operated the federally chartered digital bank motusbank, which was wound down in 2023. As a provincially regulated Ontario credit union — overseen by the Financial Services Regulatory Authority of Ontario (FSRA), with member deposits insured under Ontario's credit-union deposit-insurance scheme — Meridian is a cooperative, not a Schedule I or Schedule II bank. It publishes no first-party public developer API and no downloadable OpenAPI specification. Consumer-permissioned account-data access today is aggregator-mediated rather than first-party: Plaid maintains a Meridian institution connector, and the Central 1 / Flinks Outbound seam provides API-based data sharing for member credit unions. Canada's federal Consumer-Driven Banking framework (legislated in 2024 with the Financial Consumer Agency of Canada / FCAC as overseer) is not yet operational, so Meridian's open-finance participation remains voluntary and aggregator-based.",
      "score": 11.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6268,22 +6261,21 @@
      "rank": 143
     },
     {
-     "name": "Amex Bank of Canada",
-     "slug": "amex-bank-of-canada",
-     "description": "Amex Bank of Canada is the Canadian banking subsidiary of the American Express Company (United States), incorporated in 1990 and headquartered in the Toronto area (Markham, Ontario). It is a Schedule II bank under Canada's Bank Act — a foreign-bank subsidiary regulated by the Office of the Superintendent of Financial Institutions (OSFI) and treated as a Category II small-and-medium-sized deposit-taking institution — and it issues American Express charge and credit cards to Canadian consumers and businesses. As a card-centric Schedule II bank, Amex Bank of Canada runs no first-party developer portal of its own; the global American Express developer platform at developer.americanexpress.com is operated by the U.S. parent (a separate profile), not by this Canadian entity. Canada's federal Consumer-Driven Banking (open-banking) framework, legislated in Budget 2024 and the 2024 Fall Economic Statement with the Financial Consumer Agency of Canada (FCAC) as overseer, is not yet operational, so consumer data access to Amex-Canada accounts today is voluntary and largely aggregator-based rather than served by a public first-party API. This is an identity/provider record; no public Canadian API surface is documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amex-bank-of-canada/refs/heads/main/screenshots/amex-bank-of-canada-2026-07-25T200104.png",
-     "score": 11.2,
+     "name": "National Bank of Canada",
+     "slug": "national-bank-of-canada",
+     "description": "National Bank of Canada (Banque Nationale du Canada, TSX: NA) is a Schedule I chartered bank headquartered in Montreal, Quebec, founded in 1859. It is the sixth-largest of Canada's Big Six banks and the leading bank in Quebec, serving personal, commercial, wealth-management, and financial-markets clients. On open finance, National Bank is a notable first-mover: it was the first major Canadian bank to launch a secure, consent-based data-sharing API for retail customers, but it does NOT operate a public self-serve first-party developer portal. Programmatic access to customer financial data is delivered through aggregators rather than a downloadable public API — principally Flinks, the Montreal aggregator in which National Bank holds an ~80% stake, via its Open Banking Environment (OBE), and also through Plaid. National Bank and Flinks are founding participants of the FDX Canada working group, aligning their data-sharing on the FDX technical standard, and the bank is positioning ahead of Canada's forthcoming, legislated-but-not-yet-operational Consumer-Driven Banking framework (Budget 2024 / FCAC oversight). Today access is voluntary and aggregator-mediated; there is no operational open-banking mandate and no public first-party API surface.",
+     "score": 11.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 66.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6313,10 +6305,10 @@
      "rank": 144
     },
     {
-     "name": "B2B Bank",
-     "slug": "b2b-bank",
-     "description": "B2B Bank is a Schedule I Canadian bank, headquartered in Toronto and wholly owned by Laurentian Bank of Canada (Laurentian Bank Financial Group). It operates a business-to-business, intermediary-only model: rather than serving retail consumers directly, it manufactures and distributes banking products through a network of roughly 27,000 financial professionals — financial advisors and their dealerships, deposit and mortgage brokers and their firms, mutual fund and insurance manufacturers, and CIRO (formerly MFDA/IIROC) members. Its product lines include investment loans, RSP and TFSA loans, broker deposits (GICs and high-interest savings/investment accounts), broker mortgages, and investment and banking accounts. The bank became a Schedule I bank and adopted the B2B Bank name in 2012, consolidating predecessor trust businesses (North American Trust, Sun Life Trust), and its deposits are CDIC insured. On open finance, B2B Bank publishes no first-party developer portal or public API: developer.b2bbank.com and api.b2bbank.com do not resolve, and the public site exposes only gated advisor/broker applications (Advisor Access, EASE online loans, Group Access, Investor Access, online banking). Canada's Consumer-Driven Banking framework is legislated but not yet operational, and the bank documents no FDX participation, Interac data-sharing API, or aggregator program of its own — consistent with an intermediary bank whose digital surface is partner-gated rather than developer-facing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b2b-bank/refs/heads/main/screenshots/b2b-bank-2026-07-25T202139.png",
+     "name": "Amex Bank of Canada",
+     "slug": "amex-bank-of-canada",
+     "description": "Amex Bank of Canada is the Canadian banking subsidiary of the American Express Company (United States), incorporated in 1990 and headquartered in the Toronto area (Markham, Ontario). It is a Schedule II bank under Canada's Bank Act — a foreign-bank subsidiary regulated by the Office of the Superintendent of Financial Institutions (OSFI) and treated as a Category II small-and-medium-sized deposit-taking institution — and it issues American Express charge and credit cards to Canadian consumers and businesses. As a card-centric Schedule II bank, Amex Bank of Canada runs no first-party developer portal of its own; the global American Express developer platform at developer.americanexpress.com is operated by the U.S. parent (a separate profile), not by this Canadian entity. Canada's federal Consumer-Driven Banking (open-banking) framework, legislated in Budget 2024 and the 2024 Fall Economic Statement with the Financial Consumer Agency of Canada (FCAC) as overseer, is not yet operational, so consumer data access to Amex-Canada accounts today is voluntary and largely aggregator-based rather than served by a public first-party API. This is an identity/provider record; no public Canadian API surface is documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amex-bank-of-canada/refs/heads/main/screenshots/amex-bank-of-canada-2026-07-25T200104.png",
      "score": 11.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6328,7 +6320,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6358,11 +6350,11 @@
      "rank": 145
     },
     {
-     "name": "Home Trust",
-     "slug": "home-trust",
-     "description": "Home Trust Company is a federally regulated Canadian trust company founded in 1977 and headquartered in Toronto, and the principal operating subsidiary of Home Capital Group. Home Capital was taken private by Smith Financial Corporation (Stephen Smith) in 2023, and the group now spans Home Trust, Home Bank (a Schedule I bank), Fairstone Bank, and the Oaken Financial deposit brand, positioning itself as one of Canada's leading alternative (non-prime) lenders. Its products include residential and commercial mortgages, reverse mortgages, Equityline, Preferred and Secured Visa credit cards, and Oaken GIC and high-interest savings deposits. Home Trust operates no public developer portal or first-party API: developer.hometrust.ca and api.hometrust.ca do not resolve (DNS NXDOMAIN), no downloadable OpenAPI/Swagger is published, and no Interac e-Transfer or Payments Canada Real-Time Rail (RTR) API surface is documented. Canada's federal Consumer-Driven Banking (open-banking) framework is legislated (Budget 2024 / Fall Economic Statement 2024, FCAC as overseer) but not yet operational, and Home Trust publishes no stated CDB or FDX position; any consumer data access today would be via screen-scraping aggregators such as Flinks or Plaid rather than a first-party API. This is an identity-only record: no public API exists as of July 2026.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/home-trust/refs/heads/main/screenshots/home-trust-2026-07-25T221334.png",
-     "score": 10.9,
+     "name": "B2B Bank",
+     "slug": "b2b-bank",
+     "description": "B2B Bank is a Schedule I Canadian bank, headquartered in Toronto and wholly owned by Laurentian Bank of Canada (Laurentian Bank Financial Group). It operates a business-to-business, intermediary-only model: rather than serving retail consumers directly, it manufactures and distributes banking products through a network of roughly 27,000 financial professionals — financial advisors and their dealerships, deposit and mortgage brokers and their firms, mutual fund and insurance manufacturers, and CIRO (formerly MFDA/IIROC) members. Its product lines include investment loans, RSP and TFSA loans, broker deposits (GICs and high-interest savings/investment accounts), broker mortgages, and investment and banking accounts. The bank became a Schedule I bank and adopted the B2B Bank name in 2012, consolidating predecessor trust businesses (North American Trust, Sun Life Trust), and its deposits are CDIC insured. On open finance, B2B Bank publishes no first-party developer portal or public API: developer.b2bbank.com and api.b2bbank.com do not resolve, and the public site exposes only gated advisor/broker applications (Advisor Access, EASE online loans, Group Access, Investor Access, online banking). Canada's Consumer-Driven Banking framework is legislated but not yet operational, and the bank documents no FDX participation, Interac data-sharing API, or aggregator program of its own — consistent with an intermediary bank whose digital surface is partner-gated rather than developer-facing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b2b-bank/refs/heads/main/screenshots/b2b-bank-2026-07-25T202139.png",
+     "score": 11.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -6370,10 +6362,10 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
+      "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6403,6 +6395,51 @@
      "rank": 146
     },
     {
+     "name": "Home Trust",
+     "slug": "home-trust",
+     "description": "Home Trust Company is a federally regulated Canadian trust company founded in 1977 and headquartered in Toronto, and the principal operating subsidiary of Home Capital Group. Home Capital was taken private by Smith Financial Corporation (Stephen Smith) in 2023, and the group now spans Home Trust, Home Bank (a Schedule I bank), Fairstone Bank, and the Oaken Financial deposit brand, positioning itself as one of Canada's leading alternative (non-prime) lenders. Its products include residential and commercial mortgages, reverse mortgages, Equityline, Preferred and Secured Visa credit cards, and Oaken GIC and high-interest savings deposits. Home Trust operates no public developer portal or first-party API: developer.hometrust.ca and api.hometrust.ca do not resolve (DNS NXDOMAIN), no downloadable OpenAPI/Swagger is published, and no Interac e-Transfer or Payments Canada Real-Time Rail (RTR) API surface is documented. Canada's federal Consumer-Driven Banking (open-banking) framework is legislated (Budget 2024 / Fall Economic Statement 2024, FCAC as overseer) but not yet operational, and Home Trust publishes no stated CDB or FDX position; any consumer data access today would be via screen-scraping aggregators such as Flinks or Plaid rather than a first-party API. This is an identity-only record: no public API exists as of July 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/home-trust/refs/heads/main/screenshots/home-trust-2026-07-25T221334.png",
+     "score": 10.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 147
+    },
+    {
      "name": "ATB Financial",
      "slug": "atb-financial",
      "description": "ATB Financial (formerly Alberta Treasury Branches) is a financial institution and Crown corporation wholly owned by the Government of Alberta, established in 1938 and operating under the provincial ATB Financial Act rather than the federal Bank Act. Headquartered in Edmonton, it is Alberta's largest home-grown financial institution and the largest public bank in North America, with roughly C$64 billion in assets, more than 800,000 customers, about 5,000 team members, and 300+ branches and agencies across the province; deposits are guaranteed by the Province of Alberta rather than covered by CDIC. On the open-finance front, ATB does NOT operate a public first-party developer portal or documented public API surface (developer.atb.com returns HTTP 404), and Canada's federal Consumer-Driven Banking framework (legislated in Budget 2024 and the Fall Economic Statement 2024, with the FCAC as overseer) is not yet operational. Consumer financial-data access to ATB today is therefore voluntary and aggregator-mediated — reached through third-party aggregators such as Finicity (by Mastercard) and Flinks rather than a direct bank API.",
@@ -6418,7 +6455,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6445,7 +6482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "Breathe Life",
@@ -6463,7 +6500,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6490,62 +6527,24 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
-    },
-    {
-     "name": "Resolute Forest Products",
-     "slug": "resolute-forest-products",
-     "description": "Resolute Forest Products is a global leader in the forest products industry, producing market pulp, tissue, wood products, and newsprint. Formerly one of the largest pulp and paper companies in North America, the company operates manufacturing facilities across Canada and the United States. In 2023, Resolute was acquired by the Paper Excellence Group and now operates as a subsidiary of Domtar. The company supplies products to customers in more than 70 countries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/resolute-forest-products/refs/heads/main/screenshots/resolute-forest-products-2026-06-20T192958.png",
-     "score": 9.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 12.9,
-      "governance": 10.4,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
      "rank": 149
     },
     {
-     "name": "Pomelo Health",
-     "slug": "pomelo-health",
-     "description": "Pomelo Health (formerly Chronometriq, founded 2012, headquartered in Montreal with offices in Boston and Toronto) is a Canadian patient-engagement software company operating within the TELUS Health ecosystem. Its cloud platform helps medical clinics reduce no-shows and modernize the front-desk experience with online booking/e-booking, automated SMS/voice/email appointment reminders, digital intake eForms, telemedicine, secure two-way messaging, patient broadcasts, and a patient portal. Pomelo ships as an EMR add-on that syncs with TELUS Health EMRs — Accuro, Medesync, and TELUS CHR — rather than as an open integration platform. As of this review Pomelo Health publishes NO public developer portal, NO documented REST/OpenAPI, and NO public HL7 FHIR CapabilityStatement or SMART-on-FHIR surface; third-party connectivity is achieved through the underlying EMR partner APIs, so this profile is an honest identity stub for a company with a gated, partner-only integration model. Home market: Canada.",
-     "score": 9.3,
+     "name": "Aspect Biosystems",
+     "slug": "aspect-biosystems",
+     "description": "Aspect Biosystems is a Vancouver, British Columbia biotechnology company developing Bioprinted Tissue Therapeutics — implantable, allogeneic living tissues designed to replace, repair, or supplement biological function in the body. Spun out of an interdisciplinary medicine-and-engineering collaboration at the University of British Columbia in 2013, the company operates a self-described full-stack tissue therapeutic platform that integrates proprietary AI-powered microfluidic bioprinting, computational tissue design tools, therapeutic and hypoimmune-engineered cells, and advanced biomaterials. Its clinical pipeline targets metabolic and endocrine disease, led by pancreatic tissue programs for type 1 diabetes and programs in rare endocrine disorders and liver disease. Aspect has raised more than US$350M, including a US$115M Series B, and holds partnerships with Novo Nordisk (announced 2023, valued at over US$2.6B in milestones) and the governments of Canada and British Columbia. It is a private, pre-commercial therapeutics developer: it publishes no public developer portal, API documentation, SDKs, or machine-readable API contract.",
+     "score": 10.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6575,29 +6574,23 @@
      "rank": 150
     },
     {
-     "name": "TD Bank Group",
-     "slug": "td-bank-group",
-     "description": "TD Bank Group (The Toronto-Dominion Bank) is one of Canada's Big Six chartered banks — a federally regulated Schedule I bank headquartered in Toronto and listed on the TSX and NYSE under the ticker TD. It is among North America's largest banks by assets, serving roughly 27 million customers worldwide across Canadian Personal & Commercial Banking (TD Canada Trust), U.S. Retail (TD Bank, N.A. — America's Most Convenient Bank, a separately profiled entity), and Wholesale Banking (TD Securities). Like the rest of Canada's banking sector, TD's open-finance posture is voluntary: Canada's Consumer-Driven Banking framework was legislated in 2024 (Consumer-Driven Banking Act) but is not yet operational, so the Canadian parent exposes no first-party public developer API. Consumer financial-data access today is aggregator-based — TD signed a North American data-access agreement with Plaid in December 2023 — while payments run over the shared Canadian rails (Interac e-Transfer and Payments Canada's Real-Time Rail, with Interac as the RTR exchange solution provider). The FDX-aligned, Akoya-based open-banking API suite published at developer.td.com belongs to the U.S. subsidiary TD Bank, N.A., not this Canadian entity.",
-     "score": 8.9,
+     "name": "Resolute Forest Products",
+     "slug": "resolute-forest-products",
+     "description": "Resolute Forest Products is a global leader in the forest products industry, producing market pulp, tissue, wood products, and newsprint. Formerly one of the largest pulp and paper companies in North America, the company operates manufacturing facilities across Canada and the United States. In 2023, Resolute was acquired by the Paper Excellence Group and now operates as a subsidiary of Domtar. The company supplies products to customers in more than 70 countries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/resolute-forest-products/refs/heads/main/screenshots/resolute-forest-products-2026-06-20T192958.png",
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
+      "discoverability": 50.0,
+      "contract_quality": 12.9,
+      "governance": 10.4,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 10.5
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 12.7,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6619,22 +6612,29 @@
      "rank": 151
     },
     {
-     "name": "Properly",
-     "slug": "properly",
-     "description": "Properly was a Toronto-based Canadian digital real estate brokerage founded in 2018 that began as one of the country's only iBuyers — making algorithmic cash offers on Calgary homes — before pivoting to Sale Assurance, a guaranteed-purchase backstop that let a seller buy their next home before selling the current one, wrapped around an online listing search and a machine-generated home valuation. It sat in the challenger layer of the Canadian value chain alongside HouseSigma, Wahi, and Zolo, competing on visibility into listing data controlled by CREA, the national cooperative that operates REALTOR.ca and the Data Distribution Facility (DDF) syndicating member boards' listings, in a market where land registration is provincially privatised and the public record is itself a commercial product. Properly was acquired by Pine Canada Financial Corporation in October 2023 and the brand has since been absorbed: properly.ca and www.properly.ca now answer HTTP 301 from an Amazon S3 and CloudFront redirect bucket to www.pine.ca, and the word \"Properly\" no longer appears anywhere on the surviving Pine real estate pages. Its API posture is closed and, as of this profile, non-existent. No developer portal, no API program page, no partner or data licensing page, and no published terms of API use were found. The developer., developers., api., docs., app., and blog. subdomains of properly.ca do not resolve in DNS, and every contract path probed — /openapi.json, /swagger.json, /api-docs, /$metadata, /odata — redirects into a Pine 404. The successor host api.pine.ca resolves to an AWS API Gateway that answers every path with HTTP 403 MissingAuthenticationTokenException: a private first-party backend, not a developer product. RESO is absent, which is the honest Canadian answer — Properly and Pine appear nowhere on RESO's own Canadian membership roster, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier usage was observed. No open, unlicensed dataset is published. The underlying listings reach the platform through licensed channels — CREA MLS trademark attribution appears in the site footer and listing media is served from cdn.repliers.io, the CDN of the licensed MLS data vendor Repliers, whose own developer guide names \"Pine (formerly Properly)\" as a customer — which is a brokerage and vendor licensing posture, not anything a third-party developer can sign up for.",
-     "score": 8.8,
+     "name": "Pomelo Health",
+     "slug": "pomelo-health",
+     "description": "Pomelo Health (formerly Chronometriq, founded 2012, headquartered in Montreal with offices in Boston and Toronto) is a Canadian patient-engagement software company operating within the TELUS Health ecosystem. Its cloud platform helps medical clinics reduce no-shows and modernize the front-desk experience with online booking/e-booking, automated SMS/voice/email appointment reminders, digital intake eForms, telemedicine, secure two-way messaging, patient broadcasts, and a patient portal. Pomelo ships as an EMR add-on that syncs with TELUS Health EMRs — Accuro, Medesync, and TELUS CHR — rather than as an open integration platform. As of this review Pomelo Health publishes NO public developer portal, NO documented REST/OpenAPI, and NO public HL7 FHIR CapabilityStatement or SMART-on-FHIR surface; third-party connectivity is achieved through the underlying EMR partner APIs, so this profile is an honest identity stub for a company with a gated, partner-only integration model. Home market: Canada.",
+     "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 12.5,
+      "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 0.0
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6656,21 +6656,21 @@
      "rank": 152
     },
     {
-     "name": "Prospera Credit Union",
-     "slug": "prospera-credit-union",
-     "description": "Prospera Credit Union is a member-owned cooperative financial institution headquartered in British Columbia, Canada, formed on January 1, 2020 through the merger of the original Prospera Credit Union and Westminster Savings Credit Union — the largest credit-union merger in Canadian history. With roughly CA$9 billion in assets under management, about 120,000 members, and some 900 employees across branches in Metro Vancouver, the Fraser Valley, and the Okanagan, it is the third largest credit union in British Columbia and among the six largest in Canada. As a provincially regulated cooperative (credit unions in BC are overseen by BC Financial Services Authority and deposits are protected by the Credit Union Deposit Insurance Corporation of BC), Prospera serves personal and business members with chequing and savings accounts, credit cards, mortgages, loans, and Interac e-Transfer. On the open-finance side, Prospera runs NO public first-party developer portal or documented API — none of developer/api/developers.prospera.ca resolve — and Canada's federal Consumer-Driven Banking (open-banking) framework, legislated in Budget 2024 and overseen by the FCAC, is not yet operational. Like most Canadian credit unions, Prospera reaches national payment rails and consumer data-sharing through shared credit-union-system infrastructure rather than a proprietary API, and third-party data access today is aggregator/screen-scraping based (e.g. Flinks, Plaid). This is an honest identity-only profile with no public API surface to catalog.",
-     "score": 8.7,
+     "name": "TD Bank Group",
+     "slug": "td-bank-group",
+     "description": "TD Bank Group (The Toronto-Dominion Bank) is one of Canada's Big Six chartered banks — a federally regulated Schedule I bank headquartered in Toronto and listed on the TSX and NYSE under the ticker TD. It is among North America's largest banks by assets, serving roughly 27 million customers worldwide across Canadian Personal & Commercial Banking (TD Canada Trust), U.S. Retail (TD Bank, N.A. — America's Most Convenient Bank, a separately profiled entity), and Wholesale Banking (TD Securities). Like the rest of Canada's banking sector, TD's open-finance posture is voluntary: Canada's Consumer-Driven Banking framework was legislated in 2024 (Consumer-Driven Banking Act) but is not yet operational, so the Canadian parent exposes no first-party public developer API. Consumer financial-data access today is aggregator-based — TD signed a North American data-access agreement with Plaid in December 2023 — while payments run over the shared Canadian rails (Interac e-Transfer and Payments Canada's Real-Time Rail, with Interac as the RTR exchange solution provider). The FDX-aligned, Akoya-based open-banking API suite published at developer.td.com belongs to the U.S. subsidiary TD Bank, N.A., not this Canadian entity.",
+     "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
+      "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6700,21 +6700,21 @@
      "rank": 153
     },
     {
-     "name": "Skipthedishes",
-     "slug": "skipthedishes",
-     "description": "SkipTheDishes is a Canadian online food-delivery marketplace headquartered in Winnipeg, Manitoba, founded in 2012 and acquired by Just Eat (now Just Eat Takeaway.com) in 2016, under which it operates as the group's Canadian brand. It connects diners with local restaurants and a network of independent couriers for on-demand food delivery and pickup across Canadian cities via its consumer website and mobile apps, and runs a restaurant partner onboarding program and a courier (Skip Network) program. As of this enrichment pass SkipTheDishes publishes no public developer API, developer portal, or API documentation. The primary domain is served behind Cloudflare bot protection and the partner/partners subdomains are static marketing/onboarding pages, so no OpenAPI, webhook, or SDK surface is available to harvest.",
-     "score": 7.6,
+     "name": "Properly",
+     "slug": "properly",
+     "description": "Properly was a Toronto-based Canadian digital real estate brokerage founded in 2018 that began as one of the country's only iBuyers — making algorithmic cash offers on Calgary homes — before pivoting to Sale Assurance, a guaranteed-purchase backstop that let a seller buy their next home before selling the current one, wrapped around an online listing search and a machine-generated home valuation. It sat in the challenger layer of the Canadian value chain alongside HouseSigma, Wahi, and Zolo, competing on visibility into listing data controlled by CREA, the national cooperative that operates REALTOR.ca and the Data Distribution Facility (DDF) syndicating member boards' listings, in a market where land registration is provincially privatised and the public record is itself a commercial product. Properly was acquired by Pine Canada Financial Corporation in October 2023 and the brand has since been absorbed: properly.ca and www.properly.ca now answer HTTP 301 from an Amazon S3 and CloudFront redirect bucket to www.pine.ca, and the word \"Properly\" no longer appears anywhere on the surviving Pine real estate pages. Its API posture is closed and, as of this profile, non-existent. No developer portal, no API program page, no partner or data licensing page, and no published terms of API use were found. The developer., developers., api., docs., app., and blog. subdomains of properly.ca do not resolve in DNS, and every contract path probed — /openapi.json, /swagger.json, /api-docs, /$metadata, /odata — redirects into a Pine 404. The successor host api.pine.ca resolves to an AWS API Gateway that answers every path with HTTP 403 MissingAuthenticationTokenException: a private first-party backend, not a developer product. RESO is absent, which is the honest Canadian answer — Properly and Pine appear nowhere on RESO's own Canadian membership roster, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier usage was observed. No open, unlicensed dataset is published. The underlying listings reach the platform through licensed channels — CREA MLS trademark attribution appears in the site footer and listing media is served from cdn.repliers.io, the CDN of the licensed MLS data vendor Repliers, whose own developer guide names \"Pine (formerly Properly)\" as a customer — which is a brokerage and vendor licensing posture, not anything a third-party developer can sign up for.",
+     "score": 8.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
+      "governance": 12.5,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 13.2
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6737,6 +6737,87 @@
      "rank": 154
     },
     {
+     "name": "Prospera Credit Union",
+     "slug": "prospera-credit-union",
+     "description": "Prospera Credit Union is a member-owned cooperative financial institution headquartered in British Columbia, Canada, formed on January 1, 2020 through the merger of the original Prospera Credit Union and Westminster Savings Credit Union — the largest credit-union merger in Canadian history. With roughly CA$9 billion in assets under management, about 120,000 members, and some 900 employees across branches in Metro Vancouver, the Fraser Valley, and the Okanagan, it is the third largest credit union in British Columbia and among the six largest in Canada. As a provincially regulated cooperative (credit unions in BC are overseen by BC Financial Services Authority and deposits are protected by the Credit Union Deposit Insurance Corporation of BC), Prospera serves personal and business members with chequing and savings accounts, credit cards, mortgages, loans, and Interac e-Transfer. On the open-finance side, Prospera runs NO public first-party developer portal or documented API — none of developer/api/developers.prospera.ca resolve — and Canada's federal Consumer-Driven Banking (open-banking) framework, legislated in Budget 2024 and overseen by the FCAC, is not yet operational. Like most Canadian credit unions, Prospera reaches national payment rails and consumer data-sharing through shared credit-union-system infrastructure rather than a proprietary API, and third-party data access today is aggregator/screen-scraping based (e.g. Flinks, Plaid). This is an honest identity-only profile with no public API surface to catalog.",
+     "score": 8.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 12.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 155
+    },
+    {
+     "name": "Skipthedishes",
+     "slug": "skipthedishes",
+     "description": "SkipTheDishes is a Canadian online food-delivery marketplace headquartered in Winnipeg, Manitoba, founded in 2012 and acquired by Just Eat (now Just Eat Takeaway.com) in 2016, under which it operates as the group's Canadian brand. It connects diners with local restaurants and a network of independent couriers for on-demand food delivery and pickup across Canadian cities via its consumer website and mobile apps, and runs a restaurant partner onboarding program and a courier (Skip Network) program. As of this enrichment pass SkipTheDishes publishes no public developer API, developer portal, or API documentation. The primary domain is served behind Cloudflare bot protection and the partner/partners subdomains are static marketing/onboarding pages, so no OpenAPI, webhook, or SDK surface is available to harvest.",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 156
+    },
+    {
      "name": "First West Credit Union",
      "slug": "first-west-credit-union",
      "description": "First West Credit Union — rebranded Tru Cooperative Bank in 2026 — is a member-owned Canadian cooperative financial institution headquartered in Langley, British Columbia. Formed in 2010 by the merger of Envision Credit Union and Valley First, and later joined by Island Savings and Enderby & District Financial, it operates those four regional brands over a shared branch network with roughly 291,000 members, about $20.8 billion in total assets, 45 branches, and around 1,300 employees. After members voted in 2021 for federal continuance, it received a federal charter under Canada's Bank Act and became a federal credit union / cooperative bank (CDIC-insured) as of April 1, 2026. On the open-finance front First West / Tru runs no first-party public developer portal and publishes no downloadable OpenAPI or partner API; both developer.firstwestcu.ca and developer.trucooperativebank.ca resolve to nothing (NXDOMAIN). Third-party access to member account data today is aggregator-based (screen-scraping via providers such as Plaid and Flinks), the fragmented and voluntary Canadian norm while the federal Consumer-Driven Banking framework (Budget 2024 / Fall Economic Statement 2024, overseen by the FCAC) remains legislated but not yet operational.",
@@ -6752,7 +6833,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6779,7 +6860,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 157
     },
     {
      "name": "Airborne Entertainment",
@@ -6797,97 +6878,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 156
-    },
-    {
-     "name": "Vancity",
-     "slug": "vancity",
-     "description": "Vancity (Vancouver City Savings Credit Union) is a member-owned financial co-operative headquartered in Vancouver, British Columbia, and the largest community credit union in Canada, with over 543,000 members, roughly CA$35 billion in assets, and about 60 branches across the Lower Mainland and Vancouver Island. Founded in 1946 as an open-bond credit union, it is provincially chartered and cooperatively governed, offering retail and business banking, mortgages, foreign exchange, Visa cards, insurance, and investment advice, with values-based and impact-lending positioning. Vancity exposes no first-party public developer API portal: developer.vancity.com and developers.vancity.com do not resolve. It participates in Canada's shared payment rails through Central 1 (its banking-technology and payments provider, including enhanced Interac e-Transfer real-time payments) and Payments Canada, while third-party consumer data access is provided through aggregators such as Plaid and Flinks. Canada's federal Consumer-Driven Banking (open banking) framework is legislated but not yet operational, so any programmatic account access today is voluntary and aggregator-mediated rather than served by a documented Vancity API.",
-     "score": 6.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 157
-    },
-    {
-     "name": "Canadian Western Bank",
-     "slug": "canadian-western-bank",
-     "description": "Canadian Western Bank (CWB) is a Schedule I domestic chartered bank founded in 1988 (through the merger of the Bank of Alberta and Western & Pacific Bank) and headquartered in Edmonton, Alberta at Canadian Western Bank Place. Historically the largest publicly traded Schedule I bank headquartered in Western Canada and listed on the Toronto Stock Exchange (TSX: CWB), it held roughly CA$43 billion in assets and focused on full-service business and commercial banking, personal banking, equipment financing and leasing, trust services, and wealth management across a network of affiliated entities. In June 2024 National Bank of Canada agreed to acquire CWB in an all-share deal valued at roughly CA$5 billion, and the acquisition closed in early 2025; CWB now operates as a subsidiary of National Bank of Canada and its branches and brand are being wound down and rebranded under National Bank. Consistent with Canada's voluntary and still fragmented open-finance landscape — the federal Consumer-Driven Banking framework was legislated in 2024 (Budget 2024 / Fall Economic Statement, overseen by the FCAC) but is not yet operational — CWB publishes no first-party public developer portal and no documented public API. Its developer and API hostnames do not resolve, and the entire cwbank.com domain now 301-redirects to National Bank of Canada (nbc.ca). Consumer-permissioned account and transaction data is reached only indirectly through third-party data aggregators (Plaid is confirmed via aggregator coverage directories). No first-party FDX-conformant data-access API was found. This is an honest identity-only, aggregator-only record for an institution now absorbed into National Bank of Canada.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-western-bank/refs/heads/main/screenshots/canadian-western-bank-2026-07-25T204330.png",
-     "score": 6.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6909,10 +6901,10 @@
      "rank": 158
     },
     {
-     "name": "WayPay",
-     "slug": "waypay",
-     "description": "WayPay was a cloud-based B2B payments and accounts-payable-automation fintech headquartered in Burlington, Ontario, Canada. Its platform let businesses pay any supplier by any method (EFT, cheque, credit card, wire) from a single dashboard, reconciling against accounting and ERP software to automate the accounts-payable workflow. Royal Bank of Canada (RBC) announced its acquisition of WayPay in July 2019, after which the independent brand was retired. As of this enrichment pass the domain waypay.ca resolves via DNS (behind Akamai, enterprise mail) but serves no public site (HTTP 503), and there is no reachable public developer portal, API, or documentation surface.",
-     "score": 5.7,
+     "name": "Vancity",
+     "slug": "vancity",
+     "description": "Vancity (Vancouver City Savings Credit Union) is a member-owned financial co-operative headquartered in Vancouver, British Columbia, and the largest community credit union in Canada, with over 543,000 members, roughly CA$35 billion in assets, and about 60 branches across the Lower Mainland and Vancouver Island. Founded in 1946 as an open-bond credit union, it is provincially chartered and cooperatively governed, offering retail and business banking, mortgages, foreign exchange, Visa cards, insurance, and investment advice, with values-based and impact-lending positioning. Vancity exposes no first-party public developer API portal: developer.vancity.com and developers.vancity.com do not resolve. It participates in Canada's shared payment rails through Central 1 (its banking-technology and payments provider, including enhanced Interac e-Transfer real-time payments) and Payments Canada, while third-party consumer data access is provided through aggregators such as Plaid and Flinks. Canada's federal Consumer-Driven Banking (open banking) framework is legislated but not yet operational, so any programmatic account access today is voluntary and aggregator-mediated rather than served by a documented Vancity API.",
+     "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -6920,16 +6912,16 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 7.6,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -6953,22 +6945,22 @@
      "rank": 159
     },
     {
-     "name": "Manulife Bank",
-     "slug": "manulife-bank",
-     "description": "Manulife Bank of Canada is a Schedule I federally chartered bank and a wholly-owned subsidiary of The Manufacturers Life Insurance Company, part of Manulife Financial Corporation. Launched in 1993 as Canada's first branchless (direct) bank — and the first federally regulated bank opened by an insurance company in Canada — it operates entirely through online banking, a mobile app, and telephone banking, with no physical branches. It is best known for the Manulife One all-in-one account, the Advantage Account, GICs, mortgages, and lines of credit that connect everyday banking and borrowing with long-term financial planning. Manulife Bank publishes no first-party public developer portal or downloadable API specifications; no developer.manulifebank.ca host resolves, and the public site is bot-protected. Canada's Consumer-Driven Banking (open-banking) framework — legislated in Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer — is legislated but not yet operational, so consumer financial data access today is voluntary and occurs through financial-data aggregators (Plaid, Flinks, MX) rather than a first-party bank API. Interac e-Transfer is offered as a consumer feature but is not exposed as a documented public API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/manulife-bank/refs/heads/main/screenshots/manulife-bank-2026-07-25T230113.png",
-     "score": 5.4,
+     "name": "Canadian Western Bank",
+     "slug": "canadian-western-bank",
+     "description": "Canadian Western Bank (CWB) is a Schedule I domestic chartered bank founded in 1988 (through the merger of the Bank of Alberta and Western & Pacific Bank) and headquartered in Edmonton, Alberta at Canadian Western Bank Place. Historically the largest publicly traded Schedule I bank headquartered in Western Canada and listed on the Toronto Stock Exchange (TSX: CWB), it held roughly CA$43 billion in assets and focused on full-service business and commercial banking, personal banking, equipment financing and leasing, trust services, and wealth management across a network of affiliated entities. In June 2024 National Bank of Canada agreed to acquire CWB in an all-share deal valued at roughly CA$5 billion, and the acquisition closed in early 2025; CWB now operates as a subsidiary of National Bank of Canada and its branches and brand are being wound down and rebranded under National Bank. Consistent with Canada's voluntary and still fragmented open-finance landscape — the federal Consumer-Driven Banking framework was legislated in 2024 (Budget 2024 / Fall Economic Statement, overseen by the FCAC) but is not yet operational — CWB publishes no first-party public developer portal and no documented public API. Its developer and API hostnames do not resolve, and the entire cwbank.com domain now 301-redirects to National Bank of Canada (nbc.ca). Consumer-permissioned account and transaction data is reached only indirectly through third-party data aggregators (Plaid is confirmed via aggregator coverage directories). No first-party FDX-conformant data-access API was found. This is an honest identity-only, aggregator-only record for an institution now absorbed into National Bank of Canada.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-western-bank/refs/heads/main/screenshots/canadian-western-bank-2026-07-25T204330.png",
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6998,10 +6990,10 @@
      "rank": 160
     },
     {
-     "name": "Smart Reno",
-     "slug": "smart-reno",
-     "description": "Smart Reno is a Montreal-based home-renovation marketplace, founded in 2012 by Andrei Uglar, that connects homeowners with qualified, available local contractors. Homeowners post a project and receive up to three competing quotes from vetted renovation professionals through a proprietary contractor-matching platform. Backed by 500 Startups (500 Global), Anges Quebec, and BDC, Smart Reno was acquired by RBC Ventures in 2019 and now operates its consumer marketplace under the soumissionrenovation.ca brand across Quebec, Ontario, and Alberta. The company exposes no public developer API, SDK, documentation portal, or webhook surface; smartreno.com 301-redirects to the successor site and no /.well-known discovery documents were found.",
-     "score": 5.0,
+     "name": "WayPay",
+     "slug": "waypay",
+     "description": "WayPay was a cloud-based B2B payments and accounts-payable-automation fintech headquartered in Burlington, Ontario, Canada. Its platform let businesses pay any supplier by any method (EFT, cheque, credit card, wire) from a single dashboard, reconciling against accounting and ERP software to automate the accounts-payable workflow. Royal Bank of Canada (RBC) announced its acquisition of WayPay in July 2019, after which the independent brand was retired. As of this enrichment pass the domain waypay.ca resolves via DNS (behind Akamai, enterprise mail) but serves no public site (HTTP 503), and there is no reachable public developer portal, API, or documentation surface.",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -7012,8 +7004,15 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7033,6 +7032,88 @@
       "dry_run_mode": false
      },
      "rank": 161
+    },
+    {
+     "name": "Manulife Bank",
+     "slug": "manulife-bank",
+     "description": "Manulife Bank of Canada is a Schedule I federally chartered bank and a wholly-owned subsidiary of The Manufacturers Life Insurance Company, part of Manulife Financial Corporation. Launched in 1993 as Canada's first branchless (direct) bank — and the first federally regulated bank opened by an insurance company in Canada — it operates entirely through online banking, a mobile app, and telephone banking, with no physical branches. It is best known for the Manulife One all-in-one account, the Advantage Account, GICs, mortgages, and lines of credit that connect everyday banking and borrowing with long-term financial planning. Manulife Bank publishes no first-party public developer portal or downloadable API specifications; no developer.manulifebank.ca host resolves, and the public site is bot-protected. Canada's Consumer-Driven Banking (open-banking) framework — legislated in Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer — is legislated but not yet operational, so consumer financial data access today is voluntary and occurs through financial-data aggregators (Plaid, Flinks, MX) rather than a first-party bank API. Interac e-Transfer is offered as a consumer feature but is not exposed as a documented public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/manulife-bank/refs/heads/main/screenshots/manulife-bank-2026-07-25T230113.png",
+     "score": 5.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 7.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 162
+    },
+    {
+     "name": "Smart Reno",
+     "slug": "smart-reno",
+     "description": "Smart Reno is a Montreal-based home-renovation marketplace, founded in 2012 by Andrei Uglar, that connects homeowners with qualified, available local contractors. Homeowners post a project and receive up to three competing quotes from vetted renovation professionals through a proprietary contractor-matching platform. Backed by 500 Startups (500 Global), Anges Quebec, and BDC, Smart Reno was acquired by RBC Ventures in 2019 and now operates its consumer marketplace under the soumissionrenovation.ca brand across Quebec, Ontario, and Alberta. The company exposes no public developer API, SDK, documentation portal, or webhook surface; smartreno.com 301-redirects to the successor site and no /.well-known discovery documents were found.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 163
     }
    ]
   },
@@ -7041,21 +7122,9 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
+   "count": 1,
+   "shown": 1,
    "providers": [
-    {
-     "name": "1QBit",
-     "slug": "1qbit",
-     "description": "1QB Information Technologies Inc. (1QBit) is a quantum computing software company founded in 2012 and headquartered in Vancouver, British Columbia, Canada. It builds hardware-agnostic algorithms and software for optimization, simulation, and machine learning that run across quantum, quantum-inspired, and classical high-performance computing hardware, with work spanning computational finance, life sciences and quantum chemistry, materials, and telecommunications. 1QBit has hardware and platform partnerships with D-Wave, Fujitsu, IBM, and Microsoft Azure Quantum, and participates in DARPA's Quantum Benchmarking Initiative (QBI) on automated design tools for utility-scale quantum computation. The company markets a 1Qloud optimization platform whose own marketing page cites Python SDK, gRPC, and REST API interfaces, but as of August 2026 1QBit publishes no public developer portal, API reference, or machine-readable API contract — the former portal.1qbit.com host no longer resolves and access is arranged through industry partnerships. Its only public developer surface is a small GitHub organization of research code plus two first-party Python libraries on PyPI.",
-     "rank": 162
-    },
-    {
-     "name": "Aspect Biosystems",
-     "slug": "aspect-biosystems",
-     "description": "Aspect Biosystems is a Vancouver, British Columbia biotechnology company developing Bioprinted Tissue Therapeutics — implantable, allogeneic living tissues designed to replace, repair, or supplement biological function in the body. Spun out of an interdisciplinary medicine-and-engineering collaboration at the University of British Columbia in 2013, the company operates a self-described full-stack tissue therapeutic platform that integrates proprietary AI-powered microfluidic bioprinting, computational tissue design tools, therapeutic and hypoimmune-engineered cells, and advanced biomaterials. Its clinical pipeline targets metabolic and endocrine disease, led by pancreatic tissue programs for type 1 diabetes and programs in rare endocrine disorders and liver disease. Aspect has raised more than US$350M, including a US$115M Series B, and holds partnerships with Novo Nordisk (announced 2023, valued at over US$2.6B in milestones) and the governments of Canada and British Columbia. It is a private, pre-commercial therapeutics developer: it publishes no public developer portal, API documentation, SDKs, or machine-readable API contract.",
-     "rank": 163
-    },
     {
      "name": "Version One Ventures",
      "slug": "version-one-ventures",

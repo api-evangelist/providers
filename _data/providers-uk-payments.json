@@ -26,7 +26,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -72,7 +72,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -111,7 +111,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -156,7 +156,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -198,51 +198,6 @@
    "shown": 18,
    "providers": [
     {
-     "name": "Volt",
-     "slug": "volt-io",
-     "description": "Volt is a London-headquartered real-time payments company that operates a global account-to-account (A2A) \"pay by bank\" network built on open banking rails. Founded in 2019, Volt connects merchants to bank-initiated payments across the UK (Faster Payments / Open Banking under PSD2), Europe (SEPA), Brazil (Pix), Australia (PayTo), and other real-time schemes through a single API, so shoppers pay directly from their bank account without cards. Its platform spans payment initiation, refunds, payouts, recurring payments (mandates / variable recurring payments), Volt Accounts and virtual IBANs for settlement and collections, account verification (confirmation of payee), and reconciliation reporting. Volt sells to merchants and PSPs across ecommerce, travel, gaming, iGaming and financial services, and is FCA-authorised in its home market of the United Kingdom. Volt ships a genuine, API-native developer surface: a public developer portal and OpenAPI-backed API reference at docs.volt.io, a single production gateway host (gateway.volt.io) with a sandbox, OAuth2 authentication, and webhooks for asynchronous payment events. The docs.volt.io API reference renders schemas server-side, but Volt publishes a real OpenAPI 3.0.1 definition for its Accounts API (virtual IBANs, named accounts, settlement) in the github.com/volt-io/volt-io-accounts repository, and ships first-party mobile checkout SDKs (iOS/Android) plus e-commerce plugins in the same GitHub organization.",
-     "score": 55.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 67.8,
-      "governance": 11.5,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 45.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 47.1,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Open Banking & A2A Payments",
-     "rank": 5
-    },
-    {
      "name": "Yapily",
      "slug": "yapily",
      "description": "Yapily is a UK-headquartered Open Banking platform that exposes a single REST API across 2,000+ banks in the UK and 18+ European countries. The platform provides AISP (Account Information) and PISP (Payment Initiation) capabilities, Variable Recurring Payments (VRP), transaction enrichment (Data Plus), Account Validation, and Hosted Payment/Consent Pages. Yapily Connect Ltd is FCA-authorised in the UK and Yapily Connect UAB is authorised by the Bank of Lithuania for EU coverage, allowing customers to launch without holding their own PSD2 permissions.",
@@ -258,7 +213,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -286,7 +241,7 @@
       "dry_run_mode": false
      },
      "tier": "Open Banking & A2A Payments",
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Dojo",
@@ -304,7 +259,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -332,7 +287,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Primer",
@@ -350,7 +305,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -378,7 +333,7 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "Form3",
@@ -396,7 +351,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -424,7 +379,7 @@
       "dry_run_mode": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Trust Payments",
@@ -441,7 +396,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -469,6 +424,51 @@
       "dry_run_mode": false
      },
      "tier": "Gateways & PSPs",
+     "rank": 9
+    },
+    {
+     "name": "Volt",
+     "slug": "volt-io",
+     "description": "Volt is a London-headquartered real-time payments company that operates a global account-to-account (A2A) \"pay by bank\" network built on open banking rails. Founded in 2019, Volt connects merchants to bank-initiated payments across the UK (Faster Payments / Open Banking under PSD2), Europe (SEPA), Brazil (Pix), Australia (PayTo), and other real-time schemes through a single API, so shoppers pay directly from their bank account without cards. Its platform spans payment initiation, refunds, payouts, recurring payments (mandates / variable recurring payments), Volt Accounts and virtual IBANs for settlement and collections, account verification (confirmation of payee), and reconciliation reporting. Volt sells to merchants and PSPs across ecommerce, travel, gaming, iGaming and financial services, and is FCA-authorised in its home market of the United Kingdom. Volt ships a genuine, API-native developer surface: a public developer portal and OpenAPI-backed API reference at docs.volt.io, a single production gateway host (gateway.volt.io) with a sandbox, OAuth2 authentication, and webhooks for asynchronous payment events. The docs.volt.io API reference renders schemas server-side, but Volt publishes a real OpenAPI 3.0.1 definition for its Accounts API (virtual IBANs, named accounts, settlement) in the github.com/volt-io/volt-io-accounts repository, and ships first-party mobile checkout SDKs (iOS/Android) plus e-commerce plugins in the same GitHub organization.",
+     "score": 52.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 52.7,
+      "governance": 11.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 45.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 47.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Open Banking & A2A Payments",
      "rank": 10
     },
     {
@@ -487,7 +487,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -532,7 +532,7 @@
       "developer_ergonomics": 75.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -577,7 +577,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -623,7 +623,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -669,7 +669,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -715,7 +715,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -760,7 +760,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -806,7 +806,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -851,7 +851,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -897,7 +897,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -943,7 +943,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -988,7 +988,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1044,7 +1044,7 @@
       "developer_ergonomics": 45.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1089,7 +1089,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1135,7 +1135,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1180,7 +1180,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1225,7 +1225,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1280,7 +1280,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1325,7 +1325,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1371,7 +1371,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1417,7 +1417,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1472,7 +1472,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,

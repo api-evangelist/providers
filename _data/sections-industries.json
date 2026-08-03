@@ -109,7 +109,7 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 1993
+  "count": 1992
  },
  {
   "slug": "data-analytics",
@@ -130,7 +130,7 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 2904
+  "count": 2905
  },
  {
   "slug": "digital-health",
@@ -235,7 +235,7 @@
   "name": "Government & Public Sector",
   "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
   "icon": "account_balance",
-  "count": 841
+  "count": 840
  },
  {
   "slug": "healthcare",
@@ -284,7 +284,7 @@
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1053
+  "count": 1052
  },
  {
   "slug": "life-sciences",
@@ -424,7 +424,7 @@
   "name": "Supply Chain & Procurement",
   "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
   "icon": "inventory_2",
-  "count": 1238
+  "count": 1240
  },
  {
   "slug": "tax-compliance-software",
@@ -494,6 +494,6 @@
   "name": "Weather & Geospatial",
   "description": "Weather, mapping, geocoding, and the satellite and location data feeding everything from logistics to insurance.",
   "icon": "public",
-  "count": 484
+  "count": 483
  }
 ]

@@ -8,9 +8,53 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
+    {
+     "name": "ShopBack",
+     "slug": "shopback",
+     "description": "ShopBack is a Singapore-headquartered shopping, rewards and payments platform founded in 2014, operating across 13 markets in Asia-Pacific, Europe and the United States with more than 20 million members and 20,000 merchant partners. Alongside its consumer cashback and discovery app, ShopBack runs a merchant-facing payments business — ShopBack Pay and ShopBack PayLater — and publishes a public developer hub at docs.shopback.com covering two REST APIs. The Online Payments API (v2.0, also called the Online Bespoke API) handles merchant login, order initiation, order status, refunds, and a tokenized-payments surface for account linking, pre-authorization hold/capture/void, immediate charge and cashback-balance lookup. The In-Store Payments API (v1.4) covers merchant-presented and customer-presented QR ordering, order status, refunds, cancellations, and a payment-notification webhook for point-of-sale and customer-facing app checkout. Both are HMAC- or JWT-authenticated over HTTPS/TLS 1.2+, support an X-ShopBack-Idempotent-Id idempotency header, and ship e-commerce plugins for Shopify, WooCommerce, Magento, PrestaShop, EasyStore and Salesforce Commerce Cloud.",
+     "score": 55.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 63.5,
+      "governance": 20.8,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 57.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1
+    },
     {
      "name": "Advance Intelligence Group",
      "slug": "advance-intelligence-group",
@@ -27,7 +71,7 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 32.7,
      "agent_band": "agent-aware",
@@ -47,7 +91,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1
+     "rank": 2
     },
     {
      "name": "National University of Singapore",
@@ -65,7 +109,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -85,7 +129,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "Aspire",
@@ -103,7 +147,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -130,7 +174,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -159,7 +203,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -186,7 +230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "2C2P",
@@ -204,7 +248,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -231,7 +275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Vauld",
@@ -248,7 +292,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -275,7 +319,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Xfers",
@@ -292,7 +336,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -319,7 +363,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 8
     }
    ],
    "open": true
@@ -329,9 +373,46 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 11,
-   "shown": 11,
+   "count": 12,
+   "shown": 12,
    "providers": [
+    {
+     "name": "CargoAi",
+     "slug": "cargoai",
+     "description": "CargoAi is a Singapore-headquartered air cargo technology company that operates CargoMART, a digital marketplace where freight forwarders search routes, schedules, capacity and rates across 680+ airlines, book them, transmit the electronic air waybill, and track the shipment end to end. It sits in the middle of the air cargo chain as an aggregator between forwarders and their TMS vendors on one side and airline reservation and messaging systems on the other. Its API posture is genuinely public in documentation and sales-gated in access - the CargoCONNECT developer portal at cargoai.readme.io is open to anyone with no login and publishes a real OpenAPI 3.1 definition per operation, but an x-api-key is issued only after a commercial conversation with the CargoAi enterprise team. The published contract is a proprietary REST shape rather than an IATA ONE Record interface, though the payloads it carries are IATA-native - AWB numbers with airline prefixes, IATA airport and airline codes, Special Handling Codes, IATA cargo status event codes, FWB and FHL message content, and CO2 figures computed per IATA Recommended Practice 1678.",
+     "score": 22.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 15.2,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 22.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 9
+    },
     {
      "name": "Singtel",
      "slug": "singtel",
@@ -347,7 +428,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -374,7 +455,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 10
     },
     {
      "name": "Prudential plc",
@@ -391,7 +472,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -418,7 +499,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 11
     },
     {
      "name": "Homage",
@@ -436,90 +517,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "Geniebook",
-     "slug": "geniebook",
-     "description": "Geniebook is a Singapore-based educational technology company (Geniebook Pte Ltd, incorporated 2016) offering an AI-powered online learning platform for primary, secondary, and JC students. Its product suite includes GenieSmart (AI-personalised worksheets generated from a library of 300,000+ MOE syllabus-aligned questions, using algorithms co-developed with A*STAR), GenieClass (live and recorded online classes taught by experienced teachers), and GenieAsk (real-time moderated teacher chats for after-school academic support), plus a CAMPUS physical-tutoring offering and PSLE/JC preparation programmes. Geniebook serves more than 220,000 students across Singapore, Vietnam, Malaysia, and Indonesia, and is backed by Lightspeed Venture Partners. It is a consumer (B2C) learning application delivered via web and mobile apps; no public developer API is published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geniebook/refs/heads/main/screenshots/geniebook-2026-07-25T215622.png",
-     "score": 15.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Chi Longevity",
-     "slug": "chi-longevity",
-     "description": "Chi Longevity is a Singapore-based longevity medicine and healthy-aging clinic that focuses on biological-age optimization rather than reactive medicine, built on The Maier Method developed by co-founder Professor Andrea Maier. The practice combines precision health mapping (blood panels, genetic and cognitive testing, cardiovascular and metabolic analysis), flagship and specialised longevity programmes, cognitive and physical training, a branded NMN supplement, and ongoing support through health coaching, physician and dietitian consultations, and a client portal. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; no public developer API is currently published, so this profile carries the company identity, domain-security posture, and published web properties rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chi-longevity/refs/heads/main/screenshots/chi-longevity-2026-07-25T205221.png",
-     "score": 14.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -549,6 +547,89 @@
      "rank": 12
     },
     {
+     "name": "Geniebook",
+     "slug": "geniebook",
+     "description": "Geniebook is a Singapore-based educational technology company (Geniebook Pte Ltd, incorporated 2016) offering an AI-powered online learning platform for primary, secondary, and JC students. Its product suite includes GenieSmart (AI-personalised worksheets generated from a library of 300,000+ MOE syllabus-aligned questions, using algorithms co-developed with A*STAR), GenieClass (live and recorded online classes taught by experienced teachers), and GenieAsk (real-time moderated teacher chats for after-school academic support), plus a CAMPUS physical-tutoring offering and PSLE/JC preparation programmes. Geniebook serves more than 220,000 students across Singapore, Vietnam, Malaysia, and Indonesia, and is backed by Lightspeed Venture Partners. It is a consumer (B2C) learning application delivered via web and mobile apps; no public developer API is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geniebook/refs/heads/main/screenshots/geniebook-2026-07-25T215622.png",
+     "score": 15.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "Chi Longevity",
+     "slug": "chi-longevity",
+     "description": "Chi Longevity is a Singapore-based longevity medicine and healthy-aging clinic that focuses on biological-age optimization rather than reactive medicine, built on The Maier Method developed by co-founder Professor Andrea Maier. The practice combines precision health mapping (blood panels, genetic and cognitive testing, cardiovascular and metabolic analysis), flagship and specialised longevity programmes, cognitive and physical training, a branded NMN supplement, and ongoing support through health coaching, physician and dietitian consultations, and a client portal. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; no public developer API is currently published, so this profile carries the company identity, domain-security posture, and published web properties rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chi-longevity/refs/heads/main/screenshots/chi-longevity-2026-07-25T205221.png",
+     "score": 14.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 14
+    },
+    {
      "name": "Caresense Pte. Ltd.",
      "slug": "caresense-pte-ltd",
      "description": "CareSense Pte. Ltd. (CareSense.ai) is a Singapore-based preventive digital health company building AI-powered health coaching. Its flagship product is Mandy, a 24/7 AI health coach delivered over chat and voice, paired with the CareSense.ai app — a personal health dashboard covering nutrition, exercise, sleep and stress — and integrated health services including blood testing and telemedicine. The company sells both to individuals and to enterprise teams as a workplace wellbeing programme. CareSense was incorporated in Singapore on 14 June 2024 (UEN 202424008M), registered at 160 Robinson Road #14-04, and was founded by Lucas Ngoo, co-founder of Carousell, and Julian Koo, founder of the home-care platform Jaga-Me. As of this enrichment pass CareSense publishes no public API, developer portal, API documentation or SDKs; its technology surface is consumer and enterprise applications fronted by a Vanta-hosted trust center.",
@@ -564,7 +645,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -591,7 +672,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 13
+     "rank": 15
     },
     {
      "name": "Youtrip",
@@ -608,7 +689,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -635,7 +716,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 14
+     "rank": 16
     },
     {
      "name": "BoxGreen",
@@ -652,7 +733,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -672,7 +753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 15
+     "rank": 17
     },
     {
      "name": "Propseller",
@@ -689,7 +770,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -716,7 +797,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 16
+     "rank": 18
     },
     {
      "name": "Horizon Quantum Computing",
@@ -734,7 +815,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -754,7 +835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 17
+     "rank": 19
     },
     {
      "name": "Get",
@@ -772,7 +853,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -799,7 +880,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 18
+     "rank": 20
     }
    ]
   },
@@ -827,7 +908,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.6,
      "agent_band": "human-only",
@@ -847,7 +928,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 19
+     "rank": 21
     },
     {
      "name": "Endowus",
@@ -865,7 +946,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -885,7 +966,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Finbots.AI",
@@ -903,7 +984,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -930,7 +1011,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Una Brands",
@@ -947,7 +1028,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 14.4,
      "agent_band": "agent-aware",
@@ -967,7 +1048,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "Zenyum",
@@ -984,7 +1065,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1011,7 +1092,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "99.co",
@@ -1028,7 +1109,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1048,7 +1129,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "VaultDragon",
@@ -1065,7 +1146,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1092,7 +1173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 25
+     "rank": 27
     },
     {
      "name": "Grain",
@@ -1110,7 +1191,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1130,7 +1211,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "Terrascope",
@@ -1148,7 +1229,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1168,7 +1249,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "MyCash",
@@ -1185,7 +1266,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1212,7 +1293,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "SALARY HERO PTE. LTD",
@@ -1229,7 +1310,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1249,7 +1330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "Ocean Network Express",
@@ -1267,7 +1348,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1287,7 +1368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "PolicyPal",
@@ -1304,7 +1385,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1331,7 +1412,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "Krosslinker",
@@ -1349,7 +1430,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1369,7 +1450,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "Myhero",
@@ -1386,7 +1467,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1395,81 +1476,6 @@
       "score": 10.0,
       "matched_via": "weak_tags"
      },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 33
-    },
-    {
-     "name": "Upcode Academy",
-     "slug": "upcode-academy",
-     "description": "UpCode Academy was a Singapore-based coding school offering short bootcamps and part-time courses (SQL, Python, Web Development with Ruby on Rails, Data Science, Computer Vision, IoT) taught by industry practitioners. Operated by 40 Tasks, a 500 Global portfolio company whose earlier product was the LOCO location-based search app at 40tasks.com. The company appears defunct - upcodeacademy.com serves a Cloudflare 522 dead-origin error (a bare default server page by December 2025) and 40tasks.com no longer resolves in DNS (domain-squatted since about 2023). No public API surface was found.",
-     "score": 6.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "agent_score": 3.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 34
-    },
-    {
-     "name": "Hydroleap",
-     "slug": "hydroleap",
-     "description": "Hydroleap is a Singapore-based greentech company revolutionizing industrial water and wastewater treatment through proprietary electrochemical technology. Its chemical-free, modularized systems - electro-coagulation (HL-EC), electro-oxidation (HL-EO), and electro-oxidation for cooling towers (HL-EO-CT) - replace conventional chemical-intensive processes with automated, energy-efficient alternatives. Hydroleap serves data centers, palm oil mills, food and beverage production, pharmaceuticals manufacturing, and municipal wastewater operators, helping businesses cut operating costs, improve regulatory compliance, and reduce environmental impact. Backed by 500 Global, the company is profiled in the API Evangelist network; it publishes a product and marketing website but no public API or developer platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hydroleap/refs/heads/main/screenshots/hydroleap-2026-07-25T221833.png",
-     "score": 6.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 6.5,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1491,21 +1497,59 @@
      "rank": 35
     },
     {
-     "name": "WorkClass",
-     "slug": "workclass",
-     "description": "WorkClass is (or was) a Singapore-based job marketplace founded in 2020 that matched frontline and blue-collar workers with employers, promising placement within 24 hours via matching algorithms. Backed by 500 Global, Goodwater Capital, Antler, and Kistefos, it surfaced here as a 500 Global portfolio lead. As of July 2026 its primary domain workclass.co redirects to an unrelated UK website and workclass.com is parked for sale; no public API, developer portal, client packages, or GitHub organization were found.",
-     "score": 6.1,
+     "name": "Upcode Academy",
+     "slug": "upcode-academy",
+     "description": "UpCode Academy was a Singapore-based coding school offering short bootcamps and part-time courses (SQL, Python, Web Development with Ruby on Rails, Data Science, Computer Vision, IoT) taught by industry practitioners. Operated by 40 Tasks, a 500 Global portfolio company whose earlier product was the LOCO location-based search app at 40tasks.com. The company appears defunct - upcodeacademy.com serves a Cloudflare 522 dead-origin error (a bare default server page by December 2025) and 40tasks.com no longer resolves in DNS (domain-squatted since about 2023). No public API surface was found.",
+     "score": 6.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 3.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 36
+    },
+    {
+     "name": "Hydroleap",
+     "slug": "hydroleap",
+     "description": "Hydroleap is a Singapore-based greentech company revolutionizing industrial water and wastewater treatment through proprietary electrochemical technology. Its chemical-free, modularized systems - electro-coagulation (HL-EC), electro-oxidation (HL-EO), and electro-oxidation for cooling towers (HL-EO-CT) - replace conventional chemical-intensive processes with automated, energy-efficient alternatives. Hydroleap serves data centers, palm oil mills, food and beverage production, pharmaceuticals manufacturing, and municipal wastewater operators, helping businesses cut operating costs, improve regulatory compliance, and reduce environmental impact. Backed by 500 Global, the company is profiled in the API Evangelist network; it publishes a product and marketing website but no public API or developer platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hydroleap/refs/heads/main/screenshots/hydroleap-2026-07-25T221833.png",
+     "score": 6.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1525,7 +1569,44 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 36
+     "rank": 37
+    },
+    {
+     "name": "WorkClass",
+     "slug": "workclass",
+     "description": "WorkClass is (or was) a Singapore-based job marketplace founded in 2020 that matched frontline and blue-collar workers with employers, promising placement within 24 hours via matching algorithms. Backed by 500 Global, Goodwater Capital, Antler, and Kistefos, it surfaced here as a 500 Global portfolio lead. As of July 2026 its primary domain workclass.co redirects to an unrelated UK website and workclass.com is parked for sale; no public API, developer portal, client packages, or GitHub organization were found.",
+     "score": 6.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 61.1,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 38
     },
     {
      "name": "Oddup",
@@ -1542,7 +1623,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1569,7 +1650,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 37
+     "rank": 39
     },
     {
      "name": "Spenmo",
@@ -1586,7 +1667,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1613,7 +1694,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 38
+     "rank": 40
     },
     {
      "name": "DocDoc",
@@ -1631,7 +1712,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1658,7 +1739,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 39
+     "rank": 41
     },
     {
      "name": "Movel AI",
@@ -1675,82 +1756,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 40
-    },
-    {
-     "name": "Aliena",
-     "slug": "aliena",
-     "description": "Aliena is a Singapore-based space-technology company, incorporated in 2018, that designs and manufactures compact electric propulsion systems for small satellites. Its MUSIC plasma thruster line delivers high thrust-to-power ratios at very low power budgets with high specific impulse, enabling small satellites to operate and sustain very low Earth orbit (VLEO) for high-resolution remote sensing. Aliena is a hardware manufacturer with no public developer API, SDK, or developer portal; this API Evangelist profile tracks the company as a 500 Global portfolio lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aliena/refs/heads/main/screenshots/aliena-2026-07-25T195616.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 41
-    },
-    {
-     "name": "Bilimber Pte. Ltd.",
-     "slug": "bilimber-pte-ltd",
-     "description": "Bilimber Pte. Ltd. is a Singapore-based private company (exempt private company limited by shares) incorporated on 2020-11-17, operating in research and experimental development on electronics. It was surfaced as a portfolio company of 500 Global (an early/seed-stage investor alongside a Hong Kong government program) and added to the API Evangelist network as a stub. As of this enrichment pass the company publishes no public website, developer portal, documentation, or API surface -- the bilimber.com domain is currently unregistered and does not resolve -- so no first-party API artifacts could be searched, derived, or generated. This profile remains a lead awaiting a public API surface.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1773,9 +1779,10 @@
      "rank": 42
     },
     {
-     "name": "ESPL",
-     "slug": "espl",
-     "description": "ESPL (Esports Players League) is a Singapore-headquartered global esports tournament network and platform, founded in 2019, building an open, grassroots-focused ecosystem for amateur competitive gaming. It runs ESPL-branded online and on-ground tournaments across Asia, Europe, and the Americas with a mobile-first focus alongside PC and console titles, operated from its Singapore headquarters with regional offices in Cologne and Los Angeles. ESPL is a portfolio company of 500 Global (formerly 500 Startups), which led its seed round in 2020. As of this enrichment pass ESPL publishes no public developer API, OpenAPI, SDK, or documentation surface, and its espl.co domain did not resolve (DNS SERVFAIL) at probe time; this profile is maintained as a company identity record in the API Evangelist network.",
+     "name": "Aliena",
+     "slug": "aliena",
+     "description": "Aliena is a Singapore-based space-technology company, incorporated in 2018, that designs and manufactures compact electric propulsion systems for small satellites. Its MUSIC plasma thruster line delivers high thrust-to-power ratios at very low power budgets with high specific impulse, enabling small satellites to operate and sustain very low Earth orbit (VLEO) for high-resolution remote sensing. Aliena is a hardware manufacturer with no public developer API, SDK, or developer portal; this API Evangelist profile tracks the company as a 500 Global portfolio lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aliena/refs/heads/main/screenshots/aliena-2026-07-25T195616.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1787,7 +1794,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1810,9 +1817,9 @@
      "rank": 43
     },
     {
-     "name": "NodeFlair",
-     "slug": "nodeflair",
-     "description": "NodeFlair is a Singapore-based technology career-transparency platform, founded in 2018 by Ethan Ang, that gives Asia's tech talent access to verified salary data, company reviews, tech-stack insights, benefits, and job listings across the APAC region. Salaries are verified against actual employee payslips, differentiating NodeFlair from other job boards, and the platform serves over 500,000 monthly visitors across eight Asian countries while helping companies hire tech talent. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. No public developer API surface was found during enrichment; the profile currently carries live domain-security posture only.",
+     "name": "Bilimber Pte. Ltd.",
+     "slug": "bilimber-pte-ltd",
+     "description": "Bilimber Pte. Ltd. is a Singapore-based private company (exempt private company limited by shares) incorporated on 2020-11-17, operating in research and experimental development on electronics. It was surfaced as a portfolio company of 500 Global (an early/seed-stage investor alongside a Hong Kong government program) and added to the API Evangelist network as a stub. As of this enrichment pass the company publishes no public website, developer portal, documentation, or API surface -- the bilimber.com domain is currently unregistered and does not resolve -- so no first-party API artifacts could be searched, derived, or generated. This profile remains a lead awaiting a public API surface.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1824,7 +1831,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1847,9 +1854,9 @@
      "rank": 44
     },
     {
-     "name": "Rawsome Pte. Ltd.",
-     "slug": "rawsome-pte-ltd",
-     "description": "Rawsome Pte. Ltd. (trading as Rawsome Asia Beverages) is a Singapore-based producer and distributor of small-batch, handcrafted raw kombucha sold under the Wild Boocha brand. The company brews fermented tea beverages -- including Citrus Green, Strawberry Mint, and Harmony Adaptogenic flavors -- available in one-liter bottles and refillable mini kegs, and markets them as a functional wellness drink rich in probiotics, polyphenols, B vitamins, vitamin C, organic enzymes, and amino acids. Rawsome operates a direct-to-consumer e-commerce storefront (built on Odoo) and was surfaced as a portfolio company of 500 Global. This profile currently has no public API, developer portal, or developer documentation; it is maintained in the API Evangelist network as a company record.",
+     "name": "ESPL",
+     "slug": "espl",
+     "description": "ESPL (Esports Players League) is a Singapore-headquartered global esports tournament network and platform, founded in 2019, building an open, grassroots-focused ecosystem for amateur competitive gaming. It runs ESPL-branded online and on-ground tournaments across Asia, Europe, and the Americas with a mobile-first focus alongside PC and console titles, operated from its Singapore headquarters with regional offices in Cologne and Los Angeles. ESPL is a portfolio company of 500 Global (formerly 500 Startups), which led its seed round in 2020. As of this enrichment pass ESPL publishes no public developer API, OpenAPI, SDK, or documentation surface, and its espl.co domain did not resolve (DNS SERVFAIL) at probe time; this profile is maintained as a company identity record in the API Evangelist network.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1861,7 +1868,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1884,6 +1891,80 @@
      "rank": 45
     },
     {
+     "name": "NodeFlair",
+     "slug": "nodeflair",
+     "description": "NodeFlair is a Singapore-based technology career-transparency platform, founded in 2018 by Ethan Ang, that gives Asia's tech talent access to verified salary data, company reviews, tech-stack insights, benefits, and job listings across the APAC region. Salaries are verified against actual employee payslips, differentiating NodeFlair from other job boards, and the platform serves over 500,000 monthly visitors across eight Asian countries while helping companies hire tech talent. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. No public developer API surface was found during enrichment; the profile currently carries live domain-security posture only.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 46
+    },
+    {
+     "name": "Rawsome Pte. Ltd.",
+     "slug": "rawsome-pte-ltd",
+     "description": "Rawsome Pte. Ltd. (trading as Rawsome Asia Beverages) is a Singapore-based producer and distributor of small-batch, handcrafted raw kombucha sold under the Wild Boocha brand. The company brews fermented tea beverages -- including Citrus Green, Strawberry Mint, and Harmony Adaptogenic flavors -- available in one-liter bottles and refillable mini kegs, and markets them as a functional wellness drink rich in probiotics, polyphenols, B vitamins, vitamin C, organic enzymes, and amino acids. Rawsome operates a direct-to-consumer e-commerce storefront (built on Odoo) and was surfaced as a portfolio company of 500 Global. This profile currently has no public API, developer portal, or developer documentation; it is maintained in the API Evangelist network as a company record.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 47
+    },
+    {
      "name": "Call Levels",
      "slug": "call-levels",
      "description": "Call Levels was a Singapore-based financial technology company, founded in 2014 by Cynthia Siantar and Daniel Chia, that built a real-time financial markets monitoring and price-alert service. Its consumer mobile app (iOS and Android) let retail investors set price \"call levels\" and receive real-time alerts across multiple asset classes including forex, commodities, indices and equities, serving 500,000+ investors globally. On the institutional side it offered an open API and a chatbot/portfolio-management framework marketed to banks and financial institutions for embedding market monitoring into legacy systems. The company was backed by 500 Startups (500 Global) via a pre-Series A round. As of this profile the primary domain (call-levels.com) resolves to a parked registrar lander with no live developer portal, API documentation, or discoverable API surface, so the company appears dormant or defunct and no live API artifacts could be harvested.",
@@ -1899,7 +1980,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1926,7 +2007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 46
+     "rank": 48
     },
     {
      "name": "Nugit",
@@ -1943,7 +2024,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1963,7 +2044,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 47
+     "rank": 49
     }
    ]
   },
@@ -1972,26 +2053,14 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
+   "count": 1,
+   "shown": 1,
    "providers": [
-    {
-     "name": "CargoAi",
-     "slug": "cargoai",
-     "description": "CargoAi is a Singapore-headquartered air cargo technology company that operates CargoMART, a digital marketplace where freight forwarders search routes, schedules, capacity and rates across 680+ airlines, book them, transmit the electronic air waybill, and track the shipment end to end. It sits in the middle of the air cargo chain as an aggregator between forwarders and their TMS vendors on one side and airline reservation and messaging systems on the other. Its API posture is genuinely public in documentation and sales-gated in access - the CargoCONNECT developer portal at cargoai.readme.io is open to anyone with no login and publishes a real OpenAPI 3.1 definition per operation, but an x-api-key is issued only after a commercial conversation with the CargoAi enterprise team. The published contract is a proprietary REST shape rather than an IATA ONE Record interface, though the payloads it carries are IATA-native - AWB numbers with airline prefixes, IATA airport and airline codes, Special Handling Codes, IATA cargo status event codes, FWB and FHL message content, and CO2 figures computed per IATA Recommended Practice 1678.",
-     "rank": 48
-    },
     {
      "name": "Hillhouse Investment",
      "slug": "hillhouse",
      "description": "Hillhouse Investment (formerly Hillhouse Capital) is a global investment firm founded in 2005 by Lei Zhang with seed capital from the Yale University endowment, and is one of Asia's largest private-market investors, managing an estimated US$100 billion in assets as of 2026. Headquartered in Singapore with offices in Hong Kong, Beijing, Shanghai, New York, London, and Abu Dhabi, the firm invests globally across all stages of a company's life cycle, spanning public equities, growth equity, private equity buyouts, venture capital (through its early-stage arm GL Ventures, launched in 2020), and real assets. Hillhouse describes itself as disciplined and pragmatic investors who prioritize business fundamentals and deep, bottom-up industry research, with sector focus on healthcare, industrials, energy transition, business services, and consumer. Its portfolio spans companies headquartered in more than 25 countries and has included category-defining businesses such as Tencent, JD.com, Baidu, Zoom, BeiGene, Miniso, Airbnb, Uber, and Didi. Backers have historically included major university endowments (Yale, Stanford, Princeton, MIT, University of Pennsylvania, University of Texas) and CPPIB.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hillhouse/refs/heads/main/screenshots/hillhouse-2026-07-25T221225.png",
-     "rank": 49
-    },
-    {
-     "name": "ShopBack",
-     "slug": "shopback",
-     "description": "ShopBack is a Singapore-headquartered shopping, rewards and payments platform founded in 2014, operating across 13 markets in Asia-Pacific, Europe and the United States with more than 20 million members and 20,000 merchant partners. Alongside its consumer cashback and discovery app, ShopBack runs a merchant-facing payments business — ShopBack Pay and ShopBack PayLater — and publishes a public developer hub at docs.shopback.com covering two REST APIs. The Online Payments API (v2.0, also called the Online Bespoke API) handles merchant login, order initiation, order status, refunds, and a tokenized-payments surface for account linking, pre-authorization hold/capture/void, immediate charge and cashback-balance lookup. The In-Store Payments API (v1.4) covers merchant-presented and customer-presented QR ordering, order status, refunds, cancellations, and a payment-notification webhook for point-of-sale and customer-facing app checkout. Both are HMAC- or JWT-authenticated over HTTPS/TLS 1.2+, support an X-ShopBack-Idempotent-Id idempotency header, and ship e-commerce plugins for Shopify, WooCommerce, Magento, PrestaShop, EasyStore and Salesforce Commerce Cloud.",
      "rank": 50
     }
    ]

@@ -1,0 +1,73 @@
+{% comment %}
+  Provenance / legitimacy notice — renders at the BOTTOM of detail pages.
+
+  Canonical text: all/PROVENANCE.md and
+  api-evangelist/posts/about/where-our-data-comes-from.html
+  Keep the wording and the response times in sync across all three.
+
+  Self-contained styling on purpose — this must render identically on
+  providers.apievangelist.com, apis.apievangelist.com and apis.io, none of
+  which share a stylesheet. It must also render on RESTRICTED pages, which is
+  precisely where a security team lands.
+{% endcomment %}
+<div class="prov-notice" role="note">
+  <div class="prov-notice-head">
+    <span class="prov-notice-mark" aria-hidden="true">&#9432;</span>
+    <strong>Where this information came from</strong>
+  </div>
+  <p>
+    This is an independent, third-party profile{% if page.name %} of {{ page.name }}{% endif %}, published by
+    <a href="https://apievangelist.com">API Evangelist</a>. <strong>We do not operate, host, resell, or
+    support these APIs</strong>, and we are not affiliated with or endorsed by the company unless stated above.
+    Everything here is built from <strong>publicly available information</strong> &mdash; the company's own site,
+    developer portal, documentation, public repositories, and the specifications it publishes for public use.
+    Nothing is obtained by breaching a system, defeating an access control, or using credentials.
+  </p>
+  <p>
+    The Kin Score and Agent Readiness rating are independently calculated assessments of a company's
+    <em>public</em> API artifacts, scored against a published rubric. They are not certifications,
+    endorsements, security assessments, or audits.
+  </p>
+  <p class="prov-notice-actions">
+    <strong>Corrections, re-scores, and removal are free</strong> &mdash; no partnership or purchase required, and
+    you do not need to justify the request. A removed company is recorded as <strong>unrated</strong>, never scored
+    zero for having asked. Acknowledgement within one business day; removal within two.
+  </p>
+  <p class="prov-notice-contact">
+    <a href="mailto:info@apievangelist.com?subject=Listing%20enquiry">info@apievangelist.com</a>
+    &middot;
+    <a href="https://apievangelist.com/about/where-our-data-comes-from">Read the full data-sourcing policy &rarr;</a>
+    <br>
+    <span class="prov-notice-sec">On a security or compliance team? Put <em>security</em> in the subject line and
+    you will get a person, not a form &mdash; we will tell you exactly which public URLs this profile was built from.</span>
+  </p>
+</div>
+
+<style>
+  .prov-notice {
+    margin: 2.5rem 0 1rem;
+    padding: 1rem 1.15rem;
+    background: #f6f8fb;
+    border: 1px solid #d9e2ec;
+    border-left: 4px solid #1c5f90;
+    border-radius: 8px;
+    color: #33475b;
+    font-size: 0.86rem;
+    line-height: 1.55;
+  }
+  .prov-notice-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.45rem;
+    margin-bottom: 0.5rem;
+    color: #1c5f90;
+    font-size: 0.95rem;
+  }
+  .prov-notice-mark { font-size: 1rem; }
+  .prov-notice p { margin: 0 0 0.6rem; }
+  .prov-notice p:last-child { margin-bottom: 0; }
+  .prov-notice a { color: #1c5f90; text-decoration: underline; }
+  .prov-notice a:hover { color: #12405f; }
+  .prov-notice-contact { font-weight: 600; }
+  .prov-notice-sec { display: inline-block; margin-top: 0.4rem; font-weight: 400; color: #5b6b7d; }
+</style>

@@ -12,45 +12,6 @@
    "shown": 2,
    "providers": [
     {
-     "name": "Sendcloud",
-     "slug": "sendcloud",
-     "description": "Sendcloud is Europe's leading shipping platform for e-commerce, headquartered in Eindhoven, Netherlands. The platform connects 30,000+ merchants to 160+ carriers (DHL, DPD, UPS, GLS, FedEx, PostNL, bpost, La Poste, Royal Mail, Hermes, and many more) and 100+ commerce / WMS / marketplace integrations across the UK, Netherlands, Belgium, France, Germany, Austria, Italy, and Spain. The Sendcloud APIs cover the full fulfillment lifecycle — Orders, Ship an Order, Shipments, Service Points, Parcel Tracking, Parcel Documents, Returns, Event Subscriptions, Webhooks, Integrations, Analytics, and Reporting — over a versioned v2 / v3 REST surface on https://panel.sendcloud.sc, authenticated with HTTP Basic (public + private key) or OAuth 2.0 client credentials.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png",
-     "score": 67.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 83.7,
-      "governance": 68.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 57.9
-     },
-     "scored_at": "2026-08-01",
-     "schema_version": 0.9,
-     "agent_score": 53.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": "near-conformant",
-      "dry_run_mode": false
-     },
-     "tier": "Shipping API Aggregators",
-     "rank": 1
-    },
-    {
      "name": "parcelLab",
      "slug": "parcellab",
      "description": "parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pre-checkout delivery promise), Engage (multichannel post-purchase communications), Retain (Returns Portal and returns experience), and Insights (analytics, benchmarking, control tower) — layered with AI agents (WISMO/R, Insights, Fraud & Abuse) and exposed via the parcelLab API v4 Enhanced. Global, EU, and US regional endpoints are available; the same data backs a Model Context Protocol server at agents.parcellab.com/mcp/ for agentic clients.",
@@ -66,7 +27,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 34.2,
      "agent_band": "agent-ready",
@@ -87,6 +48,45 @@
       "dry_run_mode": false
      },
      "tier": "Tracking Aggregators",
+     "rank": 1
+    },
+    {
+     "name": "Sendcloud",
+     "slug": "sendcloud",
+     "description": "Sendcloud is Europe's leading shipping platform for e-commerce, headquartered in Eindhoven, Netherlands. The platform connects 30,000+ merchants to 160+ carriers (DHL, DPD, UPS, GLS, FedEx, PostNL, bpost, La Poste, Royal Mail, Hermes, and many more) and 100+ commerce / WMS / marketplace integrations across the UK, Netherlands, Belgium, France, Germany, Austria, Italy, and Spain. The Sendcloud APIs cover the full fulfillment lifecycle — Orders, Ship an Order, Shipments, Service Points, Parcel Tracking, Parcel Documents, Returns, Event Subscriptions, Webhooks, Integrations, Analytics, and Reporting — over a versioned v2 / v3 REST surface on https://panel.sendcloud.sc, authenticated with HTTP Basic (public + private key) or OAuth 2.0 client credentials.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png",
+     "score": 67.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 83.7,
+      "governance": 68.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 57.9
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 53.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": "near-conformant",
+      "dry_run_mode": false
+     },
+     "tier": "Shipping API Aggregators",
      "rank": 2
     }
    ],
@@ -116,7 +116,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -155,7 +155,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -194,7 +194,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -233,7 +233,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -283,7 +283,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -322,7 +322,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -361,7 +361,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -400,7 +400,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -439,7 +439,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -484,7 +484,7 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 36.3,
      "agent_band": "agent-ready",
@@ -514,8 +514,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "DHL",
@@ -533,7 +533,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 34.2,
      "agent_band": "agent-ready",
@@ -572,7 +572,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -596,6 +596,82 @@
      "rank": 14
     },
     {
+     "name": "Lufthansa Cargo",
+     "slug": "lufthansa-cargo",
+     "description": "Lufthansa Cargo AG is the air freight arm of the Lufthansa Group, headquartered in Frankfurt, Germany. It sells and operates belly capacity across the Lufthansa passenger fleet plus its own Boeing 777F freighters, and runs the Frankfurt Cargo Center hub, so it sits in the chain as the airline carrier between the freight forwarder and the destination handling agent. Its API posture is real but two-speed: a live Apigee developer portal at developer.lufthansa-cargo.com publishes four OpenAPI 3.0 contracts anonymously downloadable without a login (Routing Offer, Shipment Tracking, Shipment Tracking Subscribe, Station Information), while six further API products in the same portfolio - smartBooking, Truck PreAdvice, ULD Status, AirMail, CargoXML and CargoIMP - are published only as info-block stubs carrying the sentence that access is granted upon prior approval and agreement. Registration is reviewed by Lufthansa Cargo API managers before keys are issued and production access requires successful test-environment validation, so this is application-approval, not self-serve. The published REST surface is a proprietary Lufthansa Cargo shape, but it carries open air-cargo vocabulary inside it - IATA AWB prefix 020 plus 8-digit AWB numbers, 3-letter IATA station codes and the IATA cargo status code set (RCS, MAN, DEP, ARR, RCF, NFD, DLV) - while the legacy Cargo-IMP and Cargo-XML EDI message sets remain in the portfolio as gated products and IATA ONE Record went live in July 2026 through the IBS Software ONE Record server rather than as anything Lufthansa Cargo publishes itself.",
+     "score": 33.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 19.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Air Cargo Carriers",
+     "rank": 15
+    },
+    {
+     "name": "GLS Group",
+     "slug": "gls-group",
+     "description": "GLS Group (General Logistics Systems B.V.) is a European ground-based parcel and freight carrier headquartered in Amsterdam-Duivendrecht, Netherlands, and owned by International Distributions Services plc. It operates a road network of more than 120 hubs and roughly 1,600 depots across some 50 countries in Europe, the United States and Canada, moving B2B and B2C parcels up to about 32 kg plus a freight/LTL and express line, with an out-of-home ParcelShop and locker network. In the supply chain it is a last-mile and middle-mile parcel integrator: the party a shipper, e-commerce platform or shipping-API aggregator hands a consignment to for pickup, linehaul, customs clearance and delivery. Its API posture is federated and contract-bound rather than unified. The GLS Group developer portal (dev-portal.gls-group.net, run by GLS IT Services GmbH on Apigee) allows self-serve account and app registration with API keys or OAuth 2.0, but its API catalog is only visible after sign-in and \"restricted\" APIs additionally require approval by a local GLS representative. National units run their own portals — GLS Netherlands publishes an Azure API Management portal at api-portal.gls.nl whose OpenAPI 3.0.1 definitions for the Label API and the Track & Trace API are anonymously readable, but calling them still requires MyGLS credentials issued to a contracted shipper. The group-wide GLS ShipIT REST/SOAP web services are fully documented in public Doxygen reference pages, yet the base URL itself is handed out only with credentials by a customer's primary GLS contact. No industry data standard — GS1/EPCIS, UPU, DCSA, IATA ONE Record, UN/EDIFACT or ANSI X12 — is referenced anywhere in the artifacts GLS publishes; every identifier and event vocabulary is GLS-proprietary.",
+     "score": 30.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 53.1,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 29.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Parcel Integrators",
+     "rank": 16
+    },
+    {
      "name": "Canada Post",
      "slug": "canada-post",
      "description": "Canada Post is the primary postal operator in Canada, offering a developer platform with REST and SOAP web services for e-commerce merchants and solution providers. APIs cover shipping label generation, rate calculation, parcel tracking, address validation (AddressComplete), parcel pickup scheduling, returns management, post office location lookup, and service information.",
@@ -611,7 +687,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -632,7 +708,7 @@
       "dry_run_mode": false
      },
      "tier": "Postal Operators",
-     "rank": 15
+     "rank": 17
     }
    ]
   },
@@ -641,8 +717,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 4,
-   "shown": 4,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "USPS",
@@ -660,7 +736,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 16.2,
      "agent_band": "agent-aware",
@@ -681,7 +757,45 @@
       "dry_run_mode": false
      },
      "tier": "Postal Operators",
-     "rank": 16
+     "rank": 18
+    },
+    {
+     "name": "CargoAi",
+     "slug": "cargoai",
+     "description": "CargoAi is a Singapore-headquartered air cargo technology company that operates CargoMART, a digital marketplace where freight forwarders search routes, schedules, capacity and rates across 680+ airlines, book them, transmit the electronic air waybill, and track the shipment end to end. It sits in the middle of the air cargo chain as an aggregator between forwarders and their TMS vendors on one side and airline reservation and messaging systems on the other. Its API posture is genuinely public in documentation and sales-gated in access - the CargoCONNECT developer portal at cargoai.readme.io is open to anyone with no login and publishes a real OpenAPI 3.1 definition per operation, but an x-api-key is issued only after a commercial conversation with the CargoAi enterprise team. The published contract is a proprietary REST shape rather than an IATA ONE Record interface, though the payloads it carries are IATA-native - AWB numbers with airline prefixes, IATA airport and airline codes, Special Handling Codes, IATA cargo status event codes, FWB and FHL message content, and CO2 figures computed per IATA Recommended Practice 1678.",
+     "score": 22.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 15.2,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 13.2
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 22.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Air Cargo Marketplaces",
+     "rank": 19
     },
     {
      "name": "IATA",
@@ -699,7 +813,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -720,7 +834,7 @@
       "dry_run_mode": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 17
+     "rank": 20
     },
     {
      "name": "Freightos",
@@ -738,7 +852,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -759,7 +873,45 @@
       "dry_run_mode": false
      },
      "tier": "Air Cargo Marketplaces",
-     "rank": 18
+     "rank": 21
+    },
+    {
+     "name": "Emirates SkyCargo",
+     "slug": "emirates-skycargo",
+     "description": "Emirates SkyCargo is the air cargo division of Emirates Airline, headquartered at Dubai International Airport in the United Arab Emirates, moving general freight, pharmaceuticals, perishables, live animals, valuables, mail and courier traffic across a network of more than 140 destinations on six continents using both freighters and passenger-aircraft bellyhold capacity. In the shipment chain it is the airborne carrier leg sitting between the freight forwarder and the ground handler, and it books almost exclusively through intermediaries rather than shippers directly. Its API posture is advertised but not published: Emirates SkyCargo states on its own Digital Booking Channels page that it offers \"a direct API connection to your in-house system\" covering booking creation, amendments, cancellations and track and trace, yet there is no developer portal, no API reference, no OpenAPI or AsyncAPI document, no base URL and no self-serve signup anywhere on skycargo.com. Access is obtained only by emailing SkyCargoAPISupport@emirates.com to negotiate a host-to-host connection, by integrating through the CargoWise transport management system, by submitting Freight Forwarding Requests over EDI, or by booking through the WebCargo, CargoAi, Pelicargo and cargo.one marketplaces, which themselves require IATA/CASS accreditation. The one standard the organization documents on its own surface is IATA e-AWB: agents must sign the IATA Multilateral e-AWB Agreement before submitting FWB and FHL cargo messages over EDI messaging. This is an EDI-and-bilateral-integration carrier with a customer-contract portal veneer, not a public API provider.",
+     "score": 14.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Air Cargo Carriers",
+     "rank": 22
     },
     {
      "name": "AfterShip",
@@ -777,7 +929,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -798,7 +950,7 @@
       "dry_run_mode": false
      },
      "tier": "Tracking Aggregators",
-     "rank": 19
+     "rank": 23
     }
    ]
   },
@@ -807,9 +959,85 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "Cargolux",
+     "slug": "cargolux",
+     "description": "Cargolux Airlines International S.A. is Europe's largest all-cargo airline, headquartered at Luxembourg Findel Airport in Luxembourg and operating a global Boeing 747 freighter network under IATA designator CV and air waybill prefix 172 (with Cargolux Italia on prefix 356). In the logistics chain Cargolux is the main-leg air carrier: it sells capacity to freight forwarders and general sales agents rather than to shippers, hands cargo to terminal and ground handling operators such as its Luxcargo Handling subsidiary, and files customs and security data on behalf of the contracted forwarder. Its API posture is honestly a customer-contract one. Cargolux publishes no developer portal and no machine-readable contract of any kind — developer.cargolux.com, developers.cargolux.com and docs.cargolux.com do not resolve, and /developers, /api, /openapi.json, /swagger.json, /api-docs and /.well-known/ all return 404 on www.cargolux.com. The only public self-service surfaces are HTML: a track-and-trace widget and a flight scheduler on the marketing site, plus a login-walled Customer Portal at my.cargolux.com. A real quote-and- booking API exists, but it is a bilateral, commercially negotiated forwarder interface — piloted with Kuehne+Nagel in 2021 and extended to DB Schenker — with no published reference, and it is complemented by indirect distribution through the cargo.one, CargoAi and WebCargo by Freightos marketplaces. Underneath, Cargolux runs IBS Software's iCargo SaaS cargo management system and holds a large minority stake in Luxembourg's CHAMP Cargosystems, whose developer.champ.aero portal is the developer surface Cargolux's ecosystem actually reads — CHAMP's, not Cargolux's. IATA e-AWB \"Single Process\" is documented; no IATA ONE Record or Cargo-XML publication was found.",
+     "score": 12.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Air Cargo Carriers",
+     "rank": 24
+    },
+    {
+     "name": "Evri",
+     "slug": "evri",
+     "description": "Evri is the United Kingdom's largest dedicated parcel delivery company, formerly Hermes UK, headquartered in Leeds and majority owned by Apollo-managed funds. Following the CMA-cleared 2025 merger with DHL eCommerce UK, the combined group delivers more than a billion parcels a year across a courier network of 30,000+ couriers and van drivers, thousands of ParcelShops and lockers, and domestic, returns and international services for retailers and marketplace sellers. Evri sits at the last-mile end of the supply chain — the carrier a shipper, retailer or e-commerce platform hands a parcel to for final delivery in the UK. Its API posture is customer-contract portal only: Evri publishes no developer portal, no public API reference and no machine-readable specification. The host api.evri.com resolves to a live Tyk API Gateway (5.13.0) whose only publicly reachable path is an unauthenticated health check; every other probed path returns 404 and no listen path is discoverable without credentials. Shipment, label, ParcelShop, Print in Store and tracking credentials are issued by an Evri account manager or sales representative to contracted Corporate or Business accounts, with sandbox and production credentials handed over by email. In practice most integrators reach Evri indirectly through shipping-API aggregators such as EasyPost, ShipEngine / ShipStation, Sendcloud, AfterShip and Intersoft Sapient rather than directly.",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-03",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Parcel Integrators",
+     "rank": 25
+    },
     {
      "name": "cargo.one",
      "slug": "cargo-one",
@@ -826,7 +1054,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-01",
+     "scored_at": "2026-08-03",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -847,58 +1075,6 @@
       "dry_run_mode": false
      },
      "tier": "Air Cargo Marketplaces",
-     "rank": 20
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 6,
-   "shown": 6,
-   "providers": [
-    {
-     "name": "CargoAi",
-     "slug": "cargoai",
-     "description": "CargoAi is a Singapore-headquartered air cargo technology company that operates CargoMART, a digital marketplace where freight forwarders search routes, schedules, capacity and rates across 680+ airlines, book them, transmit the electronic air waybill, and track the shipment end to end. It sits in the middle of the air cargo chain as an aggregator between forwarders and their TMS vendors on one side and airline reservation and messaging systems on the other. Its API posture is genuinely public in documentation and sales-gated in access - the CargoCONNECT developer portal at cargoai.readme.io is open to anyone with no login and publishes a real OpenAPI 3.1 definition per operation, but an x-api-key is issued only after a commercial conversation with the CargoAi enterprise team. The published contract is a proprietary REST shape rather than an IATA ONE Record interface, though the payloads it carries are IATA-native - AWB numbers with airline prefixes, IATA airport and airline codes, Special Handling Codes, IATA cargo status event codes, FWB and FHL message content, and CO2 figures computed per IATA Recommended Practice 1678.",
-     "tier": "Air Cargo Marketplaces",
-     "rank": 21
-    },
-    {
-     "name": "Cargolux",
-     "slug": "cargolux",
-     "description": "Cargolux Airlines International S.A. is Europe's largest all-cargo airline, headquartered at Luxembourg Findel Airport in Luxembourg and operating a global Boeing 747 freighter network under IATA designator CV and air waybill prefix 172 (with Cargolux Italia on prefix 356). In the logistics chain Cargolux is the main-leg air carrier: it sells capacity to freight forwarders and general sales agents rather than to shippers, hands cargo to terminal and ground handling operators such as its Luxcargo Handling subsidiary, and files customs and security data on behalf of the contracted forwarder. Its API posture is honestly a customer-contract one. Cargolux publishes no developer portal and no machine-readable contract of any kind — developer.cargolux.com, developers.cargolux.com and docs.cargolux.com do not resolve, and /developers, /api, /openapi.json, /swagger.json, /api-docs and /.well-known/ all return 404 on www.cargolux.com. The only public self-service surfaces are HTML: a track-and-trace widget and a flight scheduler on the marketing site, plus a login-walled Customer Portal at my.cargolux.com. A real quote-and- booking API exists, but it is a bilateral, commercially negotiated forwarder interface — piloted with Kuehne+Nagel in 2021 and extended to DB Schenker — with no published reference, and it is complemented by indirect distribution through the cargo.one, CargoAi and WebCargo by Freightos marketplaces. Underneath, Cargolux runs IBS Software's iCargo SaaS cargo management system and holds a large minority stake in Luxembourg's CHAMP Cargosystems, whose developer.champ.aero portal is the developer surface Cargolux's ecosystem actually reads — CHAMP's, not Cargolux's. IATA e-AWB \"Single Process\" is documented; no IATA ONE Record or Cargo-XML publication was found.",
-     "tier": "Air Cargo Carriers",
-     "rank": 22
-    },
-    {
-     "name": "Emirates SkyCargo",
-     "slug": "emirates-skycargo",
-     "description": "Emirates SkyCargo is the air cargo division of Emirates Airline, headquartered at Dubai International Airport in the United Arab Emirates, moving general freight, pharmaceuticals, perishables, live animals, valuables, mail and courier traffic across a network of more than 140 destinations on six continents using both freighters and passenger-aircraft bellyhold capacity. In the shipment chain it is the airborne carrier leg sitting between the freight forwarder and the ground handler, and it books almost exclusively through intermediaries rather than shippers directly. Its API posture is advertised but not published: Emirates SkyCargo states on its own Digital Booking Channels page that it offers \"a direct API connection to your in-house system\" covering booking creation, amendments, cancellations and track and trace, yet there is no developer portal, no API reference, no OpenAPI or AsyncAPI document, no base URL and no self-serve signup anywhere on skycargo.com. Access is obtained only by emailing SkyCargoAPISupport@emirates.com to negotiate a host-to-host connection, by integrating through the CargoWise transport management system, by submitting Freight Forwarding Requests over EDI, or by booking through the WebCargo, CargoAi, Pelicargo and cargo.one marketplaces, which themselves require IATA/CASS accreditation. The one standard the organization documents on its own surface is IATA e-AWB: agents must sign the IATA Multilateral e-AWB Agreement before submitting FWB and FHL cargo messages over EDI messaging. This is an EDI-and-bilateral-integration carrier with a customer-contract portal veneer, not a public API provider.",
-     "tier": "Air Cargo Carriers",
-     "rank": 23
-    },
-    {
-     "name": "Evri",
-     "slug": "evri",
-     "description": "Evri is the United Kingdom's largest dedicated parcel delivery company, formerly Hermes UK, headquartered in Leeds and majority owned by Apollo-managed funds. Following the CMA-cleared 2025 merger with DHL eCommerce UK, the combined group delivers more than a billion parcels a year across a courier network of 30,000+ couriers and van drivers, thousands of ParcelShops and lockers, and domestic, returns and international services for retailers and marketplace sellers. Evri sits at the last-mile end of the supply chain — the carrier a shipper, retailer or e-commerce platform hands a parcel to for final delivery in the UK. Its API posture is customer-contract portal only: Evri publishes no developer portal, no public API reference and no machine-readable specification. The host api.evri.com resolves to a live Tyk API Gateway (5.13.0) whose only publicly reachable path is an unauthenticated health check; every other probed path returns 404 and no listen path is discoverable without credentials. Shipment, label, ParcelShop, Print in Store and tracking credentials are issued by an Evri account manager or sales representative to contracted Corporate or Business accounts, with sandbox and production credentials handed over by email. In practice most integrators reach Evri indirectly through shipping-API aggregators such as EasyPost, ShipEngine / ShipStation, Sendcloud, AfterShip and Intersoft Sapient rather than directly.",
-     "tier": "Parcel Integrators",
-     "rank": 24
-    },
-    {
-     "name": "GLS Group",
-     "slug": "gls-group",
-     "description": "GLS Group (General Logistics Systems B.V.) is a European ground-based parcel and freight carrier headquartered in Amsterdam-Duivendrecht, Netherlands, and owned by International Distributions Services plc. It operates a road network of more than 120 hubs and roughly 1,600 depots across some 50 countries in Europe, the United States and Canada, moving B2B and B2C parcels up to about 32 kg plus a freight/LTL and express line, with an out-of-home ParcelShop and locker network. In the supply chain it is a last-mile and middle-mile parcel integrator: the party a shipper, e-commerce platform or shipping-API aggregator hands a consignment to for pickup, linehaul, customs clearance and delivery. Its API posture is federated and contract-bound rather than unified. The GLS Group developer portal (dev-portal.gls-group.net, run by GLS IT Services GmbH on Apigee) allows self-serve account and app registration with API keys or OAuth 2.0, but its API catalog is only visible after sign-in and \"restricted\" APIs additionally require approval by a local GLS representative. National units run their own portals — GLS Netherlands publishes an Azure API Management portal at api-portal.gls.nl whose OpenAPI 3.0.1 definitions for the Label API and the Track & Trace API are anonymously readable, but calling them still requires MyGLS credentials issued to a contracted shipper. The group-wide GLS ShipIT REST/SOAP web services are fully documented in public Doxygen reference pages, yet the base URL itself is handed out only with credentials by a customer's primary GLS contact. No industry data standard — GS1/EPCIS, UPU, DCSA, IATA ONE Record, UN/EDIFACT or ANSI X12 — is referenced anywhere in the artifacts GLS publishes; every identifier and event vocabulary is GLS-proprietary.",
-     "tier": "Parcel Integrators",
-     "rank": 25
-    },
-    {
-     "name": "Lufthansa Cargo",
-     "slug": "lufthansa-cargo",
-     "description": "Lufthansa Cargo AG is the air freight arm of the Lufthansa Group, headquartered in Frankfurt, Germany. It sells and operates belly capacity across the Lufthansa passenger fleet plus its own Boeing 777F freighters, and runs the Frankfurt Cargo Center hub, so it sits in the chain as the airline carrier between the freight forwarder and the destination handling agent. Its API posture is real but two-speed: a live Apigee developer portal at developer.lufthansa-cargo.com publishes four OpenAPI 3.0 contracts anonymously downloadable without a login (Routing Offer, Shipment Tracking, Shipment Tracking Subscribe, Station Information), while six further API products in the same portfolio - smartBooking, Truck PreAdvice, ULD Status, AirMail, CargoXML and CargoIMP - are published only as info-block stubs carrying the sentence that access is granted upon prior approval and agreement. Registration is reviewed by Lufthansa Cargo API managers before keys are issued and production access requires successful test-environment validation, so this is application-approval, not self-serve. The published REST surface is a proprietary Lufthansa Cargo shape, but it carries open air-cargo vocabulary inside it - IATA AWB prefix 020 plus 8-digit AWB numbers, 3-letter IATA station codes and the IATA cargo status code set (RCS, MAN, DEP, ARR, RCF, NFD, DLV) - while the legacy Cargo-IMP and Cargo-XML EDI message sets remain in the portfolio as gated products and IATA ONE Record went live in July 2026 through the IBS Software ONE Record server rather than as anything Lufthansa Cargo publishes itself.",
-     "tier": "Air Cargo Carriers",
      "rank": 26
     }
    ]
