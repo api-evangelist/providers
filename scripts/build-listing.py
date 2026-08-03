@@ -38,6 +38,34 @@ DELISTED_YML = os.path.join(ROOT, "api-search", "network", "_data", "delisted.ym
 NAME_RE = re.compile(r"^name:\s*(.+?)\s*$")
 DESC_RE = re.compile(r"^description:\s*(.*?)\s*$")
 
+# Jekyll 3.x reads _data/*.json with Psych (YAML), which has no \uD83E-style
+# surrogate escape. A single one anywhere in these files aborts the whole site
+# build with an unhelpful "Page build failed", so scrub them on the way out.
+SURROGATE_RE = re.compile("[\ud800-\udfff]")
+
+
+def desurrogate(obj):
+    """Recursively fold surrogate pairs back into real characters."""
+    if isinstance(obj, str):
+        if not SURROGATE_RE.search(obj):
+            return obj
+        try:
+            return obj.encode("utf-16", "surrogatepass").decode("utf-16")
+        except (UnicodeDecodeError, UnicodeEncodeError):
+            # Lone surrogate with no partner — not a representable character.
+            return SURROGATE_RE.sub("", obj)
+    if isinstance(obj, list):
+        return [desurrogate(v) for v in obj]
+    if isinstance(obj, dict):
+        return {k: desurrogate(v) for k, v in obj.items()}
+    return obj
+
+
+def dump_json(obj, fh, **kwargs):
+    """json.dump, with surrogates repaired first. Use for every _data/*.json."""
+    json.dump(desurrogate(obj), fh, ensure_ascii=False, **kwargs)
+
+
 FORTUNE_TAGS = {"Fortune 100", "Fortune 500", "Fortune 1000"}
 FEDERAL_TAGS = {"Federal Government", "United States Government", "Federal"}
 APACHE_TAGS = {"Apache"}
@@ -479,26 +507,26 @@ def main():
 
     # Alphabetical stays a flat { letter: [...] } map for the A–Z browse pages.
     with open(os.path.join(data_dir, "providers.json"), "w", encoding="utf-8") as fh:
-        json.dump(groups, fh, ensure_ascii=False, indent=1, sort_keys=True)
+        dump_json(groups, fh, indent=1, sort_keys=True)
 
     # Every other section is grouped by Kin Score band, matching Market Data
     # and the banking pages (rendered by company-listing-rated.html).
     mirror_scoring(data_dir)
     with open(os.path.join(data_dir, "providers-fortune1000.json"), "w", encoding="utf-8") as fh:
-        json.dump(band_grouped(fortune1000), fh, ensure_ascii=False, indent=1)
+        dump_json(band_grouped(fortune1000), fh, indent=1)
     with open(os.path.join(data_dir, "providers-federal.json"), "w", encoding="utf-8") as fh:
-        json.dump(band_grouped(federal), fh, ensure_ascii=False, indent=1)
+        dump_json(band_grouped(federal), fh, indent=1)
     with open(os.path.join(data_dir, "providers-european.json"), "w", encoding="utf-8") as fh:
-        json.dump(band_grouped(european), fh, ensure_ascii=False, indent=1)
+        dump_json(band_grouped(european), fh, indent=1)
     with open(os.path.join(data_dir, "providers-apache.json"), "w", encoding="utf-8") as fh:
-        json.dump(band_grouped(apache), fh, ensure_ascii=False, indent=1)
+        dump_json(band_grouped(apache), fh, indent=1)
     with open(os.path.join(data_dir, "providers-cncf.json"), "w", encoding="utf-8") as fh:
-        json.dump(band_grouped(cncf), fh, ensure_ascii=False, indent=1)
+        dump_json(band_grouped(cncf), fh, indent=1)
     with open(os.path.join(data_dir, "providers-universities.json"), "w", encoding="utf-8") as fh:
-        json.dump(band_grouped(universities), fh, ensure_ascii=False, indent=1)
+        dump_json(band_grouped(universities), fh, indent=1)
     for b in BANDS:
         with open(os.path.join(data_dir, "providers-%s.json" % b), "w", encoding="utf-8") as fh:
-            json.dump(band_grouped(band_lists[b]), fh, ensure_ascii=False, indent=1)
+            dump_json(band_grouped(band_lists[b]), fh, indent=1)
 
     total = sum(len(v) for v in groups.values())
     print("alphabetical: %d (providers=%d, repos=%d)" % (total, counts["provider"], counts["repo"]))
