@@ -70,7 +70,14 @@ KEEP = [
     "plans", "rate_limits", "rules", "scopes", "security", "skills",
     "solutions", "use_cases", "integrations", "agentic_access",
     "mcp_servers", "skill_count", "press", "crds", "common",
+    # why a thin profile is thin (all/<slug>/apis.yml x-coverage)
+    "coverage",
 ]
+
+# x-coverage states that may be shown publicly. `blocked` is a statement about OUR
+# probe, not about the provider — it is a retry marker and must never be published as
+# though it described the company. See all/0-working/coverage-vocab.yml.
+PUBLIC_COVERAGE_STATES = {"none", "gated", "unreadable"}
 
 # The artifact collections, in the order the page tells the story. Each entry:
 # (frontmatter_key, human label) — used to compute which specs a provider has
@@ -210,6 +217,35 @@ def minimal_from_all(slug):
     return {k: v for k, v in out.items() if v not in (None, "", [], {})}
 
 
+def read_coverage(slug):
+    """Read the x-coverage block from all/<slug>/apis.yml — WHY this profile is thin.
+
+    Returns None unless the block is present, well-formed, and in a state we may
+    publish. A `blocked` state describes our own failed probe, so it is deliberately
+    dropped here rather than rendered as a fact about the provider.
+    """
+    path = os.path.join(ALL, slug, "apis.yml")
+    try:
+        with open(path, encoding="utf-8") as fh:
+            doc = yaml.safe_load(fh)
+    except (OSError, yaml.YAMLError):
+        return None
+    if not isinstance(doc, dict):
+        return None
+    cov = doc.get("x-coverage")
+    if not isinstance(cov, dict):
+        return None
+    if cov.get("state") not in PUBLIC_COVERAGE_STATES:
+        return None
+    if not cov.get("reason") or not cov.get("detail"):
+        return None
+    out = {k: cov[k] for k in ("state", "reason", "detail", "checked", "migrated") if cov.get(k)}
+    ev = [e for e in (cov.get("evidence") or []) if isinstance(e, dict) and e.get("url")]
+    if ev:
+        out["evidence"] = ev
+    return out
+
+
 def dump(slug, data, papers_len, paper_index=None):
     """Write _providers/<slug>.md with trimmed front matter + narrative body seed."""
     data["layout"] = "provider"
@@ -229,6 +265,11 @@ def dump(slug, data, papers_len, paper_index=None):
             data["random_paper"] = sum(ord(c) for c in slug) % papers_len
     phrases, total = artifact_summary(data)
     data["artifact_total"] = total
+    cov = read_coverage(slug)
+    if cov:
+        data["coverage"] = cov
+    else:
+        data.pop("coverage", None)
     body = ""  # the layout renders everything from front matter
     with open(os.path.join(OUT, slug + ".md"), "w", encoding="utf-8") as fh:
         fh.write("---\n")

@@ -74,6 +74,27 @@ nav: Providers
   .prov-lead-in { font-size: 1.12rem; line-height: 1.6; color: #1a1a2e; font-weight: 500; margin-bottom: 1rem; }
 
   /* Rating panel — mirrors apis.io provider.html + company-listing-rated. */
+  /* "Why this profile is thin" — the cause of a sparse profile, stated plainly.
+     Colour carries whose problem it is: neutral grey when nobody's (no API surface),
+     amber when the provider could publish more (gated / unreadable). */
+  .coverage-note { background: #fff; border: 1px solid #e3e7ee; border-left: 4px solid #8a94a6; border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 2.25rem; }
+  .coverage-note.coverage-gated, .coverage-note.coverage-unreadable { border-left-color: #fd7e14; }
+  .cov-head { display: flex; align-items: center; gap: 0.65rem; flex-wrap: wrap; margin-bottom: 0.65rem; }
+  .cov-head h2 { font-size: 1.05rem; margin: 0; color: #1a1a2e; }
+  .cov-pill { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.2rem 0.55rem; border-radius: 999px; background: #eef1f5; color: #5a6474; white-space: nowrap; }
+  .cov-pill-gated, .cov-pill-unreadable { background: #fff4e6; color: #b35309; }
+  .cov-detail { margin: 0 0 0.6rem; color: #1a1a2e; }
+  .cov-owner { margin: 0 0 0.75rem; color: #5a6474; font-size: 0.92rem; }
+  .cov-evidence { margin-bottom: 0.6rem; }
+  .cov-evidence summary { cursor: pointer; font-size: 0.82rem; font-weight: 600; color: #0d6efd; }
+  .cov-evidence ul { margin: 0.5rem 0 0; padding-left: 1.1rem; }
+  .cov-evidence li { font-size: 0.82rem; color: #5a6474; margin-bottom: 0.2rem; }
+  .cov-evidence code { font-size: 0.78rem; background: #f6f8fa; padding: 0.1rem 0.3rem; border-radius: 4px; word-break: break-all; }
+  .cov-status { font-variant-numeric: tabular-nums; font-weight: 600; }
+  .cov-meta { margin: 0; font-size: 0.78rem; color: #8a94a6; }
+  .cov-meta a { color: #0d6efd; text-decoration: none; }
+  .cov-meta a:hover { text-decoration: underline; }
+
   .rating-panel { background: #fff; border: 1px solid #e3e7ee; border-radius: 12px; padding: 1.5rem; margin-bottom: 2.25rem; }
   .rp-topline { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.25rem; padding-bottom: 1.1rem; border-bottom: 1px solid #eef1f5; }
   .rp-topline .ae-rating-mark { margin-right: auto; }
@@ -308,6 +329,56 @@ nav: Providers
           The full breakdown is below, followed by every artifact we hold — each card links through to its machine-readable definition on <a href="https://apis.io/providers/{{ page.slug }}/">apis.io</a>.
         </p>
       </div>
+
+      {%- comment -%}
+        ---- Why this profile is thin ----
+        A sparse profile does not explain itself: without this, "thin" reads as
+        "API Evangelist didn't look". Name the wall instead, and say whose it is to
+        move. The generator only ever passes public states here — a `blocked` state
+        describes our own probe and is dropped before it reaches the page.
+        Vocabulary: all/0-working/coverage-vocab.yml
+      {%- endcomment -%}
+      {%- if page.coverage and page.coverage.reason %}
+      {%- assign cov = page.coverage -%}
+      <div class="coverage-note coverage-{{ cov.state }}">
+        <div class="cov-head">
+          <span class="cov-pill cov-pill-{{ cov.state }}">
+            {%- case cov.state -%}
+            {%- when 'none' -%}No API surface
+            {%- when 'gated' -%}Behind a wall
+            {%- when 'unreadable' -%}Public but machine-unreadable
+            {%- endcase -%}
+          </span>
+          <h2>Why this profile is thin</h2>
+        </div>
+        <p class="cov-detail">{{ cov.detail }}</p>
+        <p class="cov-owner">
+          {%- case cov.state -%}
+          {%- when 'none' -%}
+          This is an honest zero, not a gap in our research. {{ page.name }} does not appear to expose an API, so there is nothing here for us to index and nothing for them to fix.
+          {%- when 'gated' -%}
+          An API exists — we simply could not reach the contract without credentials or a sales conversation. This one is {{ page.name }}'s to change: publishing the reference and a machine-readable spec at a public URL, while keeping key issuance behind whatever gate they like, would let an integrator evaluate the API before committing to a call.
+          {%- when 'unreadable' -%}
+          The documentation is public — a person can read it, but a machine cannot. This one is {{ page.name }}'s to change: publishing an OpenAPI (or AsyncAPI for events) at a stable URL would make the same surface consumable by a crawler, a linter, and an AI agent.
+          {%- endcase -%}
+        </p>
+        {%- if cov.evidence and cov.evidence.size > 0 %}
+        <details class="cov-evidence">
+          <summary>What we probed</summary>
+          <ul>
+            {%- for e in cov.evidence %}
+            <li><code>{{ e.url }}</code> &rarr; <span class="cov-status">HTTP {{ e.status }}</span></li>
+            {%- endfor %}
+          </ul>
+        </details>
+        {%- endif %}
+        <p class="cov-meta">
+          {%- if cov.checked %}Checked {{ cov.checked }}.{% endif %}
+          {%- if cov.migrated %} Reason carried over from an earlier review and not yet re-probed.{% endif %}
+          If this is out of date, <a href="https://github.com/api-evangelist/{{ page.slug }}/issues/new">tell us on the provider's repo</a> and we will re-run the profile.
+        </p>
+      </div>
+      {%- endif %}
 
       {%- comment -%} ---- Kin Score panel ---- {%- endcomment -%}
       {%- if page.score and page.score.composite %}
