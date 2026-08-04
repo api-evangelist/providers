@@ -1,6 +1,6 @@
 {
- "total": 843,
- "shown": 843,
+ "total": 845,
+ "shown": 845,
  "limit": 1000,
  "bands": [
   {
@@ -32950,8 +32950,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 5,
-   "shown": 5,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "AlayaCare",
@@ -32985,6 +32985,18 @@
      "description": "Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 \"Legendre\") covering employees, contracts, attendance, time off, payroll, ATS, performance, trainings, projects, finance, banking, procurement, IT assets, documents, webhooks, and an Approvals workflow surface. Authentication uses OAuth2 (on behalf of a user) or an x-api-key header (on behalf of the company), with 30+ scopes for granular partner access. Factorial publishes the OpenAPI schema and generated SDKs (Ruby, Python, Java, PHP, TypeScript, Node.js) at github.com/factorialco/oas and exposes an llms.txt index for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png",
      "rank": 843
+    },
+    {
+     "name": "Garten",
+     "slug": "garten",
+     "description": "garten (styled lowercase; formerly Oh My Green) is a workplace food and wellbeing company founded in 2014 by Michael Heinrich and backed by Y Combinator, headquartered in the San Francisco Bay Area. It runs turn-key office micro-kitchens and pantries (garten Kitchen), self-serve micro-markets with cashless checkout kiosks (garten Market), corporate catering and cafe management (garten Catering), and virtual and on-site wellbeing programming (garten Wellbeing, plus the garten TV streaming property), serving employers including Google, Nike, Ford and Autodesk across roughly twenty US metros. garten was acquired by the chef-driven catering platform HUNGRY in 2025. garten publishes no public developer portal, API reference, SDK or machine-readable REST contract: its client ordering surface at client.garten.co / api.garten.co is a credentialed Spree/Solidus commerce application whose API rejects anonymous calls with \"You must specify an API key.\" The one genuinely public, machine-readable agent surface sits on its Uscreen-powered streaming property garten TV (tv.garten.co), which serves a Model Context Protocol server at /mcp guarded by a full OAuth 2.1 stack: RFC 9728 protected-resource metadata, RFC 8414 authorization-server metadata, PKCE S256, RFC 7591 dynamic client registration, RFC 8707 resource indicators, and seven named read/write scopes.",
+     "rank": 844
+    },
+    {
+     "name": "Wellhub",
+     "slug": "gympass",
+     "description": "Wellhub (formerly Gympass) is a corporate wellbeing platform that gives employees a single subscription covering gyms, studios, classes, personal trainers, and fitness, mindfulness, nutrition, therapy and sleep apps across the Americas and Europe. For the companies that buy the benefit, Wellhub publishes a client-facing Integrations API — an OAuth 2.0 client-credentials REST API on api.clients.wellhub.com that syncs employee eligibility from an HR system into Wellhub so people gain access on hire and lose it on termination. Eligibility is modelled as batch jobs (create a job, add up to 500 items per request, submit, poll status, list errors), alongside cursor-paginated endpoints for listing entity companies and employees. Wellhub also offers an SFTP file-exchange integration for eligibility, payroll deduction and reporting files, and an SSO integration. A published OpenAPI 3.0.3 contract, a documented sandbox environment, and per-endpoint rate limits back the REST surface.",
+     "rank": 845
     }
    ]
   }

@@ -1,6 +1,6 @@
 {
- "total": 301,
- "shown": 301,
+ "total": 302,
+ "shown": 302,
  "limit": 1000,
  "bands": [
   {
@@ -11893,8 +11893,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "DCM Ventures",
@@ -11904,24 +11904,30 @@
      "rank": 298
     },
     {
+     "name": "Galactic Energy",
+     "slug": "galactic-energy",
+     "description": "Galactic Energy (星河动力航天 — Galactic Energy (Beijing) Space Technology Co., Ltd.) is a private Chinese commercial launch company founded on 6 February 2018 and headquartered in Beijing E-Town. It builds and flies the Ceres family of solid-propellant small-lift rockets (Ceres-1, the sea-launched Ceres-1S, and the larger 3.35 m Ceres-2) and is developing the partly reusable liquid oxygen/kerosene Pallas-1 and Pallas-2 medium-lift vehicles, the Eros vehicle, the Welkin (苍穹) CQ-series liquid propellant engines, and the Edge attitude and orbital control system. Its public web surface is a corporate marketing site at galactic-energy.cn carrying product pages, a launch plan, completed-mission history, a news feed, careers listings, a Chinese-language document centre of launch-vehicle user manuals (PDF), and an HTML launch-reservation form. Contract discovery on 2026-08-04 found no developer portal, no API documentation and no machine-readable API surface of any kind: every probe for OpenAPI/Swagger, GraphQL, MCP, an A2A agent card, /llms.txt, robots.txt and the full /.well-known/ discovery set returned HTTP 404 on every galactic-energy.cn host, and no api./developer./docs. subdomain resolves. This profile is therefore identity and domain-security only.",
+     "rank": 299
+    },
+    {
      "name": "HongShan (HSG)",
      "slug": "hongshan",
      "description": "HongShan (HSG), formerly known as Sequoia Capital China, is a leading global venture capital and private equity firm investing across technology, healthcare, and consumer sectors. Founded in 2005 by Neil Shen with early guidance from Sequoia Capital, the firm spun off as an independent entity in 2023-2024, rebranding from Sequoia China to HongShan (a pinyin romanization of its Chinese name, meaning \"redwood\") while retaining its original Chinese name. HSG invests across the full lifecycle - seed, venture, growth, buyout, and infrastructure - and also runs a public equities business (HCEP). The firm manages over USD 61 billion in assets (as of April 30, 2026) and has backed more than 1,700 companies since inception, with 180+ having gone public and 140+ reaching unicorn status. HSG operates from Hong Kong, Shanghai, Beijing, Shenzhen, London, Tokyo, and Singapore. Notable portfolio companies include Alibaba, ByteDance, Meituan, Pinduoduo, BYD, Nio, Xpeng, Airwallex, Canva, Monzo, and Moderna.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hongshan/refs/heads/main/screenshots/hongshan-2026-07-25T221411.png",
-     "rank": 299
+     "rank": 300
     },
     {
      "name": "IDG Capital",
      "slug": "idg-capital",
      "description": "IDG Capital is a global investment firm founded in Boston in 1993 and headquartered in Hong Kong, widely recognized as one of the first foreign venture investors to enter China. Over more than 30 years it has grown into a multi-stage platform spanning venture capital, growth capital, buyout, secondary markets, and public markets, with reported assets under management of roughly $20–23 billion. The firm has backed 1,800+ companies and realized 600+ exits, employing 300+ staff (about 40% investment professionals) across 12 offices on three continents, including Hong Kong, Beijing, Shanghai, Shenzhen, Guangzhou, Singapore, Seoul, Boston, New York, Barcelona, Muscat, and the Cayman Islands. IDG Capital concentrates on Consumer, Consumer Technology, Healthcare, and Fintech/Web3, and its portfolio includes early bets on many of China's technology leaders — Tencent, Baidu, Xiaomi, Meituan, ByteDance, and Ctrip — alongside global names such as Coinbase, Circle, Farfetch, Moncler, Acne Studios, and Insta360.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/idg-capital/refs/heads/main/screenshots/idg-capital-2026-07-25T222035.png",
-     "rank": 300
+     "rank": 301
     },
     {
      "name": "Qiming Venture Partners",
      "slug": "qiming",
      "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 301
+     "rank": 302
     }
    ]
   }

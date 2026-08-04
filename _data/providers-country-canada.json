@@ -1,6 +1,6 @@
 {
- "total": 164,
- "shown": 164,
+ "total": 165,
+ "shown": 165,
  "limit": 1000,
  "bands": [
   {
@@ -7122,14 +7122,20 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "General Fusion",
+     "slug": "general-fusion",
+     "description": "General Fusion is a Canadian fusion energy company founded in 2002 by physicist Dr. Michel Laberge and headquartered in Richmond, British Columbia, in the Vancouver area. It is developing Magnetized Target Fusion (MTF), an approach that combines plasma formation, mechanical compression by a liquid metal liner, and practical heat capture for electricity generation. The company operates LM26, which it describes as the world's largest and most powerful operational fusion plasma injector, and reports 24 plasma prototypes, more than 200,000 plasma experiments, 35+ peer-reviewed papers, and roughly 210 issued and pending patents. In July 2026 General Fusion completed a business combination with Spring Valley Acquisition Corp. III and became the first publicly listed fusion energy company, trading on Nasdaq under the ticker GFUZ. It is an energy hardware and research company rather than a software or API provider: it publishes no public developer portal, API documentation, SDKs, or machine-readable API contracts. Its only machine-readable public surfaces are a Yoast-generated llms.txt and the WordPress REST discovery index behind its marketing site.",
+     "rank": 164
+    },
     {
      "name": "Version One Ventures",
      "slug": "version-one-ventures",
      "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven founders who are early in new areas, writing pre-seed and seed checks where it typically leads or co-leads rounds in the roughly $500K-$1.5M range. Version One invests across marketplaces, SaaS, fintech and crypto, AI and automation, robotics and physical AI, deep tech, biology and health, and emerging-market ecosystems including India and Africa. Over more than a decade the firm has grown into a franchise of six funds and backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital.",
-     "rank": 164
+     "rank": 165
     }
    ]
   }

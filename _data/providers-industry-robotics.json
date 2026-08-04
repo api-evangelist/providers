@@ -1,6 +1,6 @@
 {
- "total": 971,
- "shown": 971,
+ "total": 973,
+ "shown": 973,
  "limit": 1000,
  "bands": [
   {
@@ -36779,8 +36779,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 17,
-   "shown": 17,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Automated Sorting Systems",
@@ -36842,55 +36842,67 @@
      "rank": 963
     },
     {
+     "name": "Gatik",
+     "slug": "gatik",
+     "description": "Gatik is an autonomous trucking company founded in 2017 by Gautam Narang, Arjun Narang and Apeksha Kumavat, headquartered in Silicon Valley, California. Gatik builds and operates the Gatik Driver, an SAE Level 4 autonomy system purpose-built for the middle mile: short-haul, repeatable freight routes between distribution centers, dark stores and retail endpoints. Gatik runs driverless medium-duty box trucks in commercial service for Fortune 50 retailers and grocers including Walmart, Loblaw, Kroger, Tyson Foods, Pitney Bowes and PepsiCo, across Texas, Arkansas, Arizona, Ontario and other North American markets. The company partners with Isuzu, Ryder, Goodyear and NVIDIA, runs the Gatik Arena simulation platform, and publishes no public developer API, OpenAPI specification, SDK or developer portal — its surface is a corporate marketing site plus a legacy archive site carrying about, safety, news, careers and legal pages.",
+     "rank": 964
+    },
+    {
+     "name": "GrayMatter Robotics",
+     "slug": "graymatter-robotics",
+     "description": "GrayMatter Robotics is an American industrial AI and robotics company founded in 2020 by SK Gupta, Ariyan Kabir and Brual Shah, headquartered at a 100,000-square-foot AI Robotics Innovation Center in Carson, California. The company builds smart robotic cells for surface treatment and finishing in high-mix, high-variability manufacturing — sanding, grinding, polishing, buffing, blasting, spraying, trimming and AI-based dimensional inspection and defect detection — pairing off-the-shelf industrial robot arms, 3D scanners and tools with its own physics-informed AI stack (GMR-AI, marketed as Factory SuperIntelligence / FSI). Its flagship Scan&Sand cell 3D-scans each incoming part and generates the toolpath autonomously, so a cell can change over between parts in minutes without fixturing or teach-pendant programming, and the company claims 4-12x throughput over manual finishing with 30-70% less consumable waste. GrayMatter sells robots-as-a-service on a monthly subscription that bundles hardware, software, training, remote monitoring and 24/7 support instead of an upfront capital purchase, and counts Boeing, Caterpillar and Oshkosh among its customers. It raised a $45M Series B in June 2024 led by Wellington Management with NGP Capital, Euclidean Capital, B Capital, 3M Ventures, Calibrate VC, OCA Ventures, Pathbreaker VC, Stage Venture Partners and Swift VC participating. GrayMatter Robotics is a robotics hardware and AI systems manufacturer: as of the August 2026 enrichment pass it publishes no public developer API, developer portal, SDK, CLI or machine-readable API contract (OpenAPI, AsyncAPI, GraphQL, gRPC), no MCP server and no A2A agent card. Note that this company is unrelated to greymatter.io, the service-mesh vendor with a similar name.",
+     "rank": 965
+    },
+    {
      "name": "Kubernetes Operators",
      "slug": "kubernetes-operators",
      "description": "Kubernetes Operators are a method of packaging, deploying, and managing Kubernetes applications that extend the Kubernetes API to create, configure, and manage instances of complex applications on behalf of a Kubernetes user.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubernetes-operators/refs/heads/main/screenshots/kubernetes-operators-2026-06-20T184206.png",
-     "rank": 964
+     "rank": 966
     },
     {
      "name": "Lux Capital",
      "slug": "lux-capital",
      "description": "Lux Capital is a New York City-based venture capital firm founded in 2000 by Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building companies at the frontier of science and technology, turning \"sci-fi into sci-fact.\" The firm systematically mines academia and government research labs for breakthrough technologies that have matured beyond proof-of-concept but have not yet attracted mainstream venture attention, then makes long-term bets on contrarians and outsiders challenging the status quo. Lux invests primarily at early stage across three focus areas: AI and technology, defense/space/ manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics, and emerging science. The firm manages roughly $7 billion in assets under management across nine core funds, closing Lux Ventures IX at $1.5 billion in January 2026, and has invested in over 200 companies. Through Lux Labs, launched in 2024, the firm has also helped create more than 20 new companies. Notable portfolio companies include Anduril, Applied Intuition, Databricks, Cognition, Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is headquartered in New York City with an additional office in Silicon Valley.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lux-capital/refs/heads/main/screenshots/lux-capital-2026-07-25T225735.png",
-     "rank": 965
+     "rank": 967
     },
     {
      "name": "Paradigm",
      "slug": "paradigm",
      "description": "Paradigm is a research-driven, frontier-technology investment firm founded in 2018 by Coinbase co-founder Fred Ehrsam and former Sequoia Capital partner Matt Huang. Headquartered in San Francisco with offices in New York and Washington, DC, the firm began as one of the largest crypto-focused venture funds and has since expanded to build and invest across crypto, AI, robotics, and other technical frontiers \"from first check through to public markets.\" Paradigm is unusual in that it is both a builder and an investor: alongside its fund it ships open-source software (Reth, Foundry, Alloy, Artemis) and incubates companies. The firm has made 130+ investments and reported roughly $12.7B in assets under management as of April 2025; it raised a $2.5B first venture fund in 2021 and announced a new $1.2B fund in July 2026 aimed at the \"technical frontier\" including AI and robotics. Notable portfolio companies and protocols include Uniswap, Coinbase, Stripe, Optimism, Chainalysis, Fireblocks, Blur, Monad, Kalshi, and Zipline. Managing partners include Matt Huang and Alana Palmedo.",
-     "rank": 966
+     "rank": 968
     },
     {
      "name": "Playground Global",
      "slug": "playground-global",
      "description": "Playground Global is an early-stage deep tech venture capital firm founded in 2015 by Andy Rubin, Bruce Leak, Matt Hershenson, and Peter Barrett, and headquartered at 380 Portage Ave, Palo Alto, California. The firm invests \"somewhere between improbable and impossible,\" backing technical founders who take large technology risks and build companies from first principles. Playground concentrates on four pillars: next-gen compute (quantum computing, novel AI chip architectures, advanced interconnects, and semiconductors), automation (robotics, supply-chain and industrial automation with tangible ROI), energy transition and decarbonization, and engineered biology (AI-driven drug discovery, RNA editing, and next-generation therapies). It invests at the earliest stages, often at company formation, and operates Studio Palo Alto, a lab and prototyping environment for hardware and deep-science founders. Reported assets under management are over $1.2 billion across its funds. Notable portfolio companies include PsiQuantum, Relativity Space, Ultima Genomics, d-Matrix, Velo3D (NYSE), and MosaicML (acquired by Databricks).",
-     "rank": 967
+     "rank": 969
     },
     {
      "name": "Qiming Venture Partners",
      "slug": "qiming",
      "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 968
+     "rank": 970
     },
     {
      "name": "Sierra Ventures",
      "slug": "sierra-ventures",
      "description": "Sierra Ventures is an early-stage venture capital firm founded by Peter Wendell in 1982 and headquartered in San Mateo, California, in the heart of Silicon Valley. The firm invests from inception through Series A in first-principles founders under the tagline \"Conviction Before Consensus,\" writing checks of up to $5M at seed and up to $10M at Series A. Sierra's current investment thesis centers on the next wave of enterprise technology: Vertical AI (purpose-built AI for specific industries), Infrastructure AI, Frontier and Deep Tech, and Physical AI and Robotics, alongside a longstanding history in enterprise applications, digital health, SaaS, and security. Over its 40-plus-year history the firm has invested more than $2 billion across 13 early-stage funds, with its 13th fund closing in 2023 at $265 million, following Fund 12 at $215 million and Fund 11 at $170 million. Sierra reports 35 IPOs and hundreds of successful exits, having backed companies such as Elastic, Astronomer, Chronosphere, CourseHero, Q-CTRL, Spectro Cloud, Endor Labs, and Reflection AI. The firm is notable for its CXO Advisory Board of Fortune 1000 enterprise leaders who help portfolio companies land early customers. This profile tracks Sierra Ventures' identity and its portfolio graph across the API Evangelist network.",
-     "rank": 969
+     "rank": 971
     },
     {
      "name": "Spreadsheets",
      "slug": "spreadsheets",
      "description": "Spreadsheets covers the APIs, tools, and services for programmatic access to spreadsheet data across major platforms including Google Sheets and Microsoft Excel. The Google Sheets API v4 provides RESTful access to read, write, format, and manage Google Spreadsheets. The Microsoft Graph Excel API enables reading and writing Excel workbooks stored in OneDrive for Business and SharePoint. Third-party services like SheetDB, Sheety, Sheet Best, and Sheet2API convert spreadsheets into REST APIs for use as lightweight backends. Spreadsheet APIs are widely used for data import/export, automated reporting, form submissions, lightweight CMS, and business process automation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spreadsheets/refs/heads/main/screenshots/spreadsheets-2026-06-20T194359.png",
-     "rank": 970
+     "rank": 972
     },
     {
      "name": "Version One Ventures",
      "slug": "version-one-ventures",
      "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven founders who are early in new areas, writing pre-seed and seed checks where it typically leads or co-leads rounds in the roughly $500K-$1.5M range. Version One invests across marketplaces, SaaS, fintech and crypto, AI and automation, robotics and physical AI, deep tech, biology and health, and emerging-market ecosystems including India and Africa. Over more than a decade the firm has grown into a franchise of six funds and backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital.",
-     "rank": 971
+     "rank": 973
     }
    ]
   }

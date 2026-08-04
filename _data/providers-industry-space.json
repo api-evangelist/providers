@@ -1,6 +1,6 @@
 {
- "total": 317,
- "shown": 317,
+ "total": 318,
+ "shown": 318,
  "limit": 1000,
  "bands": [
   {
@@ -12276,8 +12276,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "DCVC (Data Collective)",
@@ -12293,17 +12293,23 @@
      "rank": 315
     },
     {
+     "name": "Galactic Energy",
+     "slug": "galactic-energy",
+     "description": "Galactic Energy (星河动力航天 — Galactic Energy (Beijing) Space Technology Co., Ltd.) is a private Chinese commercial launch company founded on 6 February 2018 and headquartered in Beijing E-Town. It builds and flies the Ceres family of solid-propellant small-lift rockets (Ceres-1, the sea-launched Ceres-1S, and the larger 3.35 m Ceres-2) and is developing the partly reusable liquid oxygen/kerosene Pallas-1 and Pallas-2 medium-lift vehicles, the Eros vehicle, the Welkin (苍穹) CQ-series liquid propellant engines, and the Edge attitude and orbital control system. Its public web surface is a corporate marketing site at galactic-energy.cn carrying product pages, a launch plan, completed-mission history, a news feed, careers listings, a Chinese-language document centre of launch-vehicle user manuals (PDF), and an HTML launch-reservation form. Contract discovery on 2026-08-04 found no developer portal, no API documentation and no machine-readable API surface of any kind: every probe for OpenAPI/Swagger, GraphQL, MCP, an A2A agent card, /llms.txt, robots.txt and the full /.well-known/ discovery set returned HTTP 404 on every galactic-energy.cn host, and no api./developer./docs. subdomain resolves. This profile is therefore identity and domain-security only.",
+     "rank": 316
+    },
+    {
      "name": "Lux Capital",
      "slug": "lux-capital",
      "description": "Lux Capital is a New York City-based venture capital firm founded in 2000 by Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building companies at the frontier of science and technology, turning \"sci-fi into sci-fact.\" The firm systematically mines academia and government research labs for breakthrough technologies that have matured beyond proof-of-concept but have not yet attracted mainstream venture attention, then makes long-term bets on contrarians and outsiders challenging the status quo. Lux invests primarily at early stage across three focus areas: AI and technology, defense/space/ manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics, and emerging science. The firm manages roughly $7 billion in assets under management across nine core funds, closing Lux Ventures IX at $1.5 billion in January 2026, and has invested in over 200 companies. Through Lux Labs, launched in 2024, the firm has also helped create more than 20 new companies. Notable portfolio companies include Anduril, Applied Intuition, Databricks, Cognition, Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is headquartered in New York City with an additional office in Silicon Valley.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lux-capital/refs/heads/main/screenshots/lux-capital-2026-07-25T225735.png",
-     "rank": 316
+     "rank": 317
     },
     {
      "name": "Social Capital",
      "slug": "social-capital",
      "description": "Social Capital is a technology investment firm founded in 2011 by Chamath Palihapitiya (a former Facebook executive) and headquartered in Palo Alto, California, with co-founders Mamoon Hamid and Ted Maidenberg. Originally a traditional venture fund that stood out by backing healthcare, financial services, education, and other hard, regulated sectors the VC community had neglected, the firm pivoted in 2018 into a technology holding company that stopped accepting outside capital and now invests from its own permanent balance sheet of roughly $2.1B, aiming to \"earn like Berkshire Hathaway and invest like the Red Cross.\" Its thesis targets multiple emerging $10T markets across deep tech commercialization, life sciences and drug discovery, the global energy transition, and creator-economy media. Chamath became known as the \"SPAC King\" for taking companies public through the Social Capital Hedosophia (IPOA-IPOF) vehicles, including Virgin Galactic, Opendoor, Clover Health, and SoFi. Notable investments include Slack, Box, SurveyMonkey, Wealthfront, Netskope, Intercom, Groq, Palmetto, Saildrone, and Relativity Space.",
-     "rank": 317
+     "rank": 318
     }
    ]
   }

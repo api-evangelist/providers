@@ -621,20 +621,56 @@
   - semiconductors
   - semiconductor
   - chips
+  - gpu
+  - quantum computing
   - hardware
   - consumer hardware
   - consumer electronics
   - electronics
-  - compute
-  - gpu
-  - quantum computing
-  - data center
-  - data centers
-  - cloud computing
-  - storage
-  - 3d printing
-  - cad
   - materials science
+  exclude:
+  - ace-hardware
+  - also
+  - clover
+  - cofactr
+  - coldsnap
+  - first-resonance
+  - google-distributed-cloud
+  - hyperice
+  - impossible-cloud
+  - printnode
+  - stanley-black-and-decker
+  - telemetron-ai
+  - upsie
+  - violetlabs
+  - wahoo
+  include:
+  - birentech
+  - broadcom
+  - cadence
+  - etched
+  - groq
+  - hp
+  - hpe
+  - intel
+  - kla
+  - marvell-technology
+  - microchip-technology
+  - micron-technology
+  - mythic
+  - on-semiconductor
+  - positron
+  - qorvo
+  - qualcomm
+  - rebellions
+  - risc-v
+  - silabs
+  - sima
+  - skyworks-solutions
+  - synopsys
+  - tenstorrent
+  - vishay-intertechnology
+  - western-digital
 - slug: climate-sustainability
   name: Climate & Sustainability
   icon: eco

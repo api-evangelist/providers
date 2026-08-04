@@ -1,6 +1,6 @@
 {
- "total": 327,
- "shown": 327,
+ "total": 329,
+ "shown": 329,
  "limit": 1000,
  "bands": [
   {
@@ -13759,8 +13759,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Anthemis Group",
@@ -13774,6 +13774,18 @@
      "slug": "connected-kerb",
      "description": "Connected Kerb is a UK electric-vehicle charging company that designs, installs, owns and operates public on-street and destination charge points, with a particular focus on residential drivers who have no off-street parking. Founded in 2017 and headquartered in London, it delivers long-term charging concessions for local authorities, workplaces, retail destinations, car parks and residential developers, and by mid-2026 operated roughly 7,800 public chargers across about 1,780 UK locations. Its Chameleon, Gecko, Scarab and Limpet charge points are backed by a charge point management system, a driver mobile app, a customer portal for site hosts and landowners, and an OCPI roaming interface used for e-mobility roaming and for UK Public Charge Point Regulations 2023 open-data obligations.",
      "rank": 327
+    },
+    {
+     "name": "Fnatic",
+     "slug": "fnatic",
+     "description": "Fnatic is a London-headquartered global esports performance brand founded in 2004, fielding 20+ professional players across five game titles, operating four offices and facilities in London, Berlin, Belgrade and Tokyo with 100+ staff, and claiming $16m+ in prize money, 33m+ social followers and $55m raised from institutional investors. Beyond competition it runs two commercial businesses: Fnatic Gear, an award-winning esports hardware line (mice, keyboards, headsets and pads) launched in 2016, and an apparel and merchandise store. Fnatic operates no developer program and publishes no OpenAPI, no developer portal and no API documentation — fnatic.com is a Next.js front end over a Sanity CMS with a first-party member-account system (\"Fnatic ID\") that exposes no discovery document. Its one machine-readable surface is the Shopify-hosted store at shop.fnatic.com, which serves an anonymously introspectable Storefront GraphQL API, a Universal Commerce Protocol merchant profile with a UCP MCP commerce endpoint, OpenID Connect and RFC 8414/9728 discovery for customer accounts, and a provider-authored /agents.md (mirrored at /llms.txt) that tells AI agents which surface to use and requires explicit buyer approval before any agent completes a payment.",
+     "rank": 328
+    },
+    {
+     "name": "Freetrade",
+     "slug": "freetrade",
+     "description": "Freetrade is a UK retail investment platform, founded in 2018 and headquartered in London, that offers commission-free investing in more than 8,600 stocks, ETFs, investment trusts, mutual funds, gilts and UK Treasury bills across four account types — a stocks and shares ISA, a Junior ISA, a self-invested personal pension (SIPP) and a general investment account — on three subscription plans (Basic at £0/month, Standard and Plus). It operates a mobile app and a web platform at web.freetrade.io, serves over 1.6 million users, and is authorised and regulated by the Financial Conduct Authority (firm reference number 783189) as a member firm of the London Stock Exchange. Freetrade Limited (company number 09797821) was acquired by IG Group Holdings plc in April 2025 for £160m and continues to operate as an independently branded business. Freetrade publishes no public developer API, developer portal, OpenAPI/AsyncAPI/MCP contract or client SDK — a private GraphQL gateway backs its own web platform but has introspection disabled and no published schema or terms for third-party use — so its machine-readable public surface is a hand-curated llms.txt at freetrade.io/llms.txt plus an Intercom-hosted help-centre llms.txt.",
+     "rank": 329
     }
    ]
   }

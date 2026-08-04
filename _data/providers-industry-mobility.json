@@ -1,6 +1,6 @@
 {
- "total": 598,
- "shown": 598,
+ "total": 599,
+ "shown": 599,
  "limit": 1000,
  "bands": [
   {
@@ -23471,8 +23471,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "ConnectDER",
@@ -23500,11 +23500,17 @@
      "rank": 597
     },
     {
+     "name": "FlixBus",
+     "slug": "flixbus",
+     "description": "FlixBus is the long-distance coach brand of Flix SE (formerly FlixMobility), a Munich-headquartered mobility provider that also operates FlixTrain in Europe and Greyhound in North America. Flix runs an asset-light model: it owns the brand, network planning, pricing, distribution and technology while regional bus partners operate the vehicles. Its technology surface is split in two. A partner-facing Flix API is published through the Flix Developer Portal at developer.api.flixbus.com — a Redocly-based catalogue of API references, getting-started guides, changelogs and downloadable Postman collections — but the portal is gated behind Microsoft Entra ID (Azure AD) sign-in and the underlying gateway at global.api.flixbus.com rejects anonymous requests, so no machine-readable OpenAPI is reachable without a distribution-partner agreement (requested via online-distribution@flixbus.com). Publicly and anonymously, Flix does publish schedule data as first-party GTFS Schedule feeds for Europe, the United States and Great Britain from gtfs.gis.flix.tech, refreshed regularly and licensed ODbL-1.0 through national open-data portals.",
+     "rank": 598
+    },
+    {
      "name": "Open Charge Map",
      "slug": "openchargemap",
      "description": "Open Charge Map is the global public registry of electric vehicle charging locations, established in 2011 as a non-commercial, community-driven project. The platform maintains a crowdsourced dataset of 300,000+ charging points worldwide, combining manually entered data with imported open data from government registries and charging networks. The REST API enables developers to search and retrieve POI (Points of Interest) data on EV charging stations, including location details, equipment specifications, connection types, operator information, and user-submitted check-ins and photos. Data can be filtered by geographic coordinates, bounding box, country, operator, connection type, charging level, and operational status. The API is free to use with an API key registration and supports both read (GET) and write (POST) operations for contributing new charging location data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/screenshots/openchargemap-2026-06-20T190925.png",
-     "rank": 598
+     "rank": 599
     }
    ]
   }

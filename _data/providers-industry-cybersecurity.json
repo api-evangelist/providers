@@ -39203,7 +39203,7 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 488,
+   "count": 487,
    "shown": 0,
    "providers": []
   },
@@ -39221,7 +39221,7 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 34,
+   "count": 35,
    "shown": 0,
    "providers": []
   }

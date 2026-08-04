@@ -3,19 +3,19 @@
   "slug": "united-kingdom",
   "name": "United Kingdom",
   "flag": "🇬🇧",
-  "count": 327
+  "count": 329
  },
  {
   "slug": "india",
   "name": "India",
   "flag": "🇮🇳",
-  "count": 308
+  "count": 309
  },
  {
   "slug": "china",
   "name": "China",
   "flag": "🇨🇳",
-  "count": 301
+  "count": 302
  },
  {
   "slug": "united-states",
@@ -39,7 +39,7 @@
   "slug": "canada",
   "name": "Canada",
   "flag": "🇨🇦",
-  "count": 164
+  "count": 165
  },
  {
   "slug": "brazil",

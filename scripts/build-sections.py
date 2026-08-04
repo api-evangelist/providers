@@ -140,6 +140,14 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
+    "semiconductors-hardware": {
+        "slug": "state-of-compute-hardware-apis",
+        "title": "The State of Compute & Hardware APIs",
+        "blurb": "The companies that rent the chips score 36.5. The companies that make them score "
+                 "10.7. NVIDIA scores 31.1 and NVIDIA NIM scores 75.7.",
+        "price": "500",
+        "kind": "API Evangelist Market Report",
+    },
     "supply-chain": {
         "slug": "state-of-supply-chain-apis",
         "title": "The State of Supply Chain APIs",
@@ -197,6 +205,15 @@ TAG_INDUSTRY_EXCLUDE = {
         "sap-s4hana", "sap-bydesign", "erpnext", "apache-ofbiz", "infor", "aptean",
         "workday-financials", "anaplan", "softwareone", "sap-fieldglass",
     },
+    "semiconductors-hardware": {
+        # software sold TO hardware companies, not hardware
+        "telemetron-ai", "first-resonance", "cofactr", "violetlabs",
+        # hyperscaler platform and managed-service entries
+        "google-distributed-cloud", "impossible-cloud",
+        # not a compute or device business
+        "upsie", "also", "ace-hardware", "coldsnap", "clover", "printnode",
+        "stanley-black-and-decker", "wahoo", "hyperice",
+    },
 }
 
 # The mirror image: real members of an industry that no tag rule can reach.
@@ -209,6 +226,17 @@ TAG_INDUSTRY_INCLUDE = {
         "e2open", "manhattan-associates", "blue-yonder", "1worldsync",
         "tech-data", "pax8", "protonai", "scansource", "synnex",
         "sap-sales-and-distribution-sd",
+    },
+    # The silicon layer is invisible to tag matching. Intel is tagged only
+    # `fortune 100`, Qualcomm only `fortune 500`, Synopsys is filed as a
+    # software-security company, and KLA, Microchip and Qorvo carry no tags at all.
+    "semiconductors-hardware": {
+        "intel", "qualcomm", "broadcom", "micron-technology", "marvell-technology",
+        "on-semiconductor", "microchip-technology", "skyworks-solutions", "qorvo",
+        "silabs", "vishay-intertechnology", "western-digital",
+        "synopsys", "cadence", "risc-v", "kla",
+        "groq", "tenstorrent", "sima", "positron", "etched", "rebellions",
+        "birentech", "mythic", "hp", "hpe",
     },
 }
 
@@ -461,11 +489,17 @@ TAG_INDUSTRIES = [
         "name": "Semiconductors & Hardware",
         "icon": "memory",
         "description": "Chips, compute, consumer electronics, and the data-center hardware everything else is built on.",
+        # `cloud computing`, `compute`, `storage`, `data center` and `data centers`
+        # were removed in Aug 2026: they describe cloud infrastructure, not hardware,
+        # and they made Google Cloud Platform the #1 "semiconductor" provider, with
+        # Amazon EC2, Lambda, EBS, Azure, Databricks, Workday and Google Workspace
+        # filling most of the top twenty. `cad` and `3d printing` went with them -
+        # design software is a different market. See The State of Compute & Hardware
+        # APIs, which had to rebuild this cohort by hand to say anything true.
         "tags": [
-            "semiconductors", "semiconductor", "chips", "hardware", "consumer hardware",
-            "consumer electronics", "electronics", "compute", "gpu", "quantum computing",
-            "data center", "data centers", "cloud computing", "storage", "3d printing",
-            "cad", "materials science",
+            "semiconductors", "semiconductor", "chips", "gpu", "quantum computing",
+            "hardware", "consumer hardware", "consumer electronics", "electronics",
+            "materials science",
         ],
     },
     {

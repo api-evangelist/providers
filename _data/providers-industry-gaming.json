@@ -1,6 +1,6 @@
 {
- "total": 669,
- "shown": 669,
+ "total": 670,
+ "shown": 670,
  "limit": 1000,
  "bands": [
   {
@@ -25493,8 +25493,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Bullpen Capital",
@@ -25508,6 +25508,12 @@
      "slug": "drone-racing-league",
      "description": "The Drone Racing League (DRL) is a New York-based professional drone racing property founded in 2015 by Nicholas Horbaczewski, staging first-person-view (FPV) races in which pilots fly identical, league-built quadcopters - the Racer series - through three-dimensional courses in stadiums, arenas and landmark venues at speeds above 80 mph. DRL designs its own racing drones, timing and telemetry hardware, produces and distributes its race broadcasts across NBC, Sky Sports, ProSiebenSat.1 and streaming platforms, and operates the DRL Simulator, an FPV racing game on Steam, PlayStation and Xbox that feeds the Swatch DRL Tryouts esports pipeline used to recruit professional pilots. The company was acquired by Infinite Reality (now Napster) in April 2024. DRL publishes no public developer portal, API documentation, SDKs or machine-readable API specification, and as of the 2026-08-04 enrichment pass its primary web properties (thedroneracingleague.com, drl.io) were not completing a TLS handshake.",
      "rank": 669
+    },
+    {
+     "name": "Fnatic",
+     "slug": "fnatic",
+     "description": "Fnatic is a London-headquartered global esports performance brand founded in 2004, fielding 20+ professional players across five game titles, operating four offices and facilities in London, Berlin, Belgrade and Tokyo with 100+ staff, and claiming $16m+ in prize money, 33m+ social followers and $55m raised from institutional investors. Beyond competition it runs two commercial businesses: Fnatic Gear, an award-winning esports hardware line (mice, keyboards, headsets and pads) launched in 2016, and an apparel and merchandise store. Fnatic operates no developer program and publishes no OpenAPI, no developer portal and no API documentation — fnatic.com is a Next.js front end over a Sanity CMS with a first-party member-account system (\"Fnatic ID\") that exposes no discovery document. Its one machine-readable surface is the Shopify-hosted store at shop.fnatic.com, which serves an anonymously introspectable Storefront GraphQL API, a Universal Commerce Protocol merchant profile with a UCP MCP commerce endpoint, OpenID Connect and RFC 8414/9728 discovery for customer accounts, and a provider-authored /agents.md (mirrored at /llms.txt) that tells AI agents which surface to use and requires explicit buyer approval before any agent completes a payment.",
+     "rank": 670
     }
    ]
   }

@@ -1,6 +1,6 @@
 {
- "total": 947,
- "shown": 947,
+ "total": 951,
+ "shown": 951,
  "limit": 1000,
  "bands": [
   {
@@ -40198,8 +40198,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 17,
-   "shown": 17,
+   "count": 21,
+   "shown": 21,
    "providers": [
     {
      "name": "Canaan Partners",
@@ -40294,17 +40294,41 @@
      "rank": 945
     },
     {
+     "name": "Galvanize Therapeutics",
+     "slug": "galvanize-therapeutics",
+     "description": "Galvanize Therapeutics, Inc. is a Redwood City, California medical device company founded in 2015 by Jonathan Waldstreicher, MD and William Krimsky, MD, and created and incubated by Apple Tree Partners (ATP). Galvanize develops pulsed electric field (PEF) therapies that deliver high-voltage, short-duration energy locally to alter the transmembrane potential of targeted cells, inducing non-thermal regulated cell death without denaturing cellular proteins or the extracellular matrix. Its Aliya PEF System is cleared for surgical ablation of soft tissue and is being studied in non-small cell lung cancer, while RheOx addresses chronic bronchitis in the airway. The company received FDA 510(k) clearance for the Aliya EX Generator in May 2026. Galvanize is a privately held, clinically-focused device manufacturer and publishes no public developer program, API, SDK, or machine-readable interface.",
+     "rank": 946
+    },
+    {
+     "name": "Genalyte",
+     "slug": "genalyte",
+     "description": "Genalyte, Inc. is a San Diego, California in-vitro diagnostics company building point-of-care blood testing systems based on silicon photonic microring resonator technology. Founded by Cary Gunn, the company developed the Maverick Diagnostic System and its successor Merlin, an automated benchtop analyzer that runs hematology, chemistry and immunoassay panels — including CBC, lipid panel and comprehensive metabolic panel — from small whole-blood or serum volumes and returns results in roughly twenty to thirty minutes while the patient is still in the clinic. A cloud verification layer the company markets as CloudLab quality-checks results and routes them into electronic medical record systems. Genalyte received FDA clearance for a thyroid stimulating hormone immunoassay performed on a silicon chip and previously held an FDA Emergency Use Authorization for a rapid COVID-19 antibody test. The company is investor-backed (Khosla Ventures, Verily Life Sciences and others) and is a HIPAA covered entity that publishes a Notice of Privacy Practices. As of this profile Genalyte publishes no public developer portal, API documentation, or machine-readable API specification.",
+     "rank": 947
+    },
+    {
+     "name": "Genomatica",
+     "slug": "genomatica",
+     "description": "Genomatica (which markets itself as Geno) is a San Diego, California biotechnology and sustainable materials company founded in 1998 that engineers microbes and fermentation processes to make widely used chemical building blocks from plants instead of fossil fuels. Its commercialized process technology covers Geno BDO (bio-based 1,4-butanediol, licensed to partners including BASF and Novamont), Brontide butylene glycol for personal care, Avela (R)-1,3-butanediol, plant-based nylon-6 intermediates developed with lululemon and manufacturing partners such as Hyosung and Sojitz, plus palm-oil alternatives and fragrance building blocks. Genomatica licenses its process technology to chemical producers rather than operating a software platform; as of this profile it publishes no public developer portal, API documentation, machine-readable specification, or agent-facing discovery surface.",
+     "rank": 948
+    },
+    {
+     "name": "GRIN Therapeutics",
+     "slug": "grin-therapeutics",
+     "description": "GRIN Therapeutics, Inc. is a clinical-stage biotechnology company dedicated to the research and development of precision therapeutics for pediatric neurodevelopmental disorders caused by NMDA receptor dysfunction. It is an affiliate of Neurvati Neurosciences, a Blackstone Life Sciences portfolio company, and traces its founding to Dr. Pierandrea Muglia's attendance at the 2019 CFERV Conference on GRIN Variants at Emory University. Its lead investigational asset is radiprodil, an orally bioavailable selective negative allosteric modulator of the GluN2B subunit of the NMDA receptor, designed to fine-tune dysregulated receptor activity rather than fully block the channel. Radiprodil is in development for GRIN-related neurodevelopmental disorder (GRIN-NDD) arising from gain-of-function variants in GRIN1, GRIN2A, GRIN2B and GRIN2D, and for tuberous sclerosis complex (TSC) and focal cortical dysplasia (FCD) type II. The clinical programme comprises the completed Phase 1b/2a Honeycomb trial, the enrolling global Phase 3 Beeline registrational trial, the Phase 1b/2a Astroscape trial in TSC and FCD type II, and a GRIN-NDD natural history study; radiprodil carries FDA Breakthrough Therapy, Orphan Drug and Rare Pediatric Disease designations and EMA PRIME and Orphan Drug designations. In May 2025 GRIN Therapeutics entered an exclusive collaboration with Angelini Pharma to develop and commercialise radiprodil outside North America. GRIN Therapeutics runs no developer program and publishes no product API, no developer portal and no API documentation; the only machine-readable surface reachable without credentials is the WordPress REST content API behind grintherapeutics.com, catalogued here.",
+     "rank": 949
+    },
+    {
      "name": "Lux Capital",
      "slug": "lux-capital",
      "description": "Lux Capital is a New York City-based venture capital firm founded in 2000 by Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building companies at the frontier of science and technology, turning \"sci-fi into sci-fact.\" The firm systematically mines academia and government research labs for breakthrough technologies that have matured beyond proof-of-concept but have not yet attracted mainstream venture attention, then makes long-term bets on contrarians and outsiders challenging the status quo. Lux invests primarily at early stage across three focus areas: AI and technology, defense/space/ manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics, and emerging science. The firm manages roughly $7 billion in assets under management across nine core funds, closing Lux Ventures IX at $1.5 billion in January 2026, and has invested in over 200 companies. Through Lux Labs, launched in 2024, the firm has also helped create more than 20 new companies. Notable portfolio companies include Anduril, Applied Intuition, Databricks, Cognition, Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is headquartered in New York City with an additional office in Silicon Valley.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lux-capital/refs/heads/main/screenshots/lux-capital-2026-07-25T225735.png",
-     "rank": 946
+     "rank": 950
     },
     {
      "name": "Qiming Venture Partners",
      "slug": "qiming",
      "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 947
+     "rank": 951
     }
    ]
   }
