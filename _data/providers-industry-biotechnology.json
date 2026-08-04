@@ -1,6 +1,6 @@
 {
- "total": 934,
- "shown": 934,
+ "total": 947,
+ "shown": 947,
  "limit": 1000,
  "bands": [
   {
@@ -40198,8 +40198,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 4,
-   "shown": 4,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Canaan Partners",
@@ -40209,24 +40209,102 @@
      "rank": 931
     },
     {
+     "name": "Convergent Therapeutics",
+     "slug": "convergent-therapeutics",
+     "description": "Convergent Therapeutics, Inc. is a clinical-stage biotechnology company based in Cambridge, Massachusetts, developing next-generation targeted radiotherapies for cancer. Founded in 2020 by Philip Kantoff, the company builds alpha radioantibodies that pair a humanized monoclonal antibody against prostate-specific membrane antigen (PSMA) with the alpha emitter actinium-225, delivering short-range, high-energy alpha radiation to tumor cells. Its lead candidate, CONV01-alpha (rosopatamab tetraxetan), is in the Phase 2 CONVERGE-01 trial in metastatic castration-resistant prostate cancer, including patients previously treated with Lu-177 PSMA radioligand therapy, with a pivotal Phase 3 planned. Convergent announced a $90 million Series A financing in 2023. The company publishes a corporate website covering its pipeline, technology, scientific publications and press, but operates no public developer program, API, SDK, or machine-readable API contract.",
+     "rank": 932
+    },
+    {
+     "name": "Cresilon",
+     "slug": "cresilon",
+     "description": "Cresilon is a Brooklyn, New York biotechnology company founded in 2010 by Joe Landolina and Isaac Miller that develops, manufactures and markets hemostatic medical devices built on a proprietary plant-based hydrogel that stops moderate to severe bleeding in seconds without manual pressure. The company operates a GMP-certified, ISO 13485:2016 quality-managed biomanufacturing facility in Brooklyn's Industry City and sells two commercial products: VETIGEL, launched to the veterinary market in 2020 and licensed for animal-health distribution, and TRAUMAGEL, cleared by the FDA under 510(k) in 2024 and launched nationwide in the United States in January 2025 for prehospital, military and hospital control of traumatic external hemorrhage. Cresilon was named the number one medical-device company on Fast Company's World's Most Innovative Companies list in 2024 and returned to that list in 2026. Cresilon is a medical-device manufacturer rather than a software vendor, and publishes no commercial or developer-facing product API. The only machine-readable interface it exposes is the WordPress REST content API behind its corporate website at cresilon.com, captured here for discovery purposes.",
+     "rank": 933
+    },
+    {
      "name": "CRV",
      "slug": "crv",
      "description": "CRV (formerly Charles River Ventures) is one of the oldest venture capital firms in the United States, founded in 1970 to commercialize research coming out of MIT. The firm invests early — primarily at the Seed and Series A stages, with occasional Series B — leading rounds in enterprise, consumer, developer tools, security, data infrastructure, AI, and bioengineering companies. CRV has backed more than 750 companies since inception across 18 funds, raising over $4.3 billion (including a recent $600M early-stage fund), and has seen 80-plus of its portfolio companies reach public-company status. Notable investments include DoorDash, Airtable, HubSpot, Datadog, Zendesk, Patreon, Mercury, Vercel, Cursor, Postman, Kong, Tailscale, Ring, and PillPack. The firm is headquartered in San Francisco (52 Zoe Street) with a long-standing Bay Area presence and offices in Menlo Park, CA and Cambridge, MA.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crv/refs/heads/main/screenshots/crv-2026-07-25T210826.png",
-     "rank": 932
+     "rank": 934
+    },
+    {
+     "name": "Cullgen",
+     "slug": "cullgen",
+     "description": "Cullgen Inc. is a clinical-stage biopharmaceutical company headquartered in San Diego, California, founded in 2018 and focused on first-in-class targeted protein degradation medicines. Its proprietary uSMITE (ubiquitin-mediated, small molecule-induced target elimination) platform harnesses the body's own ubiquitin-proteasome system to selectively degrade disease-causing intracellular proteins, including targets considered undruggable by conventional small molecules, and the company extends that chemistry into degrader-antibody conjugates (DACs). Its lead TRK degrader program has entered Phase 1 clinical dosing, and the company has partnered with Astellas and taken investment from AstraZeneca. Gyre Therapeutics completed an all-stock acquisition of Cullgen valued at approximately $300 million on 4 May 2026. Cullgen publishes a corporate marketing website only: profiling on 2026-08-04 found no developer portal, documentation, machine-readable API contract, package registry presence, or public code repositories.",
+     "rank": 935
+    },
+    {
+     "name": "DalCor Pharmaceuticals",
+     "slug": "dalcor-pharmaceuticals",
+     "description": "DalCor Pharmaceuticals is a clinical-stage biopharmaceutical company founded in 2015 and headquartered in Montreal, Quebec, with offices in Zug, Switzerland, Leatherhead in the United Kingdom, and Sarasota, Florida. It is developing dalcetrapib, positioned as the first pharmacogenetic precision medicine in cardiovascular disease, targeted specifically at patients carrying the AA genotype at the rs1967309 variant of the ADCY9 gene — a genotype present in up to 20% of the general population and in more than 40% of populations of African ancestry. DalCor holds the worldwide exclusive license to develop, manufacture and commercialise dalcetrapib together with rights to the companion genetic marker. The compound is being evaluated in Dal-GenE-2 (DAL-302), a Phase 3 double-blind randomized placebo-controlled cardiovascular outcomes confirmatory trial in 2,000 post-acute-coronary-syndrome patients with the ADCY9 AA genotype, coordinated by the Montreal Health Innovations Coordinating Centre and following the dal-GenE (DAL-301) trial, which showed a 21% relative risk reduction in fatal and non-fatal myocardial infarction across 6,149 patients in 34 countries. DalCor runs no developer program and publishes no product API; the only machine-readable surface it exposes is the anonymously readable WordPress REST content API behind dalcorpharma.com, which serves the bilingual English/French corporate site.",
+     "rank": 936
+    },
+    {
+     "name": "Diagonal Therapeutics",
+     "slug": "diagonal-therapeutics",
+     "description": "Diagonal Therapeutics is a Watertown, Massachusetts clinical-stage biotechnology company founded in 2022 by CEO Alex Lugovskoy in partnership with Atlas Venture, developing \"clustering\" agonist antibodies that switch broken signaling pathways back on rather than inhibiting them. Its DIAGONAL product engine pairs computational epitope filtering with experimental screening — generating roughly 200,000 candidate antibody sequences per target, clustering them by predicted shape, binning by receptor complementarity and assembling multispecific antibodies from those bins — to make agonist antibody discovery tractable. The lead program, DIAG723, is a first-in-class ALK1:BMPRII clustering agonist antibody that restores ALK1 signaling; it holds US FDA and EMA orphan drug designation for hereditary hemorrhagic telangiectasia (HHT) and entered the Phase 1/2 DIAMOND trial (NCT07623525), with a first patient dosed in July 2026, alongside preclinical work in pulmonary arterial hypertension. The pipeline extends into hematology, hepatology, nephrology and cardiovascular disease. The company has raised roughly USD 255 million across a USD 128 million Series A (April 2024, co-led by BVF Partners and Atlas Venture) and an oversubscribed USD 125 million Series B (January 2026, co-led by Sanofi Ventures and Janus Henderson Investors). Diagonal is a therapeutics developer rather than a software vendor: it operates a Next.js marketing site backed by a Sanity CMS, and publishes no developer portal, no API documentation and no machine-readable API contract of any kind.",
+     "rank": 937
+    },
+    {
+     "name": "DNA Script",
+     "slug": "dna-script",
+     "description": "DNA Script is a synthetic-biology company founded in 2014 in Paris, France, with US operations in South San Francisco, that pioneered Enzymatic DNA Synthesis (EDS) — a water-based, template-free, lower-carbon alternative to phosphoramidite chemistry. Its flagship product, the SYNTAX System, is a benchtop DNA printer that synthesizes, desalts, quantifies and normalizes up to 96 custom oligonucleotides in parallel (up to 120 nt on-instrument, up to 500 nt via ordered EDS oligos), giving laboratories same-day, on-premise production of custom DNA. The instrument is paired with SYNTAX System Software on the instrument touchscreen and a separate Console Software layer — offered cloud-hosted or on-premises — through which customers upload sequence files, design plate templates, schedule and monitor synthesis runs across a fleet of instruments, track reagent and consumable levels, and review run reports. The company also markets the ENCODEX DNA biomanufacturing platform for larger-scale enzymatic DNA production. DNA Script publishes no public developer portal, no OpenAPI and no documented API program; the Console Software is reached through a customer-authenticated GraphQL endpoint at syntax.dnascript.com.",
+     "rank": 938
+    },
+    {
+     "name": "DNAnexus",
+     "slug": "dnanexus",
+     "description": "DNAnexus operates a cloud-based precision health data platform for genomic and multi-omic research, clinical testing and biopharma R&D. The DNAnexus Platform exposes a documented HTTP API of roughly 206 JSON-over-HTTPS methods at api.dnanexus.com covering projects and data containers, files and other data objects, apps, applets, workflows and analyses, jobs and execution containers, organizations and users, the Omics Data Catalog, and Trusted Research Environments (TREs) with data access requests. Every call is an HTTP POST with a JSON body, authenticated with a bearer token, versioned through an optional DNAnexus-API header, and made idempotent through a documented nonce field on object- and job-creation methods. First-party client libraries ship for Python (dxpy), Java, Scala and C++, alongside the dx command-line client, dxfuse and dxda, and the platform is an OpenID Connect provider for third-party sign-in and for job identity tokens.",
+     "rank": 939
+    },
+    {
+     "name": "Electra Therapeutics",
+     "slug": "electra-therapeutics",
+     "description": "Electra Therapeutics is a clinical-stage biotechnology company in South San Francisco, California, founded in 2018 and pioneering first-in-class antibody therapies directed at signal regulatory proteins (SIRP) for immunological diseases and cancer. Its lead candidate, ELA026 (ipsoprubart), is a monoclonal antibody targeting SIRP-alpha/beta1/gamma on myeloid cells and T lymphocytes to selectively deplete the pathological immune cells that drive the cytokine storm in secondary hemophagocytic lymphohistiocytosis (sHLH); it is in the pivotal SURPASS Phase 2/3 study. A second SIRP-targeted program, ELA822, is directed at activated T lymphocytes for immunology and inflammation indications. The company has raised roughly $267M from investors including OrbiMed, Nextech Invest, EQT Life Sciences and Westlake Village BioPartners. Electra publishes a corporate website, pipeline, publications, clinical-trial and news pages, but no public developer program, API documentation, or machine-readable API contract of any kind.",
+     "rank": 940
+    },
+    {
+     "name": "Element Biosciences",
+     "slug": "element-biosciences",
+     "description": "Element Biosciences is a San Diego based life-sciences instrumentation company that builds benchtop DNA sequencing and multiomics systems — the AVITI, AVITI LT, AVITI24 and VITARI platforms — around its proprietary Avidite Base Chemistry (ABC), which decouples signal generation from nucleotide incorporation to deliver high-accuracy base calling at lower cost than conventional sequencing-by-synthesis. Instrument output is managed through ElemBio Cloud, the company's analysis and data-management platform, which runs bioinformatics workflows such as Bases2Fastq and Cells2Stats and streams run data into customer-owned cloud storage connections. ElemBio Cloud exposes a public, versioned REST API — the Element Biosciences Cloud API — plus a first-party cross-platform CLI, giving labs programmatic access to sequencing and multiomics runs, workflow executions, registered instruments, storage connections and the files those resources produce, for dashboards, fleet monitoring, LIMS read-back and custom automation.",
+     "rank": 941
+    },
+    {
+     "name": "Ensoma",
+     "slug": "ensoma",
+     "description": "Ensoma is a privately held, clinical-stage genomic medicines company developing in vivo hematopoietic stem cell (HSC) engineering. Its platform pairs an off-the-shelf in vivo delivery system built on high-capacity virus-like particles that preferentially bind HSCs with a gene engineering toolkit spanning base editing and high-efficiency gene integration, carrying payloads of roughly 35 kilobases so that changes from single-base edits through multi-gene insertions can be made without ex vivo cell collection, manipulation, or transplant conditioning. The company is pursuing programs across genetic disease, immune disorders, and oncology, including EN-374 for X-linked chronic granulomatous disease, and is backed by 5AM Ventures, F-Prime Capital, RTW Investments, Alexandria Venture Investments, Cormorant Asset Management, and the Bill & Melinda Gates Foundation. Enrichment found no public developer API, developer portal, SDK, OpenAPI/GraphQL/AsyncAPI contract, MCP server, or agent card — this is a therapeutics R&D company, not an API provider. Its only public machine-readable output is open-source computational genomics and sequencing-pipeline code published under its GitHub organization.",
+     "rank": 942
+    },
+    {
+     "name": "Enveda",
+     "slug": "enveda-biosciences",
+     "description": "Enveda (Enveda Biosciences) is a Boulder, Colorado based clinical-stage biotechnology company founded in 2019 that discovers medicines by decoding the chemistry of the natural world. It combines high-throughput mass spectrometry, metabolomics, robotics and machine learning — including PRISM, a foundation model trained on more than a billion small- molecule mass spectra — to build a searchable library of plant-derived molecules and translate them into drug candidates. Enveda has raised over $360M across Series B, C and D rounds from Premji Invest, Kinnevik, Lux Capital, Dimension and Sanofi, reached unicorn status in 2026, and runs FDA-cleared clinical programs including ENV-294 (atopic dermatitis and asthma), ENV-308 (obesity) and ENV-6946 (inflammatory bowel disease). Enveda publishes no product or developer API; the machine-readable surface on enveda.com is a published llms.txt plus the WordPress REST API (wp/v2) that serves the company newsroom, In-Veda blog, leadership profiles, clinical-trial site directory and media library as JSON, alongside a WordPress MCP Adapter endpoint that is present but authentication-gated. Its open science is published as research code and data in the github.com/enveda organization.",
+     "rank": 943
+    },
+    {
+     "name": "Eureka Therapeutics",
+     "slug": "eureka-therapeutics",
+     "description": "Eureka Therapeutics, Inc. is a privately held, clinical-stage biopharmaceutical company headquartered in Emeryville, California, developing T-cell therapies for solid tumors and hematologic malignancies. The company was founded by Dr. Cheng Liu and is built on two proprietary platforms: E-ALPHA, a high-throughput human antibody discovery engine used to find binders against cancer-specific targets, and ARTEMIS, an engineered T-cell receptor platform (AbTCR) designed to deliver CAR-T-level potency with a reduced cytokine-release profile. Its clinical programs include ET140203 (ARYA-1 in adults, ARYA-2 in pediatrics) and ECT204 (ARYA-3) in advanced liver cancer, alongside a GPC2 ARTEMIS T-cell program for neuroblastoma licensed from the National Cancer Institute. Eureka publishes a corporate website, pipeline and technology overviews, a press-release archive with an RSS feed, and patient-facing trial information; as of this profile it publishes no public developer portal, API documentation, or machine-readable API contract.",
+     "rank": 944
+    },
+    {
+     "name": "Faraday Pharmaceuticals",
+     "slug": "faraday-pharmaceuticals",
+     "description": "Faraday Pharmaceuticals, Inc. was a Seattle, Washington clinical-stage biopharmaceutical company founded in 2014 as a spinout of Fred Hutchinson Cancer Center, built on the elemental-reducing-agent research of Dr. Mark Roth. It developed therapies intended to prevent and treat cardiac and skeletal muscle loss after acute critical illness, led by FDY-5301 — a proprietary intravenous formulation of sodium iodide designed to neutralize reactive oxygen species and limit reperfusion injury in patients undergoing percutaneous coronary intervention for anterior ST-elevation myocardial infarction (STEMI). The company raised roughly $120M from an investor group led by ARCH Venture Partners and Polaris Partners. Its Phase 3 trial read out in late 2025 and failed to meet its primary or secondary endpoints, and Faraday announced in February 2026 that it had ceased operations and was winding down the business. Faraday never operated a developer program, public API, SDK, or machine-readable specification, and its faradaypharma.com website is no longer served. This profile is retained as a historical record; there is no API surface to enrich.",
+     "rank": 945
     },
     {
      "name": "Lux Capital",
      "slug": "lux-capital",
      "description": "Lux Capital is a New York City-based venture capital firm founded in 2000 by Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building companies at the frontier of science and technology, turning \"sci-fi into sci-fact.\" The firm systematically mines academia and government research labs for breakthrough technologies that have matured beyond proof-of-concept but have not yet attracted mainstream venture attention, then makes long-term bets on contrarians and outsiders challenging the status quo. Lux invests primarily at early stage across three focus areas: AI and technology, defense/space/ manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics, and emerging science. The firm manages roughly $7 billion in assets under management across nine core funds, closing Lux Ventures IX at $1.5 billion in January 2026, and has invested in over 200 companies. Through Lux Labs, launched in 2024, the firm has also helped create more than 20 new companies. Notable portfolio companies include Anduril, Applied Intuition, Databricks, Cognition, Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is headquartered in New York City with an additional office in Silicon Valley.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lux-capital/refs/heads/main/screenshots/lux-capital-2026-07-25T225735.png",
-     "rank": 933
+     "rank": 946
     },
     {
      "name": "Qiming Venture Partners",
      "slug": "qiming",
      "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 934
+     "rank": 947
     }
    ]
   }

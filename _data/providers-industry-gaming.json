@@ -1,6 +1,6 @@
 {
- "total": 667,
- "shown": 667,
+ "total": 669,
+ "shown": 669,
  "limit": 1000,
  "bands": [
   {
@@ -10220,8 +10220,8 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 403,
-   "shown": 403,
+   "count": 404,
+   "shown": 404,
    "providers": [
     {
      "name": "Zwift",
@@ -25448,6 +25448,43 @@
       "dry_run_mode": false
      },
      "rank": 666
+    },
+    {
+     "name": "Coda Payments",
+     "slug": "coda-payments",
+     "description": "Coda Payments (trading as Coda, coda.co) is a Singapore-headquartered global Merchant of Record and monetization platform for digital content publishers, game studios and app developers. Its Codapay API lets partners accept 300+ local and global payment methods — cards, e-wallets, direct carrier billing, bank transfer, over-the-counter and vouchers — across 65+ countries and 60 currencies through a single integration, with Coda taking on Merchant of Record responsibility for tax, regulatory compliance, fraud and chargebacks. The developer surface spans the Codapay Hosted Payment Page API (v1.0/v2.0), a Direct Card API for server-to-server card charges with 3DS, hosted client-side components (CodaCard and CodaComponent JS SDKs), a Unity in-app payments SDK, a Refund API, a Payout API for cross-border disbursement, and the Codashop / Coda Webstore fulfillment APIs (validation, top-up, user sync) that publishers implement so Coda can deliver purchased items into their games.",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 27.8,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-04",
+     "schema_version": 0.9,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 667
     }
    ]
   },
@@ -25456,15 +25493,21 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Bullpen Capital",
      "slug": "bullpen-capital",
      "description": "Bullpen Capital is a San Francisco-based venture capital firm founded in 2010 by Paul Martino, Duncan Davidson, and Richard Melmon that pioneered the \"post-seed\" investment category. The firm provides early-stage financing to companies that have found initial product-market fit but are overlooked by traditional investors \"for no good reason\" — deliberately backing unconventional founders and sectors that other firms dismiss. Bullpen typically writes checks in the range of roughly $1M-$5M, often stepping in between the seed and Series A rounds to help capital-efficient companies push toward a strong institutional raise. The firm invests across gaming, commerce, apps and services, health, consumer and lifestyle, fintech, and marketplaces, primarily in North America with select exposure in Latin America (notably Brazil and Mexico). With a portfolio of 90+ companies, Bullpen's notable investments include FanDuel, Namely, Classy, Braze, HomeLight, ipsy, SpotHero, Splitwise, and Wag.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bullpen-capital/refs/heads/main/screenshots/bullpen-capital-2026-07-25T204059.png",
-     "rank": 667
+     "rank": 668
+    },
+    {
+     "name": "Drone Racing League",
+     "slug": "drone-racing-league",
+     "description": "The Drone Racing League (DRL) is a New York-based professional drone racing property founded in 2015 by Nicholas Horbaczewski, staging first-person-view (FPV) races in which pilots fly identical, league-built quadcopters - the Racer series - through three-dimensional courses in stadiums, arenas and landmark venues at speeds above 80 mph. DRL designs its own racing drones, timing and telemetry hardware, produces and distributes its race broadcasts across NBC, Sky Sports, ProSiebenSat.1 and streaming platforms, and operates the DRL Simulator, an FPV racing game on Steam, PlayStation and Xbox that feeds the Swatch DRL Tryouts esports pipeline used to recruit professional pilots. The company was acquired by Infinite Reality (now Napster) in April 2024. DRL publishes no public developer portal, API documentation, SDKs or machine-readable API specification, and as of the 2026-08-04 enrichment pass its primary web properties (thedroneracingleague.com, drl.io) were not completing a TLS handshake.",
+     "rank": 669
     }
    ]
   }

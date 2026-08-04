@@ -1,6 +1,6 @@
 {
- "total": 829,
- "shown": 829,
+ "total": 832,
+ "shown": 832,
  "limit": 1000,
  "bands": [
   {
@@ -31735,27 +31735,45 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
+   "count": 6,
+   "shown": 6,
    "providers": [
+    {
+     "name": "Devialet",
+     "slug": "devialet",
+     "description": "Devialet is a French high-end audio company founded and headquartered in Paris, known for the Phantom active loudspeaker range, the Dione soundbar, the Mania portable speaker, the Gemini earbuds, and the Expert Pro amplifier line, and for patented acoustic technologies including ADH (Analog Digital Hybrid), SAM (Speaker Active Matching), and the EVO embedded platform. Its developer-facing surface is the Devialet IP Control API — an unauthenticated HTTP API served by the speakers themselves on the local network under the /ipcontrol/v1 path, introduced with DOS 2.14 firmware and documented by Devialet as a PDF reference for system integrators. It exposes device, system, and group state plus playback, volume, equalizer, night mode, Bluetooth pairing, and power and factory-reset commands, with mDNS/DNS-SD discovery. Devialet also ships certified home-automation drivers for Crestron and Control4 alongside the raw API.",
+     "rank": 827
+    },
+    {
+     "name": "Drone Racing League",
+     "slug": "drone-racing-league",
+     "description": "The Drone Racing League (DRL) is a New York-based professional drone racing property founded in 2015 by Nicholas Horbaczewski, staging first-person-view (FPV) races in which pilots fly identical, league-built quadcopters - the Racer series - through three-dimensional courses in stadiums, arenas and landmark venues at speeds above 80 mph. DRL designs its own racing drones, timing and telemetry hardware, produces and distributes its race broadcasts across NBC, Sky Sports, ProSiebenSat.1 and streaming platforms, and operates the DRL Simulator, an FPV racing game on Steam, PlayStation and Xbox that feeds the Swatch DRL Tryouts esports pipeline used to recruit professional pilots. The company was acquired by Infinite Reality (now Napster) in April 2024. DRL publishes no public developer portal, API documentation, SDKs or machine-readable API specification, and as of the 2026-08-04 enrichment pass its primary web properties (thedroneracingleague.com, drl.io) were not completing a TLS handshake.",
+     "rank": 828
+    },
+    {
+     "name": "Duetti",
+     "slug": "duetti",
+     "description": "Duetti is a New York-headquartered music finance and catalog services company founded in 2022 by Lior Tibon and Christopher Nolte that buys music rights directly from independent artists, songwriters and creators. Artists earning at least $2,000 a year from tracks at least six months old can sell masters, publishing shares or a percentage of their royalties for an upfront cash payment — no debt, interest or recoupment — while keeping whatever they do not sell. Alongside the catalog purchases Duetti provides distribution, royalty tracking and claiming, playlisting across a network of owned Spotify playlists, sync placement, paid advertising, influencer and UGC campaigns, and a commissioned remix program. The company has raised more than $435 million, works with 1,100+ music creators, and publishes the Music Economics Report and the Billboard Music Finance Index. Duetti operates artist-facing web applications (DUO onboarding, statements vault, sync portal) but publishes no public developer API, SDK, or machine-readable API contract as of this profile.",
+     "rank": 829
+    },
     {
      "name": "Slow Ventures",
      "slug": "slow-ventures",
      "description": "Slow Ventures is a generalist early-stage venture capital firm founded in 2011 and headquartered in San Francisco, with additional offices in Boston and New York. The firm leads pre-seed and seed rounds, writing typical checks of roughly $500K to $3M (averaging around $1.75M), and explicitly rejects thematic investing in favor of backing experienced founders with deep, hard-won domain expertise and genuine conviction. Slow's thesis funds rapid, high-stakes experimentation: capital that tests a novel risk or hypothesis whose validation dramatically increases a company's value and that cannot easily be funded another way. As a generalist, Slow invests across consumer and social, fintech, SaaS and enterprise/developer tools, healthcare, crypto/web3, the creator economy, and real-world operations (SMB acceleration, buyouts/rollups, franchising). The firm runs a dedicated Creator Fund backing creator-led businesses, and has deployed roughly $800M+ across multiple fund vintages since inception. Notable investments include Pinterest, Slack, Robinhood, Nextdoor, Postmates, Opendoor, Wealthfront, Casper, PillPack, Airtable, Gusto, and Solana.",
-     "rank": 827
+     "rank": 830
     },
     {
      "name": "Social Capital",
      "slug": "social-capital",
      "description": "Social Capital is a technology investment firm founded in 2011 by Chamath Palihapitiya (a former Facebook executive) and headquartered in Palo Alto, California, with co-founders Mamoon Hamid and Ted Maidenberg. Originally a traditional venture fund that stood out by backing healthcare, financial services, education, and other hard, regulated sectors the VC community had neglected, the firm pivoted in 2018 into a technology holding company that stopped accepting outside capital and now invests from its own permanent balance sheet of roughly $2.1B, aiming to \"earn like Berkshire Hathaway and invest like the Red Cross.\" Its thesis targets multiple emerging $10T markets across deep tech commercialization, life sciences and drug discovery, the global energy transition, and creator-economy media. Chamath became known as the \"SPAC King\" for taking companies public through the Social Capital Hedosophia (IPOA-IPOF) vehicles, including Virgin Galactic, Opendoor, Clover Health, and SoFi. Notable investments include Slack, Box, SurveyMonkey, Wealthfront, Netskope, Intercom, Groq, Palmetto, Saildrone, and Relativity Space.",
-     "rank": 828
+     "rank": 831
     },
     {
      "name": "Visioconference",
      "slug": "visioconference",
      "description": "Visioconference (video conferencing) is a category of communication technology enabling real-time visual and audio communication between remote participants. This repository profiles the video conferencing API ecosystem including leading providers such as Zoom, Microsoft Teams, Google Meet, Webex, Digital Samba, VideoSDK, Daily.co, and others offering REST APIs for embedding and managing video conferencing functionality. The term \"visioconference\" is commonly used in French-speaking contexts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/visioconference/refs/heads/main/screenshots/visioconference-2026-06-20T201051.png",
-     "rank": 829
+     "rank": 832
     }
    ]
   }

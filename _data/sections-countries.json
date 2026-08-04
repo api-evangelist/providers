@@ -3,13 +3,13 @@
   "slug": "united-kingdom",
   "name": "United Kingdom",
   "flag": "🇬🇧",
-  "count": 326
+  "count": 327
  },
  {
   "slug": "india",
   "name": "India",
   "flag": "🇮🇳",
-  "count": 306
+  "count": 308
  },
  {
   "slug": "china",
@@ -21,7 +21,7 @@
   "slug": "united-states",
   "name": "United States",
   "flag": "🇺🇸",
-  "count": 298
+  "count": 299
  },
  {
   "slug": "australia",
@@ -57,7 +57,7 @@
   "slug": "france",
   "name": "France",
   "flag": "🇫🇷",
-  "count": 85
+  "count": 86
  },
  {
   "slug": "japan",
@@ -87,7 +87,7 @@
   "slug": "singapore",
   "name": "Singapore",
   "flag": "🇸🇬",
-  "count": 50
+  "count": 52
  },
  {
   "slug": "sweden",

@@ -1,6 +1,6 @@
 {
- "total": 595,
- "shown": 595,
+ "total": 598,
+ "shown": 598,
  "limit": 1000,
  "bands": [
   {
@@ -23471,22 +23471,40 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
+   "count": 5,
+   "shown": 5,
    "providers": [
+    {
+     "name": "ConnectDER",
+     "slug": "connectder",
+     "description": "ConnectDER is a Philadelphia-based clean energy hardware company and the leading US manufacturer of meter socket adapters (MSAs, also called meter collars) for the residential market. Founded in 2011 as Infinite Invention LLC after a DOE SunShot Incubator grant, it builds plug-and-play devices that install at the utility meter socket to interconnect distributed energy resources — rooftop solar, battery storage and EV charging — without panel upgrades, line-side taps or circuit relocations. Its product line is the IslandDER MSA (a microgrid interconnect device for solar-plus-battery and whole-home backup, integrated by SolarEdge, FranklinWH, Lunar Energy, EcoFlow and Fox ESS), the Solar MSA and the EV MSA. ConnectDER helped author UL 414 Supplements A, B and C, the standards governing meter socket adapters, and has surpassed 40,000 devices installed across US utility territories including PG&E, SCE and SDG&E. ConnectDER publishes no public developer API, SDK or machine-readable API contract; its devices communicate with partner battery systems over discrete hardwired sensing, control and status signals rather than a network interface. It does publish an llms.txt at its web root.",
+     "rank": 594
+    },
+    {
+     "name": "Connected Kerb",
+     "slug": "connected-kerb",
+     "description": "Connected Kerb is a UK electric-vehicle charging company that designs, installs, owns and operates public on-street and destination charge points, with a particular focus on residential drivers who have no off-street parking. Founded in 2017 and headquartered in London, it delivers long-term charging concessions for local authorities, workplaces, retail destinations, car parks and residential developers, and by mid-2026 operated roughly 7,800 public chargers across about 1,780 UK locations. Its Chameleon, Gecko, Scarab and Limpet charge points are backed by a charge point management system, a driver mobile app, a customer portal for site hosts and landowners, and an OCPI roaming interface used for e-mobility roaming and for UK Public Charge Point Regulations 2023 open-data obligations.",
+     "rank": 595
+    },
+    {
+     "name": "Dunzo",
+     "slug": "dunzo",
+     "description": "Dunzo was an Indian hyperlocal delivery and quick-commerce platform founded in July 2014 in Bengaluru by Kabeer Biswas, Ankur Agarwal, Dalvir Suri and Mukund Jha, which grew from a WhatsApp group into an app-based service delivering groceries, food, medicines, pet supplies and same-city packages across up to nine Indian cities. Its Dunzo for Business (D4B) offering gave merchants last-mile delivery through a partner API and through multi-carrier aggregators. Backed by Google, Blume Ventures, Alteria Capital and Reliance Retail, the company was dissolved on 14 January 2025; the app and website were shut down and every Dunzo-operated host, including its merchant API, is now offline. This profile is retained as a historical record — Dunzo publishes no developer portal, documentation, specification or support channel today.",
+     "rank": 596
+    },
     {
      "name": "Energy and Utilities",
      "slug": "energy-utilities",
      "description": "Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It indexes utility data integration APIs, grid and wholesale market operator APIs, federal energy data programs, renewable energy research APIs, weather APIs that drive grid demand and solar forecasting, EV charging interoperability protocols, and the Green Button family of customer energy data standards. The repo provides a baseline catalog plus shared semantics (JSON Schema, JSON-LD, vocabulary, examples) for the meter reading / energy data point that ties every one of these surfaces together.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/screenshots/energy-utilities-2026-06-20T180707.png",
-     "rank": 594
+     "rank": 597
     },
     {
      "name": "Open Charge Map",
      "slug": "openchargemap",
      "description": "Open Charge Map is the global public registry of electric vehicle charging locations, established in 2011 as a non-commercial, community-driven project. The platform maintains a crowdsourced dataset of 300,000+ charging points worldwide, combining manually entered data with imported open data from government registries and charging networks. The REST API enables developers to search and retrieve POI (Points of Interest) data on EV charging stations, including location details, equipment specifications, connection types, operator information, and user-submitted check-ins and photos. Data can be filtered by geographic coordinates, bounding box, country, operator, connection type, charging level, and operational status. The API is free to use with an API key registration and supports both read (GET) and write (POST) operations for contributing new charging location data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/screenshots/openchargemap-2026-06-20T190925.png",
-     "rank": 595
+     "rank": 598
     }
    ]
   }

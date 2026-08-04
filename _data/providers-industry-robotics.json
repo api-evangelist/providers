@@ -1,6 +1,6 @@
 {
- "total": 967,
- "shown": 967,
+ "total": 971,
+ "shown": 971,
  "limit": 1000,
  "bands": [
   {
@@ -36779,8 +36779,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 13,
-   "shown": 13,
+   "count": 17,
+   "shown": 17,
    "providers": [
     {
      "name": "Automated Sorting Systems",
@@ -36804,69 +36804,93 @@
      "rank": 957
     },
     {
+     "name": "Drone Racing League",
+     "slug": "drone-racing-league",
+     "description": "The Drone Racing League (DRL) is a New York-based professional drone racing property founded in 2015 by Nicholas Horbaczewski, staging first-person-view (FPV) races in which pilots fly identical, league-built quadcopters - the Racer series - through three-dimensional courses in stadiums, arenas and landmark venues at speeds above 80 mph. DRL designs its own racing drones, timing and telemetry hardware, produces and distributes its race broadcasts across NBC, Sky Sports, ProSiebenSat.1 and streaming platforms, and operates the DRL Simulator, an FPV racing game on Steam, PlayStation and Xbox that feeds the Swatch DRL Tryouts esports pipeline used to recruit professional pilots. The company was acquired by Infinite Reality (now Napster) in April 2024. DRL publishes no public developer portal, API documentation, SDKs or machine-readable API specification, and as of the 2026-08-04 enrichment pass its primary web properties (thedroneracingleague.com, drl.io) were not completing a TLS handshake.",
+     "rank": 958
+    },
+    {
+     "name": "Dyna Robotics",
+     "slug": "dyna-robotics",
+     "description": "Dyna Robotics is a Redwood City, California robotics AI company founded in 2024 by Lindon Gao, York Yang and Jason Ma to build robot foundation models for real-world commercial automation. Its DYNA-1 vision-language-action (VLA) model drives pairs of stationary robotic arms through high-dexterity tasks such as napkin folding and garment handling, and the company reports a 99%+ autonomous success rate over 24-hour continuous runs. Dyna targets commercial laundry, food service and factory environments, and closed a $120M Series A in September 2025 led by Robostrategy, CRV and First Round Capital with participation from NVentures, the Amazon Industrial Innovation Fund, Salesforce Ventures, Samsung Next and LG Technology Ventures, following a $23.5M seed. Dyna sells robotics-as-a-service rather than software: enrichment probing of dyna.co found no public developer API, OpenAPI/AsyncAPI/GraphQL contract, SDK, developer portal, MCP server, agent card, or event surface.",
+     "rank": 959
+    },
+    {
+     "name": "Edge Case Research",
+     "slug": "edge-case-research",
+     "description": "Edge Case Research (operating as \"Edge Case\", ecr.ai) is a Pittsburgh, Pennsylvania company founded in 2013 that provides functional safety engineering, risk management and safety-assurance software for autonomous and other \"frontier technology\" systems. Its DevSafeOps methodology carries safety through the whole product lifecycle — hazard identification in design, verified safety evidence in build, and continuous safety monitoring in operations — and its nLoop live-safety-case platform assembles evidence from design, simulation, test and field operations into an auditable, continuously updated safety case. The company works across aerospace and defense, automotive and autonomous trucking, space, oil and gas, and supply chain and logistics, and publishes the Open Autonomy Safety Case framework as SACM XML on GitHub. Edge Case publishes no public product API or OpenAPI; the only machine-readable surface reachable on its own host is the Wix-provided site MCP endpoint advertised in its llms.txt.",
+     "rank": 960
+    },
+    {
      "name": "EQT Ventures",
      "slug": "eqt-ventures",
      "description": "EQT Ventures is the early-stage venture capital business within EQT Group, launched in 2016 and operating out of Stockholm with investment-advisory offices in London, Berlin, Paris, Amsterdam, and the United States (San Francisco / New York); the funds themselves are domiciled in Luxembourg. The firm is a sector-agnostic, conviction-led lead investor that backs what it calls \"Generation-Defining Companies\" from pre-seed and seed through Series A and B, writing checks that reported ranges place between roughly EUR 1M and EUR 75M (most commonly EUR 2M-50M) and following on as companies scale. EQT Ventures has raised approximately EUR 2.3B across three funds (EQT Ventures I, II, and III) and is staffed largely by ex-founders and operators who provide hands-on support in addition to capital. Its focus spans AI, SaaS and developer tools, fintech, healthtech, climate and deeptech, robotics and aerospace, gaming, and consumer/marketplaces. Notable investments include Wolt, Depop, Typeform, AnyDesk, Netlify, Fly.io, Einride, Small Giant Games, Kry, and Beamery.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eqt-ventures/refs/heads/main/screenshots/eqt-ventures-2026-07-25T213540.png",
-     "rank": 958
+     "rank": 961
+    },
+    {
+     "name": "Ethernovia",
+     "slug": "ethernovia",
+     "description": "Ethernovia is a San Jose, California semiconductor company building deterministic Ethernet networking silicon for software-defined vehicles, robotics and physical AI. Its portfolio spans single-pair (T1) Ethernet PHYs from 1G to 10G (ENT11100, ENT11025, ENT14100, ENT14025), deterministic packet processors and switches, and the High-Speed Sensor Bridge platform that bridges GMSL 2/3 cameras and CAN FD/XL onto 10GBASE-T1 Ethernet for NVIDIA Holoscan, Orin and Thor compute. Ethernovia publishes no public product API: its software binaries, source-code drivers, header files and plug-in APIs are distributed to customers under NDA and a separate EULA through the Ethernovia Customer Portal. The one machine-readable contract reachable without credentials is the Customer Portal's own backend API, whose Swagger UI is served publicly at portal-admin.ethernovia.com/documentation.",
+     "rank": 962
     },
     {
      "name": "Foundry Group",
      "slug": "foundry-group",
      "description": "Foundry Group is a Boulder, Colorado venture capital firm founded in 2007 by Brad Feld, Seth Levine, Ryan McIntyre, and Jason Mendelson. The firm invests in early-stage technology startups across the United States, organizing its work around long-lived, horizontal investment themes (such as \"glue\", \"protocol\", \"distribution\", and \"human computer interaction\") rather than narrow verticals, with a particular affinity for hardware, robotics, consumer internet, developer tools, and B2B SaaS. Foundry pioneered a \"network-driven\" model that operates both as a direct investor in startups and as a limited partner in a curated network of more than 40 partner venture funds. The firm manages more than $3.0B for its limited partners, has made 320+ investments and 70+ exits, and is known for radical transparency through the books, blogs, and podcasts of its partners. Notable investments include Fitbit, Zynga, SendGrid, MakerBot, Gnip, Mapbox, SeatGeek, and WHOOP. In 2022 the partners announced Foundry would not raise another fund, continuing to steward its existing funds and portfolio through their life.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/foundry-group/refs/heads/main/screenshots/foundry-group-2026-07-25T215039.png",
-     "rank": 959
+     "rank": 963
     },
     {
      "name": "Kubernetes Operators",
      "slug": "kubernetes-operators",
      "description": "Kubernetes Operators are a method of packaging, deploying, and managing Kubernetes applications that extend the Kubernetes API to create, configure, and manage instances of complex applications on behalf of a Kubernetes user.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubernetes-operators/refs/heads/main/screenshots/kubernetes-operators-2026-06-20T184206.png",
-     "rank": 960
+     "rank": 964
     },
     {
      "name": "Lux Capital",
      "slug": "lux-capital",
      "description": "Lux Capital is a New York City-based venture capital firm founded in 2000 by Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building companies at the frontier of science and technology, turning \"sci-fi into sci-fact.\" The firm systematically mines academia and government research labs for breakthrough technologies that have matured beyond proof-of-concept but have not yet attracted mainstream venture attention, then makes long-term bets on contrarians and outsiders challenging the status quo. Lux invests primarily at early stage across three focus areas: AI and technology, defense/space/ manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics, and emerging science. The firm manages roughly $7 billion in assets under management across nine core funds, closing Lux Ventures IX at $1.5 billion in January 2026, and has invested in over 200 companies. Through Lux Labs, launched in 2024, the firm has also helped create more than 20 new companies. Notable portfolio companies include Anduril, Applied Intuition, Databricks, Cognition, Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is headquartered in New York City with an additional office in Silicon Valley.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lux-capital/refs/heads/main/screenshots/lux-capital-2026-07-25T225735.png",
-     "rank": 961
+     "rank": 965
     },
     {
      "name": "Paradigm",
      "slug": "paradigm",
      "description": "Paradigm is a research-driven, frontier-technology investment firm founded in 2018 by Coinbase co-founder Fred Ehrsam and former Sequoia Capital partner Matt Huang. Headquartered in San Francisco with offices in New York and Washington, DC, the firm began as one of the largest crypto-focused venture funds and has since expanded to build and invest across crypto, AI, robotics, and other technical frontiers \"from first check through to public markets.\" Paradigm is unusual in that it is both a builder and an investor: alongside its fund it ships open-source software (Reth, Foundry, Alloy, Artemis) and incubates companies. The firm has made 130+ investments and reported roughly $12.7B in assets under management as of April 2025; it raised a $2.5B first venture fund in 2021 and announced a new $1.2B fund in July 2026 aimed at the \"technical frontier\" including AI and robotics. Notable portfolio companies and protocols include Uniswap, Coinbase, Stripe, Optimism, Chainalysis, Fireblocks, Blur, Monad, Kalshi, and Zipline. Managing partners include Matt Huang and Alana Palmedo.",
-     "rank": 962
+     "rank": 966
     },
     {
      "name": "Playground Global",
      "slug": "playground-global",
      "description": "Playground Global is an early-stage deep tech venture capital firm founded in 2015 by Andy Rubin, Bruce Leak, Matt Hershenson, and Peter Barrett, and headquartered at 380 Portage Ave, Palo Alto, California. The firm invests \"somewhere between improbable and impossible,\" backing technical founders who take large technology risks and build companies from first principles. Playground concentrates on four pillars: next-gen compute (quantum computing, novel AI chip architectures, advanced interconnects, and semiconductors), automation (robotics, supply-chain and industrial automation with tangible ROI), energy transition and decarbonization, and engineered biology (AI-driven drug discovery, RNA editing, and next-generation therapies). It invests at the earliest stages, often at company formation, and operates Studio Palo Alto, a lab and prototyping environment for hardware and deep-science founders. Reported assets under management are over $1.2 billion across its funds. Notable portfolio companies include PsiQuantum, Relativity Space, Ultima Genomics, d-Matrix, Velo3D (NYSE), and MosaicML (acquired by Databricks).",
-     "rank": 963
+     "rank": 967
     },
     {
      "name": "Qiming Venture Partners",
      "slug": "qiming",
      "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 964
+     "rank": 968
     },
     {
      "name": "Sierra Ventures",
      "slug": "sierra-ventures",
      "description": "Sierra Ventures is an early-stage venture capital firm founded by Peter Wendell in 1982 and headquartered in San Mateo, California, in the heart of Silicon Valley. The firm invests from inception through Series A in first-principles founders under the tagline \"Conviction Before Consensus,\" writing checks of up to $5M at seed and up to $10M at Series A. Sierra's current investment thesis centers on the next wave of enterprise technology: Vertical AI (purpose-built AI for specific industries), Infrastructure AI, Frontier and Deep Tech, and Physical AI and Robotics, alongside a longstanding history in enterprise applications, digital health, SaaS, and security. Over its 40-plus-year history the firm has invested more than $2 billion across 13 early-stage funds, with its 13th fund closing in 2023 at $265 million, following Fund 12 at $215 million and Fund 11 at $170 million. Sierra reports 35 IPOs and hundreds of successful exits, having backed companies such as Elastic, Astronomer, Chronosphere, CourseHero, Q-CTRL, Spectro Cloud, Endor Labs, and Reflection AI. The firm is notable for its CXO Advisory Board of Fortune 1000 enterprise leaders who help portfolio companies land early customers. This profile tracks Sierra Ventures' identity and its portfolio graph across the API Evangelist network.",
-     "rank": 965
+     "rank": 969
     },
     {
      "name": "Spreadsheets",
      "slug": "spreadsheets",
      "description": "Spreadsheets covers the APIs, tools, and services for programmatic access to spreadsheet data across major platforms including Google Sheets and Microsoft Excel. The Google Sheets API v4 provides RESTful access to read, write, format, and manage Google Spreadsheets. The Microsoft Graph Excel API enables reading and writing Excel workbooks stored in OneDrive for Business and SharePoint. Third-party services like SheetDB, Sheety, Sheet Best, and Sheet2API convert spreadsheets into REST APIs for use as lightweight backends. Spreadsheet APIs are widely used for data import/export, automated reporting, form submissions, lightweight CMS, and business process automation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spreadsheets/refs/heads/main/screenshots/spreadsheets-2026-06-20T194359.png",
-     "rank": 966
+     "rank": 970
     },
     {
      "name": "Version One Ventures",
      "slug": "version-one-ventures",
      "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven founders who are early in new areas, writing pre-seed and seed checks where it typically leads or co-leads rounds in the roughly $500K-$1.5M range. Version One invests across marketplaces, SaaS, fintech and crypto, AI and automation, robotics and physical AI, deep tech, biology and health, and emerging-market ecosystems including India and Africa. Over more than a decade the firm has grown into a franchise of six funds and backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital.",
-     "rank": 967
+     "rank": 971
     }
    ]
   }

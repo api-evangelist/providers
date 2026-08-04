@@ -140,6 +140,76 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
+    "supply-chain": {
+        "slug": "state-of-supply-chain-apis",
+        "title": "The State of Supply Chain APIs",
+        "blurb": "Thirteen companies out of 1,124 publish idempotency — in the one industry where "
+                 "a retried request dispatches a second truck. No company here reaches 70.",
+        "price": "500",
+        "kind": "API Evangelist Market Report",
+    },
+}
+
+# Providers a tag rule cannot keep out of an industry, removed by hand.
+#
+# Some industries have a vocabulary they share with the rest of the economy, and no
+# set of tags draws their edge correctly. Supply chain is the worst case in the
+# catalog: even after the polysemous terms came out of TAG_INDUSTRIES, an iPaaS, a
+# document-AI vendor, two headless commerce platforms and a container registry still
+# land in it on a single legitimate tag. This list is the editorial boundary the tag
+# rule cannot express, and it is the same boundary The State of Supply Chain APIs is
+# scored against, so the section page and the report agree on who is in the market.
+#
+# Published into tag-industries.yml as an `exclude:` key so apis.io can honour the
+# same boundary from the same source of truth.
+TAG_INDUSTRY_EXCLUDE = {
+    "supply-chain": {
+        # horizontal software carrying one supply chain tag
+        "boomi", "affinda", "dun-and-bradstreet", "tonkean", "postalcodes-info",
+        # software supply chain - a different meaning of the phrase
+        "google-cloud-artifact-registry", "openssf",
+        # commerce platforms and consumer marketplaces
+        "commerce-layer", "swell-io", "swell", "etsy", "depop", "wallapop",
+        "back-market", "wish", "trendyol", "spreadshirt", "mirakl", "canal",
+        "channable", "stockx", "bjs-wholesale-club", "kurly", "cratejoy", "snipcart",
+        "spree", "opencart", "elastic-path", "demandware", "fabric-com", "bigcommerce",
+        "shopify-admin", "woocommerce", "avify", "snackmagic",
+        # trading, crypto, payments
+        "bloomberg-aim", "bloomberg-emsx", "bitstamp", "montonio", "fenbeitong",
+        # ride-hailing, food delivery, on-demand consumer
+        "uber", "uber-eats", "cabify", "deliveroo", "getir", "goget", "also",
+        "dispatch", "wolt",
+        # restaurant and hospitality back office
+        "plateiq", "qubiqle", "cloudkitchens", "deliverart", "otter", "erply",
+        "restaurant365", "marginedge", "wisk", "itsacheckmate", "lunchbox", "slice",
+        "fudo", "toast-tab", "flipdish",
+        # fleet telematics and mapping - vehicles, not goods
+        "samsara", "loconav", "automile", "revvo", "openrouteservice", "hivemapper",
+        "travelcenters-of-america",
+        # other verticals
+        "kpn", "syniverse", "benchling", "stedi", "ease", "codafication", "buildxact",
+        "zuper", "beamable", "steam", "partnerize", "n2yo", "looksrare",
+        # public-sector sales intelligence - the sell side, not the buy side
+        "govly", "starbridge", "nationgraph",
+        # general-purpose ERP and enterprise planning suites; a NAMED supply chain
+        # product from the same vendor (SAP Ariba, Oracle Transportation Management)
+        # stays in
+        "sap-s4hana", "sap-bydesign", "erpnext", "apache-ofbiz", "infor", "aptean",
+        "workday-financials", "anaplan", "softwareone", "sap-fieldglass",
+    },
+}
+
+# The mirror image: real members of an industry that no tag rule can reach.
+# e2open, Manhattan Associates and Blue Yonder are among the largest supply chain
+# software vendors in the world and carry NO tags at all in the catalog. The rest
+# are wholesale and IT distributors filed only under the ambiguous `distribution`
+# tag that was removed from TAG_INDUSTRIES above.
+TAG_INDUSTRY_INCLUDE = {
+    "supply-chain": {
+        "e2open", "manhattan-associates", "blue-yonder", "1worldsync",
+        "tech-data", "pax8", "protonai", "scansource", "synnex",
+        "sap-sales-and-distribution-sd",
+    },
 }
 
 TAG_INDUSTRIES = [
@@ -323,11 +393,29 @@ TAG_INDUSTRIES = [
         "name": "Supply Chain & Procurement",
         "icon": "inventory_2",
         "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
+        # Five terms were removed here in Aug 2026 because they are polysemous and
+        # were filing whole other industries under supply chain: `sourcing` matched
+        # recruiting (an ATS ranked #1 in this section), `orders` matched brokerages
+        # and ad ops, `distribution` matched electricity networks and travel
+        # wholesalers, `tracking` matched web analytics, `cross-border` matched
+        # payments. `inventory` went too - it matches game, lab and cloud-resource
+        # inventory. A third of the section's upper band was not a supply chain
+        # company. The logistics vocabulary that replaced them was missing entirely:
+        # `logistics` alone matches 571 providers and was not in this list.
         "tags": [
-            "supply chain", "procurement", "sourcing", "wholesale", "distribution", "freight",
-            "trucking", "shipping", "fulfillment", "warehousing", "inventory",
-            "inventory management", "order management", "orders", "edi", "customs",
-            "cross-border", "tracking", "3pl",
+            "supply chain", "supply-chain", "supply chain visibility", "supply chain risk",
+            "procurement", "e-procurement", "eprocurement", "procure-to-pay", "source-to-pay",
+            "strategic sourcing", "supplier management", "purchase orders",
+            "logistics", "third-party logistics", "3pl", "reverse logistics",
+            "freight", "freight forwarding", "freight brokerage", "load board",
+            "trucking", "transportation management", "ocean freight", "air freight",
+            "container tracking", "shipping",
+            "last mile", "last mile delivery", "last-mile delivery", "last-mile-delivery",
+            "courier", "couriers", "parcel delivery", "parcel tracking", "package tracking",
+            "shipment tracking",
+            "fulfillment", "warehousing", "warehouse management", "dropshipping", "dropship",
+            "inventory management", "order management",
+            "wholesale", "edi", "customs", "trade compliance", "global trade", "traceability",
         ],
     },
     {
@@ -1247,7 +1335,15 @@ def main():
             "# apis.io (api-search/network/scripts/build_industries.py) reads so both\n"
             "# sites derive the same industries from the same provider tags.\n"
         )
-        yaml.safe_dump(TAG_INDUSTRIES, fh, sort_keys=False, allow_unicode=True, width=10000)
+        published = []
+        for spec in TAG_INDUSTRIES:
+            rec = dict(spec)
+            if TAG_INDUSTRY_EXCLUDE.get(spec["slug"]):
+                rec["exclude"] = sorted(TAG_INDUSTRY_EXCLUDE[spec["slug"]])
+            if TAG_INDUSTRY_INCLUDE.get(spec["slug"]):
+                rec["include"] = sorted(TAG_INDUSTRY_INCLUDE[spec["slug"]])
+            published.append(rec)
+        yaml.safe_dump(published, fh, sort_keys=False, allow_unicode=True, width=10000)
 
     tag_to_slugs = {}
     for spec in TAG_INDUSTRIES:
@@ -1264,6 +1360,15 @@ def main():
             continue
         for t in meta[2]:
             for slug in tag_to_slugs.get(t.strip().lower(), ()):
+                if repo in TAG_INDUSTRY_EXCLUDE.get(slug, ()):
+                    continue
+                industries[slug]["providers"].add(repo)
+
+    for slug, extra in TAG_INDUSTRY_INCLUDE.items():
+        if slug not in industries:
+            continue
+        for repo in extra:
+            if os.path.isdir(os.path.join(ALL, repo)) and meta_of(repo) is not None:
                 industries[slug]["providers"].add(repo)
 
     industry_cards = []

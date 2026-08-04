@@ -14655,7 +14655,7 @@
     {
      "name": "Schematic",
      "slug": "schematic",
-     "description": "Schematic is a feature and entitlement management platform for SaaS companies, providing pricing, packaging, and metering capabilities. It enables engineering and product teams to manage feature flags, define subscription plans, track feature usage, and control customer entitlements without code changes. Schematic raised $6.5M in April 2026 and launched an official Stripe App for entitlement management as a first-class billing primitive. Customers include Plotly, Automox, Florence, Blackcloak, Sema4.ai, and Pagos.",
+     "description": "Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance then define plans, feature access and usage limits without shipping a release. The platform covers feature flags and entitlement checks, plan and package definition, usage metering and billing integration, with an official Stripe App for entitlement management. Schematic raised $6.5M in April 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/screenshots/schematic-2026-06-20T193553.png",
      "score": 56.1,
      "band": "strong",

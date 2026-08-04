@@ -1,6 +1,6 @@
 {
- "total": 841,
- "shown": 841,
+ "total": 843,
+ "shown": 843,
  "limit": 1000,
  "bands": [
   {
@@ -32950,8 +32950,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "AlayaCare",
@@ -32968,11 +32968,23 @@
      "rank": 840
     },
     {
+     "name": "Deskera",
+     "slug": "deskera",
+     "description": "Deskera is a cloud business-software suite for small and mid-sized businesses, combining ERP and accounting (Deskera Books), CRM and sales (Deskera Sales / CRM+), and HR and payroll (Deskera People) on a single platform covering purchasing, sales, stock and inventory, warehouses, manufacturing/MRP, billing, invoicing, quotations, payments, tax and financial reporting, contacts and deals, employees, attendance, leave, expenses and pay runs. Deskera publishes a public developer documentation site covering REST APIs for Books, Sales, CRM+ and People, a three-legged OAuth 2.0 authorization flow with an x-access-token bearer header, a webhook registration API with a documented event catalog, separate staging and production environments, and a Java SDK. The company operates from Singapore and the United States and also trades under the erp.ai brand for account sign-up and sign-in.",
+     "rank": 841
+    },
+    {
+     "name": "ExecOnline",
+     "slug": "execonline",
+     "description": "ExecOnline is a New York-based B2B leadership-development company that partners with top business schools — including UC Berkeley Executive Education, Chicago Booth, Columbia, UVA Darden, Tuck at Dartmouth, Duke CE, IMD, Ivey, MIT Sloan, Stanford GSB, Wharton and Yale — to deliver executive education online at enterprise scale. Founded in 2012, it blends professor-led courses, one-on-one and group coaching, cohort sessions and on-demand content into a single connected learning journey, and layers an insights-and-reporting platform on top so enterprises can align learning outcomes to business goals. ExecOnline acquired Teamraderie in 2026. Its learning platform is a credentialed, customer-only web application at platform.execonline.com; ExecOnline publishes no public developer portal, API documentation, or machine-readable API contract, and no public API surface was discoverable as of this profile.",
+     "rank": 842
+    },
+    {
      "name": "Factorial",
      "slug": "factorial-hr",
      "description": "Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 \"Legendre\") covering employees, contracts, attendance, time off, payroll, ATS, performance, trainings, projects, finance, banking, procurement, IT assets, documents, webhooks, and an Approvals workflow surface. Authentication uses OAuth2 (on behalf of a user) or an x-api-key header (on behalf of the company), with 30+ scopes for granular partner access. Factorial publishes the OpenAPI schema and generated SDKs (Ruby, Python, Java, PHP, TypeScript, Node.js) at github.com/factorialco/oas and exposes an llms.txt index for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png",
-     "rank": 841
+     "rank": 843
     }
    ]
   }

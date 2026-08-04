@@ -384,24 +384,163 @@
   description: Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.
   tags:
   - supply chain
+  - supply-chain
+  - supply chain visibility
+  - supply chain risk
   - procurement
-  - sourcing
-  - wholesale
-  - distribution
+  - e-procurement
+  - eprocurement
+  - procure-to-pay
+  - source-to-pay
+  - strategic sourcing
+  - supplier management
+  - purchase orders
+  - logistics
+  - third-party logistics
+  - 3pl
+  - reverse logistics
   - freight
+  - freight forwarding
+  - freight brokerage
+  - load board
   - trucking
+  - transportation management
+  - ocean freight
+  - air freight
+  - container tracking
   - shipping
+  - last mile
+  - last mile delivery
+  - last-mile delivery
+  - last-mile-delivery
+  - courier
+  - couriers
+  - parcel delivery
+  - parcel tracking
+  - package tracking
+  - shipment tracking
   - fulfillment
   - warehousing
-  - inventory
+  - warehouse management
+  - dropshipping
+  - dropship
   - inventory management
   - order management
-  - orders
+  - wholesale
   - edi
   - customs
-  - cross-border
-  - tracking
-  - 3pl
+  - trade compliance
+  - global trade
+  - traceability
+  exclude:
+  - affinda
+  - also
+  - anaplan
+  - apache-ofbiz
+  - aptean
+  - automile
+  - avify
+  - back-market
+  - beamable
+  - benchling
+  - bigcommerce
+  - bitstamp
+  - bjs-wholesale-club
+  - bloomberg-aim
+  - bloomberg-emsx
+  - boomi
+  - buildxact
+  - cabify
+  - canal
+  - channable
+  - cloudkitchens
+  - codafication
+  - commerce-layer
+  - cratejoy
+  - deliverart
+  - deliveroo
+  - demandware
+  - depop
+  - dispatch
+  - dun-and-bradstreet
+  - ease
+  - elastic-path
+  - erply
+  - erpnext
+  - etsy
+  - fabric-com
+  - fenbeitong
+  - flipdish
+  - fudo
+  - getir
+  - goget
+  - google-cloud-artifact-registry
+  - govly
+  - hivemapper
+  - infor
+  - itsacheckmate
+  - kpn
+  - kurly
+  - loconav
+  - looksrare
+  - lunchbox
+  - marginedge
+  - mirakl
+  - montonio
+  - n2yo
+  - nationgraph
+  - opencart
+  - openrouteservice
+  - openssf
+  - otter
+  - partnerize
+  - plateiq
+  - postalcodes-info
+  - qubiqle
+  - restaurant365
+  - revvo
+  - samsara
+  - sap-bydesign
+  - sap-fieldglass
+  - sap-s4hana
+  - shopify-admin
+  - slice
+  - snackmagic
+  - snipcart
+  - softwareone
+  - spreadshirt
+  - spree
+  - starbridge
+  - steam
+  - stedi
+  - stockx
+  - swell
+  - swell-io
+  - syniverse
+  - toast-tab
+  - tonkean
+  - travelcenters-of-america
+  - trendyol
+  - uber
+  - uber-eats
+  - wallapop
+  - wish
+  - wisk
+  - wolt
+  - woocommerce
+  - workday-financials
+  - zuper
+  include:
+  - 1worldsync
+  - blue-yonder
+  - e2open
+  - manhattan-associates
+  - pax8
+  - protonai
+  - sap-sales-and-distribution-sd
+  - scansource
+  - synnex
+  - tech-data
 - slug: biotechnology
   name: Biotechnology & Drug Discovery
   icon: biotech

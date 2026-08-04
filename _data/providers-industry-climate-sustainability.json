@@ -1,6 +1,6 @@
 {
- "total": 949,
- "shown": 949,
+ "total": 953,
+ "shown": 953,
  "limit": 1000,
  "bands": [
   {
@@ -15064,8 +15064,8 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 561,
-   "shown": 561,
+   "count": 562,
+   "shown": 562,
    "providers": [
     {
      "name": "Gridware",
@@ -27541,6 +27541,43 @@
      "rank": 686
     },
     {
+     "name": "ClimateAI",
+     "slug": "climateai",
+     "description": "ClimateAi (climate.ai) is a climate-intelligence company that turns global weather, climate and extreme-event modeling into decision-grade forecasts for agriculture, food and beverage, manufacturing, energy, finance, retail and federal/defense customers. Its ClimateLens products cover risk screening, monitoring and adaptation, and its developer surface is the LensConnect API — a REST weather and climate data API addressed by latitude and longitude that returns 30+ years of history (1995-present, ERA5-backed), a fixed 30-year climatology baseline, and AI-stitched probabilistic forecasts running from short-term through seasonal (~6 months) in a single continuous timeline, at ~25 km resolution with optional 1 km downscaling for select variables. A separate ClimateAI Platform gateway handles accounts, users, roles, permissions, device API keys and product routing.",
+     "score": 6.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.2,
+      "contract_quality": 4.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-04",
+     "schema_version": 0.9,
+     "agent_score": 11.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 687
+    },
+    {
      "name": "Purpose Green",
      "slug": "purposegreen",
      "description": "Purpose Green is a Berlin-based sustainability consulting firm and 360-degree provider for sustainable real estate development, serving property owners and investors who manage multi-unit residential and commercial buildings. The company combines energy auditing (its Energy Light Report tool), ESG reporting, subsidy and grant consultation, renovation project management, and a web-based portfolio management portal (Green+ Portal) to help reduce a building's final energy demand by up to 80%. It is backed by Speedinvest and was added to the API Evangelist network as a portfolio lead; the company publishes web tools and a customer portal but no public developer API or documentation at this time.",
@@ -27575,7 +27612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 687
+     "rank": 688
     },
     {
      "name": "Riverse",
@@ -27612,7 +27649,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 688
+     "rank": 689
     },
     {
      "name": "Shepherd 3",
@@ -27656,7 +27693,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 689
+     "rank": 690
     },
     {
      "name": "Sonoco Products",
@@ -27694,7 +27731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 690
+     "rank": 691
     },
     {
      "name": "AltoTech Global",
@@ -27739,7 +27776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 691
+     "rank": 692
     },
     {
      "name": "Alva Energy",
@@ -27784,7 +27821,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 692
+     "rank": 693
     },
     {
      "name": "InRisk",
@@ -27829,7 +27866,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 693
+     "rank": 694
     },
     {
      "name": "Mainspring Energy",
@@ -27874,7 +27911,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 694
+     "rank": 695
     },
     {
      "name": "Solestial",
@@ -27918,7 +27955,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 695
+     "rank": 696
     },
     {
      "name": "Tibo Energy",
@@ -27962,7 +27999,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 696
+     "rank": 697
     },
     {
      "name": "Wikifarmer",
@@ -27999,7 +28036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 697
+     "rank": 698
     },
     {
      "name": "IKEA U.S.",
@@ -28036,7 +28073,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 698
+     "rank": 699
     },
     {
      "name": "vestiairecollective",
@@ -28073,7 +28110,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 699
+     "rank": 700
     },
     {
      "name": "Aquafortus",
@@ -28111,7 +28148,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 700
+     "rank": 701
     },
     {
      "name": "Ateios",
@@ -28149,7 +28186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 701
+     "rank": 702
     },
     {
      "name": "Borqs",
@@ -28187,7 +28224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 702
+     "rank": 703
     },
     {
      "name": "Duane Morris",
@@ -28232,7 +28269,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 703
+     "rank": 704
     },
     {
      "name": "Element Zero",
@@ -28270,7 +28307,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 704
+     "rank": 705
     },
     {
      "name": "GeoGrid",
@@ -28307,7 +28344,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 705
+     "rank": 706
     },
     {
      "name": "Gokin",
@@ -28345,7 +28382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 706
+     "rank": 707
     },
     {
      "name": "Green Canopy NODE",
@@ -28383,7 +28420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 707
+     "rank": 708
     },
     {
      "name": "GreenQ",
@@ -28420,7 +28457,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 708
+     "rank": 709
     },
     {
      "name": "Heart Aerospace",
@@ -28458,7 +28495,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 709
+     "rank": 710
     },
     {
      "name": "Hydroleap",
@@ -28496,7 +28533,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 710
+     "rank": 711
     },
     {
      "name": "Kadeya",
@@ -28534,7 +28571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 711
+     "rank": 712
     },
     {
      "name": "MBA Polymers",
@@ -28571,7 +28608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 712
+     "rank": 713
     },
     {
      "name": "Movopack",
@@ -28608,7 +28645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 713
+     "rank": 714
     },
     {
      "name": "Plant Cartridge",
@@ -28645,7 +28682,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 714
+     "rank": 715
     },
     {
      "name": "Qarbotech",
@@ -28682,7 +28719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 715
+     "rank": 716
     },
     {
      "name": "RecommerceX",
@@ -28719,7 +28756,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 716
+     "rank": 717
     },
     {
      "name": "Seppure",
@@ -28756,7 +28793,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 717
+     "rank": 718
     },
     {
      "name": "Apollo Atomics Inc",
@@ -28801,7 +28838,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 718
+     "rank": 719
     },
     {
      "name": "Inviscid AI",
@@ -28845,7 +28882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 719
+     "rank": 720
     },
     {
      "name": "Sense",
@@ -28890,7 +28927,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 720
+     "rank": 721
     },
     {
      "name": "Spruce Finance *",
@@ -28934,7 +28971,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 721
+     "rank": 722
     },
     {
      "name": "First Solar",
@@ -28979,7 +29016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 722
+     "rank": 723
     },
     {
      "name": "Givemetap",
@@ -29016,7 +29053,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 723
+     "rank": 724
     },
     {
      "name": "Helion Energy",
@@ -29053,7 +29090,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 724
+     "rank": 725
     },
     {
      "name": "Hexing Electrical Co., Ltd.",
@@ -29098,7 +29135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 725
+     "rank": 726
     },
     {
      "name": "ICF (ICF International)",
@@ -29143,7 +29180,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 726
+     "rank": 727
     },
     {
      "name": "Ion Mobility",
@@ -29181,7 +29218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 727
+     "rank": 728
     },
     {
      "name": "Kairos Power",
@@ -29226,7 +29263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 728
+     "rank": 729
     },
     {
      "name": "Moxion Power",
@@ -29264,7 +29301,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 729
+     "rank": 730
     },
     {
      "name": "Mushroom Material",
@@ -29301,7 +29338,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 730
+     "rank": 731
     },
     {
      "name": "Pachama",
@@ -29339,7 +29376,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 731
+     "rank": 732
     },
     {
      "name": "TerraPower",
@@ -29377,7 +29414,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 732
+     "rank": 733
     },
     {
      "name": "The RealReal",
@@ -29414,7 +29451,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 733
+     "rank": 734
     },
     {
      "name": "Anda",
@@ -29452,7 +29489,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 734
+     "rank": 735
     },
     {
      "name": "Arctus Aerospace",
@@ -29490,7 +29527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 735
+     "rank": 736
     },
     {
      "name": "Dispatch Goods",
@@ -29528,7 +29565,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 736
+     "rank": 737
     },
     {
      "name": "Kintep (Jiangsu Kintep Environmental Protection Co., Ltd.)",
@@ -29565,7 +29602,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 737
+     "rank": 738
     },
     {
      "name": "MOLG",
@@ -29602,7 +29639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 738
+     "rank": 739
     },
     {
      "name": "Ballard Spahr",
@@ -29647,7 +29684,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 739
+     "rank": 740
     },
     {
      "name": "Holtec International",
@@ -29692,7 +29729,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 740
+     "rank": 741
     },
     {
      "name": "I Flow",
@@ -29737,7 +29774,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 741
+     "rank": 742
     },
     {
      "name": "Moment Energy",
@@ -29781,7 +29818,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 742
+     "rank": 743
     },
     {
      "name": "NuScale Power",
@@ -29826,7 +29863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 743
+     "rank": 744
     },
     {
      "name": "Pacific Fusion",
@@ -29870,7 +29907,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 744
+     "rank": 745
     },
     {
      "name": "Again",
@@ -29908,7 +29945,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 745
+     "rank": 746
     },
     {
      "name": "Axionorbital Space",
@@ -29946,7 +29983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 746
+     "rank": 747
     },
     {
      "name": "Bowery",
@@ -29984,7 +30021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 747
+     "rank": 748
     },
     {
      "name": "BreezoMeter Pollen",
@@ -30022,7 +30059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 748
+     "rank": 749
     },
     {
      "name": "Carbon Interface",
@@ -30060,7 +30097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 749
+     "rank": 750
     },
     {
      "name": "CO2 Offset",
@@ -30098,7 +30135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 750
+     "rank": 751
     },
     {
      "name": "Danish data service Energi",
@@ -30136,7 +30173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 751
+     "rank": 752
     },
     {
      "name": "GrünstromIndex",
@@ -30174,7 +30211,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 752
+     "rank": 753
     },
     {
      "name": "IQAir",
@@ -30211,7 +30248,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 753
+     "rank": 754
     },
     {
      "name": "Johnson Controls",
@@ -30249,7 +30286,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 754
+     "rank": 755
     },
     {
      "name": "Kuva Space",
@@ -30287,7 +30324,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 755
+     "rank": 756
     },
     {
      "name": "Kwest",
@@ -30325,7 +30362,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 756
+     "rank": 757
     },
     {
      "name": "Kyten Technologies",
@@ -30362,7 +30399,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 757
+     "rank": 758
     },
     {
      "name": "Luchtmeetnet",
@@ -30400,7 +30437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 758
+     "rank": 759
     },
     {
      "name": "LyondellBasell",
@@ -30437,7 +30474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 759
+     "rank": 760
     },
     {
      "name": "National Grid ESO",
@@ -30474,7 +30511,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 760
+     "rank": 761
     },
     {
      "name": "Orbital Insight",
@@ -30512,7 +30549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 761
+     "rank": 762
     },
     {
      "name": "Peerby",
@@ -30549,7 +30586,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 762
+     "rank": 763
     },
     {
      "name": "PM2.5 Open Data Portal",
@@ -30587,7 +30624,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 763
+     "rank": 764
     },
     {
      "name": "PM25.in",
@@ -30624,7 +30661,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 764
+     "rank": 765
     },
     {
      "name": "PVWatts",
@@ -30661,7 +30698,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 765
+     "rank": 766
     },
     {
      "name": "Srp Energy",
@@ -30699,7 +30736,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 766
+     "rank": 767
     },
     {
      "name": "UK Carbon Intensity",
@@ -30737,7 +30774,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 767
+     "rank": 768
     },
     {
      "name": "Website Carbon",
@@ -30775,7 +30812,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 768
+     "rank": 769
     },
     {
      "name": "Kettle",
@@ -30820,7 +30857,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 769
+     "rank": 770
     },
     {
      "name": "Raincoat",
@@ -30864,7 +30901,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 770
+     "rank": 771
     },
     {
      "name": "Alpha Technologies",
@@ -30909,7 +30946,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 771
+     "rank": 772
     },
     {
      "name": "Amphiform",
@@ -30954,7 +30991,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 772
+     "rank": 773
     },
     {
      "name": "Arcturus",
@@ -30999,7 +31036,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 773
+     "rank": 774
     },
     {
      "name": "Blueprint Power",
@@ -31043,7 +31080,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 774
+     "rank": 775
     },
     {
      "name": "Edviro",
@@ -31088,7 +31125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 775
+     "rank": 776
     },
     {
      "name": "Electroflow",
@@ -31133,7 +31170,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 776
+     "rank": 777
     },
     {
      "name": "Endurance Energy",
@@ -31178,7 +31215,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 777
+     "rank": 778
     },
     {
      "name": "EnerSys",
@@ -31223,7 +31260,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 778
+     "rank": 779
     },
     {
      "name": "ENGIE Insight Services",
@@ -31268,7 +31305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 779
+     "rank": 780
     },
     {
      "name": "Envision Energy",
@@ -31313,7 +31350,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 780
+     "rank": 781
     },
     {
      "name": "Fourth Power",
@@ -31358,7 +31395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 781
+     "rank": 782
     },
     {
      "name": "Greenchoice",
@@ -31403,7 +31440,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 782
+     "rank": 783
     },
     {
      "name": "New Jersey Resources",
@@ -31448,7 +31485,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 783
+     "rank": 784
     },
     {
      "name": "NextEra Energy",
@@ -31493,7 +31530,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 784
+     "rank": 785
     },
     {
      "name": "Niko",
@@ -31537,7 +31574,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 785
+     "rank": 786
     },
     {
      "name": "Oklo",
@@ -31581,7 +31618,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 786
+     "rank": 787
     },
     {
      "name": "Quanta Services",
@@ -31625,7 +31662,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 787
+     "rank": 788
     },
     {
      "name": "Radiant",
@@ -31669,7 +31706,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 788
+     "rank": 789
     },
     {
      "name": "Salient Energy",
@@ -31713,7 +31750,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 789
+     "rank": 790
     },
     {
      "name": "Solactron",
@@ -31757,7 +31794,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 790
+     "rank": 791
     },
     {
      "name": "SolarBridge Technologies",
@@ -31801,7 +31838,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 791
+     "rank": 792
     },
     {
      "name": "Solstice",
@@ -31845,7 +31882,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 792
+     "rank": 793
     },
     {
      "name": "SparkCharge",
@@ -31889,7 +31926,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 793
+     "rank": 794
     },
     {
      "name": "Terranox AI",
@@ -31933,7 +31970,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 794
+     "rank": 795
     },
     {
      "name": "yinglisolar",
@@ -31977,7 +32014,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 795
+     "rank": 796
     },
     {
      "name": "Zap Energy",
@@ -32022,7 +32059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 796
+     "rank": 797
     },
     {
      "name": "Alsym Energy",
@@ -32060,7 +32097,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 797
+     "rank": 798
     },
     {
      "name": "Amprius Technologies",
@@ -32098,7 +32135,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 798
+     "rank": 799
     },
     {
      "name": "Arcstone",
@@ -32136,7 +32173,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 799
+     "rank": 800
     },
     {
      "name": "BlackSky",
@@ -32174,7 +32211,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 800
+     "rank": 801
     },
     {
      "name": "Cabinet Health",
@@ -32219,7 +32256,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 801
+     "rank": 802
     },
     {
      "name": "Ch4 Global",
@@ -32257,7 +32294,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 802
+     "rank": 803
     },
     {
      "name": "Clairity",
@@ -32295,7 +32332,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 803
+     "rank": 804
     },
     {
      "name": "Coolant",
@@ -32333,7 +32370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 804
+     "rank": 805
     },
     {
      "name": "Darling Ingredients",
@@ -32371,7 +32408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 805
+     "rank": 806
     },
     {
      "name": "Dechert",
@@ -32416,7 +32453,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 806
+     "rank": 807
     },
     {
      "name": "Form Energy",
@@ -32454,7 +32491,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 807
+     "rank": 808
     },
     {
      "name": "Fyto",
@@ -32492,7 +32529,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 808
+     "rank": 809
     },
     {
      "name": "GigaCrop",
@@ -32530,7 +32567,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 809
+     "rank": 810
     },
     {
      "name": "Graphic Packaging",
@@ -32568,7 +32605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 810
+     "rank": 811
     },
     {
      "name": "Helion Energy",
@@ -32605,7 +32642,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 811
+     "rank": 812
     },
     {
      "name": "Industrial Microbes",
@@ -32643,7 +32680,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 812
+     "rank": 813
     },
     {
      "name": "Lithos Carbon",
@@ -32681,7 +32718,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 813
+     "rank": 814
     },
     {
      "name": "Mycotech",
@@ -32718,7 +32755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 814
+     "rank": 815
     },
     {
      "name": "Neoplants",
@@ -32755,7 +32792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 815
+     "rank": 816
     },
     {
      "name": "Quantumscape",
@@ -32792,7 +32829,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 816
+     "rank": 817
     },
     {
      "name": "Rubicon",
@@ -32829,7 +32866,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 817
+     "rank": 818
     },
     {
      "name": "SINAI Technologies",
@@ -32867,7 +32904,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 818
+     "rank": 819
     },
     {
      "name": "Starcloud",
@@ -32904,7 +32941,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 819
+     "rank": 820
     },
     {
      "name": "Supercritical",
@@ -32942,7 +32979,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 820
+     "rank": 821
     },
     {
      "name": "TAE Technologies",
@@ -32980,7 +33017,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 821
+     "rank": 822
     },
     {
      "name": "The Data Guild",
@@ -33024,7 +33061,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 822
+     "rank": 823
     },
     {
      "name": "The Nuclear Company",
@@ -33068,7 +33105,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 823
+     "rank": 824
     },
     {
      "name": "Verra",
@@ -33106,7 +33143,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 824
+     "rank": 825
     },
     {
      "name": "Volt14",
@@ -33143,7 +33180,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 825
+     "rank": 826
     },
     {
      "name": "X-energy",
@@ -33181,7 +33218,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 826
+     "rank": 827
     },
     {
      "name": "abillion",
@@ -33219,7 +33256,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 827
+     "rank": 828
     },
     {
      "name": "Advent Solar",
@@ -33256,7 +33293,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 828
+     "rank": 829
     },
     {
      "name": "AgLocal",
@@ -33293,7 +33330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 829
+     "rank": 830
     },
     {
      "name": "Albedo",
@@ -33330,7 +33367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 830
+     "rank": 831
     },
     {
      "name": "Amber Wave",
@@ -33368,7 +33405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 831
+     "rank": 832
     },
     {
      "name": "BANIQL CORP.",
@@ -33406,7 +33443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 832
+     "rank": 833
     },
     {
      "name": "Bedrock Materials",
@@ -33443,7 +33480,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 833
+     "rank": 834
     },
     {
      "name": "Brilliant Planet",
@@ -33481,7 +33518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 834
+     "rank": 835
     },
     {
      "name": "BTR New Material Group",
@@ -33518,7 +33555,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 835
+     "rank": 836
     },
     {
      "name": "C16 Biosciences",
@@ -33556,7 +33593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 836
+     "rank": 837
     },
     {
      "name": "Chart Industries",
@@ -33601,7 +33638,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 837
+     "rank": 838
     },
     {
      "name": "Circularity Fuels",
@@ -33639,7 +33676,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 838
+     "rank": 839
     },
     {
      "name": "Commercial Metals Company",
@@ -33677,7 +33714,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 839
+     "rank": 840
     },
     {
      "name": "Cultivaet Technologies Holding Ltd.",
@@ -33715,7 +33752,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 840
+     "rank": 841
     },
     {
      "name": "Deice",
@@ -33753,7 +33790,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 841
+     "rank": 842
     },
     {
      "name": "Ecobites Pte. Ltd.",
@@ -33791,7 +33828,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 842
+     "rank": 843
     },
     {
      "name": "Ecolab",
@@ -33829,7 +33866,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 843
+     "rank": 844
     },
     {
      "name": "Effa",
@@ -33866,7 +33903,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 844
+     "rank": 845
     },
     {
      "name": "Enviri (formerly Harsco)",
@@ -33904,7 +33941,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 845
+     "rank": 846
     },
     {
      "name": "Faircraft",
@@ -33942,7 +33979,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 846
+     "rank": 847
     },
     {
      "name": "Fleetzero",
@@ -33980,7 +34017,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 847
+     "rank": 848
     },
     {
      "name": "GAGO Group",
@@ -34018,7 +34055,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 848
+     "rank": 849
     },
     {
      "name": "GCL",
@@ -34056,7 +34093,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 849
+     "rank": 850
     },
     {
      "name": "graphenest.com",
@@ -34094,7 +34131,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 850
+     "rank": 851
     },
     {
      "name": "Graviti",
@@ -34131,7 +34168,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 851
+     "rank": 852
     },
     {
      "name": "Greif",
@@ -34169,7 +34206,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 852
+     "rank": 853
     },
     {
      "name": "Hydro Wind Energy",
@@ -34207,7 +34244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 853
+     "rank": 854
     },
     {
      "name": "illuminem",
@@ -34244,7 +34281,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 854
+     "rank": 855
     },
     {
      "name": "Imara",
@@ -34281,7 +34318,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 855
+     "rank": 856
     },
     {
      "name": "Impossiblefoods",
@@ -34319,7 +34356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 856
+     "rank": 857
     },
     {
      "name": "infarm",
@@ -34356,7 +34393,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 857
+     "rank": 858
     },
     {
      "name": "jsgaiya",
@@ -34393,7 +34430,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 858
+     "rank": 859
     },
     {
      "name": "Kairos Aerospace",
@@ -34438,7 +34475,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 859
+     "rank": 860
     },
     {
      "name": "Kazadi Enterprises",
@@ -34476,7 +34513,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 860
+     "rank": 861
     },
     {
      "name": "Lunasonde",
@@ -34514,7 +34551,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 861
+     "rank": 862
     },
     {
      "name": "Lydian",
@@ -34552,7 +34589,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 862
+     "rank": 863
     },
     {
      "name": "Mantari",
@@ -34589,7 +34626,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 863
+     "rank": 864
     },
     {
      "name": "microTERRA",
@@ -34626,7 +34663,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 864
+     "rank": 865
     },
     {
      "name": "Modular Wind Energy",
@@ -34663,7 +34700,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 865
+     "rank": 866
     },
     {
      "name": "Module",
@@ -34700,7 +34737,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 866
+     "rank": 867
     },
     {
      "name": "Molagri",
@@ -34737,7 +34774,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 867
+     "rank": 868
     },
     {
      "name": "Molten Industries",
@@ -34774,7 +34811,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 868
+     "rank": 869
     },
     {
      "name": "Mycoworks",
@@ -34811,7 +34848,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 869
+     "rank": 870
     },
     {
      "name": "Natron Energy",
@@ -34848,7 +34885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 870
+     "rank": 871
     },
     {
      "name": "Nexus Lab Technologies, Inc.",
@@ -34885,7 +34922,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 871
+     "rank": 872
     },
     {
      "name": "Nosh Bio",
@@ -34922,7 +34959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 872
+     "rank": 873
     },
     {
      "name": "Nucor",
@@ -34960,7 +34997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 873
+     "rank": 874
     },
     {
      "name": "Omeat",
@@ -34997,7 +35034,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 874
+     "rank": 875
     },
     {
      "name": "Omniscient",
@@ -35034,7 +35071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 875
+     "rank": 876
     },
     {
      "name": "OpenInvest",
@@ -35071,7 +35108,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 876
+     "rank": 877
     },
     {
      "name": "OptoAtmospherics",
@@ -35108,7 +35145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 877
+     "rank": 878
     },
     {
      "name": "Orbicle Bio",
@@ -35145,7 +35182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 878
+     "rank": 879
     },
     {
      "name": "Packfleet",
@@ -35182,7 +35219,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 879
+     "rank": 880
     },
     {
      "name": "Phoenix Tailings",
@@ -35219,7 +35256,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 880
+     "rank": 881
     },
     {
      "name": "Phood Solutions",
@@ -35256,7 +35293,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 881
+     "rank": 882
     },
     {
      "name": "Planetly",
@@ -35293,7 +35330,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 882
+     "rank": 883
     },
     {
      "name": "Proterra",
@@ -35330,7 +35367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 883
+     "rank": 884
     },
     {
      "name": "PurismEV Inc.",
@@ -35367,7 +35404,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 884
+     "rank": 885
     },
     {
      "name": "PwC",
@@ -35405,7 +35442,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 885
+     "rank": 886
     },
     {
      "name": "Rise Reforming",
@@ -35442,7 +35479,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 886
+     "rank": 887
     },
     {
      "name": "Roadrunner",
@@ -35479,7 +35516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 887
+     "rank": 888
     },
     {
      "name": "Rothys",
@@ -35516,7 +35553,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 888
+     "rank": 889
     },
     {
      "name": "Rovilus",
@@ -35553,7 +35590,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 889
+     "rank": 890
     },
     {
      "name": "Rtv",
@@ -35590,7 +35627,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 890
+     "rank": 891
     },
     {
      "name": "Safire",
@@ -35627,7 +35664,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 891
+     "rank": 892
     },
     {
      "name": "Shellworks",
@@ -35664,7 +35701,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 892
+     "rank": 893
     },
     {
      "name": "Skybox Imaging",
@@ -35701,7 +35738,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 893
+     "rank": 894
     },
     {
      "name": "Skyboximaging",
@@ -35738,7 +35775,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 894
+     "rank": 895
     },
     {
      "name": "Smalt",
@@ -35775,7 +35812,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 895
+     "rank": 896
     },
     {
      "name": "Solugen",
@@ -35812,7 +35849,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 896
+     "rank": 897
     },
     {
      "name": "Spiritus",
@@ -35849,7 +35886,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 897
+     "rank": 898
     },
     {
      "name": "SunFarmer",
@@ -35886,7 +35923,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 898
+     "rank": 899
     },
     {
      "name": "SUNWODA",
@@ -35923,7 +35960,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 899
+     "rank": 900
     },
     {
      "name": "Terra Bella (fka Skybox Imaging)",
@@ -35960,7 +35997,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 900
+     "rank": 901
     },
     {
      "name": "The Rounds",
@@ -35997,7 +36034,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 901
+     "rank": 902
     },
     {
      "name": "Three Wheels United",
@@ -36034,7 +36071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 902
+     "rank": 903
     },
     {
      "name": "Tidal Metals",
@@ -36071,7 +36108,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 903
+     "rank": 904
     },
     {
      "name": "Toasty",
@@ -36108,7 +36145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 904
+     "rank": 905
     },
     {
      "name": "Tradesy",
@@ -36145,7 +36182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 905
+     "rank": 906
     },
     {
      "name": "Ursa Space Systems",
@@ -36183,7 +36220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 906
+     "rank": 907
     },
     {
      "name": "Vestiaire Collective",
@@ -36220,7 +36257,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 907
+     "rank": 908
     },
     {
      "name": "Vinterior",
@@ -36257,7 +36294,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 908
+     "rank": 909
     },
     {
      "name": "ViridiCO2",
@@ -36294,7 +36331,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 909
+     "rank": 910
     },
     {
      "name": "Zephyr Fusion",
@@ -36331,7 +36368,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 910
+     "rank": 911
     },
     {
      "name": "Zwitterco",
@@ -36368,7 +36405,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 911
+     "rank": 912
     },
     {
      "name": "Hillenbrand",
@@ -36406,7 +36443,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 912
+     "rank": 913
     },
     {
      "name": "Sylvamo",
@@ -36444,7 +36481,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 913
+     "rank": 914
     },
     {
      "name": "Buildscience",
@@ -36489,7 +36526,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 914
+     "rank": 915
     },
     {
      "name": "Nanogrid",
@@ -36533,7 +36570,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 915
+     "rank": 916
     },
     {
      "name": "Fervo Energy",
@@ -36578,7 +36615,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 916
+     "rank": 917
     },
     {
      "name": "Fourier",
@@ -36623,7 +36660,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 917
+     "rank": 918
     },
     {
      "name": "Terragia",
@@ -36667,7 +36704,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 918
+     "rank": 919
     },
     {
      "name": "AMEE",
@@ -36711,7 +36748,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 919
+     "rank": 920
     },
     {
      "name": "cdhot (Hot New Energy Technology)",
@@ -36755,7 +36792,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 920
+     "rank": 921
     },
     {
      "name": "Clean Urban Energy",
@@ -36799,7 +36836,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 921
+     "rank": 922
     },
     {
      "name": "Estes Energy",
@@ -36844,7 +36881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 922
+     "rank": 923
     },
     {
      "name": "GridBank",
@@ -36888,7 +36925,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 923
+     "rank": 924
     },
     {
      "name": "Klir",
@@ -36933,7 +36970,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 924
+     "rank": 925
     },
     {
      "name": "Marvel Tech (Mufan Power)",
@@ -36978,7 +37015,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 925
+     "rank": 926
     },
     {
      "name": "Rens Energy",
@@ -37022,7 +37059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 926
+     "rank": 927
     },
     {
      "name": "Solar City",
@@ -37066,7 +37103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 927
+     "rank": 928
     },
     {
      "name": "Siluria Technologies",
@@ -37103,7 +37140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 928
+     "rank": 929
     },
     {
      "name": "Zolar",
@@ -37140,7 +37177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 929
+     "rank": 930
     }
    ]
   },
@@ -37149,139 +37186,157 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 20,
-   "shown": 20,
+   "count": 23,
+   "shown": 23,
    "providers": [
     {
      "name": "Anthemis Group",
      "slug": "anthemis",
      "description": "Anthemis Group is a London-based venture capital and asset management firm founded in 2010 by Amy Nauiokas (Group CEO) and Sean Park (Group CIO), both former capital-markets executives. Anthemis invests to \"architect the digital economy,\" concentrating on financial technology and its adjacencies: embedded finance, payments and banking infrastructure, insurtech, wealthtech, crypto and digital assets, climate and agtech finance, and applied AI for financial services. The firm invests primarily at pre-seed, seed, Series A and early Series B, writing checks generally in the ~$2M-$3M range, and pairs venture investing with an advisory and platform practice aimed at systematically transforming financial services. Anthemis is headquartered in London with additional presence in New York, Geneva, Amsterdam, Lisbon and Dallas, manages roughly $500M in assets, and has backed 300+ companies including Betterment, eToro, Carta, Pipe, TrueLayer, Tide, Currencycloud, Atom Bank and The Climate Corporation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/anthemis/refs/heads/main/screenshots/anthemis-2026-07-25T200409.png",
-     "rank": 930
+     "rank": 931
     },
     {
      "name": "Atomico",
      "slug": "atomico",
      "description": "Atomico is a London-headquartered European venture capital firm founded in 2006 by Niklas Zennstrom, co-founder of Skype and Kazaa. Atomico partners with Europe's most ambitious technology founders from the earliest stages to pre-IPO across two dedicated teams: a Venture team that invests predominantly at Series A alongside occasional Seed opportunities, and a Growth team that invests from Series B to pre-IPO. In September 2024 the firm closed its largest ever fundraise, $1.24 billion across two funds - a $754M Atomico Growth VI vehicle and a $485M Atomico Venture VI vehicle - bringing total capital raised across seven funds to more than $5 billion. Growth-stage checks typically range from roughly $10M to $50M+. Atomico invests broadly across enterprise software, fintech, consumer, health, AI, developer tools, infrastructure, industrial and climate technology, with an explicit thesis that European technology has come of age. The firm operates offices in London, Paris, Berlin and Stockholm and is known for backing category-defining companies including Klarna, Stripe, Supercell, Graphcore, DeepL, Pipedrive, Truecaller, Wellhub, Lilium, Compass, Hinge Health and Sorare. Atomico also publishes the annual State of European Tech report, the definitive data-driven analysis of the European technology ecosystem.",
-     "rank": 931
+     "rank": 932
+    },
+    {
+     "name": "ConnectDER",
+     "slug": "connectder",
+     "description": "ConnectDER is a Philadelphia-based clean energy hardware company and the leading US manufacturer of meter socket adapters (MSAs, also called meter collars) for the residential market. Founded in 2011 as Infinite Invention LLC after a DOE SunShot Incubator grant, it builds plug-and-play devices that install at the utility meter socket to interconnect distributed energy resources — rooftop solar, battery storage and EV charging — without panel upgrades, line-side taps or circuit relocations. Its product line is the IslandDER MSA (a microgrid interconnect device for solar-plus-battery and whole-home backup, integrated by SolarEdge, FranklinWH, Lunar Energy, EcoFlow and Fox ESS), the Solar MSA and the EV MSA. ConnectDER helped author UL 414 Supplements A, B and C, the standards governing meter socket adapters, and has surpassed 40,000 devices installed across US utility territories including PG&E, SCE and SDG&E. ConnectDER publishes no public developer API, SDK or machine-readable API contract; its devices communicate with partner battery systems over discrete hardwired sensing, control and status signals rather than a network interface. It does publish an llms.txt at its web root.",
+     "rank": 933
+    },
+    {
+     "name": "Connected Kerb",
+     "slug": "connected-kerb",
+     "description": "Connected Kerb is a UK electric-vehicle charging company that designs, installs, owns and operates public on-street and destination charge points, with a particular focus on residential drivers who have no off-street parking. Founded in 2017 and headquartered in London, it delivers long-term charging concessions for local authorities, workplaces, retail destinations, car parks and residential developers, and by mid-2026 operated roughly 7,800 public chargers across about 1,780 UK locations. Its Chameleon, Gecko, Scarab and Limpet charge points are backed by a charge point management system, a driver mobile app, a customer portal for site hosts and landowners, and an OCPI roaming interface used for e-mobility roaming and for UK Public Charge Point Regulations 2023 open-data obligations.",
+     "rank": 934
     },
     {
      "name": "DCVC (Data Collective)",
      "slug": "dcvc",
      "description": "DCVC (Data Collective) is a deep-tech venture capital firm founded in 2011 and headquartered in Palo Alto and San Francisco, California. Founded and led by managing partners Matt Ocko and Zachary Bogue, DCVC backs entrepreneurs using computational and AI-driven approaches to solve trillion-dollar problems in the real world across sectors that have often seen little material progress in decades. The firm invests from early through growth stages across AI, compute and quantum, computational biology and chemistry, cybersecurity and defense, energy and climate, finance and insurance, industrial transformation and advanced manufacturing, next-gen agriculture, space, TechBio and TechMed. Across 13+ funds DCVC manages roughly $4B in assets under management (self-reported / press), making it one of the larger dedicated deep-tech franchises. Notable portfolio outcomes include companies spanning fusion energy, carbon transformation, robotics, drug discovery, and data infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dcvc/refs/heads/main/screenshots/dcvc-2026-07-25T211501.png",
-     "rank": 932
+     "rank": 935
     },
     {
      "name": "Disclosure Requirements",
      "slug": "disclosure-requirements",
      "description": "Disclosure Requirements are the regulatory and legal obligations for organizations to reveal specific information to stakeholders, regulators, and the public. These requirements span financial disclosures (SEC, IFRS), sustainability and ESG reporting (CSRD, ESRS, IFRS S1/S2, TCFD, GRI, SASB), privacy notices (GDPR, CCPA), and corporate governance, helping ensure transparency and accountability across markets and jurisdictions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/disclosure-requirements/refs/heads/main/screenshots/disclosure-requirements-2026-06-20T180033.png",
-     "rank": 933
+     "rank": 936
+    },
+    {
+     "name": "Electra",
+     "slug": "electra",
+     "description": "Electra (legal name Electrasteel, Inc.) is a Boulder, Colorado clean-industrial company founded in 2020 that is reinventing ironmaking. Instead of smelting iron ore with fossil fuels in a blast furnace, Electra uses an electrochemical process — an acidic leach plus electrowinning driven by renewable electricity — to dissolve a broad range of iron ores, including low-grade and previously uncommercialized ores, and plate out 99% pure iron at roughly 60°C while recovering high-value co-minerals and emitting oxygen. The modular design lets units be added as building blocks for rapid scaling and lets the process follow intermittent renewable power. Electra has raised over $200M from Rio Tinto, BHP Ventures, POSCO, Breakthrough Energy Ventures, Amazon's Climate Pledge Fund, Capricorn and Lowercarbon Capital, runs a pilot plant in Boulder, and is building a demonstration plant in Colorado. It is an industrial manufacturer with no public developer program: as of this profile it publishes no API, developer portal, documentation, machine-readable specification, or /.well-known discovery surface.",
+     "rank": 937
     },
     {
      "name": "Energy and Utilities",
      "slug": "energy-utilities",
      "description": "Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It indexes utility data integration APIs, grid and wholesale market operator APIs, federal energy data programs, renewable energy research APIs, weather APIs that drive grid demand and solar forecasting, EV charging interoperability protocols, and the Green Button family of customer energy data standards. The repo provides a baseline catalog plus shared semantics (JSON Schema, JSON-LD, vocabulary, examples) for the meter reading / energy data point that ties every one of these surfaces together.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/screenshots/energy-utilities-2026-06-20T180707.png",
-     "rank": 934
+     "rank": 938
     },
     {
      "name": "EQT Ventures",
      "slug": "eqt-ventures",
      "description": "EQT Ventures is the early-stage venture capital business within EQT Group, launched in 2016 and operating out of Stockholm with investment-advisory offices in London, Berlin, Paris, Amsterdam, and the United States (San Francisco / New York); the funds themselves are domiciled in Luxembourg. The firm is a sector-agnostic, conviction-led lead investor that backs what it calls \"Generation-Defining Companies\" from pre-seed and seed through Series A and B, writing checks that reported ranges place between roughly EUR 1M and EUR 75M (most commonly EUR 2M-50M) and following on as companies scale. EQT Ventures has raised approximately EUR 2.3B across three funds (EQT Ventures I, II, and III) and is staffed largely by ex-founders and operators who provide hands-on support in addition to capital. Its focus spans AI, SaaS and developer tools, fintech, healthtech, climate and deeptech, robotics and aerospace, gaming, and consumer/marketplaces. Notable investments include Wolt, Depop, Typeform, AnyDesk, Netlify, Fly.io, Einride, Small Giant Games, Kry, and Beamery.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eqt-ventures/refs/heads/main/screenshots/eqt-ventures-2026-07-25T213540.png",
-     "rank": 935
+     "rank": 939
     },
     {
      "name": "Fifth Wall",
      "slug": "fifth-wall",
      "description": "Fifth Wall is a venture capital firm founded in 2016 by Brendan F. Wallace and Brad Greiwe and headquartered in Los Angeles, California, with additional offices in New York, San Francisco, and London. It is the largest investment firm focused on technology for the built environment (\"PropTech\") and real estate, investing across the venture and growth stages into companies that make buildings and the physical world smarter, safer, more sustainable, and more energy efficient. The firm spans sub-themes including proptech, construction technology, residential real estate, fintech for real estate, smart buildings, logistics, and a dedicated climate/decarbonization strategy. Fifth Wall's distinctive model pairs its portfolio companies with a network of roughly 115 strategic limited partners — major real estate owner-operators such as CBRE, Hilton, Hines, Marriott, Public Storage, Related, and Starwood Capital — to drive strategic partnerships and distribution. With over $3 billion in assets under management and nearly 170 portfolio companies, Fifth Wall has backed category leaders including Opendoor, Procore, ServiceTitan, Blend, Hippo, SmartRent, and Bilt Rewards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fifth-wall/refs/heads/main/screenshots/fifth-wall-2026-07-25T214432.png",
-     "rank": 936
+     "rank": 940
     },
     {
      "name": "Homebrew",
      "slug": "homebrew",
      "description": "Homebrew is a San Francisco-based seed-stage venture capital firm founded in 2013 by Hunter Walk (a former product leader at Google and YouTube) and Satya Patel (a former VP of Product at Twitter, partner at Battery Ventures, and product leader at Google). Named after the Homebrew Computer Club, the firm practices high-conviction, concentrated seed investing, taking board-level positions and acting as an extension of the founder's team. Roughly 90% of its investments are pre-seed and seed, with initial checks in the $100K-$500K range and the ability to follow on up to $25M+ in later rounds. Homebrew backs mission-driven founders working on large, urgent, and valuable problems across fintech, AI/ML, healthcare, climate, defense, logistics, real estate, and consumer, focused on companies operating in the Americas. After a decade of institutional funds that backed companies such as Chime, Plaid, Gusto, and Mercury, Homebrew announced in 2021 that it would stop raising outside LP capital and invest only its own money going forward under the banner \"Homebrew Forever.\"",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/homebrew/refs/heads/main/screenshots/homebrew-2026-07-25T221336.png",
-     "rank": 937
+     "rank": 941
     },
     {
      "name": "Initialized Capital",
      "slug": "initialized-capital",
      "description": "Initialized Capital is a seed-stage venture capital firm founded in 2012 by Garry Tan, Alexis Ohanian, and Harjeet (Harj) Taggar, with offices in San Francisco and New York. The firm is hyper-focused on the seed stage, typically investing before a startup's success strikes other investors as inevitable and favoring companies that have raised little to no prior capital. Rather than thematic investing, Initialized centers its thesis on strong founding teams and acts as a de facto extended founding team from 0 to 1, providing operational support across product design, engineering, recruiting, storytelling, go-to-market, and Series A fundraising. It invests broadly across enterprise SaaS, consumer, marketplaces, fintech, crypto, healthcare, climate, hardware, real estate, and frontier/AI technology. As of 2021 the firm had raised more than $3.2B across its funds and has backed 200+ companies, including 28 unicorns such as Coinbase, Instacart, Cruise, Flexport, Reddit, Opendoor, Rippling, and Patreon, with portfolio companies creating an aggregate of over $200B in market value.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/initialized-capital/refs/heads/main/screenshots/initialized-capital-2026-07-25T222438.png",
-     "rank": 938
+     "rank": 942
     },
     {
      "name": "Khosla Ventures",
      "slug": "khosla-ventures",
      "description": "Khosla Ventures is a Menlo Park, California venture capital firm founded in 2004 by Sun Microsystems co-founder Vinod Khosla. The firm backs bold, early, and impactful ventures, favoring contrarian deep-tech bets with world-class teams and a conviction-driven approach that deliberately accepts a high failure rate to capture transformative outcomes. Khosla invests across seed, early (Series A/B), and growth stages through its Seed Fund, Main Fund, and Opportunity (growth) Fund, writing checks that range from small seed positions to large growth rounds. Focus sectors span artificial intelligence, enterprise and consumer software, financial services and fintech, robotics and frontier/deep tech, aerospace and defense, climate and sustainability (clean energy, fusion, materials, agriculture), and digital health, medtech, diagnostics, and therapeutics. The firm manages roughly $16 billion in assets as of 2025 and is known for early investments in OpenAI, Stripe, Square/Block, DoorDash, Instacart, Affirm, Impossible Foods, GitLab, Okta, Rocket Lab, and QuantumScape. Headquarters are at 2128 Sand Hill Road, Menlo Park, CA, with a primarily United States geographic focus and select global investments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/khosla-ventures/refs/heads/main/screenshots/khosla-ventures-2026-07-25T223709.png",
-     "rank": 939
+     "rank": 943
     },
     {
      "name": "Kindred Ventures",
      "slug": "kindred-ventures",
      "description": "Kindred Ventures is a San Francisco-based, earliest-stage venture capital firm founded in 2014 by Steve Jang and led today as a partnership with Managing Partners Steve Jang and Kanyi Maqubela. The firm backs visionary and relentless founders building the future with technology and science, investing primarily at the pre-seed and seed stage and often partnering with entrepreneurs before a company is even formed. Kindred runs a deliberately concentrated, high-touch model of roughly 25 companies per fund, and has backed 100+ startups whose aggregate market capitalization now exceeds $200B. It invests across AI and new computing, crypto/web3, fintech, consumer, health and wellness, climate tech, mobility and logistics, and developer tools and infrastructure. With around $600M in assets under management, notable investments and exits include Uber, Coinbase, Poshmark, Reddit, Postmates, Blue Bottle Coffee, Perplexity, Tala, Magic Eden, dYdX, and PlayAI (acquired by Meta in 2025).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kindred-ventures/refs/heads/main/screenshots/kindred-ventures-2026-07-25T223809.png",
-     "rank": 940
+     "rank": 944
     },
     {
      "name": "Northzone",
      "slug": "northzone",
      "description": "Northzone is a multi-stage venture capital firm founded in 1996 in Oslo and now headquartered in London, with additional offices in New York, Stockholm, Berlin and Amsterdam. The firm partners with founders across the United States and Europe from Seed through Growth, positioning itself as a single long-term partner from the first check all the way to IPO, with check sizes ranging from roughly $1M to $50M. Over nearly three decades Northzone has raised 13 funds, backed more than 250 companies, produced 18 unicorns and 14 IPOs, and reports $3.1bn+ in assets under management; its most recent flagship vehicle raised approximately €1bn. Northzone invests broadly across AI, enterprise software, fintech, consumer, healthcare, climate and energy, and infrastructure and developer tools, and is known for early backing of category creators including Spotify, Klarna, Trustpilot, Kahoot!, Personio, TrueLayer, Avito and iZettle. The firm supports portfolio companies through a Platform team and a network of 500+ operators drawn from companies such as OpenAI, Anthropic and Stripe.",
-     "rank": 941
+     "rank": 945
     },
     {
      "name": "Obvious Ventures",
      "slug": "obvious-ventures",
      "description": "Obvious Ventures is a San Francisco-based early-stage venture capital firm founded in 2014 by Ev Williams, James Joaquin, and Vishal Vasishth, investing in entrepreneurs building \"world positive\" companies that solve humanity's biggest problems through technology. The firm invests across three thesis pillars: planetary health (sustainable energy, food, mobility, climate), human health and longevity (healthcare, biotech, wellness), and economic health (fintech, the future of work, robotics, and inclusive systems). Obvious writes approximately 10 new checks per year, typically $5M to $12M into seed and Series A rounds, deliberately keeping fund sizes small enough that a single durable public company can return an entire fund. It closed its fifth fund at $360,360,360 in early 2026 and has backed 90+ companies since inception, including Beyond Meat, Planet, Gusto, Recursion, Devoted Health, Diamond Foundry, and Proterra. Obvious is a Certified B Corporation headquartered at 190 Pacific Avenue, San Francisco, CA.",
-     "rank": 942
+     "rank": 946
     },
     {
      "name": "Open Charge Map",
      "slug": "openchargemap",
      "description": "Open Charge Map is the global public registry of electric vehicle charging locations, established in 2011 as a non-commercial, community-driven project. The platform maintains a crowdsourced dataset of 300,000+ charging points worldwide, combining manually entered data with imported open data from government registries and charging networks. The REST API enables developers to search and retrieve POI (Points of Interest) data on EV charging stations, including location details, equipment specifications, connection types, operator information, and user-submitted check-ins and photos. Data can be filtered by geographic coordinates, bounding box, country, operator, connection type, charging level, and operational status. The API is free to use with an API key registration and supports both read (GET) and write (POST) operations for contributing new charging location data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/screenshots/openchargemap-2026-06-20T190925.png",
-     "rank": 943
+     "rank": 947
     },
     {
      "name": "Social Capital",
      "slug": "social-capital",
      "description": "Social Capital is a technology investment firm founded in 2011 by Chamath Palihapitiya (a former Facebook executive) and headquartered in Palo Alto, California, with co-founders Mamoon Hamid and Ted Maidenberg. Originally a traditional venture fund that stood out by backing healthcare, financial services, education, and other hard, regulated sectors the VC community had neglected, the firm pivoted in 2018 into a technology holding company that stopped accepting outside capital and now invests from its own permanent balance sheet of roughly $2.1B, aiming to \"earn like Berkshire Hathaway and invest like the Red Cross.\" Its thesis targets multiple emerging $10T markets across deep tech commercialization, life sciences and drug discovery, the global energy transition, and creator-economy media. Chamath became known as the \"SPAC King\" for taking companies public through the Social Capital Hedosophia (IPOA-IPOF) vehicles, including Virgin Galactic, Opendoor, Clover Health, and SoFi. Notable investments include Slack, Box, SurveyMonkey, Wealthfront, Netskope, Intercom, Groq, Palmetto, Saildrone, and Relativity Space.",
-     "rank": 944
+     "rank": 948
     },
     {
      "name": "Speedinvest",
      "slug": "speedinvest",
      "description": "Speedinvest is one of Europe's most active early-stage venture capital firms, founded in 2011 by Oliver Holle and headquartered in Vienna, Austria, with additional offices in Berlin, London, Munich, and Paris across EMEA. The firm invests from pre-seed and seed through selective growth stages, writing typical early-stage checks of roughly EUR 500K to EUR 3M (and up to around $10M in later rounds), and manages more than EUR 1.2 billion in assets under management. Speedinvest runs a specialist model built around dedicated sector teams rather than generalists: AI & Infra, Climate Tech & Industrial Tech, Deep Tech, Fintech & DeFi, Health & Bio, Marketplaces & Consumer, Growth, and Middle East, Africa & Beyond. Its \"many move more\" thesis pairs early capital with hands-on operational support, talent, customer introductions, and a global follow-on network. The firm backs technical founders across Europe and beyond, with a portfolio of 400+ companies including Bitpanda, Tide, GoStudent, Wayflyer, Curve, Adverity, Bitmovin, CoachHub, and Prewave.",
-     "rank": 945
+     "rank": 949
     },
     {
      "name": "Stellation Capital",
      "slug": "stellation",
      "description": "Stellation Capital is a Brooklyn-based pre-seed and seed venture capital firm founded in 2021 by Peter A. Boyce II, who spent eight years at General Catalyst and co-founded its student-founder program Rough Draft Ventures. Operating under the tagline \"Backing Founders At First Light\" and the thesis \"Present Before Proof,\" Stellation raised a $40M debut fund and writes first checks of roughly $250K-$2.5M, leading and co-leading rounds for \"philomath\" founding teams whose identities are inseparable from the problems they are solving — across AI and personal computing, fintech, consumer software, online safety, climate/energy, and consumer health. Portfolio companies include Strobe Power, Revin, Tapestry, Hopscotch (acquired by Avalara), Software Applications Incorporated, swsh, Block Party, Hearth Display, and Vybe. Stellation is also a partner fund in Foundry Group's portfolio, which is how it entered the API Evangelist network. The firm publishes no APIs; this profile carries its identity and portfolio graph.",
-     "rank": 946
+     "rank": 950
     },
     {
      "name": "Techstars",
      "slug": "techstars",
      "description": "Techstars is a global pre-seed startup accelerator and investor founded in 2006 by David Cohen, Brad Feld, David Brown, and Jared Polis in Boulder, Colorado, and headquartered in New York City. Operating a worldwide network of mentorship-driven accelerator programs across cities including Boulder, Boston, Chicago, New York, London, and Tokyo, Techstars runs an intensive three-month program that provides each accepted company roughly $220,000 in capital — a $20,000 convertible equity agreement for a minimum 5% of common stock plus an optional $200,000 uncapped MFN post-money SAFE (Asia-Pacific programs at ~$100,000). The firm is largely sector-agnostic but is especially active in AI/ML, fintech, SaaS, developer tools, healthcare, climate, space and defense, and critical infrastructure, and operates on its signature \"Give First\" philosophy. Techstars has backed more than 10,000 founders, producing dozens of unicorns and notable companies including Twilio, SendGrid, DigitalOcean, Uber, Remitly, Chainalysis, ClassPass, DataRobot, and PillPack, with portfolio companies collectively raising tens of billions in follow-on capital.",
-     "rank": 947
+     "rank": 951
     },
     {
      "name": "True Ventures",
      "slug": "true-ventures",
      "description": "True Ventures is an early-stage venture capital firm founded in 2006 by Jon Callaghan and Phil Black and headquartered in Palo Alto / San Francisco, California. Operating under a \"first to believe\" thesis, True writes the initial institutional check and stays invested through every subsequent stage of a company's journey, concentrating on pre-seed, seed, and Series A rounds with check sizes reported in the roughly $500K-$15M range. The firm invests broadly across technology and founder-led categories including software and developer infrastructure, consumer products and internet, healthcare and life sciences, hardware and robotics, climate and energy, security, and AI. With more than $3.8B in committed capital, True has backed 1,050+ founders across 500+ companies since inception, with notable early checks into Fitbit, Peloton, Ring, Automattic/WordPress, HashiCorp, Duo Security, Sweetgreen, Bluesky, and Splice. True is known for its founder-first platform, the True University founder camps, and long-term conviction-led early ownership.",
-     "rank": 948
+     "rank": 952
     },
     {
      "name": "Union Square Ventures",
      "slug": "union-square-ventures",
      "description": "Union Square Ventures (USV) is a thesis-driven, early-stage venture capital firm founded in 2003 by Fred Wilson and Brad Burnham and headquartered at 817 Broadway in New York City. USV invests at the edge of large markets being transformed by technological and societal pressures, historically backing large networks of engaged users that are differentiated through user experience and defensible through network effects, and more recently companies that broaden access to knowledge, capital, and well-being. The firm invests primarily at Seed and Series A across three strategies — a Core fund, a Climate fund, and an Opportunity (later-stage) fund — with check sizes typically ranging from roughly $1M at seed to the low-to-mid single-digit millions at Series A. USV runs a small, collegial partnership and focuses on social media, marketplaces, developer tools, learning/education, health, fintech, web3/decentralized protocols, energy, and climate. It reports roughly $1.9B in assets under management across 14 funds. Notable investments include Twitter, Etsy, Coinbase, Stripe, Cloudflare, MongoDB, Twilio, Duolingo, Kickstarter, Stack Overflow, SoundCloud, and Carta.",
-     "rank": 949
+     "rank": 953
     }
    ]
   }

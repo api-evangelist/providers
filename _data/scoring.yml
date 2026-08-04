@@ -8,12 +8,39 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.9
-last_updated: '2026-07-31'
+schema_version: 0.9.1
+last_updated: '2026-08-04'
 maintainer: kin@apievangelist.com
 
 # ---------------------------------------------------------------------------
 # CHANGELOG
+#   0.9.1 (2026-08-04) — SWAGGER 2.0 IS A CONTRACT. A reader fix, not a rubric
+#       change: no weight, point value or band moved. The scorer classified a
+#       spec by looking for `openapi:`, and every SPEC_EVAL check read the 3.x
+#       container keys (`servers`, `components.schemas`,
+#       `components.securitySchemes`). A Swagger 2.0 document declares
+#       `swagger: "2.0"` and uses `host`/`basePath`, `definitions` and
+#       `securityDefinitions` instead, so it was dropped from the spec index
+#       before a single check ran, and a provider whose whole corpus is 2.0
+#       scored as publishing NO CONTRACT AT ALL. Measured on 2026-08-04: 190 of
+#       a 3,024-file sample across 90 providers, Microsoft Azure the heaviest,
+#       then Kaltura, Mailchimp, Mastercard and Zuora.
+#
+#       Found through Oracle. Harvesting 161 first-party OCI contracts covering
+#       7,918 operations LOWERED its contract quality 72.9 -> 55.6, because the
+#       six API-Evangelist-authored 3.1 documents they replaced were the only
+#       ones the rubric could read. The same class of blindness as the GraphQL
+#       fix: an artifact the provider publishes that the reader cannot parse
+#       reads identically to an artifact that does not exist.
+#
+#       `score.rb` now recognizes `swagger:` in both the head classifier and the
+#       parsed check, and `adapt_swagger_2` presents a 2.0 document through the
+#       3.x-shaped keys the checks already read. `openapi_3_0` / `openapi_3_1`
+#       still return false for 2.0 — shipping an eleven-year-old spec version is
+#       worth fewer points than shipping the current one, but it is not the same
+#       as shipping nothing. A 2.0 document with no `host` (a regional platform
+#       that publishes endpoints separately) keeps an empty `servers` and is
+#       reported by `servers_defined` rather than given an invented hostname.
 #   0.6 (2026-07-28) — THE PROVENANCE RELEASE. The largest correctness batch in
 #       the rubric's history, landing the queue that eight sector quartets
 #       accumulated. Five groups of change:

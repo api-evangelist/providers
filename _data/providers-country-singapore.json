@@ -1,6 +1,6 @@
 {
- "total": 50,
- "shown": 50,
+ "total": 52,
+ "shown": 52,
  "limit": 1000,
  "bands": [
   {
@@ -2053,15 +2053,27 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "Doctor Anywhere",
+     "slug": "doctor-anywhere",
+     "description": "Doctor Anywhere is a Singapore-headquartered, tech-led regional healthcare company founded in 2015 that delivers telehealth and in-person care to more than 2.8 million users across Southeast Asia — Singapore, Malaysia, Thailand, the Philippines and Indonesia. Its consumer app and web properties cover 24-hour virtual GP clinics, specialist and mental-wellness teleconsults, doctor house calls, DA Clinics, health screenings, vaccinations, childhood immunisation, chronic-disease and weight-management programmes, medication delivery, the DA Marketplace health-products storefront, DA MedSuites screening and imaging, and corporate wellness and pre-employment screening for employers. Doctor Anywhere does not operate a public developer portal or publish an OpenAPI definition; its platform APIs run behind an Apigee gateway serving its own apps, while its regional marketing sites (Malaysia, Thailand, Indonesia) publish an llms.txt and expose an anonymous Model Context Protocol endpoint for agent access to public site content.",
+     "rank": 50
+    },
+    {
+     "name": "Eruditus",
+     "slug": "eruditus-executive-education",
+     "description": "Eruditus (Eruditus Group) is an online executive-education company founded in 2010 by Ashwin Damera and Chaitanya Kalipatnapu and headquartered in Singapore, operating consumer and enterprise learning under the Eruditus and Emeritus brands. It partners with more than 80 top-tier universities — including MIT, Harvard, Columbia, Wharton, Cambridge, INSEAD, IIM, NUS and HKUST — to deliver senior executive programs, professional certificates, short courses and degree programs to more than 350,000 learners across 80+ countries. Its public API surface is a small partner-facing REST estate documented at emeritus-tech.github.io/emeritus-api-docs: a Leads API for submitting B2C and B2B enrollment inquiries, and a Programs API exposing programs, partner schools and landing page templates. Both are token-authenticated with Emeritus-issued keys and offer separate staging and production environments.",
+     "rank": 51
+    },
     {
      "name": "Hillhouse Investment",
      "slug": "hillhouse",
      "description": "Hillhouse Investment (formerly Hillhouse Capital) is a global investment firm founded in 2005 by Lei Zhang with seed capital from the Yale University endowment, and is one of Asia's largest private-market investors, managing an estimated US$100 billion in assets as of 2026. Headquartered in Singapore with offices in Hong Kong, Beijing, Shanghai, New York, London, and Abu Dhabi, the firm invests globally across all stages of a company's life cycle, spanning public equities, growth equity, private equity buyouts, venture capital (through its early-stage arm GL Ventures, launched in 2020), and real assets. Hillhouse describes itself as disciplined and pragmatic investors who prioritize business fundamentals and deep, bottom-up industry research, with sector focus on healthcare, industrials, energy transition, business services, and consumer. Its portfolio spans companies headquartered in more than 25 countries and has included category-defining businesses such as Tencent, JD.com, Baidu, Zoom, BeiGene, Miniso, Airbnb, Uber, and Didi. Backers have historically included major university endowments (Yale, Stanford, Princeton, MIT, University of Pennsylvania, University of Texas) and CPPIB.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hillhouse/refs/heads/main/screenshots/hillhouse-2026-07-25T221225.png",
-     "rank": 50
+     "rank": 52
     }
    ]
   }

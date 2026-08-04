@@ -1,6 +1,6 @@
 {
- "total": 811,
- "shown": 811,
+ "total": 813,
+ "shown": 813,
  "limit": 1000,
  "bands": [
   {
@@ -32191,22 +32191,34 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
+   "count": 4,
+   "shown": 4,
    "providers": [
+    {
+     "name": "Devialet",
+     "slug": "devialet",
+     "description": "Devialet is a French high-end audio company founded and headquartered in Paris, known for the Phantom active loudspeaker range, the Dione soundbar, the Mania portable speaker, the Gemini earbuds, and the Expert Pro amplifier line, and for patented acoustic technologies including ADH (Analog Digital Hybrid), SAM (Speaker Active Matching), and the EVO embedded platform. Its developer-facing surface is the Devialet IP Control API — an unauthenticated HTTP API served by the speakers themselves on the local network under the /ipcontrol/v1 path, introduced with DOS 2.14 firmware and documented by Devialet as a PDF reference for system integrators. It exposes device, system, and group state plus playback, volume, equalizer, night mode, Bluetooth pairing, and power and factory-reset commands, with mDNS/DNS-SD discovery. Devialet also ships certified home-automation drivers for Crestron and Control4 alongside the raw API.",
+     "rank": 810
+    },
+    {
+     "name": "Ditto",
+     "slug": "ditto",
+     "description": "DUPLICATE STUB — do not enrich. This repository was created from the API Evangelist secondary-market harvest backlog (Forge Global listing for \"Ditto stock\") and profiles the same legal entity already profiled in depth at all/ditto-live (aid ditto-live). Ditto is an edge-native data sync platform, founded in 2018 by Adam Fish and Max Alexander, headquartered in San Francisco, that lets mobile and edge devices synchronize data peer-to-peer over Bluetooth, WiFi Direct and LAN with or without internet connectivity, backed by an optional cloud tier. The company has raised roughly $136.7M across a 2021 seed, a 2023 Series A and an $82M Series B in March 2025. Its developer surface (ditto.live, docs.ditto.live, the Cloud HTTP API and Edge Server HTTP API) is already captured under all/ditto-live, so no artifacts were generated here — the correct disposition is duplicate retirement into ditto-live per the merge procedure, which is a human-reviewed step.",
+     "rank": 811
+    },
     {
      "name": "High Tech",
      "slug": "high-tech",
      "description": "High Tech indexes the APIs, data services, and reference artifacts that power the electronics, semiconductor, hardware, and IoT industries. The landscape covers electronic component data and distribution (Octopart / Nexar, Digi-Key, Mouser, Arrow Electronics, Avnet, Newark / element14), ECAD and PCB design data (SnapEDA, Ultra Librarian, Altium 365 via Nexar Design), hardware lifecycle and IoT device management (AWS IoT, Azure IoT Hub, Particle, Golioth), bill-of-materials and component-search workflows used across hardware product engineering, and the authoritative manufacturer data that anchors a component record (manufacturer part number, manufacturer, datasheet, lifecycle status, RoHS / REACH compliance, real-time inventory and pricing across distributors). This index captures the canonical providers, the shape of a component record as JSON Schema, a JSON-LD context aligning with schema.org Product / Offer / Organization, and the domain vocabulary used across the high-tech component supply chain.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/high-tech/refs/heads/main/screenshots/high-tech-2026-06-20T182732.png",
-     "rank": 810
+     "rank": 812
     },
     {
      "name": "RFID",
      "slug": "rfid",
      "description": "Radio-Frequency Identification (RFID) is an automatic identification technology that uses radio waves to read and capture information stored on a tag attached to an object. RFID powers supply chain visibility, inventory management, asset tracking, access control, and contactless payments. The RFID ecosystem includes hardware vendors (Zebra, Impinj, Alien Technology), software platforms (ClearStream, TagMatiks, Jetstream), and open standards (GS1 EPCIS, EPC Tag Data Standard, ISO 18000 series).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rfid/refs/heads/main/screenshots/rfid-2026-06-20T193103.png",
-     "rank": 811
+     "rank": 813
     }
    ]
   }

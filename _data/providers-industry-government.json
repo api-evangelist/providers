@@ -1,6 +1,6 @@
 {
- "total": 840,
- "shown": 840,
+ "total": 841,
+ "shown": 841,
  "limit": 1000,
  "bands": [
   {
@@ -36074,8 +36074,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Costanoa Ventures",
@@ -36085,11 +36085,17 @@
      "rank": 839
     },
     {
+     "name": "DebtBook",
+     "slug": "debtbook",
+     "description": "DebtBook (a trademark of Fifth Asset, Inc., Charlotte, NC) is a cloud-based treasury and accounting software platform built for public finance teams — state and local government, K-12 and higher education, healthcare, and nonprofits. The platform covers debt management, cash management, investment management, contract management, and lease/subscription accounting under GASB 87, GASB 96 and ASC 842, plus an AI layer (Insights and the Marty analyst) that produces daily briefings and plain-English answers over an organization's treasury data. DebtBook's Cash Management product pulls real-time bank account data into the platform through a secure API integration powered by Koxa's Treasury Gateway, connecting customers to accounts at PNC, Regions Bank, Bank of America, JPMorgan, Wells Fargo and a growing list of US banks. As of this profile DebtBook publishes no public developer portal, no API reference, and no machine-readable API contract — its API surface is an inbound, contracted integration governed by published API integration terms rather than a self-service developer program.",
+     "rank": 840
+    },
+    {
      "name": "Export-Import Bank of the United States",
      "slug": "export-import-bank-of-the-united-states",
      "description": "The U.S. Export-Import Bank (EXIM) is the official export credit agency of the United States federal government. It assists in financing and facilitating U.S. exports of goods and services by providing export credit insurance, working capital guarantees, and direct loans to help American businesses compete in the global marketplace. EXIM publishes open government data including authorization records accessible via the federal Data.gov catalog using the Socrata Open Data API (SODA).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/export-import-bank-of-the-united-states/refs/heads/main/screenshots/export-import-bank-of-the-united-states-2026-06-20T180939.png",
-     "rank": 840
+     "rank": 841
     }
    ]
   }

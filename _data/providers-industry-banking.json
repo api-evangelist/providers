@@ -1,6 +1,6 @@
 {
- "total": 829,
- "shown": 829,
+ "total": 830,
+ "shown": 830,
  "limit": 1000,
  "bands": [
   {
@@ -36402,8 +36402,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Alloy",
@@ -36413,17 +36413,23 @@
      "rank": 827
     },
     {
+     "name": "Copper Banking",
+     "slug": "copper-banking",
+     "description": "Copper (Copper Banking) is a Seattle-based consumer fintech founded in 2019 by Eddie Behringer and Stefan Berglund that began as a teen banking app and debit card built on the Synapse banking-as-a-service platform. After Synapse's collapse Copper abruptly discontinued its bank deposit accounts and debit cards in May 2024 and repositioned as a financial-empowerment and earning app, where members earn cash and gift-card rewards through cash back, surveys, receipt scanning, games and referrals, alongside financial-literacy content, guides and in-school workshops. Copper publishes no public developer portal, documentation or API specification; the only machine-readable surface reachable without credentials is an OAuth 2.0 authorization server for a Model Context Protocol endpoint at mcp.getcopper.com.",
+     "rank": 828
+    },
+    {
      "name": "Mastercard Developer Hub for FDX APIs",
      "slug": "mastercard-developer-hub-for-fdx-apis",
      "description": "The Financial Data Exchange (FDX) is a nonprofit industry standards body that created the FDX API, a technical standard for user-permissioned financial data sharing. The FDX API standard, like other data sharing methods used in open banking, gives consumers more control over who can access their financial data. The open banking industry is founded on the principles of interoperability, which are being advanced by forthcoming rulemaking from the The Consumer Financial Protection Bureau (CFPB).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/screenshots/mastercard-developer-hub-for-fdx-apis-2026-06-20T185022.png",
-     "rank": 828
+     "rank": 829
     },
     {
      "name": "QED Investors",
      "slug": "qed-investors",
      "description": "QED Investors is a global venture capital firm founded in 2007 by Nigel Morris and Frank Rotman, both early leaders at Capital One, and headquartered in Alexandria, Virginia. QED invests exclusively in fintech and financial-services technology, backing what it calls \"pragmatic disruptors who are the future of finance\" across credit and lending, banking and neobanks, banking-as-a-service and embedded finance, payments, insurance/insurtech, wealth management, proptech, and real-estate technology. The firm invests from pre-seed and seed through Series A and growth stages, with early-stage initial checks generally in the $3M-$10M range (roughly $15M average once follow-on is included) and $15M-$20M average from its growth fund. QED operates globally with investment teams across the United States, Latin America, Europe, Asia/India, and Africa, and offices in Alexandria (VA), London, Singapore, Mexico, and Brazil. It reports roughly $4B in assets under management, more than 250 portfolio companies, and over 30 unicorns, with notable investments including Nubank, Credit Karma, SoFi, Klarna, Remitly, Flywire, Klarna, Kavak, Creditas, and Bitso.",
-     "rank": 829
+     "rank": 830
     }
    ]
   }
