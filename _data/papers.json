@@ -224,6 +224,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/insights-salesforce.png"
   },
   {
+    "slug": "insights-servicenow",
+    "title": "ServiceNow — Enterprise Insights Bundle",
+    "tagline": "What ServiceNow is actually buying, read from 343 of its own job postings — and why a platform this API-heavy has no downloadable contract for you to design against.",
+    "area": "Insights Bundle",
+    "price": "1,500",
+    "cover": "https://papers.apievangelist.com/assets/covers/insights-servicenow.png"
+  },
+  {
     "slug": "insights-splunk",
     "title": "Splunk — Enterprise Insights Bundle",
     "tagline": "What Splunk is actually buying, read from 955 of its own job postings — and why a platform this API-heavy publishes machine-readable contracts for only three of its fourteen APIs.",

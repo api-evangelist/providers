@@ -13,7 +13,7 @@
      "slug": "apache-airflow",
      "url": "https://providers.apis.io/providers/apache-airflow/",
      "type": "API Provider",
-     "description": "Apache Airflow is an open-source platform to programmatically author, schedule, and monitor workflows, developed",
+     "description": "Apache Airflow is an open-source platform to programmatically author, schedule, and monitor workflows, developed by the Apache Software Foundation. It allows you to define workflows as Directed Acyclic Graphs (DAGs) in Python code, making them maintainable, versionable, testable, and collaborative. Airflow provides a stable REST API for managing DAGs, DAG runs, tasks, connections, variables, pools, and users, along with a web-based UI for monitoring and managing pipeline execution.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/screenshots/apache-airflow-2026-06-20T172038.png",
      "score": 62.0,
      "band": "strong",
@@ -26,7 +26,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -53,7 +53,7 @@
      "slug": "apache-nutch",
      "url": "https://providers.apis.io/providers/apache-nutch/",
      "type": "API Provider",
-     "description": "Apache Nutch is a highly extensible and scalable open-source web crawler software project built on Apache Hadoop",
+     "description": "Apache Nutch is a highly extensible and scalable open-source web crawler software project built on Apache Hadoop data structures for batch processing. It provides a pluggable architecture supporting custom parse filters, scoring filters, index writers, and protocol implementations. Nutch integrates with Apache Solr and Elasticsearch for full-text search and exposes a REST API for managing crawl jobs, configurations, seed lists, and database queries. Governed by the Apache Software Foundation under the Apache License 2.0.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/screenshots/apache-nutch-2026-06-20T172129.png",
      "score": 58.9,
      "band": "strong",
@@ -66,7 +66,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -93,7 +93,7 @@
      "slug": "apache-ofbiz",
      "url": "https://providers.apis.io/providers/apache-ofbiz/",
      "type": "API Provider",
-     "description": "Apache OFBiz is an open-source enterprise resource planning (ERP) system providing a suite of integrated business",
+     "description": "Apache OFBiz is an open-source enterprise resource planning (ERP) system providing a suite of integrated business applications for CRM, e-commerce, supply chain management, manufacturing, accounting, order management, inventory, and warehousing. Built on a service-oriented architecture with a service engine, entity engine, and widget framework, OFBiz exposes a REST API plugin allowing any exported service to be invoked via JWT- authenticated HTTP endpoints. Governed by the Apache Software Foundation under the Apache License 2.0. Written in Java with Groovy scripting support.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/screenshots/apache-ofbiz-2026-06-20T172127.png",
      "score": 58.0,
      "band": "strong",
@@ -106,7 +106,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -143,7 +143,7 @@
      "slug": "apache-oozie",
      "url": "https://providers.apis.io/providers/apache-oozie/",
      "type": "API Provider",
-     "description": "Apache Oozie is a workflow scheduler system for managing Apache Hadoop jobs. It enables users to define workflows",
+     "description": "Apache Oozie is a workflow scheduler system for managing Apache Hadoop jobs. It enables users to define workflows as directed acyclic graphs (DAGs) of actions including MapReduce, Pig, Hive, Sqoop, and custom Java/shell steps. Coordinator jobs trigger workflows based on time schedules or data availability, while bundle jobs group multiple coordinators. Oozie provides a REST API for job submission, lifecycle management, monitoring, and system administration. Governed by the Apache Software Foundation under the Apache License 2.0, written in Java.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/screenshots/apache-oozie-2026-06-20T172126.png",
      "score": 53.6,
      "band": "developing",
@@ -156,7 +156,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -196,7 +196,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -223,7 +223,7 @@
      "slug": "apache-iceberg",
      "url": "https://providers.apis.io/providers/apache-iceberg/",
      "type": "API Provider",
-     "description": "Apache Iceberg is an open table format for large analytic datasets that provides ACID transactions, schema evolution,",
+     "description": "Apache Iceberg is an open table format for large analytic datasets that provides ACID transactions, schema evolution, hidden partitioning, and time travel. It works with Spark, Flink, Hive, Presto, Trino, DuckDB, ClickHouse, and many more compute engines. Governed by the Apache Software Foundation under the Apache 2.0 license.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/screenshots/apache-iceberg-2026-06-20T172110.png",
      "score": 53.1,
      "band": "developing",
@@ -236,7 +236,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -276,7 +276,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -316,7 +316,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -356,7 +356,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -396,7 +396,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -436,7 +436,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.5,
      "agent_band": "agent-ready",
@@ -463,7 +463,7 @@
      "slug": "apache-ranger",
      "url": "https://providers.apis.io/providers/apache-ranger/",
      "type": "API Provider",
-     "description": "Apache Ranger is a framework to enable, monitor, and manage comprehensive data security across the Hadoop platform.",
+     "description": "Apache Ranger is a framework to enable, monitor, and manage comprehensive data security across the Hadoop platform. It provides centralized security administration for fine-grained authorization policies across Hadoop ecosystem components.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/screenshots/apache-ranger-2026-06-20T172136.png",
      "score": 47.6,
      "band": "developing",
@@ -476,7 +476,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -516,7 +516,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -556,7 +556,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -596,7 +596,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -636,7 +636,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -676,7 +676,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -716,7 +716,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -756,7 +756,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -796,7 +796,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -836,7 +836,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -876,7 +876,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -916,7 +916,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -956,7 +956,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -996,7 +996,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1023,7 +1023,7 @@
      "slug": "apache-flink",
      "url": "https://providers.apis.io/providers/apache-flink/",
      "type": "API Provider",
-     "description": "Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded",
+     "description": "Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. It provides a REST API for job management, cluster operations, metrics collection, and checkpoint management for real-time streaming and batch processing workloads.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/screenshots/apache-flink-2026-06-20T172057.png",
      "score": 45.6,
      "band": "developing",
@@ -1036,7 +1036,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1076,7 +1076,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -1103,7 +1103,7 @@
      "slug": "apache-atlas",
      "url": "https://providers.apis.io/providers/apache-atlas/",
      "type": "API Provider",
-     "description": "Apache Atlas is a scalable and extensible set of core foundational data governance services developed by the",
+     "description": "Apache Atlas is a scalable and extensible set of core foundational data governance services developed by the Apache Software Foundation. It enables enterprises to effectively meet their compliance requirements within Hadoop and allows integration with the whole enterprise data ecosystem. Atlas provides metadata management, data classification, lineage tracking, business glossary, and a REST API for programmatic governance operations. It supports discovery, auditing, and policy management for enterprise data assets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/screenshots/apache-atlas-2026-06-20T172046.png",
      "score": 45.3,
      "band": "developing",
@@ -1116,7 +1116,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -1143,7 +1143,7 @@
      "slug": "apache-cloudstack",
      "url": "https://providers.apis.io/providers/apache-cloudstack/",
      "type": "API Provider",
-     "description": "Apache CloudStack is an open-source cloud computing platform developed by the Apache Software Foundation for",
+     "description": "Apache CloudStack is an open-source cloud computing platform developed by the Apache Software Foundation for creating, managing, and deploying infrastructure cloud services. It provides a comprehensive IaaS platform supporting multiple hypervisors (KVM, VMware vSphere, XenServer) and a rich API for programmatic cloud resource management. CloudStack is used by service providers and enterprises to build public, private, and hybrid cloud environments with virtual machine management, networking, storage, and multi-tenancy features.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/screenshots/apache-cloudstack-2026-06-20T172047.png",
      "score": 45.2,
      "band": "developing",
@@ -1156,7 +1156,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -1196,7 +1196,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -1236,7 +1236,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1270,7 +1270,7 @@
      "slug": "apache-samza",
      "url": "https://providers.apis.io/providers/apache-samza/",
      "type": "API Provider",
-     "description": "Apache Samza is a distributed stream processing framework that provides a simple API for building stateful stream",
+     "description": "Apache Samza is a distributed stream processing framework that provides a simple API for building stateful stream processing applications. It integrates with Apache Kafka for messaging and supports both stream and batch processing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/screenshots/apache-samza-2026-06-20T172138.png",
      "score": 44.5,
      "band": "developing",
@@ -1283,7 +1283,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1310,7 +1310,7 @@
      "slug": "apache-shiro",
      "url": "https://providers.apis.io/providers/apache-shiro/",
      "type": "API Provider",
-     "description": "Apache Shiro is a powerful and easy-to-use Java security framework that performs authentication, authorization,",
+     "description": "Apache Shiro is a powerful and easy-to-use Java security framework that performs authentication, authorization, cryptography, and session management. It provides a clean API for securing applications from the smallest mobile applications to the largest enterprise systems.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-shiro/refs/heads/main/screenshots/apache-shiro-2026-06-20T172141.png",
      "score": 44.5,
      "band": "developing",
@@ -1323,7 +1323,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1350,7 +1350,7 @@
      "slug": "apache-poi",
      "url": "https://providers.apis.io/providers/apache-poi/",
      "type": "API Provider",
-     "description": "Apache POI is a Java API for manipulating various file formats based upon the Office Open XML standards (OOXML)",
+     "description": "Apache POI is a Java API for manipulating various file formats based upon the Office Open XML standards (OOXML) and Microsoft's OLE2 Compound Document format (OLE2). It supports reading and writing Excel, Word, PowerPoint, Visio, and Outlook files.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/screenshots/apache-poi-2026-06-20T172135.png",
      "score": 44.1,
      "band": "developing",
@@ -1363,7 +1363,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1403,7 +1403,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1430,7 +1430,7 @@
      "slug": "apache-seatunnel",
      "url": "https://providers.apis.io/providers/apache-seatunnel/",
      "type": "API Provider",
-     "description": "Apache SeaTunnel is a high-performance, distributed data integration platform that supports real-time and batch",
+     "description": "Apache SeaTunnel is a high-performance, distributed data integration platform that supports real-time and batch data synchronization. It provides a connector API with support for over 100 data sources and sinks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-seatunnel/refs/heads/main/screenshots/apache-seatunnel-2026-06-20T172141.png",
      "score": 44.0,
      "band": "developing",
@@ -1443,7 +1443,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1470,7 +1470,7 @@
      "slug": "apache-activemq",
      "url": "https://providers.apis.io/providers/apache-activemq/",
      "type": "API Provider",
-     "description": "Apache ActiveMQ is an open-source, high-performance message broker written in Java, developed by the Apache Software",
+     "description": "Apache ActiveMQ is an open-source, high-performance message broker written in Java, developed by the Apache Software Foundation. It implements the Jakarta Messaging (JMS) API and supports multiple messaging protocols including AMQP, STOMP, MQTT, OpenWire, and HTTP/WebSocket, enabling reliable asynchronous messaging between distributed applications and microservices. ActiveMQ provides features such as network of brokers, message persistence (KahaDB, JDBC), high availability, message scheduling, and a web console with REST and Jolokia management APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/screenshots/apache-activemq-2026-06-20T172037.png",
      "score": 42.4,
      "band": "developing",
@@ -1483,7 +1483,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1530,7 +1530,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1570,7 +1570,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1614,7 +1614,7 @@
      "slug": "apache-bookkeeper",
      "url": "https://providers.apis.io/providers/apache-bookkeeper/",
      "type": "API Provider",
-     "description": "Apache BookKeeper is a scalable, fault-tolerant, and low-latency storage service optimized for real-time workloads",
+     "description": "Apache BookKeeper is a scalable, fault-tolerant, and low-latency storage service optimized for real-time workloads developed by the Apache Software Foundation. It provides a simple log-oriented storage abstraction called ledgers for reliable, replicated storage of sequential data. BookKeeper is used as the durable log storage layer in Apache Pulsar and other distributed messaging and stream processing systems. It provides a Java client API and an HTTP Admin REST API for cluster management, bookie monitoring, and auto-recovery operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/screenshots/apache-bookkeeper-2026-06-20T172044.png",
      "score": 41.9,
      "band": "thin",
@@ -1627,7 +1627,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -1667,7 +1667,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1707,7 +1707,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1734,7 +1734,7 @@
      "slug": "apache-rocketmq",
      "url": "https://providers.apis.io/providers/apache-rocketmq/",
      "type": "API Provider",
-     "description": "Apache RocketMQ is a distributed messaging and streaming platform with low latency, high performance, and reliability.",
+     "description": "Apache RocketMQ is a distributed messaging and streaming platform with low latency, high performance, and reliability. It provides trillion-level message capacity with rich message types including normal, transactional, delayed, and ordered messages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/screenshots/apache-rocketmq-2026-06-20T172138.png",
      "score": 41.0,
      "band": "thin",
@@ -1747,7 +1747,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1781,7 +1781,7 @@
      "slug": "apache-servicemix",
      "url": "https://providers.apis.io/providers/apache-servicemix/",
      "type": "API Provider",
-     "description": "Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality",
+     "description": "Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime for building enterprise integration solutions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/screenshots/apache-servicemix-2026-06-20T172139.png",
      "score": 41.0,
      "band": "thin",
@@ -1794,7 +1794,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1841,7 +1841,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1881,7 +1881,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -1908,7 +1908,7 @@
      "slug": "apache-opennlp",
      "url": "https://providers.apis.io/providers/apache-opennlp/",
      "type": "API Provider",
-     "description": "Apache OpenNLP is a machine learning based toolkit for the processing of natural language text. It supports common",
+     "description": "Apache OpenNLP is a machine learning based toolkit for the processing of natural language text. It supports common NLP tasks such as tokenization, sentence segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference resolution.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/screenshots/apache-opennlp-2026-06-20T172128.png",
      "score": 37.1,
      "band": "thin",
@@ -1921,7 +1921,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1948,7 +1948,7 @@
      "slug": "apache-openwhisk",
      "url": "https://providers.apis.io/providers/apache-openwhisk/",
      "type": "API Provider",
-     "description": "Apache OpenWhisk is an open-source serverless cloud platform that executes functions in response to events at",
+     "description": "Apache OpenWhisk is an open-source serverless cloud platform that executes functions in response to events at any scale. It supports multiple programming languages and provides a rich programming model for creating serverless APIs and event-driven applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png",
      "score": 37.1,
      "band": "thin",
@@ -1961,7 +1961,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -2001,7 +2001,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2028,7 +2028,7 @@
      "slug": "apache-orc",
      "url": "https://providers.apis.io/providers/apache-orc/",
      "type": "API Provider",
-     "description": "Apache ORC is a self-describing, type-aware columnar file format designed for Hadoop workloads. It provides high",
+     "description": "Apache ORC is a self-describing, type-aware columnar file format designed for Hadoop workloads. It provides high compression ratios and fast read performance for large-scale data processing with support for complex data types.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/screenshots/apache-orc-2026-06-20T172130.png",
      "score": 34.9,
      "band": "thin",
@@ -2041,7 +2041,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2068,7 +2068,7 @@
      "slug": "apache-pdfbox",
      "url": "https://providers.apis.io/providers/apache-pdfbox/",
      "type": "API Provider",
-     "description": "Apache PDFBox is an open-source Java library for working with PDF documents. It allows creation of new PDF documents,",
+     "description": "Apache PDFBox is an open-source Java library for working with PDF documents. It allows creation of new PDF documents, manipulation of existing documents, and the ability to extract content from documents with support for digital signatures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/screenshots/apache-pdfbox-2026-06-20T172133.png",
      "score": 34.9,
      "band": "thin",
@@ -2081,7 +2081,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -2108,7 +2108,7 @@
      "slug": "apache-ozone",
      "url": "https://providers.apis.io/providers/apache-ozone/",
      "type": "API Provider",
-     "description": "Apache Ozone is a scalable, redundant, and distributed object store optimized for big data workloads. It provides",
+     "description": "Apache Ozone is a scalable, redundant, and distributed object store optimized for big data workloads. It provides an S3-compatible interface and a Hadoop-compatible file system interface for seamless integration with existing big data tools.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-ozone/refs/heads/main/screenshots/apache-ozone-2026-06-20T172131.png",
      "score": 34.5,
      "band": "thin",
@@ -2121,7 +2121,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -2148,7 +2148,7 @@
      "slug": "apache-pinot",
      "url": "https://providers.apis.io/providers/apache-pinot/",
      "type": "API Provider",
-     "description": "Apache Pinot is a real-time distributed OLAP datastore designed to deliver scalable real-time analytics with",
+     "description": "Apache Pinot is a real-time distributed OLAP datastore designed to deliver scalable real-time analytics with low latency. It ingests data from batch and streaming sources and provides fast analytical queries for user-facing applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/screenshots/apache-pinot-2026-06-20T172200.png",
      "score": 34.5,
      "band": "thin",
@@ -2161,7 +2161,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2188,7 +2188,7 @@
      "slug": "apache-pig",
      "url": "https://providers.apis.io/providers/apache-pig/",
      "type": "API Provider",
-     "description": "Apache Pig is a platform for analyzing large data sets that provides a high-level language (Pig Latin) for expressing",
+     "description": "Apache Pig is a platform for analyzing large data sets that provides a high-level language (Pig Latin) for expressing data analysis programs. It compiles Pig Latin programs into MapReduce/Tez jobs and runs them on Hadoop clusters.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-pig/refs/heads/main/screenshots/apache-pig-2026-06-20T172132.png",
      "score": 33.9,
      "band": "thin",
@@ -2201,7 +2201,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -2241,7 +2241,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2281,7 +2281,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2321,7 +2321,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2361,7 +2361,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2408,7 +2408,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2448,7 +2448,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2497,7 +2497,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2537,7 +2537,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2577,7 +2577,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2617,7 +2617,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 3.2,
      "agent_band": "human-only",
@@ -2656,7 +2656,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 12.6,
      "agent_band": "agent-aware",
@@ -2705,7 +2705,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2744,7 +2744,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 0.0,
      "agent_band": "human-only",

@@ -548,6 +548,49 @@ def titleize(slug):
     return " ".join(p[:1].upper() + p[1:] if p else p for p in parts)
 
 
+AID_RE = re.compile(r"^aid:\s*['\"]?([\w.-]+)", re.M)
+
+
+def resolve_conflicts(content, slug):
+    """Collapse an unresolved git merge conflict in an apis.yml down to one side.
+
+    A handful of all/*/apis.yml still carry `<<<<<<<` markers, so the file holds
+    two documents' worth of top-level keys and any reader silently mixes them.
+    Neither "first side" nor "last side" is right on its own: for most of them
+    the enriched profile is the first side and a portfolio stub is the second,
+    but in at least one the first side is a wholly different provider that got
+    spliced in. So drop a side whose `aid:` names some OTHER provider, and
+    otherwise keep the first — which is the enriched one in every case seen.
+
+    This is damage control, not a repair: the files themselves need fixing.
+    """
+    if "<<<<<<< " not in content:
+        return content
+    head, ours, theirs, tail = [], [], [], []
+    bucket = head
+    for line in content.splitlines(keepends=True):
+        if line.startswith("<<<<<<< "):
+            bucket = ours
+        elif line.startswith("=======") and bucket is ours:
+            bucket = theirs
+        elif line.startswith(">>>>>>> "):
+            bucket = tail
+        else:
+            bucket.append(line)
+
+    def disowns(block):
+        # True only when the side positively claims a DIFFERENT provider; a side
+        # with no aid at all is not evidence either way.
+        m = AID_RE.search("".join(block))
+        return bool(m) and m.group(1) != slug
+
+    if disowns(ours) and not disowns(theirs):
+        chosen = theirs
+    else:
+        chosen = ours
+    return "".join(head + chosen + tail)
+
+
 def _top_level_scalar(content, key):
     """Value of a top-level scalar key in a YAML document, parsed properly.
 
@@ -598,6 +641,7 @@ def read_apis_yml(slug):
             content = fh.read()
     except OSError:
         return None
+    content = resolve_conflicts(content, slug)
     tags = []
     m = TAGS_RE.search(content)
     if m:

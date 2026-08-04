@@ -35,9 +35,6 @@ PROVIDERS = os.path.join(ROOT, "api-search", "providers", "_providers")
 SCORING_YML = os.path.join(ROOT, "api-search", "signals", "_data", "scoring.yml")
 DELISTED_YML = os.path.join(ROOT, "api-search", "network", "_data", "delisted.yml")
 
-NAME_RE = re.compile(r"^name:\s*(.+?)\s*$")
-DESC_RE = re.compile(r"^description:\s*(.*?)\s*$")
-
 # Jekyll 3.x reads _data/*.json with Psych (YAML), which has no \uD83E-style
 # surrogate escape. A single one anywhere in these files aborts the whole site
 # build with an unhelpful "Page build failed", so scrub them on the way out.
@@ -219,6 +216,88 @@ def newest_screenshot(slug):
     return RAW_BASE % (slug, fname)
 
 
+AID_RE = re.compile(r"^aid:\s*['\"]?([\w.-]+)", re.M)
+
+
+def resolve_conflicts(content, slug):
+    """Collapse an unresolved git merge conflict in an apis.yml down to one side.
+
+    A handful of all/*/apis.yml still carry `<<<<<<<` markers, so the file holds
+    two documents' worth of top-level keys and any reader silently mixes them.
+    Neither "first side" nor "last side" is right on its own: for most of them
+    the enriched profile is the first side and a portfolio stub is the second,
+    but in at least one the first side is a wholly different provider that got
+    spliced in. So drop a side whose `aid:` names some OTHER provider, and
+    otherwise keep the first — which is the enriched one in every case seen.
+
+    This is damage control, not a repair: the files themselves need fixing.
+    """
+    if "<<<<<<< " not in content:
+        return content
+    head, ours, theirs, tail = [], [], [], []
+    bucket = head
+    for line in content.splitlines(keepends=True):
+        if line.startswith("<<<<<<< "):
+            bucket = ours
+        elif line.startswith("=======") and bucket is ours:
+            bucket = theirs
+        elif line.startswith(">>>>>>> "):
+            bucket = tail
+        else:
+            bucket.append(line)
+
+    def disowns(block):
+        # True only when the side positively claims a DIFFERENT provider; a side
+        # with no aid at all is not evidence either way.
+        m = AID_RE.search("".join(block))
+        return bool(m) and m.group(1) != slug
+
+    if disowns(ours) and not disowns(theirs):
+        chosen = theirs
+    else:
+        chosen = ours
+    return "".join(head + chosen + tail)
+
+
+def _top_level_scalar(content, key):
+    """Value of a top-level scalar key in a YAML document, parsed properly.
+
+    apis.yml files are large and there are ~25k of them, so full-document
+    yaml.safe_load per provider is too slow for this build. Instead slice out
+    just this key's block — its own line plus every indented/blank line that
+    follows — and hand that snippet to the YAML parser. That gets every scalar
+    style right: plain, single/double quoted (including quoted text that wraps
+    over several lines), folded `>-`, and literal `|`.
+
+    The old hand-rolled reader took only the first physical line, which turned
+    every re-serialized quoted description into a fragment with a dangling
+    quote. Same fix build-sections.py already carries.
+    """
+    lines = content.splitlines(keepends=True)
+    start = None
+    for i, line in enumerate(lines):
+        if line.startswith(key + ":"):
+            start = i
+            break
+    if start is None:
+        return None
+    block = [lines[start]]
+    for line in lines[start + 1:]:
+        if line.strip() and line[0] not in " \t":
+            break
+        block.append(line)
+    try:
+        parsed = yaml.safe_load("".join(block))
+    except yaml.YAMLError:
+        return None
+    if not isinstance(parsed, dict):
+        return None
+    val = parsed.get(key)
+    if val is None or isinstance(val, (dict, list)):
+        return None
+    return str(val).strip()
+
+
 def display_name_and_description(slug):
     """Return (name, description) from the top-level fields of apis.yml."""
     name = titleize(slug)
@@ -228,30 +307,14 @@ def display_name_and_description(slug):
         return name, description
     try:
         with open(apis_yml, "r", encoding="utf-8", errors="ignore") as fh:
-            in_desc = False
-            desc_lines = []
-            for line in fh:
-                if line and line[0] not in " \t#":
-                    if in_desc:
-                        break
-                    m = NAME_RE.match(line)
-                    if m:
-                        val = m.group(1).strip().strip("'\"").strip()
-                        if val and val.lower() not in ("null", "~"):
-                            name = val
-                    m2 = DESC_RE.match(line)
-                    if m2:
-                        inline = m2.group(1).strip()
-                        if inline and inline not in (">-", "|", ">"):
-                            description = inline
-                        else:
-                            in_desc = True
-                elif in_desc and line.strip():
-                    desc_lines.append(line.strip())
-            if desc_lines:
-                description = " ".join(desc_lines)
+            content = fh.read()
     except OSError:
-        pass
+        return name, description
+    content = resolve_conflicts(content, slug)
+    val = _top_level_scalar(content, "name")
+    if val and val.lower() not in ("null", "~"):
+        name = val
+    description = " ".join((_top_level_scalar(content, "description") or "").split())
     return name, description
 
 

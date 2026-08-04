@@ -9,45 +9,6 @@
    "count": 332,
    "providers": [
     {
-     "name": "Xquik",
-     "slug": "xquik-api",
-     "url": "https://providers.apis.io/providers/xquik-api/",
-     "type": "API Provider",
-     "description": "Xquik is an independent third-party X data and automation platform. It provides public data reads, connected-account write actions, monitoring, signed webhooks, exports, hosted MCP servers, OAuth 2.1, API keys, 8 SDKs, a CLI, Agent Skills, and an OpenAPI 3.1 contract. Not affiliated with X Corp.",
-     "score": 86.7,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 69.8,
-      "governance": 68.8,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 100.0,
-      "commercial_clarity": 100.0
-     },
-     "scored_at": "2026-08-03",
-     "schema_version": 0.9,
-     "agent_score": 95.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": "conformant",
-      "dry_run_mode": true
-     },
-     "rank": 1
-    },
-    {
      "name": "Alpaca",
      "slug": "alpaca",
      "url": "https://providers.apis.io/providers/alpaca/",
@@ -65,7 +26,7 @@
       "developer_ergonomics": 91.3,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -92,7 +53,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2
+     "rank": 1
     },
     {
      "name": "Stripe",
@@ -112,7 +73,7 @@
       "developer_ergonomics": 95.1,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -139,7 +100,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 3
+     "rank": 2
     },
     {
      "name": "Microsoft Outlook",
@@ -159,7 +120,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 59.5,
      "agent_band": "agent-ready",
@@ -179,7 +140,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 4
+     "rank": 3
     },
     {
      "name": "Google Cloud Platform",
@@ -199,7 +160,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 61.3,
      "agent_band": "agent-ready",
@@ -219,14 +180,14 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "Trulioo",
      "slug": "trulioo",
      "url": "https://providers.apis.io/providers/trulioo/",
      "type": "API Provider",
-     "description": "Trulioo is a Vancouver-based global identity verification platform that",
+     "description": "Trulioo is a Vancouver-based global identity verification platform that operates GlobalGateway, a single-API gateway into 450+ data sources across 195+ countries for person verification (KYC), business verification (KYB), watchlist and PEP screening, identity document verification (DocV), biometric face match, and fraud-intelligence risk scoring. The Trulioo Platform layers Workflow Studio (hosted and low-code), reusable end-client profiles, event-driven webhooks, native mobile and web capture SDKs, and an MCP server on top of the underlying Verifications and Business APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png",
      "score": 80.8,
      "band": "exemplar",
@@ -239,7 +200,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -259,7 +220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Salesforce",
@@ -279,7 +240,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 59.9,
      "agent_band": "agent-ready",
@@ -299,7 +260,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "New Relic",
@@ -319,7 +280,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.5,
      "agent_band": "agent-ready",
@@ -339,7 +300,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "GitHub Actions",
@@ -359,7 +320,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 57.7,
      "agent_band": "agent-ready",
@@ -379,7 +340,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Confluence",
@@ -399,7 +360,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 59.0,
      "agent_band": "agent-ready",
@@ -419,6 +380,45 @@
       "agent_card": false,
       "dry_run_mode": false
      },
+     "rank": 9
+    },
+    {
+     "name": "Xquik API",
+     "slug": "xquik-api",
+     "url": "https://providers.apis.io/providers/xquik-api/",
+     "type": "API Provider",
+     "description": "A third-party X (Twitter) data and automation platform positioned as an X/Twitter API alternative. It covers authentication, public reads, automated writes, and webhooks across tweets, profiles, followers, replies, monitors, and media, with 23 extraction tools, HMAC-signed webhooks, and MCP support. Not affiliated with X Corp.",
+     "score": 79.3,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 40.3,
+      "governance": 68.8,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 100.0,
+      "commercial_clarity": 100.0
+     },
+     "scored_at": "2026-08-04",
+     "schema_version": 0.9,
+     "agent_score": 79.3,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": "conformant",
+      "dry_run_mode": false
+     },
      "rank": 10
     },
     {
@@ -426,7 +426,7 @@
      "slug": "zapier",
      "url": "https://providers.apis.io/providers/zapier/",
      "type": "API Provider",
-     "description": "Zapier is an automation platform that connects different apps and services",
+     "description": "Zapier is an automation platform that connects different apps and services to automate workflows without requiring coding knowledge. It acts as a bridge between thousands of popular applications like Gmail, Slack, Salesforce, Google Sheets, Trello, and many others.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/screenshots/zapier-2026-06-20T201801.png",
      "score": 79.3,
      "band": "exemplar",
@@ -439,7 +439,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 67.1,
      "agent_band": "agent-ready",
@@ -466,7 +466,7 @@
      "slug": "dynatrace",
      "url": "https://providers.apis.io/providers/dynatrace/",
      "type": "API Provider",
-     "description": "Dynatrace is a software intelligence platform that provides application",
+     "description": "Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/screenshots/dynatrace-2026-06-20T180345.png",
      "score": 79.2,
      "band": "exemplar",
@@ -479,7 +479,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -506,7 +506,7 @@
      "slug": "notion",
      "url": "https://providers.apis.io/providers/notion/",
      "type": "API Provider",
-     "description": "Notion is an all-in-one workspace that combines notes, tasks, wikis,",
+     "description": "Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png",
      "score": 79.1,
      "band": "exemplar",
@@ -519,7 +519,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 57.4,
      "agent_band": "agent-ready",
@@ -559,7 +559,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 51.4,
      "agent_band": "agent-ready",
@@ -599,7 +599,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 61.3,
      "agent_band": "agent-ready",
@@ -639,7 +639,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
@@ -666,7 +666,7 @@
      "slug": "hubspot",
      "url": "https://providers.apis.io/providers/hubspot/",
      "type": "API Provider",
-     "description": "HubSpot provides a full platform of marketing, sales, customer service,",
+     "description": "HubSpot provides a full platform of marketing, sales, customer service, and CRM software plus the methodology, resources, and support to help businesses grow better.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
      "score": 77.6,
      "band": "exemplar",
@@ -679,7 +679,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -706,7 +706,7 @@
      "slug": "asana",
      "url": "https://providers.apis.io/providers/asana/",
      "type": "API Provider",
-     "description": "Asana is a web and mobile application designed to help teams organize,",
+     "description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work. The Asana API allows developers to programmatically access and integrate Asana's project management capabilities into their applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png",
      "score": 77.1,
      "band": "exemplar",
@@ -719,7 +719,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -759,7 +759,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
@@ -799,7 +799,7 @@
       "developer_ergonomics": 82.1,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -833,7 +833,7 @@
      "slug": "figma",
      "url": "https://providers.apis.io/providers/figma/",
      "type": "API Provider",
-     "description": "Figma is a collaborative interface design tool with a comprehensive REST",
+     "description": "Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png",
      "score": 76.8,
      "band": "exemplar",
@@ -846,7 +846,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 55.9,
      "agent_band": "agent-ready",
@@ -886,7 +886,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
@@ -926,7 +926,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 59.7,
      "agent_band": "agent-ready",
@@ -966,7 +966,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -1006,7 +1006,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -1046,7 +1046,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 53.2,
      "agent_band": "agent-ready",
@@ -1073,7 +1073,7 @@
      "slug": "twelvedata",
      "url": "https://providers.apis.io/providers/twelvedata/",
      "type": "API Provider",
-     "description": "Twelve Data is a financial market data provider offering real-time and",
+     "description": "Twelve Data is a financial market data provider offering real-time and historical data for stocks, forex, cryptocurrencies, ETFs, indices, commodities, and funds through a single REST API and a real-time WebSocket. Coverage spans time series (OHLCV), quotes and prices, 100-plus technical indicators, reference and catalog data, and company fundamentals. Every request is authenticated with an apikey and metered as API credits; a free Basic plan grants 800 API credits per day. Real-time price streaming is delivered over a WebSocket at wss://ws.twelvedata.com/v1/quotes/price.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-07-22T202655.png",
      "score": 75.8,
      "band": "exemplar",
@@ -1086,7 +1086,7 @@
       "developer_ergonomics": 86.4,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1120,7 +1120,7 @@
      "slug": "airbyte",
      "url": "https://providers.apis.io/providers/airbyte/",
      "type": "API Provider",
-     "description": "Airbyte is an open-source data integration platform that enables businesses",
+     "description": "Airbyte is an open-source data integration platform that enables businesses to easily and efficiently move and consolidate their data from various sources into one centralized location. With Airbyte, organizations can seamlessly connect and synchronize data from sources such as databases, APIs, and other third-party applications, allowing for real-time insights and analysis. Airbyte offers both self-hosted and cloud-hosted options, with a catalog of hundreds of pre-built connectors.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png",
      "score": 75.7,
      "band": "exemplar",
@@ -1133,7 +1133,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
@@ -1160,7 +1160,7 @@
      "slug": "avalara",
      "url": "https://providers.apis.io/providers/avalara/",
      "type": "API Provider",
-     "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver",
+     "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
      "score": 75.7,
      "band": "exemplar",
@@ -1173,7 +1173,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 56.8,
      "agent_band": "agent-ready",
@@ -1213,7 +1213,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 48.2,
      "agent_band": "agent-ready",
@@ -1253,7 +1253,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 51.6,
      "agent_band": "agent-ready",
@@ -1293,7 +1293,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 52.9,
      "agent_band": "agent-ready",
@@ -1320,7 +1320,7 @@
      "slug": "ashby-hq",
      "url": "https://providers.apis.io/providers/ashby-hq/",
      "type": "API Provider",
-     "description": "Ashby is a modern all-in-one recruiting platform combining Applicant",
+     "description": "Ashby is a modern all-in-one recruiting platform combining Applicant Tracking System (ATS), sourcing/CRM, interview scheduling, structured-hiring workflows, and recruiting analytics with AI embedded throughout — including AI Application Review for criteria scoring and an AI Notetaker for interview transcripts and structured feedback. The Ashby API exposes 164 operations across 14 product modules with HTTP Basic Auth, 22 webhook event types, async reporting, public job postings for custom careers pages, and partner-implemented assessment integrations. Customers include Deel, Snowflake, Shopify, Notion, Linear, Zapier, and Replit; pricing spans Foundations ($400/mo flat for sub-100 employees), Plus, and Enterprise tiers, plus a standalone Ashby Analytics product layered on existing ATS deployments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/screenshots/ashby-hq-2026-06-20T172500.png",
      "score": 75.3,
      "band": "exemplar",
@@ -1333,7 +1333,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 60.4,
      "agent_band": "agent-ready",
@@ -1373,7 +1373,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 51.8,
      "agent_band": "agent-ready",
@@ -1413,7 +1413,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 58.1,
      "agent_band": "agent-ready",
@@ -1453,7 +1453,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1500,7 +1500,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 46.4,
      "agent_band": "agent-ready",
@@ -1527,7 +1527,7 @@
      "slug": "plaid",
      "url": "https://providers.apis.io/providers/plaid/",
      "type": "API Provider",
-     "description": "Plaid is a US financial-technology company and data-network aggregator that provides an API",
+     "description": "Plaid is a US financial-technology company and data-network aggregator that provides an API platform for businesses to securely connect with their users' bank and financial accounts. Plaid acts as the interface between 12,000+ financial institutions and third-party applications, powering bank-account verification (Auth, Balance, Identity), transactions and enrichment, income and asset verification, lending data (Assets, Liabilities, Investments, Consumer Report/CRA), risk and fraud tooling (Signal, Beacon, Monitor watchlist screening, Identity Verification), and money movement (Transfer, Payment Initiation, Virtual Accounts). Developers integrate through Plaid Link, a self-serve dashboard, client credentials, per-Item access tokens, and a publicly published OpenAPI definition. In the US voluntary open-finance landscape Plaid is an aggregator, and it also operates Core Exchange, its FDX-aligned data-access API for data providers, positioning it for CFPB 1033 open-banking rules.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png",
      "score": 75.2,
      "band": "exemplar",
@@ -1540,7 +1540,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1587,7 +1587,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -1614,7 +1614,7 @@
      "slug": "fal-ai",
      "url": "https://providers.apis.io/providers/fal-ai/",
      "type": "API Provider",
-     "description": "fal (Features and Labels, Inc.) is a generative media platform providing",
+     "description": "fal (Features and Labels, Inc.) is a generative media platform providing the world's fastest API for running image, video, audio, and multimodal generative AI models. Through a unified queue-based REST API at https://queue.fal.run, plus realtime WebSocket and SSE streaming surfaces, fal serves 1,000+ production models — including FLUX, Veo 3, Kling, Wan, Seedream, Nano Banana, and Stable Diffusion — on autoscaling GPU infrastructure. fal Serverless lets developers ship custom models with `@fal.function` / `fal.App` / BYO containers, while fal Compute provides dedicated H100/H200/A100/B200 instances. Trusted by Canva, Perplexity, Poe, and 1.5M+ developers; Series D funded ($140M, Sequoia-led, December 2025); SOC 2 with 99.99% uptime.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/screenshots/fal-ai-2026-06-20T181030.png",
      "score": 75.1,
      "band": "exemplar",
@@ -1627,7 +1627,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 53.2,
      "agent_band": "agent-ready",
@@ -1667,7 +1667,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 54.5,
      "agent_band": "agent-ready",
@@ -1694,7 +1694,7 @@
      "slug": "anthropic",
      "url": "https://providers.apis.io/providers/anthropic/",
      "type": "API Provider",
-     "description": "Anthropic is an AI safety company and creator of the Claude family of",
+     "description": "Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memory, compaction, and computer use. Anthropic also publishes the open Model Context Protocol (MCP) for standardized AI tool integration and ships Claude Code, the terminal-based agentic coding tool.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png",
      "score": 75.0,
      "band": "exemplar",
@@ -1707,7 +1707,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 57.7,
      "agent_band": "agent-ready",
@@ -1747,7 +1747,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 57.7,
      "agent_band": "agent-ready",
@@ -1787,7 +1787,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -1827,7 +1827,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 58.6,
      "agent_band": "agent-ready",
@@ -1867,7 +1867,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -1907,7 +1907,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
@@ -1947,7 +1947,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -1994,7 +1994,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2041,7 +2041,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 59.0,
      "agent_band": "agent-ready",
@@ -2068,7 +2068,7 @@
      "slug": "paymongo",
      "url": "https://providers.apis.io/providers/paymongo/",
      "type": "API Provider",
-     "description": "PayMongo is a Philippine payments platform that lets businesses accept",
+     "description": "PayMongo is a Philippine payments platform that lets businesses accept online payments via cards, GCash, Maya (PayMaya), GrabPay, ShopeePay, QR Ph, BillEase buy-now-pay-later, and direct online banking. Its REST API is built around the Payment Intent / Payment Method workflow with hosted Checkout Sessions, Payment Links, Customers, Refunds, Subscriptions, and signed Webhooks. Amounts are integers in centavos and PHP is the settlement currency; PayMongo is a PCI DSS Level 1 Service Provider.",
      "score": 74.2,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -2080,7 +2080,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2114,7 +2114,7 @@
      "slug": "twilio",
      "url": "https://providers.apis.io/providers/twilio/",
      "type": "API Provider",
-     "description": "Cloud communications platform providing APIs for SMS, voice, video, and",
+     "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
      "score": 74.2,
      "band": "exemplar",
@@ -2127,7 +2127,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2161,7 +2161,7 @@
      "slug": "apigee",
      "url": "https://providers.apis.io/providers/apigee/",
      "type": "API Provider",
-     "description": "Apigee is Google Cloud's native API management platform for building,",
+     "description": "Apigee is Google Cloud's native API management platform for building, managing, and securing APIs across any use case, environment, or scale. It provides API proxies, security, rate limiting, quotas, analytics, monetization, and developer portal capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/screenshots/apigee-2026-06-20T172238.png",
      "score": 74.0,
      "band": "exemplar",
@@ -2174,7 +2174,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -2214,7 +2214,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 48.6,
      "agent_band": "agent-ready",
@@ -2254,7 +2254,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 32.2,
      "agent_band": "agent-aware",
@@ -2294,7 +2294,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 51.4,
      "agent_band": "agent-ready",
@@ -2334,7 +2334,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 53.2,
      "agent_band": "agent-ready",
@@ -2361,7 +2361,7 @@
      "slug": "amazon-sagemaker",
      "url": "https://providers.apis.io/providers/amazon-sagemaker/",
      "type": "API Provider",
-     "description": "Amazon SageMaker is a fully managed machine learning platform that enables",
+     "description": "Amazon SageMaker is a fully managed machine learning platform that enables developers and data scientists to build, train, and deploy machine learning models at scale. SageMaker removes the heavy lifting from each step of the machine learning process, providing built-in algorithms, managed Jupyter notebooks, distributed training, automatic model tuning, and one-click deployment to production endpoints with auto-scaling.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/screenshots/amazon-sagemaker-2026-06-20T171815.png",
      "score": 73.6,
      "band": "exemplar",
@@ -2374,7 +2374,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -2413,7 +2413,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
@@ -2440,7 +2440,7 @@
      "slug": "qonto",
      "url": "https://providers.apis.io/providers/qonto/",
      "type": "API Provider",
-     "description": "Qonto is a European business banking / neobank platform for freelancers",
+     "description": "Qonto is a European business banking / neobank platform for freelancers and SMEs, founded in Paris in 2016 and operating on an EU-passported payment institution licence. Its Business API and Onboarding API give programmatic access to business accounts, EUR transactions, SEPA and international transfers, cards, client and supplier invoices, SEPA Direct Debit, payment links, terminals, webhooks, and partner-led company onboarding, authenticated by a login+secret-key API key or OAuth 2.0.",
      "score": 73.6,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -2452,7 +2452,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2499,7 +2499,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 46.6,
      "agent_band": "agent-ready",
@@ -2539,7 +2539,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 52.3,
      "agent_band": "agent-ready",
@@ -2579,7 +2579,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -2619,7 +2619,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2653,7 +2653,7 @@
      "slug": "fastly",
      "url": "https://providers.apis.io/providers/fastly/",
      "type": "API Provider",
-     "description": "Fastly is an edge cloud platform that helps customers create great digital",
+     "description": "Fastly is an edge cloud platform that helps customers create great digital experiences quickly, securely, and reliably by processing, serving, and securing their applications closer to their users. The platform spans CDN, Edge Compute (WebAssembly), Object Storage, AI Accelerator (semantic caching for LLMs), AI Bot Management, Next-Gen WAF (Signal Sciences), DDoS Protection, Image Optimizer, Live & Video Streaming, Fanout real-time messaging, and an MCP Server for AI-driven control.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/screenshots/fastly-2026-06-20T181052.png",
      "score": 73.3,
      "band": "exemplar",
@@ -2666,7 +2666,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -2706,7 +2706,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -2733,7 +2733,7 @@
      "slug": "payjp",
      "url": "https://providers.apis.io/providers/payjp/",
      "type": "API Provider",
-     "description": "PAY.JP is an online payment service operated by PAY, Inc. (PAY株式会社)",
+     "description": "PAY.JP is an online payment service operated by PAY, Inc. (PAY株式会社) in Japan. Its Stripe-style REST API lets merchants create charges, tokenize cards, manage customers, run subscriptions (定期課金), and settle transfers (入金) in Japanese yen, with a Platform API (beta) for marketplace/multi-tenant payouts.",
      "score": 73.2,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -2745,7 +2745,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -2792,7 +2792,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -2832,7 +2832,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -2872,7 +2872,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -2912,7 +2912,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 62.6,
      "agent_band": "agent-ready",
@@ -2952,7 +2952,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 41.4,
      "agent_band": "agent-ready",
@@ -2992,7 +2992,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 54.5,
      "agent_band": "agent-ready",
@@ -3032,7 +3032,7 @@
       "developer_ergonomics": 88.6,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3066,7 +3066,7 @@
      "slug": "pipedream",
      "url": "https://providers.apis.io/providers/pipedream/",
      "type": "API Provider",
-     "description": "'Pipedream is a developer-centric integration platform providing three",
+     "description": "Pipedream is a developer-centric integration platform providing three product lines: Workflows (code-level event-driven automation in Node.js/Python/Go/Bash), Connect (an embedded integration toolkit for adding customer-facing integrations and AI agents to applications, with managed OAuth for 3,000+ APIs), and a hosted MCP server exposing 10,000+ tools over JSON-RPC for AI agents. Pipedream announced an acquisition agreement with Workday on 2025-11-19.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/screenshots/pipedream-2026-06-20T191726.png",
      "score": 72.8,
      "band": "exemplar",
@@ -3079,7 +3079,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -3106,7 +3106,7 @@
      "slug": "grafana",
      "url": "https://providers.apis.io/providers/grafana/",
      "type": "API Provider",
-     "description": "Grafana is the open-source analytics and monitoring platform that connects",
+     "description": "Grafana is the open-source analytics and monitoring platform that connects to a wide range of data sources including Prometheus, Loki, Elasticsearch, InfluxDB, MySQL, PostgreSQL, and cloud providers. It provides a comprehensive HTTP API for managing dashboards, data sources, alert rules, users, organizations, folders, annotations, and teams.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png",
      "score": 72.7,
      "band": "exemplar",
@@ -3119,7 +3119,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 52.3,
      "agent_band": "agent-ready",
@@ -3146,7 +3146,7 @@
      "slug": "square",
      "url": "https://providers.apis.io/providers/square/",
      "type": "API Provider",
-     "description": "Square provides APIs for payment processing, point of sale, and business",
+     "description": "Square provides APIs for payment processing, point of sale, and business management solutions enabling developers to build custom commerce applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png",
      "score": 72.7,
      "band": "exemplar",
@@ -3159,7 +3159,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3206,7 +3206,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -3246,7 +3246,7 @@
       "developer_ergonomics": 82.6,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 55.9,
      "agent_band": "agent-ready",
@@ -3286,7 +3286,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -3326,7 +3326,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 52.3,
      "agent_band": "agent-native",
@@ -3366,7 +3366,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -3406,7 +3406,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -3446,7 +3446,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 59.5,
      "agent_band": "agent-ready",
@@ -3473,7 +3473,7 @@
      "slug": "infobip",
      "url": "https://providers.apis.io/providers/infobip/",
      "type": "API Provider",
-     "description": "'Infobip is a global communications platform as a service (CPaaS) provider headquartered in Vodnjan,",
+     "description": "Infobip is a global communications platform as a service (CPaaS) provider headquartered in Vodnjan, Croatia, and is Croatia's largest technology company. It sells programmable messaging, voice, video, email and customer engagement APIs on top of direct connections into mobile network operators worldwide, sitting in the aggregator layer of the telecom value chain: it buys and resells carrier connectivity, and it is the developer-facing surface that most businesses actually integrate with rather than the carriers themselves. Its API posture is openly self-serve — a free-trial account, a documentation hub at infobip.com/docs/api, first-party SDKs in six languages, a public Postman workspace, remote MCP servers, and an unauthenticated OpenAPI 3.1 endpoint at https://api.infobip.com/platform/1/openapi that returns the complete specification for all public endpoints and webhooks, plus per-product specifications for 46 products. On the network-API side Infobip is a GSMA Open Gateway participant certified for SIM Swap and Number Verification (September 2025) and an Aduna channel partner, and it publishes callable CAMARA endpoints — Number Verification, SIM Swap, Device Location Verification and KYC Match — though CAMARA access itself is sales-gated behind a contact form even while the specification is public.",
      "score": 72.4,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -3485,7 +3485,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3532,7 +3532,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 54.5,
      "agent_band": "agent-ready",
@@ -3559,7 +3559,7 @@
      "slug": "adyen",
      "url": "https://providers.apis.io/providers/adyen/",
      "type": "API Provider",
-     "description": "Adyen is a global payment company that provides businesses with a single",
+     "description": "Adyen is a global payment company that provides businesses with a single platform to accept payments from customers worldwide. Their technology enables companies to accept a wide range of payment methods, including credit cards, digital wallets, and local payment methods, in multiple currencies and countries. Adyen also offers services such as fraud prevention, data analytics, and optimization tools to help businesses streamline their payment processes and improve their overall performance.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/screenshots/adyen-2026-06-20T165409.png",
      "score": 72.3,
      "band": "exemplar",
@@ -3572,7 +3572,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3606,7 +3606,7 @@
      "slug": "openweathermap",
      "url": "https://providers.apis.io/providers/openweathermap/",
      "type": "API Provider",
-     "description": "OpenWeather (operating openweathermap.org) is a global weather data platform delivering current",
+     "description": "OpenWeather (operating openweathermap.org) is a global weather data platform delivering current weather, multi-horizon forecasts, historical archives, climate statistics, air pollution, solar irradiance, road risk, geocoding, and weather map tiles. Data is sourced from satellites, weather models, radars, and a worldwide network of weather stations, served through REST APIs across a freemium, multi-tier, and pay-per-call commercial model.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png",
      "score": 72.3,
      "band": "exemplar",
@@ -3619,7 +3619,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 40.5,
      "agent_band": "agent-ready",
@@ -3646,7 +3646,7 @@
      "slug": "databricks",
      "url": "https://providers.apis.io/providers/databricks/",
      "type": "API Provider",
-     "description": "Collection of Databricks REST APIs for managing workspaces, clusters,",
+     "description": "Collection of Databricks REST APIs for managing workspaces, clusters, jobs, and data operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/screenshots/databricks-2026-06-20T175634.png",
      "score": 72.2,
      "band": "exemplar",
@@ -3659,7 +3659,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 60.4,
      "agent_band": "agent-ready",
@@ -3686,7 +3686,7 @@
      "slug": "knock-app",
      "url": "https://providers.apis.io/providers/knock-app/",
      "type": "API Provider",
-     "description": "Knock is notifications infrastructure as a service — a product and customer",
+     "description": "Knock is notifications infrastructure as a service — a product and customer messaging platform you use to power transactional, lifecycle, broadcast, and in-product messaging across email, SMS, push, in-app, in-app guides, chat (Slack / Discord / Teams / WhatsApp), and outbound webhooks. Knock exposes two REST surfaces — a runtime API (api.knock.app) for triggering workflows and managing recipients/messages, and a Management API (control.knock.app) for resource CRUD — together with official SDKs in Node, Python, Ruby, Go, Elixir, Java, .NET, PHP and mobile (Swift, Kotlin, Flutter, React Native, Expo); a CLI; a remote MCP server; an agent toolkit for OpenAI / AI SDK / Langchain / Mastra; outbound webhooks; AI agent workflow steps; SlackKit and TeamsKit; and a git-style environment / branch / commit model for safe promotion of notification resources.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/screenshots/knock-app-2026-06-20T184113.png",
      "score": 72.2,
      "band": "exemplar",
@@ -3699,7 +3699,7 @@
       "developer_ergonomics": 82.6,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -3746,7 +3746,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -3786,7 +3786,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -3813,7 +3813,7 @@
      "slug": "dust-tt",
      "url": "https://providers.apis.io/providers/dust-tt/",
      "type": "API Provider",
-     "description": "Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for \"AI Operators\" — the people who design, govern, and continuously improve agentic workflows across Sales, Customer Support, Marketing, Engineering, Data & Analytics, IT, Legal, Recruiting, and Knowledge teams. Agents in Dust are model-agnostic (OpenAI, Anthropic, Google, Mistral), grounded on company data through 100+ connectors (Slack, Notion, GitHub, Google Drive, Salesforce, Zendesk, Jira, Confluence, HubSpot, BigQuery, Snowflake), exposed via a REST API, MCP servers (client- and server-side), webhooks, and OAuth2, and reachable from a multiplayer conversation UI, Slack, a Chrome extension, a Raycast extension, and a CLI.",
+     "description": "Dust is a Paris-based enterprise AI platform for building, deploying, and operating teams of AI agents that have shared context across a company's knowledge and tools. Dust positions itself as the platform for \"AI Operators\" — the people who design, govern, and continuously improve agentic workflows across Sales, Customer Support, Marketing, Engineering, Data & Analytics, IT, Legal, Recruiting, and Knowledge teams. Agents in Dust are model-agnostic (OpenAI, Anthropic, Google, Mistral), grounded on company data through 100+ connectors (Slack, Notion, GitHub, Google Drive, Salesforce, Zendesk, Jira, Confluence, HubSpot, BigQuery, Snowflake), exposed via a REST API, MCP servers (client- and server-side), webhooks, and OAuth2, and reachable from a multiplayer conversation UI, Slack, a Chrome extension, a Raycast extension, and a CLI. The Dust core platform is open source under the MIT license at github.com/dust-tt/dust. The hosted service is available on a per-seat Pro plan (29 EUR / user / month) and a custom Enterprise tier (100+ seats) with SSO, SCIM, dedicated environments, EU residency, and SOC 2 Type II / GDPR / HIPAA-ready compliance.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/screenshots/dust-tt-2026-06-20T180330.png",
      "score": 72.0,
      "band": "exemplar",
@@ -3826,7 +3826,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -3853,7 +3853,7 @@
      "slug": "active-directory",
      "url": "https://providers.apis.io/providers/active-directory/",
      "type": "API Provider",
-     "description": "Microsoft Active Directory and Microsoft Entra ID provide identity and access management for organizations of",
+     "description": "Microsoft Active Directory and Microsoft Entra ID provide identity and access management for organizations of all sizes. Microsoft Graph API is the unified REST API gateway for accessing and managing Microsoft Entra ID (formerly Azure Active Directory), including users, groups, applications, devices, conditional access policies, identity governance, and directory administration. Legacy on-premises Active Directory is managed through LDAP, Kerberos, and PowerShell protocols; cloud identity is managed through Microsoft Graph.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/screenshots/active-directory-2026-07-25T181526.png",
      "score": 72.0,
      "band": "exemplar",
@@ -3866,7 +3866,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -3893,7 +3893,7 @@
      "slug": "mulesoft",
      "url": "https://providers.apis.io/providers/mulesoft/",
      "type": "API Provider",
-     "description": "MuleSoft Anypoint Platform is an enterprise integration and API management",
+     "description": "MuleSoft Anypoint Platform is an enterprise integration and API management platform offering an API gateway, design center, exchange marketplace, and monitoring for hybrid deployments connecting applications and data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/screenshots/mulesoft-2026-06-20T185854.png",
      "score": 72.0,
      "band": "exemplar",
@@ -3906,7 +3906,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -3933,7 +3933,7 @@
      "slug": "okta",
      "url": "https://providers.apis.io/providers/okta/",
      "type": "API Provider",
-     "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce",
+     "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Security Posture Management, Access Gateway, and API Access Management. Customer identity is handled by Auth0, which Okta acquired in 2021 and now operates as its consumer-facing identity arm. The platform now extends to securing AI agents via Okta for AI Agents and the Cross-App Access (XAA) protocol — an emerging OAuth profile based on the IETF ID-JAG draft for agent-to-app authorization. The Okta Management API is the primary developer surface, with an official MCP server (okta-mcp-server) exposing administrative operations to LLM agents under human-in-the-loop confirmation.",
      "score": 72.0,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -3945,7 +3945,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -3972,7 +3972,7 @@
      "slug": "peachpayments",
      "url": "https://providers.apis.io/providers/peachpayments/",
      "type": "API Provider",
-     "description": "Peach Payments is a pan-African payment orchestration gateway founded",
+     "description": "Peach Payments is a pan-African payment orchestration gateway founded in 2012 in Cape Town, South Africa, operating across South Africa, Kenya, and Mauritius. Its PCI DSS Level 1 platform exposes REST APIs for Checkout (Hosted, Embedded, Embedded Express), server-to-server Payments, Payment Links, Payouts, and Reconciliation, supporting cards plus local methods like PayShap, Capitec Pay, 1Voucher, Mobicred, M-PESA, and MauCAS in ZAR, KES, and MUR.",
      "score": 72.0,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -3984,7 +3984,7 @@
       "developer_ergonomics": 71.2,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4018,7 +4018,7 @@
      "slug": "webflow",
      "url": "https://providers.apis.io/providers/webflow/",
      "type": "API Provider",
-     "description": "Webflow provides a visual web development platform with a comprehensive",
+     "description": "Webflow provides a visual web development platform with a comprehensive REST API for programmatically managing sites, CMS collections, ecommerce, assets, users, and forms. The Data API enables developers to build integrations, automate workflows, and extend Webflow's core functionality.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png",
      "score": 71.9,
      "band": "exemplar",
@@ -4031,7 +4031,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 60.8,
      "agent_band": "agent-ready",
@@ -4058,7 +4058,7 @@
      "slug": "amazon-ec2-auto-scaling",
      "url": "https://providers.apis.io/providers/amazon-ec2-auto-scaling/",
      "type": "API Provider",
-     "description": "Amazon EC2 Auto Scaling helps you maintain application availability and lets you automatically add or remove",
+     "description": "Amazon EC2 Auto Scaling helps you maintain application availability and lets you automatically add or remove EC2 instances according to conditions you define. You can use fleet management features to maintain the health and availability of your fleet, and use dynamic and predictive scaling to add or remove EC2 instances to meet demand.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/screenshots/amazon-ec2-auto-scaling-2026-07-25T200006.png",
      "score": 71.8,
      "band": "exemplar",
@@ -4071,7 +4071,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -4098,7 +4098,7 @@
      "slug": "amazon-ec2-image-builder",
      "url": "https://providers.apis.io/providers/amazon-ec2-image-builder/",
      "type": "API Provider",
-     "description": "EC2 Image Builder simplifies the building, testing, and deployment of Virtual Machine and container images for",
+     "description": "EC2 Image Builder simplifies the building, testing, and deployment of Virtual Machine and container images for use on AWS or on-premises. It provides an automated pipeline to create and maintain secure, up-to-date server images without requiring scripting expertise.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/screenshots/amazon-ec2-image-builder-2026-07-25T200008.png",
      "score": 71.8,
      "band": "exemplar",
@@ -4111,7 +4111,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 52.3,
      "agent_band": "agent-native",
@@ -4151,7 +4151,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 48.6,
      "agent_band": "agent-ready",
@@ -4191,7 +4191,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4238,7 +4238,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 46.8,
      "agent_band": "agent-ready",
@@ -4278,7 +4278,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 50.2,
      "agent_band": "agent-ready",
@@ -4318,7 +4318,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 46.8,
      "agent_band": "agent-ready",
@@ -4358,7 +4358,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 66.7,
      "agent_band": "agent-native",
@@ -4398,7 +4398,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -4425,7 +4425,7 @@
      "slug": "oracle",
      "url": "https://providers.apis.io/providers/oracle/",
      "type": "API Provider",
-     "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure,",
+     "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png",
      "score": 71.5,
      "band": "exemplar",
@@ -4438,7 +4438,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 52.3,
      "agent_band": "agent-ready",
@@ -4465,7 +4465,7 @@
      "slug": "splunk",
      "url": "https://providers.apis.io/providers/splunk/",
      "type": "API Provider",
-     "description": "Splunk is a platform for searching, monitoring, and analyzing machine-generated",
+     "description": "Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png",
      "score": 71.5,
      "band": "exemplar",
@@ -4478,7 +4478,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
@@ -4505,7 +4505,7 @@
      "slug": "storyblok",
      "url": "https://providers.apis.io/providers/storyblok/",
      "type": "API Provider",
-     "description": "Storyblok is a headless content management system (CMS) with a visual",
+     "description": "Storyblok is a headless content management system (CMS) with a visual editor that enables developers and content editors to collaboratively build and manage digital experiences. It provides APIs for content delivery, content management, image optimization, and webhook-based event notifications. Storyblok supports composable content through reusable components, multi-language content, and multi-site management with real-time collaboration features.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/screenshots/storyblok-2026-06-20T194608.png",
      "score": 71.5,
      "band": "exemplar",
@@ -4518,7 +4518,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -4558,7 +4558,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -4598,7 +4598,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -4638,7 +4638,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 34.2,
      "agent_band": "agent-ready",
@@ -4678,7 +4678,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 57.7,
      "agent_band": "agent-ready",
@@ -4718,7 +4718,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 46.8,
      "agent_band": "agent-ready",
@@ -4745,7 +4745,7 @@
      "slug": "meta",
      "url": "https://providers.apis.io/providers/meta/",
      "type": "API Provider",
-     "description": "Collection of Meta (Facebook) platform APIs for social networking, messaging,",
+     "description": "Collection of Meta (Facebook) platform APIs for social networking, messaging, advertising, content publishing, AI, and developer tools across Facebook, Instagram, WhatsApp, Threads, and Messenger.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png",
      "score": 71.3,
      "band": "exemplar",
@@ -4758,7 +4758,7 @@
       "developer_ergonomics": 93.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -4805,7 +4805,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -4845,7 +4845,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 54.5,
      "agent_band": "agent-ready",
@@ -4872,7 +4872,7 @@
      "slug": "unified-to",
      "url": "https://providers.apis.io/providers/unified-to/",
      "type": "API Provider",
-     "description": "Unified is a real-time unified API platform that provides access to over 360 integrations across 22 categories",
+     "description": "Unified is a real-time unified API platform that provides access to over 360 integrations across 22 categories for B2B SaaS and AI-native products. Unlike traditional integration platforms that cache or sync data periodically, Unified operates with a pass-through architecture where every request hits the source API live, ensuring no stale data and eliminating the need for storage of customer information.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png",
      "score": 71.2,
      "band": "exemplar",
@@ -4885,7 +4885,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -4912,7 +4912,7 @@
      "slug": "zuplo",
      "url": "https://providers.apis.io/providers/zuplo/",
      "type": "API Provider",
-     "description": "Zuplo is the API management platform for developers. Build, deploy, and",
+     "description": "Zuplo is the API management platform for developers. Build, deploy, and scale APIs faster with Zuplo.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png",
      "score": 71.2,
      "band": "exemplar",
@@ -4925,7 +4925,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.5,
      "agent_band": "agent-ready",
@@ -4952,7 +4952,7 @@
      "slug": "logz-io",
      "url": "https://providers.apis.io/providers/logz-io/",
      "type": "API Provider",
-     "description": "Logz.io is a managed cloud observability platform built on the ELK Stack",
+     "description": "Logz.io is a managed cloud observability platform built on the ELK Stack (Elasticsearch / Logstash / Kibana, plus OpenSearch and Grafana) that unifies log management, infrastructure monitoring, distributed tracing, and Cloud SIEM behind a consumption-based pricing model. The platform pairs an AI Agent layer for root-cause analysis with native OpenTelemetry, Prometheus, Grafana, and Perses compatibility, and exposes its entire control plane through a single OpenAPI 2.0-described public API covering search, alerting, sub-account management, security rules, parsing pipelines, archive / restore, and visualization-as-code via the Logz.io fork of Grafana and Perses.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/screenshots/logz-io-2026-06-20T184702.png",
      "score": 71.1,
      "band": "exemplar",
@@ -4965,7 +4965,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -5005,7 +5005,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -5032,7 +5032,7 @@
      "slug": "paytabs",
      "url": "https://providers.apis.io/providers/paytabs/",
      "type": "API Provider",
-     "description": "PayTabs is a Saudi-built payment orchestration and gateway provider",
+     "description": "PayTabs is a Saudi-built payment orchestration and gateway provider serving merchants across MENA. The PT2 REST API accepts cards and local methods (mada, Meeza, KNET, OmanNet, Benefit, STC Pay, urpay) plus Apple Pay, Google Pay and Samsung Pay through hosted, managed and own-form flows, with tokenization, recurring billing and invoicing. The API is served on region-specific hosts and authenticated with a merchant server key.",
      "score": 71.1,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -5044,7 +5044,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5078,7 +5078,7 @@
      "slug": "youtube",
      "url": "https://providers.apis.io/providers/youtube/",
      "type": "API Provider",
-     "description": "YouTube APIs provide programmatic access to YouTube data including videos,",
+     "description": "YouTube APIs provide programmatic access to YouTube data including videos, playlists, channels, user interactions, live streaming, analytics, captions, and embedded player controls.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/screenshots/youtube-2026-06-20T201752.png",
      "score": 71.1,
      "band": "exemplar",
@@ -5091,7 +5091,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 50.5,
      "agent_band": "agent-ready",
@@ -5131,7 +5131,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 47.7,
      "agent_band": "agent-ready",
@@ -5158,7 +5158,7 @@
      "slug": "yelp",
      "url": "https://providers.apis.io/providers/yelp/",
      "type": "API Provider",
-     "description": "Yelp connects people with great local businesses. The Yelp Fusion API",
+     "description": "Yelp connects people with great local businesses. The Yelp Fusion API gives developers programmatic access to Yelp's database of millions of local businesses, ratings, reviews, photos, events, and category taxonomy, plus the Yelp Fusion AI conversational search endpoint. Core public capabilities include business search and discovery, business details, review excerpts, autocomplete, phone and address matching, and local event search. Partner-tier APIs add reviews response, leads, advertising, reservations, waitlist, checkout, and reporting. Authentication uses a Yelp API key passed as a bearer token.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/screenshots/yelp-2026-06-20T201740.png",
      "score": 71.0,
      "band": "exemplar",
@@ -5171,7 +5171,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 40.5,
      "agent_band": "agent-ready",
@@ -5198,7 +5198,7 @@
      "slug": "airtable",
      "url": "https://providers.apis.io/providers/airtable/",
      "type": "API Provider",
-     "description": "Airtable is a cloud-based collaboration service that combines the simplicity",
+     "description": "Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png",
      "score": 70.9,
      "band": "exemplar",
@@ -5211,7 +5211,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 50.9,
      "agent_band": "agent-ready",
@@ -5251,7 +5251,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -5291,7 +5291,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -5331,7 +5331,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -5371,7 +5371,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -5411,7 +5411,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -5451,7 +5451,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -5478,7 +5478,7 @@
      "slug": "hugging-face",
      "url": "https://providers.apis.io/providers/hugging-face/",
      "type": "API Provider",
-     "description": "The AI community building the future with open-source machine learning",
+     "description": "The AI community building the future with open-source machine learning models, datasets, and applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/screenshots/hugging-face-2026-06-20T182926.png",
      "score": 70.6,
      "band": "exemplar",
@@ -5491,7 +5491,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 59.5,
      "agent_band": "agent-ready",
@@ -5518,7 +5518,7 @@
      "slug": "slack",
      "url": "https://providers.apis.io/providers/slack/",
      "type": "API Provider",
-     "description": "Slack is a cloud-based team collaboration platform that provides chat,",
+     "description": "Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png",
      "score": 70.6,
      "band": "exemplar",
@@ -5531,7 +5531,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5578,7 +5578,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -5605,7 +5605,7 @@
      "slug": "culqi",
      "url": "https://providers.apis.io/providers/culqi/",
      "type": "API Provider",
-     "description": "Culqi is a Peruvian online payments platform and a Grupo Credicorp /",
+     "description": "Culqi is a Peruvian online payments platform and a Grupo Credicorp / Krealo company. Its REST API v2 lets businesses accept card, Yape, PagoEfectivo, mobile wallet and Cuotealo (installment) payments in PEN and USD, with card data tokenized client-side against a PCI-scoped secure host and all money movement, subscriptions and webhooks driven from a server-side secret key.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/screenshots/culqi-2026-07-25T210916.png",
      "score": 70.4,
      "band": "exemplar",
@@ -5618,7 +5618,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -5665,7 +5665,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 59.0,
      "agent_band": "agent-ready",
@@ -5692,7 +5692,7 @@
      "slug": "sentry",
      "url": "https://providers.apis.io/providers/sentry/",
      "type": "API Provider",
-     "description": "Sentry is a developer-first application monitoring platform that helps",
+     "description": "Sentry is a developer-first application monitoring platform that helps software teams discover, triage, and prioritize errors and performance issues in production. Sentry provides real-time error monitoring, performance tracing, session replay, profiling, and release tracking for web, mobile, and backend applications across 22+ platforms and languages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sentry/refs/heads/main/screenshots/sentry-2026-06-20T193811.png",
      "score": 70.4,
      "band": "exemplar",
@@ -5705,7 +5705,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -5745,7 +5745,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -5785,7 +5785,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -5825,7 +5825,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 39.2,
      "agent_band": "agent-ready",
@@ -5865,7 +5865,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -5905,7 +5905,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -5945,7 +5945,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -5972,7 +5972,7 @@
      "slug": "linkedin",
      "url": "https://providers.apis.io/providers/linkedin/",
      "type": "API Provider",
-     "description": "LinkedIn is a professional networking platform providing APIs for consumer",
+     "description": "LinkedIn is a professional networking platform providing APIs for consumer integrations (Sign In, Share, Verified on LinkedIn), marketing solutions (ad campaigns, audiences, conversions, analytics), talent solutions (job posting, recruiter system connect), learning solutions (activity reports, content), sales navigator (CRM sync, display, analytics), compliance (message archiving), and regulatory data portability.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png",
      "score": 70.2,
      "band": "exemplar",
@@ -5985,7 +5985,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 53.2,
      "agent_band": "agent-ready",
@@ -6012,7 +6012,7 @@
      "slug": "sendbird",
      "url": "https://providers.apis.io/providers/sendbird/",
      "type": "API Provider",
-     "description": "Sendbird provides APIs and SDKs for in-app chat, voice, video, AI chatbots,",
+     "description": "Sendbird provides APIs and SDKs for in-app chat, voice, video, AI chatbots, and omnichannel business messaging. Used by over 4,000 companies to build real-time communication experiences for customer support, communities, and marketplace platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/screenshots/sendbird-2026-06-20T193652.png",
      "score": 70.2,
      "band": "exemplar",
@@ -6025,7 +6025,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.9,
      "agent_band": "agent-ready",
@@ -6065,7 +6065,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 34.2,
      "agent_band": "agent-ready",
@@ -6092,7 +6092,7 @@
      "slug": "workday",
      "url": "https://providers.apis.io/providers/workday/",
      "type": "API Provider",
-     "description": "Collection of Workday REST and SOAP APIs for human capital management,",
+     "description": "Collection of Workday REST and SOAP APIs for human capital management, financial management, enterprise planning, analytics, and platform extensibility.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png",
      "score": 70.2,
      "band": "exemplar",
@@ -6105,7 +6105,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 46.8,
      "agent_band": "agent-ready",
@@ -6145,7 +6145,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -6185,7 +6185,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 43.2,
      "agent_band": "agent-ready",
@@ -6225,7 +6225,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 68.0,
      "agent_band": "agent-native",
@@ -6265,7 +6265,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6312,7 +6312,7 @@
       "developer_ergonomics": 87.0,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 62.6,
      "agent_band": "agent-ready",
@@ -6339,7 +6339,7 @@
      "slug": "datadog",
      "url": "https://providers.apis.io/providers/datadog/",
      "type": "API Provider",
-     "description": "Datadog is a monitoring and analytics platform that helps organizations",
+     "description": "Datadog is a monitoring and analytics platform that helps organizations gain insight into their infrastructure, applications, and services. It allows users to collect, visualize, and analyze real-time data from a variety of sources, including servers, databases, and cloud services. Datadog's platform enables companies to track performance metrics, troubleshoot issues, and optimize their systems for peak efficiency.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/screenshots/datadog-2026-06-20T175637.png",
      "score": 69.9,
      "band": "exemplar",
@@ -6352,7 +6352,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 51.8,
      "agent_band": "agent-ready",
@@ -6379,7 +6379,7 @@
      "slug": "doku",
      "url": "https://providers.apis.io/providers/doku/",
      "type": "API Provider",
-     "description": "DOKU (PT Nusa Satu Inti Artha) is Indonesia's pioneering payment",
+     "description": "DOKU (PT Nusa Satu Inti Artha) is Indonesia's pioneering payment gateway, founded in 2007 and licensed by Bank Indonesia as a Category 1 Payment Service Provider. Its developer platform exposes a hosted Checkout API plus a full suite of Bank Indonesia SNAP (Standar Nasional Open API Pembayaran) endpoints for Virtual Account, e-Wallet, Direct Debit, QRIS, and Kirim (payout/disbursement), all settling in Indonesian Rupiah (IDR).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png",
      "score": 69.9,
      "band": "exemplar",
@@ -6392,7 +6392,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6426,7 +6426,7 @@
      "slug": "highnote",
      "url": "https://providers.apis.io/providers/highnote/",
      "type": "API Provider",
-     "description": "Highnote is a modern, unified embedded-finance and banking-as-a-service",
+     "description": "Highnote is a modern, unified embedded-finance and banking-as-a-service platform for card issuing, card acquiring, credit, and real-time money movement, with a built-in real-time programmable ledger and full program management. The entire platform is driven by a single GraphQL API at https://api.us.highnote.com/graphql (test https://api.us.test.highnote.com/graphql), authenticated with a base64-encoded API key over HTTP Basic auth. One endpoint covers card products, US person and business account holders (KYC/KYB onboarding), financial accounts and credit lines, virtual/physical/tokenized payment cards, transaction authorization and clearing, disputes, spend and velocity rules, collaborative authorization, multi-rail money movement (ACH, wire, RTP, push-to-card), and outbound webhook event notifications. Highnote is a US-based platform serving digital-first businesses embedding financial products; access is enterprise, contract-gated, with self-serve dashboard signup and a test environment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png",
      "score": 69.9,
      "band": "exemplar",
@@ -6439,7 +6439,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6473,7 +6473,7 @@
      "slug": "lev",
      "url": "https://providers.apis.io/providers/lev/",
      "type": "API Provider",
-     "description": "'Lev is an AI platform and product system for commercial real estate (CRE)",
+     "description": "Lev is an AI platform and product system for commercial real estate (CRE) teams, used by sponsors, financing brokers, investment-sales brokers, lenders, capital-markets teams, and enterprise operators. The platform is organized in four layers: CRE apps (CRM, pipeline, vault/data rooms, checklists, memos, commissions), source-backed AI agents (Lev Agent, Lev Memo, Lender Search, Lev Match, Lev Index), CRE data (lender, market, contact, property, and recent-terms data), and a developer platform. That platform layer is the API Evangelist interest: a versioned REST API at api.lev.com covering deals, documents and vaults, checklists, contacts, companies, the lender directory, term sheets, placements, pipelines, market data, account, and billing; a hosted remote MCP server at mcp.lev.com with roughly 60 tools and OAuth 2.1 discovery; and a first-party Python CLI. The API publishes an OpenAPI 3.1 description, scoped API keys, cursor pagination, Idempotency-Key support on writes, request-id correlation, and a documented error-type and rate-limit contract.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png",
      "score": 69.9,
      "band": "exemplar",
@@ -6486,7 +6486,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6533,7 +6533,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -6560,7 +6560,7 @@
      "slug": "bentley-systems",
      "url": "https://providers.apis.io/providers/bentley-systems/",
      "type": "API Provider",
-     "description": "'Bentley Systems (NASDAQ: BSY) is an infrastructure engineering software",
+     "description": "Bentley Systems (NASDAQ: BSY) is an infrastructure engineering software company providing comprehensive applications and cloud services for the design, construction, and operations of infrastructure across roads, bridges, rail, water, energy, and the built environment. Bentley exposes its developer platform through iTwin — a digital twin platform with 30+ REST APIs covering iModel data management, reality capture, project scheduling, reporting, visualization, clash detection, and webhooks. The company reports $1.3 billion in annual revenue, ~5,500 colleagues across 42 countries, and serves 42,000 accounts in 189 countries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png",
      "score": 69.8,
      "band": "exemplar",
@@ -6573,7 +6573,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -6613,7 +6613,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 51.4,
      "agent_band": "agent-ready",
@@ -6640,7 +6640,7 @@
      "slug": "8x8",
      "url": "https://providers.apis.io/providers/8x8/",
      "type": "API Provider",
-     "description": "'8x8, Inc. is a San Jose, California headquartered cloud communications provider that sells an",
+     "description": "8x8, Inc. is a San Jose, California headquartered cloud communications provider that sells an integrated UCaaS, CCaaS and CPaaS platform (marketed as XCaaS) to business buyers in its home market of the United States and internationally. In the telecom value chain 8x8 sits in the aggregator half of the market, not the mobile network operator half: it does not own radio spectrum, and it resells carrier voice and messaging connectivity while adding contact center, unified communications, video (it owns and operates Jitsi as a Service) and analytics on top. Its API posture is genuinely developer-first for a company of its size — developer.8x8.com is a real self-serve portal, sign-up runs through the 8x8 Connect console, and the entire documentation site including 34 OpenAPI 3.x definitions is published openly on GitHub at 8x8Cloud/public-developer-docs. What 8x8 does not do is the network-API layer: there is no CAMARA reference, no GSMA Open Gateway participation, no Aduna channel, no TM Forum Open API conformance and no CIBA anywhere in its public developer corpus. 8x8 competes with Twilio, Vonage and Sinch on application-layer communications APIs, and buys the underlying network access rather than exposing it.",
      "score": 69.7,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -6652,7 +6652,7 @@
       "developer_ergonomics": 71.2,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6699,7 +6699,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -6739,7 +6739,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -6766,7 +6766,7 @@
      "slug": "ironclad",
      "url": "https://providers.apis.io/providers/ironclad/",
      "type": "API Provider",
-     "description": "Ironclad is the enterprise contract lifecycle management (CLM) platform",
+     "description": "Ironclad is the enterprise contract lifecycle management (CLM) platform used by legal, sales, procurement, and finance teams to draft, negotiate, approve, sign, store, and analyze contracts at scale. The platform combines a no-code Workflow Designer, AI-powered Jurist agentic assistant (contract review, redlining, drafting, repository search), a Records repository with smart import and metadata extraction, Clickwrap for online acceptance, and deep integrations with Salesforce, Microsoft 365, Slack, Workday, ServiceNow, Jira, HubSpot, NetSuite, Dynamics 365, and Power Automate. Ironclad publishes three first-party OpenAPI 3.1 specifications (Public API, OAuth 2.0, SCIM 2.0) plus the Clickwrap REST/JS surface, supports regional NA1/EU1 hosting, OAuth 2.0 with scoped tokens, SCIM-based provisioning, and event-driven webhooks. Ironclad reported surpassing $200M in ARR in February 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/screenshots/ironclad-2026-06-20T183610.png",
      "score": 69.6,
      "band": "exemplar",
@@ -6779,7 +6779,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -6806,7 +6806,7 @@
      "slug": "commerce-layer",
      "url": "https://providers.apis.io/providers/commerce-layer/",
      "type": "API Provider",
-     "description": "Commerce Layer is the headless, multi-market commerce API used by global",
+     "description": "Commerce Layer is the headless, multi-market commerce API used by global brands to sell everywhere — web, mobile, in-store, chatbot, AI agent, and IoT. The company exposes a JSON:API-compliant Core API with 130+ top-level resources covering orders, line items, SKUs, bundles, prices, markets, stores, inventory, customers, payments (Adyen, Stripe, Braintree, PayPal, Klarna, Checkout.com), tax calculation (Avalara, TaxJar, Vertex, Stripe Tax), shipping, promotions, subscriptions, returns, and webhooks. The platform also ships a Provisioning API for organizations/SSO/credentials and a Metrics API for analytics (with a local MCP server for AI agents), plus hosted micro-frontends, dashboard apps, a CLI, CMS integrations, and SDKs for JavaScript/TypeScript, Ruby, React, and drop-in.js.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/screenshots/commerce-layer-2026-06-20T174813.png",
      "score": 69.5,
      "band": "exemplar",
@@ -6819,7 +6819,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6866,7 +6866,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -6906,7 +6906,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -6933,7 +6933,7 @@
      "slug": "mollie",
      "url": "https://providers.apis.io/providers/mollie/",
      "type": "API Provider",
-     "description": "'Mollie B.V. is a Dutch payment service provider headquartered in Amsterdam",
+     "description": "Mollie B.V. is a Dutch payment service provider headquartered in Amsterdam that lets businesses across Europe accept online, point-of-sale and recurring payments through a single REST API and hosted checkout. The Mollie API is an HTTP+HAL (application/hal+json) interface at api.mollie.com covering Payments, Payment Links, Refunds, Chargebacks, Captures, Customers, Mandates, Subscriptions, Methods, Sessions, Terminals, Balances, Settlements, Payouts, Invoices, Sales Invoices, Business Accounts, Transfers, Onboarding, Capabilities, Clients, Client Links, Profiles, Organizations, Permissions, Delayed Routing, Verify Payee, Wallets, Webhooks and Webhook Events. Mollie supports European payment methods including iDEAL, Bancontact, SEPA Direct Debit, Klarna, PayPal, Apple Pay, Google Pay, BLIK, Przelewy24, TWINT, Vipps, MobilePay, Swish and cards. Mollie publishes an OpenAPI 3.1 specification, official SDKs for PHP, Node/TypeScript, Python, Ruby, Go, Java and C#/.NET, an OAuth 2.0 Connect platform for marketplaces, next-gen webhook subscriptions, and a hosted Model Context Protocol server plus an official agent toolkit and Agent Skill for AI-driven integrations.",
      "score": 69.5,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -6945,7 +6945,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -6979,7 +6979,7 @@
      "slug": "adobe",
      "url": "https://providers.apis.io/providers/adobe/",
      "type": "API Provider",
-     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud",
+     "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
      "score": 69.4,
      "band": "exemplar",
@@ -6992,7 +6992,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 47.7,
      "agent_band": "agent-ready",
@@ -7032,7 +7032,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -7072,7 +7072,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 59.9,
      "agent_band": "agent-ready",
@@ -7099,7 +7099,7 @@
      "slug": "hitpay",
      "url": "https://providers.apis.io/providers/hitpay/",
      "type": "API Provider",
-     "description": "HitPay is a Singapore-headquartered all-in-one payments platform for",
+     "description": "HitPay is a Singapore-headquartered all-in-one payments platform for small and medium businesses across Asia-Pacific, unifying online checkout, point of sale, and B2B billing. Its REST API creates hosted Payment Requests, runs Recurring Billing on saved cards, and issues Refunds, with first-class Southeast Asian local methods (PayNow, GrabPay, WeChat Pay, Alipay, ShopeePay, Atome) alongside cards. Requests authenticate with the X-BUSINESS-API-KEY header.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/screenshots/hitpay-2026-07-25T221304.png",
      "score": 69.4,
      "band": "exemplar",
@@ -7112,7 +7112,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7159,7 +7159,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7206,7 +7206,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -7246,7 +7246,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 32.2,
      "agent_band": "agent-aware",
@@ -7286,7 +7286,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -7325,7 +7325,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 61.0,
      "agent_band": "agent-ready",
@@ -7365,7 +7365,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
@@ -7405,7 +7405,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 32.2,
      "agent_band": "agent-aware",
@@ -7432,7 +7432,7 @@
      "slug": "openai",
      "url": "https://providers.apis.io/providers/openai/",
      "type": "API Provider",
-     "description": "APIs for accessing OpenAI's artificial intelligence models including",
+     "description": "APIs for accessing OpenAI's artificial intelligence models including GPT, DALL-E, Whisper, and Embeddings.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-06-20T190903.png",
      "score": 69.0,
      "band": "exemplar",
@@ -7445,7 +7445,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 50.9,
      "agent_band": "agent-ready",
@@ -7472,7 +7472,7 @@
      "slug": "sp-global",
      "url": "https://providers.apis.io/providers/sp-global/",
      "type": "API Provider",
-     "description": "S&P Global (NYSE SPGI) is the parent of S&P Global Ratings, S&P Global Market Intelligence, S&P Dow Jones Indices,",
+     "description": "S&P Global (NYSE SPGI) is the parent of S&P Global Ratings, S&P Global Market Intelligence, S&P Dow Jones Indices, S&P Global Commodity Insights (Platts), S&P Global Mobility, and S&P Global Sustainable1. Its public developer surface is anchored by Kensho Technologies (a wholly-owned S&P Global AI subsidiary) which ships REST APIs for the S&P Global LLM-ready API (kFinance), Extract, NERD, Scribe, and the Grounding Agent, plus the S&P Capital IQ Pro and Marketplace data products distributed through the S&P Global Marketplace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png",
      "score": 69.0,
      "band": "exemplar",
@@ -7485,7 +7485,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 65.3,
      "agent_band": "agent-ready",
@@ -7512,7 +7512,7 @@
      "slug": "tiktok-for-developers",
      "url": "https://providers.apis.io/providers/tiktok-for-developers/",
      "type": "API Provider",
-     "description": "TikTok for Developers provides a suite of REST APIs enabling third-party",
+     "description": "TikTok for Developers provides a suite of REST APIs enabling third-party platforms to integrate with TikTok's social video ecosystem. Products include Login Kit, Display API, Content Posting API, Research API, and the TikTok API for Business, supporting use cases from user authentication and video publishing to advertising campaign management and academic research.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/screenshots/tiktok-for-developers-2026-06-20T195354.png",
      "score": 69.0,
      "band": "exemplar",
@@ -7525,7 +7525,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -7565,7 +7565,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 32.2,
      "agent_band": "agent-aware",
@@ -7605,7 +7605,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.0,
      "agent_band": "agent-ready",
@@ -7645,7 +7645,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7692,7 +7692,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
@@ -7732,7 +7732,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 28.8,
      "agent_band": "agent-aware",
@@ -7772,7 +7772,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -7812,7 +7812,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 39.2,
      "agent_band": "agent-ready",
@@ -7852,7 +7852,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7899,7 +7899,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -7933,7 +7933,7 @@
      "slug": "apimatic",
      "url": "https://providers.apis.io/providers/apimatic/",
      "type": "API Provider",
-     "description": "APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation",
+     "description": "APIMatic is a developer experience platform for APIs that specializes in automated SDK generation, API documentation portal creation, specification validation and linting, and API format transformation. It supports 15+ API specification formats and generates idiomatic SDKs in 7+ programming languages with CI/CD integration for automating the developer experience suite.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/screenshots/apimatic-2026-07-25T200631.png",
      "score": 68.6,
      "band": "exemplar",
@@ -7946,7 +7946,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 52.3,
      "agent_band": "agent-ready",
@@ -7973,7 +7973,7 @@
      "slug": "docusign",
      "url": "https://providers.apis.io/providers/docusign/",
      "type": "API Provider",
-     "description": "DocuSign helps organizations connect and automate how they prepare, sign,",
+     "description": "DocuSign helps organizations connect and automate how they prepare, sign, act on, and manage agreements. As part of the DocuSign Agreement Cloud, DocuSign offers eSignature, the world's.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png",
      "score": 68.6,
      "band": "exemplar",
@@ -7986,7 +7986,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 51.6,
      "agent_band": "agent-ready",
@@ -8013,7 +8013,7 @@
      "slug": "amadeus",
      "url": "https://providers.apis.io/providers/amadeus/",
      "type": "API Provider",
-     "description": "'Amadeus for Developers is the self-service developer program from Amadeus",
+     "description": "Amadeus for Developers is the self-service developer program from Amadeus IT Group, the leading technology provider for the global travel and tourism industry. The Self-Service catalog offers 40+ travel REST APIs across flights, hotels, destination experiences, cars and transfers, market insights, itinerary management, and AI-powered prediction services. APIs use OAuth2 client credentials authentication and are organized into Test (free, capped) and Production (paid, higher TPS) environments. Note: Amadeus has announced the Self-Service developer portal will be decommissioned on 17 July 2026; Enterprise customers retain access to the equivalent Enterprise APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png",
      "score": 68.5,
      "band": "exemplar",
@@ -8026,7 +8026,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -8053,7 +8053,7 @@
      "slug": "paystack",
      "url": "https://providers.apis.io/providers/paystack/",
      "type": "API Provider",
-     "description": "Paystack is an African payment processor (acquired by Stripe in 2020)",
+     "description": "Paystack is an African payment processor (acquired by Stripe in 2020) that lets businesses accept payments in Nigeria, Ghana, South Africa, Kenya, Côte d'Ivoire, and Egypt across cards, bank transfers, USSD, QR, EFT, and mobile money channels. Its single REST API covers one-time charges, recurring subscriptions, marketplace splits, dedicated virtual accounts, invoices, transfers (payouts), refunds, disputes, settlements, and KYC/identity verification — all wrapped in a developer experience that has made it one of the most respected public APIs on the continent.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/screenshots/paystack-2026-06-20T191508.png",
      "score": 68.5,
      "band": "exemplar",
@@ -8066,7 +8066,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8113,7 +8113,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -8153,7 +8153,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -8193,7 +8193,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 32.0,
      "agent_band": "agent-aware",
@@ -8220,7 +8220,7 @@
      "slug": "amazon-well-architected-tool",
      "url": "https://providers.apis.io/providers/amazon-well-architected-tool/",
      "type": "API Provider",
-     "description": "'The AWS Well-Architected Tool helps you review your workloads and compare them to the latest AWS architectural",
+     "description": "The AWS Well-Architected Tool helps you review your workloads and compare them to the latest AWS architectural best practices. It provides a consistent process for evaluating architectures and implementing designs that scale over time across five pillars: operational excellence, security, reliability, performance efficiency, and cost optimization. The tool offers lens catalogs, custom lenses, profiles, review templates, and API-driven extensibility for integration into governance workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/screenshots/amazon-well-architected-tool-2026-07-25T200017.png",
      "score": 68.3,
      "band": "exemplar",
@@ -8233,7 +8233,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 49.1,
      "agent_band": "agent-native",
@@ -8273,7 +8273,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -8313,7 +8313,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8347,7 +8347,7 @@
      "slug": "onfleet",
      "url": "https://providers.apis.io/providers/onfleet/",
      "type": "API Provider",
-     "description": "'Onfleet is an AI-powered last-mile delivery management platform that",
+     "description": "Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kroger, and Urbanstems across industries from prepared meals and grocery to cannabis, pharmacy, and furniture. Onfleet exposes a comprehensive REST API v2.7 for tasks, workers, route plans, route optimization, orders, recipients, destinations, organizations/teams, and webhooks — backed by official SDKs in Python, Node.js, PHP, Java, and Go, plus the 150+ courier Onfleet Connect network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/screenshots/onfleet-2026-06-20T190721.png",
      "score": 68.3,
      "band": "exemplar",
@@ -8360,7 +8360,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.6,
      "agent_band": "agent-aware",
@@ -8400,7 +8400,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -8427,7 +8427,7 @@
      "slug": "connecteam",
      "url": "https://providers.apis.io/providers/connecteam/",
      "type": "API Provider",
-     "description": "'Connecteam is a mobile-first workforce management platform for deskless",
+     "description": "Connecteam is a mobile-first workforce management platform for deskless and non-desk teams, bundling time clock and GPS timesheets, job scheduling, task boards, digital forms and checklists, chat and company communication, HR onboarding, time off, pay rates and sales data into three purchasable hubs (Operations, Communications, HR & Skills). Its public REST API at api.connecteam.com is described by an OpenAPI 3.1 contract covering 145 operations across 98 paths, authenticated either with a company X-API-KEY header or OAuth 2.0 client-credentials tokens scoped across 61 named permissions, and it declares 41 webhook events for time activity, shifts, users, tasks, forms and chat. API access is gated to the Expert plan and above, with per-plan rate limits surfaced in x-ratelimit-* response headers.",
      "score": 68.2,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -8439,7 +8439,7 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 57.9,
      "agent_band": "agent-ready",
@@ -8479,7 +8479,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 43.2,
      "agent_band": "agent-ready",
@@ -8506,7 +8506,7 @@
      "slug": "zoom-phone",
      "url": "https://providers.apis.io/providers/zoom-phone/",
      "type": "API Provider",
-     "description": "'Zoom Phone is the cloud PBX / UCaaS voice product of Zoom Communications, headquartered",
+     "description": "Zoom Phone is the cloud PBX / UCaaS voice product of Zoom Communications, headquartered in San Jose, California, and sold worldwide from its United States home market. It replaces on-premise telephony with a cloud calling service — extensions, auto receptionists, IVR, call queues, shared line groups, voicemail, call recording, fax, emergency (E911) addressing, and SMS/MMS — delivered either on Zoom-provided PSTN service, on a customer's own carrier through BYOC and Cloud Peering (Provider Exchange), or resold through carrier partners. In the telecom value chain Zoom Phone sits above the network as a UCaaS application layer that buys wholesale connectivity and number inventory from carriers rather than operating a mobile network, and its API posture reflects the software half of that split rather than the carrier half: the Zoom Phone API is fully self-serve, published as downloadable OpenAPI 3.0 with 391 documented operations across 46 resource groups, a 71-event webhook catalog, a separate Number Management API covering number allocation, BYOC numbers, ported number orders, SIP trunks and 10DLC SMS campaigns, OAuth 2.0 with fine-grained phone:* scopes, a public Postman workspace, and an official Node/TypeScript SDK. It is not a mobile network operator, is not a GSMA Open Gateway signatory, and exposes no CAMARA network APIs — no CAMARA reference was found anywhere in its developer surface.",
      "score": 68.2,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -8518,7 +8518,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8564,7 +8564,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8598,7 +8598,7 @@
      "slug": "telr",
      "url": "https://providers.apis.io/providers/telr/",
      "type": "API Provider",
-     "description": "Telr is a Dubai-headquartered online payment gateway operating across",
+     "description": "Telr is a Dubai-headquartered online payment gateway operating across the MENA region (UAE, Saudi Arabia, Bahrain, Jordan), supporting 120+ currencies and 30 languages. Its HTTPS/JSON gateway exposes a Hosted Payment Page, a Remote (direct) card and wallet API, repeat-billing agreements, mobile SDKs, and a newer REST Payments API - all PCI DSS v4.0 Level 1 and NESA certified.",
      "score": 68.1,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -8610,7 +8610,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8644,7 +8644,7 @@
      "slug": "amplitude",
      "url": "https://providers.apis.io/providers/amplitude/",
      "type": "API Provider",
-     "description": "Amplitude is a digital analytics platform that helps product teams understand",
+     "description": "Amplitude is a digital analytics platform that helps product teams understand user behavior, run experiments, and drive growth. It provides a suite of APIs for event ingestion, user management, cohort syncing, taxonomy governance, A/B testing, and data export. Amplitude is widely used by product, data, and engineering teams to build better digital experiences through data-driven insights.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/screenshots/amplitude-2026-06-20T171944.png",
      "score": 68.0,
      "band": "exemplar",
@@ -8657,7 +8657,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -8697,7 +8697,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.9,
      "agent_band": "agent-ready",
@@ -8724,7 +8724,7 @@
      "slug": "hasura",
      "url": "https://providers.apis.io/providers/hasura/",
      "type": "API Provider",
-     "description": "We've spent years perfecting products that make it effortless to access and use data.PromptQL",
+     "description": "We've spent years perfecting products that make it effortless to access and use data.PromptQL for AIAccurate AI by continuously learning the unique context of your business.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/screenshots/hasura-2026-06-20T182534.png",
      "score": 68.0,
      "band": "exemplar",
@@ -8737,7 +8737,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -8764,7 +8764,7 @@
      "slug": "kraken",
      "url": "https://providers.apis.io/providers/kraken/",
      "type": "API Provider",
-     "description": "Kraken is one of the world's largest and longest-running cryptocurrency",
+     "description": "Kraken is one of the world's largest and longest-running cryptocurrency exchanges, founded in 2011 and headquartered in San Francisco. Kraken offers Spot and Futures trading, staking and yield through Kraken Earn, NFT marketplace access, OTC services, custody, prime brokerage, and a B2B Embed surface for partners. Kraken exposes a comprehensive set of APIs spanning REST, WebSocket, and FIX across the Spot exchange, Futures exchange (Kraken Futures, formerly Crypto Facilities), institutional services (Custody, OTC, Prime), and partner integration surfaces (Embed, Ramp, OAuth).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png",
      "score": 68.0,
      "band": "exemplar",
@@ -8777,7 +8777,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -8811,7 +8811,7 @@
      "slug": "bexio",
      "url": "https://providers.apis.io/providers/bexio/",
      "type": "API Provider",
-     "description": "bexio is a Swiss cloud business-management platform for SMBs and self-employed,",
+     "description": "bexio is a Swiss cloud business-management platform for SMBs and self-employed, covering accounting, invoicing (incl. Swiss QR-bill), contacts, sales orders, projects and time tracking, banking, purchasing, and payroll. The bexio REST API at api.bexio.com/2.0 exposes these modules over HTTPS with JSON, secured by OAuth 2.0 (OpenID Connect) or Personal Access Tokens.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png",
      "score": 67.9,
      "band": "exemplar",
@@ -8824,7 +8824,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 52.5,
      "agent_band": "agent-ready",
@@ -8851,7 +8851,7 @@
      "slug": "microsoft-graph",
      "url": "https://providers.apis.io/providers/microsoft-graph/",
      "type": "API Provider",
-     "description": "Microsoft Graph is the gateway to data and intelligence in Microsoft",
+     "description": "Microsoft Graph is the gateway to data and intelligence in Microsoft 365. It provides a unified programmability model that you can use to access data in Microsoft 365, Windows 10, and Enterprise Mobility + Security.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/screenshots/microsoft-graph-2026-06-20T185504.png",
      "score": 67.9,
      "band": "exemplar",
@@ -8864,7 +8864,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 38.7,
      "agent_band": "agent-ready",
@@ -8891,7 +8891,7 @@
      "slug": "truora",
      "url": "https://providers.apis.io/providers/truora/",
      "type": "API Provider",
-     "description": "Truora is a Latin American identity verification and fraud-prevention",
+     "description": "Truora is a Latin American identity verification and fraud-prevention platform. Its REST APIs run background checks on people, vehicles, and companies across LatAm, validate documents/faces/email/phone for KYC, and orchestrate web and WhatsApp conversational onboarding flows. All requests authenticate with a Truora-API-Key header.",
      "score": 67.9,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -8903,7 +8903,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 39.4,
      "agent_band": "agent-ready",
@@ -8930,7 +8930,7 @@
      "slug": "microsoft-azure-api-management",
      "url": "https://providers.apis.io/providers/microsoft-azure-api-management/",
      "type": "API Provider",
-     "description": "Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments.",
+     "description": "Microsoft Azure API Management is a hybrid, multicloud management platform for APIs across all environments. It is composed of an API gateway (data plane), a management plane, and a developer portal, and supports the complete API lifecycle for publishing, securing, monitoring, and transforming APIs for external, partner, and internal developers. It now includes an AI gateway for governing OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, Microsoft Foundry models, Amazon Bedrock, MCP servers exposed from REST APIs or proxied from external MCP backends, and A2A agent APIs - with token rate limiting, semantic caching, content safety, backend load balancing, circuit breakers, and token emission to Application Insights. It pairs with Azure API Center for design-time inventory, governance, and discovery.",
      "score": 67.8,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -8942,7 +8942,7 @@
       "developer_ergonomics": 93.5,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -8969,7 +8969,7 @@
      "slug": "pinecone",
      "url": "https://providers.apis.io/providers/pinecone/",
      "type": "API Provider",
-     "description": "With its vector database at the core, Pinecone is the leading knowledge",
+     "description": "With its vector database at the core, Pinecone is the leading knowledge platform for building accurate, secure, and scalable AI applications. The Pinecone APIs cover Database (vector storage and search), Inference (embeddings and reranking), Assistant (RAG over documents), and Admin (organization and project management).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/screenshots/pinecone-2026-06-20T191712.png",
      "score": 67.8,
      "band": "exemplar",
@@ -8982,7 +8982,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.9,
      "agent_band": "agent-ready",
@@ -9009,7 +9009,7 @@
      "slug": "replicate",
      "url": "https://providers.apis.io/providers/replicate/",
      "type": "API Provider",
-     "description": "Replicate lets you run machine learning models in the cloud with a simple",
+     "description": "Replicate lets you run machine learning models in the cloud with a simple API. Thousands of open-source models are available, and you can run your own custom models at scale. Run image generation, language models, audio synthesis, video generation, and more with a few lines of code. Replicate makes AI accessible to every software engineer.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/screenshots/replicate-2026-06-20T192926.png",
      "score": 67.8,
      "band": "exemplar",
@@ -9022,7 +9022,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 47.3,
      "agent_band": "agent-ready",
@@ -9049,7 +9049,7 @@
      "slug": "stytch",
      "url": "https://providers.apis.io/providers/stytch/",
      "type": "API Provider",
-     "description": "Stytch is an authentication and identity infrastructure provider. Its",
+     "description": "Stytch is an authentication and identity infrastructure provider. Its Consumer and B2B APIs cover passwordless authentication (Magic Links, OTP, OAuth, WebAuthn / Passkeys, TOTP), enterprise SSO (SAML / OIDC) and SCIM, sessions, M2M client-credentials tokens, and Device Fingerprinting / fraud defense. Connected Apps lets a Stytch-secured product act as an OAuth 2.0 / OIDC Authorization Server for third-party integrations, desktop apps, AI agents, and MCP servers — a posture Stytch describes as \"agent-ready\". A separate Management API plus a Terraform provider handle workspace configuration as code.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/screenshots/stytch-2026-06-20T194631.png",
      "score": 67.8,
      "band": "exemplar",
@@ -9062,7 +9062,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 53.2,
      "agent_band": "agent-ready",
@@ -9102,7 +9102,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -9142,7 +9142,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 46.4,
      "agent_band": "agent-ready",
@@ -9169,7 +9169,7 @@
      "slug": "adafruit-io",
      "url": "https://providers.apis.io/providers/adafruit-io/",
      "type": "API Provider",
-     "description": "Adafruit IO is a cloud Internet of Things platform from Adafruit Industries",
+     "description": "Adafruit IO is a cloud Internet of Things platform from Adafruit Industries built for makers, hobbyists, students, and STEM educators. It provides feed-based time-series storage, drag-and-drop dashboards with 20+ visualization block types, actions/triggers for SMS/voice/email/webhook notifications, built-in services (time, weather, randomizer, air quality), and a complete REST + MQTT API surface for Adafruit Feather and Metro boards, ESP32 / ESP8266 / Pico microcontrollers, Raspberry Pi, and any other HTTP- or MQTT-capable hardware. First-class Arduino, CircuitPython, and Python client libraries plus the no-code Wippersnapper firmware make it the easiest way for hobbyists to get their projects onto the Internet of Things.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/screenshots/adafruit-io-2026-06-20T164505.png",
      "score": 67.6,
      "band": "exemplar",
@@ -9182,7 +9182,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -9222,7 +9222,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -9261,7 +9261,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -9301,7 +9301,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 47.7,
      "agent_band": "agent-ready",
@@ -9341,7 +9341,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -9381,7 +9381,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 34.2,
      "agent_band": "agent-ready",
@@ -9421,7 +9421,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 67.8,
      "agent_band": "agent-native",
@@ -9461,7 +9461,7 @@
       "developer_ergonomics": 86.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9508,7 +9508,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 51.4,
      "agent_band": "agent-ready",
@@ -9548,7 +9548,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -9588,7 +9588,7 @@
       "developer_ergonomics": 77.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9635,7 +9635,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -9662,7 +9662,7 @@
      "slug": "amazon-gamelift",
      "url": "https://providers.apis.io/providers/amazon-gamelift/",
      "type": "API Provider",
-     "description": "Amazon GameLift is a dedicated game server hosting solution that deploys, operates, and scales cloud servers",
+     "description": "Amazon GameLift is a dedicated game server hosting solution that deploys, operates, and scales cloud servers for multiplayer games. It provides low-latency, low-cost server infrastructure, eliminates operational overhead, and allows you to focus on creating great gaming experiences. The service includes FlexMatch for matchmaking, FleetIQ for optimized Spot Instance usage, and Realtime Servers for rapid game server deployment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/screenshots/amazon-gamelift-2026-07-25T200008.png",
      "score": 67.3,
      "band": "exemplar",
@@ -9675,7 +9675,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -9715,7 +9715,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -9755,7 +9755,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -9795,7 +9795,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -9829,7 +9829,7 @@
      "slug": "amazon-iam-access-analyzer",
      "url": "https://providers.apis.io/providers/amazon-iam-access-analyzer/",
      "type": "API Provider",
-     "description": "AWS IAM Access Analyzer helps you set, verify, and refine your IAM policies by providing a suite of capabilities",
+     "description": "AWS IAM Access Analyzer helps you set, verify, and refine your IAM policies by providing a suite of capabilities including findings for external, internal, and unused access, basic and custom policy checks for validating policies, and policy generation to generate fine-grained policies. It uses automated reasoning to identify resources shared with external entities and helps implement least privilege access across your AWS environment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/screenshots/amazon-iam-access-analyzer-2026-06-20T171702.png",
      "score": 67.2,
      "band": "exemplar",
@@ -9842,7 +9842,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 49.1,
      "agent_band": "agent-native",
@@ -9882,7 +9882,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -9922,7 +9922,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -9962,7 +9962,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -10002,7 +10002,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 48.9,
      "agent_band": "agent-ready",
@@ -10029,7 +10029,7 @@
      "slug": "ordnance-survey",
      "url": "https://providers.apis.io/providers/ordnance-survey/",
      "type": "API Provider",
-     "description": "'Ordnance Survey is Great Britain''s national mapping agency, a government-owned company",
+     "description": "Ordnance Survey is Great Britain's national mapping agency, a government-owned company that maintains the addressing and mapping layer the UK property market runs on - the Unique Property Reference Number (UPRN), the TOID, AddressBase, and the OS National Geographic Database. The UK has no MLS; residential listings sit behind the Rightmove/Zoopla duopoly and agency CRM software, so the open layer in this market is public-sector rather than private, and OS is one half of it alongside HM Land Registry. Its API posture is unusually honest for this sector - the OS Data Hub is a self-serve developer portal with real machine-readable contracts, including OGC-conformant OpenAPI 3.0 documents served live and anonymously at api.os.uk for OS NGD API - Features and Tiles, plus published OpenAPI for the OS Downloads and OS Net APIs. The split that matters is licensing, not reachability: OS OpenData products (OS Open UPRN, OS Open TOID, Code-Point Open, OS Open Names, Boundary-Line, OS Open Linked Identifiers) are free and downloadable with no API key at all through the OS Downloads API, while the premium addressing and mapping products behind OS Places API, OS Features API, and the NGD collections require a paid Premium plan or Public Sector Geospatial Agreement (PSGA) membership. RESO plays no part here - the Real Estate Standards Organization standards are a US MLS construct and appear nowhere in the OS estate. Home market is the United Kingdom.",
      "score": 67.2,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -10041,7 +10041,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -10088,7 +10088,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -10128,7 +10128,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -10168,7 +10168,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 39.2,
      "agent_band": "agent-ready",
@@ -10195,7 +10195,7 @@
      "slug": "amazon-mainframe-modernization",
      "url": "https://providers.apis.io/providers/amazon-mainframe-modernization/",
      "type": "API Provider",
-     "description": "AWS Mainframe Modernization provides tools and resources to help you plan and implement migration and modernization",
+     "description": "AWS Mainframe Modernization provides tools and resources to help you plan and implement migration and modernization of your mainframe applications to AWS. It supports automated refactoring and replatforming of COBOL applications to run natively on AWS with managed runtime environments, deployment pipelines, and batch job execution capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/screenshots/amazon-mainframe-modernization-2026-06-20T171731.png",
      "score": 67.1,
      "band": "exemplar",
@@ -10208,7 +10208,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.9,
      "agent_band": "agent-ready",
@@ -10248,7 +10248,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -10288,7 +10288,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 39.4,
      "agent_band": "agent-ready",
@@ -10328,7 +10328,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -10355,7 +10355,7 @@
      "slug": "adobe-photoshop",
      "url": "https://providers.apis.io/providers/adobe-photoshop/",
      "type": "API Provider",
-     "description": "Adobe Photoshop is the industry-standard image editing and digital design application. Its developer platform",
+     "description": "Adobe Photoshop is the industry-standard image editing and digital design application. Its developer platform offers a cloud-based REST API for programmatic image processing via Firefly Services, the UXP plugin framework for building desktop extensions with modern JavaScript, a C++ plugin SDK for native filters and file formats, and scripting interfaces for workflow automation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/screenshots/adobe-photoshop-2026-06-20T164959.png",
      "score": 67.0,
      "band": "exemplar",
@@ -10368,7 +10368,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 50.9,
      "agent_band": "agent-ready",
@@ -10408,7 +10408,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 32.2,
      "agent_band": "agent-aware",
@@ -10435,7 +10435,7 @@
      "slug": "modal",
      "url": "https://providers.apis.io/providers/modal/",
      "type": "API Provider",
-     "description": "Modal is a serverless cloud platform optimized for AI, data, and Python",
+     "description": "Modal is a serverless cloud platform optimized for AI, data, and Python workloads. The Modal SDK and API let developers deploy GPU-accelerated functions, batch jobs, sandboxed code execution, web endpoints, and scheduled tasks with sub-second cold starts and pay-per-second billing.",
      "score": 67.0,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -10447,7 +10447,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 39.0,
      "agent_band": "agent-ready",
@@ -10487,7 +10487,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -10527,7 +10527,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -10567,7 +10567,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.6,
      "agent_band": "agent-ready",
@@ -10607,7 +10607,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 53.9,
      "agent_band": "agent-ready",
@@ -10647,7 +10647,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 41.0,
      "agent_band": "agent-ready",
@@ -10687,7 +10687,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -10727,7 +10727,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -10767,7 +10767,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -10807,7 +10807,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.6,
      "agent_band": "agent-ready",
@@ -10834,7 +10834,7 @@
      "slug": "amazon-rekognition",
      "url": "https://providers.apis.io/providers/amazon-rekognition/",
      "type": "API Provider",
-     "description": "Amazon Rekognition is a cloud-based computer vision service that makes",
+     "description": "Amazon Rekognition is a cloud-based computer vision service that makes it easy to add image and video analysis to your applications, providing capabilities such as object and scene detection, facial analysis, face comparison, celebrity recognition, text detection, content moderation, custom labels, face liveness detection, and streaming video analysis using deep learning technology.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/screenshots/amazon-rekognition-2026-06-20T171807.png",
      "score": 66.8,
      "band": "exemplar",
@@ -10847,7 +10847,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 61.3,
      "agent_band": "agent-ready",
@@ -10887,7 +10887,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -10927,7 +10927,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -10954,7 +10954,7 @@
      "slug": "pennylane",
      "url": "https://providers.apis.io/providers/pennylane/",
      "type": "API Provider",
-     "description": "Pennylane is a French financial and accounting operating system for SMEs",
+     "description": "Pennylane is a French financial and accounting operating system for SMEs and accounting firms. The Company API (v2) lets companies, firms, and integration partners access and sync invoicing, accounting, banking, and financial data over a REST interface, and automate end-to-end workflows. V2 is the stable version; V1 is deprecated. All amounts are in EUR and the platform is built around French accounting (FEC exports, Plateforme Agréée e-invoicing, SEPA/GoCardless mandates).",
      "score": 66.8,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -10966,7 +10966,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11000,7 +11000,7 @@
      "slug": "amazon-workmail",
      "url": "https://providers.apis.io/providers/amazon-workmail/",
      "type": "API Provider",
-     "description": "Amazon WorkMail is a secure, managed business email and calendar service with support for existing desktop and",
+     "description": "Amazon WorkMail is a secure, managed business email and calendar service with support for existing desktop and mobile email client applications. It provides encrypted mailboxes, corporate calendaring, full Outlook compatibility, and enterprise-grade security controls for business communications. WorkMail integrates with Active Directory, supports IMAP and Exchange ActiveSync for mobile devices, and provides 80 API operations for programmatic management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/screenshots/amazon-workmail-2026-06-20T171848.png",
      "score": 66.7,
      "band": "exemplar",
@@ -11013,7 +11013,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11060,7 +11060,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.6,
      "agent_band": "agent-aware",
@@ -11087,7 +11087,7 @@
      "slug": "databento",
      "url": "https://providers.apis.io/providers/databento/",
      "type": "API Provider",
-     "description": "Databento is a market data platform that delivers historical and live",
+     "description": "Databento is a market data platform that delivers historical and live financial market data through a single, normalized API. It covers equities, futures, options, and other asset classes across major venues, with full order book depth (MBO/MBP), trades, OHLCV bars, and reference data. Historical data is served over a REST HTTP API (hist.databento.com) with pay-as-you-go billing per byte streamed, while live data is delivered over a low-latency raw TCP binary protocol using Databento Binary Encoding (DBN). Official Python, C++, and Rust client libraries wrap both surfaces, and a Reference API provides security master, corporate actions, and adjustment factor data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png",
      "score": 66.7,
      "band": "exemplar",
@@ -11100,7 +11100,7 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11147,7 +11147,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -11186,7 +11186,7 @@
       "developer_ergonomics": 73.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 54.7,
      "agent_band": "agent-ready",
@@ -11213,7 +11213,7 @@
      "slug": "tiktok",
      "url": "https://providers.apis.io/providers/tiktok/",
      "type": "API Provider",
-     "description": "TikTok is a short-form social video platform offering developers REST",
+     "description": "TikTok is a short-form social video platform offering developers REST APIs for advertising, e-commerce, content discovery, and platform integrations. Key products include the TikTok API for Business (advertising and campaign management), TikTok Shop API (seller product and order management), and the Data Portability API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/screenshots/tiktok-2026-06-20T195349.png",
      "score": 66.7,
      "band": "exemplar",
@@ -11226,7 +11226,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -11266,7 +11266,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -11293,7 +11293,7 @@
      "slug": "amazon-devops-guru",
      "url": "https://providers.apis.io/providers/amazon-devops-guru/",
      "type": "API Provider",
-     "description": "Amazon DevOps Guru is a machine learning-powered service that makes it easy to improve an application's operational",
+     "description": "Amazon DevOps Guru is a machine learning-powered service that makes it easy to improve an application's operational performance and availability. It detects behaviors that deviate from normal operating patterns so you can identify operational issues long before they impact your customers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/screenshots/amazon-devops-guru-2026-06-20T171630.png",
      "score": 66.6,
      "band": "exemplar",
@@ -11306,7 +11306,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 49.1,
      "agent_band": "agent-native",
@@ -11333,7 +11333,7 @@
      "slug": "amazon-lookout-for-vision",
      "url": "https://providers.apis.io/providers/amazon-lookout-for-vision/",
      "type": "API Provider",
-     "description": "Amazon Lookout for Vision is a machine learning service that spots defects and anomalies in visual representations",
+     "description": "Amazon Lookout for Vision is a machine learning service that spots defects and anomalies in visual representations using computer vision. With just a small sample of images, it builds a custom computer vision model to enable you to identify damaged products or issues before production issues arise. It supports projects, datasets, model training, and real-time anomaly detection.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/screenshots/amazon-lookout-for-vision-2026-06-20T171731.png",
      "score": 66.6,
      "band": "exemplar",
@@ -11346,7 +11346,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -11386,7 +11386,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -11426,7 +11426,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -11466,7 +11466,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -11493,7 +11493,7 @@
      "slug": "google-maps",
      "url": "https://providers.apis.io/providers/google-maps/",
      "type": "API Provider",
-     "description": "Google Maps Platform offers APIs and SDKs for maps, routes, and places",
+     "description": "Google Maps Platform offers APIs and SDKs for maps, routes, and places functionality.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/screenshots/google-maps-2026-06-20T182214.png",
      "score": 66.6,
      "band": "exemplar",
@@ -11506,7 +11506,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 49.5,
      "agent_band": "agent-ready",
@@ -11546,7 +11546,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11593,7 +11593,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -11632,7 +11632,7 @@
       "developer_ergonomics": 89.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 64.0,
      "agent_band": "agent-ready",
@@ -11672,7 +11672,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.5,
      "agent_band": "agent-ready",
@@ -11712,7 +11712,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 33.8,
      "agent_band": "agent-aware",
@@ -11739,7 +11739,7 @@
      "slug": "anchore",
      "url": "https://providers.apis.io/providers/anchore/",
      "type": "API Provider",
-     "description": "Anchore is a container and software supply chain security company providing open source and enterprise tools",
+     "description": "Anchore is a container and software supply chain security company providing open source and enterprise tools for vulnerability scanning, SBOM generation, policy enforcement, and continuous compliance. Core open source products include Syft (SBOM generator for container images and filesystems), Grype (vulnerability scanner), and Grant (license scanner). The Anchore Enterprise platform adds policy engines, CI/CD integrations, registry connectors, Kubernetes admission control, and reporting. Anchore supports CycloneDX and SPDX SBOM formats and integrates with Docker, Kubernetes, GitHub Actions, Jenkins, and major cloud registries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/screenshots/anchore-2026-07-25T200203.png",
      "score": 66.5,
      "band": "exemplar",
@@ -11752,7 +11752,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 41.4,
      "agent_band": "agent-ready",
@@ -11792,7 +11792,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 39.2,
      "agent_band": "agent-ready",
@@ -11832,7 +11832,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 42.3,
      "agent_band": "agent-ready",
@@ -11872,7 +11872,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11906,7 +11906,7 @@
      "slug": "ziina",
      "url": "https://providers.apis.io/providers/ziina/",
      "type": "API Provider",
-     "description": "Ziina is a Dubai-based (UAE) fintech offering an instant money and payments",
+     "description": "Ziina is a Dubai-based (UAE) fintech offering an instant money and payments platform for consumers and businesses. Its REST API lets developers create hosted and embedded payment intents, issue refunds, run peer transfers between Ziina accounts, and register webhooks. Amounts are in the currency's minor unit (fils for AED), auth is HTTP bearer (JWT) via OAuth 2.0 scopes, and settlement is in AED with multi-currency acceptance.",
      "score": 66.5,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -11918,7 +11918,7 @@
       "developer_ergonomics": 66.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -11965,7 +11965,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -12005,7 +12005,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -12045,7 +12045,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -12085,7 +12085,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -12125,7 +12125,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -12165,7 +12165,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 50.2,
      "agent_band": "agent-ready",
@@ -12192,7 +12192,7 @@
      "slug": "mixpanel",
      "url": "https://providers.apis.io/providers/mixpanel/",
      "type": "API Provider",
-     "description": "Mixpanel is a business analytics service company that tracks user interactions",
+     "description": "Mixpanel is a business analytics service company that tracks user interactions with web and mobile applications and provides tools for targeted communication with them.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/screenshots/mixpanel-2026-06-20T185622.png",
      "score": 66.4,
      "band": "exemplar",
@@ -12205,7 +12205,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 47.3,
      "agent_band": "agent-ready",
@@ -12245,7 +12245,7 @@
       "developer_ergonomics": 69.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -12292,7 +12292,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -12339,7 +12339,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -12379,7 +12379,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 49.1,
      "agent_band": "agent-native",
@@ -12419,7 +12419,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -12459,7 +12459,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -12499,7 +12499,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -12546,7 +12546,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -12573,7 +12573,7 @@
      "slug": "portone",
      "url": "https://providers.apis.io/providers/portone/",
      "type": "API Provider",
-     "description": "PortOne (formerly Iamport) is a Korea-based payment orchestration platform",
+     "description": "PortOne (formerly Iamport) is a Korea-based payment orchestration platform that lets online businesses integrate one API to reach 100+ Korean and global payment methods and PSPs. The V2 REST API (api.portone.io) covers payments, billing keys, scheduled/recurring payments, identity verification, cash receipts, B2B tax invoices, and partner settlement, with the legacy V1 API still served at api.iamport.kr.",
      "score": 66.3,
      "band": "exemplar",
      "band_label": "Exemplar",
@@ -12585,7 +12585,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -12632,7 +12632,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -12659,7 +12659,7 @@
      "slug": "workos",
      "url": "https://providers.apis.io/providers/workos/",
      "type": "API Provider",
-     "description": "WorkOS is the \"Enterprise Ready\" identity platform for B2B SaaS — providing",
+     "description": "WorkOS is the \"Enterprise Ready\" identity platform for B2B SaaS — providing AuthKit user management, enterprise SSO (SAML/OIDC), Directory Sync (SCIM 2.0), Multi-Factor Authentication, Audit Logs, Admin Portal, Fine-Grained Authorization (FGA, formerly Warrant), Radar bot/fraud protection, and an emerging suite of agent-oriented surfaces (Pipes, MCP Auth, auth.md).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/screenshots/workos-2026-06-20T201614.png",
      "score": 66.3,
      "band": "exemplar",
@@ -12672,7 +12672,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 60.4,
      "agent_band": "agent-ready",
@@ -12712,7 +12712,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -12739,7 +12739,7 @@
      "slug": "amazon-managed-grafana",
      "url": "https://providers.apis.io/providers/amazon-managed-grafana/",
      "type": "API Provider",
-     "description": "Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana",
+     "description": "Amazon Managed Grafana is a fully managed service for open source Grafana developed in collaboration with Grafana Labs. It enables interactive data visualizations and dashboards for operational metrics, logs, and traces from multiple sources including AWS services, third-party ISVs, and on-premises data. The service handles provisioning, setup, scaling, and maintenance of Grafana, allowing teams to focus on creating dashboards and analyzing data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/screenshots/amazon-managed-grafana-2026-06-20T171733.png",
      "score": 66.2,
      "band": "exemplar",
@@ -12752,7 +12752,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 49.1,
      "agent_band": "agent-native",
@@ -12779,7 +12779,7 @@
      "slug": "amazon-marketplace",
      "url": "https://providers.apis.io/providers/amazon-marketplace/",
      "type": "API Provider",
-     "description": "AWS Marketplace is a curated digital catalog that makes it easy to find, buy, deploy, and manage third-party",
+     "description": "AWS Marketplace is a curated digital catalog that makes it easy to find, buy, deploy, and manage third-party software, data, and services that run on AWS. It offers thousands of software listings from independent software vendors. The Marketplace Catalog API enables programmatic management of marketplace entities including products, offers, and data products through change sets and entity description operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/screenshots/amazon-marketplace-2026-06-20T171735.png",
      "score": 66.2,
      "band": "exemplar",
@@ -12792,7 +12792,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 38.7,
      "agent_band": "agent-ready",
@@ -12819,7 +12819,7 @@
      "slug": "amazon-workspaces-web",
      "url": "https://providers.apis.io/providers/amazon-workspaces-web/",
      "type": "API Provider",
-     "description": "Amazon WorkSpaces Web is a purpose-built, low-cost, fully managed service that enables secure browser access",
+     "description": "Amazon WorkSpaces Web is a purpose-built, low-cost, fully managed service that enables secure browser access to internal websites and SaaS applications. It provides persistent browser sessions with built-in security controls, preventing users from downloading content to local devices while maintaining a seamless browsing experience. The service offers 58 API operations for managing portals, user settings, browser policies, network settings, trust stores, and IP access controls.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/screenshots/amazon-workspaces-web-2026-06-20T171850.png",
      "score": 66.2,
      "band": "exemplar",
@@ -12832,7 +12832,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.9,
      "agent_band": "agent-ready",
@@ -12872,7 +12872,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 57.0,
      "agent_band": "agent-ready",
@@ -12899,7 +12899,7 @@
      "slug": "zoominfo",
      "url": "https://providers.apis.io/providers/zoominfo/",
      "type": "API Provider",
-     "description": "ZoomInfo is a leading B2B contact database and sales intelligence platform",
+     "description": "ZoomInfo is a leading B2B contact database and sales intelligence platform that provides detailed company and contact information, helping sales and marketing teams identify and connect with potential customers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/screenshots/zoominfo-2026-06-20T201953.png",
      "score": 66.2,
      "band": "exemplar",
@@ -12912,7 +12912,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 50.9,
      "agent_band": "agent-ready",
@@ -12939,7 +12939,7 @@
      "slug": "aws-cognito",
      "url": "https://providers.apis.io/providers/aws-cognito/",
      "type": "API Provider",
-     "description": "'Amazon Cognito is an AWS service that provides authentication, authorization, and user management for web and mobile applications. It supports OAuth2, OIDC, SAML federation, and social identity providers. Cognito has two main components: User Pools for user authentication and app integration, and Federated Identities for granting temporary AWS credentials to authenticated users. It includes multi-factor authentication, advanced security features, and customizable authentication flows.'",
+     "description": "Amazon Cognito is an AWS service that provides authentication, authorization, and user management for web and mobile applications. It supports OAuth2, OIDC, SAML federation, and social identity providers. Cognito has two main components: User Pools for user authentication and app integration, and Federated Identities for granting temporary AWS credentials to authenticated users. It includes multi-factor authentication, advanced security features, and customizable authentication flows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/screenshots/aws-cognito-2026-06-20T172748.png",
      "score": 66.1,
      "band": "exemplar",
@@ -12952,7 +12952,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -12992,7 +12992,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -13039,7 +13039,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 62.6,
      "agent_band": "agent-ready",
@@ -13079,7 +13079,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -13119,7 +13119,7 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 46.2,
      "agent_band": "agent-ready",
@@ -13159,7 +13159,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 32.2,
      "agent_band": "agent-aware",
@@ -13186,7 +13186,7 @@
      "slug": "sysdig",
      "url": "https://providers.apis.io/providers/sysdig/",
      "type": "API Provider",
-     "description": "Sysdig is a cloud and container security platform that provides runtime",
+     "description": "Sysdig is a cloud and container security platform that provides runtime threat detection, vulnerability management, cloud security posture management (CSPM), compliance automation, and observability for containers, Kubernetes, and cloud environments. Sysdig Monitor offers full-stack monitoring and alerting while Sysdig Secure delivers runtime security, vulnerability scanning, policy enforcement, incident response, and compliance reporting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/screenshots/sysdig-2026-06-20T194836.png",
      "score": 66.1,
      "band": "exemplar",
@@ -13199,7 +13199,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 41.4,
      "agent_band": "agent-ready",
@@ -13226,7 +13226,7 @@
      "slug": "amazon-device-farm",
      "url": "https://providers.apis.io/providers/amazon-device-farm/",
      "type": "API Provider",
-     "description": "AWS Device Farm is an application testing service that lets you improve the quality of your web and mobile apps",
+     "description": "AWS Device Farm is an application testing service that lets you improve the quality of your web and mobile apps by testing them across an extensive range of desktop browsers and real mobile devices without having to provision and manage any testing infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/screenshots/amazon-device-farm-2026-06-20T171633.png",
      "score": 66.0,
      "band": "exemplar",
@@ -13239,7 +13239,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -13266,7 +13266,7 @@
      "slug": "amazon-direct-connect",
      "url": "https://providers.apis.io/providers/amazon-direct-connect/",
      "type": "API Provider",
-     "description": "AWS Direct Connect links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic",
+     "description": "AWS Direct Connect links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. With this connection, you can create virtual interfaces directly to public AWS services or to Amazon VPC, bypassing internet service providers in your network path. An AWS Direct Connect location provides access to AWS in the region with which it is associated, providing reduced network costs, increased bandwidth throughput, and a more consistent network experience.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/screenshots/amazon-direct-connect-2026-06-20T171629.png",
      "score": 66.0,
      "band": "exemplar",
@@ -13279,7 +13279,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -13319,7 +13319,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -13359,7 +13359,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.9,
      "agent_band": "agent-ready",
@@ -13399,7 +13399,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -13439,7 +13439,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -13479,7 +13479,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 30.6,
      "agent_band": "agent-aware",
@@ -13519,7 +13519,7 @@
       "developer_ergonomics": 75.5,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 44.8,
      "agent_band": "agent-ready",
@@ -13559,7 +13559,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "regulatory": {
       "applies": true,
@@ -13593,7 +13593,7 @@
      "slug": "snowflake",
      "url": "https://providers.apis.io/providers/snowflake/",
      "type": "API Provider",
-     "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science,",
+     "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
      "score": 66.0,
      "band": "exemplar",
@@ -13606,7 +13606,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 55.0,
      "agent_band": "agent-ready",
@@ -13646,7 +13646,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 68.4
      },
-     "scored_at": "2026-08-03",
+     "scored_at": "2026-08-04",
      "schema_version": 0.9,
      "agent_score": 45.5,
      "agent_band": "agent-ready",
