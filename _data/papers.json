@@ -480,6 +480,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-travel-apis.png"
   },
   {
+    "slug": "state-of-compute-hardware-apis",
+    "title": "The State of Compute & Hardware APIs",
+    "tagline": "The companies that rent the chips score 36.5. The companies that design and fabricate those same chips score 10.7. NVIDIA scores 31.1 and NVIDIA NIM scores 75.7.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-compute-hardware-apis.png"
+  },
+  {
     "slug": "state-of-cybersecurity-apis",
     "title": "The State of Cybersecurity APIs",
     "tagline": "The second-best-scoring market in the catalog — and 72% of it will not tell you how to report a vulnerability, now that the EU Cyber Resilience Act requires exactly that.",
@@ -518,6 +526,14 @@
     "area": "Market Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-market-data-apis.png"
+  },
+  {
+    "slug": "state-of-supply-chain-apis",
+    "title": "The State of Supply Chain APIs",
+    "tagline": "The industry that moves the physical economy publishes idempotency at 1.2% — thirteen companies out of 1,124 — in the one market where a retried request dispatches a second truck.",
+    "area": "Market Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-supply-chain-apis.png"
   },
   {
     "slug": "state-of-telecom-apis",
