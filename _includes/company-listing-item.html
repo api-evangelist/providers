@@ -116,12 +116,37 @@
             {% if item.agent_dims and rubric.agent_readiness %}
             <div class="rd-col-agent-rows">
               <div class="rd-section-title">Agent readiness &mdash; {{ item.agent_score | round }}/100 <span class="rd-band">&middot; {{ item.agent_band | replace: '-', ' ' }}</span></div>
+              {%- comment -%}
+                Same defect, same fix as _layouts/provider.html — see the long note there.
+                The 0.6 graded dimensions are STRINGS, every non-empty string is truthy in
+                Liquid, so this row paid FULL points for partial credit on every listing in
+                the catalog. Resolve the fraction from the dimension's `credit:` table, then
+                the provenance credit table.
+              {%- endcomment -%}
+              {%- assign pcredit = rubric.provenance.credit -%}
               {% for d in rubric.agent_readiness.dimensions %}
-                {% assign hit = item.agent_dims[d.id] %}
+                {%- assign hit = item.agent_dims[d.id] -%}
+                {%- assign grade = '' -%}
+                {%- if hit == true -%}
+                  {%- assign frac = 1 -%}
+                {%- elsif hit == false or hit == nil or hit == '' -%}
+                  {%- assign frac = 0 -%}
+                {%- else -%}
+                  {%- assign grade = hit -%}
+                  {%- if d.credit and d.credit[hit] != nil -%}
+                    {%- assign frac = d.credit[hit] -%}
+                  {%- elsif pcredit and pcredit[hit] != nil -%}
+                    {%- assign frac = pcredit[hit] -%}
+                  {%- else -%}
+                    {%- assign frac = 1 -%}
+                  {%- endif -%}
+                {%- endif -%}
+                {%- assign earned = d.points | times: frac -%}
+                {%- assign pct = frac | times: 100 -%}
                 <div class="rd-row">
-                  <span class="rd-label"><span class="rd-dot {% if hit %}on{% else %}off{% endif %}"></span>{{ d.label }}</span>
-                  <span class="rd-track"><span class="rd-fill" style="width:{% if hit %}100{% else %}0{% endif %}%;"></span></span>
-                  <span class="rd-pts {% unless hit %}miss{% endunless %}"><b>{% if hit %}{{ d.points }}{% else %}0{% endif %}</b> / {{ d.points }}</span>
+                  <span class="rd-label"><span class="rd-dot {% if frac >= 1 %}on{% elsif frac > 0 %}part{% else %}off{% endif %}"></span>{{ d.label }}{% if grade != '' and frac < 1 %} <span class="rd-grade" title="Partial credit — this dimension is graded, and {{ grade }} earns {{ frac }} of its award.">{{ grade }}</span>{% endif %}</span>
+                  <span class="rd-track"><span class="rd-fill" style="width:{{ pct }}%;"></span></span>
+                  <span class="rd-pts {% if frac <= 0 %}miss{% endif %}"><b>{{ earned | round: 1 }}</b> / {{ d.points }}</span>
                 </div>
               {% endfor %}
             </div>

@@ -121,6 +121,10 @@ nav: Providers
   .rd-label abbr { text-decoration: none; border-bottom: 1px dotted #b6c0d0; cursor: help; }
   .rd-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
   .rd-dot.on { background: #16a34a; } .rd-dot.off { background: #dc3545; }
+  /* Partial credit is its own state: a graded dimension earned SOME of its award. */
+  .rd-dot.part { background: #d97706; }
+  .rd-grade { font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.02em;
+              color: #92400e; background: #fef3c7; border-radius: 3px; padding: 0.05rem 0.28rem; }
   .rd-track { height: 8px; background: #fbe0e3; border-radius: 999px; overflow: hidden; }
   .rd-fill { display: block; height: 100%; background: linear-gradient(90deg, #16a34a, #0b6b4f); border-radius: 999px; }
   .rd-col-agent-rows .rd-track { background: #e6edf7; }
@@ -436,12 +440,41 @@ nav: Providers
           {%- if page.agent_readiness and page.agent_readiness.dimensions and rubric.agent_readiness %}
           <div class="rd-col-agent-rows">
             <div class="rd-section-title">Agent readiness &mdash; {{ page.agent_readiness.score | round }}/100 <span class="rd-band">&middot; {{ page.agent_readiness.band | replace: '-', ' ' }}</span></div>
+            {%- comment -%}
+              A graded dimension arrives as a STRING (`derived`, `documented`, `partial`,
+              `near-conformant`), and every non-empty string is truthy in Liquid — so
+              rendering `{% if hit %}{{ d.points }}` paid FULL points for partial credit
+              on every provider page in the catalog. Telesign showed 45/111 where the
+              scoring run recorded 34.0/111 (agentic_access `derived` = 2.5 of 10,
+              rate_limit_signal `documented` = 3.5 of 7); Aidan Doherty at Telesign added
+              up the rows and asked why the total was 31 and not 41, on 2026-08-04.
+              Resolve the fraction the way score.rb does: the dimension's own `credit:`
+              table first, then the provenance credit table, full credit for a bare true.
+            {%- endcomment -%}
+            {%- assign pcredit = rubric.provenance.credit -%}
             {%- for d in rubric.agent_readiness.dimensions -%}
               {%- assign hit = page.agent_readiness.dimensions[d.id] -%}
+              {%- assign grade = '' -%}
+              {%- if hit == true -%}
+                {%- assign frac = 1 -%}
+              {%- elsif hit == false or hit == nil or hit == '' -%}
+                {%- assign frac = 0 -%}
+              {%- else -%}
+                {%- assign grade = hit -%}
+                {%- if d.credit and d.credit[hit] != nil -%}
+                  {%- assign frac = d.credit[hit] -%}
+                {%- elsif pcredit and pcredit[hit] != nil -%}
+                  {%- assign frac = pcredit[hit] -%}
+                {%- else -%}
+                  {%- assign frac = 1 -%}
+                {%- endif -%}
+              {%- endif -%}
+              {%- assign earned = d.points | times: frac -%}
+              {%- assign pct = frac | times: 100 -%}
               <div class="rd-row">
-                <span class="rd-label"><span class="rd-dot {% if hit %}on{% else %}off{% endif %}"></span>{{ d.label }}</span>
-                <span class="rd-track"><span class="rd-fill" style="width:{% if hit %}100{% else %}0{% endif %}%;"></span></span>
-                <span class="rd-pts {% unless hit %}miss{% endunless %}"><b>{% if hit %}{{ d.points }}{% else %}0{% endif %}</b> / {{ d.points }}</span>
+                <span class="rd-label"><span class="rd-dot {% if frac >= 1 %}on{% elsif frac > 0 %}part{% else %}off{% endif %}"></span>{{ d.label }}{% if grade != '' and frac < 1 %} <span class="rd-grade" title="Partial credit — this dimension is graded, and {{ grade }} earns {{ frac }} of its award.">{{ grade }}</span>{% endif %}</span>
+                <span class="rd-track"><span class="rd-fill" style="width:{{ pct }}%;"></span></span>
+                <span class="rd-pts {% if frac <= 0 %}miss{% endif %}"><b>{{ earned | round: 1 }}</b> / {{ d.points }}</span>
               </div>
             {%- endfor -%}
           </div>
