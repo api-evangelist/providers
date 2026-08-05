@@ -6,7 +6,7 @@
   {
    "band": "exemplar",
    "label": "Exemplar",
-   "range": "70+",
+   "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 3,
    "shown": 3,
@@ -145,7 +145,7 @@
   {
    "band": "developing",
    "label": "Developing",
-   "range": "45–59.9",
+   "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 3,
    "shown": 3,
@@ -291,7 +291,7 @@
   {
    "band": "emerging",
    "label": "Emerging",
-   "range": "15–29.9",
+   "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 1,
    "shown": 1,

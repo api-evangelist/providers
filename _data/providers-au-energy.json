@@ -6,7 +6,7 @@
   {
    "band": "strong",
    "label": "Strong",
-   "range": "60–69.9",
+   "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 3,
    "shown": 3,
@@ -152,7 +152,7 @@
   {
    "band": "developing",
    "label": "Developing",
-   "range": "45–59.9",
+   "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 11,
    "shown": 11,
@@ -658,7 +658,7 @@
   {
    "band": "thin",
    "label": "Thin",
-   "range": "30–44.9",
+   "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 5,
    "shown": 5,
@@ -893,7 +893,7 @@
   {
    "band": "emerging",
    "label": "Emerging",
-   "range": "15–29.9",
+   "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 5,
    "shown": 5,

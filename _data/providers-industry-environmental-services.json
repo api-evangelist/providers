@@ -6,7 +6,7 @@
   {
    "band": "emerging",
    "label": "Emerging",
-   "range": "15–29.9",
+   "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 2,
    "shown": 2,
@@ -93,7 +93,7 @@
   {
    "band": "minimal",
    "label": "Minimal",
-   "range": "0–14.9",
+   "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 4,
    "shown": 4,

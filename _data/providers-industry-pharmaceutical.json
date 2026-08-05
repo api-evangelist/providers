@@ -6,7 +6,7 @@
   {
    "band": "thin",
    "label": "Thin",
-   "range": "30–44.9",
+   "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 1,
    "shown": 1,
@@ -62,7 +62,7 @@
   {
    "band": "emerging",
    "label": "Emerging",
-   "range": "15–29.9",
+   "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 7,
    "shown": 7,
@@ -374,7 +374,7 @@
   {
    "band": "minimal",
    "label": "Minimal",
-   "range": "0–14.9",
+   "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 16,
    "shown": 16,

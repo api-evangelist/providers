@@ -958,6 +958,55 @@ def build_rated_entry(slug, meta, scores):
     return entry
 
 
+# The band a provider sits in comes from score.rb, which reads its thresholds from
+# api-search/network/_data/scoring.yml. The RANGE LABEL printed beside each band on
+# every rated listing used to be a second, hand-maintained copy of those thresholds
+# here — and it drifted: the rubric was recalibrated (Exemplar 66+, Strong 56–65.9,
+# Developing 42–55.9, Thin 28–41.9, Emerging 13–27.9) while this file kept printing
+# the pre-calibration ladder (70+, 60–69.9, 45–59.9, 30–44.9, 15–29.9). Grouping was
+# always right; the label under it was wrong on every section page. Read the ranges
+# from the same file score.rb does so the two cannot disagree again.
+SCORING_YML = os.path.join(ROOT, "api-search", "network", "_data", "scoring.yml")
+
+# Listing blurbs are written for this site and stay here; only the ranges are sourced.
+BAND_BLURBS = {
+    "exemplar":   "Reference-quality API operations across every facet.",
+    "strong":     "Solid contracts, transparent operations, and an easy start.",
+    "developing": "Real signal across most facets with visible, nameable gaps.",
+    "thin":       "Limited machine-readable signal beyond documentation a human can read.",
+    "emerging":   "More than an index entry but still mostly links rather than artifacts.",
+    "minimal":    "Index entry only; little beyond a description and a link.",
+}
+
+_BAND_LADDER_CACHE = []
+
+
+def band_ladder_from_scoring():
+    """[(id, label, range, blurb), …] with ranges read from scoring.yml."""
+    if _BAND_LADDER_CACHE:
+        return _BAND_LADDER_CACHE
+    ladder = []
+    try:
+        with open(SCORING_YML, "r", encoding="utf-8") as fh:
+            bands = (yaml.safe_load(fh) or {}).get("bands") or []
+        for b in bands:
+            bid = str(b.get("id") or "")
+            if bid in BAND_BLURBS:
+                ladder.append((bid, b.get("label") or bid.title(),
+                               str(b.get("range") or ""), BAND_BLURBS[bid]))
+    except (OSError, yaml.YAMLError):
+        ladder = []
+    if len(ladder) != len(BAND_BLURBS):
+        # scoring.yml unreadable or reshaped — group without claiming a range
+        # rather than printing thresholds that may be wrong.
+        ladder = [(bid, bid.title() if bid != "developing" else "Developing", "", blurb)
+                  for bid, blurb in BAND_BLURBS.items()]
+    ladder.append(("unrated", "Not Yet Rated", "",
+                   "Providers we have not scored yet — unknown, not zero."))
+    _BAND_LADDER_CACHE.extend(ladder)
+    return _BAND_LADDER_CACHE
+
+
 def band_grouped(entries):
     # Rating sort: scored providers by composite descending; unscored last,
     # alphabetically (unscored is "not yet rated", not a zero).
@@ -966,15 +1015,7 @@ def band_grouped(entries):
         e["rank"] = rank
     # Group by composite band, same ladder as apis.io/providers/. Only bands
     # with at least one member are emitted; the top two present open by default.
-    band_ladder = [
-        ("exemplar",   "Exemplar",   "70+",     "Reference-quality API operations across every facet."),
-        ("strong",     "Strong",     "60–69.9", "Solid contracts, transparent operations, and an easy start."),
-        ("developing", "Developing", "45–59.9", "Real signal across most facets with visible, nameable gaps."),
-        ("thin",       "Thin",       "30–44.9", "Limited machine-readable signal beyond documentation a human can read."),
-        ("emerging",   "Emerging",   "15–29.9", "More than an index entry but still mostly links rather than artifacts."),
-        ("minimal",    "Minimal",    "0–14.9",  "Index entry only; little beyond a description and a link."),
-        ("unrated",    "Not Yet Rated", "",     "Providers we have not scored yet — unknown, not zero."),
-    ]
+    band_ladder = band_ladder_from_scoring()
     groups = []
     for band, label, band_range, blurb in band_ladder:
         members = [e for e in entries if e.get("band", "unrated") == band or (band == "unrated" and "band" not in e)]

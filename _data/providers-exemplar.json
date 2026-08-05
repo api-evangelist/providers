@@ -4,7 +4,7 @@
   {
    "band": "exemplar",
    "label": "Exemplar",
-   "range": "70+",
+   "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 332,
    "providers": [

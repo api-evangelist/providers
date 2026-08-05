@@ -6,7 +6,7 @@
   {
    "band": "exemplar",
    "label": "Exemplar",
-   "range": "70+",
+   "range": "66+",
    "blurb": "Reference-quality API operations across every facet.",
    "count": 2,
    "shown": 2,
@@ -107,7 +107,7 @@
   {
    "band": "strong",
    "label": "Strong",
-   "range": "60–69.9",
+   "range": "56 – 65.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 29,
    "shown": 29,
@@ -1379,7 +1379,7 @@
   {
    "band": "developing",
    "label": "Developing",
-   "range": "45–59.9",
+   "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
    "count": 108,
    "shown": 108,
@@ -6099,7 +6099,7 @@
   {
    "band": "thin",
    "label": "Thin",
-   "range": "30–44.9",
+   "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
    "count": 157,
    "shown": 157,
@@ -12962,7 +12962,7 @@
   {
    "band": "emerging",
    "label": "Emerging",
-   "range": "15–29.9",
+   "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
    "count": 562,
    "shown": 562,
@@ -37513,7 +37513,7 @@
   {
    "band": "minimal",
    "label": "Minimal",
-   "range": "0–14.9",
+   "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
    "count": 755,
    "shown": 142,
