@@ -148,6 +148,14 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
+    "digital-health": {
+        "slug": "state-of-digital-health-apis",
+        "title": "The State of Digital Health APIs",
+        "blurb": "The market with the best standard and the most mandates publishes consent as a "
+                 "machine-readable surface at 3.4% \u2014 the same rate as the rest of the catalog.",
+        "price": "500",
+        "kind": "API Evangelist Market Report",
+    },
     "supply-chain": {
         "slug": "state-of-supply-chain-apis",
         "title": "The State of Supply Chain APIs",
