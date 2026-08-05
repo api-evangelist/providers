@@ -4988,46 +4988,6 @@
      "rank": 121
     },
     {
-     "name": "Palo Alto Networks",
-     "slug": "palo-alto-networks",
-     "url": "https://providers.apis.io/providers/palo-alto-networks/",
-     "type": "API Provider",
-     "description": "Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations, and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png",
-     "score": 71.1,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 93.5,
-      "governance": 62.5,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "agent_score": 56.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 122
-    },
-    {
      "name": "PayTabs",
      "slug": "paytabs",
      "url": "https://providers.apis.io/providers/paytabs/",
@@ -5071,7 +5031,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 123
+     "rank": 122
     },
     {
      "name": "Youtube",
@@ -5111,7 +5071,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 124
+     "rank": 123
     },
     {
      "name": "Apidog",
@@ -5151,7 +5111,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 125
+     "rank": 124
     },
     {
      "name": "Yelp",
@@ -5191,7 +5151,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 126
+     "rank": 125
     },
     {
      "name": "Airtable",
@@ -5231,7 +5191,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 127
+     "rank": 126
     },
     {
      "name": "Amazon Elastic Beanstalk",
@@ -5271,7 +5231,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 128
+     "rank": 127
     },
     {
      "name": "Amazon ElastiCache",
@@ -5311,7 +5271,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 129
+     "rank": 128
     },
     {
      "name": "Amazon EventBridge",
@@ -5351,7 +5311,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 130
+     "rank": 129
     },
     {
      "name": "Amazon VPC",
@@ -5391,7 +5351,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 131
+     "rank": 130
     },
     {
      "name": "Vercel",
@@ -5431,7 +5391,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 132
+     "rank": 131
     },
     {
      "name": "Azure Monitor",
@@ -5471,7 +5431,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 133
+     "rank": 132
     },
     {
      "name": "Hugging Face",
@@ -5511,7 +5471,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 134
+     "rank": 133
     },
     {
      "name": "Slack",
@@ -5558,7 +5518,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 135
+     "rank": 134
     },
     {
      "name": "Azure Event Hubs",
@@ -5598,7 +5558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 136
+     "rank": 135
     },
     {
      "name": "Culqi",
@@ -5645,7 +5605,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 137
+     "rank": 136
     },
     {
      "name": "Red Hat",
@@ -5685,7 +5645,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 138
+     "rank": 137
     },
     {
      "name": "Sentry",
@@ -5725,7 +5685,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 139
+     "rank": 138
     },
     {
      "name": "Amazon DocumentDB",
@@ -5765,7 +5725,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 140
+     "rank": 139
     },
     {
      "name": "Amazon Lambda",
@@ -5805,7 +5765,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 141
+     "rank": 140
     },
     {
      "name": "Daytona",
@@ -5845,7 +5805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 142
+     "rank": 141
     },
     {
      "name": "Claude",
@@ -5885,7 +5845,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 143
+     "rank": 142
     },
     {
      "name": "GreyNoise Intelligence",
@@ -5925,7 +5885,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 144
+     "rank": 143
     },
     {
      "name": "Kinde",
@@ -5965,7 +5925,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 145
+     "rank": 144
     },
     {
      "name": "LinkedIn",
@@ -6005,7 +5965,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 146
+     "rank": 145
     },
     {
      "name": "Sendbird",
@@ -6045,7 +6005,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 147
+     "rank": 146
     },
     {
      "name": "Tomorrow.io",
@@ -6085,7 +6045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 148
+     "rank": 147
     },
     {
      "name": "Workday",
@@ -6125,7 +6085,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 149
+     "rank": 148
     },
     {
      "name": "Microsoft Planner",
@@ -6165,7 +6125,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 150
+     "rank": 149
     },
     {
      "name": "Oracle Enterprise Manager",
@@ -6205,7 +6165,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 151
+     "rank": 150
     },
     {
      "name": "Adobe Analytics",
@@ -6245,7 +6205,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 152
+     "rank": 151
     },
     {
      "name": "CryptoCompare",
@@ -6292,7 +6252,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 153
+     "rank": 152
     },
     {
      "name": "Cloudflare",
@@ -6332,7 +6292,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 154
+     "rank": 153
     },
     {
      "name": "Datadog",
@@ -6372,7 +6332,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 155
+     "rank": 154
     },
     {
      "name": "DOKU",
@@ -6419,7 +6379,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 156
+     "rank": 155
     },
     {
      "name": "Highnote",
@@ -6466,7 +6426,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 157
+     "rank": 156
     },
     {
      "name": "Lev",
@@ -6513,7 +6473,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 158
+     "rank": 157
     },
     {
      "name": "Sift",
@@ -6553,7 +6513,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 159
+     "rank": 158
     },
     {
      "name": "Bentley Systems",
@@ -6593,7 +6553,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 160
+     "rank": 159
     },
     {
      "name": "Microsoft Azure",
@@ -6633,7 +6593,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 161
+     "rank": 160
     },
     {
      "name": "8x8",
@@ -6679,7 +6639,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 162
+     "rank": 161
     },
     {
      "name": "Ibm Quantum",
@@ -6719,7 +6679,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 163
+     "rank": 162
     },
     {
      "name": "AbuseIPDB",
@@ -6759,7 +6719,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 164
+     "rank": 163
     },
     {
      "name": "Ironclad",
@@ -6799,7 +6759,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 165
+     "rank": 164
     },
     {
      "name": "Commerce Layer",
@@ -6846,7 +6806,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 166
+     "rank": 165
     },
     {
      "name": "Microsoft Dynamics NAV",
@@ -6886,7 +6846,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 167
+     "rank": 166
     },
     {
      "name": "Microsoft Office 365",
@@ -6926,7 +6886,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 168
+     "rank": 167
     },
     {
      "name": "Mollie",
@@ -6972,7 +6932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 169
+     "rank": 168
     },
     {
      "name": "Adobe",
@@ -7012,7 +6972,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 170
+     "rank": 169
     },
     {
      "name": "Amazon EBS",
@@ -7052,7 +7012,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 171
+     "rank": 170
     },
     {
      "name": "Atlassian",
@@ -7092,7 +7052,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 172
+     "rank": 171
     },
     {
      "name": "HitPay",
@@ -7139,7 +7099,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 173
+     "rank": 172
     },
     {
      "name": "Affinda",
@@ -7186,7 +7146,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 174
+     "rank": 173
     },
     {
      "name": "Amazon ECR",
@@ -7226,7 +7186,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 175
+     "rank": 174
     },
     {
      "name": "Amazon RDS",
@@ -7266,7 +7226,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 176
+     "rank": 175
     },
     {
      "name": "Omnisend",
@@ -7306,7 +7266,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 177
+     "rank": 176
     },
     {
      "name": "Parallel",
@@ -7345,7 +7305,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 178
+     "rank": 177
     },
     {
      "name": "Azure DevOps",
@@ -7385,7 +7345,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 179
+     "rank": 178
     },
     {
      "name": "Bright Data",
@@ -7425,7 +7385,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 180
+     "rank": 179
     },
     {
      "name": "OpenAI",
@@ -7465,7 +7425,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 181
+     "rank": 180
     },
     {
      "name": "S&P Global",
@@ -7505,7 +7465,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 182
+     "rank": 181
     },
     {
      "name": "TikTok for Developers",
@@ -7545,7 +7505,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 183
+     "rank": 182
     },
     {
      "name": "Workday Extend",
@@ -7585,7 +7545,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 184
+     "rank": 183
     },
     {
      "name": "Amazon EFS",
@@ -7625,7 +7585,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 185
+     "rank": 184
     },
     {
      "name": "Finix",
@@ -7667,6 +7627,46 @@
       "rate_limit_signal": "documented",
       "event_surface_described": "derived",
       "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 185
+    },
+    {
+     "name": "Palo Alto Networks",
+     "slug": "palo-alto-networks",
+     "url": "https://providers.apis.io/providers/palo-alto-networks/",
+     "type": "API Provider",
+     "description": "Palo Alto Networks is a global cybersecurity leader providing advanced security platforms and services across network security, cloud security, and security operations. Its developer platform at pan.dev offers REST and XML APIs for PAN-OS firewalls, Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, code security), Prisma Access and SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations, and cloud-delivered security services including WildFire, Threat Vault, IoT Security, and DLP.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png",
+     "score": 68.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 84.5,
+      "governance": 62.5,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-04",
+     "schema_version": "0.9.1",
+     "agent_score": 56.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,

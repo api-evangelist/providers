@@ -1,4 +1,4 @@
-# Mirrored from api-search/signals/_data/scoring.yml by build-sections.py — do not edit here.
+# Mirrored from api-search/signals/_data/scoring.yml by build-listing.py — do not edit here.
 # Kin Score — Scoring Rubric (the API Evangelist rating system, licensed by APIs.io)
 #
 # Per-artifact checks produce raw points. Points roll up into facet sub-scores

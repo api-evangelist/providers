@@ -114888,46 +114888,6 @@
      "rank": 2758
     },
     {
-     "name": "Segment",
-     "slug": "segment",
-     "url": "https://providers.apis.io/providers/segment/",
-     "type": "API Provider",
-     "description": "Segment is a customer data platform that helps companies collect, clean, and route customer data to hundreds of tools used for analytics, marketing, and data warehousing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/screenshots/segment-2026-06-20T193639.png",
-     "score": 45.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 77.8,
-      "governance": 47.9,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "agent_score": 39.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 2759
-    },
-    {
      "name": "Stream",
      "slug": "getstream",
      "url": "https://providers.apis.io/providers/getstream/",
@@ -114972,7 +114932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 2760
+     "rank": 2759
     },
     {
      "name": "Trellis Research",
@@ -115007,6 +114967,46 @@
       "event_surface_described": "derived",
       "agent_skills": false,
       "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 2760
+    },
+    {
+     "name": "Twilio Segment",
+     "slug": "segment",
+     "url": "https://providers.apis.io/providers/segment/",
+     "type": "API Provider",
+     "description": "Twilio Segment is a customer data platform that collects, cleans, and routes customer data to hundreds of downstream tools for analytics, marketing, and data warehousing. Its surface spans event collection (the HTTP Tracking API with identify, track, page, screen, group and alias calls, plus a pixel endpoint for environments where JavaScript cannot run), a Public API for programmatic management of workspaces, sources, destinations, warehouses, tracking plans, functions and transformations, Unify for identity resolution, Engage for audiences, Protocols for tracking-plan governance, Reverse ETL for warehouse-to-tool syncs, and connections to 90+ warehouses including BigQuery, Snowflake and Databricks. Segment was acquired by Twilio in a $3.2B all-stock deal completed in 2020 and now sits inside Twilio's platform; Twilio completed an operational review in March 2024 and retained the business despite activist-investor pressure to divest. The docs, pricing and legal pages have moved onto twilio.com, and the legacy Segment Analytics libraries for iOS and Android reached full sunset on 2026-03-31. The older Config API is deprecated — no new tokens have been issued since early 2024 — with the Public API as the recommended replacement. The Public API host is authenticated: api.segmentapis.com returns 401 anonymously, and no OpenAPI is publicly fetchable (see x-evidence).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/screenshots/segment-2026-06-20T193639.png",
+     "score": 45.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 77.8,
+      "governance": 47.9,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-04",
+     "schema_version": 0.9,
+     "agent_score": 39.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false

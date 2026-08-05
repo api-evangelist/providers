@@ -1,12 +1,12 @@
 {
- "total": 1160,
+ "total": 1161,
  "bands": [
   {
    "band": "strong",
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1160,
+   "count": 1161,
    "providers": [
     {
      "name": "Amazon Managed Blockchain",
@@ -42192,6 +42192,52 @@
      "rank": 1022
     },
     {
+     "name": "nCino",
+     "slug": "ncino",
+     "url": "https://providers.apis.io/providers/ncino/",
+     "type": "API Provider",
+     "description": "nCino is a cloud banking software company whose platform runs commercial, small business, consumer and mortgage lending, deposit account opening, and portfolio analytics for banks and credit unions. Its public developer surface is split across two portals: the nCino Mortgage API (formerly SimpleNexus) at developer.ncinomortgage.com, an OAuth 2.0 client-credentials REST API of 251 operations across foundation, loans, loan applications, organizations, user management, RBAC, services and webhooks — plus 35 OpenAPI 3.1 webhook events and two OAuth-protected remote MCP servers for loan officers and administrators — and the nCino eVault API at developer.ncino.com, a 24-operation eNote registry, transfer and audit-log API. Platform, AI and Consumer Banking API reference sections on the developer portal are behind customer login.",
+     "score": 56.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 68.8,
+      "governance": 11.5,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 73.4,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-08-04",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 59.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 52.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 1023
+    },
+    {
      "name": "Stellar Cyber",
      "slug": "stellar-cyber",
      "url": "https://providers.apis.io/providers/stellar-cyber/",
@@ -42229,7 +42275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1023
+     "rank": 1024
     },
     {
      "name": "TheTVDB",
@@ -42269,7 +42315,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1024
+     "rank": 1025
     },
     {
      "name": "ASAPP",
@@ -42309,7 +42355,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1025
+     "rank": 1026
     },
     {
      "name": "Atlassian Compass",
@@ -42349,7 +42395,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1026
+     "rank": 1027
     },
     {
      "name": "Automattic",
@@ -42388,7 +42434,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1027
+     "rank": 1028
     },
     {
      "name": "depop",
@@ -42428,7 +42474,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1028
+     "rank": 1029
     },
     {
      "name": "Fyno",
@@ -42475,7 +42521,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1029
+     "rank": 1030
     },
     {
      "name": "Lattice",
@@ -42515,7 +42561,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1030
+     "rank": 1031
     },
     {
      "name": "LlamaParse",
@@ -42555,7 +42601,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1031
+     "rank": 1032
     },
     {
      "name": "Marketstack",
@@ -42602,7 +42648,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1032
+     "rank": 1033
     },
     {
      "name": "The Movie Database",
@@ -42642,7 +42688,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1033
+     "rank": 1034
     },
     {
      "name": "Typesense",
@@ -42682,7 +42728,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1034
+     "rank": 1035
     },
     {
      "name": "UK Power Networks",
@@ -42728,7 +42774,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1035
+     "rank": 1036
     },
     {
      "name": "UXCam",
@@ -42767,7 +42813,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1036
+     "rank": 1037
     },
     {
      "name": "ACMA",
@@ -42813,7 +42859,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1037
+     "rank": 1038
     },
     {
      "name": "Band AI",
@@ -42853,7 +42899,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1038
+     "rank": 1039
     },
     {
      "name": "BrowserStack",
@@ -42893,7 +42939,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1039
+     "rank": 1040
     },
     {
      "name": "Inception",
@@ -42933,7 +42979,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1040
+     "rank": 1041
     },
     {
      "name": "Lambda",
@@ -42973,7 +43019,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1041
+     "rank": 1042
     },
     {
      "name": "Ledge",
@@ -43013,7 +43059,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1042
+     "rank": 1043
     },
     {
      "name": "Morning Consult",
@@ -43052,7 +43098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1043
+     "rank": 1044
     },
     {
      "name": "Route Mobile",
@@ -43098,7 +43144,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1044
+     "rank": 1045
     },
     {
      "name": "SAP S/4HANA",
@@ -43138,7 +43184,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1045
+     "rank": 1046
     },
     {
      "name": "SignWell",
@@ -43178,7 +43224,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1046
+     "rank": 1047
     },
     {
      "name": "Swan",
@@ -43224,7 +43270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1047
+     "rank": 1048
     },
     {
      "name": "Teachable",
@@ -43264,7 +43310,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1048
+     "rank": 1049
     },
     {
      "name": "TIBCO",
@@ -43311,7 +43357,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1049
+     "rank": 1050
     },
     {
      "name": "Typeface",
@@ -43350,7 +43396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1050
+     "rank": 1051
     },
     {
      "name": "Veho",
@@ -43389,7 +43435,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1051
+     "rank": 1052
     },
     {
      "name": "Azure Service Bus",
@@ -43436,7 +43482,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1052
+     "rank": 1053
     },
     {
      "name": "Context.dev",
@@ -43476,7 +43522,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1053
+     "rank": 1054
     },
     {
      "name": "Dyspatch",
@@ -43523,7 +43569,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1054
+     "rank": 1055
     },
     {
      "name": "EdfaPay, Inc.",
@@ -43570,7 +43616,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1055
+     "rank": 1056
     },
     {
      "name": "Frontegg",
@@ -43610,7 +43656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1056
+     "rank": 1057
     },
     {
      "name": "Google Forms",
@@ -43650,7 +43696,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1057
+     "rank": 1058
     },
     {
      "name": "Hatchet",
@@ -43690,7 +43736,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1058
+     "rank": 1059
     },
     {
      "name": "Keycloak",
@@ -43730,7 +43776,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1059
+     "rank": 1060
     },
     {
      "name": "Packagist",
@@ -43770,7 +43816,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1060
+     "rank": 1061
     },
     {
      "name": "Pendo.io",
@@ -43809,7 +43855,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1061
+     "rank": 1062
     },
     {
      "name": "Red Hat Enterprise Linux 8",
@@ -43849,7 +43895,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1062
+     "rank": 1063
     },
     {
      "name": "Red Hat Satellite",
@@ -43889,7 +43935,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1063
+     "rank": 1064
     },
     {
      "name": "TetraScience",
@@ -43936,7 +43982,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1064
+     "rank": 1065
     },
     {
      "name": "Yugabyte",
@@ -43975,7 +44021,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1065
+     "rank": 1066
     },
     {
      "name": "AdvancedMD",
@@ -44021,7 +44067,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1066
+     "rank": 1067
     },
     {
      "name": "América Móvil",
@@ -44067,7 +44113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1067
+     "rank": 1068
     },
     {
      "name": "Azure DevOps",
@@ -44107,7 +44153,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1068
+     "rank": 1069
     },
     {
      "name": "Azure DevTest Labs",
@@ -44147,7 +44193,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1069
+     "rank": 1070
     },
     {
      "name": "Azure Networking Services",
@@ -44187,7 +44233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1070
+     "rank": 1071
     },
     {
      "name": "Cigna",
@@ -44234,7 +44280,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1071
+     "rank": 1072
     },
     {
      "name": "Coupa",
@@ -44274,7 +44320,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1072
+     "rank": 1073
     },
     {
      "name": "Forage",
@@ -44321,7 +44367,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1073
+     "rank": 1074
     },
     {
      "name": "iSpring Learn",
@@ -44361,7 +44407,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1074
+     "rank": 1075
     },
     {
      "name": "MinIO",
@@ -44400,7 +44446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1075
+     "rank": 1076
     },
     {
      "name": "NexHealth",
@@ -44446,7 +44492,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1076
+     "rank": 1077
     },
     {
      "name": "Reflect",
@@ -44486,7 +44532,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1077
+     "rank": 1078
     },
     {
      "name": "Shippo",
@@ -44526,7 +44572,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1078
+     "rank": 1079
     },
     {
      "name": "SimScale",
@@ -44566,7 +44612,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1079
+     "rank": 1080
     },
     {
      "name": "SonarSource",
@@ -44605,7 +44651,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 1080
+     "rank": 1081
     },
     {
      "name": "ValueSERP",
@@ -44645,7 +44691,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1081
+     "rank": 1082
     },
     {
      "name": "AIMLAPI",
@@ -44685,7 +44731,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1082
+     "rank": 1083
     },
     {
      "name": "Credentially",
@@ -44732,7 +44778,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1083
+     "rank": 1084
     },
     {
      "name": "Demandbase",
@@ -44772,7 +44818,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1084
+     "rank": 1085
     },
     {
      "name": "Dynamic",
@@ -44812,7 +44858,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1085
+     "rank": 1086
     },
     {
      "name": "Endgame",
@@ -44852,7 +44898,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1086
+     "rank": 1087
     },
     {
      "name": "Fireflies.ai",
@@ -44892,7 +44938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1087
+     "rank": 1088
     },
     {
      "name": "Nash",
@@ -44931,7 +44977,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1088
+     "rank": 1089
     },
     {
      "name": "Payrails",
@@ -44977,7 +45023,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1089
+     "rank": 1090
     },
     {
      "name": "Refinitiv",
@@ -45017,7 +45063,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1090
+     "rank": 1091
     },
     {
      "name": "SpotHero",
@@ -45057,7 +45103,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1091
+     "rank": 1092
     },
     {
      "name": "SS&C Geneva",
@@ -45097,7 +45143,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1092
+     "rank": 1093
     },
     {
      "name": "Stigg",
@@ -45137,7 +45183,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1093
+     "rank": 1094
     },
     {
      "name": "Telefonie",
@@ -45184,7 +45230,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1094
+     "rank": 1095
     },
     {
      "name": "Upwind Security",
@@ -45223,7 +45269,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1095
+     "rank": 1096
     },
     {
      "name": "WakaTime",
@@ -45263,7 +45309,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1096
+     "rank": 1097
     },
     {
      "name": "WarpStream",
@@ -45303,7 +45349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1097
+     "rank": 1098
     },
     {
      "name": "Amazon SQS",
@@ -45350,7 +45396,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1098
+     "rank": 1099
     },
     {
      "name": "AppDirect",
@@ -45390,7 +45436,7 @@
       "agent_card": false,
       "dry_run_mode": true
      },
-     "rank": 1099
+     "rank": 1100
     },
     {
      "name": "Browserbase",
@@ -45430,7 +45476,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1100
+     "rank": 1101
     },
     {
      "name": "Cloudinary",
@@ -45470,7 +45516,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1101
+     "rank": 1102
     },
     {
      "name": "CloudWalk",
@@ -45516,7 +45562,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1102
+     "rank": 1103
     },
     {
      "name": "Drippay",
@@ -45563,7 +45609,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1103
+     "rank": 1104
     },
     {
      "name": "Google Cloud Eventarc",
@@ -45610,7 +45656,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1104
+     "rank": 1105
     },
     {
      "name": "Google Cloud Healthcare",
@@ -45657,7 +45703,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1105
+     "rank": 1106
     },
     {
      "name": "Google Cloud Platform",
@@ -45697,7 +45743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1106
+     "rank": 1107
     },
     {
      "name": "Inspectorio",
@@ -45737,7 +45783,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1107
+     "rank": 1108
     },
     {
      "name": "JAMF",
@@ -45777,7 +45823,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1108
+     "rank": 1109
     },
     {
      "name": "Knak",
@@ -45817,7 +45863,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1109
+     "rank": 1110
     },
     {
      "name": "LiquiDonate",
@@ -45857,7 +45903,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1110
+     "rank": 1111
     },
     {
      "name": "Liveblocks",
@@ -45897,7 +45943,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1111
+     "rank": 1112
     },
     {
      "name": "Mesh",
@@ -45943,7 +45989,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1112
+     "rank": 1113
     },
     {
      "name": "Onshape",
@@ -45982,7 +46028,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1113
+     "rank": 1114
     },
     {
      "name": "Paymentsense",
@@ -46028,7 +46074,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1114
+     "rank": 1115
     },
     {
      "name": "Prolific",
@@ -46067,7 +46113,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1115
+     "rank": 1116
     },
     {
      "name": "Quay",
@@ -46107,7 +46153,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1116
+     "rank": 1117
     },
     {
      "name": "Replicas",
@@ -46146,7 +46192,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1117
+     "rank": 1118
     },
     {
      "name": "Sumo Logic",
@@ -46186,7 +46232,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1118
+     "rank": 1119
     },
     {
      "name": "Toornament",
@@ -46226,7 +46272,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1119
+     "rank": 1120
     },
     {
      "name": "Volkswagen",
@@ -46266,7 +46312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1120
+     "rank": 1121
     },
     {
      "name": "Affinity",
@@ -46306,7 +46352,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1121
+     "rank": 1122
     },
     {
      "name": "Australia Post",
@@ -46346,7 +46392,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1122
+     "rank": 1123
     },
     {
      "name": "Authlete",
@@ -46386,7 +46432,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1123
+     "rank": 1124
     },
     {
      "name": "Bettermode",
@@ -46426,7 +46472,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1124
+     "rank": 1125
     },
     {
      "name": "Coactive AI",
@@ -46466,7 +46512,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1125
+     "rank": 1126
     },
     {
      "name": "commercetools",
@@ -46506,7 +46552,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1126
+     "rank": 1127
     },
     {
      "name": "Cyclr",
@@ -46546,7 +46592,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1127
+     "rank": 1128
     },
     {
      "name": "evernote",
@@ -46586,7 +46632,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1128
+     "rank": 1129
     },
     {
      "name": "Finage",
@@ -46633,7 +46679,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1129
+     "rank": 1130
     },
     {
      "name": "Genesys",
@@ -46680,7 +46726,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1130
+     "rank": 1131
     },
     {
      "name": "Instabase",
@@ -46727,7 +46773,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1131
+     "rank": 1132
     },
     {
      "name": "Knownwell",
@@ -46767,7 +46813,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1132
+     "rank": 1133
     },
     {
      "name": "Plain",
@@ -46806,7 +46852,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1133
+     "rank": 1134
     },
     {
      "name": "REA Group",
@@ -46846,14 +46892,14 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1134
+     "rank": 1135
     },
     {
      "name": "Schematic",
      "slug": "schematic",
      "url": "https://providers.apis.io/providers/schematic/",
      "type": "API Provider",
-     "description": "Schematic is a feature and entitlement management platform for SaaS companies, providing pricing, packaging, and metering capabilities. It enables engineering and product teams to manage feature flags, define subscription plans, track feature usage, and control customer entitlements without code changes. Schematic raised $6.5M in April 2026 and launched an official Stripe App for entitlement management as a first-class billing primitive. Customers include Plotly, Automox, Florence, Blackcloak, Sema4.ai, and Pagos.",
+     "description": "Schematic is a monetization platform that lets developers implement pricing once so that go-to-market teams can control pricing, packaging and entitlements without code changes. It decouples pricing from code: engineering integrates the entitlement and metering layer, and product, sales and finance then define plans, feature access and usage limits without shipping a release. The platform covers feature flags and entitlement checks, plan and package definition, usage metering and billing integration, with an official Stripe App for entitlement management. Schematic raised $6.5M in April 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/schematic/refs/heads/main/screenshots/schematic-2026-06-20T193553.png",
      "score": 56.1,
      "band": "strong",
@@ -46886,7 +46932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1135
+     "rank": 1136
     },
     {
      "name": "SEON",
@@ -46926,7 +46972,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1136
+     "rank": 1137
     },
     {
      "name": "Socket",
@@ -46965,7 +47011,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1137
+     "rank": 1138
     },
     {
      "name": "SportsDataIO",
@@ -47005,7 +47051,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1138
+     "rank": 1139
     },
     {
      "name": "Telefon",
@@ -47052,7 +47098,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1139
+     "rank": 1140
     },
     {
      "name": "The Things Network / The Things Stack",
@@ -47092,7 +47138,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1140
+     "rank": 1141
     },
     {
      "name": "Unify",
@@ -47131,7 +47177,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1141
+     "rank": 1142
     },
     {
      "name": "Zavu",
@@ -47177,7 +47223,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1142
+     "rank": 1143
     },
     {
      "name": "Agentuity",
@@ -47217,7 +47263,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1143
+     "rank": 1144
     },
     {
      "name": "Amazon CloudSearch",
@@ -47257,7 +47303,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1144
+     "rank": 1145
     },
     {
      "name": "Anchorage Digital",
@@ -47304,7 +47350,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1145
+     "rank": 1146
     },
     {
      "name": "Constructor.io",
@@ -47343,7 +47389,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1146
+     "rank": 1147
     },
     {
      "name": "Gradium",
@@ -47383,7 +47429,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1147
+     "rank": 1148
     },
     {
      "name": "Horizon3.ai",
@@ -47423,7 +47469,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1148
+     "rank": 1149
     },
     {
      "name": "Instabug (Luciq)",
@@ -47463,7 +47509,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1149
+     "rank": 1150
     },
     {
      "name": "JamBase",
@@ -47503,7 +47549,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1150
+     "rank": 1151
     },
     {
      "name": "Kubeshop",
@@ -47543,7 +47589,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1151
+     "rank": 1152
     },
     {
      "name": "Lightup",
@@ -47583,7 +47629,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1152
+     "rank": 1153
     },
     {
      "name": "Planhat",
@@ -47622,7 +47668,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1153
+     "rank": 1154
     },
     {
      "name": "Port",
@@ -47662,7 +47708,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1154
+     "rank": 1155
     },
     {
      "name": "Runa",
@@ -47709,7 +47755,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1155
+     "rank": 1156
     },
     {
      "name": "Sportradar",
@@ -47749,7 +47795,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1156
+     "rank": 1157
     },
     {
      "name": "TheFork",
@@ -47789,7 +47835,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1157
+     "rank": 1158
     },
     {
      "name": "TypingDNA",
@@ -47828,7 +47874,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1158
+     "rank": 1159
     },
     {
      "name": "Voltage",
@@ -47874,7 +47920,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1159
+     "rank": 1160
     },
     {
      "name": "Wallapop",
@@ -47913,7 +47959,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 1160
+     "rank": 1161
     }
    ],
    "open": true
