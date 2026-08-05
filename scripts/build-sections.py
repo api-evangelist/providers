@@ -148,6 +148,14 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
+    "data-analytics": {
+        "slug": "state-of-data-analytics-apis",
+        "title": "The State of Data & Analytics APIs",
+        "blurb": "One of the best-scoring markets in the catalog \u2014 and the segment selling "
+                 "\u201cknow your data\u201d is the worst-scoring segment inside it.",
+        "price": "500",
+        "kind": "API Evangelist Market Report",
+    },
     "digital-health": {
         "slug": "state-of-digital-health-apis",
         "title": "The State of Digital Health APIs",
