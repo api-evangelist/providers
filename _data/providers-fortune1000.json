@@ -129,46 +129,6 @@
      "rank": 3
     },
     {
-     "name": "Oracle",
-     "slug": "oracle",
-     "url": "https://providers.apis.io/providers/oracle/",
-     "type": "API Provider",
-     "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png",
-     "score": 71.5,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 72.9,
-      "governance": 68.8,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 78.3,
-      "commercial_clarity": 84.2
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "agent_score": 52.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 4
-    },
-    {
      "name": "LinkedIn",
      "slug": "linkedin",
      "url": "https://providers.apis.io/providers/linkedin/",
@@ -206,7 +166,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "Adobe",
@@ -241,6 +201,46 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "Oracle",
+     "slug": "oracle",
+     "url": "https://providers.apis.io/providers/oracle/",
+     "type": "API Provider",
+     "description": "Collection of Oracle's APIs and developer resources across cloud infrastructure, databases, AI services, SaaS applications, and platform services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png",
+     "score": 67.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 55.5,
+      "governance": 68.8,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-08-04",
+     "schema_version": "0.9.1",
+     "agent_score": 52.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
