@@ -1,6 +1,6 @@
 {
- "total": 866,
- "shown": 866,
+ "total": 867,
+ "shown": 867,
  "limit": 1000,
  "bands": [
   {
@@ -23910,8 +23910,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 251,
-   "shown": 251,
+   "count": 250,
+   "shown": 250,
    "providers": [
     {
      "name": "Byteboard",
@@ -29203,51 +29203,6 @@
      "rank": 740
     },
     {
-     "name": "Guardian Life Insurance",
-     "slug": "guardian-life-insurance",
-     "description": "Guardian Life Insurance is one of the largest mutual life insurance companies in the United States, providing life insurance, disability income insurance, dental insurance, and other employee benefits. This is an alias entry; primary record lives at guardian-life.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/guardian-life-insurance/refs/heads/main/screenshots/guardian-life-insurance-2026-06-20T182428.png",
-     "score": 7.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-05",
-     "schema_version": "0.9.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 18.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 741
-    },
-    {
      "name": "Tokaido Health",
      "slug": "tokaidohealth",
      "description": "Tokaido Health is an AI-native medication steerage platform anchored in behavioral economics that helps employers and health plans cut pharmacy costs. It identifies same-or-better medications that cost less - via site-of-care steerage, biosimilar substitution, formulary optimization, and polypharmacy reconciliation - and pairs recommendations with incentives that get members to switch, layering on top of the existing PBM and benefits stack. Founded in 2025 in San Mateo, CA; raised $25M in May 2026 led by Norwest Venture Partners. No public API surface is published.",
@@ -29289,7 +29244,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 742
+     "rank": 741
     },
     {
      "name": "WorkAmerica",
@@ -29326,7 +29281,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 743
+     "rank": 742
     },
     {
      "name": "58.com",
@@ -29364,7 +29319,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 744
+     "rank": 743
     },
     {
      "name": "Smashfly",
@@ -29401,7 +29356,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 745
+     "rank": 744
     },
     {
      "name": "Ravio",
@@ -29438,7 +29393,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 746
+     "rank": 745
     },
     {
      "name": "Open",
@@ -29482,7 +29437,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 747
+     "rank": 746
     },
     {
      "name": "Arbeitnow",
@@ -29520,12 +29475,12 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 748
+     "rank": 747
     },
     {
      "name": "Guardian Life",
      "slug": "guardian-life",
-     "description": "Guardian Life is one of the largest mutual life insurance companies in the United States, providing life insurance, disability income insurance, dental insurance, and other employee benefits.",
+     "description": "The Guardian Life Insurance Company of America is one of the largest mutual life insurance companies in the United States, providing life insurance, disability income insurance, dental insurance, and other employee benefits. Guardian operates a partner developer portal, Guardian Connect, built on Apigee, exposing a catalog of group and retail insurance APIs covering evidence of insurability, member benefits enrollment, policy and plan configuration, group rating and quoting, dental provider directory and verification of benefits, underwriting data, and life illustration. The Member Benefits APIs implement the LIMRA Data Exchange (LDEx) Standards. Access is partner-gated: a partner agreement is established first, after which Guardian issues a registration code and partner key, and API keys are minted per partner app subject to administrator approval. Authentication is JWT with OpenID Connect login. No OpenAPI, Swagger, or other machine-readable contract is published publicly — the API reference sits behind partner login — so the APIs below are recorded from Guardian's own public catalog descriptions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/guardian-life/refs/heads/main/screenshots/guardian-life-2026-06-20T182426.png",
      "score": 6.2,
      "band": "minimal",
@@ -29565,7 +29520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 749
+     "rank": 748
     },
     {
      "name": "Bright Horizons Family Solutions",
@@ -29603,7 +29558,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 750
+     "rank": 749
     },
     {
      "name": "Likeplum",
@@ -29641,7 +29596,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 751
+     "rank": 750
     },
     {
      "name": "Talentpluto",
@@ -29678,7 +29633,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 752
+     "rank": 751
     },
     {
      "name": "WorkClass",
@@ -29715,7 +29670,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 753
+     "rank": 752
     },
     {
      "name": "Healthcaresource.com",
@@ -29760,7 +29715,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 754
+     "rank": 753
     },
     {
      "name": "Korn Ferry",
@@ -29798,7 +29753,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 755
+     "rank": 754
     },
     {
      "name": "AI Dev Jobs",
@@ -29836,7 +29791,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 756
+     "rank": 755
     },
     {
      "name": "Day & Zimmermann",
@@ -29881,7 +29836,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 757
+     "rank": 756
     },
     {
      "name": "HeroHunt People Search",
@@ -29919,7 +29874,7 @@
       "agent_card": "flavored",
       "dry_run_mode": false
      },
-     "rank": 758
+     "rank": 757
     },
     {
      "name": "Adzuna",
@@ -29957,7 +29912,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 759
+     "rank": 758
     },
     {
      "name": "Arbeitsamt",
@@ -29995,7 +29950,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 760
+     "rank": 759
     },
     {
      "name": "Careerjet",
@@ -30032,7 +29987,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 761
+     "rank": 760
     },
     {
      "name": "DevITjobs UK",
@@ -30069,7 +30024,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 762
+     "rank": 761
     },
     {
      "name": "Findwork",
@@ -30107,7 +30062,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 763
+     "rank": 762
     },
     {
      "name": "GraphQL Jobs",
@@ -30144,7 +30099,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 764
+     "rank": 763
     },
     {
      "name": "Jobs2Careers",
@@ -30182,7 +30137,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 765
+     "rank": 764
     },
     {
      "name": "Jooble",
@@ -30220,7 +30175,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 766
+     "rank": 765
     },
     {
      "name": "Juju",
@@ -30258,7 +30213,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 767
+     "rank": 766
     },
     {
      "name": "Leade.rs",
@@ -30295,7 +30250,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 768
+     "rank": 767
     },
     {
      "name": "LegalPad",
@@ -30333,7 +30288,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 769
+     "rank": 768
     },
     {
      "name": "LookSharp",
@@ -30371,7 +30326,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 770
+     "rank": 769
     },
     {
      "name": "Nowpay",
@@ -30415,7 +30370,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 771
+     "rank": 770
     },
     {
      "name": "Reed",
@@ -30453,7 +30408,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 772
+     "rank": 771
     },
     {
      "name": "Stoke Talent",
@@ -30497,7 +30452,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 773
+     "rank": 772
     },
     {
      "name": "Talently",
@@ -30534,7 +30489,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 774
+     "rank": 773
     },
     {
      "name": "The Muse",
@@ -30572,7 +30527,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 775
+     "rank": 774
     },
     {
      "name": "USAJOBS",
@@ -30610,7 +30565,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 776
+     "rank": 775
     },
     {
      "name": "WhatJobs",
@@ -30648,7 +30603,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 777
+     "rank": 776
     },
     {
      "name": "Workpop",
@@ -30685,7 +30640,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 778
+     "rank": 777
     },
     {
      "name": "ZipRecruiter",
@@ -30723,7 +30678,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 779
+     "rank": 778
     },
     {
      "name": "Brighter",
@@ -30768,7 +30723,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 780
+     "rank": 779
     },
     {
      "name": "Gigmile",
@@ -30813,7 +30768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 781
+     "rank": 780
     },
     {
      "name": "Liazon",
@@ -30857,7 +30812,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 782
+     "rank": 781
     },
     {
      "name": "Poppins Health",
@@ -30901,7 +30856,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 783
+     "rank": 782
     },
     {
      "name": "Wagmo",
@@ -30945,7 +30900,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 784
+     "rank": 783
     },
     {
      "name": "Awork",
@@ -30983,7 +30938,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 785
+     "rank": 784
     },
     {
      "name": "Dechert",
@@ -31028,7 +30983,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 786
+     "rank": 785
     },
     {
      "name": "Rumarocket",
@@ -31065,7 +31020,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 787
+     "rank": 786
     },
     {
      "name": "silversheet",
@@ -31109,7 +31064,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 788
+     "rank": 787
     },
     {
      "name": "Sprout Wellness Solutions",
@@ -31153,7 +31108,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 789
+     "rank": 788
     },
     {
      "name": "Suitable",
@@ -31190,7 +31145,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 790
+     "rank": 789
     },
     {
      "name": "TechieMatter",
@@ -31227,7 +31182,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 791
+     "rank": 790
     },
     {
      "name": "Alassio",
@@ -31265,7 +31220,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 792
+     "rank": 791
     },
     {
      "name": "Ally",
@@ -31303,7 +31258,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 793
+     "rank": 792
     },
     {
      "name": "AllyO",
@@ -31341,7 +31296,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 794
+     "rank": 793
     },
     {
      "name": "andjaro",
@@ -31379,7 +31334,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 795
+     "rank": 794
     },
     {
      "name": "atSpoke",
@@ -31416,7 +31371,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 796
+     "rank": 795
     },
     {
      "name": "Boss",
@@ -31454,7 +31409,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 797
+     "rank": 796
     },
     {
      "name": "Bravado",
@@ -31491,7 +31446,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 798
+     "rank": 797
     },
     {
      "name": "CenterForce Technologies",
@@ -31528,7 +31483,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 799
+     "rank": 798
     },
     {
      "name": "Circular",
@@ -31565,7 +31520,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 800
+     "rank": 799
     },
     {
      "name": "Clustree",
@@ -31602,7 +31557,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 801
+     "rank": 800
     },
     {
      "name": "Crew32",
@@ -31640,7 +31595,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 802
+     "rank": 801
     },
     {
      "name": "CubeTree",
@@ -31677,7 +31632,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 803
+     "rank": 802
     },
     {
      "name": "Cultivate",
@@ -31714,7 +31669,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 804
+     "rank": 803
     },
     {
      "name": "Dexterra",
@@ -31751,7 +31706,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 805
+     "rank": 804
     },
     {
      "name": "Drafted",
@@ -31788,7 +31743,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 806
+     "rank": 805
     },
     {
      "name": "Elite Business Ventures",
@@ -31826,7 +31781,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 807
+     "rank": 806
     },
     {
      "name": "Endeavor",
@@ -31864,7 +31819,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 808
+     "rank": 807
     },
     {
      "name": "Endeavor Group Holdings",
@@ -31902,7 +31857,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 809
+     "rank": 808
     },
     {
      "name": "Folhamatic",
@@ -31939,7 +31894,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 810
+     "rank": 809
     },
     {
      "name": "Getlinks",
@@ -31977,7 +31932,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 811
+     "rank": 810
     },
     {
      "name": "Glintinc",
@@ -32015,7 +31970,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 812
+     "rank": 811
     },
     {
      "name": "Glints",
@@ -32052,7 +32007,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 813
+     "rank": 812
     },
     {
      "name": "GoDays",
@@ -32090,7 +32045,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 814
+     "rank": 813
     },
     {
      "name": "Good & Co.",
@@ -32128,7 +32083,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 815
+     "rank": 814
     },
     {
      "name": "HomeJoy",
@@ -32165,7 +32120,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 816
+     "rank": 815
     },
     {
      "name": "Hyphen",
@@ -32203,7 +32158,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 817
+     "rank": 816
     },
     {
      "name": "iMedeon",
@@ -32240,7 +32195,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 818
+     "rank": 817
     },
     {
      "name": "Jibe",
@@ -32278,7 +32233,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 819
+     "rank": 818
     },
     {
      "name": "Jopwell",
@@ -32315,7 +32270,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 820
+     "rank": 819
     },
     {
      "name": "Kelly Services",
@@ -32353,7 +32308,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 821
+     "rank": 820
     },
     {
      "name": "Koru Careers",
@@ -32390,7 +32345,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 822
+     "rank": 821
     },
     {
      "name": "Lytmus",
@@ -32427,7 +32382,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 823
+     "rank": 822
     },
     {
      "name": "Maimai",
@@ -32465,7 +32420,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 824
+     "rank": 823
     },
     {
      "name": "Manpower",
@@ -32503,7 +32458,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 825
+     "rank": 824
     },
     {
      "name": "ManpowerGroup",
@@ -32541,7 +32496,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 826
+     "rank": 825
     },
     {
      "name": "Mayflower",
@@ -32579,7 +32534,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 827
+     "rank": 826
     },
     {
      "name": "Mya Systems",
@@ -32616,7 +32571,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 828
+     "rank": 827
     },
     {
      "name": "NodeFlair",
@@ -32653,7 +32608,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 829
+     "rank": 828
     },
     {
      "name": "Open Skills",
@@ -32691,7 +32646,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 830
+     "rank": 829
     },
     {
      "name": "Orgspace",
@@ -32728,7 +32683,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 831
+     "rank": 830
     },
     {
      "name": "Pento",
@@ -32765,7 +32720,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 832
+     "rank": 831
     },
     {
      "name": "Platypus",
@@ -32802,7 +32757,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 833
+     "rank": 832
     },
     {
      "name": "Plerk",
@@ -32839,7 +32794,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 834
+     "rank": 833
     },
     {
      "name": "Qapa",
@@ -32876,7 +32831,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 835
+     "rank": 834
     },
     {
      "name": "Qerja",
@@ -32913,7 +32868,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 836
+     "rank": 835
     },
     {
      "name": "Raised",
@@ -32950,7 +32905,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 837
+     "rank": 836
     },
     {
      "name": "RolePoint",
@@ -32987,7 +32942,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 838
+     "rank": 837
     },
     {
      "name": "ShearShare",
@@ -33024,7 +32979,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 839
+     "rank": 838
     },
     {
      "name": "Skillbridge",
@@ -33061,7 +33016,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 840
+     "rank": 839
     },
     {
      "name": "Smalt",
@@ -33098,7 +33053,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 841
+     "rank": 840
     },
     {
      "name": "SnapShyft",
@@ -33135,7 +33090,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 842
+     "rank": 841
     },
     {
      "name": "SpringRole",
@@ -33172,7 +33127,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 843
+     "rank": 842
     },
     {
      "name": "Surfboard",
@@ -33209,7 +33164,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 844
+     "rank": 843
     },
     {
      "name": "Syft",
@@ -33246,7 +33201,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 845
+     "rank": 844
     },
     {
      "name": "Tapchief",
@@ -33283,7 +33238,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 846
+     "rank": 845
     },
     {
      "name": "Teamnote",
@@ -33320,7 +33275,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 847
+     "rank": 846
     },
     {
      "name": "VNDLY",
@@ -33357,7 +33312,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 848
+     "rank": 847
     },
     {
      "name": "Walzay Inc.",
@@ -33394,7 +33349,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 849
+     "rank": 848
     },
     {
      "name": "Wanted",
@@ -33431,7 +33386,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 850
+     "rank": 849
     },
     {
      "name": "Zugata",
@@ -33468,7 +33423,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 851
+     "rank": 850
     },
     {
      "name": "Alight",
@@ -33506,7 +33461,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 852
+     "rank": 851
     },
     {
      "name": "Humu",
@@ -33544,7 +33499,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 853
+     "rank": 852
     },
     {
      "name": "Speedlancer",
@@ -33581,7 +33536,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 854
+     "rank": 853
     },
     {
      "name": "Viva Benefits",
@@ -33618,7 +33573,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 855
+     "rank": 854
     },
     {
      "name": "Insperity",
@@ -33656,7 +33611,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 856
+     "rank": 855
     }
    ]
   },
@@ -33665,26 +33620,32 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 10,
-   "shown": 10,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "AccessHope",
      "slug": "accesshope",
      "description": "AccessHope is a Los Angeles-area health benefits company, founded in 2019 and wholly owned by City of Hope, that delivers remote cancer expertise as an employer-sponsored benefit. Its subspecialist teams review a member's pathology, imaging, molecular testing and treatment plan against the latest evidence from a coalition of National Cancer Institute-designated Comprehensive Cancer Centers — City of Hope, Dana-Farber Cancer Institute, Emory Winship, Fred Hutch, Johns Hopkins Kimmel, Northwestern Medicine Lurie, and UT Southwestern Simmons — and return guidance to the member's own local oncologist rather than moving the patient. AccessHope reports roughly 9 million covered members across 700+ employer and health-plan clients, including 70+ Fortune 500 companies. Delivery is business-to-business: employers, benefits consultants, health plans and navigation partners onboard through an eligibility file feed and an implementation-managed workflow, while members and clinical staff use credentialed web portals. AccessHope publishes no public developer program, API documentation, or machine-readable API contract.",
-     "rank": 857
+     "rank": 856
     },
     {
      "name": "AlayaCare",
      "slug": "alayacare",
      "description": "AlayaCare is a cloud-based home and community care management platform providing REST APIs for managing client profiles, scheduling visits, documenting clinical care, processing billing and accounting, and tracking patient outcomes. The platform serves home care agencies, nursing registries, and government-funded community care programs globally. APIs cover clients, employees, scheduling, clinical records, tasks, forms, medications, accounting, and file management, with integration via REST and AWS SQS event streaming. AlayaCare also offers AlayaMarket, a staffing marketplace API for matching supply and demand organizations, and AlayaCare Residential for residential aged care settings.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/screenshots/alayacare-2026-06-20T171503.png",
-     "rank": 858
+     "rank": 857
     },
     {
      "name": "AllWork",
      "slug": "allwork",
      "description": "AllWork is a New York-based flexible-workforce management and payments platform for contingent labor. It combines onboarding, scheduling, budgeting and planning, time and attendance with GPS-confirmed check-in, timesheet and expense approval, payroll, reporting and analytics, and a manager mobile app into one system, and acts as both Employer of Record (EOR) and Agent of Record (AOR) so a brand can compliantly engage and pay W-2 and 1099 talent across the United States, Canada and internationally. It sells into beauty and luxury, retail, food and beverage, oil and gas, technology and engineering, life sciences and healthcare, financial services, and self-direction programs, handling worker classification, labor-law adherence, and federal, state and local tax filings. AllWork publishes no public developer program: there is no API reference, no SDK, and no machine-readable specification on its site.",
+     "rank": 858
+    },
+    {
+     "name": "bswift",
+     "slug": "bswift",
+     "description": "bswift is a benefits administration platform used by employers, brokers and channel partners to run health and welfare benefits — eligibility, annual enrollment, life events, COBRA, billing and ACA compliance — with an AI assistant (Emma) layered over the employee experience. Founded in Chicago in 2000, bswift was acquired by Aetna in 2014, moved into CVS Health, and has operated as an independent company backed by Francisco Partners since the 2022 carve-out. It runs a large connectivity estate: 450+ active carrier file feeds, 300+ pre-built and API integrations, and 150+ API and SSO connections into HCM and payroll platforms including ADP, UKG, Paylocity and Workday. Its production API gateway is live at api.bswift.com, but the REST contract — along with the OpenAPI specs, sandbox environments and webhook event topics bswift describes publicly — is issued only to alliance, integration and channel partners; there is no public developer portal or API reference.",
      "rank": 859
     },
     {
@@ -33695,41 +33656,47 @@
      "rank": 860
     },
     {
+     "name": "Employee Navigator",
+     "slug": "employeenavigator",
+     "description": "Employee Navigator is a Bethesda, Maryland benefits administration and HR software platform used by insurance brokers, agencies and employers to run open enrollment, new hire onboarding, ACA reporting, HR management, PTO tracking and integrated payroll. Its integration layer connects employer benefit data to more than 600 insurance carriers, payroll providers, TPAs and agency management systems through EDI ANSI 834 files, data-exchange feeds and a partner REST API program. Employee Navigator published a Company Integration API and a Company Benefit Details API for carriers and benefit providers, secured by an OpenID Connect / OAuth 2.0 authorization server that publicly advertises a per-service scope surface covering company integration, plan configuration and management, employee profile, payroll, quoting, agency management, evidence of insurability, COBRA, data audit, data sync, notifications and webhooks. The API reference itself is partner-gated; the platform runs on Microsoft Azure and is audited annually for SOC 2 Type II, HITRUST, NIST, GDPR, CCPA and 23 NYCRR 500.",
+     "rank": 861
+    },
+    {
      "name": "Factorial",
      "slug": "factorial-hr",
      "description": "Factorial is an all-in-one HR, payroll, time, talent, finance, and IT management platform headquartered in Barcelona, Spain, used by 16,000+ companies worldwide. The Factorial public API is a date-versioned REST API (current major 2026-04-01 \"Legendre\") covering employees, contracts, attendance, time off, payroll, ATS, performance, trainings, projects, finance, banking, procurement, IT assets, documents, webhooks, and an Approvals workflow surface. Authentication uses OAuth2 (on behalf of a user) or an x-api-key header (on behalf of the company), with 30+ scopes for granular partner access. Factorial publishes the OpenAPI schema and generated SDKs (Ruby, Python, Java, PHP, TypeScript, Node.js) at github.com/factorialco/oas and exposes an llms.txt index for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png",
-     "rank": 861
+     "rank": 862
     },
     {
      "name": "Topia",
      "slug": "topia",
      "description": "Topia is a global mobility platform for distributed workforces, used by HR, Finance and Legal teams at mid-market and enterprise companies to manage international assignments, relocations, business travel, remote work and cross-border compliance across 190+ countries in a single system. Founded in 2010 and headquartered in the United States, with additional offices in the United Kingdom, Ireland and Estonia, Topia spans global talent mobility, a tax and compliance engine, cost estimation and tracking, global workforce planning, cost and immigration risk management, and business travel. In April 2026 Topia launched Horizon, an agentic AI workspace for mobility teams that the company describes as built natively into MCP (Model Context Protocol) environments. Topia integrates with HRIS, payroll, travel and expense systems including Workday (a Workday Approved Integration), SAP, ADP, Oracle, Ceridian, SAP Concur and BCD Travel. Topia publishes an llms.txt at its marketing host, but no public developer portal, API reference or machine-readable specification; the support center sits behind a customer login.",
-     "rank": 862
+     "rank": 863
     },
     {
      "name": "TransparentBusiness",
      "slug": "transparentbusiness",
      "description": "TransparentBusiness is a New York based SaaS company, founded in 2012 by Alex Konanykhin and Silvina Moschini, that sells a cloud platform for managing and monitoring remote workforces: a desktop timer, screenshot-based activity verification, timesheets, task assignment, and real-time project cost and progress reporting for distributed teams and contractors. The company also operates the SheWorks! and Yandiki talent marketplaces and the CloudWorking Academy training platform, and was later renamed Unicoin, Inc. The product is delivered as a hosted web application plus downloadable desktop timer clients; the company publishes no public developer program, API reference, SDK, or machine-readable specification.",
-     "rank": 863
+     "rank": 864
     },
     {
      "name": "Vida Health",
      "slug": "vida-health",
      "description": "Vida Health is a San Francisco-based virtual care company founded in 2014 that combines an AI-powered mobile app with a national network of licensed clinicians, coaches and therapists to prevent, manage and reverse chronic cardiometabolic and behavioral health conditions including obesity, diabetes, hypertension, depression and anxiety. Vida sells a turnkey enterprise programme to employers and health plans, layering GLP-1 prescribing and clinical oversight on top of behavioral coaching, and its platform ingests real-time readings from more than 100 connected devices and consumer health apps to feed outcome reporting back to its enterprise buyers. Vida publishes no public developer portal or API documentation: the API host api.vida.com is live but returns 401 on every path, and data/EHR integration for health plans and employers is arranged through enterprise sales rather than self-service onboarding.",
-     "rank": 864
+     "rank": 865
     },
     {
      "name": "Wagestream",
      "slug": "wagestream",
      "description": "Wagestream — trading as Stream since its 2025 rebrand — is a UK-founded, B Corp certified workplace financial wellbeing platform that gives hourly and salaried employees earned wage access (flexible pay), shift and pay tracking, workplace savings, budgeting tools, salary-deducted workplace loans, benefits and state-benefit claim support, financial coaching and discounts, delivered as a mobile app funded by the employer rather than the worker. Employers connect their HR, workforce management and payroll systems to Stream through the Wagestream Integrations API — a small, batch-oriented REST push API over employees, shifts (time and attendance), absences, off-cycle payments and Stream-generated enrolment banking records — or via SFTP file feeds and browser upload into the employer administration portal. The API is API-key authenticated, asynchronous (every write returns a transaction id polled through a matching GET), and idempotent through an optional per-request nonce.",
-     "rank": 865
+     "rank": 866
     },
     {
      "name": "Wonolo",
      "slug": "wonolo",
      "description": "Wonolo is an on-demand staffing marketplace, founded in 2013 and headquartered in San Francisco, that connects businesses needing flexible frontline labor with a pool of vetted independent workers (\"Wonoloers\") for warehousing, manufacturing, food production, retail, hospitality and general labor jobs. Businesses post job requests and are matched to available workers in real time without resumes or interviews, for one-off, ongoing and temp-to-hire needs. Wonolo operates a REST integration API (V2) on api.wonolo.com that lets customers create and manage job requests, jobs, workers and users programmatically and receive webhook callbacks, so scheduling, timekeeping, HR and CRM systems can be wired directly into the staffing platform.",
-     "rank": 866
+     "rank": 867
     }
    ]
   }

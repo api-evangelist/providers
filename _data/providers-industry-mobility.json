@@ -1,6 +1,6 @@
 {
- "total": 611,
- "shown": 611,
+ "total": 612,
+ "shown": 612,
  "limit": 1000,
  "bands": [
   {
@@ -23964,46 +23964,52 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 6,
-   "shown": 6,
+   "count": 7,
+   "shown": 7,
    "providers": [
+    {
+     "name": "Aperia Technologies",
+     "slug": "aperia-technologies",
+     "description": "Aperia Technologies is a Burlingame, California vehicle-technology company that builds active tire-inflation hardware and predictive tire-maintenance software for commercial fleets. Its Halo automatic tire inflator bolts on at the wheel end and uses wheel rotation to keep tires at their target pressure, while the Halo Connect platform pairs that hardware with machine-learning analytics trained on billions of real-world fleet miles to deliver tire health, leak detection, tread, load and vibration insight across steer, drive and trailer positions. Halo Connect exposes a partner REST API so fleet telematics, maintenance and TMS platforms can pull vehicle records, inflation issues and hardware issues out of the Halo Connect portal.",
+     "rank": 606
+    },
     {
      "name": "Energy and Utilities",
      "slug": "energy-utilities",
      "description": "Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It indexes utility data integration APIs, grid and wholesale market operator APIs, federal energy data programs, renewable energy research APIs, weather APIs that drive grid demand and solar forecasting, EV charging interoperability protocols, and the Green Button family of customer energy data standards. The repo provides a baseline catalog plus shared semantics (JSON Schema, JSON-LD, vocabulary, examples) for the meter reading / energy data point that ties every one of these surfaces together.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/screenshots/energy-utilities-2026-06-20T180707.png",
-     "rank": 606
+     "rank": 607
     },
     {
      "name": "Open Charge Map",
      "slug": "openchargemap",
      "description": "Open Charge Map is the global public registry of electric vehicle charging locations, established in 2011 as a non-commercial, community-driven project. The platform maintains a crowdsourced dataset of 300,000+ charging points worldwide, combining manually entered data with imported open data from government registries and charging networks. The REST API enables developers to search and retrieve POI (Points of Interest) data on EV charging stations, including location details, equipment specifications, connection types, operator information, and user-submitted check-ins and photos. Data can be filtered by geographic coordinates, bounding box, country, operator, connection type, charging level, and operational status. The API is free to use with an API key registration and supports both read (GET) and write (POST) operations for contributing new charging location data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/screenshots/openchargemap-2026-06-20T190925.png",
-     "rank": 607
+     "rank": 608
     },
     {
      "name": "Tiff's Treats",
      "slug": "tiff-s-treats",
      "description": "Tiff's Treats is an Austin, Texas cookie company founded in 1999 by University of Texas students Tiffany Taylor and Leon Chen, built around warm, baked-to-order cookies delivered same-day. The company operates roughly 90 bakery-storefronts across Texas and the southern and western United States, combining walk-in retail with an owned delivery fleet, an online ordering platform at cookiedelivery.com, and iOS and Android ordering apps. Alongside consumer delivery it runs a substantial corporate gifting, catering, e-gift-card and special-events business, plus an \"Elites\" subscription membership and a rewards program. Tiff's Treats has raised more than $50 million in outside investment, including a $25 million round led by Morgan Stanley Expansion Capital, and counts Andy Roddick, Brooklyn Decker, Kendra Scott and Dirk Nowitzki among its investors. It is a direct-to-consumer food and delivery operator, not a software vendor: it publishes no developer portal, no public API, and no machine-readable API contract.",
-     "rank": 608
+     "rank": 609
     },
     {
      "name": "Uptake",
      "slug": "uptake",
      "description": "Uptake Technologies is a Chicago-based industrial AI and predictive-maintenance software company founded in 2014 by Eric Lefkofsky and Brad Keywell. Its SaaS platform ingests telematics, sensor, fluid-analysis and work-order data from heavy commercial fleets and industrial assets, then applies machine-learning failure models — backed by an Asset Strategy Library of roughly 800 equipment types and tens of thousands of failure modes acquired with Asset Performance Technologies in 2018 — to predict component failure before it happens. Products include Uptake Fleet and Radar (predictive maintenance alerts), Compass (work-order data cleansing), Fusion (operational-technology data to cloud) and Scout (rules-based alerting), delivered through the fleet.uptake.com web application, a Geotab Marketplace add-in, and a customer-provisioned REST API gateway at api.uptake.com. Bosch announced its acquisition of Uptake in March 2026.",
-     "rank": 609
+     "rank": 610
     },
     {
      "name": "Wonolo",
      "slug": "wonolo",
      "description": "Wonolo is an on-demand staffing marketplace, founded in 2013 and headquartered in San Francisco, that connects businesses needing flexible frontline labor with a pool of vetted independent workers (\"Wonoloers\") for warehousing, manufacturing, food production, retail, hospitality and general labor jobs. Businesses post job requests and are matched to available workers in real time without resumes or interviews, for one-off, ongoing and temp-to-hire needs. Wonolo operates a REST integration API (V2) on api.wonolo.com that lets customers create and manage job requests, jobs, workers and users programmatically and receive webhook callbacks, so scheduling, timekeeping, HR and CRM systems can be wired directly into the staffing platform.",
-     "rank": 610
+     "rank": 611
     },
     {
      "name": "Zero Motorcycles",
      "slug": "zero-motorcycles",
      "description": "Zero Motorcycles is an American manufacturer of electric motorcycles and powertrains, founded in 2006 in Santa Cruz, California. It designs and builds street, dual-sport and off-road electric motorcycles across its S, DS, FX and X lines — including the SR/S, SR/F, DSR/X, FXE and XE — around a proprietary Z-Force electric powertrain and aircraft-grade aluminum frame. Its bikes run the Cypher operating system, which pairs with the Zero Motorcycles NextGen mobile app over Bluetooth and cellular telematics for ride data, remote diagnostics, over-the-air updates and performance customization, and with the Cypher Store, where owners purchase software upgrades that unlock additional power, top speed and features. Zero sells internationally through a dealer network and serves retail, fleet and authority/first-responder segments. Its connected-vehicle platform is consumer-facing only: Zero publishes no public developer program, API documentation, SDKs or machine-readable specification.",
-     "rank": 611
+     "rank": 612
     }
    ]
   }

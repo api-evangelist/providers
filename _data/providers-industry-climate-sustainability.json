@@ -1,6 +1,6 @@
 {
- "total": 986,
- "shown": 986,
+ "total": 987,
+ "shown": 987,
  "limit": 1000,
  "bands": [
   {
@@ -38128,8 +38128,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 33,
-   "shown": 33,
+   "count": 34,
+   "shown": 34,
    "providers": [
     {
      "name": "actnano",
@@ -38169,176 +38169,182 @@
      "rank": 959
     },
     {
+     "name": "aPriori",
+     "slug": "apriori",
+     "description": "aPriori Technologies is a manufacturing insights software company founded in 2003 that simulates how a product will actually be made. Its platform ingests CAD geometry and returns should-cost estimates, design-for-manufacturability (DFM) guidance, routing and cycle-time analysis, and manufacturing carbon figures, so design, cost, sourcing and sustainability teams can act on production economics before tooling is cut. The product family covers aP Pro, aP Design, aP Generate, aP Analytics, aP Workspace and aiSource, delivered as aPriori Cloud or on-premise. Its public integration surface is aP Connect — a PLM/file-system connector plus a customer-installed Agent that carries a documented REST API for listing workflows, invoking REST-driven costing jobs, polling job state and retrieving per-part costing results, used to wire aPriori into Windchill, Teamcenter and file-system pipelines.",
+     "rank": 960
+    },
+    {
      "name": "Atomico",
      "slug": "atomico",
      "description": "Atomico is a London-headquartered European venture capital firm founded in 2006 by Niklas Zennstrom, co-founder of Skype and Kazaa. Atomico partners with Europe's most ambitious technology founders from the earliest stages to pre-IPO across two dedicated teams: a Venture team that invests predominantly at Series A alongside occasional Seed opportunities, and a Growth team that invests from Series B to pre-IPO. In September 2024 the firm closed its largest ever fundraise, $1.24 billion across two funds - a $754M Atomico Growth VI vehicle and a $485M Atomico Venture VI vehicle - bringing total capital raised across seven funds to more than $5 billion. Growth-stage checks typically range from roughly $10M to $50M+. Atomico invests broadly across enterprise software, fintech, consumer, health, AI, developer tools, infrastructure, industrial and climate technology, with an explicit thesis that European technology has come of age. The firm operates offices in London, Paris, Berlin and Stockholm and is known for backing category-defining companies including Klarna, Stripe, Supercell, Graphcore, DeepL, Pipedrive, Truecaller, Wellhub, Lilium, Compass, Hinge Health and Sorare. Atomico also publishes the annual State of European Tech report, the definitive data-driven analysis of the European technology ecosystem.",
-     "rank": 960
+     "rank": 961
     },
     {
      "name": "DCVC (Data Collective)",
      "slug": "dcvc",
      "description": "DCVC (Data Collective) is a deep-tech venture capital firm founded in 2011 and headquartered in Palo Alto and San Francisco, California. Founded and led by managing partners Matt Ocko and Zachary Bogue, DCVC backs entrepreneurs using computational and AI-driven approaches to solve trillion-dollar problems in the real world across sectors that have often seen little material progress in decades. The firm invests from early through growth stages across AI, compute and quantum, computational biology and chemistry, cybersecurity and defense, energy and climate, finance and insurance, industrial transformation and advanced manufacturing, next-gen agriculture, space, TechBio and TechMed. Across 13+ funds DCVC manages roughly $4B in assets under management (self-reported / press), making it one of the larger dedicated deep-tech franchises. Notable portfolio outcomes include companies spanning fusion energy, carbon transformation, robotics, drug discovery, and data infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dcvc/refs/heads/main/screenshots/dcvc-2026-07-25T211501.png",
-     "rank": 961
+     "rank": 962
     },
     {
      "name": "Disclosure Requirements",
      "slug": "disclosure-requirements",
      "description": "Disclosure Requirements are the regulatory and legal obligations for organizations to reveal specific information to stakeholders, regulators, and the public. These requirements span financial disclosures (SEC, IFRS), sustainability and ESG reporting (CSRD, ESRS, IFRS S1/S2, TCFD, GRI, SASB), privacy notices (GDPR, CCPA), and corporate governance, helping ensure transparency and accountability across markets and jurisdictions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/disclosure-requirements/refs/heads/main/screenshots/disclosure-requirements-2026-06-20T180033.png",
-     "rank": 962
+     "rank": 963
     },
     {
      "name": "Energy and Utilities",
      "slug": "energy-utilities",
      "description": "Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It indexes utility data integration APIs, grid and wholesale market operator APIs, federal energy data programs, renewable energy research APIs, weather APIs that drive grid demand and solar forecasting, EV charging interoperability protocols, and the Green Button family of customer energy data standards. The repo provides a baseline catalog plus shared semantics (JSON Schema, JSON-LD, vocabulary, examples) for the meter reading / energy data point that ties every one of these surfaces together.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/screenshots/energy-utilities-2026-06-20T180707.png",
-     "rank": 963
+     "rank": 964
     },
     {
      "name": "EQT Ventures",
      "slug": "eqt-ventures",
      "description": "EQT Ventures is the early-stage venture capital business within EQT Group, launched in 2016 and operating out of Stockholm with investment-advisory offices in London, Berlin, Paris, Amsterdam, and the United States (San Francisco / New York); the funds themselves are domiciled in Luxembourg. The firm is a sector-agnostic, conviction-led lead investor that backs what it calls \"Generation-Defining Companies\" from pre-seed and seed through Series A and B, writing checks that reported ranges place between roughly EUR 1M and EUR 75M (most commonly EUR 2M-50M) and following on as companies scale. EQT Ventures has raised approximately EUR 2.3B across three funds (EQT Ventures I, II, and III) and is staffed largely by ex-founders and operators who provide hands-on support in addition to capital. Its focus spans AI, SaaS and developer tools, fintech, healthtech, climate and deeptech, robotics and aerospace, gaming, and consumer/marketplaces. Notable investments include Wolt, Depop, Typeform, AnyDesk, Netlify, Fly.io, Einride, Small Giant Games, Kry, and Beamery.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eqt-ventures/refs/heads/main/screenshots/eqt-ventures-2026-07-25T213540.png",
-     "rank": 964
+     "rank": 965
     },
     {
      "name": "Fifth Wall",
      "slug": "fifth-wall",
      "description": "Fifth Wall is a venture capital firm founded in 2016 by Brendan F. Wallace and Brad Greiwe and headquartered in Los Angeles, California, with additional offices in New York, San Francisco, and London. It is the largest investment firm focused on technology for the built environment (\"PropTech\") and real estate, investing across the venture and growth stages into companies that make buildings and the physical world smarter, safer, more sustainable, and more energy efficient. The firm spans sub-themes including proptech, construction technology, residential real estate, fintech for real estate, smart buildings, logistics, and a dedicated climate/decarbonization strategy. Fifth Wall's distinctive model pairs its portfolio companies with a network of roughly 115 strategic limited partners — major real estate owner-operators such as CBRE, Hilton, Hines, Marriott, Public Storage, Related, and Starwood Capital — to drive strategic partnerships and distribution. With over $3 billion in assets under management and nearly 170 portfolio companies, Fifth Wall has backed category leaders including Opendoor, Procore, ServiceTitan, Blend, Hippo, SmartRent, and Bilt Rewards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fifth-wall/refs/heads/main/screenshots/fifth-wall-2026-07-25T214432.png",
-     "rank": 965
+     "rank": 966
     },
     {
      "name": "Homebrew",
      "slug": "homebrew",
      "description": "Homebrew is a San Francisco-based seed-stage venture capital firm founded in 2013 by Hunter Walk (a former product leader at Google and YouTube) and Satya Patel (a former VP of Product at Twitter, partner at Battery Ventures, and product leader at Google). Named after the Homebrew Computer Club, the firm practices high-conviction, concentrated seed investing, taking board-level positions and acting as an extension of the founder's team. Roughly 90% of its investments are pre-seed and seed, with initial checks in the $100K-$500K range and the ability to follow on up to $25M+ in later rounds. Homebrew backs mission-driven founders working on large, urgent, and valuable problems across fintech, AI/ML, healthcare, climate, defense, logistics, real estate, and consumer, focused on companies operating in the Americas. After a decade of institutional funds that backed companies such as Chime, Plaid, Gusto, and Mercury, Homebrew announced in 2021 that it would stop raising outside LP capital and invest only its own money going forward under the banner \"Homebrew Forever.\"",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/homebrew/refs/heads/main/screenshots/homebrew-2026-07-25T221336.png",
-     "rank": 966
+     "rank": 967
     },
     {
      "name": "Initialized Capital",
      "slug": "initialized-capital",
      "description": "Initialized Capital is a seed-stage venture capital firm founded in 2012 by Garry Tan, Alexis Ohanian, and Harjeet (Harj) Taggar, with offices in San Francisco and New York. The firm is hyper-focused on the seed stage, typically investing before a startup's success strikes other investors as inevitable and favoring companies that have raised little to no prior capital. Rather than thematic investing, Initialized centers its thesis on strong founding teams and acts as a de facto extended founding team from 0 to 1, providing operational support across product design, engineering, recruiting, storytelling, go-to-market, and Series A fundraising. It invests broadly across enterprise SaaS, consumer, marketplaces, fintech, crypto, healthcare, climate, hardware, real estate, and frontier/AI technology. As of 2021 the firm had raised more than $3.2B across its funds and has backed 200+ companies, including 28 unicorns such as Coinbase, Instacart, Cruise, Flexport, Reddit, Opendoor, Rippling, and Patreon, with portfolio companies creating an aggregate of over $200B in market value.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/initialized-capital/refs/heads/main/screenshots/initialized-capital-2026-07-25T222438.png",
-     "rank": 967
+     "rank": 968
     },
     {
      "name": "Khosla Ventures",
      "slug": "khosla-ventures",
      "description": "Khosla Ventures is a Menlo Park, California venture capital firm founded in 2004 by Sun Microsystems co-founder Vinod Khosla. The firm backs bold, early, and impactful ventures, favoring contrarian deep-tech bets with world-class teams and a conviction-driven approach that deliberately accepts a high failure rate to capture transformative outcomes. Khosla invests across seed, early (Series A/B), and growth stages through its Seed Fund, Main Fund, and Opportunity (growth) Fund, writing checks that range from small seed positions to large growth rounds. Focus sectors span artificial intelligence, enterprise and consumer software, financial services and fintech, robotics and frontier/deep tech, aerospace and defense, climate and sustainability (clean energy, fusion, materials, agriculture), and digital health, medtech, diagnostics, and therapeutics. The firm manages roughly $16 billion in assets as of 2025 and is known for early investments in OpenAI, Stripe, Square/Block, DoorDash, Instacart, Affirm, Impossible Foods, GitLab, Okta, Rocket Lab, and QuantumScape. Headquarters are at 2128 Sand Hill Road, Menlo Park, CA, with a primarily United States geographic focus and select global investments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/khosla-ventures/refs/heads/main/screenshots/khosla-ventures-2026-07-25T223709.png",
-     "rank": 968
+     "rank": 969
     },
     {
      "name": "Kindred Ventures",
      "slug": "kindred-ventures",
      "description": "Kindred Ventures is a San Francisco-based, earliest-stage venture capital firm founded in 2014 by Steve Jang and led today as a partnership with Managing Partners Steve Jang and Kanyi Maqubela. The firm backs visionary and relentless founders building the future with technology and science, investing primarily at the pre-seed and seed stage and often partnering with entrepreneurs before a company is even formed. Kindred runs a deliberately concentrated, high-touch model of roughly 25 companies per fund, and has backed 100+ startups whose aggregate market capitalization now exceeds $200B. It invests across AI and new computing, crypto/web3, fintech, consumer, health and wellness, climate tech, mobility and logistics, and developer tools and infrastructure. With around $600M in assets under management, notable investments and exits include Uber, Coinbase, Poshmark, Reddit, Postmates, Blue Bottle Coffee, Perplexity, Tala, Magic Eden, dYdX, and PlayAI (acquired by Meta in 2025).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kindred-ventures/refs/heads/main/screenshots/kindred-ventures-2026-07-25T223809.png",
-     "rank": 969
+     "rank": 970
     },
     {
      "name": "Northzone",
      "slug": "northzone",
      "description": "Northzone is a multi-stage venture capital firm founded in 1996 in Oslo and now headquartered in London, with additional offices in New York, Stockholm, Berlin and Amsterdam. The firm partners with founders across the United States and Europe from Seed through Growth, positioning itself as a single long-term partner from the first check all the way to IPO, with check sizes ranging from roughly $1M to $50M. Over nearly three decades Northzone has raised 13 funds, backed more than 250 companies, produced 18 unicorns and 14 IPOs, and reports $3.1bn+ in assets under management; its most recent flagship vehicle raised approximately €1bn. Northzone invests broadly across AI, enterprise software, fintech, consumer, healthcare, climate and energy, and infrastructure and developer tools, and is known for early backing of category creators including Spotify, Klarna, Trustpilot, Kahoot!, Personio, TrueLayer, Avito and iZettle. The firm supports portfolio companies through a Platform team and a network of 500+ operators drawn from companies such as OpenAI, Anthropic and Stripe.",
-     "rank": 970
+     "rank": 971
     },
     {
      "name": "Obvious Ventures",
      "slug": "obvious-ventures",
      "description": "Obvious Ventures is a San Francisco-based early-stage venture capital firm founded in 2014 by Ev Williams, James Joaquin, and Vishal Vasishth, investing in entrepreneurs building \"world positive\" companies that solve humanity's biggest problems through technology. The firm invests across three thesis pillars: planetary health (sustainable energy, food, mobility, climate), human health and longevity (healthcare, biotech, wellness), and economic health (fintech, the future of work, robotics, and inclusive systems). Obvious writes approximately 10 new checks per year, typically $5M to $12M into seed and Series A rounds, deliberately keeping fund sizes small enough that a single durable public company can return an entire fund. It closed its fifth fund at $360,360,360 in early 2026 and has backed 90+ companies since inception, including Beyond Meat, Planet, Gusto, Recursion, Devoted Health, Diamond Foundry, and Proterra. Obvious is a Certified B Corporation headquartered at 190 Pacific Avenue, San Francisco, CA.",
-     "rank": 971
+     "rank": 972
     },
     {
      "name": "Open Charge Map",
      "slug": "openchargemap",
      "description": "Open Charge Map is the global public registry of electric vehicle charging locations, established in 2011 as a non-commercial, community-driven project. The platform maintains a crowdsourced dataset of 300,000+ charging points worldwide, combining manually entered data with imported open data from government registries and charging networks. The REST API enables developers to search and retrieve POI (Points of Interest) data on EV charging stations, including location details, equipment specifications, connection types, operator information, and user-submitted check-ins and photos. Data can be filtered by geographic coordinates, bounding box, country, operator, connection type, charging level, and operational status. The API is free to use with an API key registration and supports both read (GET) and write (POST) operations for contributing new charging location data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/screenshots/openchargemap-2026-06-20T190925.png",
-     "rank": 972
+     "rank": 973
     },
     {
      "name": "Social Capital",
      "slug": "social-capital",
      "description": "Social Capital is a technology investment firm founded in 2011 by Chamath Palihapitiya (a former Facebook executive) and headquartered in Palo Alto, California, with co-founders Mamoon Hamid and Ted Maidenberg. Originally a traditional venture fund that stood out by backing healthcare, financial services, education, and other hard, regulated sectors the VC community had neglected, the firm pivoted in 2018 into a technology holding company that stopped accepting outside capital and now invests from its own permanent balance sheet of roughly $2.1B, aiming to \"earn like Berkshire Hathaway and invest like the Red Cross.\" Its thesis targets multiple emerging $10T markets across deep tech commercialization, life sciences and drug discovery, the global energy transition, and creator-economy media. Chamath became known as the \"SPAC King\" for taking companies public through the Social Capital Hedosophia (IPOA-IPOF) vehicles, including Virgin Galactic, Opendoor, Clover Health, and SoFi. Notable investments include Slack, Box, SurveyMonkey, Wealthfront, Netskope, Intercom, Groq, Palmetto, Saildrone, and Relativity Space.",
-     "rank": 973
+     "rank": 974
     },
     {
      "name": "Sortera Technologies",
      "slug": "sortera-alloys",
      "description": "Sortera Technologies (formerly Sortera Alloys) is an AI-driven metals recycling company founded in 2020 and headquartered in Markle / Fort Wayne, Indiana. It combines sensor fusion (XRF plus optical), machine-learning image and data analytics, and an advanced high-throughput scrap feeder to sort end-of-life scrap by metal type and alloy composition, upgrading feedstock streams and removing contaminants at industrial scale. From a 200,000 square foot sortation facility opened in 2023 the company produces specification aluminum scrap across cast, extrusion and sheet fractions - including 380, 356, 319 and wrought grades such as 3105 - and sells it back into domestic manufacturing. Its stated vision is 100% reuse of metals recovered from end-of-life products. The artificial intelligence runs inside Sortera's own sorting lines as an in-house platform; the product sold is recycled metal, not software, and the company publishes no public API, SDK, developer portal or machine-readable specification.",
-     "rank": 974
+     "rank": 975
     },
     {
      "name": "SOURCE Global",
      "slug": "source",
      "description": "SOURCE Global, PBC (founded as Zero Mass Water) is a Scottsdale, Arizona public benefit corporation started in 2014 by Arizona State University materials scientist Cody Friesen to make drinking water out of sunlight and air. Its SOURCE Hydropanel is an off-grid solar-thermal device that pulls water vapor from the atmosphere, condenses and mineralizes it, and delivers roughly five liters of drinking water a day; the panels were deployed in residential, commercial, community and humanitarian projects across more than 50 countries, and the company later moved into bottled water, acquiring Proud Source Water in 2023. It raised approximately USD 270 million in total, including a USD 50 million Series C led by BlackRock in 2020 and a USD 130 million Series D in 2022 co-led by Breakthrough Energy Ventures and the Drawdown Fund with Microsoft Climate Innovation Fund and Fifth Wall participating. SOURCE was a hardware and consumer-products business rather than a software vendor: it never published a developer portal, API reference, SDK or any machine-readable API contract, and the only machine-readable surface its site ever exposed was the Shopify platform behind its direct-to-consumer storefront. The company went quiet during 2025 — an April 2025 SEC filing showed a USD 75 million raise that closed at USD 19.3 million, and founder Cody Friesen announced his departure in June 2025 — and as of August 2026 source.co answers HTTP 402 \"Store unavailable\" on every path while the legacy zeromasswater.com domain resolves to a parked GoDaddy builder page.",
-     "rank": 975
+     "rank": 976
     },
     {
      "name": "Speedinvest",
      "slug": "speedinvest",
      "description": "Speedinvest is one of Europe's most active early-stage venture capital firms, founded in 2011 by Oliver Holle and headquartered in Vienna, Austria, with additional offices in Berlin, London, Munich, and Paris across EMEA. The firm invests from pre-seed and seed through selective growth stages, writing typical early-stage checks of roughly EUR 500K to EUR 3M (and up to around $10M in later rounds), and manages more than EUR 1.2 billion in assets under management. Speedinvest runs a specialist model built around dedicated sector teams rather than generalists: AI & Infra, Climate Tech & Industrial Tech, Deep Tech, Fintech & DeFi, Health & Bio, Marketplaces & Consumer, Growth, and Middle East, Africa & Beyond. Its \"many move more\" thesis pairs early capital with hands-on operational support, talent, customer introductions, and a global follow-on network. The firm backs technical founders across Europe and beyond, with a portfolio of 400+ companies including Bitpanda, Tide, GoStudent, Wayflyer, Curve, Adverity, Bitmovin, CoachHub, and Prewave.",
-     "rank": 976
+     "rank": 977
     },
     {
      "name": "Stellation Capital",
      "slug": "stellation",
      "description": "Stellation Capital is a Brooklyn-based pre-seed and seed venture capital firm founded in 2021 by Peter A. Boyce II, who spent eight years at General Catalyst and co-founded its student-founder program Rough Draft Ventures. Operating under the tagline \"Backing Founders At First Light\" and the thesis \"Present Before Proof,\" Stellation raised a $40M debut fund and writes first checks of roughly $250K-$2.5M, leading and co-leading rounds for \"philomath\" founding teams whose identities are inseparable from the problems they are solving — across AI and personal computing, fintech, consumer software, online safety, climate/energy, and consumer health. Portfolio companies include Strobe Power, Revin, Tapestry, Hopscotch (acquired by Avalara), Software Applications Incorporated, swsh, Block Party, Hearth Display, and Vybe. Stellation is also a partner fund in Foundry Group's portfolio, which is how it entered the API Evangelist network. The firm publishes no APIs; this profile carries its identity and portfolio graph.",
-     "rank": 977
+     "rank": 978
     },
     {
      "name": "Techstars",
      "slug": "techstars",
      "description": "Techstars is a global pre-seed startup accelerator and investor founded in 2006 by David Cohen, Brad Feld, David Brown, and Jared Polis in Boulder, Colorado, and headquartered in New York City. Operating a worldwide network of mentorship-driven accelerator programs across cities including Boulder, Boston, Chicago, New York, London, and Tokyo, Techstars runs an intensive three-month program that provides each accepted company roughly $220,000 in capital — a $20,000 convertible equity agreement for a minimum 5% of common stock plus an optional $200,000 uncapped MFN post-money SAFE (Asia-Pacific programs at ~$100,000). The firm is largely sector-agnostic but is especially active in AI/ML, fintech, SaaS, developer tools, healthcare, climate, space and defense, and critical infrastructure, and operates on its signature \"Give First\" philosophy. Techstars has backed more than 10,000 founders, producing dozens of unicorns and notable companies including Twilio, SendGrid, DigitalOcean, Uber, Remitly, Chainalysis, ClassPass, DataRobot, and PillPack, with portfolio companies collectively raising tens of billions in follow-on capital.",
-     "rank": 978
+     "rank": 979
     },
     {
      "name": "Terabase Energy",
      "slug": "terabase-energy",
      "description": "Terabase Energy builds digital and automation technology for the full lifecycle of utility-scale solar power plants — engineering and energy modeling, robotic field construction, and plant operations. Its software portfolio includes PlantPredict, an industry-standard bankable performance-modeling platform for utility-scale PV that predicts energy yield from early-stage prospecting through operational monitoring; Terrain Pro, a terrain analysis, grading and pile-layout engine for site design; Construct, a construction management platform; and Terafab, an automated field-factory system for solar module installation. PlantPredict exposes its entire modeling engine as a documented REST API (OpenAPI 3.1, OAuth 2.0 client-credentials via AWS Cognito), an official Python SDK, a Postman collection, and a hosted, OAuth-protected Model Context Protocol (MCP) connector for Claude, ChatGPT and Cursor.",
-     "rank": 979
+     "rank": 980
     },
     {
      "name": "Thea Energy",
      "slug": "thea-energy",
      "description": "Thea Energy, Inc. is a fusion energy company headquartered in Kearny, New Jersey, founded in 2022 on stellarator physics and engineering developed at Princeton University and the Princeton Plasma Physics Laboratory. Thea is reinventing the stellarator by replacing complex, hand-wound 3D modular coils with a phased array of simple planar electromagnetic coils, moving the complexity of shaping the magnetic field out of the hardware and into a software control stack that can be tuned over an asset's lifetime. Its first integrated machine, Eos, is a steady-state, neutron-producing stellarator; the follow-on Helios is intended to be an electricity-producing plant. The company raised a $100M Series B in May 2026 led by Thomas Tull's US Innovative Technology Fund, and the U.S. Department of Energy has certified its power plant preconceptual design milestone. Thea publishes no public API, developer portal, or machine-readable contract; its only public software surface is a small set of open-source nuclear-engineering and simulation libraries on GitHub.",
-     "rank": 980
+     "rank": 981
     },
     {
      "name": "True Ventures",
      "slug": "true-ventures",
      "description": "True Ventures is an early-stage venture capital firm founded in 2006 by Jon Callaghan and Phil Black and headquartered in Palo Alto / San Francisco, California. Operating under a \"first to believe\" thesis, True writes the initial institutional check and stays invested through every subsequent stage of a company's journey, concentrating on pre-seed, seed, and Series A rounds with check sizes reported in the roughly $500K-$15M range. The firm invests broadly across technology and founder-led categories including software and developer infrastructure, consumer products and internet, healthcare and life sciences, hardware and robotics, climate and energy, security, and AI. With more than $3.8B in committed capital, True has backed 1,050+ founders across 500+ companies since inception, with notable early checks into Fitbit, Peloton, Ring, Automattic/WordPress, HashiCorp, Duo Security, Sweetgreen, Bluesky, and Splice. True is known for its founder-first platform, the True University founder camps, and long-term conviction-led early ownership.",
-     "rank": 981
+     "rank": 982
     },
     {
      "name": "Umbra",
      "slug": "umbra",
      "description": "Umbra is an American space technology company operating a constellation of commercial synthetic aperture radar (SAR) satellites capable of sub-25cm resolution imaging, day or night and through cloud cover. Its Canopy platform gives customers self-service access to the constellation through both a web application and a public REST API: customers calculate tasking feasibility against targets of interest, submit Tasks to collect new imagery in Spotlight, Dwell or Scan imaging modes, track Task and Collect status through the full collection-downlink-processing-delivery lifecycle, search a STAC-compliant archive catalog of existing imagery, and configure direct data delivery into their own AWS S3 or Google Cloud Storage buckets. Umbra licenses its imagery under CC BY 4.0, publishes open pricing, and runs an open data program.",
-     "rank": 982
+     "rank": 983
     },
     {
      "name": "Union Square Ventures",
      "slug": "union-square-ventures",
      "description": "Union Square Ventures (USV) is a thesis-driven, early-stage venture capital firm founded in 2003 by Fred Wilson and Brad Burnham and headquartered at 817 Broadway in New York City. USV invests at the edge of large markets being transformed by technological and societal pressures, historically backing large networks of engaged users that are differentiated through user experience and defensible through network effects, and more recently companies that broaden access to knowledge, capital, and well-being. The firm invests primarily at Seed and Series A across three strategies — a Core fund, a Climate fund, and an Opportunity (later-stage) fund — with check sizes typically ranging from roughly $1M at seed to the low-to-mid single-digit millions at Series A. USV runs a small, collegial partnership and focuses on social media, marketplaces, developer tools, learning/education, health, fintech, web3/decentralized protocols, energy, and climate. It reports roughly $1.9B in assets under management across 14 funds. Notable investments include Twitter, Etsy, Coinbase, Stripe, Cloudflare, MongoDB, Twilio, Duolingo, Kickstarter, Stack Overflow, SoundCloud, and Carta.",
-     "rank": 983
+     "rank": 984
     },
     {
      "name": "Verdagy",
      "slug": "verdagy",
      "description": "Verdagy is a Moss Landing, California clean-energy hardware company that designs and manufactures dynamic alkaline water electrolysis systems for large-scale green hydrogen production. Its eDynamic platform runs very large-area membrane-based electrochemical cells at high current density with dynamic turndown, so electrolyzers can follow intermittent renewable power, targeting fossil-fuel cost parity for clean hydrogen by 2028 without subsidies. The company operates a 2 MW eDynamic demonstration plant at Moss Landing with more than 21,000 commercial cell hours, plus 500 kW and 100 kW test plants, and opened a DOE-supported gigawatt-scale manufacturing facility of more than 100,000 square feet in Newark, California. Verdagy sells electrolyzer hardware and project capacity to industrial hydrogen buyers — refining, ammonia, methanol, e-fuels and SAF — rather than software; it publishes no developer program, no public API, and no machine-readable API contract.",
-     "rank": 984
+     "rank": 985
     },
     {
      "name": "Vestaron",
      "slug": "vestaron",
      "description": "Vestaron is an agricultural biotechnology company founded in 2005 and headquartered in Kalamazoo, Michigan, that develops peptide-based bioinsecticides derived from the venom of spiders and other venomous species. Its peptides deliver insecticidal modes of action that had never before been used for insect control — SPEAR, the first commercialised active ingredient, introduced IRAC Group 32, the first new neuromuscular mode of action since the diamides — and are effective on lepidopteran and sucking pests while remaining gentle on pollinators and beneficial insects. The commercial portfolio is SPEAR LEP, SPEAR RC, SPEAR T, BASIN FLEX, LEPROTEC and LEPROTEC WG, manufactured in partnership with ADM. The company has won the Crop Science Award and an EPA Green Chemistry Challenge award, and in 2024 became the first agriculture and food company inducted into the Global CleanTech 100 Hall of Fame. Vestaron publishes no developer program, no product API and no API documentation. The only machine-readable surfaces on vestaron.com are the WordPress REST content API (wp/v2), which is anonymously readable and serves the corporate newsroom, product and company pages and media library, and an OAuth-gated Model Context Protocol endpoint advertised through RFC 8414 and RFC 9728 metadata.",
-     "rank": 985
+     "rank": 986
     },
     {
      "name": "ZeroAvia",
      "slug": "zeroavia",
      "description": "ZeroAvia is a UK/US hydrogen-electric aviation company founded in 2017 by Valery Miftakhov, developing hydrogen fuel cell and electric propulsion systems for commercial aircraft. Its powertrain line runs from the ZA600 (600kW, 10-20 seat regional turboprops) through the ZA2000 (2-5MW, 40-80 seat turboprops) to the ZA2000 RJ (5MW+, up to 90 seat regional jets), alongside a component business selling electric propulsion systems, inverters, electric motors and HTPEM/SuperStack fuel cell stacks to other clean-aviation manufacturers, plus a hydrogen airport refuelling ecosystem of electrolyzers, mobile refuelers and LH2 development. It operates from Cotswold Airport in Kemble, UK and from Everett, Washington, and holds FAA and CAA experimental certificates for its flight-test aircraft. ZeroAvia sells certified aerospace hardware to airframers, airlines, lessors and defense customers; it publishes no public developer API, SDK or developer portal.",
-     "rank": 986
+     "rank": 987
     }
    ]
   }

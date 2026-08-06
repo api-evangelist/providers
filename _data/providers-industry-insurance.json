@@ -1,6 +1,6 @@
 {
- "total": 72,
- "shown": 72,
+ "total": 71,
+ "shown": 71,
  "limit": 1000,
  "bands": [
   {
@@ -1262,8 +1262,8 @@
    "label": "Minimal",
    "range": "0 – 12.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 44,
-   "shown": 44,
+   "count": 43,
+   "shown": 43,
    "providers": [
     {
      "name": "Globe Life",
@@ -2727,43 +2727,6 @@
      "rank": 61
     },
     {
-     "name": "Guardian Life Ins Co Of America",
-     "slug": "guardian-life-ins-co-of-america",
-     "description": "The Guardian Life Insurance Company of America is one of the largest mutual life insurance companies in the United States, offering life insurance, disability income insurance, and other employee benefits.",
-     "score": 3.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 35.2,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-05",
-     "schema_version": "0.9.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 62
-    },
-    {
      "name": "Mercury General",
      "slug": "mercury-general",
      "description": "Mercury General is a multiple-line insurance organization offering primarily personal automobile, homeowners, renters, and commercial automobile insurance through independent agents. No public APIs or developer portal have been identified for Mercury General.",
@@ -2805,7 +2768,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 63
+     "rank": 62
     },
     {
      "name": "Selective Insurance Group",
@@ -2842,7 +2805,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 64
+     "rank": 63
     },
     {
      "name": "Equitable Holdings",
@@ -2880,7 +2843,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 65
+     "rank": 64
     },
     {
      "name": "Federated Mutual Insurance",
@@ -2918,7 +2881,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 66
+     "rank": 65
     },
     {
      "name": "Principal Financial",
@@ -2956,7 +2919,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 67
+     "rank": 66
     },
     {
      "name": "Sentry Insurance Group",
@@ -2993,7 +2956,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 68
+     "rank": 67
     },
     {
      "name": "NLV Financial",
@@ -3031,7 +2994,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 69
+     "rank": 68
     },
     {
      "name": "Brighthouse Financial",
@@ -3069,7 +3032,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 70
+     "rank": 69
     },
     {
      "name": "Brown AND Brown",
@@ -3107,7 +3070,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 71
+     "rank": 70
     },
     {
      "name": "Jackson Financial",
@@ -3145,7 +3108,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "rank": 72
+     "rank": 71
     }
    ]
   }

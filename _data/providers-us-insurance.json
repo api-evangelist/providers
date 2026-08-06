@@ -3263,7 +3263,7 @@
     {
      "name": "Guardian Life",
      "slug": "guardian-life",
-     "description": "Guardian Life is one of the largest mutual life insurance companies in the United States, providing life insurance, disability income insurance, dental insurance, and other employee benefits.",
+     "description": "The Guardian Life Insurance Company of America is one of the largest mutual life insurance companies in the United States, providing life insurance, disability income insurance, dental insurance, and other employee benefits. Guardian operates a partner developer portal, Guardian Connect, built on Apigee, exposing a catalog of group and retail insurance APIs covering evidence of insurability, member benefits enrollment, policy and plan configuration, group rating and quoting, dental provider directory and verification of benefits, underwriting data, and life illustration. The Member Benefits APIs implement the LIMRA Data Exchange (LDEx) Standards. Access is partner-gated: a partner agreement is established first, after which Guardian issues a registration code and partner key, and API keys are minted per partner app subject to administrator approval. Authentication is JWT with OpenID Connect login. No OpenAPI, Swagger, or other machine-readable contract is published publicly — the API reference sits behind partner login — so the APIs below are recorded from Guardian's own public catalog descriptions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/guardian-life/refs/heads/main/screenshots/guardian-life-2026-06-20T182426.png",
      "score": 6.2,
      "band": "minimal",

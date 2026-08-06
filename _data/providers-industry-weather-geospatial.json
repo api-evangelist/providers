@@ -1,6 +1,6 @@
 {
- "total": 491,
- "shown": 491,
+ "total": 492,
+ "shown": 492,
  "limit": 1000,
  "bands": [
   {
@@ -19054,8 +19054,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Aerospacelab",
@@ -19064,30 +19064,36 @@
      "rank": 487
     },
     {
+     "name": "Arccos Golf",
+     "slug": "arccos-golf",
+     "description": "Arccos Golf is the golf performance-tracking platform behind the Arccos Caddie smart sensors, smart grips and the Arccos Air wearable — the Official Game Tracker of the PGA TOUR. Club-mounted sensors and the Arccos mobile app automatically capture every shot on the course, then AI-driven Strokes Gained analytics, Smart Club Distances, an AI rangefinder and Arccos Caddie strategy turn that shot data into per-round and per-hole insight. Arccos exposes that same data to approved third parties through the Arccos On-Course Data API, a Swagger 2.0-documented REST API over rounds, round stats, clubs, users and a public course/course-version catalog, secured with an OAuth 2.0 authorization-code flow and per-resource read scopes, plus registerable HTTPS webhooks for round and account-disconnect events. Its Shopify-hosted storefront additionally publishes an llms.txt and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven commerce.",
+     "rank": 488
+    },
+    {
      "name": "Energy and Utilities",
      "slug": "energy-utilities",
      "description": "Energy and Utilities is a topic profile in the API Evangelist Network cataloging the API surfaces that move data across the modern electricity, gas, and water value chain. It indexes utility data integration APIs, grid and wholesale market operator APIs, federal energy data programs, renewable energy research APIs, weather APIs that drive grid demand and solar forecasting, EV charging interoperability protocols, and the Green Button family of customer energy data standards. The repo provides a baseline catalog plus shared semantics (JSON Schema, JSON-LD, vocabulary, examples) for the meter reading / energy data point that ties every one of these surfaces together.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/energy-utilities/refs/heads/main/screenshots/energy-utilities-2026-06-20T180707.png",
-     "rank": 488
+     "rank": 489
     },
     {
      "name": "Open Charge Map",
      "slug": "openchargemap",
      "description": "Open Charge Map is the global public registry of electric vehicle charging locations, established in 2011 as a non-commercial, community-driven project. The platform maintains a crowdsourced dataset of 300,000+ charging points worldwide, combining manually entered data with imported open data from government registries and charging networks. The REST API enables developers to search and retrieve POI (Points of Interest) data on EV charging stations, including location details, equipment specifications, connection types, operator information, and user-submitted check-ins and photos. Data can be filtered by geographic coordinates, bounding box, country, operator, connection type, charging level, and operational status. The API is free to use with an API key registration and supports both read (GET) and write (POST) operations for contributing new charging location data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/screenshots/openchargemap-2026-06-20T190925.png",
-     "rank": 489
+     "rank": 490
     },
     {
      "name": "Terabase Energy",
      "slug": "terabase-energy",
      "description": "Terabase Energy builds digital and automation technology for the full lifecycle of utility-scale solar power plants — engineering and energy modeling, robotic field construction, and plant operations. Its software portfolio includes PlantPredict, an industry-standard bankable performance-modeling platform for utility-scale PV that predicts energy yield from early-stage prospecting through operational monitoring; Terrain Pro, a terrain analysis, grading and pile-layout engine for site design; Construct, a construction management platform; and Terafab, an automated field-factory system for solar module installation. PlantPredict exposes its entire modeling engine as a documented REST API (OpenAPI 3.1, OAuth 2.0 client-credentials via AWS Cognito), an official Python SDK, a Postman collection, and a hosted, OAuth-protected Model Context Protocol (MCP) connector for Claude, ChatGPT and Cursor.",
-     "rank": 490
+     "rank": 491
     },
     {
      "name": "Umbra",
      "slug": "umbra",
      "description": "Umbra is an American space technology company operating a constellation of commercial synthetic aperture radar (SAR) satellites capable of sub-25cm resolution imaging, day or night and through cloud cover. Its Canopy platform gives customers self-service access to the constellation through both a web application and a public REST API: customers calculate tasking feasibility against targets of interest, submit Tasks to collect new imagery in Spotlight, Dwell or Scan imaging modes, track Task and Collect status through the full collection-downlink-processing-delivery lifecycle, search a STAC-compliant archive catalog of existing imagery, and configure direct data delivery into their own AWS S3 or Google Cloud Storage buckets. Umbra licenses its imagery under CC BY 4.0, publishes open pricing, and runs an open data program.",
-     "rank": 491
+     "rank": 492
     }
    ]
   }

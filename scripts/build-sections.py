@@ -2118,6 +2118,46 @@ def main():
     documentation_counts = {}
     build_roster_sections(DOCUMENTATION_SECTIONS, DOCUMENTATION_TIER_LABELS, documentation_counts)
 
+    # --- Testing (single GLOBAL cohort, the third AREA cut) --------------
+    # testing.apievangelist.com read as a market, and the FUZZIEST area cut
+    # attempted — the curated index names seven sub-markets, so the tiers are
+    # drawn by WHAT THE TOOL DOES rather than by who sells it.
+    #
+    # COHORT IS HAND-NAMED. Security scanners and browser/E2E frameworks are
+    # IN: the area's own description explicitly names security testing
+    # scanners, and E2E frameworks test the system an API serves. API CLIENTS
+    # ARE OUT — Postman, Insomnia, Bruno, Hoppscotch and HTTPie sell a client,
+    # on the same reasoning that kept Postman out of the management and
+    # documentation cohorts. That is a scope call, not a delisting.
+    #
+    # Three catalog problems were resolved before any figure was computed and
+    # they are worth recording here because each would have been invisible in
+    # the output: (1) `cypress` is CYPRESS SEMICONDUCTOR, the San Jose chip
+    # company acquired by Infineon, not the testing framework — the framework
+    # is `cypressio`, and using the obvious slug would have dropped a defunct
+    # semiconductor manufacturer into an API testing report; (2) `jmeter`
+    # (20.4) and `apache-jmeter` (50.3) are one project, a 30-point spread and
+    # the widest duplicate found in the series; (3) ReadyAPI is a SmartBear
+    # PRODUCT with an empty record, not a company, and folds into SmartBear.
+    # StormForge was dropped on inspection — it is Kubernetes cost rightsizing,
+    # not testing. Roster: all/0-working/testing-roster.json.
+    TESTING_TIER_LABELS = {
+        "commercial": "Commercial Testing & Quality Platforms",
+        "mock":       "Mocking & Service Virtualization",
+        "load":       "Load & Performance Testing",
+        "contract":   "Contract Testing & Test Frameworks",
+        "security":   "Security Testing Scanners",
+        "e2e":        "Browser & End-to-End Frameworks",
+    }
+    TESTING_SECTIONS = [
+        ("testing", "testing-roster.json", "API Testing",
+         "The API testing market ranked by Kin Score — the commercial testing and quality platforms (Tricentis, SmartBear, APIToolkit, Checkly, Assertible, Speedscale), the mocking and service-virtualization layer (WireMock, Beeceptor, Microcks, Mockoon, MockAPI, MockServer, Mock Service Worker, Hoverfly, Prism), load and performance testing (Apache JMeter, k6, Vegeta, Artillery, GoReplay, Gatling, Locust), contract testing and test frameworks (REST Assured, Pact, SuperTest, Schemathesis, Step CI, Optic, Dredd, Portman, Karate, Newman), the security scanners (Nuclei, OWASP ZAP) and the browser and end-to-end frameworks (Cypress.io, Selenium, Playwright). Testing is the fuzziest category in the series, so this cohort is named by hand rather than matched — API clients, chaos engineering, observability and APM are real adjacent markets covered in their own areas.",
+         {"slug": "state-of-testing-apis", "title": "The State of API Testing",
+          "blurb": "37 API testing tools and platforms scored — and the first market in this series that is actually building for agents. Four vendors ship a real MCP server after three consecutive cohorts shipped none, and Tricentis posts a 1.1-point gap between its composite and its agent readiness where every previous market leader posted thirty or more. It is also the weakest-scoring cohort measured: no Exemplar, and governance at 20.9 with 24 of 37 at zero.", "price": "500"}),
+    ]
+    testing_counts = {}
+    build_roster_sections(TESTING_SECTIONS, TESTING_TIER_LABELS, testing_counts)
+
     # --- Logistics & Supply Chain (four cohorts, split by MODE) -----------
     # The first sector in the series NOT split by country. A container, a
     # parcel and an air waybill cross borders by definition, so an HQ model
