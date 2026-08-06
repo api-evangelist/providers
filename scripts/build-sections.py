@@ -148,6 +148,14 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
+    "blockchain-crypto": {
+        "slug": "state-of-blockchain-crypto-apis",
+        "title": "The State of Blockchain & Crypto APIs",
+        "blurb": "The highest-publishing market in the catalog, and the one that says least about "
+                 "who is allowed to move the money \u2014 scopes at 10.2% of its leaders.",
+        "price": "500",
+        "kind": "API Evangelist Market Report",
+    },
     "marketing-advertising": {
         "slug": "state-of-marketing-advertising-apis",
         "title": "The State of Marketing & Advertising APIs",
