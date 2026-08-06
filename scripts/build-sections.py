@@ -148,6 +148,14 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
+    "marketing-advertising": {
+        "slug": "state-of-marketing-advertising-apis",
+        "title": "The State of Marketing & Advertising APIs",
+        "blurb": "The industry whose tracking wrote the world\u2019s consent laws describes consent in "
+                 "its own APIs at 3.1% \u2014 below the whole-catalog rate.",
+        "price": "500",
+        "kind": "API Evangelist Market Report",
+    },
     "data-analytics": {
         "slug": "state-of-data-analytics-apis",
         "title": "The State of Data & Analytics APIs",
