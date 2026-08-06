@@ -26,8 +26,8 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -35,7 +35,7 @@
       "score": 64.9,
       "matched_via": "tags"
      },
-     "agent_score": 53.8,
+     "agent_score": 57.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -46,7 +46,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -71,8 +71,8 @@
       "developer_ergonomics": 79.9,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -80,7 +80,7 @@
       "score": 63.5,
       "matched_via": "tags"
      },
-     "agent_score": 45.9,
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -91,7 +91,7 @@
       "error_semantics": "verified",
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -116,8 +116,8 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -154,9 +154,54 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 11,
-   "shown": 11,
+   "count": 12,
+   "shown": 12,
    "providers": [
+    {
+     "name": "Red Energy",
+     "slug": "red-energy",
+     "description": "Red Energy Pty Ltd (ABN 60 107 479 372) is an Australian electricity and gas retailer, wholly owned by Snowy Hydro Ltd, that supplies more than a million residential and business customers across New South Wales, Victoria, Queensland, South Australia and the ACT from a Richmond, Victoria base. It sits on the retail end of the National Electricity Market value chain: Snowy Hydro generates, the distribution network businesses own the poles and wires, AEMO operates the market and holds metering data, and Red Energy owns the customer, the tariff and the bill. Its API posture is entirely a product of statute rather than product strategy. Red Energy publishes no developer portal, no self-serve API programme and no proprietary specification - developer., api., docs. and data. subdomains do not resolve, and redenergy.com.au itself sits behind a Cloudflare bot challenge that returns HTTP 403 to any non-browser client. What it does have is a real, verified Consumer Data Right implementation: it is a designated CDR energy data holder listed on the CDR Register with the public base URI https://public.cdr.redenergy.com.au, which serves the Consumer Data Standards discovery endpoints live with correct x-v version negotiation, while 1,705 Red Energy branded plans are published anonymously through the Australian Energy Regulator's Energy Made Easy CDR host. The split is the story - open, standardised, anonymous product reference data on one side, and consumer usage, billing and account data available only to accredited CDR data recipients with the customer's consent on the other, with nothing at all in between.",
+     "score": 53.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 54.3,
+      "governance": 20.8,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 34.2,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 63.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 43.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Utilities & Retailers",
+     "rank": 4
+    },
     {
      "name": "Amber Electric",
      "slug": "amber-electric",
@@ -172,8 +217,8 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -200,7 +245,7 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Australian Energy Regulator",
@@ -217,8 +262,8 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -245,7 +290,7 @@
       "dry_run_mode": false
      },
      "tier": "Regulators & Government Data",
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Endeavour Energy",
@@ -262,8 +307,8 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -290,7 +335,7 @@
       "dry_run_mode": false
      },
      "tier": "Network Distributors",
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Chargefox",
@@ -307,8 +352,8 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -335,7 +380,7 @@
       "dry_run_mode": false
      },
      "tier": "EV Charging",
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Simply Energy",
@@ -352,8 +397,8 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -380,51 +425,6 @@
       "dry_run_mode": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 8
-    },
-    {
-     "name": "Red Energy",
-     "slug": "red-energy",
-     "description": "Red Energy Pty Ltd (ABN 60 107 479 372) is an Australian electricity and gas retailer, wholly owned by Snowy Hydro Ltd, that supplies more than a million residential and business customers across New South Wales, Victoria, Queensland, South Australia and the ACT from a Richmond, Victoria base. It sits on the retail end of the National Electricity Market value chain: Snowy Hydro generates, the distribution network businesses own the poles and wires, AEMO operates the market and holds metering data, and Red Energy owns the customer, the tariff and the bill. Its API posture is entirely a product of statute rather than product strategy. Red Energy publishes no developer portal, no self-serve API programme and no proprietary specification - developer., api., docs. and data. subdomains do not resolve, and redenergy.com.au itself sits behind a Cloudflare bot challenge that returns HTTP 403 to any non-browser client. What it does have is a real, verified Consumer Data Right implementation: it is a designated CDR energy data holder listed on the CDR Register with the public base URI https://public.cdr.redenergy.com.au, which serves the Consumer Data Standards discovery endpoints live with correct x-v version negotiation, while 1,705 Red Energy branded plans are published anonymously through the Australian Energy Regulator's Energy Made Easy CDR host. The split is the story - open, standardised, anonymous product reference data on one side, and consumer usage, billing and account data available only to accredited CDR data recipients with the customer's consent on the other, with nothing at all in between.",
-     "score": 48.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 32.3,
-      "governance": 20.8,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 34.2,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 63.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 39.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Utilities & Retailers",
      "rank": 9
     },
     {
@@ -442,8 +442,8 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -487,8 +487,8 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -532,8 +532,8 @@
       "developer_ergonomics": 32.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -577,8 +577,8 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -608,6 +608,51 @@
      "rank": 13
     },
     {
+     "name": "Energy Queensland",
+     "slug": "energy-queensland",
+     "description": "Energy Queensland Limited is the Queensland Government-owned corporation formed on 30 June 2016 by merging Ergon Energy and Energex. It is the whole Queensland electricity value chain below transmission in a single holding company: Energex distributes to roughly 1.5 million connections across South East Queensland, Ergon Energy Network distributes across regional Queensland, Ergon Energy Retail is the notified-price retailer for about 760,000 regional customers, Yurika sells energy services and telecommunications, and SPARQ Solutions provides group ICT. That dual role is what makes its API posture worth recording precisely, because the two halves of the business sit on opposite sides of a statutory line. The RETAIL half is a designated Consumer Data Right energy data holder and its implementation is verified live, not claimed: \"Ergon Energy Retail\" (ABN 11121177802) is listed on the ACCC CDR Register with publicBaseUri https://public.cdr.ergonretail.com.au and productBaseUri https://cdr.energymadeeasy.gov.au/ergon, both of which answered HTTP 200 to anonymous, standards-conformant calls on 2026-07-27, returning 36 REGULATED electricity plans and a CDS discovery status of OK. The DISTRIBUTION half - the poles and wires - is not a CDR data holder at all, publishes no developer portal, no open-data API and no machine-readable contract, and has no developer., developers., api., docs. or data. subdomain in DNS on energyq.com.au, ergon.com.au or energex.com.au. Its network data reaches the public as PDF and XLSX planning reports, registration-free but non-programmatic map viewers, and exactly one open-licensed spatial dataset deposited on the Queensland Government's CKAN portal. The split is the finding: a mandate transplanted from banking produced a real, anonymous, standardised API on the regulated retail side and changed nothing whatsoever on the network side it never touched.",
+     "score": 43.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 54.3,
+      "governance": 20.8,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 27.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 52.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 39.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Network Distributors",
+     "rank": 14
+    },
+    {
      "name": "Wattwatchers",
      "slug": "wattwatchers",
      "description": "Wattwatchers is an Australian digital energy company (founded 2007, headquartered in Sydney, NSW) that designs and manufactures the Auditor family of DIN-rail electricity monitoring and switching devices, and operates the cloud platform behind them. It sits behind the meter rather than at it — Auditors clamp onto individual circuits and report real-time, circuit-level energy data over 4G or WiFi to Wattwatchers' hosted platform, which resells that data to solar installers, energy retailers, energy services companies, EV and DER programs, schools and research trials. Its API posture is genuinely open at the documentation layer and closed at the data layer — the full REST API v3 (Mercury) reference, a live Swagger UI and a downloadable OpenAPI 3.0 contract are all served anonymously from docs.wattwatchers.com.au, but no key is self-serve: Wattwatchers issues bearer tokens by hand and scopes each one to the specific devices you own or manage, so the API returns your fleet's data and nothing else. Consumer usage data is therefore available through a documented API, while no open grid or market data is published at all. Wattwatchers is not a designated Consumer Data Right energy data holder and does not appear as an accredited data recipient — the CDR energy mandate applies to retailers and AEMO, not to behind-the-meter hardware vendors, so this platform carries no CDR obligation and implements no CDR or Green Button data standard. Wattwatchers entered voluntary administration in October 2025 and was acquired by EPX Limited (ASX:EPX, formerly EP&T Global); the Wattwatchers knowledge base now redirects to support.epx.tech, while the developer documentation, the API host and the OpenAPI contract all remain live and unchanged.",
@@ -622,8 +667,8 @@
       "developer_ergonomics": 53.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -650,7 +695,7 @@
       "dry_run_mode": false
      },
      "tier": "Energy Data Platforms",
-     "rank": 14
+     "rank": 15
     }
    ],
    "open": true
@@ -660,8 +705,8 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Western Power",
@@ -678,8 +723,8 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -706,51 +751,6 @@
       "dry_run_mode": false
      },
      "tier": "Network Distributors",
-     "rank": 15
-    },
-    {
-     "name": "Energy Queensland",
-     "slug": "energy-queensland",
-     "description": "Energy Queensland Limited is the Queensland Government-owned corporation formed on 30 June 2016 by merging Ergon Energy and Energex. It is the whole Queensland electricity value chain below transmission in a single holding company: Energex distributes to roughly 1.5 million connections across South East Queensland, Ergon Energy Network distributes across regional Queensland, Ergon Energy Retail is the notified-price retailer for about 760,000 regional customers, Yurika sells energy services and telecommunications, and SPARQ Solutions provides group ICT. That dual role is what makes its API posture worth recording precisely, because the two halves of the business sit on opposite sides of a statutory line. The RETAIL half is a designated Consumer Data Right energy data holder and its implementation is verified live, not claimed: \"Ergon Energy Retail\" (ABN 11121177802) is listed on the ACCC CDR Register with publicBaseUri https://public.cdr.ergonretail.com.au and productBaseUri https://cdr.energymadeeasy.gov.au/ergon, both of which answered HTTP 200 to anonymous, standards-conformant calls on 2026-07-27, returning 36 REGULATED electricity plans and a CDS discovery status of OK. The DISTRIBUTION half - the poles and wires - is not a CDR data holder at all, publishes no developer portal, no open-data API and no machine-readable contract, and has no developer., developers., api., docs. or data. subdomain in DNS on energyq.com.au, ergon.com.au or energex.com.au. Its network data reaches the public as PDF and XLSX planning reports, registration-free but non-programmatic map viewers, and exactly one open-licensed spatial dataset deposited on the Queensland Government's CKAN portal. The split is the finding: a mandate transplanted from banking produced a real, anonymous, standardised API on the regulated retail side and changed nothing whatsoever on the network side it never touched.",
-     "score": 38.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 32.3,
-      "governance": 20.8,
-      "operational_transparency": 76.3,
-      "developer_ergonomics": 27.7,
-      "commercial_clarity": 7.9
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 52.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Network Distributors",
      "rank": 16
     },
     {
@@ -768,8 +768,8 @@
       "developer_ergonomics": 34.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -813,8 +813,8 @@
       "developer_ergonomics": 29.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -858,8 +858,8 @@
       "developer_ergonomics": 42.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -913,8 +913,8 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -958,8 +958,8 @@
       "developer_ergonomics": 42.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1003,8 +1003,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1048,8 +1048,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1093,8 +1093,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

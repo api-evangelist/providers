@@ -16,19 +16,19 @@
      "slug": "avalara",
      "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
-     "score": 75.7,
+     "score": 75.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 76.3,
+      "contract_quality": 73.4,
       "governance": 83.3,
       "operational_transparency": 57.9,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 56.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -76,9 +76,9 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "agent_score": 45.7,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "agent_score": 49.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -89,7 +89,7 @@
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": true,
@@ -115,8 +115,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -172,8 +172,8 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -211,8 +211,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -250,8 +250,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 39.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -289,8 +289,8 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -337,8 +337,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 36.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -376,8 +376,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -414,8 +414,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -453,8 +453,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -491,8 +491,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -530,8 +530,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -568,8 +568,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -616,8 +616,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 26.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -654,8 +654,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -693,8 +693,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -717,6 +717,44 @@
      "rank": 17
     },
     {
+     "name": "DB Schenker",
+     "slug": "db-schenker",
+     "description": "DB Schenker (Schenker AG, headquartered in Essen, Germany) is one of the world's largest freight forwarders and contract logistics providers, moving air, ocean, land and rail freight and running warehousing for shippers across roughly 1,850 locations. As a forwarder it sits in the intermediation layer of the supply chain — between the shipper who owns the cargo and the carriers, terminals and customs authorities who move and clear it — buying capacity it does not own and reselling visibility it did not have to publish. Its API posture is honestly a customer-contract posture, not a public developer posture. Deutsche Bahn sold DB Schenker to DSV A/S, completing 30 April 2025, and as of this profile www.dbschenker.com 301-redirects to dsv.com while the global developer portal at api-portal.dbschenker.com answers HTTP 410 Gone. The one DB Schenker-branded machine-readable API surface still live is the Nordic parcel \"Partner services API\" at parcelservices-se.dbschenker.com/Apipartner, which publishes four Swagger 2.0 documents openly but returns 401 on every operation without HTTP Basic credentials issued against a signed Swedish transport agreement. Its EDI endpoints are proprietary JSON, not EDIFACT or X12, and no DCSA, IATA ONE Record, GS1 EPCIS or WCO Data Model conformant contract was found on any reachable host.",
+     "score": 23.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 49.6,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "agent_score": 16.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Freight Forwarders",
+     "rank": 18
+    },
+    {
      "name": "Zonos",
      "slug": "zonos",
      "description": "Zonos is a cross-border trade technology company headquartered in St. George, Utah, United States, that sells customs and trade compliance as an API. Its products calculate landed cost (duty, tax, brokerage and carrier fees), classify goods to HS codes with AI, screen parties and items against restricted and denied lists, rate and label international parcels, generate customs documents, submit postal PDDP declarations to destination posts, and file CBP entries for consolidated air consignments. It sits in the middle of the chain — between merchants, carriers, postal operators and freight consolidators on one side and customs authorities on the other — and is one of the few organizations in this tier whose integration surface is genuinely public rather than a customer-contract portal. A single unified GraphQL endpoint at https://api.zonos.com/graphql answers unauthenticated introspection (1,396 types, 170 queries, 153 mutations, harvested 2026-07-30), the reference is browsable without login at https://zonos.com/developer, and a legacy REST v1 layer remains documented but is declared end-of-life. Calling anything real still requires a credential token from the Zonos Dashboard, which is self-serve only for Shopify merchants; every other platform is routed through sales and an account agreement.",
@@ -731,8 +769,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -752,7 +790,7 @@
       "dry_run_mode": false
      },
      "tier": "Customs & Trade Tech",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Descartes Systems Group",
@@ -770,47 +808,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "agent_score": 3.2,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Supply Chain Software",
-     "rank": 19
-    },
-    {
-     "name": "Kinaxis",
-     "slug": "kinaxis",
-     "description": "Kinaxis is a concurrent supply chain planning platform — branded Maestro (formerly RapidResponse) — that provides REST APIs for supply chain orchestration, scenario modeling, demand sensing, and supply planning across global manufacturing and distribution networks. The platform offers an AI-infused intelligence engine, digital twin simulation, and a Developer Studio for building custom applications and algorithms on top of the supply chain data fabric.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/screenshots/kinaxis-2026-06-20T184039.png",
-     "score": 19.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -833,33 +832,34 @@
      "rank": 20
     },
     {
-     "name": "DB Schenker",
-     "slug": "db-schenker",
-     "description": "DB Schenker (Schenker AG, headquartered in Essen, Germany) is one of the world's largest freight forwarders and contract logistics providers, moving air, ocean, land and rail freight and running warehousing for shippers across roughly 1,850 locations. As a forwarder it sits in the intermediation layer of the supply chain — between the shipper who owns the cargo and the carriers, terminals and customs authorities who move and clear it — buying capacity it does not own and reselling visibility it did not have to publish. Its API posture is honestly a customer-contract posture, not a public developer posture. Deutsche Bahn sold DB Schenker to DSV A/S, completing 30 April 2025, and as of this profile www.dbschenker.com 301-redirects to dsv.com while the global developer portal at api-portal.dbschenker.com answers HTTP 410 Gone. The one DB Schenker-branded machine-readable API surface still live is the Nordic parcel \"Partner services API\" at parcelservices-se.dbschenker.com/Apipartner, which publishes four Swagger 2.0 documents openly but returns 401 on every operation without HTTP Basic credentials issued against a signed Swedish transport agreement. Its EDI endpoints are proprietary JSON, not EDIFACT or X12, and no DCSA, IATA ONE Record, GS1 EPCIS or WCO Data Model conformant contract was found on any reachable host.",
-     "score": 19.2,
+     "name": "Kinaxis",
+     "slug": "kinaxis",
+     "description": "Kinaxis is a concurrent supply chain planning platform — branded Maestro (formerly RapidResponse) — that provides REST APIs for supply chain orchestration, scenario modeling, demand sensing, and supply planning across global manufacturing and distribution networks. The platform offers an AI-infused intelligence engine, digital twin simulation, and a Developer Studio for building custom applications and algorithms on top of the supply chain data fabric.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kinaxis/refs/heads/main/screenshots/kinaxis-2026-06-20T184039.png",
+     "score": 19.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 32.3,
+      "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 0.0
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "agent_score": 16.2,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "agent_score": 3.2,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
+      "spec_presence": false,
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -867,7 +867,7 @@
       "agent_card": false,
       "dry_run_mode": false
      },
-     "tier": "Freight Forwarders",
+     "tier": "Supply Chain Software",
      "rank": 21
     }
    ]
@@ -896,8 +896,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -935,8 +935,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -973,8 +973,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -27,8 +27,8 @@
       "developer_ergonomics": 60.3,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -36,7 +36,7 @@
       "score": 76.3,
       "matched_via": "tags"
      },
-     "agent_score": 50.2,
+     "agent_score": 54.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -47,7 +47,7 @@
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "verified",
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -73,19 +73,19 @@
      "slug": "canada-health-infoway",
      "description": "Canada Health Infoway is an independent, federally funded not-for-profit organization that leads the adoption of digital health and pan-Canadian interoperability across Canada's province- and territory-fragmented healthcare system. Infoway stewards the pan-Canadian FHIR interoperability specifications - CA Core+ and the CA Baseline profiles developed with the Canadian Institute for Health Information (CIHI) - and operates the Canadian FHIR Registry, the Canadian URI Registry, and a national Terminology Gateway. Its developer-facing API surface, published through the Accelero developer portal, is a HAPI-FHIR R4 (4.0.1) Terminology Service exposing CodeSystem, ValueSet, and ConceptMap resources with $lookup, $expand, $translate, and $validate-code operations, alongside a companion RESTful Terminology API for browsing code systems, subsets, maps, and packages. Infoway is a standards steward and terminology infrastructure operator for the Canadian market rather than a commercial clinical-data platform; the terminology content APIs are gated behind free registration and a session/token login, while the FHIR CapabilityStatement is served anonymously.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png",
-     "score": 40.6,
+     "score": 40.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 55.0,
+      "contract_quality": 55.8,
       "governance": 20.8,
       "operational_transparency": 7.9,
       "developer_ergonomics": 40.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -129,8 +129,8 @@
       "developer_ergonomics": 47.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -185,8 +185,8 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -231,8 +231,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -276,8 +276,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -322,8 +322,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -367,8 +367,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -413,8 +413,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -468,8 +468,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",

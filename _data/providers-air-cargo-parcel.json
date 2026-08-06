@@ -27,8 +27,8 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -66,8 +66,8 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 53.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -116,8 +116,8 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -155,8 +155,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 32.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -194,8 +194,8 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -233,8 +233,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -283,8 +283,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -322,8 +322,8 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -346,62 +346,23 @@
      "rank": 8
     },
     {
-     "name": "UPS",
-     "slug": "ups",
-     "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company that specializes in package delivery and supply chain management services. UPS provides a comprehensive REST API platform with OAuth 2.0 authentication covering shipping, tracking, rating, address validation, pickup scheduling, paperless international documents, and time-in-transit estimation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png",
-     "score": 45.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 70.9,
-      "governance": 58.3,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "agent_score": 30.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Parcel Integrators",
-     "rank": 9
-    },
-    {
      "name": "Royal Mail",
      "slug": "royal-mail",
      "description": "Royal Mail provides a suite of REST APIs for businesses to integrate shipping, tracking, label generation, barcode allocation, and Click & Drop order management directly into their fulfilment systems. APIs cover domestic and international shipment creation, label printing, manifest submission, pre-allocated tracking numbers, offline barcode ranges, local collect options, and delivery office lookup.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/royal-mail/refs/heads/main/screenshots/royal-mail-2026-06-20T193236.png",
-     "score": 45.6,
+     "score": 47.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 50.0,
+      "contract_quality": 56.9,
       "governance": 58.3,
       "operational_transparency": 0.0,
       "developer_ergonomics": 43.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -421,6 +382,45 @@
       "dry_run_mode": false
      },
      "tier": "Postal Operators",
+     "rank": 9
+    },
+    {
+     "name": "UPS",
+     "slug": "ups",
+     "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company that specializes in package delivery and supply chain management services. UPS provides a comprehensive REST API platform with OAuth 2.0 authentication covering shipping, tracking, rating, address validation, pickup scheduling, paperless international documents, and time-in-transit estimation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png",
+     "score": 45.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 70.9,
+      "governance": 58.3,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "agent_score": 30.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Parcel Integrators",
      "rank": 10
     },
     {
@@ -439,8 +439,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -484,8 +484,8 @@
       "developer_ergonomics": 36.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -533,8 +533,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -572,8 +572,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -610,8 +610,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -648,8 +648,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 29.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -687,8 +687,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -736,8 +736,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -774,8 +774,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 22.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -813,8 +813,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 4.7,
      "agent_band": "human-only",
      "agent_dims": {
@@ -852,8 +852,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -890,8 +890,8 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -929,8 +929,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -977,8 +977,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1015,8 +1015,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1054,8 +1054,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

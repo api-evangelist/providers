@@ -8,8 +8,8 @@
    "label": "Developing",
    "range": "42 – 55.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 19,
-   "shown": 19,
+   "count": 20,
+   "shown": 20,
    "providers": [
     {
      "name": "Verisk",
@@ -27,8 +27,8 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -72,8 +72,8 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 41.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -110,8 +110,8 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -155,8 +155,8 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -200,8 +200,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -245,8 +245,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -290,8 +290,8 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -335,8 +335,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -380,8 +380,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -418,8 +418,8 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -456,8 +456,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -501,8 +501,8 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -510,7 +510,7 @@
       "score": 31.6,
       "matched_via": "tags"
      },
-     "agent_score": 57.7,
+     "agent_score": 61.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -521,7 +521,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -546,8 +546,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -591,8 +591,8 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -635,8 +635,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -680,8 +680,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -725,8 +725,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -770,8 +770,8 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -779,8 +779,8 @@
       "score": 60.8,
       "matched_via": "tags"
      },
-     "agent_score": 30.2,
-     "agent_band": "agent-aware",
+     "agent_score": 34.2,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -790,7 +790,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": false,
@@ -815,8 +815,8 @@
       "developer_ergonomics": 42.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -843,6 +843,51 @@
       "dry_run_mode": false
      },
      "rank": 19
+    },
+    {
+     "name": "Commonwealth Bank",
+     "slug": "commonwealth-bank",
+     "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
+     "score": 42.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 77.8,
+      "contract_quality": 12.2,
+      "governance": 20.8,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 56.0,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 67.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "rank": 20
     }
    ],
    "open": true
@@ -852,54 +897,9 @@
    "label": "Thin",
    "range": "28 – 41.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 21,
-   "shown": 21,
+   "count": 20,
+   "shown": 20,
    "providers": [
-    {
-     "name": "Commonwealth Bank",
-     "slug": "commonwealth-bank",
-     "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
-     "score": 41.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 8.1,
-      "governance": 20.8,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 56.0,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 67.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 34.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "rank": 20
-    },
     {
      "name": "Barclays",
      "slug": "barclays",
@@ -916,8 +916,8 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -961,8 +961,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -999,8 +999,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1044,8 +1044,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1082,8 +1082,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1091,8 +1091,8 @@
       "score": 39.2,
       "matched_via": "tags"
      },
-     "agent_score": 32.9,
-     "agent_band": "agent-aware",
+     "agent_score": 36.9,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -1102,7 +1102,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": true,
       "consent_identity": true,
@@ -1127,8 +1127,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1172,8 +1172,8 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1217,8 +1217,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1261,8 +1261,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1299,8 +1299,8 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1308,8 +1308,8 @@
       "score": 29.1,
       "matched_via": "tags"
      },
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
+     "agent_score": 37.8,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -1319,7 +1319,7 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
@@ -1344,8 +1344,8 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1389,8 +1389,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1426,8 +1426,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1464,8 +1464,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1509,8 +1509,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1554,8 +1554,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1599,8 +1599,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1644,8 +1644,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1689,8 +1689,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1734,8 +1734,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1790,8 +1790,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1834,8 +1834,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1879,8 +1879,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1924,8 +1924,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1969,8 +1969,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2007,8 +2007,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2052,8 +2052,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2090,8 +2090,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2135,8 +2135,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2180,8 +2180,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2218,8 +2218,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2263,8 +2263,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2307,8 +2307,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2352,8 +2352,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -2397,8 +2397,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2442,8 +2442,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2487,8 +2487,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2531,8 +2531,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2576,8 +2576,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2614,8 +2614,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2651,8 +2651,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2689,8 +2689,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2734,8 +2734,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2779,8 +2779,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2824,8 +2824,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2879,8 +2879,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2923,8 +2923,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2968,8 +2968,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3006,8 +3006,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3044,8 +3044,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3089,8 +3089,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3134,8 +3134,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3172,8 +3172,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3217,8 +3217,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3262,8 +3262,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3307,8 +3307,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3352,8 +3352,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3397,8 +3397,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3442,8 +3442,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3487,8 +3487,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3524,8 +3524,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3569,8 +3569,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3614,8 +3614,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3659,8 +3659,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3703,8 +3703,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3748,8 +3748,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3793,8 +3793,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3838,8 +3838,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3883,8 +3883,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3928,8 +3928,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3973,8 +3973,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4018,8 +4018,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4063,8 +4063,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4108,8 +4108,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4152,8 +4152,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4197,8 +4197,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4235,8 +4235,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4280,8 +4280,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4317,8 +4317,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4355,8 +4355,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4400,8 +4400,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4438,8 +4438,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4476,8 +4476,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4521,8 +4521,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4565,8 +4565,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4610,8 +4610,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4648,8 +4648,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4693,8 +4693,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4738,8 +4738,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4776,8 +4776,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4813,8 +4813,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4851,8 +4851,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4889,8 +4889,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4926,8 +4926,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4963,8 +4963,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5000,8 +5000,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5038,8 +5038,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5076,8 +5076,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5114,8 +5114,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5152,8 +5152,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5190,8 +5190,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5228,8 +5228,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5265,8 +5265,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5303,8 +5303,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5341,8 +5341,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

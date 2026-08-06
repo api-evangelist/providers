@@ -27,8 +27,8 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 33.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -66,8 +66,8 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -123,8 +123,8 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -173,8 +173,8 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -212,8 +212,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 31.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -251,9 +251,9 @@
       "developer_ergonomics": 64.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "agent_score": 57.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "agent_score": 61.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -264,7 +264,7 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -290,8 +290,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -329,8 +329,8 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -368,8 +368,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -417,8 +417,8 @@
       "developer_ergonomics": 51.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -456,8 +456,8 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 33.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -495,8 +495,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -533,8 +533,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 30.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -572,8 +572,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -609,8 +609,8 @@
    "label": "Emerging",
    "range": "13 – 27.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Uber Freight",
@@ -628,8 +628,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -667,8 +667,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -691,6 +691,44 @@
      "rank": 16
     },
     {
+     "name": "NMFTA",
+     "slug": "nmfta",
+     "description": "The National Motor Freight Traffic Association (NMFTA) is the nonprofit membership body that has set the standards for North American freight since 1956, and through its Digital Standards Development Council (DSDC) it publishes that industry agreement as open OpenAPI contracts. Two councils sit under the DSDC — the Digital LTL Council, founded November 2020, and the Digital FTL Council, which absorbed the Scheduling Standards Consortium — and between them they turn the paper artifacts of trucking into machine-readable APIs: the electronic bill of lading, the rate quote, the invoice and supporting documents, in-transit visibility, appointment scheduling, book and tender, and preliminary freight charges. For most of NMFTA's history its standards were classification and coding — the NMFC freight classification, ClassIT+, SCAC carrier codes, SPLC location codes — and the DSDC is the same institution doing the same job for the API layer. It is one of the clearest examples of an old, mandate-free trade association choosing specifications-as-code over another PDF behind a membership wall, and the gap between what its website advertises as released and what its public repositories actually contain is the most interesting thing about it.",
+     "score": 21.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 49.6,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "agent_score": 21.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Industry Bodies & Standards",
+     "rank": 17
+    },
+    {
      "name": "Verizon Connect",
      "slug": "verizon-connect",
      "description": "Verizon Connect is the fleet management, telematics, and GPS vehicle tracking business of Verizon (it grew out of Verizon's acquisitions of Fleetmatics and Telogis). Its Reveal platform exposes a documented suite of REST APIs and webhooks - the Reveal Integration Services / Fleetmatics Integration Manager (FIM) APIs - covering vehicles, drivers, GPS positions and history, trips (segments), driver status and safety, hours-of-service logbooks, geofences (places), groups, work orders, non-powered asset tracking, fleet inspections, and dash-cam video events. The API is not openly self-service - access is gated to Reveal customers and their approved integration partners, who request Integration Manager and Reveal REST credentials through the Reveal marketplace before they can call the documented endpoints.",
@@ -705,8 +743,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 3.2,
      "agent_band": "human-only",
      "agent_dims": {
@@ -726,7 +764,7 @@
       "dry_run_mode": false
      },
      "tier": "Telematics & Fleet",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Platform Science",
@@ -743,46 +781,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "Telematics & Fleet",
-     "rank": 18
-    },
-    {
-     "name": "Omnitracs",
-     "slug": "omnitracs",
-     "description": "Omnitracs is a commercial fleet management, telematics, and transportation-management provider, now part of Solera Inc. (acquired 2021, operating under Solera Fleet Solutions). Its Omnitracs One platform and the Omnitracs Roadnet routing platform serve roughly 15,000 fleet customers with ELD / Hours-of-Service compliance, telematics and GPS positioning, driver workflow and messaging, routing and dispatch, and video safety. Omnitracs exposes real integration APIs and web services (Roadnet Web Services, the Services Portal Entity Management web services, and the SOAP/XML Event Subscription Service that streams positions, messages, HOS, and critical events), but access is partner- and customer-account gated - there is no open, self-service public developer portal. API credentials (a username/password with API access) and the integration developer wiki are provisioned to contracted customers and integration partners. Endpoints documented here for gated surfaces are honestly modeled from public integration notes, not from an open reference.",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 31.6
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -803,6 +803,44 @@
      },
      "tier": "Telematics & Fleet",
      "rank": 19
+    },
+    {
+     "name": "Omnitracs",
+     "slug": "omnitracs",
+     "description": "Omnitracs is a commercial fleet management, telematics, and transportation-management provider, now part of Solera Inc. (acquired 2021, operating under Solera Fleet Solutions). Its Omnitracs One platform and the Omnitracs Roadnet routing platform serve roughly 15,000 fleet customers with ELD / Hours-of-Service compliance, telematics and GPS positioning, driver workflow and messaging, routing and dispatch, and video safety. Omnitracs exposes real integration APIs and web services (Roadnet Web Services, the Services Portal Entity Management web services, and the SOAP/XML Event Subscription Service that streams positions, messages, HOS, and critical events), but access is partner- and customer-account gated - there is no open, self-service public developer portal. API credentials (a username/password with API access) and the integration developer wiki are provisioned to contracted customers and integration partners. Endpoints documented here for gated surfaces are honestly modeled from public integration notes, not from an open reference.",
+     "score": 14.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 31.6
+     },
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "Telematics & Fleet",
+     "rank": 20
     }
    ]
   },
@@ -830,8 +868,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -851,7 +889,7 @@
       "dry_run_mode": false
      },
      "tier": "Road Carriers & 3PLs",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Transfix",
@@ -869,8 +907,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -890,23 +928,6 @@
       "dry_run_mode": false
      },
      "tier": "Digital Freight Marketplaces",
-     "rank": 21
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "NMFTA",
-     "slug": "nmfta",
-     "description": "The National Motor Freight Traffic Association (NMFTA) is the nonprofit membership body that has set the standards for North American freight since 1956, and through its Digital Standards Development Council (DSDC) it publishes that industry agreement as open OpenAPI contracts. Two councils sit under the DSDC — the Digital LTL Council, founded November 2020, and the Digital FTL Council, which absorbed the Scheduling Standards Consortium — and between them they turn the paper artifacts of trucking into machine-readable APIs: the electronic bill of lading, the rate quote, the invoice and supporting documents, in-transit visibility, appointment scheduling, book and tender, and preliminary freight charges. For most of NMFTA's history its standards were classification and coding — the NMFC freight classification, ClassIT+, SCAC carrier codes, SPLC location codes — and the DSDC is the same institution doing the same job for the API layer. It is one of the clearest examples of an old, mandate-free trade association choosing specifications-as-code over another PDF behind a membership wall, and the gap between what its website advertises as released and what its public repositories actually contain is the most interesting thing about it.",
-     "tier": "Industry Bodies & Standards",
      "rank": 22
     }
    ]

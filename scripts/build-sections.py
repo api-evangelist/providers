@@ -2079,6 +2079,45 @@ def main():
     management_counts = {}
     build_roster_sections(MANAGEMENT_SECTIONS, MANAGEMENT_TIER_LABELS, management_counts)
 
+    # --- Documentation (single GLOBAL cohort, the second AREA cut) --------
+    # The second section anchored to an API Evangelist AREA rather than an
+    # industry or a country: documentation.apievangelist.com, read as a market.
+    #
+    # COHORT IS HAND-NAMED, same as management. The tag roll-up reports 87
+    # providers for this area, which is a looser and different set than the
+    # market. The 29 in all/0-working/documentation-roster.json are named by
+    # hand from the 41 curated slugs on the area subsite, and the boundary is
+    # stated as editorial in the report.
+    #
+    # Three tiers, and they are commercial rather than editorial — what a
+    # buyer actually procures: a hosted platform you buy, a reference renderer
+    # you embed, or a static site generator you build with. The ladder runs
+    # monotonically down both the composite and agent-readiness axes.
+    #
+    # Four adjacent markets are deliberately OUT, each covered in its own
+    # area: SDK-generation platforms that also ship docs sites (Fern,
+    # Speakeasy, Stainless, Sideko, APIMatic, liblab, Konfig) belong to the
+    # SDK area; API clients that render documentation (Postman, Apidog,
+    # Insomnia, Bruno, Hoppscotch) sell a client, on the same reasoning that
+    # kept Postman out of the management cohort; linting and governance
+    # (Spectral, vacuum, Optic, TypeSpec) belong to design and governance; and
+    # internal developer portals (Backstage, Cortex, Port) catalog services
+    # rather than document APIs. Duplicate company repos are resolved to the
+    # richer survivor (readmeio -> readme) so this counts companies.
+    DOCUMENTATION_TIER_LABELS = {
+        "platform": "Hosted Documentation Platforms",
+        "renderer": "API Reference Renderers",
+        "ssg":      "Docs-as-Code Static Site Generators",
+    }
+    DOCUMENTATION_SECTIONS = [
+        ("documentation", "documentation-roster.json", "API Documentation",
+         "The API documentation market ranked by Kin Score — the 15 hosted platforms you buy (SwaggerHub, ReadMe, Mintlify, Document360, Theneo, Bump.sh, Archbee, Redocly, GitBook, Stoplight, Doctave, DeveloperHub, ApiNotes, Apiary, zeroheight), the 8 reference renderers you embed (Scalar, Stoplight Elements, Zudoku, RapiDoc, ReDoc, Slate, Swagger UI, DapperDox), and the 6 docs-as-code static site generators you build with (Fumadocs, Nextra, VitePress, Docusaurus, MkDocs, Docsify). Documentation is a fuzzy category, so this cohort is named by hand rather than matched — SDK generators, API clients, linting and governance tooling, and internal developer portals are real adjacent markets and are covered in their own areas.",
+         {"slug": "state-of-documentation-apis", "title": "The State of API Documentation",
+          "blurb": "29 API documentation vendors and projects scored — the market whose entire job is making APIs legible, measured on whether its own products are. Developer ergonomics is the cohort's weakest facet at 25.6, in the market that sells developer experience. Four vendors sell MCP servers and AI search to their customers; none of the 29 runs one. One provider in 29 clears the Exemplar line, by three tenths of a point.", "price": "500"}),
+    ]
+    documentation_counts = {}
+    build_roster_sections(DOCUMENTATION_SECTIONS, DOCUMENTATION_TIER_LABELS, documentation_counts)
+
     # --- Logistics & Supply Chain (four cohorts, split by MODE) -----------
     # The first sector in the series NOT split by country. A container, a
     # parcel and an air waybill cross borders by definition, so an HQ model

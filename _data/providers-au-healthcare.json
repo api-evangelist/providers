@@ -27,8 +27,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -73,8 +73,8 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -130,8 +130,8 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -139,7 +139,7 @@
       "score": 58.8,
       "matched_via": "tags"
      },
-     "agent_score": 39.4,
+     "agent_score": 43.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -150,7 +150,7 @@
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -176,8 +176,8 @@
       "developer_ergonomics": 62.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -185,7 +185,7 @@
       "score": 38.8,
       "matched_via": "tags"
      },
-     "agent_score": 43.0,
+     "agent_score": 47.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -196,7 +196,7 @@
       "error_semantics": "documented",
       "openapi_examples": "partial",
       "rate_limit_signal": false,
-      "event_surface_described": "derived",
+      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
@@ -233,8 +233,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -264,159 +264,22 @@
      "rank": 5
     },
     {
-     "name": "Australian Digital Health Agency",
-     "slug": "australian-digital-health-agency",
-     "description": "The Australian Digital Health Agency (ADHA) is the Australian Government statutory agency responsible for national digital health infrastructure and standards. It operates and stewards My Health Record (the national shared health record), the Healthcare Identifiers (HI) Service, the National Authentication Service for Health (NASH) PKI, electronic prescribing, and the National Clinical Terminology Service (NCTS). ADHA publishes machine-readable APIs for connecting conformant clinical software to these national systems, centred on HL7 FHIR (R4) alongside legacy HL7 CDA document exchange. Its developer surface spans the My Health Record FHIR Gateway (B2B and Mobile), the NCTS FHIR terminology server and Atom syndication feed (SNOMED CT-AU, AMT, LOINC), and conformance profiles for electronic prescribing. Home market is Australia. Authentication to the national record systems uses NASH SHA-2 PKI certificates (mutual TLS), while the NCTS terminology server uses SMART-on-FHIR OAuth2. Production onboarding is gated behind registration, conformance testing, and PKI issuance; ADHA aligns to the AU Base / AU Core FHIR implementation guides stewarded through HL7 Australia and the Sparked national FHIR accelerator.",
-     "score": 36.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 40.0,
-      "governance": 12.5,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 60.3,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 60.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 40.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "National Health System",
-     "rank": 6
-    },
-    {
-     "name": "Cliniko",
-     "slug": "cliniko",
-     "description": "Cliniko is practice management software for allied health practices and clinics - physiotherapy, osteopathy, chiropractic, podiatry, psychology, massage, and similar - covering patient records, appointment scheduling and online bookings, practitioners and businesses (locations), treatment notes, invoicing, and payments. Cliniko exposes a well-documented public REST API over HTTPS. The API is region-sharded - the base host is derived from the shard suffix on your API key (for example `https://api.au1.cliniko.com/v1/`) - and is authenticated with an API key passed as the username in HTTP Basic authentication. Every request must also send a `User-Agent` header containing an app/vendor name and a valid contact email, or requests may be blocked.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/screenshots/cliniko-2026-07-25T205628.png",
-     "score": 36.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 63.6,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 15.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "EHR / EMR Systems",
-     "rank": 7
-    },
-    {
-     "name": "Healthdirect Australia",
-     "slug": "healthdirect",
-     "description": "Healthdirect Australia is a national, government-owned, not-for-profit organisation that operates core Australian digital-health infrastructure and consumer health services on behalf of the Commonwealth, states, and territories. It runs the free healthdirect symptom checker and health advice service and, most relevant to developers, delivers the National Health Services Directory (NHSD) — the authoritative national directory of health services and practitioners, covering more than 400,000 service and practitioner records. Healthdirect exposes the NHSD to government, commercial, and clinical software developers through standards-based HL7 FHIR APIs (aligned to the HL7 AU Provider Directory / AU-PD implementation guide, using SNOMED CT-AU terminology and G-NAF geocoded addresses), a FHIR bulk data export, a FHIR ingestion/data-acquisition hub for contributing sources, an embeddable NHSD search widget, and a Provider Appointments API that surfaces real-time appointment availability from certified booking platforms. Integration is gated behind a formal onboarding and test-environment registration process, and APIs are secured with OAuth 2.0 client-credentials plus an API key. Home market is Australia.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/screenshots/healthdirect-2026-07-25T220837.png",
-     "score": 35.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 0.0,
-      "governance": 12.5,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 66.8,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": "derived",
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false
-     },
-     "tier": "National Health System",
-     "rank": 8
-    },
-    {
      "name": "MedAdvisor",
      "slug": "medadvisor",
      "description": "MedAdvisor (MedAdvisor Solutions) is an Australian-founded, ASX-listed medication management and patient engagement technology company whose pharmacy workflow software runs in more than 95% of Australian community pharmacies and reaches over 4 million patients. Its clinician-facing platform - the web-based \"MedAdvisor for Pharmacy\" that replaced the long-running PlusOne desktop software - handles dispense workflow, medication adherence, appointment and service booking (vaccinations, health checks, scope-of-practice services), e-script (eScript) token handling, refill ordering, and omnichannel patient communication, alongside a consumer medication app. On the developer side MedAdvisor exposes a real, Swagger-documented HTTP REST surface, the Pharmacy Unified API, at pharmacy-unified.api.medadvisor.com.au, including a \"3rd-Party Integration\" family (partner login, pharmacy lookup, eScript status, and order notification into the pharmacy PlusOne inbox) for third-party widgets and eCommerce integrations. Authentication is a JWT bearer token obtained via a clientId/clientSecret plus Base64-encoded pharmacy credentials exchange; the surface is HL7/HTTP REST rather than HL7 FHIR - no public FHIR CapabilityStatement or SMART-on-FHIR configuration is served. Home market is Australia, positioned as the dominant community-pharmacy engagement layer sitting between dispense systems, pharmaceutical programs, and patients.",
-     "score": 34.7,
+     "score": 37.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 32.3,
+      "contract_quality": 46.5,
       "governance": 20.8,
       "operational_transparency": 0.0,
       "developer_ergonomics": 34.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -443,6 +306,143 @@
       "dry_run_mode": false
      },
      "tier": "Pharmacy & e-Prescribing",
+     "rank": 6
+    },
+    {
+     "name": "Australian Digital Health Agency",
+     "slug": "australian-digital-health-agency",
+     "description": "The Australian Digital Health Agency (ADHA) is the Australian Government statutory agency responsible for national digital health infrastructure and standards. It operates and stewards My Health Record (the national shared health record), the Healthcare Identifiers (HI) Service, the National Authentication Service for Health (NASH) PKI, electronic prescribing, and the National Clinical Terminology Service (NCTS). ADHA publishes machine-readable APIs for connecting conformant clinical software to these national systems, centred on HL7 FHIR (R4) alongside legacy HL7 CDA document exchange. Its developer surface spans the My Health Record FHIR Gateway (B2B and Mobile), the NCTS FHIR terminology server and Atom syndication feed (SNOMED CT-AU, AMT, LOINC), and conformance profiles for electronic prescribing. Home market is Australia. Authentication to the national record systems uses NASH SHA-2 PKI certificates (mutual TLS), while the NCTS terminology server uses SMART-on-FHIR OAuth2. Production onboarding is gated behind registration, conformance testing, and PKI issuance; ADHA aligns to the AU Base / AU Core FHIR implementation guides stewarded through HL7 Australia and the Sparked national FHIR accelerator.",
+     "score": 36.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 40.0,
+      "governance": 12.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 60.3,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 60.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 40.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "National Health System",
+     "rank": 7
+    },
+    {
+     "name": "Cliniko",
+     "slug": "cliniko",
+     "description": "Cliniko is practice management software for allied health practices and clinics - physiotherapy, osteopathy, chiropractic, podiatry, psychology, massage, and similar - covering patient records, appointment scheduling and online bookings, practitioners and businesses (locations), treatment notes, invoicing, and payments. Cliniko exposes a well-documented public REST API over HTTPS. The API is region-sharded - the base host is derived from the shard suffix on your API key (for example `https://api.au1.cliniko.com/v1/`) - and is authenticated with an API key passed as the username in HTTP Basic authentication. Every request must also send a `User-Agent` header containing an app/vendor name and a valid contact email, or requests may be blocked.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/screenshots/cliniko-2026-07-25T205628.png",
+     "score": 36.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 63.6,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 15.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "EHR / EMR Systems",
+     "rank": 8
+    },
+    {
+     "name": "Healthdirect Australia",
+     "slug": "healthdirect",
+     "description": "Healthdirect Australia is a national, government-owned, not-for-profit organisation that operates core Australian digital-health infrastructure and consumer health services on behalf of the Commonwealth, states, and territories. It runs the free healthdirect symptom checker and health advice service and, most relevant to developers, delivers the National Health Services Directory (NHSD) — the authoritative national directory of health services and practitioners, covering more than 400,000 service and practitioner records. Healthdirect exposes the NHSD to government, commercial, and clinical software developers through standards-based HL7 FHIR APIs (aligned to the HL7 AU Provider Directory / AU-PD implementation guide, using SNOMED CT-AU terminology and G-NAF geocoded addresses), a FHIR bulk data export, a FHIR ingestion/data-acquisition hub for contributing sources, an embeddable NHSD search widget, and a Provider Appointments API that surfaces real-time appointment availability from certified booking platforms. Integration is gated behind a formal onboarding and test-environment registration process, and APIs are secured with OAuth 2.0 client-credentials plus an API key. Home market is Australia.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/screenshots/healthdirect-2026-07-25T220837.png",
+     "score": 35.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 0.0,
+      "governance": 12.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 66.8,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": "derived",
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false
+     },
+     "tier": "National Health System",
      "rank": 9
     }
    ]
@@ -470,8 +470,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -516,8 +516,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -572,8 +572,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-08-04",
-     "schema_version": 0.9,
+     "scored_at": "2026-08-05",
+     "schema_version": "0.9.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
