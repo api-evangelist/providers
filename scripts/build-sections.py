@@ -2194,6 +2194,47 @@ def main():
     api_clients_counts = {}
     build_roster_sections(API_CLIENTS_SECTIONS, API_CLIENTS_TIER_LABELS, api_clients_counts)
 
+    # --- Authentication (single GLOBAL cohort, the fifth AREA cut) --------
+    # authentication.apievangelist.com read as a market, and the STRONGEST
+    # area cohort measured: composite 50.4, agent readiness 36.3, seven
+    # Exemplars, and spec presence at 97.5% — this market publishes contracts
+    # because its product IS an API.
+    #
+    # COHORT IS HAND-NAMED and nearly DOUBLE the curated index of 21, because
+    # the developer-first CIAM wave (Clerk, Stytch, Kinde, PropelAuth,
+    # Descope, Frontegg, Corbado, Hanko) and the fine-grained authorization
+    # wave (Cerbos, OpenFGA, AuthZed, Oso, Permit.io, Aserto) are both largely
+    # missing from it.
+    #
+    # INDUSTRY/AREA OVERLAP IS DELIBERATE. All 20 curated members also sit in
+    # the published 2,031-provider cybersecurity INDUSTRY cohort, exactly as 29
+    # of the 35 API-management providers sit in developer-tools. An industry
+    # says who a company sells to; an area says what the API does. The
+    # one-provider-one-cohort rule applies WITHIN a lens, not across lenses.
+    #
+    # Secrets management (HashiCorp Vault and the KMS layer) is OUT — it
+    # belongs to the encryption area. LoginRadius and MojoAuth are excluded as
+    # THIN PROFILES: their 7.8 and 6.2 composites sit on 35- and 54-character
+    # descriptions and are an API Evangelist harvesting gap, not a market
+    # signal. Curity, Passage, Authgear, miniOrange, Duende and WSO2 Identity
+    # Server are absent from the catalog entirely — a real coverage gap.
+    # Roster: all/0-working/authentication-roster.json.
+    AUTHENTICATION_TIER_LABELS = {
+        "enterprise": "Enterprise IAM & Workforce Identity",
+        "cloud":      "Cloud Platform Identity",
+        "ciam":       "Developer-First CIAM",
+        "opensource": "Open Source Identity Servers",
+        "authz":      "Authorization & Policy Engines",
+    }
+    AUTHENTICATION_SECTIONS = [
+        ("authentication", "authentication-roster.json", "Authentication & Identity",
+         "The API authentication and identity market ranked by Kin Score — the enterprise IAM and workforce identity platforms (Okta, Ping Identity, ForgeRock, SailPoint, CyberArk, OneLogin, Duo Security, JumpCloud), the cloud platform identity services (Amazon Cognito, Microsoft Entra ID), the developer-first CIAM providers (Auth0, WorkOS, Stytch, Kinde, PropelAuth, Clerk, Descope, Frontegg, FusionAuth, Beyond Identity, Transmit Security, Corbado, Hanko, Magic, Nevis), the open source identity servers (Keycloak, Ory, Zitadel, Authentik, Authelia, Casdoor, SuperTokens, Logto, Gluu) and the authorization and policy engines (Cerbos, OpenFGA, AuthZed, Oso, Permit.io, Aserto). The strongest-publishing area in the catalog — 97.5% ship a machine-readable contract — and the one where the single scarcest artifact is the one the market sells.",
+         {"slug": "state-of-authentication-apis", "title": "The State of API Authentication",
+          "blurb": "40 authentication, identity and authorization providers scored — the strongest-publishing market in this series. Composite 50.4 against a catalog average of 22.8, seven Exemplars, and 97.5% ship a machine-readable contract. Six run a public MCP server, the most of any area measured. And then the sharpest finding in the series: delegated identity and consent signal appears once in forty, in the market whose entire product is letting one party act on another\u2019s behalf.", "price": "500"}),
+    ]
+    authentication_counts = {}
+    build_roster_sections(AUTHENTICATION_SECTIONS, AUTHENTICATION_TIER_LABELS, authentication_counts)
+
     # --- Logistics & Supply Chain (four cohorts, split by MODE) -----------
     # The first sector in the series NOT split by country. A container, a
     # parcel and an air waybill cross borders by definition, so an HQ model
