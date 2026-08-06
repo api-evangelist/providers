@@ -1,6 +1,6 @@
 {
- "total": 867,
- "shown": 867,
+ "total": 868,
+ "shown": 868,
  "limit": 1000,
  "bands": [
   {
@@ -33620,8 +33620,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 12,
-   "shown": 12,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "AccessHope",
@@ -33669,34 +33669,40 @@
      "rank": 862
     },
     {
+     "name": "PlanSource",
+     "slug": "plansource",
+     "description": "PlanSource is a benefits administration and employee-benefits engagement platform used by employers, brokers, carriers and HR/payroll partners to run enrollment, eligibility, billing and benefits communication. Its public developer surface is the PlanSource Benefits Administration API (Admin API v2), a RESTful HTTPS API of 80 operations across 62 paths covering employee (subscriber) demographics, dependents, beneficiaries, coverages and stacked coverage lines, payroll deductions with lookup codes and pre-tax/post-tax/employer/imputed amounts, Evidence of Insurability decisions and form completions, ACA offer and enrollee reporting data, administrator accounts, and organization portal page content. It is designed to replace fixed-schedule EDI files with near real-time sync between an HCM/payroll system of record and PlanSource. Authentication is OAuth 2.0 client credentials (scope admin_api_v2) or a legacy AuthenticationString + Signature header pair, with OpenID Connect and SAML 2.0 available for end-user single sign-on. The API is documented on a ReadMe developer portal that publishes llms.txt, an agent-skills manifest and an OAuth-gated MCP server, and PlanSource maintains a SafeBase trust center listing SOC 2 Type 2, ISO/IEC 27001:2022, HIPAA, CCPA and 23 NYCRR 500.",
+     "rank": 863
+    },
+    {
      "name": "Topia",
      "slug": "topia",
      "description": "Topia is a global mobility platform for distributed workforces, used by HR, Finance and Legal teams at mid-market and enterprise companies to manage international assignments, relocations, business travel, remote work and cross-border compliance across 190+ countries in a single system. Founded in 2010 and headquartered in the United States, with additional offices in the United Kingdom, Ireland and Estonia, Topia spans global talent mobility, a tax and compliance engine, cost estimation and tracking, global workforce planning, cost and immigration risk management, and business travel. In April 2026 Topia launched Horizon, an agentic AI workspace for mobility teams that the company describes as built natively into MCP (Model Context Protocol) environments. Topia integrates with HRIS, payroll, travel and expense systems including Workday (a Workday Approved Integration), SAP, ADP, Oracle, Ceridian, SAP Concur and BCD Travel. Topia publishes an llms.txt at its marketing host, but no public developer portal, API reference or machine-readable specification; the support center sits behind a customer login.",
-     "rank": 863
+     "rank": 864
     },
     {
      "name": "TransparentBusiness",
      "slug": "transparentbusiness",
      "description": "TransparentBusiness is a New York based SaaS company, founded in 2012 by Alex Konanykhin and Silvina Moschini, that sells a cloud platform for managing and monitoring remote workforces: a desktop timer, screenshot-based activity verification, timesheets, task assignment, and real-time project cost and progress reporting for distributed teams and contractors. The company also operates the SheWorks! and Yandiki talent marketplaces and the CloudWorking Academy training platform, and was later renamed Unicoin, Inc. The product is delivered as a hosted web application plus downloadable desktop timer clients; the company publishes no public developer program, API reference, SDK, or machine-readable specification.",
-     "rank": 864
+     "rank": 865
     },
     {
      "name": "Vida Health",
      "slug": "vida-health",
      "description": "Vida Health is a San Francisco-based virtual care company founded in 2014 that combines an AI-powered mobile app with a national network of licensed clinicians, coaches and therapists to prevent, manage and reverse chronic cardiometabolic and behavioral health conditions including obesity, diabetes, hypertension, depression and anxiety. Vida sells a turnkey enterprise programme to employers and health plans, layering GLP-1 prescribing and clinical oversight on top of behavioral coaching, and its platform ingests real-time readings from more than 100 connected devices and consumer health apps to feed outcome reporting back to its enterprise buyers. Vida publishes no public developer portal or API documentation: the API host api.vida.com is live but returns 401 on every path, and data/EHR integration for health plans and employers is arranged through enterprise sales rather than self-service onboarding.",
-     "rank": 865
+     "rank": 866
     },
     {
      "name": "Wagestream",
      "slug": "wagestream",
      "description": "Wagestream — trading as Stream since its 2025 rebrand — is a UK-founded, B Corp certified workplace financial wellbeing platform that gives hourly and salaried employees earned wage access (flexible pay), shift and pay tracking, workplace savings, budgeting tools, salary-deducted workplace loans, benefits and state-benefit claim support, financial coaching and discounts, delivered as a mobile app funded by the employer rather than the worker. Employers connect their HR, workforce management and payroll systems to Stream through the Wagestream Integrations API — a small, batch-oriented REST push API over employees, shifts (time and attendance), absences, off-cycle payments and Stream-generated enrolment banking records — or via SFTP file feeds and browser upload into the employer administration portal. The API is API-key authenticated, asynchronous (every write returns a transaction id polled through a matching GET), and idempotent through an optional per-request nonce.",
-     "rank": 866
+     "rank": 867
     },
     {
      "name": "Wonolo",
      "slug": "wonolo",
      "description": "Wonolo is an on-demand staffing marketplace, founded in 2013 and headquartered in San Francisco, that connects businesses needing flexible frontline labor with a pool of vetted independent workers (\"Wonoloers\") for warehousing, manufacturing, food production, retail, hospitality and general labor jobs. Businesses post job requests and are matched to available workers in real time without resumes or interviews, for one-off, ongoing and temp-to-hire needs. Wonolo operates a REST integration API (V2) on api.wonolo.com that lets customers create and manage job requests, jobs, workers and users programmatically and receive webhook callbacks, so scheduling, timekeeping, HR and CRM systems can be wired directly into the staffing platform.",
-     "rank": 867
+     "rank": 868
     }
    ]
   }

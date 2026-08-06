@@ -1,6 +1,6 @@
 {
- "total": 958,
- "shown": 958,
+ "total": 959,
+ "shown": 959,
  "limit": 1000,
  "bands": [
   {
@@ -35948,8 +35948,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 25,
-   "shown": 25,
+   "count": 26,
+   "shown": 26,
    "providers": [
     {
      "name": "3D Glass Solutions",
@@ -36006,106 +36006,112 @@
      "rank": 942
     },
     {
+     "name": "Arzeda",
+     "slug": "arzeda",
+     "description": "Arzeda Corp is a Seattle, Washington protein design company — \"The Protein Design Company\" — founded in 2008 by David Baker (2024 Nobel Prize in Chemistry), Alexandre Zanghellini and colleagues out of the University of Washington Institute for Protein Design. Its Intelligent Protein Design Technology combines physics-based computational protein design, generative AI and an agentic design-build-test-learn loop over fifteen years of proprietary in-house experimental data to create designer enzymes and proteins that do not exist in nature, then scale them to commercial production. Commercial programs span food and beverage (ViaLeaf Reb M / ProSweet Reb M stevia sweeteners with MANE), home and personal care enzymes (Unilever), advanced materials (W. L. Gore & Associates) and pharmaceutical biologics (Takeda), alongside DARPA and NSF funded work on AI-driven protein design and cell-free biomanufacturing. Arzeda co-founded the OpenFold consortium for open-source protein structure prediction. It sells designed molecules and joint development programs, not software, and publishes no public developer program, API or machine-readable interface.",
+     "rank": 943
+    },
+    {
      "name": "Foundry Group",
      "slug": "foundry-group",
      "description": "Foundry Group is a Boulder, Colorado venture capital firm founded in 2007 by Brad Feld, Seth Levine, Ryan McIntyre, and Jason Mendelson. The firm invests in early-stage technology startups across the United States, organizing its work around long-lived, horizontal investment themes (such as \"glue\", \"protocol\", \"distribution\", and \"human computer interaction\") rather than narrow verticals, with a particular affinity for hardware, robotics, consumer internet, developer tools, and B2B SaaS. Foundry pioneered a \"network-driven\" model that operates both as a direct investor in startups and as a limited partner in a curated network of more than 40 partner venture funds. The firm manages more than $3.0B for its limited partners, has made 320+ investments and 70+ exits, and is known for radical transparency through the books, blogs, and podcasts of its partners. Notable investments include Fitbit, Zynga, SendGrid, MakerBot, Gnip, Mapbox, SeatGeek, and WHOOP. In 2022 the partners announced Foundry would not raise another fund, continuing to steward its existing funds and portfolio through their life.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/foundry-group/refs/heads/main/screenshots/foundry-group-2026-07-25T215039.png",
-     "rank": 943
+     "rank": 944
     },
     {
      "name": "High Tech",
      "slug": "high-tech",
      "description": "High Tech indexes the APIs, data services, and reference artifacts that power the electronics, semiconductor, hardware, and IoT industries. The landscape covers electronic component data and distribution (Octopart / Nexar, Digi-Key, Mouser, Arrow Electronics, Avnet, Newark / element14), ECAD and PCB design data (SnapEDA, Ultra Librarian, Altium 365 via Nexar Design), hardware lifecycle and IoT device management (AWS IoT, Azure IoT Hub, Particle, Golioth), bill-of-materials and component-search workflows used across hardware product engineering, and the authoritative manufacturer data that anchors a component record (manufacturer part number, manufacturer, datasheet, lifecycle status, RoHS / REACH compliance, real-time inventory and pricing across distributors). This index captures the canonical providers, the shape of a component record as JSON Schema, a JSON-LD context aligning with schema.org Product / Offer / Organization, and the domain vocabulary used across the high-tech component supply chain.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/high-tech/refs/heads/main/screenshots/high-tech-2026-06-20T182732.png",
-     "rank": 944
+     "rank": 945
     },
     {
      "name": "Matrix Partners",
      "slug": "matrix-partners",
      "description": "Matrix Partners (now branded simply \"Matrix\") is an early-stage venture capital firm founded in 1977 by Paul Ferri, investing from idea through Series A. Headquartered in San Francisco at 535 Mission Street with a long-standing East Coast office in Cambridge, Massachusetts, the firm is run by former founders and company builders who describe themselves as \"contrarians who invest with conviction,\" backing founders with deep technical expertise and a specific vision of the future. Matrix is a generalist early-stage investor across AI / frontier tech, B2B and enterprise software, fintech, consumer, healthtech, infrastructure, and semiconductors, typically writing seed and Series A checks and leading rounds. Over nearly five decades the firm has backed foundational technology and consumer companies including Apple, HubSpot, Zendesk, Canva, Afterpay, Oculus, Fivetran, Flock Safety, Quora, Postmates, GOAT, and Suno, with a track record spanning semiconductors and networking through today's AI-native startups.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/matrix-partners/refs/heads/main/screenshots/matrix-partners-2026-07-25T230418.png",
-     "rank": 945
+     "rank": 946
     },
     {
      "name": "Mayfield Fund",
      "slug": "mayfield",
      "description": "Mayfield Fund is an early-stage venture capital firm founded in 1969 and headquartered on Sand Hill Road in Menlo Park, California, with a presence in Mumbai, India. One of the oldest continuously active Silicon Valley firms, Mayfield describes itself as \"people first, from inception\" and reports that roughly 70% of its investments begin at company inception, positioning it as the first institutional investor for early-stage founders. The firm invests primarily at the Seed, Series A, and Series B stages across artificial intelligence, enterprise software, cloud and cybersecurity infrastructure, semiconductors, consumer and social commerce, and human and planetary health. Mayfield reports approximately $3B in assets under management (and states it has committed $3B to AI investments), has backed more than 550 companies over its history, and counts 120+ IPOs and 225+ M&A exits including Genentech, Lyft, HashiCorp, Poshmark, Marketo, Couchbase, SolarCity, Intuitive Surgical, and Compaq. In 2023 the firm raised $955M across two new funds dedicated to early-stage investing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mayfield/refs/heads/main/screenshots/mayfield-2026-07-25T230455.png",
-     "rank": 946
+     "rank": 947
     },
     {
      "name": "Modal",
      "slug": "modal-com",
      "description": "Modal is a serverless cloud platform for AI and data workloads. Modal lets developers write ordinary Python and run it on remote GPUs and CPUs with sub-second cold starts, instant autoscaling, and declarative container images. The platform's primitives — Functions, Sandboxes, Volumes, Images, Secrets, Dicts, Queues, Schedules, and Web Endpoints — cover inference, fine-tuning, multi-node training, batch processing, agent code execution, and HTTP/web APIs. Modal sells per-second metered compute across the full NVIDIA GPU lineup (T4 → B200) under Starter, Team, and Enterprise plans. Modal Labs raised a $355M Series C in 2026 and is used in production by Decagon, Runway, Physical Intelligence, Suno, Chai Discovery, Lovable, Quora, Reducto, and many others.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/screenshots/modal-com-2026-06-20T185747.png",
-     "rank": 947
+     "rank": 948
     },
     {
      "name": "Parasail",
      "slug": "parasail-ai",
      "description": "Parasail is an AI Supercloud — a pay-per-token GPU inference platform aimed at AI startups and developers. Parasail orchestrates rented GPU capacity across 40+ data centers in 15+ countries to serve open-weight LLMs, vision/multimodal models, embedding models, and TTS/STT models on a serverless, dedicated, or batch basis. The platform exposes OpenAI-compatible /v1 endpoints for chat completions, completions, embeddings, batch, and models, plus a control-plane /api/v1 for managing dedicated GPU deployments of any Hugging Face or custom model. Parasail serves 500B+ tokens per day and is positioned as up to 30x cheaper than legacy cloud providers, with no quotas, no rate-limit penalties, and no long-term contracts. Co-founded by Mike Henry (ex-Mythic) and Tim Harris (ex-Swift Navigation); raised a $32M Series A in April 2026 (Touring Capital and Kindred Ventures) bringing total funding to $42M.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/screenshots/parasail-ai-2026-06-20T191400.png",
-     "rank": 948
+     "rank": 949
     },
     {
      "name": "Playground Global",
      "slug": "playground-global",
      "description": "Playground Global is an early-stage deep tech venture capital firm founded in 2015 by Andy Rubin, Bruce Leak, Matt Hershenson, and Peter Barrett, and headquartered at 380 Portage Ave, Palo Alto, California. The firm invests \"somewhere between improbable and impossible,\" backing technical founders who take large technology risks and build companies from first principles. Playground concentrates on four pillars: next-gen compute (quantum computing, novel AI chip architectures, advanced interconnects, and semiconductors), automation (robotics, supply-chain and industrial automation with tangible ROI), energy transition and decarbonization, and engineered biology (AI-driven drug discovery, RNA editing, and next-generation therapies). It invests at the earliest stages, often at company formation, and operates Studio Palo Alto, a lab and prototyping environment for hardware and deep-science founders. Reported assets under management are over $1.2 billion across its funds. Notable portfolio companies include PsiQuantum, Relativity Space, Ultima Genomics, d-Matrix, Velo3D (NYSE), and MosaicML (acquired by Databricks).",
-     "rank": 949
+     "rank": 950
     },
     {
      "name": "Qiming Venture Partners",
      "slug": "qiming",
      "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 950
+     "rank": 951
     },
     {
      "name": "SOURCE Global",
      "slug": "source",
      "description": "SOURCE Global, PBC (founded as Zero Mass Water) is a Scottsdale, Arizona public benefit corporation started in 2014 by Arizona State University materials scientist Cody Friesen to make drinking water out of sunlight and air. Its SOURCE Hydropanel is an off-grid solar-thermal device that pulls water vapor from the atmosphere, condenses and mineralizes it, and delivers roughly five liters of drinking water a day; the panels were deployed in residential, commercial, community and humanitarian projects across more than 50 countries, and the company later moved into bottled water, acquiring Proud Source Water in 2023. It raised approximately USD 270 million in total, including a USD 50 million Series C led by BlackRock in 2020 and a USD 130 million Series D in 2022 co-led by Breakthrough Energy Ventures and the Drawdown Fund with Microsoft Climate Innovation Fund and Fifth Wall participating. SOURCE was a hardware and consumer-products business rather than a software vendor: it never published a developer portal, API reference, SDK or any machine-readable API contract, and the only machine-readable surface its site ever exposed was the Shopify platform behind its direct-to-consumer storefront. The company went quiet during 2025 — an April 2025 SEC filing showed a USD 75 million raise that closed at USD 19.3 million, and founder Cody Friesen announced his departure in June 2025 — and as of August 2026 source.co answers HTTP 402 \"Store unavailable\" on every path while the legacy zeromasswater.com domain resolves to a parked GoDaddy builder page.",
-     "rank": 951
+     "rank": 952
     },
     {
      "name": "Spark Capital",
      "slug": "spark-capital",
      "description": "Spark Capital is a multi-stage venture capital firm founded in 2005 by Paul Conway, Santo Politi, Todd Dagres, and Bijan Sabet, with offices in San Francisco, New York, and Boston. Spark is a generalist firm that partners with founders from seed through growth across consumer internet, enterprise software, artificial intelligence, gaming, crypto, fintech, infrastructure, hardware and semiconductors, life sciences, aerospace, and the future of work. The firm invests from a family of early-stage funds (most recently a $700M fund in 2024) and dedicated growth funds (most recently a $1.4B fund in 2024), and press reports have placed its assets under management in the range of $12-15 billion. Spark first became widely known for leading Twitter's Series B in 2008 and has since backed a run of defining companies including Slack, Discord, Snap, Coinbase, Affirm, Plaid, Cruise, Oculus, Scale AI, Ramp, Deel, and Anthropic, whose Series C investment the firm turned into one of venture's largest recent markups. Spark rebranded in 2020 with design studio Pentagram around its distinctive dog-themed identity, and publishes a curated set of portfolio companies rather than a full list.",
-     "rank": 952
+     "rank": 953
     },
     {
      "name": "Strangeworks",
      "slug": "strangeworks",
      "description": "Strangeworks is an Austin, Texas based optimization and quantum computing company founded in 2018 by whurley (William Hurley). It operates a \"heterogeneous hybrid compute\" platform that gives enterprises and governments managed access to quantum processors, quantum-inspired annealers and classical optimization solvers from a single API and Python SDK, alongside its Compute, Workflows, Decisions and HybridSolver products and an expert services practice. The platform is organized around workspaces, products, resources, jobs and backends, and is programmable through three public GraphQL endpoints (sdk, platform, products) at api.strangeworks.com plus a REST proxy that forwards calls to an activated resource. Compute partners reachable through the platform include IBM Quantum, Amazon Braket, Azure Quantum, IonQ, Rigetti, Quantinuum, QuEra, IQM, AQT, Pasqal, D-Wave, Toshiba, Hitachi, Fujitsu, NEC, Gurobi, JIJ, LightSolver and Quantagonia (acquired 2025).",
-     "rank": 953
+     "rank": 954
     },
     {
      "name": "Teradar",
      "slug": "teradar",
      "description": "Teradar is a Boston, Massachusetts semiconductor and sensing company founded in 2020 by Matthew Carey, Gregory Charvat and Nicholas Saiz that is commercializing terahertz-band vision sensors for vehicles, defense and security screening. Its Modular Terahertz Engine (MTE) is an all-solid-state chip architecture built from proprietary transmit (TX), receive (RX) and Teracore processing silicon, delivering 0.13-degree native angular resolution at 300+ meters in day, night, rain, fog and snow, positioned to sit alongside cameras and to displace radar and lidar in SAE L1-L5 driver assistance and autonomy programs. The company emerged from stealth in late 2025 with a $150M Series B led by VXI Capital with Ibex Investors, Capricorn Investment Group, The Engine Ventures and Lockheed Martin Ventures, and is working with global OEMs and Tier-One suppliers toward a 2028 model-year launch. Teradar is a hardware and silicon company: it publishes a marketing site and product specification sheets, but no public developer program, API, SDK, or machine-readable interface contract.",
-     "rank": 954
+     "rank": 955
     },
     {
      "name": "True Ventures",
      "slug": "true-ventures",
      "description": "True Ventures is an early-stage venture capital firm founded in 2006 by Jon Callaghan and Phil Black and headquartered in Palo Alto / San Francisco, California. Operating under a \"first to believe\" thesis, True writes the initial institutional check and stays invested through every subsequent stage of a company's journey, concentrating on pre-seed, seed, and Series A rounds with check sizes reported in the roughly $500K-$15M range. The firm invests broadly across technology and founder-led categories including software and developer infrastructure, consumer products and internet, healthcare and life sciences, hardware and robotics, climate and energy, security, and AI. With more than $3.8B in committed capital, True has backed 1,050+ founders across 500+ companies since inception, with notable early checks into Fitbit, Peloton, Ring, Automattic/WordPress, HashiCorp, Duo Security, Sweetgreen, Bluesky, and Splice. True is known for its founder-first platform, the True University founder camps, and long-term conviction-led early ownership.",
-     "rank": 955
+     "rank": 956
     },
     {
      "name": "Uhnder",
      "slug": "uhnder",
      "description": "Uhnder is an Austin, Texas fabless semiconductor company founded in 2015 that designs the S80 and S81 77 GHz 4D digital imaging Radar-on-Chip (RoC) for automotive ADAS and automated mobility. Its Digital Code Modulation (DCM) approach on a 28nm RF CMOS process replaces analog FMCW radar with a software-defined sensor, and each RoC ships with an ASPICE-qualified Software Development Kit carrying ready-to-integrate software APIs, on-chip user algorithm support and system tools for Tier-1 and OEM radar stacks. Uhnder is a chip supplier rather than a web-API provider: the SDK and its APIs are embedded interfaces delivered under a commercial customer relationship, and the company publishes no public developer portal, documentation host or machine-readable API contract.",
-     "rank": 956
+     "rank": 957
     },
     {
      "name": "Verve Motion",
      "slug": "verve-motion",
      "description": "Verve Motion is a wearable robotics company spun out of the Harvard Biodesign Lab that builds SafeLift, a soft powered exosuit for industrial workers who lift repetitively. Inertial sensors woven into the suit detect lifting motion and trigger assistive force that the company says takes up to 40% of the strain off a worker's back, while Verve Logic — its cloud platform — collects the resulting movement data and reports ergonomic risk, unsafe-posture trends and exosuit utilization to safety managers. SafeLift is sold as a subscription bundling the exosuit, the Verve Logic data portal and Verve Care support, and is distributed in part through partners such as HexArmor. Verve Motion publishes no public developer program, API reference or machine-readable specification; the Verve Logic portal at logic.vervemotion.com is a customer-only single-page application that disallows crawling in robots.txt.",
-     "rank": 957
+     "rank": 958
     },
     {
      "name": "Vulcan Elements",
      "slug": "vulcan-elements",
      "description": "Vulcan Elements is a United States manufacturer of sintered permanent neodymium-iron-boron (NdFeB) rare earth magnets, founded in 2023 and headquartered in Research Triangle Park, North Carolina. The company produces high-performance rare earth magnets domestically for defense and commercial applications — the components that convert electricity into motion in motors, drones, robotics, vehicles and consumer electronics — as an alternative to a supply chain concentrated in China. In 2025 it announced a $65 million Series A, a $620 million loan from the Pentagon's Office of Strategic Capital, and a $1.4 billion partnership with the U.S. government and ReElement Technologies to build a vertically integrated domestic magnet supply chain, including a nearly $1 billion, 1,000-job magnet factory in Benson, Johnston County, North Carolina. Vulcan Elements is a physical-goods manufacturer: it publishes no public API, developer portal, SDK or machine-readable specification.",
-     "rank": 958
+     "rank": 959
     }
    ]
   }

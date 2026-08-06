@@ -2158,6 +2158,42 @@ def main():
     testing_counts = {}
     build_roster_sections(TESTING_SECTIONS, TESTING_TIER_LABELS, testing_counts)
 
+    # --- API Clients (single GLOBAL cohort, the fourth AREA cut) ----------
+    # api-clients.apievangelist.com read as a market, and the cut where the
+    # INSTRUMENT stops fitting the category — which is itself the finding.
+    #
+    # Only 3 of 35 candidates publish an OpenAPI (Postman 35 specs, Insomnia
+    # 4, HTTPie 3) and 30 sit at the agent-readiness floor. That is not a
+    # harvesting gap: an API client is a CONSUMER of APIs, and a large and
+    # growing share of this market is deliberately built with NO service
+    # surface — Yaak advertises "no telemetry and no cloud lock-in", Bruno
+    # and Voiden are "offline-first, Git-native", Restfox is "offline-first".
+    # So the REPORT scores only the platform tier and presents the rest as the
+    # counter-movement they are. This SECTION is a catalog directory and still
+    # lists everyone; the directory and the report's analysis are different
+    # things and do not conflict.
+    #
+    # Cross-cohort: Apidog is a client platform by the same test but is already
+    # scored in the PUBLISHED management cohort — one provider, one cohort.
+    # RapidAPI is a marketplace, not a client (Paw is "now RapidAPI for Mac").
+    # Scalar and Stoplight are scored in documentation; Microcks, REST Assured
+    # and Step CI in testing. `curlie` is CURLIE.ORG, the DMOZ-successor web
+    # directory, NOT the CLI tool — the fourth slug collision in four area cuts.
+    # Roster: all/0-working/api-clients-roster.json.
+    API_CLIENTS_TIER_LABELS = {
+        "platform":    "Client Platforms",
+        "local-first": "Local-First & Offline-First Clients",
+        "cli-library": "CLI Clients & HTTP Libraries",
+    }
+    API_CLIENTS_SECTIONS = [
+        ("api-clients", "api-clients-roster.json", "API Clients",
+         "The API client market ranked by Kin Score — the client platforms that operate a hosted service (Postman, Insomnia, Hoppscotch, HTTPie, Thunder Client, Firecamp), the local-first and offline-first clients that deliberately ship no cloud at all (Bruno, Yaak, Voiden, Restfox, Paw, Kreya, Milkman, Nightingale, API Dash, Ezy, ReqBin, the JetBrains and VS Code editor clients, and the debugging proxies Charles, Fiddler and mitmproxy), and the command-line clients and HTTP libraries the whole industry runs on (cURL, Wget, xh, Hurl, grpcurl, Axios, Got, HTTPX, Requests, node-fetch, OkHttp, Retrofit, RestSharp). Only three of these publish an API of their own, because an API client is a consumer of APIs rather than a provider of one — which is why the accompanying report scores the platform tier and reads the rest as a market movement rather than a ranking.",
+         {"slug": "state-of-api-clients", "title": "The State of API Clients",
+          "blurb": "The API client market, and the one cut in this series where the measuring instrument stops fitting the category. Only 3 of 35 publish an API of their own. That is not a gap in the research \u2014 it is a market deliberately building without a service surface, and Postman is the reason. Scores the six platforms that do operate a service, and reads the other twenty-nine as the offline-first counter-movement they advertise themselves to be.", "price": "500"}),
+    ]
+    api_clients_counts = {}
+    build_roster_sections(API_CLIENTS_SECTIONS, API_CLIENTS_TIER_LABELS, api_clients_counts)
+
     # --- Logistics & Supply Chain (four cohorts, split by MODE) -----------
     # The first sector in the series NOT split by country. A container, a
     # parcel and an air waybill cross borders by definition, so an HQ model

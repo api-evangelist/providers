@@ -1,6 +1,6 @@
 {
- "total": 327,
- "shown": 327,
+ "total": 328,
+ "shown": 328,
  "limit": 1000,
  "bands": [
   {
@@ -12468,8 +12468,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "Aerospacelab",
@@ -12478,54 +12478,60 @@
      "rank": 319
     },
     {
+     "name": "ASPACE International Holdings",
+     "slug": "aspace-international-holdings",
+     "description": "ASPACE International Holdings is a commercial space company founded in 2015 with offices listed in Dubai, United Arab Emirates and Hong Kong, China. It positions itself as an aerospace manufacturing conglomerate centred on the Abu Dhabi Space Eco City — a three-million-square-metre industrial cluster it says will bring together more than 3,000 partner companies across satellite manufacturing, space trade and aerospace technology innovation. The ASPACE brand is shared with Hong Kong-listed USPACE Technology Group, whose satellite-manufacturing subsidiary was renamed Aspace Satellite Technology Limited in 2023. ASPACE International Holdings has taken investment from Alpha MBM Investments and makes minority investments of its own, including a stake in the private-equity trading platform Cubin LLC announced in 2023. It is a hardware, industrial-development and investment holding business rather than a software vendor: no first-party corporate domain for the company resolves, its only verified public surfaces are a LinkedIn company page, a Hiive secondary-market listing and third-party investor databases, and it publishes no developer program, API, SDK or machine-readable specification of any kind.",
+     "rank": 320
+    },
+    {
      "name": "DCVC (Data Collective)",
      "slug": "dcvc",
      "description": "DCVC (Data Collective) is a deep-tech venture capital firm founded in 2011 and headquartered in Palo Alto and San Francisco, California. Founded and led by managing partners Matt Ocko and Zachary Bogue, DCVC backs entrepreneurs using computational and AI-driven approaches to solve trillion-dollar problems in the real world across sectors that have often seen little material progress in decades. The firm invests from early through growth stages across AI, compute and quantum, computational biology and chemistry, cybersecurity and defense, energy and climate, finance and insurance, industrial transformation and advanced manufacturing, next-gen agriculture, space, TechBio and TechMed. Across 13+ funds DCVC manages roughly $4B in assets under management (self-reported / press), making it one of the larger dedicated deep-tech franchises. Notable portfolio outcomes include companies spanning fusion energy, carbon transformation, robotics, drug discovery, and data infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dcvc/refs/heads/main/screenshots/dcvc-2026-07-25T211501.png",
-     "rank": 320
+     "rank": 321
     },
     {
      "name": "Lux Capital",
      "slug": "lux-capital",
      "description": "Lux Capital is a New York City-based venture capital firm founded in 2000 by Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building companies at the frontier of science and technology, turning \"sci-fi into sci-fact.\" The firm systematically mines academia and government research labs for breakthrough technologies that have matured beyond proof-of-concept but have not yet attracted mainstream venture attention, then makes long-term bets on contrarians and outsiders challenging the status quo. Lux invests primarily at early stage across three focus areas: AI and technology, defense/space/ manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics, and emerging science. The firm manages roughly $7 billion in assets under management across nine core funds, closing Lux Ventures IX at $1.5 billion in January 2026, and has invested in over 200 companies. Through Lux Labs, launched in 2024, the firm has also helped create more than 20 new companies. Notable portfolio companies include Anduril, Applied Intuition, Databricks, Cognition, Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is headquartered in New York City with an additional office in Silicon Valley.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lux-capital/refs/heads/main/screenshots/lux-capital-2026-07-25T225735.png",
-     "rank": 321
+     "rank": 322
     },
     {
      "name": "Social Capital",
      "slug": "social-capital",
      "description": "Social Capital is a technology investment firm founded in 2011 by Chamath Palihapitiya (a former Facebook executive) and headquartered in Palo Alto, California, with co-founders Mamoon Hamid and Ted Maidenberg. Originally a traditional venture fund that stood out by backing healthcare, financial services, education, and other hard, regulated sectors the VC community had neglected, the firm pivoted in 2018 into a technology holding company that stopped accepting outside capital and now invests from its own permanent balance sheet of roughly $2.1B, aiming to \"earn like Berkshire Hathaway and invest like the Red Cross.\" Its thesis targets multiple emerging $10T markets across deep tech commercialization, life sciences and drug discovery, the global energy transition, and creator-economy media. Chamath became known as the \"SPAC King\" for taking companies public through the Social Capital Hedosophia (IPOA-IPOF) vehicles, including Virgin Galactic, Opendoor, Clover Health, and SoFi. Notable investments include Slack, Box, SurveyMonkey, Wealthfront, Netskope, Intercom, Groq, Palmetto, Saildrone, and Relativity Space.",
-     "rank": 322
+     "rank": 323
     },
     {
      "name": "Umbra",
      "slug": "umbra",
      "description": "Umbra is an American space technology company operating a constellation of commercial synthetic aperture radar (SAR) satellites capable of sub-25cm resolution imaging, day or night and through cloud cover. Its Canopy platform gives customers self-service access to the constellation through both a web application and a public REST API: customers calculate tasking feasibility against targets of interest, submit Tasks to collect new imagery in Spotlight, Dwell or Scan imaging modes, track Task and Collect status through the full collection-downlink-processing-delivery lifecycle, search a STAC-compliant archive catalog of existing imagery, and configure direct data delivery into their own AWS S3 or Google Cloud Storage buckets. Umbra licenses its imagery under CC BY 4.0, publishes open pricing, and runs an open data program.",
-     "rank": 323
+     "rank": 324
     },
     {
      "name": "Ursa Major Technologies",
      "slug": "ursa-major-technologies",
      "description": "Ursa Major Technologies Inc. is an American aerospace and defense propulsion manufacturer founded in 2015 by Joe Laurienti, a former SpaceX and Blue Origin propulsion engineer, and headquartered at 19750 Co Rd 7 in Berthoud, Colorado, with additive manufacturing operations in Youngstown, Ohio. The company designs, builds and hot-fire tests liquid rocket engines, solid rocket motors and in-space propulsion systems for space launch, hypersonics and U.S. and allied defense customers. Its product line includes the 5,000 lbf Hadley oxygen-rich staged-combustion liquid engine — the first Ursa Major engine to reach flight qualification for hypersonic missions — and Draper, a storable, throttleable, restartable engine for tactical hypersonic strike, missile defense and rapid in-space maneuver, alongside a solid rocket motor line validated through static fire and a chemical propulsion capability for tactical satellite bus systems. Ursa Major was the first American company to successfully fire an oxygen-rich staged combustion engine; it states it has delivered more than 100 engines and logged over 100,000 seconds of hotfire testing, with engines and motors more than 80 percent 3D printed by mass. The company is AS9100D, ISO 9001 and CMMC Level 2 certified. Ursa Major is a hardware manufacturer selling to government and prime-contractor customers: it publishes no public developer API, SDK, CLI, developer portal or machine-readable API contract of any kind.",
-     "rank": 324
+     "rank": 325
     },
     {
      "name": "Varda Space Industries",
      "slug": "varda-space-industries",
      "description": "Varda Space Industries is an American space manufacturing company founded in 2021 and headquartered in El Segundo, California. Varda designs, builds and flies the W-Series, a free-flying orbital production satellite paired with a hypersonic reentry capsule, so that materials can be processed in microgravity and returned to Earth. The company sells three lines of service: biopharmaceutical processing (small-molecule crystallization that gravity disrupts on Earth), a government hypersonic flight testbed that uses the capsule's Mach 25 reentry as a test article carrier, and general microgravity research flights. Varda is a hardware and manufacturing-services business rather than a software vendor: as of this profile it publishes no public API, developer portal, SDK or machine-readable specification, and customer-facing technical interfaces are documented in a downloadable Payload User Guide PDF.",
-     "rank": 325
+     "rank": 326
     },
     {
      "name": "Venus Aerospace",
      "slug": "venus-aerospace",
      "description": "Venus Aerospace is a propulsion company building the Venus Rotating Detonation Rocket Engine (RDRE) and the Venus Detonation Ramjet (VDR), a hybrid that pairs the RDRE with air-breathing ramjet technology to carry a vehicle from takeoff through hypersonic cruise on a single engine. The company positions detonation-based propulsion — supersonic detonation waves propagating around an annular combustor rather than conventional subsonic combustion — for defense munitions and uncrewed systems, space upper stages, orbital transfer vehicles and landers, and commercial high-speed flight. Venus Aerospace is a hardware and flight-test organization: it publishes a public marketing site covering the RDRE, the VDR, its team, investors and newsroom, but no developer program, API, SDK or machine-readable specification of any kind.",
-     "rank": 326
+     "rank": 327
     },
     {
      "name": "ZeroAvia",
      "slug": "zeroavia",
      "description": "ZeroAvia is a UK/US hydrogen-electric aviation company founded in 2017 by Valery Miftakhov, developing hydrogen fuel cell and electric propulsion systems for commercial aircraft. Its powertrain line runs from the ZA600 (600kW, 10-20 seat regional turboprops) through the ZA2000 (2-5MW, 40-80 seat turboprops) to the ZA2000 RJ (5MW+, up to 90 seat regional jets), alongside a component business selling electric propulsion systems, inverters, electric motors and HTPEM/SuperStack fuel cell stacks to other clean-aviation manufacturers, plus a hydrogen airport refuelling ecosystem of electrolyzers, mobile refuelers and LH2 development. It operates from Cotswold Airport in Kemble, UK and from Everett, Washington, and holds FAA and CAA experimental certificates for its flight-test aircraft. ZeroAvia sells certified aerospace hardware to airframers, airlines, lessors and defense customers; it publishes no public developer API, SDK or developer portal.",
-     "rank": 327
+     "rank": 328
     }
    ]
   }

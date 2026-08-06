@@ -1,6 +1,6 @@
 {
- "total": 996,
- "shown": 996,
+ "total": 997,
+ "shown": 997,
  "limit": 1000,
  "bands": [
   {
@@ -37519,8 +37519,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 22,
-   "shown": 22,
+   "count": 23,
+   "shown": 23,
    "providers": [
     {
      "name": "Aera Technology",
@@ -37547,120 +37547,126 @@
      "rank": 978
     },
     {
+     "name": "Arrive AI",
+     "slug": "arrivetech",
+     "description": "Arrive AI (Nasdaq: ARAI) is an autonomous last-mile delivery company headquartered in Fishers, Indiana, founded by Dan O'Toole and originally operating as DroneDek. Its patented Autonomous Last Mile (ALM) platform is anchored by the Arrive Point, an AI-powered smart mailbox that accepts and dispatches parcels to and from drones, ground robots and human couriers, with temperature-controlled compartments, real-time tracking, smart logistics alerts and chain-of-custody controls aimed at healthcare, pharmacy and e-commerce logistics. The company markets hardware plus a network service; as of this profile it publishes no public developer program, API reference or machine-readable specification.",
+     "rank": 979
+    },
+    {
      "name": "Automated Sorting Systems",
      "slug": "automated-sorting-systems",
      "description": "Automated Sorting Systems covers the technology landscape of automated conveyance, sortation, and parcel routing systems used in logistics, warehousing, e-commerce fulfillment, and postal distribution. Key vendors include Dematic, Vanderlande, BEUMER Group, Swisslog, Honeywell Intelligrated, and Solystic. These systems integrate with warehouse management systems (WMS), warehouse control systems (WCS), and ERP platforms via APIs and EDI to orchestrate high-speed package sorting.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/automated-sorting-systems/refs/heads/main/screenshots/automated-sorting-systems-2026-06-20T172653.png",
-     "rank": 979
+     "rank": 980
     },
     {
      "name": "Certificate Enrolment Protocols",
      "slug": "certificate-enrolment-protocols",
      "description": "Certificate Enrolment Protocols are the interoperable standards that automate the lifecycle operations of requesting, issuing, renewing, and revoking X.509 digital certificates between Certificate Authorities (CAs), Registration Authorities (RAs), and end entities. The four major protocols in active deployment are ACME (RFC 8555, widely adopted via Let's Encrypt and cert-manager for web PKI), SCEP (legacy Simple Certificate Enrollment Protocol widely supported in network devices and MDM), EST (RFC 7030, Enrollment over Secure Transport for modern HTTPS-capable devices), and CMP (RFC 4210 / RFC 9480, Certificate Management Protocol for enterprise PKI and industrial automation). This index tracks the specifications, reference implementations, and supporting infrastructure for each.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/certificate-enrolment-protocols/refs/heads/main/screenshots/certificate-enrolment-protocols-2026-06-20T174148.png",
-     "rank": 980
+     "rank": 981
     },
     {
      "name": "Command Line Interface",
      "slug": "command-line-interface",
      "description": "Command Line Interface (CLI) is a text-based way of interacting with software by typing commands at a prompt. Modern CLI design draws on decades of UNIX conventions while incorporating contemporary practices around discoverability, human-friendly output, machine-readable formats, configuration, subcommands, and progressive disclosure of complexity. CLIs remain a central surface for developer tools, infrastructure automation, package managers, build systems, and anything that benefits from scripting and composition.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/command-line-interface/refs/heads/main/screenshots/command-line-interface-2026-06-20T174810.png",
-     "rank": 981
+     "rank": 982
     },
     {
      "name": "EQT Ventures",
      "slug": "eqt-ventures",
      "description": "EQT Ventures is the early-stage venture capital business within EQT Group, launched in 2016 and operating out of Stockholm with investment-advisory offices in London, Berlin, Paris, Amsterdam, and the United States (San Francisco / New York); the funds themselves are domiciled in Luxembourg. The firm is a sector-agnostic, conviction-led lead investor that backs what it calls \"Generation-Defining Companies\" from pre-seed and seed through Series A and B, writing checks that reported ranges place between roughly EUR 1M and EUR 75M (most commonly EUR 2M-50M) and following on as companies scale. EQT Ventures has raised approximately EUR 2.3B across three funds (EQT Ventures I, II, and III) and is staffed largely by ex-founders and operators who provide hands-on support in addition to capital. Its focus spans AI, SaaS and developer tools, fintech, healthtech, climate and deeptech, robotics and aerospace, gaming, and consumer/marketplaces. Notable investments include Wolt, Depop, Typeform, AnyDesk, Netlify, Fly.io, Einride, Small Giant Games, Kry, and Beamery.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eqt-ventures/refs/heads/main/screenshots/eqt-ventures-2026-07-25T213540.png",
-     "rank": 982
+     "rank": 983
     },
     {
      "name": "Foundry Group",
      "slug": "foundry-group",
      "description": "Foundry Group is a Boulder, Colorado venture capital firm founded in 2007 by Brad Feld, Seth Levine, Ryan McIntyre, and Jason Mendelson. The firm invests in early-stage technology startups across the United States, organizing its work around long-lived, horizontal investment themes (such as \"glue\", \"protocol\", \"distribution\", and \"human computer interaction\") rather than narrow verticals, with a particular affinity for hardware, robotics, consumer internet, developer tools, and B2B SaaS. Foundry pioneered a \"network-driven\" model that operates both as a direct investor in startups and as a limited partner in a curated network of more than 40 partner venture funds. The firm manages more than $3.0B for its limited partners, has made 320+ investments and 70+ exits, and is known for radical transparency through the books, blogs, and podcasts of its partners. Notable investments include Fitbit, Zynga, SendGrid, MakerBot, Gnip, Mapbox, SeatGeek, and WHOOP. In 2022 the partners announced Foundry would not raise another fund, continuing to steward its existing funds and portfolio through their life.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/foundry-group/refs/heads/main/screenshots/foundry-group-2026-07-25T215039.png",
-     "rank": 983
+     "rank": 984
     },
     {
      "name": "Kubernetes Operators",
      "slug": "kubernetes-operators",
      "description": "Kubernetes Operators are a method of packaging, deploying, and managing Kubernetes applications that extend the Kubernetes API to create, configure, and manage instances of complex applications on behalf of a Kubernetes user.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubernetes-operators/refs/heads/main/screenshots/kubernetes-operators-2026-06-20T184206.png",
-     "rank": 984
+     "rank": 985
     },
     {
      "name": "Lux Capital",
      "slug": "lux-capital",
      "description": "Lux Capital is a New York City-based venture capital firm founded in 2000 by Josh Wolfe, Peter Hebert, and Robert Paull that backs entrepreneurs building companies at the frontier of science and technology, turning \"sci-fi into sci-fact.\" The firm systematically mines academia and government research labs for breakthrough technologies that have matured beyond proof-of-concept but have not yet attracted mainstream venture attention, then makes long-term bets on contrarians and outsiders challenging the status quo. Lux invests primarily at early stage across three focus areas: AI and technology, defense/space/ manufacturing, and biotech/healthcare, with an emphasis on deep tech, robotics, and emerging science. The firm manages roughly $7 billion in assets under management across nine core funds, closing Lux Ventures IX at $1.5 billion in January 2026, and has invested in over 200 companies. Through Lux Labs, launched in 2024, the firm has also helped create more than 20 new companies. Notable portfolio companies include Anduril, Applied Intuition, Databricks, Cognition, Ramp, Runway, Recursion Pharmaceuticals, Planet, and Saildrone. Lux is headquartered in New York City with an additional office in Silicon Valley.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lux-capital/refs/heads/main/screenshots/lux-capital-2026-07-25T225735.png",
-     "rank": 985
+     "rank": 986
     },
     {
      "name": "Paradigm",
      "slug": "paradigm",
      "description": "Paradigm is a research-driven, frontier-technology investment firm founded in 2018 by Coinbase co-founder Fred Ehrsam and former Sequoia Capital partner Matt Huang. Headquartered in San Francisco with offices in New York and Washington, DC, the firm began as one of the largest crypto-focused venture funds and has since expanded to build and invest across crypto, AI, robotics, and other technical frontiers \"from first check through to public markets.\" Paradigm is unusual in that it is both a builder and an investor: alongside its fund it ships open-source software (Reth, Foundry, Alloy, Artemis) and incubates companies. The firm has made 130+ investments and reported roughly $12.7B in assets under management as of April 2025; it raised a $2.5B first venture fund in 2021 and announced a new $1.2B fund in July 2026 aimed at the \"technical frontier\" including AI and robotics. Notable portfolio companies and protocols include Uniswap, Coinbase, Stripe, Optimism, Chainalysis, Fireblocks, Blur, Monad, Kalshi, and Zipline. Managing partners include Matt Huang and Alana Palmedo.",
-     "rank": 986
+     "rank": 987
     },
     {
      "name": "Playground Global",
      "slug": "playground-global",
      "description": "Playground Global is an early-stage deep tech venture capital firm founded in 2015 by Andy Rubin, Bruce Leak, Matt Hershenson, and Peter Barrett, and headquartered at 380 Portage Ave, Palo Alto, California. The firm invests \"somewhere between improbable and impossible,\" backing technical founders who take large technology risks and build companies from first principles. Playground concentrates on four pillars: next-gen compute (quantum computing, novel AI chip architectures, advanced interconnects, and semiconductors), automation (robotics, supply-chain and industrial automation with tangible ROI), energy transition and decarbonization, and engineered biology (AI-driven drug discovery, RNA editing, and next-generation therapies). It invests at the earliest stages, often at company formation, and operates Studio Palo Alto, a lab and prototyping environment for hardware and deep-science founders. Reported assets under management are over $1.2 billion across its funds. Notable portfolio companies include PsiQuantum, Relativity Space, Ultima Genomics, d-Matrix, Velo3D (NYSE), and MosaicML (acquired by Databricks).",
-     "rank": 987
+     "rank": 988
     },
     {
      "name": "Qiming Venture Partners",
      "slug": "qiming",
      "description": "Qiming Venture Partners is a leading China-based venture capital firm founded in 2006 by Duane Kuang and Gary Rieschel, headquartered in Shanghai with additional offices in Beijing, Suzhou, Hong Kong, Singapore, and a U.S. affiliate (Qiming Venture Partners USA) in Seattle, Washington. The firm invests at the early and growth stages, with roughly 70% of its investments concentrated in Series A and Series B rounds, across two core practice areas: Technology (mobile internet, consumer, AI, robotics, semiconductors, enterprise software, autonomous driving) and Healthcare (biotech, pharmaceuticals, medical devices, diagnostics, and digital health). Qiming manages 11 U.S. Dollar funds and 7 RMB funds with approximately $9.5 billion in capital raised, and has backed more than 580 companies, of which over 210 have exited via IPO on the NYSE, NASDAQ, HKEX, Shanghai, or Shenzhen exchanges, or through M&A. It is an early backer of some of China's most influential technology companies, including Xiaomi, Meituan, Bilibili, Zhihu, Roborock, Hesai Technology, UBTech, WeRide, Insta360, and Zhipu AI (Z.ai), alongside a deep healthcare portfolio spanning Zai Lab, Gan & Lee Pharmaceuticals, CanSino Biologics, Tigermed, and Insilico Medicine.",
-     "rank": 988
+     "rank": 989
     },
     {
      "name": "Sierra Ventures",
      "slug": "sierra-ventures",
      "description": "Sierra Ventures is an early-stage venture capital firm founded by Peter Wendell in 1982 and headquartered in San Mateo, California, in the heart of Silicon Valley. The firm invests from inception through Series A in first-principles founders under the tagline \"Conviction Before Consensus,\" writing checks of up to $5M at seed and up to $10M at Series A. Sierra's current investment thesis centers on the next wave of enterprise technology: Vertical AI (purpose-built AI for specific industries), Infrastructure AI, Frontier and Deep Tech, and Physical AI and Robotics, alongside a longstanding history in enterprise applications, digital health, SaaS, and security. Over its 40-plus-year history the firm has invested more than $2 billion across 13 early-stage funds, with its 13th fund closing in 2023 at $265 million, following Fund 12 at $215 million and Fund 11 at $170 million. Sierra reports 35 IPOs and hundreds of successful exits, having backed companies such as Elastic, Astronomer, Chronosphere, CourseHero, Q-CTRL, Spectro Cloud, Endor Labs, and Reflection AI. The firm is notable for its CXO Advisory Board of Fortune 1000 enterprise leaders who help portfolio companies land early customers. This profile tracks Sierra Ventures' identity and its portfolio graph across the API Evangelist network.",
-     "rank": 989
+     "rank": 990
     },
     {
      "name": "Spreadsheets",
      "slug": "spreadsheets",
      "description": "Spreadsheets covers the APIs, tools, and services for programmatic access to spreadsheet data across major platforms including Google Sheets and Microsoft Excel. The Google Sheets API v4 provides RESTful access to read, write, format, and manage Google Spreadsheets. The Microsoft Graph Excel API enables reading and writing Excel workbooks stored in OneDrive for Business and SharePoint. Third-party services like SheetDB, Sheety, Sheet Best, and Sheet2API convert spreadsheets into REST APIs for use as lightweight backends. Spreadsheet APIs are widely used for data import/export, automated reporting, form submissions, lightweight CMS, and business process automation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spreadsheets/refs/heads/main/screenshots/spreadsheets-2026-06-20T194359.png",
-     "rank": 990
+     "rank": 991
     },
     {
      "name": "Terabase Energy",
      "slug": "terabase-energy",
      "description": "Terabase Energy builds digital and automation technology for the full lifecycle of utility-scale solar power plants — engineering and energy modeling, robotic field construction, and plant operations. Its software portfolio includes PlantPredict, an industry-standard bankable performance-modeling platform for utility-scale PV that predicts energy yield from early-stage prospecting through operational monitoring; Terrain Pro, a terrain analysis, grading and pile-layout engine for site design; Construct, a construction management platform; and Terafab, an automated field-factory system for solar module installation. PlantPredict exposes its entire modeling engine as a documented REST API (OpenAPI 3.1, OAuth 2.0 client-credentials via AWS Cognito), an official Python SDK, a Postman collection, and a hosted, OAuth-protected Model Context Protocol (MCP) connector for Claude, ChatGPT and Cursor.",
-     "rank": 991
+     "rank": 992
     },
     {
      "name": "Teradar",
      "slug": "teradar",
      "description": "Teradar is a Boston, Massachusetts semiconductor and sensing company founded in 2020 by Matthew Carey, Gregory Charvat and Nicholas Saiz that is commercializing terahertz-band vision sensors for vehicles, defense and security screening. Its Modular Terahertz Engine (MTE) is an all-solid-state chip architecture built from proprietary transmit (TX), receive (RX) and Teracore processing silicon, delivering 0.13-degree native angular resolution at 300+ meters in day, night, rain, fog and snow, positioned to sit alongside cameras and to displace radar and lidar in SAE L1-L5 driver assistance and autonomy programs. The company emerged from stealth in late 2025 with a $150M Series B led by VXI Capital with Ibex Investors, Capricorn Investment Group, The Engine Ventures and Lockheed Martin Ventures, and is working with global OEMs and Tier-One suppliers toward a 2028 model-year launch. Teradar is a hardware and silicon company: it publishes a marketing site and product specification sheets, but no public developer program, API, SDK, or machine-readable interface contract.",
-     "rank": 992
+     "rank": 993
     },
     {
      "name": "Thea Energy",
      "slug": "thea-energy",
      "description": "Thea Energy, Inc. is a fusion energy company headquartered in Kearny, New Jersey, founded in 2022 on stellarator physics and engineering developed at Princeton University and the Princeton Plasma Physics Laboratory. Thea is reinventing the stellarator by replacing complex, hand-wound 3D modular coils with a phased array of simple planar electromagnetic coils, moving the complexity of shaping the magnetic field out of the hardware and into a software control stack that can be tuned over an asset's lifetime. Its first integrated machine, Eos, is a steady-state, neutron-producing stellarator; the follow-on Helios is intended to be an electricity-producing plant. The company raised a $100M Series B in May 2026 led by Thomas Tull's US Innovative Technology Fund, and the U.S. Department of Energy has certified its power plant preconceptual design milestone. Thea publishes no public API, developer portal, or machine-readable contract; its only public software surface is a small set of open-source nuclear-engineering and simulation libraries on GitHub.",
-     "rank": 993
+     "rank": 994
     },
     {
      "name": "Uhnder",
      "slug": "uhnder",
      "description": "Uhnder is an Austin, Texas fabless semiconductor company founded in 2015 that designs the S80 and S81 77 GHz 4D digital imaging Radar-on-Chip (RoC) for automotive ADAS and automated mobility. Its Digital Code Modulation (DCM) approach on a 28nm RF CMOS process replaces analog FMCW radar with a software-defined sensor, and each RoC ships with an ASPICE-qualified Software Development Kit carrying ready-to-integrate software APIs, on-chip user algorithm support and system tools for Tier-1 and OEM radar stacks. Uhnder is a chip supplier rather than a web-API provider: the SDK and its APIs are embedded interfaces delivered under a commercial customer relationship, and the company publishes no public developer portal, documentation host or machine-readable API contract.",
-     "rank": 994
+     "rank": 995
     },
     {
      "name": "Version One Ventures",
      "slug": "version-one-ventures",
      "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven founders who are early in new areas, writing pre-seed and seed checks where it typically leads or co-leads rounds in the roughly $500K-$1.5M range. Version One invests across marketplaces, SaaS, fintech and crypto, AI and automation, robotics and physical AI, deep tech, biology and health, and emerging-market ecosystems including India and Africa. Over more than a decade the firm has grown into a franchise of six funds and backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital.",
-     "rank": 995
+     "rank": 996
     },
     {
      "name": "Verve Motion",
      "slug": "verve-motion",
      "description": "Verve Motion is a wearable robotics company spun out of the Harvard Biodesign Lab that builds SafeLift, a soft powered exosuit for industrial workers who lift repetitively. Inertial sensors woven into the suit detect lifting motion and trigger assistive force that the company says takes up to 40% of the strain off a worker's back, while Verve Logic — its cloud platform — collects the resulting movement data and reports ergonomic risk, unsafe-posture trends and exosuit utilization to safety managers. SafeLift is sold as a subscription bundling the exosuit, the Verve Logic data portal and Verve Care support, and is distributed in part through partners such as HexArmor. Verve Motion publishes no public developer program, API reference or machine-readable specification; the Verve Logic portal at logic.vervemotion.com is a customer-only single-page application that disallows crawling in robots.txt.",
-     "rank": 996
+     "rank": 997
     }
    ]
   }
