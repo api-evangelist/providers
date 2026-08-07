@@ -151,8 +151,8 @@ INDUSTRY_PAPERS = {
     "robotics": {
         "slug": "state-of-robotics-apis",
         "title": "The State of Robotics & Autonomous Systems APIs",
-        "blurb": "The emptiest market in the catalog \u2014 no Exemplars in 546 companies, and two "
-                 "of them describe an event surface.",
+        "blurb": "Not short of APIs \u2014 short of PUBLIC ones. 5.8% publish a contract, and the "
+                 "likely reason is security posture rather than absence.",
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
