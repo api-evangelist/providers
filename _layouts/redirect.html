@@ -1,0 +1,17 @@
+<!-- Tombstone layout for retired/merged pages. Plugin-free (github-pages
+     ignores _plugins, and jekyll-redirect-from is not enabled), so this is a
+     plain meta-refresh + canonical, which works on GitHub Pages and on the
+     S3/CloudFront sites alike. Set `redirect_to` in a page's front matter. -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="{{ site.url }}{{ page.redirect_to }}">
+<title>Redirecting to {{ page.redirect_to }}</title>
+</head>
+<body>
+<p>This page has moved to <a href="{{ page.redirect_to }}">{{ site.url }}{{ page.redirect_to }}</a>.</p>
+</body>
+</html>
