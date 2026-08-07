@@ -148,6 +148,14 @@ INDUSTRY_PAPERS = {
         "price": "500",
         "kind": "API Evangelist Market Report",
     },
+    "legal-compliance": {
+        "slug": "state-of-legal-compliance-apis",
+        "title": "The State of Legal & Compliance APIs",
+        "blurb": "The contract lifecycle management segment publishes the fewest contracts in its "
+                 "own market \u2014 18.2%, against e-signature's 55.0%.",
+        "price": "500",
+        "kind": "API Evangelist Market Report",
+    },
     "education": {
         "slug": "state-of-education-apis",
         "title": "The State of Education & EdTech APIs",
